@@ -22,4 +22,7 @@ npm run build
 // To make a production build of HUGO:
 
 npm run hugo
+
+// To deploy to staging
+make staging
 ```
