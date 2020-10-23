@@ -1,0 +1,20 @@
+<html lang="{{ .Site.Language.Lang }}">
+    <head>
+        {{ partial "head" . }}
+    </head>
+    {{ if eq .Site.Language.Lang "zh" }}
+        <body
+        class="bg-cool-gray-200 font-chinese leading-loose tracking-wider text-base text-gray-900 font-light hyphens antialiased">
+    {{ else }}
+        <body
+        class="bg-cool-gray-200 font-sans leading-loose tracking-wider text-base text-gray-900 font-light hyphens antialiased">
+    {{ end }}
+        <div class="flex flex-col justify-center h-full min-h-screen">
+            <div class="flex-grow">
+                {{ block "main" . }} {{ end }}
+            </div>
+            {{ partial "footer" . }}
+        </div>
+        {{ partial "scripts" . }}
+    </body>
+</html>

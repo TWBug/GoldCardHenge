@@ -1,0 +1,44 @@
+# For reference, see:
+# https://github.com/gohugoio/hugoDocs/blob/master/netlify.toml
+[build]
+command = "hugo --gc --minify"
+publish = "public"
+
+[context.production.environment]
+HUGO_ENABLEGITINFO = "true"
+HUGO_ENV = "production"
+HUGO_VERSION = "0.76.4"
+
+[context.split1]
+command = "hugo --gc --minify --enableGitInfo"
+
+[context.split1.environment]
+HUGO_ENV = "production"
+HUGO_VERSION = "0.76.4"
+
+[context.deploy-preview]
+command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.76.4"
+
+[context.branch-deploy]
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.76.4"
+
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"
+
+##
+# 404 redirects by lang
+[[redirects]]
+  from = "/en/*"
+  to = "/en/error/"
+  status = 404
+
+[[redirects]]
+  from = "/zh/*"
+  to = "/zh/error/"
+  status = 404

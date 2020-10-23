@@ -1,0 +1,11 @@
+{{ $target := "_self" }}
+{{ $url := urls.Parse .Destination }}
+{{ if eq $url.Scheme "https" }}
+{{ $target = "_blank" }}
+{{ else if eq $url.Scheme "http"  }}
+{{ $target = "_blank" }}
+{{ end }}
+<a class="font-semibold underline" href="{{ .Destination }}" target="{{ $target }}">
+  {{ .Text }}
+</a>
+

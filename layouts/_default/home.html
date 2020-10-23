@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="relative w-full h-full">
+    <div class="absolute inset-0 -z-1" style="background-color: #73AEE8;">
+        <picture>
+            <source media="(max-width:640px)" srcset="/img/taipei-101.jpg">
+            <source media="(max-width:768px)" srcset="/img/taipei-101-lg.jpg">
+            <img src="/img/taipei-101-xl.jpg" class="block absolute inset-0 object-cover object-left-bottom w-full h-full" alt="{{ i18n "taipei_city_skyline" }}">
+          </picture>
+    </div>
+    <div class="absolute right-0 bottom-0 pr-6 pb-6">
+        {{ if eq .Site.Language.Lang "zh" }}
+        <a href="https://www.ndc.gov.tw/" class="block transform transition duration-300 ease-in-out hover:scale-110 w-24" target="_blank">
+        {{ else }}
+        <a href="https://www.ndc.gov.tw/en/" class="block transform transition duration-300 ease-in-out hover:scale-110 w-24" target="_blank">
+        {{ end }}
+            <img src="/img/ndc-logo.png" class="block w-full" alt="Logo National Development Council Taiwan(R.O.C.)">
+        </a>
+    </div>
+    <div class="absolute top-0 right-0 flex items-start sm:items-center sm:w-2/3 xl:w-1/2 h-full sm:h-1/2 min-h-96 pt-16 z-10 bg-gradient-to-b from-background sm:bg-none" role="main">
+        {{ if eq .Site.Language.Lang "zh" }}
+        <div class="copy copy--large text-white text-shadow-black px-12 sm:pr-32">
+        {{ else }}
+        <div class="copy text-white text-shadow-black px-12">
+        {{ end }}
+            {{ .Content }}
+        </div>
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,7 @@
+<div class="" x-data="taLanguage()" x-init="init()">
+{{ range .Site.Languages }}
+{{ if lt .Weight 10 }}
+<button type="button" @click="switchLanguage('{{ .Lang }}')">{{ .LanguageName }}</button>
+{{ end }}
+{{ end }}
+</div>

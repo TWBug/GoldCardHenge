@@ -1,0 +1,42 @@
+{{ $favicon := resources.Get "img/favicon.ico" | fingerprint }}
+{{ $favicon16 := resources.Get "img/favicon-16x16.png" | fingerprint }}
+{{ $favicon32 := resources.Get "img/favicon-32x32.png" | fingerprint }}
+{{ $favicon96 := resources.Get "img/favicon-96x96.png" | fingerprint }}
+{{ $appleicon144 := resources.Get "img/apple-icon-144x144.png" | fingerprint }}
+{{ $styles := resources.Get "css/layout.css" | fingerprint }}
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<meta name="dc.language" content="{{ .Site.Language.Lang }}" />
+<meta http-equiv="Content-Language" content="{{ .Site.Language.Lang }}" />
+{{ if .IsTranslated }}
+    {{ range .Translations }}
+        <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+        {{ if eq .Lang "en" }}
+            <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+        {{ end }}
+    {{ end }}
+{{ end }}
+<link rel="icon" href="{{ $favicon.RelPermalink }}" />
+<link rel="manifest" href="/{{ .Site.Language.Lang }}/manifest.json" />
+<link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16.RelPermalink }}" />
+<link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32.RelPermalink }}" />
+<link rel="icon" type="image/png" sizes="96x96" href="{{ $favicon96.RelPermalink }}" />
+<link rel="apple-touch-icon" sizes="144x144" href="{{ $appleicon144.RelPermalink }}" />
+<link rel="canonical" href="{{ .Page.Permalink }}" />
+<title>{{ .Page.Title }} | {{ .Site.Title }}</title>
+{{ if eq .Site.Language.Lang "zh" }}
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&Krub:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+{{ else }}
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+{{ end }}
+{{ if .Site.IsServer }}
+    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
+    {{ else }}
+    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" integrity="{{ $styles.Data.Integrity }}" />
+{{ end }}
+<script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js" defer></script>

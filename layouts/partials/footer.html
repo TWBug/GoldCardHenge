@@ -1,0 +1,24 @@
+{{ $url := .Page.Permalink }}
+{{ $actual_language := .Site.Language.Lang }}
+<div class="relative flex-grow-0 w-full text-white font-medium bg-cool-gray-600">
+    <div class="container flex flex-wrap justify-around items-center text-center font-medium leading-snug py-4">
+        <p class="text-xs m-2" role="contentinfo">{{ i18n "powered_by" }} {{ i18n "tego" }}</p>
+        <div class="text-xs m-2" x-data="taLanguage()" x-init="init()" role="navigation">
+            <form>
+                {{ range .Site.Languages }}
+                {{ if lt .Weight 10 }}
+                {{ $url = replace $url $actual_language .Lang }}
+                <a
+                    href="{{ $url }}"
+                    class="inline-block border border-white bg-black bg-opacity-25 font-semibold rounded-lg px-4 py-2 mx-2 transition transform duration-300 ease-in-out hover:bg-white hover:text-gray-900 hover:scale-110"
+                    @click.prevent="switchLanguage('{{ .Lang }}')"
+                    title="Change Language"
+                >
+                    {{ .LanguageName }}
+                </a>
+                {{ end }}
+                {{ end }}
+            </form>
+        </div>
+    </div>
+</div>

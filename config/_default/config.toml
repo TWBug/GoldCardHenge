@@ -1,0 +1,45 @@
+DefaultContentLanguage = "en"
+baseURL = "/"
+defaultContentLanguageInSubdir = "true"
+disableKinds = ["404", "taxonomy"]
+disableLanguages = ["de", "es"]
+ignoreErrors = ["error-disable-taxonomy"]
+pygmentsUseClasses = true
+relativeURLs = false
+title = "Taiwan Gold Card"
+[languages]
+[languages.de]
+languageName = "Deutsch"
+title = "Taiwan Gold Card"
+weight = 10
+[languages.en]
+languageName = "English"
+title = "Taiwan Gold Card"
+weight = 1
+[languages.en.params]
+linkedin = "https://linkedin.com/whoever"
+[languages.es]
+languageName = "Español"
+title = "Taiwan Gold Card"
+weight = 10
+[languages.zh]
+languageName = "中文"
+title = "台灣金卡"
+weight = 2
+[minify]
+disableCSS = true
+disableHTML = false
+disableJS = true
+disableJSON = false
+disableSVG = false
+disableXML = false
+minifyOutput = true
+[outputs]
+home = ["HTML", "MANIFEST"]
+page = ["HTML"]
+[outputFormats.manifest]
+baseName = "manifest"
+mediaType = "application/json"
+name = "manifest"
+notAlternative = "true"
+permalinkable = "true"

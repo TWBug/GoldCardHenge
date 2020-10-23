@@ -1,0 +1,118 @@
+@tailwind base;
+
+:root {
+    --vh: 1vh;
+    --overflow: hidden;
+}
+
+html,
+body {
+    font-size: 12px;
+}
+
+@screen sm {
+    html,
+    body {
+        font-size: 14px;
+    }
+}
+@screen md {
+    html,
+    body {
+        font-size: 15px;
+    }
+}
+@screen lg {
+    html,
+    body {
+        font-size: 16px;
+    }
+}
+@screen xl {
+    html,
+    body {
+        font-size: 18px;
+    }
+}
+
+input,
+textarea,
+button,
+select,
+div,
+a,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: none;
+    outline-style: none;
+}
+
+blockquote {
+    padding: 0;
+    margin: 0;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.overflow {
+    overflow: var(--overflow);
+}
+
+.inset-x-center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.text-shadow-black {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+.text-shadow-0 {
+    text-shadow: none;
+}
+
+.copy {
+    @apply leading-loose text-base;
+}
+.copy.copy--large {
+    @apply text-xl;
+}
+
+/* purgecss start ignore */
+.copy p {
+    @apply font-medium text-base my-4;
+}
+.copy blockquote p {
+    @apply text-2xl text-center font-light leading-relaxed border-t-2 border-b-2 border-gray-500 border-dashed p-8 my-8 -mx-4;
+}
+.copy ul {
+    list-style: none;
+}
+.copy ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    @apply border-t-2 border-dashed border-gray-300;
+}
+.copy ul li {
+    @apply border-b-2 border-dashed border-gray-300 p-4;
+}
+.copy ol li {
+    @apply border-b-2 border-dashed border-gray-300 p-4;
+    counter-increment: my-awesome-counter;
+}
+.copy ol li::before {
+    content: counter(my-awesome-counter) '. ';
+    @apply border-teal-600 font-semibold text-2xl;
+}
+
+.copy strong,
+.copy strong a {
+    @apply font-bold;
+}
+
+[x-cloak] {
+    display: none !important;
+}
+/* purgecss end ignore */

@@ -1,0 +1,47 @@
+{
+    "base_path": "./themes/ta-styled-plugins/src",
+    "source": {
+        "styles": ["./src/styles/*.css"],
+        "scripts": ["./src/scripts/*.js"]
+    },
+    "purge": {
+        "content": ["./layouts/**/*.html"],
+        "safelist": [
+            "html",
+            "body",
+            "blockquote",
+            "pre",
+            "input",
+            "textarea",
+            "button",
+            "select",
+            "div",
+            "ol",
+            "ul",
+            "li",
+            "a",
+            "input",
+            "select",
+            "textarea",
+            "button",
+            "pre",
+            "code"
+        ]
+    },
+    "destination": {
+        "styles": "./assets/css",
+        "scripts": "./assets/js"
+    },
+    "name": {
+        "scripts": "scripts.js"
+    },
+    "watch": {
+        "styles": "./src/styles/*.css",
+        "scripts": "./src/scripts/*.js"
+    },
+    "clean": {
+        "all": ["./assets/css/**/*.css", "./assets/js/**/*.js"],
+        "styles": ["./assets/css/**/*.css"],
+        "scripts": ["./assets/js/**/*.js"]
+    }
+}
