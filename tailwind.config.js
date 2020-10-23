@@ -49,6 +49,10 @@ module.exports = {
             fontWeight: {
                 bolder: 'bolder',
             },
+            maxWidth: (theme) => ({
+                xxs: '12rem',
+                ...theme('spacing'),
+            }),
             minWidth: (theme) => ({
                 ...theme('spacing'),
                 192: '48rem',

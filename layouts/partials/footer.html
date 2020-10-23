@@ -1,24 +1,64 @@
-{{ $url := .Page.Permalink }}
-{{ $actual_language := .Site.Language.Lang }}
-<div class="relative flex-grow-0 w-full text-white font-medium bg-cool-gray-600">
-    <div class="container flex flex-wrap justify-around items-center text-center font-medium leading-snug py-4">
-        <p class="text-xs m-2" role="contentinfo">{{ i18n "powered_by" }} {{ i18n "tego" }}</p>
-        <div class="text-xs m-2" x-data="taLanguage()" x-init="init()" role="navigation">
-            <form>
-                {{ range .Site.Languages }}
-                {{ if lt .Weight 10 }}
-                {{ $url = replace $url $actual_language .Lang }}
-                <a
-                    href="{{ $url }}"
-                    class="inline-block border border-white bg-black bg-opacity-25 font-semibold rounded-lg px-4 py-2 mx-2 transition transform duration-300 ease-in-out hover:bg-white hover:text-gray-900 hover:scale-110"
-                    @click.prevent="switchLanguage('{{ .Lang }}')"
-                    title="Change Language"
-                >
-                    {{ .LanguageName }}
-                </a>
-                {{ end }}
-                {{ end }}
-            </form>
+{{ $url := .Page.Permalink }} {{ $actual_language := .Site.Language.Lang }}
+<div help="taiwan"></div>
+<div class="bg-green-800">
+    <div class="container py-12">
+        <div class="w-1/2 max-w-32 py-6">
+            <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="" />
         </div>
+        <div class="flex">
+            <div class="w-1/3">
+                <p class="font-semibold text-xs text-white">
+                    The Taiwan Employment Gold Card is a combined open work permit, residence permit and visa for
+                    skilled professionals.
+                </p>
+                <div class="my-4">
+                    <a href="#" class="inline-block w-8 h-8">
+                        <img src="/img/dummy-icon.svg" alt="" class="w-full" />
+                    </a>
+                </div>
+            </div>
+            <div class="flex-grow flex text-xs text-white font-regular">
+                <div class="mx-4">
+                    <h4 class="text-semibold uppercase text-sm mb-2">Gold Card</h4>
+                    <ul>
+                        <li>What is the Gold Card?</li>
+                        <li>Do I qualify?</li>
+                        <li>The Gold Card Application</li>
+                        <li>After submitting your application</li>
+                        <li>After passing skill assessment</li>
+                    </ul>
+                </div>
+                <div class="mx-4">
+                    <h4 class="text-semibold uppercase text-sm mb-2">Services</h4>
+                    <ul>
+                        <li>Contact</li>
+                        <li>Faq</li>
+                    </ul>
+                </div>
+                <div class="mx-4">
+                    <h4 class="text-semibold uppercase text-sm mb-2">Languages</h4>
+                    <ul>
+                        <li>English</li>
+                        <li>中文</li>
+                    </ul>
+                </div>
+                <div class="mx-4">
+                    <h4 class="text-semibold uppercase text-sm mb-2">Legal</h4>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Security Safeguard and Restoration Mechanism</li>
+                        <li>Information Security Policy</li>
+                        <li>Open Government Declaration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-green-900">
+    <div class="container text-center py-4">
+        <p class="text-white text-sm font-regular">
+            © 2020 - Taiwan Employment Gold Card Office - All rights reserverd
+        </p>
     </div>
 </div>

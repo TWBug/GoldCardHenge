@@ -1,29 +1,308 @@
 {{ define "main" }}
-<div class="relative w-full h-full">
-    <div class="absolute inset-0 -z-1" style="background-color: #73AEE8;">
-        <picture>
-            <source media="(max-width:640px)" srcset="/img/taipei-101.jpg">
-            <source media="(max-width:768px)" srcset="/img/taipei-101-lg.jpg">
-            <img src="/img/taipei-101-xl.jpg" class="block absolute inset-0 object-cover object-left-bottom w-full h-full" alt="{{ i18n "taipei_city_skyline" }}">
-          </picture>
-    </div>
-    <div class="absolute right-0 bottom-0 pr-6 pb-6">
-        {{ if eq .Site.Language.Lang "zh" }}
-        <a href="https://www.ndc.gov.tw/" class="block transform transition duration-300 ease-in-out hover:scale-110 w-24" target="_blank">
-        {{ else }}
-        <a href="https://www.ndc.gov.tw/en/" class="block transform transition duration-300 ease-in-out hover:scale-110 w-24" target="_blank">
-        {{ end }}
-            <img src="/img/ndc-logo.png" class="block w-full" alt="Logo National Development Council Taiwan(R.O.C.)">
-        </a>
-    </div>
-    <div class="absolute top-0 right-0 flex items-start sm:items-center sm:w-2/3 xl:w-1/2 h-full sm:h-1/2 min-h-96 pt-16 z-10 bg-gradient-to-b from-background sm:bg-none" role="main">
-        {{ if eq .Site.Language.Lang "zh" }}
-        <div class="copy copy--large text-white text-shadow-black px-12 sm:pr-32">
-        {{ else }}
-        <div class="copy text-white text-shadow-black px-12">
-        {{ end }}
-            {{ .Content }}
+<div class="relative min-h-screen-1/2 bg-blue-500 shadow-xl">
+    <div class="bg-blue-800 text-xs text-white font-semibold py-2">
+        <div class="container flex justify-between">
+            <div>Taiwan Employment Gold Card Office</div>
+            <div>Search</div>
+            <div class="flex uppercase">
+                <div>Change language:</div>
+                <div>English</div>
+                <div>中文</div>
+            </div>
         </div>
     </div>
+    <div class="bg-blue-700">
+        <div class="container flex">
+            <div class="w-1/5 max-w-xs py-2">
+                <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="" />
+            </div>
+            <ul class="flex-grow flex justify-between items-center text-white text-lg font-semibold ml-20">
+                <li class="bg-yellow-400 self-stretch flex items-center text-black font-bold">
+                    <a href="" class="px-4">Gold Card</a>
+                </li>
+                <li>
+                    <a href="" class="px-4">FAQ</a>
+                </li>
+                <li>
+                    <a href="" class="px-4">Why Taiwan</a>
+                </li>
+                <li>
+                    <a href="" class="px-4">Events & News</a>
+                </li>
+                <li>
+                    <a href="" class="px-4">Resources</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="absolute inset-0 bg-blue-400 -z-1">hero</div>
+</div>
+<div class="flex-grow">
+    <section>
+        <div class="container py-24 px-24">
+            <div class="grid grid-cols-2 gap-32">
+                <div class="self-center">
+                    <h2 class="text-4xl mb-2">
+                        Advantages of the
+                        <span class="font-bold">Taiwan <span class="text-yellow-400">Gold Card</span></span> for
+                        Professionals
+                    </h2>
+                    <p class="font-regular">
+                        A short introduction, why Taiwan should be the next step for the visitor. A nice catchy copy
+                        that is helping the visitor to find out more about this country it’s culture and why Taiwan is
+                        the perfect match.
+                    </p>
+                    <div class="flex justify-between mt-8">
+                        <a
+                            href="#"
+                            class="bg-white border-2 border-orange-500 rounded-md text-orange-500 font-bold leading-none shadow-xl px-6 py-3"
+                        >
+                            About Gold Card
+                        </a>
+                        <a
+                            href="#"
+                            class="bg-white border-2 border-orange-500 rounded-md text-orange-500 font-bold leading-none shadow-xl px-6 py-3"
+                        >
+                            Why Taiwan
+                        </a>
+                    </div>
+                </div>
+                <div class="">
+                    <div
+                        class="flex items-center border-2 border-gray-500 rounded-md bg-white shadow-xl px-8 py-4 my-4"
+                    >
+                        <div class="w-1/5 max-w-16 mr-6">
+                            <img src="/img/dummy-icon.svg" alt="" class="w-full" />
+                        </div>
+                        <div>
+                            <h3 class="text-orange-500 font-bold mb-1">
+                                <a href="#"> Open work rights </a>
+                            </h3>
+                            <p class="font-regular">
+                                A short information about step 1. A short information about step 1.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-center border-2 border-gray-500 rounded-md bg-white shadow-xl px-8 py-4 my-4"
+                    >
+                        <div class="w-1/5 max-w-16 mr-6">
+                            <img src="/img/dummy-icon.svg" alt="" class="w-full" />
+                        </div>
+                        <div>
+                            <h3 class="text-orange-500 font-bold mb-1">
+                                <a href="#"> Open work rights </a>
+                            </h3>
+                            <p class="font-regular">
+                                A short information about step 1. A short information about step 1.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-center border-2 border-gray-500 rounded-md bg-white shadow-xl px-8 py-4 my-4"
+                    >
+                        <div class="w-1/5 max-w-16 mr-6">
+                            <img src="/img/dummy-icon.svg" alt="" class="w-full" />
+                        </div>
+                        <div>
+                            <h3 class="text-orange-500 font-bold mb-1">
+                                <a href="#"> Open work rights </a>
+                            </h3>
+                            <p class="font-regular">
+                                A short information about step 1. A short information about step 1.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section help="call2action">
+        <div class="bg-green-800 grid grid-cols-5 shadow-xl">
+            <div class="col-span-2 relative w-full">
+                <img src="/img/dummy-image.jpg" alt="" class="absolute inset-0 w-full h-full object-cover object-top" />
+            </div>
+
+            <div class="col-span-3 text-white p-24">
+                <h3 class="text-4xl mb-2">
+                    See how <span class="font-bold">Taiwan <span class="text-yellow-400">Gold Card</span></span> can
+                    help you
+                </h3>
+                <p>
+                    In order to qualify for an Employment Gold Card your skills must be related to one of eight areas:
+                    Science and Technology, Economics, Education, Culture and Art, Sport, Finance, Law and Architecture.
+                </p>
+                <div class="flex justify-between mt-8">
+                    <a
+                        href="#"
+                        class="bg-orange-500 border-2 border-orange-500 rounded-md text-white font-bold leading-none shadow-xl px-6 py-3"
+                    >
+                        Tell me more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section help="map">
+        <div class="bg-green-100 py-24">
+            <div class="container">
+                <div class="mx-auto w-1/2 text-center">
+                    <h2 class="text-4xl">
+                        People from all over the world joined
+                        <span class="font-bold">Taiwan <span class="text-yellow-400">Gold Card</span></span>
+                    </h2>
+                </div>
+                <div class="mb-6">
+                    <img src="/img/dummy-map.png" alt="" class="w-full" />
+                </div>
+                <div class="mx-auto w-3/4 text-center">
+                    <p class="font-regular text-base">
+                        People from all over the world decided to apply for the Taiwan Gold Card. You can find them in
+                        different fiedls like: Science and Technology, Economics, Education, Culture and Art, Sport,
+                        Finance, Law and Architecture.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section help="cards">
+        <div class="container my-24 px-24">
+            <div class="mx-auto w-1/2 text-center mb-4">
+                <h2 class="text-4xl">
+                    This helps you to set-up and gets you
+                    <span class="font-bold">Taiwan <span class="text-yellow-400">Gold Card</span></span>
+                </h2>
+            </div>
+            <div class="mx-auto w-3/4 text-center">
+                <p class="">
+                    The Taiwan Gold Card is a combined visa, work permit and residence permit launched in 2018 to
+                    attract professional talent in Taiwan. The card gives you the right to stay, work or start your own
+                    business in Taiwan.
+                </p>
+            </div>
+            <div class="grid grid-cols-3 gap-12 my-12">
+                <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
+                    <div class="mx-auto w-1/4 mb-4">
+                        <img src="/img/dummy-icon.svg" alt="" class="w-full" />
+                    </div>
+                    <h3 class="text-xl font-bold text-orange-600">
+                        <a href="#">How to set-up</a>
+                    </h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
+                    <div class="mx-auto w-1/4 mb-4">
+                        <img src="/img/dummy-icon.svg" alt="" class="w-full" />
+                    </div>
+                    <h3 class="text-xl font-bold text-orange-600">
+                        <a href="#">How to set-up</a>
+                    </h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
+                    <div class="mx-auto w-1/4 mb-4">
+                        <img src="/img/dummy-icon.svg" alt="" class="w-full" />
+                    </div>
+                    <h3 class="text-xl font-bold text-orange-600">
+                        <a href="#">How to set-up</a>
+                    </h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
+                    <div class="mx-auto w-1/4 mb-4">
+                        <img src="/img/dummy-icon.svg" alt="" class="w-full" />
+                    </div>
+                    <h3 class="text-xl font-bold text-orange-600">
+                        <a href="#">How to set-up</a>
+                    </h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
+                    <div class="mx-auto w-1/4 mb-4">
+                        <img src="/img/dummy-icon.svg" alt="" class="w-full" />
+                    </div>
+                    <h3 class="text-xl font-bold text-orange-600">
+                        <a href="#">How to set-up</a>
+                    </h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
+                    <div class="mx-auto w-1/4 mb-4">
+                        <img src="/img/dummy-icon.svg" alt="" class="w-full" />
+                    </div>
+                    <h3 class="text-xl font-bold text-orange-600">
+                        <a href="#">How to set-up</a>
+                    </h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section help="expand">
+        <div class="border-t border-green-700">
+            <div class="container my-24">
+                <div class="mx-auto w-1/2 text-center mb-4">
+                    <h2 class="text-4xl">
+                        Expand your own business with
+                        <span class="font-bold">Taiwan <span class="text-yellow-400">Gold Card</span></span>
+                    </h2>
+                </div>
+                <div class="grid grid-cols-3 gap-12 my-12">
+                    <div class="relative rounded-lg overflow-hidden shadow-xl min-h-64">
+                        <div class="absolute inset-0 -z-1">
+                            <div
+                                class="absolute inset-0 w-full h-full bg-gradient-to-t from-gray-800 bg-opacity-75"
+                            ></div>
+                            <img
+                                src="/img/dummy-image.jpg"
+                                alt=""
+                                class="block absolute inset-0 object-cover w-full h-full -z-1"
+                            />
+                        </div>
+                        <div class="absolute bottom-0 w-full text-center">
+                            <a href="#" class="block text-2xl font-bold text-white p-6">High Tech manufactoring</a>
+                        </div>
+                    </div>
+                    <div class="relative rounded-lg overflow-hidden shadow-xl">
+                        <div class="absolute inset-0 -z-1">
+                            <div
+                                class="absolute inset-0 w-full h-full bg-gradient-to-t from-gray-800 bg-opacity-75"
+                            ></div>
+                            <img
+                                src="/img/dummy-image.jpg"
+                                alt=""
+                                class="block absolute inset-0 object-cover w-full h-full -z-1"
+                            />
+                        </div>
+                        <div class="absolute bottom-0 w-full text-center">
+                            <a href="#" class="block text-2xl font-bold text-white p-6">Headquaters</a>
+                        </div>
+                    </div>
+                    <div class="relative rounded-lg overflow-hidden shadow-xl">
+                        <div class="absolute inset-0 -z-1">
+                            <div
+                                class="absolute inset-0 w-full h-full bg-gradient-to-t from-gray-800 bg-opacity-75"
+                            ></div>
+                            <img
+                                src="/img/dummy-image.jpg"
+                                alt=""
+                                class="block absolute inset-0 object-cover w-full h-full -z-1"
+                            />
+                        </div>
+                        <div class="absolute bottom-0 w-full text-center">
+                            <a href="#" class="block text-2xl font-bold text-white p-6">Innovation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto w-2/3 text-center mb-4">
+                    <p>
+                        The <span class="font-bold">Taiwan <span class="text-yellow-400">Gold Card</span></span> is a
+                        combined visa, work permit and residence permit launched in 2018 to attract professional talent
+                        in Taiwan. The card gives you the right to stay, work or start your own business in Taiwan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 {{ end }}
