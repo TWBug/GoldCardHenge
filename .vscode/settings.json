@@ -1,11 +1,6 @@
 {
     "css.validate": false,
     "stylelint.enable": true,
-    "workbench.colorCustomizations": {
-        "activityBar.foreground": "#66cb1e",
-        "activityBarBadge.foreground": "#000",
-        "activityBarBadge.background": "#50a017"
-    },
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 120,
     "editor.wrappingIndent": "indent",
