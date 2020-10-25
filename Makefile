@@ -4,4 +4,4 @@ build:
 	@npm run build:staging
 	
 staging: build
-	@rsync -rzuhP ./public/ spiffy:/var/www/taiwan-goldcard-staging
+	@rsync -rzuhP ./public/ goldcard-staging:/var/www/taiwan-goldcard-staging
