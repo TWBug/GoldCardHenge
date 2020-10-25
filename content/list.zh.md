@@ -2,7 +2,7 @@
 title: 'Single'
 draft: false
 hidden: true
-layout: single
+layout: list
 ---
 
 # What is the Taiwan Gold Card?
