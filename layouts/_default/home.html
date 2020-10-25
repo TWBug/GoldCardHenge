@@ -1,40 +1,7 @@
 {{ define "main" }}
 <div class="relative min-h-screen-1/2 bg-blue-500 shadow-xl">
-    <div class="bg-blue-800 text-xs text-white font-semibold py-2">
-        <div class="container flex justify-between">
-            <div>Taiwan Employment Gold Card Office</div>
-            <div>Search</div>
-            <div class="flex uppercase">
-                <div>Change language:</div>
-                <div>English</div>
-                <div>中文</div>
-            </div>
-        </div>
-    </div>
-    <div class="bg-blue-700">
-        <div class="container flex">
-            <div class="w-1/5 max-w-xs py-2">
-                <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="" />
-            </div>
-            <ul class="flex-grow flex justify-between items-center text-white text-lg font-semibold ml-20">
-                <li class="bg-yellow-400 self-stretch flex items-center text-black font-bold">
-                    <a href="" class="px-4">Gold Card</a>
-                </li>
-                <li>
-                    <a href="" class="px-4">FAQ</a>
-                </li>
-                <li>
-                    <a href="" class="px-4">Why Taiwan</a>
-                </li>
-                <li>
-                    <a href="" class="px-4">Events & News</a>
-                </li>
-                <li>
-                    <a href="" class="px-4">Resources</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    {{ partial "meta-navigation" . }}
+    {{ partial "main-navigation" . }}
     <div class="absolute inset-0 bg-blue-400 -z-1">hero</div>
 </div>
 <div class="flex-grow">

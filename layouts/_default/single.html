@@ -1,10 +1,50 @@
 {{ define "main" }}
-<div class="flex-grow flex flex-col justify-center items-center w-full h-full">
-    <div>
-        <div class="w-full max-w-xl mx-auto mb-6">
-            <img class="w-full" src="/img/404.png" alt="">
+<div class="relative shadow-xl">{{ partial "meta-navigation" . }} {{ partial "main-navigation" . }}</div>
+<div class="flex-grow">
+    <section>
+        <div class="container py-24 px-24">
+            <div class="text-sm font-semibold">
+                <ul class="flex items-center">
+                    <li class="text-orange-500 mr-2">
+                        <a href="/{{ .Site.Language.Lang }}/" class="">Home</a>
+                    </li>
+                    <li class="text-orange-500 mr-2">
+                        <a href="/{{ .Site.Language.Lang }}/">Gold Card</a>
+                    </li>
+                    <li class="">
+                        About Gold Card
+                    </li>
+                </ul>
+            </div>
+            <div class="grid grid-cols-3 gap-12">
+                <div class="copy col-span-2">
+                    {{.Content}}
+                </div>
+                <div>
+                    <div class="relative w-full -mt-1 mb-4">
+                        <img src="/img/dummy-image.jpg" alt="" class="w-full rounded-md shadow-xl">
+                    </div>
+                    <h2 class="text-2xl font-medium mb-4">
+                        More about Gold Card Application
+                    </h2>
+                    <div class="my-2">
+                        <a href="#" class="font-bold text-orange-500">Do I qualify?</a>
+                    </div>
+                    <div class="my-2">
+                        <a href="#" class="font-bold text-orange-500">The Gold Card Application</a>
+                        <p class="text-sm">
+                            Application is done online. Once you have determined how you are qualified, gather the required documents:
+                        </p>
+                    </div>
+                    <div class="my-2">
+                        <a href="#" class="font-bold text-orange-500">After submitting your application</a>
+                    </div>
+                    <div class="my-2">
+                        <a href="#" class="font-bold text-orange-500">After passing skill assessment</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="copy w-full max-w-xl mx-auto text-center">{{.Content}}</div>
-    </div>
+    </section>
 </div>
 {{end}}

@@ -1,0 +1,61 @@
+{{ define "main" }}
+<div class="relative bg-blue-500 shadow-xl">
+    {{ partial "meta-navigation" . }}
+    {{ partial "main-navigation" . }}
+    <div class="relative bg-blue-600 z-0 pt-32 pb-24">
+        <div class="container">
+            <div class="px-24 ">
+                <div class="grid grid-cols-3 gap-12">
+                    <div class="col-span-2">
+                        <h1 class="text-white text-4xl font-semibold mb-2">
+                            Taiwan Gold Card Application FAQ
+                        </h1>
+                        <p class="text-white font-semibold">The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan.</p>
+                    </div>
+                    <div>
+                        <img src="/img/dummy-icon.svg" alt="" class="w-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="flex-grow">
+    <section>
+        <div class="container py-24 px-24">
+            <div class="text-sm font-semibold mb-4">
+                <ul class="flex items-center">
+                    <li class="text-orange-500 mr-2">
+                        <a href="/{{ .Site.Language.Lang }}/" class="">Home</a>
+                    </li>
+                    <li class="text-orange-500 mr-2">
+                        <a href="/{{ .Site.Language.Lang }}/">Gold Card</a>
+                    </li>
+                    <li class="">
+                        About Gold Card
+                    </li>
+                </ul>
+            </div>
+            <div class="grid grid-cols-3 gap-12">
+                <div class="col-span-2 grid grid-cols-2 gap-12">
+                    <div class="border-2 border-gray-500 rounded-lg">
+                        
+                    </div>
+                    <div class="border-2 border-gray-500 rounded-lg">
+                        
+                    </div>
+                    <div class="border-2 border-gray-500 rounded-lg">
+                        
+                    </div>
+                    <div class="border-2 border-gray-500 rounded-lg">
+                        
+                    </div>
+                </div>
+                <div class="copy">
+                    {{.Content}}
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{{end}}

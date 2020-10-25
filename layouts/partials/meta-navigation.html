@@ -1,0 +1,25 @@
+{{ $url := .Page.Permalink }}
+{{ $actual_language := .Site.Language.Lang }}
+<div class="relative z-10 bg-blue-800 text-xs text-white font-semibold py-2">
+    <div class="container flex items-center justify-between">
+        <div>Taiwan Employment Gold Card Office</div>
+        <div>Search</div>
+
+        <div class="flex items-center uppercase" x-data="taLanguage()" x-init="init()">
+            <div>Change language:</div>
+            {{ range .Site.Languages }}
+            {{ if lt .Weight 10 }}
+            {{ $url = replace $url $actual_language .Lang }}
+            <a
+                href="{{ $url }}"
+                class="block px-2 py-1 mx-1"
+                @click.prevent="switchLanguage('{{ .Lang }}')"
+                title="Change Language"
+            >
+                {{ .LanguageName }}
+            </a>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</div>
