@@ -23,6 +23,6 @@ npm run build
 
 npm run hugo
 
-// To deploy to staging
+// To deploy to staging.taiwangoldcard.tw
 make staging
 ```
