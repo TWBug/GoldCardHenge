@@ -82,34 +82,26 @@ blockquote {
 
 /* purgecss start ignore */
 .copy p {
-    @apply font-medium text-base my-4;
+    @apply font-regular text-base mb-4;
 }
-.copy blockquote p {
-    @apply text-2xl text-center font-light leading-relaxed border-t-2 border-b-2 border-gray-500 border-dashed p-8 my-8 -mx-4;
+
+.copy h1 {
+    @apply text-4xl;
 }
-.copy ul {
-    list-style: none;
+.copy h2 {
+    @apply text-3xl text-green-900 font-semibold;
 }
-.copy ol {
-    list-style: none;
-    counter-reset: my-awesome-counter;
-    @apply border-t-2 border-dashed border-gray-300;
+.copy h3 {
+    @apply text-2xl text-green-900 font-semibold;
 }
-.copy ul li {
-    @apply border-b-2 border-dashed border-gray-300 p-4;
+.copy h4 {
+    @apply text-xl text-green-900 font-semibold;
 }
-.copy ol li {
-    @apply border-b-2 border-dashed border-gray-300 p-4;
-    counter-increment: my-awesome-counter;
-}
-.copy ol li::before {
-    content: counter(my-awesome-counter) '. ';
-    @apply border-teal-600 font-semibold text-2xl;
-}
+
 
 .copy strong,
 .copy strong a {
-    @apply font-bold;
+    @apply font-semibold;
 }
 
 [x-cloak] {
