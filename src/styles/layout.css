@@ -85,7 +85,7 @@ blockquote {
     @apply font-regular text-base mb-4;
 }
 
-.copy h1 {
+/* .copy h1 {
     @apply text-4xl;
 }
 .copy h2 {
@@ -96,7 +96,7 @@ blockquote {
 }
 .copy h4 {
     @apply text-xl text-green-900 font-semibold;
-}
+} */
 
 
 .copy strong,

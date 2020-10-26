@@ -3,15 +3,15 @@
     {{ .Text | safeHTML }}
   </h1>
 {{ else if eq .Level 2 }}
-  <h2 id="{{ .Anchor | safeURL }}" class="text-4xl font-regular leading-tight mb-6">
+  <h2 id="{{ .Anchor | safeURL }}" class="text-2xl font-semibold text-green-900 leading-tight mb-2">
     {{ .Text | safeHTML }}
   </h2>
 {{ else if eq .Level 3 }}
-  <h3 id="{{ .Anchor | safeURL }}" class="text-3xl font-regular leading-snug mb-2 mt-6">
+  <h3 id="{{ .Anchor | safeURL }}" class="text-xl font-semibold text-green-900 leading-tight mb-2">
     {{ .Text | safeHTML }}
   </h3>
 {{ else if eq .Level 4 }}
-  <h4 id="{{ .Anchor | safeURL }}" class="text-2xl font-regular leading-snug mb-2 mt-6">
+  <h4 id="{{ .Anchor | safeURL }}" class="text-base font-semibold text-green-900 leading-tight mb-2">
     {{ .Text | safeHTML }}
   </h4>
 {{ else }}
