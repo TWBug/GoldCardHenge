@@ -31,7 +31,7 @@ window.languageDetection = {
     var user_language = browser_language.split('-');
     var language = user_language[0];
 
-    if (checkValidLanguage(language) === false) {
+    if (this.checkValidLanguage(language) === false) {
       language = 'en';
     }
 

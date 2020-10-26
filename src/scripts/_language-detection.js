@@ -26,7 +26,7 @@ window.languageDetection = {
         const browser_language = navigator.language || navigator.userLanguage
         const user_language = browser_language.split('-')
         var language = user_language[0]
-        if (checkValidLanguage(language) === false) {
+        if (this.checkValidLanguage(language) === false) {
             language = 'en'
         }
         this.setStorage('language', language)
