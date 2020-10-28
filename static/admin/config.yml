@@ -54,6 +54,23 @@ collections:
           - { label: 'Hidden?', name: 'hidden', widget: 'boolean', default: false, i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
+    # Configure the site. Menus for example
+    - name: 'config'
+      label: 'Config'
+      editor:
+          preview: false
+      files:
+          - label: 'Navigation'
+            name: 'navigation'
+            file: 'data/navigation.yml'
+            fields:
+                - label: 'Navigation Items'
+                  name: 'items'
+                  widget: 'list'
+                  fields:
+                      - { label: Name, name: name, widget: string }
+                      - { label: Link, name: link, widget: string }
+
     - name: 'blog' # Used in routes, e.g., /admin/collections/blog
       label: 'Blog' # Used in the UI
       folder: 'content/blog' # The path to the folder where the documents are stored
