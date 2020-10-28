@@ -48,9 +48,14 @@ collections:
       i18n: true
 
       # SEE https://www.netlifycms.org/docs/widgets#boolean
+      # For notes on the i18n support:
+      # SEE # https://www.netlifycms.org/docs/beta-features/#i18n-support
+      # The field-level i18n config shoudl be true|duplicate or omitted.
+      # Omitting it will cause the field not to be copied over., so that's
+      # probably not wnat is desired.
       fields: # The fields for each document, usually in front matter
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog', i18n: duplicate }
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
-          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: true }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: true, i18n: duplicate }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
