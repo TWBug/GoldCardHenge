@@ -6,10 +6,14 @@ hidden: false
 
 # 您好，歡迎來到台灣就業金卡官方網站。
 
-台灣就業金卡專案辦公室與網站仍在建置中，將盡快為您服務。
-如需詳細的資訊，請參閱 [foreigntalentact.ndc.gov.tw](https://foreigntalentact.ndc.gov.tw/)。
-如果您有任何疑問，請隨時與我們聯繫:
+1.) Stinky Tofu
+2.) Minced Pork Rice (Stewed Pork Rice)
+3.) Beef Noodles
+4.) Soup Dumplings
+5.) Intestine and Oyster Vermicelli
+6.) Oyster Omelet
+7.) Chicken Cutlet
+8.) Hot Pot
+9.) Taiwanese Breakfast
+10.) Gua bao, or Taiwanese Hamburger
 
-{{< link href="mailto:help@taiwangoldcard.tw" >}}
-help@taiwangoldcard.tw
-{{< /link >}}
