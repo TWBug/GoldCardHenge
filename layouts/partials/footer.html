@@ -21,9 +21,9 @@
                 <div class="mx-4">
                     <h4 class="text-semibold uppercase text-sm mb-2">Gold Card</h4>
                     <ul>
-                        <li>What is the Gold Card?</li>
-                        <li>Do I qualify?</li>
-                        <li>The Gold Card Application</li>
+                        <li><a href="/{{ .Site.Language.Lang }}/about">What is the Gold Card?</a></li>
+                        <li><a href="/{{ .Site.Language.Lang }}/qualification">Do I qualify?</a></li>
+                        <li><a href="/{{ .Site.Language.Lang }}/application">The Gold Card Application</a></li>
                         <li>After submitting your application</li>
                         <li>After passing skill assessment</li>
                     </ul>
@@ -31,15 +31,25 @@
                 <div class="mx-4">
                     <h4 class="text-semibold uppercase text-sm mb-2">Services</h4>
                     <ul>
-                        <li>Contact</li>
-                        <li>Faq</li>
+                        <li><a href="/{{ .Site.Language.Lang }}/contact">Contact</a></li>
+                        <li><a href="/{{ .Site.Language.Lang }}/faq">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="mx-4">
                     <h4 class="text-semibold uppercase text-sm mb-2">Languages</h4>
                     <ul>
-                        <li>English</li>
-                        <li>中文</li>
+            {{ range .Site.Languages }}
+            {{ if lt .Weight 10 }}
+            {{ $url = replace $url $actual_language .Lang }}
+            <li><a
+                href="{{ $url }}"
+                @click.prevent="switchLanguage('{{ .Lang }}')"
+                title="Change Language"
+            >
+                {{ .LanguageName }}
+            </a></li>
+            {{ end }}
+            {{ end }}
                     </ul>
                 </div>
                 <div class="mx-4">
