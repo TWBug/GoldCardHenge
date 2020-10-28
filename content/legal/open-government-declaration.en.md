@@ -2,14 +2,25 @@
 title: Open Government Declaration
 draft: false
 hidden: false
+layout: single
 ---
+# Open Government Declaration
 
-# Hi, and welcome to the official Taiwan Employment Gold Card website.
+I. Authorization Method & Scope
 
-We are currently getting set up and look forward to serving you soon.
+In order to facilitate the public to better utilize the website information, all of National Development Council (NDC)'s publicly posted information and materials that are protected under copyright provisions may be reauthorized for public use without cost in a non-exclusive manner. The users are not limited to time and by region to reproduce, adapt, edit, publicly transmit or utilize with other methods, and as well as to develop various products or services (herein known as derivations). This authorization will not be retracted hereafter, and the users do not have to acquire any written or other methods of authorization from the Administration. However, when using it, the user should state the source.
 
-In the meantime, please check out [foreigntalentact.ndc.gov.tw](https://foreigntalentact.ndc.gov.tw/) for more information on the Gold Card. If you have any additional questions feel free to email us at:
+II. Information on Related Items:
 
-{{< link href="mailto:help@taiwangoldcard.tw" >}}
-help@taiwangoldcard.tw
-{{< /link >}}
+(a) The authorized scope is only within the scope protected under copyright. It does not include other intellectual property rights, including but not limited to the provision of patents, trademarks and administration's logo.
+
+(b) Whether or not the said person's actively publicized or legally required publicized personal information can be collected, processed or utilized, the user must follow the related provisions based on the Personal Information Protection Act, and plan to execute the related measures required by law.
+
+(c) For some videos, photos, sheet music and contracted case writings or other works, the administration must especially state that the approval must be duly obtained before use.
+
+ III. Should be prudential not to infringe upon a third party in moral rights in copyrights (including the rights to identify names and the rights to ban unjustifiable change.)
+
+IV. After using the information and material provided by this authorization, one should not maliciously alter its related information. If edited and the reworked information does not match the original, the user is liable for civil and criminal legal responsibilities.
+
+V. The website's authorization does not authorize the user to represent the administration's recommendation, approval or agreement with the status of the added derivatives.
+
