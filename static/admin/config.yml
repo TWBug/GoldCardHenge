@@ -3,9 +3,13 @@
 #     branch: master # Branch to update (optional; defaults to master)
 
 # Auth directly with github
+# SEE https://www.netlifycms.org/docs/backends-overview/
+# NOTE I'm not sure exactly what site_domain is required for. It works fine on
+# localhost without this, but not on staging.taiwangoldcard.tw.
 backend:
     name: github
     repo: tego-tech/www
+    site_domain: www.taiwangoldcard.tw # See NOTE
 
 publish_mode: editorial_workflow
 media_folder: 'static/img/uploads' # Media files will be stored in the repo under static/img/uploads
