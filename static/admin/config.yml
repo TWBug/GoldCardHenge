@@ -11,6 +11,9 @@ backend:
     repo: tego-tech/www
     site_domain: www.taiwangoldcard.tw # See NOTE
 
+# Customize the logo that displays on the sign-in page (just found this logo via web search)
+logo_url: 'https://images.squarespace-cdn.com/content/v1/54fda45ae4b056e88666306d/1522048397733-V0ID9KLHK9KPYBQQQMV1/ke17ZwdGBToddI8pDm48kLu6I4ew71KXDwr0TupZA2UUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc_EzImbYIQh6Bf_ScjyA5THHFXQ368Ng-_1uc2knSgWnGpDWSCaGBnv7W-TNEDThe/taiwan-national-development-council.jpg'
+
 i18n:
     # Required and can be one of multiple_folders, multiple_files or single_file
     # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
@@ -36,6 +39,21 @@ public_folder: '/img/uploads'
 
 # The various collections we use for the site. They correspond to directories of content
 collections:
+    # Top-level pages
+    - name: 'pages'
+      label: 'Pages'
+      folder: 'content'
+      create: true
+      slug: '{{slug}}'
+      i18n: true
+      fields:
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'single', i18n: duplicate }
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
+          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: true, i18n: duplicate }
+          - { label: 'Hidden?', name: 'hidden', widget: 'boolean', default: false, i18n: duplicate }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
     - name: 'blog' # Used in routes, e.g., /admin/collections/blog
       label: 'Blog' # Used in the UI
       folder: 'content/blog' # The path to the folder where the documents are stored

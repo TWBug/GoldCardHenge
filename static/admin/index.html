@@ -1,12 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
-</head>
-<body>
-  <!-- Include the script that builds the page and powers Netlify CMS -->
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Content Manager</title>
+    </head>
+    <body>
+        <!-- Include the script that builds the page and powers Netlify CMS -->
+        <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+        <style>
+            /* 隱藏Netlify的徽標 */
+            [class*='NetlifyCreditIcon'] {
+                display: none;
+            }
+        </style>
+        <script>
+            // 在此自訂CMS
+            ;(function () {
+                var $ = function (sel) {
+                    return document.querySelector(sel)
+                }
+
+                // 目前沒在用，本來覺得我們可能會需要等待render後
+                var pollFor = function (sel, fn, interval, timeout) {
+                    if (interval === undefined) interval = 200 // 200毫秒
+                    if (timeout === undefined) timeout = 10000 // 10秒
+                    var timedOut = false
+                    var t = setTimeout(function () {
+                        timedOut = true
+                    }, timeout)
+                    var attempt = function () {
+                        if (timedOut) {
+                            console.warn('找不到... ' + sel)
+                            return
+                        }
+
+                        if ($(sel)) {
+                            clearTimeout(t)
+                            fn($(sel))
+                        } else {
+                            setTimeout(attempt, interval)
+                        }
+                    }
+
+                    // 第一次執行
+                    attempt()
+                }
+            })()
+        </script>
+    </body>
 </html>
