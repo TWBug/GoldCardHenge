@@ -1,5 +1,54 @@
 "use strict";
 
+function _toArray(arr) { return _arrayWithHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+window.highlight = {
+  wrapper: {},
+  replace: function replace() {
+    this.wrapper = document.getElementsByClassName('copy');
+
+    if (this.wrapper === 0) {
+      return false;
+    }
+
+    this.wrapper = this.wrapper[0];
+    this.replaceInDocument(/Taiwan Gold Card/g, '<span class="font-bold text-black">Taiwan <span class="text-highlight">Gold Card</span></span>');
+    this.replaceInDocument(/Gold Card/g, '<span class="font-bold text-black"><span class="text-highlight">Gold Card</span></span>');
+    this.replaceInDocument(/Gold-Card/g, '<span class="font-bold text-black"><span class="text-highlight">Gold Card</span></span>');
+  },
+  replaceInDocument: function replaceInDocument(pattern, string) {
+    ;
+    [this.wrapper].concat(_toConsumableArray(this.wrapper.querySelectorAll('*:not(script):not(noscript):not(style)'))).forEach(function (_ref) {
+      var _ref$childNodes = _toArray(_ref.childNodes),
+          nodes = _ref$childNodes.slice(0);
+
+      return nodes.filter(function (_ref2) {
+        var nodeType = _ref2.nodeType;
+        return nodeType === document.ELEMENT_NODE;
+      }).forEach(function (textNode) {
+        textNode.innerHTML = textNode.innerHTML.replace(pattern, string);
+      });
+    });
+  }
+};
+"use strict";
+
 window.languageDetection = {
   language: 'en',
   message: "Sorry, it looks like your browser storage has been corrupted. Please clear your storage by going to Tools -> Clear Recent History -> Cookies and set time range to 'Everything'. This will remove the corrupted browser storage across all sites.",
@@ -242,5 +291,6 @@ function handleResize() {
 "use strict";
 
 window.languageDetection.init();
+window.highlight.replace();
 window.addEventListener('resize', handleResize);
 handleResize();
