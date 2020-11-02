@@ -1,0 +1,30 @@
+{{ $class := "w-full mb-6" }}
+{{ with .Get "style" }}
+{{ if eq . "right" }}
+{{ $class = "w-1/3 float-right mt-2 ml-4 mb-2" }}
+{{ else if eq . "left" }}
+{{ $class = "w-1/3 float-left mt-2 mr-4 mb-2" }}
+{{ end }}
+{{ end }}
+
+<figure class="{{ $class }}">
+    {{ if isset .Params "link"}}
+    <a href="{{ index .Params "link"}}">
+    {{ end }}
+    <img src="{{ index .Params "src" }}" {{ if or (isset .Params "alt") (isset .Params "caption") }}alt="{{ if isset .Params "alt"}}{{ index .Params "alt"}}{{else}}{{ index .Params "caption" }}{{ end }}"{{ end }} class="block rounded-md w-full" />
+    {{ if isset .Params "link"}}
+    </a>
+    {{ end }}
+    {{ if or (or (isset .Params "title") (isset .Params "caption")) (isset .Params "attr")}}
+    <figcaption>
+        {{ if isset .Params "caption" }}
+        <div class="text-xs font-semibold mt-2">
+        {{ index .Params "caption" }}
+        {{ if isset .Params "attrlink"}}<a href="{{ index .Params "attrlink"}}"> {{ end }}
+            {{ index .Params "attr" }}
+        {{ if isset .Params "attrlink"}}</a> {{ end }}
+        </div>
+        {{ end }} 
+    </figcaption>
+    {{ end }}
+</figure>

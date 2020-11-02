@@ -1,3 +1,1 @@
-<div class="relative w-full h-48">
-    <img class="absolute inset-0 w-full h-full object-contain" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
-</div>
+    <img class="block rounded-md" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />

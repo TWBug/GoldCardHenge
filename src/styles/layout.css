@@ -73,6 +73,18 @@ blockquote {
     text-shadow: none;
 }
 
+.append {
+    position: relative;
+}
+
+.append::before {
+    content: '_';
+    font-size: 1em;
+    font-weight: inherit;
+    margin-left: -1em;
+    padding-right: 0.2em;
+}
+
 .copy {
     @apply leading-loose text-base;
 }
@@ -82,26 +94,45 @@ blockquote {
 
 /* purgecss start ignore */
 .copy p {
-    @apply font-regular text-base mb-4;
+    @apply font-regular mb-4;
 }
-
-/* .copy h1 {
-    @apply text-4xl;
-}
-.copy h2 {
-    @apply text-3xl text-green-900 font-semibold;
-}
-.copy h3 {
-    @apply text-2xl text-green-900 font-semibold;
-}
-.copy h4 {
-    @apply text-xl text-green-900 font-semibold;
-} */
-
 
 .copy strong,
 .copy strong a {
-    @apply font-semibold;
+    @apply font-medium text-black;
+}
+
+.copy em,
+.copy em a {
+    @apply font-regular italic;
+}
+
+.copy ul {
+    list-style-type: '>';
+    @apply list-outside -ml-2 mb-4;
+}
+
+.copy ul li {
+    @apply text-black font-regular pb-2 pl-2;
+}
+
+.copy ol {
+    counter-reset: twgc-counter;
+    list-style: none;
+    @apply -ml-2 mb-4;
+}
+.copy ol li {
+    counter-increment: twgc-counter;
+    @apply relative list-outside text-black font-regular pb-2 pl-2;
+}
+.copy ol li::before {
+    content: counter(twgc-counter);
+    @apply absolute flex items-center justify-center leading-none tracking-tight text-xs text-white font-bold bg-secondary rounded-full overflow-hidden;
+    --size: 0.8rem;
+    left: calc(-1 * var(--size) - 0.5rem);
+    width: calc(var(--size) + 0.5rem);
+    height: calc(var(--size) + 0.5rem);
+    top: calc(var(--size) / 3);
 }
 
 [x-cloak] {

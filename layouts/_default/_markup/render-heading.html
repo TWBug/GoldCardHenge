@@ -1,17 +1,17 @@
 {{ if eq .Level 1 }}
-  <h1 id="{{ .Anchor | safeURL }}" class="text-4xl font-medium leading-tight mb-6">
+  <h1 id="{{ .Anchor | safeURL }}" class="text-5xl font-medium leading-snug mb-2">
     {{ .Text | safeHTML }}
   </h1>
 {{ else if eq .Level 2 }}
-  <h2 id="{{ .Anchor | safeURL }}" class="text-2xl font-semibold text-green-900 leading-tight mb-2">
+  <h2 id="{{ .Anchor | safeURL }}" class="append text-2xl font-semibold text-secondary leading-snug mb-2">
     {{ .Text | safeHTML }}
   </h2>
 {{ else if eq .Level 3 }}
-  <h3 id="{{ .Anchor | safeURL }}" class="text-xl font-semibold text-green-900 leading-tight mb-2">
+  <h3 id="{{ .Anchor | safeURL }}" class="append text-xl font-semibold text-secondary leading-snug mb-2">
     {{ .Text | safeHTML }}
   </h3>
 {{ else if eq .Level 4 }}
-  <h4 id="{{ .Anchor | safeURL }}" class="text-base font-semibold text-green-900 leading-tight mb-2">
+  <h4 id="{{ .Anchor | safeURL }}" class="append text-base font-semibold text-secondary leading-snug mb-2">
     {{ .Text | safeHTML }}
   </h4>
 {{ else }}
