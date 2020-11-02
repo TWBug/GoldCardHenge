@@ -1,5 +1,18 @@
 const plugin = require('tailwindcss/plugin')
 
+const colors = {
+    primary: '#ce3f00',
+    secondary: '#567351',
+    highlight: '#E5AD02',
+    background: '#EEF5E0',
+    'nav-meta': '#005E9E',
+    'nav-start': '#2183D1',
+    'nav-end': '#1A7AC7',
+    'secondary-dark': '#2F5302',
+    'secondary-medium': '#3B6505',
+    'secondary-light': '#1A683B',
+}
+
 module.exports = {
     purge: {
         enabled: process.env.NODE_ENV === 'production' ? true : false,
@@ -35,19 +48,28 @@ module.exports = {
         container: {
             center: true,
         },
+        borderColor: (theme) => ({
+            ...theme('colors'),
+            ...colors,
+        }),
         backgroundColor: (theme) => ({
             ...theme('colors'),
-            action: '#aed2e2',
-            background: '#1173B5',
+            ...colors,
+        }),
+        textColor: (theme) => ({
+            ...theme('colors'),
+            ...colors,
         }),
         gradientColorStops: (theme) => ({
             ...theme('colors'),
-            action: '#aed2e2',
-            background: '#1173B5',
+            ...colors,
         }),
         extend: {
             fontWeight: {
                 bolder: 'bolder',
+            },
+            fontSize: {
+                '5xl': '2.45rem',
             },
             maxWidth: (theme) => ({
                 xxs: '12rem',
