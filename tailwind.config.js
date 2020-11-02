@@ -131,6 +131,9 @@ module.exports = {
                 '.row-end': {
                     gridRowEnd: '-1',
                 },
+                '.hyphens': {
+                    hyphens: 'auto',
+                },
             }
             addUtilities(changedUtilities, {
                 variants: ['responsive'],
