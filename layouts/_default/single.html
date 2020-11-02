@@ -5,19 +5,7 @@
     </div>
     <section>
         <div class="container py-24 px-12 lg:px-24">
-            <div class="text-sm font-semibold mb-2">
-                <ul class="flex items-center">
-                    <li class="text-primary mr-2">
-                        <a href="/{{ .Site.Language.Lang }}/" class="">Home</a>
-                    </li>
-                    <li class="text-primary mr-2">
-                        <a href="/{{ .Site.Language.Lang }}/">Gold Card</a>
-                    </li>
-                    <li class="">
-                        About Gold Card
-                    </li>
-                </ul>
-            </div>
+            {{ partial "breadcrumb" . }}
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
                 <div class="copy sm:col-span-2">
                     {{.Content}}

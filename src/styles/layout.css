@@ -73,6 +73,14 @@ blockquote {
     text-shadow: none;
 }
 
+.breadcrumb {
+    @apply relative inline-block;
+}
+.breadcrumb::before {
+    content: ">";
+    @apply font-bold pr-1;
+}
+
 .append {
     position: relative;
 }
