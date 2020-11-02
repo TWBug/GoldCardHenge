@@ -1,7 +1,7 @@
 {{ $url := .Page.Permalink }} {{ $actual_language := .Site.Language.Lang }}
 <div help="taiwan"></div>
 <div class="bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium">
-    <div class="container py-12">
+    <div class="container py-12 px-12 lg:px-24">
         <div class="w-1/2 max-w-32 py-6">
             <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="" />
         </div>
@@ -17,7 +17,7 @@
                     </a>
                 </div>
             </div>
-            <div class="flex-grow flex text-xs text-white font-regular">
+            <div class="flex-grow flex flex-wrap text-xs text-white font-regular">
                 <div class="mx-4">
                     <h4 class="text-semibold uppercase text-sm mb-2">Gold Card</h4>
                     <ul>
@@ -38,18 +38,18 @@
                 <div class="mx-4">
                     <h4 class="text-semibold uppercase text-sm mb-2">Languages</h4>
                     <ul>
-            {{ range .Site.Languages }}
-            {{ if lt .Weight 10 }}
-            {{ $url = replace $url $actual_language .Lang }}
-            <li><a
-                href="{{ $url }}"
-                @click.prevent="switchLanguage('{{ .Lang }}')"
-                title="Change Language"
-            >
-                {{ .LanguageName }}
-            </a></li>
-            {{ end }}
-            {{ end }}
+                        {{ range .Site.Languages }}
+                        {{ if lt .Weight 10 }}
+                        {{ $url = replace $url $actual_language .Lang }}
+                        <li><a
+                            href="{{ $url }}"
+                            @click.prevent="switchLanguage('{{ .Lang }}')"
+                            title="Change Language"
+                        >
+                            {{ .LanguageName }}
+                        </a></li>
+                        {{ end }}
+                        {{ end }}
                     </ul>
                 </div>
                 <div class="mx-4">
@@ -66,7 +66,7 @@
     </div>
 </div>
 <div class="bg-secondary-dark">
-    <div class="container text-center py-4">
+    <div class="container text-center py-4 px-12 lg:px-24">
         <p class="text-white text-sm font-regular">
             © 2020 - Taiwan Employment Gold Card Office - All rights reserverd
         </p>
