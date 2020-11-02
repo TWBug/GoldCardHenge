@@ -1,6 +1,7 @@
 DefaultContentLanguage = "en"
 baseURL = "/"
-defaultContentLanguageInSubdir = "true"
+defaultContentLanguageInSubdir = true
+enableInlineShortcodes = false
 disableKinds = ["404", "taxonomy"]
 disableLanguages = ["de", "es"]
 ignoreErrors = ["error-disable-taxonomy"]
