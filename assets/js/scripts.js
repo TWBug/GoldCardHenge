@@ -28,9 +28,14 @@ window.highlight = {
     }
 
     this.wrapper = this.wrapper[0];
-    this.replaceInDocument(/Taiwan Gold Card/g, '<span class="font-bold text-black">Taiwan <span class="text-highlight">Gold Card</span></span>');
-    this.replaceInDocument(/Gold Card/g, '<span class="font-bold text-black"><span class="text-highlight">Gold Card</span></span>');
-    this.replaceInDocument(/Gold-Card/g, '<span class="font-bold text-black"><span class="text-highlight">Gold Card</span></span>');
+    this.replaceInDocument(/Taiwan Gold Card/g, '<span class="font-bold text-black">Taiwan <span class="highlight">Gold Card</span></span>'); // this.replaceInDocument(
+    //     /Gold Card/g,
+    //     '<span class="tinline-block bg-highlight text-black rounded-md px-2">Gold Card</span>'
+    // )
+    // this.replaceInDocument(
+    //     /Gold-Card/g,
+    //     '<span class="inline-block bg-highlight text-black rounded-md px-2">Gold Card</span>'
+    // )
   },
   replaceInDocument: function replaceInDocument(pattern, string) {
     ;
