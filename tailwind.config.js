@@ -5,6 +5,7 @@ const colors = {
     secondary: '#567351',
     highlight: '#E5AD02',
     background: '#EEF5E0',
+    gradient: '#1F80CE',
     'nav-meta': '#005E9E',
     'nav-start': '#2183D1',
     'nav-end': '#1A7AC7',
@@ -81,6 +82,7 @@ module.exports = {
             }),
             minHeight: (theme) => ({
                 ...theme('spacing'),
+                'screen-1/4': 'calc(var(--vh) * 25)',
                 'screen-1/2': 'calc(var(--vh) * 50)',
                 'screen-3/4': 'calc(var(--vh) * 75)',
                 screen: 'calc(var(--vh) * 100)',
