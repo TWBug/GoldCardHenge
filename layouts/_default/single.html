@@ -1,8 +1,10 @@
 {{ define "main" }}
 <div class="relative shadow-xl">{{ partial "meta-navigation" . }} {{ partial "main-navigation" . }}</div>
-<div class="flex-grow">
+<div class="relative flex-grow">
+    <div class="absolute top-0 inset-x-0 min-h-screen-1/4 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1">
+    </div>
     <section>
-        <div class="container py-24 px-24">
+        <div class="container py-24 px-12 lg:px-24">
             <div class="text-sm font-semibold mb-2">
                 <ul class="flex items-center">
                     <li class="text-primary mr-2">
@@ -16,11 +18,11 @@
                     </li>
                 </ul>
             </div>
-            <div class="grid grid-cols-3 gap-12">
-                <div class="copy col-span-2">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="copy sm:col-span-2">
                     {{.Content}}
                 </div>
-                <div>
+                <div class="">
                     <div class="relative w-full -mt-1 mb-4">
                         <img src="/img/dummy-image.jpg" alt="" class="w-full rounded-md shadow-xl">
                     </div>
