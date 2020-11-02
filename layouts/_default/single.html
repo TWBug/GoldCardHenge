@@ -1,36 +1,49 @@
 {{ define "main" }}
-<div class="relative shadow-xl">{{ partial "meta-navigation" . }} {{ partial "main-navigation" . }}</div>
+<div class="relative shadow-xl">{{ partial "navigation" . }}</div>
 <div class="relative flex-grow">
-    <div class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1">
-    </div>
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
+    ></div>
     <section>
-        <div class="container py-24 px-12 lg:px-24">
+        <div class="container py-12 sm:py-24 px-12 lg:px-24">
+            <div class="relative sm:hidden w-full mb-10">
+                <img src="/img/dummy-image.jpg" alt="" class="w-full rounded-md shadow-xl" />
+            </div>
             {{ partial "breadcrumb" . }}
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="copy sm:col-span-2">
-                    {{.Content}}
-                </div>
+            <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="copy sm:col-span-2">{{.Content}}</div>
                 <div class="">
-                    <div class="relative w-full -mt-1 mb-4">
-                        <img src="/img/dummy-image.jpg" alt="" class="w-full rounded-md shadow-xl">
+                    <div class="hidden sm:block relative w-full -mt-1 mb-4">
+                        <img src="/img/dummy-image.jpg" alt="" class="w-full rounded-md shadow-xl" />
                     </div>
-                    <h2 class="text-2xl font-medium mb-4">
-                        More about Gold Card Application
-                    </h2>
-                    <div class="my-2">
-                        <a href="#" class="font-bold text-primary">Do I qualify?</a>
+                    <h2 class="text-2xl font-medium mb-4">More about Gold Card Application</h2>
+                    <div class="my-4">
+                        <a href="#" class="flex items-center font-bold text-primary -ml-3">
+                            {{ partial "icon" (dict "name" "right" "size" "4") }}
+                            <span class="pl-1"> Do I qualify? </span>
+                        </a>
                     </div>
-                    <div class="my-2">
-                        <a href="#" class="font-bold text-primary">The Gold Card Application</a>
-                        <p class="text-sm">
-                            Application is done online. Once you have determined how you are qualified, gather the required documents:
+                    <div class="my-4">
+                        <a href="#" class="flex items-center font-bold text-primary -ml-3">
+                            {{ partial "icon" (dict "name" "right" "size" "4") }}
+                            <span class="pl-1">The Gold Card Application</span>
+                        </a>
+                        <p class="text-sm leading-normal">
+                            Application is done online. Once you have determined how you are qualified, gather the
+                            required documents:
                         </p>
                     </div>
-                    <div class="my-2">
-                        <a href="#" class="font-bold text-primary">After submitting your application</a>
+                    <div class="my-4">
+                        <a href="#" class="flex items-center font-bold text-primary -ml-3">
+                            {{ partial "icon" (dict "name" "right" "size" "4") }}
+                            <span class="pl-1">After submitting your application</span>
+                        </a>
                     </div>
-                    <div class="my-2">
-                        <a href="#" class="font-bold text-primary">After passing skill assessment</a>
+                    <div class="my-4">
+                        <a href="#" class="flex items-center font-bold text-primary -ml-3">
+                            {{ partial "icon" (dict "name" "right" "size" "4") }}
+                            <span class="pl-1">After passing skill assessment</span>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -1,18 +1,15 @@
 {{ define "main" }}
 <div class="relative min-h-screen-1/2 bg-blue-500 shadow-xl">
-    {{ partial "meta-navigation" . }}
-    {{ partial "main-navigation" . }}
+    {{ partial "navigation" . }}
     <div class="absolute inset-0 bg-blue-400 -z-1">hero</div>
 </div>
 <div class="flex-grow">
     <section>
-        <div class="container py-24 px-24">
+        <div id="scroll" class="container py-24 px-24">
             <div class="grid grid-cols-2 gap-32">
-                <div class="self-center">
+                <div class="self-center copy">
                     <h2 class="text-4xl mb-2">
-                        Advantages of the
-                        <span class="font-bold">Taiwan <span class="text-yellow-400">Gold Card</span></span> for
-                        Professionals
+                        Advantages of the Taiwan Gold Card for Professionals
                     </h2>
                     <p class="font-regular">
                         A short introduction, why Taiwan should be the next step for the visitor. A nice catchy copy
