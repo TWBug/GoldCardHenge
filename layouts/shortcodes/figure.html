@@ -18,7 +18,7 @@
     {{ if or (or (isset .Params "title") (isset .Params "caption")) (isset .Params "attr")}}
     <figcaption>
         {{ if isset .Params "caption" }}
-        <div class="text-xs font-semibold mt-2">
+        <div class="text-xs font-semibold break-words mt-2">
         {{ index .Params "caption" }}
         {{ if isset .Params "attrlink"}}<a href="{{ index .Params "attrlink"}}"> {{ end }}
             {{ index .Params "attr" }}
