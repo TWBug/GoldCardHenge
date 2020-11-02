@@ -1,5 +1,5 @@
 {{ if eq .Level 1 }}
-  <h1 id="{{ .Anchor | safeURL }}" class="text-5xl font-medium leading-snug mb-2">
+  <h1 id="{{ .Anchor | safeURL }}" class="text-5xl font-medium leading-tight mb-2">
     {{ .Text | safeHTML }}
   </h1>
 {{ else if eq .Level 2 }}
