@@ -82,7 +82,7 @@ blockquote {
 }
 
 .highlight {
-    @apply inline-block bg-highlight text-black rounded-md;
+    @apply inline-block bg-highlight text-black whitespace-no-wrap rounded-md;
     padding-right: 0.3em;
     padding-left: 0.3em;
 }
