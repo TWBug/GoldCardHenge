@@ -1,6 +1,6 @@
 {{ if .IsNamedParams }}
 <div
-    class="relative border-2 border-green-600 bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium rounded-md shadow-xl text-white -ml-4 -mr-4 mb-12 mt-8 p-12"
+    class="relative border-2 border-green-600 bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium rounded-md shadow-xl text-white -ml-4 -mr-4 mb-12 mt-8 p-8 sm:p-12"
 >
 {{ if .Get "headline" }}
 <h3 class="text-4xl font-regular text-center">
@@ -8,12 +8,12 @@
 </h3>
 {{ end }}
 {{ if .Inner }}
-<div class="grid grid-cols-3 items-center gap-12 mt-8">
-    <div class="col-span-2 font-semibold text-right">
+<div class="grid grid-cols-1 sm:grid-cols-3 items-center gap-8 sm:gap-12 mt-8">
+    <div class="sm:col-span-2 font-semibold text-center sm:text-right">
         {{ .Inner | markdownify }}
     </div>
-    <div>
-        <a href="{{ .Get "href"}}" class="inline-block bg-primary font-bold text-white leading-none rounded-md shadow-xl px-6 py-4" {{ with .Get "target"}} target="{{ . }}" {{end}} >{{ .Get "button"}}</a>
+    <div class="text-center">
+        <a href="{{ .Get "href"}}" class="inline-block whitespace-no-wrap bg-primary font-bold text-white leading-none rounded-md shadow-xl px-6 py-4" {{ with .Get "target"}} target="{{ . }}" {{end}} >{{ .Get "button"}}</a>
     </div>
 </div>
 {{ end }}
