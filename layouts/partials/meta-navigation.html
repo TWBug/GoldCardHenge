@@ -3,7 +3,12 @@
 <div class="relative z-10 bg-nav-meta text-xs text-white font-semibold py-1">
     <div class="container flex items-center justify-between">
         <div>Taiwan Employment Gold Card Office</div>
-        <div>Search</div>
+        <div class="flex items-center">
+            {{ partial "icon" (dict "name" "search" "size" "3") }}
+            <span class="uppercase pl-1">
+                Search
+            </span>
+        </div>
 
         <div class="flex items-center uppercase" x-data="taLanguage()" x-init="init()">
             <div>Change language:</div>
