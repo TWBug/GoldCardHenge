@@ -6,6 +6,7 @@ const colors = {
     highlight: '#E5AD02',
     background: '#EEF5E0',
     gradient: '#1F80CE',
+    'nav-dark': '#004c81',
     'nav-meta': '#005E9E',
     'nav-start': '#2183D1',
     'nav-end': '#1A7AC7',
