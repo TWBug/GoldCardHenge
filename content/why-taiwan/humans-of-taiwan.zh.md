@@ -2,6 +2,7 @@
 title: Humans of Taiwan
 draft: false
 hidden: false
+description: 來來看台灣人是誰！
 ---
 
 # 您好，歡迎來到台灣就業金卡官方網站。
