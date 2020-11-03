@@ -3,6 +3,8 @@ title: Why Taiwan
 draft: false
 hidden: false
 folder: whytaiwan
+headline: "Taiwan Gold Card Application FAQ"
+teaser: "The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan."
 ---
 
 # Taiwan is Amazing, here's why.
