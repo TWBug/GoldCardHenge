@@ -1,7 +1,7 @@
 {{ $url := .Page.Permalink }}
 {{ $actual_language := .Site.Language.Lang }}
 <div class="relative hidden lg:block z-10 bg-nav-meta text-xs text-white font-semibold">
-    <div class="max-w-screen-xl mx-auto flex items-center justify-between py-1 px-8">
+    <div class="max-w-screen-xl mx-auto flex items-center justify-between px-8">
         <div>Taiwan Employment Gold Card Office</div>
         <div class="flex items-center">
             {{ partial "icon" (dict "name" "search" "size" "3") }}
@@ -15,12 +15,21 @@
             {{ range .Site.Languages }}
             {{ if lt .Weight 10 }}
             {{ $url = replace $url $actual_language .Lang }}
+            {{ if eq $actual_language .Lang }}
             <a
                 href="{{ $url }}"
-                class="block px-2 py-1 mx-1"
+                class="block bg-nav-dark font-bold px-2 py-2 mx-1"
                 @click.prevent="switchLanguage('{{ .Lang }}')"
                 title="Change Language"
             >
+            {{ else }}
+            <a
+                href="{{ $url }}"
+                class="block px-2 py-2 mx-1"
+                @click.prevent="switchLanguage('{{ .Lang }}')"
+                title="Change Language"
+            >
+            {{ end }}
                 {{ .LanguageName }}
             </a>
             {{ end }}
