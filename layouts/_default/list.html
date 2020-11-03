@@ -1,7 +1,11 @@
 {{ define "main" }}
 <div class="relative bg-blue-500 shadow-xl">
     {{ partial "navigation" . }}
-    <div class="relative bg-blue-600 z-0 pt-24 pb-16">
+    <div class="relative bg-nav-meta z-0 pt-24 pb-16">
+        <div class="absolute inset-x-0 top-0 h-3/4 bg-gradient-to-b from-black to-transparent opacity-25 -z-1"></div>
+        <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
+            <img src="/img/list-mountains.svg" alt="" class="block w-full">
+        </div>
         <div class="container">
             <div class="px-24 ">
                 <div class="grid grid-cols-3 gap-24 items-center">
@@ -23,22 +27,11 @@
     <div
         class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
     ></div>
-    <section>
-        <div id="scroll" class="container py-24 px-24">
-            <div class="text-sm font-semibold mb-4">
-                <ul class="flex items-center">
-                    <li class="text-orange-500 mr-2">
-                        <a href="/{{ .Site.Language.Lang }}/" class="">Home</a>
-                    </li>
-                    <li class="text-orange-500 mr-2">
-                        <a href="/{{ .Site.Language.Lang }}/">Gold Card</a>
-                    </li>
-                    <li class="">
-                        About Gold Card
-                    </li>
-                </ul>
-            </div>
-            <div class="grid grid-cols-3 gap-12">
+    
+    <section id="scroll">
+        <div class="container py-24 px-24">
+            {{ partial "breadcrumb" . }}
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
                 <div class="col-span-2 grid grid-cols-2 gap-12">
                     <div class="flex flex-col justify-center items-center border-2 border-gray-500 rounded-lg shadow-xl px-6 py-8">
                         <img src="/img/dummy-icon.svg" alt="" class="h-12 mb-4">
@@ -87,7 +80,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="copy">
+                <div class="copy order-first lg:order-last">
                     {{.Content}}
                 </div>
             </div>

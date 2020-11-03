@@ -1,12 +1,16 @@
 {{ define "main" }}
-<div class="relative min-h-screen-1/2 bg-blue-500 shadow-xl">
-    {{ partial "navigation" . }}
-    <div class="absolute inset-0 bg-blue-400 -z-1">hero</div>
+<div class="relative min-h-screen-2/3 bg-blue-500 shadow-xl">
+    {{ partial "navigation" .  }}
+    <div class="absolute inset-0 bg-blue-400 ">
+        <div class="absolute inset-0 w-full h-full">
+            <img src="/img/taipei-101-lg.jpg" alt="" class="block w-full h-full object-cover object-left-bottom">
+        </div>
+    </div>
 </div>
 <div class="flex-grow">
     <section>
-        <div id="scroll" class="container py-24 px-24">
-            <div class="grid grid-cols-2 gap-32">
+        <div id="scroll" class="container py-24 px-12 lg:px-24">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 lg:gap-32">
                 <div class="self-center copy">
                     <h2 class="text-4xl mb-2">
                         Advantages of the Taiwan Gold Card for Professionals
@@ -19,13 +23,13 @@
                     <div class="flex justify-between mt-8">
                         <a
                             href="/{{ site.Language.Lang }}/about"
-                            class="bg-white border-2 border-orange-500 rounded-md text-orange-500 font-bold leading-none shadow-xl px-6 py-3"
+                            class="bg-white border-2  border-primary rounded-md text-primary font-bold leading-none shadow-xl px-6 py-3"
                         >
                             About Gold Card
                         </a>
                         <a
                             href="/{{ site.Language.Lang }}/why-taiwan"
-                            class="bg-white border-2 border-orange-500 rounded-md text-orange-500 font-bold leading-none shadow-xl px-6 py-3"
+                            class="bg-white border-2 border-primary rounded-md text-primary font-bold leading-none shadow-xl px-6 py-3"
                         >
                             Why Taiwan
                         </a>
@@ -39,7 +43,7 @@
                             <img src="/img/dummy-icon.svg" alt="" class="w-full" />
                         </div>
                         <div>
-                            <h3 class="text-orange-500 font-bold mb-1">
+                            <h3 class="text-primary font-bold mb-1">
                                 <a href="#"> Open work rights </a>
                             </h3>
                             <p class="font-regular">
@@ -54,7 +58,7 @@
                             <img src="/img/dummy-icon.svg" alt="" class="w-full" />
                         </div>
                         <div>
-                            <h3 class="text-orange-500 font-bold mb-1">
+                            <h3 class="text-primary font-bold mb-1">
                                 <a href="#"> Apply Online </a>
                             </h3>
                             <p class="font-regular">
@@ -69,7 +73,7 @@
                             <img src="/img/dummy-icon.svg" alt="" class="w-full" />
                         </div>
                         <div>
-                            <h3 class="text-orange-500 font-bold mb-1">
+                            <h3 class="text-primary font-bold mb-1">
                                 <a href="#"> Bring your family </a>
                             </h3>
                             <p class="font-regular">
@@ -82,12 +86,12 @@
         </div>
     </section>
     <section help="call2action">
-        <div class="bg-green-800 grid grid-cols-5 shadow-xl">
-            <div class="col-span-2 relative w-full">
+        <div class="bg-green-800 grid grid-cols-1 sm:grid-cols-5 shadow-xl">
+            <div class="sm:col-span-2 relative w-full min-h-64">
                 <img src="/img/dummy-image.jpg" alt="" class="absolute inset-0 w-full h-full object-cover object-top" />
             </div>
 
-            <div class="col-span-3 text-white p-24">
+            <div class="col-span-3 text-white py-12 lg:py-24 px-12 lg:px-24">
                 <h3 class="text-4xl mb-2">
                     See how <span class="font-bold">Taiwan <span class="text-yellow-400">Gold Card</span></span> can
                     help you
@@ -99,7 +103,7 @@
                 <div class="flex justify-between mt-8">
                     <a
                         href="#"
-                        class="bg-orange-500 border-2 border-orange-500 rounded-md text-white font-bold leading-none shadow-xl px-6 py-3"
+                        class="bg-primary border-2 border-primary rounded-md text-white font-bold leading-none shadow-xl px-6 py-3"
                     >
                         Tell me more
                     </a>
@@ -110,7 +114,7 @@
     <section help="map">
         <div class="bg-green-100 py-24">
             <div class="container">
-                <div class="mx-auto w-1/2 text-center">
+                <div class="mx-auto w-full sm:w-1/2 text-center">
                     <h2 class="text-4xl">
                         People from all over the world joined
                         <span class="font-bold">Taiwan <span class="text-yellow-400">Gold Card</span></span>
@@ -119,7 +123,7 @@
                 <div class="mb-6">
                     <img src="/img/dummy-map.png" alt="" class="w-full" />
                 </div>
-                <div class="mx-auto w-3/4 text-center">
+                <div class="mx-auto w-full sm:w-3/4 text-center">
                     <p class="font-regular text-base">
                         People from all over the world decided to apply for the Taiwan Gold Card. You can find them in
                         different fiedls like: Science and Technology, Economics, Education, Culture and Art, Sport,
@@ -130,21 +134,21 @@
         </div>
     </section>
     <section help="cards">
-        <div class="container my-24 px-24">
-            <div class="mx-auto w-1/2 text-center mb-4">
+        <div class="container py-24 px-12 lg:px-24">
+            <div class="mx-auto w-full sm:w-1/2 text-center mb-4">
                 <h2 class="text-4xl">
                     This helps you to set-up and gets you
                     <span class="font-bold">Taiwan <span class="text-yellow-400">Gold Card</span></span>
                 </h2>
             </div>
-            <div class="mx-auto w-3/4 text-center">
+            <div class="mx-auto w-full sm:w-3/4 text-center">
                 <p class="">
                     The Taiwan Gold Card is a combined visa, work permit and residence permit launched in 2018 to
                     attract professional talent in Taiwan. The card gives you the right to stay, work or start your own
                     business in Taiwan.
                 </p>
             </div>
-            <div class="grid grid-cols-3 gap-12 my-12">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 my-12">
                 <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
                     <div class="mx-auto w-1/4 mb-4">
                         <img src="/img/dummy-icon.svg" alt="" class="w-full" />
@@ -204,14 +208,14 @@
     </section>
     <section help="expand">
         <div class="border-t border-green-700">
-            <div class="container my-24">
-                <div class="mx-auto w-1/2 text-center mb-4">
+            <div class="container py-24 px-12 lg:px-24">
+                <div class="mx-auto w-full sm:w-1/2 text-center mb-4">
                     <h2 class="text-4xl">
                         Expand your own business with
                         <span class="font-bold">Taiwan <span class="text-yellow-400">Gold Card</span></span>
                     </h2>
                 </div>
-                <div class="grid grid-cols-3 gap-12 my-12">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 auto-rows-fr gap-12 my-12">
                     <div class="relative rounded-lg overflow-hidden shadow-xl min-h-64">
                         <div class="absolute inset-0 -z-1">
                             <div
@@ -220,7 +224,7 @@
                             <img
                                 src="/img/dummy-image.jpg"
                                 alt=""
-                                class="block absolute inset-0 object-cover w-full h-full -z-1"
+                                class="block absolute inset-0 object-cover object-top w-full h-full -z-1"
                             />
                         </div>
                         <div class="absolute bottom-0 w-full text-center">
@@ -235,7 +239,7 @@
                             <img
                                 src="/img/dummy-image.jpg"
                                 alt=""
-                                class="block absolute inset-0 object-cover w-full h-full -z-1"
+                                class="block absolute inset-0 object-cover object-top  w-full h-full -z-1"
                             />
                         </div>
                         <div class="absolute bottom-0 w-full text-center">
@@ -250,7 +254,7 @@
                             <img
                                 src="/img/dummy-image.jpg"
                                 alt=""
-                                class="block absolute inset-0 object-cover w-full h-full -z-1"
+                                class="block absolute inset-0 object-cover object-top  w-full h-full -z-1"
                             />
                         </div>
                         <div class="absolute bottom-0 w-full text-center">
@@ -258,7 +262,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mx-auto w-2/3 text-center mb-4">
+                <div class="mx-auto w-full sm:w-2/3 text-center mb-4">
                     <p>
                         The <span class="font-bold">Taiwan <span class="text-yellow-400">Gold Card</span></span> is a
                         combined visa, work permit and residence permit launched in 2018 to attract professional talent
