@@ -10,7 +10,7 @@
         "start": "npm run gulp && hugo server",
         "gulp": "NODE_ENV=production npx gulp build",
         "build": "npm run gulp && npm run hugo",
-        "build:staging": "npm run gulp && npm run hugo -- --environment staging",
+        "build:staging": "gulp build && npm run hugo -- --environment staging",
         "watch": "npx gulp watch",
         "hugo": "hugo --gc -D --cleanDestinationDir --minify"
     },
