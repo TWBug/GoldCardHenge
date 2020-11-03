@@ -27,17 +27,16 @@
     <div
         class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
     ></div>
-    
     <section id="scroll">
         <div class="container py-24 px-24">
             {{ partial "breadcrumb" . }}
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
-                <div class="col-span-2 grid grid-cols-2 gap-12">
-                    {{ range .Pages}}
+                <div class="lg:col-span-2 grid grid-cols-2 gap-12">
+                    {{ range .Sections}}
                     <div class="flex flex-col justify-center items-center text-center border-2 border-gray-500 rounded-lg shadow-xl px-6 py-8">
                         <img src="/img/dummy-icon.svg" alt="" class="h-12 mb-4">
                         <h2 class="text-xl font-bold text-orange-500 mb-2">
-                            <a href="{{.Permalink}}">{{.Title}}</a>
+                            <a href="{{.Permalink}}">{{.Title}} {{ .Kind }}</a>
                         </h2>
                         <p class="text-center text-base">
                             {{ if (not (isset .Params "description")) | or (eq .Params.description "") }}
@@ -47,6 +46,26 @@
                             {{ end }}
                         </p>
                     </div>
+                    {{ end }}
+                    
+                    {{ $dir := .Page.Dir }}
+                    {{ range .RegularPages}}
+                    {{ if not .IsSection }}
+                    {{ if eq .Dir $dir }}
+                    <div class="col-span-2 text-left mb-2">
+                        <h2 class="text-xl font-bold text-orange-500 mb-2">
+                            <a href="{{.Permalink}}">{{.Title}}</a>
+                        </h2>
+                        <p class="text-base">
+                            {{ if (not (isset .Params "description")) | or (eq .Params.description "") }}
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            {{ else }}
+                            {{ .Params.description }}
+                            {{ end }}
+                        </p>
+                    </div>
+                    {{ end }}
+                    {{ end }}
                     {{ end }}
                     <!-- <div class="flex flex-col justify-center items-center border-2 border-gray-500 rounded-lg shadow-xl px-6 py-8">
                         <img src="/img/dummy-icon.svg" alt="" class="h-12 mb-4">
