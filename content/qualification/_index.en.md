@@ -2,6 +2,7 @@
 title: Qualifications
 draft: false
 hidden: false
+folder: goldcard
 ---
 
 # Hi, and welcome to the official Taiwan Employment Gold Card website.

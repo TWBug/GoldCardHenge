@@ -2,6 +2,7 @@
 title: 申請資格
 draft: false
 hidden: false
+folder: goldcard
 ---
 
 # 您好，歡迎來到台灣就業金卡官方網站。
