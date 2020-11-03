@@ -2,6 +2,7 @@
 title: Explore Taiwan
 draft: false
 hidden: false
+description: Take a look around our islands.
 ---
 
 # Hi, and welcome to the official Taiwan Employment Gold Card website.

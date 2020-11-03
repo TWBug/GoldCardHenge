@@ -2,6 +2,7 @@
 title: Humans of Taiwan
 draft: false
 hidden: false
+description: Meet some of our people.
 ---
 
 # Hi, and welcome to the official Taiwan Employment Gold Card website.

@@ -1,10 +1,10 @@
 ---
-title: 臺北
+title: Taipei
 draft: false
 hidden: false
 ---
 
-# 您好，歡迎來到台灣就業金卡官方網站。
+# All about Taipei
 
     1.) Taipei 101
     2.) National Chiang Kai-shek Memorial Hall

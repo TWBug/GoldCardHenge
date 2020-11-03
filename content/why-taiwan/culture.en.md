@@ -2,6 +2,7 @@
 title: Culture
 draft: false
 hidden: false
+description: Festivals, art and life.
 ---
 
 # Hi, and welcome to the official Taiwan Employment Gold Card website.
