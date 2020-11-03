@@ -153,3 +153,29 @@ blockquote {
     display: none !important;
 }
 /* purgecss end ignore */
+
+#footerHumminbird {
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-name: footer-humminbird;
+ }
+
+@keyframes footer-humminbird {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+    20% {
+        transform: translate(10px, 10px);
+    }
+    25% {
+        transform: translate(-10px, 5px);
+    }
+    40% {
+        transform: translate(0px, 0px);
+    }
+    80% {
+        transform: translate(-10px, 10px);
+    }
+  }
