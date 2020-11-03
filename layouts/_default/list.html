@@ -1,4 +1,12 @@
 {{ define "main" }}
+{{ $headline := .Page.Title }}
+{{ if isset .Page.Params "headline" }}
+{{ $headline = .Page.Params.headline }}
+{{ end }}
+{{ $teaser := .Page.Params.description }}
+{{ if isset .Page.Params "teaser" }}
+{{ $teaser = .Page.Params.teaser }}
+{{ end }}
 <div class="relative bg-blue-500 shadow-xl">
     {{ partial "navigation" . }}
     <div class="relative bg-nav-meta z-0 pt-16 pb-16">
@@ -9,11 +17,11 @@
         <div class="container">
             <div class="px-24 ">
                 <div class="grid grid-cols-3 gap-24 items-center">
-                    <div class="col-span-2">
+                    <div class="replace col-span-2">
                         <h1 class="text-white text-5xl leading-tight font-semibold mb-2">
-                            <span class="font-bold">Taiwan <span class="text-yellow-400">Gold Card</span></span> Application FAQ
+                            <span class="font-bold">{{ $headline }}
                         </h1>
-                        <p class="text-white font-semibold">The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan.</p>
+                        <p class="text-white font-semibold">{{ $teaser }}</p>
                     </div>
                     <div>
                         <img src="/img/dummy-card.svg" alt="" class="w-full">
@@ -30,30 +38,30 @@
     <section id="scroll">
         <div class="container py-24 px-24">
             {{ partial "breadcrumb" . }}
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-8">
                 <div class="lg:col-span-2 grid grid-cols-2 gap-12">
                     {{ range .Sections}}
-                    <div class="flex flex-col justify-center items-center text-center border-2 border-gray-500 rounded-lg shadow-xl px-6 py-8">
+                    <a href="{{.Permalink}}" class="flex flex-col justify-center items-center text-center border-2 border-gray-500 rounded-lg shadow-xl px-6 py-8 transition duration-300 transform hover:scale-105">
                         <img src="/img/dummy-icon.svg" alt="" class="h-12 mb-4">
-                        <h2 class="text-xl font-bold text-orange-500 mb-2">
-                            <a href="{{.Permalink}}">{{.Title}} {{ .Kind }}</a>
+                        <h2 class="text-xl font-bold text-primary mb-2">
+                            {{.Title}}
                         </h2>
-                        <p class="text-center text-base">
+                        <p class="text-center text-base font-regular">
                             {{ if (not (isset .Params "description")) | or (eq .Params.description "") }}
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             {{ else }}
                             {{ .Params.description }}
                             {{ end }}
                         </p>
-                    </div>
+                    </a>
                     {{ end }}
                     
-                    {{ $dir := .Page.Dir }}
+                    {{ $dir := .File.Dir }}
                     {{ range .RegularPages}}
                     {{ if not .IsSection }}
-                    {{ if eq .Dir $dir }}
+                    {{ if eq .File.Dir $dir }}
                     <div class="col-span-2 text-left mb-2">
-                        <h2 class="text-xl font-bold text-orange-500 mb-2">
+                        <h2 class="text-xl font-bold text-primary mb-2">
                             <a href="{{.Permalink}}">{{.Title}}</a>
                         </h2>
                         <p class="text-base">
