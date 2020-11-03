@@ -1,0 +1,16 @@
+items:
+  - name: 2Gold Card
+    folder: goldcard
+    link: /about/
+  - name: 2FAQ
+    folder: faq
+    link: /faq/
+  - name: 2Why Taiwan
+    folder: whytaiwan
+    link: /why-taiwan/
+  - name: 2Events & News
+    folder: eventsnews
+    link: /single/
+  - name: 2Resources
+    folder: resources
+    link: /single/

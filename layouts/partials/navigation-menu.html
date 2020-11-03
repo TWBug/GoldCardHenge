@@ -1,0 +1,15 @@
+{{ $folder := .Page.Params.folder }}
+{{ $language := .Site.Language.Lang }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ range $data.navigation.items }}
+{{ if eq .folder $folder}}
+<li class="bg-yellow-400 self-stretch flex items-center text-black font-bold">
+    <a href="/{{ print $language .link }}" class="px-4">{{ .name }}</a>
+</li>
+{{ else }}
+<li>
+    <a href="/{{ print $language .link }}" class="px-4">{{ .name }}</a>
+</li>
+{{ end }}
+{{ end }}
