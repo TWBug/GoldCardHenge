@@ -16,12 +16,11 @@ window.taNavigation = function () {
                 }
             }
             const scroll = document.getElementById(this.default.initiator)
-            const scroll_offset_top = scroll.offsetTop
-            // console.info('scroll', scroll.offsetTop);
+            const scroll_top = scroll.getBoundingClientRect().top
             window.addEventListener('scroll', () => {
                 // scroll
                 // var position = document.documentElement.style.getPropertyValue('--navscroll')
-                if (window.scrollY >= scroll_offset_top) {
+                if (window.scrollY >= scroll_top) {
                     this.scroll = true
                 } else {
                     this.scroll = false

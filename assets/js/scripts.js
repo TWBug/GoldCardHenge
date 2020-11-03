@@ -297,12 +297,11 @@ window.taNavigation = function () {
       }
 
       var scroll = document.getElementById(this["default"].initiator);
-      var scroll_offset_top = scroll.offsetTop; // console.info('scroll', scroll.offsetTop);
-
+      var scroll_top = scroll.getBoundingClientRect().top;
       window.addEventListener('scroll', function () {
         // scroll
         // var position = document.documentElement.style.getPropertyValue('--navscroll')
-        if (window.scrollY >= scroll_offset_top) {
+        if (window.scrollY >= scroll_top) {
           _this.scroll = true;
         } else {
           _this.scroll = false;
