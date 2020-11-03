@@ -30,17 +30,21 @@
     
     <section id="scroll">
         <div class="container py-24 px-24">
-            {{ partial "breadcrumb" . }}            
+            {{ partial "breadcrumb" . }}
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
                 <div class="col-span-2 grid grid-cols-2 gap-12">
                     {{ range .Pages}}
-                    <div class="flex flex-col justify-center items-center border-2 border-gray-500 rounded-lg shadow-xl px-6 py-8">
+                    <div class="flex flex-col justify-center items-center text-center border-2 border-gray-500 rounded-lg shadow-xl px-6 py-8">
                         <img src="/img/dummy-icon.svg" alt="" class="h-12 mb-4">
                         <h2 class="text-xl font-bold text-orange-500 mb-2">
                             <a href="{{.Permalink}}">{{.Title}}</a>
                         </h2>
                         <p class="text-center text-base">
+                            {{ if (not (isset .Params "description")) | or (eq .Params.description "") }}
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            {{ else }}
+                            {{ .Params.description }}
+                            {{ end }}
                         </p>
                     </div>
                     {{ end }}
