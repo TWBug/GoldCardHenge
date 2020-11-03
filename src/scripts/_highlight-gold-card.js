@@ -1,7 +1,7 @@
 window.highlight = {
     wrapper: {},
     replace: function () {
-        this.wrapper = document.getElementsByClassName('copy')
+        this.wrapper = document.getElementsByClassName('replace')
         if (this.wrapper === 0) {
             return false
         }

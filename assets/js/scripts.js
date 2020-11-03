@@ -21,7 +21,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 window.highlight = {
   wrapper: {},
   replace: function replace() {
-    this.wrapper = document.getElementsByClassName('copy');
+    this.wrapper = document.getElementsByClassName('replace');
 
     if (this.wrapper === 0) {
       return false;
