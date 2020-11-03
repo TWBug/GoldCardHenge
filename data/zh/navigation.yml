@@ -1,16 +1,16 @@
 items:
-  - name: 2Gold Card
+  - name: 就業金卡
     folder: goldcard
     link: /about/
   - name: 2FAQ
     folder: faq
     link: /faq/
-  - name: 2Why Taiwan
+  - name: 為什麼台灣
     folder: whytaiwan
     link: /why-taiwan/
-  - name: 2Events & News
+  - name: 活動和新聞
     folder: eventsnews
     link: /single/
-  - name: 2Resources
+  - name: 相關資源
     folder: resources
     link: /single/
