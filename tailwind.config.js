@@ -94,7 +94,9 @@ module.exports = {
             },
         },
     },
-    variants: {},
+    variants: {
+        transitionProperty: ['responsive', 'hover', 'focus'],
+    },
     plugins: [
         require('@tailwindcss/typography'),
         require('@tailwindcss/ui'),
