@@ -3,6 +3,7 @@ title: '關於就業金卡'
 draft: false
 hidden: false
 layout: single
+folder: goldcard
 ---
 
 # 就業金卡是什麼？

@@ -2,6 +2,7 @@
 title: FAQ
 draft: false
 hidden: false
+folder: faq 
 ---
 
 # 您好，歡迎來到台灣就業金卡官方網站。

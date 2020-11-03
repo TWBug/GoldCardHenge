@@ -2,6 +2,7 @@
 title: FAQ
 draft: false
 hidden: false
+folder: faq 
 ---
 
 # Hi, and welcome to the official Taiwan Employment Gold Card website.

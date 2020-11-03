@@ -3,6 +3,7 @@ title: 'About'
 draft: false
 hidden: false
 layout: single
+folder: goldcard
 ---
 
 # What is the Taiwan Gold Card?

@@ -2,6 +2,7 @@
 title: Why Taiwan
 draft: false
 hidden: false
+folder: whytaiwan
 ---
 
 # Hi, and welcome to the official Taiwan Employment Gold Card website.
