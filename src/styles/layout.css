@@ -159,27 +159,42 @@ blockquote {
 /* purgecss end ignore */
 
 #footerHumminbird {
-    animation-duration: 5s;
+    animation-duration: 20s;
     animation-timing-function: ease-in-out;
-    animation-delay: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-name: footer-humminbird;
  }
 
 @keyframes footer-humminbird {
-    0%, 100% {
-        transform: translate(0, 0);
+    0% {
+        opacity: 0;
+        transform: scale(0.5) translate(150%, 200%) rotate(10deg);
+    }
+    5% {
+        opacity: 1;
+        transform: scale(1) translate(0, 0) rotate(0deg);
     }
     20% {
-        transform: translate(10px, 10px);
+        transform: scale(1) translate(-10%, 5%) rotate(-10deg);
     }
-    25% {
-        transform: translate(-10px, 5px);
+    30% {
+        transform: scale(1) translate(40%, 5%) rotate(-5deg);
     }
     40% {
-        transform: translate(0px, 0px);
+        transform: scale(1) translate(10%, 10%) rotate(0deg);
     }
-    80% {
-        transform: translate(-10px, 10px);
+    55% {
+        opacity: 1;
+        transform: scale(1) translate(-5%, -100%) rotate(-10deg);
+    }
+    60% {
+        opacity: 0;
+        transform: scale(1.5) translate(-200%, -100%) rotate(-40deg);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.5) translate(150%, 200%) rotate(10deg);
     }
   }
