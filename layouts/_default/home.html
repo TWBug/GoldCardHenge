@@ -86,12 +86,16 @@
         </div>
     </section>
     <section help="call2action">
-        <div class="bg-green-800 grid grid-cols-1 sm:grid-cols-5 shadow-xl">
+        <div class="grid grid-cols-1 sm:grid-cols-5 bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium shadow-xl">
+            
             <div class="sm:col-span-2 relative w-full min-h-64">
                 <img src="/img/dummy-image.jpg" alt="" class="absolute inset-0 w-full h-full object-cover object-top" />
             </div>
 
-            <div class="col-span-3 text-white py-12 lg:py-24 px-12 lg:px-24">
+            <div class="relative col-span-3 text-white py-12 lg:py-24 px-12 lg:px-24 overflow-hidden z-0">
+                <div class="absolute bottom-0 right-0 w-full sm:w-2/3 lg:w-1/2 -z-1" style="bottom: -1px;">
+                    <img src="/img/footer-meta-mountains-trees.svg" class="block w-full flipped" alt="Taiwan Mountains">
+                </div>
                 <h3 class="text-4xl mb-2">
                     See how <span class="font-bold">Taiwan <span class="text-yellow-400">Gold Card</span></span> can
                     help you
@@ -112,7 +116,7 @@
         </div>
     </section>
     <section help="map">
-        <div class="bg-green-100 py-24">
+        <div class="bg-background py-24">
             <div class="container">
                 <div class="mx-auto w-full sm:w-1/2 text-center">
                     <h2 class="text-4xl">
@@ -207,7 +211,10 @@
         </div>
     </section>
     <section help="expand">
-        <div class="border-t border-green-700">
+        <div class="relative">
+            <div
+        class="absolute top-0 inset-x-0 h-full max-h-64 bg-white bg-gradient-to-b from-background to-white -z-1"
+    ></div>
             <div class="container py-24 px-12 lg:px-24">
                 <div class="mx-auto w-full sm:w-1/2 text-center mb-4">
                     <h2 class="text-4xl">
