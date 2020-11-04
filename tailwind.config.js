@@ -81,6 +81,14 @@ module.exports = {
                 ...theme('spacing'),
                 192: '48rem',
             }),
+            maxHeight: (theme) => ({
+                ...theme('spacing'),
+                'screen-1/4': 'calc(var(--vh) * 25)',
+                'screen-1/2': 'calc(var(--vh) * 50)',
+                'screen-2/3': 'calc(var(--vh) * 66)',
+                'screen-3/4': 'calc(var(--vh) * 75)',
+                screen: 'calc(var(--vh) * 100)',
+            }),
             minHeight: (theme) => ({
                 ...theme('spacing'),
                 'screen-1/4': 'calc(var(--vh) * 25)',
