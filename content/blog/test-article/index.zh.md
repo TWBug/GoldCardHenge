@@ -20,3 +20,4 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate expedita mai
 
 ![Example image](taiwan-nature.jpg)
 
+{{< faq >}}
