@@ -3,12 +3,43 @@
 {{ $favicon32 := resources.Get "img/favicon-32x32.png" | fingerprint }}
 {{ $favicon96 := resources.Get "img/favicon-96x96.png" | fingerprint }}
 {{ $appleicon144 := resources.Get "img/apple-icon-144x144.png" | fingerprint }}
+
+{{ $image := resources.Get "img/taiwan-gold-card-social-preview.jpg" }}
+{{ $headline := .Page.Title }}
+{{ $description := .Page.Title }}
+{{ if .Params.image }}
+{{ $image = .Page.Resources.GetMatch (printf "%s" (.Params.image | safeURL)) }}
+{{ end }}
+{{ if .Params.headline }}
+{{ $headline = .Params.headline | markdownify | plainify }}
+{{ end }}
+{{ if .Params.description }}
+{{ $description = .Params.description | markdownify | plainify }}
+{{ end }}
+
 {{ $styles := resources.Get "css/layout.css" | fingerprint }}
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 <meta name="dc.language" content="{{ .Site.Language.Lang }}" />
 <meta http-equiv="Content-Language" content="{{ .Site.Language.Lang }}" />
+<meta name="copyright" content="{{ .Site.Copyright }}" />
+{{ with .Params.Author }}
+<meta name="author" content="Author name" />
+{{ end }}
+<meta property="og:title" content="{{ $headline }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Page.Permalink }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+{{ with $image }}
+<meta property="og:image" content="{{ printf "%s" ($image.Permalink | safeURL) }}">
+<meta name="twitter:image" content="{{ printf "%s" ($image.Permalink | safeURL) }}">
+{{ end }}
+<meta name="twitter:site" content="{{ .Site.Title }}">
+<meta name="twitter:title" content="{{ $headline }}">
+<meta name="twitter:description" content="{{ $description }}">
+<meta name="twitter:card" content="summary_large_image">
 {{ if .IsTranslated }}
     {{ range .Translations }}
         <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
@@ -34,9 +65,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 {{ end }}
 {{ if .Site.IsServer }}
-    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
-    {{ else }}
-    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" integrity="{{ $styles.Data.Integrity }}" />
+<link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
+{{ else }}
+<link href="{{ $styles.RelPermalink }}" rel="stylesheet" integrity="{{ $styles.Data.Integrity }}" />
 {{ end }}
 <script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
 <script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js" defer></script>
