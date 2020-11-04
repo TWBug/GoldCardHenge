@@ -1,15 +1,45 @@
-{{ $folder := .Page.Params.folder }}
-{{ $language := .Site.Language.Lang }}
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $folder := .content.Page.Params.folder }}
+{{ $language := .content.Site.Language.Lang }}
+{{ $data := index .content.Site.Data .content.Site.Language.Lang }}
 
-{{ range $data.navigation.items }}
-{{ if eq .folder $folder}}
-<li class="bg-yellow-400 self-stretch flex items-center text-black font-bold">
-    <a href="/{{ print $language .link }}" class="px-4">{{ .name }}</a>
-</li>
+{{ if .scroll }}
+    {{ range $data.navigation.items }}
+    {{ if eq .folder $folder}}
+    <li class="bg-yellow-400 self-stretch flex text-black font-bold">
+        <a href="/{{ print $language .link }}" class="flex-center px-6">
+            <span>
+                {{ .name }}
+            </span>
+        </a>
+    </li>
+    {{ else }}
+    <li class="self-stretch flex hover:text-black hover:bg-white">
+        <a href="/{{ print $language .link }}" class="flex-center px-6">
+            <span>
+                {{ .name }}
+            </span>
+        </a>
+    </li>
+    {{ end }}
+    {{ end }}
 {{ else }}
-<li>
-    <a href="/{{ print $language .link }}" class="px-4">{{ .name }}</a>
-</li>
-{{ end }}
+    {{ range $data.navigation.items }}
+    {{ if eq .folder $folder}}
+    <li class="bg-yellow-400 self-stretch flex text-black font-bold">
+        <a href="/{{ print $language .link }}" class="flex-center px-6">
+            <span>
+                {{ .name }}
+            </span>
+        </a>
+    </li>
+    {{ else }}
+    <li class="self-stretch flex hover:text-black hover:bg-white">
+        <a href="/{{ print $language .link }}" class="flex-center px-6">
+            <span>
+                {{ .name }}
+            </span>
+        </a>
+    </li>
+    {{ end }}
+    {{ end }}
 {{ end }}

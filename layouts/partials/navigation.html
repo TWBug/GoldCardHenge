@@ -47,7 +47,7 @@
             <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="" />
         </a>
         <ul class="flex-grow hidden lg:flex justify-between items-center text-white text-lg font-semibold ml-20">
-            {{ partial "navigation-menu" .  }}
+            {{ partial "navigation-menu"  (dict "content" . )  }}
         </ul>
         <div class="flex lg:hidden text-white">
             <button type="button" x-on:click="toggleModal()" class="px-8 -mr-8" >
@@ -66,7 +66,9 @@
                     <img src="/img/taiwan-gold-card-logo.png" class="w-1/2" alt="" />
                 </a>
                 <ul class="flex-grow flex flex-col justify-around text-white text-2xl font-medium">
-                    {{ partial "navigation-menu" .  }}
+                    
+                    {{ partial "navigation-menu"  (dict "content" . "scroll" false ) }}
+                    
                     <!-- <li class="bg-yellow-400 self-stretch flex items-center text-black font-bold">
                         <a href="/{{ .Site.Language.Lang }}/about/" class="pl-12 py-6">Gold Card</a>
                     </li>
@@ -87,13 +89,14 @@
             
         </div>
     </div>
-    <div class="fixed inset-x-0 top-0 bg-nav-start px-8" x-show="scroll">
+    <div class="fixed inset-x-0 top-0 bg-nav-start shadow-xl px-8" x-show="scroll">
         <div class="max-w-screen-xl flex justify-between mx-auto px-8">
-            <a href="/{{ .Site.Language.Lang }}/" class="block w-1/3 sm:w-1/5 lg:w-1/6 max-w-xs py-4 lg:py-6">
+            <a href="/{{ .Site.Language.Lang }}/" class="block w-1/3 sm:w-1/5 lg:w-1/6 max-w-xs py-4 lg:py-2">
                 <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="" />
             </a>
-            <ul class="flex-grow hidden lg:flex justify-between items-center text-white text-lg font-semibold ml-20">
-                <li class="bg-yellow-400 self-stretch flex items-center text-black font-bold">
+            <ul class="flex-grow hidden lg:flex justify-between items-center text-white text-base font-semibold ml-20">
+                {{ partial "navigation-menu"  (dict "content" . "scroll" true ) }}
+                {{/*  <li class="bg-yellow-400 self-stretch flex items-center text-black font-bold">
                     <a href="/{{ .Site.Language.Lang }}/about/" class="px-4">Gold Card</a>
                 </li>
                 <li>
@@ -107,7 +110,7 @@
                 </li>
                 <li>
                     <a href="/{{ .Site.Language.Lang }}/single/" class="px-4">Resources</a>
-                </li>
+                </li>  */}}
             </ul>
             <div class="flex lg:hidden text-white">
                 <button type="button" x-on:click="toggleModal()" class="px-8 -mr-8" >
