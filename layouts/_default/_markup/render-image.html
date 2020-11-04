@@ -1,1 +1,64 @@
-    <img class="block rounded-md" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+{{ $image := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) }}
+{{ $small := $image.Resize "480x" }}
+{{ $medium := $image.Resize "768x" }}
+{{ $big := $image.Resize "1024x" }}
+{{ $alt := .PlainText | safeHTML }}
+{{ $caption := "" }}
+{{ with .Title }}
+{{ $caption = . | safeHTML }}
+{{ end }}
+{{ if not $alt }}
+{{ $alt := $caption | markdownify | plainify }}
+{{ end }}
+<figure x-data="taImageViewer()">
+    <a href="{{ $image.RelPermalink }}" @click.prevent="toggleModal()">
+        <img
+            sizes="100vw"
+            srcset="{{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 768w, {{ $big.RelPermalink }} 1024w"
+            src="{{ $image.RelPermalink }}"
+            width="{{ $image.Width }}"
+            height="{{ $image.Height }}"
+            alt="{{ if $alt }}{{ $alt }}{{ else if $caption }}{{ $caption | markdownify | plainify }}{{ else }}&nbsp;{{ end }}"
+            class="block rounded-md border-2 border-gray-100 overflow-hidden w-full shadow-xl"
+        />
+    </a>
+    {{ with $caption }}
+    <figcaption>{{ . | markdownify }}</figcaption>
+    {{ end }}
+    <div class="fixed inset-0 w-full h-full flex-center z-50" x-show="modal" x-cloak>
+        <div
+            class="absolute inset-0 w-full h-full bg-white bg-opacity-50 backdrop-blur-2"
+            @click.prevent="toggleModal()"
+            x-show="modal"
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="opacity-0"
+            x-transition:enter-end="opacity-100"
+            x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-start="opacity-100"
+            x-transition:leave-end="opacity-0"
+        ></div>
+        <div
+            class="relative container bg-white border border-gray-200 rounded-xl shadow-xl"
+            x-show="modal"
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="opacity-0 transform scale-90"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-300"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-90"
+        >
+            <button
+                type="button"
+                class="absolute top-0 right-0 flex-center bg-primary text-white rounded-full shadow-lg p-2 -m-4"
+                @click.prevent="toggleModal()"
+            >
+                <div class="flex-center w-8 h-8">{{ partial "icon" (dict "name" "times" "size" "8") }}</div>
+            </button>
+            <div class="rounded-xl overflow-hidden">
+                <div class="overflow-auto max-h-screen-3/4">
+                    <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" class="block w-full" />
+                </div>
+            </div>
+        </div>
+    </div>
+</figure>
