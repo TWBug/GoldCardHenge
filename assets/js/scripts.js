@@ -168,6 +168,18 @@ window.languageDetection = {
 };
 "use strict";
 
+window.taImageViewer = function () {
+  return {
+    modal: false,
+    "default": {},
+    init: function init() {},
+    toggleModal: function toggleModal() {
+      this.modal = !this.modal;
+    }
+  };
+};
+"use strict";
+
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
