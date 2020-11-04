@@ -55,7 +55,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-8">
                 <div class="lg:col-span-2 grid grid-cols-2 gap-12">
                     {{ range .Sections}}
-                    <a href="{{.Permalink}}" class="flex flex-col justify-center items-center text-center border-2 border-gray-500 rounded-lg shadow-xl px-6 py-8 transition duration-300 transform hover:scale-105">
+                    <a href="{{.RelPermalink}}" class="flex flex-col justify-center items-center text-center border-2 border-gray-500 rounded-lg shadow-xl px-6 py-8 transition duration-300 transform hover:scale-105">
                         <img src="/img/dummy-icon.svg" alt="" class="h-12 mb-4">
                         <h2 class="text-xl font-bold text-primary mb-2">
                             {{.Title}}
@@ -76,7 +76,7 @@
                     {{ if eq .File.Dir $dir }}
                     <div class="col-span-2 text-left mb-2">
                         <h2 class="text-xl font-bold text-primary mb-2">
-                            <a href="{{.Permalink}}">{{.Title}}</a>
+                            <a href="{{.RelPermalink}}">{{.Title}}</a>
                         </h2>
                         <p class="text-base">
                             {{ if (not (isset .Params "description")) | or (eq .Params.description "") }}
