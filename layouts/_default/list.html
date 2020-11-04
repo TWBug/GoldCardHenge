@@ -7,6 +7,16 @@
 {{ if isset .Page.Params "teaser" }}
 {{ $teaser = .Page.Params.teaser }}
 {{ end }}
+
+{{ $image := "" }}
+{{ $imageLicence := "" }}
+{{ if .Params.image }}
+{{ $image = .Page.Resources.GetMatch (printf "%s" (.Params.image | safeURL)) }}
+{{ end }}
+{{ if .Params.imageLicence }}
+{{ $imageLicence = .Params.imageLicence }}
+{{ end }}
+
 <div class="relative bg-blue-500 shadow-xl">
     {{ partial "navigation" . }}
     <div class="relative bg-nav-meta z-0 pt-16 pb-16">
@@ -24,7 +34,11 @@
                         <p class="text-white font-semibold">{{ $teaser }}</p>
                     </div>
                     <div>
-                        <img src="/img/dummy-card.svg" alt="" class="w-full">
+                        {{ if isset .Params "image" }}
+                        <img src="{{ $image.RelPermalink }}" alt="{{ .Params.imageAlt }}" class="w-full"
+                        {{ with $imageLicence}} licence="{{ $imageLicence }}"{{ end }}
+                        >
+                        {{ end }}
                     </div>
                 </div>
             </div>
