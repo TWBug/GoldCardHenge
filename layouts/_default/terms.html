@@ -1,0 +1,71 @@
+{{ define "main" }}
+{{ $headline := .Page.Title }}
+{{ if isset .Page.Params "headline" }}
+{{ $headline = .Page.Params.headline }}
+{{ end }}
+{{ $teaser := .Page.Params.description }}
+{{ if isset .Page.Params "teaser" }}
+{{ $teaser = .Page.Params.teaser }}
+{{ end }}
+
+{{ $image := "" }}
+{{ $imageLicence := "" }}
+{{ if .Params.image }}
+{{ $image = .Page.Resources.GetMatch (printf "%s" (.Params.image | safeURL)) }}
+{{ end }}
+{{ if .Params.imageLicence }}
+{{ $imageLicence = .Params.imageLicence }}
+{{ end }}
+
+<div class="relative bg-blue-500 shadow-xl" rel="terms" type="{{ .Data.Plural }}">
+    {{ partial "navigation" . }}
+    <div class="relative bg-nav-meta z-0 pt-16 pb-16">
+        <div class="absolute inset-x-0 top-0 h-3/4 bg-gradient-to-b from-black to-transparent opacity-25 -z-1"></div>
+        <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
+            <img src="/img/list-mountains.svg" alt="" class="block w-full" />
+        </div>
+        <div class="container">
+            <div class="px-24">
+                <div class="grid grid-cols-3 gap-24 items-center">
+                    <div class="replace col-span-2">
+                        <h1 class="text-white text-5xl leading-tight font-semibold mb-2">
+                            <span class="font-bold">{{ $headline }}
+                        </h1>
+                        <p class="text-white font-semibold">{{ $teaser }}</p>
+                    </div>
+                    <div>
+                        {{ if isset .Params "image" }}
+                        <img src="{{ $image.RelPermalink }}" alt="{{ .Params.imageAlt }}" class="w-full"
+                        {{ with $imageLicence}} licence="{{ $imageLicence }}"{{ end }}
+                        >
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="relative flex-grow">
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
+    ></div>
+    <section id="scroll">
+        <div class="container py-12 sm:py-24 px-12 lg:px-24">
+            {{ partial "breadcrumb" . }}
+            <div class="border-2 border-gray-200 rounded-xl bg-gray-100 p-4 mb-8">
+                {{ range sort .Data.Terms }}
+                <a
+                    class="inline-block border border-primary rounded-md text-lg font-semibold text-primary px-3 py-1 m-2"
+                    href="{{ .Page.Permalink }}"
+                >
+                    {{ .Page.Title }} ({{ .Count }})
+                </a>
+                {{ end }}
+            </div>
+            {{ if .Content }}
+            <div class="copy">{{ .Content }}</div>
+            {{ end }}
+        </div>
+    </section>
+</div>
+{{end}}
