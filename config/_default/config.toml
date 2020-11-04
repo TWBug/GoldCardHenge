@@ -2,13 +2,16 @@ DefaultContentLanguage = "en"
 baseURL = "/"
 defaultContentLanguageInSubdir = true
 enableInlineShortcodes = false
-disableKinds = ["404", "taxonomy"]
+disableKinds = ["404"]
 disableLanguages = ["de", "es"]
 ignoreErrors = ["error-disable-taxonomy"]
 pygmentsUseClasses = true
 relativeURLs = false
 title = "Taiwan Gold Card"
 copyright = "Taiwan Employment Gold Card Office"
+[taxonomies]
+tag = "tags"
+category = "categories"
 [languages]
 [languages.de]
 languageName = "Deutsch"
