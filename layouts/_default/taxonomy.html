@@ -53,8 +53,8 @@
         <div class="container py-12 sm:py-24 px-12 lg:px-24">
             {{ partial "breadcrumb" . }}
             <div class="border-2 border-gray-200 rounded-xl bg-gray-100 p-4 mb-8">
-                {{ range sort .Pages }}
-                <a class="inline-block border border-primary rounded-md text-lg font-semibold text-primary px-3 py-1 m-2" href="{{ .Permalink }}">
+                {{ range sort .Pages "Title" "asc" }}
+                <a class="inline-block border border-primary rounded-md text-lg font-semibold text-primary px-3 py-1 m-2" href="{{ .RelPermalink }}">
                     {{ .Title }}
                 </a>
                 {{ end }}
