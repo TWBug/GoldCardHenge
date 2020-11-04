@@ -67,6 +67,12 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
 11. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
 12. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
 
+## Some articles?
+
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nesciunt est soluta officiis, nulla laborum, beatae suscipit corporis nostrum eius facilis hic culpa.
+
+{{< articles >}}
+
 ## How does a inline image look like?
 
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
