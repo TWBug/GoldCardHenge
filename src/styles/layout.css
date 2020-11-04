@@ -81,6 +81,10 @@ blockquote {
     @apply font-bold pr-1;
 }
 
+.flex-center {
+    @apply flex justify-center items-center;
+}
+
 .highlight {
     @apply inline-block bg-highlight text-black whitespace-no-wrap rounded-md;
     padding-right: 0.3em;
