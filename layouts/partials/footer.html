@@ -46,6 +46,8 @@
                     <ul>
                         <li><a href="/{{ .Site.Language.Lang }}/contact">Contact</a></li>
                         <li><a href="/{{ .Site.Language.Lang }}/faq">FAQ</a></li>
+                        <li><a href="/{{ .Site.Language.Lang }}/tags/">Tags</a></li>
+                        <li><a href="/{{ .Site.Language.Lang }}/categories/">Categories</a></li>
                     </ul>
                 </div>
                 <div class="">
@@ -81,7 +83,7 @@
 <div class="bg-secondary-dark">
     <div class="container text-center py-6 px-12 lg:px-24">
         <p class="text-white text-xs font-semibold">
-            © 2020 - Taiwan Employment Gold Card Office - All rights reserverd
+            © {{ now.Format "2006"}} - {{ i18n "footer_copyright" }}
         </p>
     </div>
 </div>
