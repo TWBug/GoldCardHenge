@@ -8,6 +8,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 pygmentsUseClasses = true
 relativeURLs = false
 title = "Taiwan Gold Card"
+copyright = "Taiwan Employment Gold Card Office"
 [languages]
 [languages.de]
 languageName = "Deutsch"
