@@ -6,6 +6,9 @@ window.highlight = {
             return false
         }
         this.wrapper = this.wrapper[0]
+        if (typeof this.wrapper === 'undefined') {
+            return false
+        }
         this.replaceInDocument(
             /Taiwan Gold Card/g,
             '<span class="font-bold text-black">Taiwan <span class="highlight">Gold Card</span></span>'

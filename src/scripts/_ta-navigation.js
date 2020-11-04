@@ -17,7 +17,7 @@ window.taNavigation = function () {
             }
             const scroll = document.getElementById(this.default.initiator)
             const scroll_top = scroll.getBoundingClientRect().top  + window.scrollY
-            console.info('scroll_top', scroll_top);
+            // console.info('scroll_top', scroll_top);
             window.addEventListener('scroll', () => {
                 // scroll
                 // var position = document.documentElement.style.getPropertyValue('--navscroll')

@@ -28,6 +28,11 @@ window.highlight = {
     }
 
     this.wrapper = this.wrapper[0];
+
+    if (typeof this.wrapper === 'undefined') {
+      return false;
+    }
+
     this.replaceInDocument(/Taiwan Gold Card/g, '<span class="font-bold text-black">Taiwan <span class="highlight">Gold Card</span></span>'); // this.replaceInDocument(
     //     /Gold Card/g,
     //     '<span class="tinline-block bg-highlight text-black rounded-md px-2">Gold Card</span>'
@@ -297,8 +302,8 @@ window.taNavigation = function () {
       }
 
       var scroll = document.getElementById(this["default"].initiator);
-      var scroll_top = scroll.getBoundingClientRect().top + window.scrollY;
-      console.info('scroll_top', scroll_top);
+      var scroll_top = scroll.getBoundingClientRect().top + window.scrollY; // console.info('scroll_top', scroll_top);
+
       window.addEventListener('scroll', function () {
         // scroll
         // var position = document.documentElement.style.getPropertyValue('--navscroll')
