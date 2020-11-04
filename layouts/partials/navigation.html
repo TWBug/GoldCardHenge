@@ -1,5 +1,3 @@
-{{ $url := .Page.Permalink }}
-{{ $actual_language := .Site.Language.Lang }}
 <div class="relative hidden lg:block z-10 bg-nav-meta text-xs text-white font-semibold">
     <div class="max-w-screen-xl mx-auto flex items-center justify-between px-8">
         <div>Taiwan Employment Gold Card Office</div>
@@ -11,29 +9,7 @@
         </div>
 
         <div class="flex items-center uppercase" x-data="taLanguage()" x-init="init()">
-            <div>Change language:</div>
-            {{ range .Site.Languages }}
-            {{ if lt .Weight 10 }}
-            {{ $url = replace $url $actual_language .Lang }}
-            {{ if eq $actual_language .Lang }}
-            <a
-                href="{{ $url }}"
-                class="block bg-nav-dark font-bold px-2 py-2 mx-1"
-                @click.prevent="switchLanguage('{{ .Lang }}')"
-                title="Change Language"
-            >
-            {{ else }}
-            <a
-                href="{{ $url }}"
-                class="block px-2 py-2 mx-1"
-                @click.prevent="switchLanguage('{{ .Lang }}')"
-                title="Change Language"
-            >
-            {{ end }}
-                {{ .LanguageName }}
-            </a>
-            {{ end }}
-            {{ end }}
+            {{ partial "navigation-language" . }}
         </div>
     </div>
 </div>
@@ -66,24 +42,7 @@
                     <img src="/img/taiwan-gold-card-logo.png" class="w-1/2" alt="" />
                 </a>
                 <ul class="flex-grow flex flex-col justify-around text-white text-2xl font-medium">
-                    
                     {{ partial "navigation-menu"  (dict "content" . "scroll" false ) }}
-                    
-                    <!-- <li class="bg-yellow-400 self-stretch flex items-center text-black font-bold">
-                        <a href="/{{ .Site.Language.Lang }}/about/" class="pl-12 py-6">Gold Card</a>
-                    </li>
-                    <li>
-                        <a href="/{{ .Site.Language.Lang }}/faq/" class="block pl-12 py-6">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="/{{ .Site.Language.Lang }}/why-taiwan/" class="block pl-12 py-6">Why Taiwan</a>
-                    </li>
-                    <li>
-                        <a href="/{{ .Site.Language.Lang }}/single/" class="block pl-12 py-6">Events & News</a>
-                    </li>
-                    <li>
-                        <a href="/{{ .Site.Language.Lang }}/single/" class="block pl-12 py-6">Resources</a>
-                    </li> -->
                 </ul>
             </div>
             
@@ -96,21 +55,6 @@
             </a>
             <ul class="flex-grow hidden lg:flex justify-between items-center text-white text-base font-semibold ml-20">
                 {{ partial "navigation-menu"  (dict "content" . "scroll" true ) }}
-                {{/*  <li class="bg-yellow-400 self-stretch flex items-center text-black font-bold">
-                    <a href="/{{ .Site.Language.Lang }}/about/" class="px-4">Gold Card</a>
-                </li>
-                <li>
-                    <a href="/{{ .Site.Language.Lang }}/faq/" class="px-4">FAQ</a>
-                </li>
-                <li>
-                    <a href="/{{ .Site.Language.Lang }}/why-taiwan/" class="px-4">Why Taiwan</a>
-                </li>
-                <li>
-                    <a href="/{{ .Site.Language.Lang }}/single/" class="px-4">Events & News</a>
-                </li>
-                <li>
-                    <a href="/{{ .Site.Language.Lang }}/single/" class="px-4">Resources</a>
-                </li>  */}}
             </ul>
             <div class="flex lg:hidden text-white">
                 <button type="button" x-on:click="toggleModal()" class="px-8 -mr-8" >

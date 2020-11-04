@@ -1,0 +1,25 @@
+{{ $url := .Page.Permalink }}
+{{ $actual_language := .Site.Language.Lang }}
+<div>Change language:</div>
+{{ range .Site.Languages }}
+{{ if lt .Weight 10 }}
+{{ $url = replace $url $actual_language .Lang }}
+{{ if eq $actual_language .Lang }}
+<a
+    href="{{ $url }}"
+    class="block bg-nav-dark font-bold px-2 py-2 mx-1"
+    @click.prevent="switchLanguage('{{ .Lang }}')"
+    title="Change Language"
+>
+{{ else }}
+<a
+    href="{{ $url }}"
+    class="block px-2 py-2 mx-1"
+    @click.prevent="switchLanguage('{{ .Lang }}')"
+    title="Change Language"
+>
+{{ end }}
+    {{ .LanguageName }}
+</a>
+{{ end }}
+{{ end }}
