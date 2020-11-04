@@ -1,0 +1,9 @@
+<div>{{ i18n "tego" }}</div>
+<div class="flex items-center">
+    {{ partial "icon" (dict "name" "search" "size" "3") }}
+    <span class="uppercase pl-1">{{ i18n "search" }}</span>
+</div>
+
+<div class="flex items-center uppercase" x-data="taLanguage()" x-init="init()">
+    {{ partial "navigation-language" . }}
+</div>

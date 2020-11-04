@@ -1,16 +1,6 @@
 <div class="relative hidden lg:block z-10 bg-nav-meta text-xs text-white font-semibold">
     <div class="max-w-screen-xl mx-auto flex items-center justify-between px-8">
-        <div>Taiwan Employment Gold Card Office</div>
-        <div class="flex items-center">
-            {{ partial "icon" (dict "name" "search" "size" "3") }}
-            <span class="uppercase pl-1">
-                Search
-            </span>
-        </div>
-
-        <div class="flex items-center uppercase" x-data="taLanguage()" x-init="init()">
-            {{ partial "navigation-language" . }}
-        </div>
+        {{ partial "navigation-meta" . }}
     </div>
 </div>
 {{ if eq .Page.IsHome true }}
