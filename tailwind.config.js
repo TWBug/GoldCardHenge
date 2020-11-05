@@ -97,6 +97,9 @@ module.exports = {
                 'screen-3/4': 'calc(var(--vh) * 75)',
                 screen: 'calc(var(--vh) * 100)',
             }),
+            screens: {
+                print: { raw: 'print' },
+            },
             zIndex: {
                 '-1': '-1',
             },
