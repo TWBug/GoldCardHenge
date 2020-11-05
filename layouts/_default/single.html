@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ $articles := first 3 (where (where (where .Site.RegularPages "Section" "blog") "Params.topic" "in" "test") "RelPermalink" "!=" .Page.RelPermalink) }}
 <div class="relative shadow-xl print:shadow-none">
     {{ partial "navigation" . }}
 </div>
@@ -46,6 +47,21 @@
                             {{ partial "icon" (dict "name" "right" "size" "4") }}
                             <span class="pl-1">After passing skill assessment</span>
                         </a>
+                    </div>
+                    <div class="my-8 bg-gray-200 sticky">
+                        <span class="text-xl font-bold">Table of contents</span>
+                        <aside>
+                            {{ .TableOfContents }}
+                        </aside>
+                    </div>
+                    <div class="my-8 bg-gray-200 sticky">
+                        <span class="text-xl font-bold">Articles</span>
+                        {{ range $articles }}
+                        <a href="{{.RelPermalink}}" class="flex items-center font-bold text-primary -ml-3">
+                            {{ partial "icon" (dict "name" "right" "size" "4") }}
+                            <span class="pl-1">{{.Title}}</span>
+                        </a>
+                        {{ end }}
                     </div>
                 </div>
             </div>
