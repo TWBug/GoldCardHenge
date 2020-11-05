@@ -64,7 +64,7 @@
     </div>
 </figure>
 {{ else }}
-<div class="hidden">
-    NO IMAGE {{ .Destination | safeURL }}
+<div class="bg-gray-300 p-12">
+    NO IMAGE: {{ .Destination | safeURL }}
 </div>
 {{ end }}
