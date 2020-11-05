@@ -1,9 +1,9 @@
 ---
 title: Home
+date: 2020-11-05T04:27:58.339Z
 draft: false
 hidden: false
 ---
-
 # Hi, and welcome to the official Taiwan Employment Gold Card website.
 
 We are currently getting set up and look forward to serving you soon.
@@ -13,3 +13,5 @@ In the meantime, please check out [foreigntalentact.ndc.gov.tw](https://foreignt
 {{< link href="mailto:help@taiwangoldcard.tw" >}}
 help@taiwangoldcard.tw
 {{< /link >}}
+
+## Sup sup sup

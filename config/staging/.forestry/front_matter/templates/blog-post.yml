@@ -1,0 +1,16 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: boolean
+  name: hidden
+  label: hidden
+pages:
+- content/blog/with-images.en.md
+- content/blog/我第一文章.zh.md
