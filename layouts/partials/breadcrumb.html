@@ -16,9 +16,13 @@
     {{ .p1.Title }}
 </li>
 {{ else if .p1.IsHome }}
-<li class="flex items-center text-primary mr-2">
-    {{ partial "icon" (dict "name" "home" "size" "4") }}
-    <a href="{{ .p1.Permalink }}" class="ml-2">{{ .p1.Title }}</a>
+<li class="text-primary mr-2">
+    <a href="{{ .p1.Permalink }}" class="flex items-center">
+        {{ partial "icon" (dict "name" "home" "size" "4") }}
+        <span class="ml-2">
+            {{ .p1.Title }}
+        </span>
+    </a>
 </li>
 {{ else }}
 <li class="breadcrumb text-primary mr-2">
