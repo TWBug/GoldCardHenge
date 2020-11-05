@@ -1,3 +1,4 @@
+{{ $file := resources.Get (printf "%s" (.Destination | safeURL)) }}
 {{ $target := "_self" }}
 {{ $url := urls.Parse .Destination }}
 {{ if eq $url.Scheme "https" }}
