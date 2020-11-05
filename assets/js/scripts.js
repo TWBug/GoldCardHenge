@@ -168,6 +168,36 @@ window.languageDetection = {
 };
 "use strict";
 
+window.linksTargetBlank = {
+  wrapper: {},
+  replace: function replace() {
+    this.wrapper = document.getElementsByClassName('replace');
+
+    if (this.wrapper === 0) {
+      return false;
+    }
+
+    this.wrapper = this.wrapper[0];
+
+    if (typeof this.wrapper === 'undefined') {
+      return false;
+    }
+
+    this.wrapper.querySelectorAll('a').forEach(function (node) {
+      var files = ['pdf', 'doc', 'txt', 'docx'];
+      var last_dot = node.href.lastIndexOf('.') + 1;
+      var suffix = node.href.substring(last_dot, node.href.length);
+
+      if (files.indexOf(suffix) === -1) {
+        return false;
+      }
+
+      node.setAttribute('target', '_blank');
+    });
+  }
+};
+"use strict";
+
 window.taImageViewer = function () {
   return {
     modal: false,
@@ -342,5 +372,6 @@ function handleResize() {
 
 window.languageDetection.init();
 window.highlight.replace();
+window.linksTargetBlank.replace();
 window.addEventListener('resize', handleResize);
 handleResize();
