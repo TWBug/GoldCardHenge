@@ -1,4 +1,5 @@
 {{ $image := resources.Get (printf "%s" (.Destination | safeURL)) }}
+{{ if $image }}
 {{ $small := $image.Resize "480x" }}
 {{ $medium := $image.Resize "768x" }}
 {{ $big := $image.Resize "1024x" }}
@@ -62,3 +63,8 @@
         </div>
     </div>
 </figure>
+{{ else }}
+<div class="hidden">
+    NO IMAGE {{ .Destination | safeURL }}
+</div>
+{{ end }}
