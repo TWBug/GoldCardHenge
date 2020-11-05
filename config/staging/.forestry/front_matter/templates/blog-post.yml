@@ -12,4 +12,5 @@ fields:
   name: hidden
   label: hidden
 pages:
+- content/blog/with-images.en.md
 - content/blog/我第一文章.zh.md
