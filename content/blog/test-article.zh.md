@@ -15,7 +15,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus ass
 
 Eaque enim eveniet perspiciatis atque accusamus consequuntur unde tempore, fugiat nisi optio ex. Laboriosam incidunt voluptate minus possimus dolores asperiores ipsa, deleniti, delectus non vitae expedita, molestiae natus. Ipsa nostrum, provident facere mollitia doloribus eius [assumenda quibusdam](https://asjdhajksd.com). Eum error repellat deserunt facere est eius modi quo assumenda.
 
-<!-- ![Example image](/img/taiwan-culture.jpg) -->
+![Example image](img/uploads/taiwan-culture.jpg)
 
 {{< articles >}}
 
