@@ -2,7 +2,7 @@ items:
   - name: 就業金卡
     folder: goldcard
     link: /about/
-  - name: 2FAQ
+  - name: FAQ
     folder: faq
     link: /faq/
   - name: 為什麼台灣
