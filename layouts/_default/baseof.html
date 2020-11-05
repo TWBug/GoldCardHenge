@@ -4,10 +4,10 @@
     </head>
     {{ if eq .Site.Language.Lang "zh" }}
         <body
-        class="bg-white font-chinese leading-relaxed tracking-wide text-base text-gray-800 font-light hyphens antialiased">
+        class="bg-white font-chinese leading-relaxed tracking-wide text-base text-gray-800 print:text-black font-light hyphens antialiased">
     {{ else }}
         <body
-        class="bg-white font-sans leading-relaxed tracking-wide text-base text-gray-800 font-light hyphens antialiased">
+        class="bg-white font-sans leading-relaxed tracking-wide text-base text-gray-800 print:text-black font-light hyphens antialiased">
     {{ end }}
         <div class="flex flex-col justify-center min-h-screen">
             {{ block "main" . }} {{ end }}

@@ -1,7 +1,7 @@
 {{ define "main" }}
-<div class="relative min-h-screen-2/3 bg-blue-500 shadow-xl">
+<div class="relative min-h-screen-2/3 bg-blue-500 shadow-xl print:shadow-none">
     {{ partial "navigation" .  }}
-    <div class="absolute inset-0 bg-blue-400 ">
+    <div class="absolute inset-0 bg-blue-400 print:hidden">
         <div class="absolute inset-0 w-full h-full">
             <img src="/img/taipei-101-lg.jpg" alt="" class="block w-full h-full object-cover object-left-bottom">
         </div>
