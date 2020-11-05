@@ -9,13 +9,13 @@ sections:
   label: Blog (zh)
   create: all
   match: "**/*.zh.md"
-  new_doc_ext: ".zh.md"
+  new_doc_ext: zh.md
 - type: directory
   path: content/blog
   label: Blog (en)
   create: all
   match: "**/*.en.md"
-  new_doc_ext: ".en.md"
+  new_doc_ext: en.md
 - type: directory
   path: content
   label: Pages
