@@ -198,6 +198,14 @@ window.linksTargetBlank = {
 };
 "use strict";
 
+function handleResize() {
+  var navigationScrollHeight = document.getElementById('navigationScroll').offsetHeight;
+  document.documentElement.style.setProperty('--navigationScroll', "".concat(navigationScrollHeight, "px"));
+  var vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', "".concat(vh, "px"));
+}
+"use strict";
+
 window.taImageViewer = function () {
   return {
     modal: false,
@@ -361,13 +369,6 @@ window.taNavigation = function () {
     }
   };
 };
-"use strict";
-
-function handleResize() {
-  var vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', "".concat(vh, "px"));
-  document.documentElement.style.setProperty('--navscroll', window.innerHeight * 0.5);
-}
 "use strict";
 
 window.languageDetection.init();

@@ -149,6 +149,9 @@ module.exports = {
                 '.hyphens': {
                     hyphens: 'auto',
                 },
+                '.top-nav-scroll': {
+                    top: 'var(--navigationScroll)',
+                },
             }
             addUtilities(changedUtilities, {
                 variants: ['responsive'],

@@ -48,13 +48,7 @@
                             <span class="pl-1">After passing skill assessment</span>
                         </a>
                     </div>
-                    <div class="my-8 bg-gray-200 sticky">
-                        <span class="text-xl font-bold">Table of contents</span>
-                        <aside>
-                            {{ .TableOfContents }}
-                        </aside>
-                    </div>
-                    <div class="my-8 bg-gray-200 sticky">
+                    <div class="p-4 my-8 bg-gray-200">
                         <span class="text-xl font-bold">Articles</span>
                         {{ range $articles }}
                         <a href="{{.RelPermalink}}" class="flex items-center font-bold text-primary -ml-3">
@@ -62,6 +56,12 @@
                             <span class="pl-1">{{.Title}}</span>
                         </a>
                         {{ end }}
+                    </div>
+                    <div class="tableofcontents md:sticky top-nav-scroll">
+                        <span class="text-xl font-bold">Table of contents</span>
+                        <aside>
+                            {{ .TableOfContents }}
+                        </aside>
                     </div>
                 </div>
             </div>

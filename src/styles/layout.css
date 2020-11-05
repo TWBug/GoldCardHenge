@@ -107,6 +107,13 @@ blockquote {
     padding-right: 0.2em;
 }
 
+.tableofcontents {
+    @apply bg-gray-200 p-4 mt-8;
+}
+.tableofcontents A {
+    @apply block text-primary text-base leading-tight font-semibold my-2;
+}
+
 .copy {
     @apply leading-loose text-base;
 }
