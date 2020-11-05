@@ -14,12 +14,21 @@ backend:
 # Customize the logo that displays on the sign-in page (just found this logo via web search)
 logo_url: 'https://images.squarespace-cdn.com/content/v1/54fda45ae4b056e88666306d/1522048397733-V0ID9KLHK9KPYBQQQMV1/ke17ZwdGBToddI8pDm48kLu6I4ew71KXDwr0TupZA2UUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc_EzImbYIQh6Bf_ScjyA5THHFXQ368Ng-_1uc2knSgWnGpDWSCaGBnv7W-TNEDThe/taiwan-national-development-council.jpg'
 
+# On local host use local backend. Must run `npx netlify-cms-proxy-server` for this to work.
+# local_backend: true
+
 i18n:
     # Required and can be one of multiple_folders, multiple_files or single_file
     # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
     # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
     # single_file - persists a single file in `<folder>/<slug>.<extension>`
     structure: multiple_files
+
+    # content/blog/first.en.md
+    # content/blog/first.zh.md
+    #
+    # content/blog/en/first.md
+    # content/blog/zh/first.md
 
     # Required - a list of locales to show in the editor UI
     locales: [en, zh]
@@ -28,16 +37,18 @@ i18n:
     # The locale to be used for fields validation and as a baseline for the entry.
     default_locale: en
 
+# Whether or not ot interact directly with the local git repo rather than the
+# remote repo on github. Requires `npx netlify-cms-proxy-server` running.
 local_backend: true
 
 # Require posts to be "ready" before finally publishing them
 publish_mode: editorial_workflow
 
 # Media files will be stored in the repo under static/img/uploads
-media_folder: 'static/img/uploads'
+media_folder: 'assets/cms-uploads'
 
 # The src attribute for uploaded media will begin with /images/uploads
-public_folder: '/img/uploads'
+public_folder: '/cms-uploads/uploads'
 
 # The various collections we use for the site. They correspond to directories of content
 collections:
@@ -51,10 +62,22 @@ collections:
       fields:
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'single', i18n: duplicate }
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Description', name: 'description', widget: 'string', i18n: true }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
           - { label: 'Draft?', name: 'draft', widget: 'boolean', default: true, i18n: duplicate }
-          - { label: 'Hidden?', name: 'hidden', widget: 'boolean', default: false, i18n: duplicate }
+          - { label: 'Hidden?', name: 'hidden', widget: 'boolean', default: false, i18n: true }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    # Top-level pages
+    - name: 'blarg'
+      label: 'Blarg'
+      folder: 'content/blarg'
+      create: true
+      slug: '{{slug}}'
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Lang', name: 'lang', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
 
     # Configure the site. Menus for example
     - name: 'config'
