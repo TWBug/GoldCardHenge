@@ -44,11 +44,11 @@ local_backend: true
 # Require posts to be "ready" before finally publishing them
 publish_mode: editorial_workflow
 
-# Media files will be stored in the repo under static/img/uploads
+# Media files will be stored in the repo under here
 media_folder: 'assets/cms-uploads'
 
-# The src attribute for uploaded media will begin with /images/uploads
-public_folder: '/cms-uploads/uploads'
+# The src attribute for uploaded media will begin with this
+public_folder: '/cms-uploads'
 
 # The various collections we use for the site. They correspond to directories of content
 collections:
