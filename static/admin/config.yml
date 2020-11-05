@@ -28,6 +28,8 @@ i18n:
     # The locale to be used for fields validation and as a baseline for the entry.
     default_locale: en
 
+local_backend: true
+
 # Require posts to be "ready" before finally publishing them
 publish_mode: editorial_workflow
 
@@ -60,15 +62,27 @@ collections:
       editor:
           preview: false
       files:
-          - label: 'Navigation'
-            name: 'navigation'
-            file: 'data/navigation.yml'
+          - label: 'Navigation (en)'
+            name: 'navigation_en'
+            file: 'data/en/navigation.yml'
             fields:
                 - label: 'Navigation Items'
                   name: 'items'
                   widget: 'list'
                   fields:
                       - { label: Name, name: name, widget: string }
+                      - { label: Link, name: folder, widget: string }
+                      - { label: Link, name: link, widget: string }
+          - label: 'Navigation (zh)'
+            name: 'navigation_zh'
+            file: 'data/zh/navigation.yml'
+            fields:
+                - label: 'Navigation Items'
+                  name: 'items'
+                  widget: 'list'
+                  fields:
+                      - { label: Name, name: name, widget: string }
+                      - { label: Link, name: folder, widget: string }
                       - { label: Link, name: link, widget: string }
 
     - name: 'blog' # Used in routes, e.g., /admin/collections/blog
@@ -91,6 +105,7 @@ collections:
       fields: # The fields for each document, usually in front matter
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog', i18n: duplicate }
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
           - { label: 'Draft?', name: 'draft', widget: 'boolean', default: true, i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
