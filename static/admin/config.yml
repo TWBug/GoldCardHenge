@@ -74,12 +74,14 @@ collections:
       label: 'Dev Testing Pages'
       folder: 'content/dev'
       create: true
+      i18n: true
       slug: '{{slug}}'
       preview_path: dev/{{slug}}
       fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Lang', name: 'lang', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Banner Image', name: 'banner_image', widget: 'image', i18n: duplicate, required: false }
+          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     # Configure the site. Menus for example
     - name: 'config'
