@@ -6,10 +6,6 @@ window.taWelcome = function () {
         supported_languages: ['en','zh'],
         headline: '',
         description: '',
-        default: {
-            language: 'en',
-            supported: ['en', 'zh'],
-        },
         init() {
             var welcome = localStorage.getItem("welcome")
             if (welcome === null) {
@@ -60,7 +56,6 @@ window.taWelcome = function () {
         checkBrowserLanguage() {
             const browser_language = navigator.language || navigator.userLanguage
             const user_language = browser_language.split('-')
-            console.info('user_language', user_language);
             this.language = user_language[0]
             if (this.available_languages.indexOf(this.language) === -1) {
                 return false
