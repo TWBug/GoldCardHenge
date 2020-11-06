@@ -69,11 +69,8 @@
                         </p>
                     </a>
                     {{ end }}
-                    
-                    {{ $dir := .File.Dir }}
                     {{ range .RegularPages}}
                     {{ if not .IsSection }}
-                    {{ if eq .File.Dir $dir }}
                     <div class="col-span-2 text-left mb-2">
                         <h2 class="text-xl font-bold text-primary mb-2">
                             <a href="{{.RelPermalink}}">{{.Title}}</a>
@@ -88,45 +85,6 @@
                     </div>
                     {{ end }}
                     {{ end }}
-                    {{ end }}
-                    
-                    <!-- <div class="flex flex-col justify-center items-center border-2 border-gray-500 rounded-lg shadow-xl px-6 py-8">
-                        <img src="/img/dummy-icon.svg" alt="" class="h-12 mb-4">
-                        <h2 class="text-xl font-bold text-orange-500 mb-2">
-                            <a href="#">How to set-up</a>
-                        </h2>
-                        <p class="text-center text-base">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                    </div>
-                    <div class="border-2 border-gray-500 rounded-lg shadow-xl">
-                        <div class="w-full h-32">
-                            <img src="/img/dummy-image.jpg" alt="" class="w-full h-full object-cover object-top">
-                        </div>
-                        <div class="flex flex-col justify-center items-center px-6 pt-4 pb-8">
-                            
-                            <h2 class="text-xl font-bold text-orange-500 mb-2">
-                                <a href="#">How to set-up</a>
-                            </h2>
-                            <p class="text-center text-base">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="border-2 border-gray-500 rounded-lg shadow-xl">
-                        <div class="w-full h-32">
-                            <img src="/img/dummy-image.jpg" alt="" class="w-full h-full object-cover object-top">
-                        </div>
-                        <div class="flex flex-col justify-center items-center px-6 pt-4 pb-8">
-                            
-                            <h2 class="text-xl font-bold text-orange-500 mb-2">
-                                <a href="#">How to set-up</a>
-                            </h2>
-                            <p class="text-center text-base">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            </p>
-                        </div>
-                    </div> -->
                 </div>
                 <div class="copy order-first lg:order-last">
                     {{.Content}}
