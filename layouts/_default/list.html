@@ -35,7 +35,7 @@
                     </div>
                     <div>
                         {{ if isset .Params "image" }}
-                        <img src="{{ $image.RelPermalink }}" alt="{{ .Params.imageAlt }}" class="w-full"
+                        <img src="{{ $image.RelPermalink }}" alt="{{ .Params.imageAlt }}" class="w-full" loading="lazy"
                         {{ with $imageLicence}} licence="{{ $imageLicence }}"{{ end }}
                         >
                         {{ end }}

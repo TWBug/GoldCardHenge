@@ -11,7 +11,12 @@
     {{ if isset .Params "link"}}
     <a href="{{ index .Params "link"}}">
     {{ end }}
-    <img src="{{ index .Params "src" }}" {{ if or (isset .Params "alt") (isset .Params "caption") }}alt="{{ if isset .Params "alt"}}{{ index .Params "alt"}}{{else}}{{ index .Params "caption" }}{{ end }}"{{ end }} class="block rounded-md w-full" />
+    <img
+        src="{{ index .Params "src" }}" {{ if or (isset .Params "alt") (isset .Params "caption") }}
+        alt="{{ if isset .Params "alt"}}{{ index .Params "alt"}}{{else}}{{ index .Params "caption" }}{{ end }}"{{ end }}
+        class="block rounded-md w-full"
+        loading="lazy"
+    />
     {{ if isset .Params "link"}}
     </a>
     {{ end }}
