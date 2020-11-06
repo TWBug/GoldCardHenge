@@ -213,6 +213,9 @@ window.taImageViewer = function () {
     init: function init() {},
     toggleModal: function toggleModal() {
       this.modal = !this.modal;
+    },
+    hideModal: function hideModal() {
+      this.modal = false;
     }
   };
 };

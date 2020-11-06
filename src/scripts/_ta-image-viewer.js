@@ -9,6 +9,9 @@ window.taImageViewer = function () {
         },
         toggleModal() {
             this.modal = !this.modal
+        },
+        hideModal() {
+            this.modal = false
         }
     }
 }
