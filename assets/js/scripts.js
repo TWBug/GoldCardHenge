@@ -290,29 +290,6 @@ window.taLanguage = function () {
     }
   };
 };
-// window.taLanguageModal = function () {
-//     return {
-//         language: 'en',
-//         default: {
-//             language: 'en',
-//             supported: ['en', 'zh'],
-//         },
-//         init() {
-//             this.loadLanguage('en')
-//         },
-//         loadLanguage(language) {
-//             const url = location.origin + '/' + language + '/modal/'
-//             fetch(url)
-//                 .then((response) => {
-//                     console.info('response', response.body.getReader());
-//                 })
-//                 .catch((error) => {
-//                     console.warn(error)
-//                 })
-//         },
-//     }
-// }
-"use strict";
 "use strict";
 
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
@@ -369,6 +346,90 @@ window.taNavigation = function () {
     },
     toggleModal: function toggleModal() {
       this.modal = !this.modal;
+    }
+  };
+};
+"use strict";
+
+window.taWelcome = function () {
+  return {
+    show: false,
+    language: 'en',
+    available_languages: ['de', 'es', 'ar'],
+    supported_languages: ['en', 'zh'],
+    headline: '',
+    description: '',
+    "default": {
+      language: 'en',
+      supported: ['en', 'zh']
+    },
+    init: function init() {
+      var welcome = localStorage.getItem("welcome");
+
+      if (welcome === null) {
+        this.checkBrowserLanguage();
+        return false;
+      }
+
+      var timestamp = Date.parse(welcome);
+
+      if (Number.isNaN(timestamp)) {
+        this.checkBrowserLanguage();
+        return false;
+      }
+
+      var date = new Date(welcome);
+      var today = new Date();
+      var difference = Math.round((today - date) / 1000);
+
+      if (difference > 2592000) {
+        this.checkBrowserLanguage();
+        return false;
+      }
+
+      return true;
+    },
+    setLanguage: function setLanguage(language) {
+      if (this.supported_languages.indexOf(language) === -1) {
+        return false;
+      }
+
+      this.hide();
+      localStorage.setItem('language', language);
+      window.location.href = location.origin + '/' + language + '/';
+    },
+    hide: function hide() {
+      this.show = false;
+      localStorage.setItem("welcome", new Date().toString());
+    },
+    fetchData: function fetchData(language) {
+      var _this = this;
+
+      var url = location.origin + '/' + language + '/welcome.json';
+      fetch(url).then(function (response) {
+        return response.json();
+      }).then(function (json) {
+        if (typeof json.headline !== 'undefined' && typeof json.description !== 'undefined') {
+          _this.headline = json.headline;
+          _this.description = json.description;
+          _this.show = true;
+        }
+      })["catch"](function (error) {
+        console.warn(error);
+      });
+    },
+    checkBrowserLanguage: function checkBrowserLanguage() {
+      var browser_language = navigator.language || navigator.userLanguage;
+      var user_language = browser_language.split('-');
+      console.info('user_language', user_language);
+      this.language = user_language[0];
+
+      if (this.available_languages.indexOf(this.language) === -1) {
+        return false;
+      }
+
+      this.fetchData(this.language);
+      return true;
     }
   };
 };

@@ -1,36 +1,57 @@
 DefaultContentLanguage = "en"
 baseURL = "/"
+copyright = "Taiwan Employment Gold Card Office"
 defaultContentLanguageInSubdir = true
-enableInlineShortcodes = false
+disableAliases = true
+disableHugoGeneratorInject = false
 disableKinds = ["404"]
-disableLanguages = ["de", "es"]
+disableLanguages = []
+enableInlineShortcodes = true
 ignoreErrors = ["error-disable-taxonomy"]
 pygmentsUseClasses = true
 relativeURLs = false
 title = "Taiwan Gold Card"
-copyright = "Taiwan Employment Gold Card Office"
 [taxonomies]
-tag = "tags"
 category = "categories"
+tag = "tags"
 [languages]
-[languages.de]
-languageName = "Deutsch"
-title = "Taiwan Gold Card"
-weight = 10
 [languages.en]
 languageName = "English"
 title = "Taiwan Gold Card"
 weight = 1
+[languages.en.outputs]
+home = ["HTML", "MANIFEST"]
 [languages.en.params]
 linkedin = "https://linkedin.com/whoever"
-[languages.es]
-languageName = "Español"
-title = "Taiwan Gold Card"
-weight = 10
 [languages.zh]
 languageName = "中文"
 title = "台灣金卡"
 weight = 2
+[languages.zh.outputs]
+home = ["HTML", "MANIFEST"]
+
+[languages.de]
+languageName = "Deutsch"
+title = "Taiwan Gold Card"
+disableKinds = ["404", "taxonomy", "sitemap"]
+weight = 10
+[languages.de.outputs]
+home = ["WELCOME"]
+[languages.es]
+languageName = "Español"
+title = "Taiwan Gold Card"
+disableKinds = ["404", "taxonomy", "sitemap"]
+weight = 10
+[languages.es.outputs]
+home = ["WELCOME"]
+[languages.ar]
+languageName = "عربى"
+title = "Taiwan Gold Card"
+disableKinds = ["404", "taxonomy", "sitemap"]
+weight = 10
+[languages.ar.outputs]
+home = ["WELCOME"]
+
 [minify]
 disableCSS = true
 disableHTML = false
@@ -46,5 +67,11 @@ page = ["HTML"]
 baseName = "manifest"
 mediaType = "application/json"
 name = "manifest"
+notAlternative = "true"
+permalinkable = "true"
+[outputFormats.welcome]
+baseName = "welcome"
+mediaType = "application/json"
+name = "welcome"
 notAlternative = "true"
 permalinkable = "true"
