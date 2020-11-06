@@ -1,5 +1,6 @@
 ---
 title: Home
+description: The official home page for the Taiwan Gold Card
 date: 2020-11-05T04:27:58.339Z
 draft: false
 hidden: false
@@ -13,5 +14,3 @@ In the meantime, please check out [foreigntalentact.ndc.gov.tw](https://foreignt
 {{< link href="mailto:help@taiwangoldcard.tw" >}}
 help@taiwangoldcard.tw
 {{< /link >}}
-
-## Sup sup sup
