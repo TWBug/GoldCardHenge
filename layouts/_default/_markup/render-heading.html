@@ -7,15 +7,15 @@
     {{ .Text | safeHTML }}
   </h2>
 {{ else if eq .Level 3 }}
-  <h3 id="{{ .Anchor | safeURL }}" class="append text-xl font-semibold text-secondary leading-snug mb-2 mt-4">
+  <h3 id="{{ .Anchor | safeURL }}" class="text-xl font-semibold text-secondary leading-snug mb-2 mt-4">
     {{ .Text | safeHTML }}
   </h3>
 {{ else if eq .Level 4 }}
-  <h4 id="{{ .Anchor | safeURL }}" class="append text-base font-semibold text-secondary leading-snug mb-2">
+  <h4 id="{{ .Anchor | safeURL }}" class="text-base font-semibold text-secondary leading-snug mb-2">
     {{ .Text | safeHTML }}
   </h4>
 {{ else if eq .Level 5 }}
-  <h5 id="{{ .Anchor | safeURL }}" class="append text-base font-semibold text-secondary leading-snug mb-2">
+  <h5 id="{{ .Anchor | safeURL }}" class="text-base font-semibold text-secondary leading-snug mb-2">
     {{ .Text | safeHTML }}
   </h5>
 {{ else }}
