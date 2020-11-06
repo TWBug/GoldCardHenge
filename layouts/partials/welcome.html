@@ -1,6 +1,6 @@
-<div class="fixed inset-0  z-50" x-data="taWelcome()" x-init="init()" x-cloak>
+<div x-data="taWelcome()" x-init="init()" x-cloak>
     <template x-if="show">
-        <div class="w-full h-full flex justify-center items-center">
+        <div class="fixed inset-0 z-50 w-full h-full flex justify-center items-center">
             <div class="absolute inset-0 w-full h-full bg-white backdrop-blur-2 bg-opacity-75" @click="hide()"></div>
             <div class="relative w-1/2 max-w-xl text-center bg-white border-2 border-gray-200 rounded-lg shadow-2xl p-12">
                 <button
