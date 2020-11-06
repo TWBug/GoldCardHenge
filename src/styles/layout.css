@@ -77,7 +77,7 @@ blockquote {
     @apply relative inline-block;
 }
 .breadcrumb::before {
-    content: ">";
+    content: '>';
     @apply font-bold pr-1;
 }
 
@@ -108,14 +108,20 @@ blockquote {
 }
 
 .tableofcontents {
-    @apply bg-gray-200 p-4 mt-8;
+    @apply bg-gray-200 max-h-screen-2/3 p-4 mt-8;
 }
 .tableofcontents A {
-    @apply block text-primary text-base leading-tight font-semibold my-2;
+    @apply block text-primary text-base leading-tight font-semibold py-1;
+}
+.tableofcontents UL UL {
+    @apply pb-2;
+}
+.tableofcontents UL UL A {
+    @apply text-sm font-medium;
 }
 
 .copy {
-    @apply leading-loose text-base;
+    @apply leading-relaxed text-base;
 }
 .copy.copy--large {
     @apply text-xl;
@@ -126,9 +132,11 @@ blockquote {
     @apply font-regular mb-4;
 }
 
-.copy strong,
-.copy strong a {
+.copy strong {
     @apply font-medium text-black;
+}
+.copy strong a {
+    @apply font-semibold text-primary;
 }
 
 .copy em,
@@ -136,13 +144,32 @@ blockquote {
     @apply font-regular italic;
 }
 
+/* fallback if content list is with double line break */
+.copy ul p,
+.copy ol p {
+    @apply pb-0 mb-0;
+}
+
 .copy ul {
     list-style-type: '>';
     @apply list-outside -ml-2 mb-4;
 }
 
+.copy ul ul {
+    list-style-type: '-';
+    @apply list-outside ml-2 mt-2;
+}
+
+.copy ul ul ul {
+    list-style-type: '-';
+    @apply list-outside text-md ml-2 my-2;
+}
+
 .copy ul li {
     @apply text-black font-regular pb-2 pl-2;
+}
+.copy UL UL LI:last-of-type {
+    @apply pb-0;
 }
 
 .copy ol {
@@ -176,7 +203,7 @@ blockquote {
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-name: footer-humminbird;
- }
+}
 
 @keyframes footer-humminbird {
     0% {
@@ -208,4 +235,4 @@ blockquote {
         opacity: 0;
         transform: scale(0.5) translate(150%, 200%) rotate(10deg);
     }
-  }
+}
