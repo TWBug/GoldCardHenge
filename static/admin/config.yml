@@ -9,7 +9,7 @@
 backend:
     name: github
     repo: tego-tech/www
-    site_domain: www.taiwangoldcard.tw # See NOTE
+    site_domain: staging.taiwangoldcard.tw # See NOTE
 
 # Customize the logo that displays on the sign-in page (just found this logo via web search)
 logo_url: 'https://images.squarespace-cdn.com/content/v1/54fda45ae4b056e88666306d/1522048397733-V0ID9KLHK9KPYBQQQMV1/ke17ZwdGBToddI8pDm48kLu6I4ew71KXDwr0TupZA2UUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc_EzImbYIQh6Bf_ScjyA5THHFXQ368Ng-_1uc2knSgWnGpDWSCaGBnv7W-TNEDThe/taiwan-national-development-council.jpg'

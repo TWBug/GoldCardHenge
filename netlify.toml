@@ -1,12 +1,12 @@
 # For reference, see:
 # https://github.com/gohugoio/hugoDocs/blob/master/netlify.toml
 [build]
-command = "hugo --gc --minify"
+command = "npm run build:staging"
 publish = "public"
 
 [context.production.environment]
 HUGO_ENABLEGITINFO = "true"
-HUGO_ENV = "production"
+HUGO_ENV = "staging"
 HUGO_VERSION = "0.76.4"
 
 [context.split1]
@@ -34,11 +34,11 @@ HUGO_ENABLEGITINFO = "true"
 ##
 # 404 redirects by lang
 [[redirects]]
-  from = "/en/*"
-  to = "/en/error/"
-  status = 404
+from = "/en/*"
+status = 404
+to = "/en/error/"
 
 [[redirects]]
-  from = "/zh/*"
-  to = "/zh/error/"
-  status = 404
+from = "/zh/*"
+status = 404
+to = "/zh/error/"
