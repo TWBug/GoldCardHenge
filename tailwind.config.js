@@ -71,6 +71,7 @@ module.exports = {
                 bolder: 'bolder',
             },
             fontSize: {
+                'md': '0.925rem',
                 '5xl': '2.45rem',
             },
             maxWidth: (theme) => ({
