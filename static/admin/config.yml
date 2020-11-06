@@ -59,6 +59,7 @@ collections:
       create: true
       slug: '{{slug}}'
       i18n: true
+      preview_path: '{{slug}}'
       fields:
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'single', i18n: duplicate }
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
@@ -69,11 +70,12 @@ collections:
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     # Top-level pages
-    - name: 'blarg'
-      label: 'Blarg'
-      folder: 'content/blarg'
+    - name: 'dev'
+      label: 'Dev Testing Pages'
+      folder: 'content/dev'
       create: true
       slug: '{{slug}}'
+      preview_path: dev/{{slug}}
       fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Lang', name: 'lang', widget: 'string' }
@@ -113,6 +115,7 @@ collections:
       folder: 'content/blog' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
       slug: '{{slug}}' # Filename template, e.g., my-title.md
+      preview_path: blog/{{slug}}
 
       # Same as the top level i18n config, but all fields are optional and
       # defaults to the top level can also be a boolean to accept the top level
