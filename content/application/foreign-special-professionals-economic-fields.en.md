@@ -3,6 +3,7 @@ title: Foreign special professionals in economic fields
 date: 2020-11-05T07:09:20.617Z
 draft: false
 description: "Foreign special professionals with specialized knowledge/skills in economic fields (Eligibility / prerequisite & Supporting Documents Required)"
+folder: resources
 ---
 
 # Foreign special professionals with specialized knowledge / skills in economic fields

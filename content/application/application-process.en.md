@@ -2,6 +2,7 @@
 title: Application Process
 draft: false
 hidden: false
+folder: resources
 ---
 
 # Application Process

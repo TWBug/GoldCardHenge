@@ -2,6 +2,7 @@
 title: 申請流程
 draft: false
 hidden: false
+folder: resources
 ---
 
 # 您好，歡迎來到台灣就業金卡官方網站。
