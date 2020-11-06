@@ -360,17 +360,17 @@ window.taWelcome = function () {
     headline: '',
     description: '',
     init: function init() {
-      var welcome = localStorage.getItem("welcome");
+      var welcome = localStorage.getItem('welcome');
 
       if (welcome === null) {
-        this.checkBrowserLanguage();
+        this.showModal();
         return false;
       }
 
       var timestamp = Date.parse(welcome);
 
       if (Number.isNaN(timestamp)) {
-        this.checkBrowserLanguage();
+        this.showModal();
         return false;
       }
 
@@ -379,7 +379,7 @@ window.taWelcome = function () {
       var difference = Math.round((today - date) / 1000);
 
       if (difference > 2592000) {
-        this.checkBrowserLanguage();
+        this.showModal();
         return false;
       }
 
@@ -396,7 +396,7 @@ window.taWelcome = function () {
     },
     hide: function hide() {
       this.show = false;
-      localStorage.setItem("welcome", new Date().toString());
+      localStorage.setItem('welcome', new Date().toString());
     },
     fetchData: function fetchData(language) {
       var _this = this;
@@ -414,7 +414,19 @@ window.taWelcome = function () {
         console.warn(error);
       });
     },
-    checkBrowserLanguage: function checkBrowserLanguage() {
+    listenerKeyupEscape: function listenerKeyupEscape() {
+      var _this2 = this;
+
+      document.addEventListener('keyup', function (event) {
+        var key = event.key || event.keyCode;
+        console.info('key', key);
+
+        if (key === 27 || key === 'Escape') {
+          _this2.hide();
+        }
+      });
+    },
+    showModal: function showModal() {
       var browser_language = navigator.language || navigator.userLanguage;
       var user_language = browser_language.split('-');
       this.language = user_language[0];
@@ -424,6 +436,7 @@ window.taWelcome = function () {
       }
 
       this.fetchData(this.language);
+      this.listenerKeyupEscape();
       return true;
     }
   };

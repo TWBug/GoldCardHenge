@@ -2,26 +2,26 @@ window.taWelcome = function () {
     return {
         show: false,
         language: 'en',
-        available_languages: ['de','es', 'ar'],
-        supported_languages: ['en','zh'],
+        available_languages: ['de', 'es', 'ar'],
+        supported_languages: ['en', 'zh'],
         headline: '',
         description: '',
         init() {
-            var welcome = localStorage.getItem("welcome")
+            var welcome = localStorage.getItem('welcome')
             if (welcome === null) {
-                this.checkBrowserLanguage()
+                this.showModal()
                 return false
             }
             var timestamp = Date.parse(welcome)
             if (Number.isNaN(timestamp)) {
-                this.checkBrowserLanguage()
+                this.showModal()
                 return false
             }
             var date = new Date(welcome)
             var today = new Date()
             var difference = Math.round((today - date) / 1000)
             if (difference > 2592000) {
-                this.checkBrowserLanguage()
+                this.showModal()
                 return false
             }
             return true
@@ -36,7 +36,7 @@ window.taWelcome = function () {
         },
         hide() {
             this.show = false
-            localStorage.setItem("welcome", new Date().toString())
+            localStorage.setItem('welcome', new Date().toString())
         },
         fetchData(language) {
             const url = location.origin + '/' + language + '/welcome.json'
@@ -53,7 +53,16 @@ window.taWelcome = function () {
                     console.warn(error)
                 })
         },
-        checkBrowserLanguage() {
+        listenerKeyupEscape() {
+            document.addEventListener('keyup', (event) => {
+                var key = event.key || event.keyCode
+                console.info('key', key);
+                if (key === 27 || key === 'Escape') {
+                    this.hide()
+                }
+            })
+        },
+        showModal() {
             const browser_language = navigator.language || navigator.userLanguage
             const user_language = browser_language.split('-')
             this.language = user_language[0]
@@ -61,6 +70,7 @@ window.taWelcome = function () {
                 return false
             }
             this.fetchData(this.language)
+            this.listenerKeyupEscape()
             return true
         },
     }
