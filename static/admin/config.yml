@@ -59,7 +59,7 @@ collections:
       create: true
       slug: '{{slug}}'
       i18n: true
-      preview_path: '{{slug}}'
+      preview_path: en/{{slug}}
       fields:
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'single', i18n: duplicate }
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
@@ -76,7 +76,7 @@ collections:
       create: true
       i18n: true
       slug: '{{slug}}'
-      preview_path: dev/{{slug}}
+      preview_path: en/dev/{{slug}}
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Banner Image', name: 'banner_image', widget: 'image', i18n: duplicate, required: false }
@@ -117,7 +117,7 @@ collections:
       folder: 'content/blog' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
       slug: '{{slug}}' # Filename template, e.g., my-title.md
-      preview_path: blog/{{slug}}
+      preview_path: en/blog/{{slug}}
 
       # Same as the top level i18n config, but all fields are optional and
       # defaults to the top level can also be a boolean to accept the top level
