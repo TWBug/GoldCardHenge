@@ -419,7 +419,6 @@ window.taWelcome = function () {
 
       document.addEventListener('keyup', function (event) {
         var key = event.key || event.keyCode;
-        console.info('key', key);
 
         if (key === 27 || key === 'Escape') {
           _this2.hide();

@@ -56,7 +56,6 @@ window.taWelcome = function () {
         listenerKeyupEscape() {
             document.addEventListener('keyup', (event) => {
                 var key = event.key || event.keyCode
-                console.info('key', key);
                 if (key === 27 || key === 'Escape') {
                     this.hide()
                 }
