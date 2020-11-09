@@ -3,8 +3,6 @@ title: Question 2 EN
 date: 2020-11-04T06:52:19.195Z
 draft: false
 folder: faq
-categories:
-- test
 tags:
 - card
 - spain

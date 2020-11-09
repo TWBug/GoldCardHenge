@@ -1,5 +1,7 @@
 ---
 title: 我第一篇文章
+categories:
+- first
 ---
 # 大家好，這是一篇文章
 
