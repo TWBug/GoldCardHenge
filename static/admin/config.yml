@@ -83,7 +83,7 @@ collections:
       files:
           - label: 'Navigation (en)'
             name: 'navigation_en'
-            file: 'data/en/navigation.yml'
+            file: 'data/en/navigation.yaml'
             fields:
                 - label: 'Navigation Items'
                   name: 'items'
@@ -94,7 +94,7 @@ collections:
                       - { label: Link, name: link, widget: string }
           - label: 'Navigation (zh)'
             name: 'navigation_zh'
-            file: 'data/zh/navigation.yml'
+            file: 'data/zh/navigation.yaml'
             fields:
                 - label: 'Navigation Items'
                   name: 'items'
