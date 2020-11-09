@@ -152,7 +152,7 @@ blockquote {
 
 .copy ul {
     list-style-type: '>';
-    @apply list-outside -ml-2 mb-4;
+    @apply list-outside ml-2 mb-4;
 }
 
 .copy ul ul {
@@ -175,7 +175,7 @@ blockquote {
 .copy ol {
     counter-reset: twgc-counter;
     list-style: none;
-    @apply -ml-2 mb-4;
+    @apply ml-5 mb-4;
 }
 .copy ol li {
     counter-increment: twgc-counter;
