@@ -11,11 +11,13 @@ backend:
     repo: tego-tech/www
     site_domain: staging.taiwangoldcard.tw # See NOTE
 
+# Whether or not ot interact directly with the local git repo rather than the
+# remote repo on github. Requires `npx netlify-cms-proxy-server` running.
+# These settings only apply on localhost.
+local_backend: true
+
 # Customize the logo that displays on the sign-in page (just found this logo via web search)
 logo_url: 'https://images.squarespace-cdn.com/content/v1/54fda45ae4b056e88666306d/1522048397733-V0ID9KLHK9KPYBQQQMV1/ke17ZwdGBToddI8pDm48kLu6I4ew71KXDwr0TupZA2UUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc_EzImbYIQh6Bf_ScjyA5THHFXQ368Ng-_1uc2knSgWnGpDWSCaGBnv7W-TNEDThe/taiwan-national-development-council.jpg'
-
-# On local host use local backend. Must run `npx netlify-cms-proxy-server` for this to work.
-# local_backend: true
 
 i18n:
     # Required and can be one of multiple_folders, multiple_files or single_file
@@ -24,22 +26,12 @@ i18n:
     # single_file - persists a single file in `<folder>/<slug>.<extension>`
     structure: multiple_files
 
-    # content/blog/first.en.md
-    # content/blog/first.zh.md
-    #
-    # content/blog/en/first.md
-    # content/blog/zh/first.md
-
     # Required - a list of locales to show in the editor UI
     locales: [en, zh]
 
     # Optional, defaults to the first item in locales.
     # The locale to be used for fields validation and as a baseline for the entry.
     default_locale: en
-
-# Whether or not ot interact directly with the local git repo rather than the
-# remote repo on github. Requires `npx netlify-cms-proxy-server` running.
-local_backend: true
 
 # Require posts to be "ready" before finally publishing them
 publish_mode: editorial_workflow
@@ -111,6 +103,32 @@ collections:
                       - { label: Name, name: name, widget: string }
                       - { label: Link, name: folder, widget: string }
                       - { label: Link, name: link, widget: string }
+
+    - name: 'legal' # Used in routes, e.g., /admin/collections/blog
+      label: 'Legal' # Used in the UI
+      folder: 'content/legal' # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      slug: '{{slug}}' # Filename template, e.g., my-title.md
+      i18n: true
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
+          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
+          - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false, i18n: duplicate }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+    - name: 'events' # Used in routes, e.g., /admin/collections/blog
+      label: 'Events' # Used in the UI
+      folder: 'content/events' # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      slug: '{{slug}}' # Filename template, e.g., my-title.md
+      i18n: true
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Event Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Event Date', name: 'date', widget: 'datetime', i18n: duplicate }
+          - { label: 'Accupass Link', name: 'link', widget: 'string', i18n: duplicate }
+          # - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
+          # - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false, i18n: duplicate }
+          # - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'blog' # Used in routes, e.g., /admin/collections/blog
       label: 'Blog' # Used in the UI
