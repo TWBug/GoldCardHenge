@@ -6,6 +6,23 @@
 ;(function () {
     ///
     // Helper Functions
+    //
+
+    var _config = null
+
+    // The CMS doesn't seem to expose this for us... so we'll just grab it ourselves
+    // NOTE: There is currently no event listener to make it easier to use the config directly.
+    fetch('config.yml')
+        .then(function (x) {
+            return x.text()
+        })
+        .then(function (x) {
+            return jsyaml.load(x)
+        })
+        .then(function (x) {
+            _config = x
+            window._config = x
+        })
 
     var $ = function (sel) {
         return document.querySelector(sel)
