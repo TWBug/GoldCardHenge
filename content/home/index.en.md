@@ -1,9 +1,17 @@
 ---
-title: Home EN
+title: Home
+description: Welcome to the Official Taiwan Goldcard Website
 draft: false
 hidden: false
-folder: faq 
+folder: faq
 headless: true
+links:
+    - is_cta: true
+      label: Apply Now
+      href: /en/apply
+    - is_cta: false
+      label: Learn More
+      href: /en/about
 ---
 
 # Hi, and welcome to the official Taiwan Employment Gold Card website.

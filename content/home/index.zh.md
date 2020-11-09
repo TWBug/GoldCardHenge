@@ -1,9 +1,17 @@
 ---
-title: Home ZH
+title: 首頁
+description: 歡迎來到台灣就業金卡的官方網站
 draft: false
 hidden: false
 folder: faq
 headless: true
+links:
+    - is_cta: true
+      label: 立刻申請
+      href: /en/apply
+    - is_cta: false
+      label: 了解更多
+      href: /en/about
 ---
 
 # 您好，歡迎來到台灣就業金卡官方網站。

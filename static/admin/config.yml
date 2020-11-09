@@ -44,9 +44,11 @@ public_folder: '/cms-uploads'
 
 # The various collections we use for the site. They correspond to directories of content
 collections:
-    # Top-level pages
+    # Top-level pages. NOTE: The home page is configured separately because it is so customized.
     - name: 'pages'
       label: 'Pages'
+      description: >
+          Top-level pages for the site.
       folder: 'content'
       create: true
       slug: '{{slug}}'
@@ -61,38 +63,105 @@ collections:
           - { label: 'Hidden?', name: 'hidden', widget: 'boolean', default: false, i18n: true }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
+    # Home page
     - name: 'home_page'
       label: 'Home Page'
-      folder: 'content/home'
-      create: false
-      i18n: true
+      description: >
+          Content on the Home page. The items listed here are sections of the home page rather than individual pages.
+
+          NOTE: The unique nature of the Home page means we need to configure the language separately for now. There is an open issue to address this: https://github.com/netlify/netlify-cms/issues/4483
       slug: '{{slug}}'
       preview_path: en/
-      fields:
-          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-          - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
-          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-          - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
-          - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
-          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
-
-    # Top-level pages
-    - name: 'dev'
-      label: 'Dev Testing Pages'
-      folder: 'content/dev'
-      create: true
-      i18n: true
-      slug: '{{slug}}'
-      preview_path: en/dev/{{slug}}
-      fields:
-          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-          - { label: 'Banner Image', name: 'banner_image', widget: 'image', i18n: duplicate, required: false }
-          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+      files:
+          - label: 'Hero (en)'
+            name: 'hero_en'
+            file: 'content/home/index.en.md'
+            fields:
+                - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
+                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
+                - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+                - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
+                - label: 'Links'
+                  name: 'links'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Link, name: href, description: 'Link to where?', widget: string }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+          - label: 'Hero (zh)'
+            name: 'hero_zh'
+            file: 'content/home/index.zh.md'
+            fields:
+                - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
+                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
+                - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+                - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
+                - label: 'Links'
+                  name: 'links'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Link, name: href, description: 'Link to where?', widget: string }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+          - label: 'Intro (en)'
+            name: 'intro_en'
+            file: 'content/home/intro.en.md'
+            fields:
+                - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
+                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
+                - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+                - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
+                - label: 'Links'
+                  name: 'links'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Link, name: href, description: 'Link to where?', widget: string }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - label: 'Sub-page Links'
+                  name: 'sub_page_links'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Link, name: href, description: 'Link to where?', widget: string }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+          - label: 'Intro (zh)'
+            name: 'intro_zh'
+            file: 'content/home/intro.zh.md'
+            fields:
+                - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
+                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
+                - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+                - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
+                - label: 'Links'
+                  name: 'links'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Link, name: href, description: 'Link to where?', widget: string }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - label: 'Sub-page Links'
+                  name: 'sub_page_links'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Link, name: href, description: 'Link to where?', widget: string }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     # Configure the site. Menus for example
     - name: 'config'
       label: 'Config'
+      description: >
+          Configuration for the site. This is where you will find things like
+          menus and their ordering in the UI.
       editor:
           preview: false
       files:
