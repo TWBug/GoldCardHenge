@@ -14,39 +14,6 @@
                 display: none;
             }
         </style>
-        <script>
-            // 在此自訂CMS
-            ;(function () {
-                var $ = function (sel) {
-                    return document.querySelector(sel)
-                }
-
-                // 目前沒在用，本來覺得我們可能會需要等待render後
-                var pollFor = function (sel, fn, interval, timeout) {
-                    if (interval === undefined) interval = 200 // 200毫秒
-                    if (timeout === undefined) timeout = 10000 // 10秒
-                    var timedOut = false
-                    var t = setTimeout(function () {
-                        timedOut = true
-                    }, timeout)
-                    var attempt = function () {
-                        if (timedOut) {
-                            console.warn('找不到... ' + sel)
-                            return
-                        }
-
-                        if ($(sel)) {
-                            clearTimeout(t)
-                            fn($(sel))
-                        } else {
-                            setTimeout(attempt, interval)
-                        }
-                    }
-
-                    // 第一次執行
-                    attempt()
-                }
-            })()
-        </script>
+        <script src="tego-cms.js"></script>
     </body>
 </html>
