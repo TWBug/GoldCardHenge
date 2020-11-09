@@ -75,7 +75,7 @@ collections:
       files:
           - label: 'Hero (en)'
             name: 'hero_en'
-            file: 'content/home/index.en.md'
+            file: 'content/home/hero.en.md'
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
                 - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
@@ -92,7 +92,7 @@ collections:
                 - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
           - label: 'Hero (zh)'
             name: 'hero_zh'
-            file: 'content/home/index.zh.md'
+            file: 'content/home/hero.zh.md'
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
                 - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
@@ -156,43 +156,11 @@ collections:
                       - { label: CTA?, name: is_cta, widget: boolean, default: false }
                 - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
-    # Configure the site. Menus for example
-    - name: 'config'
-      label: 'Config'
-      description: >
-          Configuration for the site. This is where you will find things like
-          menus and their ordering in the UI.
-      editor:
-          preview: false
-      files:
-          - label: 'Navigation (en)'
-            name: 'navigation_en'
-            file: 'data/en/navigation.yaml'
-            fields:
-                - label: 'Navigation Items'
-                  name: 'items'
-                  widget: 'list'
-                  fields:
-                      - { label: Name, name: name, widget: string }
-                      - { label: Link, name: folder, widget: string }
-                      - { label: Link, name: link, widget: string }
-          - label: 'Navigation (zh)'
-            name: 'navigation_zh'
-            file: 'data/zh/navigation.yaml'
-            fields:
-                - label: 'Navigation Items'
-                  name: 'items'
-                  widget: 'list'
-                  fields:
-                      - { label: Name, name: name, widget: string }
-                      - { label: Link, name: folder, widget: string }
-                      - { label: Link, name: link, widget: string }
-
-    - name: 'legal' # Used in routes, e.g., /admin/collections/blog
-      label: 'Legal' # Used in the UI
-      folder: 'content/legal' # The path to the folder where the documents are stored
-      create: true # Allow users to create new documents in this collection
-      slug: '{{slug}}' # Filename template, e.g., my-title.md
+    - name: 'legal'
+      label: 'Legal'
+      folder: 'content/legal'
+      create: true
+      slug: '{{slug}}'
       i18n: true
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
@@ -200,13 +168,14 @@ collections:
           - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
           - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false, i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
-    - name: 'events' # Used in routes, e.g., /admin/collections/blog
-      label: 'Events' # Used in the UI
-      folder: 'content/events' # The path to the folder where the documents are stored
-      create: true # Allow users to create new documents in this collection
-      slug: '{{slug}}' # Filename template, e.g., my-title.md
+
+    - name: 'events'
+      label: 'Events'
+      folder: 'content/events'
+      create: true
+      slug: '{{slug}}'
       i18n: true
-      fields: # The fields for each document, usually in front matter
+      fields:
           - { label: 'Event Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Event Date', name: 'date', widget: 'datetime', i18n: duplicate }
           - { label: 'Accupass Link', name: 'link', widget: 'string', i18n: duplicate }
@@ -235,7 +204,41 @@ collections:
       fields: # The fields for each document, usually in front matter
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog', i18n: duplicate }
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-
+          - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
           - { label: 'Draft?', name: 'draft', widget: 'boolean', default: true, i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    # Configure the site. Menus for example
+    - name: 'config'
+      label: 'Config'
+      description: >
+          Configuration for the site. This is where you will find things like
+          menus and their ordering in the UI.
+
+          NOTE: We cannot currently configure English and 中文 at the same time. There is an open issue to address this: https://github.com/netlify/netlify-cms/issues/4483
+      editor:
+          preview: false
+      files:
+          - label: 'Navigation (en)'
+            name: 'navigation_en'
+            file: 'data/en/navigation.yaml'
+            fields:
+                - label: 'Navigation Items'
+                  name: 'items'
+                  widget: 'list'
+                  fields:
+                      - { label: Name, name: name, widget: string }
+                      - { label: Link, name: folder, widget: string }
+                      - { label: Link, name: link, widget: string }
+          - label: 'Navigation (zh)'
+            name: 'navigation_zh'
+            file: 'data/zh/navigation.yaml'
+            fields:
+                - label: 'Navigation Items'
+                  name: 'items'
+                  widget: 'list'
+                  fields:
+                      - { label: Name, name: name, widget: string }
+                      - { label: Link, name: folder, widget: string }
+                      - { label: Link, name: link, widget: string }
