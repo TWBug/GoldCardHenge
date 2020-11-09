@@ -207,7 +207,43 @@ collections:
           - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
           - { label: 'Draft?', name: 'draft', widget: 'boolean', default: true, i18n: duplicate }
+          - label: 'Tags'
+            name: 'tags'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'taxonomy_data'
+            value_field: 'tags.*'
+            search_fields: ['tags.*']
+            multiple: true
+            required: false
+            i18n: duplicate
+          - label: 'Category'
+            name: 'category'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'taxonomy_data'
+            value_field: 'categories.*'
+            search_fields: ['categories.*']
+            multiple: false # Only allow one category
+            required: false
+            i18n: duplicate
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'taxonomies'
+      label: 'Taxonomies'
+      description: >
+          All the tags and categories used throughtout the site.
+      files:
+          - label: 'Data'
+            name: 'taxonomy_data'
+            file: 'public/en/data.yaml'
+            fields:
+                - label: 'Tags'
+                  name: 'tags'
+                  widget: 'list'
+                - label: 'Categories'
+                  name: 'categories'
+                  widget: 'list'
 
     # Configure the site. Menus for example
     - name: 'config'
