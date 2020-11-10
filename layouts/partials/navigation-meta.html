@@ -1,7 +1,11 @@
 <div>{{ i18n "tego" }}</div>
 <div class="flex items-center">
-    {{ partial "icon" (dict "name" "search" "size" "3") }}
-    <span class="uppercase pl-1">{{ i18n "search" }}</span>
+    <form class="text-xs text-white m-0">
+        <div class="flex items-center border border-nav-end bg-nav-dark rounded-lg px-2">
+            {{ partial "icon" (dict "name" "search" "size" "3") }}
+            <input type="text" placeholder="{{ i18n "search" }}" class="bg-transparent font-semibold placeholder-white p-1">
+        </div>
+    </form>
 </div>
 
 <div class="flex items-center uppercase" x-data="taLanguage()" x-init="init()">
