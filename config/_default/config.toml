@@ -1,4 +1,6 @@
 DefaultContentLanguage = "en"
+Paginate = 5
+PaginatePath = "pages"
 baseURL = "/"
 copyright = "Taiwan Employment Gold Card Office"
 defaultContentLanguageInSubdir = true
@@ -31,23 +33,23 @@ weight = 2
 home = ["HTML", "MANIFEST"]
 
 [languages.de]
+disableKinds = ["404", "taxonomy", "sitemap"]
 languageName = "Deutsch"
 title = "Taiwan Gold Card"
-disableKinds = ["404", "taxonomy", "sitemap"]
 weight = 10
 [languages.de.outputs]
 home = ["WELCOME"]
 [languages.es]
+disableKinds = ["404", "taxonomy", "sitemap"]
 languageName = "Español"
 title = "Taiwan Gold Card"
-disableKinds = ["404", "taxonomy", "sitemap"]
 weight = 10
 [languages.es.outputs]
 home = ["WELCOME"]
 [languages.ar]
+disableKinds = ["404", "taxonomy", "sitemap"]
 languageName = "عربى"
 title = "Taiwan Gold Card"
-disableKinds = ["404", "taxonomy", "sitemap"]
 weight = 10
 [languages.ar.outputs]
 home = ["WELCOME"]
