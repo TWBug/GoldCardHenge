@@ -2,7 +2,12 @@
 title: Blog
 draft: false
 hidden: false
-folder: faq 
+folder: faq
+date: 2020-11-10T06:39:41.896Z
+tags:
+  - 好酷
+  - 有趣
+category: 夜市
 ---
 
 # Hi, and welcome to the official Taiwan Employment Gold Card website.
