@@ -16,7 +16,7 @@ site_url: https://staging.taiwangoldcard.tw
 # Whether or not ot interact directly with the local git repo rather than the
 # remote repo on github. Requires `npx netlify-cms-proxy-server` running.
 # These settings only apply on localhost.
-local_backend: false
+local_backend: true
 
 # Customize the logo that displays on the sign-in page (just found this logo via web search)
 logo_url: 'https://images.squarespace-cdn.com/content/v1/54fda45ae4b056e88666306d/1522048397733-V0ID9KLHK9KPYBQQQMV1/ke17ZwdGBToddI8pDm48kLu6I4ew71KXDwr0TupZA2UUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc_EzImbYIQh6Bf_ScjyA5THHFXQ368Ng-_1uc2knSgWnGpDWSCaGBnv7W-TNEDThe/taiwan-national-development-council.jpg'
@@ -184,6 +184,30 @@ collections:
           # - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
           # - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false, i18n: duplicate }
           # - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'jobs' # Used in routes, e.g., /admin/collections/blog
+      label: 'Jobs' # Used in the UI
+      folder: 'content/jobs' # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      slug: '{{slug}}' # Filename template, e.g., my-title.md
+      preview_path: en/jobs/{{slug}}
+
+      # Same as the top level i18n config, but all fields are optional and
+      # defaults to the top level can also be a boolean to accept the top level
+      # defaults
+      i18n: true
+
+      # SEE https://www.netlifycms.org/docs/widgets#boolean
+      # For notes on the i18n support:
+      # SEE # https://www.netlifycms.org/docs/beta-features/#i18n-support
+      # The field-level i18n config shoudl be true|duplicate or omitted.
+      # Omitting it will cause the field not to be copied over., so that's
+      # probably not wnat is desired.
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog', i18n: duplicate }
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'blog' # Used in routes, e.g., /admin/collections/blog
       label: 'Blog' # Used in the UI
