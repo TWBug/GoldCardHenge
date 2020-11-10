@@ -1,6 +1,6 @@
 {{ $home := .Site.Home }}
 <div class="text-sm font-semibold mb-2">
-    <ol class="flex items-center -ml-6">
+    <ol class="flex flex-wrap items-center">
         {{ template "breadcrumbnav" (dict "p1" . "p2" . ) }}
     </ol>
 </div>
@@ -18,7 +18,9 @@
 {{ else if .p1.IsHome }}
 <li class="text-primary hover:text-black mr-2">
     <a href="{{ .p1.Permalink }}" class="flex items-center">
-        {{ partial "icon" (dict "name" "home" "size" "4") }}
+        <span class="-ml-6">
+            {{ partial "icon" (dict "name" "home" "size" "4") }}
+        </span>
         <span class="ml-2">
             {{ .p1.Title }}
         </span>
