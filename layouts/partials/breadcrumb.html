@@ -13,10 +13,10 @@
 {{ end }}
 {{ if eq .p1 .p2 }}
 <li class="breadcrumb">
-    {{ .p1.Title }}
+    {{ .p1.Title | humanize }}
 </li>
 {{ else if .p1.IsHome }}
-<li class="text-primary mr-2">
+<li class="text-primary hover:text-black mr-2">
     <a href="{{ .p1.Permalink }}" class="flex items-center">
         {{ partial "icon" (dict "name" "home" "size" "4") }}
         <span class="ml-2">
@@ -25,7 +25,7 @@
     </a>
 </li>
 {{ else }}
-<li class="breadcrumb text-primary mr-2">
+<li class="breadcrumb text-primary hover:text-black mr-2">
     <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
 </li>
 {{ end }}
