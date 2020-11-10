@@ -1,8 +1,16 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
-hidden: false
+publishDate: {{ .Date }}
+draft: false
 folder: false
+headless: false
+title: 
+description: 
+teaser: 
+images:
+preview:
+categories:
+tags:
 ---
 
