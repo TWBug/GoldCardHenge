@@ -30,8 +30,6 @@ const $ = (sel) => {
 // 200毫秒
 // 10秒
 var pollFor = (sel, fn, interval = 200, timeout = 10000) => {
-    if (interval === undefined) interval = 200
-    if (timeout === undefined) timeout = 10000
     let timedOut = false
     const t = setTimeout(() => {
         timedOut = true

@@ -7,13 +7,13 @@
     "main": "index.js",
     "scripts": {
         "develop": "npx gulp build",
-        "start": "npm run gulp && concurrently 'hugo server' 'netlify-cms-proxy-server'",
+        "start": "npm run gulp && concurrently 'hugo server' 'netlify-cms-proxy-server' 'npm run admin -- --watch'",
         "gulp": "NODE_ENV=production npx gulp build",
         "build": "npm run gulp && npm run hugo",
         "build:staging": "npm run hugo -- --environment staging",
         "watch": "npx gulp watch",
         "admin": "babel --presets=@babel/preset-env,@babel/preset-react --out-dir ./static/admin src/admin",
-        "posthugo": "npm run admin",
+        "prehugo": "npm run admin",
         "hugo": "hugo --gc -D --cleanDestinationDir --minify"
     },
     "author": "TEGO Team <it@taiwangoldcard.tw>",
