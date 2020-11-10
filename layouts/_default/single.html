@@ -28,9 +28,11 @@
     ></div>
     <section>
         <div class="container py-12 sm:py-24 px-12 lg:px-24">
+            {{ if $image }}
             <div class="relative sm:hidden w-full mb-10">
-                <img src="/img/dummy-image.jpg" alt="" class="w-full rounded-md shadow-xl" />
+                <img src="{{ $image.RelPermalink | safeURL }}" alt="{{ .Page.Params.description | truncate 160 }}" class="w-full rounded-md shadow-xl" loading="lazy" />
             </div>
+            {{ end }}
             {{ partial "breadcrumb" . }}
             <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xxl:gap-24">
                 <div class="copy replace sm:col-span-2">
