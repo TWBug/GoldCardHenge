@@ -15,6 +15,8 @@
 {{ $image = resources.Get (printf "%s" (.Page.Params.image | safeURL)) }}
 {{ end }}
 
+{{ $language := .Site.Language | urlize }}
+
 {{ $articles := first 3 (where (where .Site.RegularPages "Section" "blog") "Permalink" "!=" .Page.Permalink).ByLastmod.Reverse }}
 
 <div class="relative shadow-xl print:shadow-none">
@@ -30,13 +32,50 @@
                 <img src="/img/dummy-image.jpg" alt="" class="w-full rounded-md shadow-xl" />
             </div>
             {{ partial "breadcrumb" . }}
-            <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="copy replace sm:col-span-2">{{.Content}}</div>
+            <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xxl:gap-24">
+                <div class="copy replace sm:col-span-2">
+                    {{.Content}}
+                </div>
                 <div class="">
                     {{ if $image }}
                     <div class="hidden sm:block relative max-h-60 overflow-hidden w-full -mt-1 mb-4">
                         <img src="{{ $image.RelPermalink | safeURL }}" alt="{{ .Page.Params.description | truncate 160 }}" class="w-full rounded-md shadow-xl" loading="lazy" />
                     </div>
+                    {{ end }}
+                    {{ if eq .Page.Section "news" }}
+                    <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">Last changed:</span> {{ dateFormat "January 2006" .Lastmod }}
+                    </div>
+                    {{ if .Params.categories }}
+                    <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">Categories:</span>
+                        <ul class="inline">
+                            {{ range .Params.categories }}
+                            <li class="inline-block bg-primary text-white text-xs px-2 py-1 rounded-md mx-1"><a href="/{{ $language }}/categories/{{ . }}" class="inline-flex items-center">
+                                {{ partial "icon" (dict "name" "tag" "size" "3") }}
+                                <span class="font-bold uppercase ml-1">
+                                    {{ . | humanize }}
+                                </span>
+                                </a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                    {{ end }}
+                    {{ else if eq .Page.Section "faq" }}
+                    {{ if .Params.tags }}
+                    <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">Tags:</span>
+                        <ul class="inline">
+                            {{ range .Params.tags }}
+                            <li class="inline-block bg-primary text-white text-xs px-2 py-1 rounded-md mx-1"><a href="/{{ $language }}/tags/{{ . }}" class="inline-flex items-center">
+                                {{ partial "icon" (dict "name" "tag" "size" "3") }}
+                                <span class="font-bold uppercase ml-1">
+                                    {{ . | humanize }}
+                                </span>
+                                </a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                    {{ end }}
                     {{ end }}
                     <h2 class="text-2xl font-medium mb-2 leading-tight">{{ $headline | markdownify }}</h2>
                     <p class="text-sm mb-8">{{ $teaser }}</p>
@@ -45,11 +84,12 @@
                         <h2 class="text-xl font-bold">Latest Articles</h2>
                         {{ range $articles }}
                         <div class="my-4">
+                            <div class="text-xs font-semibold">{{ dateFormat "January 2006" .Lastmod }}</div>
                             <a href="{{.RelPermalink}}" class="flex items-center font-bold text-primary -ml-3">
                                 {{ partial "icon" (dict "name" "right" "size" "4") }}
                                 <span class="pl-1">{{.Title}}</span>
                             </a>
-                            <p class="text-sm mb-2">{{.Params.description | truncate 80 }}</p>
+                            <p class="text-sm mb-2">{{ .Summary | truncate 70 }}</p>
                         </div>
                         {{ end }}
                     </div>
