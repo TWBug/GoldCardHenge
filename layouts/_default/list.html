@@ -23,7 +23,7 @@
         </div>
         <div class="container">
             <div class="px-24 ">
-                <div class="grid grid-cols-3 gap-24 items-center">
+                <div class="grid grid-cols-3 gap-12 xxl:gap-24 items-center">
                     <div class="replace col-span-2">
                         <h1 class="text-white text-5xl leading-tight font-semibold mb-2">
                             <span class="font-bold">{{ $headline }}
@@ -56,11 +56,7 @@
                             {{.Title}}
                         </h2>
                         <p class="text-center text-base font-regular">
-                            {{ if (not (isset .Params "description")) | or (eq .Params.description "") }}
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            {{ else }}
-                            {{ .Params.description }}
-                            {{ end }}
+                            {{ .Summary }}
                         </p>
                     </a>
                     {{ end }}
@@ -71,18 +67,14 @@
                             <a href="{{.RelPermalink}}">{{.Title}}</a>
                         </h2>
                         <p class="text-base">
-                            {{ if (not (isset .Params "description")) | or (eq .Params.description "") }}
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            {{ else }}
-                            {{ .Params.description }}
-                            {{ end }}
+                            {{ .Summary | truncate 180 }}
                         </p>
                     </div>
                     {{ end }}
                     {{ end }}
                 </div>
                 <div class="copy order-first lg:order-last">
-                    {{.Content}}
+                    {{.Content | truncate 180}}
                 </div>
             </div>
         </div>
