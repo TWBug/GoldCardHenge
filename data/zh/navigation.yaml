@@ -10,7 +10,7 @@ items:
     link: /why-taiwan/
   - name: 活動和新聞
     folder: eventsnews
-    link: /single/
+    link: /news/
   - name: 相關資源
     folder: resources
     link: /application/

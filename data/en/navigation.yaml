@@ -10,7 +10,7 @@ items:
     link: /why-taiwan/
   - name: Events & News
     folder: eventsnews
-    link: /single/
+    link: /news/
   - name: Resources
     folder: resources
     link: /application/
