@@ -47,34 +47,48 @@
     <section id="scroll">
         <div class="container py-24 px-24">
             {{ partial "breadcrumb" . }}
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-8">
-                <div class="lg:col-span-2 grid grid-cols-2 gap-12">
-                    {{ range .Sections}}
-                    <a href="{{.RelPermalink}}" class="flex flex-col justify-center items-center text-center border-2 border-gray-500 rounded-lg shadow-xl px-6 py-8 transition duration-300 transform hover:scale-105">
-                        <img src="/img/dummy-icon.svg" alt="" class="h-12 mb-4">
-                        <h2 class="text-xl font-bold text-primary mb-2">
-                            {{.Title}}
-                        </h2>
-                        <p class="text-center text-base font-regular">
-                            {{ .Summary }}
-                        </p>
-                    </a>
-                    {{ end }}
-                    {{ range .RegularPages}}
-                    {{ if not .IsSection }}
-                    <div class="col-span-2 text-left mb-2">
-                        <h2 class="text-xl font-bold text-primary mb-2">
-                            <a href="{{.RelPermalink}}">{{.Title}}</a>
-                        </h2>
-                        <p class="text-base">
-                            {{ .Summary | truncate 180 }}
-                        </p>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24 mt-8">
+                <div class="lg:col-span-2">
+                    {{ if .Sections }}
+                    <div class="grid grid-cols-2 gap-12 mb-8">
+                        {{ range .Sections}}
+                        <a href="{{.RelPermalink}}" class="flex flex-col justify-center items-center text-center border-2 border-gray-500 rounded-lg shadow-xl px-6 py-8 transition duration-300 transform hover:scale-105">
+                            <img src="/img/dummy-icon.svg" alt="" class="h-12 mb-4">
+                            <h2 class="text-xl font-bold text-primary mb-2">
+                                {{.Title}}
+                            </h2>
+                            <p class="text-center text-base font-regular">
+                                {{ .Summary }}
+                            </p>
+                        </a>
+                        {{ end }}
                     </div>
                     {{ end }}
+                    {{ if .RegularPages }}
+                    <div class="mb-8">
+                        {{ range .RegularPages}}
+                        {{/*  {{ if not .IsSection }}  */}}
+                        <div class="col-span-2 text-left mb-2">
+                            <h2 class="text-xl font-bold text-primary mb-2">
+                                <a href="{{.RelPermalink}}">{{.Title}}</a>
+                            </h2>
+                            <p class="text-base">
+                                {{ .Summary | truncate 180 }}
+                            </p>
+                        </div>
+                        {{/*  {{ end }}  */}}
+                        {{ end }}
+                    </div>
                     {{ end }}
+                    
+                    
+                    {{ if .Content }}
+                    <div class="copy">{{ .Content }}</div>
+                    {{ end }}
+                    
                 </div>
                 <div class="copy order-first lg:order-last">
-                    {{.Content | truncate 180}}
+                    {{.Content | truncate 200 }}
                 </div>
             </div>
         </div>
