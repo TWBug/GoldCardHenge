@@ -12,12 +12,16 @@
         "build": "npm run gulp && npm run hugo",
         "build:staging": "npm run hugo -- --environment staging",
         "watch": "npx gulp watch",
+        "admin": "babel --presets=@babel/preset-env,@babel/preset-react --out-dir ./static/admin src/admin",
+        "posthugo": "npm run admin",
         "hugo": "hugo --gc -D --cleanDestinationDir --minify"
     },
     "author": "TEGO Team <it@taiwangoldcard.tw>",
     "devDependencies": {
+        "@babel/cli": "^7.12.1",
         "@babel/core": "^7.12.3",
         "@babel/preset-env": "^7.12.1",
+        "@babel/preset-react": "^7.12.5",
         "@fullhuman/postcss-purgecss": "^3.0.0",
         "@tailwindcss/ui": "^0.6.2",
         "alpinejs": "^2.7.2",
