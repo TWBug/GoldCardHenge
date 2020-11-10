@@ -9,10 +9,10 @@
 {{ $headline =  .Page.Params.headline | markdownify | plainify }}
 {{ end }}
 
-{{ $description := .Page.Title }}
-{{ if .Params.description }}
-{{ $description =  .Page.Params.description | markdownify | plainify }}
-{{ end }}
+{{/*  {{ $description := .Page.Title }}  */}}
+{{/*  {{ if .Params.description }}  */}}
+{{/*  {{ $description =  .Page.Params.description | markdownify | plainify }}  */}}
+{{/*  {{ end }}  */}}
 
 {{ $preview := resources.Get "img/uploads/taiwan-gold-card-social-preview.jpg" }}
 {{ if .Params.preview }}
@@ -29,19 +29,20 @@
 <meta name="dc.language" content="{{ .Site.Language.Lang }}" />
 <meta http-equiv="Content-Language" content="{{ .Site.Language.Lang }}" />
 <meta name="copyright" content="{{ .Site.Copyright }}" />
+<meta name="description" content="{{ .Summary | truncate 160 }}">
 {{ with .Params.Author }}
 <meta name="author" content="Author name" />
 {{ end }}
 <meta property="og:title" content="{{ $headline }}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ .Page.Permalink }}">
-<meta property="og:description" content="{{ $description }}">
+<meta property="og:description" content="{{ .Summary | truncate 200 }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:image" content="{{ $preview.Permalink | safeURL }}">
 <meta name="twitter:image" content="{{ $preview.Permalink | safeURL }}">
 <meta name="twitter:site" content="{{ .Site.Title }}">
 <meta name="twitter:title" content="{{ $headline }}">
-<meta name="twitter:description" content="{{ $description }}">
+<meta name="twitter:description" content="{{ .Summary | truncate 200 }}">
 <meta name="twitter:card" content="summary_large_image">
 {{ if .IsTranslated }}
     {{ range .Translations }}
