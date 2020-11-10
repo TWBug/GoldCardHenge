@@ -1,8 +1,13 @@
 ---
 title: Food
+description: "The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan."
 draft: false
 hidden: false
 folder: whytaiwan
+headline: "Food"
+teaser: "The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan."
+image: "img/uploads/dummy-card.svg"
+preview: "img/uploads/taiwan-culture.jpg"
 ---
 
 # Taiwan is Amazing, here's why.
