@@ -1,11 +1,14 @@
 ---
-title: Intro
-description: What is the Gold Card? We'll tell you.
+title: Advantages of the Taiwan Gold Card for Professionals
+description: A short introduction, why Taiwan should be the next step for the visitor. A nice catchy copy that is helping the visitor to find out more about this country it’s culture and why Taiwan is the perfect match.
 draft: false
 hidden: false
 headless: true
+links:
+    - is_cta: false
+      label: About Gold Card
+      href: /en/apply
+    - is_cta: false
+      label: Why Taiwan
+      href: /en/about
 ---
-
-# Hi
-
-Content..
