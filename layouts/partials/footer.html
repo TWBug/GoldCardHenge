@@ -42,13 +42,11 @@
                     </ul>
                 </div>
                 <div class="">
-                    <h4 class="font-semibold uppercase text-sm mb-2">Services</h4>
+                    <h4 class="font-semibold uppercase text-sm mb-2">SECTIONS</h4>
                     <ul>
-                        <li><a href="/{{ .Site.Language.Lang }}/contact">Contact</a></li>
-                        <li><a href="/{{ .Site.Language.Lang }}/faq">FAQ</a></li>
-                        <li><a href="/{{ .Site.Language.Lang }}/blog/">Blog</a></li>
-                        <li><a href="/{{ .Site.Language.Lang }}/tags/">Tags</a></li>
-                        <li><a href="/{{ .Site.Language.Lang }}/categories/">Categories</a></li>
+                        {{ range .Site.Sections }}
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                        {{ end }}
                     </ul>
                 </div>
                 <div class="">
@@ -67,6 +65,19 @@
                         {{ end }}
                         {{ end }}
                     </ul>
+                    <h4 class="font-semibold uppercase text-sm mt-2">Tags</h4>
+                    <ul>
+                        {{ range .Site.Taxonomies.tags }}
+                        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                        {{ end }}
+                    </ul>
+                    <h4 class="font-semibold uppercase text-sm mt-2">Categories</h4>
+                    <ul>
+                        {{ range .Site.Taxonomies.categories }}
+                        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                        {{ end }}
+                    </ul>
+                    
                 </div>
                 <div class="">
                     <h4 class="font-semibold uppercase text-sm mb-2">Legal</h4>
