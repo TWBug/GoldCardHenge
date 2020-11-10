@@ -110,13 +110,14 @@ blockquote {
 .tableofcontents {
     @apply max-h-screen-2/3 mt-4;
 }
-/* .tableofcontents::before {
-    content: "";
-    display: block;
-    height: calc(var(--navigationScroll) + 1rem);
-} */
 .tableofcontents A {
-    @apply block text-primary text-base leading-tight font-semibold py-1;
+    @apply relative block text-primary text-base leading-tight font-bold py-1;
+}
+.tableofcontents A::before {
+    content: "#";
+    position: absolute;
+    left: -0.7em;
+    
 }
 .tableofcontents UL UL {
     @apply pb-2;
