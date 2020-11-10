@@ -3,18 +3,15 @@
 {{ if isset .Page.Params "headline" }}
 {{ $headline = .Page.Params.headline }}
 {{ end }}
+
 {{ $teaser := .Page.Params.description }}
 {{ if isset .Page.Params "teaser" }}
 {{ $teaser = .Page.Params.teaser }}
 {{ end }}
 
 {{ $image := "" }}
-{{ $imageLicence := "" }}
 {{ if .Params.image }}
-{{ $image = .Page.Resources.GetMatch (printf "%s" (.Params.image | safeURL)) }}
-{{ end }}
-{{ if .Params.imageLicence }}
-{{ $imageLicence = .Params.imageLicence }}
+{{ $image = resources.Get (printf "%s" (.Params.image | safeURL)) }}
 {{ end }}
 
 <div class="relative bg-blue-500 shadow-xl">
@@ -34,10 +31,8 @@
                         <p class="text-white font-semibold">{{ $teaser }}</p>
                     </div>
                     <div>
-                        {{ if isset .Params "image" }}
-                        <img src="{{ $image.RelPermalink }}" alt="{{ .Params.imageAlt }}" class="w-full" loading="lazy"
-                        {{ with $imageLicence}} licence="{{ $imageLicence }}"{{ end }}
-                        >
+                        {{ if $image }}
+                        <img src="{{ $image.RelPermalink }}" class="w-full" loading="lazy" alt="{{ .Page.Params.description | truncate 160 }}" />
                         {{ end }}
                     </div>
                 </div>

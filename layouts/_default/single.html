@@ -1,5 +1,22 @@
 {{ define "main" }}
-{{ $articles := first 3 (where (where (where .Site.RegularPages "Section" "blog") "Params.topic" "in" "test") "RelPermalink" "!=" .Page.RelPermalink) }}
+
+{{ $headline := .Page.Title }}
+{{ if isset .Page.Params "headline" }}
+{{ $headline = .Page.Params.headline }}
+{{ end }}
+
+{{ $teaser := .Page.Params.description }}
+{{ if isset .Page.Params "teaser" }}
+{{ $teaser = .Page.Params.teaser }}
+{{ end }}
+
+{{ $image := "" }}
+{{ if .Page.Params.image }}
+{{ $image = resources.Get (printf "%s" (.Page.Params.image | safeURL)) }}
+{{ end }}
+
+{{ $articles := first 3 (where (where .Site.RegularPages "Section" "blog") "Permalink" "!=" .Page.Permalink).ByLastmod.Reverse }}
+
 <div class="relative shadow-xl print:shadow-none">
     {{ partial "navigation" . }}
 </div>
@@ -16,49 +33,29 @@
             <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12">
                 <div class="copy replace sm:col-span-2">{{.Content}}</div>
                 <div class="">
-                    <div class="hidden sm:block relative w-full -mt-1 mb-4">
-                        <img src="/img/dummy-image.jpg" alt="" class="w-full rounded-md shadow-xl" loading="lazy" />
+                    {{ if $image }}
+                    <div class="hidden sm:block relative max-h-60 overflow-hidden w-full -mt-1 mb-4">
+                        <img src="{{ $image.RelPermalink | safeURL }}" alt="{{ .Page.Params.description | truncate 160 }}" class="w-full rounded-md shadow-xl" loading="lazy" />
                     </div>
-                    <h2 class="text-2xl font-medium mb-4">More about Gold Card Application</h2>
-                    <div class="my-4">
-                        <a href="#" class="flex items-center font-bold text-primary -ml-3">
-                            {{ partial "icon" (dict "name" "right" "size" "4") }}
-                            <span class="pl-1"> Do I qualify? </span>
-                        </a>
-                    </div>
-                    <div class="my-4">
-                        <a href="#" class="flex items-center font-bold text-primary -ml-3">
-                            {{ partial "icon" (dict "name" "right" "size" "4") }}
-                            <span class="pl-1">The Gold Card Application</span>
-                        </a>
-                        <p class="text-sm leading-normal">
-                            Application is done online. Once you have determined how you are qualified, gather the
-                            required documents:
-                        </p>
-                    </div>
-                    <div class="my-4">
-                        <a href="#" class="flex items-center font-bold text-primary -ml-3">
-                            {{ partial "icon" (dict "name" "right" "size" "4") }}
-                            <span class="pl-1">After submitting your application</span>
-                        </a>
-                    </div>
-                    <div class="my-4">
-                        <a href="#" class="flex items-center font-bold text-primary -ml-3">
-                            {{ partial "icon" (dict "name" "right" "size" "4") }}
-                            <span class="pl-1">After passing skill assessment</span>
-                        </a>
-                    </div>
-                    <div class="p-4 my-8 bg-gray-200">
-                        <span class="text-xl font-bold">Articles</span>
+                    {{ end }}
+                    <h2 class="text-2xl font-medium mb-2 leading-tight">{{ $headline | markdownify }}</h2>
+                    <p class="text-sm mb-8">{{ $teaser }}</p>
+                    {{ if $articles }}
+                    <div class="mb-8">
+                        <h2 class="text-xl font-bold">Latest Articles</h2>
                         {{ range $articles }}
-                        <a href="{{.RelPermalink}}" class="flex items-center font-bold text-primary -ml-3">
-                            {{ partial "icon" (dict "name" "right" "size" "4") }}
-                            <span class="pl-1">{{.Title}}</span>
-                        </a>
+                        <div class="my-4">
+                            <a href="{{.RelPermalink}}" class="flex items-center font-bold text-primary -ml-3">
+                                {{ partial "icon" (dict "name" "right" "size" "4") }}
+                                <span class="pl-1">{{.Title}}</span>
+                            </a>
+                            <p class="text-sm mb-2">{{.Params.description | truncate 80 }}</p>
+                        </div>
                         {{ end }}
                     </div>
-                    <div class="tableofcontents md:sticky top-nav-scroll">
-                        <span class="text-xl font-bold">Table of contents</span>
+                    {{ end }}
+                    <div id="tableofcontents" class="tableofcontents md:sticky top-nav-scroll">
+                        <h2 class="text-xl font-bold mb-4">Table of contents</h2>
                         <aside>
                             {{ .TableOfContents }}
                         </aside>

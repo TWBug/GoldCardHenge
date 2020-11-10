@@ -4,17 +4,22 @@
 {{ $favicon96 := resources.Get "img/favicon-96x96.png" | fingerprint }}
 {{ $appleicon144 := resources.Get "img/apple-icon-144x144.png" | fingerprint }}
 
-{{ $image := resources.Get "img/taiwan-gold-card-social-preview.jpg" }}
 {{ $headline := .Page.Title }}
-{{ $description := .Page.Title }}
-{{ if .Params.image }}
-{{ $image = .Page.Resources.GetMatch (printf "%s" (.Params.image | safeURL)) }}
-{{ end }}
 {{ if .Params.headline }}
-{{ $headline = .Params.headline | markdownify | plainify }}
+{{ $headline =  .Page.Params.headline | markdownify | plainify }}
 {{ end }}
+
+{{ $description := .Page.Title }}
 {{ if .Params.description }}
-{{ $description = .Params.description | markdownify | plainify }}
+{{ $description =  .Page.Params.description | markdownify | plainify }}
+{{ end }}
+
+{{ $preview := resources.Get "img/uploads/taiwan-gold-card-social-preview.jpg" }}
+{{ if .Params.preview }}
+{{ $buffer := resources.Get (printf "%s" (.Params.preview | safeURL)) }}
+{{ if $buffer }}
+{{ $preview = $buffer }}
+{{ end }}
 {{ end }}
 
 {{ $styles := resources.Get "css/layout.css" | fingerprint }}
@@ -32,10 +37,8 @@
 <meta property="og:url" content="{{ .Page.Permalink }}">
 <meta property="og:description" content="{{ $description }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
-{{ with $image }}
-<meta property="og:image" content="{{ printf "%s" ($image.Permalink | safeURL) }}">
-<meta name="twitter:image" content="{{ printf "%s" ($image.Permalink | safeURL) }}">
-{{ end }}
+<meta property="og:image" content="{{ $preview.Permalink | safeURL }}">
+<meta name="twitter:image" content="{{ $preview.Permalink | safeURL }}">
 <meta name="twitter:site" content="{{ .Site.Title }}">
 <meta name="twitter:title" content="{{ $headline }}">
 <meta name="twitter:description" content="{{ $description }}">
