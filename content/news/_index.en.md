@@ -1,8 +1,8 @@
 ---
-title: Blog
+title: News
 draft: false
 hidden: false
-folder: faq
+folder: eventsnews
 date: 2020-11-10T06:39:41.896Z
 tags:
   - 好酷

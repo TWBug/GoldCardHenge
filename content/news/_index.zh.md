@@ -1,7 +1,7 @@
 ---
 draft: false
 hidden: false
-folder: faq
+folder: eventsnews
 title: 部落格
 description: 歡迎來到就業金卡的部落格
 date: 2020-11-10T06:39:41.896Z
