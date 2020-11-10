@@ -29,9 +29,9 @@
                 <div class="grid grid-cols-3 gap-24 items-center">
                     <div class="replace col-span-2">
                         <h1 class="text-white text-5xl leading-tight font-semibold mb-2">
-                            <span class="font-bold">{{ $headline }}
+                            {{ $headline | humanize }}
                         </h1>
-                        <p class="text-white font-semibold">{{ $teaser }}</p>
+                        <p class="text-white font-semibold">{{ $teaser | humanize }}</p>
                     </div>
                     <div>
                         {{ if isset .Params "image" }}
@@ -52,11 +52,33 @@
     <section id="scroll">
         <div class="container py-12 sm:py-24 px-12 lg:px-24">
             {{ partial "breadcrumb" . }}
-            <div class="border-2 border-gray-200 rounded-xl bg-gray-100 p-4 mb-8">
+            <div class="border-t-2 border-secondary border-dashed mt-8">
                 {{ range sort .Pages "Title" "asc" }}
-                <a class="inline-block border border-primary rounded-md text-lg font-semibold text-primary px-3 py-1 m-2" href="{{ .RelPermalink }}">
-                    {{ .Title }}
-                </a>
+                
+                {{ $image := "" }}
+                {{ if .Params.image }}
+                {{ $image = resources.Get (printf "%s" (.Params.image | safeURL)) }}
+                {{ end }}
+                
+                <div class="flex items-center border-b-2 border-secondary border-dashed py-8 px-2">
+                    <div class="w-1/4 flex-grow-0">
+                        {{ if $image }}
+                        <img src="{{ $image.RelPermalink | safeURL }}" alt="{{ .Page.Params.description | truncate 160 }}" class="w-full rounded-md" loading="lazy" />
+                        {{ end }}
+                    </div>
+                    <div class="w-3/4 flex-grow ml-8">
+                        
+                        <p>Reading time: {{ .ReadingTime }} minutes</p>
+                        <h2 class="text-2xl font-semibold text-primary hover:text-black">
+                            <a href="{{ .RelPermalink }}">
+                                {{ .Title }}
+                            </a>
+                        </h2>
+                        <p>
+                            {{ .Summary | truncate 250 }}
+                        </p>
+                    </div>
+                </div>
                 {{ end }}
             </div>
             {{ if .Content }}
