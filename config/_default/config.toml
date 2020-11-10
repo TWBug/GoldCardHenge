@@ -20,7 +20,7 @@ languageName = "English"
 title = "Taiwan Gold Card"
 weight = 1
 [languages.en.outputs]
-home = ["HTML", "MANIFEST", "DATA"]
+home = ["HTML", "MANIFEST"]
 [languages.en.params]
 linkedin = "https://linkedin.com/whoever"
 [languages.zh]
@@ -28,7 +28,7 @@ languageName = "中文"
 title = "台灣金卡"
 weight = 2
 [languages.zh.outputs]
-home = ["HTML", "MANIFEST", "DATA"]
+home = ["HTML", "MANIFEST"]
 
 [languages.de]
 languageName = "Deutsch"
@@ -61,7 +61,7 @@ disableSVG = false
 disableXML = false
 minifyOutput = true
 [outputs]
-home = ["HTML", "MANIFEST", "DATA"]
+home = ["HTML", "MANIFEST"]
 page = ["HTML"]
 [outputFormats.manifest]
 baseName = "manifest"
