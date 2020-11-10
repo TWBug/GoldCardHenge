@@ -108,8 +108,13 @@ blockquote {
 }
 
 .tableofcontents {
-    @apply bg-gray-200 max-h-screen-2/3 p-4 mt-8;
+    @apply max-h-screen-2/3 mt-4;
 }
+/* .tableofcontents::before {
+    content: "";
+    display: block;
+    height: calc(var(--navigationScroll) + 1rem);
+} */
 .tableofcontents A {
     @apply block text-primary text-base leading-tight font-semibold py-1;
 }
@@ -117,7 +122,17 @@ blockquote {
     @apply pb-2;
 }
 .tableofcontents UL UL A {
-    @apply text-sm font-medium;
+    @apply text-xs font-medium;
+}
+
+.hover {
+    @apply transition duration-300 transform hover:scale-105;
+}
+
+.padded {
+    display: inline;
+    background: white;
+    box-shadow: 1rem 0 0 white, -1rem 0 0 white;
 }
 
 .copy {
@@ -193,6 +208,9 @@ blockquote {
 
 [x-cloak] {
     display: none !important;
+}
+#navigationScroll[x-cloak] {
+    visibility: hidden !important;
 }
 /* purgecss end ignore */
 
