@@ -6,7 +6,7 @@ draft: false
 folder: false
 headless: false
 title: 
-description: 
+summary: 
 teaser: 
 images:
 preview:
