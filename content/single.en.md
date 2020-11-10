@@ -1,8 +1,15 @@
 ---
-title: 'Single'
-draft: false
-hidden: true
-layout: single
+title: Single Example
+date: 2020-11-05T07:09:20.617Z
+publishDate: 2020-11-05T07:09:20.617Z
+folder: eventsnews
+headline: "Taiwan Gold Card Application FAQ"
+description: "The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan."
+teaser: "The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan."
+image: "img/uploads/dummy-image.jpg"
+preview: "img/uploads/taiwan-culture.jpg"
+categories:
+- first
 ---
 
 # What is the Taiwan Gold Card?
@@ -32,6 +39,12 @@ Generally you should apply personally for the Taiwan Gold Card. Employers can he
 Work for any company in Taiwan, Open work rights, Start your own business
 
 {{< /action >}}
+
+### Latest articles
+
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nesciunt est soluta officiis, nulla laborum, beatae suscipit corporis nostrum eius facilis hic culpa.
+
+{{< latest-articles amount="2" >}}
 
 ### What fees are involved in a Gold Card application?
 
