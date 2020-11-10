@@ -13,6 +13,10 @@ backend:
 
 site_url: https://staging.taiwangoldcard.tw
 
+# The language of the admin UI
+# Set to 'zh_Hant' for 繁體中文
+locale: 'en'
+
 # Whether or not ot interact directly with the local git repo rather than the
 # remote repo on github. Requires `npx netlify-cms-proxy-server` running.
 # These settings only apply on localhost.
@@ -57,7 +61,6 @@ collections:
       i18n: true
       preview_path: en/{{slug}}
       fields:
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'single', i18n: duplicate }
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
@@ -185,36 +188,60 @@ collections:
           # - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false, i18n: duplicate }
           # - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
-    - name: 'jobs' # Used in routes, e.g., /admin/collections/blog
-      label: 'Jobs' # Used in the UI
-      folder: 'content/jobs' # The path to the folder where the documents are stored
-      create: true # Allow users to create new documents in this collection
-      slug: '{{slug}}' # Filename template, e.g., my-title.md
+    - name: 'jobs'
+      label: 'Jobs'
+      folder: 'content/jobs'
+      create: true
+      slug: '{{slug}}'
       preview_path: en/jobs/{{slug}}
-
-      # Same as the top level i18n config, but all fields are optional and
-      # defaults to the top level can also be a boolean to accept the top level
-      # defaults
       i18n: true
-
-      # SEE https://www.netlifycms.org/docs/widgets#boolean
-      # For notes on the i18n support:
-      # SEE # https://www.netlifycms.org/docs/beta-features/#i18n-support
-      # The field-level i18n config shoudl be true|duplicate or omitted.
-      # Omitting it will cause the field not to be copied over., so that's
-      # probably not wnat is desired.
-      fields: # The fields for each document, usually in front matter
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog', i18n: duplicate }
+      fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
-    - name: 'blog' # Used in routes, e.g., /admin/collections/blog
-      label: 'Blog' # Used in the UI
-      folder: 'content/blog' # The path to the folder where the documents are stored
+    - name: 'faq'
+      label: 'FAQ'
+      folder: 'content/faq'
+      create: true
+      slug: '{{slug}}'
+      preview_path: en/faq/{{slug}}
+      i18n: true
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'why-taiwan'
+      label: 'Why Taiwan'
+      folder: 'content/why-taiwan'
+      create: true
+      slug: '{{slug}}'
+      preview_path: en/why-taiwan/{{slug}}
+      i18n: true
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'qualification'
+      label: 'Qualification'
+      folder: 'content/qualification'
+      create: true
+      slug: '{{slug}}'
+      preview_path: en/qualification/{{slug}}
+      i18n: true
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'news' # Used in routes, e.g., /admin/collections/news
+      label: 'News' # Used in the UI
+      folder: 'content/news' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
       slug: '{{slug}}' # Filename template, e.g., my-title.md
-      preview_path: en/blog/{{slug}}
+      preview_path: en/news/{{slug}}
 
       # Same as the top level i18n config, but all fields are optional and
       # defaults to the top level can also be a boolean to accept the top level
@@ -228,7 +255,6 @@ collections:
       # Omitting it will cause the field not to be copied over., so that's
       # probably not wnat is desired.
       fields: # The fields for each document, usually in front matter
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog', i18n: duplicate }
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
