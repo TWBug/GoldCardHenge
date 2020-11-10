@@ -207,10 +207,11 @@ blockquote {
 }
 
 [x-cloak] {
-    display: none !important;
+    display: none;
 }
 #navigationScroll[x-cloak] {
-    visibility: hidden !important;
+    display: block;
+    visibility: hidden;
 }
 /* purgecss end ignore */
 
