@@ -1,5 +1,8 @@
+/** @jsx window.h */
+
 /**
  * This file is for customizing netlify CMS.
+ * NOTE: Netlify CMS exposes React.createElement as window.h
  */
 
 // 在此自訂CMS
