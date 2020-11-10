@@ -73,6 +73,7 @@ module.exports = {
             fontSize: {
                 'md': '0.925rem',
                 '5xl': '2.45rem',
+                '6xl': '3rem',
             },
             maxWidth: (theme) => ({
                 xxs: '12rem',
@@ -97,8 +98,10 @@ module.exports = {
                 'screen-2/3': 'calc(var(--vh) * 66)',
                 'screen-3/4': 'calc(var(--vh) * 75)',
                 screen: 'calc(var(--vh) * 100)',
+                'screen-full': 'calc(var(--vh) * 100)',
             }),
             screens: {
+                'xxl': '1440px',
                 print: { raw: 'print' },
             },
             zIndex: {
@@ -151,7 +154,7 @@ module.exports = {
                     hyphens: 'auto',
                 },
                 '.top-nav-scroll': {
-                    top: 'var(--navigationScroll)',
+                    top: 'calc(var(--navigationScroll) + 1rem)',
                 },
             }
             addUtilities(changedUtilities, {
