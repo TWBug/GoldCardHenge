@@ -17,8 +17,6 @@
 
 {{ $language := .Site.Language | urlize }}
 
-{{ $articles := first 3 (where (where .Site.RegularPages "Section" "news") "Permalink" "!=" .Page.Permalink).ByLastmod.Reverse }}
-
 <div class="relative shadow-xl print:shadow-none">
     {{ partial "navigation" . }}
 </div>
@@ -81,8 +79,8 @@
                     {{ end }}
                     {{ end }}
                     <div class="font-bold leading-tight text-sm mb-2">Reading time: <span class="text-secondary">{{ .ReadingTime }} minutes</span></div>
-                    <h2 class="text-2xl font-medium mb-2 leading-tight mt-8">{{ $headline | markdownify }}</h2>
-                    <p class="text-sm mb-8">{{ $teaser }}</p>
+                    <h2 class="text-2xl font-semibold mb-2 leading-tight mt-8">{{ $headline | markdownify }}</h2>
+                    <p class="text-md mb-8">{{ $teaser }}</p>
                     {{ partial "articles-latest" . }}
                     {{ if ne  .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
                     <div id="tableofcontents" class="tableofcontents md:sticky top-nav-scroll">
