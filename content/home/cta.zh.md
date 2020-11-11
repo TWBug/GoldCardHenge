@@ -10,4 +10,7 @@ links:
       href: /en/apply
       target: _blank
 items:
+    - preview: "/img/dummy-image.jpg"
+      label: Headquaters
+      href: /news/single
 ---

@@ -99,14 +99,13 @@
     </section>
     <section help="call2action">
         <div class="grid grid-cols-1 sm:grid-cols-5 bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium shadow-xl">
-            
+            {{ $cta_image := index $cta.Params.items 0 }}
             <div class="sm:col-span-2 relative w-full min-h-64">
-                <img src="/img/dummy-image.jpg" alt="" class="absolute inset-0 w-full h-full object-cover object-top" />
+                <img src="{{ $cta_image.preview }}" alt="{{ $cta_image.title }}" class="absolute inset-0 w-full h-full object-cover object-top" />
             </div>
-
             <div class="replace relative col-span-3 text-white py-12 lg:py-24 px-12 lg:px-24 overflow-hidden z-0">
                 <div class="absolute bottom-0 right-0 w-full sm:w-2/3 lg:w-1/2 -z-1" style="bottom: -1px;">
-                    <img src="/img/footer-meta-mountains-trees.svg" class="block w-full flipped" alt="Taiwan Mountains">
+                    <img src="/img/footer-meta-mountains-trees.svg" class="block w-full flipped" alt="{{ i18n "taiwan_landscape" }}">
                 </div>
                 <div class="max-w-2xl">
                     <h3 class="text-4xl mb-2">
@@ -169,7 +168,7 @@
                     {{ end }}
                     <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
                         <div class="mx-auto w-1/4 mb-4">
-                            <img src="{{ $preview }}" alt="" class="w-full" />
+                            <img src="{{ $preview }}" alt="{{ .Title }}" class="w-full" />
                         </div>
                         <h3 class="text-xl font-bold text-orange-600">
                             <a href="{{ .RelPermalink }}">{{ $label }}</a>

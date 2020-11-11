@@ -8,6 +8,20 @@ tego:
     other: 'Taiwan Employment Gold Card Office'
 tego_logo:
     other: 'Logo Taiwan Employment Gold Card Office'
+apply_now:
+    other: 'Apply now'
+latest_news:
+    other: 'Latest news'
+reading_time:
+    other: 'Reading time: %d minutes'
+last_changed:
+    other: 'Last changed'
+table_of_contents:
+    other: 'Table of contents'
+categories:
+    other: 'Categories'
+tags:
+    other: 'Tags'
 taipei_city_skyline:
     other: 'Taipei City Skyline'
 taiwan_mountains:

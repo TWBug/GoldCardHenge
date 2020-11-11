@@ -44,10 +44,10 @@
                     </div>
                     {{ end }}
                     {{ if eq .Page.Section "news" }}
-                    <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">Last changed:</span> {{ dateFormat "January 2006" .Lastmod }}
+                    <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">{{ i18n "last_changed" }}:</span> {{ dateFormat "January 2006" .Lastmod }}
                     </div>
                     {{ if .Params.categories }}
-                    <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">Categories:</span>
+                    <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">{{ i18n "categories" }}:</span>
                         <ul class="inline">
                             {{ range .Params.categories }}
                             <li class="inline-block bg-white text-primary border-2 border-primary text-xs px-2 py-1 rounded-md mx-1"><a href="/{{ $language }}/categories/{{ . }}" class="inline-flex items-center">
@@ -63,7 +63,7 @@
                     {{ end }}
                     {{ else if eq .Page.Section "faq" }}
                     {{ if .Params.tags }}
-                    <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">Tags:</span>
+                    <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">{{ i18n "tags" }}:</span>
                         <ul class="inline">
                             {{ range .Params.tags }}
                             <li class="inline-block bg-white text-primary border-2 border-primary text-xs px-2 py-1 rounded-md mx-1"><a href="/{{ $language }}/tags/{{ . }}" class="inline-flex items-center">
@@ -78,13 +78,13 @@
                     </div>
                     {{ end }}
                     {{ end }}
-                    <div class="font-bold leading-tight text-sm mb-2">Reading time: <span class="text-secondary">{{ .ReadingTime }} minutes</span></div>
+                    <div class="font-bold leading-tight text-sm mb-2">{{ printf (i18n "reading_time") .ReadingTime }}</div>
                     <h2 class="text-2xl font-semibold mb-2 leading-tight mt-8">{{ $headline | markdownify }}</h2>
                     <p class="text-md mb-8">{{ $teaser }}</p>
                     {{ partial "articles-latest" . }}
                     {{ if ne  .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
                     <div id="tableofcontents" class="tableofcontents md:sticky top-nav-scroll">
-                        <h2 class="text-xl font-bold mb-4">Table of contents</h2>
+                        <h2 class="text-xl font-bold mb-4">{{ i18n "table_of_contents" }}</h2>
                         <aside>
                             {{ .TableOfContents }}
                         </aside>

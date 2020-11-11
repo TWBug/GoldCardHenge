@@ -10,4 +10,7 @@ links:
       href: /en/about/
       target:
 items:
+    - preview: "/img/dummy-image.jpg"
+      label: Dummy image
+      href:
 ---

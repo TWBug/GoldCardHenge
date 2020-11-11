@@ -2,7 +2,7 @@
 
 {{ if $articles }}
 <div class="mb-8">
-    <h2 class="text-xl font-bold">Latest Articles</h2>
+    <h2 class="text-xl font-bold">{{ i18n "latest_news" }}</h2>
     {{ range $articles }}
     <div class="my-4">
         <div class="text-xs font-semibold">{{ dateFormat "January 2006" .Lastmod }}</div>
