@@ -27,13 +27,19 @@ window.highlight = {
       return false;
     }
 
-    this.wrapper = this.wrapper[0];
+    for (var index = 0; index < this.wrapper.length; index++) {
+      if (typeof this.wrapper[index] === 'undefined') {
+        continue;
+      }
 
-    if (typeof this.wrapper === 'undefined') {
-      return false;
+      this.replaceInDocument(this.wrapper[index], /Taiwan Gold Card/g, '<span class="font-bold text-black">Taiwan <span class="highlight">Gold Card</span></span>');
     }
 
-    this.replaceInDocument(/Taiwan Gold Card/g, '<span class="font-bold text-black">Taiwan <span class="highlight">Gold Card</span></span>'); // this.replaceInDocument(
+    this.wrapper = this.wrapper[0]; // this.replaceInDocument(
+    //     /Taiwan Gold Card/g,
+    //     '<span class="font-bold text-black">Taiwan <span class="highlight">Gold Card</span></span>'
+    // )
+    // this.replaceInDocument(
     //     /Gold Card/g,
     //     '<span class="tinline-block bg-highlight text-black rounded-md px-2">Gold Card</span>'
     // )
@@ -42,9 +48,9 @@ window.highlight = {
     //     '<span class="inline-block bg-highlight text-black rounded-md px-2">Gold Card</span>'
     // )
   },
-  replaceInDocument: function replaceInDocument(pattern, string) {
+  replaceInDocument: function replaceInDocument(wrapper, pattern, string) {
     ;
-    [this.wrapper].concat(_toConsumableArray(this.wrapper.querySelectorAll('*:not(script):not(noscript):not(style)'))).forEach(function (_ref) {
+    [wrapper].concat(_toConsumableArray(wrapper.querySelectorAll('*:not(script):not(noscript):not(style)'))).forEach(function (_ref) {
       var _ref$childNodes = _toArray(_ref.childNodes),
           nodes = _ref$childNodes.slice(0);
 

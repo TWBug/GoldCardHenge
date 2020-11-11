@@ -5,14 +5,22 @@ window.highlight = {
         if (this.wrapper === 0) {
             return false
         }
-        this.wrapper = this.wrapper[0]
-        if (typeof this.wrapper === 'undefined') {
-            return false
+        for (let index = 0; index < this.wrapper.length; index++) {
+            if (typeof this.wrapper[index] === 'undefined') {
+                continue
+            }
+            this.replaceInDocument(
+                this.wrapper[index],
+                /Taiwan Gold Card/g,
+                '<span class="font-bold text-black">Taiwan <span class="highlight">Gold Card</span></span>'
+            )
         }
-        this.replaceInDocument(
-            /Taiwan Gold Card/g,
-            '<span class="font-bold text-black">Taiwan <span class="highlight">Gold Card</span></span>'
-        )
+        this.wrapper = this.wrapper[0]
+        
+        // this.replaceInDocument(
+        //     /Taiwan Gold Card/g,
+        //     '<span class="font-bold text-black">Taiwan <span class="highlight">Gold Card</span></span>'
+        // )
         // this.replaceInDocument(
         //     /Gold Card/g,
         //     '<span class="tinline-block bg-highlight text-black rounded-md px-2">Gold Card</span>'
@@ -22,8 +30,8 @@ window.highlight = {
         //     '<span class="inline-block bg-highlight text-black rounded-md px-2">Gold Card</span>'
         // )
     },
-    replaceInDocument: function (pattern, string) {
-        ;[this.wrapper, ...this.wrapper.querySelectorAll('*:not(script):not(noscript):not(style)')].forEach(
+    replaceInDocument: function (wrapper, pattern, string) {
+        ;[wrapper, ...wrapper.querySelectorAll('*:not(script):not(noscript):not(style)')].forEach(
             ({ childNodes: [...nodes] }) =>
                 nodes
                     .filter(({ nodeType }) => nodeType === document.ELEMENT_NODE)
