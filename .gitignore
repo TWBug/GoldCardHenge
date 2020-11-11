@@ -13,3 +13,4 @@ yarn-error.log*
 yarn.lock
 tmp
 static/admin/tego-cms.js
+content/tmp
