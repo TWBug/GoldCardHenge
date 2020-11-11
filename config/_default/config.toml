@@ -14,10 +14,12 @@ pygmentsUseClasses = true
 relativeURLs = false
 title = "Taiwan Gold Card"
 [taxonomies]
-reason = "reasons"
 category = "categories"
+reason = "reasons"
 tag = "tags"
+
 [languages]
+
 [languages.en]
 languageName = "English"
 title = "Taiwan Gold Card"
@@ -25,11 +27,14 @@ weight = 1
 [languages.en.outputs]
 home = ["HTML", "MANIFEST"]
 [languages.en.params]
-linkedin = "https://linkedin.com/whoever"
+linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
+
 [languages.zh]
 languageName = "中文"
 title = "台灣金卡"
 weight = 2
+[languages.zh.params]
+linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
 [languages.zh.outputs]
 home = ["HTML", "MANIFEST"]
 
@@ -40,6 +45,7 @@ title = "Taiwan Gold Card"
 weight = 10
 [languages.de.outputs]
 home = ["WELCOME"]
+
 [languages.es]
 disableKinds = ["404", "taxonomy", "sitemap"]
 languageName = "Español"
@@ -47,6 +53,7 @@ title = "Taiwan Gold Card"
 weight = 10
 [languages.es.outputs]
 home = ["WELCOME"]
+
 [languages.ar]
 disableKinds = ["404", "taxonomy", "sitemap"]
 languageName = "عربى"
