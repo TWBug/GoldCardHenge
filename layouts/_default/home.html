@@ -64,51 +64,25 @@
                     </div>
                 </div>
                 <div class="replace">
-                    <div
+                    {{ range $intro.Params.items }}
+                        {{ with $.Site.GetPage .href }}
+                        <div
                         class="flex items-center border-2 border-gray-500 rounded-md bg-white shadow-xl px-8 py-4 my-4"
                     >
-                        <div class="w-1/5 max-w-16 mr-6">
-                            <img src="/img/dummy-icon.svg" alt="" class="w-full" />
+                            <div class="w-1/5 max-w-16 mr-6">
+                                <img src="/img/dummy-icon.svg" alt="" class="w-full" />
+                            </div>
+                            <div>
+                                <h3 class="text-primary text-lg hover:text-black font-bold mb-1">
+                                    <a href="{{ .RelPermalink }}"> {{ .Title }} </a>
+                                </h3>
+                                <p class="font-regular text-md">
+                                    {{ .Summary | truncate 80 }}
+                                </p>
+                            </div>
                         </div>
-                        <div>
-                            <h3 class="text-primary font-bold mb-1">
-                                <a href="#"> Open work rights </a>
-                            </h3>
-                            <p class="font-regular">
-                                Work for any compan you want, or more than one, or start your own!
-                            </p>
-                        </div>
-                    </div>
-                    <div
-                        class="flex items-center border-2 border-gray-500 rounded-md bg-white shadow-xl px-8 py-4 my-4"
-                    >
-                        <div class="w-1/5 max-w-16 mr-6">
-                            <img src="/img/dummy-icon.svg" alt="" class="w-full" />
-                        </div>
-                        <div>
-                            <h3 class="text-primary font-bold mb-1">
-                                <a href="#"> Apply Online </a>
-                            </h3>
-                            <p class="font-regular">
-                                No sponsorship required, just prove your skills.
-                            </p>
-                        </div>
-                    </div>
-                    <div
-                        class="flex items-center border-2 border-gray-500 rounded-md bg-white shadow-xl px-8 py-4 my-4"
-                    >
-                        <div class="w-1/5 max-w-16 mr-6">
-                            <img src="/img/dummy-icon.svg" alt="" class="w-full" />
-                        </div>
-                        <div>
-                            <h3 class="text-primary font-bold mb-1">
-                                <a href="#"> Bring your family </a>
-                            </h3>
-                            <p class="font-regular">
-                                Residence for your spouse and children, and a special visitor visa for your parents.
-                            </p>
-                        </div>
-                    </div>
+                        {{ end }}
+                    {{ end }}
                 </div>
             </div>
         </div>
@@ -153,9 +127,7 @@
                         {{ $map.Title | markdownify }}
                     </h2>
                 </div>
-                <div class="mb-6">
-                    <img src="/img/dummy-map.png" alt="" class="w-full" />
-                </div>
+                {{ partial "home-map" .  }}
                 <div class="mx-auto w-full sm:w-3/4 text-center">
                     <p class="font-regular text-base">
                         {{ $map.Summary | markdownify }}
@@ -177,60 +149,24 @@
                 </p>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 my-12">
-                <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
-                    <div class="mx-auto w-1/4 mb-4">
-                        <img src="/img/dummy-icon.svg" alt="" class="w-full" />
+                {{ range $setup.Params.items }}
+                    {{ $label := .label }}
+                    {{ $preview := .preview }}
+                    {{ with $.Site.GetPage .href }}
+                    {{ if not $label }}
+                    {{ $label = .Title }}
+                    {{ end }}
+                    <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
+                        <div class="mx-auto w-1/4 mb-4">
+                            <img src="{{ $preview }}" alt="" class="w-full" />
+                        </div>
+                        <h3 class="text-xl font-bold text-orange-600">
+                            <a href="{{ .RelPermalink }}">{{ $label }}</a>
+                        </h3>
+                        <p>{{ .Summary | truncate 80 }}</p>
                     </div>
-                    <h3 class="text-xl font-bold text-orange-600">
-                        <a href="#">How to set-up</a>
-                    </h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-                <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
-                    <div class="mx-auto w-1/4 mb-4">
-                        <img src="/img/dummy-icon.svg" alt="" class="w-full" />
-                    </div>
-                    <h3 class="text-xl font-bold text-orange-600">
-                        <a href="#">How to set-up</a>
-                    </h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-                <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
-                    <div class="mx-auto w-1/4 mb-4">
-                        <img src="/img/dummy-icon.svg" alt="" class="w-full" />
-                    </div>
-                    <h3 class="text-xl font-bold text-orange-600">
-                        <a href="#">How to set-up</a>
-                    </h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-                <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
-                    <div class="mx-auto w-1/4 mb-4">
-                        <img src="/img/dummy-icon.svg" alt="" class="w-full" />
-                    </div>
-                    <h3 class="text-xl font-bold text-orange-600">
-                        <a href="#">How to set-up</a>
-                    </h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-                <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
-                    <div class="mx-auto w-1/4 mb-4">
-                        <img src="/img/dummy-icon.svg" alt="" class="w-full" />
-                    </div>
-                    <h3 class="text-xl font-bold text-orange-600">
-                        <a href="#">How to set-up</a>
-                    </h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-                <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
-                    <div class="mx-auto w-1/4 mb-4">
-                        <img src="/img/dummy-icon.svg" alt="" class="w-full" />
-                    </div>
-                    <h3 class="text-xl font-bold text-orange-600">
-                        <a href="#">How to set-up</a>
-                    </h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
+                    {{ end }}
+                {{ end }}
             </div>
         </div>
     </section>
@@ -246,51 +182,30 @@
                     </h2>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 auto-rows-fr gap-12 my-12">
-                    <div class="relative rounded-lg overflow-hidden shadow-xl min-h-64">
-                        <div class="absolute inset-0 -z-1">
-                            <div
-                                class="absolute inset-0 w-full h-full bg-gradient-to-t from-gray-800 bg-opacity-75"
-                            ></div>
-                            <img
-                                src="/img/dummy-image.jpg"
-                                alt=""
-                                class="block absolute inset-0 object-cover object-top w-full h-full -z-1"
-                            />
+                    {{ range $expand.Params.items }}
+                        {{ $label := .label }}
+                        {{ $preview := .preview }}
+                        {{ with $.Site.GetPage .href }}
+                        {{ if not $label }}
+                        {{ $label = .Title }}
+                        {{ end }}
+                        <div class="relative rounded-lg overflow-hidden shadow-xl min-h-64">
+                            <div class="absolute inset-0 -z-1">
+                                <div
+                                    class="absolute inset-0 w-full h-full bg-gradient-to-t from-gray-800 bg-opacity-75"
+                                ></div>
+                                <img
+                                    src="{{ $preview }}"
+                                    alt="{{ $preview }}"
+                                    class="block absolute inset-0 object-cover object-top w-full h-full -z-1"
+                                />
+                            </div>
+                            <div class="absolute bottom-0 w-full text-center">
+                                <a href="{{ .RelPermalink }}" class="block text-2xl font-bold text-white p-6">{{ $label }}</a>
+                            </div>
                         </div>
-                        <div class="absolute bottom-0 w-full text-center">
-                            <a href="#" class="block text-2xl font-bold text-white p-6">High Tech manufactoring</a>
-                        </div>
-                    </div>
-                    <div class="relative rounded-lg overflow-hidden shadow-xl">
-                        <div class="absolute inset-0 -z-1">
-                            <div
-                                class="absolute inset-0 w-full h-full bg-gradient-to-t from-gray-800 bg-opacity-75"
-                            ></div>
-                            <img
-                                src="/img/dummy-image.jpg"
-                                alt=""
-                                class="block absolute inset-0 object-cover object-top  w-full h-full -z-1"
-                            />
-                        </div>
-                        <div class="absolute bottom-0 w-full text-center">
-                            <a href="#" class="block text-2xl font-bold text-white p-6">Headquaters</a>
-                        </div>
-                    </div>
-                    <div class="relative rounded-lg overflow-hidden shadow-xl">
-                        <div class="absolute inset-0 -z-1">
-                            <div
-                                class="absolute inset-0 w-full h-full bg-gradient-to-t from-gray-800 bg-opacity-75"
-                            ></div>
-                            <img
-                                src="/img/dummy-image.jpg"
-                                alt=""
-                                class="block absolute inset-0 object-cover object-top  w-full h-full -z-1"
-                            />
-                        </div>
-                        <div class="absolute bottom-0 w-full text-center">
-                            <a href="#" class="block text-2xl font-bold text-white p-6">Innovation</a>
-                        </div>
-                    </div>
+                        {{ end }}
+                    {{ end }}
                 </div>
                 <div class="mx-auto w-full sm:w-2/3 text-center mb-4">
                     {{ $setup.Summary | markdownify }}

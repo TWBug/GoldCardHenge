@@ -11,4 +11,14 @@ links:
     - is_cta: false
       label: Why Taiwan
       href: /en/about
+items:
+    - is_cta: false
+      label: About Gold Card
+      href: /news/single
+    - is_cta: false
+      label: Why Taiwan
+      href: /news/single
+    - is_cta: false
+      label: Why Taiwan
+      href: /news/single
 ---

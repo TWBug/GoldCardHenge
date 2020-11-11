@@ -1,11 +1,24 @@
 ---
-title: 就業金卡簡介
-summary: 何謂就業金卡？我們來介紹一下。
+title: Advantages of the Taiwan Gold Card for Professionals
+summary: A short introduction, why Taiwan should be the next step for the visitor. A nice catchy copy that is helping the visitor to find out more about this country it’s culture and why Taiwan is the perfect match.
 draft: false
 hidden: false
 headless: true
+links:
+    - is_cta: false
+      label: About Gold Card
+      href: /en/apply
+    - is_cta: false
+      label: Why Taiwan
+      href: /en/about
+items:
+    - is_cta: false
+      label: About Gold Card
+      href: /news/single
+    - is_cta: false
+      label: Why Taiwan
+      href: /news/single
+    - is_cta: false
+      label: Why Taiwan
+      href: /news/single
 ---
-
-# 您好
-
-內容。。。

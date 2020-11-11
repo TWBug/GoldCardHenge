@@ -5,4 +5,23 @@ draft: false
 hidden: false
 headless: true
 links:
+items:
+    - preview: "/img/dummy-icon.svg"
+      label: How to set-up
+      href: /news/single
+    - preview: "/img/dummy-icon.svg"
+      label: How to set-up
+      href: /news/single
+    - preview: "/img/dummy-icon.svg"
+      label: How to set-up
+      href: /news/single
+    - preview: "/img/dummy-icon.svg"
+      label: How to set-up
+      href: /news/single
+    - preview: "/img/dummy-icon.svg"
+      label: How to set-up
+      href: /news/single
+    - preview: "/img/dummy-icon.svg"
+      label: How to set-up
+      href: /news/single
 ---
