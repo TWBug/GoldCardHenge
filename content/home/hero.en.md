@@ -11,4 +11,5 @@ links:
     - is_cta: false
       label: Learn More
       href: /en/about
+items:
 ---
