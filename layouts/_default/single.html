@@ -17,7 +17,7 @@
 
 {{ $language := .Site.Language | urlize }}
 
-{{ $articles := first 3 (where (where .Site.RegularPages "Section" "blog") "Permalink" "!=" .Page.Permalink).ByLastmod.Reverse }}
+{{ $articles := first 3 (where (where .Site.RegularPages "Section" "news") "Permalink" "!=" .Page.Permalink).ByLastmod.Reverse }}
 
 <div class="relative shadow-xl print:shadow-none">
     {{ partial "navigation" . }}
@@ -26,6 +26,7 @@
     <div
         class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 print:hidden -z-1"
     ></div>
+    <div class="absolute right-0 top-0 text-xs font-bold text-black text-opacity-25 p-2">SINGLE TEMPLATE</div>
     <section>
         <div class="container py-12 sm:py-24 px-12 lg:px-24">
             {{ if $image }}
@@ -53,7 +54,7 @@
                             {{ range .Params.categories }}
                             <li class="inline-block bg-white text-primary border-2 border-primary text-xs px-2 py-1 rounded-md mx-1"><a href="/{{ $language }}/categories/{{ . }}" class="inline-flex items-center">
                                 {{ partial "icon" (dict "name" "tag" "size" "3") }}
-                                <span class="font-bold uppercase ml-1">
+                                <span class="font-semibold uppercase ml-1">
                                     {{ . | humanize }}
                                 </span>
                                 </a>
@@ -82,21 +83,7 @@
                     <div class="font-bold leading-tight text-sm mb-2">Reading time: <span class="text-secondary">{{ .ReadingTime }} minutes</span></div>
                     <h2 class="text-2xl font-medium mb-2 leading-tight mt-8">{{ $headline | markdownify }}</h2>
                     <p class="text-sm mb-8">{{ $teaser }}</p>
-                    {{ if $articles }}
-                    <div class="mb-8">
-                        <h2 class="text-xl font-bold">Latest Articles</h2>
-                        {{ range $articles }}
-                        <div class="my-4">
-                            <div class="text-xs font-semibold">{{ dateFormat "January 2006" .Lastmod }}</div>
-                            <a href="{{.RelPermalink}}" class="flex items-center font-bold text-primary -ml-3">
-                                {{ partial "icon" (dict "name" "right" "size" "4") }}
-                                <span class="pl-1">{{.Title}}</span>
-                            </a>
-                            <p class="text-sm mb-2">{{ .Summary | truncate 70 }}</p>
-                        </div>
-                        {{ end }}
-                    </div>
-                    {{ end }}
+                    {{ partial "articles-latest" . }}
                     {{ if ne  .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
                     <div id="tableofcontents" class="tableofcontents md:sticky top-nav-scroll">
                         <h2 class="text-xl font-bold mb-4">Table of contents</h2>
