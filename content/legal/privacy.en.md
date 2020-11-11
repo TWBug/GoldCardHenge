@@ -8,13 +8,13 @@ hidden: false
 
 Welcome to “Taiwan Gold Card” (https://taiwangoldcard.tw/, collectively the “Website”). This Website
  was built and organized by the “Taiwan Employment Gold Card Office” (“TEGO”), which is entrusted
- by “National Development Council”. We respect your privacy and takes your privacy seriously.
- This Private Policy that covers and describes the policies and principles on how we collect,
+ by the “National Development Council”. We respect your privacy and takes your privacy seriously.
+ This Privacy Policy that covers and describes the policies and principles on how we collect,
  use, disclose, transfer and store your personal information (“Privacy Policy”).
  Please take a moment to familiarize yourself with our Privacy Policy and [contact](/en/contact)
  us if you have any questions.
 
-## 1. The Applied Range of This Privacy Policy
+## 1. Applicable Scope of This Privacy Policy
  The content of this Privacy Policy includes how the Website deals and utilizes your personal
  information when you visit the Website and use the services on the Website. This Privacy Policy
  does not apply for relevant external websites.
@@ -46,8 +46,8 @@ This Website will collect, manage and use your personal information in the regio
 The host of the Website is set up with information security equipment and protective measures such
  as firewall and antivirus software. To protect the Website and your personal information, the
  Website adopts strict security measures. Only authorized personnel can get access to your personal
- information. Relevant staffs have signed  Non-Disclosure Agreements, and If there is a violation
- involved, the staff should will be punished by law.
+ information. Relevant staff have signed Non-Disclosure Agreements, and if there is a violation
+ involved, staff will be punished according to the law.
 
 If it is necessary to entrust another third party to provide service for the purpose of
  business, the Website will also strictly require such third party to comply with confidentiality
@@ -73,7 +73,7 @@ The pages of the Website contain links to other websites, and you can access to 
  that the Website does not guarantee or assume any responsibility for the privacy policies
  and/or its privacy settings of other websites.
 
-## 6. Statement to the Contributors
+## 6. Statement to Contributors
 If you wish to contribute to the Website, please do not upload any confidential data. You
  represent and warrant that you have the legitimate rights to your contribution under the
  copyright law, and there is no infringement of the rights of any other third party. You also
@@ -93,7 +93,7 @@ To provide you with the best service, the Website will place and access cookies 
  cause some functions or services of the Website fail to execute.
 
 ## 9. Modifications
-This Private Policy will be amended anytime in respond to demand. The advised terms will be posted
+This Privacy Policy will be amended anytime in respond to demand. The advised terms will be posted
  on the Website, please review this Privacy Policy periodically. If you continue to visit the
  Website or use the functional service of the Website after the amendment of the Privacy Policy,
  you will be deemed to have agreed to all the terms of this Privacy Policy.
@@ -101,7 +101,7 @@ This Private Policy will be amended anytime in respond to demand. The advised te
 ## 10. Language
 This Privacy Policy is written in Chinese. If this Privacy Policy is translated into other
  languages, it should be for convenience only and should not be used to explain or apply this
- Privacy Policy. The English version of this Privacy Policy is for referring only. In case of
+ Privacy Policy. The English version of this Privacy Policy is for reference only. In case of
  any inconsistency, the Chinese version shall prevail.
 
 ## 11. Self-Protection
