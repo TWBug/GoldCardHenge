@@ -1,6 +1,6 @@
 ---
 title: Advantages of the Taiwan Gold Card for Professionals
-description: A short introduction, why Taiwan should be the next step for the visitor. A nice catchy copy that is helping the visitor to find out more about this country it’s culture and why Taiwan is the perfect match.
+summary: A short introduction, why Taiwan should be the next step for the visitor. A nice catchy copy that is helping the visitor to find out more about this country it’s culture and why Taiwan is the perfect match.
 draft: false
 hidden: false
 headless: true
