@@ -119,10 +119,13 @@ blockquote {
     left: -0.7em;
 }
 .tableofcontents UL UL {
-    @apply pb-2;
+    @apply ml-2 pb-2;
 }
 .tableofcontents UL UL A {
     @apply text-sm font-bold;
+}
+.tableofcontents UL UL UL {
+    @apply ml-2;
 }
 .tableofcontents UL UL UL A {
     @apply text-xs font-medium;
