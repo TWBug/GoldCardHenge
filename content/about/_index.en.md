@@ -1,5 +1,5 @@
 ---
-title: 'About'
+title: "What is the Gold Card?"
 draft: false
 hidden: false
 layout: single
