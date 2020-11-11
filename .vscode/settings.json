@@ -1,12 +1,11 @@
 {
     "css.validate": false,
     "stylelint.enable": true,
-    "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 120,
     "editor.wrappingIndent": "indent",
     "editor.formatOnPaste": false,
     "debug.console.wordWrap": false,
-    "editor.tabSize": 4,
+    "editor.tabSize": 2,
     "html.format.contentUnformatted": "pre,code,textarea",
     "html.format.endWithNewline": false,
     "html.format.extraLiners": "head, body, /html",

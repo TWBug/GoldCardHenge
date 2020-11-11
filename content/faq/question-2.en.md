@@ -4,8 +4,8 @@ date: 2020-11-04T06:52:19.195Z
 draft: false
 folder: faq
 tags:
-- card
-- spain
+    - card
+    - spain
 ---
 
 # Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, magni!
