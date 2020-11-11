@@ -376,6 +376,18 @@ collections:
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
+    - name: 'application'
+      label: 'Application'
+      folder: 'content/application'
+      create: true
+      slug: '{{slug}}'
+      preview_path: en/application/{{slug}}
+      i18n: true
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
     - name: 'news' # Used in routes, e.g., /admin/collections/news
       label: 'News' # Used in the UI
       folder: 'content/news' # The path to the folder where the documents are stored
