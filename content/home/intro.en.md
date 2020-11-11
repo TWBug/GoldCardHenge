@@ -5,12 +5,14 @@ draft: false
 hidden: false
 headless: true
 links:
-    - is_cta: false
+    - is_cta: true
       label: About Gold Card
-      href: /en/apply
+      href: /en/about/
+      target:
     - is_cta: false
       label: Why Taiwan
-      href: /en/about
+      href: /en/about/
+      target:
 items:
     - is_cta: false
       label: About Gold Card

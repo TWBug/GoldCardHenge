@@ -8,9 +8,11 @@ links:
     - is_cta: false
       label: About Gold Card
       href: /en/apply
+      target:
     - is_cta: false
       label: Why Taiwan
       href: /en/about
+      target:
 items:
     - is_cta: false
       label: About Gold Card

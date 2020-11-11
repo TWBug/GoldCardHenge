@@ -8,5 +8,6 @@ links:
     - is_cta: true
       label: Tell me more
       href: /en/apply
+      target: _blank
 items:
 ---

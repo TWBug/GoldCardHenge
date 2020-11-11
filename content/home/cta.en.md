@@ -7,6 +7,7 @@ headless: true
 links:
     - is_cta: true
       label: Tell me more
-      href: /en/apply
+      href: /en/about/
+      target:
 items:
 ---
