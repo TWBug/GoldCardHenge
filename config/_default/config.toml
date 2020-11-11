@@ -54,6 +54,12 @@ weight = 10
 [languages.ar.outputs]
 home = ["WELCOME"]
 
+[markup]
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 1
+
 [minify]
 disableCSS = true
 disableHTML = false
