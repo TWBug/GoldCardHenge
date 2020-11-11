@@ -1,0 +1,13 @@
+goldcard:
+    title: 'footer_goldcard_title'
+    items:
+        - '/about'
+        - '/qualification'
+        - '/application'
+legal:
+    title: 'footer_legal_title'
+    items:
+        - '/legal/privacy'
+        - '/legal/open-government-declaration'
+        - '/legal/security-safeguard-restoration-mechanism'
+        - '/legal/security-policy'

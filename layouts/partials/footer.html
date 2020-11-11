@@ -1,42 +1,45 @@
-{{ $url := .Page.Permalink }} {{ $actual_language := .Site.Language.Lang }}
+{{ $url := .Page.Permalink }}
+{{ $actual_language := .Site.Language.Lang }}
+{{ $footer := .Site.Data.footer }}
 <div class="relative h-40 print:hidden">
     <div class="absolute bottom-0 right-8 w-4/5 sm:w-1/3 xl:w-1/3" style="bottom: -1px">
-        <img src="/img/footer-taipei-skyline.svg" alt="">
+        <img src="/img/footer-taipei-skyline.svg" alt="{{ i18n "taipei_city_skyline" }}">
     </div>
     <div class="absolute bottom-0 left-0 w-2/3 lg:w-1/2 xl:w-1/3 overflow-hidden" style="bottom: -1px; left: -1px">
-        <img src="/img/footer-taipei-mountains.svg" alt="">
+        <img src="/img/footer-taipei-mountains.svg" alt="{{ i18n "taiwan_mountains" }}">
     </div>
 </div>
 <div class="relative bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium print:bg-white print:bg-none">
     <div class="absolute bottom-0 left-0 w-full sm:w-1/2 xl:w-1/3 print:hidden" style="bottom: -1px">
-        <img src="/img/footer-meta-mountains-trees.svg" class="block" alt="Taiwan Mountains">
+        <img src="/img/footer-meta-mountains-trees.svg" class="block" alt="{{ i18n "taiwan_landscape" }}">
     </div>
     <div id="footerHumminbird" class="absolute left-20 bottom-1/3 print:hidden">
-        <img src="/img/footer-meta-hummingbird.svg" class="block w-12" alt="Taiwan Hummingbird">
+        <img src="/img/footer-meta-hummingbird.svg" class="block w-12" alt="{{ i18n "taiwan_hummingbird" }}">
     </div>
     <div class="relative container py-12 px-12 lg:px-24 z-10">
         <div class="w-1/2 max-w-32 py-6">
-            <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="" />
+            <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="{{ i18n "tego_logo" }}" />
         </div>
         <div class="flex text-white print:text-black">
             <div class="w-1/3 flex-shrink-0 mr-8">
                 <p class="font-semibold text-xs">
-                    The Taiwan Employment Gold Card is a combined open work permit, residence permit and visa for
-                    skilled professionals.
+                  {{ i18n "footer_description" }}
                 </p>
                 <div class="my-4">
-                    <a href="https://www.linkedin.com/company/taiwangoldcard/" class="inline-block" target="_blank">
+                    <a href="{{ .Site.Language.Params.linkedin}}" class="inline-block" target="_blank">
                         {{ partial "icon" (dict "name" "linkedin" "size" "8" "alt" "Link to linkedin page") }}
                     </a>
                 </div>
             </div>
             <div class="flex-grow grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-xs font-regular">
                 <div class="">
-                    <h4 class="font-semibold uppercase text-sm mb-2">Gold Card</h4>
+                    <h4 class="font-semibold uppercase text-sm mb-2">{{ i18n $footer.goldcard.title }}</h4>
                     <ul>
-                        <li><a href="/{{ .Site.Language.Lang }}/about">What is the Gold Card?</a></li>
-                        <li><a href="/{{ .Site.Language.Lang }}/qualification">Do I qualify?</a></li>
-                        <li><a href="/{{ .Site.Language.Lang }}/application">The Gold Card Application</a></li>
+                        {{ range $footer.goldcard.items }}
+                        {{ with $.Site.GetPage . }}
+                        <li class="mb-1"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                        {{ end }}
                         <li>After submitting your application</li>
                         <li>After passing skill assessment</li>
                     </ul>
@@ -50,12 +53,12 @@
                     </ul>
                 </div>
                 <div class="">
-                    <h4 class="font-semibold uppercase text-sm mb-2">Languages</h4>
-                    <ul>
+                    <h4 class="font-semibold uppercase text-sm mb-2">{{ i18n "footer_languages_title" }}</h4>
+                    <ul class="flex flex-wrap items-center">
                         {{ range .Site.Languages }}
                         {{ if lt .Weight 10 }}
                         {{ $url = replace $url $actual_language .Lang }}
-                        <li><a
+                        <li class="pr-2"><a
                             href="{{ $url }}"
                             @click.prevent="switchLanguage('{{ .Lang }}')"
                             title="Change Language"
@@ -66,26 +69,27 @@
                         {{ end }}
                     </ul>
                     <h4 class="font-semibold uppercase text-sm mt-2">FAQ</h4>
-                    <ul>
+                    <ul class="flex flex-wrap items-center">
                         {{ range .Site.Taxonomies.tags }}
-                        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                        <li class="pr-2"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
                         {{ end }}
                     </ul>
                     <h4 class="font-semibold uppercase text-sm mt-2">News</h4>
-                    <ul>
+                    <ul class="flex flex-wrap items-center">
                         {{ range .Site.Taxonomies.categories }}
-                        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                        <li class="pr-2"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
                         {{ end }}
                     </ul>
                     
                 </div>
                 <div class="">
-                    <h4 class="font-semibold uppercase text-sm mb-2">Legal</h4>
+                    <h4 class="font-semibold uppercase text-sm mb-2">{{ i18n $footer.legal.title }}</h4>
                     <ul>
-                        <li><a href="/{{ .Site.Language.Lang }}/legal/privacy">Privacy Policy</a></li>
-                        <li>Security Safeguard and Restoration Mechanism</li>
-                        <li>Information Security Policy</li>
-                        <li><a href="/{{ .Site.Language.Lang }}/legal/open-government-declaration">Open Government Declaration</a></li>
+                        {{ range $footer.legal.items }}
+                        {{ with $.Site.GetPage . }}
+                        <li class="mb-1"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                        {{ end }}
                     </ul>
                 </div>
             </div>

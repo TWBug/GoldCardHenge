@@ -6,7 +6,23 @@ change_language:
     other: 'Change language'
 tego:
     other: 'Taiwan Employment Gold Card Office'
+tego_logo:
+    other: 'Logo Taiwan Employment Gold Card Office'
 taipei_city_skyline:
     other: 'Taipei City Skyline'
+taiwan_mountains:
+    other: 'Taiwan Mountains'
+taiwan_landscape:
+    other: 'Taiwan Landscape'
+taiwan_hummingbird:
+    other: 'Taiwan Hummingbird'
 footer_copyright:
     other: 'Taiwan Employment Gold Card Office - All rights reserverd'
+footer_description:
+    other: 'The Taiwan Employment Gold Card is a combined open work permit, residence permit and visa for skilled professionals.'
+footer_goldcard_title:
+    other: 'Gold-Card'
+footer_languages_title:
+    other: 'Languages'
+footer_legal_title:
+    other: 'Legal'
