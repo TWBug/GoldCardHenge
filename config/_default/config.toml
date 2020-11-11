@@ -14,6 +14,7 @@ pygmentsUseClasses = true
 relativeURLs = false
 title = "Taiwan Gold Card"
 [taxonomies]
+reason = "reasons"
 category = "categories"
 tag = "tags"
 [languages]
