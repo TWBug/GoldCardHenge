@@ -65,7 +65,7 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
-          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: true, i18n: duplicate }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate, required: false }
           - { label: 'Hidden?', name: 'hidden', widget: 'boolean', default: false, required: false, i18n: true }
           - { label: 'Layout', name: 'layout', widget: 'string', default: null, required: false, i18n: true }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
@@ -86,7 +86,7 @@ collections:
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
                 - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
-                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
+                - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate, required: false }
                 - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
                 - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
                 - label: 'Links'
@@ -103,7 +103,7 @@ collections:
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
                 - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
-                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
+                - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate, required: false }
                 - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
                 - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
                 - label: 'Links'
@@ -510,8 +510,8 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate, required: false }
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
-          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-          - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false, i18n: duplicate }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'events'
@@ -552,8 +552,8 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
-          - label: 'Category'
-            name: 'category'
+          - label: 'Categories'
+            name: 'categories'
             widget: 'relation'
             collection: 'taxonomies'
             file: 'category_data'
@@ -587,8 +587,8 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
-          - label: 'Category'
-            name: 'category'
+          - label: 'Categories'
+            name: 'categories'
             widget: 'relation'
             collection: 'taxonomies'
             file: 'category_data'
@@ -619,8 +619,8 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
-          - label: 'Category'
-            name: 'category'
+          - label: 'Categories'
+            name: 'categories'
             widget: 'relation'
             collection: 'taxonomies'
             file: 'category_data'
@@ -652,8 +652,8 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
-          - label: 'Category'
-            name: 'category'
+          - label: 'Categories'
+            name: 'categories'
             widget: 'relation'
             collection: 'taxonomies'
             file: 'category_data'
@@ -685,8 +685,8 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
-          - label: 'Category'
-            name: 'category'
+          - label: 'Categories'
+            name: 'categories'
             widget: 'relation'
             collection: 'taxonomies'
             file: 'category_data'
@@ -718,8 +718,8 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
-          - label: 'Category'
-            name: 'category'
+          - label: 'Categories'
+            name: 'categories'
             widget: 'relation'
             collection: 'taxonomies'
             file: 'category_data'
@@ -772,7 +772,7 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
-          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, required: false, i18n: duplicate }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, required: false, i18n: duplicate }
           - { label: 'Hidden?', name: 'hidden', widget: 'boolean', default: false, required: false, i18n: duplicate }
           - { label: 'Cover Image', name: 'cover_image', widget: 'image', required: false, i18n: duplicate }
           - {
@@ -800,8 +800,8 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
-          - label: 'Category'
-            name: 'category'
+          - label: 'Categories'
+            name: 'categories'
             widget: 'relation'
             collection: 'taxonomies'
             file: 'category_data'
@@ -813,7 +813,7 @@ collections:
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'taxonomies'
-      label: 'Taxonomies 類別'
+      label: 'Taxonomies 類別與標籤'
       editor:
           preview: false
       description: >
