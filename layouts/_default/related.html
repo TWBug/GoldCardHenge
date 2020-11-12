@@ -1,13 +1,4 @@
 {{ define "main" }}
-{{ $headline := .Page.Title }}
-{{ if isset .Page.Params "headline" }}
-{{ $headline = .Page.Params.headline }}
-{{ end }}
-
-{{ $teaser := .Page.Params.description }}
-{{ if isset .Page.Params "teaser" }}
-{{ $teaser = .Page.Params.teaser }}
-{{ end }}
 
 {{ $cover_image := "" }}
 {{ if .Params.cover_image }}

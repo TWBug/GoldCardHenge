@@ -4,21 +4,17 @@
 {{ $favicon96 := resources.Get "img/favicon-96x96.png" | fingerprint }}
 {{ $appleicon144 := resources.Get "img/apple-icon-144x144.png" | fingerprint }}
 
-{{ $headline := .Page.Title }}
-{{ if .Params.headline }}
-{{ $headline =  .Page.Params.headline | markdownify | plainify }}
-{{ end }}
-
-{{/*  {{ $description := .Page.Title }}  */}}
-{{/*  {{ if .Params.description }}  */}}
-{{/*  {{ $description =  .Page.Params.description | markdownify | plainify }}  */}}
-{{/*  {{ end }}  */}}
-
-{{ $preview := resources.Get "img/uploads/taiwan-gold-card-social-preview.jpg" }}
-{{ if .Params.preview }}
-{{ $buffer := resources.Get (printf "%s" (.Params.preview | safeURL)) }}
+{{ $media_image := resources.Get "img/uploads/taiwan-gold-card-social-preview.jpg" }}
+{{ if .Params.cover_image }}
+{{ $buffer := resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
 {{ if $buffer }}
-{{ $preview = $buffer }}
+{{ $media_image = $buffer }}
+{{ end }}
+{{ end }}
+{{ if .Params.media_image }}
+{{ $buffer := resources.Get (printf "%s" (.Params.media_image | safeURL)) }}
+{{ if $buffer }}
+{{ $media_image = $buffer }}
 {{ end }}
 {{ end }}
 
@@ -33,15 +29,15 @@
 {{ with .Params.Author }}
 <meta name="author" content="Author name" />
 {{ end }}
-<meta property="og:title" content="{{ $headline }}">
+<meta property="og:title" content="{{ .Page.Title | markdownify | plainify }}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ .Page.Permalink }}">
 <meta property="og:description" content="{{ .Summary | truncate 200 }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
-<meta property="og:image" content="{{ $preview.Permalink | safeURL }}">
-<meta name="twitter:image" content="{{ $preview.Permalink | safeURL }}">
+<meta property="og:image" content="{{ $media_image.Permalink | safeURL }}">
+<meta name="twitter:image" content="{{ $media_image.Permalink | safeURL }}">
 <meta name="twitter:site" content="{{ .Site.Title }}">
-<meta name="twitter:title" content="{{ $headline }}">
+<meta name="twitter:title" content="{{ .Page.Title | markdownify | plainify }}">
 <meta name="twitter:description" content="{{ .Summary | truncate 200 }}">
 <meta name="twitter:card" content="summary_large_image">
 {{ if .IsTranslated }}
@@ -59,7 +55,7 @@
 <link rel="icon" type="image/png" sizes="96x96" href="{{ $favicon96.RelPermalink }}" />
 <link rel="apple-touch-icon" sizes="144x144" href="{{ $appleicon144.RelPermalink }}" />
 <link rel="canonical" href="{{ .Page.Permalink }}" />
-<title>{{ .Page.Title }} | {{ .Site.Title }}</title>
+<title>{{ .Page.Title | markdownify | plainify }} | {{ .Site.Title }}</title>
 {{ if eq .Site.Language.Lang "zh" }}
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&Krub:wght@300;400;500;600;700&display=swap"

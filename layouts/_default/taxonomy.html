@@ -1,16 +1,8 @@
 {{ define "main" }}
-{{ $headline := .Page.Title }}
-{{ if isset .Page.Params "headline" }}
-{{ $headline = .Page.Params.headline }}
-{{ end }}
-{{ $teaser := .Page.Params.description }}
-{{ if isset .Page.Params "teaser" }}
-{{ $teaser = .Page.Params.teaser }}
-{{ end }}
 
 {{ $cover_image := "" }}
 {{ if .Params.cover_image }}
-{{ $cover_image = .Page.Resources.GetMatch (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
 {{ end }}
 
 <div class="relative bg-blue-500 shadow-xl" rel="taxonomy" type="{{ .Data.Plural }}">
