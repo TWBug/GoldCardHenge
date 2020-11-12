@@ -2,7 +2,6 @@
 title: Events
 summary:
 date: 2020-11-05T07:09:20.617Z
-publishDate: 2020-11-05T07:09:20.617Z
 draft: false
 topic: eventsnews
 cover_image:
