@@ -1,16 +1,16 @@
 items:
   - name: Gold Card
-    folder: goldcard
-    link: /about/
+    topic: goldcard
+    link: /application/
   - name: FAQ
-    folder: faq
+    topic: faq
     link: /faq/
   - name: Why Taiwan
-    folder: whytaiwan
+    topic: whytaiwan
     link: /why-taiwan/
   - name: Events & News
-    folder: eventsnews
+    topic: eventsnews
     link: /news/
   - name: Resources
-    folder: resources
-    link: /application/
+    topic: resources
+    link: /about/

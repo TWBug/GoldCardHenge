@@ -1,16 +1,16 @@
 items:
   - name: 就業金卡
-    folder: goldcard
-    link: /about/
+    topic: goldcard
+    link: /application/
   - name: FAQ
-    folder: faq
+    topic: faq
     link: /faq/
   - name: 為什麼台灣
-    folder: whytaiwan
+    topic: whytaiwan
     link: /why-taiwan/
   - name: 活動和新聞
-    folder: eventsnews
+    topic: eventsnews
     link: /news/
   - name: 相關資源
-    folder: resources
-    link: /application/
+    topic: resources
+    link: /about/
