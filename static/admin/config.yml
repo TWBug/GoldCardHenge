@@ -534,24 +534,24 @@ collections:
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     ### Just a testing collection!
-    - name: 'text_xxx'
-      label: '[TEST]'
-      description: >
-          This is just a testing collection. It is not meant to be rendered to the
-          final site.
-      folder: 'content/tmp'
-      create: true
-      slug: '{{slug}}'
-      preview_path: en/test/{{slug}}
-      i18n: true
-      fields:
-          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
-          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
-          - name: categories
-            label: Categories
-            widget: categories
-            separator: ','
+    # - name: 'text_xxx'
+    #   label: '[TEST]'
+    #   description: >
+    #       This is just a testing collection. It is not meant to be rendered to the
+    #       final site.
+    #   folder: 'content/tmp'
+    #   create: true
+    #   slug: '{{slug}}'
+    #   preview_path: en/test/{{slug}}
+    #   i18n: true
+    #   fields:
+    #       - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+    #       - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+    #       - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+    #       - name: categories
+    #         label: Categories
+    #         widget: categories
+    #         separator: ','
 
     - name: 'news' # Used in routes, e.g., /admin/collections/news
       label: 'News 最新新聞' # Used in the UI
