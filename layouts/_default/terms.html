@@ -10,9 +10,9 @@
 {{ $teaser = .Page.Params.teaser }}
 {{ end }}
 
-{{ $image := "" }}
-{{ if .Params.image }}
-{{ $image = resources.Get (printf "%s" (.Params.image | safeURL)) }}
+{{ $cover_image := "" }}
+{{ if .Params.cover_image }}
+{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
 {{ end }}
 
 <div class="relative bg-blue-500 shadow-xl" rel="terms" type="{{ .Data.Plural }}">
@@ -28,13 +28,13 @@
                 <div class="grid grid-cols-3 gap-24 items-center">
                     <div class="replace col-span-2">
                         <h1 class="text-white text-5xl leading-tight font-semibold mb-2">
-                            <span class="font-bold">{{ $headline }}
+                            <span class="font-bold">{{ .Title }}
                         </h1>
-                        <p class="text-white font-semibold">{{ $teaser }}</p>
+                        <p class="text-white font-semibold">{{ .Summary }}</p>
                     </div>
-                    {{ if $image }}
+                    {{ if $cover_image }}
                     <div class="min-h-32">
-                        <img src="{{ $image.RelPermalink }}" class="w-full" loading="lazy" alt="{{ .Page.Params.description | truncate 160 }}" />
+                        <img src="{{ $cover_image.RelPermalink }}" class="w-full" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
                     </div>
                     {{ end }}
                 </div>

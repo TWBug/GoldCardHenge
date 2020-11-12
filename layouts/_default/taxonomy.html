@@ -8,13 +8,9 @@
 {{ $teaser = .Page.Params.teaser }}
 {{ end }}
 
-{{ $image := "" }}
-{{ $imageLicence := "" }}
-{{ if .Params.image }}
-{{ $image = .Page.Resources.GetMatch (printf "%s" (.Params.image | safeURL)) }}
-{{ end }}
-{{ if .Params.imageLicence }}
-{{ $imageLicence = .Params.imageLicence }}
+{{ $cover_image := "" }}
+{{ if .Params.cover_image }}
+{{ $cover_image = .Page.Resources.GetMatch (printf "%s" (.Params.cover_image | safeURL)) }}
 {{ end }}
 
 <div class="relative bg-blue-500 shadow-xl" rel="taxonomy" type="{{ .Data.Plural }}">
@@ -30,14 +26,13 @@
                 <div class="grid grid-cols-3 gap-24 items-center">
                     <div class="replace col-span-2">
                         <h1 class="text-white text-5xl leading-tight font-semibold mb-2">
-                            {{ $headline | humanize }}
+                            {{ .Title | humanize }}
                         </h1>
-                        <p class="text-white font-semibold">{{ $teaser | humanize }}</p>
+                        <p class="text-white font-semibold">{{ .Summary | humanize }}</p>
                     </div>
                     <div>
-                        {{ if isset .Params "image" }}
-                        <img src="{{ $image.RelPermalink }}" alt="{{ .Params.imageAlt }}" class="w-full"
-                        {{ with $imageLicence}} licence="{{ $imageLicence }}"{{ end }}
+                        {{ if $cover_image }}
+                        <img src="{{ $cover_image.RelPermalink }}" alt="{{ .Params.cover_image_alt }}" class="w-full"
                         >
                         {{ end }}
                     </div>

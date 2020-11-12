@@ -1,10 +1,10 @@
-{{ $folder := .content.Page.Params.folder }}
+{{ $topic := .content.Page.Params.topic }}
 {{ $language := .content.Site.Language.Lang }}
 {{ $data := index .content.Site.Data .content.Site.Language.Lang }}
 
 {{ if .scroll }}
     {{ range $data.navigation.items }}
-    {{ if eq .folder $folder}}
+    {{ if eq .topic $topic}}
     <li class="bg-yellow-400 self-stretch flex text-black font-bold">
         <a href="/{{ print $language .link }}" class="flex-center px-6">
             <span>
@@ -24,7 +24,7 @@
     {{ end }}
 {{ else }}
     {{ range $data.navigation.items }}
-    {{ if eq .folder $folder}}
+    {{ if eq .topic $topic}}
     <li class="bg-yellow-400 self-stretch flex text-black font-bold">
         <a href="/{{ print $language .link }}" class="flex-center px-6">
             <span>

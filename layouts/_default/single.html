@@ -5,11 +5,6 @@
 {{ $headline = .Page.Params.headline }}
 {{ end }}
 
-{{ $teaser := .Page.Params.description }}
-{{ if isset .Page.Params "teaser" }}
-{{ $teaser = .Page.Params.teaser }}
-{{ end }}
-
 {{ $image := "" }}
 {{ if .Page.Params.image }}
 {{ $image = resources.Get (printf "%s" (.Page.Params.image | safeURL)) }}
@@ -33,7 +28,7 @@
             </div>
             {{ end }}
             {{ partial "breadcrumb" . }}
-            <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xxl:gap-24">
+            <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xl:gap-24">
                 <div class="copy replace sm:col-span-2">
                     {{.Content}}
                 </div>
@@ -43,14 +38,16 @@
                         <img src="{{ $image.RelPermalink | safeURL }}" alt="{{ .Page.Params.description | truncate 160 }}" class="w-full rounded-md shadow-xl" loading="lazy" />
                     </div>
                     {{ end }}
+                    <div class="font-bold leading-tight text-base mb-2">{{ printf (i18n "reading_time") .ReadingTime }}</div>
                     {{ if eq .Page.Section "news" }}
                     <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">{{ i18n "last_changed" }}:</span> {{ dateFormat "January 2006" .Lastmod }}
                     </div>
                     {{ if .Params.categories }}
-                    <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">{{ i18n "categories" }}:</span>
-                        <ul class="inline">
+                    <div class="font-medium leading-tight text-sm mb-2">
+                        <span class="font-bold">{{ i18n "categories" }}:</span>
+                        <ul class="block mt-2">
                             {{ range .Params.categories }}
-                            <li class="inline-block bg-white text-primary border-2 border-primary text-xs px-2 py-1 rounded-md mx-1"><a href="/{{ $language }}/categories/{{ . }}" class="inline-flex items-center">
+                            <li class="inline-block text-primary text-xs mr-2"><a href="/{{ $language }}/categories/{{ . }}" class="inline-flex items-center">
                                 {{ partial "icon" (dict "name" "tag" "size" "3") }}
                                 <span class="font-semibold uppercase ml-1">
                                     {{ . | humanize }}
@@ -64,9 +61,9 @@
                     {{ else if eq .Page.Section "faq" }}
                     {{ if .Params.tags }}
                     <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">{{ i18n "tags" }}:</span>
-                        <ul class="inline">
+                        <ul class="block mt-2">
                             {{ range .Params.tags }}
-                            <li class="inline-block bg-white text-primary border-2 border-primary text-xs px-2 py-1 rounded-md mx-1"><a href="/{{ $language }}/tags/{{ . }}" class="inline-flex items-center">
+                            <li class="inline-block text-primary text-xs mr-2"><a href="/{{ $language }}/tags/{{ . }}" class="inline-flex items-center">
                                 {{ partial "icon" (dict "name" "tag" "size" "3") }}
                                 <span class="font-bold uppercase ml-1">
                                     {{ . | humanize }}
@@ -78,9 +75,9 @@
                     </div>
                     {{ end }}
                     {{ end }}
-                    <div class="font-bold leading-tight text-sm mb-2">{{ printf (i18n "reading_time") .ReadingTime }}</div>
+                    
                     <h2 class="text-2xl font-semibold mb-2 leading-tight mt-8">{{ $headline | markdownify }}</h2>
-                    <p class="text-md mb-8">{{ $teaser }}</p>
+                    <p class="text-md mb-8">{{ .Page.Params.Summary }}</p>
                     {{ partial "articles-latest" . }}
                     {{ if ne  .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
                     <div id="tableofcontents" class="tableofcontents md:sticky top-nav-scroll">
