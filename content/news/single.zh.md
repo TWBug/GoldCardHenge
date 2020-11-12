@@ -6,13 +6,13 @@ publishDate: 2020-11-05T07:09:20.617Z
 draft: false
 topic: eventsnews
 cover_image: 'img/uploads/dummy-image.jpg'
-cover_image_alt: "Test alt"
+cover_image_alt: 'Test alt'
 media_image: 'img/uploads/taiwan-culture.jpg'
-media_image_alt: "Test alt"
+media_image_alt: 'Test alt'
 tags:
-  - super
-  - 好酷
-category: 夜市
+    - super
+category:
+    - first
 ---
 
 # 就業金卡是什麼？

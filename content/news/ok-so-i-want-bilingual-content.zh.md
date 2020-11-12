@@ -11,7 +11,7 @@ media_image:
 media_image_alt:
 tags:
 categories:
-- first
+    - first
 ---
 
 # 這篇會有雙語版本

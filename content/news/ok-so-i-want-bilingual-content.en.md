@@ -11,7 +11,7 @@ media_image:
 media_image_alt:
 tags:
 categories:
-- first
+    - first
 ---
 
 # This will be bilingual
