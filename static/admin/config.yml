@@ -53,6 +53,7 @@ collections:
     # Top-level pages. NOTE: The home page is configured separately because it is so customized.
     - name: 'pages'
       label: 'Pages 網頁'
+      label_singular: Page
       description: >
           Top-level pages for the site.
       folder: 'content'
@@ -304,6 +305,7 @@ collections:
 
     - name: 'legal'
       label: 'Legal 法律'
+      label_singular: Legal Page
       folder: 'content/legal'
       create: true
       slug: '{{slug}}'
@@ -317,6 +319,7 @@ collections:
 
     - name: 'events'
       label: 'Events 活動'
+      label_singular: Event
       folder: 'content/events'
       create: true
       slug: '{{slug}}'
@@ -367,6 +370,7 @@ collections:
 
     - name: 'jobs'
       label: 'Jobs 求職'
+      label_singular: Job
       folder: 'content/jobs'
       create: true
       slug: '{{slug}}'
@@ -399,6 +403,7 @@ collections:
 
     - name: 'faq'
       label: 'FAQ 常見問題'
+      label_singular: FAQ Item
       folder: 'content/faq'
       create: true
       slug: '{{slug}}'
@@ -431,6 +436,7 @@ collections:
 
     - name: 'why-taiwan'
       label: 'Why Taiwan 為何台灣'
+      label_singular: Page
       folder: 'content/why-taiwan'
       create: true
       slug: '{{slug}}'
@@ -463,6 +469,7 @@ collections:
 
     - name: 'qualification'
       label: 'Qualification 資格'
+      label_singular: Page
       folder: 'content/qualification'
       create: true
       slug: '{{slug}}'
@@ -495,6 +502,7 @@ collections:
 
     - name: 'application'
       label: 'Application 申請'
+      label_singular: Page
       folder: 'content/application'
       create: true
       slug: '{{slug}}'
@@ -635,7 +643,7 @@ collections:
 
     # Configure the site. Menus for example
     - name: 'config'
-      label: 'Menus 中文是什麼？'
+      label: 'Menus 選單？'
       description: >
           Menu configuration for the site. This is where you will find things
           like menus and their ordering in the UI.
