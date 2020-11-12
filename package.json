@@ -12,8 +12,10 @@
         "build": "npm run gulp && npm run hugo",
         "build:staging": "npm run hugo -- --environment staging",
         "watch": "npx gulp watch",
+        "lunr:index": "node scripts/build-lunr-index.js",
+        "test": "npm run lunr:index",
         "admin": "babel --presets=@babel/preset-env,@babel/preset-react --out-dir ./static/admin src/admin",
-        "prehugo": "npm run admin",
+        "prehugo": "npm run admin && npm run lunr:index",
         "hugo": "hugo --gc -D --cleanDestinationDir --minify"
     },
     "author": "TEGO Team <it@taiwangoldcard.tw>",
@@ -36,9 +38,11 @@
         "gulp-minify": "^3.1.0",
         "gulp-postcss": "^9.0.0",
         "gulp-print": "^5.0.2",
+        "js-yaml": "^3.14.0",
         "netlify-cms-proxy-server": "^1.3.6",
         "prettier": "^2.1.2",
         "prettier-plugin-go-template": "0.0.10",
+        "string": "^3.3.3",
         "tailwindcss": "^1.9.5"
     },
     "dependencies": {
