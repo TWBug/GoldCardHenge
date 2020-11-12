@@ -63,11 +63,11 @@ collections:
       preview_path: en/{{slug}}
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-          - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
           - { label: 'Draft?', name: 'draft', widget: 'boolean', default: true, i18n: duplicate }
-          - { label: 'Hidden?', name: 'hidden', widget: 'boolean', default: false, i18n: true }
-          - { label: 'Layout', name: 'layout', widget: 'string', default: null, i18n: true }
+          - { label: 'Hidden?', name: 'hidden', widget: 'boolean', default: false, required: false, i18n: true }
+          - { label: 'Layout', name: 'layout', widget: 'string', default: null, required: false, i18n: true }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     # Home page
@@ -85,7 +85,7 @@ collections:
             file: 'content/home/hero.en.md'
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
+                - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
                 - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
                 - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
                 - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
@@ -102,7 +102,7 @@ collections:
             file: 'content/home/hero.zh.md'
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
+                - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
                 - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
                 - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
                 - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
@@ -119,9 +119,23 @@ collections:
             file: 'content/home/intro.en.md'
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
-                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-                - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+                - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+                - {
+                      label: 'Draft?',
+                      name: 'draft',
+                      widget: 'boolean',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
+                - {
+                      label: 'Hidden?',
+                      name: 'hidden',
+                      widget: 'hidden',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
                 - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
                 - label: 'Links'
                   name: 'links'
@@ -130,22 +144,36 @@ collections:
                       - { label: Label, name: label, widget: string }
                       - { label: Link, name: href, description: 'Link to where?', widget: string }
                       - { label: CTA?, name: is_cta, widget: boolean, default: false }
-                - label: 'Sub-page Links'
-                  name: 'sub_page_links'
+                - label: 'Items'
+                  name: 'items'
                   widget: 'list'
                   fields:
                       - { label: Label, name: label, widget: string }
                       - { label: Link, name: href, description: 'Link to where?', widget: string }
-                      - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false, required: false }
                 - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
           - label: 'Intro (zh)'
             name: 'intro_zh'
             file: 'content/home/intro.zh.md'
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
-                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-                - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+                - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+                - {
+                      label: 'Draft?',
+                      name: 'draft',
+                      widget: 'boolean',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
+                - {
+                      label: 'Hidden?',
+                      name: 'hidden',
+                      widget: 'hidden',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
                 - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
                 - label: 'Links'
                   name: 'links'
@@ -154,13 +182,13 @@ collections:
                       - { label: Label, name: label, widget: string }
                       - { label: Link, name: href, description: 'Link to where?', widget: string }
                       - { label: CTA?, name: is_cta, widget: boolean, default: false }
-                - label: 'Sub-page Links'
-                  name: 'sub_page_links'
+                - label: 'Items'
+                  name: 'items'
                   widget: 'list'
                   fields:
                       - { label: Label, name: label, widget: string }
                       - { label: Link, name: href, description: 'Link to where?', widget: string }
-                      - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false, required: false }
                 - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
           - label: 'CTA (en)'
@@ -168,9 +196,23 @@ collections:
             file: 'content/home/cta.en.md'
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
-                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-                - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+                - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+                - {
+                      label: 'Draft?',
+                      name: 'draft',
+                      widget: 'boolean',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
+                - {
+                      label: 'Hidden?',
+                      name: 'hidden',
+                      widget: 'hidden',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
                 - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
                 - label: 'Links'
                   name: 'links'
@@ -179,15 +221,36 @@ collections:
                       - { label: Label, name: label, widget: string }
                       - { label: Link, name: href, description: 'Link to where?', widget: string }
                       - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - label: 'Items'
+                  name: 'items'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Link, name: href, description: 'Link to where?', widget: string }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false, required: false }
                 - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
           - label: 'CTA (zh)'
             name: 'cta_zh'
             file: 'content/home/cta.zh.md'
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
-                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-                - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+                - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+                - {
+                      label: 'Draft?',
+                      name: 'draft',
+                      widget: 'boolean',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
+                - {
+                      label: 'Hidden?',
+                      name: 'hidden',
+                      widget: 'hidden',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
                 - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
                 - label: 'Links'
                   name: 'links'
@@ -196,6 +259,13 @@ collections:
                       - { label: Label, name: label, widget: string }
                       - { label: Link, name: href, description: 'Link to where?', widget: string }
                       - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - label: 'Items'
+                  name: 'items'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Link, name: href, description: 'Link to where?', widget: string }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false, required: false }
                 - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
           - label: 'Map (en)'
@@ -203,9 +273,23 @@ collections:
             file: 'content/home/map.en.md'
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
-                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-                - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+                - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+                - {
+                      label: 'Draft?',
+                      name: 'draft',
+                      widget: 'boolean',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
+                - {
+                      label: 'Hidden?',
+                      name: 'hidden',
+                      widget: 'hidden',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
                 - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
                 - label: 'Links'
                   name: 'links'
@@ -214,15 +298,36 @@ collections:
                       - { label: Label, name: label, widget: string }
                       - { label: Link, name: href, description: 'Link to where?', widget: string }
                       - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - label: 'Items'
+                  name: 'items'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Link, name: href, description: 'Link to where?', widget: string }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false, required: false }
                 - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
           - label: 'Map (zh)'
             name: 'map_zh'
             file: 'content/home/map.zh.md'
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
-                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-                - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+                - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+                - {
+                      label: 'Draft?',
+                      name: 'draft',
+                      widget: 'boolean',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
+                - {
+                      label: 'Hidden?',
+                      name: 'hidden',
+                      widget: 'hidden',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
                 - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
                 - label: 'Links'
                   name: 'links'
@@ -231,6 +336,13 @@ collections:
                       - { label: Label, name: label, widget: string }
                       - { label: Link, name: href, description: 'Link to where?', widget: string }
                       - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - label: 'Items'
+                  name: 'items'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Link, name: href, description: 'Link to where?', widget: string }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false, required: false }
                 - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
           - label: 'Setup (en)'
@@ -238,9 +350,23 @@ collections:
             file: 'content/home/setup.en.md'
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
-                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-                - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+                - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+                - {
+                      label: 'Draft?',
+                      name: 'draft',
+                      widget: 'boolean',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
+                - {
+                      label: 'Hidden?',
+                      name: 'hidden',
+                      widget: 'hidden',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
                 - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
                 - label: 'Links'
                   name: 'links'
@@ -249,15 +375,36 @@ collections:
                       - { label: Label, name: label, widget: string }
                       - { label: Link, name: href, description: 'Link to where?', widget: string }
                       - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - label: 'Items'
+                  name: 'items'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Link, name: href, description: 'Link to where?', widget: string }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false, required: false }
                 - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
           - label: 'Setup (zh)'
             name: 'setup_zh'
             file: 'content/home/setup.zh.md'
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
-                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-                - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+                - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+                - {
+                      label: 'Draft?',
+                      name: 'draft',
+                      widget: 'boolean',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
+                - {
+                      label: 'Hidden?',
+                      name: 'hidden',
+                      widget: 'hidden',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
                 - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
                 - label: 'Links'
                   name: 'links'
@@ -266,6 +413,13 @@ collections:
                       - { label: Label, name: label, widget: string }
                       - { label: Link, name: href, description: 'Link to where?', widget: string }
                       - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - label: 'Items'
+                  name: 'items'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Link, name: href, description: 'Link to where?', widget: string }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false, required: false }
                 - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
           - label: 'Expand (en)'
@@ -273,9 +427,23 @@ collections:
             file: 'content/home/expand.en.md'
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
-                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-                - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+                - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+                - {
+                      label: 'Draft?',
+                      name: 'draft',
+                      widget: 'boolean',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
+                - {
+                      label: 'Hidden?',
+                      name: 'hidden',
+                      widget: 'hidden',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
                 - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
                 - label: 'Links'
                   name: 'links'
@@ -284,15 +452,36 @@ collections:
                       - { label: Label, name: label, widget: string }
                       - { label: Link, name: href, description: 'Link to where?', widget: string }
                       - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - label: 'Items'
+                  name: 'items'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Link, name: href, description: 'Link to where?', widget: string }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false, required: false }
                 - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
           - label: 'Expand (zh)'
             name: 'expand_zh'
             file: 'content/home/expand.zh.md'
             fields:
                 - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-                - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
-                - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-                - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+                - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+                - {
+                      label: 'Draft?',
+                      name: 'draft',
+                      widget: 'boolean',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
+                - {
+                      label: 'Hidden?',
+                      name: 'hidden',
+                      widget: 'hidden',
+                      default: false,
+                      required: false,
+                      i18n: duplicate,
+                  }
                 - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
                 - label: 'Links'
                   name: 'links'
@@ -301,6 +490,13 @@ collections:
                       - { label: Label, name: label, widget: string }
                       - { label: Link, name: href, description: 'Link to where?', widget: string }
                       - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - label: 'Items'
+                  name: 'items'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: Link, name: href, description: 'Link to where?', widget: string }
+                      - { label: CTA?, name: is_cta, widget: boolean, default: false, required: false }
                 - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'legal'
@@ -312,7 +508,8 @@ collections:
       i18n: true
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-          - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate, required: false }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
           - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false, i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
@@ -365,8 +562,8 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
-          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-          - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false, i18n: duplicate }
+          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, required: false, i18n: duplicate }
+          - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false, required: false, i18n: duplicate }
 
     - name: 'jobs'
       label: 'Jobs 求職'
@@ -573,7 +770,7 @@ collections:
       # probably not wnat is desired.
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-          - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
           - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, required: false, i18n: duplicate }
           - { label: 'Hidden?', name: 'hidden', widget: 'boolean', default: false, required: false, i18n: duplicate }
@@ -643,7 +840,7 @@ collections:
 
     # Configure the site. Menus for example
     - name: 'config'
-      label: 'Menus 選單？'
+      label: 'Menus 選單'
       description: >
           Menu configuration for the site. This is where you will find things
           like menus and their ordering in the UI.
