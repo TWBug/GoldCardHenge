@@ -1,42 +1,42 @@
-powered_by:
-    other: 'Powered by'
-search:
-    other: 'Search'
-change_language:
-    other: 'Change language'
-tego:
-    other: 'Taiwan Employment Gold Card Office'
-tego_logo:
-    other: 'Logo Taiwan Employment Gold Card Office'
-apply_now:
-    other: 'Apply now'
-latest_news:
-    other: 'Latest news'
-reading_time:
-    other: 'Reading time: %d minutes'
-last_changed:
-    other: 'Last changed'
-table_of_contents:
-    other: 'Table of contents'
-categories:
-    other: 'Categories'
-tags:
-    other: 'Tags'
-taipei_city_skyline:
-    other: 'Taipei City Skyline'
-taiwan_mountains:
-    other: 'Taiwan Mountains'
-taiwan_landscape:
-    other: 'Taiwan Landscape'
-taiwan_hummingbird:
-    other: 'Taiwan Hummingbird'
-footer_copyright:
-    other: 'Taiwan Employment Gold Card Office - All rights reserverd'
-footer_description:
-    other: 'The Taiwan Employment Gold Card is a combined open work permit, residence permit and visa for skilled professionals.'
-footer_goldcard_title:
-    other: 'Gold-Card'
-footer_languages_title:
-    other: 'Languages'
-footer_legal_title:
-    other: 'Legal'
+- id: powered_by
+  translation: 'Powered by'
+- id: search
+  translation: 'Search'
+- id: change_language
+  translation: 'Change language'
+- id: tego
+  translation: 'Taiwan Employment Gold Card Office'
+- id: tego_logo
+  translation: 'Logo Taiwan Employment Gold Card Office'
+- id: apply_now
+  translation: 'Apply now'
+- id: latest_news
+  translation: 'Latest news'
+- id: reading_time
+  translation: "Reading time: %d minute(s)"
+- id: last_changed
+  translation: 'Last changed'
+- id: table_of_contents
+  translation: 'Table of contents'
+- id: categories
+  translation: 'Categories'
+- id: tags
+  translation: 'Tags'
+- id: taipei_city_skyline
+  translation: 'Taipei City Skyline'
+- id: taiwan_mountains
+  translation: 'Taiwan Mountains'
+- id: taiwan_landscape
+  translation: 'Taiwan Landscape'
+- id: taiwan_hummingbird
+  translation: 'Taiwan Hummingbird'
+- id: footer_copyright
+  translation: 'Taiwan Employment Gold Card Office - All rights reserverd'
+- id: footer_description
+  translation: 'The Taiwan Employment Gold Card is a combined open work permit, residence permit and visa for skilled professionals.'
+- id: footer_goldcard_title
+  translation: 'Gold-Card'
+- id: footer_languages_title
+  translation: 'Languages'
+- id: footer_legal_title
+  translation: 'Legal'
