@@ -11,10 +11,10 @@ cover_image_alt: 'Test alt'
 media_image: 'img/uploads/taiwan-culture.jpg'
 media_image_alt: 'Test alt'
 tags:
-    - card
-    - usa
+  - card
+  - usa
 category:
-    - application
+  - application
 ---
 
 # Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, magni!
