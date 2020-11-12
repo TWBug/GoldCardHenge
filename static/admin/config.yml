@@ -66,11 +66,12 @@ collections:
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
           - { label: 'Draft?', name: 'draft', widget: 'boolean', default: true, i18n: duplicate }
           - { label: 'Hidden?', name: 'hidden', widget: 'boolean', default: false, i18n: true }
+          - { label: 'Layout', name: 'layout', widget: 'string', default: null, i18n: true }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     # Home page
     - name: 'home_page'
-      label: 'Home Page'
+      label: 'Home Page 首頁'
       description: >
           Content on the Home page. The items listed here are sections of the home page rather than individual pages.
 
@@ -302,7 +303,7 @@ collections:
                 - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'legal'
-      label: 'Legal'
+      label: 'Legal 法律'
       folder: 'content/legal'
       create: true
       slug: '{{slug}}'
@@ -315,21 +316,57 @@ collections:
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'events'
-      label: 'Events'
+      label: 'Events 活動'
       folder: 'content/events'
       create: true
       slug: '{{slug}}'
       i18n: true
+      preview_path: en/events/{{slug}}
       fields:
           - { label: 'Event Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Event Date', name: 'date', widget: 'datetime', i18n: duplicate }
-          - { label: 'Accupass Link', name: 'link', widget: 'string', i18n: duplicate }
-          # - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
-          # - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false, i18n: duplicate }
-          # - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+          - { label: 'Event Link', name: 'link', widget: 'string', i18n: duplicate }
+          - { label: 'Cover Image', name: 'cover_image', widget: 'image', required: false, i18n: duplicate }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Media Image', name: 'media_image', widget: 'image', required: false, i18n: duplicate }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - label: 'Tags'
+            name: 'tags'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'tag_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
+          - label: 'Category'
+            name: 'category'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'category_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
+          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, i18n: duplicate }
+          - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false, i18n: duplicate }
 
     - name: 'jobs'
-      label: 'Jobs'
+      label: 'Jobs 求職'
       folder: 'content/jobs'
       create: true
       slug: '{{slug}}'
@@ -339,9 +376,29 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+          - label: 'Tags'
+            name: 'tags'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'tag_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
+          - label: 'Category'
+            name: 'category'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'category_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
 
     - name: 'faq'
-      label: 'FAQ'
+      label: 'FAQ 常見問題'
       folder: 'content/faq'
       create: true
       slug: '{{slug}}'
@@ -367,13 +424,13 @@ collections:
             file: 'category_data'
             value_field: 'items.*'
             search_fields: ['items.*']
-            multiple: false # Only allow one category
+            multiple: true
             required: false
             i18n: duplicate
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'why-taiwan'
-      label: 'Why Taiwan'
+      label: 'Why Taiwan 為何台灣'
       folder: 'content/why-taiwan'
       create: true
       slug: '{{slug}}'
@@ -399,13 +456,13 @@ collections:
             file: 'category_data'
             value_field: 'items.*'
             search_fields: ['items.*']
-            multiple: false # Only allow one category
+            multiple: true
             required: false
             i18n: duplicate
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'qualification'
-      label: 'Qualification'
+      label: 'Qualification 資格'
       folder: 'content/qualification'
       create: true
       slug: '{{slug}}'
@@ -414,10 +471,30 @@ collections:
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - label: 'Tags'
+            name: 'tags'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'tag_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
+          - label: 'Category'
+            name: 'category'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'category_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'application'
-      label: 'Application'
+      label: 'Application 申請'
       folder: 'content/application'
       create: true
       slug: '{{slug}}'
@@ -426,6 +503,26 @@ collections:
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - label: 'Tags'
+            name: 'tags'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'tag_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
+          - label: 'Category'
+            name: 'category'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'category_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     ### Just a testing collection!
@@ -449,7 +546,7 @@ collections:
             separator: ','
 
     - name: 'news' # Used in routes, e.g., /admin/collections/news
-      label: 'News' # Used in the UI
+      label: 'News 最新新聞' # Used in the UI
       folder: 'content/news' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
       slug: '{{slug}}' # Filename template, e.g., my-title.md
@@ -470,7 +567,24 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Description', name: 'description', widget: 'string', i18n: true, required: false }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
-          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: true, i18n: duplicate }
+          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, required: false, i18n: duplicate }
+          - { label: 'Hidden?', name: 'hidden', widget: 'boolean', default: false, required: false, i18n: duplicate }
+          - { label: 'Cover Image', name: 'cover_image', widget: 'image', required: false, i18n: duplicate }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Media Image', name: 'media_image', widget: 'image', required: false, i18n: duplicate }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
           - label: 'Tags'
             name: 'tags'
             widget: 'relation'
@@ -488,13 +602,13 @@ collections:
             file: 'category_data'
             value_field: 'items.*'
             search_fields: ['items.*']
-            multiple: false # Only allow one category
+            multiple: true
             required: false
             i18n: duplicate
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'taxonomies'
-      label: 'Taxonomies'
+      label: 'Taxonomies 類別'
       editor:
           preview: false
       description: >
@@ -521,7 +635,7 @@ collections:
 
     # Configure the site. Menus for example
     - name: 'config'
-      label: 'Menus'
+      label: 'Menus 中文是什麼？'
       description: >
           Menu configuration for the site. This is where you will find things
           like menus and their ordering in the UI.
