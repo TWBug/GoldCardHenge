@@ -10,8 +10,11 @@ cover_image_alt: "Test alt"
 media_image: 'img/uploads/taiwan-culture.jpg'
 media_image_alt: "Test alt"
 tags:
+  - super
+  - 好酷
+image: img/uploads/dummy-image.jpg
 categories:
-    - first
+  - first
 ---
 
 # What is the Taiwan Gold Card?

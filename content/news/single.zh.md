@@ -10,8 +10,9 @@ cover_image_alt: "Test alt"
 media_image: 'img/uploads/taiwan-culture.jpg'
 media_image_alt: "Test alt"
 tags:
-categories:
-    - first
+  - super
+  - 好酷
+category: 夜市
 ---
 
 # 就業金卡是什麼？

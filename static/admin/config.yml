@@ -52,7 +52,7 @@ public_folder: '/cms-uploads'
 collections:
     # Top-level pages. NOTE: The home page is configured separately because it is so customized.
     - name: 'pages'
-      label: 'Pages'
+      label: 'Pages 網頁'
       description: >
           Top-level pages for the site.
       folder: 'content'
@@ -350,6 +350,26 @@ collections:
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - label: 'Tags'
+            name: 'tags'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'tag_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
+          - label: 'Category'
+            name: 'category'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'category_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: false # Only allow one category
+            required: false
+            i18n: duplicate
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'why-taiwan'
@@ -362,6 +382,26 @@ collections:
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - label: 'Tags'
+            name: 'tags'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'tag_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
+          - label: 'Category'
+            name: 'category'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'category_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: false # Only allow one category
+            required: false
+            i18n: duplicate
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'qualification'
@@ -387,6 +427,26 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    ### Just a testing collection!
+    - name: 'text_xxx'
+      label: '[TEST]'
+      description: >
+          This is just a testing collection. It is not meant to be rendered to the
+          final site.
+      folder: 'content/tmp'
+      create: true
+      slug: '{{slug}}'
+      preview_path: en/test/{{slug}}
+      i18n: true
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+          - name: categories
+            label: Categories
+            widget: categories
+            separator: ','
 
     - name: 'news' # Used in routes, e.g., /admin/collections/news
       label: 'News' # Used in the UI
@@ -461,12 +521,14 @@ collections:
 
     # Configure the site. Menus for example
     - name: 'config'
-      label: 'Config'
+      label: 'Menus'
       description: >
-          Configuration for the site. This is where you will find things like
-          menus and their ordering in the UI.
+          Menu configuration for the site. This is where you will find things
+          like menus and their ordering in the UI.
 
-          NOTE: We cannot currently configure English and 中文 at the same time. There is an open issue to address this: https://github.com/netlify/netlify-cms/issues/4483
+          NOTE: We cannot currently configure English and 中文 at the same time.
+          There is an open issue to address this:
+          https://github.com/netlify/netlify-cms/issues/4483
       editor:
           preview: false
       files:

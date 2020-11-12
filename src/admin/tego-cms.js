@@ -65,6 +65,76 @@ const comp = () => {
     return <div>Hey there you</div>
 }
 
+const I18nKeyValueWidget = {
+    name: 'i18n-key-value-pairs',
+}
+
+// Unfortunately we do not control serialization. However, objects and arrays
+// and primatives both map to yaml without surprises, so we might be able to get
+// this to work. The question is, how can we get it to modify the top-level
+// file, rather than a key within the file?
+
+// NOTE Netlify CMS uses Immutable.js but doesn't seem to expose it. Rather than
+// importing a second copy, we grab the constructor from a known existing map.
+var CategoriesControl = createClass({
+    handleChange: function (e) {
+        const ImmutableMap = this.props.collection.constructor // See NOTE
+        const separator = this.props.field.get('separator', ', ')
+        this.props.onChange(ImmutableMap(JSON.parse(e.target.value)))
+    },
+
+    render: function () {
+        const separator = this.props.field.get('separator', ', ')
+        var value = this.props.value
+        const str = value ? JSON.stringify(value.toJS(), null, 2) : ''
+        return (
+            <textarea
+                style={{ whiteSpace: 'pre' }}
+                id={this.props.forID}
+                className={this.props.classNameWrapper}
+                type="text"
+                value={str}
+                onChange={this.handleChange}
+            />
+        )
+        // return (
+        //     <input
+        //         id={this.props.forID}
+        //         className={this.props.classNameWrapper}
+        //         type="text"
+        //         value={value ? (value.get ? value.get('k') : value.k) : ''}
+        //         onChange={this.handleChange}
+        //     />
+        // )
+        // return h('input', {
+        //     id: this.props.forID,
+        //     className: this.props.classNameWrapper,
+        //     type: 'text',
+        //     value: value ? (value.get ? value.get('k') : value.k) : '',
+        //     onChange: this.handleChange,
+        // })
+    },
+})
+
+// THIS will be rendered in the preview window of the browser
+var CategoriesPreview = createClass({
+    render: function () {
+        return h('ul', {}, this.props.value && this.props.value.toJS().toString())
+    },
+})
+
+// This is ... what? The properties allows passing options to the react
+// component as this.props.field.get('key_name'), but what have that on the
+// `properties` sub object then?
+var schema = {
+    properties: {
+        separator: { type: 'string' },
+    },
+}
+
+// NOTE: This widget is just for testing out the API, not actually part of the product
+CMS.registerWidget('categories', CategoriesControl, CategoriesPreview, schema)
+
 // TODO: This is just some example code, we will need to modify and create more.
 CMS.registerEditorComponent({
     id: 'gist',
