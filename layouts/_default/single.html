@@ -34,7 +34,6 @@
                     </div>
                     {{ end }}
                     <div class="font-bold leading-tight text-base mb-2">{{ printf (i18n "reading_time") .ReadingTime }}</div>
-                    {{ if eq .Page.Section "news" }}
                     <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">{{ i18n "last_changed" }}:</span> {{ dateFormat "January 2006" .Lastmod }}
                     </div>
                     {{ if .Params.categories }}
@@ -53,7 +52,6 @@
                         </ul>
                     </div>
                     {{ end }}
-                    {{ else if eq .Page.Section "faq" }}
                     {{ if .Params.tags }}
                     <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">{{ i18n "tags" }}:</span>
                         <ul class="block mt-2">
@@ -68,7 +66,6 @@
                             {{ end }}
                         </ul>
                     </div>
-                    {{ end }}
                     {{ end }}
                     
                     <h2 class="text-2xl font-semibold mb-2 leading-tight mt-8">{{ .Title | markdownify }}</h2>
