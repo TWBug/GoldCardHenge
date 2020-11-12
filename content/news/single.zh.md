@@ -3,6 +3,10 @@ title: Article Example
 draft: false
 hidden: false
 folder: eventsnews
+tags:
+  - super
+  - 好酷
+category: 夜市
 ---
 
 # 就業金卡是什麼？

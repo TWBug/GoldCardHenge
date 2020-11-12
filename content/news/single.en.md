@@ -1,15 +1,22 @@
 ---
-title: Article Example
-date: 2020-11-05T07:09:20.617Z
-publishDate: 2020-11-05T07:09:20.617Z
+draft: false
+summary: The Taiwan Employment Gold Card is a combined visa, work permit and
+  residence permit launched in 2018 to attract professional talent in Taiwan.
+preview: img/uploads/taiwan-culture.jpg
 folder: eventsnews
-headline: "Taiwan Gold Card Application FAQ"
-summary: "The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan."
-teaser: "The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan."
-image: "img/uploads/dummy-image.jpg"
-preview: "img/uploads/taiwan-culture.jpg"
+date: 2020-11-05T07:09:20.617Z
+teaser: The Taiwan Employment Gold Card is a combined visa, work permit and
+  residence permit launched in 2018 to attract professional talent in Taiwan.
+headline: Taiwan Gold Card Application FAQ
+title: Article Example
+tags:
+  - super
+  - 好酷
+image: img/uploads/dummy-image.jpg
 categories:
-- first
+  - first
+publishDate: 2020-11-05T07:09:20.617Z
+category: 夜市
 ---
 
 # What is the Taiwan Gold Card?
