@@ -1,13 +1,16 @@
 ---
 title: 爲什麼台灣
-description: "The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan."
+summary:
+date: 2020-11-05T07:09:20.617Z
+publishDate: 2020-11-05T07:09:20.617Z
 draft: false
-hidden: false
-folder: whytaiwan
-headline: "Taiwan Gold Card Application FAQ"
-teaser: "The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan."
-image: "img/uploads/dummy-card.svg"
-preview: "img/uploads/taiwan-culture.jpg"
+topic: whytaiwan
+cover_image: "img/uploads/dummy-card.svg"
+cover_image_alt: "Test alt"
+media_image: "img/uploads/taiwan-culture.jpg"
+media_image_alt: "Test alt"
+tags:
+categories:
 ---
 
 # 台灣超棒！為什麼呢？

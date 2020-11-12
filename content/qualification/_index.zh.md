@@ -1,8 +1,16 @@
 ---
 title: 申請資格
+summary:
+date: 2020-11-10T07:14:10.815Z
+publishDate: 2020-11-10T07:14:10.815Z
 draft: false
-hidden: false
-folder: goldcard
+topic: goldcard
+cover_image:
+cover_image_alt:
+media_image:
+media_image_alt:
+tags:
+categories:
 ---
 
 # 您好，歡迎來到台灣就業金卡官方網站。

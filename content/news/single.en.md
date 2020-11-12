@@ -1,15 +1,17 @@
 ---
 title: Article Example
+summary: 'The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan.'
 date: 2020-11-05T07:09:20.617Z
 publishDate: 2020-11-05T07:09:20.617Z
-folder: eventsnews
-headline: "Taiwan Gold Card Application FAQ"
-summary: "The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan."
-teaser: "The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan."
-image: "img/uploads/dummy-image.jpg"
-preview: "img/uploads/taiwan-culture.jpg"
+draft: false
+topic: eventsnews
+cover_image: 'img/uploads/dummy-image.jpg'
+cover_image_alt: "Test alt"
+media_image: 'img/uploads/taiwan-culture.jpg'
+media_image_alt: "Test alt"
+tags:
 categories:
-- first
+    - first
 ---
 
 # What is the Taiwan Gold Card?
@@ -20,7 +22,7 @@ The Taiwan Employment Gold Card is a combined visa, work permit and residence pe
 
 **The card gives you the right to stay and work in Taiwan for 1 year to 3 years, and you can apply online without sponsorship.** The card comes with open work rights, so you may work for any (or multiple) company in Taiwan or start your own business. You can bring your family with you, and visitor rights for parents and grandparents are also included. There are tax incentives for cardholders with high salaries.
 
-Qualification is based on an asssessment of your professional skills, you don’t need to have already secured a job in Taiwan. The Gold Card costs between USD100 and USD310 depending on your nationality and the [duration of your card](https://www.futureward.com). 
+Qualification is based on an asssessment of your professional skills, you don’t need to have already secured a job in Taiwan. The Gold Card costs between USD100 and USD310 depending on your nationality and the [duration of your card](https://www.futureward.com).
 
 ## How long does the application take?
 
@@ -58,10 +60,10 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
 
 **Well there is no “best” way to design a list but in most cases a list has to separate points from others no matter if there is an unordered nor an ordered list. But the best way to show a good list ist to start with a bold.**
 
-- There are many variations of passages of Lorem Ipsum available
-- But the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-- If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
-- All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+-   There are many variations of passages of Lorem Ipsum available
+-   But the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+-   If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+-   All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
 
 ### And what about an ordered list?
 
@@ -98,4 +100,4 @@ Many desktop publishing packages and web page editors now use Lorem Ipsum as the
 
 #### Floating images
 
-{{< figure src="/img/dummy-image.jpg" style="right" alt="asdasd" title="Steve Francia" caption="Comment: Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)." >}} There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. {{< figure src="/img/dummy-image.jpg" style="left" alt="asdasd" title="Steve Francia" caption="Comment: Various versions have evolved over the years." >}}  It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words. therefore always free from repetition, injected humour, or non-characteristic words etc.
+{{< figure src="/img/dummy-image.jpg" style="right" alt="asdasd" title="Steve Francia" caption="Comment: Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)." >}} There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. {{< figure src="/img/dummy-image.jpg" style="left" alt="asdasd" title="Steve Francia" caption="Comment: Various versions have evolved over the years." >}} It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words. therefore always free from repetition, injected humour, or non-characteristic words etc.

@@ -1,14 +1,16 @@
 ---
 draft: false
-hidden: false
-folder: eventsnews
-title: 新聞
-description: 歡迎來到就業金卡的部落格
-date: 2020-11-10T06:39:41.896Z
+summary:
+date: 2020-11-05T07:09:20.617Z
+publishDate: 2020-11-05T07:09:20.617Z
+draft: false
+topic: eventsnews
+cover_image:
+cover_image_alt:
+media_image:
+media_image_alt:
 tags:
-  - 好酷
-  - 有趣
-category: 夜市
+categories:
 ---
 
 # 您好，歡迎來到台灣就業金卡官方網站。

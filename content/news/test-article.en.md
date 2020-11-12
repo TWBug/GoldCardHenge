@@ -1,10 +1,17 @@
 ---
-title: Test Article EN
-date: 2020-11-04T12:14:17+08:00
+title: Article Example
+summary: "Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus assumenda cumd is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan."
+date: 2020-11-05T07:09:20.617Z
+publishDate: 2020-11-05T07:09:20.617Z
 draft: false
-headline: "Headline"
-description: "Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus assumenda cum."
-topic: test
+topic: eventsnews
+cover_image: 'img/uploads/dummy-image.jpg'
+cover_image_alt: "Test alt"
+media_image: 'img/uploads/taiwan-culture.jpg'
+media_image_alt: "Test alt"
+tags:
+categories:
+    - second
 ---
 
 # Test Article EN
@@ -23,7 +30,7 @@ Eaque enim eveniet perspiciatis atque accusamus consequuntur unde tempore, fugia
 
 [Test Document PDF](/file/uploads/test-document.pdf)  
 [Test Document DOC](/file/uploads/test-document.doc)  
-[Test Document DOCX](/file/uploads/test-document.docx)  
+[Test Document DOCX](/file/uploads/test-document.docx)
 
 ## Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, atque!
 

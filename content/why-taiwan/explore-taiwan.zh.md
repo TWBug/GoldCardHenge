@@ -1,8 +1,16 @@
 ---
 title: 探索台灣
+summary: Take a look around our islands.
+date: 2020-11-05T07:09:20.617Z
+publishDate: 2020-11-05T07:09:20.617Z
 draft: false
-hidden: false
-description: 跟我們逛一逛，看台灣
+topic: whytaiwan
+cover_image: "img/uploads/dummy-image.jpg"
+cover_image_alt: "Test alt"
+media_image: "img/uploads/taiwan-culture.jpg"
+media_image_alt: "Test alt"
+tags:
+categories:
 ---
 
 # 您好，歡迎來到台灣就業金卡官方網站。

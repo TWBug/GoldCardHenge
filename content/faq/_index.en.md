@@ -1,8 +1,16 @@
 ---
 title: FAQ
+summary:
+date: 2020-11-05T07:09:20.617Z
+publishDate: 2020-11-05T07:09:20.617Z
 draft: false
-hidden: false
-folder: faq 
+topic: faq
+cover_image:
+cover_image_alt:
+media_image:
+media_image_alt:
+tags:
+categories:
 ---
 
 # Hi, and welcome to the official Taiwan Employment Gold Card website.

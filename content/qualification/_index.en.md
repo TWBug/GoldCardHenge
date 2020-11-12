@@ -1,8 +1,16 @@
 ---
 title: Qualifications
+summary:
+date: 2020-11-10T07:14:10.815Z
+publishDate: 2020-11-10T07:14:10.815Z
 draft: false
-hidden: false
-folder: goldcard
+topic: goldcard
+cover_image:
+cover_image_alt:
+media_image:
+media_image_alt:
+tags:
+categories:
 ---
 
 # Hi, and welcome to the official Taiwan Employment Gold Card website.

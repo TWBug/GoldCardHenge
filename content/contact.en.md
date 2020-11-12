@@ -1,7 +1,17 @@
 ---
 title: Contact
+summary: 
+date: 2020-11-05T07:09:20.617Z
+publishDate: 2020-11-05T07:09:20.617Z
 draft: false
-hidden: false
+topic: resources
+cover_image: 
+cover_image_alt:
+media_image:
+media_image_alt:
+tags:
+categories:
+layout:
 ---
 
 # Hi, and welcome to the official Taiwan Employment Gold Card website.
