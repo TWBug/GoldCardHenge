@@ -633,7 +633,7 @@ collections:
 
     - name: 'why-taiwan'
       label: 'Why Taiwan 為何台灣'
-      label_singular: Page
+      label_singular: Why Taiwan Page
       folder: 'content/why-taiwan'
       create: true
       slug: '{{slug}}'
@@ -666,7 +666,7 @@ collections:
 
     - name: 'qualification'
       label: 'Qualification 資格'
-      label_singular: Page
+      label_singular: Qualification Page
       folder: 'content/qualification'
       create: true
       slug: '{{slug}}'
@@ -699,7 +699,7 @@ collections:
 
     - name: 'application'
       label: 'Application 申請'
-      label_singular: Page
+      label_singular: Application Page
       folder: 'content/application'
       create: true
       slug: '{{slug}}'
@@ -752,6 +752,7 @@ collections:
 
     - name: 'news' # Used in routes, e.g., /admin/collections/news
       label: 'News 最新新聞' # Used in the UI
+      label_singular: News Post
       folder: 'content/news' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
       slug: '{{slug}}' # Filename template, e.g., my-title.md
