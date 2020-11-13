@@ -194,16 +194,7 @@ CMS.registerEditorComponent({
     // NOTE The css for these will not be meaningful without a preview css file loaded
     toPreview: function (obj) {
         return (
-            <div
-                style={{
-                    fontStyle: 'italic',
-                    borderTop: '2px dashed black',
-                    borderBottom: '2px dashed black',
-                    padding: 20,
-                    textAlign: 'center',
-                }}
-                className="border-t-2 border-b-2 border-secondary border-dashed font-medium text-secondary text-center italic -ml-4 -mr-4 mb-12 mt-8 py-4 px-8"
-            >
+            <div className="border-t-2 border-b-2 border-secondary border-dashed font-medium text-secondary text-center italic -ml-4 -mr-4 mb-12 mt-8 py-4 px-8">
                 {obj.body}
             </div>
         );
@@ -237,18 +228,7 @@ CMS.registerEditorComponent({
 
     // NOTE The css for these will not be meaningful without a preview css file loaded
     toPreview: function (obj) {
-        return (
-            <div
-                style={{
-                    marginBottom: '1.5rem',
-                    fontSize: '1.25rem',
-                    lineHeight: '1.625',
-                }}
-                className="font-medium text-xl leading-relaxed mb-6"
-            >
-                {obj.body}
-            </div>
-        );
+        return <div className="font-medium text-xl leading-relaxed mb-6">{obj.body}</div>;
     },
 });
 
