@@ -108,7 +108,7 @@ blockquote {
 }
 
 .tableofcontents {
-    @apply max-h-screen-2/3 mt-4;
+    @apply max-h-screen-2/3;
 }
 .tableofcontents A {
     @apply relative block text-primary text-md leading-tight font-bold py-1;
