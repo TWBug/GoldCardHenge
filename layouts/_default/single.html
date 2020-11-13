@@ -27,9 +27,9 @@
                 <div class="copy replace sm:col-span-2 pt-4">
                     {{.Content}}
                 </div>
-                <div class="">
+                <div class="-mt-12">
                     {{ if $cover_image }}
-                    <div class="hidden sm:block relative max-h-60 overflow-hidden w-full mb-4">
+                    <div class="hidden sm:block relative max-h-60 overflow-hidden w-full mb-4 mt-12">
                         <img src="{{ $cover_image.RelPermalink | safeURL }}" alt="{{ .Page.Params.cover_image_alt | truncate 160 }}" class="w-full rounded-md shadow-xl" loading="lazy" />
                     </div>
                     {{ end }}
