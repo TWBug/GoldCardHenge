@@ -1,0 +1,22 @@
+{{ $articles := first 3 (where (where .Site.RegularPages "Section" "news") "Permalink" "!=" .Page.Permalink).ByLastmod.Reverse }}
+
+{{ if $articles }}
+<div class="my-12">
+    <div class="flex items-baseline justify-between border-b-2 border-secondary border-dashed px-2 pb-2">
+        <h3 class="text-xl font-bold">{{ i18n "latest_news" }}</h3>
+        {{ partial "icon" (dict "name" "newspaper" "size" "7") }}
+    </div>
+    <div class="pt-2 pl-2">
+        {{ range $articles }}
+        <div class="my-4">
+            <div class="text-xs text-secondary font-bold">{{ dateFormat "January 2006" .Lastmod }}</div>
+            <a href="{{.RelPermalink}}" class="flex items-center font-bold text-primary text-base -ml-3 mb-1">
+                {{ partial "icon" (dict "name" "right" "size" "4") }}
+                <span class="pl-1">{{.Title}}</span>
+            </a>
+            <p class="text-xs font-medium">{{ .Summary | truncate 70 }}</p>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

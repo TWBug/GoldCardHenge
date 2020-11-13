@@ -24,61 +24,24 @@
             {{ end }}
             {{ partial "breadcrumb" . }}
             <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xl:gap-24">
-                <div class="copy replace sm:col-span-2">
+                <div class="copy replace sm:col-span-2 pt-4">
                     {{.Content}}
                 </div>
                 <div class="">
                     {{ if $cover_image }}
-                    <div class="hidden sm:block relative max-h-60 overflow-hidden w-full -mt-1 mb-4">
+                    <div class="hidden sm:block relative max-h-60 overflow-hidden w-full mb-4">
                         <img src="{{ $cover_image.RelPermalink | safeURL }}" alt="{{ .Page.Params.cover_image_alt | truncate 160 }}" class="w-full rounded-md shadow-xl" loading="lazy" />
                     </div>
                     {{ end }}
-                    <div class="font-bold leading-tight text-base mb-2">{{ printf (i18n "reading_time") .ReadingTime }}</div>
-                    <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">{{ i18n "last_changed" }}:</span> {{ dateFormat "January 2006" .Lastmod }}
-                    </div>
+                    {{ partial "page-summary" . }}
                     {{ if .Params.categories }}
-                    <div class="font-medium leading-tight text-sm mb-2">
-                        <span class="font-bold">{{ i18n "categories" }}:</span>
-                        <ul class="block mt-2">
-                            {{ range .Params.categories }}
-                            <li class="inline-block text-primary text-xs mr-2"><a href="/{{ $language }}/categories/{{ . }}" class="inline-flex items-center">
-                                {{ partial "icon" (dict "name" "tag" "size" "3") }}
-                                <span class="font-semibold uppercase ml-1">
-                                    {{ . | humanize }}
-                                </span>
-                                </a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                    </div>
+                    {{ partial "page-categories" . }}
                     {{ end }}
                     {{ if .Params.tags }}
-                    <div class="font-medium leading-tight text-sm mb-2"><span class="font-bold">{{ i18n "tags" }}:</span>
-                        <ul class="block mt-2">
-                            {{ range .Params.tags }}
-                            <li class="inline-block text-primary text-xs mr-2"><a href="/{{ $language }}/tags/{{ . }}" class="inline-flex items-center">
-                                {{ partial "icon" (dict "name" "tag" "size" "3") }}
-                                <span class="font-bold uppercase ml-1">
-                                    {{ . | humanize }}
-                                </span>
-                                </a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                    </div>
+                    {{ partial "page-tags" . }}
                     {{ end }}
-                    
-                    <h2 class="text-2xl font-semibold mb-2 leading-tight mt-8">{{ .Title | markdownify }}</h2>
-                    <p class="text-md mb-8">{{ .Summary }}</p>
-                    {{ partial "articles-latest" . }}
-                    {{ if ne  .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
-                    <div id="tableofcontents" class="tableofcontents md:sticky top-nav-scroll">
-                        <h2 class="text-xl font-bold mb-4">{{ i18n "table_of_contents" }}</h2>
-                        <aside>
-                            {{ .TableOfContents }}
-                        </aside>
-                    </div>
-                    {{ end }}
+                    {{ partial "page-latest-news" . }}
+                    {{ partial "page-table-contents" . }}
                 </div>
             </div>
         </div>

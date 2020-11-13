@@ -22,6 +22,8 @@
   translation: 'Categories'
 - id: tags
   translation: 'Tags'
+- id: summary
+  translation: 'Summary'
 - id: taipei_city_skyline
   translation: 'Taipei City Skyline'
 - id: taiwan_mountains

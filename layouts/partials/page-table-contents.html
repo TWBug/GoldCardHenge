@@ -1,0 +1,13 @@
+{{ if ne  .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
+<div id="tableofcontents" class="md:sticky top-nav-scroll my-12">
+  <div class="flex items-baseline justify-between border-b-2 border-secondary border-dashed px-2 pb-2">
+    <h3 class="text-xl font-bold">{{ i18n "table_of_contents" }}</h3>
+    {{ partial "icon" (dict "name" "stream" "size" "7") }}
+  </div>
+  <div class="tableofcontents pt-6 pl-2">
+    <aside>
+      {{ .TableOfContents }}
+    </aside>
+  </div>
+</div>
+{{ end }}
