@@ -1,10 +1,11 @@
-
-
+{{ $title := .Get "title" | markdownify }}
 <div class="my-12 border-t-2 border-b-2 border-secondary border-dashed -ml-4 -mr-4 p-4" x-data="taAccordion()">
     <div class="flex items-center justify-between">
-        <h3 class="text-xl font-bold">What is the Gold Card?</h3>
+        <h3 class="text-xl font-bold">{{ $title }}</h3>
         <button type="button" @click.prevent="toggle()" class="text-primary">
-            <span x-show="!show"> {{ partial "icon" (dict "name" "angle-down" "size" "10" "alt" "Show Answer") }} </span>
+            <span x-show="!show">
+                {{ partial "icon" (dict "name" "angle-down" "size" "10" "alt" "Show Answer") }}
+            </span>
             <span x-show="show"> {{ partial "icon" (dict "name" "angle-up" "size" "10" "alt" "Hide Answer") }} </span>
         </button>
     </div>
