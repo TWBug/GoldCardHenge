@@ -82,6 +82,7 @@ collections:
       create: false
       i18n: true
       preview_path: en/
+      filter: { field: 'cms_omit', value: null }
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true }
