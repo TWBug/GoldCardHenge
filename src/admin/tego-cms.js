@@ -233,4 +233,4 @@ CMS.registerEditorComponent({
 });
 
 // Register our custom styles
-CMS.registerPreviewStyle('/css/layout.css');
+CMS.registerPreviewStyle('/css/wysiwyg.css');
