@@ -18,7 +18,8 @@
 {{ end }}
 {{ end }}
 
-{{ $styles_clean := resources.Get "css/layout.css" }}
+{{ $styles_wysiwyg := resources.Get "css/wysiwyg.css" }}
+{{ $styles_wysiwyg_output := $styles_wysiwyg.RelPermalink }}
 {{ $styles := resources.Get "css/layout.css" | fingerprint }}
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
