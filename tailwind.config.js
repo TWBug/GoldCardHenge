@@ -1,4 +1,4 @@
-const plugin = require('tailwindcss/plugin')
+const plugin = require('tailwindcss/plugin');
 
 const colors = {
     primary: '#ce3f00',
@@ -14,7 +14,7 @@ const colors = {
     'secondary-medium': '#3B6505',
     'secondary-light': '#1A683B',
     'secondary-white': '#E9F0EA',
-}
+};
 
 module.exports = {
     purge: {
@@ -72,7 +72,7 @@ module.exports = {
                 bolder: 'bolder',
             },
             fontSize: {
-                'md': '0.925rem',
+                md: '0.925rem',
                 '5xl': '2.45rem',
                 '6xl': '3rem',
             },
@@ -103,8 +103,11 @@ module.exports = {
                 'screen-full': 'calc(var(--vh) * 100)',
             }),
             screens: {
-                'xxl': '1440px',
+                xxl: '1440px',
                 print: { raw: 'print' },
+            },
+            padding: {
+                '9/16': 'calc(100% / 1.78)',
             },
             zIndex: {
                 '-1': '-1',
@@ -158,10 +161,10 @@ module.exports = {
                 '.top-nav-scroll': {
                     top: 'calc(var(--navigationScroll) + 1rem)',
                 },
-            }
+            };
             addUtilities(changedUtilities, {
                 variants: ['responsive'],
-            })
+            });
         }),
     ],
-}
+};
