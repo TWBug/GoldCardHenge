@@ -211,6 +211,9 @@ CMS.registerEditorComponent({
         },
     ],
 
+    // NOTE: It's EXTREMELY(!) important that the pattern begins with ^,
+    // otherwise shortcode patterns will conflict with each other. See:
+    // https://github.com/netlify/netlify-cms/issues/3328#issuecomment-591234910
     pattern: /^{{< quote >}}\n([\s\S]+?)\n{{< \/quote >}}/,
 
     // Given the match object for the above regex, return the relevant data shape
@@ -246,17 +249,6 @@ CMS.registerEditorComponent({
     },
     toPreview: (obj) => <div className="font-medium text-xl leading-relaxed mb-6">{obj.body}</div>,
 });
-// CMS.registerEditorComponent({
-//     id: 'card',
-//     label: 'Card!',
-//     fields: [{ name: 'body', label: 'Card Text', widget: 'markdown' }],
-//     pattern: /^{{< card >}}\n([\s\S]+?)\n{{< \/card >}}/,
-//     fromBlock: (match) => ({ body: match[1] }),
-//     toBlock: (obj) => {
-//         return `{{< card >}}\n${obj.body || ''}\n{{< /card >}}`;
-//     },
-//     toPreview: (obj) => <div className="font-medium text-xl leading-relaxed mb-6">{obj.body}</div>,
-// });
 CMS.registerEditorComponent({
     id: 'card',
     label: 'Card',
