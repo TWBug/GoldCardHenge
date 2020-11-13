@@ -5,7 +5,7 @@
     </div>
     <ul class="block pt-6 pl-2">
         {{ range .Params.categories }}
-        <li class="inline-block bg-primary rounded-lg text-white text-sm px-3 py-1 mr-2">
+        <li class="inline-block bg-primary rounded-lg text-white text-sm px-3 py-1 mr-2 mb-2">
             <a href="/{{ $.Site.Language }}/categories/{{ . }}" class="inline-flex items-center">
                 {{ partial "icon" (dict "name" "tag" "size" "3") }}
                 <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
