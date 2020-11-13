@@ -177,7 +177,7 @@ CMS.registerEditorComponent({
         },
     ],
 
-    pattern: /{{< quote >}}\n([\s\S]+)\n{{< \/quote >}}/,
+    pattern: /{{< quote >}}\n([\s\S]+?)\n{{< \/quote >}}/,
 
     // Given the match object for the above regex, return the relevant data shape
     fromBlock: function (match) {
@@ -204,32 +204,87 @@ CMS.registerEditorComponent({
 CMS.registerEditorComponent({
     id: 'teaser',
     label: 'Teaser',
-    fields: [
-        {
-            name: 'body',
-            label: 'Teaser Text',
-            widget: 'markdown',
-        },
-    ],
-
-    pattern: /{{< teaser >}}\n([\s\S]+)\n{{< \/teaser >}}/,
-
-    // Given the match object for the above regex, return the relevant data shape
-    fromBlock: function (match) {
-        return {
-            body: match[1],
-        };
-    },
-
-    // Serialize to Hugo shortcode for placement in markdown doc
-    toBlock: function (obj) {
+    fields: [{ name: 'body', label: 'Teaser Text', widget: 'markdown' }],
+    pattern: /{{< teaser >}}\n([\s\S]+?)\n{{< \/teaser >}}/,
+    fromBlock: (match) => ({ body: match[1] }),
+    toBlock: (obj) => {
         return `{{< teaser >}}\n${obj.body || ''}\n{{< /teaser >}}`;
     },
+    toPreview: (obj) => <div className="font-medium text-xl leading-relaxed mb-6">{obj.body}</div>,
+});
 
-    // NOTE The css for these will not be meaningful without a preview css file loaded
-    toPreview: function (obj) {
-        return <div className="font-medium text-xl leading-relaxed mb-6">{obj.body}</div>;
+// Parse a property string of the form: `title="How to apply" key="value"`. In
+// other words, JSX-style properties. Hugo shortcodes use the same property
+// format.
+
+const Props = {
+    fromString: (str) => {
+        const result = {};
+
+        // Turn string into a flat list of keys and values. Exmaple:
+        // `title="How to apply" link="url.com" image="/file.jpg"`
+        // => ["title", "How to apply", "link", "url.com", "image", "/file.jpg"]
+        const xs = s
+            .split(/(.+?)="(.+?)"/) // NOTE: We count on double quotes, NOT single
+            .filter(Boolean)
+            .map((x) => x.trim());
+
+        // NOTE: This is iteration by two. See structure of xs for reasoning
+        for (let i = 0; i < kvs.length - 1; i += 2) {
+            const k = xs[i];
+            const v = xs[i + 1];
+            result[k] = v;
+        }
+
+        return result;
     },
+    toString: (obj) => {
+        const result = [];
+        for (const [k, v] of Object.entries(obj)) {
+            result.push(`${k}="${v}"`);
+        }
+        return result.join(' ');
+    },
+};
+
+CMS.registerEditorComponent({
+    id: 'card',
+    label: 'Card',
+    fields: [
+        { name: 'title', label: 'Title', widget: 'string' },
+        { name: 'link', label: 'Link', widget: 'string', required: false },
+        { name: 'image', label: 'Image', widget: 'image', required: false },
+        { name: 'body', label: 'Text', widget: 'markdown' },
+    ],
+    pattern: /{{< card (.+?) >}}\n([\s\S]+?)\n{{< \/card >}}/,
+    fromBlock: (match) => {
+        const props = Props.fromString(match[1]);
+        debugger;
+        return { ...props, body: match[2] };
+    },
+    toBlock: (obj) => {
+        const { body, ...props } = obj;
+        return `{{< card ${Props.toString(props)} >}}\n${body || ''}\n{{< /card >}}`;
+    },
+    toPreview: (obj) => (
+        <div className="inline-block w-1/2">
+            <a
+                href={obj.link || '#'}
+                className="flex flex-col justify-center items-center text-center border-2 border-gray-500 rounded-lg overflow-hidden shadow-xl mr-8 mb-8 transition duration-300 transform hover:scale-105"
+            >
+                <div className="relative w-full min-h-32">
+                    <img
+                        src={obj.image || '/img/image-not-defined.png'}
+                        className="block absolute inset-0 w-full h-full object-cover"
+                    />
+                </div>
+                <div className="px-6 pt-4">
+                    <h2 className="text-xl font-bold text-primary mb-1">{obj.title}</h2>
+                    <p className="text-center text-md font-regular">{obj.body}</p>
+                </div>
+            </a>
+        </div>
+    ),
 });
 
 // Register our custom styles
