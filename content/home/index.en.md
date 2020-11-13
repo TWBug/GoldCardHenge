@@ -6,4 +6,5 @@ hidden: false
 headless: true
 links:
 items:
+cms_omit: true
 ---
