@@ -42,6 +42,13 @@ const Props = {
         }
         return result.join(' ');
     },
+
+    // Escape strings which will be used within a property value. Example:
+    // escape('some "quoted" text') => 'some \"\"quoted text'
+    // NOTE: str could be undefined
+    escape: (str = '') => {
+        return str.replace(/"/g, '"');
+    },
 };
 
 let _config = null;
@@ -250,6 +257,50 @@ CMS.registerEditorComponent({
     toPreview: (obj) => <div className="font-medium text-xl leading-relaxed mb-6">{obj.body}</div>,
 });
 CMS.registerEditorComponent({
+    id: 'accordion',
+    label: 'Accordion',
+    fields: [
+        { name: 'title', label: 'Title', widget: 'string' },
+        { name: 'body', label: 'Inner Text', widget: 'markdown' },
+    ],
+    pattern: /^{{< accordion title="(.+)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
+    fromBlock: (match) => ({ title: match[1], body: match[2] }),
+    toBlock: (obj) => {
+        return `{{< accordion title="${obj.title}" >}}\n${obj.body || ''}\n{{< /accordion >}}`;
+    },
+    toPreview: (obj) => {
+        // NOTE: The use of syntax incompatible with react requires using a string for this
+        const __html = `
+            <div class="flex items-center justify-between">
+                <h3 class="text-xl font-bold">${obj.title}</h3>
+                <button type="button" @click.prevent="toggle()" class="text-primary">
+                    <span x-show="show"> ▲ </span>
+                </button>
+            </div>
+            <div
+                class="-mb-2"
+                x-cloak
+                x-show="show"
+                x-transition:enter="transition transform ease-out duration-200"
+                x-transition:enter-start="opacity-0 -translate-y-5"
+                x-transition:enter-end="opacity-100"
+                x-transition:leave="transition transform ease-in duration-100"
+                x-transition:leave-start="opacity-100"
+                x-transition:leave-end="opacity-0 -translate-y-5"
+            >
+                <p class="text-base font-regular">${obj.body}</p>
+            </div>
+        `;
+        return (
+            <div
+                class="my-12 border-t-2 border-b-2 border-secondary border-dashed -ml-4 -mr-4 p-4"
+                x-data="taAccordion()"
+                dangerouslySetInnerHTML={{ __html }}
+            ></div>
+        );
+    },
+});
+CMS.registerEditorComponent({
     id: 'card',
     label: 'Card',
     fields: [
@@ -259,11 +310,6 @@ CMS.registerEditorComponent({
         { name: 'body', label: 'Text', widget: 'markdown' },
     ],
     pattern: /^{{< card title="(.+)" link="(.*)" image="(.*)" >}}\n([\s\S]+?)\n{{< \/card >}}/,
-    // pattern: /^{{< card >}}\n([\s\S]+?)\n{{< \/card >}}/,
-    isValid: () => {
-        console.log('valdiation called');
-        return true;
-    },
     fromBlock: (match) => {
         console.log('fromblock');
         return { title: match[1], link: match[2], image: match[3], body: match[4] };
