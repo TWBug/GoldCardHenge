@@ -13,6 +13,7 @@ const colors = {
     'secondary-dark': '#2F5302',
     'secondary-medium': '#3B6505',
     'secondary-light': '#1A683B',
+    'secondary-white': '#E9F0EA',
 }
 
 module.exports = {

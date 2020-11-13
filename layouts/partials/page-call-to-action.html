@@ -1,14 +1,29 @@
 <div class="my-12">
+    {{ if eq .style "dark" }}
     <div
-        class="replace bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium rounded-md shadow-xl text-white text-center -ml-4 -mr-4 px-6 py-8 overflow-hidden"
+        class="replace border-2 border-secondary-dark bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium rounded-md shadow-xl text-white text-center -ml-4 -mr-4 px-6 py-8 overflow-hidden"
     >
         <div class="w-full text-2xl leading-snug font-regular mb-6">{{ i18n "apply_now_text" }}</div>
         <a
             href="#"
-            class="inline-flex items-center whitespace-no-wrap bg-primary text-base leading-none rounded-md shadow-lg px-6 py-2 transition duration-300 transform hover:scale-105 hover:shadow-2xl hover:bg-black"
+            class="inline-flex items-center whitespace-no-wrap bg-primary text-base text-white leading-none rounded-md shadow-lg px-6 py-2 transition duration-300 transform hover:scale-105 hover:shadow-2xl hover:bg-black"
         >
-            <span class="font-bold text-white mr-2"> {{ i18n "apply_now" }} </span>
+            <span class="font-bold mr-2"> {{ i18n "apply_now" }} </span>
             {{ partial "icon" (dict "name" "angle-right" "size" "8") }}
         </a>
     </div>
+    {{ else }}
+    <div
+        class="replace border-2 border-secondary-dark bg-secondary-white rounded-md shadow-xl text-center -ml-4 -mr-4 px-6 py-8 overflow-hidden"
+    >
+        <div class="w-full text-2xl leading-snug font-regular mb-6">{{ i18n "apply_now_text" }}</div>
+        <a
+            href="#"
+            class="inline-flex items-center whitespace-no-wrap bg-primary text-base text-white leading-none rounded-md shadow-lg px-6 py-2 transition duration-300 transform hover:scale-105 hover:shadow-2xl hover:bg-black"
+        >
+            <span class="font-bold mr-2"> {{ i18n "apply_now" }} </span>
+            {{ partial "icon" (dict "name" "angle-right" "size" "8") }}
+        </a>
+    </div>
+    {{ end }}
 </div>

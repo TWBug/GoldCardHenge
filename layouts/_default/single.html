@@ -40,7 +40,7 @@
                     {{ if .Params.tags }}
                     {{ partial "page-tags" . }}
                     {{ end }}
-                    {{ partial "page-call-to-action" . }}
+                    {{ partial "page-call-to-action" (dict "style" "light" ) }}
                     {{ partial "page-latest-news" . }}
                     {{ partial "page-table-contents" . }}
                 </div>
