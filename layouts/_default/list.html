@@ -37,50 +37,32 @@
         class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
     ></div>
     <section id="scroll">
-        <div class="container py-12 sm:py-24 px-12 lg:px-24">
-            {{ partial "breadcrumb" . }}
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24 mt-8">
-                <div class="lg:col-span-2">
-                    {{ if .Sections }}
-                    <div class="grid grid-cols-2 gap-12 mb-8">
-                        {{ range .Sections}}
-                        <a href="{{.RelPermalink}}" class="flex flex-col justify-center items-center text-center border-2 border-gray-500 rounded-lg shadow-xl px-6 py-8 transition duration-300 transform hover:scale-105">
-                            <img src="/img/dummy-icon.svg" alt="" class="h-12 mb-4">
-                            <h2 class="text-xl font-bold text-primary mb-2">
-                                {{.Title}}
-                            </h2>
-                            <p class="text-center text-base font-regular">
-                                {{ .Summary }}
-                            </p>
-                        </a>
-                        {{ end }}
-                    </div>
-                    {{ end }}
-                    {{ if .RegularPages }}
-                    <div class="mb-8">
-                        {{ range .RegularPages}}
-                        {{/*  {{ if not .IsSection }}  */}}
-                        <div class="col-span-2 text-left mb-2">
-                            <h2 class="text-xl font-bold text-primary mb-2">
-                                <a href="{{.RelPermalink}}">{{.Title}}</a>
-                            </h2>
-                            <p class="text-base">
-                                {{ .Summary | truncate 180 }}
-                            </p>
-                        </div>
-                        {{/*  {{ end }}  */}}
-                        {{ end }}
+      <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
+                <div class="lg:col-span-2 pt-10">
+
+                    {{ range .RegularPages}}
+                    <div class="text-left mb-6">
+                        <h2 class="text-2xl font-bold text-primary mb-1">
+                            <a href="{{.RelPermalink}}">{{.Title}}</a>
+                        </h2>
+                        <p class="text-base">
+                            {{ .Summary | truncate 180 }}
+                        </p>
                     </div>
                     {{ end }}
                     
                     
                     {{ if .Content }}
-                    <div class="copy">{{ .Content }}</div>
+                    <div class="copy mt-12">{{ .Content }}</div>
                     {{ end }}
                     
                 </div>
-                <div class="copy order-first lg:order-last">
-                    {{ .Summary | truncate 200 }}
+                <div class="-mt-12">
+                  {{ partial "page-summary" . }}
+                  {{ partial "page-all-categories" . }}
+                  {{ partial "page-call-to-action" (dict "style" "dark" ) }}
+                  {{ partial "page-latest-news" . }}
                 </div>
             </div>
         </div>
