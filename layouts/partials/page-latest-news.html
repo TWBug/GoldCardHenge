@@ -9,12 +9,17 @@
     <div class="pt-2 pl-2">
         {{ range $articles }}
         <div class="my-4">
-            <div class="text-xs text-secondary font-bold">{{ dateFormat "January 2006" .Lastmod }}</div>
+            <div class="flex items-center text-xs text-secondary font-bold mb-1">
+              {{ partial "icon" (dict "name" "clock" "size" "4") }}
+              <span class="ml-2">
+                {{ dateFormat "January 2006" .Lastmod }}
+              </span>
+            </div>
             <a href="{{.RelPermalink}}" class="flex items-center font-bold text-primary text-base -ml-3 mb-1">
                 {{ partial "icon" (dict "name" "right" "size" "4") }}
                 <span class="pl-1">{{.Title}}</span>
             </a>
-            <p class="text-xs font-medium">{{ .Summary | truncate 70 }}</p>
+            <p class="text-xs font-medium leading-normal">{{ .Summary | truncate 70 }}</p>
         </div>
         {{ end }}
     </div>
