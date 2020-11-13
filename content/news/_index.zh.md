@@ -12,12 +12,6 @@ tags:
 categories:
 ---
 
-# 您好，歡迎來到台灣就業金卡官方網站。
+## Hi, and welcome to the official Taiwan Employment Gold Card website.
 
-台灣就業金卡專案辦公室與網站仍在建置中，將盡快為您服務。
-如需詳細的資訊，請參閱 [foreigntalentact.ndc.gov.tw](https://foreigntalentact.ndc.gov.tw/)。
-如果您有任何疑問，請隨時與我們聯繫:
-
-{{< link href="mailto:help@taiwangoldcard.tw" >}}
-help@taiwangoldcard.tw
-{{< /link >}}
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis minus ullam adipisci quaerat eum vitae mollitia officiis ex veritatis consequatur tenetur, eaque itaque inventore quod et rerum fuga dolorem. Odit ut id sed, vel porro esse mollitia earum voluptas! Omnis dolores distinctio aperiam, laudantium quo dolorum ut vitae labore pariatur. Obcaecati maiores expedita quis, rem ipsa repellat vero dicta laudantium, possimus doloremque inventore ratione optio perspiciatis, ab sunt voluptatem harum et aliquid. Dolore vitae impedit animi, voluptatum sed corrupti velit doloremque aspernatur vero labore. Esse totam obcaecati inventore sint doloremque quae officiis? Illo aspernatur sed suscipit minus nisi temporibus quasi ipsam nam dolorem eveniet sint saepe unde omnis magni corrupti maiores accusantium, obcaecati facere voluptatem ex reiciendis fugit! Facilis, modi.
