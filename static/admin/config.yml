@@ -82,7 +82,7 @@ collections:
       create: false
       i18n: true
       preview_path: en/
-      filter: { field: 'cms_omit', value: null }
+      # filter: { field: 'cms_omit', value: null } ## NOTE: This doesn't work. Filtering seems to be broken
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true }

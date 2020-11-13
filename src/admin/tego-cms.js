@@ -10,7 +10,7 @@
 // Helper Functions
 //
 
-let _config = null
+let _config = null;
 
 // The CMS doesn't seem to expose this for us... so we'll just grab it ourselves
 // NOTE: There is currently no event listener to make it easier to use the config directly.
@@ -18,56 +18,56 @@ fetch('config.yml')
     .then((x) => x.text())
     .then((x) => jsyaml.load(x))
     .then((x) => {
-        _config = x
-        window._config = x
-    })
+        _config = x;
+        window._config = x;
+    });
 
 const $ = (sel) => {
-    return document.querySelector(sel)
-}
+    return document.querySelector(sel);
+};
 
 // 目前沒在用，本來覺得我們可能會需要等待render後
 // 200毫秒
 // 10秒
 var pollFor = (sel, fn, interval = 200, timeout = 10000) => {
-    let timedOut = false
+    let timedOut = false;
     const t = setTimeout(() => {
-        timedOut = true
-    }, timeout)
+        timedOut = true;
+    }, timeout);
     var attempt = () => {
         if (timedOut) {
-            console.warn('找不到... ' + sel)
-            return
+            console.warn('找不到... ' + sel);
+            return;
         }
 
         if ($(sel)) {
-            clearTimeout(t)
-            fn($(sel))
+            clearTimeout(t);
+            fn($(sel));
         } else {
-            setTimeout(attempt, interval)
+            setTimeout(attempt, interval);
         }
-    }
+    };
 
     // 第一次執行
-    attempt()
-}
+    attempt();
+};
 
 /// Configure CMS
 //
 
-const zh = CMS.getLocale('zh_Hant')
+const zh = CMS.getLocale('zh_Hant');
 if (true /* TODO: What should be the check for zh user lang? */) {
-    CMS.registerLocale('zh', zh)
-    CMS.registerLocale('zh_Hant', zh)
+    CMS.registerLocale('zh', zh);
+    CMS.registerLocale('zh_Hant', zh);
 }
 
 const comp = () => {
-    return <div>Hey there you</div>
-}
+    return <div>Hey there you</div>;
+};
 
 const I18nKeyValueWidget = {
     name: 'i18n-key-value-pairs',
-}
+};
 
 // Unfortunately we do not control serialization. However, objects and arrays
 // and primatives both map to yaml without surprises, so we might be able to get
@@ -78,15 +78,15 @@ const I18nKeyValueWidget = {
 // importing a second copy, we grab the constructor from a known existing map.
 var CategoriesControl = createClass({
     handleChange: function (e) {
-        const ImmutableMap = this.props.collection.constructor // See NOTE
-        const separator = this.props.field.get('separator', ', ')
-        this.props.onChange(ImmutableMap(JSON.parse(e.target.value)))
+        const ImmutableMap = this.props.collection.constructor; // See NOTE
+        const separator = this.props.field.get('separator', ', ');
+        this.props.onChange(ImmutableMap(JSON.parse(e.target.value)));
     },
 
     render: function () {
-        const separator = this.props.field.get('separator', ', ')
-        var value = this.props.value
-        const str = value ? JSON.stringify(value.toJS(), null, 2) : ''
+        const separator = this.props.field.get('separator', ', ');
+        var value = this.props.value;
+        const str = value ? JSON.stringify(value.toJS(), null, 2) : '';
         return (
             <textarea
                 style={{ whiteSpace: 'pre' }}
@@ -96,7 +96,7 @@ var CategoriesControl = createClass({
                 value={str}
                 onChange={this.handleChange}
             />
-        )
+        );
         // return (
         //     <input
         //         id={this.props.forID}
@@ -114,14 +114,14 @@ var CategoriesControl = createClass({
         //     onChange: this.handleChange,
         // })
     },
-})
+});
 
 // THIS will be rendered in the preview window of the browser
 var CategoriesPreview = createClass({
     render: function () {
-        return h('ul', {}, this.props.value && this.props.value.toJS().toString())
+        return h('ul', {}, this.props.value && this.props.value.toJS().toString());
     },
-})
+});
 
 // This is ... what? The properties allows passing options to the react
 // component as this.props.field.get('key_name'), but what have that on the
@@ -130,10 +130,10 @@ var schema = {
     properties: {
         separator: { type: 'string' },
     },
-}
+};
 
 // NOTE: This widget is just for testing out the API, not actually part of the product
-CMS.registerWidget('categories', CategoriesControl, CategoriesPreview, schema)
+CMS.registerWidget('categories', CategoriesControl, CategoriesPreview, schema);
 
 // TODO: This is just some example code, we will need to modify and create more.
 CMS.registerEditorComponent({
@@ -156,12 +156,101 @@ CMS.registerEditorComponent({
         return {
             username: match[1],
             gid: match[2],
-        }
+        };
     },
     toBlock: function (obj) {
-        return `{{< gist ${obj.username} >}}\n${obj.gid}\n{{< /gist >}}`
+        return `{{< gist ${obj.username} >}}\n${obj.gid}\n{{< /gist >}}`;
     },
     toPreview: function (obj) {
-        return `{{< gist ${obj.username} ${obj.gid} >}}`
+        return `{{< gist ${obj.username} ${obj.gid} >}}`;
     },
-})
+});
+
+CMS.registerEditorComponent({
+    id: 'quote',
+    label: 'Quote',
+    fields: [
+        {
+            name: 'body',
+            label: 'Quote Text',
+            widget: 'markdown',
+        },
+    ],
+
+    pattern: /{{< quote >}}\n([\s\S]+)\n{{< \/quote >}}/,
+
+    // Given the match object for the above regex, return the relevant data shape
+    fromBlock: function (match) {
+        return {
+            body: match[1],
+        };
+    },
+
+    // Serialize to Hugo shortcode for placement in markdown doc
+    toBlock: function (obj) {
+        return `{{< quote >}}\n${obj.body || ''}\n{{< /quote >}}`;
+    },
+
+    // NOTE The css for these will not be meaningful without a preview css file loaded
+    toPreview: function (obj) {
+        return (
+            <div
+                style={{
+                    fontStyle: 'italic',
+                    borderTop: '2px dashed black',
+                    borderBottom: '2px dashed black',
+                    padding: 20,
+                    textAlign: 'center',
+                }}
+                className="border-t-2 border-b-2 border-secondary border-dashed font-medium text-secondary text-center italic -ml-4 -mr-4 mb-12 mt-8 py-4 px-8"
+            >
+                {obj.body}
+            </div>
+        );
+    },
+});
+
+CMS.registerEditorComponent({
+    id: 'teaser',
+    label: 'Teaser',
+    fields: [
+        {
+            name: 'body',
+            label: 'Teaser Text',
+            widget: 'markdown',
+        },
+    ],
+
+    pattern: /{{< teaser >}}\n([\s\S]+)\n{{< \/teaser >}}/,
+
+    // Given the match object for the above regex, return the relevant data shape
+    fromBlock: function (match) {
+        return {
+            body: match[1],
+        };
+    },
+
+    // Serialize to Hugo shortcode for placement in markdown doc
+    toBlock: function (obj) {
+        return `{{< teaser >}}\n${obj.body || ''}\n{{< /teaser >}}`;
+    },
+
+    // NOTE The css for these will not be meaningful without a preview css file loaded
+    toPreview: function (obj) {
+        return (
+            <div
+                style={{
+                    marginBottom: '1.5rem',
+                    fontSize: '1.25rem',
+                    lineHeight: '1.625',
+                }}
+                className="font-medium text-xl leading-relaxed mb-6"
+            >
+                {obj.body}
+            </div>
+        );
+    },
+});
+
+/// TODO: Find the file path for this
+// CMS.registerPreviewStyle(file);
