@@ -22,6 +22,8 @@
   translation: 'Table of contents'
 - id: categories
   translation: 'Categories'
+- id: all_categories
+  translation: 'All categories'
 - id: tags
   translation: 'Tags'
 - id: summary
