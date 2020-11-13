@@ -176,19 +176,76 @@ CMS.registerEditorComponent({
             widget: 'markdown',
         },
     ],
+
     pattern: /{{< quote >}}\n([\s\S]+)\n{{< \/quote >}}/,
+
+    // Given the match object for the above regex, return the relevant data shape
     fromBlock: function (match) {
         return {
             body: match[1],
         };
     },
+
+    // Serialize to Hugo shortcode for placement in markdown doc
     toBlock: function (obj) {
-        return `{{< quote >}}\n${obj.body}\n{{< /quote >}}`;
+        return `{{< quote >}}\n${obj.body || ''}\n{{< /quote >}}`;
     },
+
     // NOTE The css for these will not be meaningful without a preview css file loaded
     toPreview: function (obj) {
         return (
-            <div className="border-t-2 border-b-2 border-secondary border-dashed font-medium text-secondary text-center italic -ml-4 -mr-4 mb-12 mt-8 py-4 px-8">
+            <div
+                style={{
+                    fontStyle: 'italic',
+                    borderTop: '2px dashed black',
+                    borderBottom: '2px dashed black',
+                    padding: 20,
+                    textAlign: 'center',
+                }}
+                className="border-t-2 border-b-2 border-secondary border-dashed font-medium text-secondary text-center italic -ml-4 -mr-4 mb-12 mt-8 py-4 px-8"
+            >
+                {obj.body}
+            </div>
+        );
+    },
+});
+
+CMS.registerEditorComponent({
+    id: 'teaser',
+    label: 'Teaser',
+    fields: [
+        {
+            name: 'body',
+            label: 'Teaser Text',
+            widget: 'markdown',
+        },
+    ],
+
+    pattern: /{{< teaser >}}\n([\s\S]+)\n{{< \/teaser >}}/,
+
+    // Given the match object for the above regex, return the relevant data shape
+    fromBlock: function (match) {
+        return {
+            body: match[1],
+        };
+    },
+
+    // Serialize to Hugo shortcode for placement in markdown doc
+    toBlock: function (obj) {
+        return `{{< teaser >}}\n${obj.body || ''}\n{{< /teaser >}}`;
+    },
+
+    // NOTE The css for these will not be meaningful without a preview css file loaded
+    toPreview: function (obj) {
+        return (
+            <div
+                style={{
+                    marginBottom: '1.5rem',
+                    fontSize: '1.25rem',
+                    lineHeight: '1.625',
+                }}
+                className="font-medium text-xl leading-relaxed mb-6"
+            >
                 {obj.body}
             </div>
         );

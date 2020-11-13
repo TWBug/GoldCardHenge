@@ -10,9 +10,10 @@ media_image_alt: null
 topic: eventsnews
 tags: null
 categories:
-  - first
+    - first
 publishDate: 2020-11-05T07:09:20.617Z
 ---
+
 # Hey all, this is a post
 
 This is something I can hopefully edit with the CMS.
@@ -22,3 +23,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla error porro magn
 {{< quote >}}
 Hey there
 {{< /quote >}}
+
+And a teaser
+
+{{< teaser >}}
+Hey we all like teasers
+{{< /teaser >}}
