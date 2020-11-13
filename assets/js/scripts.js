@@ -206,7 +206,12 @@ window.linksTargetBlank = {
 
 function handleResize() {
   // get the scroll navigations height and store it in a css custom propperty
-  var navigationScrollHeight = document.getElementById('navigationScroll').offsetHeight;
+  var navigationScroll = document.getElementById('navigationScroll');
+  var navigationScrollHeight = 0;
+
+  if (navigationScroll !== null) {
+    navigationScrollHeight = navigationScroll.offsetHeight;
+  }
 
   if (navigationScrollHeight === 0) {
     navigationScrollHeight = 58;
