@@ -7,7 +7,7 @@ media_image_alt: Test alt
 date: 2020-11-04T06:52:19.195Z
 topic: faq
 cover_image: img/uploads/dummy-card.svg
-title: Question 2 EN
+title: "Do I apply for the Gold Card personally, or should I ask my employer to do that?"
 tags:
     - cool
     - interesting
@@ -15,7 +15,7 @@ categories: null
 publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: Test alt
 category:
-    - application
+    - test
 ---
 
 # Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, magni!

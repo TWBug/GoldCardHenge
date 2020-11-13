@@ -5,20 +5,14 @@ date: 2020-11-05T07:09:20.617Z
 publishDate: 2020-11-05T07:09:20.617Z
 draft: false
 topic: faq
-cover_image:
-cover_image_alt:
-media_image:
-media_image_alt:
+cover_image: 'img/uploads/dummy-image.jpg'
+cover_image_alt: 'Test alt'
+media_image: 'img/uploads/taiwan-culture.jpg'
+media_image_alt: 'Test alt'
 tags:
 categories:
 ---
 
-# 您好，歡迎來到台灣就業金卡官方網站。
+## Some additional text on the page
 
-台灣就業金卡專案辦公室與網站仍在建置中，將盡快為您服務。
-如需詳細的資訊，請參閱 [foreigntalentact.ndc.gov.tw](https://foreigntalentact.ndc.gov.tw/)。
-如果您有任何疑問，請隨時與我們聯繫:
-
-{{< link href="mailto:help@taiwangoldcard.tw" >}}
-help@taiwangoldcard.tw
-{{< /link >}}
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias explicabo perspiciatis culpa inventore beatae vitae velit reiciendis numquam, ad quam autem labore esse voluptatem consequuntur, quas debitis architecto, laboriosam unde optio impedit praesentium cum? Corporis maxime quo autem sequi expedita libero, eum et quis enim corrupti mollitia accusantium dolor, quas in at omnis iusto porro sunt cum provident dicta? Architecto vero ut, laborum nemo similique quaerat in aliquid omnis dignissimos maxime sapiente voluptate vitae, eos molestias. Autem quaerat, ipsum aspernatur magni repudiandae doloribus, cupiditate rerum incidunt provident suscipit officiis modi.
