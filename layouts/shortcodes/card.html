@@ -1,0 +1,46 @@
+{{ $image := resources.Get (printf "%s" ( "/img/image-not-defined.png" | safeURL)) }}
+{{ $buffer := "" }}
+{{ with .Get "image" }}
+{{ $buffer = resources.Get (printf "%s" ( . | safeURL)) }}
+{{ end }}
+
+{{ if $buffer }}
+{{ $image = $buffer }}
+{{ end }}
+
+{{ $title := i18n "undefined" }}
+{{ with .Get "title" }}
+{{ $title = . | markdownify }}
+{{ end }}
+
+{{ $link := "#" }}
+{{ with .Get "link" }}
+{{ $link = . | safeURL }}
+{{ end }}
+
+{{ $target := "" }}
+{{ if ge (len $link) 4}}
+{{ if eq (slicestr $link 0 4) "http" }}
+{{ $target = "_blank" }}
+{{ end }}
+{{ end }}
+
+<div class="inline-block w-1/2">
+    <a
+        href="{{ $link }}"
+        {{ with $target }} target="{{ $target }}" {{ end }}
+        class="flex flex-col justify-center items-center text-center border-2 border-gray-500 rounded-lg overflow-hidden shadow-xl mr-8 mb-8 transition duration-300 transform hover:scale-105"
+    >
+        <div class="relative w-full min-h-32">
+            <img
+                src="{{ $image.RelPermalink | safeURL }}"
+                alt=""
+                class="block absolute inset-0 w-full h-full object-cover"
+            />
+        </div>
+        <div class="px-6 pt-4">
+            <h2 class="text-xl font-bold text-primary mb-1">{{ $title }}</h2>
+            <p class="text-center text-md font-regular">{{ .Inner | markdownify }}</p>
+        </div>
+    </a>
+</div>
