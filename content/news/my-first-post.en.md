@@ -22,7 +22,7 @@ This is something I can hopefully edit with the CMS.
 
 How about some cards?
 
-{{< card title="No image No link" >}}
+{{< card title="No image No link" link="" image="" >}}
 Just a good amount of body text to get us going.
 {{< /card >}}
 

@@ -256,15 +256,14 @@ CMS.registerEditorComponent({
         { name: 'image', label: 'Image', widget: 'image', required: false },
         { name: 'body', label: 'Text', widget: 'markdown' },
     ],
-    pattern: /{{< card (.+?) >}}\n([\s\S]+?)\n{{< \/card >}}/,
+    pattern: /{{< card title="(.+)" link="(.+)" image="(.+)" >}}\n([\s\S]+?)\n{{< \/card >}}/,
     fromBlock: (match) => {
-        const props = Props.fromString(match[1]);
-        debugger;
-        return { ...props, body: match[2] };
+        return { title: match[1], link: match[2], image: match[3], body: matchc[4] };
     },
     toBlock: (obj) => {
-        const { body, ...props } = obj;
-        return `{{< card ${Props.toString(props)} >}}\n${body || ''}\n{{< /card >}}`;
+        return `{{< card title="${obj.title}" link="${obj.link}" image="${obj.image}" >}}\n${
+            obj.body || ''
+        }\n{{< /card >}}`;
     },
     toPreview: (obj) => (
         <div className="inline-block w-1/2">
