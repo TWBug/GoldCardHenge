@@ -42,3 +42,5 @@
   translation: 'Languages'
 - id: footer_legal_title
   translation: 'Legal'
+- id: undefined
+  translation: 'UNDEFINED'
