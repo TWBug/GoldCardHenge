@@ -32,7 +32,7 @@ window.highlight = {
         continue;
       }
 
-      this.replaceInDocument(this.wrapper[index], /Taiwan Gold Card/g, '<span class="font-bold text-black">Taiwan <span class="highlight">Gold Card</span></span>');
+      this.replaceInDocument(this.wrapper[index], /Taiwan Gold Card/g, '<span class="font-bold">Taiwan <span class="highlight">Gold Card</span></span>');
     }
 
     this.wrapper = this.wrapper[0]; // this.replaceInDocument(
