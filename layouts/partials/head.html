@@ -21,6 +21,10 @@
 {{ $styles_wysiwyg := resources.Get "css/wysiwyg.css" }}
 {{ $styles_wysiwyg_output := $styles_wysiwyg.RelPermalink }}
 {{ $styles := resources.Get "css/layout.css" | fingerprint }}
+
+{{/*  NOTE: This is oddity causes Hugo to output a plain filepath for the layout.css file. This is then used in the CMS to aid previews */}}
+<meta name="plain-styles" content="{{ $styles_clean.RelPermalink }}" />
+
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
