@@ -14,6 +14,8 @@ tags:
 image: img/uploads/dummy-image.jpg
 categories:
     - first
+    - second
+    - third
 ---
 
 # What is the Taiwan Gold Card?
