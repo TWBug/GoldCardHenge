@@ -10,6 +10,8 @@
   translation: 'Logo Taiwan Employment Gold Card Office'
 - id: apply_now
   translation: 'Apply now'
+- id: apply_now_text
+  translation: 'Taiwan Gold Card is your right choice!'
 - id: latest_news
   translation: 'Latest news'
 - id: reading_time
