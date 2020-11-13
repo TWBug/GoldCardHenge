@@ -252,5 +252,5 @@ CMS.registerEditorComponent({
     },
 });
 
-/// TODO: Find the file path for this
-// CMS.registerPreviewStyle(file);
+// Register our custom styles
+CMS.registerPreviewStyle('/css/layout.css');
