@@ -489,6 +489,18 @@ window.taWelcome = function () {
 };
 "use strict";
 
+window.taAccordion = function () {
+  return {
+    show: false,
+    "default": {},
+    init: function init() {},
+    toggle: function toggle() {
+      this.show = !this.show;
+    }
+  };
+};
+"use strict";
+
 window.languageDetection.init();
 window.highlight.replace();
 window.linksTargetBlank.replace();
