@@ -47,7 +47,10 @@ const Props = {
     // escape('some "quoted" text') => 'some \"\"quoted text'
     // NOTE: str could be undefined
     escape: (str = '') => {
-        return str.replace(/"/g, '"');
+        return str.replace(/"/g, '\\"');
+    },
+    unescape: (str = '') => {
+        return str.replace(/\\"/g, '"');
     },
 };
 
@@ -264,9 +267,9 @@ CMS.registerEditorComponent({
         { name: 'body', label: 'Inner Text', widget: 'markdown' },
     ],
     pattern: /^{{< accordion title="(.+)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
-    fromBlock: (match) => ({ title: match[1], body: match[2] }),
+    fromBlock: (match) => ({ title: Props.unescape(match[1]), body: match[2] }),
     toBlock: (obj) => {
-        return `{{< accordion title="${obj.title}" >}}\n${obj.body || ''}\n{{< /accordion >}}`;
+        return `{{< accordion title="${Props.escape(obj.title)}" >}}\n${obj.body || ''}\n{{< /accordion >}}`;
     },
     toPreview: (obj) => {
         // NOTE: The use of syntax incompatible with react requires using a string for this
@@ -311,11 +314,9 @@ CMS.registerEditorComponent({
     ],
     pattern: /^{{< card title="(.+)" link="(.*)" image="(.*)" >}}\n([\s\S]+?)\n{{< \/card >}}/,
     fromBlock: (match) => {
-        console.log('fromblock');
         return { title: match[1], link: match[2], image: match[3], body: match[4] };
     },
     toBlock: (obj) => {
-        console.log('toblock');
         return `{{< card title="${obj.title}" link="${obj.link || ''}" image="${obj.image || ''}" >}}\n${
             obj.body || ''
         }\n{{< /card >}}`;

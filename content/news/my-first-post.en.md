@@ -10,10 +10,9 @@ media_image_alt: null
 topic: eventsnews
 tags: null
 categories:
-    - first
+  - first
 publishDate: 2020-11-05T07:09:20.617Z
 ---
-
 # Hey all, this is a post
 
 This is something I can hopefully edit with the CMS.
@@ -53,7 +52,7 @@ more
 
 And how about a quote?
 
-{{< accordion title="hey there" >}}
+{{< accordion title="how to \"escape\" this string?" >}}
 wee this is
 {{< /accordion >}}
 
