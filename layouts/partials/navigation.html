@@ -6,7 +6,7 @@
 {{ if eq .Page.IsHome true }}
 <div class="relative z-10 bg-nav-meta bg-opacity-50 print:bg-none print:bg-white" x-data="taNavigation()" x-init="init()">
 {{ else }}
-<div class="relative z-10 bg-nav-start bg-gradient-to-b from-nav-start to-nav-end print:bg-none print:bg-white" x-data="taNavigation()" x-init="init()">
+<div class="relative z-10 bg-nav-start bg-gradient-to-b from-nav-start to-nav-end shadow-xl print:bg-none print:bg-white" x-data="taNavigation()" x-init="init()">
 {{ end }}
     <div class="max-w-screen-xl flex justify-between mx-auto text-white print:text-black px-8">
         <a href="/{{ .Site.Language.Lang }}/" class="block w-1/3 sm:w-1/5 lg:w-1/6 max-w-xs py-4 lg:py-6">
