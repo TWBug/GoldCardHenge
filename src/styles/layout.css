@@ -140,6 +140,11 @@ blockquote {
     background: white;
     box-shadow: 1rem 0 0 white, -1rem 0 0 white;
 }
+.padded-dark {
+    display: inline;
+    background: black;
+    box-shadow: 1rem 0 0 black, -1rem 0 0 black;
+}
 
 .copy {
     @apply leading-relaxed text-base;
