@@ -18,7 +18,9 @@
     </div>
     <div class="relative container py-12 px-12 lg:px-24 z-10">
         <div class="w-1/2 max-w-32 py-6">
+          <a href="/{{ .Site.Language.Lang }}/">
             <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="{{ i18n "tego_logo" }}" />
+          </a>
         </div>
         <div class="flex text-white print:text-black">
             <div class="w-1/3 flex-shrink-0 mr-8">
@@ -54,7 +56,7 @@
                 </div>
                 <div class="">
                     <h4 class="font-semibold uppercase text-sm mb-2">{{ i18n "footer_languages_title" }}</h4>
-                    <ul class="flex flex-wrap items-center">
+                    <ul class="flex flex-wrap items-center" x-data="taLanguage()">
                         {{ range .Site.Languages }}
                         {{ if lt .Weight 10 }}
                         {{ $url = replace $url $actual_language .Lang }}
