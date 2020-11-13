@@ -18,6 +18,7 @@
 {{ end }}
 {{ end }}
 
+{{ $styles_clean := resources.Get "css/layout.css" }}
 {{ $styles := resources.Get "css/layout.css" | fingerprint }}
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
