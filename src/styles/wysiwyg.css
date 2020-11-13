@@ -58,151 +58,68 @@ blockquote {
 @tailwind components;
 @tailwind utilities;
 
-.overflow {
-    overflow: var(--overflow);
-}
-
-.inset-x-center {
-    left: 50%;
-    transform: translateX(-50%);
-}
-.text-shadow-black {
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
-}
-.text-shadow-0 {
-    text-shadow: none;
-}
-
-.breadcrumb {
-    @apply relative inline-block;
-}
-.breadcrumb::before {
-    content: '>';
-    @apply font-bold pr-1;
-}
-
-.flex-center {
-    @apply flex justify-center items-center;
-}
-
-.highlight {
-    @apply inline-block bg-highlight text-black whitespace-no-wrap rounded-md;
-    padding-right: 0.3em;
-    padding-left: 0.3em;
-}
-
-.flipped {
-    transform: scale(-1, 1);
-}
-
-.append {
-    position: relative;
-}
-
-.append::before {
-    content: '_';
-    font-size: 1em;
-    font-weight: inherit;
-    margin-left: -1em;
-    padding-right: 0.2em;
-}
-
-.tableofcontents {
-    @apply max-h-screen-2/3;
-}
-.tableofcontents A {
-    @apply relative block text-primary text-md leading-tight font-bold py-1;
-}
-.tableofcontents A::before {
-    content: "#";
-    position: absolute;
-    left: -0.7em;
-}
-.tableofcontents UL UL {
-    @apply ml-2 pb-2;
-}
-.tableofcontents UL UL A {
-    @apply text-sm font-bold;
-}
-.tableofcontents UL UL UL {
-    @apply ml-2;
-}
-.tableofcontents UL UL UL A {
-    @apply text-xs font-medium;
-}
-
-.hover {
-    @apply transition duration-300 transform hover:scale-105;
-}
-
-.padded {
-    display: inline;
-    background: white;
-    box-shadow: 1rem 0 0 white, -1rem 0 0 white;
-}
-
-.copy {
+/* purgecss start ignore */
+.frame-content {
     @apply leading-relaxed text-base;
 }
-.copy.copy--large {
+.frame-content.copy--large {
     @apply text-xl;
 }
 
-/* purgecss start ignore */
-.copy p {
+.frame-content p {
     @apply font-regular mb-4;
 }
 
-.copy strong {
+.frame-content strong {
     @apply font-medium text-black;
 }
-.copy strong a {
+.frame-content strong a {
     @apply font-semibold text-primary;
 }
 
-.copy em,
-.copy em a {
+.frame-content em,
+.frame-content em a {
     @apply font-regular italic;
 }
 
 /* fallback if content list is with double line break */
-.copy ul p,
-.copy ol p {
+.frame-content ul p,
+.frame-content ol p {
     @apply pb-0 mb-0;
 }
 
-.copy ul {
+.frame-content ul {
     list-style-type: '>';
     @apply list-outside ml-2 mb-4 mr-12;
 }
 
-.copy ul ul {
+.frame-content ul ul {
     list-style-type: '-';
     @apply list-outside ml-2 mt-2;
 }
 
-.copy ul ul ul {
+.frame-content ul ul ul {
     list-style-type: '-';
     @apply list-outside text-md ml-2 my-2;
 }
 
-.copy ul li {
+.frame-content ul li {
     @apply text-black font-regular pb-2 pl-2;
 }
-.copy UL UL LI:last-of-type {
+.frame-content UL UL LI:last-of-type {
     @apply pb-0;
 }
 
-.copy ol {
+.frame-content ol {
     counter-reset: twgc-counter;
     list-style: none;
     @apply ml-5 mb-4 mr-12;
 }
-.copy ol li {
+.frame-content ol li {
     counter-increment: twgc-counter;
     @apply relative list-outside text-black font-regular pb-2 pl-2;
 }
-.copy ol li::before {
+.frame-content ol li::before {
     content: counter(twgc-counter);
     @apply absolute flex items-center justify-center leading-none tracking-tight text-xs text-white font-bold bg-secondary rounded-full overflow-hidden;
     --size: 0.8rem;
@@ -211,53 +128,4 @@ blockquote {
     height: calc(var(--size) + 0.5rem);
     top: calc(var(--size) / 3);
 }
-
-[x-cloak] {
-    display: none;
-}
-#navigationScroll[x-cloak] {
-    display: block;
-    visibility: hidden;
-}
 /* purgecss end ignore */
-
-#footerHumminbird {
-    animation-duration: 20s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-name: footer-humminbird;
-}
-
-@keyframes footer-humminbird {
-    0% {
-        opacity: 0;
-        transform: scale(0.5) translate(150%, 200%) rotate(10deg);
-    }
-    5% {
-        opacity: 1;
-        transform: scale(1) translate(0, 0) rotate(0deg);
-    }
-    20% {
-        transform: scale(1) translate(-10%, 5%) rotate(-10deg);
-    }
-    30% {
-        transform: scale(1) translate(40%, 5%) rotate(-5deg);
-    }
-    40% {
-        transform: scale(1) translate(10%, 10%) rotate(0deg);
-    }
-    55% {
-        opacity: 1;
-        transform: scale(1) translate(-5%, -100%) rotate(-10deg);
-    }
-    60% {
-        opacity: 0;
-        transform: scale(1.5) translate(-200%, -100%) rotate(-40deg);
-    }
-    100% {
-        opacity: 0;
-        transform: scale(0.5) translate(150%, 200%) rotate(10deg);
-    }
-}
