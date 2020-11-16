@@ -38,29 +38,29 @@ linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
 [languages.zh.outputs]
 home = ["HTML", "MANIFEST"]
 
-[languages.de]
-disableKinds = ["404", "taxonomy", "sitemap"]
-languageName = "Deutsch"
-title = "Taiwan Gold Card"
-weight = 10
-[languages.de.outputs]
-home = ["WELCOME"]
+# [languages.de]
+# disableKinds = ["404", "taxonomy", "sitemap"]
+# languageName = "Deutsch"
+# title = "Taiwan Gold Card"
+# weight = 10
+# [languages.de.outputs]
+# home = ["WELCOME"]
 
-[languages.es]
-disableKinds = ["404", "taxonomy", "sitemap"]
-languageName = "Español"
-title = "Taiwan Gold Card"
-weight = 10
-[languages.es.outputs]
-home = ["WELCOME"]
+# [languages.es]
+# disableKinds = ["404", "taxonomy", "sitemap"]
+# languageName = "Español"
+# title = "Taiwan Gold Card"
+# weight = 10
+# [languages.es.outputs]
+# home = ["WELCOME"]
 
-[languages.ar]
-disableKinds = ["404", "taxonomy", "sitemap"]
-languageName = "عربى"
-title = "Taiwan Gold Card"
-weight = 10
-[languages.ar.outputs]
-home = ["WELCOME"]
+# [languages.ar]
+# disableKinds = ["404", "taxonomy", "sitemap"]
+# languageName = "عربى"
+# title = "Taiwan Gold Card"
+# weight = 10
+# [languages.ar.outputs]
+# home = ["WELCOME"]
 
 [markup]
 [markup.tableOfContents]
@@ -85,15 +85,15 @@ mediaType = "application/json"
 name = "manifest"
 notAlternative = "true"
 permalinkable = "true"
-[outputFormats.welcome]
-baseName = "welcome"
-mediaType = "application/json"
-name = "welcome"
-notAlternative = "true"
-permalinkable = "true"
-[outputFormats.data]
-baseName = "data"
-mediaType = "application/yaml"
-name = "data"
-notAlternative = "true"
-permalinkable = "true"
+# [outputFormats.welcome]
+# baseName = "welcome"
+# mediaType = "application/json"
+# name = "welcome"
+# notAlternative = "true"
+# permalinkable = "true"
+# [outputFormats.data]
+# baseName = "data"
+# mediaType = "application/yaml"
+# name = "data"
+# notAlternative = "true"
+# permalinkable = "true"
