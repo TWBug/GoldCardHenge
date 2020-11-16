@@ -1,3 +1,11 @@
+// window.addEventListener('scroll', handleParallaxScrolling)
+// function handleParallaxScrolling() {
+//   const test = document.getElementById('test')
+//   test.style.top = (window.scrollY / 2) + 'px'
+//   console.info('test', test.getBoundingClientRect().top);
+//   console.info("scrolly", window.scrollY);
+// }
+"use strict";
 "use strict";
 
 function _toArray(arr) { return _arrayWithHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableRest(); }
@@ -407,10 +415,14 @@ window.taWelcome = function () {
   return {
     show: false,
     language: 'en',
-    available_languages: ['de', 'es', 'ar'],
+    available_languages: ['de', 'es', 'ar', 'fr', 'hi', 'it', 'ko', 'ms', 'pa', 'ru', 'th', 'tr', 'he', 'pt', 'ja', 'bn', 'id'],
     supported_languages: ['en', 'zh'],
     headline: '',
     description: '',
+    languages: {
+      en: "",
+      zh: ""
+    },
     init: function init() {
       var welcome = localStorage.getItem('welcome');
 
@@ -453,13 +465,15 @@ window.taWelcome = function () {
     fetchData: function fetchData(language) {
       var _this = this;
 
-      var url = location.origin + '/' + language + '/welcome.json';
+      var url = location.origin + '/welcome/' + language + '.json';
       fetch(url).then(function (response) {
         return response.json();
       }).then(function (json) {
         if (typeof json.headline !== 'undefined' && typeof json.description !== 'undefined') {
           _this.headline = json.headline;
           _this.description = json.description;
+          _this.languages.en = json.en;
+          _this.languages.zh = json.zh;
           _this.show = true;
         }
       })["catch"](function (error) {
@@ -540,7 +554,7 @@ TxtRotate.prototype.tick = function () {
   } else if (this.isDeleting && this.txt === "") {
     this.isDeleting = false;
     this.loopNum++;
-    delta = 500;
+    delta = 2000;
   }
 
   setTimeout(function () {
@@ -558,12 +572,7 @@ window.onload = function () {
     if (toRotate) {
       new TxtRotate(elements[i], JSON.parse(toRotate), period);
     }
-  } // INJECT CSS
-  // var css = document.createElement("style");
-  // css.type = "text/css";
-  // css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-  // document.body.appendChild(css);
-
+  }
 };
 "use strict";
 

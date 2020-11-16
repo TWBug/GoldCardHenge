@@ -2,10 +2,14 @@ window.taWelcome = function () {
     return {
         show: false,
         language: 'en',
-        available_languages: ['de', 'es', 'ar'],
+        available_languages: ['de', 'es', 'ar', 'fr', 'hi', 'it', 'ko', 'ms', 'pa', 'ru', 'th', 'tr', 'he', 'pt', 'ja', 'bn', 'id'],
         supported_languages: ['en', 'zh'],
         headline: '',
         description: '',
+        languages: {
+          en: "",
+          zh: "",
+        },
         init() {
             var welcome = localStorage.getItem('welcome')
             if (welcome === null) {
@@ -39,13 +43,15 @@ window.taWelcome = function () {
             localStorage.setItem('welcome', new Date().toString())
         },
         fetchData(language) {
-            const url = location.origin + '/' + language + '/welcome.json'
+            const url = location.origin + '/welcome/' + language + '.json'
             fetch(url)
                 .then((response) => response.json())
                 .then((json) => {
                     if (typeof json.headline !== 'undefined' && typeof json.description !== 'undefined') {
                         this.headline = json.headline
                         this.description = json.description
+                        this.languages.en = json.en
+                        this.languages.zh = json.zh
                         this.show = true
                     }
                 })

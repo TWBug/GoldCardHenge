@@ -14,8 +14,8 @@
                 <p class="my-4" x-text="description"></p>
                 {{ range .Site.Languages }}
                 {{ if lt .Weight 10 }}
-                <a href="{{ print "/" .Lang "/" }}" class="inline-block text-primary font-bold p-2 mx-1" @click.prevent="setLanguage('{{ .Lang }}')" title="{{ i18n "change_language" }}" >
-                {{ .LanguageName }}
+                <a href="{{ print "/" .Lang "/" }}" class="inline-block text-primary font-bold p-2 mx-1" @click.prevent="setLanguage('{{ .Lang }}')" title="{{ i18n "change_language" }}" x-text="{{ printf "languages.%s" .Lang }}" >
+                {{ .Lang }}
                 </a>
                 {{ end }}
                 {{ end }}
