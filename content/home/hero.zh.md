@@ -1,5 +1,5 @@
 ---
-title: "**Working in Taiwan?** Gold-Card is your right choice!"
+title: "Gold-Card is your right choice!"
 summary: Welcome to the Official Taiwan Goldcard Website
 draft: false
 hidden: false
