@@ -43,6 +43,15 @@
                     {{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
                     {{ end }}
                     
+                    {{ $reading_time := .ReadingTime }}
+                    {{ if eq .Language.Lang "zh" }}
+                      {{ range .Translations }}
+                        {{ if eq .Language.Lang "en" }}
+                          {{ $reading_time = .ReadingTime }}
+                        {{ end }}
+                      {{ end }}
+                    {{ end }}
+                    
                     <div class="flex items-start border-b-2 border-secondary border-dashed py-8 px-2">
                         <div class="w-1/4 flex-grow-0">
                             {{ if $cover_image }}
@@ -67,7 +76,7 @@
                             <div class="flex items-center text-xs font-bold text-secondary mb-2">
                               {{ partial "icon" (dict "name" "book-reader" "size" "4") }}
                               <span class="ml-2">
-                                {{ printf (i18n "reading_time") .ReadingTime }}
+                                {{ printf (i18n "reading_time") $reading_time }}
                               </span>
                             </div>
                             <div>
