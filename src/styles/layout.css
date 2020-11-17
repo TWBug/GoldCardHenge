@@ -180,7 +180,8 @@ blockquote {
 .copy strong {
     @apply font-semibold;
 }
-.copy strong a {
+.copy strong a,
+.copy ul li a {
     @apply font-bold text-primary;
 }
 

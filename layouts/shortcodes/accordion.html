@@ -1,7 +1,12 @@
-{{ $title := .Get "title" | markdownify }}
+{{ $suffix := .Get "suffix" | plainify }}
+{{ $title := .Get "title" | plainify }}
+{{ if eq (.Get "bottemless") "true" }}
+<div class="mt-12 -mb-6 border-t-2 border-secondary border-dashed -ml-4 -mr-4 pt-4 px-4" x-data="taAccordion()">
+{{ else }}
 <div class="my-12 border-t-2 border-b-2 border-secondary border-dashed -ml-4 -mr-4 p-4" x-data="taAccordion()">
+{{ end }}
     <button type="button" @click.prevent="toggle()" class="w-full flex items-center justify-between text-primary">
-        <span class="text-gray-800 text-xl font-bold">{{ $title }}</span>
+        <span class="text-gray-800 text-xl font-bold text-left pr-12">{{ print $suffix " " $title }}</span>
         <span x-show="!show"> {{ partial "icon" (dict "name" "angle-down" "size" "10" "alt" "Show Answer") }} </span>
         <span x-show="show"> {{ partial "icon" (dict "name" "angle-up" "size" "10" "alt" "Hide Answer") }} </span>
     </button>
