@@ -18,9 +18,10 @@
 {{ end }}
 {{ end }}
 
-{{ $styles_wysiwyg := resources.Get "css/wysiwyg.css" }}
+{{ $styles_wysiwyg := resources.Get "css/wysiwyg.min.css" }}
 {{ $styles_wysiwyg_output := $styles_wysiwyg.RelPermalink }}
-{{ $styles := resources.Get "css/layout.css" | fingerprint }}
+{{ $styles_develop := resources.Get "css/layout.css" | fingerprint }}
+{{ $styles_live := resources.Get "css/layout.min.css" | fingerprint }}
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -67,9 +68,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 {{ end }}
 {{ if .Site.IsServer }}
-<link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
+<link href="{{ $styles_develop.RelPermalink }}" rel="stylesheet" />
 {{ else }}
-<link href="{{ $styles.RelPermalink }}" rel="stylesheet" integrity="{{ $styles.Data.Integrity }}" />
+<link href="{{ $styles_live.RelPermalink }}" rel="stylesheet" integrity="{{ $styles_live.Data.Integrity }}" />
 {{ end }}
 <script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
 <script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js" defer></script>
