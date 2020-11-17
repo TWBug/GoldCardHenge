@@ -6,12 +6,11 @@ draft: false
 
 The requirements for eligibility as a foreign special professional who possesses special expertise in the field of law are as follows:
 
-1. Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000.
+1.   {{< accordion title="1. Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000." >}}
+   * 薪資或納稅證明文件影本。
 
-* 薪資或納稅證明文件影本。
-
-（最近月薪達新臺幣十六萬元者，應以申請月起前三年內月薪資或月平均薪資達新臺幣十六萬元以上之雇主證明、薪資扣繳證明、國外官方財稅證明等文件佐證，或出具勞雇約定未來擬聘僱薪資達前開標準之聘僱契約書影本。）
-
+   （最近月薪達新臺幣十六萬元者，應以申請月起前三年內月薪資或月平均薪資達新臺幣十六萬元以上之雇主證明、薪資扣繳證明、國外官方財稅證明等文件佐證，或出具勞雇約定未來擬聘僱薪資達前開標準之聘僱契約書影本。）
+   {{< /accordion >}}
 2. Having obtained an ROC foreign legal affairs attorney license.
 
 * 經取得我國外國法事務律師執業許可證影本。
