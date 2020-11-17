@@ -16,14 +16,14 @@ The requirements for eligibility as a foreign special professional who possesses
 2. {{< accordion title="Having obtained an ROC foreign legal affairs attorney license." >}}
    Provide a copy of your ROC foreign legal affairs attorney license.
    {{< /accordion >}}
-3. Previously or currently holding a position outside the ROC as a chair professor, professor, associate professor or assistant professor of a university, or as a research fellow, associate research fellow or assistant research fellow of a research institution.
+3.   {{< accordion title="Previously or currently holding a position outside the ROC as a chair professor, professor, associate professor or assistant professor of a university, or as a research fellow, associate research fellow or assistant research fellow of a research institution." >}}
+   現任或曾任國外大學講座教授、教授、副教授、助理教授，或研究機構之研究員、副研究員及助理研究員之聘書、服務證明等相關文件影本
+   {{< /accordion >}}
+4.   {{< accordion title="Holding a law related executive position or above in a law firm or corporation." >}}
+   於律師事務所或公司擔任法務相關主管職務以上之相關任職證明影本。
+   {{< /accordion >}}
 
-* 現任或曾任國外大學講座教授、教授、副教授、助理教授，或研究機構之研究員、副研究員及助理研究員之聘書、服務證明等相關文件影本
 
-4. Holding a law related executive position or above in a law firm or corporation.
-
-* 於律師事務所或公司擔任法務相關主管職務以上之相關任職證明影本。
-
-5. Having been recommended by the Taiwan Bar Association.
-
-* 中華民國律師公會全國聯合會開具之推薦文件證明。
+5.   {{< accordion title="Having been recommended by the Taiwan Bar Association." >}}
+   中華民國律師公會全國聯合會開具之推薦文件證明。
+   {{< /accordion >}}
