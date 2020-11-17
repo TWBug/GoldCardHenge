@@ -40,7 +40,8 @@ i18n:
     default_locale: en
 
 # Require posts to be "ready" before finally publishing them
-publish_mode: editorial_workflow
+# NOTE: Disabling for now. Re-enable this line in order to bring back the editorial workflow.
+# publish_mode: editorial_workflow
 
 # Media files will be stored in the repo under here
 media_folder: 'assets/cms-uploads'
