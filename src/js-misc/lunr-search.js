@@ -71,15 +71,29 @@ const renderResults = (results, query) => {
 
     console.log('Rendering results', results);
 
+    const excerptSize = 300;
+
     // Only show the ten first results
     const links = results.slice(0, 10).map((x) => {
+        const matchIndex = x.content.indexOf(query);
+
+        // The "excerpt" is a bit of text with a span highlighting the search
+        // text. That's what all this logic is for.
+        const excerpt =
+            matchIndex === -1
+                ? [x.content.slice(0, excerptSize), '...']
+                : [
+                      x.content.slice(Math.max(0, matchIndex - excerptSize / 2), matchIndex),
+                      el('span', {}, query),
+                      x.content.slice(matchIndex + query.length, matchIndex + excerptSize / 2),
+                  ];
         return el(
             'a',
             {
-                style: 'padding:10px;font-weight:bold;display:block;',
                 href: x.href,
             },
-            x.title
+            el('h4', {}, x.title),
+            el('p', {}, ...excerpt)
         );
     });
     $results.appendChild(el('div', { class: 'search-result-list' }, ...links));
@@ -149,6 +163,18 @@ function initUI() {
   box-shadow: 0 0 15px rgba(0,0,0,0.6);
   background: white;
   border-radius: 0 0 3px 3px;
+}
+.search-result-list a h4 {
+  font-weight: bold;
+}
+.search-result-list a span {
+  background: gold;
+  padding: 2px 4px;
+  display: inline;
+}
+.search-result-list a {
+  padding:10px;
+  display:block;
 }
 .search-result-list a:hover {
   color: navy;
