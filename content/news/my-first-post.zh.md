@@ -8,9 +8,12 @@ cover_image_alt: null
 media_image: null
 media_image_alt: null
 topic: eventsnews
-tags: null
+tags:
+  - super
+  - interesting
 categories:
-  - first
+  - taste
+  - 夜市
 publishDate: 2020-11-05T07:09:20.617Z
 ---
 # 大家好，這是一篇文章

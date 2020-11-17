@@ -8,9 +8,12 @@ cover_image_alt: null
 media_image: null
 media_image_alt: null
 topic: eventsnews
-tags: null
+tags:
+  - super
+  - interesting
 categories:
-  - first
+  - taste
+  - 夜市
 publishDate: 2020-11-05T07:09:20.617Z
 ---
 # Hey all, this is a post
@@ -21,6 +24,14 @@ This is something I can hopefully edit with the CMS.
 2. Items
 
 How about some cards?
+
+{{< card title="New card" link="" image="/cms-uploads/photo-1604854391694-17a6c60bc67f.jpg" >}}
+WEEEEEEEEEEEEEEEEEEEEE
+{{< /card >}}
+
+{{< accordion title="Stuff stuff" >}}
+YAY你好
+{{< /accordion >}}
 
 {{< teaser >}}
 t1
