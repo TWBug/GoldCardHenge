@@ -18,8 +18,7 @@ const colors = {
 
 module.exports = {
     purge: {
-        enabled: process.env.NODE_ENV === 'production' ? true : false,
-        // mode: 'all',
+        enabled: true,
         content: ['./layouts/**/*.html'],
         options: {
             whitelist: [],
