@@ -101,7 +101,7 @@ const renderResults = (results, query) => {
 
 // Initialize lunrjs using our generated index file
 const initLunr = () => {
-    console.log('[INFO] Init Lunr');
+    console.log('[INFO] 啟動Lunr搜尋引擎');
     // First retrieve the index file
     fetch('/lunr_index.json')
         .then((x) => x.json())
@@ -146,7 +146,7 @@ const emptyEl = (elt) => {
 
 // Nothing crazy here, just hook up a listener on the input field
 function initUI() {
-    console.log('[INFO] Init Search UI');
+    console.log('[INFO] 啟動搜尋介面');
     $results = el('div', { id: 'search-results' });
 
     const styles = el(
@@ -205,8 +205,6 @@ function initUI() {
         });
     });
 }
-
-console.log('SUPPPPPPPPPPPPPPPPPPDfsd');
 
 // Let's get started
 initLunr();
