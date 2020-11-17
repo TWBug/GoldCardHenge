@@ -8,13 +8,15 @@ draft: false
 
 依據外國專業人才延攬及僱用法第四條第二款外國特定專業人才具有金融領域特殊專長者，應符合下列條件之一：
 
+{{< accordion title="1. 曾經或現任於其他國家或於我國最近月薪達新臺幣16萬元者" >}}
 
-
-1. 曾經或現任於其他國家或於我國最近月薪達新臺幣16萬元者
 
 * 依申請人提供任職於金融相關產業之薪資證明予以認定。
+{{< /accordion >}}
 
-2. 於金融機構擔任專業職務，具傑出專業才能或有跨國經驗為我國亟需之人才
+
+
+1. 於金融機構擔任專業職務，具傑出專業才能或有跨國經驗為我國亟需之人才
 
 * 申請人提供於國內外金融機構擔任經理級職務五年以上之證明文件，且取得相關重要國際性金融證照，如CFA(Chartered Financial Analyst)、CFP(Certified Financial Planner)、FRM(Financial Risk Manager)、CIIA(Certified International Investment Analysts)、CIA(Certified Internal Auditor)、PRM(Professional Risk Manager)、FSA (Fellow of the Society of Actuaries)、FCAS (Fellow of the Casualty Actuarial Society)、FIA (Fellow of the Institute and Faculty of Actuaries)、FIAA (Fellow of the Institute of Actuaries of Australia)、SEI-KAIIN (Fellow of the Institute of Actuaries of Japan)等。
 
