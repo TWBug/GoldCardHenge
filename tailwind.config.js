@@ -32,9 +32,7 @@ module.exports = {
         defaultLineHeights: true,
         standardFontWeights: true,
     },
-    experimental: {
-        applyComplexClasses: true,
-    },
+    experimental: {},
     important: false,
     theme: {
         fontFamily: {
