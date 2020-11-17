@@ -179,37 +179,6 @@ var schema = {
 // NOTE: This widget is just for testing out the API, not actually part of the product
 CMS.registerWidget('categories', CategoriesControl, CategoriesPreview, schema);
 
-// TODO: This is just some example code, we will need to modify and create more.
-CMS.registerEditorComponent({
-    id: 'gist',
-    label: 'Gist',
-    fields: [
-        {
-            name: 'username',
-            label: 'Github Username',
-            widget: 'string',
-        },
-        {
-            name: 'gid',
-            label: 'Gist ID',
-            widget: 'markdown',
-        },
-    ],
-    pattern: /^{{< gist ([a-zA-Z0-9]+) ([a-zA-Z0-9]+) >}}/,
-    fromBlock: function (match) {
-        return {
-            username: match[1],
-            gid: match[2],
-        };
-    },
-    toBlock: function (obj) {
-        return `{{< gist ${obj.username} >}}\n${obj.gid}\n{{< /gist >}}`;
-    },
-    toPreview: function (obj) {
-        return `{{< gist ${obj.username} ${obj.gid} >}}`;
-    },
-});
-
 CMS.registerEditorComponent({
     id: 'quote',
     label: 'Quote',
