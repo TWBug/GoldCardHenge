@@ -10,6 +10,7 @@
         "start": "npm run gulp && concurrently 'hugo server' 'netlify-cms-proxy-server' 'npm run babel:admin -- --watch' 'npm run babel:js-misc -- --watch'",
         "gulp": "NODE_ENV=production npx gulp build",
         "build": "npm run gulp && npm run hugo",
+        "build:development": "npm run hugo -- --environment development",
         "build:staging": "npm run hugo -- --environment staging",
         "watch": "npx gulp watch",
         "lunr:index": "node scripts/build-lunr-index.js",
