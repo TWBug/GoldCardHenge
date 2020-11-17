@@ -7,11 +7,15 @@ Foreign special professionals with specialized knowledge/skills in economic fiel
 
 The term “foreign professionals of economic fields,” as stipulated in Article 4.1.2 of the Act Governing Recruitment and Employment of Foreign Professionals, refers to persons that meet any one of the following conditions:
 
-#### Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000.
+#### 1. Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000.
+
+{{< teaser >}}
+Proof of salary as per the amount stated in the application.
+{{< /teaser >}}
 
 * Proof of salary as per the amount stated in the application.
 
-### Those who have held the position of operations, technical or marketing executive at an R&D center, operations headquarters or transnational corporation established in Taiwan.
+### 2. Those who have held the position of operations, technical or marketing executive at an R&D center, operations headquarters or transnational corporation established in Taiwan.
 
 * One of the following documents to indicate the applicant’current and former employer’s status in Taiwan such as the enterprise operational headquarter, research & development centers, transnational enterprise:
 
