@@ -1,0 +1,7 @@
+{{ $id := anchorize (.Get "title") }}
+<div id="{{ print "note-" $id }}" class="my-6 ">
+    <div class="text-lg font-bold text-secondary border-b-2 border-dashed border-secondary border-opacity-50 pl-1">{{ .Get "title" }}</div>
+    <div class=" border-l-2 border-dashed border-secondary border-opacity-50 font-medium leading-relaxed text-md text-left italic pl-4 pt-3">
+        {{ .Inner | markdownify }}
+    </div>
+</div>

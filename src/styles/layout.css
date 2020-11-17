@@ -149,6 +149,13 @@ blockquote {
     background: black;
     box-shadow: 1rem 0 0 black, -1rem 0 0 black;
 }
+.padded-note {
+    display: inline;
+    line-height: 1.;
+    @apply bg-yellow-200;
+    box-shadow: 0.2em 0.2em 0 #fce96a, -0.2em -0.2em 0 #fce96a, 0.2em -0.2em 0 #fce96a, -0.2em 0.2em 0 #fce96a;
+    /* box-shadow: 0.2em 0 0 #fce96a, -0.2em 0 0 #fce96a; */
+}
 
 .typing {
     @apply font-bold;
@@ -171,10 +178,10 @@ blockquote {
 }
 
 .copy strong {
-    @apply font-medium text-black;
+    @apply font-semibold;
 }
 .copy strong a {
-    @apply font-semibold text-primary;
+    @apply font-bold text-primary;
 }
 
 .copy em,
@@ -189,7 +196,7 @@ blockquote {
 
 .copy ul {
     list-style-type: '>';
-    @apply list-outside ml-2 mb-4 mr-12;
+    @apply list-outside leading-relaxed ml-2 mb-4 mr-12;
 }
 
 .copy ul ul {
@@ -199,7 +206,11 @@ blockquote {
 
 .copy ul ul ul {
     list-style-type: '-';
-    @apply list-outside text-md ml-2 my-2;
+    @apply list-outside text-gray-700 text-md ml-2 my-2;
+}
+.copy ul ul ul ul {
+    list-style-type: '-';
+    @apply list-outside text-gray-600 text-sm leading-relaxed ml-2 my-2;
 }
 
 .copy ul li {
