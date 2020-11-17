@@ -28,8 +28,9 @@
                 {{ partial "icon" (dict "name" "times" "size" "10") }}
             </button>
             <div class="flex flex-col">
-                <a href="/{{ .Site.Language.Lang }}/" class="block py-10 pl-12">
-                    <img src="/img/taiwan-gold-card-logo.png" class="w-1/2" alt="" />
+              {{ .Site.Home.RelPermalink }}
+                <a href="{{ .Site.Home.RelPermalink }}" class="block py-10 pl-12">
+                    <img src="/img/taiwan-gold-card-logo.png" class="w-1/2" alt="{{ i18n "tego_logo" }}" />
                 </a>
                 <ul class="flex-grow flex flex-col justify-around text-2xl font-medium">
                     {{ partial "navigation-menu"  (dict "content" . "scroll" false ) }}
