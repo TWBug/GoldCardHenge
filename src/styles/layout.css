@@ -132,7 +132,10 @@ blockquote {
 }
 
 .hover {
-    @apply transition duration-300 transform hover:scale-105;
+    @apply transition duration-300 transform;
+}
+.hover:hover {
+    @apply scale-105;
 }
 
 .padded {
@@ -147,11 +150,11 @@ blockquote {
 }
 
 .typing {
-  @apply font-bold
+    @apply font-bold;
 }
 
 .copy {
-    @apply leading-relaxed text-base;
+    @apply text-base leading-loose;
 }
 .copy.copy--large {
     @apply text-xl;
@@ -174,7 +177,6 @@ blockquote {
     @apply font-regular italic;
 }
 
-/* fallback if content list is with double line break */
 .copy ul p,
 .copy ol p {
     @apply pb-0 mb-0;
@@ -220,6 +222,7 @@ blockquote {
     height: calc(var(--size) + 0.5rem);
     top: calc(var(--size) / 3);
 }
+/* purgecss end ignore */
 
 [x-cloak] {
     display: none;
@@ -228,7 +231,6 @@ blockquote {
     display: block;
     visibility: hidden;
 }
-/* purgecss end ignore */
 
 #footerHumminbird {
     animation-duration: 20s;
