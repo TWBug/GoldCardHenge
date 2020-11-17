@@ -44,10 +44,13 @@ window.taNavigation = function () {
             this.modal = !this.modal;
         },
         toggleDropdown(topic, event) {
-            // for (const property in this.dropdown) {
-            //     this.dropdown[property] = false;
-            // }
-            this.dropdown[topic] = !this.dropdown[topic];
+            for (const property in this.dropdown) {
+                if (property === topic) {
+                    this.dropdown[topic] = !this.dropdown[topic]
+                    continue
+                }
+                this.dropdown[property] = false;
+            }
             event.preventDefault();
         },
         hideDropdown() {
