@@ -5,7 +5,7 @@
     "editor.wrappingIndent": "indent",
     "editor.formatOnPaste": false,
     "debug.console.wordWrap": false,
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "html.format.contentUnformatted": "pre,code,textarea",
     "html.format.endWithNewline": false,
     "html.format.extraLiners": "head, body, /html",

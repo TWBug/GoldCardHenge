@@ -1,0 +1,27 @@
+{{ $topic := .Page.Params.topic }}
+{{ $language := .Site.Language.Lang }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ range $data.navigation.items }}
+<li {{ if eq .topic $topic}} class="bg-yellow-400 self-stretch flex text-black font-bold" {{ else }} class="self-stretch flex hover:text-black hover:bg-white" {{ end }}>
+    <a href="/{{ print $language .link }}" {{ if .dropdown }}  @click.stop="toggleDropdown('{{ .topic }}', $event)" {{ end }} class="flex-center px-6" :class="{ 'bg-white text-black': {{ printf "dropdown.%s" .topic }} }">
+        {{ if .dropdown }}
+            <span class="mr-2">
+            {{ .name }}
+            </span>
+            <span x-show="{{ printf "!dropdown.%s" .topic }}">
+                {{ partial "icon" (dict "name" "angle-down" "size" "6") }}
+            </span>
+            <span x-show="{{ printf "dropdown.%s" .topic }}">
+                {{ partial "icon" (dict "name" "angle-up" "size" "6") }}
+            </span>
+        {{ else }}
+            <span>
+            {{ .name }}
+            </span>
+        {{ end }}
+    </a>
+    {{ if .dropdown }}
+    {{ partial "navigation-dropdown" (dict "topic" .topic "dropdown" .dropdown "lang" $language "content" .content ) }}
+    {{ end }}
+</li>
+{{ end }}

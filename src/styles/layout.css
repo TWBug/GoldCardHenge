@@ -3,6 +3,7 @@
 :root {
     --vh: 1vh;
     --overflow: hidden;
+    --navigationMenu: 60px;
 }
 
 html,
@@ -151,6 +152,10 @@ blockquote {
 
 .typing {
     @apply font-bold;
+}
+
+.top-menu {
+    top: calc(var(--navigationMenu) - 0.5rem)
 }
 
 .copy {

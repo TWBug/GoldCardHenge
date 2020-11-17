@@ -1,0 +1,22 @@
+{{ $topic := .Page.Params.topic }}
+{{ $language := .Site.Language.Lang }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ range $data.navigation.items }}
+    {{ if eq .topic $topic}}
+    <li class="bg-yellow-400 self-stretch flex text-black font-bold">
+        <a href="/{{ print $language .link }}" class="flex-center px-6">
+            <span>
+                {{ .name }}
+            </span>
+        </a>
+    </li>
+    {{ else }}
+    <li class="self-stretch flex hover:text-black hover:bg-white">
+        <a href="/{{ print $language .link }}" class="flex-center px-6">
+            <span>
+                {{ .name }}
+            </span>
+        </a>
+    </li>
+    {{ end }}
+{{ end }}

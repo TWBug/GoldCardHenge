@@ -68,7 +68,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 {{ end }}
 {{ if .Site.IsServer }}
-<link href="{{ $styles_develop.RelPermalink }}" rel="stylesheet" />
+<link href="{{ $styles_develop.RelPermalink }}" rel="stylesheet" integrity="{{ $styles_develop.Data.Integrity }}" />
 {{ else }}
 <link href="{{ $styles_live.RelPermalink }}" rel="stylesheet" integrity="{{ $styles_live.Data.Integrity }}" />
 {{ end }}

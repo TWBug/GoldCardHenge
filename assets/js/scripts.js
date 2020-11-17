@@ -371,6 +371,13 @@ window.taNavigation = function () {
     scroll: false,
     modal: false,
     fixed: false,
+    dropdown: {
+      goldcard: false,
+      faq: false,
+      whytaiwan: false,
+      eventsnews: false,
+      resources: false
+    },
     "default": {
       initiator: 'scroll'
     },
@@ -403,9 +410,26 @@ window.taNavigation = function () {
           _this.scroll = false;
         }
       });
+      var menu = this.$refs.menu;
+
+      if (typeof menu !== 'undefined') {
+        document.documentElement.style.setProperty('--navigationMenu', "".concat(menu.offsetHeight, "px"));
+      }
     },
     toggleModal: function toggleModal() {
       this.modal = !this.modal;
+    },
+    toggleDropdown: function toggleDropdown(topic, event) {
+      // for (const property in this.dropdown) {
+      //     this.dropdown[property] = false;
+      // }
+      this.dropdown[topic] = !this.dropdown[topic];
+      event.preventDefault();
+    },
+    hideDropdown: function hideDropdown() {
+      for (var property in this.dropdown) {
+        this.dropdown[property] = false;
+      }
     }
   };
 };

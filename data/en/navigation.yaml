@@ -2,12 +2,26 @@ items:
   - name: Gold Card
     topic: goldcard
     link: /application/
+    dropdown: 
+      - name: Application
+        link: /application/
+      - name: Qualification
+        link: /qualification/
+      - name: Foreign special professionals
+        link: /application/foreign-special-professionals-economic-fields/
   - name: FAQ
     topic: faq
     link: /faq/
   - name: Why Taiwan
     topic: whytaiwan
     link: /why-taiwan/
+    dropdown: 
+      - name: Business Environment
+        link: /why-taiwan/business-environment/
+      - name: Culture
+        link: /why-taiwan/culture/
+      - name: Culture
+        link: /why-taiwan/culture/
   - name: Events & News
     topic: eventsnews
     link: /news/
