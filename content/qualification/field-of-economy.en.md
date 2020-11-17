@@ -7,11 +7,11 @@ Foreign special professionals with specialized knowledge/skills in economic fiel
 
 The term “foreign professionals of economic fields,” as stipulated in Article 4.1.2 of the Act Governing Recruitment and Employment of Foreign Professionals, refers to persons that meet any one of the following conditions:
 
-1. Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000.
+#### Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000.
 
 * Proof of salary as per the amount stated in the application.
 
-2. Those who have held the position of operations, technical or marketing executive at an R&D center, operations headquarters or transnational corporation established in Taiwan.
+### Those who have held the position of operations, technical or marketing executive at an R&D center, operations headquarters or transnational corporation established in Taiwan.
 
 * One of the following documents to indicate the applicant’current and former employer’s status in Taiwan such as the enterprise operational headquarter, research & development centers, transnational enterprise:
 
@@ -23,7 +23,8 @@ The term “foreign professionals of economic fields,” as stipulated in Articl
 
 1. The contract which indicated the applicant’s position is operations, technical or marketing executive.
 2. Evidence such as proving the applicant’s managerial position in advanced operation, technology or marketing departments at the employing company.
-3. Those with professional technical capabilities related to key industry products, components or service models, have obtained a doctoral degree or above in related fields at a domestic or foreign university, and have either received an international invention/innovation award or have more than four years of work experience in related fields.
+
+#### Those with professional technical capabilities related to key industry products, components or service models, have obtained a doctoral degree or above in related fields at a domestic or foreign university, and have either received an international invention/innovation award or have more than four years of work experience in related fields.
 
 * One of the following documents to prove applicant’s professional technical capabilities related to key industry products, components or service models:
 
@@ -42,7 +43,5 @@ The term “foreign professionals of economic fields,” as stipulated in Articl
 5. Those who have been certified by the relevant central competent authority as specialized talents possessing professional capacity or transnational experience needed in Taiwan.
 
 * Evidence proving applicant’s professional ability or transnational experience.
-
-
 
 <!--EndFragment-->
