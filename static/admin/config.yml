@@ -299,6 +299,7 @@ collections:
       i18n: true
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - label: 'Tags'
             name: 'tags'
@@ -332,6 +333,7 @@ collections:
       i18n: true
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - label: 'Tags'
             name: 'tags'
