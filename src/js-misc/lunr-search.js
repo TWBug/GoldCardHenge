@@ -151,8 +151,11 @@ function initUI() {
   border-radius: 0 0 3px 3px;
 }
 .search-result-list a:hover {
-  color: white;
+  color: navy;
   background: gold;
+}
+.search-result-list a:last-child {
+  border-radius: 0 0 3px 3px;
 }
     `.trim()
     );
