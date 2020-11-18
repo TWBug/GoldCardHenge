@@ -1,30 +1,52 @@
 items:
-  - name: Gold Card
-    topic: goldcard
-    link: /application/
-    dropdown: 
-      - name: Application
-        link: /application/
-      - name: Qualification
-        link: /qualification/
-      - name: Foreign special professionals
-        link: /application/foreign-special-professionals-economic-fields/
-  - name: FAQ
-    topic: faq
-    link: /faq/
-  - name: Why Taiwan
-    topic: whytaiwan
-    link: /why-taiwan/
-    dropdown: 
-      - name: Business Environment
-        link: /why-taiwan/business-environment/
-      - name: Culture
-        link: /why-taiwan/culture/
-      - name: Culture
-        link: /why-taiwan/culture/
-  - name: Events & News
-    topic: eventsnews
-    link: /news/
-  - name: Resources
-    topic: resources
-    link: /about/
+    - name: Gold Card
+      topic: goldcard
+      link: /application/
+      dropdown:
+          image: "img/uploads/taiwan-lights.jpg"
+          links:
+              - name: Application
+                link: /application/
+              - name: Qualification
+                link: /qualification/
+              - name: Foreign special professionals
+                link: /application/foreign-special-professionals-economic-fields/
+    - name: FAQ
+      topic: faq
+      link: /faq/
+    - name: Why Taiwan
+      topic: whytaiwan
+      link: /why-taiwan/
+      dropdown:
+          image: "img/uploads/taiwan-lights.jpg"
+          links:
+              - name: Business Environment
+                link: /why-taiwan/business-environment/
+              - name: Culture
+                link: /why-taiwan/culture/
+              - name: Culture
+                link: /why-taiwan/culture/
+    - name: Events & News
+      topic: eventsnews
+      link: /news/
+      dropdown:
+          image: "img/uploads/dummy-image.jpg"
+          links:
+              - name: News
+                link: /news/
+              - name: Events
+                link: /events/
+    - name: Resources
+      topic: resources
+      link: /about/
+      dropdown:
+          image: "img/uploads/taiwan-lights.jpg"
+          links:
+              - name: Help-Desk
+                link: /help-desk/
+              - name: Gold Card Network
+                link: /about/
+              - name: Jobs
+                link: /jobs/
+              - name: Related Websites
+                link: /related-websites/
