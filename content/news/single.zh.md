@@ -1,6 +1,6 @@
 ---
-summary: The Taiwan Employment Gold Card is a combined visa, work permit and
-  residence permit launched in 2018 to attract professional talent in Taiwan.
+summary: 透過就業金卡可以獲得在台居留及工作 1-3 年的權利
+  就業金卡提供開放工作權利，因此您可以在任何公司工作、同時應聘兼職職位、或者自己創業。也可以把親屬一起過來定居。
 date: 2020-08-01T07:09:20.617Z
 draft: false
 media_image: img/uploads/taiwan-culture.jpg
