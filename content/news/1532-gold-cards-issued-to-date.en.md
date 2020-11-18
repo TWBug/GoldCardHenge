@@ -1,5 +1,6 @@
 ---
 title: 1532 Gold Cards issued to date!
+summary: From February 8, 2018 to Oct. 31, 2020, "1532" cards were approved.
 date: 2020-10-31T06:45:12.922Z
 draft: false
 hidden: false
