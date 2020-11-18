@@ -9,11 +9,11 @@ headless: true
 links:
   - is_cta: false
     label: 關於我們
-    href: /en/apply
+    href: /zh/contact
     target: null
   - is_cta: false
-    label: Why Taiwan
-    href: /en/about
+    label: 為什麼台灣
+    href: /zh/why-taiwan/
     target: null
 items:
   - is_cta: false
