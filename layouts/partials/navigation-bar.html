@@ -2,7 +2,14 @@
 {{ $language := .Site.Language.Lang }}
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{ range $data.navigation.items }}
-<li {{ if eq .topic $topic}} class="bg-yellow-400 self-stretch flex text-black font-bold" {{ else }} class="self-stretch flex hover:text-black hover:bg-white" {{ end }}>
+<li {{ if eq .topic $topic}}
+    class="bg-yellow-400 self-stretch flex text-black font-bold"
+    {{ else }}
+    class="self-stretch flex hover:text-black hover:bg-white"
+    {{ end }}
+    aria-controls="{{ printf "nav-dropdown-%s" .topic }}"
+    :aria-expanded="{{ printf "!dropdown.%s" .topic }}"
+>
     <a href="/{{ print $language .link }}" {{ if .dropdown }}  @click.stop="toggleDropdown('{{ .topic }}', $event)" {{ end }} class="flex-center px-6" :class="{ 'bg-white text-black': {{ printf "dropdown.%s" .topic }} }">
         {{ if .dropdown }}
             <span class="mr-2">
