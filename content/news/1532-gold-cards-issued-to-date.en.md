@@ -1,0 +1,17 @@
+---
+title: 1532 Gold Cards issued to date!
+date: 2020-10-31T06:45:12.922Z
+draft: false
+hidden: false
+---
+From February 8, 2018 to Oct. 31, 2020, "1532" cards were approved.
+
+Cardholders applied in the following fields:
+
+Economy: 1003\
+Science & Technology: 175\
+Culture and Arts: 137\
+Finance: 107\
+Education: 103\
+Architectural Design: 6\
+Sport: 1
