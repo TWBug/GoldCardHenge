@@ -1,0 +1,47 @@
+{{ $cover_image := "false" }}
+{{ $large := "" }}
+{{ $medium := "" }}
+{{ $small := "" }}
+{{ $buffer := "" }}
+{{ with .Params.cover_image }}
+{{ if fileExists (printf "assets/%s" ( . | safeURL)) }}
+{{ if or (strings.HasSuffix . "png") (strings.HasSuffix . "jpg") }}
+{{ $buffer = resources.Get (printf "%s" ( . | safeURL)) }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ if ne $buffer "" }}
+{{ $large = $buffer.Fill "3120x1574 jpg q15" }}
+{{ $medium = $buffer.Fill "1024x576 q15" }}
+{{ $small = $buffer.Fill "768x432 q15" }}
+{{ $cover_image = "true" }}
+{{ end }}
+
+{{ if eq $cover_image "true" }}
+<div class="relative w-full h-0 pb-16/9 lg:pb-1/2 xxl:pb-1/3 min-h-32 shadow-xl overflow-hidden">
+    <figure>
+        <img
+            srcset="{{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 768w, {{ $large.RelPermalink }} 1024w"
+            src="{{ $buffer.RelPermalink }}"
+            alt="{{ .Page.Params.cover_image_alt | truncate 160 }}"
+            class="block bg-gray-300 absolute inset-0 w-full h-full object-cover"
+            loading="lazy"
+        />
+    </figure>
+</div>
+{{ end }}
+
+<div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
+    <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xl:gap-24">
+        <div class="sm:col-span-2">
+            {{ partial "breadcrumb" . }}
+            <div class="copy replace mt-4">
+                {{.Content}}
+            </div>
+        </div>
+        <div class="sm:-mt-4">
+            {{ partial "page-aside" . }}
+        </div>
+    </div>
+</div>
