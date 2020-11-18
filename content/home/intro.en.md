@@ -9,11 +9,11 @@ headless: true
 links:
   - is_cta: true
     label: About Gold Card
-    href: /en/about/
+    href: /en/contact/
     target: null
   - is_cta: false
     label: Why Taiwan
-    href: /en/about/
+    href: /en/why-taiwan/
     target: null
 items:
   - is_cta: false
@@ -26,4 +26,4 @@ items:
     label: Why Taiwan
     href: /news/single
 ---
-boyd
+<!-- This text will never be seen -->

@@ -1,25 +1,24 @@
 ---
-title: Contact
-summary: 
-date: 2020-11-05T07:09:20.617Z
-publishDate: 2020-11-05T07:09:20.617Z
+media_image: null
+summary: null
 draft: false
+media_image_alt: null
+date: 2020-11-05T07:09:20.617Z
+layout: null
 topic: resources
-cover_image: 
-cover_image_alt:
-media_image:
-media_image_alt:
-tags:
-categories:
-layout:
+cover_image: null
+title: Contact
+tags: null
+categories: null
+publishDate: 2020-11-05T07:09:20.617Z
+cover_image_alt: null
 ---
+# We're here to help.
 
-# Hi, and welcome to the official Taiwan Employment Gold Card website.
-
-We are currently getting set up and look forward to serving you soon.
-
-In the meantime, please check out [foreigntalentact.ndc.gov.tw](https://foreigntalentact.ndc.gov.tw/) for more information on the Gold Card. If you have any additional questions feel free to email us at:
+If you want to apply for the Gold Card, or even if you have one already, feel free to email us with any questions at:
 
 {{< link href="mailto:help@taiwangoldcard.tw" >}}
 help@taiwangoldcard.tw
 {{< /link >}}
+
+The Taiwan Gold Card Office has staff dedicated to answering your questions, and if we don't know the answer we can help introduce you to other government departments that will.

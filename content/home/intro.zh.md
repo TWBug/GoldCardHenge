@@ -9,15 +9,15 @@ headless: true
 links:
   - is_cta: false
     label: 關於我們
-    href: /en/apply
+    href: /zh/contact
     target: null
   - is_cta: false
-    label: Why Taiwan
-    href: /en/about
+    label: 為什麼台灣
+    href: /zh/why-taiwan/
     target: null
 items:
   - is_cta: false
-    label: About Gold Card
+    label: 就業金卡是什麼？
     href: /news/single
   - is_cta: false
     label: Why Taiwan
@@ -26,4 +26,4 @@ items:
     label: Why Taiwan
     href: /news/single
 ---
-bdy
+<!-- This text will never be seen -->
