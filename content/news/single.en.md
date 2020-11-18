@@ -5,7 +5,8 @@ date: 2020-11-05T07:09:20.617Z
 publishDate: 2020-11-05T07:09:20.617Z
 draft: false
 topic: eventsnews
-cover_image: 'img/uploads/dummy-image.jpg'
+style: hero
+cover_image: 'img/uploads/dummy-image-large.jpg'
 cover_image_alt: 'Test alt'
 media_image: 'img/uploads/taiwan-culture.jpg'
 media_image_alt: 'Test alt'
