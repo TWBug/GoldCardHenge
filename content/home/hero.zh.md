@@ -1,5 +1,5 @@
 ---
-title: 金卡是您的正確選擇！
+title: 金卡是您正確選擇！
 summary: Welcome to the Official Taiwan Goldcard Website
 draft: false
 hidden: false
