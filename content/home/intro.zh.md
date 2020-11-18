@@ -17,7 +17,7 @@ links:
     target: null
 items:
   - is_cta: false
-    label: About Gold Card
+    label: 就業金卡是什麼？
     href: /news/single
   - is_cta: false
     label: Why Taiwan
@@ -26,4 +26,4 @@ items:
     label: Why Taiwan
     href: /news/single
 ---
-bdy
+<!-- This text will never be seen -->

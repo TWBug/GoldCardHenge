@@ -26,4 +26,4 @@ items:
     label: Why Taiwan
     href: /news/single
 ---
-boyd
+<!-- This text will never be seen -->
