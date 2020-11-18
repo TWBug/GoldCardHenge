@@ -78,7 +78,7 @@
                     {{ range $intro.Params.items }}
                         {{ with $.Site.GetPage .href }}
                         <div
-                        class="flex items-center border-2 border-gray-500 rounded-md bg-white shadow-xl px-8 py-4 my-4"
+                        class="flex items-center border border-gray-200 rounded-md bg-white shadow-xl px-8 py-4 my-4"
                     >
                             <div class="w-1/5 max-w-16 mr-6">
                                 <img src="/img/dummy-icon.svg" alt="" class="w-full" />
@@ -167,7 +167,7 @@
                     {{ if not $label }}
                     {{ $label = .Title }}
                     {{ end }}
-                    <div class="border-2 border-gray-400 rounded-md shadow-xl text-center py-8 px-6">
+                    <div class="border border-gray-200 rounded-md shadow-xl text-center py-8 px-6">
                         <div class="mx-auto w-1/4 mb-4">
                             <img src="{{ $preview }}" alt="{{ .Title }}" class="w-full" />
                         </div>
