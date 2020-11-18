@@ -96,18 +96,8 @@ var pollFor = (sel, fn, interval = 200, timeout = 10000) => {
     attempt();
 };
 
-/// Configure CMS
+/// Register custom widgets
 //
-
-const zh = CMS.getLocale('zh_Hant');
-if (true /* TODO: What should be the check for zh user lang? */) {
-    CMS.registerLocale('zh', zh);
-    CMS.registerLocale('zh_Hant', zh);
-}
-
-const comp = () => {
-    return <div>Hey there you</div>;
-};
 
 const I18nKeyValueWidget = {
     name: 'i18n-key-value-pairs',
@@ -179,6 +169,50 @@ var schema = {
 // NOTE: This widget is just for testing out the API, not actually part of the product
 CMS.registerWidget('categories', CategoriesControl, CategoriesPreview, schema);
 
+const InlineMarkdownControl = createClass({
+    handleChange(e) {
+        this.props.onChange(e.target.value);
+    },
+
+    render() {
+        return (
+            <div>
+                <p>Hey there</p>
+                <input
+                    type="text"
+                    // value={this.props.value}
+                    id={this.props.forID}
+                    className={this.props.classNameWrapper}
+                    // onChange={this.handleChange}
+                />
+            </div>
+        );
+    },
+});
+
+const InlineMarkdownPreview = createClass({
+    render() {
+        return <p>{this.props.value}</p>;
+    },
+});
+
+// Like a text component, but hopefully doesn't ruin everyone's day by snapping
+// the cursor to the end of the line.
+CMS.registerWidget('inline-markdown', InlineMarkdownControl, InlineMarkdownPreview, { properties: {} });
+
+/// Configure CMS
+//
+
+const zh = CMS.getLocale('zh_Hant');
+if (true /* TODO: What should be the check for zh user lang? */) {
+    CMS.registerLocale('zh', zh);
+    CMS.registerLocale('zh_Hant', zh);
+}
+
+const comp = () => {
+    return <div>Hey there you</div>;
+};
+
 CMS.registerEditorComponent({
     id: 'quote',
     label: 'Quote',
@@ -233,10 +267,11 @@ CMS.registerEditorComponent({
     label: 'Accordion',
     fields: [
         { name: 'title', label: 'Title', widget: 'string' },
+        { name: 't2', label: 'Inline Markdown', widget: 'inline-markdown' },
         { name: 'body', label: 'Inner Text', widget: 'markdown' },
     ],
-    pattern: /^{{< accordion title="(.+)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
-    fromBlock: (match) => ({ title: Props.unescape(match[1]), body: match[2] }),
+    pattern: /^{{< accordion title="(.+?)" t2="(.+?)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
+    fromBlock: (match) => ({ title: Props.unescape(match[1]), t2: match[2], body: match[3] }),
     toBlock: (obj) => {
         return `{{< accordion title="${Props.escape(obj.title)}" >}}\n${obj.body || ''}\n{{< /accordion >}}`;
     },
