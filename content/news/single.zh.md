@@ -6,7 +6,7 @@ draft: false
 media_image: img/uploads/taiwan-culture.jpg
 media_image_alt: Test alt
 topic: eventsnews
-title: Article Example
+title: 文章示例
 cover_image: img/uploads/dummy-image.jpg
 tags:
   - super
