@@ -169,28 +169,54 @@ var schema = {
 // NOTE: This widget is just for testing out the API, not actually part of the product
 CMS.registerWidget('categories', CategoriesControl, CategoriesPreview, schema);
 
-const InlineMarkdownControl = createClass({
+const NestedStringControl = createClass({
+    // The selection to maintain for the input element
+    _sel: 0,
+
+    // The input element ref
+    _el: null,
+
+    // NOTE: This prevents the cursor from jumping to the end of the text for
+    // nested inputs. In other words, this is not an issue on top-level text
+    // fields such as the `title` of a collection post. However, it becomes an
+    // issue on fields nested within other components, namely widgets nested
+    // within a `markdown` widget. For example, the alt text on a block image
+    // within markdown.
+    // SEE: https://github.com/netlify/netlify-cms/issues/4539
+    // SEE: https://github.com/netlify/netlify-cms/issues/3578
+    // SEE: https://github.com/netlify/netlify-cms/pull/4607
+    componentDidUpdate() {
+        if (this._el && this._el.selectionStart !== this._sel) {
+            this._el.setSelectionRange(this._sel, this._sel);
+        }
+    },
+
+    // Update selection so that we can reinstate it after update
     handleChange(e) {
+        this._sel = e.target.selectionStart;
         this.props.onChange(e.target.value);
     },
 
     render() {
         return (
             <div>
-                <p>Hey there</p>
+                {/* NOTE: This can be augmented with markdown controls if needed */}
                 <input
+                    ref={(el) => {
+                        this._el = el;
+                    }}
                     type="text"
-                    // value={this.props.value}
+                    value={this.props.value}
                     id={this.props.forID}
                     className={this.props.classNameWrapper}
-                    // onChange={this.handleChange}
+                    onChange={this.handleChange}
                 />
             </div>
         );
     },
 });
 
-const InlineMarkdownPreview = createClass({
+const NestedStringPreview = createClass({
     render() {
         return <p>{this.props.value}</p>;
     },
@@ -198,7 +224,7 @@ const InlineMarkdownPreview = createClass({
 
 // Like a text component, but hopefully doesn't ruin everyone's day by snapping
 // the cursor to the end of the line.
-CMS.registerWidget('inline-markdown', InlineMarkdownControl, InlineMarkdownPreview, { properties: {} });
+CMS.registerWidget('nested-string', NestedStringControl, NestedStringPreview, { properties: {} });
 
 /// Configure CMS
 //
@@ -266,12 +292,11 @@ CMS.registerEditorComponent({
     id: 'accordion',
     label: 'Accordion',
     fields: [
-        { name: 'title', label: 'Title', widget: 'string' },
-        { name: 't2', label: 'Inline Markdown', widget: 'inline-markdown' },
-        { name: 'body', label: 'Inner Text', widget: 'markdown' },
+        { name: 'title', label: 'Title 標題', widget: 'nested-string' },
+        { name: 'body', label: 'Inner Text 內容', widget: 'text' },
     ],
-    pattern: /^{{< accordion title="(.+?)" t2="(.+?)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
-    fromBlock: (match) => ({ title: Props.unescape(match[1]), t2: match[2], body: match[3] }),
+    pattern: /^{{< accordion title="(.+?)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
+    fromBlock: (match) => ({ title: Props.unescape(match[1]), body: match[2] }),
     toBlock: (obj) => {
         return `{{< accordion title="${Props.escape(obj.title)}" >}}\n${obj.body || ''}\n{{< /accordion >}}`;
     },
@@ -311,8 +336,8 @@ CMS.registerEditorComponent({
     id: 'card',
     label: 'Card',
     fields: [
-        { name: 'title', label: 'Title', widget: 'string' },
-        { name: 'link', label: 'Link', widget: 'string', required: false },
+        { name: 'title', label: 'Title', widget: 'nested-string' },
+        { name: 'link', label: 'Link', widget: 'nested-string', required: false },
         { name: 'image', label: 'Image', widget: 'image', required: false },
         { name: 'body', label: 'Text', widget: 'markdown' },
     ],
