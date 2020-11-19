@@ -12,12 +12,6 @@ draft: false
 
 * 擔任國際藝術組織會員證明或任職文化藝術相關之政府機關(構)、民間組織證明影本。
 
-{{< quote >}}
-a. 國際藝術組織：國際上以文化藝術為營運宗旨之相關基金會、公協會、公司、團體及單位等，例如：美國戲劇協會、OISTAT國際劇場組織、百老匯聯盟等，或其他經文化部審查認定者。
-
-b. 要職：經理、協理、副總經理、總經理、副董事長、董事長、副執行長、執行長、副社長、社長、副理事長、理事長、副會長、會長、負責人、副總監、總監等類似位階，或其他經文化部審查認定者。
-{{< /quote >}}
-
 a. 國際藝術組織：國際上以文化藝術為營運宗旨之相關基金會、公協會、公司、團體及單位等，例如：美國戲劇協會、OISTAT國際劇場組織、百老匯聯盟等，或其他經文化部審查認定者。
 
 b. 要職：經理、協理、副總經理、總經理、副董事長、董事長、副執行長、執行長、副社長、社長、副理事長、理事長、副會長、會長、負責人、副總監、總監等類似位階，或其他經文化部審查認定者。
@@ -60,7 +54,7 @@ a. 國際藝術活動：
 
 1) 博覽會：台北國際藝術博覽會(ART TAIPEI)、香港巴塞爾藝術展(Art Basel HK)、藝術登陸新加坡博覽會(Art Stage Singapore)、邁阿密巴塞爾藝術博覽會(Art Basel Miami Beach)、瑞士巴塞爾藝術博覽會(Art Basel)...等，或其他經文化部審查認定之國際藝術博覽會。
 
-2). 雙年展：威尼斯藝術雙年展(La Biennale di Venezia)、柏林當代藝術雙年展(Berlin Biennale for Contemporary Art)、歐洲當代藝術雙年展(The European Biennial of Contemporary Art)、上海雙年展(Shanghai Biennial)、雪梨雙年展(Biennale of Sydney)、巴西聖保羅雙年展(Sao Paulo Art Biennial)、惠特尼雙年展(Whitney Biennial)、哥斯大黎加視覺藝術雙年展(Costa Rica Biennale)、韓國光州雙年展(Gwangju Biennale)、土耳其伊斯坦堡雙年展(International Istanbul Biennial)...等，或其他經文化部審查認定之雙年展。
+2) 雙年展：威尼斯藝術雙年展(La Biennale di Venezia)、柏林當代藝術雙年展(Berlin Biennale for Contemporary Art)、歐洲當代藝術雙年展(The European Biennial of Contemporary Art)、上海雙年展(Shanghai Biennial)、雪梨雙年展(Biennale of Sydney)、巴西聖保羅雙年展(Sao Paulo Art Biennial)、惠特尼雙年展(Whitney Biennial)、哥斯大黎加視覺藝術雙年展(Costa Rica Biennale)、韓國光州雙年展(Gwangju Biennale)、土耳其伊斯坦堡雙年展(International Istanbul Biennial)...等，或其他經文化部審查認定之雙年展。
 
 b. 主要或重要成員：經理、協理、副總經理、總經理、副董事長、董事長、副執行長、執行長、副社長、社長、副理事長、理事長、副會長、會長、負責人、副總監、總監等類似位階，或其他經文化部審查認定者。
 
@@ -160,7 +154,7 @@ b. 高階主管：於所任職之法人或機構內擔任部門主管級以上�
 
 ### 2. 現任或曾任國際藝文非政府組織人員，並於任職期間從事文化藝術相關業務，表現優秀者。
 
-* 擔任國際藝文非政府組織之文化藝術相關業務證明影本，及任職期間從事文化藝術相關業務表現優秀之推薦函影本。（國際藝文非政府組織名單，可參考聯合國教科文組織UNESCO「非政府組織」(NGOs)官網，選列涉藝術或文化領域之非政府組織(https://en.unesco.org/partnerships/non-governmental-organizations/list?title=&field_acronym_value=&field_interest\_value=All&field\_ postal_address_country=All)查詢。）
+* 擔任國際藝文非政府組織之文化藝術相關業務證明影本，及任職期間從事文化藝術相關業務表現優秀之推薦函影本。（國際藝文非政府組織名單，可參考聯合國教科文組織UNESCO「非政府組織」(NGOs)官網，選列涉藝術或文化領域之非政府組織([https://en.unesco.org/partnerships/non-governmental-organizations/list?title=&field_acronym_value=&field_interest\_value=All&field\_ postal_address_country=All](<* https://en.unesco.org/partnerships/non-governmental-organizations/list?title=&field_acronym_value=&field_interest\_value=All&field\_ postal_address_country=All>))查詢。）
 
 ### 3. 其他經本部審查認定者。
 
