@@ -1,5 +1,5 @@
 ---
-title: 教育領域特殊專長
+title: 教育領域
 draft: false
 ---
 # 教育領域特殊專長
