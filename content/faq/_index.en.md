@@ -1,6 +1,6 @@
 ---
 title: FAQ
-summary: "The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan."
+summary: "You've got questions, we've got answers. Here are some of the most common!"
 date: 2020-11-05T07:09:20.617Z
 publishDate: 2020-11-05T07:09:20.617Z
 draft: false
@@ -13,6 +13,7 @@ tags:
 categories:
 ---
 
-## Some additional text on the page
+## Welcome to the Gold Card FAQ
 
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias explicabo perspiciatis culpa inventore beatae vitae velit reiciendis numquam, ad quam autem labore esse voluptatem consequuntur, quas debitis architecto, laboriosam unde optio impedit praesentium cum? Corporis maxime quo autem sequi expedita libero, eum et quis enim corrupti mollitia accusantium dolor, quas in at omnis iusto porro sunt cum provident dicta? Architecto vero ut, laborum nemo similique quaerat in aliquid omnis dignissimos maxime sapiente voluptate vitae, eos molestias. Autem quaerat, ipsum aspernatur magni repudiandae doloribus, cupiditate rerum incidunt provident suscipit officiis modi.
+Some of the most common questions people ask about the Taiwan Gold Card can be found here.
+Our help desk staff will keep this section up to date with the latest based on what we see from all applicants.
