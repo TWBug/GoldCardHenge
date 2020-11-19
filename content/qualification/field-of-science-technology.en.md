@@ -2,8 +2,6 @@
 title: Field of Science & Technology
 draft: false
 ---
-<!--StartFragment-->
+# Foreign specialist personnel with special expertise in science & technology
 
-須符合下列條件之一：
-
-<!--EndFragment-->
+## Must meet **ONE** of the following conditions:
