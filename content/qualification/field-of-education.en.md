@@ -2,15 +2,15 @@
 title: Field of Education
 draft: false
 ---
-## A foreign special professional with special expertise in the field of education\
-Must meet ONE of the following requirements:
+## A foreign special professional with special expertise in the field of education
+
+## Must meet **ONE** of the following requirements:
 
 ### 1. The person has graduated with a doctoral degree from one of the top 200 universities in the most recent QS World University Rankings or Times Higher Education World University Rankings.
 
 * The doctoral degree diploma issued by one of the top 200 universities in the most recent QS World University Rankings or Times Higher Education World University Rankings.
 
 ### 2. The person has been engaged in teaching and research for more than five years and in the past five years has worked at one of the top 500 universities in the most recent QS World University Rankings or Times Higher Education World University Rankings.
-
 
 **Please attach all of the following documents:**
 
