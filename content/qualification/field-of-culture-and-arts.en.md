@@ -12,14 +12,12 @@ draft: false
 
 1. ) International arts organization: A foundation, association, company, group, or unit whose mission is geared toward culture or the arts. Examples include the American Theatre Wing, OISTAT, The Broadway League, and other organizations that have been reviewed and approved of by the MOC.
 2. ) Important capacity or key member: Defined as a manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director general, responsible person, deputy general director, general director, other similar position, or other individuals reviewed and approved of by the MOC.
-
-2. Currently or previously being major or significant member of hosting international arts event (including, but not limited to major arts festival).
+3. Currently or previously being major or significant member of hosting international arts event (including, but not limited to major arts festival).
 
 * Acting as a member of the international arts event.
 
 1. ) International arts events: Events such as the Edinburgh International Festival, Festival d’Avignon, and BAM Next Wave Festival, as well as other festivals that have been reviewed and approved of by the MOC.
 2. ) Important capacity or key member: Defined as a manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director general, responsible person, deputy general director, general director, other similar position, or other individuals reviewed and approved of by the MOC.
-
 3. Previously receiving internationally or domestically recognized award, or serving in judge panel of abovementioned award.
 
 * Domestic and foreign recognition contest winning records or as domestic and foreign accredited competition review.
@@ -37,8 +35,7 @@ draft: false
 
 1. ) International arts organization: This indicates a foundation, association, company, group, or unit whose mission concerns culture and the arts. Examples include the National Endowment for the Arts, European Fine Art Fair, Affordable Art Fair, MCH Swiss Exhibition (Basel) Ltd., and the Association of International Photography Art Dealers or other organization reviewed and approved of by the MOC.
 2. ) Important capacity or key member: Defined as a manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director general, responsible person, deputy general director, general director, other similar position, or other individuals reviewed and approved of by the MOC.
-
-2. Currently or previously being major or significant member of hosting international arts event (including, but not limited to major arts fair or biennial).
+3. Currently or previously being major or significant member of hosting international arts event (including, but not limited to major arts fair or biennial).
 
 * Acting for members of international arts events (indicative art fairs, biennials, etc.).
 
@@ -119,6 +116,8 @@ Handicraft
 3. Other individuals reviewed and validated by the Ministry of Culture.
 
 * Proof of accomplishments in Handicraft acknowledged by the MOC.
+
+  HEY
 
 Cultural administration
 
