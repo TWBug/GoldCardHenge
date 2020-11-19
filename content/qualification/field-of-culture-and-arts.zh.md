@@ -154,7 +154,7 @@ b. 高階主管：於所任職之法人或機構內擔任部門主管級以上�
 
 ### 2. 現任或曾任國際藝文非政府組織人員，並於任職期間從事文化藝術相關業務，表現優秀者。
 
-* 擔任國際藝文非政府組織之文化藝術相關業務證明影本，及任職期間從事文化藝術相關業務表現優秀之推薦函影本。（國際藝文非政府組織名單，可參考聯合國教科文組織UNESCO「非政府組織」(NGOs)官網，選列涉藝術或文化領域之非政府組織([https://en.unesco.org/partnerships/non-governmental-organizations/list?title=&field_acronym_value=&field_interest\_value=All&field\_ postal_address_country=All](<* https://en.unesco.org/partnerships/non-governmental-organizations/list?title=&field_acronym_value=&field_interest\_value=All&field\_ postal_address_country=All>))查詢。）
+* 擔任國際藝文非政府組織之文化藝術相關業務證明影本，及任職期間從事文化藝術相關業務表現優秀之推薦函影本。（國際藝文非政府組織名單，可參考聯合國教科文組織UNESCO「非政府組織」(NGOs)官網，選列涉藝術或文化領域之非政府組織([https://en.unesco.org/partnerships/non-governmental-organizations/list?title=&field_acronym_value=&field_interest\_value=All&field\_ postal_address_country=All](https://en.unesco.org/partnerships/non-governmental-organizations/list?title=&field_acronym_value=&field_interest\_value=All&field\_ postal_address_country=All))查詢。）
 
 ### 3. 其他經本部審查認定者。
 
