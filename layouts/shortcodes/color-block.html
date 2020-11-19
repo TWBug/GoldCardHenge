@@ -1,0 +1,5 @@
+{{ $fg := .Get "fg" | plainify }}
+{{ $bg := .Get "bg" | plainify }}
+<div style="color:{{ $fg }};background-color:{{ $bg }};border-radius:3px;padding:0px 5px;">
+    {{ .Inner | markdownify }}
+</div>

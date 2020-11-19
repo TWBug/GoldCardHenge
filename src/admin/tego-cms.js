@@ -371,5 +371,28 @@ CMS.registerEditorComponent({
     ),
 });
 
+CMS.registerEditorComponent({
+    id: 'color-block',
+    label: 'Color 顏色',
+    fields: [
+        { name: 'fg', label: 'Foreground 前景', widget: 'color', enableAlpha: true, required: false },
+        { name: 'bg', label: 'Background 背景', widget: 'color', enableAlpha: true, required: false },
+        { name: 'body', label: 'Text', widget: 'markdown' },
+    ],
+    pattern: /^{{< color-block fg="(.*?)" bg="(.*?)" >}}\n([\s\S]+?)\n{{< \/color-block >}}/,
+    fromBlock: (match) => {
+        return { fg: match[1], bg: match[2], body: match[3] };
+    },
+    toBlock: (obj) => {
+        return `{{< color-block fg="${obj.fg || ''}" bg="${obj.bg || ''}" >}}\n${obj.body || ''}\n{{< /color-block >}}`;
+    },
+    toPreview: (obj) => {
+        const style = {};
+        if (obj.fg) style.color = obj.fg;
+        if (obj.bg) style.backgroundColor = obj.bg;
+        return <div style={style}>{obj.body}</div>;
+    },
+});
+
 // Register our custom styles
 CMS.registerPreviewStyle('/css/wysiwyg.css');
