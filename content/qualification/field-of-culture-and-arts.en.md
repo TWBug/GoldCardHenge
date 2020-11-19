@@ -117,8 +117,6 @@ Handicraft
 
 * Proof of accomplishments in Handicraft acknowledged by the MOC.
 
-  HEY
-
 Cultural administration
 
 1. Previously serving in culture and arts department of domestic or foreign government, or culture and arts institutions established by law or as expert or researcher, having culture and arts portfolio with outstanding performance in addition.
