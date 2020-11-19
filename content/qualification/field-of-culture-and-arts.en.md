@@ -19,24 +19,26 @@ draft: false
 
 1. ) International arts events: Events such as the Edinburgh International Festival, Festival d’Avignon, and BAM Next Wave Festival, as well as other festivals that have been reviewed and approved of by the MOC.
 2. ) Important capacity or key member: Defined as a manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director general, responsible person, deputy general director, general director, other similar position, or other individuals reviewed and approved of by the MOC.
+
 3. Previously receiving internationally or domestically recognized award, or serving in judge panel of abovementioned award.
 
 * Domestic and foreign recognition contest winning records or as domestic and foreign accredited competition review.
 
-1. Recognized award: Awards granted by an important international arts organization, wherein the number of competitors or nations competing reaches a threshold of significance, or where the award is one is of a sufficient caliber, or is otherwise a major international performing arts award. Examples include the  Tony Award(US),  National Dance Award(UK), and  International Tchaikovsky Competition award(RU), as well as any award that has been reviewed and approved of by the MOC.
-2. Other individuals reviewed and validated by the Ministry of Culture.
+1. ) Recognized award: Awards granted by an important international arts organization, wherein the number of competitors or nations competing reaches a threshold of significance, or where the award is one is of a sufficient caliber, or is otherwise a major international performing arts award. Examples include the  Tony Award(US),  National Dance Award(UK), and  International Tchaikovsky Competition award(RU), as well as any award that has been reviewed and approved of by the MOC.
+2. ) Other individuals reviewed and validated by the Ministry of Culture.
 
 * Proof of accomplishments in performing arts acknowledged by the MOC.
 
-Visual arts
+## Visual arts
 
 1. Previously serving as member of international arts organization, or assuming post of significant capacity in governmental agency or private organization related to culture and arts.
 
 * As a member of an international arts organization or as a member of a government agency or civil organizations related to culture and arts.
 
-1. International arts organization: This indicates a foundation, association, company, group, or unit whose mission concerns culture and the arts. Examples include the National Endowment for the Arts, European Fine Art Fair, Affordable Art Fair, MCH Swiss Exhibition (Basel) Ltd., and the Association of International Photography Art Dealers or other organization reviewed and approved of by the MOC.
-2. Important capacity or key member: Defined as a manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director general, responsible person, deputy general director, general director, other similar position, or other individuals reviewed and approved of by the MOC.
-3. Currently or previously being major or significant member of hosting international arts event (including, but not limited to major arts fair or biennial).
+1. ) International arts organization: This indicates a foundation, association, company, group, or unit whose mission concerns culture and the arts. Examples include the National Endowment for the Arts, European Fine Art Fair, Affordable Art Fair, MCH Swiss Exhibition (Basel) Ltd., and the Association of International Photography Art Dealers or other organization reviewed and approved of by the MOC.
+2. ) Important capacity or key member: Defined as a manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director general, responsible person, deputy general director, general director, other similar position, or other individuals reviewed and approved of by the MOC.
+
+2. Currently or previously being major or significant member of hosting international arts event (including, but not limited to major arts fair or biennial).
 
 * Acting for members of international arts events (indicative art fairs, biennials, etc.).
 
