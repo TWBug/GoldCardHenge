@@ -14,7 +14,7 @@ cover_image_alt: null
 ---
 # Privacy Policy
 
-Welcome to “Taiwan Gold Card” (https://taiwangoldcard.tw/, collectively the “Website”). This Website was built and organized by the “Taiwan Employment Gold Card Office” (“TEGO”), which is entrusted by the “National Development Council”. We respect your privacy and takes your privacy seriously. This Privacy Policy that covers and describes the policies and principles on how we collect, use, disclose, transfer and store your personal information (“Privacy Policy”).
+Welcome to “Taiwan Employment Gold Card Office” (https://taiwangoldcard.tw/, collectively the “Website”). This Website was built and organized by the “Taiwan Employment Gold Card Office” (“TEGO”), which is entrusted by the “National Development Council”. We respect your privacy and takes your privacy seriously. This Privacy Policy that covers and describes the policies and principles on how we collect, use, disclose, transfer and store your personal information (“Privacy Policy”).
 **Please take a moment to familiarize yourself with our Privacy Policy and contact us if you have any questions.**
 
 ## 1. Applicable Scope of This Privacy Policy
