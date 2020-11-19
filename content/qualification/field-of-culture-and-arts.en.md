@@ -2,13 +2,9 @@
 title: Field of Culture and Arts
 draft: false
 ---
+# Foreign Special Professional Who Possesses Special Expertise in the Field of Culture and Arts
 
-
-Foreign Special Professional Who Possesses Special Expertise in the Field of Culture and Arts
-
-
-
-Performing arts
+## Performing arts
 
 1. Previously serving as member of international arts organization, or assuming post of significant capacity in governmental agency or private organization related to culture and arts.
 
@@ -30,8 +26,6 @@ Performing arts
 2. Other individuals reviewed and validated by the Ministry of Culture.
 
 * Proof of accomplishments in performing arts acknowledged by the MOC.
-
-
 
 Visual arts
 
@@ -57,8 +51,6 @@ Visual arts
 2. Other individuals reviewed and validated by the Ministry of Culture.
 
 * Proof of accomplishments in Visual arts acknowledged by the MOC.
-
-
 
 Publishing
 
@@ -89,8 +81,6 @@ Publishing
 
 * Proof of accomplishments in publishing business acknowledged by the MOC.
 
-
-
 Film, Broadcast and Pop Music
 
 1. Previously received a major award for film, broadcast, or pop music from Taiwan or the recipient’s native country, or an international award.
@@ -113,8 +103,6 @@ Film, Broadcast and Pop Music
 
 * Copy of verification by the Ministry of Culture of documentation related to film, broadcast, or pop music.
 
-
-
 Handicraft
 
 1. Previously awarded in nationally or internationally recognized competition relevant to handicraft.
@@ -128,8 +116,6 @@ Handicraft
 3. Other individuals reviewed and validated by the Ministry of Culture.
 
 * Proof of accomplishments in Handicraft acknowledged by the MOC.
-
-
 
 Cultural administration
 
