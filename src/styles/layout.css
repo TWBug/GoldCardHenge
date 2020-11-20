@@ -196,7 +196,8 @@ blockquote {
 }
 
 .copy ul {
-    list-style-type: '>';
+    /* list-style-type: '>'; */
+    list-style-type: circle;
     @apply list-outside leading-relaxed ml-2 mb-4 mr-12;
 }
 
