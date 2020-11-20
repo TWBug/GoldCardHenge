@@ -78,12 +78,13 @@ draft: false
 
 *Note:*
 
-*1. 專業才能:*
+*1.* Skills:
 
-\*a. 針對具有中子研究專長者，具備下列要件之一：
+a. Applicants with expertise in the field of neutron physics research must meet least **ONE** of the following requirements:
 
-1. 物理、化學、核工系所博士畢業，具 2 年以上中子研究經驗；執行中子散射、繞射以及台澳中子計畫 SIKA 實驗設施運轉計畫。
-2. 凝態物理系所博士畢業，具良好凝態物理、中子散射知識，曾公開發表非彈性中子散射、中子三軸光譜技術之經驗；ANSTO 非彈性光譜儀之儀器科學研究。*
+1)  Ph.D. degree in physics, chemistry, or nuclear engineering with at least 2 years of neutron research experience; participation in neutron scattering or diffraction research, or the Taiwan-Australian neutron instrument (SIKA) project.
+
+2) A Ph.D. in condensed matter physics, with good knowledge of condensed matter physics and neutron scattering; publication of papers on inelastic neutron scattering or neutron triple axis spectrometry; research employing the ANSTO inelastic spectrometer.
 
 *b. 其餘領域：應具有 3 年以上相關領域之工作經驗*
 
