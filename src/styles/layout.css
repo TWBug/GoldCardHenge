@@ -166,7 +166,7 @@ blockquote {
 }
 
 .copy {
-    @apply text-base leading-loose;
+    @apply text-base leading-loose font-medium ;
 }
 .copy.copy--large {
     @apply text-xl;
@@ -174,7 +174,7 @@ blockquote {
 
 /* purgecss start ignore */
 .copy p {
-    @apply font-medium mb-4;
+    @apply mb-4;
 }
 
 .copy strong {
@@ -186,9 +186,11 @@ blockquote {
     @apply font-bold text-primary underline;
 }
 
-.copy em,
+.copy em {
+    @apply font-semibold italic;
+}
 .copy em a {
-    @apply font-medium italic underline;
+    @apply font-bold italic underline;
 }
 
 .copy ul p,
