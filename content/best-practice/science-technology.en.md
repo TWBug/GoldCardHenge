@@ -9,13 +9,9 @@ cover_image: 'img/uploads/dummy-image.jpg'
 cover_image_alt: 'Test alt'
 media_image: 'img/uploads/taiwan-culture.jpg'
 media_image_alt: 'Test alt'
-tags:
-    - super
 image: img/uploads/dummy-image.jpg
+tags:
 categories:
-    - first
-    - second
-    - third
 ---
 
 # Foreign specialist personnel with special expertise in science & technology

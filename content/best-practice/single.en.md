@@ -13,9 +13,6 @@ tags:
   - super
 image: img/uploads/dummy-image.jpg
 categories:
-  - first
-  - second
-  - third
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: Test alt
 ---
