@@ -24,10 +24,8 @@ There are staffs checking students and facility' staffs' temperature in most of 
 
 When Taiwanese heard news about the mystery pneumonia from Wuhan, China, governments and Taiwanese people are alerted due to previous SARS experience. China is known for its lack of transparency, so it is not trusted by Taiwanese people. And coincidentally Taiwan and China relationship is becoming worse. China used some policy tools like banning China tourist groups coming to Taiwan, decreasing Taiwan and China economic ties, to "punish" Taiwan ruling party for not obeying to China government's orders. Due to China's action , Taiwan avoid the fate of mass import of COVID-19 case from China.
 
-
+There is a second wave of COVID-19 coming for sure, all governments including Taiwan government is preparing the impact. Taiwanese people living is not effect much due to its island nation natural, could easily control the border with another countries. People of Taiwan a way to balance prevent the spread of pandemic and keep living, with fear of uncertain during COVID-19 pandemic.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6Zy4sl2ZWPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-There is a second wave of COVID-19 coming for sure, all governments including Taiwan government is preparing the impact. Taiwanese people living is not effect much due to its island nation natural, could easily control the border with another countries. People of Taiwan a way to balance prevent the spread of pandemic and keep living, with fear of uncertain during COVID-19 pandemic.
 
 Pharmacy industrial will keep going to research and develop COVID-19 vaccine. There is one day it will be available to the public and the pandemic will be controlled. Taiwan prove that they could battle the pandemic even with it only have small territory size. And it might be a happily island to live and to work. Please have a visit to Taiwan, and apply for the Employment Gold Card to have a chance to live and work in Taiwan!

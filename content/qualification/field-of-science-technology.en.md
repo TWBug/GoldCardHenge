@@ -5,3 +5,319 @@ draft: false
 # Foreign specialist personnel with special expertise in science & technology
 
 ## Must meet **ONE** of the following conditions:
+
+### 1. The applicant has held, or currently holds, a position with a most recent monthly salary of over NTD 160,000 in Taiwan or another country.
+
+**Please provide least ONE of the following items:**
+
+* Documents verifying salary or income tax payment relating to employment at a technology company **(if the company's manufacturing or R&D achievements, and the individual's contributions as a participant, are consistent with the fields listed in article 2 or 3 of the eligibility/prerequisites column).**
+* Documents verifying salary or income tax payment relating to employment at a public or private university in Taiwan or abroad, or academic research institution in Taiwan or abroad.
+
+*Note: Academic research institute refers to any institute with research as its core mission.*
+
+### 2. Those with unique talents or outstanding R&D or design ability or original achievements in such cutting-edge technological fields as software applications, software technology, nanotechnology, microelectromechanical technology, optoelectronics, information and communications, communication transmission technology, automation system integration technology, material application technology, high precision sensing technology, biotechnology, resources development and energy conservation, frontier scientific research, and national defense and military strategies.
+
+{{< teaser >}}
+**Please select either 1 or 2, and attach all documents required for the selected item:**
+{{< /teaser >}}
+
+{{< accordion title="1) Please attach ALL of the following documents:" >}}
+* Domestic or foreign certificate verifying possession of a Ph.D. degree
+* Verification of domestic or foreign work experience in a relevant field for 3 or more years
+
+*Note:*
+
+*1.* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+
+*2.* When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
+
+* Academic research during the most recent 3 years
+
+*Note:*
+
+*1. Academic research works must consist of domestic or foreign journal articles, conference papers, technical books or chapters of technical books, or other specialized works.*
+
+*2. The date of publication or submission for publication of such works must be within the 3 years prior to the year of the date of application.*
+
+*3. If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.*
+{{< /accordion >}}
+
+***1)* Please attach ALL of the following documents:**
+
+* Domestic or foreign certificate verifying possession of a Ph.D. degree
+* Verification of domestic or foreign work experience in a relevant field for 3 or more years
+
+*Note:*
+
+*1.* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+
+*2.* When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
+
+* Academic research during the most recent 3 years
+
+*Note:*
+
+*1. Academic research works must consist of domestic or foreign journal articles, conference papers, technical books or chapters of technical books, or other specialized works.*
+
+*2. The date of publication or submission for publication of such works must be within the 3 years prior to the year of the date of application.*
+
+*3. If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.*
+
+***2)* Please attach ALL of the following documents:**
+
+* Verification of domestic or foreign work experience in a relevant field for 3 or more years
+
+*Note:*
+
+*1. Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.*
+
+*2. When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.*
+
+* Documents verifying technology (such as a domestic or foreign patent certificate, etc.) or technology licensing (such as a technology licensing contract, etc.).
+* Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field).
+
+*Note:*
+
+*1.* Skills:
+
+a. Applicants with expertise in the field of neutron physics research must meet least **ONE** of the following requirements:
+
+1)  Ph.D. degree in physics, chemistry, or nuclear engineering with at least 2 years of neutron research experience; participation in neutron scattering or diffraction research, or the Taiwan-Australian neutron instrument (SIKA) project.
+
+2) A Ph.D. in condensed matter physics, with good knowledge of condensed matter physics and neutron scattering; publication of papers on inelastic neutron scattering or neutron triple axis spectrometry; research employing the ANSTO inelastic spectrometer.
+
+*b. 其餘領域：應具有 3 年以上相關領域之工作經驗*
+
+*2. 學術研究：*
+
+\*a. 於國內外投稿並發表之學術性著作，如下：
+
+1. 期刊論文：已於學術期刊發表之論文，或業經學術期刊接受刊載並出具證明之論文(應檢附接受函或相關證明文件)。
+2. 研討會論文：已於研討會發表之論文，或業經研討會主辦單位接受，預定發表之論文(應檢附接受函或相關證明文件)。
+3. 專書或專書論文：具有原創性及重要學術價值，並由國內外具審查制度之出版單位出版之專書、專書論文(含經典譯注深度導讀，不含教科書、文藝創作、翻譯著作或已發表之論文彙編)。業經接受刊載但尚未出版者，應檢附相關證明文件。
+4. 其他專業著作：其他具學術價值之專業著作，或被高度引用之軟體程式碼、創作工具等。*
+
+### 3. 在人工智慧、物聯網、擴增實境、區塊鏈、虛擬實境、機器人、積層製造等前瞻科技上具有獨到才能或有傑出研發設計或有新創實績。
+
+{{< teaser >}}
+**請先就 1 或 2 擇一，再就所選項目檢附全部文件：**
+{{< /teaser >}}
+
+***1) 請全部檢附***
+
+* 具博士學位之國內外學歷證書
+* 具 3 年以上相關領域工作經驗之國內外服務證明
+
+*註：*
+
+*1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。*
+
+*2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作*
+
+* 經驗年資合計須具 3 年以上。
+* 近 3 年之學術研究
+
+*註：*
+
+*1. 學術研究著作係為國內外之期刊論文、研討會論文、專書或專書論文、其他專業著作。*
+
+*2. 其發表或投稿日須為申請日當年往前推算 3 年內。*
+
+*3. 若業經接受刊載但尚未出版或發表者，應檢附出版機構之著作接受函或相關證明文件。*
+
+***2) 請全部檢附***
+
+* 具 3 年以上相關領域工作經驗之國內外服務證明
+
+*註：*
+
+*1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。*
+
+*2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具 3 年以上。*
+
+* 技術證明(如國內外專利證書等)或技術移轉(如技術轉合約書等)
+* 獲獎證明(須為該專業領域具國際性之國內外重要獎項)。
+
+*註：*
+
+*1. 專業才能:*
+
+\*a. 針對具有中子研究專長者，具備下列要件之一：
+
+1. 物理、化學、核工系所博士畢業，具 2 年以上中子研究經驗；執行中子散射、繞射以及台澳中子計畫 SIKA 實驗設施運轉計畫。
+2. 凝態物理系所博士畢業，具良好凝態物理、中子散射知識，曾公開發表非彈性中子散射、中子三軸光譜技術之經驗；ANSTO 非彈性光譜儀之儀器科學研究。*
+
+*b. 其餘領域：應具有 3 年以上相關領域之工作經驗*
+
+*2. 學術研究：*
+
+\*a. 於國內外投稿並發表之學術性著作，如下：
+
+1. 期刊論文：已於學術期刊發表之論文，或業經學術期刊接受刊載並出具證明之論文(應檢附接受函或相關證明文件)。
+2. 研討會論文：已於研討會發表之論文，或業經研討會主辦單位接受，預定發表之論文(應檢附接受函或相關證明文件)。
+3. 專書或專書論文：具有原創性及重要學術價值，並由國內外具審查制度之出版單位出版之專書、專書論文(含經典譯注深度導讀，不含教科書、文藝創作、翻譯著作或已發表之論文彙編)。業經接受刊載但尚未出版者，應檢附相關證明文件。
+4. 其他專業著作：其他具學術價值之專業著作，或被高度引用之軟體程式碼、創作工具等。*
+
+### 4. 諾貝爾獎得主(Nobel Prize)、唐獎得主(Tang Prize)、沃爾夫獎得主(Wolf Prize)、費爾茲獎得主(Fields Medals)或其他相當資格之國際獎項得主。
+
+**請提供**
+
+* 具國際性之國內外重要獎項獲獎證明文件。
+
+### 5. 國家科學院院士、國家院士級學者。
+
+**請提供**
+
+* 國內外院士證書或相當之證明文件
+
+*註：*
+
+*1. 涵蓋國內外各領域之國家科學院。*
+
+*2. 院士為各國設立的科學技術方面的最高學術稱號，為終身榮譽。*
+
+### 6. 現任或曾任大學講座教授、教授、副教授、或研究機構之研究員及副研究員，在學術上有重要貢獻或重要專門著作或最近3年內有研究成果發表為國際所推崇者。
+
+{{< teaser >}}
+**請先就 1 或 2 擇一，再就所選項目檢附全部文件：**
+{{< /teaser >}}
+
+***1) 請全部檢附***
+
+* 具博士學位之國內外學歷證書
+* 具 3 年以上相關領域工作經驗之國內外服務證明
+
+*註：*
+
+*1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。*
+
+*2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作*
+
+* 近 3 年之學術研究
+
+*註：*
+
+*1. 學術研究著作係為國內外之期刊論文、研討會論文、專書或專書論文、其他專業著作。*
+
+*2. 其發表或投稿日須為申請日當年往前推算 3 年內。*
+
+*3. 若業經接受刊載但尚未出版或發表者，應檢附出版機構之著作接受函或相關證明文件。*
+
+***2) 請全部檢附***
+
+* 具 3 年以上相關領域工作經驗之國內外服務證明
+
+*註：*
+
+*1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。*
+
+*2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具 3 年以上。*
+
+* 技術證明(如國內外專利證書等)或技術移轉(如技術轉合約書等)
+* 獲獎證明(須為該專業領域具國際性之國內外重要獎項)。
+
+*註：*
+
+*1. 涵蓋國內外公私立大學及研究機構 以從事學術研究為宗旨之任何機構 。*
+
+\*2. 於國內外投稿並發表之學術性著作：
+
+1. 期刊論文：已於學術期刊發表之論文，或業經學術期刊接受刊載並出具證明之論文(應檢附接受函或相關證明文件)。
+2. 研討會論文：已於研討會發表之論文，或業經研討會主辦單位接受，預定發表之論文(應檢附接受函或相關證明文件)。
+3. 專書或專書論文：具有原創性及重要學術價值，並由國內外具審查制度之出版單位出版之專書、專書論文(含經典譯注深度導讀，不含教科書、文藝創作、翻譯著作或已發表之論文彙編)。業經接受刊載但尚未出版者，應檢附相關證明文件。
+4. 其他專業著作：其他具學術價值之專業著作，或被高度引用之軟體程式碼、創作工具等。*
+
+### 7. 獲得博士學位後，繼續執行專門職業或於研究機構從事研究工作或於科技機構從事科技研發或管理工作4年以上者。
+
+{{< teaser >}}
+**請先就 1 或 2 擇一，再就所選項目檢附全部文件：**
+{{< /teaser >}}
+
+***1) 請全部檢附***
+
+* 具博士學位之國內外學歷證書
+* 具 4 年以上相關領域工作經驗之國內外服務證明
+
+*註：*
+
+*1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。*
+
+*2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具 4 年以上。*
+
+* 近 4 年之學術研究
+
+*註：*
+
+*1. 學術研究著作係為國內外之期刊論文、研討會論文、專書或專書論文、其他專業著作。*
+
+*2. 其發表或投稿日須為申請日當年往前推算 4 年內。*
+
+*3. 若業經接受刊載但尚未出版或發表者，應檢附出版機構之著作受函或相關證明文件。*
+
+***2) 請全部檢附***
+
+* 具 3 年以上相關領域工作經驗之國內外服務證明
+
+*註：*
+
+*1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。*
+
+*2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具 3 年以上。*
+
+* 技術證明(如國內外專利證書等)或技術移轉(如技術轉合約書等)
+* 獲獎證明(須為該專業領域具國際性之國內外重要獎項)。
+
+### 8. 在特殊技術或科技機構之科技研發或管理工作上，具有獨到之才能，為國內外所少見者。
+
+{{< teaser >}}
+**請先就 1 或 2 擇一，再就所選項目檢附全部文件：**
+{{< /teaser >}}
+
+***1) 請全部檢附***
+
+* 具博士學位之國內外學歷證書
+* 具 3 年以上相關領域工作經驗之國內外服務證明
+
+*註：*
+
+*1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。*
+
+*2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作*
+
+* 近 3 年之學術研究
+
+*註：*
+
+*1. 學術研究著作係為國內外之期刊論文、研討會論文、專書或專書論文、其他專業著作。*
+
+*2. 其發表或投稿日須為申請日當年往前推算 3 年內。*
+
+*3. 若業經接受刊載但尚未出版或發表者，應檢附出版機構之著作接受函或相關證明文件。*
+
+***2) 請全部檢附***
+
+* 具 3 年以上相關領域工作經驗之國內外服務證明
+
+*註：*
+
+*1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。*
+
+*2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具 3 年以上。*
+
+* 技術證明(如國內外專利證書等)或技術移轉(如技術轉合約書等)
+* 獲獎證明(須為該專業領域具國際性之國內外重要獎項)。
+
+### 9. 具有博士學位且其專長為國內所欠缺者。
+
+***請全部檢附***
+
+* 具博士學位之國內外學歷證書
+* 具 3 年以上相關領域工作經驗之國內外服務證明
+
+*註：*
+
+*1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。*
+
+*2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作*
+
+* 技術證明(如國內外專利證書等)或技術移轉(如技術轉合約書等)
