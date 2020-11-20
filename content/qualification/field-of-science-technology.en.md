@@ -6,18 +6,12 @@ draft: false
 
 ## Must meet **ONE** of the following conditions:
 
+### 1. The applicant has held, or currently holds, a position with a most recent monthly salary of over NTD 160,000 in Taiwan or another country.
 
+**Please provide least ONE of the following items:**
 
-# 科技領域特殊專長
-
-## 須符合下列條件**之一**：
-
-### 1. 曾經或現任於其他國家或於我國最近月薪達新臺幣十六萬元。
-
-**請提供下列資料之一：**
-
-* 任職於科技領域相關產業(如資格條件第 2 條或第 3 條所列領域之企業的製造或研發實績與個人參與貢獻等)之薪資證明或繳稅證明文件
-* 任職於國內外公私立大專院校或國內外學術研究機構之薪資證明或繳稅證明文件
+* Documents verifying salary or income tax payment relating to employment at a technology company **(if the company's manufacturing or R&D achievements, and the individual's contributions as a participant, are consistent with the fields listed in article 2 or 3 of the eligibility/prerequisites column).**
+* Documents verifying salary or income tax payment relating to employment at a public or private university in Taiwan or abroad, or academic research institution in Taiwan or abroad.
 
 *註：學術研究機構係以從事學術研究為宗旨之任何機構。*
 
