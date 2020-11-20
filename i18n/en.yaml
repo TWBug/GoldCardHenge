@@ -26,6 +26,8 @@
   translation: 'All categories'
 - id: tags
   translation: 'Tags'
+- id: all_tags
+  translation: 'All Tags'
 - id: summary
   translation: 'Summary'
 - id: taipei_city_skyline
