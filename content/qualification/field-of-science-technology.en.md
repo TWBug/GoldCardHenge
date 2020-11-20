@@ -29,8 +29,6 @@ Notes:
 1)	Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
 2)	When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
 
-
-
 * 經驗年資合計須具 3 年以上。
 * 近 3 年之學術研究
 
@@ -51,7 +49,7 @@ Notes:
 
 *2. 其發表或投稿日須為申請日當年往前推算 3 年內。*
 
-*3. 若業經接受刊載但尚未出版或發表者，應檢附出版機構之著作接受函或相關證明文件。*
+*3. 若業經接受刊載但尚未出版或發表者，應檢附出版機構之著作接受函或相關證明文件。
 {{< /accordion >}}
 
 {{< accordion title="2) 請全部檢附" >}}
