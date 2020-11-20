@@ -1,6 +1,6 @@
 {{ $category := "" }}
 {{ if isset .Page.Params "categories" }}
-{{ $category = index .Page.Params.categories 0 }}
+{{/*  {{ $category = index .Page.Params.categories 0 }}  */}}
 {{ end }}
 {{ with .Params }}
 {{ if isset . "category" }}
@@ -8,7 +8,7 @@
 {{ end }}
 {{ end }}
 
-{{ $articles := where (where .Site.RegularPages "Section" "blog") "Permalink" "!=" .Page.Permalink }}
+{{ $articles := where (where .Site.RegularPages "Section" "news") "Permalink" "!=" .Page.Permalink }}
 {{ if $category }}
 {{ $articles = where $articles "Params.categories" "intersect" (slice $category)}}
 {{ end }}
