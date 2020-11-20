@@ -4,7 +4,7 @@
         {{ partial "icon" (dict "name" "tags" "size" "7") }}
     </div>
     <ul class="block pt-6 pl-2">
-        {{ range .Site.Taxonomies.tags }}
+        {{ range .Site.Taxonomies.categories }}
         <li class="inline-block bg-primary rounded-lg text-white text-sm mr-2 mb-2">
             <a href="{{ .Page.Permalink }}" class="flex items-center px-3 py-1">
               {{ partial "icon" (dict "name" "tag" "size" "3") }}
