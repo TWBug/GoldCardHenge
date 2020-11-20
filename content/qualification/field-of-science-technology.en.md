@@ -15,11 +15,66 @@ draft: false
 
 *Note: Academic research institute refers to any institute with research as its core mission.*
 
-### 2. 在各類軟體應用、軟體技術、奈米、微機電技術、光電技術、資訊及通訊技術、通訊傳播技術、自動化系統整合技術、材料應用技術、高精密感測技術、生物科技、資源開發或能源節約及尖端基礎研究、國防及軍事戰略等尖端科技上具有獨到才能或有傑出研發設計或有新創實績。
+### 2. Those with unique talents or outstanding R&D or design ability or original achievements in such cutting-edge technological fields as software applications, software technology, nanotechnology, microelectromechanical technology, optoelectronics, information and communications, communication transmission technology, automation system integration technology, material application technology, high precision sensing technology, biotechnology, resources development and energy conservation, frontier scientific research, and national defense and military strategies.
 
 {{< teaser >}}
-**請先就 1 或 2 擇一，再就所選項目檢附全部文件：**
+**Please select either 1 or 2, and attach all documents required for the selected item:**
 {{< /teaser >}}
+
+{{< accordion title="1) Please attach all of the following documents:" >}}
+Domestic or foreign certificate verifying possession of a Ph.D. degree
+
+Verification of domestic or foreign work experience in a relevant field for 3 or more years
+*註：*
+
+*1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。*
+
+*2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作*
+
+* 經驗年資合計須具 3 年以上。
+* 近 3 年之學術研究
+
+*註：*
+
+*1. 學術研究著作係為國內外之期刊論文、研討會論文、專書或專書論文、其他專業著作。*
+
+*2. 其發表或投稿日須為申請日當年往前推算 3 年內。*
+
+*3. 若業經接受刊載但尚未出版或發表者，應檢附出版機構之著作接受函或相關證明文件。*
+{{< /accordion >}}
+
+{{< accordion title="2) 請全部檢附" >}}
+* 具 3 年以上相關領域工作經驗之國內外服務證明
+
+*註：*
+
+*1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。*
+
+*2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具 3 年以上。*
+
+* 技術證明(如國內外專利證書等)或技術移轉(如技術轉合約書等)
+* 獲獎證明(須為該專業領域具國際性之國內外重要獎項)。
+
+*註：*
+
+*1. 專業才能:*
+
+a. 針對具有中子研究專長者，具備下列要件之一：
+
+1. 物理、化學、核工系所博士畢業，具 2 年以上中子研究經驗；執行中子散射、繞射以及台澳中子計畫 SIKA 實驗設施運轉計畫。
+2. 凝態物理系所博士畢業，具良好凝態物理、中子散射知識，曾公開發表非彈性中子散射、中子三軸光譜技術之經驗；ANSTO 非彈性光譜儀之儀器科學研究。
+
+*b. 其餘領域：應具有 3 年以上相關領域之工作經驗*
+
+*2. 學術研究：*
+
+a. 於國內外投稿並發表之學術性著作，如下：
+
+1. 期刊論文：已於學術期刊發表之論文，或業經學術期刊接受刊載並出具證明之論文(應檢附接受函或相關證明文件)。
+2. 研討會論文：已於研討會發表之論文，或業經研討會主辦單位接受，預定發表之論文(應檢附接受函或相關證明文件)。
+3. 專書或專書論文：具有原創性及重要學術價值，並由國內外具審查制度之出版單位出版之專書、專書論文(含經典譯注深度導讀，不含教科書、文藝創作、翻譯著作或已發表之論文彙編)。業經接受刊載但尚未出版者，應檢附相關證明文件。
+4. 其他專業著作：其他具學術價值之專業著作，或被高度引用之軟體程式碼、創作工具等。
+{{< /accordion >}}
 
 ***1) 請全部檢附***
 
