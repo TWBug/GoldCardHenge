@@ -9,8 +9,7 @@ cover_image: 'img/uploads/dummy-image.jpg'
 cover_image_alt: 'Test alt'
 media_image: 'img/uploads/taiwan-culture.jpg'
 media_image_alt: 'Test alt'
-tags:
-    - super
+tags: null
 image: img/uploads/dummy-image.jpg
 categories:
     - first
