@@ -40,11 +40,13 @@
       <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
                 <div class="lg:col-span-2 pt-10">
+                    
+
 
                     {{ range .RegularPages}}
                     <div class="border-t-2 border-secondary border-dashed -ml-4 -mr-4 p-4" x-data="taAccordion()">
                       <button type="button" @click.prevent="toggle()" class="w-full text-left flex items-center justify-between text-primary">
-                          <span class="text-gray-800 text-xl font-bold py-2 w-3/4">{{ .Title }}</span>
+                          <span class="text-gray-800 text-xl font-bold py-2 pr-4">{{ .Title }}</span>
                           <span x-show="!show"> {{ partial "icon" (dict "name" "angle-down" "size" "10" "alt" "Show Answer") }} </span>
                           <span x-show="show" x-cloak> {{ partial "icon" (dict "name" "angle-up" "size" "10" "alt" "Hide Answer") }} </span>
                       </button>
@@ -59,10 +61,12 @@
                           x-transition:leave-start="opacity-100"
                           x-transition:leave-end="opacity-0 -translate-y-5"
                       >
-                          <p class="text-base font-regular">{{ .Content | plainify }}</p>
+                            <div class="copy text-base font-regular">
+                              {{ .Content }}
+                            </div>
                           <div class="text-right">
                             
-                            <a href="{{.RelPermalink}}" class="inline-block text-primary">
+                            <a href="{{.RelPermalink}}" class="inline-block text-primary" target="_blank">
                               {{ partial "icon" (dict "name" "link" "size" "4" "alt" "Link to FAQ") }}
                             </a>
                           </div>
@@ -70,14 +74,13 @@
                     </div>
                     {{ end }}
                     
-                    
                     {{ if .Content }}
                     <div class="copy mt-12">{{ .Content }}</div>
                     {{ end }}
                     
                 </div>
                 <div class="-mt-12">
-                  {{ partial "page-all-categories" . }}
+                  {{ partial "page-all-tags" . }}
                   {{ partial "page-call-to-action" (dict "style" "dark" ) }}
                   {{ partial "page-latest-news" . }}
                 </div>
