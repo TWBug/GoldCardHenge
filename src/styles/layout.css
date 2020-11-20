@@ -174,20 +174,21 @@ blockquote {
 
 /* purgecss start ignore */
 .copy p {
-    @apply font-regular mb-4;
+    @apply font-medium mb-4;
 }
 
 .copy strong {
-    @apply font-semibold;
+    @apply font-bold;
 }
+.copy a,
 .copy strong a,
 .copy ul li a {
-    @apply font-bold text-primary;
+    @apply font-bold text-primary underline;
 }
 
 .copy em,
 .copy em a {
-    @apply font-regular italic;
+    @apply font-medium italic underline;
 }
 
 .copy ul p,
@@ -198,7 +199,7 @@ blockquote {
 .copy ul {
     /* list-style-type: '>'; */
     list-style-type: circle;
-    @apply list-outside leading-relaxed ml-2 mb-4 mr-12;
+    @apply list-outside leading-relaxed ml-4 mb-4 mr-12;
 }
 
 .copy ul ul {
@@ -216,7 +217,7 @@ blockquote {
 }
 
 .copy ul li {
-    @apply text-black font-regular pb-2 pl-2;
+    @apply text-black font-regular pb-2;
 }
 .copy UL UL LI:last-of-type {
     @apply pb-0;
@@ -241,6 +242,13 @@ blockquote {
     top: calc(var(--size) / 3);
 }
 /* purgecss end ignore */
+
+.force-no-underline {
+    text-decoration: none !important;
+}
+.force-text-white {
+    color: white !important;
+}
 
 [x-cloak] {
     display: none;
