@@ -6,7 +6,7 @@
 {{ else if eq $url.Scheme "http"  }}
 {{ $target = "_blank" }}
 {{ end }}
-<a class="text-primary font-semibold underline" href="{{ .Destination }}" target="{{ $target }}">
+<a href="{{ .Destination }}" target="{{ $target }}">
   {{ .Text }}
 </a>
 
