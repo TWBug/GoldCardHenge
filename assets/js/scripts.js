@@ -250,16 +250,16 @@ function smoothScroll() {
       link.addEventListener('click', function (e) {
         e.preventDefault();
         var href = e.target.getAttribute('href'); // fix for leading numbers
+        // if ( !isNaN(href.substring(1,2))  ) {
+        //     href = '#\\3' + href.substr(1)
+        // }
 
-        if (!isNaN(href.substring(1, 2))) {
-          href = '#\\3' + href.substr(1);
-        }
-
+        href = "[id=\"".concat(href.substr(1), "\"]");
         var scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
         var offsetTop = document.querySelector(href).offsetTop + parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
         scroll({
           top: offsetTop,
-          behavior: "smooth"
+          behavior: 'smooth'
         });
       });
     }
