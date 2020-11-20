@@ -23,13 +23,24 @@ draft: false
 
 {{< accordion title="1) Please attach all of the following documents:" >}}
 Domestic or foreign certificate verifying possession of a Ph.D. degree
-
 Verification of domestic or foreign work experience in a relevant field for 3 or more years
+
+Notes: 
+1)	Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+2)	When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
+
+
+
+* 經驗年資合計須具 3 年以上。
+* 近 3 年之學術研究
+
 *註：*
 
-*1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。*
+*1. 學術研究著作係為國內外之期刊論文、研討會論文、專書或專書論文、其他專業著作。*
 
-*2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作*
+*2. 其發表或投稿日須為申請日當年往前推算 3 年內。*
+
+*3. 若業經接受刊載但尚未出版或發表者，應檢附出版機構之著作接受函或相關證明文件。*
 
 * 經驗年資合計須具 3 年以上。
 * 近 3 年之學術研究
