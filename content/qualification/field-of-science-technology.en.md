@@ -21,7 +21,7 @@ draft: false
 **Please select either 1 or 2, and attach all documents required for the selected item:**
 {{< /teaser >}}
 
-{{< accordion title="***1)* Please attach all of the following documents:**  *" >}}
+{{< accordion title="***1)* Please attach ALL of the following documents:**  *" >}}
 * Domestic or foreign certificate verifying possession of a Ph.D. degree
 * Verification of domestic or foreign work experience in a relevant field for 3 or more years
 
@@ -42,7 +42,7 @@ draft: false
 *3. If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.*
 {{< /accordion >}}
 
-***1)* Please attach all of the following documents:**
+***1)* Please attach ALL of the following documents:**
 
 * Domestic or foreign certificate verifying possession of a Ph.D. degree
 * Verification of domestic or foreign work experience in a relevant field for 3 or more years
@@ -63,20 +63,20 @@ draft: false
 
 *3. If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.*
 
-***2) 請全部檢附***
+***2)* Please attach ALL of the following documents:**
 
-* 具 3 年以上相關領域工作經驗之國內外服務證明
+* Verification of domestic or foreign work experience in a relevant field for 3 or more years
 
-*註：*
+*Note:*
 
-*1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。*
+*1. Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.*
 
-*2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具 3 年以上。*
+*2. When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.*
 
-* 技術證明(如國內外專利證書等)或技術移轉(如技術轉合約書等)
-* 獲獎證明(須為該專業領域具國際性之國內外重要獎項)。
+* Documents verifying technology (such as a domestic or foreign patent certificate, etc.) or technology licensing (such as a technology licensing contract, etc.).
+* Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field).
 
-*註：*
+*Note:*
 
 *1. 專業才能:*
 
