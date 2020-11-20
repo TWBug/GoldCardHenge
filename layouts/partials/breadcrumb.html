@@ -1,9 +1,11 @@
 {{ $home := .Site.Home }}
-<div class="text-sm font-semibold">
-    <ol class="flex flex-wrap items-center">
-        {{ template "breadcrumbnav" (dict "p1" . "p2" . ) }}
-    </ol>
-</div>
+<nav aria-label="breadcrumb" class="breadcrumb">
+    <div class="text-sm font-semibold">
+        <ol class="flex flex-wrap items-center">
+            {{ template "breadcrumbnav" (dict "p1" . "p2" . ) }}
+        </ol>
+    </div>
+</nav>
 
 {{ define "breadcrumbnav" }}
 {{ if .p1.Parent }}
