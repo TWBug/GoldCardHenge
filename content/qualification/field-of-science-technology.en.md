@@ -21,7 +21,7 @@ draft: false
 **Please select either 1 or 2, and attach all documents required for the selected item:**
 {{< /teaser >}}
 
-{{< accordion title="***1)* Please attach ALL of the following documents:**  *" >}}
+{{< accordion title="1) Please attach ALL of the following documents:" >}}
 * Domestic or foreign certificate verifying possession of a Ph.D. degree
 * Verification of domestic or foreign work experience in a relevant field for 3 or more years
 
