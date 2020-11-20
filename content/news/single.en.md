@@ -10,7 +10,6 @@ topic: eventsnews
 style: hero
 cover_image: 'img/uploads/dummy-image-large.jpg'
 tags:
-  - super
 image: img/uploads/dummy-image.jpg
 categories:
   - first

@@ -8,7 +8,6 @@ topic: eventsnews
 title: 文章示例
 cover_image: img/uploads/dummy-image.jpg
 tags:
-  - super
 categories:
   - first
   - second

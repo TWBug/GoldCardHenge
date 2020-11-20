@@ -10,7 +10,6 @@ topic: eventsnews
 style: hero
 cover_image: 'img/uploads/dummy-image-large.jpg'
 tags:
-  - super
 image: img/uploads/dummy-image.jpg
 categories:
 publishDate: 2020-11-05T07:09:20.617Z

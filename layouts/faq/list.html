@@ -44,12 +44,25 @@
 
 
                     {{ range .RegularPages}}
-                    <div class="border-t-2 border-secondary border-dashed -ml-4 -mr-4 p-4" x-data="taAccordion()">
+                    <div class="border-t-2 border-secondary border-dashed p-4" x-data="taAccordion()">
+                        <div class="">
+                            <ul class="inline">
+                                {{ range .Params.tags }}
+                                <li class="inline-block text-primary text-xs p-1 mr-2">
+                                    <a href="/{{ $.Site.Language }}/tags/{{ . }}" class="inline-flex items-center">
+                                        {{ partial "icon" (dict "name" "tag" "size" "3") }}
+                                        <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
+                                    </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div>
                       <button type="button" @click.prevent="toggle()" class="w-full text-left flex items-center justify-between text-primary">
-                          <span class="text-gray-800 text-xl font-bold py-2 pr-4">{{ .Title }}</span>
+                            <span class="text-gray-800 text-xl font-bold pb-2 pr-4">{{ .Title }}</span>
                           <span x-show="!show"> {{ partial "icon" (dict "name" "angle-down" "size" "10" "alt" "Show Answer") }} </span>
                           <span x-show="show" x-cloak> {{ partial "icon" (dict "name" "angle-up" "size" "10" "alt" "Hide Answer") }} </span>
                       </button>
+                      
                       <div
                           class="-mb-2 pb-4"
                           x-cloak

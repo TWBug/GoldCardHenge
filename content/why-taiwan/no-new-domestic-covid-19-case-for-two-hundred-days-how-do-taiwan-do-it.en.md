@@ -2,7 +2,6 @@
 title: No new domestic COVID-19 case for two hundred days, how do taiwan do it?
 draft: false
 tags:
-  - interesting
 categories:
   - local colour
 ---

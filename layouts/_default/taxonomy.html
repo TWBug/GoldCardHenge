@@ -43,38 +43,10 @@
     ></div>
     <section id="scroll">
         <div class="container py-12 sm:py-24 px-12 lg:px-24">
-            {{ partial "breadcrumb" . }}
-            <div class="border-t-2 border-secondary border-dashed mt-8">
-                {{ range sort .Pages "Title" "asc" }}
-                
-                {{ $image := "" }}
-                {{ if .Params.image }}
-                {{ $image = resources.Get (printf "%s" (.Params.image | safeURL)) }}
-                {{ end }}
-                
-                <div class="flex items-center border-b-2 border-secondary border-dashed py-8 px-2">
-                    <div class="w-1/4 flex-grow-0">
-                        {{ if $image }}
-                        <img src="{{ $image.RelPermalink | safeURL }}" alt="{{ .Page.Params.description | truncate 160 }}" class="w-full rounded-md" loading="lazy" />
-                        {{ end }}
-                    </div>
-                    <div class="w-3/4 flex-grow ml-8">
-                        
-                        <p class="text-xs font-semibold text-secondary">{{ printf (i18n "reading_time") .ReadingTime }}</p>
-                        <h2 class="text-2xl font-semibold text-primary hover:text-black">
-                            <a href="{{ .RelPermalink }}">
-                                {{ .Title }}
-                            </a>
-                        </h2>
-                        <p>
-                            {{ .Summary | truncate 250 }}
-                        </p>
-                    </div>
-                </div>
-                {{ end }}
-            </div>
-            {{ if .Content }}
-            <div class="copy">{{ .Content }}</div>
+            {{ if eq .Section "tags" }}
+            {{ partial "taxonomy-tags" . }}
+            {{ else }}
+            {{ partial "taxonomy-categories" . }}
             {{ end }}
         </div>
     </section>
