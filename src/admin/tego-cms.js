@@ -371,28 +371,51 @@ CMS.registerEditorComponent({
     ),
 });
 
+// CMS.registerEditorComponent({
+//     id: 'color-block',
+//     label: 'Color 顏色',
+//     fields: [
+//         { name: 'fg', label: 'Foreground 前景', widget: 'color', enableAlpha: true, required: false },
+//         { name: 'bg', label: 'Background 背景', widget: 'color', enableAlpha: true, required: false },
+//         { name: 'body', label: 'Text', widget: 'markdown' },
+//     ],
+//     pattern: /^{{< color-block fg="(.*?)" bg="(.*?)" >}}\n([\s\S]+?)\n{{< \/color-block >}}/,
+//     fromBlock: (match) => {
+//         return { fg: match[1], bg: match[2], body: match[3] };
+//     },
+//     toBlock: (obj) => {
+//         return `{{< color-block fg="${obj.fg || ''}" bg="${obj.bg || ''}" >}}\n${obj.body || ''}\n{{< /color-block >}}`;
+//     },
+//     toPreview: (obj) => {
+//         const style = {};
+//         if (obj.fg) style.color = obj.fg;
+//         if (obj.bg) style.backgroundColor = obj.bg;
+//         return <div style={style}>{obj.body}</div>;
+//     },
+// });
+
 CMS.registerEditorComponent({
-    id: 'color-block',
+    id: 'color-paragraph',
     label: 'Color 顏色',
     fields: [
-        { name: 'fg', label: 'Foreground 前景', widget: 'color', enableAlpha: true, required: false },
-        { name: 'bg', label: 'Background 背景', widget: 'color', enableAlpha: true, required: false },
+        {
+            name: 'color',
+            label: 'Text Color 文字顏色',
+            widget: 'select',
+            options: ['red', 'green', 'orange', 'yellow', 'teal', 'blue', 'indigo', 'purple', 'pink'],
+            required: false,
+        },
         { name: 'body', label: 'Text', widget: 'markdown' },
     ],
-    pattern: /^{{< color-block fg="(.*?)" bg="(.*?)" >}}\n([\s\S]+?)\n{{< \/color-block >}}/,
+    pattern: /^{{< color-paragraph color="(.*?)" >}}\n([\s\S]+?)\n{{< \/color-paragraph >}}/,
     fromBlock: (match) => {
-        return { fg: match[1], bg: match[2], body: match[3] };
+        return { color: match[1], body: match[2] };
     },
     toBlock: (obj) => {
-        return `{{< color-block fg="${obj.fg || ''}" bg="${obj.bg || ''}" >}}\n${obj.body || ''}\n{{< /color-block >}}`;
+        return `{{< color-paragraph color="${obj.color || ''}" >}}\n${obj.body || ''}\n{{< /color-paragraph >}}`;
     },
-    toPreview: (obj) => {
-        const style = {};
-        if (obj.fg) style.color = obj.fg;
-        if (obj.bg) style.backgroundColor = obj.bg;
-        return <div style={style}>{obj.body}</div>;
-    },
+    toPreview: (obj) => <p className={`text-${obj.color}-700`}>{obj.body}</p>,
 });
 
 // Register our custom styles
-CMS.registerPreviewStyle('/css/wysiwyg.css');
+CMS.registerPreviewStyle('/css/wysiwyg.min.css');

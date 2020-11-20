@@ -4,7 +4,7 @@
     {{ .Inner | markdownify }}
 </p>
 {{ else if eq $color "green" }}
-<p class="text-red-700">
+<p class="text-green-700">
     {{ .Inner | markdownify }}
 </p>
 {{ else if eq $color "orange" }}
@@ -13,10 +13,6 @@
 </p>
 {{ else if eq $color "brown" }}
 <p class="text-yellow-700">
-    {{ .Inner | markdownify }}
-</p>
-{{ else if eq $color "green" }}
-<p class="text-green-700">
     {{ .Inner | markdownify }}
 </p>
 {{ else if eq $color "teal" }}
