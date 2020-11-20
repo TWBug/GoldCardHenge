@@ -2,7 +2,7 @@
 <nav aria-label="breadcrumb">
     <div class="text-sm font-semibold">
         <ol class="flex flex-wrap items-center">
-            {{ template "breadcrumbnav" (dict "p1" . "p2" . ) }}
+            {{ template "breadcrumbnav" (dict "section" .Page.Section "p1" . "p2" . ) }}
         </ol>
     </div>
 </nav>
@@ -15,7 +15,15 @@
 {{ end }}
 {{ if eq .p1 .p2 }}
 <li class="breadcrumb">
-    {{ .p1.Title | humanize }}
+    {{ if or  (eq .section "tags") (eq .section "categories") }}
+        {{ if i18n .p1.Title }}
+            {{ i18n .p1.Title }}
+        {{ else }}
+            {{ .p1.Title | humanize }}
+        {{ end }}
+    {{ else }}
+    {{ .p1.Title }}
+    {{ end }}
 </li>
 {{ else if .p1.IsHome }}
 <li class="text-primary hover:text-black mr-2">
@@ -24,7 +32,15 @@
             {{ partial "icon" (dict "name" "home" "size" "4") }}
         </span>
         <span class="ml-2">
+            {{ if or  (eq .section "tags") (eq .section "categories") }}
+                {{ if i18n .p1.Title }}
+                    {{ i18n .p1.Title }}
+                {{ else }}
+                    {{ .p1.Title | humanize }}
+                {{ end }}
+            {{ else }}
             {{ .p1.Title }}
+            {{ end }}
         </span>
     </a>
 </li>

@@ -18,7 +18,11 @@
                 <div class="grid grid-cols-3 gap-24 items-center">
                     <div class="replace col-span-2">
                         <h1 class="text-white text-5xl leading-tight font-semibold mb-2">
+                            {{ if i18n .Title }}
+                            {{ i18n .Title }}
+                            {{ else }}
                             {{ .Title | humanize }}
+                            {{ end }}
                         </h1>
                         <p class="text-white font-semibold">{{ .Summary | humanize }}</p>
                     </div>

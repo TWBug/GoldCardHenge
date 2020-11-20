@@ -73,13 +73,25 @@
                     <h4 class="font-semibold uppercase text-sm mt-2">FAQ</h4>
                     <ul class="flex flex-wrap items-center">
                         {{ range .Site.Taxonomies.tags }}
-                        <li class="pr-2"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                        <li class="pr-2"><a href="{{ .Page.Permalink }}">
+                            {{ if i18n .Page.Title }}
+                            {{ i18n .Page.Title }}
+                            {{ else }}
+                            {{ .Page.Title | humanize }}
+                            {{ end }}
+                        </a></li>
                         {{ end }}
                     </ul>
                     <h4 class="font-semibold uppercase text-sm mt-2">News</h4>
                     <ul class="flex flex-wrap items-center">
                         {{ range .Site.Taxonomies.categories }}
-                        <li class="pr-2"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+                        <li class="pr-2"><a href="{{ .Page.Permalink }}">
+                            {{ if i18n .Page.Title }}
+                            {{ i18n .Page.Title }}
+                            {{ else }}
+                            {{ .Page.Title | humanize }}
+                            {{ end }}
+                        </a></li>
                         {{ end }}
                     </ul>
                     

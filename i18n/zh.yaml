@@ -48,3 +48,13 @@
   translation: 'Legal'
 - id: undefined
   translation: 'UNDEFINED'
+- id: card
+  translation: '卡'
+- id: usa
+  translation: '美國'
+- id: super
+  translation: '超'
+- id: cool
+  translation: '涼'
+- id: first
+  translation: '第一'
