@@ -50,6 +50,12 @@ A perfect application takes 30 days, if your supporting documents are accepted t
 During the **COVID-19** pandemic, we have seen ‘normal’ applications take as long as 80 days. Applicants who elected to pick their card up overseas are severely affected by the pandemic’s impact on the postal network.
 {{< /quote >}}
 
+{{< color-paragraph color="red" >}}
+
+During the **COVID-19** pandemic, we have seen ‘normal’ applications take as long as 80 days. Applicants who elected to pick their card up overseas are severely affected by the pandemic’s impact on the postal network.
+
+{{< /color-paragraph >}}
+
 ### Do I apply for the Gold Card personally, or should I ask my employer to do that?
 
 Generally you should apply personally for the Taiwan Gold Card. Employers can help with the process, but you do not need their sponsorship or support to apply for the card. Additionally, the card once issued contains an open work permit that allows you to work for any company. If someone is asking you for large sums of money to help with your gold card application, it could be a scam.
