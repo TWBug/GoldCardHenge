@@ -13,7 +13,7 @@ draft: false
 * Documents verifying salary or income tax payment relating to employment at a technology company **(if the company's manufacturing or R&D achievements, and the individual's contributions as a participant, are consistent with the fields listed in article 2 or 3 of the eligibility/prerequisites column).**
 * Documents verifying salary or income tax payment relating to employment at a public or private university in Taiwan or abroad, or academic research institution in Taiwan or abroad.
 
-*註：學術研究機構係以從事學術研究為宗旨之任何機構。*
+*Note: Academic research institute refers to any institute with research as its core mission.*
 
 ### 2. 在各類軟體應用、軟體技術、奈米、微機電技術、光電技術、資訊及通訊技術、通訊傳播技術、自動化系統整合技術、材料應用技術、高精密感測技術、生物科技、資源開發或能源節約及尖端基礎研究、國防及軍事戰略等尖端科技上具有獨到才能或有傑出研發設計或有新創實績。
 
