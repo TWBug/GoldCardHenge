@@ -18,7 +18,7 @@
             <span x-show="{{ printf "!dropdown.%s" .topic }}">
                 {{ partial "icon" (dict "name" "angle-down" "size" "6") }}
             </span>
-            <span x-show="{{ printf "dropdown.%s" .topic }}">
+            <span x-show="{{ printf "dropdown.%s" .topic }}" x-cloak>
                 {{ partial "icon" (dict "name" "angle-up" "size" "6") }}
             </span>
         {{ else }}
