@@ -1,0 +1,27 @@
+<div class="lg:hidden flex flex-col items-center justify-center mb-12" x-data="taFilter()" x-init="init()">
+    <div class="flex items-center pb-4">
+        {{ partial "icon" (dict "name" "filter" "size" "4") }}
+        <span class="text-xl font-bold ml-2">Filter FAQ</span>
+    </div>
+    <ul class="flex justify-center flex-wrap" x-ref="content">
+        {{ range .Site.Taxonomies.tags }}
+        <li class="inline-block border-2 border-primary rounded-lg text-white text-sm mr-2 mb-2" :class="{ 'bg-white text-primary': !tags.{{ .Page.Title }}, 'bg-primary': tags.{{ .Page.Title }} }" data-tag="{{ .Page.Title }}">
+            <a href="{{ .Page.Permalink }}" @click.prevent="toggle('{{ .Page.Title }}')" class="flex items-center px-3 py-1">
+                <div x-show="tags.{{ .Page.Title }}">
+                    {{ partial "icon" (dict "name" "times" "size" "3") }}
+                </div>
+                <div x-show="!tags.{{ .Page.Title }}" x-cloak>
+                    {{ partial "icon" (dict "name" "plus" "size" "3") }}
+                </div>
+                <span class="font-bold uppercase ml-2">
+                {{ if (i18n .Page.Title) }}
+                {{ i18n .Page.Title }}
+                {{ else }}
+                {{ .Page.Title }}
+                {{ end }}
+                </span>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>

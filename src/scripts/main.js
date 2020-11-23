@@ -1,17 +1,18 @@
 Spruce.store(
     'filter',
     {
-        tags: [],
+        faqs: {},
+        empty: false,
         log() {
-            console.info('tags', this.tags);
+            console.info('faqs', this.faqs);
         },
     },
-    true
+    false
 );
 
-window.languageDetection.init()
-window.highlight.replace()
-window.linksTargetBlank.replace()
-window.addEventListener('resize', handleResize)
-handleResize()
-smoothScroll()
+window.languageDetection.init();
+window.highlight.replace();
+window.linksTargetBlank.replace();
+window.addEventListener('resize', handleResize);
+handleResize();
+smoothScroll();

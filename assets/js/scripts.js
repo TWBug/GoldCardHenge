@@ -273,12 +273,54 @@ function smoothScroll() {
 
 window.taFilter = function () {
   return {
-    tags: [],
-    "default": {
-      language: 'en',
-      supported: ['en', 'zh']
+    tags: {},
+    active: [],
+    // default: {
+    //     language: 'en',
+    //     supported: ['en', 'zh'],
+    // },
+    init: function init() {
+      var content = this.$refs.content.childNodes;
+
+      for (var index = 0; index < content.length; index++) {
+        var tag = content[index].dataset.tag;
+        this.active.push(tag);
+        this.tags[tag] = true;
+      }
     },
-    init: function init() {}
+    toggle: function toggle(tag) {
+      if (this.tags[tag] === true) {
+        this.active.splice(this.active.indexOf(tag), 1);
+      } else {
+        this.active.push(tag);
+      }
+
+      this.tags[tag] = !this.tags[tag];
+      this.checkFaqs();
+    },
+    checkFaqs: function checkFaqs() {
+      var count = 0;
+
+      for (var key in this.$store.filter.faqs) {
+        if (this.$store.filter.faqs.hasOwnProperty(key)) {
+          var active = false;
+
+          for (var index = 0; index < this.active.length; index++) {
+            var tag = this.active[index];
+
+            if (this.$store.filter.faqs[key].tags.indexOf(tag) !== -1) {
+              active = true;
+              count++;
+              break;
+            }
+          }
+
+          this.$store.filter.faqs[key].active = active;
+        }
+      }
+
+      this.$store.filter.empty = count > 0 ? false : true;
+    }
   };
 };
 "use strict";
@@ -558,7 +600,21 @@ window.taAccordion = function () {
   return {
     show: false,
     "default": {},
-    init: function init() {},
+    init: function init(tags) {
+      if (typeof this.$store === 'undefined') {
+        return false;
+      }
+
+      if (typeof this.$store.filter === 'undefined') {
+        return false;
+      }
+
+      var id = this.$el.id;
+      this.$store.filter.faqs[id] = {
+        active: true,
+        tags: tags
+      };
+    },
     toggle: function toggle() {
       this.show = !this.show;
     }
@@ -623,11 +679,12 @@ window.onload = function () {
 "use strict";
 
 Spruce.store('filter', {
-  tags: [],
+  faqs: {},
+  empty: false,
   log: function log() {
-    console.info('tags', this.tags);
+    console.info('faqs', this.faqs);
   }
-}, true);
+}, false);
 window.languageDetection.init();
 window.highlight.replace();
 window.linksTargetBlank.replace();

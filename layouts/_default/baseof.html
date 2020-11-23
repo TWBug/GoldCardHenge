@@ -2,7 +2,7 @@
     <head>
         {{ block "head" . }}
         {{ partial "head" . }}
-        {{ partial "head-alpine" }}
+        {{ partial "head-alpine" ( dict "spruce" "true" ) }}
         {{ end }}
     </head>
     {{ if eq .Site.Language.Lang "zh" }}

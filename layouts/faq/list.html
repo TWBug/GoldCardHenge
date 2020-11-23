@@ -48,10 +48,17 @@
       <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
                 <div class="lg:col-span-2 pt-10">
+                    {{ partial "page-tags-filter" . }}
                     {{ range .RegularPages}}
-                    <div class="border-t-2 border-secondary border-dashed p-4" x-data="taAccordion()">
+                    <div id="{{.File.UniqueID}}" class="border-t-2 border-secondary border-dashed p-4" x-data="taAccordion()" x-init="init([{{ printf "\"%s\"" (delimit .Params.tags "\",\"") }}])" x-show="$store.filter.faqs['{{.File.UniqueID}}'].active"
+                    x-transition:enter="transition transform ease-out duration-200"
+                    x-transition:enter-start="opacity-0 -translate-y-5"
+                    x-transition:enter-end="opacity-100"
+                    x-transition:leave="transition transform ease-in duration-100"
+                    x-transition:leave-start="opacity-100"
+                    x-transition:leave-end="opacity-0 -translate-y-5">
                       <button type="button" @click.prevent="toggle()" class="w-full text-left flex items-center justify-between text-primary">
-                            <span class="text-gray-800 text-xl font-bold pb-2 pr-4">{{ .Title }}</span>
+                            <span class="text-gray-800 text-xl font-bold pr-4">{{ .Title }}</span>
                           <span x-show="!show"> {{ partial "icon" (dict "name" "angle-down" "size" "10" "alt" "Show Answer") }} </span>
                           <span x-show="show" x-cloak> {{ partial "icon" (dict "name" "angle-up" "size" "10" "alt" "Hide Answer") }} </span>
                       </button>               
@@ -66,14 +73,14 @@
                           x-transition:leave-start="opacity-100"
                           x-transition:leave-end="opacity-0 -translate-y-5"
                       >
-                        <ul class="mb-1">
+                        {{/*  <ul class="my-1">
                             {{ range .Params.tags }}
                             <li class="inline-flex items-center text-primary text-xs p-1 mr-2">
                                 {{ partial "icon" (dict "name" "plus" "size" "3") }}
                                 <span class="font-semibold uppercase ml-2"> {{ . | humanize }} </span>
                             </li>
                             {{ end }}
-                        </ul>
+                        </ul>  */}}
                         <div class="copy text-base font-regular">
                             <a href="{{.RelPermalink}}" class="inline-block float-right text-primary p-4" target="_blank">
                                 {{ partial "icon" (dict "name" "link" "size" "4" "alt" "Link to FAQ") }}
@@ -84,13 +91,22 @@
                     </div>
                     {{ end }}
                     
+                    <div class="flex items-center" x-data x-show="$store.filter.empty" x-cloak>
+                        <div class="flex-shrink-0 flex-center text-blue-800 px-4">
+                            {{ partial "icon" (dict "name" "info" "size" "8" "alt" "Info") }}
+                        </div>
+                        <div class="text-blue-900 font-medium leading-relaxed text-md text-left italic pl-2 py-4">
+                            No faqs available! Please select one or more tags to show some FAQs...
+                        </div>
+                    </div>
+                    
                     {{ if .Content }}
                     <div class="copy mt-12">{{ .Content }}</div>
                     {{ end }}
                     
                 </div>
                 <div class="-mt-12">
-                  {{ partial "page-all-tags" . }}
+                  {{ partial "page-aside-tags-filter" . }}
                   {{ partial "page-call-to-action" (dict "style" "dark" ) }}
                   {{ partial "page-latest-news" . }}
                 </div>
