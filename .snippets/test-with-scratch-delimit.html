@@ -1,0 +1,14 @@
+{{ $heromessages := "" }}
+{{ .Scratch.Set "heromessages" "" }}
+{{ range $hero.Params.items }}
+{{/*  {{ .label }}  */}}
+{{ $.Scratch.Add "heromessages" .label }}
+{{/*  {{ apply $heromessages .label }}  */}}
+{{ end }}
+
+{{ $heromessages }}
+
+//
+{{ .Scratch.Get "heromessages"}}
+{{/*  {{ delimit (.Scratch.Get "heromessages") ", " }}  */}}
+//
