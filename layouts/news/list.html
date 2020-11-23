@@ -62,12 +62,12 @@
                           <div class="flex items-center text-xs font-bold text-secondary mb-1">
                             {{ partial "icon" (dict "name" "clock" "size" "4") }}
                             <span class="ml-2">
-                              {{ dateFormat "January 2006" .Lastmod }}
+                                {{ partial "date" (dict "date" .Lastmod "lang" .Site.Language.Lang )}}
                             </span>
                           </div>
                             <h2 class="text-2xl font-bold text-primary mb-1 hover:text-black">
                                 <a href="{{ .RelPermalink }}">
-                                    {{ .Title }}
+                                    {{ .Title | truncate 110 }}
                                 </a>
                             </h2>
                             <p class="text-base mb-4">
