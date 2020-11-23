@@ -22,7 +22,7 @@
             {{ .p1.Title | humanize }}
         {{ end }}
     {{ else }}
-    {{ .p1.Title }}
+    {{ .p1.Title | truncate 60 }}
     {{ end }}
 </li>
 {{ else if .p1.IsHome }}
@@ -39,14 +39,16 @@
                     {{ .p1.Title | humanize }}
                 {{ end }}
             {{ else }}
-            {{ .p1.Title }}
+            {{ .p1.Title | truncate 60 }}
             {{ end }}
         </span>
     </a>
 </li>
 {{ else }}
 <li class="breadcrumb text-primary hover:text-black mr-2">
-    <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
+    <a href="{{ .p1.Permalink }}">
+        {{ .p1.Title | truncate 60 }}
+    </a>
 </li>
 {{ end }}
 {{ end }}

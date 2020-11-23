@@ -32,7 +32,7 @@
 {{ with .Params.Author }}
 <meta name="author" content="Author name" />
 {{ end }}
-<meta property="og:title" content="{{ .Page.Title | markdownify | plainify }}">
+<meta property="og:title" content="{{ .Page.Title | markdownify | plainify | truncate 60 }}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ .Page.Permalink }}">
 <meta property="og:description" content="{{ .Summary | truncate 200 }}">
@@ -40,7 +40,7 @@
 <meta property="og:image" content="{{ $media_image.Permalink | safeURL }}">
 <meta name="twitter:image" content="{{ $media_image.Permalink | safeURL }}">
 <meta name="twitter:site" content="{{ .Site.Title }}">
-<meta name="twitter:title" content="{{ .Page.Title | markdownify | plainify }}">
+<meta name="twitter:title" content="{{ .Page.Title | markdownify | plainify | truncate 60 }}">
 <meta name="twitter:description" content="{{ .Summary | truncate 200 }}">
 <meta name="twitter:card" content="summary_large_image">
 {{ if .IsTranslated }}
@@ -58,7 +58,7 @@
 <link rel="icon" type="image/png" sizes="96x96" href="{{ $favicon96.RelPermalink }}" />
 <link rel="apple-touch-icon" sizes="144x144" href="{{ $appleicon144.RelPermalink }}" />
 <link rel="canonical" href="{{ .Page.Permalink }}" />
-<title>{{ .Page.Title | safeHTML }} | {{ .Site.Title }}</title>
+<title>{{ .Page.Title | truncate 60 }} | {{ .Site.Title }}</title>
 {{ if eq .Site.Language.Lang "zh" }}
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&Krub:wght@300;400;500;600;700&display=swap"
