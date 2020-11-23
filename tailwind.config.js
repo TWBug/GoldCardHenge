@@ -75,6 +75,7 @@ module.exports = {
             },
             maxWidth: (theme) => ({
                 xxs: '12rem',
+                fit: 'fit-content',
                 ...theme('spacing'),
             }),
             minWidth: (theme) => ({

@@ -1,6 +1,9 @@
 <html lang="{{ .Site.Language.Lang }}">
     <head>
+        {{ block "head" . }}
         {{ partial "head" . }}
+        {{ partial "head-alpine" }}
+        {{ end }}
     </head>
     {{ if eq .Site.Language.Lang "zh" }}
     <body
@@ -14,6 +17,10 @@
             {{ partial "footer" . }}
         </div>
         {{ partial "welcome" . }}
-        {{ partial "scripts" . }}
+        {{ block "scripts" . }}
+        {{ partial "scripts-global" }}
+        {{ partial "scripts-analytics" }}
+        {{ partial "scripts-lunr" }}
+        {{ end }}
     </body>
 </html>

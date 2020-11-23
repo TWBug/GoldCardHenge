@@ -1,3 +1,15 @@
+{{ define "head" }}
+{{ partial "head" . }}
+{{ partial "head-alpine" ( dict "spruce" "true" ) }}
+{{ end }}
+
+{{ define "scripts" }}
+{{ partial "scripts-global" }}
+{{ partial "scripts-local" }}
+{{ partial "scripts-analytics" }}
+{{ partial "scripts-lunr" }}
+{{ end }}
+
 {{ define "main" }}
 
 {{ $cover_image := "" }}
@@ -5,66 +17,46 @@
 {{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
 {{ end }}
 
-<div class="relative bg-blue-500 shadow-xl">
+<div class="relative shadow-xl">
     {{ partial "navigation" . }}
-    <div class="relative bg-nav-meta flex items-center z-0 pt-16 pb-16 min-h-screen-1/3">
-        <div class="absolute inset-x-0 top-0 h-3/4 bg-gradient-to-b from-black to-transparent opacity-25 -z-1"></div>
-        <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
-            <img src="/img/list-mountains.svg" alt="" class="block w-full">
-        </div>
-        <div class="absolute right-0 bottom-0 text-xs font-bold text-white text-opacity-25 p-2">FAQ LIST TEMPLATE</div>
-        <div class="container">
-            <div class="px-24 ">
-                <div class="grid grid-cols-3 gap-12 xxl:gap-24 items-center">
-                    <div class="replace col-span-2">
-                        <h1 class="text-white text-6xl leading-tight font-semibold mb-2">
-                            {{ .Title }}
-                        </h1>
-                        <p class="text-white text-2xl font-medium leading-relaxed">{{ .Summary }}</p>
-                    </div>
-                    <div>
-                        {{ if $cover_image }}
-                        <img src="{{ $cover_image.RelPermalink }}" class="w-full" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
-                        {{ end }}
-                    </div>
-                </div>
+</div>
+
+<div class="relative flex items-center z-0 pt-16">
+    <div class="absolute right-0 bottom-0 text-xs font-bold text-gray-300 p-2">FAQ LIST TEMPLATE</div>
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
+    ></div>
+    <div class="container px-12 lg:px-24">
+        <div class="grid md:grid-cols-3 gap-12 xxl:gap-24 items-center">
+            <div>
+                {{ if $cover_image }}
+                <img src="{{ $cover_image.RelPermalink }}" class="w-full" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
+                {{ end }}
+            </div>
+            <div class="replace col-span-2">
+                <h1 class="text-5xl leading-tight font-semibold mb-2">
+                    {{ .Title }}
+                </h1>
+                <p class="text-xl font-medium leading-relaxed">{{ .Summary }}</p>
             </div>
         </div>
     </div>
 </div>
+
 <div class="relative flex-grow">
-    <div
-        class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
-    ></div>
     <section id="scroll">
       <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
                 <div class="lg:col-span-2 pt-10">
-                    
-
-
                     {{ range .RegularPages}}
                     <div class="border-t-2 border-secondary border-dashed p-4" x-data="taAccordion()">
-                        <div class="">
-                            <ul class="inline">
-                                {{ range .Params.tags }}
-                                <li class="inline-block text-primary text-xs p-1 mr-2">
-                                    <a href="/{{ $.Site.Language }}/tags/{{ . }}" class="inline-flex items-center">
-                                        {{ partial "icon" (dict "name" "tag" "size" "3") }}
-                                        <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
-                                    </a>
-                                </li>
-                                {{ end }}
-                            </ul>
-                        </div>
                       <button type="button" @click.prevent="toggle()" class="w-full text-left flex items-center justify-between text-primary">
                             <span class="text-gray-800 text-xl font-bold pb-2 pr-4">{{ .Title }}</span>
                           <span x-show="!show"> {{ partial "icon" (dict "name" "angle-down" "size" "10" "alt" "Show Answer") }} </span>
                           <span x-show="show" x-cloak> {{ partial "icon" (dict "name" "angle-up" "size" "10" "alt" "Hide Answer") }} </span>
-                      </button>
-                      
+                      </button>               
                       <div
-                          class="-mb-2 pb-4"
+                          class="-mb-2 pb-2"
                           x-cloak
                           x-show="show"
                           x-transition:enter="transition transform ease-out duration-200"
@@ -74,15 +66,20 @@
                           x-transition:leave-start="opacity-100"
                           x-transition:leave-end="opacity-0 -translate-y-5"
                       >
-                            <div class="copy text-base font-regular">
-                              {{ .Content }}
-                            </div>
-                          <div class="text-right">
-                            
-                            <a href="{{.RelPermalink}}" class="inline-block text-primary" target="_blank">
-                              {{ partial "icon" (dict "name" "link" "size" "4" "alt" "Link to FAQ") }}
+                        <ul class="mb-1">
+                            {{ range .Params.tags }}
+                            <li class="inline-flex items-center text-primary text-xs p-1 mr-2">
+                                {{ partial "icon" (dict "name" "plus" "size" "3") }}
+                                <span class="font-semibold uppercase ml-2"> {{ . | humanize }} </span>
+                            </li>
+                            {{ end }}
+                        </ul>
+                        <div class="copy text-base font-regular">
+                            <a href="{{.RelPermalink}}" class="inline-block float-right text-primary p-4" target="_blank">
+                                {{ partial "icon" (dict "name" "link" "size" "4" "alt" "Link to FAQ") }}
                             </a>
-                          </div>
+                            {{ .Content }}
+                        </div>
                       </div>
                     </div>
                     {{ end }}

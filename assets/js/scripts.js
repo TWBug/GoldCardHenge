@@ -271,6 +271,18 @@ function smoothScroll() {
 }
 "use strict";
 
+window.taFilter = function () {
+  return {
+    tags: [],
+    "default": {
+      language: 'en',
+      supported: ['en', 'zh']
+    },
+    init: function init() {}
+  };
+};
+"use strict";
+
 window.taImageViewer = function () {
   return {
     modal: false,
@@ -610,6 +622,12 @@ window.onload = function () {
 };
 "use strict";
 
+Spruce.store('filter', {
+  tags: [],
+  log: function log() {
+    console.info('tags', this.tags);
+  }
+}, true);
 window.languageDetection.init();
 window.highlight.replace();
 window.linksTargetBlank.replace();
