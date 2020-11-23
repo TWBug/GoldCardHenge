@@ -1,5 +1,5 @@
 ---
-title: 探索台灣就業金卡如何為您幫助
+title: 探索台灣就業金卡幫助
 summary: "In order to qualify for an Employment Gold Card your skills must be
   related to one of eight areas: Science and Technology, Economics, Education,
   Culture and Art, Sport, Finance, Law and Architecture."
