@@ -8,6 +8,11 @@
 {{ $setup := $headless.Resources.GetMatch "setup*" }}
 {{ $expand := $headless.Resources.GetMatch "expand*" }}
 
+{{ $heromessages := slice }}
+{{ range $hero.Params.items }}
+{{ $heromessages = $heromessages | append .label }}
+{{ end }}
+
 <div class="relative min-h-screen-full sm:min-h-screen-2/3 xl:min-h-screen-1/2 bg-blue-500 shadow-xl print:shadow-none">
     {{ partial "navigation" .  }}
     <div class="absolute inset-0 bg-blue-400 print:hidden">
@@ -18,7 +23,7 @@
             <div class="w-full lg:w-5/6 p-12">
                 
                 <h1 class="text-6xl bg-white leading-snug font-regular padded">
-                  <span class="typing" data-period="2000" data-rotate='[ "Working in Taiwan?", "New opportunities in Asia?", "Next career jump?" ]'></span><br />
+                  <span class="typing" data-period="2000" data-rotate='[ {{ printf "\"%s\"" (delimit $heromessages "\", \"") }} ]'></span><br />
                     {{ $hero.Title | markdownify }}
                 </h1>
                 <div class="mt-12 -ml-4">
