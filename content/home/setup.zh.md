@@ -26,5 +26,9 @@ items:
   - preview: /img/dummy-icon.svg
     label: How to set-up
     href: /news/single
+  - is_cta: false
+    label: +
+  - is_cta: false
+    label: +
 ---
 <!-- This text is never used -->
