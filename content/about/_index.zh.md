@@ -1,6 +1,6 @@
 ---
-title: "What is the Gold Card?"
-summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odit dolores debitis tempore rerum vitae. Rem excepturi nihil ullam corrupti unde vero facilis."
+title: "就業金卡是什麼？"
+summary: "目前我國面臨工作年齡人口下降之人口結構轉變，加以國際人才競逐激烈、我國吸引外國專業人才誘因不足等，造成人才外流及人才短缺問題日趨嚴重。因此，加強延攬外國專業人才，打造友善的生活環境，以提升國家競爭力，是政府當前施政重點之一。"
 date: 2020-11-05T07:09:20.617Z
 publishDate: 2020-11-05T07:09:20.617Z
 draft: false
