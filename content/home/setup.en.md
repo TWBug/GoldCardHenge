@@ -9,22 +9,22 @@ headless: true
 links: null
 items:
   - preview: /img/dummy-icon.svg
-    label: How to set-up
-    href: /news/single
+    label: Architecture
+    href: /qualification/field-of-architecture
   - preview: /img/dummy-icon.svg
-    label: How to set-up
-    href: /news/single
+    label: Arts and Culture
+    href: /qualification/field-of-culture-and-arts
   - preview: /img/dummy-icon.svg
-    label: How to set-up
-    href: /news/single
+    label: Economy
+    href: /qualification/field-of-economy
   - preview: /img/dummy-icon.svg
-    label: How to set-up
-    href: /news/single
+    label: Education
+    href: /qualification/field-of-education
   - preview: /img/dummy-icon.svg
-    label: How to set-up
-    href: /news/single
+    label: Finance
+    href: /qualification/field-of-finance
   - preview: /img/dummy-icon.svg
-    label: How to set-up
-    href: /news/single
+    label: Science and Technology
+    href: /qualification/field-of-science-technology
 ---
 <!-- This text is never used -->
