@@ -1,16 +1,16 @@
 ---
-title: About
-summary: All about the Tiawan Gold Card
-date: 2020-11-05T07:09:20.617Z
-publishDate: 2020-11-05T07:09:20.617Z
+media_image: null
+summary: All about the Taiwan Gold Card
 draft: false
+media_image_alt: null
+date: 2020-11-05T07:09:20.617Z
+layout: null
 topic: resources
-cover_image: 
-cover_image_alt:
-media_image:
-media_image_alt:
-tags:
-categories:
-layout:
+cover_image: null
+title: About
+tags: null
+categories: null
+publishDate: 2020-11-05T07:09:20.617Z
+cover_image_alt: null
 ---
 Here we will discuss the project and it's purpose for existing.

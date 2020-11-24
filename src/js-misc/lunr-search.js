@@ -77,7 +77,7 @@ const renderResults = (results, query) => {
                     {
                         style: 'padding:10px;font-size:36px;text-align:center;',
                     },
-                    `No resulst for "${query}"`
+                    `No results for "${query}"`
                 )
             )
         );
