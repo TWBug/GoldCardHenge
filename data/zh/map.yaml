@@ -69,3 +69,10 @@ items:
       local: "Taipei, Taiwan"
       decription: "Digital Transformation Consulting"
       image: "member-lh-liu.jpg"
+    - name: "S. Khan"
+      left: 25.13
+      top: 50
+      origin: "Peshawar, Pakistan"
+      local: "Kaohsiung, Taiwan"
+      description: "IoT Specialist"
+      image: "member-s-khan.jpg"

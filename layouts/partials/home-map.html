@@ -75,6 +75,10 @@
     @keyframes animation-fade {
         0% {
             opacity: 0;
+            z-index: -1;
+        }
+        1% {
+            opacity: 0;
             z-index: 0;
         }
         25% {
@@ -89,9 +93,13 @@
             opacity: 0;
             z-index: 0;
         }
+        76% {
+            opacity: 0;
+            z-index: -1;
+        }
         100% {
             opacity: 0;
-            z-index: 0;
+            z-index: -1;
         }
     }
 </style>
