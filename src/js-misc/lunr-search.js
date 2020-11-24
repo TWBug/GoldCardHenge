@@ -88,31 +88,42 @@ const renderResults = (results, query) => {
 
     const excerptSize = 300;
 
+    // For indexing purposes the Chinese entries included spaced chinese words,
+    // which is very unnatural fo reading. So we strip the spaces out for
+    // display.
+    const stripSpaces = (str) => {
+        return str.replace(/ +/g, '');
+    };
+
     // Only show the ten first results
     const links = results.slice(0, 10).map((x) => {
-        const matchIndex = x.content.indexOf(query);
+        const title = isChineseUI ? stripSpaces(x.title) : x.title;
+        const content = isChineseUI ? stripSpaces(x.content) : x.content;
+        const matchIndex = content.indexOf(query);
 
         // The "excerpt" is a bit of text with a span highlighting the search
         // text. That's what all this logic is for.
         const excerpt =
             matchIndex === -1
-                ? [x.content.slice(0, excerptSize), '...']
+                ? [content.slice(0, excerptSize), '...']
                 : [
-                      x.content.slice(Math.max(0, matchIndex - excerptSize / 2), matchIndex),
+                      content.slice(Math.max(0, matchIndex - excerptSize / 2), matchIndex),
                       el('span', {}, query),
-                      x.content.slice(matchIndex + query.length, matchIndex + excerptSize / 2),
+                      content.slice(matchIndex + query.length, matchIndex + excerptSize / 2),
                   ];
         return el(
             'a',
             {
                 href: x.href,
             },
-            el('h4', {}, x.title),
+            el('h4', {}, title),
             el('p', {}, ...excerpt)
         );
     });
     $results.appendChild(el('div', { class: 'search-result-list' }, ...links));
 };
+
+const isChineseUI = window.location.pathname.startsWith('/zh/');
 
 // Initialize lunrjs using our generated index file
 const initLunr = () => {
@@ -126,7 +137,7 @@ const initLunr = () => {
             // Set up lunrjs by declaring the fields we use
             // Also provide their boost level for the ranking
             lunrIndex = lunr(function () {
-                if (window.location.pathname.startsWith('/zh/')) {
+                if (isChineseUI) {
                     console.log('[INFO] 中文頁面，開啟Lunr中文支援');
                     this.use(lunr.zh); // Set up Chinese support
                 }
