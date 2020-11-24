@@ -17,5 +17,8 @@ dict/trad.dict.utf8: tmp/trad.dict.utf8
 	@mkdir -p dict
 	@cp tmp/trad.dict.utf8 dict/
 	
-lunr-index: dict/trad.dict.utf8
+# NOTE: This really depends on dict/trad.dict.utf8 but we get no caching wins
+# whatsoever when building on netlify because there is no tmp directory. So I'm
+# just running it directly.
+lunr-index:
 	node scripts/build-lunr-index.js
