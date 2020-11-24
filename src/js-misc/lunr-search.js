@@ -2,6 +2,11 @@ const { assert } = console;
 
 assert(window.lunr, 'Lunr.js not found. Search cannot be supported without Lunr.js.');
 
+const isChineseUI = window.location.pathname.startsWith('/zh/');
+
+// This lovely regex initially came from here: https://github.com/stkevintan/hugo-lunr-zh#readme
+const hasChineseCharacters = (str) => /[\u4E00-\u9FA5\uF900-\uFA2D]/.test(str);
+
 const el = (tagName, props = {}, ...children) => {
     const node = document.createElement(tagName);
 
@@ -32,7 +37,7 @@ lunr.zh = function () {
 
 lunr.zh.trimmer = function (token) {
     return token.update((str) => {
-        if (/[\u4E00-\u9FA5\uF900-\uFA2D]/.test(str)) return str;
+        if (hasChineseCharacters(str)) return str;
         return str.replace(/^\W+/, '').replace(/\W+$/, '');
     });
 };
@@ -68,19 +73,37 @@ const renderResults = (results, query) => {
     emptyEl($results);
 
     if (!results.length) {
-        $results.appendChild(
-            el(
-                'div',
-                {},
+        const msg = isChineseUI ? `找不到結果` : `No results found for "${query}"`;
+
+        const children = [
+            el('h1', { style: 'padding:10px;font-size:36px;text-align:center;' }, msg),
+        ];
+
+        // If this is the english UI but the user searches in chinese
+        if (!isChineseUI && hasChineseCharacters(query)) {
+            children.push(
                 el(
-                    'h1',
-                    {
-                        style: 'padding:10px;font-size:36px;text-align:center;',
-                    },
-                    `No results for "${query}"`
+                    'p',
+                    { class: 'text-center' },
+                    '想用中文搜尋嗎？',
+                    el(
+                        'a',
+                        {
+                            href: '/zh/',
+                            class: 'inline-block px-2 py-3 mx-1 text-blue-700 underline',
+                            title: 'Change Language',
+                            onclick: (e) => {
+                                e.preventDefault();
+                                window.taLanguage().switchLanguage('zh');
+                            },
+                        },
+                        '點此處來換成中文'
+                    )
                 )
-            )
-        );
+            );
+        }
+
+        $results.appendChild(el('div', {}, ...children));
         return;
     }
 
@@ -122,8 +145,6 @@ const renderResults = (results, query) => {
     });
     $results.appendChild(el('div', { class: 'search-result-list' }, ...links));
 };
-
-const isChineseUI = window.location.pathname.startsWith('/zh/');
 
 // Initialize lunrjs using our generated index file
 const initLunr = () => {

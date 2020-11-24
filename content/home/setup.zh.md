@@ -23,6 +23,12 @@ items:
   - preview: /img/dummy-icon.svg
     label: How to set-up
     href: /news/single
+  - is_cta: false
+    label: How to set-up
+    href: /news/single
+  - is_cta: false
+    label: How to set-up
+    href: /news/single
   - preview: /img/dummy-icon.svg
     label: How to set-up
     href: /news/single

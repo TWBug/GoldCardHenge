@@ -3,7 +3,10 @@
 build:
 	@npm run build:staging
 	
-tmp/jieba.dict.utf8:
+node_modules/nodejieba:
+	@npm install nodejieba
+
+tmp/jieba.dict.utf8: node_modules/nodejieba
 	@cp node_modules/nodejieba/dict/jieba.dict.utf8 tmp/
 	
 # Warn if opencc is not installed, but keep it a warning. 
