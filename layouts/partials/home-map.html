@@ -1,3 +1,66 @@
-<div class="relative mb-6 min-h-96 overflow-x-scroll">
-    <img src="/img/dummy-map.png" alt="Temp Map" class="block max-w-fit" style="width: 800px;" />
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<div id="map" class="relative my-6 overflow-x-auto">
+    <div class="wrapper">
+        {{range $index, $element := $data.map.items}}
+        <div
+            class="member border-4 border-secondary-dark rounded-full overflow-hidden"
+            style="--left:{{ $element.left }}%;--top:{{ $element.top }}%;--delay:{{ mul $index 2000 }}ms"
+        >
+            <img src="/img/{{ $element.image }}" alt="{{ printf "Portrait %s" $element.name }}" class="absolute inset-0 w-full h-full"
+            />
+        </div>
+        {{ end }}
+        <img src="/img/map.svg" alt="Temp Map" class="block w-full -z-1" />
+    </div>
 </div>
+
+<style>
+    .member {
+        position: absolute;
+        left: var(--left);
+        top: var(--top);
+        background-color: #ffffff;
+        width: 52px;
+        height: 52px;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-delay: var(--delay);
+        animation-direction: normal;
+        animation-name: animation-fade;
+        animation-duration: 15s;
+        animation-fill-mode: both;
+    }
+
+    .wrapper {
+        position: relative;
+        margin: 0 auto;
+        width: 1130px;
+        height: 544px;
+    }
+
+    @keyframes animation-fade {
+        0% {
+            opacity: 0;
+        }
+        25% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 1;
+        }
+        75% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+</style>
+
+<script>
+    var element = document.getElementById('map');
+    element.scrollLeft = 300;
+</script>
