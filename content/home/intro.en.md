@@ -21,7 +21,7 @@ items:
     href: /why-taiwan/no-new-domestic-covid-19-case-for-two-hundred-days-how-do-taiwan-do-it/
   - is_cta: false
     label: Why Taiwan
-    href: /news/single
+    href: /news/1532-gold-cards-issued-to-date
   - is_cta: false
     label: Why Taiwan
     href: /news/single

@@ -21,7 +21,7 @@ items:
     href: /news/single
   - is_cta: false
     label: Covid-19
-    href: /why-taiwan/no-new-domestic-covid-19-case-for-two-hundred-days-how-do-taiwan-do-it/
+    href: /why-taiwan/no-new-domestic-covid-19-case-for-two-hundred-days-how-do-taiwan-do-it
   - is_cta: false
     label: Why Taiwan
     href: /news/single
