@@ -1,8 +1,6 @@
 ---
-title: Advantages of the Taiwan Gold Card for Professionals
-summary: A short introduction, why Taiwan should be the next step for the
-  visitor. A nice catchy copy that is helping the visitor to find out more about
-  this country it’s culture and why Taiwan is the perfect match.
+title: 台灣就業金卡專業人士的優勢
+summary: 曉得介紹，爲什麼台灣因該是訪客的下一站．一個很甜的句話讓方可發現更多而讓他們覺得台灣是最完美的選着．
 draft: false
 hidden: false
 headless: true
