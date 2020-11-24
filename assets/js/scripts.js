@@ -411,6 +411,53 @@ window.taLanguage = function () {
 };
 "use strict";
 
+window.taMap = function () {
+  return {
+    elements: [],
+    play: [],
+    active: -1,
+    modal: false,
+    data: {},
+    "default": {},
+    init: function init() {
+      var content = this.$el.querySelectorAll('.member');
+
+      for (var index = 0; index < content.length; index++) {
+        this.elements.push(content[index]);
+        this.play.push(true);
+      }
+    },
+    toggle: function toggle(index) {
+      var top = this.elements[index].offsetTop;
+      var left = this.elements[index].offsetLeft;
+      this.play[index] = !this.play[index]; // console.info(' this.play[index] ', this.elements[index].offsetTop);
+
+      this.active = index;
+      this.modal = true;
+      this.data = {
+        name: this.elements[index].dataset.name,
+        image: '/img/' + this.elements[index].dataset.image,
+        origin: this.elements[index].dataset.origin,
+        local: this.elements[index].dataset.local,
+        description: this.elements[index].dataset.description,
+        style: "--left:".concat(left, "px;--top:").concat(top, "px")
+      }; // if (this.play[index]) {
+      //     // this.elements[index].style.setProperty('--state', 'paused');
+      //     this.play[index] = 'paused';
+      //     return true;
+      // }
+      // // this.elements[index].style.setProperty('--state', 'running');
+      // this.play[index] = 'running';
+    },
+    closeModal: function closeModal() {
+      this.modal = false;
+      this.play[this.active] = true;
+      this.active = -1;
+    }
+  };
+};
+"use strict";
+
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
