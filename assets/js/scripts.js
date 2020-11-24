@@ -449,7 +449,6 @@ window.taMap = function () {
         description: this.elements[index].dataset.description,
         style: "--left:".concat(left, "px;--top:").concat(top, "px")
       };
-      console.info('this.file.width', this.$refs.file.width);
 
       if (window.innerWidth < this.$refs.file.width) {
         this.data.style = '';

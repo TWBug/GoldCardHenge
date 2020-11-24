@@ -34,7 +34,6 @@ window.taMap = function () {
                 description: this.elements[index].dataset.description,
                 style: `--left:${left}px;--top:${top}px`,
             };
-            console.info('this.file.width', this.$refs.file.width);
             if (window.innerWidth < this.$refs.file.width) {
                 this.data.style = '';
             }
