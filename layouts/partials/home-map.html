@@ -17,7 +17,7 @@
         </div>
     </div>
     <template x-if="modal">
-        <div class="modal bg-white text-base text-gray-900 rounded-lg border border-gray-200 pl-12 pr-4 py-3 shadow-lg w-full max-w-96 lg:max-w-64" :style="data.style">
+        <div class="modal bg-white text-base text-gray-900 rounded-lg border border-gray-200 pl-12 pr-4 py-3 shadow-lg w-full max-w-96 lg:max-w-64" :style="data.style" @click.away="closeModal()">
             <img :src="data.image" :alt="data.name" class="absolute block left-0 top-0 w-16 h-16 rounded-full border-4 border-secondary shadow-lg -ml-8 -mt-2">
             <p class="text-xs font-bold" x-text="data.origin"></p>
             <p class="text-xl font-bold mb-1" x-text="data.name"></p>
