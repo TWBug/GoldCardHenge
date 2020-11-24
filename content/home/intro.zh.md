@@ -18,7 +18,7 @@ links:
 items:
   - is_cta: false
     label: 就業金卡是什麼？
-    href: /news/single
+    href: /about
   - is_cta: false
     label: Covid-19
     href: /why-taiwan/no-new-domestic-covid-19-case-for-two-hundred-days-how-do-taiwan-do-it
