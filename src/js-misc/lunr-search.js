@@ -1,5 +1,7 @@
 const { assert } = console;
 
+assert(window.lunr, 'Lunr.js not found. Search cannot be supported without Lunr.js.');
+
 const el = (tagName, props = {}, ...children) => {
     const node = document.createElement(tagName);
 
@@ -20,9 +22,22 @@ const el = (tagName, props = {}, ...children) => {
     return node;
 };
 
-window.el = el;
-
 let lunrIndex, $results, pagesIndex;
+
+// Set up support for chinese
+lunr.zh = function () {
+    this.pipeline.reset();
+    this.pipeline.add(lunr.zh.trimmer, lunr.stopWordFilter, lunr.stemmer);
+};
+
+lunr.zh.trimmer = function (token) {
+    return token.update((str) => {
+        if (/[\u4E00-\u9FA5\uF900-\uFA2D]/.test(str)) return str;
+        return str.replace(/^\W+/, '').replace(/\W+$/, '');
+    });
+};
+
+lunr.Pipeline.registerFunction(lunr.zh.trimmer, 'trimmer-zh');
 
 /**
  * Trigger a search in lunr and transform the result
@@ -111,6 +126,11 @@ const initLunr = () => {
             // Set up lunrjs by declaring the fields we use
             // Also provide their boost level for the ranking
             lunrIndex = lunr(function () {
+                if (window.location.pathname.startsWith('/zh/')) {
+                    console.log('[INFO] 中文頁面，開啟Lunr中文支援');
+                    this.use(lunr.zh); // Set up Chinese support
+                }
+
                 this.field('title', {
                     boost: 10,
                 });
