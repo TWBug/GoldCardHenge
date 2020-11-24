@@ -1,31 +1,33 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
-<div id="map" class="relative my-6 overflow-x-auto">
-    <div class="wrapper" x-data="taMap()" x-init="init()">
-        {{range $index, $element := $data.map.items}}
-        <div class="member border-4 border-secondary-dark rounded-full overflow-hidden"
-            :class="{ 'running' : play[{{ $index }}], 'paused' : !play[{{ $index }}] }"
-            data-name="{{ $element.name }}" data-origin="{{ $element.origin }}" data-local="{{ $element.local }}" data-description="{{ $element.description }}" data-image="{{ $element.image }}"
-            style="--left:{{ $element.left }}%;--top:{{ $element.top }}%;--delay:{{ mul $index 2000 }}ms" @click="toggle({{ $index }})"
-        >
-            <img src="/img/{{ $element.image }}" alt="{{ printf "Portrait %s" $element.name }}" class="absolute inset-0 w-full h-full"
-            />
-        </div>
-        <template x-if="modal">
-            <div class="modal bg-white text-base text-gray-900 rounded-lg border border-gray-200 pl-12 pr-4 py-3 max-w-64 shadow-lg" :style="data.style">
-                <img :src="data.image" :alt="data.name" class="absolute block left-0 top-0 w-16 h-16 rounded-full border-2 border-gray-300 border-opacity-50 -ml-8 -mt-2">
-                <p class="text-xs font-bold" x-text="data.origin"></p>
-                <p class="text-xl font-bold mb-1" x-text="data.name"></p>
-                <p class="text-xs font-semibold uppercase mb-1">Located: <span x-text="data.local"></span></p>
-                <p class="text-sm font-medium leading-snug" x-text="data.description"></p>
-                <button type="button" @click="closeModal()" title="close" class="absolute flex-center bg-primary right-0 top-0 text-white w-8 h-8 -mr-4 -mt-2 rounded-full">
-                    {{ partial "icon" (dict "name" "times" "size" "4") }}
-                </button>
+<div class="relative my-6"  x-data="taMap()" x-init="init()">
+    <div id="map" class="relative overflow-x-auto">
+        <div class="wrapper">
+            {{range $index, $element := $data.map.items}}
+            <div class="member border-4 border-secondary-dark rounded-full overflow-hidden"
+                :class="{ 'running' : play[{{ $index }}], 'paused' : !play[{{ $index }}] }"
+                data-name="{{ $element.name }}" data-origin="{{ $element.origin }}" data-local="{{ $element.local }}" data-description="{{ $element.description }}" data-image="{{ $element.image }}"
+                style="--left:{{ $element.left }}%;--top:{{ $element.top }}%;--delay:{{ mul $index 2000 }}ms" @click="toggle({{ $index }})"
+            >
+                <img src="/img/{{ $element.image }}" alt="{{ printf "Portrait %s" $element.name }}" class="absolute inset-0 w-full h-full"
+                />
             </div>
-        </template>
-        {{ end }}
-        <img src="/img/map.svg" alt="Temp Map" class="block w-full -z-1" />
+            {{ end }}
+            <img src="/img/map.png" alt="Temp Map" class="block w-full -z-1" x-ref="file" />
+        </div>
     </div>
+    <template x-if="modal">
+        <div class="modal bg-white text-base text-gray-900 rounded-lg border border-gray-200 pl-12 pr-4 py-3 shadow-lg w-full max-w-96 lg:max-w-64" :style="data.style">
+            <img :src="data.image" :alt="data.name" class="absolute block left-0 top-0 w-16 h-16 rounded-full border-4 border-secondary shadow-lg -ml-8 -mt-2">
+            <p class="text-xs font-bold" x-text="data.origin"></p>
+            <p class="text-xl font-bold mb-1" x-text="data.name"></p>
+            <p class="text-xs font-semibold uppercase mb-1">Located: <span x-text="data.local"></span></p>
+            <p class="text-sm font-medium leading-snug" x-text="data.description"></p>
+            <button type="button" @click="closeModal()" title="close" class="absolute flex-center bg-primary right-0 top-0 text-white w-8 h-8 -mr-4 -mt-2 shadow-lg rounded-full">
+                {{ partial "icon" (dict "name" "times" "size" "4") }}
+            </button>
+        </div>
+    </template>
 </div>
 
 <style>
@@ -64,26 +66,32 @@
     
     .modal {
         position: absolute;
-        left: var(--left);
-        top: var(--top);
+        left: var(--left, 50%);
+        top: var(--top, 70px);
         transform: translate(-50%, -50%);
+        z-index: 2;
     }
 
     @keyframes animation-fade {
         0% {
             opacity: 0;
+            z-index: 0;
         }
         25% {
             opacity: 1;
+            z-index: 1;
         }
         50% {
             opacity: 1;
+            z-index: 1;
         }
         75% {
             opacity: 0;
+            z-index: 0;
         }
         100% {
             opacity: 0;
+            z-index: 0;
         }
     }
 </style>

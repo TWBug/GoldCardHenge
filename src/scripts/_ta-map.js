@@ -4,6 +4,7 @@ window.taMap = function () {
         play: [],
         active: -1,
         modal: false,
+        wrapper: {},
         data: {},
         default: {},
         init() {
@@ -12,12 +13,17 @@ window.taMap = function () {
                 this.elements.push(content[index]);
                 this.play.push(true);
             }
+            const wrapper = this.$el.querySelector('.wrapper');
+            this.wrapper = {
+                left: wrapper.offsetLeft,
+                width: wrapper.innerWidth,
+            };
         },
         toggle(index) {
             const top = this.elements[index].offsetTop;
-            const left = this.elements[index].offsetLeft;
+            const left = this.elements[index].offsetLeft + this.wrapper.left;
+            this.play[this.active] = true;
             this.play[index] = !this.play[index];
-            // console.info(' this.play[index] ', this.elements[index].offsetTop);
             this.active = index;
             this.modal = true;
             this.data = {
@@ -28,17 +34,17 @@ window.taMap = function () {
                 description: this.elements[index].dataset.description,
                 style: `--left:${left}px;--top:${top}px`,
             };
-            // if (this.play[index]) {
-            //     // this.elements[index].style.setProperty('--state', 'paused');
-            //     this.play[index] = 'paused';
-            //     return true;
-            // }
-            // // this.elements[index].style.setProperty('--state', 'running');
-            // this.play[index] = 'running';
+            console.info('this.file.width', this.$refs.file.width);
+            if (window.innerWidth < this.$refs.file.width) {
+                this.data.style = '';
+            }
         },
         closeModal() {
             this.modal = false;
             this.play[this.active] = true;
+            for (let index = 0; index < this.play.length; index++) {
+                this.play[index] = true;
+            }
             this.active = -1;
         },
     };
