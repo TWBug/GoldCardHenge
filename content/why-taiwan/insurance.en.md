@@ -1,19 +1,17 @@
 ---
-title: Insurance
-summary: Your health and safety is important, here's how we do it.
-date: 2020-11-05T07:09:20.617Z
-publishDate: 2020-11-05T07:09:20.617Z
 draft: false
+media_image: img/uploads/taiwan-culture.jpg
+summary: Your health and safety is important, here's how we do it.
+media_image_alt: Test alt
+date: 2020-11-05T07:09:20.617Z
 topic: whytaiwan
-cover_image: "img/uploads/dummy-image.jpg"
-cover_image_alt: "Test alt"
-media_image: "img/uploads/taiwan-culture.jpg"
-media_image_alt: "Test alt"
-tags:
-categories:
+title: Healthcare and Insurance
+cover_image: img/uploads/dummy-image.jpg
+tags: null
+categories: null
+publishDate: 2020-11-05T07:09:20.617Z
+cover_image_alt: Test alt
 ---
+# Healthcare and Insurance
 
-# Hi, and welcome to the official Taiwan Employment Gold Card website.
-
-    - Overview of basic health insurance system
-
+As a gold card holder you and your family can access Taiwan's world-leading National Health Insurance system.
