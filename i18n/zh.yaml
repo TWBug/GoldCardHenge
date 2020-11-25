@@ -28,6 +28,16 @@
   translation: '標籤'
 - id: summary
   translation: '摘要'
+- id: latest_news
+  translation: 'Latest news'
+- id: all_news
+  translation: 'All news'
+- id: latest_events
+  translation: 'Latest events'
+- id: all_events
+  translation: 'All events'
+- id: all_faq
+  translation: 'All faq'
 - id: taipei_city_skyline
   translation: '台北市天際線'
 - id: taiwan_mountains

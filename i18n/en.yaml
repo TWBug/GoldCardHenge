@@ -30,6 +30,16 @@
   translation: 'All Tags'
 - id: summary
   translation: 'Summary'
+- id: latest_news
+  translation: 'Latest news'
+- id: all_news
+  translation: 'All news'
+- id: latest_events
+  translation: 'Latest events'
+- id: all_events
+  translation: 'All events'
+- id: all_faq
+  translation: 'All faq'
 - id: taipei_city_skyline
   translation: 'Taipei City Skyline'
 - id: taiwan_mountains

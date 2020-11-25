@@ -28,7 +28,7 @@
         {{ end }}
     </a>
     {{ if .dropdown }}
-    {{ partial "navigation-dropdown" (dict "topic" .topic "dropdown" .dropdown "lang" $language "content" .content ) }}
+    {{ partial "navigation-dropdown" (dict "topic" .topic "dropdown" .dropdown "lang" $language "content" .content "all" $.Site ) }}
     {{ end }}
 </li>
 {{ end }}
