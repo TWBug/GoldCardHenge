@@ -1,13 +1,13 @@
 ---
-title: No new domestic COVID-19 case for two hundred days, how do taiwan do it?
+title: No new domestic COVID-19 case for two hundred days, how did taiwan do it?
 draft: false
-tags:
+tags: null
 categories:
   - local colour
 ---
-Recently international well-known medias reported that Taiwan has no domestic COVID-19 new case for more than 200 days, which compared to foreign countries hit hard by the pandemic with thousands of daily new case. Taiwan is in the battle of COVID-19 for almost a year, and is doing quite good. Some people observe Taiwan's good performance of battle of COVID-19, decided to go to Taiwan by applying Employment Gold Card targeting high-end talents.
+Recently well-known international media reported that Taiwan has no new domestic COVID-19 cases for more than 200 days. This is in stark contrast compared to other countries hit hard by the pandemic with thousands of daily new case. Taiwan has been in the battle of COVID-19 for almost a year, and is doing quite well. Some people saw Taiwan's good performance beating COVID-19, and decided to move to Taiwan by applying for Employment Gold Card targeting high-end talents.
 
-Until November 2020, Taiwan government's pandemic prevention policy is phrased by many people. And for ordinary Taiwan folks, they just need to wear face mask on public transport system and place with mass crowds. For the Taiwan industrial', travel and hotel industrial are hit hard due to travel restriction, things suck as once landed on foreign land you have to quarantine for two weeks, which strictly reduce the numbers of people traveling around the world for business or leisure.
+As of November 2020, Taiwan government's pandemic prevention policy has been widely praised. For ordinary Taiwan folks, they only need to wear face masks on public transport and places with large crowds. Though, the Taiwan travel and hotel industries were hit hard due to travel restriction, things suck as once landed on foreign land you have to quarantine for two weeks, which strictly reduce the numbers of people traveling around the world for business or leisure.
 
 ![Taipei-metro-Fever-notice](/cms-uploads/taipei-metro-fever-notice.jpg "Taipei metro Fever notice")
 

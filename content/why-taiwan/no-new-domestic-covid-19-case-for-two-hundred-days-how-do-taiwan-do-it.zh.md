@@ -1,7 +1,7 @@
 ---
 title: 200 天無本土 COVID-19 新病例，台灣怎麼做到的
 draft: false
-tags:
+tags: null
 categories:
   - local colour
 ---
