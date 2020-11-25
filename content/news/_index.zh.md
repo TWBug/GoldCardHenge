@@ -6,6 +6,7 @@ draft: false
 media_image: img/uploads/taiwan-culture.jpg
 media_image_alt: Test alt
 topic: eventsnews
+title: 新闻
 cover_image: img/uploads/dummy-image.jpg
 tags: null
 categories: null
