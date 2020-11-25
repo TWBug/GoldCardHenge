@@ -48,6 +48,13 @@ items:
       local: "Taipei, Taiwan"
       description: "STEAM education startup"
       image: "member-zack-h.jpg"
+    - name: "S.C. Poon"
+      left: 45.75
+      top: 87.50
+      origin: "Sydney, Australia"
+      local: "Taipei, Taiwan"
+      description: "Research Fellow"
+      image: "member-s-c-poon.jpg"
     - name: "Patrick L."
       left: 34.78
       top: 61.58

@@ -41,6 +41,13 @@ items:
       local: "Taipei, Taiwan"
       decription: "Software Engineer."
       image: "member-colum-b.jpg"
+    - name: "S.C. Poon"
+      left: 45.75
+      top: 87.50
+      origin: "Sydney, Australia"
+      local: "Taipei, Taiwan"
+      description: "Research Fellow"
+      image: "member-s-c-poon.jpg"
     - name: "Zack H."
       left: 77.52
       top: 47.06
