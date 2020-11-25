@@ -108,6 +108,9 @@ module.exports = {
                 '9/16': 'calc(100% / 1.78)',
                 '16/9': 'calc(100% * 9 / 16)',
             },
+            outline: {
+                primary: '2px dashed #ce3f00',
+            },
             zIndex: {
                 '-1': '-1',
             },
