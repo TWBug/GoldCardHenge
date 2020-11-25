@@ -447,7 +447,7 @@ window.taMap = function () {
         origin: this.elements[index].dataset.origin,
         local: this.elements[index].dataset.local,
         description: this.elements[index].dataset.description,
-        style: "--left:".concat(left, "px;--top:").concat(top, "px")
+        style: "--left:".concat(left, "px;--top:").concat(top, "px;--translatex:-2px;--translatey:-28px")
       };
 
       if (window.innerWidth < this.$refs.file.width) {
