@@ -10,7 +10,7 @@
     aria-controls="{{ printf "nav-dropdown-%s" .topic }}"
     :aria-expanded="{{ printf "!dropdown.%s" .topic }}"
 >
-    <a href="/{{ print $language .link }}" {{ if .dropdown }}  @click.stop="toggleDropdown('{{ .topic }}', $event)" {{ end }} class="flex-center px-6" :class="{ 'bg-white text-black': {{ printf "dropdown.%s" .topic }} }">
+    <a href="/{{ print $language .link }}" {{ if .dropdown }}  @click.stop="toggleDropdown('{{ .topic }}', $event)" {{ end }} class="flex-center focus:bg-white focus:text-black px-6" :class="{ 'bg-white text-black': {{ printf "dropdown.%s" .topic }} }">
         {{ if .dropdown }}
             <span class="mr-2">
             {{ .name }}

@@ -9,14 +9,14 @@
 {{ if eq $actual_language .Lang }}
 <a
     href="{{ $url }}"
-    class="block bg-nav-dark font-bold px-2 py-3 mx-1"
+    class="block bg-nav-dark font-bold px-2 py-3 mx-1 focus:bg-white focus:text-black"
     @click.prevent="switchLanguage('{{ .Lang }}')"
     title="{{ i18n "change_language" }}"
 >
 {{ else }}
 <a
     href="{{ $url }}"
-    class="block px-2 py-3 mx-1"
+    class="block px-2 py-3 mx-1 focus:bg-white focus:text-black"
     @click.prevent="switchLanguage('{{ .Lang }}')"
     title="{{ i18n "change_language" }}"
 >

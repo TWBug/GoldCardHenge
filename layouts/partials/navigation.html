@@ -8,11 +8,11 @@
 {{ else }}
 <div class="relative z-10 bg-nav-start bg-gradient-to-b from-nav-start to-nav-end shadow-xl print:bg-none print:bg-white" x-data="taNavigation()" x-init="init()">
 {{ end }}
-    <div class="relative max-w-screen-xl flex justify-between mx-auto text-white print:text-black px-8" x-ref="menu">
-        <a href="{{ .Site.Home.RelPermalink }}" class="block w-1/3 sm:w-1/5 lg:w-1/6 max-w-xs py-4 lg:py-6">
+    <div class="relative max-w-screen-xl flex justify-between mx-auto text-white print:text-black pl-4 pr-8" x-ref="menu">
+        <a href="{{ .Site.Home.RelPermalink }}" class="block w-1/2 max-w-48 px-4 py-4 lg:py-6 focus:outline-black">
             <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="{{ i18n "tego_logo" }}" />
         </a>
-        <ul class="flex-grow hidden lg:flex justify-between items-center  text-lg font-semibold ml-20">
+        <ul class="flex-grow hidden lg:flex justify-between items-center  text-lg font-semibold ml-10">
             {{ partial "navigation-bar" . }}
         </ul>
         <div class="flex lg:hidden">

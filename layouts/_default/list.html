@@ -44,7 +44,7 @@
                     {{ range .RegularPages}}
                     <div class="text-left mb-6">
                         <h2 class="text-2xl font-bold text-primary mb-1">
-                            <a href="{{.RelPermalink}}">{{.Title}}</a>
+                            <a href="{{.RelPermalink}}" class="hover:text-black focus:text-black">{{.Title}}</a>
                         </h2>
                         <p class="text-base">
                             {{ .Summary | truncate 180 }}
