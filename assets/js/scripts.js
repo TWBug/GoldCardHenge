@@ -1,11 +1,3 @@
-// window.addEventListener('scroll', handleParallaxScrolling)
-// function handleParallaxScrolling() {
-//   const test = document.getElementById('test')
-//   test.style.top = (window.scrollY / 2) + 'px'
-//   console.info('test', test.getBoundingClientRect().top);
-//   console.info("scrolly", window.scrollY);
-// }
-"use strict";
 "use strict";
 
 function _toArray(arr) { return _arrayWithHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableRest(); }
@@ -40,7 +32,8 @@ window.highlight = {
         continue;
       }
 
-      this.replaceInDocument(this.wrapper[index], /Taiwan Gold Card/g, '<span class="font-bold">Taiwan <span class="highlight">Gold Card</span></span>');
+      this.replaceInDocument(this.wrapper[index], /Taiwan Gold Card/g, '<span class="font-bold">Taiwan<span class="highlight">Gold Card</span></span>');
+      this.replaceInDocument(this.wrapper[index], /台灣就業金卡/g, '<span class="font-bold">台灣就業<span class="highlight">金卡</span></span>');
     }
 
     this.wrapper = this.wrapper[0]; // this.replaceInDocument(
@@ -210,6 +203,14 @@ window.linksTargetBlank = {
     });
   }
 };
+// window.addEventListener('scroll', handleParallaxScrolling)
+// function handleParallaxScrolling() {
+//   const test = document.getElementById('test')
+//   test.style.top = (window.scrollY / 2) + 'px'
+//   console.info('test', test.getBoundingClientRect().top);
+//   console.info("scrolly", window.scrollY);
+// }
+"use strict";
 "use strict";
 
 function handleResize() {
