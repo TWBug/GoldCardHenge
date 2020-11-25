@@ -26,6 +26,18 @@
   translation: '類別'
 - id: tags
   translation: '標籤'
+- id: all_tags
+  translation: 'All Tags'
+- id: faq
+  translation: 'FAQ'
+- id: news
+  translation: '新闻'
+- id: topics
+  translation: '话题'
+- id: legal
+  translation: '法律'
+- id: goldcard
+  translation: 'Gold-Card'
 - id: summary
   translation: '摘要'
 - id: latest_news

@@ -28,6 +28,16 @@
   translation: 'Tags'
 - id: all_tags
   translation: 'All Tags'
+- id: faq
+  translation: 'FAQ'
+- id: news
+  translation: 'News'
+- id: topics
+  translation: 'Topics'
+- id: legal
+  translation: 'Legal'
+- id: goldcard
+  translation: 'Gold-Card'
 - id: summary
   translation: 'Summary'
 - id: latest_news

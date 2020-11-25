@@ -167,8 +167,14 @@ blockquote {
     top: calc(var(--navigationMenu) - 0.5rem);
 }
 
-.focus:focus {
+.focus-primary:focus {
     @apply outline-primary;
+}
+.focus-white:focus {
+    @apply outline-white;
+}
+.focus-blackfocus {
+    @apply outline-black;
 }
 
 .copy {
