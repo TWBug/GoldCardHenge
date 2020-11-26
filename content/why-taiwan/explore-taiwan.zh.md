@@ -19,6 +19,3 @@ categories:
 如需詳細的資訊，請參閱 [foreigntalentact.ndc.gov.tw](https://foreigntalentact.ndc.gov.tw/)。
 如果您有任何疑問，請隨時與我們聯繫:
 
-{{< link href="mailto:help@taiwangoldcard.tw" >}}
-help@taiwangoldcard.tw
-{{< /link >}}
