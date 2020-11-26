@@ -128,12 +128,18 @@ const renderResults = (results, query) => {
         // text. That's what all this logic is for.
         const excerpt =
             matchIndex === -1
-                ? [content.slice(0, excerptSize), '...']
+                ? [content.slice(0, excerptSize)]
                 : [
                       content.slice(Math.max(0, matchIndex - excerptSize / 2), matchIndex),
                       el('span', {}, query),
                       content.slice(matchIndex + query.length, matchIndex + excerptSize / 2),
                   ];
+
+        // Add "..." if the excerpt was chopped (i.e. most of the time)
+        if (excerpt.length < content.length) {
+            excerpt.push('…');
+        }
+
         return el(
             'a',
             {
