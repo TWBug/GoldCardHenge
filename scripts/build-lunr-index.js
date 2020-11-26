@@ -12,6 +12,22 @@ if (!fs.existsSync(TRAD_DICT)) {
     process.exit(99);
 }
 
+const pipe = (...fns) => fns.reduce((f, g) => (...args) => f(g(...args)));
+
+/**
+ * Remove hugo shortcodes from a content string.
+ *
+ * NOTE: For wrapped shortcodes this will preserve the shortcode body and just
+ * remove the surrounding shortcode "tag", i.e. the part with brackets.
+ *
+ * @param {string} str Content string
+ */
+const stripShortcodes = (str) => {
+    return str.replace(/{{\s*?}}/gm, ''); // See NOTE
+};
+
+const cleanMd = pipe(removeMd, stripShortcodes);
+
 // Load manually so we can specify the traditional dictionary rather than the
 // default.
 jieba.load({
@@ -29,7 +45,9 @@ jieba.load({
 const spacifyChinese = (str) => {
     return (
         str &&
-        str.replace(/\n/gm, '').replace(/[\u4E00-\u9FA5\uF900-\uFA2D]+/g, (match) => ` ${jieba.cut(match).join(' ')} `)
+        str
+            .replace(/\n/gm, '')
+            .replace(/[\u4E00-\u9FA5\uF900-\uFA2D]+/g, (match) => ` ${jieba.cut(match).join(' ')} `)
     );
 };
 
@@ -104,8 +122,8 @@ const main = async (contentDir = DEFAULT_CONTENT_DIR) => {
             // should only be used with english content
             const content =
                 lang === 'zh'
-                    ? spacifyChinese(removeMd(body))
-                    : S(removeMd(body)).stripPunctuation().stripTags().trim().s;
+                    ? spacifyChinese(cleanMd(body))
+                    : S(cleanMd(body)).stripPunctuation().stripTags().trim().s;
 
             if (lang === 'zh') {
                 debugger;
@@ -126,7 +144,9 @@ const main = async (contentDir = DEFAULT_CONTENT_DIR) => {
                 lang,
                 frontmatter,
                 title:
-                    lang === 'zh' ? frontmatter && spacifyChinese(frontmatter.title) : frontmatter && frontmatter.title,
+                    lang === 'zh'
+                        ? frontmatter && spacifyChinese(frontmatter.title)
+                        : frontmatter && frontmatter.title,
                 body,
                 content,
                 error,
