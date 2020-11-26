@@ -10,7 +10,7 @@ media_image_alt: Test alt
 topic: eventsnews
 tags: null
 categories:
-  - second
+  - Gold Card Policy
 publishDate: 2020-11-05T07:09:20.617Z
 ---
 https://join.gov.tw/policies/detail/4ef14af6-68da-4a14-ad92-1324c486a7bd
