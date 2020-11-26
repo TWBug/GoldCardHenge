@@ -1,30 +1,34 @@
 ---
-title: This helps you to set-up and gets you Taiwan Gold Card
-summary: The Taiwan Gold Card is a combined visa, work permit and residence
-  permit launched in 2018 to attract professional talent in Taiwan. The card
-  gives you the right to stay, work or start your own business in Taiwan.
+title: 選擇最適合你的領域
+summary: ""
 draft: false
 hidden: false
 headless: true
 links: null
 items:
   - preview: /img/dummy-icon.svg
-    label: How to set-up
-    href: /news/single
+    label: 建築
+    href: /zh/qualification/field-of-architecture/
   - preview: /img/dummy-icon.svg
-    label: How to set-up
-    href: /news/single
+    label: 文化藝術
+    href: /zh/qualification/field-of-culture-and-arts/
   - preview: /img/dummy-icon.svg
-    label: How to set-up
-    href: /news/single
+    label: 經濟
+    href: /zh/qualification/field-of-finance/
   - preview: /img/dummy-icon.svg
-    label: How to set-up
-    href: /news/single
+    label: 教育
+    href: /zh/qualification/field-of-education/
   - preview: /img/dummy-icon.svg
-    label: How to set-up
-    href: /news/single
+    label: 金融
+    href: /zh/qualification/field-of-finance/
   - preview: /img/dummy-icon.svg
-    label: How to set-up
-    href: /news/single
+    label: 科技
+    href: /zh/qualification/field-of-science-technology/
+  - is_cta: false
+    label: 法律
+    href: /zh/qualification/field-of-law/
+  - is_cta: false
+    label: 體育
+    href: /zh/qualification/field-of-sport/
 ---
 <!-- This text is never used -->
