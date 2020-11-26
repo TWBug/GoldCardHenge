@@ -288,17 +288,29 @@ CMS.registerEditorComponent({
     },
     toPreview: (obj) => <div className="font-medium text-xl leading-relaxed mb-6">{obj.body}</div>,
 });
+
 CMS.registerEditorComponent({
     id: 'accordion',
     label: 'Accordion',
     fields: [
         { name: 'title', label: 'Title 標題', widget: 'nested-string' },
+        { name: 'suffix', label: 'Suffix 標題', widget: 'nested-string', required: false },
+        { name: 'bottomless', label: 'Bottomless 標題', widget: 'boolean', default: false },
         { name: 'body', label: 'Inner Text 內容', widget: 'text' },
     ],
-    pattern: /^{{< accordion title="(.+?)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
-    fromBlock: (match) => ({ title: Props.unescape(match[1]), body: match[2] }),
+    pattern: /^{{< accordion title="(.+?)" suffix="(.+?)" bottemless="(.+?)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
+    fromBlock: (match) => ({
+        title: Props.unescape(match[1]),
+        suffix: Props.unescape(match[2]),
+        bottemless: Props.unescape(match[3]),
+        body: match[4],
+    }),
     toBlock: (obj) => {
-        return `{{< accordion title="${Props.escape(obj.title)}" >}}\n${obj.body || ''}\n{{< /accordion >}}`;
+        return `{{< accordion title="${Props.escape(obj.title)}" suffix="${Props.escape(
+            obj.suffix
+        )}" bottomless="${obj.bottomless ? 'true' : 'false'}" >}}\n${
+            obj.body || ''
+        }\n{{< /accordion >}}`;
     },
     toPreview: (obj) => {
         // NOTE: The use of syntax incompatible with react requires using a string for this
@@ -323,15 +335,22 @@ CMS.registerEditorComponent({
                 <p class="text-base font-regular">${obj.body}</p>
             </div>
         `;
+        let borderClass = 'my-12 border-t-2 border-b-2 border-secondary border-dashed -ml-4 -mr-4 p-4'
+        if (obj.bottemless === 'true') {
+            borderClass = 'my-12 border-t-2 border-secondary border-dashed -ml-4 -mr-4 p-4'
+        }
+        console.info('bottemless', obj.bottemless);
+        console.info('borderClass', borderClass);
         return (
             <div
-                class="my-12 border-t-2 border-b-2 border-secondary border-dashed -ml-4 -mr-4 p-4"
+                class={borderClass}
                 x-data="taAccordion()"
                 dangerouslySetInnerHTML={{ __html }}
             ></div>
         );
     },
 });
+
 CMS.registerEditorComponent({
     id: 'card',
     label: 'Card',
