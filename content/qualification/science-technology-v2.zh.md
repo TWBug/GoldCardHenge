@@ -104,27 +104,27 @@ Please select either 6.1 or 6.2, and attach all documents required for the selec
 
 ## Notes
 
-{{< note-linked title="1" >}}
+{{< note title="1" >}}
 Academic research institute refers to any institute with research as its core mission.
-{{< /note-linked >}}
+{{< /note >}}
 
-{{< note-linked title="2.1a" >}}
+{{< note title="2.1a" >}}
 - Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
 - When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
-{{< /note-linked >}}
+{{< /note >}}
 
-{{< note-linked title="2.1b" >}}
+{{< note title="2.1b" >}}
 - Academic research works must consist of domestic or foreign journal articles, conference papers, technical books or chapters of technical books, or other specialized works.
 - The date of publication or submission for publication of such works must be within the 3 years prior to the year of the date of application.
 - If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.
-{{< /note-linked >}}
+{{< /note >}}
 
-{{< note-linked title="2.2a" >}}
+{{< note title="2.2a" >}}
   - Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
   - When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
-{{< /note-linked >}}
+{{< /note >}}
 
-{{< note-linked title="2.2b" >}}
+{{< note title="2.2b" >}}
 - Skills
     - Applicants with expertise in the field of neutron physics research must meet least one of the following requirements:
         - A Ph.D. degree in physics, chemistry, or nuclear engineering with at least 2 years of neutron research experience; participation in neutron scattering or diffraction research, or the Taiwan-Australian neutron instrument (SIKA) project.
@@ -136,25 +136,25 @@ Academic research institute refers to any institute with research as its core mi
         - Conference papers: Papers presented at a conference or accepted by a conference organizer and scheduled for presentation. (letter of acceptance or relevant verifying document must be attached).
         - Books or book chapters: Must consist of books or book chapters possessing original or important academic value and published by a publishing organization with a review system (includes in-depth interpretations of classic works; does not include textbooks, cultural or literary works, translated works, or collections of already-published papers) In the case of works that have been accepted but not yet been published, please attach relevant verifying documents.
         - Other specialized works: Other specialized works possessing academic value, or software tools or creative tools that are widely cited.
-{{< /note-linked >}}
+{{< /note >}}
 
-{{< note-linked title="3.1a" >}}
+{{< note title="3.1a" >}}
 - Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
 - When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
-{{< /note-linked >}}
+{{< /note >}}
 
-{{< note-linked title="3.1b" >}}
+{{< note title="3.1b" >}}
 - Academic research works must consist of domestic or foreign journal articles, conference papers, technical books or chapters of technical books, or other specialized works.
 - The date of publication or submission for publication of such works must be within the 3 years prior to the year of the date of application.
 - If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.
-{{< /note-linked >}}
+{{< /note >}}
 
-{{< note-linked title="3.2a" >}}
+{{< note title="3.2a" >}}
   - Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
   - When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
-{{< /note-linked >}}
+{{< /note >}}
 
-{{< note-linked title="3.2b" >}}
+{{< note title="3.2b" >}}
   - Skills:
     - Applicants with expertise in the field of neutron physics research must meet least one of the following requirements:
       - A Ph.D. degree in physics, chemistry, or nuclear engineering with at least 2 years of neutron research experience; participation in neutron scattering or diffraction research, or the Taiwan-Australian neutron instrument (SIKA) project.
@@ -166,5 +166,5 @@ Academic research institute refers to any institute with research as its core mi
       - Conference papers: Papers presented at a conference or accepted by a conference organizer and scheduled for presentation. (letter of acceptance or relevant verifying document must be attached).
       - Books or book chapters: Must consist of books or book chapters possessing original or important academic value and published by a publishing organization with a review system (includes in-depth interpretations of classic works; does not include textbooks, cultural or literary works, translated works, or collections of already-published papers) In the case of works that have been accepted but not yet been published, please attach relevant verifying documents.
       - Other specialized works: Other specialized works possessing academic value, or software tools or creative tools that are widely cited.
-{{< /note-linked >}}
+{{< /note >}}
 
