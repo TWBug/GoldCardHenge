@@ -487,6 +487,7 @@ window.taNavigation = function () {
   return {
     scroll: false,
     modal: false,
+    search: false,
     fixed: false,
     dropdown: {
       goldcard: false,
@@ -535,6 +536,15 @@ window.taNavigation = function () {
     },
     toggleModal: function toggleModal() {
       this.modal = !this.modal;
+    },
+    toggleSearch: function toggleSearch() {
+      this.search = !this.search;
+    },
+    scrollTop: function scrollTop() {
+      window.scroll({
+        top: 0,
+        behavior: 'smooth'
+      });
     },
     toggleDropdown: function toggleDropdown(topic, event) {
       for (var property in this.dropdown) {

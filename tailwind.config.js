@@ -163,6 +163,9 @@ module.exports = {
                 '.top-nav-scroll': {
                     top: 'calc(var(--navigationScroll) + 1rem)',
                 },
+                '.top-nav-menu': {
+                    top: 'var(--navigationScroll)',
+                },
             };
             addUtilities(changedUtilities, {
                 variants: ['responsive'],

@@ -16,9 +16,15 @@
             {{ partial "navigation-bar" . }}
         </ul>
         <div class="flex lg:hidden">
+            <button type="button" x-on:click="toggleSearch()" class="px-4" >
+                {{ partial "icon" (dict "name" "search" "size" "8") }}
+            </button>
+        </div>
+        <div class="flex lg:hidden">
             <button type="button" x-on:click="toggleModal()" class="px-8 -mr-8" >
                 {{ partial "icon" (dict "name" "bars" "size" "8") }}
             </button>
+            {{ partial "navigation-search" . }}
         </div>
     </div>
     <div id="navigationModal" class="fixed inset-0 text-white print:text-black z-50" x-show="modal" x-cloak>
@@ -53,6 +59,11 @@
             <ul class="flex-grow hidden lg:flex justify-between items-center text-base font-semibold ml-20">
                 {{ partial "navigation-scroll" . }}
             </ul>
+            <div class="flex lg:hidden">
+                <button type="button" x-on:click="scrollTop()" class="px-4" >
+                    {{ partial "icon" (dict "name" "angle-up" "size" "8") }}
+                </button>
+            </div>
             <div class="flex lg:hidden">
                 <button type="button" x-on:click="toggleModal()" class="px-8 -mr-8" >
                     {{ partial "icon" (dict "name" "bars" "size" "8") }}
