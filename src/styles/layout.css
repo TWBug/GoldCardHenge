@@ -192,7 +192,6 @@ blockquote {
 .copy strong {
     @apply font-bold;
 }
-.copy a,
 .copy strong a,
 .copy ul li a {
     @apply font-bold text-primary underline;
