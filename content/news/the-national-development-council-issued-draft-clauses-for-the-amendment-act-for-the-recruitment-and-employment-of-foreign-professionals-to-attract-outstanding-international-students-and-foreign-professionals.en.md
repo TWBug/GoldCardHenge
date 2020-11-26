@@ -2,7 +2,7 @@
 title: " The National Development Council issued draft clauses for the Amendment
   Act for the Recruitment and Employment of Foreign Professionals to attract
   outstanding international students and foreign professionals "
-date: 2020-09-17T06:47:23.117Z
+date: 2020-09-18T06:47:23.117Z
 draft: false
 hidden: false
 categories:

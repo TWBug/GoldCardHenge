@@ -1,6 +1,6 @@
 ---
 title: 國發會預告「外國專業人才延攬及僱用法」修正草案，強化延攬國際優秀青年學子及專業人才
-date: 2020-09-17T06:47:23.117Z
+date: 2020-09-18T06:47:23.117Z
 draft: false
 hidden: false
 categories:
