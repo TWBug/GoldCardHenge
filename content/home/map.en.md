@@ -1,5 +1,7 @@
 ---
-title: "匯集全球菁英 成就台灣新未來 "
+title: Bringing together global elites to create a better future for
+  Taiwan.  Bringing together global talents to create a better future for
+  Taiwan.
 summary: "1"
 draft: false
 hidden: false
