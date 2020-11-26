@@ -1,17 +1,13 @@
 ---
-title: 台灣就業金卡專業人士的優勢
-summary: 曉得介紹，爲什麼台灣因該是訪客的下一站．一個很甜的句話讓方可發現更多而讓他們覺得台灣是最完美的選着．
+title: 台灣就業金卡
+summary: 為吸引外國專業人才來台留台，建構更友善之工作及居留環境，行政院自2018年施行「外國專業人才延攬及僱用法」，推出結合工作許可、居留簽證、外僑居留證以及重入國許可之四證合一的「就業金卡」，積極爭取在科技、經濟、教育、文化、藝術、體育、金融、法律及建築設計等八項領域有特殊表現或獨到才能者。
 draft: false
 hidden: false
 headless: true
 links:
   - is_cta: false
-    label: 關於我們
-    href: /zh/contact
-    target: null
-  - is_cta: false
-    label: 為什麼台灣
-    href: /zh/why-taiwan/
+    label: Read More
+    href: https://staging.taiwangoldcard.tw/zh/about/
     target: null
 items:
   - is_cta: false
