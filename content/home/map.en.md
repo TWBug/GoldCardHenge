@@ -1,7 +1,5 @@
 ---
-title: Bringing together global elites to create a better future for
-  Taiwan.  Bringing together global talents to create a better future for
-  Taiwan.
+title: Bringing together global talents to create a better future for Taiwan
 summary: "1"
 draft: false
 hidden: false
