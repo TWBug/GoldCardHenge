@@ -501,7 +501,7 @@ CMS.registerEditorComponent({
 });
 
 CMS.registerEditorComponent({
-    id: 'color-paragraph',
+    id: 'color',
     label: 'Color 顏色',
     fields: [
         {
@@ -513,12 +513,12 @@ CMS.registerEditorComponent({
         },
         { name: 'body', label: 'Text', widget: 'markdown' },
     ],
-    pattern: /^{{< color-paragraph color="(.*?)" >}}\n([\s\S]+?)\n{{< \/color-paragraph >}}/,
+    pattern: /^{{< color color="(.*?)" >}}\n([\s\S]+?)\n{{< \/color >}}/,
     fromBlock: (match) => {
         return { color: match[1], body: match[2] };
     },
     toBlock: (obj) => {
-        return `{{< color-paragraph color="${obj.color || ''}" >}}\n${obj.body || ''}\n{{< /color-paragraph >}}`;
+        return `{{< color color="${obj.color || ''}" >}}\n${obj.body || ''}\n{{< /color >}}`;
     },
     toPreview: (obj) => <p className={`text-${obj.color}-700`}>{obj.body}</p>,
 });
