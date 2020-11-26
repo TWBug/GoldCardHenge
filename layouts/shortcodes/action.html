@@ -1,4 +1,8 @@
 {{ if .IsNamedParams }}
+{{ $target := "" }}
+{{ if eq (.Get "blank") "true" }}
+{{ $target = "_blank" }}
+{{ end }}
     <div
         class="relative bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium rounded-md shadow-xl text-white -ml-4 -mr-4 mb-12 mt-8 p-8 sm:p-12 z-0 overflow-hidden"
     >
@@ -6,9 +10,9 @@
             <img src="/img/footer-meta-mountains-trees.svg" class="block w-full flipped" alt="Taiwan Mountains">
         </div>
         {{ if .Get "headline" }}
-        <h3 class="text-4xl font-regular text-center">
+        <div class="text-4xl font-regular text-center">
             {{ .Get "headline" }}    
-        </h3>
+        </div>
         {{ end }}
         {{ if .Inner }}
         <div class="grid grid-cols-1 sm:grid-cols-3 items-center gap-8 sm:gap-12 mt-8">
@@ -16,7 +20,7 @@
                 {{ .Inner | markdownify }}
             </div>
             <div class="text-center">
-                <a href="{{ .Get "href"}}" class="inline-block whitespace-no-wrap bg-primary font-bold text-white leading-none rounded-md shadow-xl px-6 py-4" {{ with .Get "target"}} target="{{ . }}" {{end}} >{{ .Get "button"}}</a>
+                <a href="{{ .Get "href"}}" class="inline-block whitespace-no-wrap bg-primary font-bold text-white leading-none rounded-md shadow-xl px-6 py-4" {{ with $target }} target="_blank" {{end}} >{{ .Get "button"}}</a>
             </div>
         </div>
         {{ end }}

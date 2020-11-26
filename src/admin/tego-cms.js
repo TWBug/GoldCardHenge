@@ -352,6 +352,40 @@ CMS.registerEditorComponent({
 });
 
 CMS.registerEditorComponent({
+    id: 'action',
+    label: 'Action',
+    fields: [
+        { name: 'headline', label: 'Title', widget: 'nested-string' },
+        { name: 'href', label: 'Link', widget: 'nested-string', required: true },
+        { name: 'blank', label: 'New window 標題', widget: 'boolean', default: false },
+        { name: 'button', label: 'Button', widget: 'nested-string', required: true },
+        { name: 'body', label: 'Text', widget: 'markdown' },
+    ],
+    pattern: /^{{< action headline="(.+)" href="(.*)" blank="(.*)" button="(.*)" >}}\n([\s\S]+?)\n{{< \/action >}}/,
+    fromBlock: (match) => {
+        return { headline: match[1], href: match[2], blank: match[3], button: match[4], body: match[5] };
+    },
+    toBlock: (obj) => {
+        return `{{< action headline="${obj.headline}" href="${obj.href || ''}" blank="${obj.blank ? 'true' : 'false'}" button="${obj.button}" >}}\n${obj.body || ''}\n{{< /action >}}`;
+    },
+    toPreview: (obj) => (
+        <div className="relative bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium rounded-md shadow-xl text-white -ml-4 -mr-4 mb-12 mt-8 p-8 sm:p-12 z-0 overflow-hidden">
+            <div class="text-4xl font-regular text-center">
+                {obj.headline}
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-3 items-center gap-8 sm:gap-12 mt-8">
+            <div class="sm:col-span-2 font-semibold text-center sm:text-right">
+                {obj.body}
+            </div>
+            <div class="text-center">
+                <a href={obj.href} class="inline-block whitespace-no-wrap bg-primary font-bold text-white leading-none rounded-md shadow-xl px-6 py-4" target="_blank">{obj.button}</a>
+            </div>
+        </div>
+        </div>
+    ),
+});
+
+CMS.registerEditorComponent({
     id: 'card',
     label: 'Card',
     fields: [
