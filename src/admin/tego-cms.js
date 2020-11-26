@@ -395,6 +395,112 @@ CMS.registerEditorComponent({
 // });
 
 CMS.registerEditorComponent({
+    id: 'note',
+    label: 'Note 顏色',
+    fields: [
+        { name: 'title', label: 'Title', widget: 'nested-string' },
+        {
+            name: 'body',
+            label: 'Text',
+            widget: 'markdown',
+        },
+    ],
+    pattern: /^{{< note title="(.+)" >}}\n([\s\S]+?)\n{{< \/note >}}/,
+    fromBlock: function fromBlock(match) {
+        return {
+            title: match[1],
+            body: match[2],
+        };
+    },
+    toBlock: function toBlock(obj) {
+        return `{{< note title="${obj.title}" >}}\n`.concat(obj.body || '', '\n{{< /note >}}');
+    },
+    toPreview: (obj) => (
+        <div className="my-6">
+            <div class="text-lg font-bold text-secondary border-b-2 border-dashed border-secondary border-opacity-50 pl-1">{obj.title}</div>
+            <div class=" border-l-2 border-dashed border-secondary border-opacity-50 font-medium leading-relaxed text-md text-left italic pl-4 pt-3">
+            {obj.body}
+            </div>
+        </div>
+    ),
+});
+
+CMS.registerEditorComponent({
+    id: 'message',
+    label: 'Message 顏色',
+    fields: [
+        {
+            name: 'style',
+            label: 'Style 文字顏色',
+            widget: 'select',
+            options: ['warning', 'help', 'info', 'danger'],
+            required: false,
+        },
+        {
+            name: 'body',
+            label: 'Text',
+            widget: 'markdown',
+        },
+    ],
+    pattern: /^{{< message style="(.+)" >}}\n([\s\S]+?)\n{{< \/message >}}/,
+    fromBlock: function fromBlock(match) {
+        return {
+            style: match[1],
+            body: match[2],
+        };
+    },
+    toBlock: function toBlock(obj) {
+        return `{{< message style="${obj.style}" >}}\n`.concat(obj.body || '', '\n{{< /message >}}');
+    },
+    toPreview: (obj) => {
+        let styleClassNames = 'text-red-800 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
+        switch (obj.style) {
+            case 'warning':
+                styleClassNames = 'text-yellow-700 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
+                break;
+            case 'help':
+                styleClassNames = 'text-blue-900 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
+                break;
+            case 'info':
+                styleClassNames = 'text-blue-900 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
+                break;
+        }
+        return <div className="my-6"><div className={`${styleClassNames}`}>{obj.body}</div></div>
+    },
+});
+
+CMS.registerEditorComponent({
+    id: 'base',
+    label: 'Base 顏色',
+    fields: [
+        {
+            name: 'body',
+            label: 'Text',
+            widget: 'markdown',
+        },
+    ],
+    pattern: /^{{< base >}}\n([\s\S]+?)\n{{< \/base >}}/,
+    fromBlock: function fromBlock(match) {
+        return {
+            body: match[1],
+        };
+    },
+    toBlock: function toBlock(obj) {
+        return '{{< base >}}\n'.concat(obj.body || '', '\n{{< /base >}}');
+    },
+    toPreview: function toPreview(obj) {
+        return window.h(
+            'div',
+            {
+                className:
+                    'border-2 border-dashed border-secondary border-opacity-75 rounded-xl font-semibold text-secondary text-left italic my-6 px-6 py-4',
+            },
+            obj.body
+        );
+    },
+});
+
+CMS.registerEditorComponent({
     id: 'color-paragraph',
     label: 'Color 顏色',
     fields: [
