@@ -128,6 +128,12 @@
                             </a>
                         </li>
                         {{ end }}
+                        {{ $sitemap := .Site.GetPage "/sitemap" }}
+                        <li>
+                            <a href="{{ $sitemap.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
+                                {{ $sitemap.Title }}
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

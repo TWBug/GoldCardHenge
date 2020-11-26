@@ -1,0 +1,82 @@
+{{ define "main" }}
+
+<div class="relative shadow-xl print:shadow-none">
+    {{ partial "navigation" . }}
+</div>
+<div class="relative flex-grow">
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 print:hidden -z-1"
+    ></div>
+    <div class="absolute right-0 top-0 text-xs font-bold text-black text-opacity-25 p-2">SITEMAP TEMPLATE</div>
+    <section>
+        <div id="scroll" class="container py-12 sm:py-24 px-12 lg:px-24">
+            <div class="mb-4">
+                {{ partial "breadcrumb" . }}
+            </div>
+            <h1 class="text-5xl font-medium leading-tight mb-2">{{ .Title }}</h1>
+            <p class="font-medium text-xl leading-relaxed">{{ .Summary }}</p>
+            <ul class="mt-6">
+                {{ range .Site.Sections }}
+                {{ template "sitemap" (dict "p" . ) }}
+                {{ end }}
+            </ul>
+        </div>
+    </section>
+</div>
+
+{{end}}
+
+{{ define "sitemap" }}
+
+    {{ if .p.IsNode }}
+    <ul>
+        <li>
+            <a href="{{ .p.RelPermalink}}" class="flex items-center text-primary  mb-1">
+                <span class="flex-shrink-0 mr-2">
+                    {{ partial "icon" (dict "name" "right" "size" "4") }}
+                </span>
+                <span class="font-bold text-base ">{{ .p.Title}}</span>
+            </a>
+            {{ template "sitemap2" (dict "p" .p )  }}
+        </li>
+    </ul>
+    {{ else }}
+    <li>
+        <a href="{{ .p.RelPermalink}}" class="flex items-center text-primary  mb-1">
+            <span class="flex-shrink-0 mr-2">
+                {{ partial "icon" (dict "name" "right" "size" "4") }}
+            </span>
+            <span class="font-bold text-base ">{{ .p.Title}}</span>
+        </a>
+    </li>
+    {{ end }}
+    
+{{ end }}
+
+{{ define "sitemap2" }}
+
+    {{ if .p.IsNode }}
+    <ul class="ml-5">
+        {{ range .p.Pages }}
+        <li>
+            <a href="{{ .RelPermalink}}" class="flex items-center text-primary  mb-1">
+                <span class="flex-shrink-0 mr-2">
+                    {{ partial "icon" (dict "name" "right" "size" "4") }}
+                </span>
+                <span class="font-bold text-base ">{{ .Title}}</span>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+    {{ else }}
+    <li>
+        <a href="{{ .RelPermalink}}" class="flex items-center text-primary  mb-1">
+            <span class="flex-shrink-0 mr-2">
+                {{ partial "icon" (dict "name" "right" "size" "4") }}
+            </span>
+            <span class="font-bold text-base ">{{ .Title}}</span>
+        </a>
+    </li>
+    {{ end }}
+    
+{{ end }}
