@@ -1,6 +1,8 @@
 ---
 title: 就業金卡有何特殊權益?
 draft: false
+categories:
+  - about
 ---
 就業金卡持有人享有以下權益：
 
