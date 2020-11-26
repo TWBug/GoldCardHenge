@@ -1,6 +1,10 @@
 ---
-title: " Taiwan Employment Gold Card Office"
-summary: " Taiwan Employment Gold Card Office"
+title: " Taiwan Employment Gold Card"
+summary: On October 31, 2018, Taiwan’s legislature passed the Act for the
+  Recruitment and Employment of Foreign Professional Talent to attract and
+  retain more international professionals in Taiwan. The card offers a work
+  permit, resident visa, alien resident certificate, and re-entry permit. It
+  also provides eligibility for a discount in income tax.
 draft: false
 hidden: false
 headless: true
