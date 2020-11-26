@@ -4,19 +4,11 @@
 {{ range $data.navigation.items }}
     {{ if eq .topic $topic}}
     <li class="bg-yellow-400 self-stretch flex text-black font-bold">
-        <a href="/{{ print $language .link }}" class="flex-center px-6">
-            <span>
-                {{ .name }}
-            </span>
-        </a>
-    </li>
     {{ else }}
     <li class="self-stretch flex hover:text-black hover:bg-white">
+    {{ end }}
         <a href="/{{ print $language .link }}" class="flex-center px-6">
-            <span>
-                {{ .name }}
-            </span>
+            {{ .name }}
         </a>
     </li>
-    {{ end }}
 {{ end }}

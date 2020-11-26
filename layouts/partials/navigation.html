@@ -33,13 +33,15 @@
             <button type="button" x-on:click="toggleModal()" class="absolute top-0 right-0 px-8 py-4" >
                 {{ partial "icon" (dict "name" "times" "size" "10") }}
             </button>
-            <div class="flex flex-col">
-              {{ .Site.Home.RelPermalink }}
+            <div class="flex flex-col h-full">
                 <a href="{{ .Site.Home.RelPermalink }}" class="block py-10 pl-12">
                     <img src="/img/taiwan-gold-card-logo.png" class="w-1/2" alt="{{ i18n "tego_logo" }}" />
                 </a>
-                <ul class="flex-grow flex flex-col justify-around text-2xl font-medium">
-                    {{ partial "navigation-scroll" . }}
+                <div class="flex items-center border-t border-b border-white border-opacity-50 mt-4 px-8" x-data="taLanguage()" x-init="init()">
+                    {{ partial "navigation-language" . }}
+                </div>
+                <ul class="text-2xl font-medium flex-grow-0 overflow-y-scroll">
+                    {{ partial "navigation-modal" . }}
                 </ul>
             </div>
         </div>

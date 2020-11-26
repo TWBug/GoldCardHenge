@@ -1,7 +1,7 @@
 {{ $url := .Page.Permalink }}
 {{ $actual_language := .Site.Language.Lang }}
-<div>
-    {{ i18n "change_language" }}:
+<div class="mr-2">
+    {{ partial "icon" (dict "name" "language" "size" "6" "alt" (i18n "change_language")) }}
 </div>
 {{ range .Site.Languages }}
 {{ if lt .Weight 10 }}
