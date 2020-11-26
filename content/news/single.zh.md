@@ -1,16 +1,19 @@
 ---
-summary: 透過就業金卡可以獲得在台居留及工作 1-3 年的權利 就業金卡提供開放工作權利，因此您可以在任何公司工作、同時應聘兼職職位、或者自己創業。
+title: "20200930就業金卡最新核發數字\t"
+summary: ""
 date: 2020-08-01T07:09:20.617Z
 draft: false
+cover_image: img/uploads/dummy-image.jpg
+cover_image_alt: Test alt
 media_image: img/uploads/taiwan-culture.jpg
 media_image_alt: Test alt
 topic: eventsnews
-title: 文章示例
-cover_image: img/uploads/dummy-image.jpg
-tags:
+tags: null
 categories:
+  - first
+  - second
+  - third
 publishDate: 2020-11-05T07:09:20.617Z
-cover_image_alt: Test alt
 ---
 
 # 就業金卡是什麼？
