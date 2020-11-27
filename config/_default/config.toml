@@ -1,6 +1,6 @@
 DefaultContentLanguage = "en"
-Paginate = 5
-PaginatePath = "pages"
+Paginate = 8
+PaginatePath = "page"
 baseURL = "/"
 copyright = "Taiwan Employment Gold Card Office"
 defaultContentLanguageInSubdir = true
