@@ -53,12 +53,12 @@
                     
                     <div class="grid grid-cols-1 sm:grid-cols-4 border-b-2 border-secondary border-dashed">
                         <div class="p-4 pt-8">
-                            <div class="flex flex-row sm:flex-col border sm:border-2 border-secondary rounded-md text-center font-medium sm:font-bold text-lg text-secondary max-w-64 sm:max-w-36 p-2 sm:mt-4">
+                            <div class="flex flex-row sm:flex-col border border-secondary rounded-lg text-center font-medium text-lg text-secondary max-w-64 sm:max-w-36 p-2 sm:mt-4">
                                 <div class="flex-grow flex-center sm:pb-2">
                                     {{ .Lastmod.Format "2006" }}
                                     
                                 </div>
-                                <div class="flex-grow flex-center border-l sm:border-l-0 sm:border-t-2 border-secondary border-dashed sm:text-xs sm:pt-2">
+                                <div class="flex-grow flex-center border-l sm:border-l-0 sm:border-t border-secondary sm:text-xs sm:pt-2">
                                     {{ if eq .Site.Language.Lang "zh" }}
                                     {{ printf "%d年%s月" .Lastmod.Month (.Lastmod.Format "1") }}
                                     {{ else }}
