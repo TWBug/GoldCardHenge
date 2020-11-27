@@ -32,6 +32,8 @@
   translation: 'FAQ'
 - id: news
   translation: 'News'
+- id: why_taiwan
+  translation: 'Why Taiwan'
 - id: topics
   translation: 'Topics'
 - id: legal
