@@ -1,10 +1,12 @@
-{{ partial "page-summary" . }}
-{{ if .Params.categories }}
-{{ partial "page-categories" . }}
-{{ end }}
-{{ if .Params.tags }}
-{{ partial "page-tags" . }}
-{{ end }}
-{{ partial "page-call-to-action" (dict "style" "light" ) }}
-{{ partial "page-latest-news" . }}
-{{ partial "page-table-contents" . }}
+<aside class="print:hidden">
+    {{ partial "page-summary" . }}
+    {{ if .Params.categories }}
+    {{ partial "page-categories" . }}
+    {{ end }}
+    {{ if .Params.tags }}
+    {{ partial "page-tags" . }}
+    {{ end }}
+    {{ partial "page-call-to-action" (dict "style" "light" ) }}
+    {{ partial "page-latest-news" . }}
+    {{ partial "page-table-contents" . }}
+</aside>
