@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<div class="relative bg-blue-500 shadow-xl">
+    {{ partial "navigation" . }}
+    <div class="relative bg-nav-meta z-0 pt-16 pb-16">
+        <div class="absolute inset-x-0 top-0 h-3/4 bg-gradient-to-b from-black to-transparent opacity-25 -z-1"></div>
+        <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
+            <img src="/img/list-mountains.svg" alt="" class="block w-full">
+        </div>
+        <div class="absolute right-0 bottom-0 text-xs font-bold text-white text-opacity-25 p-2">LIST WHY TAIWAN</div>
+    </div>
+</div>
+<div class="relative flex-grow">
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
+    ></div>
+    <section id="scroll">
+      <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
+            
+        </div>
+    </section>
+</div>
+
+
+{{end}}

@@ -9,8 +9,8 @@ cover_image: "img/uploads/dummy-image.jpg"
 cover_image_alt: "Test alt"
 media_image: "img/uploads/taiwan-culture.jpg"
 media_image_alt: "Test alt"
-tags:
-categories:
+topics:
+    - nature
 ---
 
 # Hi, and welcome to the official Taiwan Employment Gold Card website.

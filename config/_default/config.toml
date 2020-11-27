@@ -15,7 +15,7 @@ relativeURLs = false
 title = "Taiwan Gold Card"
 [taxonomies]
 category = "categories"
-reason = "reasons"
+topic = "topics"
 tag = "tags"
 
 [languages]

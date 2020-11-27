@@ -12,6 +12,8 @@ categories: null
 style: hero
 tags: null
 publishDate: 2020-11-05T07:09:20.617Z
+topics:
+    - business
 ---
 
 # Hi, and welcome to the official Taiwan Employment Gold Card website.

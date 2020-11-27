@@ -8,7 +8,9 @@ topic: whytaiwan
 title: 健保和保險
 cover_image: img/uploads/dummy-image.jpg
 tags: null
-categories: null
+topics:
+    - healthcare
+    - insurance
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: Test alt
 ---
