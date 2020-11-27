@@ -1,16 +1,17 @@
 ---
-title: "Why Taiwan"
-summary:
-date: 2020-11-05T07:09:20.617Z
-publishDate: 2020-11-05T07:09:20.617Z
+title: Why Taiwan
 draft: false
+cover_image: /cms-uploads/photo-1604854391694-17a6c60bc67f.jpg
+media_image: /cms-uploads/photo-1604854391694-17a6c60bc67f.jpg
+summary: null
+media_image_alt: Test alt
+date: 2020-11-05T07:09:20.617Z
 topic: whytaiwan
-cover_image: "img/uploads/dummy-card.svg"
-cover_image_alt: "Test alt"
-media_image: "img/uploads/taiwan-culture.jpg"
-media_image_alt: "Test alt"
-tags:
-categories:
+cover_image_alt: Test alt
+categories: null
+style: title
+tags: null
+publishDate: 2020-11-05T07:09:20.617Z
 ---
 
 # Taiwan is Amazing, here's why.

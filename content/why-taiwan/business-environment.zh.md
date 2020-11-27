@@ -1,16 +1,17 @@
 ---
 title: 產業資訊
-summary: Information about the industries and business environment in Taiwan.
-date: 2020-11-05T07:09:20.617Z
-publishDate: 2020-11-05T07:09:20.617Z
 draft: false
+cover_image: /cms-uploads/photo-1604854391694-17a6c60bc67f.jpg
+media_image: /cms-uploads/photo-1604854391694-17a6c60bc67f.jpg
+summary: Information about the industries and business environment in Taiwan.
+media_image_alt: Test alt
+date: 2020-11-05T07:09:20.617Z
 topic: whytaiwan
-cover_image: "img/uploads/dummy-image.jpg"
-cover_image_alt: "Test alt"
-media_image: "img/uploads/taiwan-culture.jpg"
-media_image_alt: "Test alt"
-tags:
-categories:
+cover_image_alt: Test alt
+categories: null
+style: hero
+tags: null
+publishDate: 2020-11-05T07:09:20.617Z
 ---
 
 # 您好，歡迎來到台灣就業金卡官方網站。

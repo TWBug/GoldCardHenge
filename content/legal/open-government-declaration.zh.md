@@ -1,16 +1,17 @@
 ---
-title: 政府網站資料開放宣告
-summary:
+media_image: null
 date: 2020-11-05T07:09:20.617Z
-publishDate: 2020-11-05T07:09:20.617Z
+summary: null
 draft: false
+media_image_alt: null
 topic: resources
-cover_image:
-cover_image_alt:
-media_image:
-media_image_alt:
-tags:
-categories:
+title: 政府網站資料開放宣告
+style: right
+cover_image: null
+tags: null
+categories: null
+publishDate: 2020-11-05T07:09:20.617Z
+cover_image_alt: null
 ---
 # 政府網站資料開放宣告
 一、授權方式及範圍
