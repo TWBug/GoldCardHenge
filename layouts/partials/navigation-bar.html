@@ -1,4 +1,13 @@
 {{ $topic := .Page.Params.topic }}
+{{ if not $topic }}
+{{ if eq .Page.Section "categories" }}
+{{ $topic = "eventsnews" }}
+{{ else if eq .Page.Section "tags" }}
+{{ $topic = "faq" }}
+{{ else if eq .Page.Section "topics" }}
+{{ $topic = "whytaiwan" }}
+{{ end }}
+{{ end }}
 {{ $language := .Site.Language.Lang }}
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{ range $data.navigation.items }}
