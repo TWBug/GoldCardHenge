@@ -5,10 +5,6 @@ title: " The National Development Council issued draft clauses for the Amendment
 date: 2020-09-18T06:47:23.117Z
 draft: false
 hidden: false
-categories:
-  - first
-  - second
-  - third
 ---
 # **National Development Council News Release**
 

@@ -4,8 +4,6 @@ summary: ""
 date: 2020-11-05T06:45:12.922Z
 draft: false
 hidden: false
-categories:
-  - Announcement
 ---
 # 就業金卡最新核發數字: 1,532!
 
