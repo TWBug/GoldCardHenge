@@ -6,7 +6,7 @@ hidden: false
 headless: true
 links:
   - is_cta: false
-    label: Read More
+    label: 了解更多
     href: /zh/about
     target: null
 items:
