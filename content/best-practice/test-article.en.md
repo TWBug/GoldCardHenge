@@ -21,6 +21,8 @@ cover_image_alt: Test alt
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloribus assumenda cum, totam iure debitis dolore quis velit possimus ratione distinctio nihil adipisci, sed voluptatibus labore fuga fugit dicta quia tenetur quae! Saepe consequuntur distinctio quam possimus magni iste autem tenetur et quisquam! Ipsa eveniet, incidunt cupiditate ea officia facilis fugiat, porro magni sunt autem amet consequuntur voluptatum provident quos. Explicabo, voluptatibus animi omnis autem, corrupti tenetur facere, eveniet in veniam accusantium quia!
 
+{{< file-download path="cms-uploads/privacy-policy.pdf" title="Privacy Policy" >}}
+
 ## Nice headline
 
 Eaque enim eveniet perspiciatis atque accusamus consequuntur unde tempore, fugiat nisi optio ex. Laboriosam incidunt voluptate minus possimus dolores asperiores ipsa, deleniti, delectus non vitae expedita, molestiae natus. Ipsa nostrum, provident facere mollitia doloribus eius [assumenda quibusdam](https://asjdhajksd.com). Eum error repellat deserunt facere est eius modi quo assumenda.
