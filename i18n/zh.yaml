@@ -15,7 +15,7 @@
 - id: latest_news
   translation: '最新消息'
 - id: reading_time
-  translation: "閱讀時間: %d 分鍾"
+  translation: '閱讀時間: %d 分鍾'
 - id: last_changed
   translation: '發布日期'
 - id: table_of_contents
@@ -80,3 +80,7 @@
   translation: '涼'
 - id: first
   translation: '第一'
+- id: application
+  translation: '申請'
+- id: goldcard
+  translation: '就業金卡'
