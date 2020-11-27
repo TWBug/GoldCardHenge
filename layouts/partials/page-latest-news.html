@@ -15,14 +15,13 @@
                 </div>
                 <span class="ml-2">
                 {{ partial "date" (dict "date" .Lastmod "lang" .Site.Language.Lang) }}
-                {{/*  {{ dateFormat "January 2006" .Lastmod }}  */}}
                 </span>
             </div>
             <a href="{{.RelPermalink}}" class="flex items-center font-bold text-primary text-base -ml-3 mb-1">
                 <div class="flex-shrink-0">
                     {{ partial "icon" (dict "name" "right" "size" "4") }}
                 </div>
-                <span class="pl-1">{{.Title}}</span>
+                <span class="pl-1">{{ .Title | truncate 80 }}</span>
             </a>
             <p class="text-xs font-medium leading-normal">{{ .Summary | truncate 70 }}</p>
         </div>
