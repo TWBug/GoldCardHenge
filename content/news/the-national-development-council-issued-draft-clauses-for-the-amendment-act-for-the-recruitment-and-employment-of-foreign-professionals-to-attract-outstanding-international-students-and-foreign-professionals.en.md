@@ -6,7 +6,7 @@ date: 2020-09-18T06:47:23.117Z
 draft: false
 hidden: false
 ---
-# **National Development Council News Release**
+# National Development Council News Release
 
 Warm and lively atmosphere at successful get-together of Employment Gold Card holders, organized by the National Development Council
 

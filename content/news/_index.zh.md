@@ -3,11 +3,11 @@ summary: In this section, we will post the latest news about the gold card
   program, share our upcoming events and other interesting goings on.
 date: 2020-08-01T07:09:20.617Z
 draft: false
-media_image: img/uploads/taiwan-culture.jpg
+media_image: cms-uploads/media-page-news.png
 media_image_alt: Test alt
 topic: eventsnews
-title: 新闻
-cover_image: img/uploads/dummy-image.jpg
+title: News
+cover_image: cms-uploads/icon-news.svg
 tags: null
 categories: null
 publishDate: 2020-11-05T07:09:20.617Z

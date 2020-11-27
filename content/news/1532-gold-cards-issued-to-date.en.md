@@ -4,6 +4,8 @@ summary: ""
 date: 2020-11-05T06:45:12.922Z
 draft: false
 hidden: false
+categories:
+    - event
 ---
 # 1,532 Gold Cards issued to date!
 

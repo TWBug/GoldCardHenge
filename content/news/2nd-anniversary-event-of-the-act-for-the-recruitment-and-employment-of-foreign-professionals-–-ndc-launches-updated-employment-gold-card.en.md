@@ -1,14 +1,19 @@
 ---
 title: " 2nd Anniversary Event of the Act for the Recruitment and Employment of
   Foreign Professionals – NDC launches updated Employment Gold Card"
-date: 2020-11-26T08:34:18.164Z
+date: 2020-09-26T08:34:18.164Z
 draft: false
 hidden: false
+categories:
+    - event
 ---
-2nd Anniversary Event of the Act for the Recruitment and Employment of Foreign Professionals – NDC launches updated Employment Gold Card
 
-Date of release: February 8, 2020
+# 2nd Anniversary Event of the Act for the Recruitment and Employment of Foreign Professionals – NDC launches updated Employment Gold Card
+
+{{< teaser >}}
+Date of release: February 8, 2020  
 Released by: Department of Human Resources Development
+{{< /teaser >}}
 
 The Act for the Recruitment and Employment of Foreign Professionals (“Foreign Professionals Act”) has come into effect on February 8, 2018. It has been 2 years since then. Among Foreign Professionals Act, the issuance of Employment Gold Card has achieved remarkable results. Employment Gold Card provides an open personal work permit for foreign special professionals. Card holders do not need a specific employer. These measures are more friendly for foreign special professionals to freely seek and take up employment in Taiwan.
 

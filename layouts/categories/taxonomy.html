@@ -1,10 +1,9 @@
 {{ define "main" }}
 
-{{ $hero_image := resources.Get (printf "%s" ("img/uploads/taiwan-lights.jpg" | safeURL)) }}
-
+{{ $news := .Site.GetPage "/news" }}
 {{ $cover_image := "" }}
-{{ if .Params.cover_image }}
-{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ if $news.Params.cover_image }}
+{{ $cover_image = resources.Get $news.Params.cover_image }}
 {{ end }}
 
 <div class="relative shadow-xl">
@@ -12,7 +11,7 @@
 </div>
 
 <div class="relative flex items-center z-0 pt-16">
-    <div class="absolute right-0 top-0 text-xs font-bold text-gray-400 p-2 pt-12">NEWS LIST TEMPLATE</div>
+    <div class="absolute right-0 top-0 text-xs font-bold text-gray-400 p-2 pt-12">CATEGORIES TAXONOMY TEMPLATE</div>
     <div
         class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
     ></div>
@@ -25,9 +24,14 @@
             </div>
             <div class="replace sm:col-span-2 text-center sm:text-left mt-4 sm:mt-0">
                 <h1 class="text-5xl leading-tight font-semibold mb-2">
+                    {{ i18n "news_category" }}:
+                    {{ if i18n .Title }}
                     {{ .Title }}
+                    {{ else }}
+                    {{ .Title | humanize }}
+                    {{ end }}
                 </h1>
-                <p class="text-xl font-medium leading-relaxed">{{ .Summary }}</p>
+                <p class="text-xl font-medium leading-relaxed">{{ $news.Summary }}</p>
             </div>
         </div>
     </div>
@@ -38,7 +42,7 @@
         <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
                 <div class="lg:col-span-2 pt-10">
-                  <div class="border-t-2 border-secondary border-dashed"></div>
+                  <div class=" border-t-2 border-secondary border-dashed"></div>
                     {{ $paginator := .Paginate .Pages.ByDate.Reverse }}
                     {{ range $paginator.Pages }}
                     
@@ -51,9 +55,9 @@
                       {{ end }}
                     {{ end }}
                     
-                    <div class="grid grid-cols-1 sm:grid-cols-4 border-b-2 border-secondary border-dashed">
-                        <div class="p-4 pt-8">
-                            <div class="border-2 border-secondary rounded-md text-center font-bold text-secondary max-w-36 p-2 sm:mt-4">
+                    <div class="grid grid-cols-4 border-b-2 border-secondary border-dashed">
+                        <div class="p-4">
+                            <div class="border-2 border-secondary rounded-md text-center font-bold text-secondary p-2 mt-8">
                                 <div class="text-xl pb-2">
                                     {{ .Lastmod.Format "2006" }}
                                     
@@ -67,7 +71,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-span-3 px-4 pb-8 sm:py-8">
+                        <div class="col-span-3 px-4 py-8">
                             <h2 class="text-xl font-bold text-primary mb-1 hover:text-black">
                                 <a href="{{ .RelPermalink }}" class="focus-primary">
                                     {{ .Title | truncate 110 }}
@@ -92,7 +96,7 @@
                                 <ul class="inline">
                                   {{ range .Params.categories }}
                                   <li class="inline-block text-primary text-xs p-1 mx-1">
-                                      <a href="/{{ $.Site.Language }}/categories/{{ . }}" class="inline-flex items-center focus-primary">
+                                      <a href="/{{ $.Site.Language }}/categories/{{ . }}" class="inline-flex items-center">
                                           {{ partial "icon" (dict "name" "tag" "size" "3") }}
                                           <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
                                       </a>
