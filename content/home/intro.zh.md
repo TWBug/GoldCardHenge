@@ -7,7 +7,7 @@ headless: true
 links:
   - is_cta: false
     label: Read More
-    href: https://staging.taiwangoldcard.tw/zh/about/
+    href: /zh/about
     target: null
 items:
   - is_cta: false

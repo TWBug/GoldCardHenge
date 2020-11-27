@@ -11,7 +11,7 @@ headless: true
 links:
   - is_cta: true
     label: Read More
-    href: /en/about/
+    href: /en/about
     target: null
 items:
   - is_cta: false
