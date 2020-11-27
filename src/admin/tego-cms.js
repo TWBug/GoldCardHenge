@@ -335,9 +335,10 @@ CMS.registerEditorComponent({
                 <p class="text-base font-regular">${obj.body}</p>
             </div>
         `;
-        let borderClass = 'my-12 border-t-2 border-b-2 border-secondary border-dashed -ml-4 -mr-4 p-4'
+        let borderClass =
+            'my-12 border-t-2 border-b-2 border-secondary border-dashed -ml-4 -mr-4 p-4';
         if (obj.bottemless === 'true') {
-            borderClass = 'my-12 border-t-2 border-secondary border-dashed -ml-4 -mr-4 p-4'
+            borderClass = 'my-12 border-t-2 border-secondary border-dashed -ml-4 -mr-4 p-4';
         }
         console.info('bottemless', obj.bottemless);
         console.info('borderClass', borderClass);
@@ -363,24 +364,34 @@ CMS.registerEditorComponent({
     ],
     pattern: /^{{< action headline="(.+)" href="(.*)" blank="(.*)" button="(.*)" >}}\n([\s\S]+?)\n{{< \/action >}}/,
     fromBlock: (match) => {
-        return { headline: match[1], href: match[2], blank: match[3], button: match[4], body: match[5] };
+        return {
+            headline: match[1],
+            href: match[2],
+            blank: match[3],
+            button: match[4],
+            body: match[5],
+        };
     },
     toBlock: (obj) => {
-        return `{{< action headline="${obj.headline}" href="${obj.href || ''}" blank="${obj.blank ? 'true' : 'false'}" button="${obj.button}" >}}\n${obj.body || ''}\n{{< /action >}}`;
+        return `{{< action headline="${obj.headline}" href="${obj.href || ''}" blank="${
+            obj.blank ? 'true' : 'false'
+        }" button="${obj.button}" >}}\n${obj.body || ''}\n{{< /action >}}`;
     },
     toPreview: (obj) => (
         <div className="relative bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium rounded-md shadow-xl text-white -ml-4 -mr-4 mb-12 mt-8 p-8 sm:p-12 z-0 overflow-hidden">
-            <div class="text-4xl font-regular text-center">
-                {obj.headline}
-            </div>
+            <div class="text-4xl font-regular text-center">{obj.headline}</div>
             <div class="grid grid-cols-1 sm:grid-cols-3 items-center gap-8 sm:gap-12 mt-8">
-            <div class="sm:col-span-2 font-semibold text-center sm:text-right">
-                {obj.body}
+                <div class="sm:col-span-2 font-semibold text-center sm:text-right">{obj.body}</div>
+                <div class="text-center">
+                    <a
+                        href={obj.href}
+                        class="inline-block whitespace-no-wrap bg-primary font-bold text-white leading-none rounded-md shadow-xl px-6 py-4"
+                        target="_blank"
+                    >
+                        {obj.button}
+                    </a>
+                </div>
             </div>
-            <div class="text-center">
-                <a href={obj.href} class="inline-block whitespace-no-wrap bg-primary font-bold text-white leading-none rounded-md shadow-xl px-6 py-4" target="_blank">{obj.button}</a>
-            </div>
-        </div>
         </div>
     ),
 });
@@ -399,9 +410,9 @@ CMS.registerEditorComponent({
         return { title: match[1], link: match[2], image: match[3], body: match[4] };
     },
     toBlock: (obj) => {
-        return `{{< card title="${obj.title}" link="${obj.link || ''}" image="${obj.image || ''}" >}}\n${
-            obj.body || ''
-        }\n{{< /card >}}`;
+        return `{{< card title="${obj.title}" link="${obj.link || ''}" image="${
+            obj.image || ''
+        }" >}}\n${obj.body || ''}\n{{< /card >}}`;
     },
     toPreview: (obj) => (
         <div className="inline-block w-1/2">
@@ -470,9 +481,11 @@ CMS.registerEditorComponent({
     },
     toPreview: (obj) => (
         <div className="my-6">
-            <div class="text-lg font-bold text-secondary border-b-2 border-dashed border-secondary border-opacity-50 pl-1">{obj.title}</div>
+            <div class="text-lg font-bold text-secondary border-b-2 border-dashed border-secondary border-opacity-50 pl-1">
+                {obj.title}
+            </div>
             <div class=" border-l-2 border-dashed border-secondary border-opacity-50 font-medium leading-relaxed text-md text-left italic pl-4 pt-3">
-            {obj.body}
+                {obj.body}
             </div>
         </div>
     ),
@@ -503,22 +516,33 @@ CMS.registerEditorComponent({
         };
     },
     toBlock: function toBlock(obj) {
-        return `{{< message style="${obj.style}" >}}\n`.concat(obj.body || '', '\n{{< /message >}}');
+        return `{{< message style="${obj.style}" >}}\n`.concat(
+            obj.body || '',
+            '\n{{< /message >}}'
+        );
     },
     toPreview: (obj) => {
-        let styleClassNames = 'text-red-800 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
+        let styleClassNames =
+            'text-red-800 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
         switch (obj.style) {
             case 'warning':
-                styleClassNames = 'text-yellow-700 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
+                styleClassNames =
+                    'text-yellow-700 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
                 break;
             case 'help':
-                styleClassNames = 'text-blue-900 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
+                styleClassNames =
+                    'text-blue-900 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
                 break;
             case 'info':
-                styleClassNames = 'text-blue-900 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
+                styleClassNames =
+                    'text-blue-900 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
                 break;
         }
-        return <div className="my-6"><div className={`${styleClassNames}`}>{obj.body}</div></div>
+        return (
+            <div className="my-6">
+                <div className={`${styleClassNames}`}>{obj.body}</div>
+            </div>
+        );
     },
 });
 
@@ -561,7 +585,17 @@ CMS.registerEditorComponent({
             name: 'color',
             label: 'Text Color 文字顏色',
             widget: 'select',
-            options: ['red', 'green', 'orange', 'yellow', 'teal', 'blue', 'indigo', 'purple', 'pink'],
+            options: [
+                'red',
+                'green',
+                'orange',
+                'yellow',
+                'teal',
+                'blue',
+                'indigo',
+                'purple',
+                'pink',
+            ],
             required: false,
         },
         { name: 'body', label: 'Text', widget: 'markdown' },
@@ -574,6 +608,26 @@ CMS.registerEditorComponent({
         return `{{< color color="${obj.color || ''}" >}}\n${obj.body || ''}\n{{< /color >}}`;
     },
     toPreview: (obj) => <p className={`text-${obj.color}-700`}>{obj.body}</p>,
+});
+
+CMS.registerEditorComponent({
+    id: 'youtube',
+    label: 'Youtube',
+    fields: [{ name: 'id', label: 'Youtube Video ID' }],
+    pattern: /^{{<\s?youtube (\S+)\s?>}}/,
+    fromBlock: (match) => {
+        return { id: match[1] };
+    },
+    toBlock: (obj) => {
+        return '{{< youtube ' + obj.id + ' >}}';
+    },
+    toPreview: (obj) => {
+        return (
+            '<img src="http://img.youtube.com/vi/' +
+            obj.id +
+            '/maxresdefault.jpg" alt="Youtube Video"/>'
+        );
+    },
 });
 
 // Register our custom styles
