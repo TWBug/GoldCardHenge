@@ -6,16 +6,20 @@
 
 {{ $media_image := resources.Get "img/uploads/taiwan-gold-card-social-preview.jpg" }}
 {{ if .Params.cover_image }}
-{{ $buffer := resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
-{{ if $buffer }}
-{{ $media_image = $buffer }}
-{{ end }}
+    {{ $buffer := resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+    {{ if $buffer }}
+        {{ if or (eq (path.Ext $buffer) ".png" ) (eq (path.Ext $buffer) ".jpg" ) }}
+            {{ $media_image = $buffer }}
+        {{ end }}
+    {{ end }}
 {{ end }}
 {{ if .Params.media_image }}
-{{ $buffer := resources.Get (printf "%s" (.Params.media_image | safeURL)) }}
-{{ if $buffer }}
-{{ $media_image = $buffer }}
-{{ end }}
+    {{ $buffer := resources.Get (printf "%s" (.Params.media_image | safeURL)) }}
+    {{ if $buffer }}
+        {{ if or (eq (path.Ext $buffer) ".png" ) (eq (path.Ext $buffer) ".jpg" ) }}
+            {{ $media_image = $buffer }}
+        {{ end }}
+    {{ end }}
 {{ end }}
 
 {{ $styles_wysiwyg := resources.Get "css/wysiwyg.min.css" }}
