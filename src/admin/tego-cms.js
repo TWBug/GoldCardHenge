@@ -401,9 +401,9 @@ CMS.registerEditorComponent({
     label: 'File download',
     fields: [
         { name: 'title', label: 'Title', widget: 'nested-string' },
-        { name: 'path', label: 'File', widget: "file" },
+        { name: 'path', label: 'File', widget: 'file' },
     ],
-    pattern: /^{{< file-download title="(.+)" path="(.*)" >}}/,
+    pattern: /^{{< file-download title="(.+?)" path="(.*?)" >}}/,
     fromBlock: (match) => {
         return { title: match[1], path: match[2] };
     },
@@ -416,9 +416,7 @@ CMS.registerEditorComponent({
                 href={obj.path}
                 className="inline-flex items-center text-primary font-bold text-xl focus-primary hover:text-black p-2"
             >
-                <span class="ml-2">
-                    { obj.title }
-                </span>
+                <span class="ml-2">{obj.title}</span>
             </a>
         </div>
     ),
