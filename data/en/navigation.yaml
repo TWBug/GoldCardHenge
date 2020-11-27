@@ -6,6 +6,8 @@ items:
           image: 'img/uploads/taiwan-lights.jpg'
           text: 'A short introduction, why Taiwan should be the next step for the visitor. A nice catchy copy that is helping the visitor to find out more about this country it’s culture and why Taiwan is the perfect match.'
           links:
+              - name: About Gold Card
+                link: /about/
               - name: Application
                 link: /application/
               - name: Qualification
@@ -66,8 +68,6 @@ items:
           links:
               - name: Help-Desk
                 link: /help-desk/
-              - name: Gold Card Network
-                link: /about/
               - name: Jobs
                 link: /jobs/
               - name: Related Websites

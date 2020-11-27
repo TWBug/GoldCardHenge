@@ -6,6 +6,8 @@ items:
           image: 'img/uploads/taiwan-lights.jpg'
           text: 'A short introduction, why Taiwan should be the next step for the visitor. A nice catchy copy that is helping the visitor to find out more about this country it’s culture and why Taiwan is the perfect match.'
           links:
+              - name: 關於就業金卡
+                link: /about/
               - name: Application
                 link: /application/
               - name: Qualification
