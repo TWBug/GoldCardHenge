@@ -68,7 +68,7 @@ collections:
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate, required: false }
           - { label: 'Hidden?', name: 'hidden', widget: 'boolean', default: false, required: false, i18n: true }
-          - { label: 'Layout', name: 'layout', widget: 'string', default: null, required: false, i18n: true }
+          - { label: 'Style', name: 'style', widget: 'select', options: ["right", "title", "hero"], default: 'right', i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     # Home page
@@ -121,6 +121,7 @@ collections:
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Style', name: 'style', widget: 'select', options: ["right", "title", "hero"], default: 'right', i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'events'
@@ -228,16 +229,16 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
-          - label: 'Categories'
-            name: 'categories'
-            widget: 'relation'
-            collection: 'taxonomies'
-            file: 'category_data'
-            value_field: 'items.*'
-            search_fields: ['items.*']
-            multiple: true
-            required: false
-            i18n: duplicate
+          # - label: 'Categories'
+          #   name: 'categories'
+          #   widget: 'relation'
+          #   collection: 'taxonomies'
+          #   file: 'category_data'
+          #   value_field: 'items.*'
+          #   search_fields: ['items.*']
+          #   multiple: true
+          #   required: false
+          #   i18n: duplicate
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'why-taiwan'
@@ -267,16 +268,16 @@ collections:
                 required: false,
                 i18n: duplicate,
             }
-          - label: 'Tags'
-            name: 'tags'
-            widget: 'relation'
-            collection: 'taxonomies'
-            file: 'tag_data'
-            value_field: 'items.*'
-            search_fields: ['items.*']
-            multiple: true
-            required: false
-            i18n: duplicate
+          # - label: 'Tags'
+          #   name: 'tags'
+          #   widget: 'relation'
+          #   collection: 'taxonomies'
+          #   file: 'tag_data'
+          #   value_field: 'items.*'
+          #   search_fields: ['items.*']
+          #   multiple: true
+          #   required: false
+          #   i18n: duplicate
           - label: 'Categories'
             name: 'categories'
             widget: 'relation'
@@ -287,6 +288,7 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
+          - { label: 'Style', name: 'style', widget: 'select', options: ["right", "title", "hero"], default: 'right', i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'qualification'
@@ -321,6 +323,7 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
+          - { label: 'Style', name: 'style', widget: 'select', options: ["right", "title", "hero"], default: 'right', i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'application'
@@ -355,6 +358,7 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
+          - { label: 'Style', name: 'style', widget: 'select', options: ["right", "title", "hero"], default: 'right', i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     ### Just a testing collection!
@@ -438,6 +442,7 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
+          - { label: 'Style', name: 'style', widget: 'select', options: ["right", "title", "hero"], default: 'right', i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'taxonomies'
