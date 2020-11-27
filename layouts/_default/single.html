@@ -19,7 +19,7 @@
     <div
         class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 print:hidden -z-1"
     ></div>
-    <div class="absolute right-0 top-0 text-xs font-bold text-black text-opacity-25 p-2">SINGLE TEMPLATE - STYLE: {{ $style }}</div>
+    <div class="absolute right-0 top-0 bg-black text-xs font-bold text-white p-2 z-10">SINGLE TEMPLATE - STYLE: {{ $style }}</div>
     <section>
         {{ partial ( printf "single-%s" $style) . }}
     </section>
