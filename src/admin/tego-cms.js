@@ -397,6 +397,34 @@ CMS.registerEditorComponent({
 });
 
 CMS.registerEditorComponent({
+    id: 'file-download',
+    label: 'File download',
+    fields: [
+        { name: 'title', label: 'Title', widget: 'nested-string' },
+        { name: 'path', label: 'File', widget: "file" },
+    ],
+    pattern: /^{{< file-download title="(.+)" path="(.*)" >}}/,
+    fromBlock: (match) => {
+        return { title: match[1], path: match[2] };
+    },
+    toBlock: (obj) => {
+        return `{{< file-download title="${obj.title}" path="${obj.path}" >}}`;
+    },
+    toPreview: (obj) => (
+        <div class="my-6 -ml-2">
+            <a
+                href={obj.path}
+                className="inline-flex items-center text-primary font-bold text-xl focus-primary hover:text-black p-2"
+            >
+                <span class="ml-2">
+                    { obj.title }
+                </span>
+            </a>
+        </div>
+    ),
+});
+
+CMS.registerEditorComponent({
     id: 'card',
     label: 'Card',
     fields: [
