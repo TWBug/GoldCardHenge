@@ -1,0 +1,24 @@
+<div class="md:sticky top-nav-scroll my-12">
+    <div
+        class="flex items-baseline justify-between border-b-2 border-secondary border-dashed px-2 pb-2"
+    >
+        <h3 class="text-xl font-bold">How to apply</h3>
+        {{ partial "icon" (dict "name" "question" "size" "7") }}
+    </div>
+    <div class="pt-6 pl-2">
+        <p class="text-md font-regular leading-normal">
+            Are you convinced that the Taiwan Employment Gold Card will be your personal next step?
+            Amazing - Start with your application now...
+        </p>
+    </div>
+    <div class="mt-2">
+        <a
+            href="{{ .Site.Language.Params.apply}}"
+            class="inline-flex items-center font-bold text-primary text-base p-2 focus-primary"
+            target="_blank"
+        >
+            <div class="flex-shrink-0">{{ partial "icon" (dict "name" "right" "size" "4") }}</div>
+            <span class="pl-1">{{ i18n "apply_now" }}</span>
+        </a>
+    </div>
+</div>
