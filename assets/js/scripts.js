@@ -690,6 +690,40 @@ window.taAccordion = function () {
 };
 "use strict";
 
+window.taToTop = function () {
+  return {
+    show: false,
+    top: 0,
+    init: function init() {
+      var _this = this;
+
+      var scroll = document.getElementById('scroll');
+
+      if (scroll === null) {
+        return false;
+      }
+
+      this.top = Math.round(scroll.getBoundingClientRect().top + window.scrollY);
+      document.addEventListener('scroll', function () {
+        var topY = window.scrollY;
+
+        if (topY > _this.top) {
+          _this.show = true;
+        } else {
+          _this.show = false;
+        }
+      });
+    },
+    scrollToTop: function scrollToTop() {
+      window.scroll({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  };
+};
+"use strict";
+
 var TxtRotate = function TxtRotate(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
