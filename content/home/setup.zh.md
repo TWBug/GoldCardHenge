@@ -24,11 +24,11 @@ items:
   - preview: /img/dummy-icon.svg
     label: 科技
     href: /zh/qualification/field-of-science-technology/
-  - is_cta: false
-    label: 法律
-    href: /zh/qualification/field-of-law/
-  - is_cta: false
-    label: 體育
-    href: /zh/qualification/field-of-sport/
+  - preview: /img/dummy-icon.svg
+    label: Law
+    href: /qualification/field-of-law
+  - preview: /img/dummy-icon.svg
+    label: Sports
+    href: /qualification/field-of-sport
 ---
 <!-- This text is never used -->

@@ -24,11 +24,11 @@ items:
   - preview: /img/dummy-icon.svg
     label: Science and Technology
     href: /qualification/field-of-science-technology
-  - is_cta: false
+  - preview: /img/dummy-icon.svg
     label: Law
-    href: /qualification/field-of-law/
-  - is_cta: false
+    href: /qualification/field-of-law
+  - preview: /img/dummy-icon.svg
     label: Sports
-    href: /qualification/field-of-sport/
+    href: /qualification/field-of-sport
 ---
 <!-- This text is never used -->
