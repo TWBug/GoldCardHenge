@@ -1,6 +1,5 @@
 ---
-title: I’m worried that my application will be rejected because I didn’t attach
-  enough documents.
+title: 我的申請是否會因為沒有提供足夠文件而被拒絕？
 draft: false
 tags:
   - Application
