@@ -33,30 +33,9 @@
         </div>
         <div class="absolute right-0 bottom-0 w-full sm:w-2/3 xxl:w-1/2 h-2/3">
             <div class="w-full lg:w-5/6 p-12">
-                
                 <h1 class="text-6xl bg-white leading-snug font-regular padded">
-                  <span class="typing" data-period="2000" data-rotate='[ {{ printf "\"%s\"" (delimit $heromessages "\", \"") }} ]'></span><br />
                     {{ $hero.Title | markdownify }}
                 </h1>
-                <div class="mt-12 -ml-4">
-                    {{ range $hero.Params.links }}
-                    {{ if eq .is_cta true }}
-                    <a
-                    href="{{ .href }}"
-                    {{ with .target }} target="{{ . }}" {{ end }}
-                    class="bg-primary rounded-md text-white font-bold text-xl leading-none shadow-xl px-6 py-3 mr-4 hover"
-                    >
-                    {{ else }}
-                    <a
-                    href="{{ .href }}"
-                    {{ with .target }} target="{{ . }}" {{ end }}
-                    class="bg-white rounded-md text-primary font-bold leading-none shadow-xl px-6 py-3 mr-4 hover"
-                    >
-                    {{ end }}
-                    {{ .label }}
-                    </a>
-                    {{ end}}
-                </div>
             </div>
         </div>
     </div>
