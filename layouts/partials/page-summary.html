@@ -13,12 +13,12 @@
     </div>
     <div class="pt-6 pl-2">
         <div class="flex items-center text-secondary mb-2">
-            {{ partial "icon" (dict "name" "book-reader" "size" "4") }}
-            <p class="text-xs font-bold ml-2">{{ printf (i18n "reading_time") $reading_time }}</p>
-        </div>
-        <div class="flex items-center text-secondary mb-4">
             {{ partial "icon" (dict "name" "clock" "size" "4") }}
             <p class="text-xs font-bold ml-2">{{ i18n "last_changed" }} {{ partial "date" (dict "date" .Lastmod "lang" .Site.Language.Lang ) }}</p>
+        </div>
+        <div class="flex items-center text-secondary mb-4">
+            {{ partial "icon" (dict "name" "book-reader" "size" "4") }}
+            <p class="text-xs font-bold ml-2">{{ printf (i18n "reading_time") $reading_time }}</p>
         </div>
         <p class="text-sm leading-relaxed font-medium">{{ .Summary | markdownify }}</p>
     </div>
