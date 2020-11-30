@@ -1,18 +1,17 @@
 ---
-title: I currently live in Taiwan, can I apply for the Gold Card?
-summary:
-date: 2020-11-04T06:52:19.195Z
-publishDate: 2020-11-04T06:52:19.195Z
-hidden: false
+media_image: null
 draft: false
+summary: null
+hidden: false
+media_image_alt: null
+date: 2020-11-04T06:52:19.195Z
 topic: faq
-cover_image:
-cover_image_alt:
-media_image:
-media_image_alt:
+cover_image: null
+title: 我目前居住在台灣，我可以申請就業金卡嗎？
 tags:
-    - qualify
-category:
+  - Qualification
+publishDate: 2020-11-04T06:52:19.195Z
+cover_image_alt: null
+category: null
 ---
-
-Yes. You can apply from anywhere, even within Taiwan. If you have an ARC, you can still apply, the Gold Card will replace you ARC. If you have a tourist visa, the Gold Card will replace your tourist visa.
+可以，您在任何地方都可以申請，即使已經身在台灣也行。如果您持有居留證，您仍舊可以申請，就業金卡會取代您的居留證。如果您持有旅遊簽證，就業金卡也會取代您的旅遊簽證。
