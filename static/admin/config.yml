@@ -738,8 +738,28 @@ collections:
                   widget: 'list'
                   fields:
                       - { label: Name, name: name, widget: string }
-                      - { label: Link, name: folder, widget: string }
+                      - { label: Topic, name: topic, widget: string }
                       - { label: Link, name: link, widget: string }
+                      - label: Dropdown
+                        name: dropdown
+                        widget: object
+                        default: null
+                        required: false
+                        fields:
+                            - { label: Image, name: image, widget: image, required: false }
+                            - { label: Text, name: text, widget: string, required: false }
+                            - label: Links
+                              name: links
+                              widget: list
+                              fields:
+                                  - { label: Name, name: name, widget: string }
+                                  - { label: Link, name: link, widget: string }
+                            - label: Items
+                              name: items
+                              summary: '{{fields.name}}'
+                              widget: list
+                              field: { label: Name, name: name, widget: string }
+
           - label: 'Navigation (zh)'
             name: 'navigation_zh'
             file: 'data/zh/navigation.yaml'
@@ -749,5 +769,24 @@ collections:
                   widget: 'list'
                   fields:
                       - { label: Name, name: name, widget: string }
-                      - { label: Link, name: folder, widget: string }
+                      - { label: Topic, name: topic, widget: string }
                       - { label: Link, name: link, widget: string }
+                      - label: Dropdown
+                        name: dropdown
+                        widget: object
+                        default: null
+                        required: false
+                        fields:
+                            - { label: Image, name: image, widget: image, required: false }
+                            - { label: Text, name: text, widget: string, required: false }
+                            - label: Links
+                              name: links
+                              widget: list
+                              fields:
+                                  - { label: Name, name: name, widget: string }
+                                  - { label: Link, name: link, widget: string }
+                            - label: Items
+                              name: items
+                              summary: '{{fields.name}}'
+                              widget: list
+                              field: { label: Name, name: name, widget: string }
