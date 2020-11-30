@@ -45,6 +45,8 @@ The Ministry of Labor will review the applicants work permit, then transfer the 
 
 Step 4 - Resident Visa
 
+Review by the Ministry of Foreign Affairs
+
 The Ministry of Foreign Affairs will review the work permit and provide the resident visa to the National Immigration Agency.
 
 Step 5 - Alien Resident Certificate (ARC) & Re-Entry Permit
