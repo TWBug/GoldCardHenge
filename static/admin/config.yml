@@ -189,6 +189,18 @@ collections:
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Link', name: 'link', widget: 'string', i18n: duplicate }
+          - label: 'Social Links'
+            name: 'social_links'
+            widget: 'object'
+            collapsed: true
+            summary: 'FB, LinkedIn, Insta, YouTube, Twitter'
+            i18n: true
+            fields:
+                - { label: Facebook, name: facebook, widget: string, required: false }
+                - { label: LinkedIn, name: linkedin, widget: string, required: false }
+                - { label: Instagram, name: instagram, widget: string, required: false }
+                - { label: YouTube, name: youtube, widget: string, required: false }
+                - { label: Twitter, name: twitter, widget: string, required: false }
           - {
                 label: 'Cover Image',
                 name: 'cover_image',
@@ -247,7 +259,7 @@ collections:
                 required: false,
                 i18n: duplicate,
             }
-          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true, required: false }
 
     - name: 'events'
       label: 'Events 活動'
