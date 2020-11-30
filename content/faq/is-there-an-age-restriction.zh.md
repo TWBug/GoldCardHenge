@@ -9,7 +9,7 @@ topic: faq
 cover_image: null
 title: 是否有年齡限制？
 tags:
-  - qualify
+  - Qualification
 publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
