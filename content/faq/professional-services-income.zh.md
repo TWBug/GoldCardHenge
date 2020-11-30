@@ -7,8 +7,7 @@ media_image_alt: null
 date: 2020-11-04T06:52:19.195Z
 topic: faq
 cover_image: null
-title: Does my professional services/sole proprietor/dividend income count
-  towards the salary requirement for Gold Card application?
+title: 我的專業服務/獨資經營/股息收入是否計入申請金卡的薪水要求？
 tags:
   - Qualification
 publishDate: 2020-11-04T06:52:19.195Z
