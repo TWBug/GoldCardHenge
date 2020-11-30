@@ -33,9 +33,18 @@
         </div>
         <div class="absolute right-0 bottom-0 w-full sm:w-2/3 xxl:w-1/2 h-2/3">
             <div class="w-full lg:w-5/6 p-12">
-                <h1 class="text-6xl bg-white leading-snug font-regular padded">
-                    {{ $hero.Title | markdownify }}
-                </h1>
+                <div class="mb-4">
+                    
+                    <h1 class="text-6xl bg-white leading-snug font-bold padded">
+                        {{ $hero.Title | markdownify }}
+                    </h1>
+                </div>
+                <div>
+                    
+                    <p class="text-4xl bg-white leading-snug font-regular padded">
+                        {{ $hero.Summary | markdownify }}
+                    </p>
+                </div>
             </div>
         </div>
     </div>
