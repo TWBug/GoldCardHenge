@@ -1,20 +1,17 @@
 ---
-title: What fees are involved in a Gold Card application?
-summary: 
-date: 2020-11-04T06:52:19.195Z
-publishDate: 2020-11-04T06:52:19.195Z
-hidden: false
+media_image: null
 draft: false
+summary: null
+hidden: false
+media_image_alt: null
+date: 2020-11-04T06:52:19.195Z
 topic: faq
-cover_image:
-cover_image_alt:
-media_image:
-media_image_alt:
+cover_image: null
+title: What fees are involved in a Gold Card application?
 tags:
   - goldcard
-category:
+publishDate: 2020-11-04T06:52:19.195Z
+cover_image_alt: null
+category: null
 ---
-
-There is only one fee, which is paid through the Gold Card application portal. There are no separate visa or work permit fees.
-
-The fees varies if you apply from Taiwan or overseas, the duration of the visa, and your nationality. You can check the [Fees for Employment Gold Card](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card) section of the application portal.
+申請就業金卡為一次性費用，於申請網站上繳納規費。無分次簽證或工作簽證費用。費用會依據申請地點(臺灣或海外)、效期長短、您的國籍而有所不同。您可以查看[了解相關資訊](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card)。

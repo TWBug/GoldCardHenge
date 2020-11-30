@@ -1,18 +1,18 @@
 ---
-title: Do I apply for the Gold Card personally, or should I ask my employer to do that?
-summary: 
-date: 2020-11-04T06:52:19.195Z
-publishDate: 2020-11-04T06:52:19.195Z
-hidden: false
+media_image: null
 draft: false
+summary: null
+hidden: false
+media_image_alt: null
+date: 2020-11-04T06:52:19.195Z
 topic: faq
-cover_image:
-cover_image_alt:
-media_image:
-media_image_alt:
+cover_image: null
+title: 我可以以個人名義申請嗎？或是需要透過我的雇主申請呢？
 tags:
   - goldcard
-category:
+publishDate: 2020-11-04T06:52:19.195Z
+cover_image_alt: null
+category: null
 ---
-
-Generally you should apply personally. Employers can help with the process, but you do not need their sponsorship or support to apply for the card. Additionally, the card once issued contains an open work permit that allows you to work for any company. If someone is asking you for large sums of money to help with your gold card application, it could be a scam.
+一般來說您可以自行申請。您的雇主可以在申請過程中提供協助，但申請就業金卡並不需要您的雇主的贊助或幫助。此外，當您取得就業金卡之後，即代表您取得了開放式個人工作許可，您可以為任何公司工作。
+如果有人向您收取高額的就業金卡申請費用，則可能是詐騙。

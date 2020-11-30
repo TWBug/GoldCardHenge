@@ -1,18 +1,17 @@
 ---
-title: I’m a digital nomad / remote worker, is this card suitable for me? Can I be self-employed?
-summary:
-date: 2020-11-04T06:52:19.195Z
-publishDate: 2020-11-04T06:52:19.195Z
-hidden: false
+media_image: null
 draft: false
+summary: null
+hidden: false
+media_image_alt: null
+date: 2020-11-04T06:52:19.195Z
 topic: faq
-cover_image:
-cover_image_alt:
-media_image:
-media_image_alt:
+cover_image: null
+title: 我是個數位游牧/遠端工作者 (自由工作者)，就業金卡適合我嗎？
 tags:
-    - qualify
-category:
+  - Qualification
+publishDate: 2020-11-04T06:52:19.195Z
+cover_image_alt: null
+category: null
 ---
-
-Yes, this card is perfect for you, since it contains an open work permit that allows you to work for any employer. However, if you don’t have a Taiwanese employer please see the answer to: [I’m a freelancer/I don’t have an employer, how do I register with the NHI?](https://taiwangoldcard.com/goldcard-holders-faq/health-insurance/).
+當然！就業金卡是您最好的選擇，有了開放式個人工作許可，您可以幫任何人工作。不過如果您沒有台灣雇主，您必須連續六個月都居住在台灣(或是只能離開臺灣1次並少於30天)並直接向健保局申請。在國家發展委員會的領導下，目前正在立法推動改善這一點。

@@ -8,9 +8,9 @@ items:
           links:
               - name: 關於就業金卡
                 link: /about/
-              - name: Application
+              - name: 申請流程
                 link: /application/
-              - name: Qualification
+              - name: 申請資格
                 link: /qualification/
               - name: Foreign special professionals
                 link: /application/foreign-special-professionals-economic-fields/
@@ -30,11 +30,9 @@ items:
           image: 'img/uploads/taiwan-lights.jpg'
           text: '**Nice test about why taiwan is a great place to work, stay and live.** Maybe some more infomations about culture or nature.'
           links:
-              - name: Business Environment
+              - name: 商業環境
                 link: /why-taiwan/business-environment/
-              - name: Culture
-                link: /why-taiwan/culture/
-              - name: Culture
+              - name: 文化
                 link: /why-taiwan/culture/
           items:
               - 'apply'
@@ -49,9 +47,9 @@ items:
           image: 'img/uploads/dummy-image.jpg'
           text: 'Are there any intesting informations about news and events? Then this should be here...'
           links:
-              - name: News
+              - name: 最新新聞
                 link: /news/
-              - name: Events
+              - name: 活動
                 link: /events/
           items:
               - 'apply'
@@ -66,13 +64,11 @@ items:
           image: 'img/uploads/taiwan-lights.jpg'
           text: 'Maybe some more about what people might expect in this section.'
           links:
-              - name: Help-Desk
+              - name: 協助櫃檯
                 link: /help-desk/
-              - name: Gold Card Network
-                link: /about/
-              - name: Jobs
+              - name: 就業機會
                 link: /jobs/
-              - name: Related Websites
+              - name: 相關資料
                 link: /related-websites/
           items:
               - 'apply'
