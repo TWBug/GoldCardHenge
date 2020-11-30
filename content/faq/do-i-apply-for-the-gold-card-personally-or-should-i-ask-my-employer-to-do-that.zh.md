@@ -9,7 +9,7 @@ topic: faq
 cover_image: null
 title: 我可以以個人名義申請嗎？或是需要透過我的雇主申請呢？
 tags:
-  - goldcard
+  - General
 publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null

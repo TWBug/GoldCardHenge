@@ -10,7 +10,7 @@ cover_image: null
 title: Do I apply for the Gold Card personally, or should I ask my employer to
   do that?
 tags:
-  - goldcard
+  - General
 publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null

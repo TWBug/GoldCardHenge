@@ -12,7 +12,7 @@ media_image:
 media_image_alt:
 tags:
     - application
-    - goldcard
+    - General
 category:
 ---
 
