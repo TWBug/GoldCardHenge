@@ -1,18 +1,17 @@
 ---
-title: Do I need to have a high salary to apply for a Gold Card?
-summary:
-date: 2020-11-04T06:52:19.195Z
-publishDate: 2020-11-04T06:52:19.195Z
-hidden: false
+media_image: null
 draft: false
+summary: null
+hidden: false
+media_image_alt: null
+date: 2020-11-04T06:52:19.195Z
 topic: faq
-cover_image:
-cover_image_alt:
-media_image:
-media_image_alt:
+cover_image: null
+title: Do I need to have a high salary to apply for a Gold Card?
 tags:
-    - qualify
-category:
+  - qualify
+publishDate: 2020-11-04T06:52:19.195Z
+cover_image_alt: null
+category: null
 ---
-
-No. Some industries have a category where applicants with a salary greater than NT$160,000 qualify. However, this is only one category. To date, none of the categories other than the dedicated salary category have financial requirements. If you have skills, please consider applying regardless of salary!
+不需要。對於某些行業來說，其中一個資格類別為要求申請者的月薪高於16萬，但是這僅止於一個類別。迄今為止，除專用薪資類別外，沒有其他類別具有財務要求。如果您有特殊專長，請無需考慮薪資，勇敢申請吧！
