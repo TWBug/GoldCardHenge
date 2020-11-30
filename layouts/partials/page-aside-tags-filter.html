@@ -5,8 +5,8 @@
     </div>
     <ul class="block pt-6 pl-2" x-ref="content">
         {{ range .Site.Taxonomies.tags }}
-        <li class="inline-block border-2 border-primary rounded-lg text-white text-sm mr-2 mb-2" :class="{ 'bg-white text-primary': !tags.{{ .Page.Title }}, 'bg-primary': tags.{{ .Page.Title }} }" data-tag="{{ .Page.Title }}">
-            <a href="{{ .Page.Permalink }}" @click.prevent="toggle('{{ .Page.Title }}')" class="flex items-center px-3 py-1">
+        <li class="inline-block border-2 border-primary rounded-lg text-white text-sm mr-2 mb-2" :class="{ 'bg-white text-primary': !tags.{{ .Page.Title | anchorize }}, 'bg-primary': tags.{{ .Page.Title | anchorize }} }" data-tag="{{ .Page.Title | anchorize }}">
+            <a href="{{ .Page.Permalink }}" @click.prevent="toggle('{{ .Page.Title | anchorize }}')" class="flex items-center px-3 py-1">
                 <div x-show="tags.{{ .Page.Title }}">
                     {{ partial "icon" (dict "name" "times" "size" "3") }}
                 </div>
