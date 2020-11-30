@@ -1,6 +1,6 @@
 ---
 title: 探索台灣
-summary: Take a look around our islands.
+summary: "Hi, and welcome to the official Taiwan Employment Gold Card website. We are currently getting set up and look forward to serving you soon."
 date: 2020-11-05T07:09:20.617Z
 publishDate: 2020-11-05T07:09:20.617Z
 draft: false

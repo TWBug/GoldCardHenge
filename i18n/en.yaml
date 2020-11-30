@@ -16,6 +16,8 @@
   translation: 'Latest news'
 - id: reading_time
   translation: "Reading time: %d minute(s)"
+- id: read_more
+  translation: "Read more"
 - id: last_changed
   translation: 'Last changed'
 - id: table_of_contents

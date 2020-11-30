@@ -7,109 +7,21 @@
 {{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
 {{ end }}
 
-<div class="relative bg-blue-500 shadow-xl">
+<div class="relative shadow-xl">
     {{ partial "navigation" . }}
-    <div class="relative flex items-center bg-nav-meta z-0 py-16 min-h-screen-full lg:min-h-screen-1/2 xxl:min-h-screen-1/3">
-        <div class="absolute inset-0 w-full h-full -z-1">
-          <img src="{{ $hero_image.RelPermalink }}" alt="asdasd" class="block w-full h-full object-cover"></div>
-        <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
-            <img src="/img/list-mountains-dark.svg" alt="asdasd" class="block w-full">
-        </div>
-        <div class="absolute right-0 bottom-0 text-xs font-bold text-white text-opacity-50 p-2">NEWS LIST TEMPLATE</div>
-        <div class="container px-24">
-          <div class="w-full lg:w-2/3">
-            <div class="text-white text-6xl leading-tight font-semibold mb-2">
-              <h1 class="padded-dark py-2">
-                {{ .Title }}
-              </h1>
-            </div>
-            <div class="text-white text-2xl font-medium">
-              <p class="padded-dark leading-relaxed py-2">{{ .Summary }}</p>
-            </div>
-          </div>
-        </div>
-    </div>
 </div>
+
 <div class="relative flex-grow">
     <section id="scroll">
-        <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
-                <div class="lg:col-span-2 pt-10">
-                  <div class=" border-t-2 border-secondary border-dashed"></div>
-                    {{ range .Pages }}
-                    
-                    {{ $cover_image := "" }}
-                    {{ if .Params.cover_image }}
-                    {{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+        <div class="container py-12 sm:py-24 px-12 lg:px-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 xl:gap-24">
+                    {{ range $index, $value := .Pages }}
+                    {{ if eq $index 0}}
+                    {{ partial "article-list-first" . }}
+                    {{ else }}
+                    {{ partial "article-list-following" . }}
                     {{ end }}
-                    
-                    {{ $reading_time := .ReadingTime }}
-                    {{ if eq .Language.Lang "zh" }}
-                      {{ range .Translations }}
-                        {{ if eq .Language.Lang "en" }}
-                          {{ $reading_time = .ReadingTime }}
-                        {{ end }}
-                      {{ end }}
                     {{ end }}
-                    
-                    <div class="flex items-start border-b-2 border-secondary border-dashed py-8 px-2">
-                        <div class="w-1/4 flex-grow-0">
-                            {{ if $cover_image }}
-                            <img src="{{ $cover_image.RelPermalink | safeURL }}" alt="{{ .Summary | truncate 160 }}" class="w-full rounded-md" loading="lazy" />
-                            {{ end }}
-                        </div>
-                        <div class="w-3/4 flex-grow ml-8">
-                          <div class="flex items-center text-xs font-bold text-secondary mb-1">
-                            {{ partial "icon" (dict "name" "clock" "size" "4") }}
-                            <span class="ml-2">
-                                {{ partial "date" (dict "date" .Lastmod "lang" .Site.Language.Lang )}}
-                            </span>
-                          </div>
-                            <h2 class="text-2xl font-bold text-primary mb-1 hover:text-black">
-                                <a href="{{ .RelPermalink }}">
-                                    {{ .Title | truncate 110 }}
-                                </a>
-                            </h2>
-                            <p class="text-base mb-4">
-                                {{ .Summary | truncate 180 }}
-                            </p>
-                            <div class="flex items-center text-xs font-bold text-secondary mb-2">
-                              {{ partial "icon" (dict "name" "book-reader" "size" "4") }}
-                              <span class="ml-2">
-                                {{ printf (i18n "reading_time") $reading_time }}
-                              </span>
-                            </div>
-                            <div>
-                              <div class="inline-flex items-center text-xs font-bold text-secondary">
-                                {{ partial "icon" (dict "name" "tags" "size" "4") }}
-                                <span class="ml-1">
-                                  {{ i18n "categories" }}: 
-                                </span>
-                              </div>
-                              <ul class="inline">
-                                {{ range .Params.categories }}
-                                <li class="inline-block bg-white text-primary rounded-lg text-xs p-1 mx-1">
-                                    <a href="/{{ $.Site.Language }}/categories/{{ . }}" class="inline-flex items-center">
-                                        {{ partial "icon" (dict "name" "tag" "size" "3") }}
-                                        <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
-                                    </a>
-                                </li>
-                                {{ end }}
-                            </ul>
-                            </div>
-                        </div>
-                    </div>
-                    {{ end }}
-                    
-                    {{ if .Content }}
-                    <div class="copy mt-12">{{ .Content }}</div>
-                    {{ end }}
-                    
-                </div>
-                <div class="-mt-12">
-                    {{ partial "page-all-categories" . }}
-                    {{ partial "page-call-to-action" (dict "style" "dark" ) }}
-                    {{ partial "page-latest-news" . }}
                 </div>
             </div>
         </div>
