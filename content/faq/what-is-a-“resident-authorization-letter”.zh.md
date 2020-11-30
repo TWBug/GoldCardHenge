@@ -1,5 +1,5 @@
 ---
-title: NONE
+title: What is a “Resident Authorization Letter”?
 draft: false
 tags:
   - Application
