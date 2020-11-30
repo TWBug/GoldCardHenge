@@ -14,5 +14,4 @@ publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
 ---
-
-Not really. However it is expected that gold card holders will have at least five years of work experience.
+Not really.

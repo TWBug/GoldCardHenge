@@ -14,4 +14,4 @@ publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
 ---
-否。但是我們希望就業金卡持有者至少有五年的工作經驗。
+否。
