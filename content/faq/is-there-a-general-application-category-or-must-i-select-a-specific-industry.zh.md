@@ -7,7 +7,7 @@ media_image_alt: null
 date: 2020-11-04T06:52:19.195Z
 topic: faq
 cover_image: null
-title: Is there a “general” application category or must I select a specific industry?
+title: 是否有個「一般」選項或是我必須選擇其中一個特定條目？
 tags:
   - Qualification
 publishDate: 2020-11-04T06:52:19.195Z
