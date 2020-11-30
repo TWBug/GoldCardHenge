@@ -9,7 +9,7 @@ topic: faq
 cover_image: null
 title: Do I need to have a high salary to apply for a Gold Card?
 tags:
-  - qualify
+  - Qualification
 publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
