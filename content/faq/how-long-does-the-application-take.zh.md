@@ -7,7 +7,7 @@ media_image_alt: null
 date: 2020-11-04T06:52:19.195Z
 topic: faq
 cover_image: null
-title: How long does the application take?
+title: 申請需花費多少時間？
 tags:
   - Application
 publishDate: 2020-11-04T06:52:19.195Z
