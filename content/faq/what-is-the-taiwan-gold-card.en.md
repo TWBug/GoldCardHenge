@@ -1,18 +1,19 @@
 ---
-title: What is the Gold Card?
-summary: The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan. 
-date: 2020-11-04T06:52:19.195Z
-publishDate: 2020-11-04T06:52:19.195Z
-hidden: false
+media_image: null
 draft: false
+summary: The Taiwan Employment Gold Card is a combined visa, work permit and
+  residence permit launched in 2018 to attract professional talent in Taiwan.
+hidden: false
+media_image_alt: null
+date: 2020-11-04T06:52:19.195Z
 topic: faq
-cover_image:
-cover_image_alt:
-media_image:
-media_image_alt:
+cover_image: null
+title: What is the Gold Card?
 tags:
-  - goldcard
-category:
+  - General
+publishDate: 2020-11-04T06:52:19.195Z
+cover_image_alt: null
+category: null
 ---
 
 The Taiwan Employment Gold Card is a combined visa, work permit and residence permit launched in 2018 to attract professional talent in Taiwan. The card gives you the right to stay and work in Taiwan for 1 year to 3 years, and you can apply online without sponsorship. The card comes with open work rights, so you may work for any (or multiple) company in Taiwan or start your own business. You can bring your family with you, and visitor rights for parents and grandparents are also included. There are tax incentives for cardholders with high salaries.
