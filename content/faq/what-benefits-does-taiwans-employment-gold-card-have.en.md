@@ -1,0 +1,7 @@
+---
+title: What benefits does Taiwan's employment gold card have?
+draft: false
+tags:
+  - General
+---
+A tax benefit of only being taxed on 50% of annual income above 3 million NT, for the first three years in which the foreigner is a tax resident (stays in Taiwan over 183 days). / Exemption from tax on overseas income (alternative minimum tax, or AMT) for the first three years in which the foreigner is a tax resident (stays in Taiwan over 183 days). / For individuals that apply for the gold card, they are free to change work or employers freely without application from the labor bureau for the duration of the gold card (3 years). / Allows foreign teachers with specialist skills to teach in cram schools (buxibans). / Allows work permits to be issued to freelance artists that qualify. / Those that meet requirements for a gold card to do not have to meet the 5 million NT paid in capital requirement (or annual 10 million NT turnover) for a company to sponsor a work permit. / The same law that created the gold card (Act for the Recruitment of Foreign Professionals) also stipulated that all foreign white collar professionals (with or without a gold card) have other immigration benefits for family dependents, such as no wait for health insurance, extended work permit times, easing permanent residency rules, etc.
