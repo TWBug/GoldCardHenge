@@ -1,0 +1,16 @@
+
+
+{{ range sort (where .Pages ".Params.hidden" "!=" true) ".Params.date" "desc" }}
+start: {{ dateFormat "2006" (time .Params.start) }}<br />
+{{ end }}
+
+{{ range (where .Pages ".Params.hidden" "!=" true).ByDate }}
+start: {{ dateFormat "Monday, Jan 2, 2006" (time .Params.start) }}<br />
+{{ end }}
+
+{{ range ((where .Pages ".Params.hidden" "!=" true).ByParam "start").Reverse }}
+title: {{ .Title }}<br />
+start: {{ .Params.start }}<br />
+{{ end }}
+
+{{ partial "time" (dict "date" .Params.end "lang" .Site.Language.Lang )}}

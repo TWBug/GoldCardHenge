@@ -34,6 +34,14 @@
   translation: 'News'
 - id: news_category
   translation: 'News category'
+- id: to_accupass_event
+  translation: 'Go to AccuPass event'
+- id: starts_at
+  translation: 'Starts at'
+- id: upcoming_events
+  translation: 'Upcoming events'
+- id: event_archive
+  translation: 'Event archive'
 - id: why_taiwan
   translation: 'Why Taiwan'
 - id: topics

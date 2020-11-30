@@ -1,0 +1,80 @@
+{{ $cover_image := "" }}
+{{ $cover_image_resized := "" }}
+{{ if .Params.cover_image }}
+{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ if $cover_image }}
+{{ $cover_image_resized = $cover_image.Fill "1024x533 q20" }}
+{{ end }}
+{{ end }}
+
+<div class="flex flex-col border-2 border-gray-200 rounded-md shadow-xl overflow-hidden">
+    <div class="border-b border-gray-200">
+        {{ if ne $cover_image "" }}
+        <img 
+        src="{{ $cover_image_resized.RelPermalink }}"
+        alt="{{ .Summary | truncate 160 }}" class="block w-full" loading="lazy" />
+        {{ end }}
+    </div>
+    <div class="px-8 py-6">
+        {{ if .Params.start }}
+        <div class="flex items-center text-xs font-bold text-secondary mb-2">
+            <div class="flex-center w-5">
+                {{ partial "icon" (dict "name" "s--calendar-check" "size" "4") }}
+            </div>
+            <span class="ml-2">
+                {{ if eq .Site.Language.Lang "zh" }}
+                {{ dateFormat "2006" .Params.start}}
+                
+                {{ else }}
+                {{ dateFormat "Monday, January 2, 2006" .Params.start }}
+                {{ end }}
+            </span>
+        </div>
+        {{ end }}
+        {{ if .Params.start }}
+        <div class="flex items-center text-xs font-bold text-secondary mb-2">
+            <div class="flex-center w-5">
+                {{ partial "icon" (dict "name" "s--clock" "size" "4") }}
+            </div>
+            <span class="ml-2">
+                {{ if .Params.end }}
+                {{ partial "time" (dict "date" .Params.start "lang" .Site.Language.Lang )}}
+                -
+                {{ partial "time" (dict "date" .Params.end "lang" .Site.Language.Lang )}}
+                {{ else }}
+                {{ i18n "starts_at" }}: {{ partial "time" (dict "date" .Params.start "lang" .Site.Language.Lang )}}
+                {{ end }}
+            </span>
+        </div>
+        {{ end }}
+        {{ if .Params.location }}
+        <div class="flex items-center text-xs font-bold text-secondary mb-2">
+            <div class="flex-center w-5">
+                {{ partial "icon" (dict "name" "map-marked-alt" "size" "4") }}
+            </div>
+            <span class="ml-2">
+                {{ .Params.location }}
+            </span>
+        </div>
+        {{ end }}
+        
+        <h2 class="text-xl font-bold text-primary mb-1 hover:text-black mt-4">
+            <a href="{{ .Params.link }}" target="_blank" class="focus-primary">
+                {{ .Title | truncate 80 }}
+            </a>
+        </h2>
+        <p class="text-md mb-4">
+            {{ .Summary | truncate 160}}
+        </p>
+        <div>
+            
+        </div>
+        <a href="{{ .Params.link }}" target="_blank" class="inline-flex items-center text-base font-bold text-primary focus-primary">
+            {{ partial "icon" (dict "name" "angle-right" "size" "4") }}
+            <span class="ml-1">
+                {{ i18n "to_accupass_event" }}
+            </span>
+        </a>
+        
+    </div>
+</div>
