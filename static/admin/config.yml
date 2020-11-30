@@ -271,8 +271,23 @@ collections:
       preview_path: en/events/{{slug}}
       fields:
           - { label: 'Event Title', name: 'title', widget: 'string', i18n: true }
-          - { label: 'Event Date', name: 'date', widget: 'datetime', i18n: duplicate }
           - { label: 'Event Link', name: 'link', widget: 'string', i18n: duplicate }
+          - { label: 'Start Date', name: 'start', widget: 'datetime', i18n: duplicate }
+          - {
+                label: 'End Date',
+                name: 'end',
+                widget: 'datetime',
+                i18n: duplicate,
+                required: false,
+                default: '',
+            }
+          - {
+                label: 'Location',
+                name: 'location',
+                widget: 'string',
+                i18n: duplicate,
+                required: false,
+            }
           - {
                 label: 'Cover Image',
                 name: 'cover_image',
@@ -337,7 +352,7 @@ collections:
                 required: false,
                 i18n: duplicate,
             }
-          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true, required: false }
 
     - name: 'jobs'
       label: 'Jobs 求職'
