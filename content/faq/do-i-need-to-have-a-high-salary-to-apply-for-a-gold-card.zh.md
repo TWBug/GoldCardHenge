@@ -7,7 +7,7 @@ media_image_alt: null
 date: 2020-11-04T06:52:19.195Z
 topic: faq
 cover_image: null
-title: Do I need to have a high salary to apply for a Gold Card?
+title: 申請就業金卡需要有較高薪資嗎？
 tags:
   - Qualification
 publishDate: 2020-11-04T06:52:19.195Z
