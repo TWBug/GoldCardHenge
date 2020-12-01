@@ -16,3 +16,6 @@ static/admin/tego-cms.js
 content/tmp
 static/lunr_index.json
 static/js-misc/lunr-search.js
+
+# Local Netlify folder
+.netlify
