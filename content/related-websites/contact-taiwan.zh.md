@@ -1,6 +1,7 @@
 ---
 title: Contact TAIWAN
 link: https://www.contacttaiwan.tw/main/index.aspx?lang=1
+cover_image: /cms-uploads/未命名-1-02.jpg
 draft: false
 hidden: false
 layout: related
