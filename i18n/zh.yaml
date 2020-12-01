@@ -96,3 +96,15 @@
   translation: '申請'
 - id: goldcard
   translation: '就業金卡'
+- id: website
+  translation: 'Website'
+- id: facebook
+  translation: 'Facebook'
+- id: youtube
+  translation: 'YouTube'
+- id: instagram
+  translation: 'Instagram'
+- id: twitter
+  translation: 'Twitter'
+- id: linkedin
+  translation: 'LinkedIn'

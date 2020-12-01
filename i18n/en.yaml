@@ -94,3 +94,15 @@
   translation: 'Cool'
 - id: first
   translation: 'First'
+- id: website
+  translation: 'Website'
+- id: facebook
+  translation: 'Facebook'
+- id: youtube
+  translation: 'YouTube'
+- id: instagram
+  translation: 'Instagram'
+- id: twitter
+  translation: 'Twitter'
+- id: linkedin
+  translation: 'LinkedIn'
