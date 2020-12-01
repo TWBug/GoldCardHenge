@@ -1,7 +1,7 @@
 items:
   - name: Gold Card
     topic: goldcard
-    link: /application/
+    link: /about/
     dropdown:
       image: img/uploads/taiwan-lights.jpg
       text: Taiwan is an amazing place to live, work and invest. Find out more about
