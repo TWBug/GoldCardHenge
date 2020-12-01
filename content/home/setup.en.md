@@ -1,6 +1,6 @@
 ---
 title: Choose your field
-summary: "1"
+summary: <!-- This text will never be seen -->
 draft: false
 hidden: false
 headless: true

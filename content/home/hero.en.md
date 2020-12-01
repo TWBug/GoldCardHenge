@@ -1,6 +1,6 @@
 ---
-title: Gold-Card is your right choice!
-summary: Welcome to the Official Taiwan Goldcard Website
+title: Next Stop, Taiwan!
+summary: Your Home in Asia.
 draft: false
 hidden: false
 headless: true
