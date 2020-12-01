@@ -13,6 +13,8 @@ items:
           link: /qualification/
         - name: Application Process
           link: /application-process/
+        - name: Gold Card Office
+          link: /gold-card-office/
       items:
         - apply
         - latestnews
