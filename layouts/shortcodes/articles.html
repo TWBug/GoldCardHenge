@@ -1,18 +1,10 @@
-{{ $category := "" }}
-{{ if isset .Page.Params "categories" }}
-{{/*  {{ $category = index .Page.Params.categories 0 }}  */}}
-{{ end }}
-{{ with .Params }}
-{{ if isset . "category" }}
-{{ $category = .category }}
-{{ end }}
+{{ $amount := 3 }}
+{{ with (.Get "amount") }}
+{{ $amount = . }}
 {{ end }}
 
-{{ $articles := where (where .Site.RegularPages "Section" "news") "Permalink" "!=" .Page.Permalink }}
-{{ if $category }}
-{{ $articles = where $articles "Params.categories" "intersect" (slice $category)}}
-{{ end }}
-{{ $articles = first 3 $articles.ByLastmod.Reverse }}
+{{ $articles := where (where .Site.RegularPages "Section" "why-taiwan") "Permalink" "!=" .Page.Permalink }}
+{{ $articles = first $amount $articles.ByLastmod.Reverse }}
 
 {{ if $articles }}
 <div class="my-12 ">

@@ -43,6 +43,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate expedita mai
 
 ![Example image](img/uploads/taiwan-nature.jpg)
 
-## All FAQ
+## Latest faq
 
-{{< faq >}}
+{{< faq amount="5" >}}

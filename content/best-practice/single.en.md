@@ -66,7 +66,7 @@ Work for any company in Taiwan, Open work rights, Start your own business
 
 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nesciunt est soluta officiis, nulla laborum, beatae suscipit corporis nostrum eius facilis hic culpa.
 
-{{< latest-articles amount="2" >}}
+{{< articles amount="2" >}}
 
 ### What fees are involved in a Gold Card application?
 

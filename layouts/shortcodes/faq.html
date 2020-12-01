@@ -1,5 +1,13 @@
+{{ $amount := 3 }}
+{{ with (.Get "amount") }}
+{{ $amount = . }}
+{{ end }}
+
+{{ $faq := where (where .Site.RegularPages "Section" "faq") "Permalink" "!=" .Page.Permalink }}
+{{ $faq = first $amount $faq.ByLastmod.Reverse }}
+
 <div class="my-12 ">
-{{ range where .Site.RegularPages "Section" "faq" }}
+{{ range $faq }}
     <div class="bg-gray-200 rounded-md px-6 py-4 my-2">
         {{ $actualPage := .Page.Permalink }}
     <span class="block text-sm font-semibold">{{ .Lastmod.Format "January 2, 2006" }}</span>
