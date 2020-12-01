@@ -28,21 +28,6 @@ items:
   - name: 為什麼台灣
     topic: whytaiwan
     link: /why-taiwan/
-    dropdown:
-      image: img/uploads/taiwan-lights.jpg
-      text: "**Nice test about why taiwan is a great place to work, stay and live.**
-        Maybe some more infomations about culture or nature."
-      links:
-        - name: 商業環境
-          link: /why-taiwan/business-environment/
-        - name: 文化
-          link: /why-taiwan/culture/
-      items:
-        - apply
-        - latestnews
-        - allnews
-        - latestevents
-        - allevents
   - name: 活動和新聞
     topic: eventsnews
     link: /news/
