@@ -396,7 +396,20 @@ collections:
       preview_path: en/faq/{{slug}}
       i18n: true
       fields:
-          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - {
+                label: 'Title',
+                name: 'title',
+                widget: 'max-length-string',
+                maxLength: 255,
+                i18n: true,
+            }
+          - {
+                label: 'Question (if different from above 若不同上)',
+                name: 'question',
+                widget: 'string',
+                i18n: true,
+                required: false,
+            }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - label: 'Tags'
             name: 'tags'

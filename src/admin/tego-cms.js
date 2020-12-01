@@ -226,6 +226,49 @@ const NestedStringPreview = createClass({
 // the cursor to the end of the line.
 CMS.registerWidget('nested-string', NestedStringControl, NestedStringPreview, { properties: {} });
 
+// NOTE: The point of limiting string lenght is Netlify's build process. They
+// disallow filenames that are too long. To get around this, we're simply
+// disallowing the creation of titles that are too long and will instead use a
+// different field for the display title.
+const MaxLengthString = createClass({
+    isValid() {
+        const maxLength = this.props.field.get('maxLength', 200);
+
+        // ERROR!
+        // See NOTE
+        if (this.props.value.length > maxLength) {
+            return { error: { message: `過度長 Must be shorter than ${maxLength}` } };
+        }
+
+        return true;
+    },
+
+    handleChange(e) {
+        this.props.onChange(e.target.value);
+    },
+
+    render() {
+        return (
+            <input
+                id={this.props.forID}
+                className={this.props.classNameWrapper}
+                type="text"
+                value={this.props.value}
+                onChange={this.handleChange}
+            />
+        );
+    },
+});
+
+// NOTE: We're going to use the same nested string preview here since the previw
+// should just be a normal string. THe point of this widget is to limit the max
+// length, not to do anything with presentation.
+CMS.registerWidget('max-length-string', MaxLengthString, NestedStringPreview, {
+    properties: {
+        maxLength: { type: 'number' },
+    },
+});
+
 /// Configure CMS
 //
 
