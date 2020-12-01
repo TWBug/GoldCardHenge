@@ -1,0 +1,80 @@
+{{ define "main" }}
+
+{{ $cover_image := "" }}
+{{ if .Params.cover_image }}
+{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ end }}
+
+{{ $example_logo := resources.Get "/cms-uploads/netlify-logo.jpg" }}
+
+<div class="relative bg-blue-500 shadow-xl">
+    {{ partial "navigation" . }}
+    <div class="relative bg-nav-meta z-0 pt-16 pb-16">
+        <div class="absolute inset-x-0 top-0 h-3/4 bg-gradient-to-b from-black to-transparent opacity-25 -z-1"></div>
+        <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
+            <img src="/img/list-mountains.svg" alt="" class="block w-full">
+        </div>
+        <div class="absolute right-0 bottom-0 text-xs font-bold text-white text-opacity-25 p-2">RELATED-WEBSITES LIST TEMPLATE</div>
+        <div class="container px-12 lg:px-24">
+            <div class="grid grid-cols-3 gap-12 xxl:gap-24 items-center lg:px-24">
+                <div class="replace col-span-2">
+                    <h1 class="text-white text-5xl leading-tight font-semibold mb-2">
+                        <span class="font-bold">{{ .Title }}
+                    </h1>
+                    <p class="text-white font-semibold">{{ .Summary }}</p>
+                </div>
+                <div>
+                    {{ if $cover_image }}
+                    <img src="{{ $cover_image.RelPermalink }}" class="w-full" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="relative flex-grow">
+    <section id="scroll">
+        <div class="container py-12 sm:py-24 px-12 lg:px-24">
+            {{ partial "breadcrumb" . }}
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 xl:gap-24 mt-6">
+                <div class="flex flex-col border-2 border-gray-200 rounded-lg overflow-hidden">
+                    <div class="p-4 border-b border-gray-200">
+                        <img src="{{ $example_logo.RelPermalink }}" alt="logo for something" class="w-full mx-auto max-h-40 object-contain">
+                    </div>
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold text-primary hover:text-black -ml-2">
+                            <a href="#" target="_blank" class="inline-block focus-primary p-2">
+                                Headline for Logo
+                            </a>
+                        </h2>
+                        <p class="text-md mb-4">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum atque, iure omnis illo dolor voluptates soluta ab eveniet numquam. Illum eligendi doloribus non fugit, accusantium esse accusamus sit iste quidem assumenda quae eaque fuga totam perferendis corrupti quasi quo dolor.
+                        </p>
+                        <div class="flex flex-wrap justify-between -ml-2">
+                            <a href="#" class="flex items-center text-base font-bold text-primary focus-primary p-2">
+                                {{ partial "icon" (dict "name" "facebook-square" "size" "6") }}
+                                <span class="ml-2">
+                                    Facebook
+                                </span>
+                            </a>
+                            <a href="#" class="flex items-center text-base font-bold text-primary focus-primary p-2">
+                                {{ partial "icon" (dict "name" "youtube" "size" "6") }}
+                                <span class="ml-2">
+                                    YouTube
+                                </span>
+                            </a>
+                            <a href="#" class="flex items-center text-base font-bold text-primary focus-primary p-2">
+                                {{ partial "icon" (dict "name" "external-link-alt" "size" "6") }}
+                                <span class="ml-2">
+                                    Website
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{{end}}
