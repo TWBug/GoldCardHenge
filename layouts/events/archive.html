@@ -46,7 +46,7 @@
             </div>
             <div class="text-center mt-12">
                 {{ $events := .Site.GetPage "/events" }}
-                <a href="{{ $events.RelPermalink }}" class="inline-flex items-center text-xl font-bold text-primary focus-primary hover:text-black">
+                <a href="{{ $events.RelPermalink }}" class="inline-flex items-center text-xl font-bold text-primary focus-primary p-1">
                     {{ partial "icon" (dict "name" "angle-left" "size" "6") }}
                     <span class="ml-2">
                         {{ i18n "upcoming_events" }}

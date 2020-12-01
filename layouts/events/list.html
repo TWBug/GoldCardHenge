@@ -31,6 +31,9 @@
     </div>
 </div>
 <div class="relative flex-grow">
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-96 bg-white bg-gradient-to-b from-blue-100 to-white -z-1"
+    ></div>
     <section id="scroll">
         <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
             {{ partial "breadcrumb" . }}
@@ -43,7 +46,7 @@
             </div>
             <div class="text-center mt-12">
                 {{ $events := .Site.GetPage "/events/archive" }}
-                <a href="{{ $events.RelPermalink }}" class="inline-flex items-center text-xl font-bold text-primary focus-primary hover:text-black">
+                <a href="{{ $events.RelPermalink }}" class="inline-flex items-center text-xl font-bold text-primary focus-primary p-1">
                     <span class="mr-2">
                         {{ i18n "event_archive" }}
                     </span>

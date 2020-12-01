@@ -32,19 +32,24 @@
 </div>
 {{ end }}
 
-<div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
-    <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xl:gap-24">
-        <div class="sm:col-span-2">
-            {{ partial "breadcrumb" . }}
-            <div class="copy replace mt-4">
-                {{.Content}}
+<div class="relative">
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-96 bg-white bg-gradient-to-b from-blue-100 to-white -z-1"
+    ></div>
+    <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
+        <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xl:gap-24">
+            <div class="sm:col-span-2">
+                {{ partial "breadcrumb" . }}
+                <div class="copy replace mt-4">
+                    {{.Content}}
+                </div>
             </div>
-        </div>
-        <div class="print:hidden sm:-mt-4">
-            {{ partial "page-summary" . }}
-            {{ partial "aside/all-topics" . }}
-            {{ partial "page-table-contents" . }}
-            {{ partial "page-apply-now" . }}
+            <div class="print:hidden sm:-mt-4">
+                {{ partial "page-summary" . }}
+                {{ partial "aside/all-topics" . }}
+                {{ partial "page-table-contents" . }}
+                {{ partial "page-apply-now" . }}
+            </div>
         </div>
     </div>
 </div>
