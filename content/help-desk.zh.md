@@ -13,4 +13,9 @@ tags:
 categories:
 layout:
 ---
-幫忙
+# 台灣就業金卡服務台
+台灣就業金卡專案辦公室提供個雙語服務台.
+
+如果您有任何疑問，請隨時與我們聯繫:
+
+help@taiwangoldcard.tw
