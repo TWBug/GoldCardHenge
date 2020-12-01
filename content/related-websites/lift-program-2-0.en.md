@@ -3,6 +3,7 @@ title: LIFT Program 2.0
 link: https://lifttaiwan.stpi.narl.org.tw/
 social_links:
   facebook: https://www.facebook.com/LIFT2.0.MOST/
+  youtube: https://www.youtube.com/channel/UCRQDbpuomUatHOAqLxp4IRQ?fbclid=IwAR0KNkJI2YyMMbc262xbWPWIPVe2SClKJmKPg7P8pN1UqC70KRuPYpFK5fQ
 cover_image: /cms-uploads/lift-program-2.0.jpg
 cover_image_alt: LIFT Program 2.0
 draft: false
