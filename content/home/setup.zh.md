@@ -25,10 +25,10 @@ items:
     label: 科技
     href: /zh/qualification/field-of-science-technology
   - preview: /img/dummy-icon.svg
-    label: Law
+    label: 法律
     href: /qualification/field-of-law
   - preview: /img/dummy-icon.svg
-    label: Sports
+    label: 體育
     href: /qualification/field-of-sport
 ---
 <!-- This text is never used -->
