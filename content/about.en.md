@@ -6,8 +6,9 @@ draft: false
 media_image_alt: null
 layout: null
 topic: goldcard
-cover_image: null
 title: What is the Taiwan Gold Card?
+style: title
+cover_image: null
 tags: null
 categories: null
 publishDate: 2020-11-05T07:09:20.617Z
