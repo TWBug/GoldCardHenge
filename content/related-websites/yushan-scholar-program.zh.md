@@ -2,6 +2,7 @@
 title: 玉山學者計畫
 link: https://yushan.moe.gov.tw/TopTalent/
 cover_image: /cms-uploads/未命名-1-01.jpg
+cover_image_alt: Yushan Scholar Program
 draft: false
 hidden: false
 layout: related
