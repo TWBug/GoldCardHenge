@@ -1,6 +1,6 @@
 {{ $home := .Site.Home }}
 <nav aria-label="breadcrumb">
-    <div class="text-sm font-semibold">
+    <div class="text-xs font-semibold">
         <ol class="flex flex-wrap items-center">
             {{ template "breadcrumbnav" (dict "section" .Page.Section "p1" . "p2" . ) }}
         </ol>
@@ -14,23 +14,23 @@
 {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
 {{ end }}
 {{ if eq .p1 .p2 }}
-<li class="breadcrumb">
-    {{ if or  (eq .section "tags") (eq .section "categories") }}
-        {{ if i18n .p1.Title }}
-            {{ i18n .p1.Title }}
+<li class="border-l-2 border-gray-500 border-dashed px-2">
+    <span class="flex items-center bg-white rounded font-bold px-2 py-1">
+        {{ if or  (eq .section "tags") (eq .section "categories") }}
+            {{ if i18n .p1.Title }}
+                {{ i18n .p1.Title }}
+            {{ else }}
+                {{ .p1.Title | humanize }}
+            {{ end }}
         {{ else }}
-            {{ .p1.Title | humanize }}
+        {{ .p1.Title | truncate 60 }}
         {{ end }}
-    {{ else }}
-    {{ .p1.Title | truncate 60 }}
-    {{ end }}
+    </span>
 </li>
 {{ else if .p1.IsHome }}
 <li class="text-primary hover:text-black mr-2">
-    <a href="{{ .p1.Permalink }}" class="flex items-center">
-        <span class="-ml-6">
-            {{ partial "icon" (dict "name" "home" "size" "4") }}
-        </span>
+    <a href="{{ .p1.Permalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">
+        {{ partial "icon" (dict "name" "home" "size" "4") }}
         <span class="ml-2">
             {{ if or  (eq .section "tags") (eq .section "categories") }}
                 {{ if i18n .p1.Title }}
@@ -45,8 +45,8 @@
     </a>
 </li>
 {{ else }}
-<li class="breadcrumb text-primary hover:text-black mr-2">
-    <a href="{{ .p1.Permalink }}">
+<li class="border-l-2 border-gray-500 border-dashed text-primary hover:text-black px-2">
+    <a href="{{ .p1.Permalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">
         {{ .p1.Title | truncate 60 }}
     </a>
 </li>
