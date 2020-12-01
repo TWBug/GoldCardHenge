@@ -1,7 +1,7 @@
 items:
   - name: 就業金卡
     topic: goldcard
-    link: /application/
+    link: /zh/about/
     dropdown:
       image: img/uploads/taiwan-lights.jpg
       text: 一個短的介紹，為什麼台灣因該是用戶的下一站。 很有趣的句話幫用戶更了解台灣， 台灣文化，為什麼台灣是 最好的選者。
@@ -9,7 +9,7 @@ items:
         - name: 關於就業金卡
           link: /about/
         - name: 申請流程
-          link: /application/
+          link: /application/application-process/
         - name: 申請資格
           link: /qualification/
         - name: Foreign special professionals
