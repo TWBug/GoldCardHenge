@@ -16,5 +16,7 @@ categories:
 # Hi, and welcome to the official Taiwan Employment Gold Card website.
 
 We are currently getting set up and look forward to serving you soon.
+We know that finding a job is an important part of moving to a new country.
 
-In the meantime, please check out [foreigntalentact.ndc.gov.tw](https://foreigntalentact.ndc.gov.tw/) for more information on the Gold Card. If you have any additional questions feel free to email us at:
+In the meantime, please check out [Contact Taiwan](https://contacttaiwan.tw/) which is
+a government initiative to link professionals and Taiwanese industries.
