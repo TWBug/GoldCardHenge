@@ -52,7 +52,7 @@ items:
       links:
         - name: 聯繫我們
           link: /help-desk/
-        - name: 就業機會
+        - name: 工作職缺
           link: /jobs/
         - name: 相關網站
           link: /related-websites/
