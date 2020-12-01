@@ -16,8 +16,8 @@
     {{ end }}
 {{ end }}
 
-<div class="flex flex-col border-2 border-gray-200 rounded-md overflow-hidden">
-    <div class="relative border-b border-gray-200 bg-gray-200">
+<div class="flex flex-col border border-gray-200 rounded-md overflow-hidden">
+    <div class="relative border-b border-gray-200">
         {{ if .Params.topics }}
         <div class="absolute right-0 top-0 pt-4 pr-4">
             <ul class="inline">
@@ -35,10 +35,10 @@
         {{ if ne $cover_image "" }}
         <img 
         src="{{ $cover_image_resized.RelPermalink }}"
-        alt="{{ .Summary | truncate 160 }}" class="block w-full" loading="lazy" />
+        alt="{{ .Summary | truncate 160 }}" class="block w-full -z-1" loading="lazy" />
         {{ end }}
     </div>
-    <div class="flex flex-col h-full px-8 py-6">
+    <div class="flex flex-col h-full bg-gradient-to-b from-white to-gray-100 px-8 py-6">
         <div class="flex items-center text-xs font-bold text-secondary mb-2">
             {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
             <span class="ml-2">
