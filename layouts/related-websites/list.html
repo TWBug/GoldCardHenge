@@ -37,42 +37,81 @@
     <section id="scroll">
         <div class="container py-12 sm:py-24 px-12 lg:px-24">
             {{ partial "breadcrumb" . }}
-            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 xl:gap-24 mt-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 xl:gap-12 mt-6">
+                
+                {{ range .RegularPages }}
+                {{ $icon := "" }}
+                {{ if .Params.cover_image }}
+                {{ $icon = resources.Get .Params.cover_image }}
+                {{ end }}
+                
                 <div class="flex flex-col border-2 border-gray-200 rounded-lg overflow-hidden">
                     <div class="p-4 border-b border-gray-200">
-                        <img src="{{ $example_logo.RelPermalink }}" alt="logo for something" class="w-full mx-auto max-h-40 object-contain">
+                    {{ if ne $icon "" }}
+                        <img src="{{ $icon.RelPermalink }}" alt="{{ .Params.cover_image_alt }}" class="w-full mx-auto max-h-36 object-contain">
+                        {{ end }}
                     </div>
-                    <div class="p-4">
+                    <div class="flex-grow p-4">
                         <h2 class="text-xl font-bold text-primary hover:text-black -ml-2">
-                            <a href="#" target="_blank" class="inline-block focus-primary p-2">
-                                Headline for Logo
+                            <a href="{{ .Params.link }}" target="_blank" class="inline-block focus-primary p-2">
+                                {{ .Title | truncate 80 }}
                             </a>
                         </h2>
-                        <p class="text-md mb-4">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum atque, iure omnis illo dolor voluptates soluta ab eveniet numquam. Illum eligendi doloribus non fugit, accusantium esse accusamus sit iste quidem assumenda quae eaque fuga totam perferendis corrupti quasi quo dolor.
+                        <p class="text-md mb-2">
+                            {{ .Summary | truncate 220 }}
                         </p>
-                        <div class="flex flex-wrap justify-between -ml-2">
-                            <a href="#" class="flex items-center text-base font-bold text-primary focus-primary p-2">
-                                {{ partial "icon" (dict "name" "facebook-square" "size" "6") }}
-                                <span class="ml-2">
-                                    Facebook
-                                </span>
-                            </a>
-                            <a href="#" class="flex items-center text-base font-bold text-primary focus-primary p-2">
-                                {{ partial "icon" (dict "name" "youtube" "size" "6") }}
-                                <span class="ml-2">
-                                    YouTube
-                                </span>
-                            </a>
-                            <a href="#" class="flex items-center text-base font-bold text-primary focus-primary p-2">
-                                {{ partial "icon" (dict "name" "external-link-alt" "size" "6") }}
-                                <span class="ml-2">
-                                    Website
-                                </span>
-                            </a>
-                        </div>
                     </div>
+                    <div class="flex flex-wrap justify-center text-md pb-4 px-2">
+                        <a href="{{ .Params.link }}" target="_blank" class="flex items-center font-bold text-primary focus-primary p-2">
+                            {{ partial "icon" (dict "name" "external-link-alt" "size" "6") }}
+                            <span class="ml-2">
+                                {{ i18n "website" }}
+                            </span>
+                        </a>
+                        {{ if .Params.social_links.facebook }}
+                        <a href="{{ .Params.social_links.facebook }}" target="_blank" class="flex items-center font-bold text-primary focus-primary p-2">
+                            {{ partial "icon" (dict "name" "facebook-square" "size" "6") }}
+                            <span class="ml-2">
+                                {{ i18n "facebook" }}
+                            </span>
+                        </a>
+                        {{ end }}
+                        {{ if .Params.social_links.youtube }}
+                        <a href="{{ .Params.social_links.youtube }}" target="_blank" class="flex items-center font-bold text-primary focus-primary p-2">
+                            {{ partial "icon" (dict "name" "youtube" "size" "6") }}
+                            <span class="ml-2">
+                                {{ i18n "youtube" }}
+                            </span>
+                        </a>
+                        {{ end }}
+                        {{ if .Params.social_links.instagram }}
+                        <a href="{{ .Params.social_links.instagram }}" target="_blank" class="flex items-center font-bold text-primary focus-primary p-2">
+                            {{ partial "icon" (dict "name" "instagram" "size" "6") }}
+                            <span class="ml-2">
+                                {{ i18n "instagram" }}
+                            </span>
+                        </a>
+                        {{ end }}
+                        {{ if .Params.social_links.twitter }}
+                        <a href="{{ .Params.social_links.twitter }}" target="_blank" class="flex items-center font-bold text-primary focus-primary p-2">
+                            {{ partial "icon" (dict "name" "twitter" "size" "6") }}
+                            <span class="ml-2">
+                                {{ i18n "twitter" }}
+                            </span>
+                        </a>
+                        {{ end }}
+                        {{ if .Params.social_links.linkedin }}
+                        <a href="{{ .Params.social_links.linkedin }}" target="_blank" class="flex items-center font-bold text-primary focus-primary p-2">
+                            {{ partial "icon" (dict "name" "linkedin" "size" "6") }}
+                            <span class="ml-2">
+                                {{ i18n "linkedin" }}
+                            </span>
+                        </a>
+                        {{ end }}
+                    </div>
+                    
                 </div>
+                {{ end }}
             </div>
         </div>
     </section>
