@@ -1,40 +1,74 @@
 {{ define "main" }}
 
+{{ $cover_image := resources.Get "cms-uploads/icon-tag.svg" }}
+
 <div class="relative bg-blue-500 shadow-xl">
     {{ partial "navigation" . }}
-    <div class="relative bg-nav-meta z-0 pt-16 pb-16">
-        <div
-            class="absolute inset-x-0 top-0 h-3/4 bg-gradient-to-b from-black to-transparent opacity-25 -z-1"
-        ></div>
-        <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
-            <img src="/img/list-mountains.svg" alt="" class="block w-full" />
-        </div>
-        <div class="absolute right-0 bottom-0 text-xs font-bold text-white text-opacity-25 p-2">
-            TAXONOMY TOPICS
+</div>
+
+<div class="relative flex items-center bg-blue-100 z-0 py-16">
+    <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">TOPICS TAXONOMY TEMPLATE</div>
+    <div
+        class="absolute top-0 inset-x-0 h-full bg-gradient-to-b from-gradient to-transparent opacity-25 -z-1"
+    ></div>
+    <div class="container px-12 lg:px-24">
+        <div class="flex justify-between lg:px-24">
+            <div class="w-full sm:w-2/3">
+                {{ $whytaiwan := .Site.GetPage "/why-taiwan" }}
+                <nav aria-label="breadcrumb">
+                    <div class="text-xs font-semibold mb-4">
+                        <ol class="flex items-center">
+                            <li class="pr-2">
+                                <a href="{{ .Site.Home.RelPermalink }}" class="inline-flex items-center text-primary bg-white rounded focus-primary px-2 py-1">
+                                    {{ partial "icon" (dict "name" "home" "size" "4") }}
+                                    <span class="ml-2">Home</span>
+                                </a>
+                            </li>
+                            <li class="border-l-2 border-gray-500 border-dashed px-2">
+                                <a href="{{ $whytaiwan.RelPermalink }}" class="inline-flex items-center text-primary bg-white rounded focus-primary px-2 py-1">{{ $whytaiwan.Title }}</a>
+                            </li>
+                            <li class="border-l-2 border-gray-500 border-dashed px-2">
+                                <span class="inline-flex items-center bg-white rounded font-bold px-2 py-1">
+                                    {{ i18n "topics" }}
+                                </span>
+                            </li>
+                        </ol>
+                    </div>
+                </nav>
+                <h1 class="text-5xl leading-tight font-semibold mb-2">
+                    {{ $whytaiwan.Title }}:
+                    {{ if i18n .Title }}
+                        {{ i18n .Title }}
+                    {{ else }}
+                        {{ .Title | humanize }}
+                    {{ end }}
+                </h1>
+                <p class="text-lg font-medium leading-relaxed">{{ $whytaiwan.Summary | truncate 200 }}</p>
+            </div>
+            <div class="w-1/5 pb-6">
+                {{ if $cover_image }}
+                <img src="{{ $cover_image.RelPermalink }}" class="w-full" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
+                {{ end }}
+            </div>
         </div>
     </div>
 </div>
+
 <div class="relative flex-grow">
     <div
-        class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
+        class="absolute top-0 inset-x-0 h-full max-h-96 bg-white bg-gradient-to-b from-blue-100 to-white -z-1"
     ></div>
     <section id="scroll">
-        <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
-            <div class="grid grid-cols-3 gap-12 xl:gap-24">
-                {{ range .RegularPages}}
-                <div class="text-left mb-6">
-                    <h2 class="text-2xl font-bold text-primary mb-1">
-                        <a href="{{.RelPermalink}}" class="hover:text-black focus:text-black"
-                            >{{.Title}}</a
-                        >
-                    </h2>
-                    <p class="text-base">{{ .Summary | truncate 180 }}</p>
-                </div>
+        <div class="container pb-12 sm:pb-24 px-12 lg:px-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 xl:gap-24">
+                {{ range $index, $value := .Pages }}
+                    {{ if eq $index 0}}
+                        {{ partial "blog/list-first" . }}
+                    {{ else }}
+                        {{ partial "blog/list-following" . }}
+                    {{ end }}
                 {{ end }}
             </div>
-            {{ if .Content }}
-            <div class="copy mt-12">{{ .Content }}</div>
-            {{ end }}
         </div>
     </section>
 </div>
