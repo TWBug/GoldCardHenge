@@ -23,17 +23,17 @@ items:
   - name: FAQ
     topic: faq
     link: /faq/
-  - name: 為什麼台灣
+  - name: Why Taiwan
     topic: whytaiwan
     link: /why-taiwan/
-  - name: 活動和新聞
+  - name: 活動與最新消息
     topic: eventsnews
     link: /news/
     dropdown:
       image: img/uploads/dummy-image.jpg
       text: 關於金卡最新的，或參加社群活動？ 來看看這裡
       links:
-        - name: 最新新聞
+        - name: 最新消息
           link: /news/
         - name: 活動
           link: /events/
