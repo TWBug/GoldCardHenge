@@ -1,20 +1,21 @@
 ---
-title: Science & Technology v3
-summary: 'Foreign specialist personnel with special expertise in science & technology'
-date: 2020-11-05T07:09:20.617Z
-publishDate: 2020-11-05T07:09:20.617Z
+media_image: img/uploads/taiwan-culture.jpg
+summary: Foreign specialist personnel with special expertise in science & technology
 draft: false
+media_image_alt: Test alt
+date: 2020-11-05T07:09:20.617Z
 topic: goldcard
-cover_image: 'img/uploads/dummy-image.jpg'
-cover_image_alt: 'Test alt'
-media_image: 'img/uploads/taiwan-culture.jpg'
-media_image_alt: 'Test alt'
+title: Science & Technology v3
 tags: null
-image: img/uploads/dummy-image.jpg
 categories:
-    - first
-    - second
-    - third
+  - first
+  - second
+  - third
+style: right
+cover_image: img/uploads/dummy-image.jpg
+image: img/uploads/dummy-image.jpg
+publishDate: 2020-11-05T07:09:20.617Z
+cover_image_alt: Test alt
 ---
 
 # Foreign specialist personnel with special expertise in science & technology
