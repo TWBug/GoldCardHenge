@@ -4,9 +4,7 @@ items:
     link: /application/
     dropdown:
       image: img/uploads/taiwan-lights.jpg
-      text: 一個短的介紹，為什麼台灣因該是用戶的下一站。
-        很有趣的句話幫用戶更了解台灣， 台灣文化，為什麼台灣是
-               最好的選者。
+      text: 一個短的介紹，為什麼台灣因該是用戶的下一站。 很有趣的句話幫用戶更了解台灣， 台灣文化，為什麼台灣是 最好的選者。
       links:
         - name: 關於就業金卡
           link: /about/
@@ -50,13 +48,13 @@ items:
     link: /about/
     dropdown:
       image: img/uploads/taiwan-lights.jpg
-      text: 一句話解釋在這部分有什麼內容。 
+      text: 一句話解釋在這部分有什麼內容。
       links:
-        - name: 協助櫃檯
+        - name: 聯繫我們
           link: /help-desk/
         - name: 就業機會
           link: /jobs/
-        - name: 相關資料
+        - name: 相關網站
           link: /related-websites/
       items:
         - apply
