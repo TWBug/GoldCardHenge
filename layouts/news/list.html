@@ -64,7 +64,7 @@
                                 </div>
                                 <div class="flex-grow flex-center border-l sm:border-l-0 sm:border-t border-secondary sm:text-xs sm:pt-2">
                                     {{ if eq .Site.Language.Lang "zh" }}
-                                    {{ printf "%d月%s日" .Lastmod.Month (.Lastmod.Format "1") }}
+                                    {{ printf "%d月%s日" .Lastmod.Month (.Lastmod.Format "2") }}
                                     {{ else }}
                                     {{ dateFormat "January 2th" .Lastmod }}
                                     {{ end }}
