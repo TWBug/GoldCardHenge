@@ -8,27 +8,27 @@ links: null
 items:
   - preview: /img/dummy-icon.svg
     label: 建築
-    href: /zh/qualification/field-of-architecture/
+    href: /zh/qualification/field-of-architecture
   - preview: /img/dummy-icon.svg
     label: 文化藝術
-    href: /zh/qualification/field-of-culture-and-arts/
+    href: /zh/qualification/field-of-culture-and-arts
   - preview: /img/dummy-icon.svg
     label: 經濟
-    href: /zh/qualification/field-of-finance/
+    href: /zh/qualification/field-of-finance
   - preview: /img/dummy-icon.svg
     label: 教育
-    href: /zh/qualification/field-of-education/
+    href: /zh/qualification/field-of-education
   - preview: /img/dummy-icon.svg
     label: 金融
-    href: /zh/qualification/field-of-finance/
+    href: /zh/qualification/field-of-finance
   - preview: /img/dummy-icon.svg
     label: 科技
-    href: /zh/qualification/field-of-science-technology/
+    href: /zh/qualification/field-of-science-technology
   - preview: /img/dummy-icon.svg
-    label: Law
+    label: 法律
     href: /qualification/field-of-law
   - preview: /img/dummy-icon.svg
-    label: Sports
+    label: 體育
     href: /qualification/field-of-sport
 ---
 <!-- This text is never used -->
