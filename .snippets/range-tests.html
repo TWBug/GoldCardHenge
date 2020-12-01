@@ -14,3 +14,11 @@ start: {{ .Params.start }}<br />
 {{ end }}
 
 {{ partial "time" (dict "date" .Params.end "lang" .Site.Language.Lang )}}
+
+
+
+{{ $articles := where (where .Site.RegularPages "Section" "news") "Permalink" "!=" .Page.Permalink }}
+{{ if $category }}
+{{ $articles = where $articles "Params.categories" "intersect" (slice $category)}}
+{{ end }}
+{{ $articles = first 3 $articles.ByLastmod.Reverse }}
