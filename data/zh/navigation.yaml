@@ -4,9 +4,9 @@ items:
     link: /application/
     dropdown:
       image: img/uploads/taiwan-lights.jpg
-      text: A short introduction, why Taiwan should be the next step for the visitor.
-        A nice catchy copy that is helping the visitor to find out more about
-        this country it’s culture and why Taiwan is the perfect match.
+      text: 一個短的介紹，為什麼台灣因該是用戶的下一站。
+        很有趣的句話幫用戶更了解台灣， 台灣文化，為什麼台灣是
+               最好的選者。
       links:
         - name: 關於就業金卡
           link: /about/
@@ -33,8 +33,7 @@ items:
     link: /news/
     dropdown:
       image: img/uploads/dummy-image.jpg
-      text: Are there any intesting informations about news and events? Then this
-        should be here...
+      text: 關於金卡最新的，或參加社群活動？ 來看看這裡
       links:
         - name: 最新新聞
           link: /news/
@@ -51,7 +50,7 @@ items:
     link: /about/
     dropdown:
       image: img/uploads/taiwan-lights.jpg
-      text: Maybe some more about what people might expect in this section.
+      text: 一句話解釋在這部分有什麼內容。 
       links:
         - name: 協助櫃檯
           link: /help-desk/
