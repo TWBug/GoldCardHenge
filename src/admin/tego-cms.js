@@ -441,7 +441,7 @@ CMS.registerEditorComponent({
 
 CMS.registerEditorComponent({
     id: 'file-download',
-    label: 'File download',
+    label: 'File 檔案',
     fields: [
         { name: 'title', label: 'Title', widget: 'nested-string' },
         { name: 'path', label: 'File', widget: 'file' },
