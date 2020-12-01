@@ -1,0 +1,9 @@
+---
+title: Yushan Scholar Program
+link: https://yushan.moe.gov.tw/TopTalent/
+cover_image: /cms-uploads/未命名-1-01.jpg
+draft: false
+hidden: false
+layout: related
+---
+The Yushan Scholar Porgram aims to assist various universities and colleges (hereafter, universities) in recruiting top international scholars to teach in Taiwan by providing internationally competitive salaries and thus expand international academic capacity in Taiwan’s academic environment and enhance the international influence of Taiwan’s higher education.
