@@ -1,6 +1,7 @@
 ---
 title: Field of Education
 draft: false
+style: title
 ---
 ## A foreign special professional with special expertise in the field of education
 
