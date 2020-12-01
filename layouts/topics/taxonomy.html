@@ -19,16 +19,16 @@
                     <div class="text-xs font-semibold mb-4">
                         <ol class="flex items-center">
                             <li class="pr-2">
-                                <a href="{{ .Site.Home.RelPermalink }}" class="inline-flex items-center text-primary bg-white rounded focus-primary px-2 py-1">
+                                <a href="{{ .Site.Home.RelPermalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">
                                     {{ partial "icon" (dict "name" "home" "size" "4") }}
                                     <span class="ml-2">Home</span>
                                 </a>
                             </li>
                             <li class="border-l-2 border-gray-500 border-dashed px-2">
-                                <a href="{{ $whytaiwan.RelPermalink }}" class="inline-flex items-center text-primary bg-white rounded focus-primary px-2 py-1">{{ $whytaiwan.Title }}</a>
+                                <a href="{{ $whytaiwan.RelPermalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">{{ $whytaiwan.Title }}</a>
                             </li>
                             <li class="border-l-2 border-gray-500 border-dashed px-2">
-                                <span class="inline-flex items-center bg-white rounded font-bold px-2 py-1">
+                                <span class="flex items-center bg-white rounded font-bold px-2 py-1">
                                     {{ i18n "topics" }}
                                 </span>
                             </li>
@@ -45,7 +45,7 @@
                 </h1>
                 <p class="text-lg font-medium leading-relaxed">{{ $whytaiwan.Summary | truncate 200 }}</p>
             </div>
-            <div class="w-1/5 pb-6">
+            <div class="w-1/4">
                 {{ if $cover_image }}
                 <img src="{{ $cover_image.RelPermalink }}" class="w-full" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
                 {{ end }}
