@@ -32,7 +32,7 @@ apply = "https://www.linkedin.com/company/taiwangoldcard/"
 
 [languages.zh]
 languageName = "中文"
-title = "台灣金卡"
+title = "台灣就業金卡"
 weight = 2
 [languages.zh.params]
 linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
