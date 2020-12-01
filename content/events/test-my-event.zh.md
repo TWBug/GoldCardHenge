@@ -12,5 +12,8 @@ tags: null
 hidden: false
 category: null
 ---
+By popular request, the Taiwan Employment Gold Card office will be holding a Basic Tax Workshop for all Gold Card Holders! Every foreigner's tax situation is different, but we believe that there are certain things that every person must know. At this workshop, we will be covering 2 basic topics:
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi explicabo laborum ex culpa molestiae, ipsam itaque nisi nostrum magni quasi porro, suscipit veniam architecto repudiandae quod quis modi eius recusandae omnis iure blanditiis aspernatur vel molestias debitis. Accusamus odio, autem provident ad dolor aut non, excepturi nostrum esse corrupti blanditiis, et quasi enim amet velit reprehenderit suscipit in vitae. Ullam voluptatem assumenda fuga ratione eum eveniet provident, quos asperiores minus, sequi sit recusandae non, harum molestiae quidem doloremque rem. Nam numquam totam saepe incidunt! Quo natus, suscipit non error, unde voluptate expedita quibusdam tenetur asperiores laboriosam, voluptas eaque dolorum tempora deleniti magni soluta blanditiis nam fugit quisquam delectus sed nemo. Animi dolor dolorem exercitationem nostrum eos, odit fuga laborum cum.
+How to file personal taxes
+How to open a bank account 
+Aside from these topics, we will be collecting questions from Gold Card Holders before the event and will address as many as we can on the day of the event. If you have any questions, please remember to let us know on the registration form or email us at hello@taiwangoldcard.tw. Please note that we will generally avoid very specific scenarios and opt for questions that we feel the majority can relate to. We will stop collecting questions on Friday, 11/20.
