@@ -23,7 +23,7 @@ cover_image_alt: null
 
 ## Application Process Step
 
-![Application Process Step](/cms-uploads/流程圖-02.jpg "Application Process Step")
+![Application Process Step](/cms-uploads/png.png "Application Process Step")
 
 Step 1 - Online Platform Application
 
