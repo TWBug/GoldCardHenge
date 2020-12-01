@@ -36,7 +36,8 @@
 <div class="relative flex-grow">
     <section id="scroll">
         <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
-            <div class="grid grid-cols-1 md:grid-cols-2 xxl:grid-cols-3 gap-12 xl:gap-24">
+            {{ partial "breadcrumb" . }}
+            <div class="grid grid-cols-1 md:grid-cols-2 xxl:grid-cols-3 gap-12 xl:gap-24 mt-6">
                 {{ range ((where .Parent.Pages ".Params.hidden" "!=" true).ByParam "start") }}
                     {{ if lt (time .Params.start) now }}
                     {{ partial "event-single" . }}
