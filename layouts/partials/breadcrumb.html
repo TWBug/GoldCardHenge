@@ -15,7 +15,7 @@
 {{ end }}
 {{ if eq .p1 .p2 }}
 <li class="border-l-2 border-gray-500 border-dashed px-2">
-    <span class="flex items-center bg-white rounded font-bold px-2 py-1">
+    <span class="flex items-center bg-white text-gray-900 rounded font-bold px-2 py-1">
         {{ if or  (eq .section "tags") (eq .section "categories") }}
             {{ if i18n .p1.Title }}
                 {{ i18n .p1.Title }}
