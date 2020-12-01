@@ -12,8 +12,4 @@ tags: null
 hidden: false
 category: null
 ---
-By popular request, the Taiwan Employment Gold Card office will be holding a Basic Tax Workshop for all Gold Card Holders! Every foreigner's tax situation is different, but we believe that there are certain things that every person must know. At this workshop, we will be covering 2 basic topics:
-
-How to file personal taxes
-How to open a bank account 
-Aside from these topics, we will be collecting questions from Gold Card Holders before the event and will address as many as we can on the day of the event. If you have any questions, please remember to let us know on the registration form or email us at hello@taiwangoldcard.tw. Please note that we will generally avoid very specific scenarios and opt for questions that we feel the majority can relate to. We will stop collecting questions on Friday, 11/20.
+Taiwan has an abundance of available resources, and many of them are perfect for entrepreneurs. To kickstart your journey, the Taiwan Gold Card Office has invited four representatives from different government agencies that support Tech, Innovation, and Creative Arts and Content. We have also invited John Chen, a Gold Card member and cofounder from Hive Ventures to share about his experience setting up and investing in Taiwan. Please remember to register on Accupass! Coffee/Tea and light snacks will be provided.
