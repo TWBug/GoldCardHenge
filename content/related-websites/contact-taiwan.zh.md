@@ -1,6 +1,8 @@
 ---
 title: Contact TAIWAN
 link: https://www.contacttaiwan.tw/main/index.aspx?lang=1
+cover_image: /cms-uploads/logo-contact-taiwan.png
+cover_image_alt: Logo Contact TAIWAN
 draft: false
 hidden: false
 layout: related
