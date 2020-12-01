@@ -13,8 +13,15 @@
     </div>
     <div class="pt-6 pl-2">
         <div class="flex items-center text-secondary mb-2">
-            {{ partial "icon" (dict "name" "clock" "size" "4") }}
-            <p class="text-xs font-bold ml-2">{{ i18n "last_changed" }} {{ partial "date" (dict "date" .Lastmod "lang" .Site.Language.Lang ) }}</p>
+            {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
+            <p class="text-xs font-bold ml-2">
+                {{ i18n "last_changed" }}
+                {{ if eq .Site.Language.Lang "zh" }}
+                {{ printf "%d年%d月%s日" .Lastmod.Year .Lastmod.Month (.Lastmod.Format "2") }}
+                {{ else }}
+                {{ dateFormat "January 2th 2006" .Lastmod }}
+                {{ end }}
+            </p>
         </div>
         <div class="flex items-center text-secondary mb-4">
             {{ partial "icon" (dict "name" "book-reader" "size" "4") }}
