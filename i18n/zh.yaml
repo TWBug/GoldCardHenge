@@ -1,50 +1,110 @@
 - id: powered_by
   translation: 'Powered by'
 - id: search
-  translation: 'Search'
+  translation: '搜尋'
 - id: change_language
-  translation: 'Change language'
+  translation: '語言'
 - id: tego
   translation: '台灣就業金卡專案辦公室'
 - id: tego_logo
   translation: 'Logo Taiwan Employment Gold Card Office'
 - id: apply_now
-  translation: 'Apply now'
+  translation: '馬上申請'
 - id: apply_now_text
   translation: 'Taiwan Gold Card is your right choice!'
 - id: latest_news
-  translation: 'Latest news'
+  translation: '最新消息'
 - id: reading_time
-  translation: "Reading time: %d minute(s)"
+  translation: '閱讀時間: %d 分鍾'
+- id: read_more
+  translation: "Read more"
 - id: last_changed
-  translation: 'Last changed'
+  translation: '發布日期'
 - id: table_of_contents
-  translation: 'Table of contents'
+  translation: '目錄'
 - id: categories
-  translation: 'Categories'
+  translation: '類別'
 - id: all_categories
-  translation: 'All categories'
+  translation: '所有類別'
 - id: tags
-  translation: 'Tags'
+  translation: '標籤'
+- id: all_tags
+  translation: '所有標籤'
+- id: faq
+  translation: 'FAQ'
+- id: news
+  translation: '新聞'
+- id: news_category
+  translation: 'News category'
+- id: to_accupass_event
+  translation: 'Go to AccuPass event'
+- id: starts_at
+  translation: 'Starts at'
+- id: upcoming_events
+  translation: 'Upcoming events'
+- id: event_archive
+  translation: 'Event archive'
+- id: why_taiwan
+  translation: '為什麼台灣'
+- id: topics
+  translation: '话题'
+- id: legal
+  translation: '法律'
+- id: goldcard
+  translation: '就業金卡'
 - id: summary
-  translation: 'Summary'
+  translation: '摘要'
+- id: all_news
+  translation: '所有新聞'
+- id: latest_events
+  translation: '最新活動'
+- id: all_events
+  translation: '所有活動'
+- id: all_faq
+  translation: 'All faq'
 - id: taipei_city_skyline
-  translation: 'Taipei City Skyline'
+  translation: '台北市天際線'
 - id: taiwan_mountains
-  translation: 'Taiwan Mountains'
+  translation: '台灣的山'
 - id: taiwan_landscape
-  translation: 'Taiwan Landscape'
+  translation: '台灣的風景'
 - id: taiwan_hummingbird
-  translation: 'Taiwan Hummingbird'
+  translation: '蜂台灣鳥'
 - id: footer_copyright
   translation: 'Taiwan Employment Gold Card Office - All rights reserverd'
 - id: footer_description
   translation: 'The Taiwan Employment Gold Card is a combined open work permit, residence permit and visa for skilled professionals.'
 - id: footer_goldcard_title
-  translation: 'Gold-Card'
+  translation: '就業金卡'
 - id: footer_languages_title
-  translation: 'Languages'
+  translation: '語言'
 - id: footer_legal_title
-  translation: 'Legal'
+  translation: '政策'
 - id: undefined
   translation: 'UNDEFINED'
+- id: card
+  translation: '卡'
+- id: usa
+  translation: '美國'
+- id: super
+  translation: '超'
+- id: cool
+  translation: '涼'
+- id: first
+  translation: '第一'
+- id: application
+  translation: '申請'
+- id: goldcard
+  translation: '就業金卡'
+- id: website
+  translation: 'Website'
+- id: facebook
+  translation: 'Facebook'
+- id: youtube
+  translation: 'YouTube'
+- id: instagram
+  translation: 'Instagram'
+- id: twitter
+  translation: 'Twitter'
+- id: linkedin
+  translation: 'LinkedIn'

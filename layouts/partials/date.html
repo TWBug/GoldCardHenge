@@ -1,0 +1,5 @@
+{{ if eq .lang "zh" }}
+{{ printf "%d年%s月" .date.Year (.date.Format "1") }}
+{{ else }}
+{{ dateFormat "January 2006" .date }}
+{{ end }}

@@ -1,6 +1,6 @@
 ---
 title: 探索台灣
-summary: Take a look around our islands.
+summary: "Hi, and welcome to the official Taiwan Employment Gold Card website. We are currently getting set up and look forward to serving you soon."
 date: 2020-11-05T07:09:20.617Z
 publishDate: 2020-11-05T07:09:20.617Z
 draft: false
@@ -9,8 +9,8 @@ cover_image: "img/uploads/dummy-image.jpg"
 cover_image_alt: "Test alt"
 media_image: "img/uploads/taiwan-culture.jpg"
 media_image_alt: "Test alt"
-tags:
-categories:
+topics:
+    - nature
 ---
 
 # 您好，歡迎來到台灣就業金卡官方網站。
@@ -19,6 +19,3 @@ categories:
 如需詳細的資訊，請參閱 [foreigntalentact.ndc.gov.tw](https://foreigntalentact.ndc.gov.tw/)。
 如果您有任何疑問，請隨時與我們聯繫:
 
-{{< link href="mailto:help@taiwangoldcard.tw" >}}
-help@taiwangoldcard.tw
-{{< /link >}}

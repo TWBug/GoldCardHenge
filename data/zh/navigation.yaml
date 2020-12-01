@@ -2,6 +2,26 @@ items:
   - name: 就業金卡
     topic: goldcard
     link: /application/
+    dropdown:
+      image: img/uploads/taiwan-lights.jpg
+      text: A short introduction, why Taiwan should be the next step for the visitor.
+        A nice catchy copy that is helping the visitor to find out more about
+        this country it’s culture and why Taiwan is the perfect match.
+      links:
+        - name: 關於就業金卡
+          link: /about/
+        - name: 申請流程
+          link: /application/
+        - name: 申請資格
+          link: /qualification/
+        - name: Foreign special professionals
+          link: /application/foreign-special-professionals-economic-fields/
+      items:
+        - apply
+        - latestnews
+        - allnews
+        - latestevents
+        - allevents
   - name: FAQ
     topic: faq
     link: /faq/
@@ -11,6 +31,37 @@ items:
   - name: 活動和新聞
     topic: eventsnews
     link: /news/
+    dropdown:
+      image: img/uploads/dummy-image.jpg
+      text: Are there any intesting informations about news and events? Then this
+        should be here...
+      links:
+        - name: 最新新聞
+          link: /news/
+        - name: 活動
+          link: /events/
+      items:
+        - apply
+        - latestnews
+        - allnews
+        - latestevents
+        - allevents
   - name: 相關資源
     topic: resources
     link: /about/
+    dropdown:
+      image: img/uploads/taiwan-lights.jpg
+      text: Maybe some more about what people might expect in this section.
+      links:
+        - name: 協助櫃檯
+          link: /help-desk/
+        - name: 就業機會
+          link: /jobs/
+        - name: 相關資料
+          link: /related-websites/
+      items:
+        - apply
+        - latestnews
+        - allnews
+        - latestevents
+        - allevents

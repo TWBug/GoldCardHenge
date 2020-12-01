@@ -6,39 +6,44 @@
 {{ $cta := $headless.Resources.GetMatch "cta*" }}
 {{ $map := $headless.Resources.GetMatch "map*" }}
 {{ $setup := $headless.Resources.GetMatch "setup*" }}
-{{ $expand := $headless.Resources.GetMatch "expand*" }}
 
-<div class="relative min-h-screen-full sm:min-h-screen-2/3 xl:min-h-screen-1/2 bg-blue-500 shadow-xl print:shadow-none">
+{{ $heromessages := slice }}
+{{ range $hero.Params.items }}
+{{ $heromessages = $heromessages | append .label }}
+{{ end }}
+
+{{ $heroimage := resources.Get "img/taipei-101.jpg" }}
+{{ $heroimagesmall := $heroimage.Fill "480x720 BottomLeft q40" }}
+{{ $heroimagemedium := $heroimage.Fill "768x1024 BottomLeft q40" }}
+{{ $heroimageslarge := $heroimage.Fill "1280x1280 BottomLeft q40" }}
+{{ $heroimagesxlarge := $heroimage.Fill "1800x1280 BottomLeft q40" }}
+
+<div class="relative h-screen xl:max-h-screen-3/4 xxl:max-h-screen-2/3 shadow-xl print:shadow-none">
     {{ partial "navigation" .  }}
-    <div class="absolute inset-0 bg-blue-400 print:hidden">
+    <div class="absolute inset-0 bg-nav-start bg-gradient-to-b from-nav-start to-nav-end print:hidden">
         <div class="absolute inset-0 w-full h-full z-0">
-            <img src="/img/taipei-101-lg.jpg" alt="{{ .Summary | humanize }}" class="block w-full h-full object-cover object-left-bottom">
+            <figure>
+                <img
+                sizes="100vw"
+                srcset="{{ $heroimagesmall.RelPermalink }} 480w, {{ $heroimagemedium.RelPermalink }} 768w, {{ $heroimageslarge.RelPermalink }} 1024w, {{ $heroimagesxlarge.RelPermalink }} 1440w"
+                src="{{ $heroimagesxlarge.RelPermalink }}"
+                loading="lazy"
+                alt="{{ .Summary | humanize }}" class="block w-full h-full object-cover object-left-bottom">
+            </figure>
         </div>
         <div class="absolute right-0 bottom-0 w-full sm:w-2/3 xxl:w-1/2 h-2/3">
             <div class="w-full lg:w-5/6 p-12">
-                
-                <h1 class="text-6xl bg-white leading-snug font-regular padded">
-                  <span class="typing" data-period="2000" data-rotate='[ "Working in Taiwan?", "New opportunities in Asia?", "Next career jump?" ]'></span><br />
-                    {{ $hero.Title | markdownify }}
-                </h1>
-                <div class="mt-12 -ml-4">
-                    {{ range $hero.Params.links }}
-                    {{ if eq .is_cta true }}
-                    <a
-                    href="{{ .href }}"
-                    {{ with .target }} target="{{ . }}" {{ end }}
-                    class="bg-primary rounded-md text-white font-bold text-xl leading-none shadow-xl px-6 py-3 mr-4 hover"
-                    >
-                    {{ else }}
-                    <a
-                    href="{{ .href }}"
-                    {{ with .target }} target="{{ . }}" {{ end }}
-                    class="bg-white rounded-md text-primary font-bold leading-none shadow-xl px-6 py-3 mr-4 hover"
-                    >
-                    {{ end }}
-                    {{ .label }}
-                    </a>
-                    {{ end}}
+                <div class="mb-4">
+                    
+                    <h1 class="text-6xl bg-white leading-snug font-bold padded">
+                        {{ $hero.Title | markdownify }}
+                    </h1>
+                </div>
+                <div>
+                    
+                    <p class="text-4xl bg-white leading-snug font-regular padded">
+                        {{ $hero.Summary | markdownify }}
+                    </p>
                 </div>
             </div>
         </div>
@@ -49,7 +54,7 @@
         <div id="scroll" class="container py-24 px-12 lg:px-24">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 lg:gap-32">
                 <div class="replace self-center copy">
-                    <h2 class="text-4xl mb-2">
+                    <h2 class="text-4xl leading-tight mb-2">
                         {{ $intro.Title | markdownify }}
                     </h2>
                     <p class="font-regular">
@@ -61,12 +66,12 @@
                         <a
                         href="{{ .href }}"
                         {{ with .target }} target="{{ . }}" {{ end }}
-                        class="bg-primary rounded-md text-white font-bold text-xl leading-none shadow-xl px-8 py-4 mr-4 hover"
+                        class="bg-primary rounded-md force-text-white force-no-underline font-bold text-xl leading-none shadow-xl px-8 py-4 mr-4 hover focus"
                         >
                         {{ else }}
                         <a
                         href="{{ .href }}"
-                        class="bg-white border-2  border-primary rounded-md text-primary font-bold leading-none shadow-xl px-6 py-3 hover"
+                        class="bg-white border-2 border-primary force-no-underline rounded-md text-primary font-bold leading-none shadow-xl px-6 py-3 hover focus"
                         >
                         {{ end}}
                         {{ .label }}
@@ -80,12 +85,12 @@
                         <div
                         class="flex items-center border border-gray-200 rounded-md bg-white shadow-xl px-8 py-4 my-4"
                     >
-                            <div class="w-1/5 max-w-16 mr-6">
-                                <img src="/img/dummy-icon.svg" alt="" class="w-full" />
+                            <div class="flex-shrink-0 w-1/6 max-w-16 mr-6">
+                                <img src="/img/dummy-icon.svg" alt="{{ .Title | truncate 60 }}" class="w-full" />
                             </div>
                             <div>
-                                <h3 class="text-primary text-lg hover:text-black font-bold mb-1">
-                                    <a href="{{ .RelPermalink }}"> {{ .Title }} </a>
+                                <h3 class="text-primary text-lg leading-snug hover:text-black font-bold mb-1">
+                                    <a href="{{ .RelPermalink }}" class="focus"> {{ .Title }} </a>
                                 </h3>
                                 <p class="font-regular text-md">
                                     {{ .Summary | truncate 80 }}
@@ -120,7 +125,7 @@
                         <a
                         href="{{ .href }}"
                         {{ with .target }} target="{{ . }}" {{ end }}
-                        class="bg-primary border-2 border-primary rounded-md text-white font-bold leading-none shadow-xl px-6 py-3"
+                        class="bg-primary border-2 border-primary rounded-md text-white font-bold leading-none shadow-xl px-6 py-3 focus"
                         >
                         {{ .label }}
                     </a>
@@ -139,7 +144,7 @@
                     </h2>
                 </div>
                 {{ partial "home-map" .  }}
-                <div class="mx-auto w-full sm:w-3/4 text-center">
+                <div class="mx-auto w-full sm:w-3/4 text-center px-12 lg:px-24">
                     <p class="font-regular text-base">
                         {{ $map.Summary | markdownify }}
                     </p>
@@ -159,7 +164,7 @@
                     {{ $setup.Summary | markdownify }}
                 </p>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 my-12">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 my-12">
                 {{ range $setup.Params.items }}
                     {{ $label := .label }}
                     {{ $preview := .preview }}
@@ -172,57 +177,14 @@
                             <img src="{{ $preview }}" alt="{{ .Title }}" class="w-full" />
                         </div>
                         <h3 class="text-xl font-bold text-orange-600">
-                            <a href="{{ .RelPermalink }}">{{ $label }}</a>
+                            <a href="{{ .RelPermalink }}" class="focus">{{ $label }}</a>
                         </h3>
-                        <p>{{ .Summary | truncate 80 }}</p>
                     </div>
                     {{ end }}
                 {{ end }}
             </div>
         </div>
     </section>
-    <section help="expand">
-        <div class="relative">
-            <div
-        class="absolute top-0 inset-x-0 h-full max-h-64 bg-white bg-gradient-to-b from-background to-white -z-1"
-    ></div>
-            <div class="container replace py-24 px-12 lg:px-24">
-                <div class="mx-auto w-full sm:w-1/2 text-center mb-4">
-                    <h2 class="text-4xl">
-                        {{ $expand.Title | markdownify }}
-                    </h2>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 auto-rows-fr gap-12 my-12">
-                    {{ range $expand.Params.items }}
-                        {{ $label := .label }}
-                        {{ $preview := .preview }}
-                        {{ with $.Site.GetPage .href }}
-                        {{ if not $label }}
-                        {{ $label = .Title }}
-                        {{ end }}
-                        <div class="relative rounded-lg overflow-hidden shadow-xl min-h-64">
-                            <div class="absolute inset-0 -z-1">
-                                <div
-                                    class="absolute inset-0 w-full h-full bg-gradient-to-t from-gray-800 bg-opacity-75"
-                                ></div>
-                                <img
-                                    src="{{ $preview }}"
-                                    alt="{{ $preview }}"
-                                    class="block absolute inset-0 object-cover object-top w-full h-full -z-1"
-                                />
-                            </div>
-                            <div class="absolute bottom-0 w-full text-center">
-                                <a href="{{ .RelPermalink }}" class="block text-2xl font-bold text-white p-6">{{ $label }}</a>
-                            </div>
-                        </div>
-                        {{ end }}
-                    {{ end }}
-                </div>
-                <div class="mx-auto w-full sm:w-2/3 text-center mb-4">
-                    {{ $setup.Summary | markdownify }}
-                </div>
-            </div>
-        </div>
-    </section>
+    {{/*  {{ partial "home-expand" .  }}  */}}
 </div>
 {{ end }}

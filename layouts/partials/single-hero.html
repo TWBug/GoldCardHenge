@@ -40,8 +40,11 @@
                 {{.Content}}
             </div>
         </div>
-        <div class="sm:-mt-4">
-            {{ partial "page-aside" . }}
+        <div class="print:hidden sm:-mt-4">
+            {{ partial "page-summary" . }}
+            {{ partial "aside/all-topics" . }}
+            {{ partial "page-table-contents" . }}
+            {{ partial "page-apply-now" . }}
         </div>
     </div>
 </div>

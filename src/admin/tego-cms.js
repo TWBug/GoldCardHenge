@@ -288,17 +288,29 @@ CMS.registerEditorComponent({
     },
     toPreview: (obj) => <div className="font-medium text-xl leading-relaxed mb-6">{obj.body}</div>,
 });
+
 CMS.registerEditorComponent({
     id: 'accordion',
     label: 'Accordion',
     fields: [
         { name: 'title', label: 'Title 標題', widget: 'nested-string' },
+        { name: 'suffix', label: 'Suffix 標題', widget: 'nested-string', required: false },
+        { name: 'bottomless', label: 'Bottomless 標題', widget: 'boolean', default: false },
         { name: 'body', label: 'Inner Text 內容', widget: 'text' },
     ],
-    pattern: /^{{< accordion title="(.+?)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
-    fromBlock: (match) => ({ title: Props.unescape(match[1]), body: match[2] }),
+    pattern: /^{{< accordion title="(.+?)" suffix="(.+?)" bottemless="(.+?)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
+    fromBlock: (match) => ({
+        title: Props.unescape(match[1]),
+        suffix: Props.unescape(match[2]),
+        bottemless: Props.unescape(match[3]),
+        body: match[4],
+    }),
     toBlock: (obj) => {
-        return `{{< accordion title="${Props.escape(obj.title)}" >}}\n${obj.body || ''}\n{{< /accordion >}}`;
+        return `{{< accordion title="${Props.escape(obj.title)}" suffix="${Props.escape(
+            obj.suffix
+        )}" bottomless="${obj.bottomless ? 'true' : 'false'}" >}}\n${
+            obj.body || ''
+        }\n{{< /accordion >}}`;
     },
     toPreview: (obj) => {
         // NOTE: The use of syntax incompatible with react requires using a string for this
@@ -323,15 +335,93 @@ CMS.registerEditorComponent({
                 <p class="text-base font-regular">${obj.body}</p>
             </div>
         `;
+        let borderClass =
+            'my-12 border-t-2 border-b-2 border-secondary border-dashed -ml-4 -mr-4 p-4';
+        if (obj.bottemless === 'true') {
+            borderClass = 'my-12 border-t-2 border-secondary border-dashed -ml-4 -mr-4 p-4';
+        }
+        console.info('bottemless', obj.bottemless);
+        console.info('borderClass', borderClass);
         return (
             <div
-                class="my-12 border-t-2 border-b-2 border-secondary border-dashed -ml-4 -mr-4 p-4"
+                class={borderClass}
                 x-data="taAccordion()"
                 dangerouslySetInnerHTML={{ __html }}
             ></div>
         );
     },
 });
+
+CMS.registerEditorComponent({
+    id: 'action',
+    label: 'Action',
+    fields: [
+        { name: 'headline', label: 'Title', widget: 'nested-string' },
+        { name: 'href', label: 'Link', widget: 'nested-string', required: true },
+        { name: 'blank', label: 'New window 標題', widget: 'boolean', default: false },
+        { name: 'button', label: 'Button', widget: 'nested-string', required: true },
+        { name: 'body', label: 'Text', widget: 'markdown' },
+    ],
+    pattern: /^{{< action headline="(.+)" href="(.*)" blank="(.*)" button="(.*)" >}}\n([\s\S]+?)\n{{< \/action >}}/,
+    fromBlock: (match) => {
+        return {
+            headline: match[1],
+            href: match[2],
+            blank: match[3],
+            button: match[4],
+            body: match[5],
+        };
+    },
+    toBlock: (obj) => {
+        return `{{< action headline="${obj.headline}" href="${obj.href || ''}" blank="${
+            obj.blank ? 'true' : 'false'
+        }" button="${obj.button}" >}}\n${obj.body || ''}\n{{< /action >}}`;
+    },
+    toPreview: (obj) => (
+        <div className="relative bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium rounded-md shadow-xl text-white -ml-4 -mr-4 mb-12 mt-8 p-8 sm:p-12 z-0 overflow-hidden">
+            <div class="text-4xl font-regular text-center">{obj.headline}</div>
+            <div class="grid grid-cols-1 sm:grid-cols-3 items-center gap-8 sm:gap-12 mt-8">
+                <div class="sm:col-span-2 font-semibold text-center sm:text-right">{obj.body}</div>
+                <div class="text-center">
+                    <a
+                        href={obj.href}
+                        class="inline-block whitespace-no-wrap bg-primary font-bold text-white leading-none rounded-md shadow-xl px-6 py-4"
+                        target="_blank"
+                    >
+                        {obj.button}
+                    </a>
+                </div>
+            </div>
+        </div>
+    ),
+});
+
+CMS.registerEditorComponent({
+    id: 'file-download',
+    label: 'File download',
+    fields: [
+        { name: 'title', label: 'Title', widget: 'nested-string' },
+        { name: 'path', label: 'File', widget: 'file' },
+    ],
+    pattern: /^{{< file-download title="(.+?)" path="(.*?)" >}}/,
+    fromBlock: (match) => {
+        return { title: match[1], path: match[2] };
+    },
+    toBlock: (obj) => {
+        return `{{< file-download title="${obj.title}" path="${obj.path}" >}}`;
+    },
+    toPreview: (obj) => (
+        <div class="my-6 -ml-2">
+            <a
+                href={obj.path}
+                className="inline-flex items-center text-primary font-bold text-xl focus-primary hover:text-black p-2"
+            >
+                <span class="ml-2">{obj.title}</span>
+            </a>
+        </div>
+    ),
+});
+
 CMS.registerEditorComponent({
     id: 'card',
     label: 'Card',
@@ -346,9 +436,9 @@ CMS.registerEditorComponent({
         return { title: match[1], link: match[2], image: match[3], body: match[4] };
     },
     toBlock: (obj) => {
-        return `{{< card title="${obj.title}" link="${obj.link || ''}" image="${obj.image || ''}" >}}\n${
-            obj.body || ''
-        }\n{{< /card >}}`;
+        return `{{< card title="${obj.title}" link="${obj.link || ''}" image="${
+            obj.image || ''
+        }" >}}\n${obj.body || ''}\n{{< /card >}}`;
     },
     toPreview: (obj) => (
         <div className="inline-block w-1/2">
@@ -371,28 +461,200 @@ CMS.registerEditorComponent({
     ),
 });
 
+// CMS.registerEditorComponent({
+//     id: 'color-block',
+//     label: 'Color 顏色',
+//     fields: [
+//         { name: 'fg', label: 'Foreground 前景', widget: 'color', enableAlpha: true, required: false },
+//         { name: 'bg', label: 'Background 背景', widget: 'color', enableAlpha: true, required: false },
+//         { name: 'body', label: 'Text', widget: 'markdown' },
+//     ],
+//     pattern: /^{{< color-block fg="(.*?)" bg="(.*?)" >}}\n([\s\S]+?)\n{{< \/color-block >}}/,
+//     fromBlock: (match) => {
+//         return { fg: match[1], bg: match[2], body: match[3] };
+//     },
+//     toBlock: (obj) => {
+//         return `{{< color-block fg="${obj.fg || ''}" bg="${obj.bg || ''}" >}}\n${obj.body || ''}\n{{< /color-block >}}`;
+//     },
+//     toPreview: (obj) => {
+//         const style = {};
+//         if (obj.fg) style.color = obj.fg;
+//         if (obj.bg) style.backgroundColor = obj.bg;
+//         return <div style={style}>{obj.body}</div>;
+//     },
+// });
+
 CMS.registerEditorComponent({
-    id: 'color-block',
-    label: 'Color 顏色',
+    id: 'note',
+    label: 'Note 顏色',
     fields: [
-        { name: 'fg', label: 'Foreground 前景', widget: 'color', enableAlpha: true, required: false },
-        { name: 'bg', label: 'Background 背景', widget: 'color', enableAlpha: true, required: false },
-        { name: 'body', label: 'Text', widget: 'markdown' },
+        { name: 'title', label: 'Title', widget: 'nested-string' },
+        {
+            name: 'body',
+            label: 'Text',
+            widget: 'markdown',
+        },
     ],
-    pattern: /^{{< color-block fg="(.*?)" bg="(.*?)" >}}\n([\s\S]+?)\n{{< \/color-block >}}/,
-    fromBlock: (match) => {
-        return { fg: match[1], bg: match[2], body: match[3] };
+    pattern: /^{{< note title="(.+)" >}}\n([\s\S]+?)\n{{< \/note >}}/,
+    fromBlock: function fromBlock(match) {
+        return {
+            title: match[1],
+            body: match[2],
+        };
     },
-    toBlock: (obj) => {
-        return `{{< color-block fg="${obj.fg || ''}" bg="${obj.bg || ''}" >}}\n${obj.body || ''}\n{{< /color-block >}}`;
+    toBlock: function toBlock(obj) {
+        return `{{< note title="${obj.title}" >}}\n`.concat(obj.body || '', '\n{{< /note >}}');
+    },
+    toPreview: (obj) => (
+        <div className="my-6">
+            <div class="text-lg font-bold text-secondary border-b-2 border-dashed border-secondary border-opacity-50 pl-1">
+                {obj.title}
+            </div>
+            <div class=" border-l-2 border-dashed border-secondary border-opacity-50 font-medium leading-relaxed text-md text-left italic pl-4 pt-3">
+                {obj.body}
+            </div>
+        </div>
+    ),
+});
+
+CMS.registerEditorComponent({
+    id: 'message',
+    label: 'Message 顏色',
+    fields: [
+        {
+            name: 'style',
+            label: 'Style 文字顏色',
+            widget: 'select',
+            options: ['warning', 'help', 'info', 'danger'],
+            required: false,
+        },
+        {
+            name: 'body',
+            label: 'Text',
+            widget: 'markdown',
+        },
+    ],
+    pattern: /^{{< message style="(.+)" >}}\n([\s\S]+?)\n{{< \/message >}}/,
+    fromBlock: function fromBlock(match) {
+        return {
+            style: match[1],
+            body: match[2],
+        };
+    },
+    toBlock: function toBlock(obj) {
+        return `{{< message style="${obj.style}" >}}\n`.concat(
+            obj.body || '',
+            '\n{{< /message >}}'
+        );
     },
     toPreview: (obj) => {
-        const style = {};
-        if (obj.fg) style.color = obj.fg;
-        if (obj.bg) style.backgroundColor = obj.bg;
-        return <div style={style}>{obj.body}</div>;
+        let styleClassNames =
+            'text-red-800 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
+        switch (obj.style) {
+            case 'warning':
+                styleClassNames =
+                    'text-yellow-700 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
+                break;
+            case 'help':
+                styleClassNames =
+                    'text-blue-900 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
+                break;
+            case 'info':
+                styleClassNames =
+                    'text-blue-900 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
+                break;
+        }
+        return (
+            <div className="my-6">
+                <div className={`${styleClassNames}`}>{obj.body}</div>
+            </div>
+        );
+    },
+});
+
+CMS.registerEditorComponent({
+    id: 'base',
+    label: 'Base 顏色',
+    fields: [
+        {
+            name: 'body',
+            label: 'Text',
+            widget: 'markdown',
+        },
+    ],
+    pattern: /^{{< base >}}\n([\s\S]+?)\n{{< \/base >}}/,
+    fromBlock: function fromBlock(match) {
+        return {
+            body: match[1],
+        };
+    },
+    toBlock: function toBlock(obj) {
+        return '{{< base >}}\n'.concat(obj.body || '', '\n{{< /base >}}');
+    },
+    toPreview: function toPreview(obj) {
+        return window.h(
+            'div',
+            {
+                className:
+                    'border-2 border-dashed border-secondary border-opacity-75 rounded-xl font-semibold text-secondary text-left italic my-6 px-6 py-4',
+            },
+            obj.body
+        );
+    },
+});
+
+CMS.registerEditorComponent({
+    id: 'color',
+    label: 'Color 顏色',
+    fields: [
+        {
+            name: 'color',
+            label: 'Text Color 文字顏色',
+            widget: 'select',
+            options: [
+                'red',
+                'green',
+                'orange',
+                'yellow',
+                'teal',
+                'blue',
+                'indigo',
+                'purple',
+                'pink',
+            ],
+            required: false,
+        },
+        { name: 'body', label: 'Text', widget: 'markdown' },
+    ],
+    pattern: /^{{< color color="(.*?)" >}}\n([\s\S]+?)\n{{< \/color >}}/,
+    fromBlock: (match) => {
+        return { color: match[1], body: match[2] };
+    },
+    toBlock: (obj) => {
+        return `{{< color color="${obj.color || ''}" >}}\n${obj.body || ''}\n{{< /color >}}`;
+    },
+    toPreview: (obj) => <p className={`text-${obj.color}-700`}>{obj.body}</p>,
+});
+
+CMS.registerEditorComponent({
+    id: 'youtube',
+    label: 'Youtube',
+    fields: [{ name: 'id', label: 'Youtube Video ID' }],
+    pattern: /^{{<\s?youtube (\S+)\s?>}}/,
+    fromBlock: (match) => {
+        return { id: match[1] };
+    },
+    toBlock: (obj) => {
+        return '{{< youtube ' + obj.id + ' >}}';
+    },
+    toPreview: (obj) => {
+        return (
+            '<img src="http://img.youtube.com/vi/' +
+            obj.id +
+            '/maxresdefault.jpg" alt="Youtube Video"/>'
+        );
     },
 });
 
 // Register our custom styles
-CMS.registerPreviewStyle('/css/wysiwyg.css');
+CMS.registerPreviewStyle('/css/wysiwyg.min.css');

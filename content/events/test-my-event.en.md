@@ -1,14 +1,16 @@
 ---
-title: Test my event
-date: 2020-11-12T06:35:36.154Z
-link: https://github.com/tego-www
-cover_image: /cms-uploads/netlify-logo.jpg
-cover_image_alt: Some alt text here
-media_image: /cms-uploads/photo-1593642634315-48f5414c3ad9.jpg
-media_image_alt: A laptop
-tags:
-  - super
-  - lots of spaces
-category:
-  - 野生生活
+title: What Resources are Available to You?
+link: https://www.accupass.com/event/2010230348208688547600
+start: 2020-12-16T17:00:00.154Z
+end: 2020-12-16T21:00:00.154Z
+location: Taiwan Tech Arena (TTA)
+cover_image: /cms-uploads/11_02-event-banner-final.png
+cover_image_alt: What Resources are Available to You?
+media_image: /cms-uploads/11_02-event-banner-final.png
+media_image_alt: What Resources are Available to You?
+tags: null
+hidden: false
+category: null
 ---
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi explicabo laborum ex culpa molestiae, ipsam itaque nisi nostrum magni quasi porro, suscipit veniam architecto repudiandae quod quis modi eius recusandae omnis iure blanditiis aspernatur vel molestias debitis. Accusamus odio, autem provident ad dolor aut non, excepturi nostrum esse corrupti blanditiis, et quasi enim amet velit reprehenderit suscipit in vitae. Ullam voluptatem assumenda fuga ratione eum eveniet provident, quos asperiores minus, sequi sit recusandae non, harum molestiae quidem doloremque rem. Nam numquam totam saepe incidunt! Quo natus, suscipit non error, unde voluptate expedita quibusdam tenetur asperiores laboriosam, voluptas eaque dolorum tempora deleniti magni soluta blanditiis nam fugit quisquam delectus sed nemo. Animi dolor dolorem exercitationem nostrum eos, odit fuga laborum cum.

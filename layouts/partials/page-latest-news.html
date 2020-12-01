@@ -10,14 +10,18 @@
         {{ range $articles }}
         <div class="my-4">
             <div class="flex items-center text-xs text-secondary font-bold mb-1">
-              {{ partial "icon" (dict "name" "clock" "size" "4") }}
-              <span class="ml-2">
-                {{ dateFormat "January 2006" .Lastmod }}
-              </span>
+                <div class="flex-shrink-0">
+                    {{ partial "icon" (dict "name" "clock" "size" "4") }}
+                </div>
+                <span class="ml-2">
+                {{ partial "date" (dict "date" .Lastmod "lang" .Site.Language.Lang) }}
+                </span>
             </div>
             <a href="{{.RelPermalink}}" class="flex items-center font-bold text-primary text-base -ml-3 mb-1">
-                {{ partial "icon" (dict "name" "right" "size" "4") }}
-                <span class="pl-1">{{.Title}}</span>
+                <div class="flex-shrink-0">
+                    {{ partial "icon" (dict "name" "right" "size" "4") }}
+                </div>
+                <span class="pl-1">{{ .Title | truncate 80 }}</span>
             </a>
             <p class="text-xs font-medium leading-normal">{{ .Summary | truncate 70 }}</p>
         </div>

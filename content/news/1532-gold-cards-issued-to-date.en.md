@@ -1,11 +1,13 @@
 ---
-title: 1532 Gold Cards issued to date!
-summary: From February 8, 2018 to Oct. 31, 2020, "1532" cards were approved.
-date: 2020-10-31T06:45:12.922Z
+title: 20201031Cumulative Number of Employment Gold Card Issuance
+summary: ""
+date: 2020-11-05T06:45:12.922Z
 draft: false
 hidden: false
+categories:
+    - event
 ---
-# 1532 Gold Cards issued to date!
+# 1,532 Gold Cards issued to date!
 
 From February 8, 2018 to Oct. 31, 2020, "1532" cards were approved.
 

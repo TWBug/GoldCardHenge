@@ -16,7 +16,3 @@ cover_image_alt: null
 # 聯絡我們
 
 您想申請就業金卡或者已經拿到，如果您有任何疑問，請隨時與我們聯繫:
-
-{{< link href="mailto:help@taiwangoldcard.tw" >}}
-help@taiwangoldcard.tw
-{{< /link >}}

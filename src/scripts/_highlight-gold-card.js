@@ -11,9 +11,14 @@ window.highlight = {
             }
             this.replaceInDocument(
                 this.wrapper[index],
-                /Taiwan Gold Card/g,
-                '<span class="font-bold">Taiwan <span class="highlight">Gold Card</span></span>'
-            )
+                /Taiwan Employment Gold Card/g,
+                '<span class="font-semibold">Taiwan Employment<span class="highlight">Gold Card</span></span>'
+            );
+            this.replaceInDocument(
+                this.wrapper[index],
+                /台灣就業金卡/g,
+                '<span class="font-bold">台灣就業<span class="highlight">金卡</span></span>'
+            );
         }
         this.wrapper = this.wrapper[0]
         

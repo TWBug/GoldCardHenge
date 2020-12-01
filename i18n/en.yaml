@@ -16,6 +16,8 @@
   translation: 'Latest news'
 - id: reading_time
   translation: "Reading time: %d minute(s)"
+- id: read_more
+  translation: "Read more"
 - id: last_changed
   translation: 'Last changed'
 - id: table_of_contents
@@ -26,8 +28,42 @@
   translation: 'All categories'
 - id: tags
   translation: 'Tags'
+- id: all_tags
+  translation: 'All Tags'
+- id: faq
+  translation: 'FAQ'
+- id: news
+  translation: 'News'
+- id: news_category
+  translation: 'News category'
+- id: to_accupass_event
+  translation: 'Go to AccuPass event'
+- id: starts_at
+  translation: 'Starts at'
+- id: upcoming_events
+  translation: 'Upcoming events'
+- id: event_archive
+  translation: 'Event archive'
+- id: why_taiwan
+  translation: 'Why Taiwan'
+- id: topics
+  translation: 'Topics'
+- id: legal
+  translation: 'Legal'
+- id: goldcard
+  translation: 'Gold-Card'
 - id: summary
   translation: 'Summary'
+- id: latest_news
+  translation: 'Latest news'
+- id: all_news
+  translation: 'All news'
+- id: latest_events
+  translation: 'Latest events'
+- id: all_events
+  translation: 'All events'
+- id: all_faq
+  translation: 'All faq'
 - id: taipei_city_skyline
   translation: 'Taipei City Skyline'
 - id: taiwan_mountains
@@ -48,3 +84,25 @@
   translation: 'Legal'
 - id: undefined
   translation: 'UNDEFINED'
+- id: card
+  translation: 'Card'
+- id: usa
+  translation: 'USA'
+- id: super
+  translation: 'Super'
+- id: cool
+  translation: 'Cool'
+- id: first
+  translation: 'First'
+- id: website
+  translation: 'Website'
+- id: facebook
+  translation: 'Facebook'
+- id: youtube
+  translation: 'YouTube'
+- id: instagram
+  translation: 'Instagram'
+- id: twitter
+  translation: 'Twitter'
+- id: linkedin
+  translation: 'LinkedIn'

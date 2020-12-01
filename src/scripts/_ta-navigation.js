@@ -2,6 +2,7 @@ window.taNavigation = function () {
     return {
         scroll: false,
         modal: false,
+        search: false,
         fixed: false,
         dropdown: {
             goldcard: false,
@@ -42,6 +43,15 @@ window.taNavigation = function () {
         },
         toggleModal() {
             this.modal = !this.modal;
+        },
+        toggleSearch() {
+            this.search = !this.search;
+        },
+        scrollTop() {
+            window.scroll({
+                top: 0,
+                behavior: 'smooth',
+            });
         },
         toggleDropdown(topic, event) {
             for (const property in this.dropdown) {

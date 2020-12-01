@@ -9,8 +9,7 @@ cover_image: 'img/uploads/dummy-image.jpg'
 cover_image_alt: 'Test alt'
 media_image: 'img/uploads/taiwan-culture.jpg'
 media_image_alt: 'Test alt'
-tags:
-    - super
+tags: null
 image: img/uploads/dummy-image.jpg
 categories:
     - first
@@ -51,15 +50,15 @@ Academic research institute refers to any institute with research as its core mi
 
 - Domestic or foreign certificate verifying possession of a Ph.D. degree
 - Verification of domestic or foreign work experience in a relevant field for 3 or more years
-  - {{< note-inline >}}Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.{{< /note-inline >}}
-  - {{< note-inline >}}When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.{{< /note-inline >}}
+  - {{< note >}}Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.{{< /note >}}
+  - {{< note >}}When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.{{< /note >}}
 - Academic research during the most recent 3 years
-  - {{< note-inline >}}Academic research works must consist of domestic or foreign journal articles, conference papers, technical books or chapters of technical books, or other specialized works.{{< /note-inline >}}
-  - {{< note-inline >}}The date of publication or submission for publication of such works must be within the 3 years prior to the year of the date of application.{{< /note-inline >}}
-  - {{< note-inline >}}If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.{{< /note-inline >}}
+  - {{< note >}}Academic research works must consist of domestic or foreign journal articles, conference papers, technical books or chapters of technical books, or other specialized works.{{< /note >}}
+  - {{< note >}}The date of publication or submission for publication of such works must be within the 3 years prior to the year of the date of application.{{< /note >}}
+  - {{< note >}}If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.{{< /note >}}
 
 ### 2.2. All of the following documents are required:
 
 - Verification of domestic or foreign work experience in a relevant field for 3 or more years
-  - {{< note-inline >}}Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.{{< /note-inline >}}
-  - {{< note-inline >}}When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.{{< /note-inline >}}
+  - {{< note >}}Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.{{< /note >}}
+  - {{< note >}}When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.{{< /note >}}

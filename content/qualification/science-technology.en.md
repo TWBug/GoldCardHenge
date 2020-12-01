@@ -9,8 +9,7 @@ cover_image: 'img/uploads/dummy-image.jpg'
 cover_image_alt: 'Test alt'
 media_image: 'img/uploads/taiwan-culture.jpg'
 media_image_alt: 'Test alt'
-tags:
-    - super
+tags: null
 image: img/uploads/dummy-image.jpg
 categories:
     - first
@@ -27,6 +26,12 @@ Foreign specialist personnel with special expertise in science & technology has 
 {{< base >}}
 Article 4, Paragraph 1, Subparagraphs 2 of the Act for Recruitment and Employment of Foreign Professionals.
 {{< /base >}}
+
+{{< action headline="Working in Taiwan? Gold-Card is your right choice!" href="#" blank="true" button="Apply now" >}}
+
+Work for any company in Taiwan, Open work rights, Start your own business
+
+{{< /action >}}
 
 **Foreign Special Science and Technology Professionals (FSSTPs) must meet at least one of the following conditions:**
 

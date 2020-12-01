@@ -1,17 +1,12 @@
 ---
-title: 金卡是您正確選擇！
-summary: Welcome to the Official Taiwan Goldcard Website
+title: Next Stop, Taiwan!
+summary: Your Home in Asia.
 draft: false
 hidden: false
 headless: true
-links:
-  - is_cta: true
-    label: 馬上申請
-    href: /zh/apply/
-    target: null
+links: []
+items:
   - is_cta: false
-    label: 了解更多
-    href: /zh/about/
-    target: null
-items: null
+    label: Next Stop, Taiwan!
+    href: null
 ---

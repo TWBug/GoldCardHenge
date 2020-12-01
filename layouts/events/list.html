@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+{{ $hero_image := resources.Get (printf "%s" ("cms-uploads/futureward-function-room.jpg" | safeURL)) }}
+
+{{ $cover_image := "" }}
+{{ if .Params.cover_image }}
+{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ end }}
+
+<div class="relative bg-blue-500 shadow-xl">
+    {{ partial "navigation" . }}
+    <div class="relative flex items-center bg-nav-meta z-0 py-16 min-h-screen-full lg:min-h-screen-1/2 xxl:min-h-screen-1/3">
+        <div class="absolute inset-0 w-full h-full -z-1">
+          <img src="{{ $hero_image.RelPermalink }}" alt="asdasd" class="block w-full h-full object-cover"></div>
+        <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
+            <img src="/img/list-mountains-dark.svg" alt="asdasd" class="block w-full">
+        </div>
+        <div class="absolute right-0 bottom-0 text-xs font-bold text-white text-opacity-50 p-2">EVENT LIST TEMPLATE</div>
+        <div class="container px-24">
+          <div class="w-full lg:w-2/3">
+            <div class="text-5xl leading-tight font-semibold mb-6">
+              <h1 class="padded py-2">
+                {{ .Title }}
+              </h1>
+            </div>
+            <div class="text-xl font-medium">
+              <p class="padded leading-loose py-2">{{ .Summary }}</p>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="relative flex-grow">
+    <section id="scroll">
+        <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
+            {{ partial "breadcrumb" . }}
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-24 mt-6">
+                {{ range ((where .Pages ".Params.hidden" "!=" true).ByParam "start").Reverse }}
+                    {{ if gt (time .Params.start) now }}
+                    {{ partial "event-single" . }}
+                    {{ end }}
+                {{ end }}
+            </div>
+            <div class="text-center mt-12">
+                {{ $events := .Site.GetPage "/events/archive" }}
+                <a href="{{ $events.RelPermalink }}" class="inline-flex items-center text-xl font-bold text-primary focus-primary hover:text-black">
+                    <span class="mr-2">
+                        {{ i18n "event_archive" }}
+                    </span>
+                    {{ partial "icon" (dict "name" "angle-right" "size" "6") }}
+                </a>
+            </div>
+        </div>
+    </section>
+</div>
+{{end}}

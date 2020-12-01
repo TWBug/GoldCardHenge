@@ -2,12 +2,11 @@
 title: Field of Law
 draft: false
 ---
-
-# Foreign Special Professional Who Possesses Special Expertise in the Field of Law
+# Field of Law
 
 ## Must meet **ONE** of the following requirements:
 
-### 1. Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT\$160,000.
+### 1. Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000.
 
 ### 2. Previously or currently holding a position outside ROC as a chair professor, professor, associate professor or assistant professor of a university, or as a research fellow, associate research fellow or assistant research fellow of a research institution.
 

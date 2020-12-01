@@ -1,14 +1,15 @@
 ---
-title: See how Taiwan Gold Card can help you
-summary: "In order to qualify for an Employment Gold Card your skills must be
-  related to one of eight areas: Science and Technology, Economics, Education,
-  Culture and Art, Sport, Finance, Law and Architecture."
+title: Taiwan Employment Gold Card Office
+summary: " Taiwan Employment Gold Card Office was created in October 2020 by the
+  National Development Council, to serve as a single point of contact for the
+  recruitment and assistance of foreign professionals working in Taiwan, under
+  the Act for the Recruitment and Employment of Foreign Professionals."
 draft: false
 hidden: false
 headless: true
 links:
   - is_cta: true
-    label: Tell me more
+    label: Read More
     href: /en/about/
     target: null
 items:

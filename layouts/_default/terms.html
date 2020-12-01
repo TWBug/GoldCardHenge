@@ -45,7 +45,11 @@
                     class="inline-block border border-primary rounded-md text-lg font-semibold text-primary px-3 py-1 m-2"
                     href="{{ .Page.RelPermalink }}"
                 >
-                    {{ .Page.Title }} ({{ .Count }})
+                    {{ if i18n .Page.Title }}
+                    {{ i18n .Page.Title }} ({{ .Count }})
+                    {{ else }}
+                    {{ .Page.Title | humanize }} ({{ .Count }})
+                    {{ end }}
                 </a>
                 {{ end }}
             </div>

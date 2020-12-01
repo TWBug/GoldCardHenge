@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+{{ $hero_image := resources.Get (printf "%s" ("img/uploads/taiwan-lights.jpg" | safeURL)) }}
+
+{{ $cover_image := "" }}
+{{ if .Params.cover_image }}
+{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ end }}
+
+<div class="relative shadow-xl">
+    {{ partial "navigation" . }}
+</div>
+
+<div class="relative flex-grow">
+    <section id="scroll">
+        <div class="container py-12 sm:py-24 px-12 lg:px-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 xl:gap-24">
+                    {{ range $index, $value := .Pages }}
+                    {{ if eq $index 0}}
+                    {{ partial "article-list-first" . }}
+                    {{ else }}
+                    {{ partial "article-list-following" . }}
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{{end}}

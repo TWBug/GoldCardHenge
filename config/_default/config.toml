@@ -1,6 +1,6 @@
 DefaultContentLanguage = "en"
-Paginate = 5
-PaginatePath = "pages"
+Paginate = 8
+PaginatePath = "page"
 baseURL = "/"
 copyright = "Taiwan Employment Gold Card Office"
 defaultContentLanguageInSubdir = true
@@ -15,7 +15,7 @@ relativeURLs = false
 title = "Taiwan Gold Card"
 [taxonomies]
 category = "categories"
-reason = "reasons"
+topic = "topics"
 tag = "tags"
 
 [languages]
@@ -28,6 +28,7 @@ weight = 1
 home = ["HTML", "MANIFEST"]
 [languages.en.params]
 linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
+apply = "https://www.linkedin.com/company/taiwangoldcard/"
 
 [languages.zh]
 languageName = "中文"
@@ -35,6 +36,7 @@ title = "台灣就業金卡"
 weight = 2
 [languages.zh.params]
 linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
+apply = "https://www.linkedin.com/company/taiwangoldcard/"
 [languages.zh.outputs]
 home = ["HTML", "MANIFEST"]
 

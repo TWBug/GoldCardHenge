@@ -1,29 +1,27 @@
 ---
-title: Advantages of the Taiwan Gold Card for Professionals
-summary: A short introduction, why Taiwan should be the next step for the
-  visitor. A nice catchy copy that is helping the visitor to find out more about
-  this country it’s culture and why Taiwan is the perfect match.
+title: " Taiwan Employment Gold Card"
+summary: On October 31, 2018, Taiwan’s legislature passed the Act for the
+  Recruitment and Employment of Foreign Professional Talent to attract and
+  retain more international professionals in Taiwan. The card offers a work
+  permit, resident visa, alien resident certificate, and re-entry permit. It
+  also provides eligibility for a discount in income tax.
 draft: false
 hidden: false
 headless: true
 links:
   - is_cta: true
-    label: About Gold Card
-    href: /en/contact/
-    target: null
-  - is_cta: false
-    label: Why Taiwan
-    href: /en/why-taiwan/
+    label: Read More
+    href: /en/about
     target: null
 items:
   - is_cta: false
-    label: About Gold Card
-    href: /news/single
+    label: What is the Gold card?
+    href: /about/
+  - is_cta: false
+    label: Covid-19
+    href: /why-taiwan/no-new-domestic-covid-19-case-for-two-hundred-days-how-do-taiwan-do-it
   - is_cta: false
     label: Why Taiwan
-    href: /news/single
-  - is_cta: false
-    label: Why Taiwan
-    href: /news/single
+    href: /news/1532-gold-cards-issued-to-date
 ---
 <!-- This text will never be seen -->

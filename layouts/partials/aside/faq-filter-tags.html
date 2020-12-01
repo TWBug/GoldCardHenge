@@ -1,0 +1,30 @@
+<div class="hidden lg:block my-12" x-data="taFilter()" x-init="init()">
+    <div class="flex items-baseline justify-between border-b-2 border-secondary border-dashed px-2 pb-2">
+        <h3 class="text-xl font-bold">Filter FAQ by</h3>
+        {{ partial "icon" (dict "name" "tags" "size" "7") }}
+    </div>
+    <ul class="block pt-6 pl-2" x-ref="content">
+        {{ range .Site.Taxonomies.tags }}
+        {{ $tag_object := printf "['%s']" (.Page.Title | anchorize) }}
+        {{ $tag_string := .Page.Title | anchorize }}
+        
+        <li class="inline-block border-2 border-primary rounded-lg text-white text-sm mr-2 mb-2" :class="{ 'bg-white text-primary': !tags{{ $tag_object }}, 'bg-primary': tags{{ $tag_object }}}" data-tag="{{ $tag_string }}">
+            <a href="{{ .Page.Permalink }}" @click.prevent="toggle('{{ $tag_string }}')" class="flex items-center px-3 py-1">
+                <div x-show="tags{{ $tag_object }}">
+                    {{ partial "icon" (dict "name" "times" "size" "3") }}
+                </div>
+                <div x-show="!tags{{ $tag_object }}" x-cloak>
+                    {{ partial "icon" (dict "name" "plus" "size" "3") }}
+                </div>
+                <span class="font-bold uppercase ml-2">
+                {{ if (i18n .Page.Title) }}
+                {{ i18n .Page.Title }}
+                {{ else }}
+                {{ .Page.Title }}
+                {{ end }}
+                </span>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>

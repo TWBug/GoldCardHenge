@@ -87,9 +87,10 @@ blockquote {
 }
 
 .highlight {
-    @apply inline-block bg-highlight text-black whitespace-no-wrap rounded-md;
+    @apply inline-block bg-highlight font-bold text-black whitespace-no-wrap rounded-md;
     padding-right: 0.3em;
     padding-left: 0.3em;
+    margin-left: 0.2em;
 }
 
 .flipped {
@@ -142,7 +143,8 @@ blockquote {
 .padded {
     display: inline;
     background: white;
-    box-shadow: 0.2em 0.1em 0 white, -0.2em -0.1em 0 white, 0.2em -0.1em 0 white, -0.2em 0.1em 0 white;
+    box-shadow: 0.2em 0.1em 0 white, -0.2em -0.1em 0 white, 0.2em -0.1em 0 white,
+        -0.2em 0.1em 0 white;
 }
 .padded-dark {
     display: inline;
@@ -151,9 +153,10 @@ blockquote {
 }
 .padded-note {
     display: inline;
-    line-height: 1.;
+    line-height: 1;
     @apply bg-yellow-200;
-    box-shadow: 0.2em 0.2em 0 #fce96a, -0.2em -0.2em 0 #fce96a, 0.2em -0.2em 0 #fce96a, -0.2em 0.2em 0 #fce96a;
+    box-shadow: 0.2em 0.2em 0 #fce96a, -0.2em -0.2em 0 #fce96a, 0.2em -0.2em 0 #fce96a,
+        -0.2em 0.2em 0 #fce96a;
     /* box-shadow: 0.2em 0 0 #fce96a, -0.2em 0 0 #fce96a; */
 }
 
@@ -162,11 +165,21 @@ blockquote {
 }
 
 .top-menu {
-    top: calc(var(--navigationMenu) - 0.5rem)
+    top: calc(var(--navigationMenu) - 0.5rem);
+}
+
+.focus-primary:focus {
+    @apply outline-primary;
+}
+.focus-white:focus {
+    @apply outline-white;
+}
+.focus-blackfocus {
+    @apply outline-black;
 }
 
 .copy {
-    @apply text-base leading-loose;
+    @apply text-base leading-loose font-medium;
 }
 .copy.copy--large {
     @apply text-xl;
@@ -174,20 +187,22 @@ blockquote {
 
 /* purgecss start ignore */
 .copy p {
-    @apply font-regular mb-4;
+    @apply mb-4;
 }
 
 .copy strong {
-    @apply font-semibold;
+    @apply font-bold;
 }
 .copy strong a,
 .copy ul li a {
-    @apply font-bold text-primary;
+    @apply font-bold text-primary underline;
 }
 
-.copy em,
+.copy em {
+    @apply font-semibold italic;
+}
 .copy em a {
-    @apply font-regular italic;
+    @apply font-bold italic underline;
 }
 
 .copy ul p,
@@ -196,8 +211,9 @@ blockquote {
 }
 
 .copy ul {
-    list-style-type: '>';
-    @apply list-outside leading-relaxed ml-2 mb-4 mr-12;
+    /* list-style-type: '>'; */
+    list-style-type: circle;
+    @apply list-outside leading-relaxed ml-4 mb-4 mr-12;
 }
 
 .copy ul ul {
@@ -215,7 +231,7 @@ blockquote {
 }
 
 .copy ul li {
-    @apply text-black font-regular pb-2 pl-2;
+    @apply text-black font-regular pb-2;
 }
 .copy UL UL LI:last-of-type {
     @apply pb-0;
@@ -240,6 +256,13 @@ blockquote {
     top: calc(var(--size) / 3);
 }
 /* purgecss end ignore */
+
+.force-no-underline {
+    text-decoration: none !important;
+}
+.force-text-white {
+    color: white !important;
+}
 
 [x-cloak] {
     display: none;

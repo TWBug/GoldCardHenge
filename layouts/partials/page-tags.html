@@ -8,7 +8,11 @@
         <li class="inline-block bg-primary rounded-lg text-white text-sm px-3 py-1 mr-2 mb-2">
             <a href="/{{ $.Site.Language }}/tags/{{ . }}" class="inline-flex items-center">
                 {{ partial "icon" (dict "name" "tag" "size" "3") }}
+                {{ if i18n . }}
+                <span class="font-bold uppercase ml-2"> {{ i18n . }} </span>
+                {{ else }}
                 <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
+                {{ end }}
             </a>
         </li>
         {{ end }}

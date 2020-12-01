@@ -1,11 +1,3 @@
-// window.addEventListener('scroll', handleParallaxScrolling)
-// function handleParallaxScrolling() {
-//   const test = document.getElementById('test')
-//   test.style.top = (window.scrollY / 2) + 'px'
-//   console.info('test', test.getBoundingClientRect().top);
-//   console.info("scrolly", window.scrollY);
-// }
-"use strict";
 "use strict";
 
 function _toArray(arr) { return _arrayWithHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableRest(); }
@@ -40,7 +32,8 @@ window.highlight = {
         continue;
       }
 
-      this.replaceInDocument(this.wrapper[index], /Taiwan Gold Card/g, '<span class="font-bold">Taiwan <span class="highlight">Gold Card</span></span>');
+      this.replaceInDocument(this.wrapper[index], /Taiwan Employment Gold Card/g, '<span class="font-semibold">Taiwan Employment<span class="highlight">Gold Card</span></span>');
+      this.replaceInDocument(this.wrapper[index], /台灣就業金卡/g, '<span class="font-bold">台灣就業<span class="highlight">金卡</span></span>');
     }
 
     this.wrapper = this.wrapper[0]; // this.replaceInDocument(
@@ -210,6 +203,14 @@ window.linksTargetBlank = {
     });
   }
 };
+// window.addEventListener('scroll', handleParallaxScrolling)
+// function handleParallaxScrolling() {
+//   const test = document.getElementById('test')
+//   test.style.top = (window.scrollY / 2) + 'px'
+//   console.info('test', test.getBoundingClientRect().top);
+//   console.info("scrolly", window.scrollY);
+// }
+"use strict";
 "use strict";
 
 function handleResize() {
@@ -250,16 +251,16 @@ function smoothScroll() {
       link.addEventListener('click', function (e) {
         e.preventDefault();
         var href = e.target.getAttribute('href'); // fix for leading numbers
+        // if ( !isNaN(href.substring(1,2))  ) {
+        //     href = '#\\3' + href.substr(1)
+        // }
 
-        if (!isNaN(href.substring(1, 2))) {
-          href = '#\\3' + href.substr(1);
-        }
-
+        href = "[id=\"".concat(href.substr(1), "\"]");
         var scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
         var offsetTop = document.querySelector(href).offsetTop + parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
         scroll({
           top: offsetTop,
-          behavior: "smooth"
+          behavior: 'smooth'
         });
       });
     }
@@ -269,6 +270,60 @@ function smoothScroll() {
     _iterator.f();
   }
 }
+"use strict";
+
+window.taFilter = function () {
+  return {
+    tags: {},
+    active: [],
+    // default: {
+    //     language: 'en',
+    //     supported: ['en', 'zh'],
+    // },
+    init: function init() {
+      var content = this.$refs.content.childNodes;
+
+      for (var index = 0; index < content.length; index++) {
+        var tag = content[index].dataset.tag;
+        this.active.push(tag);
+        this.tags[tag] = true;
+      }
+    },
+    toggle: function toggle(tag) {
+      if (this.tags[tag] === true) {
+        this.active.splice(this.active.indexOf(tag), 1);
+      } else {
+        this.active.push(tag);
+      }
+
+      this.tags[tag] = !this.tags[tag];
+      this.checkFaqs();
+    },
+    checkFaqs: function checkFaqs() {
+      var count = 0;
+
+      for (var key in this.$store.filter.faqs) {
+        if (this.$store.filter.faqs.hasOwnProperty(key)) {
+          var active = false;
+
+          for (var index = 0; index < this.active.length; index++) {
+            var tag = this.active[index];
+
+            if (this.$store.filter.faqs[key].tags.indexOf(tag) !== -1) {
+              active = true;
+              count++;
+              break;
+            }
+          }
+
+          this.$store.filter.faqs[key].active = active;
+        }
+      }
+
+      this.$store.filter.empty = count > 0 ? false : true;
+    }
+  };
+};
 "use strict";
 
 window.taImageViewer = function () {
@@ -357,6 +412,63 @@ window.taLanguage = function () {
 };
 "use strict";
 
+window.taMap = function () {
+  return {
+    elements: [],
+    play: [],
+    active: -1,
+    modal: false,
+    wrapper: {},
+    data: {},
+    "default": {},
+    init: function init() {
+      var content = this.$el.querySelectorAll('.member');
+
+      for (var index = 0; index < content.length; index++) {
+        this.elements.push(content[index]);
+        this.play.push(true);
+      }
+
+      var wrapper = this.$el.querySelector('.wrapper');
+      this.wrapper = {
+        left: wrapper.offsetLeft,
+        width: wrapper.innerWidth
+      };
+    },
+    toggle: function toggle(index) {
+      var top = this.elements[index].offsetTop;
+      var left = this.elements[index].offsetLeft + this.wrapper.left;
+      this.play[this.active] = true;
+      this.play[index] = !this.play[index];
+      this.active = index;
+      this.modal = true;
+      this.data = {
+        name: this.elements[index].dataset.name,
+        image: '/img/' + this.elements[index].dataset.image,
+        origin: this.elements[index].dataset.origin,
+        local: this.elements[index].dataset.local,
+        description: this.elements[index].dataset.description,
+        style: "--left:".concat(left, "px;--top:").concat(top, "px;--translatex:-2px;--translatey:-28px")
+      };
+
+      if (window.innerWidth < this.$refs.file.width) {
+        this.data.style = '';
+      }
+    },
+    closeModal: function closeModal() {
+      this.modal = false;
+      this.play[this.active] = true;
+
+      for (var index = 0; index < this.play.length; index++) {
+        this.play[index] = true;
+      }
+
+      this.active = -1;
+    }
+  };
+};
+"use strict";
+
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -375,6 +487,7 @@ window.taNavigation = function () {
   return {
     scroll: false,
     modal: false,
+    search: false,
     fixed: false,
     dropdown: {
       goldcard: false,
@@ -423,6 +536,15 @@ window.taNavigation = function () {
     },
     toggleModal: function toggleModal() {
       this.modal = !this.modal;
+    },
+    toggleSearch: function toggleSearch() {
+      this.search = !this.search;
+    },
+    scrollTop: function scrollTop() {
+      window.scroll({
+        top: 0,
+        behavior: 'smooth'
+      });
     },
     toggleDropdown: function toggleDropdown(topic, event) {
       for (var property in this.dropdown) {
@@ -546,9 +668,57 @@ window.taAccordion = function () {
   return {
     show: false,
     "default": {},
-    init: function init() {},
+    init: function init(tags) {
+      if (typeof this.$store === 'undefined') {
+        return false;
+      }
+
+      if (typeof this.$store.filter === 'undefined') {
+        return false;
+      }
+
+      var id = this.$el.id;
+      this.$store.filter.faqs[id] = {
+        active: true,
+        tags: tags
+      };
+    },
     toggle: function toggle() {
       this.show = !this.show;
+    }
+  };
+};
+"use strict";
+
+window.taToTop = function () {
+  return {
+    show: false,
+    top: 0,
+    init: function init() {
+      var _this = this;
+
+      var scroll = document.getElementById('scroll');
+
+      if (scroll === null) {
+        return false;
+      }
+
+      this.top = Math.round(scroll.getBoundingClientRect().top + window.scrollY);
+      document.addEventListener('scroll', function () {
+        var topY = window.scrollY;
+
+        if (topY > _this.top) {
+          _this.show = true;
+        } else {
+          _this.show = false;
+        }
+      });
+    },
+    scrollToTop: function scrollToTop() {
+      window.scroll({
+        top: 0,
+        behavior: 'smooth'
+      });
     }
   };
 };
@@ -610,6 +780,13 @@ window.onload = function () {
 };
 "use strict";
 
+Spruce.store('filter', {
+  faqs: {},
+  empty: false,
+  log: function log() {
+    console.info('faqs', this.faqs);
+  }
+}, false);
 window.languageDetection.init();
 window.highlight.replace();
 window.linksTargetBlank.replace();

@@ -75,6 +75,7 @@ module.exports = {
             },
             maxWidth: (theme) => ({
                 xxs: '12rem',
+                fit: 'fit-content',
                 ...theme('spacing'),
             }),
             minWidth: (theme) => ({
@@ -107,13 +108,16 @@ module.exports = {
                 '9/16': 'calc(100% / 1.78)',
                 '16/9': 'calc(100% * 9 / 16)',
             },
+            outline: {
+                primary: '2px dashed #ce3f00',
+            },
             zIndex: {
                 '-1': '-1',
             },
         },
     },
     variants: {
-        transitionProperty: ['responsive', 'hover', 'focus'],
+        transitionProperty: ['responsive', 'hover', 'focus', 'motion-reduce'],
     },
     plugins: [
         require('@tailwindcss/typography'),
@@ -158,6 +162,9 @@ module.exports = {
                 },
                 '.top-nav-scroll': {
                     top: 'calc(var(--navigationScroll) + 1rem)',
+                },
+                '.top-nav-menu': {
+                    top: 'var(--navigationScroll)',
                 },
             };
             addUtilities(changedUtilities, {

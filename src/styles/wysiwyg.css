@@ -60,10 +60,26 @@ blockquote {
 
 /* purgecss start ignore */
 .frame-content {
-    @apply leading-relaxed text-base;
+    @apply leading-relaxed text-lg;
 }
 .frame-content.copy--large {
     @apply text-xl;
+}
+
+.frame-content h1 {
+    @apply text-5xl font-medium leading-tight mb-2;
+}
+.frame-content h2 {
+    @apply text-2xl font-semibold text-secondary leading-snug mb-2 mt-8;
+}
+.frame-content h3 {
+    @apply text-xl font-semibold text-secondary leading-snug mb-2 mt-4;
+}
+.frame-content h4 {
+    @apply text-base font-semibold text-secondary leading-snug mb-2;
+}
+.frame-content h5 {
+    @apply text-base font-semibold text-secondary leading-snug mb-2;
 }
 
 .frame-content p {
@@ -89,8 +105,8 @@ blockquote {
 }
 
 .frame-content ul {
-    list-style-type: '>';
-    @apply list-outside ml-2 mb-4 mr-12;
+    list-style-type: circle;
+    @apply list-outside ml-5 mb-4 mr-12;
 }
 
 .frame-content ul ul {

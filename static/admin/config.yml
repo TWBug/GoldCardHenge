@@ -66,9 +66,30 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
-          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate, required: false }
-          - { label: 'Hidden?', name: 'hidden', widget: 'boolean', default: false, required: false, i18n: true }
-          - { label: 'Layout', name: 'layout', widget: 'string', default: null, required: false, i18n: true }
+          - {
+                label: 'Draft?',
+                name: 'draft',
+                widget: 'hidden',
+                default: false,
+                i18n: duplicate,
+                required: false,
+            }
+          - {
+                label: 'Hidden?',
+                name: 'hidden',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Style',
+                name: 'style',
+                widget: 'select',
+                options: ['right', 'title', 'hero'],
+                default: 'right',
+                i18n: duplicate,
+            }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     # Home page
@@ -87,9 +108,29 @@ collections:
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true }
-          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, required: false, i18n: duplicate }
-          - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, required: false, i18n: duplicate }
-          - { label: 'Headless?', name: 'headless', widget: 'hidden', default: true, i18n: duplicate }
+          - {
+                label: 'Draft?',
+                name: 'draft',
+                widget: 'hidden',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Hidden?',
+                name: 'hidden',
+                widget: 'hidden',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Headless?',
+                name: 'headless',
+                widget: 'hidden',
+                default: true,
+                i18n: duplicate,
+            }
           - label: 'Links'
             name: 'links'
             widget: 'list'
@@ -117,11 +158,108 @@ collections:
       i18n: true
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-          - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate, required: false }
+          - {
+                label: 'Publish Date',
+                name: 'date',
+                widget: 'datetime',
+                i18n: duplicate,
+                required: false,
+            }
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Style',
+                name: 'style',
+                widget: 'select',
+                options: ['right', 'title', 'hero'],
+                default: 'right',
+                i18n: duplicate,
+            }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'related-websites'
+      label: 'Relatd Websites 相關資料'
+      label_singular: Related Website
+      folder: 'content/related-websites'
+      create: true
+      slug: '{{slug}}'
+      i18n: true
+      preview_path: en/related-websites/{{slug}}
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Link', name: 'link', widget: 'string', i18n: duplicate }
+          - label: 'Social Links'
+            name: 'social_links'
+            widget: 'object'
+            collapsed: true
+            summary: 'FB, LinkedIn, Insta, YouTube, Twitter'
+            i18n: true
+            fields:
+                - { label: Facebook, name: facebook, widget: string, required: false }
+                - { label: LinkedIn, name: linkedin, widget: string, required: false }
+                - { label: Instagram, name: instagram, widget: string, required: false }
+                - { label: YouTube, name: youtube, widget: string, required: false }
+                - { label: Twitter, name: twitter, widget: string, required: false }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - label: 'Tags'
+            name: 'tags'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'tag_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
+          - label: 'Categories'
+            name: 'categories'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'category_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
+          - {
+                label: 'Draft?',
+                name: 'draft',
+                widget: 'hidden',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Hidden',
+                name: 'hidden',
+                widget: 'hidden',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Layout',
+                name: 'layout',
+                widget: 'hidden',
+                default: 'related',
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true, required: false }
 
     - name: 'events'
       label: 'Events 活動'
@@ -133,9 +271,30 @@ collections:
       preview_path: en/events/{{slug}}
       fields:
           - { label: 'Event Title', name: 'title', widget: 'string', i18n: true }
-          - { label: 'Event Date', name: 'date', widget: 'datetime', i18n: duplicate }
           - { label: 'Event Link', name: 'link', widget: 'string', i18n: duplicate }
-          - { label: 'Cover Image', name: 'cover_image', widget: 'image', required: false, i18n: duplicate }
+          - { label: 'Start Date', name: 'start', widget: 'datetime', i18n: duplicate }
+          - {
+                label: 'End Date',
+                name: 'end',
+                widget: 'datetime',
+                i18n: duplicate,
+                required: false,
+                default: '',
+            }
+          - {
+                label: 'Location',
+                name: 'location',
+                widget: 'string',
+                i18n: duplicate,
+                required: false,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
           - {
                 label: 'Cover Image Alt Text',
                 name: 'cover_image_alt',
@@ -143,7 +302,13 @@ collections:
                 required: false,
                 i18n: duplicate,
             }
-          - { label: 'Media Image', name: 'media_image', widget: 'image', required: false, i18n: duplicate }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
           - {
                 label: 'Media Image Alt Text',
                 name: 'media_image_alt',
@@ -171,8 +336,23 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
-          - { label: 'Draft?', name: 'draft', widget: 'boolean', default: false, required: false, i18n: duplicate }
-          - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false, required: false, i18n: duplicate }
+          - {
+                label: 'Draft?',
+                name: 'draft',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Hidden',
+                name: 'hidden',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true, required: false }
 
     - name: 'jobs'
       label: 'Jobs 求職'
@@ -228,16 +408,16 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
-          - label: 'Categories'
-            name: 'categories'
-            widget: 'relation'
-            collection: 'taxonomies'
-            file: 'category_data'
-            value_field: 'items.*'
-            search_fields: ['items.*']
-            multiple: true
-            required: false
-            i18n: duplicate
+          # - label: 'Categories'
+          #   name: 'categories'
+          #   widget: 'relation'
+          #   collection: 'taxonomies'
+          #   file: 'category_data'
+          #   value_field: 'items.*'
+          #   search_fields: ['items.*']
+          #   multiple: true
+          #   required: false
+          #   i18n: duplicate
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'why-taiwan'
@@ -251,7 +431,13 @@ collections:
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
-          - { label: 'Cover Image', name: 'cover_image', widget: 'image', required: false, i18n: duplicate }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
           - {
                 label: 'Cover Image Alt Text',
                 name: 'cover_image_alt',
@@ -259,7 +445,13 @@ collections:
                 required: false,
                 i18n: duplicate,
             }
-          - { label: 'Media Image', name: 'media_image', widget: 'image', required: false, i18n: duplicate }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
           - {
                 label: 'Media Image Alt Text',
                 name: 'media_image_alt',
@@ -267,16 +459,16 @@ collections:
                 required: false,
                 i18n: duplicate,
             }
-          - label: 'Tags'
-            name: 'tags'
-            widget: 'relation'
-            collection: 'taxonomies'
-            file: 'tag_data'
-            value_field: 'items.*'
-            search_fields: ['items.*']
-            multiple: true
-            required: false
-            i18n: duplicate
+          # - label: 'Tags'
+          #   name: 'tags'
+          #   widget: 'relation'
+          #   collection: 'taxonomies'
+          #   file: 'tag_data'
+          #   value_field: 'items.*'
+          #   search_fields: ['items.*']
+          #   multiple: true
+          #   required: false
+          #   i18n: duplicate
           - label: 'Categories'
             name: 'categories'
             widget: 'relation'
@@ -287,6 +479,14 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
+          - {
+                label: 'Style',
+                name: 'style',
+                widget: 'select',
+                options: ['right', 'title', 'hero'],
+                default: 'right',
+                i18n: duplicate,
+            }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'qualification'
@@ -321,6 +521,14 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
+          - {
+                label: 'Style',
+                name: 'style',
+                widget: 'select',
+                options: ['right', 'title', 'hero'],
+                default: 'right',
+                i18n: duplicate,
+            }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'application'
@@ -355,6 +563,14 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
+          - {
+                label: 'Style',
+                name: 'style',
+                widget: 'select',
+                options: ['right', 'title', 'hero'],
+                default: 'right',
+                i18n: duplicate,
+            }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     ### Just a testing collection!
@@ -400,9 +616,29 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
-          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, required: false, i18n: duplicate }
-          - { label: 'Hidden?', name: 'hidden', widget: 'hidden', default: false, required: false, i18n: duplicate }
-          - { label: 'Cover Image', name: 'cover_image', widget: 'image', required: false, i18n: duplicate }
+          - {
+                label: 'Draft?',
+                name: 'draft',
+                widget: 'hidden',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Hidden?',
+                name: 'hidden',
+                widget: 'hidden',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
           - {
                 label: 'Cover Image Alt Text',
                 name: 'cover_image_alt',
@@ -410,7 +646,13 @@ collections:
                 required: false,
                 i18n: duplicate,
             }
-          - { label: 'Media Image', name: 'media_image', widget: 'image', required: false, i18n: duplicate }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
           - {
                 label: 'Media Image Alt Text',
                 name: 'media_image_alt',
@@ -438,6 +680,14 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
+          - {
+                label: 'Style',
+                name: 'style',
+                widget: 'select',
+                options: ['right', 'title', 'hero'],
+                default: 'right',
+                i18n: duplicate,
+            }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'taxonomies'
@@ -488,8 +738,28 @@ collections:
                   widget: 'list'
                   fields:
                       - { label: Name, name: name, widget: string }
-                      - { label: Link, name: folder, widget: string }
+                      - { label: Topic, name: topic, widget: string }
                       - { label: Link, name: link, widget: string }
+                      - label: Dropdown
+                        name: dropdown
+                        widget: object
+                        default: null
+                        required: false
+                        fields:
+                            - { label: Image, name: image, widget: image, required: false }
+                            - { label: Text, name: text, widget: string, required: false }
+                            - label: Links
+                              name: links
+                              widget: list
+                              fields:
+                                  - { label: Name, name: name, widget: string }
+                                  - { label: Link, name: link, widget: string }
+                            - label: Items
+                              name: items
+                              summary: '{{fields.name}}'
+                              widget: list
+                              field: { label: Name, name: name, widget: string }
+
           - label: 'Navigation (zh)'
             name: 'navigation_zh'
             file: 'data/zh/navigation.yaml'
@@ -499,5 +769,24 @@ collections:
                   widget: 'list'
                   fields:
                       - { label: Name, name: name, widget: string }
-                      - { label: Link, name: folder, widget: string }
+                      - { label: Topic, name: topic, widget: string }
                       - { label: Link, name: link, widget: string }
+                      - label: Dropdown
+                        name: dropdown
+                        widget: object
+                        default: null
+                        required: false
+                        fields:
+                            - { label: Image, name: image, widget: image, required: false }
+                            - { label: Text, name: text, widget: string, required: false }
+                            - label: Links
+                              name: links
+                              widget: list
+                              fields:
+                                  - { label: Name, name: name, widget: string }
+                                  - { label: Link, name: link, widget: string }
+                            - label: Items
+                              name: items
+                              summary: '{{fields.name}}'
+                              widget: list
+                              field: { label: Name, name: name, widget: string }

@@ -1,8 +1,0 @@
-{
-    "name": "{{ .Site.Title }}",
-    "base_url": "{{ .Site.BaseURL }}",
-    "language": "{{ .Site.Language.Lang }}",
-    "title": "{{ .Title }}",
-    "headline": "{{ .Params.headline | plainify }}",
-    "description": "{{ .Params.description | plainify }}"
-}

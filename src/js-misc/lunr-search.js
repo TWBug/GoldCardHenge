@@ -1,5 +1,12 @@
 const { assert } = console;
 
+assert(window.lunr, 'Lunr.js not found. Search cannot be supported without Lunr.js.');
+
+const isChineseUI = window.location.pathname.startsWith('/zh/');
+
+// This lovely regex initially came from here: https://github.com/stkevintan/hugo-lunr-zh#readme
+const hasChineseCharacters = (str) => /[\u4E00-\u9FA5\uF900-\uFA2D]/.test(str);
+
 const el = (tagName, props = {}, ...children) => {
     const node = document.createElement(tagName);
 
@@ -20,9 +27,22 @@ const el = (tagName, props = {}, ...children) => {
     return node;
 };
 
-window.el = el;
-
 let lunrIndex, $results, pagesIndex;
+
+// Set up support for chinese
+lunr.zh = function () {
+    this.pipeline.reset();
+    this.pipeline.add(lunr.zh.trimmer, lunr.stopWordFilter, lunr.stemmer);
+};
+
+lunr.zh.trimmer = function (token) {
+    return token.update((str) => {
+        if (hasChineseCharacters(str)) return str;
+        return str.replace(/^\W+/, '').replace(/\W+$/, '');
+    });
+};
+
+lunr.Pipeline.registerFunction(lunr.zh.trimmer, 'trimmer-zh');
 
 /**
  * Trigger a search in lunr and transform the result
@@ -53,19 +73,37 @@ const renderResults = (results, query) => {
     emptyEl($results);
 
     if (!results.length) {
-        $results.appendChild(
-            el(
-                'div',
-                {},
+        const msg = isChineseUI ? `找不到結果` : `No results found for "${query}"`;
+
+        const children = [
+            el('h1', { style: 'padding:10px;font-size:36px;text-align:center;' }, msg),
+        ];
+
+        // If this is the english UI but the user searches in chinese
+        if (!isChineseUI && hasChineseCharacters(query)) {
+            children.push(
                 el(
-                    'h1',
-                    {
-                        style: 'padding:10px;font-size:36px;text-align:center;',
-                    },
-                    `No resulst for "${query}"`
+                    'p',
+                    { class: 'text-center' },
+                    '想用中文搜尋嗎？',
+                    el(
+                        'a',
+                        {
+                            href: '/zh/',
+                            class: 'inline-block px-2 py-3 mx-1 text-blue-700 underline',
+                            title: 'Change Language',
+                            onclick: (e) => {
+                                e.preventDefault();
+                                window.taLanguage().switchLanguage('zh');
+                            },
+                        },
+                        '點此處來換成中文'
+                    )
                 )
-            )
-        );
+            );
+        }
+
+        $results.appendChild(el('div', {}, ...children));
         return;
     }
 
@@ -73,26 +111,41 @@ const renderResults = (results, query) => {
 
     const excerptSize = 300;
 
+    // For indexing purposes the Chinese entries included spaced chinese words,
+    // which is very unnatural fo reading. So we strip the spaces out for
+    // display.
+    const stripSpaces = (str) => {
+        return str.replace(/ +/g, '');
+    };
+
     // Only show the ten first results
     const links = results.slice(0, 10).map((x) => {
-        const matchIndex = x.content.indexOf(query);
+        const title = isChineseUI ? stripSpaces(x.title) : x.title;
+        const content = isChineseUI ? stripSpaces(x.content) : x.content;
+        const matchIndex = content.indexOf(query);
 
         // The "excerpt" is a bit of text with a span highlighting the search
         // text. That's what all this logic is for.
         const excerpt =
             matchIndex === -1
-                ? [x.content.slice(0, excerptSize), '...']
+                ? [content.slice(0, excerptSize)]
                 : [
-                      x.content.slice(Math.max(0, matchIndex - excerptSize / 2), matchIndex),
+                      content.slice(Math.max(0, matchIndex - excerptSize / 2), matchIndex),
                       el('span', {}, query),
-                      x.content.slice(matchIndex + query.length, matchIndex + excerptSize / 2),
+                      content.slice(matchIndex + query.length, matchIndex + excerptSize / 2),
                   ];
+
+        // Add "..." if the excerpt was chopped (i.e. most of the time)
+        if (excerpt.length < content.length) {
+            excerpt.push('…');
+        }
+
         return el(
             'a',
             {
                 href: x.href,
             },
-            el('h4', {}, x.title),
+            el('h4', {}, title),
             el('p', {}, ...excerpt)
         );
     });
@@ -111,6 +164,11 @@ const initLunr = () => {
             // Set up lunrjs by declaring the fields we use
             // Also provide their boost level for the ranking
             lunrIndex = lunr(function () {
+                if (isChineseUI) {
+                    console.log('[INFO] 中文頁面，開啟Lunr中文支援');
+                    this.use(lunr.zh); // Set up Chinese support
+                }
+
                 this.field('title', {
                     boost: 10,
                 });

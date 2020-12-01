@@ -1,0 +1,40 @@
+{{/*  DONE registerEditorComponent netlify  */}}
+<div class="my-6">
+    {{ if eq (.Get "style") "warning" }}
+    <div class="flex items-center ">
+        <div class="flex-shrink-0 flex-center text-yellow-300 px-4">
+            {{ partial "icon" (dict "name" "exclamation" "size" "8" "alt" "Info") }}
+        </div>
+        <div class="text-yellow-700 font-medium leading-relaxed text-md text-left italic pl-2 py-4">
+            {{ .Inner | markdownify }}
+        </div>
+    </div>
+    {{ else if eq (.Get "style") "help" }}
+    <div class="flex items-center">
+        <div class="flex-shrink-0 flex-center text-blue-800 px-2">
+            {{ partial "icon" (dict "name" "info-circle" "size" "6" "alt" "Info") }}
+        </div>
+        <div class="text-blue-900 font-medium leading-relaxed text-md text-left italic pl-4 py-4">
+            {{ .Inner | markdownify }}
+        </div>
+    </div>
+    {{ else if eq (.Get "style") "info" }}
+    <div class="flex items-center">
+        <div class="flex-shrink-0 flex-center text-blue-800 px-4">
+            {{ partial "icon" (dict "name" "info" "size" "8" "alt" "Info") }}
+        </div>
+        <div class="text-blue-900 font-medium leading-relaxed text-md text-left italic pl-2 py-4">
+            {{ .Inner | markdownify }}
+        </div>
+    </div>
+    {{ else if eq (.Get "style") "danger" }}
+    <div class="flex items-center">
+        <div class="flex-shrink-0 flex-center text-red-600 px-2">
+            {{ partial "icon" (dict "name" "exclamation-triangle" "size" "6" "alt" "Info") }}
+        </div>
+        <div class="text-red-800 font-medium leading-relaxed text-md text-left italic pl-4 py-4">
+            {{ .Inner | markdownify }}
+        </div>
+    </div>
+    {{ end }}
+</div>

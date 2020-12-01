@@ -1,0 +1,9 @@
+{{ $scripts := resources.Get "js/scripts.min.js" | fingerprint }}
+{{ if .Site.IsServer }}
+{{ $scripts = resources.Get "js/scripts.js" | fingerprint }}
+{{ end }}
+{{ if .Site.IsServer }}
+<script src="{{ $scripts.Permalink }}" integrity="{{ $scripts.Data.Integrity }}"></script>
+{{ else }}
+<script src="{{ $scripts.Permalink }}" integrity="{{ $scripts.Data.Integrity }}"></script>
+{{ end }}

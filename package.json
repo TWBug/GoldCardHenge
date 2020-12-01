@@ -13,7 +13,7 @@
         "build:development": "npm run hugo -- --environment development",
         "build:staging": "npm run hugo -- --environment staging",
         "watch": "npx gulp watch",
-        "lunr:index": "node scripts/build-lunr-index.js",
+        "lunr:index": "make lunr-index",
         "test": "npm run lunr:index",
         "babel:admin": "babel --presets=@babel/preset-env,@babel/preset-react --out-dir ./static/admin src/admin",
         "babel:js-misc": "babel --presets=@babel/preset-env,@babel/preset-react --out-dir ./static/js-misc src/js-misc",
@@ -50,6 +50,9 @@
         "tailwindcss": "^1.9.6"
     },
     "dependencies": {
-        "@tailwindcss/typography": "^0.2.0"
+        "@tailwindcss/typography": "^0.2.0",
+        "nodejieba": "2.5.1",
+        "opencc": "^1.1.1",
+        "remove-markdown": "0.3.0"
     }
 }
