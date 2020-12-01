@@ -5,7 +5,7 @@ social_links:
   facebook: https://www.facebook.com/contacttaiwan
   youtube: https://www.youtube.com/channel/UClqvUxN81wFYEXsu7zwo-PQ
   linkedin: https://www.linkedin.com/in/contacttaiwan/
-cover_image: /cms-uploads/logo-contact-taiwan.png
+cover_image: /cms-uploads/未命名-1-02.jpg
 cover_image_alt: Logo Contact TAIWAN
 draft: false
 hidden: false
