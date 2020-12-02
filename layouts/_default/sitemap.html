@@ -3,13 +3,14 @@
 <div class="relative shadow-xl print:shadow-none">
     {{ partial "navigation" . }}
 </div>
-<div class="relative flex-grow">
+
+<div id="scroll" class="relative flex-grow pt-12">
     <div
-        class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 print:hidden -z-1"
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-transparent -z-1"
     ></div>
-    <div class="absolute right-0 top-0 text-xs font-bold text-black text-opacity-25 p-2">SITEMAP TEMPLATE</div>
+    <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">SITEMAP TEMPLATE</div>
     <section>
-        <div id="scroll" class="container py-12 sm:py-24 px-12 lg:px-24">
+        <div class="container pb-12 sm:pb-24 px-12 lg:px-24">
             <div class="mb-4">
                 {{ partial "breadcrumb" . }}
             </div>
