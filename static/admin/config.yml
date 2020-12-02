@@ -89,7 +89,7 @@ collections:
                 options: ['right', 'title', 'hero'],
                 default: 'right',
                 i18n: duplicate,
-                required: false
+                required: false,
             }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
@@ -146,9 +146,21 @@ collections:
             widget: 'list'
             i18n: true
             fields:
-                - { label: Image, name: preview, description: 'Image or icon', widget: image, required: false }
+                - {
+                      label: Image,
+                      name: preview,
+                      description: 'Image or icon',
+                      widget: image,
+                      required: false,
+                  }
                 - { label: Label, name: label, widget: string }
-                - { label: Link, name: href, description: 'Link to where?', widget: string, required: false }
+                - {
+                      label: Link,
+                      name: href,
+                      description: 'Link to where?',
+                      widget: string,
+                      required: false,
+                  }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'legal'
@@ -177,7 +189,7 @@ collections:
                 options: ['right', 'title', 'hero'],
                 default: 'right',
                 i18n: duplicate,
-                required: false
+                required: false,
             }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
@@ -390,6 +402,15 @@ collections:
             required: false
             i18n: duplicate
 
+    # NOTE: Netlify CMS internally tries to infer which field should represent
+    # the title of a collection item in the UI. This was fine until we changed
+    # the widget of the title field. Basically, the changed widget type caused
+    # that inference to infer... nothing. So the display title ended up being
+    # undefined and the whole thing just failed silently, displaying blank list
+    # items in the UI. Adding a `summary` field fixes this, as does adding
+    # `identifier_field: title`. I've kept summary here since it's more
+    # flexible.
+    # SEE https://github.com/netlify/netlify-cms/blob/master/packages/netlify-cms-core/src/reducers/collections.ts#L373
     - name: 'faq'
       label: 'FAQ 常見問題'
       label_singular: FAQ Item
@@ -397,6 +418,7 @@ collections:
       create: true
       slug: '{{slug}}'
       preview_path: en/faq/{{slug}}
+      summary: '{{title}}' # IMPORTANT! See NOTE
       i18n: true
       fields:
           - {
@@ -502,7 +524,7 @@ collections:
                 options: ['right', 'title', 'hero'],
                 default: 'right',
                 i18n: duplicate,
-                required: false
+                required: false,
             }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
@@ -545,7 +567,7 @@ collections:
                 options: ['right', 'title', 'hero'],
                 default: 'right',
                 i18n: duplicate,
-                required: false
+                required: false,
             }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
@@ -588,7 +610,7 @@ collections:
                 options: ['right', 'title', 'hero'],
                 default: 'right',
                 i18n: duplicate,
-                required: false
+                required: false,
             }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
@@ -706,7 +728,7 @@ collections:
                 options: ['right', 'title', 'hero'],
                 default: 'right',
                 i18n: duplicate,
-                required: false
+                required: false,
             }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
