@@ -1,17 +1,20 @@
 ---
-title: Event Archive
-summary: "You can find all past events in this list."
-date: 2020-11-05T07:09:20.617Z
+title: Past Events
+link: <!-- This text will never be seen -->
+start: 2020-12-02T02:23:54.745Z
+media_image: null
+media_image_alt: null
+categories: null
 draft: false
+summary: You can find all past events in this list.
+hidden: true
+layout: archive
+date: 2020-11-05T07:09:20.617Z
 topic: eventsnews
+end: ""
 cover_image: cms-uploads/icon-archive.svg
 cover_image_alt: adasd
-media_image:
-media_image_alt:
-tags:
-categories:
-layout: archive
-hidden: true
+tags: null
 ---
 
 We are currently getting set up and look forward to serving you soon.
