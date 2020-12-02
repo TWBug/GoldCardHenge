@@ -67,10 +67,13 @@
                         {{ .name }}
                     </a>
                     {{ if .dropdown.links }}
-                    <ul class="pl-8 pb-2">
-                        
+                    <ul class="text-base pl-8 pb-2">
                         {{ range .dropdown.links }}
-                        <li class="text-base py-2">{{ .name }}</li>
+                        <li>
+                            <a href="/{{ print $language .link }}" class="block p-2">
+                                {{ .name }}
+                            </a>
+                        </li>
                         {{ end }}
                     </ul>
                     {{ end }}
