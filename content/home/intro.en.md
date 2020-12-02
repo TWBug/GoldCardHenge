@@ -12,7 +12,7 @@ links:
   - is_cta: true
     label: Read More
     href: /en/about
-    target: null
+    new_window: false
 items:
   - is_cta: false
     label: What is the Gold card?

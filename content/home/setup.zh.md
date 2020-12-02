@@ -6,28 +6,28 @@ hidden: false
 headless: true
 links: null
 items:
-  - preview: /img/dummy-icon.svg
+  - preview: /cms-uploads/architecture.png
     label: 建築
-    href: /zh/qualification/field-of-architecture
-  - preview: /img/dummy-icon.svg
+    href: /qualification/field-of-architecture
+  - preview: /cms-uploads/architecture.png
     label: 文化藝術
-    href: /zh/qualification/field-of-culture-and-arts
-  - preview: /img/dummy-icon.svg
+    href: /qualification/field-of-culture-and-arts
+  - preview: /cms-uploads/architecture.png
     label: 經濟
-    href: /zh/qualification/field-of-finance
-  - preview: /img/dummy-icon.svg
+    href: /qualification/field-of-finance
+  - preview: /cms-uploads/architecture.png
     label: 教育
-    href: /zh/qualification/field-of-education
-  - preview: /img/dummy-icon.svg
+    href: /qualification/field-of-education
+  - preview: /cms-uploads/architecture.png
     label: 金融
-    href: /zh/qualification/field-of-finance
-  - preview: /img/dummy-icon.svg
+    href: /qualification/field-of-finance
+  - preview: /cms-uploads/architecture.png
     label: 科技
-    href: /zh/qualification/field-of-science-technology
-  - preview: /img/dummy-icon.svg
+    href: /qualification/field-of-science-technology
+  - preview: /cms-uploads/architecture.png
     label: 法律
     href: /qualification/field-of-law
-  - preview: /img/dummy-icon.svg
+  - preview: /cms-uploads/architecture.png
     label: 體育
     href: /qualification/field-of-sport
 ---

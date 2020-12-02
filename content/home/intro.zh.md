@@ -8,7 +8,7 @@ links:
   - is_cta: false
     label: 了解更多
     href: /zh/about
-    target: null
+    new_window: false
 items:
   - is_cta: false
     label: 就業金卡是什麼？

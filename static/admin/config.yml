@@ -107,7 +107,7 @@ collections:
       # filter: { field: 'cms_omit', value: null } ## NOTE: This doesn't work. Filtering seems to be broken
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - {
                 label: 'Draft?',
                 name: 'draft',
@@ -139,14 +139,15 @@ collections:
                 - { label: Label, name: label, widget: string }
                 - { label: Link, name: href, description: 'Link to where?', widget: string }
                 - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - { label: Open in new window?, name: new_window, widget: boolean, default: false }
           - label: 'Items'
             name: 'items'
             widget: 'list'
             i18n: true
             fields:
+                - { label: Image, name: preview, description: 'Image or icon', widget: image, required: false }
                 - { label: Label, name: label, widget: string }
-                - { label: Link, name: href, description: 'Link to where?', widget: string }
-                - { label: CTA?, name: is_cta, widget: boolean, default: false, required: false }
+                - { label: Link, name: href, description: 'Link to where?', widget: string, required: false }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'legal'

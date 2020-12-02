@@ -8,7 +8,7 @@ links:
   - is_cta: true
     label: 了解更多
     href: /zh/about/
-    target: _blank
+    new_window: false
 items:
   - preview: /img/dummy-image.jpg
     label: Headquaters

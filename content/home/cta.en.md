@@ -11,7 +11,7 @@ links:
   - is_cta: true
     label: Read More
     href: /en/about/
-    target: null
+    new_window: false
 items:
   - preview: /img/dummy-image.jpg
     label: Dummy image
