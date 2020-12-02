@@ -11,13 +11,21 @@
     {{ partial "navigation" . }}
 </div>
 
-<div class="relative flex items-center bg-blue-100 z-0 py-16">
+<div class="relative flex items-center bg-background-light z-0 shadow-xl py-16">
     <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">NEWS LIST TEMPLATE</div>
-    <!-- <div
+    <div
         class="absolute top-0 inset-x-0 h-full bg-gradient-to-b from-gradient to-transparent opacity-25 -z-1"
-    ></div> -->
+    ></div>
+    <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
+        <img src="/img/list-mountains-light.svg" alt="{{ i18n "taiwan_mountains" }}" class="block w-full">
+    </div>
     <div class="container px-12 lg:px-24">
-        <div class="flex justify-between lg:px-24">
+        <div class="flex justify-between items-center lg:px-24">
+            {{ if $cover_image }}
+            <div class="flex-center w-1/4">
+                <img src="{{ $cover_image.RelPermalink }}" class="w-full" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
+            </div>
+            {{ end }}
             <div class="w-full sm:w-2/3">
                 {{ partial "breadcrumb" . }}
                 <h1 class="text-5xl leading-tight font-semibold my-2">
@@ -25,18 +33,13 @@
                 </h1>
                 <p class="text-lg font-medium leading-relaxed">{{ .Summary | truncate 200 }}</p>
             </div>
-            <div class="flex-center w-1/4">
-                {{ if $cover_image }}
-                <img src="{{ $cover_image.RelPermalink }}" class="w-full" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
-                {{ end }}
-            </div>
         </div>
     </div>
 </div>
 
-<div class="relative flex-grow">
+<div class="relative flex-grow pt-12">
     <div
-        class="absolute top-0 inset-x-0 h-full max-h-96 bg-white bg-gradient-to-b from-blue-100 to-white -z-1"
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-transparent -z-1"
     ></div>
     <section id="scroll">
         <div class="container pb-12 sm:pb-24 px-12 lg:px-24">
@@ -72,8 +75,8 @@
                             </div>
                         </div>
                         <div class="col-span-3 px-4 pb-8 sm:py-8">
-                            <h2 class="text-xl font-bold text-primary mb-1 hover:text-black">
-                                <a href="{{ .RelPermalink }}" class="focus-primary">
+                            <h2 class="text-xl font-bold text-primary mb-1 -ml-1">
+                                <a href="{{ .RelPermalink }}" class="block focus-primary p-1">
                                     {{ .Title | truncate 110 }}
                                 </a>
                             </h2>

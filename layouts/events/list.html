@@ -9,33 +9,46 @@
 
 <div class="relative bg-blue-500 shadow-xl">
     {{ partial "navigation" . }}
-    <div class="relative flex items-center bg-nav-meta z-0 py-16 min-h-screen-full lg:min-h-screen-1/2 xxl:min-h-screen-1/3">
-        <div class="absolute inset-0 w-full h-full -z-1">
-          <img src="{{ $hero_image.RelPermalink }}" alt="asdasd" class="block w-full h-full object-cover"></div>
-        <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
-            <img src="/img/list-mountains-dark.svg" alt="asdasd" class="block w-full">
-        </div>
-        <div class="absolute right-0 bottom-0 text-xs font-bold text-white text-opacity-50 p-2">EVENT LIST TEMPLATE</div>
-        <div class="container px-24">
-          <div class="w-full lg:w-2/3">
-            <div class="text-5xl leading-tight font-semibold mb-6">
-              <h1 class="padded py-2">
-                {{ .Title }}
-              </h1>
+</div>
+
+<div class="relative flex items-center z-0 shadow-xl py-16 min-h-screen-full lg:min-h-screen-1/3 xxl:min-h-screen-1/4">
+    <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">NEWS LIST TEMPLATE</div>
+    <div class="absolute inset-0 w-full h-full -z-1">
+        <img src="{{ $hero_image.RelPermalink }}" alt="asdasd" class="block w-full h-full object-cover">
+    </div>
+    <div
+        class="absolute top-0 inset-x-0 h-full bg-gradient-to-b from-black to-transparent opacity-25 -z-1"
+    ></div>
+    <div class="absolute bottom-0 right-0 opacity-50 w-2/3 lg:w-1/2 -z-1">
+        <img src="/img/list-mountains-dark.svg" alt="{{ i18n "taiwan_mountains" }}" class="block w-full">
+    </div>
+    <div class="container px-12 lg:px-24">
+        <div class="flex justify-between items-center lg:px-24">
+            {{ if $cover_image }}
+            <div class="flex-center w-1/4">
+                <img src="{{ $cover_image.RelPermalink }}" class="w-full" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
             </div>
-            <div class="text-xl font-medium">
-              <p class="padded leading-loose py-2">{{ .Summary }}</p>
+            {{ end }}
+            <div class="w-full sm:w-2/3">
+                <div class="text-5xl leading-tight font-semibold my-2 ml-1">
+                    <h1 class="padded">
+                        {{ .Title | truncate 120 }}
+                    </h1>
+                </div>
+                <div class="text-lg font-medium leading-relaxed">
+                    <p class="padded">{{ .Summary | truncate 200 }}</p>
+                </div>
             </div>
-          </div>
         </div>
     </div>
 </div>
-<div class="relative flex-grow">
+
+<div class="relative flex-grow pt-12">
     <div
-        class="absolute top-0 inset-x-0 h-full max-h-96 bg-white bg-gradient-to-b from-blue-100 to-white -z-1"
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-transparent -z-1"
     ></div>
     <section id="scroll">
-        <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
+        <div class="container pb-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
             {{ partial "breadcrumb" . }}
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-24 mt-6">
                 {{ range ((where .Pages ".Params.hidden" "!=" true).ByParam "start").Reverse }}
