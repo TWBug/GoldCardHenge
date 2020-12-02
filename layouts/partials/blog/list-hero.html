@@ -20,7 +20,7 @@
     {{ if ne $cover_image "" }}
     <img 
     src="{{ $cover_image_resized.RelPermalink }}"
-    alt="{{ .Summary | truncate 160 }}" class="block absolute inset-0 w-full h-full object-cover" loading="lazy" />
+    alt="{{ .Title | truncate 80 }}" class="block absolute inset-0 w-full h-full object-cover" loading="lazy" />
     {{ end }}
     {{ if .Params.topics }}
     <div class="absolute right-0 bottom-0 pb-4 pr-4">

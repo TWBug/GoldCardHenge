@@ -35,7 +35,7 @@
         {{ if ne $cover_image "" }}
         <img 
         src="{{ $cover_image_resized.RelPermalink }}"
-        alt="{{ .Summary | truncate 160 }}" class="block absolute inset-0 w-full h-full object-cover" loading="lazy" />
+        alt="{{ .Title | truncate 80 }}" class="block absolute inset-0 w-full h-full object-cover" loading="lazy" />
         {{ end }}
     </div>
     <div class="w-full md:w-1/2 lg:w-2/5 flex flex-col bg-gradient-to-b from-white to-gray-100 p-8">
