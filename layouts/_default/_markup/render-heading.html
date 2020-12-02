@@ -3,9 +3,15 @@
     {{ .Text | safeHTML }}
   </h1>
 {{ else if eq .Level 2 }}
-  <h2 id="{{ .Anchor | safeURL }}" class="append text-2xl font-semibold text-secondary leading-snug mb-2 mt-8">
-    {{ .Text | safeHTML }}
-  </h2>
+    {{ if eq .Page.Site.Language.Lang "zh" }}
+    <h2 id="{{ .Anchor | safeURL }}" class="text-2xl font-semibold text-secondary leading-snug mb-2 mt-8">
+        {{ .Text | safeHTML }}
+    </h2>
+    {{ else }}
+    <h2 id="{{ .Anchor | safeURL }}" class="append text-2xl font-semibold text-secondary leading-snug mb-2 mt-8">
+        {{ .Text | safeHTML }}
+    </h2>
+    {{ end }}
 {{ else if eq .Level 3 }}
   <h3 id="{{ .Anchor | safeURL }}" class="text-xl font-semibold text-secondary leading-snug mb-2 mt-4">
     {{ .Text | safeHTML }}
