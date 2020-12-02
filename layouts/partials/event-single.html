@@ -3,11 +3,11 @@
 {{ if .Params.cover_image }}
 {{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
 {{ if $cover_image }}
-{{ $cover_image_resized = $cover_image.Fill "1024x533 q20" }}
+{{ $cover_image_resized = $cover_image.Fill "1024x533 center q30 jpg" }}
 {{ end }}
 {{ end }}
 
-<div class="flex flex-col border-2 border-gray-300 rounded-xl overflow-hidden bg-gradient-to-b from-white to-gray-100">
+<div class="flex flex-col border border-gray-200 rounded-xl overflow-hidden bg-gradient-to-b from-white to-gray-100 shadow-lg">
     <div class="border-b border-gray-200">
         {{ if ne $cover_image "" }}
         <img 
@@ -58,23 +58,22 @@
         </div>
         {{ end }}
         
-        <h2 class="text-xl font-bold text-primary mb-1 hover:text-black mt-4">
-            <a href="{{ .Params.link }}" target="_blank" class="focus-primary">
+        <h2 class="text-xl font-bold text-primary mb-1 hover:text-black mt-4 -ml-1">
+            <a href="{{ .Params.link }}" target="_blank" class="inline-block focus-primary p-1">
                 {{ .Title | truncate 80 }}
             </a>
         </h2>
         <p class="text-md mb-4">
             {{ .Summary | truncate 160}}
         </p>
-        <div>
-            
+        <div class="-ml-1">
+            <a href="{{ .Params.link }}" target="_blank" class="inline-flex items-center text-base font-bold text-primary focus-primary p-1">
+                {{ partial "icon" (dict "name" "angle-right" "size" "4") }}
+                <span class="ml-1">
+                    {{ i18n "to_accupass_event" }}
+                </span>
+            </a>
         </div>
-        <a href="{{ .Params.link }}" target="_blank" class="inline-flex items-center text-base font-bold text-primary focus-primary">
-            {{ partial "icon" (dict "name" "angle-right" "size" "4") }}
-            <span class="ml-1">
-                {{ i18n "to_accupass_event" }}
-            </span>
-        </a>
         
     </div>
 </div>
