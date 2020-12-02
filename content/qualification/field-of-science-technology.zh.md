@@ -1,9 +1,5 @@
 ---
 title: 科技領域
-categories:
-  - first
-  - second
-  - third
 style: right
 ---
 # Foreign specialist personnel with special expertise in science & technology

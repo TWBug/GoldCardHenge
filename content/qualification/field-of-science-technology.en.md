@@ -7,10 +7,6 @@ date: 2020-11-05T07:09:20.617Z
 topic: goldcard
 title: Science & Technology
 tags: null
-categories:
-  - first
-  - second
-  - third
 style: right
 cover_image: img/uploads/dummy-image.jpg
 image: img/uploads/dummy-image.jpg

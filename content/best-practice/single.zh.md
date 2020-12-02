@@ -8,16 +8,8 @@ topic: eventsnews
 title: 文章示例
 cover_image: img/uploads/dummy-image.jpg
 tags:
-categories:
-  - first
-  - second
-  - third
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: Test alt
-category:
-  - first
-  - second
-  - third
 ---
 
 # 就業金卡是什麼？
