@@ -1,6 +1,7 @@
 ---
 title: Field of Law
 draft: false
+summary: Qualification standards for lawyers, law professors and legal executives.
 ---
 # Field of Law
 
