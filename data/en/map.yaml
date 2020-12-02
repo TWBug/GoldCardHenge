@@ -27,6 +27,13 @@ items:
       local: "Hsinchu, Taiwan"
       description: "I manage Asia operations for Romaric - a factory automation software company."
       image: "member-michael-b.jpg"
+    - name: "Dr. Prerana Bhan"
+      left: 27.88
+      top: 55.88
+      origin: "Hyderabad, India"
+      local: "Taichung, Taiwan"
+      description: "Master's, PhD and Post Doc at Life Science Department in NTHU; Currently R and D Director at Lihpao Life Science Corp."
+      image: "member-prerana-bhan.jpg"
     - name: "Animesh F."
       left: 29.38
       top: 52.94
@@ -83,3 +90,24 @@ items:
       local: "Kaohsiung, Taiwan"
       description: "IoT Specialist"
       image: "member-s-khan.jpg"
+    - name: "Chelsea M. Davis"
+      left: 78.06
+      top: 41.36
+      origin: "Denver, Colorado, USA"
+      local: "Taipei, Taiwan"
+      description: "Freelance Dancer / Vice President of Rozmova Films"
+      image: "member-chelsea-m-d.jpg"
+    - name: "M. Pippin"
+      left: 73.45
+      top: 47.06
+      origin: "Van Nuys, California, USA"
+      local: "Taichung, Taiwan"
+      description: "Bicycle Development"
+      image: "member-m-pippin.jpg"
+    - name: "Dr. Uttam Patil"
+      left: 25.13
+      top: 55.88
+      origin: "Pune, India"
+      local: "Taichung, Taiwan"
+      description: "PhD in Chemistry NTHU, Post Doc at NTNU"
+      image: "member-uttam-patil.jpg"

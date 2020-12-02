@@ -4,43 +4,57 @@ items:
       top: 90.44
       origin: "Melbourne, Australia"
       local: "Zhongli, Taiwan"
-      decription: "Product marketing, copywriting, and content"
+      description: "Product marketing, copywriting, and content"
       image: "member-trent-p.jpg"
     - name: "Štefan U."
       left: 11.50
       top: 38.60
       origin: "Bratislava, Slovakia"
       local: "Taipei, Taiwan"
-      decription: "Mentor, data infrastructure architect, data governance practitioner, software engineer."
+      description: "Mentor, data infrastructure architect, data governance practitioner, software engineer."
       image: "member-ubanek-s.jpg"
     - name: "Adrien G."
       left: 7.34
       top: 35.02
       origin: "Brussels, Belgium"
       local: "Taipei, Taiwan"
-      decription: "Offshore Wind power"
+      description: "Offshore Wind power"
       image: "member-adrien-g.jpg"
     - name: "Michael B."
       left: 74.86
       top: 41.36
       origin: "Salt Lake City, Utah, USA"
       local: "Hsinchu, Taiwan"
-      decription: "I manage Asia operations for Romaric - a factory automation software company."
+      description: "I manage Asia operations for Romaric - a factory automation software company."
       image: "member-michael-b.jpg"
+    - name: "Dr. Prerana Bhan"
+      left: 27.88
+      top: 55.88
+      origin: "Hyderabad, India"
+      local: "Taichung, Taiwan"
+      description: "Master's, PhD and Post Doc at Life Science Department in NTHU; Currently R and D Director at Lihpao Life Science Corp."
+      image: "member-prerana-bhan.jpg"
     - name: "Animesh F."
       left: 29.38
       top: 52.94
       origin: "Kolkata, India"
       local: "Taipei, Taiwan"
-      decription: "Software Engineer in Taiwan."
+      description: "Software Engineer in Taiwan."
       image: "member-animesh-f.jpg"
     - name: "Colum B."
       left: 4.60
       top: 32.72
       origin: "Dublin, Ireland"
       local: "Taipei, Taiwan"
-      decription: "Software Engineer."
+      description: "Software Engineer."
       image: "member-colum-b.jpg"
+    - name: "Zack H."
+      left: 77.52
+      top: 47.06
+      origin: "Austin, TX, USA"
+      local: "Taipei, Taiwan"
+      description: "STEAM education startup"
+      image: "member-zack-h.jpg"
     - name: "S.C. Poon"
       left: 45.75
       top: 87.50
@@ -48,33 +62,26 @@ items:
       local: "Taipei, Taiwan"
       description: "Research Fellow"
       image: "member-s-c-poon.jpg"
-    - name: "Zack H."
-      left: 77.52
-      top: 47.06
-      origin: "Austin, TX, USA"
-      local: "Taipei, Taiwan"
-      decription: "STEAM education startup"
-      image: "member-zack-h.jpg"
     - name: "Patrick L."
       left: 34.78
       top: 61.58
       origin: "Singapore"
       local: "Taipei, Taiwan"
-      decription: "I work with an international accounting firm and provide consultancy services to large corporates."
+      description: "I work with an international accounting firm and provide consultancy services to large corporates."
       image: "member-patrick-l.jpg"
     - name: "John L."
       left: 81.68
       top: 41.36
       origin: "Nashville, Tennessee, USA"
       local: "New Taipei City, Taiwan"
-      decription: "Conversational agents"
+      description: "Conversational agents"
       image: "member-john-l.jpg"
     - name: "Lung Hao L."
       left: 34.78
       top: 61.58
       origin: "Singapore"
       local: "Taipei, Taiwan"
-      decription: "Digital Transformation Consulting"
+      description: "Digital Transformation Consulting"
       image: "member-lh-liu.jpg"
     - name: "S. Khan"
       left: 25.13
@@ -83,3 +90,24 @@ items:
       local: "Kaohsiung, Taiwan"
       description: "IoT Specialist"
       image: "member-s-khan.jpg"
+    - name: "Chelsea M. Davis"
+      left: 78.06
+      top: 41.36
+      origin: "Denver, Colorado, USA"
+      local: "Taipei, Taiwan"
+      description: "Freelance Dancer / Vice President of Rozmova Films"
+      image: "member-chelsea-m-d.jpg"
+    - name: "M. Pippin"
+      left: 73.45
+      top: 47.06
+      origin: "Van Nuys, California, USA"
+      local: "Taichung, Taiwan"
+      description: "Bicycle Development"
+      image: "member-m-pippin.jpg"
+    - name: "Dr. Uttam Patil"
+      left: 25.13
+      top: 55.88
+      origin: "Pune, India"
+      local: "Taichung, Taiwan"
+      description: "PhD in Chemistry NTHU, Post Doc at NTNU"
+      image: "member-uttam-patil.jpg"
