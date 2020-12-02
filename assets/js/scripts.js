@@ -469,6 +469,8 @@ window.taMap = function () {
 };
 "use strict";
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -484,12 +486,21 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 window.taNavigation = function () {
-  return {
+  var _ref;
+
+  return _ref = {
     scroll: false,
     modal: false,
     search: false,
     fixed: false,
     dropdown: {
+      goldcard: false,
+      faq: false,
+      whytaiwan: false,
+      eventsnews: false,
+      resources: false
+    },
+    menue: {
       goldcard: false,
       faq: false,
       whytaiwan: false,
@@ -533,6 +544,13 @@ window.taNavigation = function () {
       if (typeof menu !== 'undefined') {
         document.documentElement.style.setProperty('--navigationMenu', "".concat(menu.offsetHeight, "px"));
       }
+
+      this.$watch('scroll', function (value) {
+        if (value !== false) {
+          // if the scroll menue gets hidden - the menue must be hidden too
+          _this.hideMenue();
+        }
+      });
     },
     toggleModal: function toggleModal() {
       this.modal = !this.modal;
@@ -558,12 +576,32 @@ window.taNavigation = function () {
 
       event.preventDefault();
     },
+    toggleMenue: function toggleMenue(topic, event) {
+      for (var property in this.menue) {
+        if (property === topic) {
+          this.menue[topic] = !this.menue[topic];
+          continue;
+        }
+
+        this.menue[property] = false;
+      }
+
+      event.preventDefault();
+    },
     hideDropdown: function hideDropdown() {
       for (var property in this.dropdown) {
         this.dropdown[property] = false;
       }
     }
-  };
+  }, _defineProperty(_ref, "hideDropdown", function hideDropdown() {
+    for (var property in this.dropdown) {
+      this.dropdown[property] = false;
+    }
+  }), _defineProperty(_ref, "hideMenue", function hideMenue() {
+    for (var property in this.menue) {
+      this.menue[property] = false;
+    }
+  }), _ref;
 };
 "use strict";
 

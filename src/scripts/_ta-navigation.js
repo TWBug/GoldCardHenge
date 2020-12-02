@@ -11,6 +11,13 @@ window.taNavigation = function () {
             eventsnews: false,
             resources: false,
         },
+        menue: {
+            goldcard: false,
+            faq: false,
+            whytaiwan: false,
+            eventsnews: false,
+            resources: false,
+        },
         default: {
             initiator: 'scroll',
         },
@@ -40,6 +47,13 @@ window.taNavigation = function () {
             if (typeof menu !== 'undefined') {
                 document.documentElement.style.setProperty('--navigationMenu', `${menu.offsetHeight}px`);
             }
+            
+            this.$watch('scroll', value => {
+                if ( value !== false) {
+                    // if the scroll menue gets hidden - the menue must be hidden too
+                    this.hideMenue()
+                }
+            })
         },
         toggleModal() {
             this.modal = !this.modal;
@@ -63,9 +77,29 @@ window.taNavigation = function () {
             }
             event.preventDefault();
         },
+        toggleMenue(topic, event) {
+            for (const property in this.menue) {
+                if (property === topic) {
+                    this.menue[topic] = !this.menue[topic]
+                    continue
+                }
+                this.menue[property] = false;
+            }
+            event.preventDefault();
+        },
         hideDropdown() {
             for (const property in this.dropdown) {
                 this.dropdown[property] = false;
+            }
+        },
+        hideDropdown() {
+            for (const property in this.dropdown) {
+                this.dropdown[property] = false;
+            }
+        },
+        hideMenue() {
+            for (const property in this.menue) {
+                this.menue[property] = false;
             }
         },
     };

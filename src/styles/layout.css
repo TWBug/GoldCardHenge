@@ -168,6 +168,10 @@ blockquote {
     top: calc(var(--navigationMenu) - 0.5rem);
 }
 
+.top-scroll {
+    top: var(--navigationScroll);
+}
+
 .focus-primary:focus {
     @apply outline-primary;
 }
