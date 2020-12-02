@@ -5,6 +5,7 @@ const colors = {
     secondary: '#567351',
     highlight: '#E5AD02',
     background: '#EEF5E0',
+    'background-light': '#D7EAF6',
     gradient: '#1F80CE',
     'nav-dark': '#004c81',
     'nav-meta': '#005E9E',
