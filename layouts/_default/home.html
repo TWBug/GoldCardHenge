@@ -49,142 +49,19 @@
         </div>
     </div>
 </div>
-<div class="flex-grow">
-    <section>
-        <div id="scroll" class="container py-24 px-12 lg:px-24">
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 lg:gap-32">
-                <div class="replace self-center copy">
-                    <h2 class="text-4xl leading-tight mb-2">
-                        {{ $intro.Title | markdownify }}
-                    </h2>
-                    <p class="font-regular">
-                        {{ $intro.Summary | markdownify }}
-                    </p>
-                    <div class="flex justify-between items-center mt-8">
-                        {{ range $intro.Params.links }}
-                        {{ if eq .is_cta true }}
-                        <a
-                        href="{{ .href }}"
-                        {{ with .target }} target="{{ . }}" {{ end }}
-                        class="bg-primary rounded-md force-text-white force-no-underline font-bold text-xl leading-none shadow-xl px-8 py-4 mr-4 hover focus"
-                        >
-                        {{ else }}
-                        <a
-                        href="{{ .href }}"
-                        class="bg-white border-2 border-primary force-no-underline rounded-md text-primary font-bold leading-none shadow-xl px-6 py-3 hover focus"
-                        >
-                        {{ end}}
-                        {{ .label }}
-                        </a>
-                        {{ end}}
-                    </div>
-                </div>
-                <div class="replace">
-                    {{ range $intro.Params.items }}
-                        {{ with $.Site.GetPage .href }}
-                        <div
-                        class="flex items-center border border-gray-200 rounded-md bg-white shadow-xl px-8 py-4 my-4"
-                    >
-                            <div class="flex-shrink-0 w-1/6 max-w-16 mr-6">
-                                <img src="/img/dummy-icon.svg" alt="{{ .Title | truncate 60 }}" class="w-full" />
-                            </div>
-                            <div>
-                                <h3 class="text-primary text-lg leading-snug hover:text-black font-bold mb-1">
-                                    <a href="{{ .RelPermalink }}" class="focus"> {{ .Title }} </a>
-                                </h3>
-                                <p class="font-regular text-md">
-                                    {{ .Summary | truncate 80 }}
-                                </p>
-                            </div>
-                        </div>
-                        {{ end }}
-                    {{ end }}
-                </div>
-            </div>
-        </div>
+<div id="scroll" class="flex-grow">
+    <section help="intro">
+        {{ partial "home/intro" .  }}
     </section>
-    <section help="call2action">
-        <div class="grid grid-cols-1 sm:grid-cols-5 bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium shadow-xl">
-            {{ $cta_image := index $cta.Params.items 0 }}
-            <div class="sm:col-span-2 relative w-full min-h-64">
-                <img src="{{ $cta_image.preview }}" alt="{{ $cta_image.title }}" class="absolute inset-0 w-full h-full object-cover object-top" />
-            </div>
-            <div class="replace relative col-span-3 text-white py-12 lg:py-24 px-12 lg:px-24 overflow-hidden z-0">
-                <div class="absolute bottom-0 right-0 w-full sm:w-2/3 lg:w-1/2 -z-1" style="bottom: -1px;">
-                    <img src="/img/footer-meta-mountains-trees.svg" class="block w-full flipped" alt="{{ i18n "taiwan_landscape" }}">
-                </div>
-                <div class="max-w-2xl">
-                    <h3 class="text-4xl mb-2">
-                        {{ $cta.Title | markdownify }}
-                    </h3>
-                    <p>
-                        {{ $cta.Summary | markdownify }}
-                    </p>
-                    <div class="flex justify-between mt-8">
-                        {{ range $cta.Params.links }}
-                        <a
-                        href="{{ .href }}"
-                        {{ with .target }} target="{{ . }}" {{ end }}
-                        class="bg-primary border-2 border-primary rounded-md text-white font-bold leading-none shadow-xl px-6 py-3 focus"
-                        >
-                        {{ .label }}
-                    </a>
-                    {{ end }}
-                </div>
-            </div>
-            </div>
-        </div>
+    <section help="cta">
+        {{ partial "home/cta" .  }}
     </section>
     <section help="map">
-        <div class="bg-background py-24">
-            <div class="container replace">
-                <div class="mx-auto w-full sm:w-1/2 text-center">
-                    <h2 class="text-4xl">
-                        {{ $map.Title | markdownify }}
-                    </h2>
-                </div>
-                {{ partial "home-map" .  }}
-                <div class="mx-auto w-full sm:w-3/4 text-center px-12 lg:px-24">
-                    <p class="font-regular text-base">
-                        {{ $map.Summary | markdownify }}
-                    </p>
-                </div>
-            </div>
-        </div>
+        {{ partial "home/map" .  }}
     </section>
     <section help="cards">
-        <div class="container replace py-24 px-12 lg:px-24">
-            <div class="mx-auto w-full sm:w-1/2 text-center mb-4">
-                <h2 class="text-4xl">
-                    {{ $setup.Title | markdownify }}
-                </h2>
-            </div>
-            <div class="mx-auto w-full sm:w-3/4 text-center">
-                <p class="">
-                    {{ $setup.Summary | markdownify }}
-                </p>
-            </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 my-12">
-                {{ range $setup.Params.items }}
-                    {{ $label := .label }}
-                    {{ $preview := .preview }}
-                    {{ with $.Site.GetPage .href }}
-                    {{ if not $label }}
-                    {{ $label = .Title }}
-                    {{ end }}
-                    <div class="border border-gray-200 rounded-md shadow-xl text-center py-8 px-6">
-                        <div class="mx-auto w-1/4 mb-4">
-                            <img src="{{ $preview }}" alt="{{ .Title }}" class="w-full" />
-                        </div>
-                        <h3 class="text-xl font-bold text-orange-600">
-                            <a href="{{ .RelPermalink }}" class="focus">{{ $label }}</a>
-                        </h3>
-                    </div>
-                    {{ end }}
-                {{ end }}
-            </div>
-        </div>
+        {{ partial "home/cards" .  }}
     </section>
-    {{/*  {{ partial "home-expand" .  }}  */}}
+    {{/*  {{ partial "home/expand" .  }}  */}}
 </div>
 {{ end }}
