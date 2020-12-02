@@ -1,6 +1,6 @@
 ---
 media_image: img/uploads/taiwan-culture.jpg
-summary: Foreign specialist personnel with special expertise in science & technology
+summary: Qualification standards for professionals or researchers working in science, technology or R&D.
 draft: false
 media_image_alt: Test alt
 date: 2020-11-05T07:09:20.617Z

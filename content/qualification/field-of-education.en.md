@@ -2,6 +2,7 @@
 title: Field of Education
 draft: false
 style: title
+summary: Qualification standards for PhD holders, researchers, scholars and high-level teachers.
 ---
 ## A foreign special professional with special expertise in the field of education
 

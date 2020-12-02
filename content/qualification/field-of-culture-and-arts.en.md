@@ -1,6 +1,7 @@
 ---
 title: Field of Culture and Arts
 draft: false
+summary: Performing, visual and handicraft artists; film/broadcast/publishing professionals and cultural administrators.
 ---
 # Foreign Special Professional Who Possesses Special Expertise in the Field of Culture and Arts
 

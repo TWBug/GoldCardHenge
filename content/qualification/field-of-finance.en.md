@@ -1,6 +1,7 @@
 ---
 title: Field of Finance
 draft: false
+summary: Qualification for professionals in the field of Finance.
 ---
 # Foreign special professional with financial expertise
 

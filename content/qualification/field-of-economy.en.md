@@ -1,5 +1,7 @@
 ---
 title: Field of Economy
+draft: false
+summary: Qualification standards for professionals who can make a contribution to Taiwan's economy.
 ---
 # Foreign special professionals with specialized knowledge/skills in economic fields
 
