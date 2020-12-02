@@ -66,6 +66,9 @@ module.exports = {
             ...colors,
         }),
         extend: {
+            boxShadow: {
+                white: '0 0 0 3px rgb(255,255,255)',
+            },
             fontWeight: {
                 bolder: 'bolder',
             },
