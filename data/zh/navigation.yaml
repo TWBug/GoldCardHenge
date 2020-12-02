@@ -12,8 +12,6 @@ items:
           link: /application/application-process/
         - name: 申請資格
           link: /qualification/
-        - name: Foreign special professionals
-          link: /application/foreign-special-professionals-economic-fields/
       items:
         - apply
         - latestnews
