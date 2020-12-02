@@ -5,11 +5,11 @@ title: Field of Economy
 
 ## Must meet **ONE** of the following conditions:
 
-### 1. Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000.
+{{< accordion title="Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000." suffix="1." bottemless="true" >}}
 
 * Proof of salary as per the amount stated in the application.
-
-### 2. Those who have held the position of operations, technical or marketing executive at an R&D center, operations headquarters or transnational corporation established in Taiwan.
+{{< /accordion >}}
+{{< accordion title="Those who have held the position of operations, technical or marketing executive at an R&D center, operations headquarters or transnational corporation established in Taiwan." suffix="2." bottemless="true" >}}
 
 * One of the following documents to indicate the applicant’current and former employer’s status in Taiwan such as the enterprise operational headquarter, research & development centers, transnational enterprise:
 
@@ -24,8 +24,8 @@ c. Any other documents which verify it as a transnational enterprise*(interprete
 a. The contract which indicated the applicant’s position is operations, technical or marketing executive.
 
 b. Evidence such as proving the applicant’s managerial position in advanced operation, technology or marketing departments at the employing company.
-
-### 3. Those with professional technical capabilities related to key industry products, components or service models, have obtained a doctoral degree or above in related fields at a domestic or foreign university, and have either received an international invention/innovation award or have more than four years of work experience in related fields.
+{{< /accordion >}}
+{{< accordion title="Those with professional technical capabilities related to key industry products, components or service models, have obtained a doctoral degree or above in related fields at a domestic or foreign university, and have either received an international invention/innovation award or have more than four years of work experience in related fields." suffix="3." bottemless="true" >}}
 
 * One of the following documents to prove applicant’s professional technical capabilities related to key industry products, components or service models:
 
@@ -39,11 +39,12 @@ b. Journal publications or public presentations (i.e. conferences or seminars) o
 a. Copy of certification or verification of international invention awards.
 
 b. Proof of work experience for at least four years in relevant fields.
-
-### 4. Those who have held a specialized or interdisciplinary positions at a semiconductors, optoelectronics, information and communication, electronic circuit design, biotechnology/medical materials, precision machinery, transportation, systems integration, consultancy, or green energy company in the manufacturing sector or related technology services sectors, and have more than eight years of work experience in related fields.
+{{< /accordion >}}
+{{< accordion title="Those who have held a specialized or interdisciplinary positions at a semiconductors, optoelectronics, information and communication, electronic circuit design, biotechnology/medical materials, precision machinery, transportation, systems integration, consultancy, or green energy company in the manufacturing sector or related technology services sectors, and have more than eight years of work experience in related fields." suffix="4." bottemless="true" >}}
 
 * Proof of work experience of for at least eight years in relevant fields.
-
-### 5. Those who have been certified by the relevant central competent authority as specialized talents possessing professional capacity or transnational experience needed in Taiwan.
+{{< /accordion >}}
+{{< accordion title="Those who have been certified by the relevant central competent authority as specialized talents possessing professional capacity or transnational experience needed in Taiwan." suffix="5." bottemless="true" >}}
 
 * Evidence proving applicant’s professional ability or transnational experience.
+{{< /accordion >}}
