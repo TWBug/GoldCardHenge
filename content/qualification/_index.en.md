@@ -13,4 +13,5 @@ categories: null
 publishDate: 2020-11-10T07:14:10.815Z
 cover_image_alt: null
 ---
-
+You must choose a single field (and often a category within that field) for your application.
+Once you know how you qualify, visit the [application section](/en/application) to learn how to apply.
