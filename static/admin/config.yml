@@ -89,6 +89,7 @@ collections:
                 options: ['right', 'title', 'hero'],
                 default: 'right',
                 i18n: duplicate,
+                required: false
             }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
@@ -176,6 +177,7 @@ collections:
                 options: ['right', 'title', 'hero'],
                 default: 'right',
                 i18n: duplicate,
+                required: false
             }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
@@ -500,6 +502,7 @@ collections:
                 options: ['right', 'title', 'hero'],
                 default: 'right',
                 i18n: duplicate,
+                required: false
             }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
@@ -542,6 +545,7 @@ collections:
                 options: ['right', 'title', 'hero'],
                 default: 'right',
                 i18n: duplicate,
+                required: false
             }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
@@ -584,6 +588,7 @@ collections:
                 options: ['right', 'title', 'hero'],
                 default: 'right',
                 i18n: duplicate,
+                required: false
             }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
@@ -701,6 +706,7 @@ collections:
                 options: ['right', 'title', 'hero'],
                 default: 'right',
                 i18n: duplicate,
+                required: false
             }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
