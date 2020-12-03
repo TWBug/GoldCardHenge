@@ -289,6 +289,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 window.taCounter = function () {
   return {
     status: false,
+    element: false,
     options: {
       ref: 'number',
       start: 0,
@@ -317,8 +318,8 @@ window.taCounter = function () {
 
       if (this.options.animate === false) return;
 
-      if (this.prefersReducedMotion()) {
-        this.interval = 1000;
+      if (this.prefersReducedMotion() && this.options.interval < 1000) {
+        this.options.interval = 1000;
       }
 
       ;
@@ -327,36 +328,50 @@ window.taCounter = function () {
         this.options.locale = this.getVisitorLocale();
       }
 
+      this.element = this.$refs[this.options.ref];
+
+      if (typeof this.element === 'undefined') {
+        console.warn('taCounter: ref element was not found:', this.options.ref);
+        return;
+      }
+
+      this.element.innerHTML = this.options.start; // if element is already in the viewport -> start counting
+
+      if (this.isInViewport()) {
+        this.status = true;
+        this.startCounting();
+      } // check if element is in the viewport -> start counting
+
+
       window.addEventListener('scroll', function () {
-        if (_this.isInViewport(_this.$refs[_this.options.ref]) && _this.status === false) {
+        if (_this.isInViewport() && _this.status === false) {
           _this.status = true;
 
-          _this.startCounting(_this.$refs[_this.options.ref], _this.options.start, _this.options.end, _this.options.duration);
+          _this.startCounting();
         }
       });
-      this.$refs[this.options.ref].innerHTML = this.options.start;
     },
-    startCounting: function startCounting(ref, start, end, duration) {
+    startCounting: function startCounting() {
       var _this2 = this;
 
-      if (start === end) return;
-      ref.innerHTML = start;
-      var current = start;
-      var range = end - start;
-      var single_step = range / duration * 100;
+      if (this.options.start === this.options.end) return;
+      this.element.innerHTML = this.options.start;
+      var current = this.options.start;
+      var range = this.options.end - this.options.start;
+      var single_step = range / this.options.duration * this.options.interval;
       var timer = setInterval(function () {
         current += single_step;
-        ref.innerHTML = Math.floor(current).toLocaleString(_this2.options.locale);
+        _this2.element.innerHTML = Math.floor(current).toLocaleString(_this2.options.locale);
 
-        if (current >= end) {
-          ref.innerHTML = end.toLocaleString(_this2.options.locale);
+        if (current >= _this2.options.end) {
+          _this2.element.innerHTML = _this2.options.end.toLocaleString(_this2.options.locale);
           clearInterval(timer);
         }
       }, this.options.interval);
     },
-    isInViewport: function isInViewport(el) {
-      var rect = el.getBoundingClientRect();
-      return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
+    isInViewport: function isInViewport() {
+      var position = this.element.getBoundingClientRect();
+      return position.top >= 0 && position.left >= 0 && position.bottom <= (window.innerHeight || document.documentElement.clientHeight) && position.right <= (window.innerWidth || document.documentElement.clientWidth);
     },
     prefersReducedMotion: function prefersReducedMotion() {
       var QUERY = '(prefers-reduced-motion: no-preference)';
