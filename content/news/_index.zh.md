@@ -1,6 +1,6 @@
 ---
 title: News
-summary: 有關就業金卡計畫的最新消息。
+summary: 有關就業金卡計畫的最新消息或與外籍人士相關政策法條公布。
 date: 2020-08-01T07:09:20.617Z
 draft: false
 cover_image: cms-uploads/icon-news.svg
