@@ -1,7 +1,7 @@
 ---
 title: 金融監督管理委員會預告「外國特定專業人才具有金融領域特殊專長之資格條件及認定原則」修正草案
 summary: ""
-date: 2020-09-24T03:22:45.948Z
+date: 2020-09-24T05:00:45.948Z
 draft: false
 cover_image: img/uploads/dummy-image.jpg
 cover_image_alt: Test alt
