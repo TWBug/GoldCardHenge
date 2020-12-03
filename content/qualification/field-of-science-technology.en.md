@@ -1,11 +1,12 @@
 ---
 media_image: img/uploads/taiwan-culture.jpg
-summary: Qualification standards for professionals or researchers working in science, technology or R&D.
+summary: Qualification standards for professionals or researchers working in
+  science, technology or R&D.
 draft: false
 media_image_alt: Test alt
 date: 2020-11-05T07:09:20.617Z
 topic: goldcard
-title: Science & Technology
+title: Field of Science & Technology
 tags: null
 style: right
 cover_image: img/uploads/dummy-image.jpg
