@@ -32,11 +32,9 @@
                 </div>
                 <aside>
                     <div class="-mt-8">
-                        {{ if .Params.tags }}
-                        {{ partial "page-tags" . }}
-                        {{ end }}
-                        {{ partial "page-call-to-action" (dict "style" "light" ) }}
-                        {{ partial "page-latest-news" . }}
+                        {{ partial "aside/all-tags" . }}
+                        {{ partial "aside/latest-faq" . }}
+                        {{ partial "page-apply-now" . }}
                     </div>
                 </aside>
             </div>

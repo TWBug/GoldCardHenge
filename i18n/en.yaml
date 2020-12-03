@@ -60,10 +60,16 @@
   translation: 'All news'
 - id: latest_events
   translation: 'Latest events'
+- id: latest_articles
+  translation: 'Latest articles'
+- id: latest_faq
+  translation: 'Latest FAQ'
 - id: all_events
   translation: 'All events'
 - id: all_faq
   translation: 'All faq'
+- id: open_new_window
+  translation: 'Open in new window'
 - id: since_2018
   translation: 'Since 2018'
 - id: taipei_city_skyline
