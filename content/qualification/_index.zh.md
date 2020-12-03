@@ -12,4 +12,4 @@ categories: null
 publishDate: 2020-11-10T07:14:10.815Z
 cover_image_alt: null
 ---
-列出八大領域相關資格與詳細
+列出八大領域相關資格與詳細應備文件
