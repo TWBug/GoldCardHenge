@@ -667,6 +667,8 @@ window.taNavigation = function () {
         if (value !== false) {
           // if the scroll menue gets hidden - the menue must be hidden too
           _this.hideMenue();
+
+          _this.hideDropdown();
         }
       });
     },
