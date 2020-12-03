@@ -4,7 +4,7 @@ items:
     link: /about/
     dropdown:
       image: img/uploads/taiwan-lights.jpg
-      text: 一個短的介紹，為什麼台灣因該是用戶的下一站。 很有趣的句話幫用戶更了解台灣， 台灣文化，為什麼台灣是 最好的選者。
+      text: 台灣就業金卡是針對外國特定專業人才的工作許可、居留簽證、外僑居留證及重入國許可4證合一的個人工作許可，提供外國人才自由尋職、就職及轉換工作的便利性。
       links:
         - name: 關於就業金卡
           link: /about/
@@ -29,7 +29,7 @@ items:
     link: /news/
     dropdown:
       image: img/uploads/dummy-image.jpg
-      text: 關於金卡最新的，或參加社群活動？ 來看看這裡
+      text: 擁有就業金卡的第一手消息，或參加社群活動？來看看這裡。
       links:
         - name: 最新消息
           link: /news/
