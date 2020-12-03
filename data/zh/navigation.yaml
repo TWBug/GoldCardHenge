@@ -14,10 +14,6 @@ items:
           link: /qualification/
       items:
         - apply
-        - latestnews
-        - allnews
-        - latestevents
-        - allevents
   - name: FAQ
     topic: faq
     link: /faq/
