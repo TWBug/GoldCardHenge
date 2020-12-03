@@ -2,6 +2,7 @@
 title: 教育領域
 summary: 主打教育專長，需有至少5年經驗
 draft: false
+icon: /cms-uploads/architecture.png
 style: title
 ---
 # 教育領域特殊專長
@@ -27,3 +28,4 @@ style: title
 
 * 薪資證明或繳稅證明文件
 * 教學、研究或個人專業知能服務五年以上之服務證明
+{{< /accordion >}}

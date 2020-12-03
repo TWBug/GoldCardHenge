@@ -1,7 +1,8 @@
 ---
 title: Field of Architecture
+summary: Qualification information for architects, architectural designers and
+  construction supervisors.
 draft: false
-summary: Qualification information for architects, architectural designers and construction supervisors.
 ---
 # Foreign Special Professional Who Possesses Special Expertise in the Field of Architecture
 

@@ -4,7 +4,7 @@ items:
     link: /about/
     dropdown:
       image: img/uploads/taiwan-lights.jpg
-      text: 一個短的介紹，為什麼台灣因該是用戶的下一站。 很有趣的句話幫用戶更了解台灣， 台灣文化，為什麼台灣是 最好的選者。
+      text: 台灣就業金卡是針對外國特定專業人才的工作許可、居留簽證、外僑居留證及重入國許可4證合一的個人工作許可，提供外國人才自由尋職、就職及轉換工作的便利性。
       links:
         - name: 關於就業金卡
           link: /about/
@@ -14,10 +14,6 @@ items:
           link: /qualification/
       items:
         - apply
-        - latestnews
-        - allnews
-        - latestevents
-        - allevents
   - name: FAQ
     topic: faq
     link: /faq/
@@ -29,7 +25,7 @@ items:
     link: /news/
     dropdown:
       image: img/uploads/dummy-image.jpg
-      text: 關於金卡最新的，或參加社群活動？ 來看看這裡
+      text: 擁有就業金卡的第一手消息，或參加社群活動？來看看這裡。
       links:
         - name: 最新消息
           link: /news/
@@ -37,16 +33,12 @@ items:
           link: /events/
       items:
         - apply
-        - latestnews
-        - allnews
-        - latestevents
-        - allevents
   - name: 相關資源
     topic: resources
     link: /about/
     dropdown:
       image: img/uploads/taiwan-lights.jpg
-      text: 一句話解釋在這部分有什麼內容。
+      text: 提供專人聯繫方式、更多關於就業金卡的可用資源。
       links:
         - name: 聯繫我們
           link: /help-desk/
@@ -56,7 +48,3 @@ items:
           link: /related-websites/
       items:
         - apply
-        - latestnews
-        - allnews
-        - latestevents
-        - allevents

@@ -19,5 +19,6 @@ items:
   - is_cta: false
     label: Why Taiwan
     href: /news/1532-gold-cards-issued-to-date
+    preview: /cms-uploads/icon-news.svg
 ---
 <!-- This text will never be seen -->

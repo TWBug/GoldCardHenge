@@ -17,11 +17,13 @@ items:
   - preview: /cms-uploads/architecture.png
     label: What is the Gold card?
     href: /about
+    preview: ""
   - preview: /cms-uploads/architecture.png
     label: What is the Gold card?
     href: /about
   - preview: /cms-uploads/architecture.png
     label: Why Taiwan
     href: /news/1532-gold-cards-issued-to-date
+    preview: /cms-uploads/icon-news.svg
 ---
 <!-- This text will never be seen -->
