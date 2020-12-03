@@ -1,11 +1,11 @@
 ---
 title: 20201031Cumulative Number of Employment Gold Card Issuance
 summary: ""
-date: 2020-11-05T06:45:12.922Z
+date: 2020-09-30T05:00:12.922Z
 draft: false
 hidden: false
 categories:
-    - event
+  - event
 ---
 # 1,532 Gold Cards issued to date!
 
