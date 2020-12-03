@@ -14,13 +14,13 @@ links:
     href: /en/about
     new_window: false
 items:
-  - is_cta: false
+  - preview: /cms-uploads/architecture.png
     label: What is the Gold card?
-    href: /about/
-  - is_cta: false
-    label: Covid-19
-    href: /why-taiwan/no-new-domestic-covid-19-case-for-two-hundred-days-how-do-taiwan-do-it
-  - is_cta: false
+    href: /about
+  - preview: /cms-uploads/architecture.png
+    label: What is the Gold card?
+    href: /about
+  - preview: /cms-uploads/architecture.png
     label: Why Taiwan
     href: /news/1532-gold-cards-issued-to-date
 ---
