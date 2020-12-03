@@ -1,8 +1,10 @@
 ---
 title: Field of Education
+summary: Qualification standards for PhD holders, researchers, scholars and
+  high-level teachers.
 draft: false
+icon: /cms-uploads/architecture.png
 style: title
-summary: Qualification standards for PhD holders, researchers, scholars and high-level teachers.
 ---
 ## A foreign special professional with special expertise in the field of education
 
