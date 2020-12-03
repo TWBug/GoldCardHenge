@@ -1,7 +1,7 @@
 {{ $home := .Site.Home }}
 <nav aria-label="breadcrumb">
     <div class="text-xs font-semibold">
-        <ol class="flex flex-wrap items-center">
+        <ol class="flex flex-wrap items-center font-bold">
             {{ template "breadcrumbnav" (dict "section" .Page.Section "p1" . "p2" . ) }}
         </ol>
     </div>
@@ -15,7 +15,7 @@
 {{ end }}
 {{ if eq .p1 .p2 }}
 <li class="border-l-2 border-gray-500 border-dashed my-1 px-2">
-    <span class="flex items-center bg-white text-gray-900 rounded font-bold px-2 py-1">
+    <span class="flex items-center bg-white text-gray-900 rounded px-2 py-1">
         {{ if or  (eq .section "tags") (eq .section "categories") }}
             {{ if i18n .p1.Title }}
                 {{ i18n .p1.Title }}
