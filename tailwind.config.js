@@ -108,6 +108,7 @@ module.exports = {
                 'screen-3/4': 'calc(var(--vh) * 75)',
                 screen: 'calc(var(--vh) * 100)',
                 'screen-full': 'calc(var(--vh) * 100)',
+                'hero': 'calc((var(--vh) * 100) - var(--navigationMenu))',
             }),
             screens: {
                 xxl: '1440px',
