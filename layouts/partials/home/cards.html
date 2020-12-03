@@ -1,39 +1,42 @@
 {{ $headless := .Site.GetPage "/home" }}
 {{ $setup := $headless.Resources.GetMatch "setup*" }}
 
-<div class="container replace py-24 px-12 lg:px-24">
-    <div class="mx-auto w-full sm:w-1/2 text-center mb-4">
-        <h2 class="text-4xl">
-            {{ $setup.Title | markdownify }}
-        </h2>
-    </div>
-    <div class="mx-auto w-full sm:w-3/4 text-center">
-        <p class="">
-            {{ $setup.Summary | markdownify }}
-        </p>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 my-12">
-        {{ range $setup.Params.items }}
-            {{ $label := .label }}
-            {{ $preview := "" }}
-            {{ if .preview }}
-            {{ $preview = resources.Get .preview }}
-            {{ end }}
-            {{ with $.Site.GetPage .href }}
-            {{ if not $label }}
-            {{ $label = .Title }}
-            {{ end }}
-            <div class="border border-gray-200 rounded shadow-lg text-center py-8 px-6">
-                <div class="mx-auto w-1/3 mb-4">
-                    {{ if $preview }}
-                    <img src="{{ $preview.RelPermalink }}" alt="{{ .Title }}" class="w-full" />
-                    {{ end }}
+<div class="relative">
+    <div class="absolute top-0 inset-x-0 h-full max-h-64 bg-white bg-gradient-to-b from-background to-white -z-1"></div>
+    <div class="container replace py-24 px-12 lg:px-24">
+        <div class="mx-auto w-full sm:w-1/2 text-center mb-4">
+            <h2 class="text-4xl">
+                {{ $setup.Title | markdownify }}
+            </h2>
+        </div>
+        <div class="mx-auto w-full sm:w-3/4 text-center">
+            <p class="">
+                {{ $setup.Summary | markdownify }}
+            </p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 my-12">
+            {{ range $setup.Params.items }}
+                {{ $label := .label }}
+                {{ $preview := "" }}
+                {{ if .preview }}
+                {{ $preview = resources.Get .preview }}
+                {{ end }}
+                {{ with $.Site.GetPage .href }}
+                {{ if not $label }}
+                {{ $label = .Title }}
+                {{ end }}
+                <div class="border border-gray-200 rounded shadow-lg text-center py-8 px-6">
+                    <div class="mx-auto w-1/3 mb-4">
+                        {{ if $preview }}
+                        <img src="{{ $preview.RelPermalink }}" alt="{{ .Title }}" class="w-full" />
+                        {{ end }}
+                    </div>
+                    <h3 class="text-xl font-bold text-orange-600">
+                        <a href="{{ .RelPermalink }}" class="focus">{{ $label }}</a>
+                    </h3>
                 </div>
-                <h3 class="text-xl font-bold text-orange-600">
-                    <a href="{{ .RelPermalink }}" class="focus">{{ $label }}</a>
-                </h3>
-            </div>
+                {{ end }}
             {{ end }}
-        {{ end }}
+        </div>
     </div>
 </div>
