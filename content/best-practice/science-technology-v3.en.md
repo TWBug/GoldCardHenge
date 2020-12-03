@@ -26,13 +26,13 @@ Article 4, Paragraph 1, Subparagraphs 2 of the Act for Recruitment and Employmen
 
 **Foreign Special Science and Technology Professionals (FSSTPs) must meet at least one of the following conditions:**
 
-{{< accordion suffix="1." title="Monthly salary of over NTD 160,000" bottemless="true" >}}
+{{< accordion suffix="1." title="Monthly salary of over NTD 160,000" bottomless="true" >}}
 **The applicant has held, or currently holds, a position with a most recent monthly salary of over NTD 160,000 in Taiwan or another country. Please provide least one of the following items:**
 - Documents verifying salary or income tax payment relating to employment at a technology company *(if the company's manufacturing or R&D achievements, and the individual's contributions as a participant, are consistent with the fields listed in article 2 or 3 of the eligibility/prerequisites column)*.
 - Documents verifying salary or income tax payment relating to employment at a public or private university in Taiwan or abroad, or academic research institution in Taiwan or abroad. [Note 1](#note-1)
 {{< /accordion >}}
 
-{{< accordion suffix="2." title="Unique talents or outstanding R&D or design ability" bottemless="true" >}}
+{{< accordion suffix="2." title="Unique talents or outstanding R&D or design ability" bottomless="true" >}}
 
 **Those with unique talents or outstanding R&D or design ability or original achievements in such cutting-edge technological fields as software applications, software technology, nanotechnology, microelectromechanical technology, optoelectronics, information and communications, communication transmission technology, automation system integration technology, material application technology, high precision sensing technology, biotechnology, resources development and energy conservation, frontier scientific research, and national defense and military strategies.**
 
@@ -50,7 +50,7 @@ Please select either 2.1 or 2.2, and attach all documents required for the selec
 
 {{< /accordion >}}
 
-{{< accordion suffix="3." title="Unique talents, outstanding R&D or design ability or innovation achievements" bottemless="true" >}}
+{{< accordion suffix="3." title="Unique talents, outstanding R&D or design ability or innovation achievements" bottomless="true" >}}
 
 **Those with unique talents, outstanding R&D or design ability or innovation achievements in forward-looking technologies such as artificial intelligence (AI), Internet of Things (IoT), augmented reality, blockchain (AR), virtual reality (VR), robots, and additive manufacturing.**
 
@@ -68,7 +68,7 @@ Please select either 3.1 or 3.2, and attach all documents required for the selec
 
 {{< /accordion >}}
 
-{{< accordion suffix="4." title="Nobel laureates, Tang Prize recipients, ..." bottemless="true" >}}
+{{< accordion suffix="4." title="Nobel laureates, Tang Prize recipients, ..." bottomless="true" >}}
 
 **Nobel laureates, Tang Prize recipients, Wolf Prize recipients, Fields Medal recipients, or recipients of other internationally-recognized awards at an equivalent level.**
 

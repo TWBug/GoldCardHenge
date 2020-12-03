@@ -341,11 +341,11 @@ CMS.registerEditorComponent({
         { name: 'bottomless', label: 'Bottomless 標題', widget: 'boolean', default: false },
         { name: 'body', label: 'Inner Text 內容', widget: 'text' },
     ],
-    pattern: /^{{< accordion title="(.+?)" suffix="(.+?)" bottemless="(.+?)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
+    pattern: /^{{< accordion title="(.+?)" suffix="(.+?)" bottomless="(.+?)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
     fromBlock: (match) => ({
         title: Props.unescape(match[1]),
         suffix: Props.unescape(match[2]),
-        bottemless: Props.unescape(match[3]),
+        bottomless: Props.unescape(match[3]),
         body: match[4],
     }),
     toBlock: (obj) => {
@@ -380,10 +380,10 @@ CMS.registerEditorComponent({
         `;
         let borderClass =
             'my-12 border-t-2 border-b-2 border-secondary border-dashed -ml-4 -mr-4 p-4';
-        if (obj.bottemless === 'true') {
+        if (obj.bottomless === 'true') {
             borderClass = 'my-12 border-t-2 border-secondary border-dashed -ml-4 -mr-4 p-4';
         }
-        console.info('bottemless', obj.bottemless);
+        console.info('bottomless', obj.bottomless);
         console.info('borderClass', borderClass);
         return (
             <div
