@@ -2,10 +2,10 @@
 {{ $language := .Site.Language.Lang }}
 {{ $data := index .Site.Data .Site.Language.Lang }}
 <div class="max-w-screen-xl flex justify-between mx-auto" aria-hidden="true">
-    <a href="/{{ .Site.Language.Lang }}/" class="block w-1/2 max-w-48 px-4 py-2 focus-primary">
+    <a href="/{{ .Site.Language.Lang }}/" class="block w-1/2 max-w-48 px-4 py-4 focus-primary">
         <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="{{ i18n "tego_logo" }}" />
     </a>
-    <ul class="flex-grow hidden lg:flex justify-between items-center text-base font-semibold ml-20">
+    <ul class="flex-grow hidden lg:flex justify-between items-center text-lg font-semibold ml-20">
         {{ range $data.navigation.items }}
             {{ if eq .topic $topic}}
             <li class="relative bg-yellow-400 self-stretch flex text-black font-bold"

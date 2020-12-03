@@ -59,18 +59,18 @@
         <ul class="text-2xl font-medium flex-grow-0 overflow-y-scroll">
             {{ range $data.navigation.items }}
                 {{ if eq .topic $topic}}
-                <li class="bg-yellow-400 text-black border-b border-white border-opacity-50 font-bold">
+                <li class="bg-yellow-400 text-black border-b border-white border-opacity-50 font-bold pl-4 py-2">
                 {{ else }}
-                <li class="border-b border-white border-opacity-50">
+                <li class="border-b border-white border-opacity-50 pl-4 py-2">
                 {{ end }}
-                    <a href="/{{ print $language .link }}" class="block px-6 py-4">
+                    <a href="/{{ print $language .link }}" class="inline-block p-2 focus-white">
                         {{ .name }}
                     </a>
                     {{ if .dropdown.links }}
-                    <ul class="text-base pl-8 pb-2">
+                    <ul class="text-lg pl-4 pb-2">
                         {{ range .dropdown.links }}
                         <li>
-                            <a href="/{{ print $language .link }}" class="block p-2">
+                            <a href="/{{ print $language .link }}" class="inline-block p-2 focus-white">
                                 {{ .name }}
                             </a>
                         </li>
