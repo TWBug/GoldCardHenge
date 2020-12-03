@@ -22,3 +22,8 @@ start: {{ .Params.start }}<br />
 {{ $articles = where $articles "Params.categories" "intersect" (slice $category)}}
 {{ end }}
 {{ $articles = first 3 $articles.ByLastmod.Reverse }}
+
+
+{{range $index, $value := .Site.Taxonomies.tags }}
+
+{{ end }}
