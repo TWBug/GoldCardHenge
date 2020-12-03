@@ -2,7 +2,7 @@
 {{ $headless := .Site.GetPage "/home" }}
 {{ $map := $headless.Resources.GetMatch "map*" }}
 
-<div class="bg-background py-24">
+<div class="bg-background pt-24 pb-12">
     <div class="container replace">
         <div class="mx-auto w-full sm:w-1/2 text-center px-12">
             <h2 class="text-4xl">
@@ -66,11 +66,13 @@
                 </div>
             </template>
         </div>
+        {{/* 
         <div class="mx-auto w-full sm:w-3/4 text-center px-12 lg:px-24">
             <p class="font-regular text-base">
                 {{ $map.Summary | markdownify }}
             </p>
         </div>
+        */}}
     </div>
 </div>
 
