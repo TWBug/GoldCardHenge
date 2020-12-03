@@ -91,6 +91,9 @@ module.exports = {
                 ...theme('spacing'),
                 192: '48rem',
             }),
+            height: {
+                'hero': 'calc((var(--vh) * 100) - var(--navigationMenu))',
+            },
             maxHeight: (theme) => ({
                 ...theme('spacing'),
                 'screen-1/4': 'calc(var(--vh) * 25)',

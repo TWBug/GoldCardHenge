@@ -223,7 +223,7 @@ blockquote {
 .copy ul {
     /* list-style-type: '>'; */
     list-style-type: circle;
-    @apply list-outside leading-relaxed ml-4 mb-4 mr-12;
+    @apply list-outside ml-4 mb-4 mr-12;
 }
 
 .copy ul ul {
@@ -237,11 +237,11 @@ blockquote {
 }
 .copy ul ul ul ul {
     list-style-type: '-';
-    @apply list-outside text-gray-600 text-sm leading-relaxed ml-2 my-2;
+    @apply list-outside text-gray-600 text-sm ml-2 my-2;
 }
 
 .copy ul li {
-    @apply text-black font-regular pb-2;
+    @apply text-black pb-2;
 }
 .copy UL UL LI {
     @apply pl-2;
@@ -253,11 +253,18 @@ blockquote {
 .copy ol {
     counter-reset: twgc-counter;
     list-style: none;
-    @apply ml-5 mb-4 mr-12;
+    @apply ml-5 mb-4;
 }
+
+@screen lg {
+    .copy ol {
+        @apply mr-12;
+    }
+}
+
 .copy ol li {
     counter-increment: twgc-counter;
-    @apply relative list-outside text-black font-regular pb-2 pl-2;
+    @apply relative list-outside text-black pb-2 pl-2;
 }
 .copy ol li::before {
     content: counter(twgc-counter);
