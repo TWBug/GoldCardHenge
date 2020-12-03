@@ -1,15 +1,15 @@
 ---
 title: 20200930Cumulative Number of Employment Gold Card Issuance
 summary: ""
-date: 2020-08-01T07:09:20.617Z
+date: 2020-09-30T05:00:20.617Z
 draft: false
 cover_image: ""
 cover_image_alt: ""
 media_image: ""
 media_image_alt: ""
 topic: eventsnews
-style: hero
 tags: null
+style: hero
 image: img/uploads/dummy-image.jpg
 publishDate: 2020-11-05T07:09:20.617Z
 ---
