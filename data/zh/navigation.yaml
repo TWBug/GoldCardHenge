@@ -38,7 +38,7 @@ items:
     link: /about/
     dropdown:
       image: img/uploads/taiwan-lights.jpg
-      text: 一句話解釋在這部分有什麼內容。
+      text: 提供專人聯繫方式、更多關於就業金卡的可用資源。
       links:
         - name: 聯繫我們
           link: /help-desk/
