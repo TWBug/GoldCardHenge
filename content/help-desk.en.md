@@ -21,4 +21,4 @@ You are welcome to email us at:
 
 help@taiwangoldcard.tw
 
-for any questions related to the Gold Card, or your move to Taiwan.
+For any questions related to the Gold Card, or your move to Taiwan.
