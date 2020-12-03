@@ -16,7 +16,7 @@ links:
 items:
   - is_cta: false
     label: What is the Gold card?
-    href: /about/
+    href: /about
   - is_cta: false
     label: Covid-19
     href: /why-taiwan/no-new-domestic-covid-19-case-for-two-hundred-days-how-do-taiwan-do-it
