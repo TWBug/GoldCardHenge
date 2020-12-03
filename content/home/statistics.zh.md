@@ -6,14 +6,14 @@ hidden: false
 headless: true
 links: null
 items:
-  - preview: /cms-uploads/architecture.png
-    label: 建築
-    href: /qualification/field-of-architecture
-  - preview: /cms-uploads/architecture.png
-    label: 文化藝術
-    href: /qualification/field-of-culture-and-arts
-  - preview: /cms-uploads/architecture.png
-    label: 經濟
-    href: /qualification/field-of-finance
+  - preview:
+    label: 1045
+    href: Gold Card Holders
+  - preview: 
+    label: 89
+    href: Different countries
+  - preview: 
+    label: 13296
+    href: Answered questions
 ---
 <!-- This text is never used -->
