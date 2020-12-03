@@ -1,6 +1,6 @@
 {{ $suffix := .Get "suffix" | plainify }}
 {{ $title := .Get "title" | plainify }}
-{{ if eq (.Get "bottemless") "true" }}
+{{ if eq (.Get "bottomless") "true" }}
 <div class="mt-12 -mb-6 border-t-2 border-secondary border-dashed -ml-4 -mr-4 pt-4 px-4" x-data="taAccordion()">
 {{ else }}
 <div class="my-12 border-t-2 border-b-2 border-secondary border-dashed -ml-4 -mr-4 p-4" x-data="taAccordion()">
