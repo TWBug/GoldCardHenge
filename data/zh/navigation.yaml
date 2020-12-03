@@ -14,7 +14,7 @@ items:
           link: /qualification/
       items:
         - apply
-  - name: FAQ
+  - name: 常見問題
     topic: faq
     link: /faq/
   - name: Why Taiwan
