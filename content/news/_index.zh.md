@@ -1,18 +1,15 @@
 ---
-summary: In this section, we will post the latest news about the gold card
-  program, share our upcoming events and other interesting goings on.
+title: News
+summary: 有關就業金卡計畫的最新消息。
 date: 2020-08-01T07:09:20.617Z
 draft: false
+cover_image: cms-uploads/icon-news.svg
+cover_image_alt: Test alt
 media_image: cms-uploads/media-page-news.png
 media_image_alt: Test alt
 topic: eventsnews
-title: News
-cover_image: cms-uploads/icon-news.svg
 tags: null
 categories: null
 publishDate: 2020-11-05T07:09:20.617Z
-cover_image_alt: Test alt
 ---
-您好，歡迎來看『就業金卡新聞』
-
-In this section, we will post the latest news about the gold card program, share our upcoming events and other interesting goings on.
+<!-- This text will never be seen -->
