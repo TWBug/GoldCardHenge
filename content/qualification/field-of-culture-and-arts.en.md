@@ -6,9 +6,7 @@ draft: false
 ---
 # Foreign Special Professional Who Possesses Special Expertise in the Field of Culture and Arts
 
-{{< teaser >}}
 ## Performing Arts
-{{< /teaser >}}
 
 {{< accordion title="Previously serving as member of international arts organization, or assuming post of significant capacity in governmental agency or private organization related to culture and arts." suffix="1." bottomless="false" >}}
 
