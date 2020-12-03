@@ -14,7 +14,6 @@ image: img/uploads/dummy-image.jpg
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: Test alt
 ---
-
 # Foreign specialist personnel with special expertise in science & technology
 
 {{< teaser >}}
@@ -27,18 +26,14 @@ Article 4, Paragraph 1, Subparagraphs 2 of the Act for Recruitment and Employmen
 
 **Foreign Special Science and Technology Professionals (FSSTPs) must meet at least one of the following conditions:**
 
-{{< accordion title="Monthly salary of over NTD 160,000" suffix="1." bottemless="true" >}}
-**The applicant has held, or currently holds, a position with a most recent monthly salary of over NTD 160,000 in Taiwan or another country. Please provide least one of the following items:**
+{{< accordion title="The applicant has held, or currently holds, a position with a most recent monthly salary of over NTD 160,000 in Taiwan or another country." suffix="1." bottomless="false" >}}
+Please provide least one of the following items:
 - Documents verifying salary or income tax payment relating to employment at a technology company *(if the company's manufacturing or R&D achievements, and the individual's contributions as a participant, are consistent with the fields listed in article 2 or 3 of the eligibility/prerequisites column)*.
 - Documents verifying salary or income tax payment relating to employment at a public or private university in Taiwan or abroad, or academic research institution in Taiwan or abroad. [Note 1](#note-1)
 {{< /accordion >}}
 
-{{< accordion title="Unique talents or outstanding R&D or design ability" suffix="2." bottemless="true" >}}
-
-**Those with unique talents or outstanding R&D or design ability or original achievements in such cutting-edge technological fields as software applications, software technology, nanotechnology, microelectromechanical technology, optoelectronics, information and communications, communication transmission technology, automation system integration technology, material application technology, high precision sensing technology, biotechnology, resources development and energy conservation, frontier scientific research, and national defense and military strategies.**
-
+{{< accordion title="Those with unique talents or outstanding R&D or design ability or original achievements in such cutting-edge technological fields as software applications, software technology, nanotechnology, microelectromechanical technology, optoelectronics, information and communications, communication transmission technology, automation system integration technology, material application technology, high precision sensing technology, biotechnology, resources development and energy conservation, frontier scientific research, and national defense and military strategies." suffix="2." bottomless="false" >}}
 Please select either 2.1 or 2.2, and attach all documents required for the selected item:
-
 - 2.1. All of the following documents are required:
     - Domestic or foreign certificate verifying possession of a Ph.D. degree
     - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 2.1a](#note-21a)
@@ -51,7 +46,7 @@ Please select either 2.1 or 2.2, and attach all documents required for the selec
 
 {{< /accordion >}}
 
-{{< accordion title="Unique talents, outstanding R&D or design ability or innovation achievements" suffix="3." bottemless="true" >}}
+{{< accordion title="Unique talents, outstanding R&D or design ability or innovation achievements" suffix="3." bottomless="false" >}}
 
 **Those with unique talents, outstanding R&D or design ability or innovation achievements in forward-looking technologies such as artificial intelligence (AI), Internet of Things (IoT), augmented reality, blockchain (AR), virtual reality (VR), robots, and additive manufacturing.**
 
@@ -69,15 +64,12 @@ Please select either 3.1 or 3.2, and attach all documents required for the selec
 
 {{< /accordion >}}
 
-{{< accordion title="Nobel laureates, Tang Prize recipients, ..." suffix="4." bottemless="true" >}}
-
-**Nobel laureates, Tang Prize recipients, Wolf Prize recipients, Fields Medal recipients, or recipients of other internationally-recognized awards at an equivalent level.**
-
-Please provide: Documents verifying receipt of internationally-recognized domestic or foreign awards or prizes.
-
+{{< accordion title="Nobel laureates, Tang Prize recipients, Wolf Prize recipients, Fields Medal recipients, or recipients of other internationally-recognized awards at an equivalent level." suffix="4." bottomless="false" >}}
+Please provide
+Documents verifying receipt of internationally-recognized domestic or foreign awards or prizes.
 {{< /accordion >}}
 
-{{< accordion title="University chair professor, professor, associate professor, ..." suffix="6." bottemless="true" >}}
+{{< accordion title="University chair professor, professor, associate professor, ..." suffix="6." bottomless="false" >}}
 
 **The applicant has currently or has previously been a university chair professor, professor, associate professor, or research institution researcher or associate researcher, has major academic contributions or important professional works, or has earned recognition for published research results during the most recent three years.**
 
@@ -159,4 +151,3 @@ Academic research institute refers to any institute with research as its core mi
       - Books or book chapters: Must consist of books or book chapters possessing original or important academic value and published by a publishing organization with a review system (includes in-depth interpretations of classic works; does not include textbooks, cultural or literary works, translated works, or collections of already-published papers) In the case of works that have been accepted but not yet been published, please attach relevant verifying documents.
       - Other specialized works: Other specialized works possessing academic value, or software tools or creative tools that are widely cited.
 {{< /note >}}
-
