@@ -33,10 +33,6 @@ items:
           link: /events/
       items:
         - apply
-        - latestnews
-        - allnews
-        - latestevents
-        - allevents
   - name: 相關資源
     topic: resources
     link: /about/
@@ -52,7 +48,3 @@ items:
           link: /related-websites/
       items:
         - apply
-        - latestnews
-        - allnews
-        - latestevents
-        - allevents
