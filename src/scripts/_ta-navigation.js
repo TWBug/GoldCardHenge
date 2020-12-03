@@ -24,7 +24,9 @@ window.taNavigation = function () {
         init(options) {
             if (typeof options !== 'undefined') {
                 if (typeof options !== 'object' || options instanceof Array) {
-                    console.warn('Options are in wrong type - should be object - default options been used');
+                    console.warn(
+                        'Options are in wrong type - should be object - default options been used'
+                    );
                 }
                 for (let [key, value] of Object.entries(options)) {
                     this.default[key] = value;
@@ -42,18 +44,23 @@ window.taNavigation = function () {
                     this.scroll = false;
                 }
             });
+
+            // const menu = this.$refs.menu
+            // if (typeof menu !== 'undefined') {
+            //     document.documentElement.style.setProperty('--navigationMenu', `${menu.offsetHeight}px`);
+            // }
             
-            const menu = this.$refs.menu
-            if (typeof menu !== 'undefined') {
-                document.documentElement.style.setProperty('--navigationMenu', `${menu.offsetHeight}px`);
-            }
-            
-            this.$watch('scroll', value => {
-                if ( value !== false) {
+            window.addEventListener('resize', () => {
+                this.setMenuHeight();
+            });
+            this.setMenuHeight();
+
+            this.$watch('scroll', (value) => {
+                if (value !== false) {
                     // if the scroll menue gets hidden - the menue must be hidden too
-                    this.hideMenue()
+                    this.hideMenue();
                 }
-            })
+            });
         },
         toggleModal() {
             this.modal = !this.modal;
@@ -67,11 +74,20 @@ window.taNavigation = function () {
                 behavior: 'smooth',
             });
         },
+        setMenuHeight() {
+            const menu = this.$refs.menu;
+            if (typeof menu !== 'undefined') {
+                document.documentElement.style.setProperty(
+                    '--navigationMenu',
+                    `${menu.offsetHeight}px`
+                );
+            }
+        },
         toggleDropdown(topic, event) {
             for (const property in this.dropdown) {
                 if (property === topic) {
-                    this.dropdown[topic] = !this.dropdown[topic]
-                    continue
+                    this.dropdown[topic] = !this.dropdown[topic];
+                    continue;
                 }
                 this.dropdown[property] = false;
             }
@@ -80,8 +96,8 @@ window.taNavigation = function () {
         toggleMenue(topic, event) {
             for (const property in this.menue) {
                 if (property === topic) {
-                    this.menue[topic] = !this.menue[topic]
-                    continue
+                    this.menue[topic] = !this.menue[topic];
+                    continue;
                 }
                 this.menue[property] = false;
             }

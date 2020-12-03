@@ -639,13 +639,15 @@ window.taNavigation = function () {
         } else {
           _this.scroll = false;
         }
+      }); // const menu = this.$refs.menu
+      // if (typeof menu !== 'undefined') {
+      //     document.documentElement.style.setProperty('--navigationMenu', `${menu.offsetHeight}px`);
+      // }
+
+      window.addEventListener('resize', function () {
+        _this.setMenuHeight();
       });
-      var menu = this.$refs.menu;
-
-      if (typeof menu !== 'undefined') {
-        document.documentElement.style.setProperty('--navigationMenu', "".concat(menu.offsetHeight, "px"));
-      }
-
+      this.setMenuHeight();
       this.$watch('scroll', function (value) {
         if (value !== false) {
           // if the scroll menue gets hidden - the menue must be hidden too
@@ -664,6 +666,13 @@ window.taNavigation = function () {
         top: 0,
         behavior: 'smooth'
       });
+    },
+    setMenuHeight: function setMenuHeight() {
+      var menu = this.$refs.menu;
+
+      if (typeof menu !== 'undefined') {
+        document.documentElement.style.setProperty('--navigationMenu', "".concat(menu.offsetHeight, "px"));
+      }
     },
     toggleDropdown: function toggleDropdown(topic, event) {
       for (var property in this.dropdown) {
