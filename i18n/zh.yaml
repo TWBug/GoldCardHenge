@@ -62,6 +62,8 @@
   translation: '所有活動'
 - id: all_faq
   translation: 'All faq'
+- id: since_2018
+  translation: 'Since 2018'
 - id: taipei_city_skyline
   translation: '台北市天際線'
 - id: taiwan_mountains

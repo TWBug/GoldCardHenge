@@ -11,6 +11,7 @@ const colors = {
     'nav-meta': '#005E9E',
     'nav-start': '#2183D1',
     'nav-end': '#1A7AC7',
+    'gray-blue': '#537796',
     'secondary-dark': '#2F5302',
     'secondary-medium': '#3B6505',
     'secondary-light': '#1A683B',
@@ -76,6 +77,10 @@ module.exports = {
                 md: '0.925rem',
                 '5xl': '2.45rem',
                 '6xl': '3rem',
+                '7xl': '3.5rem',
+                '8xl': '4rem',
+                '9xl': '5rem',
+                '10xl': '6rem',
             },
             maxWidth: (theme) => ({
                 xxs: '12rem',

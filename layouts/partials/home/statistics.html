@@ -1,0 +1,39 @@
+{{ $statistics := (.Site.GetPage "/home").Resources.GetMatch "statistics*" }}
+
+<div class="relative">
+    <div class="absolute top-0 inset-x-0 h-full max-h-64 bg-white bg-gradient-to-b from-background to-white -z-1"></div>
+    <div class="container replace py-24 px-12 lg:px-24">
+        <div class="mx-auto w-full sm:w-1/2 text-center mb-4">
+            <h2 class="text-4xl leading-snug">
+                {{ $statistics.Title | markdownify }}
+            </h2>
+        </div>
+        <div class="flex flex-wrap  justify-around items-center my-6 lg:my-24">
+            {{ range $index, $value := $statistics.Params.items }}
+            <div class="flex flex-col w-full lg:w-1/4 text-center text-gray-blue my-6" x-data="taCounter()" x-init="init({end: {{ .label }}})">
+                <div class="mx-auto mb-4">
+                    {{ if eq $index 0 }}
+                    {{ partial "icon" (dict "name" "people" "size" "10") }}
+                    {{ else if eq $index 1 }}
+                    {{ partial "icon" (dict "name" "map" "size" "10") }}
+                    {{ else }}
+                    {{ partial "icon" (dict "name" "answer" "size" "10") }}
+                    {{ end }}
+                </div>
+                <div class="text-9xl leading-none font-regular" x-ref="number">
+                    {{ .label }}
+                </div>
+                <div class="text-sm font-bold">
+                    {{ .href }}
+                </div>
+                <div class="text-sm font-regular">
+                    {{ i18n "since_2018" }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="mx-auto w-full sm:w-2/3 text-center mb-4">
+            {{ $statistics.Summary | markdownify }}
+        </div>
+    </div>
+</div>

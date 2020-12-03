@@ -1,11 +1,6 @@
 {{ define "main" }}
 
-{{ $headless := .Site.GetPage "/home" }}
-{{ $hero := $headless.Resources.GetMatch "hero*" }}
-{{ $intro := $headless.Resources.GetMatch "intro*" }}
-{{ $cta := $headless.Resources.GetMatch "cta*" }}
-{{ $map := $headless.Resources.GetMatch "map*" }}
-{{ $setup := $headless.Resources.GetMatch "setup*" }}
+{{ $hero := (.Site.GetPage "/home").Resources.GetMatch "hero*" }}
 
 {{ $heromessages := slice }}
 {{ range $hero.Params.items }}
@@ -61,6 +56,9 @@
     </section>
     <section help="cards">
         {{ partial "home/cards" .  }}
+    </section>
+    <section help="statistics">
+        {{ partial "home/statistics" .  }}
     </section>
     {{/*  {{ partial "home/expand" .  }}  */}}
 </div>

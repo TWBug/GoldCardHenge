@@ -64,6 +64,8 @@
   translation: 'All events'
 - id: all_faq
   translation: 'All faq'
+- id: since_2018
+  translation: 'Since 2018'
 - id: taipei_city_skyline
   translation: 'Taipei City Skyline'
 - id: taiwan_mountains

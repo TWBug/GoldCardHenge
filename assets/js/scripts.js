@@ -272,6 +272,107 @@ function smoothScroll() {
 }
 "use strict";
 
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+window.taCounter = function () {
+  return {
+    status: false,
+    options: {
+      ref: 'number',
+      start: 0,
+      end: 1000,
+      duration: 4000,
+      interval: 100,
+      locale: false,
+      animate: true
+    },
+    init: function init(options) {
+      var _this = this;
+
+      if (typeof options !== 'undefined') {
+        if (_typeof(options) !== 'object' || options instanceof Array) {
+          console.warn('Options are in wrong type - should be object - options been used');
+        }
+
+        for (var _i = 0, _Object$entries = Object.entries(options); _i < _Object$entries.length; _i++) {
+          var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+              key = _Object$entries$_i[0],
+              value = _Object$entries$_i[1];
+
+          this.options[key] = value;
+        }
+      }
+
+      if (this.options.animate === false) return;
+
+      if (this.prefersReducedMotion()) {
+        this.interval = 1000;
+      }
+
+      ;
+
+      if (this.options.locale === false) {
+        this.options.locale = this.getVisitorLocale();
+      }
+
+      window.addEventListener('scroll', function () {
+        if (_this.isInViewport(_this.$refs[_this.options.ref]) && _this.status === false) {
+          _this.status = true;
+
+          _this.startCounting(_this.$refs[_this.options.ref], _this.options.start, _this.options.end, _this.options.duration);
+        }
+      });
+      this.$refs[this.options.ref].innerHTML = this.options.start;
+    },
+    startCounting: function startCounting(ref, start, end, duration) {
+      var _this2 = this;
+
+      if (start === end) return;
+      ref.innerHTML = start;
+      var current = start;
+      var range = end - start;
+      var single_step = range / duration * 100;
+      var timer = setInterval(function () {
+        current += single_step;
+        ref.innerHTML = Math.floor(current).toLocaleString(_this2.options.locale);
+
+        if (current >= end) {
+          ref.innerHTML = end.toLocaleString(_this2.options.locale);
+          clearInterval(timer);
+        }
+      }, this.options.interval);
+    },
+    isInViewport: function isInViewport(el) {
+      var rect = el.getBoundingClientRect();
+      return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
+    },
+    prefersReducedMotion: function prefersReducedMotion() {
+      var QUERY = '(prefers-reduced-motion: no-preference)';
+      var mediaQueryList = window.matchMedia(QUERY);
+      var prefersReducedMotion = !mediaQueryList.matches;
+      return prefersReducedMotion;
+    },
+    getVisitorLocale: function getVisitorLocale() {
+      var browser_language = navigator.language || navigator.userLanguage;
+      var visitor_language = browser_language.split('-');
+      return visitor_language[0];
+    }
+  };
+};
+"use strict";
+
 window.taFilter = function () {
   return {
     tags: {},
