@@ -14,7 +14,6 @@ image: img/uploads/dummy-image.jpg
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: Test alt
 ---
-
 # Foreign specialist personnel with special expertise in science & technology
 
 {{< teaser >}}
@@ -36,9 +35,7 @@ Article 4, Paragraph 1, Subparagraphs 2 of the Act for Recruitment and Employmen
 {{< accordion title="Unique talents or outstanding R&D or design ability" suffix="2." bottomless="true" >}}
 
 **Those with unique talents or outstanding R&D or design ability or original achievements in such cutting-edge technological fields as software applications, software technology, nanotechnology, microelectromechanical technology, optoelectronics, information and communications, communication transmission technology, automation system integration technology, material application technology, high precision sensing technology, biotechnology, resources development and energy conservation, frontier scientific research, and national defense and military strategies.**
-
 Please select either 2.1 or 2.2, and attach all documents required for the selected item:
-
 - 2.1. All of the following documents are required:
     - Domestic or foreign certificate verifying possession of a Ph.D. degree
     - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 2.1a](#note-21a)
@@ -159,4 +156,3 @@ Academic research institute refers to any institute with research as its core mi
       - Books or book chapters: Must consist of books or book chapters possessing original or important academic value and published by a publishing organization with a review system (includes in-depth interpretations of classic works; does not include textbooks, cultural or literary works, translated works, or collections of already-published papers) In the case of works that have been accepted but not yet been published, please attach relevant verifying documents.
       - Other specialized works: Other specialized works possessing academic value, or software tools or creative tools that are widely cited.
 {{< /note >}}
-
