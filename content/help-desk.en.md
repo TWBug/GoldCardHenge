@@ -1,22 +1,21 @@
 ---
-title: Help Desk
+media_image: null
 summary: Ask questions, get help with your application
 date: 2020-11-05T07:09:20.617Z
-publishDate: 2020-11-05T07:09:20.617Z
 draft: false
+media_image_alt: null
+layout: null
 topic: resources
-cover_image:
-cover_image_alt:
-media_image:
-media_image_alt:
-tags:
-categories:
-layout:
+cover_image: null
+title: Help Desk
+tags: null
+categories: null
+publishDate: 2020-11-05T07:09:20.617Z
+cover_image_alt: null
 ---
-
 # Taiwan Gold Card Helpdesk
-The Taiwan Gold Card Office operates a bi-lingual helpdesk for applicants
-and current cardholders.
+
+The Taiwan Gold Card Office operates a bi-lingual helpdesk for applicants and current cardholders.
 
 You are welcome to email us at:
 
