@@ -14,7 +14,7 @@
 {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
 {{ end }}
 {{ if eq .p1 .p2 }}
-<li class="border-l-2 border-gray-500 border-dashed px-2">
+<li class="border-l-2 border-gray-500 border-dashed my-1 px-2">
     <span class="flex items-center bg-white text-gray-900 rounded font-bold px-2 py-1">
         {{ if or  (eq .section "tags") (eq .section "categories") }}
             {{ if i18n .p1.Title }}
@@ -28,7 +28,7 @@
     </span>
 </li>
 {{ else if .p1.IsHome }}
-<li class="text-primary hover:text-black mr-2">
+<li class="text-primary hover:text-black my-1 mr-2">
     <a href="{{ .p1.Permalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">
         {{ partial "icon" (dict "name" "home" "size" "4") }}
         <span class="ml-2">
@@ -45,7 +45,7 @@
     </a>
 </li>
 {{ else }}
-<li class="border-l-2 border-gray-500 border-dashed text-primary hover:text-black px-2">
+<li class="border-l-2 border-gray-500 border-dashed text-primary hover:text-black my-1 px-2">
     <a href="{{ .p1.Permalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">
         {{ .p1.Title | truncate 60 }}
     </a>
