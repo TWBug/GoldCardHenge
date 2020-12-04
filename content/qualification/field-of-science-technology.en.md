@@ -18,9 +18,7 @@ cover_image_alt: Test alt
 
 ## Must meet **ONE** of the following requirements:
 
-{{< accordion title="The applicant has or currently holds a position with a monthly salary of over NTD 160,000..." suffix="1." bottomless="true" >}}
-**The applicant has held, or currently holds, a position with a most recent monthly salary of over NTD 160,000 in Taiwan or another country.**
-
+{{< accordion title="The applicant has held, or currently holds, a position with a most recent monthly salary of over NTD 160,000 in Taiwan or another country." suffix="1." bottomless="true" >}}
 Please provide least one of the following items:
 - Documents verifying salary or income tax payment relating to employment at a technology company *(if the company's manufacturing or R&D achievements, and the individual's contributions as a participant, are consistent with the fields listed in article 2 or 3 of the eligibility/prerequisites column)*.
 - Documents verifying salary or income tax payment relating to employment at a public or private university in Taiwan or abroad, or academic research institution in Taiwan or abroad. [Note 1](#note-1)
