@@ -1,10 +1,9 @@
 ---
-title: Bringing together global talents to create a better future for Taiwan
-summary: 
+title: Get to know the Gold Card Community
+summary: null
 draft: false
 hidden: false
 headless: true
 links: null
 ---
-
-Here should be a description to the visitores why there are some people on the map and what kind of benefit the visitor does have from this map. And of course you can click on every portrait to find our more about these gold card members.
+For over 1,000 people, Taiwan is their next stop in life. The Taiwan Employment Gold Card community is growing very fast. We welcome applicants from all over the world. Apply now and join the community.
