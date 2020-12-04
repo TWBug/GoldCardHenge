@@ -22,10 +22,11 @@
                 {{ partial "icon" (dict "name" "s--calendar-check" "size" "4") }}
             </div>
             <span class="ml-2">
+                {{ $start_date := time .Params.start "Asia/Taipei" }}
                 {{ if eq .Site.Language.Lang "zh" }}
-                {{ dateFormat "2006年01月02日" .Params.start}}
+                {{ dateFormat "2006年01月02日" $start_date.Local }}
                 {{ else }}
-                {{ dateFormat "Monday, January 2, 2006" .Params.start }}
+                {{ dateFormat "Monday, January 2, 2006" $start_date.Local }}
                 {{ end }}
             </span>
         </div>
@@ -37,11 +38,13 @@
             </div>
             <span class="ml-2">
                 {{ if .Params.end }}
-                {{ partial "time" (dict "date" .Params.start "lang" .Site.Language.Lang )}}
+                {{ $start_date := time .Params.start "Asia/Taipei" }}
+                {{ $end_date := time .Params.end "Asia/Taipei" }}
+                {{ partial "time" (dict "date" $start_date.Local "lang" .Site.Language.Lang )}}
                 -
-                {{ partial "time" (dict "date" .Params.end "lang" .Site.Language.Lang )}}
+                {{ partial "time" (dict "date" $end_date.Local "lang" .Site.Language.Lang )}}
                 {{ else }}
-                {{ i18n "starts_at" }}: {{ partial "time" (dict "date" .Params.start "lang" .Site.Language.Lang )}}
+                {{ i18n "starts_at" }}: {{ partial "time" (dict "date" $start_date.Local "lang" .Site.Language.Lang )}}
                 {{ end }}
             </span>
         </div>
