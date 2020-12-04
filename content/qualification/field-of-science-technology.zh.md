@@ -1,5 +1,6 @@
 ---
 title: 科技領域
+summary: 具科技產業之工作經驗、學術研究或專業才能，有3年以上工作經驗或是近3年之學術研究等證明文件。
 style: right
 ---
 # Foreign specialist personnel with special expertise in science & technology
