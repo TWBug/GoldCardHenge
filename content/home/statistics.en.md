@@ -19,4 +19,4 @@ items:
     label: "10876"
     href: Answered questions
 ---
-For over 1,000 people, Taiwan is their next stop in life. The Taiwan Employment Gold Card community is growing very fast. We welcome applicants from all over the world. Apply now and join the community.
+<!-- This text will never be seen -->
