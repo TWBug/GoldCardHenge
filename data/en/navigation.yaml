@@ -17,10 +17,6 @@ items:
           link: /gold-card-office/
       items:
         - apply
-        - latestnews
-        - allnews
-        - latestevents
-        - allevents
   - name: FAQ
     topic: faq
     link: /faq/
@@ -41,10 +37,6 @@ items:
           link: /events/
       items:
         - apply
-        - latestnews
-        - allnews
-        - latestevents
-        - allevents
   - name: Resources
     topic: resources
     link: /about/
@@ -60,7 +52,3 @@ items:
           link: /related-websites/
       items:
         - apply
-        - latestnews
-        - allnews
-        - latestevents
-        - allevents
