@@ -1,45 +1,64 @@
 window.taFilter = function () {
     return {
-        tags: {},
-        active: [],
-        // default: {
-        //     language: 'en',
-        //     supported: ['en', 'zh'],
-        // },
+        initialized: false,
+        filter: '',
+        index: [],
+        result: [],
         init() {
-            const content = this.$refs.content.childNodes;
-            for (let index = 0; index < content.length; index++) {
-                const tag = content[index].dataset.tag;
-                this.active.push(tag);
-                this.tags[tag] = true;
-            }
-        },
-        toggle(tag) {
-            if (this.tags[tag] === true) {
-                this.active.splice(this.active.indexOf(tag), 1);
-            } else {
-                this.active.push(tag);
-            }
-            this.tags[tag] = !this.tags[tag];
-            this.checkFaqs();
-        },
-        checkFaqs() {
-            var count = 0;
-            for (const key in this.$store.filter.faqs) {
-                if (this.$store.filter.faqs.hasOwnProperty(key)) {
-                    var active = false;
-                    for (let index = 0; index < this.active.length; index++) {
-                        const tag = this.active[index];
-                        if (this.$store.filter.faqs[key].tags.indexOf(tag) !== -1) {
-                            active = true;
-                            count++;
-                            break;
-                        }
-                    }
-                    this.$store.filter.faqs[key].active = active;
+            this.fetchData();
+            this.$watch('filter', (value) => {
+                if (value.length === 0) {
+                    return this.resetResult()
                 }
-            }
-            this.$store.filter.empty = count > 0 ? false : true;
+                this.findContent();
+            });
         },
+        fetchData() {
+            const url = location.origin + location.pathname + 'data.json';
+            fetch(url)
+                .then((response) => response.json())
+                .then((json) => {
+                    this.index = json;
+                    this.initialized = true;
+                    this.resetResult()
+                })
+                .catch((error) => {
+                    console.warn(error);
+                });
+        },
+        findContent() {
+            var result = [];
+            this.index.forEach((element) => {
+                if (element.summary.indexOf(this.filter) !== -1) {
+                    if (result.indexOf(element.index) === -1) {
+                        result.push(parseInt(element.index));
+                    }
+                }
+            });
+            result.sort((a, b) => {
+                if (a < b) {
+                    return -1;
+                }
+                return 1;
+            });
+            console.info('result', result);
+            this.result = result;
+        },
+        resetResult() {
+            var result = []
+            for (let index = 0; index < this.index.length; index++) {
+                result.push(index)
+            }
+            console.info('result', result);
+            this.result = result
+            return true
+        },
+        isInResult(index) {
+            console.info('index', index);
+            if (this.initialized) {
+                return this.result.indexOf(index) === -1 ? false : true
+            }
+            return true
+        }
     };
 };

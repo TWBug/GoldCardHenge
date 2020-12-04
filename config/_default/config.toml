@@ -6,7 +6,7 @@ copyright = "Taiwan Employment Gold Card Office"
 defaultContentLanguageInSubdir = true
 disableAliases = true
 disableHugoGeneratorInject = false
-disableKinds = ["404"]
+disableKinds = ["404", "RSS"]
 disableLanguages = []
 enableInlineShortcodes = true
 ignoreErrors = ["error-disable-taxonomy"]
@@ -24,8 +24,6 @@ tag = "tags"
 languageName = "English"
 title = "Taiwan Gold Card"
 weight = 1
-[languages.en.outputs]
-home = ["HTML", "MANIFEST"]
 [languages.en.params]
 linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
 apply = "https://www.linkedin.com/company/taiwangoldcard/"
@@ -37,8 +35,7 @@ weight = 2
 [languages.zh.params]
 linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
 apply = "https://www.linkedin.com/company/taiwangoldcard/"
-[languages.zh.outputs]
-home = ["HTML", "MANIFEST"]
+
 
 # [languages.de]
 # disableKinds = ["404", "taxonomy", "sitemap"]
@@ -81,10 +78,17 @@ minifyOutput = true
 [outputs]
 home = ["HTML", "MANIFEST"]
 page = ["HTML"]
+term = ["HTML", "DATA"]
 [outputFormats.manifest]
 baseName = "manifest"
 mediaType = "application/json"
 name = "manifest"
+notAlternative = "true"
+permalinkable = "true"
+[outputFormats.data]
+baseName = "data"
+mediaType = "application/json"
+name = "data"
 notAlternative = "true"
 permalinkable = "true"
 # [outputFormats.welcome]

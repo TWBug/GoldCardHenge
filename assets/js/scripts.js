@@ -399,53 +399,77 @@ window.taCounter = function () {
 
 window.taFilter = function () {
   return {
-    tags: {},
-    active: [],
-    // default: {
-    //     language: 'en',
-    //     supported: ['en', 'zh'],
-    // },
+    initialized: false,
+    filter: '',
+    index: [],
+    result: [],
     init: function init() {
-      var content = this.$refs.content.childNodes;
+      var _this = this;
 
-      for (var index = 0; index < content.length; index++) {
-        var tag = content[index].dataset.tag;
-        this.active.push(tag);
-        this.tags[tag] = true;
-      }
-    },
-    toggle: function toggle(tag) {
-      if (this.tags[tag] === true) {
-        this.active.splice(this.active.indexOf(tag), 1);
-      } else {
-        this.active.push(tag);
-      }
-
-      this.tags[tag] = !this.tags[tag];
-      this.checkFaqs();
-    },
-    checkFaqs: function checkFaqs() {
-      var count = 0;
-
-      for (var key in this.$store.filter.faqs) {
-        if (this.$store.filter.faqs.hasOwnProperty(key)) {
-          var active = false;
-
-          for (var index = 0; index < this.active.length; index++) {
-            var tag = this.active[index];
-
-            if (this.$store.filter.faqs[key].tags.indexOf(tag) !== -1) {
-              active = true;
-              count++;
-              break;
-            }
-          }
-
-          this.$store.filter.faqs[key].active = active;
+      this.fetchData();
+      this.$watch('filter', function (value) {
+        if (value.length === 0) {
+          return _this.resetResult();
         }
+
+        _this.findContent();
+      });
+    },
+    fetchData: function fetchData() {
+      var _this2 = this;
+
+      var url = location.origin + location.pathname + 'data.json';
+      fetch(url).then(function (response) {
+        return response.json();
+      }).then(function (json) {
+        _this2.index = json;
+        _this2.initialized = true;
+
+        _this2.resetResult();
+      })["catch"](function (error) {
+        console.warn(error);
+      });
+    },
+    findContent: function findContent() {
+      var _this3 = this;
+
+      var result = [];
+      this.index.forEach(function (element) {
+        if (element.summary.indexOf(_this3.filter) !== -1) {
+          if (result.indexOf(element.index) === -1) {
+            result.push(parseInt(element.index));
+          }
+        }
+      });
+      result.sort(function (a, b) {
+        if (a < b) {
+          return -1;
+        }
+
+        return 1;
+      });
+      console.info('result', result);
+      this.result = result;
+    },
+    resetResult: function resetResult() {
+      var result = [];
+
+      for (var index = 0; index < this.index.length; index++) {
+        result.push(index);
       }
 
-      this.$store.filter.empty = count > 0 ? false : true;
+      console.info('result', result);
+      this.result = result;
+      return true;
+    },
+    isInResult: function isInResult(index) {
+      console.info('index', index);
+
+      if (this.initialized) {
+        return this.result.indexOf(index) === -1 ? false : true;
+      }
+
+      return true;
     }
   };
 };
@@ -738,6 +762,60 @@ window.taNavigation = function () {
       this.menue[property] = false;
     }
   }), _ref;
+};
+"use strict";
+
+window.taTags = function () {
+  return {
+    tags: {},
+    active: [],
+    // default: {
+    //     language: 'en',
+    //     supported: ['en', 'zh'],
+    // },
+    init: function init() {
+      var content = this.$refs.content.childNodes;
+
+      for (var index = 0; index < content.length; index++) {
+        var tag = content[index].dataset.tag;
+        this.active.push(tag);
+        this.tags[tag] = true;
+      }
+    },
+    toggle: function toggle(tag) {
+      if (this.tags[tag] === true) {
+        this.active.splice(this.active.indexOf(tag), 1);
+      } else {
+        this.active.push(tag);
+      }
+
+      this.tags[tag] = !this.tags[tag];
+      this.checkFaqs();
+    },
+    checkFaqs: function checkFaqs() {
+      var count = 0;
+
+      for (var key in this.$store.filter.faqs) {
+        if (this.$store.filter.faqs.hasOwnProperty(key)) {
+          var active = false;
+
+          for (var index = 0; index < this.active.length; index++) {
+            var tag = this.active[index];
+
+            if (this.$store.filter.faqs[key].tags.indexOf(tag) !== -1) {
+              active = true;
+              count++;
+              break;
+            }
+          }
+
+          this.$store.filter.faqs[key].active = active;
+        }
+      }
+
+      this.$store.filter.empty = count > 0 ? false : true;
+    }
+  };
 };
 "use strict";
 

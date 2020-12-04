@@ -1,0 +1,13 @@
+[
+{{ range $index, $value := sort .Pages "Title" "asc" }}
+{{ $summary := .Content | plainify | chomp | lower }}
+{{ $question :=  .Title | plainify | chomp | lower }}
+{{ if .Params.question }}
+{{ $question = .Params.question | plainify | chomp | lower }}
+{{ end }}
+{
+    "index": "{{ $index }}",
+    "summary": "{{ print (replace $summary "\n" "") (replace $question "\n" "") }}"
+},
+{{ end }}
+]
