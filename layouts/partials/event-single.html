@@ -23,8 +23,7 @@
             </div>
             <span class="ml-2">
                 {{ if eq .Site.Language.Lang "zh" }}
-                {{ dateFormat "2006" .Params.start}}
-                
+                {{ dateFormat "2006年01月02日" .Params.start}}
                 {{ else }}
                 {{ dateFormat "Monday, January 2, 2006" .Params.start }}
                 {{ end }}
