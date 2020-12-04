@@ -22,13 +22,12 @@ style: right
 - 2.1. 請全部檢附：
     - 具博士學位之國內外學歷證書
     - 具 3 年以上相關領域工作經驗之國內外服務證明 [Note 2.1a](#note-21a)
-    - Academic research during the most recent 3 years  [Note 2.1b](#note-21b)
+    - 近 3 年之學術研究 [Note 2.2b](#note-22b)
 
 - 2.2. All of the following documents are required:
     - Verification of domestic or foreign work experience in a relevant field for 3 or more years. [Note 2.2a](#note-22a)
     - Documents verifying technology (such as a domestic or foreign patent certificate, etc.) or technology licensing (such as a technology licensing contract, etc.).
-    - Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field).  [Note 2.2b](#note-22b)
-
+    - Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field).  [Note 2.2b](#note-22b)ㄉ
 {{< /accordion >}}
 
 {{< accordion title="Unique talents, outstanding R&D or design ability or innovation achievements" suffix="3." bottomless="true" >}}
