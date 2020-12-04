@@ -1,6 +1,6 @@
 ---
 media_image: null
-summary: ""
+summary: 就業金卡是一張結合工作許可、居留簽證、外僑居留證及重入國許可等四證合一的個人工作許可證，在有效期間內提供符合資格的外國人才可自由尋職、就職及轉換工作的便利性。
 date: 2020-11-05T07:09:20.617Z
 draft: false
 media_image_alt: null
