@@ -130,6 +130,14 @@ Please select either 8.1 or 8.2, and attach all documents required for the selec
 
 {{< /accordion >}}
 
+{{< accordion title="Holders of a Ph.D. degree who possess special expertise that is lacking in Taiwan." suffix="9." bottomless="true" >}}
+Please attach all of the following documents:
+- Domestic or foreign certificate verifying possession of a Ph.D. degree
+- Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 9](#note-9)
+- Documents verifying technology (such as a domestic or foreign patent certificate, etc.) or technology licensing (such as a technology licensing contract, etc.).
+- Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field).
+{{< /accordion >}}
+
 ## Notes
 
 {{< note title="1" >}}
