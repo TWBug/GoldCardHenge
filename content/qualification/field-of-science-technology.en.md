@@ -71,6 +71,13 @@ Please provide:
 
 {{< /accordion >}}
 
+{{< accordion title="Academician at a national academy of sciences or scholar at an equivalent national level." suffix="5." bottomless="true" >}}
+
+Please provide: 
+*Domestic or foreign academician certificate or equivalent verifying document  [Note 5](#note-5)
+
+{{< /accordion >}}
+
 {{< accordion title="University chair professor, professor, associate professor, ..." suffix="6." bottomless="true" >}}
 
 **The applicant has currently or has previously been a university chair professor, professor, associate professor, or research institution researcher or associate researcher, has major academic contributions or important professional works, or has earned recognition for published research results during the most recent three years.**
@@ -152,4 +159,11 @@ Academic research institute refers to any institute with research as its core mi
       - Conference papers: Papers presented at a conference or accepted by a conference organizer and scheduled for presentation. (letter of acceptance or relevant verifying document must be attached).
       - Books or book chapters: Must consist of books or book chapters possessing original or important academic value and published by a publishing organization with a review system (includes in-depth interpretations of classic works; does not include textbooks, cultural or literary works, translated works, or collections of already-published papers) In the case of works that have been accepted but not yet been published, please attach relevant verifying documents.
       - Other specialized works: Other specialized works possessing academic value, or software tools or creative tools that are widely cited.
+{{< /note >}}
+
+
+
+{{< note title="5" >}}
+* Includes domestic and foreign national academies of science in all fields.
+* "Academician" refers to a nation’s highest academic title in various fields of science and technology, and is a lifelong honor.
 {{< /note >}}
