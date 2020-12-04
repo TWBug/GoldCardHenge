@@ -15,7 +15,8 @@ site_url: https://staging.taiwangoldcard.tw
 
 # The language of the admin UI
 # Set to 'zh_Hant' for 繁體中文
-locale: 'en'
+# NOTE: We set this in the JS config file so that it can be set dynamically.
+# locale: 'en'
 
 # Whether or not ot interact directly with the local git repo rather than the
 # remote repo on github. Requires `npx netlify-cms-proxy-server` running.

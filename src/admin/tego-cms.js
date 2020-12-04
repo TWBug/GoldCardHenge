@@ -54,18 +54,6 @@ const Props = {
     },
 };
 
-let _config = null;
-
-// The CMS doesn't seem to expose this for us... so we'll just grab it ourselves
-// NOTE: There is currently no event listener to make it easier to use the config directly.
-fetch('config.yml')
-    .then((x) => x.text())
-    .then((x) => jsyaml.load(x))
-    .then((x) => {
-        _config = x;
-        window._config = x;
-    });
-
 const $ = (sel) => {
     return document.querySelector(sel);
 };
@@ -271,12 +259,6 @@ CMS.registerWidget('max-length-string', MaxLengthString, NestedStringPreview, {
 
 /// Configure CMS
 //
-
-const zh = CMS.getLocale('zh_Hant');
-if (true /* TODO: What should be the check for zh user lang? */) {
-    CMS.registerLocale('zh', zh);
-    CMS.registerLocale('zh_Hant', zh);
-}
 
 const comp = () => {
     return <div>Hey there you</div>;
@@ -701,3 +683,32 @@ CMS.registerEditorComponent({
 
 // Register our custom styles
 CMS.registerPreviewStyle('/css/wysiwyg.min.css');
+
+const zh = CMS.getLocale('zh_Hant');
+if (true /* TODO: What should be the check for zh user lang? */) {
+    CMS.registerLocale('zh', zh);
+    CMS.registerLocale('zh_Hant', zh);
+}
+
+// NOTE: The main website stores the user's locale on this key, so the way to
+// change the locale is via the main website, not via the CMS interface.
+let locale = 'en';
+try {
+    const storedLocale = localStorage.getItem('language'); // See NOTE
+    if (storedLocale) {
+        locale = storedLocale;
+    } else {
+        locale = window.navigator.language.split('-')[0];
+    }
+} catch (err) {
+    console.warn('[WARN] Could not set CMS locale due to error:', err);
+}
+
+// Init the CMS
+// NOTE: This works because we set window.CMS_MANUAL_INIT before the CMS file
+// was loaded.
+window.initCMS({
+    config: {
+        locale,
+    },
+});
