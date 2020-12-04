@@ -2,7 +2,7 @@
 title: What Resources are Available to You?
 link: https://www.accupass.com/event/2010230348208688547600
 start: 2020-12-16T17:00:00.154Z
-end: 2020-12-16T21:00:00.154Z
+end: 2020-11-01T18:00:00.154Z
 location: Taiwan Tech Arena (TTA)
 cover_image: /cms-uploads/11_02-event-banner-final.png
 cover_image_alt: What Resources are Available to You?
