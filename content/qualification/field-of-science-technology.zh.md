@@ -24,10 +24,10 @@ style: right
     - 具 3 年以上相關領域工作經驗之國內外服務證明 [Note 2.1a](#note-21a)
     - 近 3 年之學術研究 [Note 2.2b](#note-22b)
 
-- 2.2. All of the following documents are required:
-    - Verification of domestic or foreign work experience in a relevant field for 3 or more years. [Note 2.2a](#note-22a)
-    - Documents verifying technology (such as a domestic or foreign patent certificate, etc.) or technology licensing (such as a technology licensing contract, etc.).
-    - Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field).  [Note 2.2b](#note-22b)ㄉ
+- 2.2. 請全部檢附：
+    - 具 3 年以上相關領域工作經驗之國內外服務證明 [Note 2.2a](#note-22a)
+    - 技術證明(如國內外專利證書等)或技術移轉(如技術轉合約書等)
+    - 獲獎證明(須為該專業領域具國際性之國內外重要獎項)。  [Note 2.2b](#note-22b)
 {{< /accordion >}}
 
 {{< accordion title="Unique talents, outstanding R&D or design ability or innovation achievements" suffix="3." bottomless="true" >}}
