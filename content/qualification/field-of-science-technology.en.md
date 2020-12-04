@@ -54,6 +54,7 @@ Please select either 3.1 or 3.2, and attach all documents required for the selec
     - Verification of domestic or foreign work experience in a relevant field for 3 or more years. [Note 3.1a](#note-31a)
     - Verification of domestic or foreign work experience in a relevant field for 3 or more years
     - Academic research during the most recent 3 years [Note 3.1b](#note-31b)
+
 - 3.2. All of the following documents are required:
     - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 3.2a](#note-32a)
     - Documents verifying technology (such as a domestic or foreign patent certificate, etc.) or technology licensing (such as a technology licensing contract, etc.).
@@ -61,11 +62,12 @@ Please select either 3.1 or 3.2, and attach all documents required for the selec
 
 {{< /accordion >}}
 
-{{< accordion title="Nobel laureates, Tang Prize recipients, ..." suffix="4." bottomless="true" >}}
+{{< accordion title="Nobel laureates, Tang Prize, Wolf Prize or Fields Medal recipients…" suffix="4." bottomless="true" >}}
 
 **Nobel laureates, Tang Prize recipients, Wolf Prize recipients, Fields Medal recipients, or recipients of other internationally-recognized awards at an equivalent level.**
 
-Please provide: Documents verifying receipt of internationally-recognized domestic or foreign awards or prizes.
+Please provide: 
+* Documents verifying receipt of internationally-recognized domestic or foreign awards or prizes.
 
 {{< /accordion >}}
 
