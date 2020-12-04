@@ -56,8 +56,7 @@ style: right
 {{< accordion title="國家科學院院士、國家院士級學者。" suffix="5." bottomless="true" >}}
 
 請提供
-*國內外院士證書或相當之證明文件 [ note-5](#note-5)
-
+*國內外院士證書或相當之證明文件 [Note 5](#note-5)
 {{< /accordion >}}
 
 {{< accordion title="現任或曾任大學講座教授、教授、副教授、或研究機構之研究員及副研究員，在學術上有重要貢獻或重要專門著作或最近3年內有研究成果發表為國際所推崇者。" suffix="6." bottomless="true" >}}
