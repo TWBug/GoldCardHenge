@@ -181,6 +181,9 @@ blockquote {
 .focus-primary:focus {
     @apply outline-primary;
 }
+.focus-primary:focus-within {
+    @apply border-primary;
+  }
 .focus-white:focus {
     @apply outline-white;
 }
@@ -198,6 +201,10 @@ blockquote {
 /* purgecss start ignore */
 .copy p {
     @apply mb-4;
+}
+
+.copy a:focus {
+    @apply outline-primary;
 }
 
 .copy strong {

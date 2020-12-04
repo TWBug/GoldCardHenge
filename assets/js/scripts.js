@@ -406,7 +406,17 @@ window.taFilter = function () {
     init: function init() {
       var _this = this;
 
-      this.fetchData();
+      var url = location.origin + location.pathname + 'data.json';
+      fetch(url).then(function (response) {
+        return response.json();
+      }).then(function (json) {
+        _this.index = json;
+        _this.initialized = true;
+
+        _this.resetResult();
+      })["catch"](function (error) {
+        console.warn(error);
+      });
       this.$watch('filter', function (value) {
         if (value.length === 0) {
           return _this.resetResult();
@@ -415,27 +425,16 @@ window.taFilter = function () {
         _this.findContent();
       });
     },
-    fetchData: function fetchData() {
-      var _this2 = this;
-
-      var url = location.origin + location.pathname + 'data.json';
-      fetch(url).then(function (response) {
-        return response.json();
-      }).then(function (json) {
-        _this2.index = json;
-        _this2.initialized = true;
-
-        _this2.resetResult();
-      })["catch"](function (error) {
-        console.warn(error);
-      });
+    resetFilter: function resetFilter() {
+      this.filter = '';
+      document.getElementById("filter").focus();
     },
     findContent: function findContent() {
-      var _this3 = this;
+      var _this2 = this;
 
       var result = [];
       this.index.forEach(function (element) {
-        if (element.summary.indexOf(_this3.filter) !== -1) {
+        if (element.summary.indexOf(_this2.filter) !== -1) {
           if (result.indexOf(element.index) === -1) {
             result.push(parseInt(element.index));
           }
@@ -448,7 +447,6 @@ window.taFilter = function () {
 
         return 1;
       });
-      console.info('result', result);
       this.result = result;
     },
     resetResult: function resetResult() {
@@ -458,18 +456,22 @@ window.taFilter = function () {
         result.push(index);
       }
 
-      console.info('result', result);
       this.result = result;
       return true;
     },
     isInResult: function isInResult(index) {
-      console.info('index', index);
-
       if (this.initialized) {
-        return this.result.indexOf(index) === -1 ? false : true;
+        return this.result.indexOf(index) !== -1 ? true : false;
       }
 
       return true;
+    },
+    isNoResult: function isNoResult() {
+      if (this.initialized === false) return false;
+      return this.result.length === 0 ? true : false;
+    },
+    isFiltered: function isFiltered() {
+      return this.result.length !== this.index.length ? true : false;
     }
   };
 };

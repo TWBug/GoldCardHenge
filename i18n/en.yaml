@@ -74,6 +74,14 @@
   translation: 'Show details'
 - id: back
   translation: 'back'
+- id: reset_filter
+  translation: 'Reset filter'
+- id: loading_filter
+  translation: 'Loading filter'
+- id: placeholder_filter_faq_list
+  translation: 'Filter FAQ list'
+- id: no_filtered_faq_found
+  translation: 'No filtered FAQ found'
 - id: since_2018
   translation: 'Since 2018'
 - id: taipei_city_skyline

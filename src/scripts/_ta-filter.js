@@ -5,15 +5,6 @@ window.taFilter = function () {
         index: [],
         result: [],
         init() {
-            this.fetchData();
-            this.$watch('filter', (value) => {
-                if (value.length === 0) {
-                    return this.resetResult()
-                }
-                this.findContent();
-            });
-        },
-        fetchData() {
             const url = location.origin + location.pathname + 'data.json';
             fetch(url)
                 .then((response) => response.json())
@@ -25,6 +16,16 @@ window.taFilter = function () {
                 .catch((error) => {
                     console.warn(error);
                 });
+            this.$watch('filter', (value) => {
+                if (value.length === 0) {
+                    return this.resetResult()
+                }
+                this.findContent();
+            });
+        },
+        resetFilter() {
+            this.filter = ''
+            document.getElementById("filter").focus();
         },
         findContent() {
             var result = [];
@@ -41,7 +42,6 @@ window.taFilter = function () {
                 }
                 return 1;
             });
-            console.info('result', result);
             this.result = result;
         },
         resetResult() {
@@ -49,16 +49,21 @@ window.taFilter = function () {
             for (let index = 0; index < this.index.length; index++) {
                 result.push(index)
             }
-            console.info('result', result);
             this.result = result
             return true
         },
         isInResult(index) {
-            console.info('index', index);
             if (this.initialized) {
-                return this.result.indexOf(index) === -1 ? false : true
+                return this.result.indexOf(index) !== -1 ? true : false
             }
             return true
+        },
+        isNoResult() {
+            if (this.initialized === false) return false
+            return this.result.length === 0 ? true : false
+        },
+        isFiltered() {
+             return this.result.length !== this.index.length ? true : false
         }
     };
 };
