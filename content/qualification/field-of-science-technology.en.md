@@ -114,7 +114,7 @@ Please select either 7.1 or 7.2, and attach all documents required for the selec
 
 {{< accordion title="Those who have special expertise or perform science and tech research and development or management work at institutions of science and tech…" suffix="8." bottomless="true" >}}
 
-**8.	Those who have special expertise or perform science and technology research and development or management work at institutions of science and technology, and whose distinctive abilities are rare both in Taiwan and abroad.**
+**Those who have special expertise or perform science and technology research and development or management work at institutions of science and technology, and whose distinctive abilities are rare both in Taiwan and abroad.**
 
 Please select either 8.1 or 8.2, and attach all documents required for the selected item:
 
@@ -127,7 +127,6 @@ Please select either 8.1 or 8.2, and attach all documents required for the selec
     - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 8.2a](#note-82a)
     - Documents verifying technology (such as a domestic or foreign patent certificate, etc.) or technology licensing (such as a technology licensing contract, etc.).
     - Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field). [Note 8.2b](#note-82b)
-
 {{< /accordion >}}
 
 {{< accordion title="Holders of a Ph.D. degree who possess special expertise that is lacking in Taiwan." suffix="9." bottomless="true" >}}
