@@ -78,7 +78,7 @@ Please provide:
 
 {{< /accordion >}}
 
-{{< accordion title="University chair professor, professor, associate professor, ..." suffix="6." bottomless="true" >}}
+{{< accordion title="The applicant has currently or previously been a university chair professor, professor, associate professor, or research institution researcher or associate research researcher…" suffix="6." bottomless="true" >}}
 
 **The applicant has currently or has previously been a university chair professor, professor, associate professor, or research institution researcher or associate researcher, has major academic contributions or important professional works, or has earned recognition for published research results during the most recent three years.**
 
@@ -86,12 +86,13 @@ Please select either 6.1 or 6.2, and attach all documents required for the selec
 
 - 6.1. All of the following documents are required:
     - Domestic or foreign certificate verifying possession of a Ph.D. degree
-    - Verification of domestic or foreign work experience in a relevant field for 3 or more years
-    - Academic research during the most recent 3 years
+    - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 6.1a](#note-61a)
+    - Academic research during the most recent 3 years [Note 6.1b](#note-61b)
+
 - 6.2. All of the following documents are required:
-    - Verification of domestic or foreign work experience in a relevant field for 3 or more years
+    - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 6.2a](#note-62a)
     - Documents verifying technology (such as a domestic or foreign patent certificate, etc.) or technology licensing (such as a technology licensing contract, etc.).
-    - Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field).
+    - Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field). [Note 6.2b](#note-62b)
 
 {{< /accordion >}}
 
@@ -161,9 +162,20 @@ Academic research institute refers to any institute with research as its core mi
       - Other specialized works: Other specialized works possessing academic value, or software tools or creative tools that are widely cited.
 {{< /note >}}
 
-
-
 {{< note title="5" >}}
 * Includes domestic and foreign national academies of science in all fields.
 * "Academician" refers to a nation’s highest academic title in various fields of science and technology, and is a lifelong honor.
+{{< /note >}}
+
+{{< note title="6.1a" >}}
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
+{{< /note >}}
+
+
+
+{{< note title="6.1b" >}}
+* Academic research works must consist of domestic or foreign journal articles, conference papers, technical books or chapters of technical books, or other specialized works.
+* The date of publication or submission for publication of such works must be within the 3 years prior to the year of the date of application.
+* If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.
 {{< /note >}}
