@@ -3,23 +3,25 @@ title: 科技領域
 summary: 具科技產業之工作經驗、學術研究或專業才能，有3年以上工作經驗或是近3年之學術研究等證明文件。
 style: right
 ---
-# Foreign specialist personnel with special expertise in science & technology
+# 科技領域特殊專長
 
-{{< teaser >}}
-Foreign specialist personnel with special expertise in science & technology has been announced and shall take effect on the implementation date of the Act for the Recruitment and Employment of Foreign Professionals.
-{{< /teaser >}}
+## 需符合下列條件之一：
 
-{{< base >}}
-Article 4, Paragraph 1, Subparagraphs 2 of the Act for Recruitment and Employment of Foreign Professionals.
-{{< /base >}}
+{{< accordion title="曾經或現任於其他國家或於我國最近月薪達新臺幣十六萬元。曾經或現任於其他國家或於我國最近月薪達新臺幣十六萬元。" suffix="1." bottomless="true" >}}
 
-**Foreign Special Science and Technology Professionals (FSSTPs) must meet at least one of the following conditions:**
-
-{{< accordion title="Monthly salary of over NTD 160,000" suffix="1." bottomless="true" >}}
-**The applicant has held, or currently holds, a position with a most recent monthly salary of over NTD 160,000 in Taiwan or another country. Please provide least one of the following items:**
-- Documents verifying salary or income tax payment relating to employment at a technology company *(if the company's manufacturing or R&D achievements, and the individual's contributions as a participant, are consistent with the fields listed in article 2 or 3 of the eligibility/prerequisites column)*.
-- Documents verifying salary or income tax payment relating to employment at a public or private university in Taiwan or abroad, or academic research institution in Taiwan or abroad. [Note 1](#note-1)
+請提供下列資料之一：
+* 任職於科技領域相關產業(如資格條件第 2 條或第 3 條所列領域之企業的製造或研發實績與個人參與貢獻等)之薪資證明或繳稅證明文件
+* 任職於國內外公私立大專院校或國內外學術研究機構之薪資證明或繳稅證明文件
+  註：學術研究機構係以從事學術研究為宗旨之任何機構。 [Note 1](#note-1)
 {{< /accordion >}}
+
+
+
+請提供下列資料之一：
+
+* 任職於科技領域相關產業(如資格條件第 2 條或第 3 條所列領域之企業的製造或研發實績與個人參與貢獻等)之薪資證明或繳稅證明文件
+* 任職於國內外公私立大專院校或國內外學術研究機構之薪資證明或繳稅證明文件
+  註：學術研究機構係以從事學術研究為宗旨之任何機構。
 
 {{< accordion title="Unique talents or outstanding R&D or design ability" suffix="2." bottomless="true" >}}
 
@@ -65,7 +67,7 @@ Please provide: Documents verifying receipt of internationally-recognized domest
 
 {{< /accordion >}}
 
-{{< accordion title="University chair professor, professor, associate professor, ..." suffix="6." bottomless="false" >}}
+{{< accordion title="University chair professor, professor, associate professor, ..." suffix="6." bottomless="true" >}}
 
 **The applicant has currently or has previously been a university chair professor, professor, associate professor, or research institution researcher or associate researcher, has major academic contributions or important professional works, or has earned recognition for published research results during the most recent three years.**
 
