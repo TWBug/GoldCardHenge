@@ -6,16 +6,25 @@ window.taFilter = function () {
         result: [],
         init() {
             const url = location.origin + location.pathname + 'data.json';
-            fetch(url)
-                .then((response) => response.json())
-                .then((json) => {
-                    this.index = json;
+            this.$fetch(url)
+                .then((response) => {
+                    this.index = response;
                     this.initialized = true;
                     this.resetResult()
                 })
                 .catch((error) => {
                     console.warn(error);
                 });
+            // fetch(url)
+            //     .then((response) => response.json())
+            //     .then((json) => {
+            //         this.index = json;
+            //         this.initialized = true;
+            //         this.resetResult()
+            //     })
+            //     .catch((error) => {
+            //         console.warn(error);
+            //     });
             this.$watch('filter', (value) => {
                 if (value.length === 0) {
                     return this.resetResult()

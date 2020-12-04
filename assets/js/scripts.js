@@ -407,16 +407,24 @@ window.taFilter = function () {
       var _this = this;
 
       var url = location.origin + location.pathname + 'data.json';
-      fetch(url).then(function (response) {
-        return response.json();
-      }).then(function (json) {
-        _this.index = json;
+      this.$fetch(url).then(function (response) {
+        _this.index = response;
         _this.initialized = true;
 
         _this.resetResult();
       })["catch"](function (error) {
         console.warn(error);
-      });
+      }); // fetch(url)
+      //     .then((response) => response.json())
+      //     .then((json) => {
+      //         this.index = json;
+      //         this.initialized = true;
+      //         this.resetResult()
+      //     })
+      //     .catch((error) => {
+      //         console.warn(error);
+      //     });
+
       this.$watch('filter', function (value) {
         if (value.length === 0) {
           return _this.resetResult();
