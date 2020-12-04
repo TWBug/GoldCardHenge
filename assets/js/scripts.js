@@ -240,7 +240,8 @@ function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o =
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
 function smoothScroll() {
-  var links = document.querySelectorAll("#tableofcontents a[href^='#']");
+  var links = document.querySelectorAll("#tableofcontents a[href^='#'], .copy a[href^='#']");
+  console.info('links', links);
 
   var _iterator = _createForOfIteratorHelper(links),
       _step;
@@ -259,7 +260,7 @@ function smoothScroll() {
         var scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
         var offsetTop = document.querySelector(href).offsetTop + parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
         scroll({
-          top: offsetTop,
+          top: offsetTop - 20,
           behavior: 'smooth'
         });
       });
@@ -268,33 +269,6 @@ function smoothScroll() {
     _iterator.e(err);
   } finally {
     _iterator.f();
-  }
-
-  var ancors = document.querySelectorAll(".copy a[href^='#']");
-
-  var _iterator2 = _createForOfIteratorHelper(ancors),
-      _step2;
-
-  try {
-    for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
-      var _link = _step2.value;
-
-      _link.addEventListener('click', function (e) {
-        e.preventDefault();
-        var href = e.target.getAttribute('href');
-        href = "[id=\"".concat(href.substr(1), "\"]");
-        var scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
-        var offsetTop = document.querySelector(href).offsetTop + parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
-        scroll({
-          top: offsetTop - 20,
-          behavior: 'smooth'
-        });
-      });
-    }
-  } catch (err) {
-    _iterator2.e(err);
-  } finally {
-    _iterator2.f();
   }
 }
 "use strict";
