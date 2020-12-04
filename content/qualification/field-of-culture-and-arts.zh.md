@@ -5,10 +5,6 @@ draft: false
 ---
 # 文化藝術領域特殊專長
 
-{{< base >}}
-表演藝術類：
-{{< /base >}}
-
 ## 表演藝術類：
 
 {{< accordion title="曾擔任國際藝術組織會員或文化藝術相關之政府機關(構)、民間組織要職者。" suffix="1." bottomless="true" >}}
