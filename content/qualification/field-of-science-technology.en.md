@@ -16,18 +16,12 @@ cover_image_alt: Test alt
 ---
 # Foreign specialist personnel with special expertise in science & technology
 
-{{< teaser >}}
-Foreign specialist personnel with special expertise in science & technology has been announced and shall take effect on the implementation date of the Act for the Recruitment and Employment of Foreign Professionals.
-{{< /teaser >}}
+## Must meet **ONE** of the following requirements:
 
-{{< base >}}
-Article 4, Paragraph 1, Subparagraphs 2 of the Act for Recruitment and Employment of Foreign Professionals.
-{{< /base >}}
+{{< accordion title="The applicant has or currently holds a position with a monthly salary of over NTD 160,000..." suffix="1." bottomless="true" >}}
+**The applicant has held, or currently holds, a position with a most recent monthly salary of over NTD 160,000 in Taiwan or another country. 
 
-**Foreign Special Science and Technology Professionals (FSSTPs) must meet at least one of the following conditions:**
-
-{{< accordion title="Monthly salary of over NTD 160,000" suffix="1." bottomless="true" >}}
-**The applicant has held, or currently holds, a position with a most recent monthly salary of over NTD 160,000 in Taiwan or another country. Please provide least one of the following items:**
+Please provide least one of the following items:**
 - Documents verifying salary or income tax payment relating to employment at a technology company *(if the company's manufacturing or R&D achievements, and the individual's contributions as a participant, are consistent with the fields listed in article 2 or 3 of the eligibility/prerequisites column)*.
 - Documents verifying salary or income tax payment relating to employment at a public or private university in Taiwan or abroad, or academic research institution in Taiwan or abroad. [Note 1](#note-1)
 {{< /accordion >}}
