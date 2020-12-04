@@ -204,9 +204,29 @@ Academic research institute refers to any institute with research as its core mi
   * Other specialized works: Other specialized works possessing academic value, or software tools or creative tools that are widely cited.
 {{< /note >}}
 
-
-
 {{< note title="7.1a" >}}
 * Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 4 years.
+{{< /note >}}
+
+{{< note title="7.1b" >}}
+* Academic research works must consist of domestic or foreign journal articles, conference papers, technical books or chapters of technical books, or other specialized works.
+* The date of publication or submission for publication of such works must be within the 4 years prior to the year of the date of application.
+* If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.
+{{< /note >}}
+
+
+
+{{< note title="7.2a" >}}
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 4 years.
+{{< /note >}}
+
+{{< note title="7.2b" >}}
+* It is recommended that the specialized occupations and technical personnel specified in the Professionals and Technologists Examinations Act be included; these refer to personnel who possess special academic knowledge or skills as a result of a modern education or training, engage in work that is closely connected with the public interest or the people's right to life, physical or mental health, or property, and have received certification after successfully passing examination in accordance with the Act.
+* Institutions of science and technology include:
+
+  * Public or private colleges/universities and public research institutions.
+  * Administrative academic institutions and nonprofit foundation academic research institutions.
+  * Government agencies or organizations with science and technology research and development or management divisions.
 {{< /note >}}
