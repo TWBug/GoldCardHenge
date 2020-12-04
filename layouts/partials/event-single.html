@@ -2,7 +2,6 @@
 {{ $cover_image_resized := "" }}
 {{ if .Params.cover_image }}
 {{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
-{{ .Params.cover_image }}
 {{ if $cover_image }}
 {{ $cover_image_resized = $cover_image.Fill "1024x533 center q30 jpg" }}
 {{ end }}
