@@ -110,9 +110,11 @@
                             >
                             <div class="border-t-2 border-secondary border-dashed p-4" x-data="taAccordion()" >
                                 <button
+                                    id="{{ printf "faq-button-%d" $index }}"
                                     type="button"
+                                    aria-controls="{{ printf "faq-answer-%d" $index }}"
                                     @click.prevent="toggle()"
-                                    class="w-full text-left flex items-center justify-between text-primary p-2 -ml-2 focus-primary"
+                                    class="w-full text-left flex items-center justify-between text-primary px-2 mb-2 -ml-2 focus-primary"
                                 >
                                     <span class="text-gray-800 text-xl font-bold py-2 pr-4">{{ .Title }}</span>
                                     <span x-show="!show">
@@ -124,7 +126,10 @@
                                 </button>
 
                                 <div
+                                    id="{{ printf "faq-answer-%d" $index }}"
                                     class="-mb-2 pb-4"
+                                    aria-labelledby="{{ printf "faq-button-%d" $index }}"
+                                    :aria-expanded="show"
                                     x-cloak
                                     x-show="show"
                                     x-transition:enter="transition transform ease-out duration-200"
