@@ -21,4 +21,20 @@ function smoothScroll() {
             });
         })
     }
+    const ancors = document.querySelectorAll(".copy a[href^='#']")
+    for (const link of ancors) {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            var href = e.target.getAttribute('href');
+            href = `[id="${href.substr(1)}"]`;
+            const scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
+            const offsetTop =
+                document.querySelector(href).offsetTop +
+                parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
+            scroll({
+                top: offsetTop - 20,
+                behavior: 'smooth',
+            });
+        })
+    }
 }

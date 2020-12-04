@@ -269,6 +269,33 @@ function smoothScroll() {
   } finally {
     _iterator.f();
   }
+
+  var ancors = document.querySelectorAll(".copy a[href^='#']");
+
+  var _iterator2 = _createForOfIteratorHelper(ancors),
+      _step2;
+
+  try {
+    for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
+      var _link = _step2.value;
+
+      _link.addEventListener('click', function (e) {
+        e.preventDefault();
+        var href = e.target.getAttribute('href');
+        href = "[id=\"".concat(href.substr(1), "\"]");
+        var scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
+        var offsetTop = document.querySelector(href).offsetTop + parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
+        scroll({
+          top: offsetTop - 20,
+          behavior: 'smooth'
+        });
+      });
+    }
+  } catch (err) {
+    _iterator2.e(err);
+  } finally {
+    _iterator2.f();
+  }
 }
 "use strict";
 
