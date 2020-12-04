@@ -12,23 +12,46 @@
 
 {{ $language := .Site.Language | urlize }}
 
+{{ $question := .Title }}
+{{ if .Params.question }}
+{{ $question = .Params.question | markdownify }}
+{{ end }}
+
+{{ $back := .Parent }}
+{{ if .Params.tags }}
+{{ $tag := index .Params.tags 0 }}
+{{ if $tag }}
+{{ $back = .Site.GetPage (printf "/tags/%s" (index .Params.tags 0)) }}
+{{ end }}
+{{ end }}
+
 <div class="relative shadow-xl print:shadow-none">
     {{ partial "navigation" . }}
 </div>
-<div class="relative flex-grow">
+<div class="relative flex-grow pt-24">
     <div
-        class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 print:hidden -z-1"
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-transparent -z-1"
     ></div>
-    <div class="absolute right-0 top-0 text-xs font-bold text-black text-opacity-25 p-2">SINGLE TEMPLATE - STYLE: {{ $style }}</div>
+    <div class="absolute right-0 top-0 bg-black text-xs font-bold text-white p-2 z-10">SINGLE TEMPLATE - STYLE: {{ $style }}</div>
     <section>
-        <div class="container py-12 sm:py-24 px-12 lg:px-24">
+        <div class="container pb-12 sm:pb-24 px-12 lg:px-24">
             {{ partial "breadcrumb" . }}
             <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xl:gap-24">
-                <div class="copy replace sm:col-span-2 pt-4">
-                    <h1 class="text-5xl font-medium leading-tight mb-2">
-                        {{ .Title | safeHTML }}
-                    </h1>
-                    {{.Content}}
+                <div class="sm:col-span-2 pt-4">
+                    <div class="copy replace">
+                        <h1 class="text-4xl font-medium leading-tight mb-2">
+                            {{ $question }}
+                        </h1>
+                        {{.Content}}
+                    </div>
+                    <div class="text-left">
+                        <a href="{{$back.RelPermalink}}" class="inline-flex items-center leading-none text-primary text-base font-bold p-1 focus-primary">
+                            {{ partial "icon" (dict "name" "angle-left" "size" "6") }}
+                            <span class="ml-2">
+                                {{ i18n "back" }}
+                            </span>
+                        </a>
+                    </div>
                 </div>
                 <aside>
                     <div class="-mt-8">

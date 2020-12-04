@@ -81,7 +81,7 @@
                             <button
                                 type="button"
                                 @click.prevent="toggle()"
-                                class="w-full text-left flex items-center justify-between text-primary"
+                                class="w-full text-left flex items-center justify-between text-primary p-1 -ml-1 focus-primary"
                             >
                                 <span class="text-gray-800 text-xl font-bold py-2 pr-4">{{ .Title }}</span>
                                 <span x-show="!show">
@@ -107,11 +107,11 @@
                                     {{ .Content }}
                                 </div>
                                 <div class="text-right">
-                                    <a href="{{.RelPermalink}}" class="inline-flex items-center leading-none text-primary text-xs font-bold" target="_blank">
+                                    <a href="{{.RelPermalink}}" class="inline-flex items-center leading-none text-primary text-sm font-bold p-1 focus-primary">
                                         <span class="mr-2">
-                                            {{ i18n "open_new_window" }}
+                                            {{ i18n "show_details" }}
                                         </span>
-                                        {{ partial "icon" (dict "name" "external-link-alt" "size" "4" "alt" "Link to FAQ") }}
+                                        {{ partial "icon" (dict "name" "angle-right" "size" "6") }}
                                     </a>
                                 </div>
                             </div>
