@@ -15,7 +15,7 @@ style: right
   註：學術研究機構係以從事學術研究為宗旨之任何機構。 [ 註1](#註1)
 {{< /accordion >}}
 
-{{< accordion title="Unique talents or outstanding R&D or design ability" suffix="2." bottomless="true" >}}
+{{< accordion title="在各類軟體應用、軟體技術、奈米、微機電技術、光電技術、資訊及通訊技術、通訊傳播技術、自動化系統整合技術、材料應用技術、高精密感測技術、生物科技、資源開發或能源節約及尖端基礎研究、國防及軍事戰略等尖端科技上具有獨到才能或有傑出研發設計或有新創實績。" suffix="2." bottomless="true" >}}
 
 **Those with unique talents or outstanding R&D or design ability or original achievements in such cutting-edge technological fields as software applications, software technology, nanotechnology, microelectromechanical technology, optoelectronics, information and communications, communication transmission technology, automation system integration technology, material application technology, high precision sensing technology, biotechnology, resources development and energy conservation, frontier scientific research, and national defense and military strategies.**
 
@@ -79,7 +79,7 @@ Please select either 6.1 or 6.2, and attach all documents required for the selec
 ## Notes
 
 {{< note title="1" >}}
-Academic research institute refers to any institute with research as its core mission.
+學術研究機構係以從事學術研究為宗旨之任何機構。
 {{< /note >}}
 
 {{< note title="2.1a" >}}
