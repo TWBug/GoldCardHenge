@@ -9,13 +9,13 @@
 {{ end }}
 {{ end }}
 {{ $language := .Site.Language.Lang }}
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index .Site.Data.navigation .Site.Language.Lang }}
 
 <a href="{{ .Site.Home.RelPermalink }}" class="block w-1/2 max-w-48 px-4 py-4 lg:py-6 focus-primary">
     <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="{{ i18n "tego_logo" }}" />
 </a>
 <ul class="flex-grow hidden lg:flex justify-between items-center  text-lg font-semibold ml-10">
-    {{ range $data.navigation.items }}
+    {{ range $data.items }}
     <li {{ if eq .topic $topic}}
         class="bg-yellow-400 self-stretch flex text-black font-bold"
         {{ else }}
