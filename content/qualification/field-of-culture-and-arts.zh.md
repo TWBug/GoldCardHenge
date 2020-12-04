@@ -40,9 +40,8 @@ draft: false
 
 * 擔任國際藝術組織會員或文化藝術相關政府機關(構)、民間組織要職之證明影本。
 
-a) 國際藝術組織：國際上以文化藝術為營運宗旨之基金會、公協會、公司、團體及單位等，例如：美國國家藝術基金會（National Endowment for the Arts，NEA）、歐洲藝術基金會(TEFAF)、比利時布魯塞爾藝術組織(Affordable Art Fair, AAF)、瑞士巴塞爾藝術展覽公司(MCH Swiss Exhibition (Basel)Ltd.)、國際攝影藝術經紀人協會(AIPAD) 等，或其他經文化部審查認定者。
-
-b) 要職：經理、協理、副總經理、總經理、副董事長、董事長、副執行長、執行長、副社長、社長、副理事長、理事長、副會長、會長、負責人、副總監、總監等類似位階，或其他經文化部審查認定者。
+1. 國際藝術組織：國際上以文化藝術為營運宗旨之基金會、公協會、公司、團體及單位等，例如：美國國家藝術基金會（National Endowment for the Arts，NEA）、歐洲藝術基金會(TEFAF)、比利時布魯塞爾藝術組織(Affordable Art Fair, AAF)、瑞士巴塞爾藝術展覽公司(MCH Swiss Exhibition (Basel)Ltd.)、國際攝影藝術經紀人協會(AIPAD) 等，或其他經文化部審查認定者。
+2. 要職：經理、協理、副總經理、總經理、副董事長、董事長、副執行長、執行長、副社長、社長、副理事長、理事長、副會長、會長、負責人、副總監、總監等類似位階，或其他經文化部審查認定者。
 {{< /accordion >}}
 
 {{< accordion title="現任或曾任辦理國際藝術活動(指標性藝術博覽會、雙年展等藝文活動)之主要或重要成員。" suffix="2." bottomless="true" >}}
@@ -51,9 +50,8 @@ b) 要職：經理、協理、副總經理、總經理、副董事長、董事�
 
 a. 國際藝術活動：
 
-1) 博覽會：台北國際藝術博覽會(ART TAIPEI)、香港巴塞爾藝術展(Art Basel HK)、藝術登陸新加坡博覽會(Art Stage Singapore)、邁阿密巴塞爾藝術博覽會(Art Basel Miami Beach)、瑞士巴塞爾藝術博覽會(Art Basel)...等，或其他經文化部審查認定之國際藝術博覽會。
-
-2) 雙年展：威尼斯藝術雙年展(La Biennale di Venezia)、柏林當代藝術雙年展(Berlin Biennale for Contemporary Art)、歐洲當代藝術雙年展(The European Biennial of Contemporary Art)、上海雙年展(Shanghai Biennial)、雪梨雙年展(Biennale of Sydney)、巴西聖保羅雙年展(Sao Paulo Art Biennial)、惠特尼雙年展(Whitney Biennial)、哥斯大黎加視覺藝術雙年展(Costa Rica Biennale)、韓國光州雙年展(Gwangju Biennale)、土耳其伊斯坦堡雙年展(International Istanbul Biennial)...等，或其他經文化部審查認定之雙年展。
+1. 博覽會：台北國際藝術博覽會(ART TAIPEI)、香港巴塞爾藝術展(Art Basel HK)、藝術登陸新加坡博覽會(Art Stage Singapore)、邁阿密巴塞爾藝術博覽會(Art Basel Miami Beach)、瑞士巴塞爾藝術博覽會(Art Basel)...等，或其他經文化部審查認定之國際藝術博覽會。
+2. 雙年展：威尼斯藝術雙年展(La Biennale di Venezia)、柏林當代藝術雙年展(Berlin Biennale for Contemporary Art)、歐洲當代藝術雙年展(The European Biennial of Contemporary Art)、上海雙年展(Shanghai Biennial)、雪梨雙年展(Biennale of Sydney)、巴西聖保羅雙年展(Sao Paulo Art Biennial)、惠特尼雙年展(Whitney Biennial)、哥斯大黎加視覺藝術雙年展(Costa Rica Biennale)、韓國光州雙年展(Gwangju Biennale)、土耳其伊斯坦堡雙年展(International Istanbul Biennial)...等，或其他經文化部審查認定之雙年展。
 
 b. 主要或重要成員：經理、協理、副總經理、總經理、副董事長、董事長、副執行長、執行長、副社長、社長、副理事長、理事長、副會長、會長、負責人、副總監、總監等類似位階，或其他經文化部審查認定者。
 {{< /accordion >}}
@@ -62,7 +60,7 @@ b. 主要或重要成員：經理、協理、副總經理、總經理、副董�
 
 * 國內外認可競賽獲獎證明影本或擔任國內外認可競賽評審證明影本。
 
-a. 競賽獎項：經國際重要藝術組織主辦之獎項，或參賽人數及國別達一定規模之獎項，或獎項獲頒之獎金及獎品達一定標準者，或該獎項在國際視覺藝術領域具一定代表性、重要性之獎項等，例如紐約藝術指導協會年度獎(New York Art Directors Club Annual Awards)、義大利波隆那國際兒童書插畫展(Bologna Children's Book Fair-Illustrators exhibition)等，或其他經文化部審查認定具相當資格之獎項。
+1. 競賽獎項：經國際重要藝術組織主辦之獎項，或參賽人數及國別達一定規模之獎項，或獎項獲頒之獎金及獎品達一定標準者，或該獎項在國際視覺藝術領域具一定代表性、重要性之獎項等，例如紐約藝術指導協會年度獎(New York Art Directors Club Annual Awards)、義大利波隆那國際兒童書插畫展(Bologna Children's Book Fair-Illustrators exhibition)等，或其他經文化部審查認定具相當資格之獎項。
 {{< /accordion >}}
 
 {{< accordion title="其他經本部審查認定者。" suffix="4." bottomless="true" >}}
@@ -76,11 +74,9 @@ a. 競賽獎項：經國際重要藝術組織主辦之獎項，或參賽人數�
 
 * 擔任國際權威性媒體、出版社主編或高階主管、版權經紀人證明影本，及從事出版或大眾傳播工作經驗十年以上之證明影本。
 
-a. 國際權威性媒體：以國家、重要城市為名、至少以二個版面以上刊登國際新聞、且發行對象以全國或全球讀者為目標之平面媒體或通訊社，例如《美國新聞與世界報導》(U.S. News & World Report)、《紐約時報》(The New York Times)、《華盛頓郵報》(The Washington Post)、《英國金融時報》(The Financial Times)、《日本產經新聞》(産経ニュース)、美國聯合通訊社（Associated Press）、英國路透社(The Reuters)、法國新聞社（L'Agence France-Presse）、美國時代雜誌(Time)、生活雜誌(Life)、國家地理雜誌(National Geographic)、香港亞洲周刊…等，或其他經文化部審查認定之平面媒體或通訊社。
-
-b. 出版社部分，例如企鵝藍燈書屋（Penguin Random House）、哈潑柯林斯出版集團（HarperCollins Publishers LLC）…等或其他經文化部審查認定之出版社。
-
-c. 高階主管：該媒體機構或組織之經理、協理、副總經理、總經理、副董事長、董事長、副執行長、執行長、副社長、社長、副理事長、理事長、副會長、會長、負責人、主編、副總編輯、總編輯、副總監、總監等或其他相類位階主管職者。
+1. 國際權威性媒體：以國家、重要城市為名、至少以二個版面以上刊登國際新聞、且發行對象以全國或全球讀者為目標之平面媒體或通訊社，例如《美國新聞與世界報導》(U.S. News & World Report)、《紐約時報》(The New York Times)、《華盛頓郵報》(The Washington Post)、《英國金融時報》(The Financial Times)、《日本產經新聞》(産経ニュース)、美國聯合通訊社（Associated Press）、英國路透社(The Reuters)、法國新聞社（L'Agence France-Presse）、美國時代雜誌(Time)、生活雜誌(Life)、國家地理雜誌(National Geographic)、香港亞洲周刊…等，或其他經文化部審查認定之平面媒體或通訊社。
+2. 出版社部分，例如企鵝藍燈書屋（Penguin Random House）、哈潑柯林斯出版集團（HarperCollins Publishers LLC）…等或其他經文化部審查認定之出版社。
+3. 高階主管：該媒體機構或組織之經理、協理、副總經理、總經理、副董事長、董事長、副執行長、執行長、副社長、社長、副理事長、理事長、副會長、會長、負責人、主編、副總編輯、總編輯、副總監、總監等或其他相類位階主管職者。
 {{< /accordion >}}
 
 {{< accordion title="現任或曾任出版或相關大眾傳播科系國外大學教授。" suffix="2." bottomless="true" >}}
@@ -120,9 +116,8 @@ c. 高階主管：該媒體機構或組織之經理、協理、副總經理、�
 * 曾任國際中型以上電影、廣播電視、流行音樂類法人或機構之高階主管證明影本。
 * 在電影、廣播電視、流行音樂領域五年以上工作經驗之證明影本。
 
-a. 國際中型：在二個以上國家建立子公司（組織）或分公司（組織），由母公司或本公司進行有效之控制及統籌決策，以從事跨越國界生產經營行為，其公司（組織）經營項目或業務範圍包括電影、廣播電視或流行音樂，並具有下列各款條件之一者：（1）經常僱用員工數達五十人。（2）區域年營業收入淨額達新臺幣三.五億元以上電影、廣播電視、流行音樂法人或機構（於該國登記有案之公、民營組織）。
-
-b. 高階主管：於所任職之法人或機構內擔任部門主管級以上者，如執行長、總經理、協理、處長或其他相類位階之主管。
+1. 國際中型：在二個以上國家建立子公司（組織）或分公司（組織），由母公司或本公司進行有效之控制及統籌決策，以從事跨越國界生產經營行為，其公司（組織）經營項目或業務範圍包括電影、廣播電視或流行音樂，並具有下列各款條件之一者：（1）經常僱用員工數達五十人。（2）區域年營業收入淨額達新臺幣三.五億元以上電影、廣播電視、流行音樂法人或機構（於該國登記有案之公、民營組織）。
+2. 高階主管：於所任職之法人或機構內擔任部門主管級以上者，如執行長、總經理、協理、處長或其他相類位階之主管。
 {{< /accordion >}}
 
 {{< accordion title="在電影、廣播電視及流行音樂領域具創見及特殊表現，並具相關領域五年以上工作經驗。" suffix=3." bottomless="true" >}}
@@ -169,4 +164,5 @@ b. 高階主管：於所任職之法人或機構內擔任部門主管級以上�
 * 相關文化行政證明經文化部審認核可之證明影本。
 {{< /accordion >}}
 
-1. 競賽獎項：由國際重要藝術組織主辦之獎項、參賽人數及國別達一定規模之獎項，或該獎項在國際表演藝術領域具相當代表性或重要性之獎項等，例如美國東尼獎(Tony Award)、英國國家舞蹈獎(National Dance Awards)、柴可夫斯基國際音樂比賽(International Tchaikovsky competition)等，或其他經文化部審查認定具相當資格之獎項。
+1. 國際中型：在二個以上國家建立子公司（組織）或分公司（組織），由母公司或本公司進行有效之控制及統籌決策，以從事跨越國界生產經營行為，其公司（組織）經營項目或業務範圍包括電影、廣播電視或流行音樂，並具有下列各款條件之一者：（1）經常僱用員工數達五十人。（2）區域年營業收入淨額達新臺幣三.五億元以上電影、廣播電視、流行音樂法人或機構（於該國登記有案之公、民營組織）。
+2. 高階主管：於所任職之法人或機構內擔任部門主管級以上者，如執行長、總經理、協理、處長或其他相類位階之主管。
