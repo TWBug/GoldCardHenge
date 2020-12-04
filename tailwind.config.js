@@ -133,6 +133,7 @@ module.exports = {
         borderStyle: ['responsive', 'hover', 'focus', 'focus-within'],
         borderWidth: ['responsive', 'first', 'hover', 'focus', 'focus-within'],
         borderColor: ['responsive', 'hover', 'focus', 'focus-within'],
+        backgroundColor: ['responsive', 'hover', 'focus', 'focus-within'],
         transitionProperty: ['responsive', 'hover', 'focus', 'motion-reduce'],
     },
     plugins: [
