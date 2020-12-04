@@ -119,13 +119,16 @@ blockquote {
     @apply max-h-screen-2/3;
 }
 .tableofcontents A {
-    @apply relative block text-primary text-md leading-tight font-bold py-1;
+    @apply relative block text-primary text-md leading-tight font-bold p-1;
 }
-.tableofcontents A::before {
+.tableofcontents A:focus {
+    @apply outline-primary;
+}
+/* .tableofcontents A::before {
     content: '#';
     position: absolute;
     left: -0.7em;
-}
+} */
 .tableofcontents UL UL {
     @apply ml-2 pb-2;
 }
