@@ -12,6 +12,8 @@ items:
           link: /application/
         - name: 申請資格
           link: /qualification/
+        - name: 金卡辦公室
+          link: /gold-card-office/
       items:
         - apply
   - name: 常見問題
