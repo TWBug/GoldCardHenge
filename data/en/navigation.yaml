@@ -5,7 +5,7 @@ items:
     dropdown:
       image: img/uploads/taiwan-lights.jpg
       text: Taiwan is an amazing place to live, work and invest. Find out more about
-        the Gold Card, how to qualify and how to apply.
+        the Gold Card, how to qualify and apply.
       links:
         - name: About Gold Card
           link: /about/
@@ -32,7 +32,8 @@ items:
     link: /news/
     dropdown:
       image: img/uploads/dummy-image.jpg
-      text: Read the latest news about the Gold Card and take a look at our events.
+      text: Read the latest news about the Taiwan Employment Gold Card Program and
+        take a look at our events!
       links:
         - name: News
           link: /news/
@@ -49,8 +50,7 @@ items:
     link: /about/
     dropdown:
       image: img/uploads/taiwan-lights.jpg
-      text: Looking for some more help? Here are some resources to help you take the
-        next step.
+      text: Looking for some more help? Here are some resources to browse through.
       links:
         - name: Help-Desk
           link: /help-desk/
