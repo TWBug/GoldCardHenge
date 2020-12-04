@@ -1,29 +1,8 @@
 ---
-title: " Taiwan Employment Gold Card"
-summary: On October 31, 2018, Taiwan’s legislature passed the Act for the
-  Recruitment and Employment of Foreign Professional Talent to attract and
-  retain more international professionals in Taiwan. The card offers a work
-  permit, resident visa, alien resident certificate, and re-entry permit. It
-  also provides eligibility for a discount in income tax.
-draft: false
-hidden: false
-headless: true
-links:
-  - is_cta: true
-    label: Read More
-    href: /en/about
-    new_window: false
-items:
-  - preview: /cms-uploads/architecture.png
-    label: What is the Gold card?
-    href: /about
-    preview: ""
-  - preview: /cms-uploads/architecture.png
-    label: What is the Gold card?
-    href: /about
-  - preview: /cms-uploads/architecture.png
-    label: Why Taiwan
-    href: /news/1532-gold-cards-issued-to-date
-    preview: /cms-uploads/icon-news.svg
+title: Taiwan Employment Gold
+summary: In 2019, the Expat Insider named Taiwan the happiest country in East
+  Asia and the best destination for Expats. The Employment Gold Card makes
+  moving to Taiwan as an international professional easy and convenient. Find
+  out more about the fantastic benefits and why it's called a 4-1 Visa.
 ---
 <!-- This text will never be seen -->
