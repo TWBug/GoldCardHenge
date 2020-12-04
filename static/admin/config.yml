@@ -761,6 +761,26 @@ collections:
                   field: { label: Tag Name, name: name, widget: string }
 
     # Configure the site. Menus for example
+    - name: 'config_2'
+      label: 'Config 2'
+      i18n:
+          structure: single_file
+      editor:
+          preview: false
+      files:
+          - label: 'Blarg (en|zh)'
+            name: 'navigation_en_zh'
+            file: 'data/navigation.yaml'
+            i18n: true
+            fields:
+                - label: 'Navigation Items'
+                  name: 'items'
+                  widget: 'list'
+                  i18n: true
+                  fields:
+                      - { label: Name, name: name, widget: string, i18n: true }
+
+    # Configure the site. Menus for example
     - name: 'config'
       label: 'Menus 選單'
       description: >
