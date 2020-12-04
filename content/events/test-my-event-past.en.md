@@ -1,6 +1,6 @@
 ---
 title: Christmas Mixer
-link: https://www.accupass.com/event/2010230348208688547600
+link: https://www.accupass.com/event/2011300950011199513383
 start: 2019-12-23T10:00:00.154Z
 end: 2019-12-23T13:00:00.154Z
 location: FutureWard Central
