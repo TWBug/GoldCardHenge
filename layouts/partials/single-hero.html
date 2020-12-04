@@ -46,9 +46,17 @@
             </div>
             <div class="print:hidden sm:-mt-4">
                 {{ partial "page-summary" . }}
-                {{ partial "aside/all-topics" . }}
                 {{ partial "page-table-contents" . }}
-                {{ partial "page-apply-now" . }}
+                {{ if .Params.categories }}
+                {{ partial "page-all-categories" . }}
+                {{ end }}
+                {{ if .Params.tags }}
+                {{ partial "aside/all-tags" . }}
+                {{ end }}
+                {{ if .Params.topics }}
+                {{ partial "aside/all-topics" . }}
+                {{ end }}
+                {{ partial "page-apply-now" }}
             </div>
         </div>
     </div>

@@ -40,7 +40,18 @@
             </div>
         </div>
         <div class="print:hidden -mt-12">
-            {{ partial "page-aside" . }}
+            {{ partial "page-summary" . }}
+            {{ partial "page-table-contents" . }}
+            {{ if .Params.categories }}
+            {{ partial "page-all-categories" . }}
+            {{ end }}
+            {{ if .Params.tags }}
+            {{ partial "aside/all-tags" . }}
+            {{ end }}
+            {{ if .Params.topics }}
+            {{ partial "aside/all-topics" . }}
+            {{ end }}
+            {{ partial "page-apply-now" }}
         </div>
     </div>
 </div>
