@@ -1,6 +1,6 @@
 ---
 media_image: null
-summary: null
+summary: 不知道怎麼申請就業金卡嗎? 我們準備了步驟教學、應備文件與注意事項等，簡化你的申請。
 draft: false
 media_image_alt: null
 date: 2020-11-05T07:09:20.617Z
