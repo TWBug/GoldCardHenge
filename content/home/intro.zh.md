@@ -14,9 +14,6 @@ items:
     label: 就業金卡是什麼？
     href: /about
   - is_cta: false
-    label: Covid-19
-    href: /why-taiwan/no-new-domestic-covid-19-case-for-two-hundred-days-how-do-taiwan-do-it
-  - is_cta: false
     label: Why Taiwan
     href: /news/1532-gold-cards-issued-to-date
     preview: /cms-uploads/icon-news.svg
