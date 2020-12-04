@@ -96,6 +96,26 @@ Please select either 6.1 or 6.2, and attach all documents required for the selec
 
 {{< /accordion >}}
 
+{{< accordion title="Those who have received a Ph.D. degree and have continued to practice in their professional field…" suffix="7." bottomless="true" >}}
+
+**Those who have received a Ph.D. degree and have continued to work in their professional field, or who perform research at research institutions, or who perform technology research and development or management at institutions of science and technology for more than four years.**
+
+Please select either 7.1 or 7.2, and attach all documents required for the selected item:
+
+- 7.1. All of the following documents are required:
+    - Domestic or foreign certificate verifying possession of a Ph.D. degree
+    - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 7.1a](#note-61a)
+    - Academic research during the most recent 3 years [Note 7.1b](#note-71b)
+
+- 7.2. All of the following documents are required:
+    - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 7.2a](#note-72a)
+    - Documents verifying technology (such as a domestic or foreign patent certificate, etc.) or technology licensing (such as a technology licensing contract, etc.).
+    - Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field). [Note 7.2b](#note-72b)
+
+{{< /accordion >}}
+
+
+
 ## Notes
 
 {{< note title="1" >}}
