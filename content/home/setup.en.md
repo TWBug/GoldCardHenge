@@ -1,8 +1,8 @@
 ---
 title: Choose your field
-summary: The text here should answer the question what are these buttons below
-  and why the visitor should click on it and of course whats the benefit behind
-  these links.
+summary: Professionals from eight different industries are eligible to apply for
+  the Gold Card program. Click on your area of expertise and find out if you are
+  qualified!
 draft: false
 hidden: false
 headless: true
