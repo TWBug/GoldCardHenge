@@ -1,9 +1,8 @@
 ---
 title: Taiwan Employment Gold Card Office
-summary: " Taiwan Employment Gold Card Office was created in October 2020 by the
-  National Development Council, to serve as a single point of contact for the
-  recruitment and assistance of foreign professionals working in Taiwan, under
-  the Act for the Recruitment and Employment of Foreign Professionals."
+summary: Created by the National Development Council, the office serves as a
+  single point of contact for foreign professionals' recruitment and assistance.
+  If you have any questions and concerns, please send us an e-mail today!
 draft: false
 hidden: false
 headless: true
