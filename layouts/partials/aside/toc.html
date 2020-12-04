@@ -1,4 +1,6 @@
-{{ if ne  .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
+{{/* if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" */}}
+{{ $elements := strings.Count "<li>" .TableOfContents }}
+{{ if gt $elements 1 }}
 <aside>
     <div class="my-12 overflow-y-auto" x-data="taToc()" x-init="init({length: {{ len (.TableOfContents | plainify) }}, threshold: 400 })" data-length="{{ len (.TableOfContents | plainify) }}" data-elements="{{ strings.Count "<li>" .TableOfContents }}">
         <div class="flex items-center justify-between border-b-2 border-secondary border-dashed pl-2">
