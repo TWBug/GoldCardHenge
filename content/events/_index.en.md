@@ -14,4 +14,4 @@ topic: eventsnews
 tags: null
 categories: null
 ---
-<!-- This text will never be seen -->
+Click through the event page to learn about past events and keep updated about upcoming events organized by the Taiwan Employment Gold Card Office.
