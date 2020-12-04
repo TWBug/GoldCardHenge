@@ -17,13 +17,11 @@ style: right
 
 {{< accordion title="在各類軟體應用、軟體技術、奈米、微機電技術、光電技術、資訊及通訊技術、通訊傳播技術、自動化系統整合技術、材料應用技術、高精密感測技術、生物科技、資源開發或能源節約及尖端基礎研究、國防及軍事戰略等尖端科技上具有獨到才能或有傑出研發設計或有新創實績。" suffix="2." bottomless="true" >}}
 
-**Those with unique talents or outstanding R&D or design ability or original achievements in such cutting-edge technological fields as software applications, software technology, nanotechnology, microelectromechanical technology, optoelectronics, information and communications, communication transmission technology, automation system integration technology, material application technology, high precision sensing technology, biotechnology, resources development and energy conservation, frontier scientific research, and national defense and military strategies.**
+請先就 1 或 2 擇一，再就所選項目檢附全部文件：
 
-Please select either 2.1 or 2.2, and attach all documents required for the selected item:
-
-- 2.1. All of the following documents are required:
-    - Domestic or foreign certificate verifying possession of a Ph.D. degree
-    - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 2.1a](#note-21a)
+- 2.1. 請全部檢附：
+    - 具博士學位之國內外學歷證書
+    - 具 3 年以上相關領域工作經驗之國內外服務證明 [Note 2.1a](#note-21a)
     - Academic research during the most recent 3 years  [Note 2.1b](#note-21b)
 
 - 2.2. All of the following documents are required:
@@ -83,8 +81,8 @@ Please select either 6.1 or 6.2, and attach all documents required for the selec
 {{< /note >}}
 
 {{< note title="2.1a" >}}
-- Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
-- When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
+* 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。
+* 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具 3 年以上。
 {{< /note >}}
 
 {{< note title="2.1b" >}}
