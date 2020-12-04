@@ -85,9 +85,9 @@ Please select either 6.1 or 6.2, and attach all documents required for the selec
 {{< /note >}}
 
 {{< note title="2.1b" >}}
-- Academic research works must consist of domestic or foreign journal articles, conference papers, technical books or chapters of technical books, or other specialized works.
-- The date of publication or submission for publication of such works must be within the 3 years prior to the year of the date of application.
-- If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.
+* 學術研究著作係為國內外之期刊論文、研討會論文、專書或專書論文、其他專業著作。
+* 其發表或投稿日須為申請日當年往前推算 3 年內。
+* 若業經接受刊載但尚未出版或發表者，應檢附出版機構之著作接受函或相關證明文件。
 {{< /note >}}
 
 {{< note title="2.2a" >}}
