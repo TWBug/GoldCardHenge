@@ -56,18 +56,8 @@ style: right
 
 {{< accordion title="國家科學院院士、國家院士級學者。" suffix="5." bottomless="true" >}}
 
-**The applicant has currently or has previously been a university chair professor, professor, associate professor, or research institution researcher or associate researcher, has major academic contributions or important professional works, or has earned recognition for published research results during the most recent three years.**
-
-Please select either 6.1 or 6.2, and attach all documents required for the selected item:
-
-- 6.1. All of the following documents are required:
-    - Domestic or foreign certificate verifying possession of a Ph.D. degree
-    - Verification of domestic or foreign work experience in a relevant field for 3 or more years
-    - Academic research during the most recent 3 years
-- 6.2. All of the following documents are required:
-    - Verification of domestic or foreign work experience in a relevant field for 3 or more years
-    - Documents verifying technology (such as a domestic or foreign patent certificate, etc.) or technology licensing (such as a technology licensing contract, etc.).
-    - Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field).
+請提供
+*國內外院士證書或相當之證明文件 [ note-5](#note-5)
 
 {{< /accordion >}}
 
@@ -164,12 +154,15 @@ Please select either 6.1 or 6.2, and attach all documents required for the selec
   * 其他專業著作：其他具學術價值之專業著作，或被高度引用之軟體程式碼、創作工具等。
 {{< /note >}}
 
+{{< note title="5" >}}
+* 涵蓋國內外各領域之國家科學院。
+* 院士為各國設立的科學技術方面的最高學術稱號，為終身榮譽。
+{{< /note >}}
+
 {{< note title="6.1a" >}}
 * 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。
 * 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具 3 年以上。
 {{< /note >}}
-
-
 
 {{< note title="6.1b" >}}
 * 學術研究著作係為國內外之期刊論文、研討會論文、專書或專書論文、其他專業著作。
