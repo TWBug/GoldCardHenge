@@ -104,8 +104,8 @@ Please select either 7.1 or 7.2, and attach all documents required for the selec
 
 - 7.1. All of the following documents are required:
     - Domestic or foreign certificate verifying possession of a Ph.D. degree
-    - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 7.1a](#note-61a)
-    - Academic research during the most recent 3 years [Note 7.1b](#note-71b)
+    - Documents verifying domestic or foreign work experience in a relevant field for 4 or more years [Note 7.1a](#note-71a)
+    - Academic research during the most recent 4 years [Note 7.1b](#note-71b)
 
 - 7.2. All of the following documents are required:
     - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 7.2a](#note-72a)
@@ -202,4 +202,11 @@ Academic research institute refers to any institute with research as its core mi
   * Conference papers: Papers presented at a conference or accepted by a conference organizer and scheduled for presentation. (letter of acceptance or relevant verifying document must be attached).
   * Books or book chapters: Must consist of books or book chapters possessing original or important academic value and published by a publishing organization with a review system (includes in-depth interpretations of classic works; does not include textbooks, cultural or literary works, translated works, or collections of already-published papers) In the case of works that have been accepted but not yet been published, please attach relevant verifying documents.
   * Other specialized works: Other specialized works possessing academic value, or software tools or creative tools that are widely cited.
+{{< /note >}}
+
+
+
+{{< note title="7.1a" >}}
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 4 years.
 {{< /note >}}
