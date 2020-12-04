@@ -2,7 +2,7 @@
 title: 教育領域
 summary: 主打教育、教學研究專長，需有至少5年經驗。
 draft: false
-icon: /cms-uploads/architecture.png
+icon: ""
 style: title
 ---
 # 教育領域特殊專長
