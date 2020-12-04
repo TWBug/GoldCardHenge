@@ -172,10 +172,14 @@ Academic research institute refers to any institute with research as its core mi
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
 {{< /note >}}
 
-
-
 {{< note title="6.1b" >}}
-* Academic research works must consist of domestic or foreign journal articles, conference papers, technical books or chapters of technical books, or other specialized works.
-* The date of publication or submission for publication of such works must be within the 3 years prior to the year of the date of application.
-* If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.
+
+
+* Includes public or private universities and research institutions (institutions with research as their core mission.) in Taiwan and abroad.
+* Academic works published or submitted for publication in Taiwan or abroad:
+
+  * Journal articles: Papers published in academic journals or accepted for publication with verification by an academic journal (letter of acceptance or relevant verifying document must be attached).
+  * Conference papers: Papers presented at a conference or accepted by a conference organizer and scheduled for presentation. (letter of acceptance or relevant verifying document must be attached).
+  * Books or book chapters: Must consist of books or book chapters possessing original or important academic value and published by a publishing organization with a review system (includes in-depth interpretations of classic works; does not include textbooks, cultural or literary works, translated works, or collections of already-published papers) In the case of works that have been accepted but not yet been published, please attach relevant verifying documents.
+  * Other specialized works: Other specialized works possessing academic value, or software tools or creative tools that are widely cited.
 {{< /note >}}
