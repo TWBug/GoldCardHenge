@@ -17,7 +17,7 @@ style: right
 
 {{< accordion title="在各類軟體應用、軟體技術、奈米、微機電技術、光電技術、資訊及通訊技術、通訊傳播技術、自動化系統整合技術、材料應用技術、高精密感測技術、生物科技、資源開發或能源節約及尖端基礎研究、國防及軍事戰略等尖端科技上具有獨到才能或有傑出研發設計或有新創實績。" suffix="2." bottomless="true" >}}
 
-請先就 1 或 2 擇一，再就所選項目檢附全部文件：
+請先就 2.1 或 2.2 擇一，再就所選項目檢附全部文件：
 
 - 2.1. 請全部檢附：
     - 具博士學位之國內外學歷證書
@@ -30,17 +30,14 @@ style: right
     - 獲獎證明(須為該專業領域具國際性之國內外重要獎項)。  [Note 2.2b](#note-22b)
 {{< /accordion >}}
 
-{{< accordion title="Unique talents, outstanding R&D or design ability or innovation achievements" suffix="3." bottomless="true" >}}
+{{< accordion title="在人工智慧、物聯網、擴增實境、區塊鏈、虛擬實境、機器人、積層製造等前瞻科技上具有獨到才能或有傑出研發設計或有新創實績。" suffix="3." bottomless="true" >}}
 
-**Those with unique talents, outstanding R&D or design ability or innovation achievements in forward-looking technologies such as artificial intelligence (AI), Internet of Things (IoT), augmented reality, blockchain (AR), virtual reality (VR), robots, and additive manufacturing.**
+請先就 3.1 或 3.2 擇一，再就所選項目檢附全部文件：
 
-Please select either 3.1 or 3.2, and attach all documents required for the selected item:
+    - 具博士學位之國內外學歷證書
+    - 具 3 年以上相關領域工作經驗之國內外服務證明 [Note 3.1a](#note-31a)
+    - 近 3 年之學術研究 [Note 3.2b](#note-32b)
 
-- 3.1. All of the following documents are required:
-    - Domestic or foreign certificate verifying possession of a Ph.D. degree
-    - Verification of domestic or foreign work experience in a relevant field for 3 or more years. [Note 3.1a](#note-31a)
-    - Verification of domestic or foreign work experience in a relevant field for 3 or more years
-    - Academic research during the most recent 3 years [Note 3.1b](#note-31b)
 - 3.2. All of the following documents are required:
     - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 3.2a](#note-32a)
     - Documents verifying technology (such as a domestic or foreign patent certificate, etc.) or technology licensing (such as a technology licensing contract, etc.).
@@ -95,34 +92,34 @@ Please select either 6.1 or 6.2, and attach all documents required for the selec
 * 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具 3 年以上。
 {{< /note >}}
 
-* {{< note title="2.2b" >}}
-  專業才能：
+{{< note title="2.2b" >}}
+專業才能：
 
-  * 針對具有中子研究專長者，具備下列要件之一：
+* 針對具有中子研究專長者，具備下列要件之一：
 
-    * 物理、化學、核工系所博士畢業，具 2 年以上中子研究經驗；執行中子散射、繞射以及台澳中子計畫 SIKA 實驗設施運轉計畫。
-    * 凝態物理系所博士畢業，具良好凝態物理、中子散射知識，曾公開發表非彈性中子散射、中子三軸光譜技術之經驗；ANSTO 非彈性光譜儀之儀器科學研究。
-  * 其餘領域：應具有 3 年以上相關領域之工作經驗
+  * 物理、化學、核工系所博士畢業，具 2 年以上中子研究經驗；執行中子散射、繞射以及台澳中子計畫 SIKA 實驗設施運轉計畫。
+  * 凝態物理系所博士畢業，具良好凝態物理、中子散射知識，曾公開發表非彈性中子散射、中子三軸光譜技術之經驗；ANSTO 非彈性光譜儀之儀器科學研究。
+* 其餘領域：應具有 3 年以上相關領域之工作經驗
 
-  學術研究：
+學術研究：
 
-  * 於國內外投稿並發表之學術性著作，如下：
+* 於國內外投稿並發表之學術性著作，如下：
 
-    * 期刊論文：已於學術期刊發表之論文，或業經學術期刊接受刊載並出具證明之論文(應檢附接受函或相關證明文件)。
-    * 研討會論文：已於研討會發表之論文，或業經研討會主辦單位接受，預定發表之論文(應檢附接受函或相關證明文件)。
-    * 專書或專書論文：具有原創性及重要學術價值，並由國內外具審查制度之出版單位出版之專書、專書論文(含經典譯注深度導讀，不含教科書、文藝創作、翻譯著作或已發表之論文彙編)。業經接受刊載但尚未出版者，應檢附相關證明文件。
-    * 其他專業著作：其他具學術價值之專業著作，或被高度引用之軟體程式碼、創作工具等。
-  {{< /note >}}
+  * 期刊論文：已於學術期刊發表之論文，或業經學術期刊接受刊載並出具證明之論文(應檢附接受函或相關證明文件)。
+  * 研討會論文：已於研討會發表之論文，或業經研討會主辦單位接受，預定發表之論文(應檢附接受函或相關證明文件)。
+  * 專書或專書論文：具有原創性及重要學術價值，並由國內外具審查制度之出版單位出版之專書、專書論文(含經典譯注深度導讀，不含教科書、文藝創作、翻譯著作或已發表之論文彙編)。業經接受刊載但尚未出版者，應檢附相關證明文件。
+  * 其他專業著作：其他具學術價值之專業著作，或被高度引用之軟體程式碼、創作工具等。
+{{< /note >}}
 
 {{< note title="3.1a" >}}
-- Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
-- When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
+* 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。
+* 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具 3 年以上。
 {{< /note >}}
 
 {{< note title="3.1b" >}}
-- Academic research works must consist of domestic or foreign journal articles, conference papers, technical books or chapters of technical books, or other specialized works.
-- The date of publication or submission for publication of such works must be within the 3 years prior to the year of the date of application.
-- If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.
+* 學術研究著作係為國內外之期刊論文、研討會論文、專書或專書論文、其他專業著作。
+* 其發表或投稿日須為申請日當年往前推算 3 年內。
+* 若業經接受刊載但尚未出版或發表者，應檢附出版機構之著作接受函或相關證明文件。
 {{< /note >}}
 
 {{< note title="3.2a" >}}
