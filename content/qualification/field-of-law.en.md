@@ -5,7 +5,11 @@ draft: false
 ---
 # Field of Law
 
-## The applicant must be a ROC attorney or a ROC foreign legal affairs attorney , and meet ONE of the following requirements:
+{{< base >}}
+The applicant must be a ROC attorney or a ROC foreign legal affairs attorney
+{{< /base >}}
+
+## Must meet **ONE** of the following requirements:
 
 {{< accordion title="Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000." suffix="1." bottomless="true" >}}
 
