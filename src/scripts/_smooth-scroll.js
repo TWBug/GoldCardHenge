@@ -1,6 +1,6 @@
 function smoothScroll() {
-    const links = document.querySelectorAll("#tableofcontents a[href^='#'], .copy a[href^='#']")
-    console.info('links', links);
+    const links = document.querySelectorAll(".copy a[href^='#']")
+    // const links = document.querySelectorAll("#tableofcontents a[href^='#'], .copy a[href^='#']")
     for (const link of links) {
         link.addEventListener('click', (e) => {
             e.preventDefault();

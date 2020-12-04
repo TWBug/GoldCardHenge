@@ -240,8 +240,7 @@ function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o =
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
 function smoothScroll() {
-  var links = document.querySelectorAll("#tableofcontents a[href^='#'], .copy a[href^='#']");
-  console.info('links', links);
+  var links = document.querySelectorAll(".copy a[href^='#']"); // const links = document.querySelectorAll("#tableofcontents a[href^='#'], .copy a[href^='#']")
 
   var _iterator = _createForOfIteratorHelper(links),
       _step;
@@ -830,6 +829,91 @@ window.taTags = function () {
       }
 
       this.$store.filter.empty = count > 0 ? false : true;
+    }
+  };
+};
+"use strict";
+
+function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e2) { throw _e2; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e3) { didErr = true; err = _e3; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+window.taToc = function () {
+  return {
+    initialized: false,
+    folded: true,
+    options: {
+      folded: true,
+      length: 100,
+      threshold: 100
+    },
+    init: function init(options) {
+      if (typeof options !== 'undefined') {
+        if (_typeof(options) !== 'object' || options instanceof Array) {
+          console.warn('Options are in wrong type - should be object - options been used');
+        }
+
+        for (var _i = 0, _Object$entries = Object.entries(options); _i < _Object$entries.length; _i++) {
+          var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+              key = _Object$entries$_i[0],
+              value = _Object$entries$_i[1];
+
+          this.options[key] = value;
+        }
+      }
+
+      this.checkFolded();
+      this.setSmoothScrolling();
+    },
+    toggle: function toggle() {
+      this.folded = !this.folded;
+    },
+    checkFolded: function checkFolded() {
+      this.folded = this.options.folded;
+
+      if (this.options.length > this.options.threshold) {
+        this.folded = false;
+      }
+    },
+    setSmoothScrolling: function setSmoothScrolling() {
+      var links = this.$el.querySelectorAll("a[href^='#']");
+
+      var _iterator = _createForOfIteratorHelper(links),
+          _step;
+
+      try {
+        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+          var link = _step.value;
+          link.addEventListener('click', function (e) {
+            e.preventDefault();
+            var href = e.target.getAttribute('href');
+            href = "[id=\"".concat(href.substr(1), "\"]");
+            var scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
+            var scrollNavHeightInt = parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
+            var offsetTop = document.querySelector(href).offsetTop + scrollNavHeightInt - Math.round(scrollNavHeightInt * 0.2);
+            scroll({
+              top: offsetTop,
+              behavior: 'smooth'
+            });
+          });
+        }
+      } catch (err) {
+        _iterator.e(err);
+      } finally {
+        _iterator.f();
+      }
     }
   };
 };
