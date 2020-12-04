@@ -91,8 +91,8 @@ Please select either 6.1 or 6.2, and attach all documents required for the selec
 {{< /note >}}
 
 {{< note title="2.2a" >}}
-  - Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
-  - When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
+* 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。
+* 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具 3 年以上。
 {{< /note >}}
 
 {{< note title="2.2b" >}}
