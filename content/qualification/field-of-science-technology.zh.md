@@ -95,19 +95,24 @@ Please select either 6.1 or 6.2, and attach all documents required for the selec
 * 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具 3 年以上。
 {{< /note >}}
 
-{{< note title="2.2b" >}}
-- Skills
-    - Applicants with expertise in the field of neutron physics research must meet least one of the following requirements:
-        - A Ph.D. degree in physics, chemistry, or nuclear engineering with at least 2 years of neutron research experience; participation in neutron scattering or diffraction research, or the Taiwan-Australian neutron instrument (SIKA) project.
-        - A Ph.D. in condensed matter physics, with good knowledge of condensed matter physics and neutron scattering; publication of papers on inelastic neutron scattering or neutron triple axis spectrometry; research employing the ANSTO inelastic spectrometer.
-        - Other fields: Evidence verifying at least three years of professional working experience in a related field.
-- Academic research
-    - Evidence of academic output must be provided in the form of academic works published in Taiwan or abroad, such as the following:
-        - Journal articles: Papers published in academic journals or accepted for publication with verification by an academic journal (letter of acceptance or relevant verifying document must be attached).
-        - Conference papers: Papers presented at a conference or accepted by a conference organizer and scheduled for presentation. (letter of acceptance or relevant verifying document must be attached).
-        - Books or book chapters: Must consist of books or book chapters possessing original or important academic value and published by a publishing organization with a review system (includes in-depth interpretations of classic works; does not include textbooks, cultural or literary works, translated works, or collections of already-published papers) In the case of works that have been accepted but not yet been published, please attach relevant verifying documents.
-        - Other specialized works: Other specialized works possessing academic value, or software tools or creative tools that are widely cited.
-{{< /note >}}
+* {{< note title="2.2b" >}}
+  專業才能：
+
+  * 針對具有中子研究專長者，具備下列要件之一：
+
+    * 物理、化學、核工系所博士畢業，具 2 年以上中子研究經驗；執行中子散射、繞射以及台澳中子計畫 SIKA 實驗設施運轉計畫。
+    * 凝態物理系所博士畢業，具良好凝態物理、中子散射知識，曾公開發表非彈性中子散射、中子三軸光譜技術之經驗；ANSTO 非彈性光譜儀之儀器科學研究。
+  * 其餘領域：應具有 3 年以上相關領域之工作經驗
+
+  學術研究：
+
+  * 於國內外投稿並發表之學術性著作，如下：
+
+    * 期刊論文：已於學術期刊發表之論文，或業經學術期刊接受刊載並出具證明之論文(應檢附接受函或相關證明文件)。
+    * 研討會論文：已於研討會發表之論文，或業經研討會主辦單位接受，預定發表之論文(應檢附接受函或相關證明文件)。
+    * 專書或專書論文：具有原創性及重要學術價值，並由國內外具審查制度之出版單位出版之專書、專書論文(含經典譯注深度導讀，不含教科書、文藝創作、翻譯著作或已發表之論文彙編)。業經接受刊載但尚未出版者，應檢附相關證明文件。
+    * 其他專業著作：其他具學術價值之專業著作，或被高度引用之軟體程式碼、創作工具等。
+  {{< /note >}}
 
 {{< note title="3.1a" >}}
 - Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
