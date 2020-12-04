@@ -70,6 +70,10 @@
   translation: 'All faq'
 - id: open_new_window
   translation: 'Open in new window'
+- id: show_details
+  translation: 'Show details'
+- id: back
+  translation: 'back'
 - id: since_2018
   translation: 'Since 2018'
 - id: taipei_city_skyline
