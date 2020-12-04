@@ -6,35 +6,38 @@ window.taFilter = function () {
         result: [],
         init() {
             const url = location.origin + location.pathname + 'data.json';
-            this.$fetch(url)
-                .then((response) => {
-                    this.index = response;
-                    this.initialized = true;
-                    this.resetResult()
-                })
-                .catch((error) => {
-                    console.warn(error);
-                });
-            // fetch(url)
-            //     .then((response) => response.json())
-            //     .then((json) => {
-            //         this.index = json;
-            //         this.initialized = true;
-            //         this.resetResult()
-            //     })
-            //     .catch((error) => {
-            //         console.warn(error);
-            //     });
+            if (typeof this.$fetch !== 'undefined') {
+                this.$fetch(url)
+                    .then((response) => {
+                        this.index = response;
+                        this.initialized = true;
+                        this.resetResult();
+                    })
+                    .catch((error) => {
+                        console.warn(error);
+                    });
+            } else {
+                fetch(url)
+                    .then((response) => response.json())
+                    .then((json) => {
+                        this.index = json;
+                        this.initialized = true;
+                        this.resetResult();
+                    })
+                    .catch((error) => {
+                        console.warn(error);
+                    });
+            }
             this.$watch('filter', (value) => {
                 if (value.length === 0) {
-                    return this.resetResult()
+                    return this.resetResult();
                 }
                 this.findContent();
             });
         },
         resetFilter() {
-            this.filter = ''
-            document.getElementById("filter").focus();
+            this.filter = '';
+            document.getElementById('filter').focus();
         },
         findContent() {
             var result = [];
@@ -54,25 +57,25 @@ window.taFilter = function () {
             this.result = result;
         },
         resetResult() {
-            var result = []
+            var result = [];
             for (let index = 0; index < this.index.length; index++) {
-                result.push(index)
+                result.push(index);
             }
-            this.result = result
-            return true
+            this.result = result;
+            return true;
         },
         isInResult(index) {
             if (this.initialized) {
-                return this.result.indexOf(index) !== -1 ? true : false
+                return this.result.indexOf(index) !== -1 ? true : false;
             }
-            return true
+            return true;
         },
         isNoResult() {
-            if (this.initialized === false) return false
-            return this.result.length === 0 ? true : false
+            if (this.initialized === false) return false;
+            return this.result.length === 0 ? true : false;
         },
         isFiltered() {
-             return this.result.length !== this.index.length ? true : false
-        }
+            return this.result.length !== this.index.length ? true : false;
+        },
     };
 };

@@ -407,23 +407,28 @@ window.taFilter = function () {
       var _this = this;
 
       var url = location.origin + location.pathname + 'data.json';
-      this.$fetch(url).then(function (response) {
-        _this.index = response;
-        _this.initialized = true;
 
-        _this.resetResult();
-      })["catch"](function (error) {
-        console.warn(error);
-      }); // fetch(url)
-      //     .then((response) => response.json())
-      //     .then((json) => {
-      //         this.index = json;
-      //         this.initialized = true;
-      //         this.resetResult()
-      //     })
-      //     .catch((error) => {
-      //         console.warn(error);
-      //     });
+      if (typeof this.$fetch !== 'undefined') {
+        this.$fetch(url).then(function (response) {
+          _this.index = response;
+          _this.initialized = true;
+
+          _this.resetResult();
+        })["catch"](function (error) {
+          console.warn(error);
+        });
+      } else {
+        fetch(url).then(function (response) {
+          return response.json();
+        }).then(function (json) {
+          _this.index = json;
+          _this.initialized = true;
+
+          _this.resetResult();
+        })["catch"](function (error) {
+          console.warn(error);
+        });
+      }
 
       this.$watch('filter', function (value) {
         if (value.length === 0) {
@@ -435,7 +440,7 @@ window.taFilter = function () {
     },
     resetFilter: function resetFilter() {
       this.filter = '';
-      document.getElementById("filter").focus();
+      document.getElementById('filter').focus();
     },
     findContent: function findContent() {
       var _this2 = this;
