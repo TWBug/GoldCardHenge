@@ -1,4 +1,4 @@
-{{ partial "page-summary" . }}
+{{ partial "aside/summary" . }}
 {{ if .Params.categories }}
 {{ partial "page-categories" . }}
 {{ end }}
@@ -7,4 +7,4 @@
 {{ end }}
 {{ partial "page-call-to-action" (dict "style" "light" ) }}
 {{ partial "page-latest-news" . }}
-{{ partial "page-table-contents" . }}
+{{ partial "aside/toc" . }}

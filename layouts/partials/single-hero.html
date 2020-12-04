@@ -45,10 +45,10 @@
                 </div>
             </div>
             <div class="print:hidden sm:-mt-4">
-                {{ partial "page-summary" . }}
-                {{ partial "page-table-contents" . }}
+                {{ partial "aside/summary" . }}
+                {{ partial "aside/toc" . }}
                 {{ if .Params.categories }}
-                {{ partial "page-all-categories" . }}
+                {{ partial "aside/all-categories" . }}
                 {{ end }}
                 {{ if .Params.tags }}
                 {{ partial "aside/all-tags" . }}
@@ -56,7 +56,7 @@
                 {{ if .Params.topics }}
                 {{ partial "aside/all-topics" . }}
                 {{ end }}
-                {{ partial "page-apply-now" }}
+                {{ partial "aside/apply-now" }}
             </div>
         </div>
     </div>

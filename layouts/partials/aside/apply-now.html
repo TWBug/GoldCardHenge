@@ -1,9 +1,7 @@
 <div class="md:sticky top-nav-scroll my-12">
-    <div
-        class="flex items-baseline justify-between border-b-2 border-secondary border-dashed px-2 pb-2"
-    >
-        <h3 class="text-xl font-bold">How to apply</h3>
-        {{ partial "icon" (dict "name" "question" "size" "7") }}
+    <div class="flex items-center border-b-2 border-secondary border-dashed px-2 pb-2">
+        {{ partial "icon" (dict "name" "question" "size" "5") }}
+        <h3 class="text-xl font-bold ml-2">How to apply</h3>
     </div>
     <div class="pt-6 pl-2">
         <p class="text-md font-regular leading-normal">
@@ -14,7 +12,7 @@
     <div class="mt-2">
         <a
             href="{{ .Site.Language.Params.apply}}"
-            class="inline-flex items-center font-bold text-primary text-base p-2 focus-primary"
+            class="inline-flex items-center font-bold text-primary text-base p-1 ml-1 focus-primary"
             target="_blank"
         >
             <div class="flex-shrink-0">{{ partial "icon" (dict "name" "right" "size" "4") }}</div>
