@@ -45,11 +45,10 @@ style: right
     - 獲獎證明(須為該專業領域具國際性之國內外重要獎項)。  [Note 3.2b](#note-32b)
 {{< /accordion >}}
 
-{{< accordion title="Nobel laureates, Tang Prize recipients, ..." suffix="4." bottomless="true" >}}
+{{< accordion title="諾貝爾獎得主(Nobel Prize)、唐獎得主(Tang Prize)、沃爾夫獎得主(Wolf Prize)、費爾茲獎得主(Fields Medals)或其他相當資格之國際獎項得主。" suffix="4." bottomless="true" >}}
 
-**Nobel laureates, Tang Prize recipients, Wolf Prize recipients, Fields Medal recipients, or recipients of other internationally-recognized awards at an equivalent level.**
-
-Please provide: Documents verifying receipt of internationally-recognized domestic or foreign awards or prizes.
+請提供
+* 具國際性之國內外重要獎項獲獎證明文件。
 
 {{< /accordion >}}
 
