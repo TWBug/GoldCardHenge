@@ -290,6 +290,7 @@ window.taCounter = function () {
   return {
     status: false,
     element: false,
+    negative: false,
     options: {
       ref: 'number',
       start: 0,
@@ -297,6 +298,8 @@ window.taCounter = function () {
       duration: 4000,
       interval: 100,
       locale: false,
+      suffix: '',
+      prefix: '',
       animate: true
     },
     init: function init(options) {
@@ -321,8 +324,6 @@ window.taCounter = function () {
       if (this.prefersReducedMotion() && this.options.interval < 1000) {
         this.options.interval = 1000;
       }
-
-      ;
 
       if (this.options.locale === false) {
         this.options.locale = this.getVisitorLocale();
@@ -355,16 +356,21 @@ window.taCounter = function () {
       var _this2 = this;
 
       if (this.options.start === this.options.end) return;
+
+      if (this.options.start > this.options.end) {
+        this.negative = true;
+      }
+
       this.element.innerHTML = this.options.start;
       var current = this.options.start;
       var range = this.options.end - this.options.start;
       var single_step = range / this.options.duration * this.options.interval;
       var timer = setInterval(function () {
         current += single_step;
-        _this2.element.innerHTML = Math.floor(current).toLocaleString(_this2.options.locale);
+        _this2.element.innerHTML = _this2.getCounterString(current);
 
-        if (current >= _this2.options.end) {
-          _this2.element.innerHTML = _this2.options.end.toLocaleString(_this2.options.locale);
+        if (current >= _this2.options.end && _this2.negative === false || current <= _this2.options.end && _this2.negative === true) {
+          _this2.element.innerHTML = _this2.getCounterString(_this2.options.end);
           clearInterval(timer);
         }
       }, this.options.interval);
@@ -383,6 +389,9 @@ window.taCounter = function () {
       var browser_language = navigator.language || navigator.userLanguage;
       var visitor_language = browser_language.split('-');
       return visitor_language[0];
+    },
+    getCounterString: function getCounterString(current) {
+      return this.options.prefix + Math.floor(current).toLocaleString(this.options.locale) + this.options.suffix;
     }
   };
 };

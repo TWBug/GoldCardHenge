@@ -2,6 +2,7 @@ window.taCounter = function () {
     return {
         status: false,
         element: false,
+        negative: false,
         options: {
             ref: 'number',
             start: 0,
@@ -9,6 +10,8 @@ window.taCounter = function () {
             duration: 4000,
             interval: 100,
             locale: false,
+            suffix: '',
+            prefix: '',
             animate: true,
         },
         init(options) {
@@ -23,25 +26,25 @@ window.taCounter = function () {
                 }
             }
             if (this.options.animate === false) return;
-            if (this.prefersReducedMotion() && (this.options.interval < 1000)) {
-                this.options.interval = 1000
-            };
-            if (this.options.locale === false) {
-                this.options.locale = this.getVisitorLocale()
+            if (this.prefersReducedMotion() && this.options.interval < 1000) {
+                this.options.interval = 1000;
             }
-            this.element = this.$refs[this.options.ref]
+            if (this.options.locale === false) {
+                this.options.locale = this.getVisitorLocale();
+            }
+            this.element = this.$refs[this.options.ref];
             if (typeof this.element === 'undefined') {
                 console.warn('taCounter: ref element was not found:', this.options.ref);
-                return
+                return;
             }
             this.element.innerHTML = this.options.start;
-            
+
             // if element is already in the viewport -> start counting
             if (this.isInViewport()) {
                 this.status = true;
                 this.startCounting();
             }
-            
+
             // check if element is in the viewport -> start counting
             window.addEventListener('scroll', () => {
                 if (this.isInViewport() && this.status === false) {
@@ -49,19 +52,21 @@ window.taCounter = function () {
                     this.startCounting();
                 }
             });
-            
         },
         startCounting() {
             if (this.options.start === this.options.end) return;
+            if (this.options.start > this.options.end) {
+                this.negative = true;
+            }
             this.element.innerHTML = this.options.start;
             let current = this.options.start;
             const range = this.options.end - this.options.start;
             const single_step = (range / this.options.duration) * this.options.interval;
             const timer = setInterval(() => {
                 current += single_step;
-                this.element.innerHTML = Math.floor(current).toLocaleString(this.options.locale);
-                if (current >= this.options.end) {
-                    this.element.innerHTML = this.options.end.toLocaleString(this.options.locale);
+                this.element.innerHTML = this.getCounterString(current);
+                if ((current >= this.options.end && this.negative === false) || (current <= this.options.end && this.negative === true) ) {
+                    this.element.innerHTML = this.getCounterString(this.options.end);
                     clearInterval(timer);
                 }
             }, this.options.interval);
@@ -82,9 +87,16 @@ window.taCounter = function () {
             return prefersReducedMotion;
         },
         getVisitorLocale() {
-            const browser_language = navigator.language || navigator.userLanguage
-            const visitor_language = browser_language.split('-')
-            return visitor_language[0]
-        }
+            const browser_language = navigator.language || navigator.userLanguage;
+            const visitor_language = browser_language.split('-');
+            return visitor_language[0];
+        },
+        getCounterString(current) {
+            return (
+                this.options.prefix +
+                Math.floor(current).toLocaleString(this.options.locale) +
+                this.options.suffix
+            );
+        },
     };
 };
