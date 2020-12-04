@@ -6,7 +6,8 @@ draft: false
 icon: ""
 style: title
 ---
-## A foreign special professional with special expertise in the field of education
+
+# A foreign special professional with special expertise in the field of education
 
 ## Must meet **ONE** of the following requirements:
 
