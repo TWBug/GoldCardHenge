@@ -55,7 +55,7 @@
       <div class="container pb-12 sm:pb-24 px-12 lg:px-24">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
                 <div class="lg:col-span-2">
-                    <div class="grid grid-cols-2 auto-rows-fr gap-12 xl:gap-16">
+                    <div class="grid lg:grid-cols-2 auto-rows-fr gap-12 xl:gap-16">
                         {{ range .Site.Taxonomies.tags }}
                         {{ $icon := resources.Get "cms-uploads/icon-question.svg" }}
                         {{ $buffer := resources.Get (printf "cms-uploads/icon-tag-%s.svg" (.Page.Title | anchorize)) }}
