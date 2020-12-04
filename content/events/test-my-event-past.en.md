@@ -3,7 +3,7 @@ title: Christmas Mixer
 link: https://www.accupass.com/event/2011300950011199513383
 start: 2020-12-23T10:00:00.154Z
 end: 2020-12-23T13:00:00.154Z
-location: FutureWard Central
+location: Theater Trattoria, Taipei City, Taiwan
 cover_image: /cms-uploads/christmas-mixer.png
 cover_image_alt: Christmas Mixer
 media_image: /cms-uploads/christmas-mixer.png
