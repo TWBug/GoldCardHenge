@@ -114,7 +114,23 @@ Please select either 7.1 or 7.2, and attach all documents required for the selec
     -Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field).. [Note 7.2b](#note-72b)
 {{< /accordion >}}
 
+{{< accordion title="Those who have special expertise or perform science and tech research and development or management work at institutions of science and tech…" suffix="8." bottomless="true" >}}
 
+**8.	Those who have special expertise or perform science and technology research and development or management work at institutions of science and technology, and whose distinctive abilities are rare both in Taiwan and abroad.**
+
+Please select either 8.1 or 8.2, and attach all documents required for the selected item:
+
+- 8.1. All of the following documents are required:
+    - Domestic or foreign certificate verifying possession of a Ph.D. degree
+    - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 8.1a](#note-81a)
+    - Academic research during the most recent 3 years [Note 8.1b](#note-81b)
+
+- 8.2. All of the following documents are required:
+    - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 8.2a](#note-82a)
+    - Documents verifying technology (such as a domestic or foreign patent certificate, etc.) or technology licensing (such as a technology licensing contract, etc.).
+    - Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field). [Note 8.2b](#note-82b)
+
+{{< /accordion >}}
 
 ## Notes
 
@@ -227,4 +243,25 @@ Academic research institute refers to any institute with research as its core mi
   * Public or private colleges/universities and public research institutions.
   * Administrative academic institutions and nonprofit foundation academic research institutions.
   * Government agencies or organizations with science and technology research and development or management divisions.
+{{< /note >}}
+
+{{< note title="8.1a" >}}
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
+{{< /note >}}
+
+{{< note title="8.1b" >}}
+* Academic research works must consist of domestic or foreign journal articles, conference papers, technical books or chapters of technical books, or other specialized works.
+* The date of publication or submission for publication of such works must be within the 3 years prior to the year of the date of application.
+* If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.
+{{< /note >}}
+
+{{< note title="8.2a" >}}
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
+{{< /note >}}
+
+{{< note title="9" >}}
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least 3 years.
 {{< /note >}}
