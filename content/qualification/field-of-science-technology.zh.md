@@ -34,16 +34,10 @@ style: right
 
 請先就 3.1 或 3.2 擇一，再就所選項目檢附全部文件：
 
+- 3.1. 請全部檢附：
     - 具博士學位之國內外學歷證書
     - 具 3 年以上相關領域工作經驗之國內外服務證明 [Note 3.1a](#note-31a)
     - 近 3 年之學術研究 [Note 3.2b](#note-32b)
-
-請先就 2.1 或 2.2 擇一，再就所選項目檢附全部文件：
-
-- 2.1. 請全部檢附：
-    - 具博士學位之國內外學歷證書
-    - 具 3 年以上相關領域工作經驗之國內外服務證明 [Note 2.1a](#note-21a)
-    - 近 3 年之學術研究 [Note 2.2b](#note-22b)
 
 - 3.2. All of the following documents are required:
     - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 3.2a](#note-32a)
