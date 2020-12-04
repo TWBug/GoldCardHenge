@@ -1,6 +1,6 @@
 ---
 media_image: null
-summary: null
+summary: 點選符合你的領域查看更詳細的申請資格與應備文件
 draft: false
 media_image_alt: null
 date: 2020-11-10T07:14:10.815Z
