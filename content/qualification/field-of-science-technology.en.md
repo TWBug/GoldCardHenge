@@ -108,10 +108,10 @@ Please select either 7.1 or 7.2, and attach all documents required for the selec
     - Academic research during the most recent 4 years [Note 7.1b](#note-71b)
 
 - 7.2. All of the following documents are required:
-    - Verification of domestic or foreign work experience in a relevant field for 3 or more years [Note 7.2a](#note-72a)
+    - Domestic or foreign certificate verifying possession of a Ph.D. degree
+    - Documents verifying domestic or foreign work experience in a relevant field for 4 or more years [Note 7.2a](#note-72a)
     - Documents verifying technology (such as a domestic or foreign patent certificate, etc.) or technology licensing (such as a technology licensing contract, etc.).
-    - Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field). [Note 7.2b](#note-72b)
-
+    -Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field).. [Note 7.2b](#note-72b)
 {{< /accordion >}}
 
 
@@ -214,8 +214,6 @@ Academic research institute refers to any institute with research as its core mi
 * The date of publication or submission for publication of such works must be within the 4 years prior to the year of the date of application.
 * If a work has already been accepted for publication, but has not been published or issued, an acceptance letter for the work from the publishing organization or relevant verifying document must be attached.
 {{< /note >}}
-
-
 
 {{< note title="7.2a" >}}
 * Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
