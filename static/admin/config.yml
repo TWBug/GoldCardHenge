@@ -761,96 +761,60 @@ collections:
                   field: { label: Tag Name, name: name, widget: string }
 
     # Configure the site. Menus for example
-    - name: 'config_2'
-      label: 'Config 2'
-      i18n:
-          structure: single_file
-      editor:
-          preview: false
-      files:
-          - label: 'Blarg (en|zh)'
-            name: 'navigation_en_zh'
-            file: 'data/navigation.yaml'
-            i18n: true
-            fields:
-                - label: 'Navigation Items'
-                  name: 'items'
-                  widget: 'list'
-                  i18n: true
-                  fields:
-                      - { label: Name, name: name, widget: string, i18n: true }
-
-    # Configure the site. Menus for example
     - name: 'config'
       label: 'Menus 選單'
       description: >
           Menu configuration for the site. This is where you will find things
           like menus and their ordering in the UI.
-
-          NOTE: We cannot currently configure English and 中文 at the same time.
-          There is an open issue to address this:
-          https://github.com/netlify/netlify-cms/issues/4483
+      i18n:
+          structure: single_file
       editor:
           preview: false
       files:
-          - label: 'Navigation (en)'
-            name: 'navigation_en'
-            file: 'data/en/navigation.yaml'
+          - label: 'Navigation'
+            name: 'navigation_en_zh'
+            file: 'data/navigation.yaml'
+            i18n: true
             fields:
-                - label: 'Navigation Items'
+                - label: 'Items 選項'
                   name: 'items'
                   widget: 'list'
+                  i18n: true
                   fields:
-                      - { label: Name, name: name, widget: string }
-                      - { label: Topic, name: topic, widget: string }
-                      - { label: Link, name: link, widget: string }
+                      - { label: Name, name: name, widget: string, i18n: true }
+                      - { label: Topic, name: topic, widget: string, i18n: true }
+                      - { label: Link, name: link, widget: string, i18n: duplicate }
                       - label: Dropdown
                         name: dropdown
                         widget: object
                         default: null
                         required: false
+                        i18n: true
                         fields:
-                            - { label: Image, name: image, widget: image, required: false }
-                            - { label: Text, name: text, widget: string, required: false }
+                            - {
+                                  label: Image,
+                                  name: image,
+                                  widget: image,
+                                  required: false,
+                                  i18n: duplicate,
+                              }
+                            - {
+                                  label: Text,
+                                  name: text,
+                                  widget: string,
+                                  required: false,
+                                  i18n: true,
+                              }
                             - label: Links
                               name: links
                               widget: list
+                              i18n: true
                               fields:
-                                  - { label: Name, name: name, widget: string }
-                                  - { label: Link, name: link, widget: string }
+                                  - { label: Name, name: name, widget: string, i18n: true }
+                                  - { label: Link, name: link, widget: string, i18n: duplicate }
                             - label: Items
                               name: items
                               summary: '{{fields.name}}'
                               widget: list
-                              field: { label: Name, name: name, widget: string }
-
-          - label: 'Navigation (zh)'
-            name: 'navigation_zh'
-            file: 'data/zh/navigation.yaml'
-            fields:
-                - label: 'Navigation Items'
-                  name: 'items'
-                  widget: 'list'
-                  fields:
-                      - { label: Name, name: name, widget: string }
-                      - { label: Topic, name: topic, widget: string }
-                      - { label: Link, name: link, widget: string }
-                      - label: Dropdown
-                        name: dropdown
-                        widget: object
-                        default: null
-                        required: false
-                        fields:
-                            - { label: Image, name: image, widget: image, required: false }
-                            - { label: Text, name: text, widget: string, required: false }
-                            - label: Links
-                              name: links
-                              widget: list
-                              fields:
-                                  - { label: Name, name: name, widget: string }
-                                  - { label: Link, name: link, widget: string }
-                            - label: Items
-                              name: items
-                              summary: '{{fields.name}}'
-                              widget: list
-                              field: { label: Name, name: name, widget: string }
+                              i18n: true
+                              field: { label: Name, name: name, widget: string, i18n: true }
