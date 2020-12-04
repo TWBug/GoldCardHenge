@@ -52,7 +52,9 @@ style: right
 
 {{< /accordion >}}
 
-{{< accordion title="University chair professor, professor, associate professor, ..." suffix="6." bottomless="true" >}}
+
+
+{{< accordion title="國家科學院院士、國家院士級學者。" suffix="5." bottomless="true" >}}
 
 **The applicant has currently or has previously been a university chair professor, professor, associate professor, or research institution researcher or associate researcher, has major academic contributions or important professional works, or has earned recognition for published research results during the most recent three years.**
 
@@ -66,6 +68,23 @@ Please select either 6.1 or 6.2, and attach all documents required for the selec
     - Verification of domestic or foreign work experience in a relevant field for 3 or more years
     - Documents verifying technology (such as a domestic or foreign patent certificate, etc.) or technology licensing (such as a technology licensing contract, etc.).
     - Documents verifying receipt of awards (must be major domestic or foreign awards of an international nature in the candidate's professional field).
+
+{{< /accordion >}}
+
+{{< accordion title="現任或曾任大學講座教授、教授、副教授、或研究機構之研究員及副研究員，在學術上有重要貢獻或重要專門著作或最近3年內有研究成果發表為國際所推崇者。" suffix="6." bottomless="true" >}}
+
+
+請先就 6.1 或 6.2 擇一，再就所選項目檢附全部文件：
+
+- 6.1. 請全部檢附：
+    - 具博士學位之國內外學歷證書
+    - 具 3 年以上相關領域工作經驗之國內外服務證明 [Note 6.1a](#note-61a)
+    - 近 3 年之學術研究 [Note 6.2b](#note-62b)
+
+- 6.2. 請全部檢附：
+    - 具 3 年以上相關領域工作經驗之國內外服務證明 [Note 6.2a](#note-62a)
+    - 技術證明(如國內外專利證書等)或技術移轉(如技術轉合約書等)
+    - 獲獎證明(須為該專業領域具國際性之國內外重要獎項)。  [Note 6.2b](#note-62b)
 
 {{< /accordion >}}
 
@@ -143,4 +162,17 @@ Please select either 6.1 or 6.2, and attach all documents required for the selec
   * 研討會論文：已於研討會發表之論文，或業經研討會主辦單位接受，預定發表之論文(應檢附接受函或相關證明文件)。
   * 專書或專書論文：具有原創性及重要學術價值，並由國內外具審查制度之出版單位出版之專書、專書論文(含經典譯注深度導讀，不含教科書、文藝創作、翻譯著作或已發表之論文彙編)。業經接受刊載但尚未出版者，應檢附相關證明文件。
   * 其他專業著作：其他具學術價值之專業著作，或被高度引用之軟體程式碼、創作工具等。
+{{< /note >}}
+
+{{< note title="6.1a" >}}
+* 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。
+* 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具 3 年以上。
+{{< /note >}}
+
+
+
+{{< note title="6.1b" >}}
+* 學術研究著作係為國內外之期刊論文、研討會論文、專書或專書論文、其他專業著作。
+* 其發表或投稿日須為申請日當年往前推算 3 年內。
+* 若業經接受刊載但尚未出版或發表者，應檢附出版機構之著作接受函或相關證明文件。
 {{< /note >}}
