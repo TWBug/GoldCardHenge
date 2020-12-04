@@ -8,6 +8,7 @@ publish = "public"
 HUGO_ENABLEGITINFO = "true"
 HUGO_ENV = "staging"
 HUGO_VERSION = "0.76.4"
+TZ = "Asia/Taipei"
 
 [context.split1]
 command = "hugo --gc --minify --enableGitInfo"
