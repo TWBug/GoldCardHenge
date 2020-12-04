@@ -5,7 +5,7 @@ start: 2020-12-23T10:00:00.154Z
 end: 2020-12-23T13:00:00.154Z
 location: FutureWard Central
 cover_image: /cms-uploads/christmas-mixer.png
-cover_image_alt: What Resources are Available to You?
+cover_image_alt: Christmas Mixer
 media_image: /cms-uploads/christmas-mixer.png
 media_image_alt: Christmas Mixer
 tags: null
