@@ -1,9 +1,6 @@
 ---
 title: Taiwan Employment Gold Card in numbers
-summary: Since the first introduction in 2018 the Taiwan Employment Gold Card
-  community is growing very fast. For more than thousend people the Gold Card
-  was their next step to Taiwan. You can apply for the Gold Card from every
-  country and if you need some help we will be pleased to give you support.
+summary: 想要更了解金卡社群嗎? 想知道到底哪些人申請金卡、從哪裡來嗎? 點選照片就可以知道喔！
 draft: false
 hidden: false
 headless: true
