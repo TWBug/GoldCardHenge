@@ -4,13 +4,8 @@ draft: false
 tags:
   - Application
 ---
-"無論您是想要了解是否應該申請，或是想了解就業金卡的好處亦或是初期有些疑問，您可以到：
+無論您是想要了解就業金卡申請資格或者其他相關問題，請參考以下相關網站或頁面
 
-* 外國專業人才延攬及僱用法資訊專頁
-* 寫信至國家發展委員會所經營的就業金卡客服網站help@taiwangoldcard.com
-* 搜尋 Contact Taiwan，此網站為政府資助的組織，其任務是幫您找到工作，他們會帶您找到正確的方向。
-
-不然，您也可以到各主要網站了解詳情。
-
-* 稅收優惠：移民署有時會提供有關此方面的一些基本信息，否則，可以至財政部的網站在主選單尋找【外國特殊專業人才減免稅項】
-* 配偶/家庭簽證：前往移民署網站，在主選單尋找【內政部外國特殊專業人才就業金卡許可】"
+* [外國專業人才延攬及僱用法資訊專頁](https://foreigntalentact.ndc.gov.tw/Default.aspx)
+* [](https://foreigntalentact.ndc.gov.tw/Default.aspx)Email至 help@taiwangoldcard.com
+* [Contact Taiwan](https://www.contacttaiwan.tw/main/index.aspx?lang=1)
