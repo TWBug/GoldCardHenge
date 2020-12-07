@@ -37,16 +37,16 @@ Qualification is based on an assessment of your professional skills. You don't n
 
 ## Industries that are eligible to apply for the Taiwan Employment Gold Card:
 
-* [Science & Technology](https://staging.taiwangoldcard.tw/en/qualification/field-of-science-technology/)
-* [Architecture](/qualification/field-of-architecture/)
-* [](/qualification/field-of-architecture/)[](https://staging.taiwangoldcard.tw/en/qualification/field-of-architecture/)[Culture & Arts](https://staging.taiwangoldcard.tw/en/qualification/field-of-culture-and-arts/)
-* [](https://staging.taiwangoldcard.tw/en/qualification/field-of-culture-and-arts/)[Economy](https://staging.taiwangoldcard.tw/en/qualification/field-of-economy/)
-* [](https://staging.taiwangoldcard.tw/en/qualification/field-of-economy/)[Education](https://staging.taiwangoldcard.tw/en/qualification/field-of-education/)
+* [Science & Technology](/en/qualification/field-of-science-technology/)
+* [Architecture](/en/qualification/field-of-architecture/)
+* [Culture & Arts](/en/qualification/field-of-culture-and-arts/)
+* [Economy](/en/qualification/field-of-economy/)
+* [](/en/qualification/field-of-economy/)[](https://staging.taiwangoldcard.tw/en/qualification/field-of-economy/)[Education](/en/qualification/field-of-education/)
 * [Finance](/en/qualification/field-of-finance/)
-* [](/en/qualification/field-of-finance/)[](https://staging.taiwangoldcard.tw/en/qualification/field-of-finance/)[Law](https://staging.taiwangoldcard.tw/en/qualification/field-of-law/)
-* [Sport](https://staging.taiwangoldcard.tw/en/qualification/field-of-sport/)
+* [](/en/qualification/field-of-finance/)[](/en/qualification/field-of-finance/)[](https://staging.taiwangoldcard.tw/en/qualification/field-of-finance/)[Law](/en/qualification/field-of-law/)
+* [Sport](/en/qualification/field-of-sport/)
 
-## [](https://staging.taiwangoldcard.tw/en/qualification/field-of-sport/)Benefits in Summary
+## [](/en/qualification/field-of-sport/)[](https://staging.taiwangoldcard.tw/en/qualification/field-of-sport/)Benefits in Summary
 
 1. The card is an open-end work permit issued to employment-seeking individuals that require neither pre-confirmed hiring by or application through any employer.
 2. There are income tax benefits in terms of income tax deduction and exemption. 
