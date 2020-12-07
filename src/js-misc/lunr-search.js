@@ -247,19 +247,22 @@ function initUI() {
     document.head.appendChild(styles);
     document.body.appendChild($results);
 
-    const $input = document.querySelector('#search-box');
+    const $inputs = [].slice.call(document.querySelectorAll('.search-box'));
 
-    $input.addEventListener('keyup', (e) => {
-        const query = e.target.value;
-        if (query.length < 2) {
-            emptyEl($results);
-            return;
-        }
-        var results = search(query);
+    // Attach search handler to all search boxes.
+    $inputs.forEach(($input) => {
+        $input.addEventListener('keyup', (e) => {
+            const query = e.target.value;
+            if (query.length < 2) {
+                emptyEl($results);
+                return;
+            }
+            var results = search(query);
 
-        // Try to avoid stutters by putting this in a raf
-        requestAnimationFrame(() => {
-            renderResults(results, query);
+            // Try to avoid stutters by putting this in a raf
+            requestAnimationFrame(() => {
+                renderResults(results, query);
+            });
         });
     });
 }
