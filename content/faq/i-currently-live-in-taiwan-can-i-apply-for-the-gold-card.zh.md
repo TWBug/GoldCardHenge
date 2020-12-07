@@ -1,7 +1,7 @@
 ---
 media_image: null
-draft: false
 summary: null
+draft: false
 hidden: false
 media_image_alt: null
 date: 2020-11-04T06:52:19.195Z
@@ -9,7 +9,7 @@ topic: faq
 cover_image: null
 title: 我目前居住在台灣，我可以申請就業金卡嗎？
 tags:
-  - Qualification
+  - General
 publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
