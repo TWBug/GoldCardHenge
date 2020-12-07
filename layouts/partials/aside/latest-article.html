@@ -2,9 +2,9 @@
 
 {{ if $articles }}
 <div class="my-12">
-    <div class="flex items-baseline justify-between border-b-2 border-secondary border-dashed px-2 pb-2">
-        <h3 class="text-xl font-bold">{{ i18n "latest_articles" }}</h3>
-        {{ partial "icon" (dict "name" "newspaper" "size" "7") }}
+    <div class="flex items-center border-b-2 border-secondary border-dashed px-2 pb-2">
+        {{ partial "icon" (dict "name" "newspaper" "size" "5") }}
+        <h3 class="text-xl font-bold ml-2">{{ i18n "latest_articles" }}</h3>
     </div>
     <div class="pl-2 pt-6">
         {{ range $articles }}
@@ -21,7 +21,7 @@
                     {{ end }}
                 </span>
             </div>
-            <a href="{{.RelPermalink}}" class="flex items-center font-bold text-primary text-base leading-snug -ml-3 mb-1">
+            <a href="{{.RelPermalink}}" class="inline-flex items-center font-bold text-primary text-base leading-snug -ml-3 mb-1 focus-primary">
                 <div class="flex-shrink-0">
                     {{ partial "icon" (dict "name" "right" "size" "4") }}
                 </div>

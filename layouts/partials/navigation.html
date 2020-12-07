@@ -1,12 +1,12 @@
-<nav><div class="relative hidden lg:block z-10 bg-nav-meta text-xs text-white font-semibold print:hidden">
+<nav><div class="relative hidden lg:block bg-nav-meta text-xs text-white font-semibold print:hidden z-1">
     <div class="max-w-screen-xl mx-auto flex items-center justify-between px-8">
         {{ partial "navigation/meta" . }}
     </div>
 </div>
 {{ if eq .Page.IsHome true }}
-<div class="relative z-10 bg-nav-meta bg-opacity-50 print:bg-none print:bg-white" x-data="taNavigation()" x-init="init()">
+<div class="relative bg-nav-meta bg-opacity-50 print:bg-none print:bg-white z-1" x-data="taNavigation()" x-init="init()">
 {{ else }}
-<div class="relative z-10 bg-nav-start bg-gradient-to-b from-nav-start to-nav-end shadow-xl print:bg-none print:bg-white" x-data="taNavigation()" x-init="init()">
+<div class="relative bg-nav-start bg-gradient-to-b from-nav-start to-nav-end shadow-xl print:bg-none print:bg-white z-1" x-data="taNavigation()" x-init="init()">
 {{ end }}
     <div class="relative max-w-screen-xl flex justify-between mx-auto text-white print:text-black pl-4 pr-8" x-ref="menu">
         {{ partial "navigation/bar" . }}

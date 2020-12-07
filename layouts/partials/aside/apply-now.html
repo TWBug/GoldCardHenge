@@ -1,22 +1,23 @@
 <div class="md:sticky top-nav-scroll my-12">
     <div class="flex items-center border-b-2 border-secondary border-dashed px-2 pb-2">
         {{ partial "icon" (dict "name" "question" "size" "5") }}
-        <h3 class="text-xl font-bold ml-2">How to apply</h3>
+        <h3 class="text-xl font-bold ml-2">{{ i18n "how_to_apply" }}</h3>
     </div>
     <div class="pt-6 pl-2">
         <p class="text-md font-regular leading-normal">
-            Are you convinced that the Taiwan Employment Gold Card will be your personal next step?
-            Amazing - Start with your application now...
+            {{ i18n "how_to_apply_copy" }}
         </p>
     </div>
-    <div class="mt-2">
+    <div class="text-right mt-4">
         <a
             href="{{ .Site.Language.Params.apply}}"
-            class="inline-flex items-center font-bold text-primary text-base p-1 ml-1 focus-primary"
+            class="inline-flex items-center border-2 border-primary rounded font-bold text-primary text-base px-4 py-1 ml-2 focus-primary"
             target="_blank"
         >
-            <div class="flex-shrink-0">{{ partial "icon" (dict "name" "right" "size" "4") }}</div>
-            <span class="pl-1">{{ i18n "apply_now" }}</span>
+        <span class="mr-2">
+            {{ i18n "apply_now" }}
+        </span>
+        {{ partial "icon" (dict "name" "angle-right" "size" "8") }}
         </a>
     </div>
 </div>

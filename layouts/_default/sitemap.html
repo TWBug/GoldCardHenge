@@ -8,7 +8,9 @@
     <div
         class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-transparent -z-1"
     ></div>
+    {{ if .Site.IsServer }}
     <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">SITEMAP TEMPLATE</div>
+    {{ end }}
     <section>
         <div class="container pb-12 sm:pb-24 px-12 lg:px-24">
             <div class="mb-4">

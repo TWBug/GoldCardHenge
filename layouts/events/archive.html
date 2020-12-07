@@ -12,10 +12,12 @@
 </div>
 
 <div class="relative flex items-center bg-background-light z-0 shadow-xl py-16">
-    <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">FAQ LIST TEMPLATE</div>
     <div
-        class="absolute top-0 inset-x-0 h-full bg-gradient-to-b from-gradient to-transparent opacity-25 -z-1"
+    class="absolute top-0 inset-x-0 h-full bg-gradient-to-b from-gradient to-transparent opacity-25 -z-1"
     ></div>
+    {{ if .Site.IsServer }}
+    <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">FAQ LIST TEMPLATE</div>
+    {{ end }}
     <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
         <img src="/img/list-mountains-light.svg" alt="{{ i18n "taiwan_mountains" }}" class="block w-full">
     </div>
@@ -47,7 +49,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 xxl:grid-cols-3 gap-12 xl:gap-24 mt-6">
                 {{ range ((where .Parent.Pages ".Params.hidden" "!=" true).ByParam "start") }}
                     {{ if lt (time .Params.start) now }}
-                    {{ partial "event-single" . }}
+                    {{ partial "single-event" . }}
                     {{ end }}
                 {{ end }}
             </div>

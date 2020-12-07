@@ -1,4 +1,4 @@
-<div id="{{ printf "nav-dropdown-%s" .topic }}" class="absolute grid grid-cols-3 gap-2 top-menu left-0 right-0 min-h-20 bg-white bg-gradient-to-t from-gray-200 to-transparent text-black border border-gray-200 rounded-md shadow-2xl p-2" x-show="{{ printf "dropdown.%s" .topic }}"
+<div id="{{ printf "nav-dropdown-%s" .topic }}" class="absolute grid grid-cols-3 gap-2 auto-rows-min top-menu left-0 right-0 min-h-32 bg-white bg-gradient-to-t from-gray-200 to-transparent text-black border border-gray-200 rounded-md shadow-2xl p-2 mx-2" x-show="{{ printf "dropdown.%s" .topic }}"
     @click.away="hideDropdown()"
     :hidden="{{ printf "dropdown.%s" .topic }}"
     x-transition:enter="transition transform ease-out duration-200"
@@ -9,13 +9,14 @@
     x-transition:leave-end="opacity-0 translate-y-5"
     x-cloak
 >
-<div class="flex flex-col justify-around px-6">
+<div class="flex flex-col justify-around items-start px-6">
   {{ range .dropdown.links }}
-  <a href="{{ print "/" $.lang .link }}" class="text-primary text-base font-bold my-2 hover:text-black focus:text-black">{{ .name }}</a>
+  <a href="{{ print "/" $.lang .link }}" class="text-primary text-base font-bold my-2 focus-primary">{{ .name }}</a>
   {{ end }}
 </div>
 
 {{ $image := resources.Get .dropdown.image }}
+{{ $image = $image.Fill "800x300 jpg q30" }}
 
 <div class="flex items-center p-6">
     {{ with .dropdown.text }}
@@ -27,7 +28,7 @@
 
 {{ if $image }}
 <div class="relative h-full rounded-md overflow-hidden">
-    <img src="{{ $image.RelPermalink }}" alt="asdasd" class="absolute inset-0 w-full h-full object-cover">
+    <img src="{{ $image.RelPermalink }}" alt="asdasd" class="absolute inset-0 w-full h-full object-cover object-top">
 </div>
 {{ end }}
 
@@ -40,7 +41,7 @@
     
     {{ if in .dropdown.items "latestnews" }}
     {{ $latestnews := .all.GetPage "news" }}
-    <a href="{{ $latestnews.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4 hover:text-black focus:text-black">
+    <a href="{{ $latestnews.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
         {{ partial "icon" (dict "name" "newspaper" "size" "4") }}
         <span class="ml-2">
             {{ i18n "latest_news" }}
@@ -50,7 +51,7 @@
     
     {{ if in .dropdown.items "allnews" }}
     {{ $allnews := .all.GetPage "news" }}
-    <a href="{{ $allnews.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4 hover:text-black focus:text-black">
+    <a href="{{ $allnews.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
         {{ partial "icon" (dict "name" "newspaper" "size" "4") }}
         <span class="ml-2">
             {{ i18n "all_news" }} ({{ len (where .all.RegularPages "Section" "==" "news") }})
@@ -60,7 +61,7 @@
     
     {{ if in .dropdown.items "allevents" }}
     {{ $allevents := .all.GetPage "events" }}
-    <a href="{{ $allevents.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4 hover:text-black focus:text-black">
+    <a href="{{ $allevents.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
         {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
         <span class="ml-2">
             {{ i18n "latest_events" }}
@@ -70,7 +71,7 @@
     
     {{ if in .dropdown.items "allevents" }}
     {{ $allevents := .all.GetPage "events" }}
-    <a href="{{ $allevents.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4 hover:text-black focus:text-black">
+    <a href="{{ $allevents.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
         {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
         <span class="ml-2">
             {{ i18n "all_events" }} ({{ len (where .all.RegularPages "Section" "==" "events") }})
@@ -79,7 +80,7 @@
     {{ end }}
     
     {{ if in .dropdown.items "apply" }}
-    <a href="{{ $.Site.Language.Params.apply }}" class="flex items-center bg-primary text-white text-base font-bold px-6 py-2 rounded-md hover:text-white hover:bg-black focus:text-white focus:bg-black">
+    <a href="{{ $.Site.Language.Params.apply }}" class="flex items-center bg-primary text-white text-base font-bold px-6 py-2 rounded-md focus-primary">
         <span class="mr-2">
             {{ i18n "apply_now" "Apply now" }}
         </span>

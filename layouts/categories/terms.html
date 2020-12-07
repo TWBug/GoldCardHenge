@@ -12,10 +12,12 @@
 </div>
 
 <div class="relative flex items-center z-0 pt-16">
-    <div class="absolute right-0 top-0 text-xs font-bold text-gray-400 p-2 pt-12">CATEGORIES TERMS TEMPLATE</div>
     <div
-        class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
+    class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
     ></div>
+    {{ if .Site.IsServer }}
+    <div class="absolute right-0 top-0 bg-black text-xs font-bold text-white p-2">CATEGORIES TERMS TEMPLATE</div>
+    {{ end }}
     <div class="container px-12 lg:px-24">
         <div class="sm:grid sm:grid-cols-3 gap-12 xxl:gap-24 items-center">
             <div>
@@ -54,7 +56,7 @@
                     
                 </div>
                 <div class="-mt-12">
-                    {{ partial "page-latest-news" . }}
+                    {{ partial "aside/latest-news" . }}
                     {{ partial "aside/apply-now" . }}
                 </div>
             </div>

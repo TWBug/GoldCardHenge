@@ -9,9 +9,11 @@
         <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
             <img src="/img/list-mountains.svg" alt="" class="block w-full" />
         </div>
+        {{ if .Site.IsServer }}
         <div class="absolute right-0 bottom-0 text-xs font-bold text-white text-opacity-25 p-2">
             TERMS TOPICS
         </div>
+        {{ end }}
     </div>
 </div>
 <div class="relative flex-grow">

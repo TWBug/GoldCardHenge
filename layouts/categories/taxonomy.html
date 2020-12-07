@@ -10,20 +10,50 @@
     {{ partial "navigation" . }}
 </div>
 
-<div class="relative flex items-center z-0 pt-16">
-    <div class="absolute right-0 top-0 text-xs font-bold text-gray-400 p-2 pt-12">CATEGORIES TAXONOMY TEMPLATE</div>
+<div class="relative flex items-center bg-background-light z-0 shadow-xl py-16">
     <div
-        class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
+    class="absolute top-0 inset-x-0 h-full bg-gradient-to-b from-gradient to-transparent opacity-25 -z-1"
     ></div>
+    {{ if .Site.IsServer }}
+    <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">NEWS TAXONOMY TEMPLATE</div>
+    {{ end }}
+    <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
+        <img src="/img/list-mountains-light.svg" alt="{{ i18n "taiwan_mountains" }}" class="block w-full">
+    </div>
     <div class="container px-12 lg:px-24">
-        <div class="sm:grid sm:grid-cols-3 gap-12 xxl:gap-24 items-center">
-            <div>
-                {{ if $cover_image }}
-                <img src="{{ $cover_image.RelPermalink }}" class="mx-auto w-full max-w-48" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
-                {{ end }}
+        <div class="flex flex-col md:flex-row justify-between md:items-center lg:px-24">
+            {{ if $cover_image }}
+            <div class="flex-center w-1/3 md:w-1/4 mb-6">
+                <img src="{{ $cover_image.RelPermalink }}" class="w-full max-h-48 filter-dropshadow-white" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
             </div>
-            <div class="replace sm:col-span-2 text-center sm:text-left mt-4 sm:mt-0">
-                <h1 class="text-5xl leading-tight font-semibold mb-2">
+            {{ end }}
+            <div class="replace w-full md:w-2/3">
+                {{ $news := .Site.GetPage "/news" }}
+                <nav aria-label="breadcrumb">
+                    <div class="text-xs font-semibold mb-4">
+                        <ol class="flex items-center font-bold">
+                            <li class="pr-2">
+                                <a href="{{ .Site.Home.RelPermalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">
+                                    {{ partial "icon" (dict "name" "home" "size" "4") }}
+                                    <span class="ml-2">Home</span>
+                                </a>
+                            </li>
+                            <li class="border-l-2 border-gray-500 border-dashed px-2">
+                                <a href="{{ $news.RelPermalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">{{ $news.Title }}</a>
+                            </li>
+                            <li class="border-l-2 border-gray-500 border-dashed px-2">
+                                <span class="flex items-center bg-white rounded px-2 py-1">
+                                    {{ if i18n .Title }}
+                                    {{ i18n .Title }}
+                                    {{ else }}
+                                    {{ .Title | humanize }}
+                                    {{ end }}
+                                </span>
+                            </li>
+                        </ol>
+                    </div>
+                </nav>
+                <h1 class="text-5xl leading-tight font-semibold my-2">
                     {{ i18n "news_category" }}:
                     {{ if i18n .Title }}
                     {{ .Title }}
@@ -31,15 +61,18 @@
                     {{ .Title | humanize }}
                     {{ end }}
                 </h1>
-                <p class="text-xl font-medium leading-relaxed">{{ $news.Summary }}</p>
+                <p class="text-lg font-medium leading-relaxed">{{ $news.Summary }}</p>
             </div>
         </div>
     </div>
 </div>
 
-<div class="relative flex-grow">
-    <section id="scroll">
-        <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
+<div id="scroll" class="relative flex-grow pt-12">
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-transparent -z-1"
+    ></div>
+    <section>
+        <div class="container pb-12 sm:pb-24 px-12 lg:px-24">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
                 <div class="lg:col-span-2 pt-10">
                   <div class=" border-t-2 border-secondary border-dashed"></div>

@@ -1,12 +1,12 @@
 <div class="my-12">
-    <div class="flex items-baseline justify-between border-b-2 border-secondary border-dashed px-2 pb-2">
-        <h3 class="text-xl font-bold">{{ i18n "categories" }}</h3>
-        {{ partial "icon" (dict "name" "tags" "size" "7") }}
+    <div class="flex items-center border-b-2 border-secondary border-dashed px-2 pb-2">
+        {{ partial "icon" (dict "name" "tags" "size" "5") }}
+        <h3 class="text-xl font-bold ml-2">{{ i18n "all_topics" }}</h3>
     </div>
     <ul class="block pt-6 pl-2">
         {{ range .Site.Taxonomies.topics }}
         <li class="inline-block bg-primary rounded-lg text-white text-sm mr-2 mb-2">
-            <a href="{{ .Page.Permalink }}" class="flex items-center px-3 py-1">
+            <a href="{{ .Page.Permalink }}" class="flex items-center px-3 py-1 focus-primary">
               {{ partial "icon" (dict "name" "tag" "size" "3") }}
               <span class="font-bold uppercase ml-2">
                 {{ .Page.Title }}

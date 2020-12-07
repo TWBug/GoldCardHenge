@@ -15,11 +15,11 @@
     >
         <span class="text-gray-800 text-lg font-bold text-left pr-12">{{ print $suffix " " $title }}</span>
         <span x-show="!show"> {{ partial "icon" (dict "name" "angle-down" "size" "10" "alt" "Show Answer") }} </span>
-        <span x-show="show"> {{ partial "icon" (dict "name" "angle-up" "size" "10" "alt" "Hide Answer") }} </span>
+        <span x-show="show" x-cloak> {{ partial "icon" (dict "name" "angle-up" "size" "10" "alt" "Hide Answer") }} </span>
     </button>
     <div
         id="{{ printf "accordion-content-%s" $id }}"
-        class="text-base font-regular leading-7 pt-6 pb-2"
+        class="text-base font-medium leading-7 pt-6 pb-2"
         x-cloak
         x-show="show"
         aria-labelledby="{{ printf "accordion-button-%s" $id }}"

@@ -1,8 +1,8 @@
 <html lang="{{ .Site.Language.Lang }}">
     <head>
-        {{ block "head" . }}
         {{ partial "head" . }}
-        {{ partial "head-alpine" ( dict "spruce" "true" ) }}
+        {{ block "head" . }}
+        {{ partial "head/alpine" ( dict "spruce" "true" ) }}
         {{ end }}
     </head>
     {{ if eq .Site.Language.Lang "zh" }}
@@ -20,9 +20,9 @@
         </div>
         {{ partial "welcome" . }}
         {{ block "scripts" . }}
-        {{ partial "scripts-global" }}
-        {{ partial "scripts-analytics" }}
-        {{ partial "scripts-lunr" }}
+        {{ partial "scripts/global" }}
+        {{ partial "scripts/analytics" }}
+        {{ partial "scripts/lunr" }}
         {{ end }}
     </body>
 </html>
