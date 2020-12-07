@@ -1,6 +1,6 @@
 {{ $topic := .Page.Params.topic }}
 {{ $language := .Site.Language.Lang }}
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index .Site.Data.navigation .Site.Language.Lang }}
 {{ $url := .Page.Permalink }}
 {{ $actual_language := .Site.Language.Lang }}
 
@@ -57,7 +57,7 @@
             {{ end }}
         </div>
         <ul class="text-2xl font-medium flex-grow-0 overflow-y-scroll">
-            {{ range $data.navigation.items }}
+            {{ range $data.items }}
                 {{ if eq .topic $topic}}
                 <li class="bg-yellow-400 text-black border-b border-white border-opacity-50 font-bold pl-4 py-2">
                 {{ else }}
