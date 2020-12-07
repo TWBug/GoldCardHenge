@@ -7,6 +7,6 @@
 {{ $target = "_blank" }}
 {{ end }}
 <a class="text-primary font-bold underline" href="{{ .Destination }}" target="{{ $target }}">
-  {{ .Text }}
+  {{ .Text | safeHTML }}
 </a>
 
