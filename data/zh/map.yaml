@@ -111,3 +111,10 @@ items:
       local: "Taichung, Taiwan"
       description: "PhD in Chemistry NTHU, Post Doc at NTNU"
       image: "member-uttam-patil.jpg"
+    - name: "Christopher Wong"
+      left: 72.04
+      top: 44.30
+      origin: "San Francisco, California, USA"
+      local: "Taipei, Taiwan"
+      description: "MBA Candidate in Sustainable Solutions at Presidio Graduate School exploring sustainability and food systems in Taiwan"
+      image: "member-christopher-wong.jpg"
