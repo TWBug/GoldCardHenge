@@ -35,8 +35,8 @@ cover_image_alt: null
 
 ## 八大專業領域：
 
-* 科技領域（科技部）
-* 經濟領域（經濟部）
+* [科技領域（科技部）](/field-of-science-technology/)
+* [](/field-of-science-technology/)經濟領域（經濟部）
 * 教育領域（教育部）
 * 文化、藝術領域（文化部）
 * 體育領域（教育部）
