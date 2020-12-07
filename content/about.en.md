@@ -21,17 +21,17 @@ cover_image_alt: null
 # What is the Taiwan Gold Card?
 
 {{< base >}}
-就業金卡核發是依據〈外國專業人才延攬及僱用法〉相關條例所設定的子法條，於2017年10月31日經立法院三讀通過，為我國留才攬才立下重要里程碑。
+就業金卡核發是依據〈Act for the Recruitment and Employment of Foreign Professional Talent〉相關條例所設定的子法條，於2017年10月31日經立法院三讀通過，為我國留才攬才立下重要里程碑。
 {{< /base >}}
 
 Launched in 2018, The Taiwan Employment Gold Card is a combined visa, work permit, and residence permit. The card gives you the right to stay and work in Taiwan for 1 to 3 years, and you can apply online without sponsorship. It comes with open-work rights, so you can work for any (or multiple) companies in Taiwan or start your own business.
 
 ## Four-in-One
 
-* Work Permit
-* Residence Permit
-* Alien Resident Certificate
-* Re-entry Permit
+* Work Permit:
+* Residence Permit:
+* Alien Resident Certificate:
+* Re-entry Permit:
 
 Qualification is based on an assessment of your professional skills. You don't need to have already secured a job in Taiwan. The Gold Card costs between USD 100 and USD 310 depending on your nationality and your card's duration. A perfect application takes 30-days. However, if additional supporting documents are requested, expect a time frame of 50-60 days. 
 
