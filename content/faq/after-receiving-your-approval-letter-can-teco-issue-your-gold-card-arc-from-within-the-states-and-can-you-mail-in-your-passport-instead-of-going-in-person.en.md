@@ -4,7 +4,7 @@ title: After receiving your approval letter, can TECO issue your gold card ARC
   person?)
 draft: false
 tags:
-  - Application
+  - General
 ---
 "Yes (and Yes), although there is some local discretion depending on the coronavirus situation. Typically, they do not accept mail-in passports for verification of identities; whether or not they do during this time is up to the local office.
 San Francisco TECO actually posted a news update on March 16 (but only in Mandarin) stating that they were accepting mail-in documents for consular services to reduce contact. https://www.taiwanembassy.org/ussfo/post/6250.html
