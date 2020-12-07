@@ -429,6 +429,7 @@ collections:
                 maxLength: 248,
                 i18n: true,
             }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - {
                 label: 'Question (if different from above 若不同上)',
                 name: 'question',
