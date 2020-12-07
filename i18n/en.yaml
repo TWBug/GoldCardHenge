@@ -15,9 +15,9 @@
 - id: latest_news
   translation: 'Latest news'
 - id: reading_time
-  translation: "Reading time: %d minute(s)"
+  translation: 'Reading time: %d minute(s)'
 - id: read_more
-  translation: "Read more"
+  translation: 'Read more'
 - id: last_changed
   translation: 'Last changed'
 - id: table_of_contents
@@ -48,6 +48,8 @@
   translation: 'Why Taiwan'
 - id: topics
   translation: 'Topics'
+- id: all_topics
+  translation: 'All topics'
 - id: legal
   translation: 'Legal'
 - id: goldcard
@@ -82,6 +84,12 @@
   translation: 'Filter FAQ list'
 - id: no_filtered_faq_found
   translation: 'No filtered FAQ found'
+- id: how_to_apply
+  translation: 'How to apply'
+- id: how_to_apply_copy
+  translation:
+      'Are you convinced that the Taiwan Employment Gold Card will be your personal next step?
+      Amazing - Start with your application now...'
 - id: since_2018
   translation: 'Since 2018'
 - id: taipei_city_skyline

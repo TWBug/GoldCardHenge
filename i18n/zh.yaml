@@ -48,6 +48,8 @@
   translation: '為什麼台灣'
 - id: topics
   translation: '话题'
+- id: all_topics
+  translation: '话题'
 - id: legal
   translation: '法律'
 - id: goldcard
@@ -82,6 +84,12 @@
   translation: 'Filter FAQ list'
 - id: no_filtered_faq_found
   translation: 'No filtered FAQ found'
+- id: how_to_apply
+  translation: 'How to apply'
+- id: how_to_apply_copy
+  translation:
+      'Are you convinced that the Taiwan Employment Gold Card will be your personal next step?
+      Amazing - Start with your application now...'
 - id: since_2018
   translation: 'Since 2018'
 - id: taipei_city_skyline
