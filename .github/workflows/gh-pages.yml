@@ -14,13 +14,28 @@ jobs:
                   submodules: true
                   fetch-depth: 0
 
+            - name: Setup Node
+              uses: actions/setup-node@v2.1.2
+              with:
+                  node-version: '12.x'
+
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v2
               with:
                   hugo-version: '0.74.3'
 
-            - name: Build Hugo
-              run: hugo --minify --environment gh
+            - name: Cache dependencies
+              uses: actions/cache@v2
+              with:
+                  path: ~/.npm
+                  key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+                  restore-keys: |
+                      ${{ runner.os }}-node-
+
+            - name: Build JS dependencies and Hugo
+              run: 'npm run build:gh'
+            # - name: Build Hugo
+            #   run: hugo --minify --environment gh
 
             - name: Deploy Hugo
               uses: peaceiris/actions-gh-pages@v3
