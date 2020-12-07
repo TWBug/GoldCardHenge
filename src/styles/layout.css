@@ -233,7 +233,7 @@ blockquote {
 .copy ul {
     /* list-style-type: '>'; */
     list-style-type: circle;
-    @apply list-outside ml-4 mb-4 mr-12;
+    @apply list-outside ml-4 mb-4;
 }
 
 .copy ul ul {
