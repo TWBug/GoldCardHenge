@@ -10,7 +10,7 @@ topic: faq
 cover_image: null
 title: 什麼是就業金卡？
 tags:
-  - Application
+  - General
 publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
