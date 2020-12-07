@@ -222,6 +222,11 @@ function initUI() {
   background: white;
   border-radius: 0 0 3px 3px;
 }
+@media screen and (max-width: 900px) {
+    #search-results {
+        top: 130px;
+    }
+}
 .search-result-list a h4 {
   font-weight: bold;
 }
