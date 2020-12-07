@@ -12,6 +12,7 @@
         "build": "npm run gulp && npm run hugo",
         "build:development": "npm run hugo -- --environment development",
         "build:staging": "npm run hugo -- --environment staging",
+        "build:gh": "npm run babel && npm run hugo -- --environment gh",
         "watch": "npx gulp watch",
         "lunr:index": "make lunr-index",
         "test": "npm run lunr:index",
