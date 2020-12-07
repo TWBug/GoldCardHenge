@@ -48,7 +48,7 @@
     {{ end }}
 </ul>
 <div class="flex lg:hidden">
-    <button type="button" x-on:click="toggleSearch()" class="px-4" >
+    <button type="button" data-cy="show-search" x-on:click="toggleSearch()" class="px-4" >
         {{ partial "icon" (dict "name" "search" "size" "8") }}
     </button>
 </div>
