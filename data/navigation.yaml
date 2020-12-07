@@ -4,7 +4,7 @@ en:
       topic: goldcard
       link: /about/
       dropdown:
-        image: img/uploads/taiwan-lights.jpg
+        image: cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
         text: Taiwan is an amazing place to live, work and invest. Find out more about
           the Gold Card, how to qualify and apply.
         links:
@@ -28,7 +28,7 @@ en:
       topic: eventsnews
       link: /news/
       dropdown:
-        image: img/uploads/dummy-image.jpg
+        image: cms-uploads/taiwan-taipei-chiang-kai-shek-memorial-hall.jpg
         text: Read the latest news about the Taiwan Employment Gold Card Program and
           take a look at our events!
         links:
