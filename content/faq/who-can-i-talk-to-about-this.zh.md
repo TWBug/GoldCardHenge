@@ -8,4 +8,3 @@ tags:
 
 * [外國專業人才延攬及僱用法資訊專頁](https://foreigntalentact.ndc.gov.tw/Default.aspx)
 * [](https://foreigntalentact.ndc.gov.tw/Default.aspx)Email至 help@taiwangoldcard.com
-* [Contact Taiwan](https://www.contacttaiwan.tw/main/index.aspx?lang=1)
