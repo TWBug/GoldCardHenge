@@ -4,6 +4,8 @@ title: Who is eligible to apply for the tax incentives for foreign special
 draft: false
 categories:
   - about
+tags:
+  - General
 ---
 A foreign special professional, who has been recognized to have the special expertise announced by the central competent authority, has obtained the foreign special professional employment (work) permit document issued by the Ministry of Labor or by the Ministry of Education, or has obtained the Employment Gold Card issued by the National Immigration Agency, Ministry of the Interior and has met all of the following requirements is eligible to apply for the tax incentives:
 
