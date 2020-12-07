@@ -33,8 +33,8 @@ Qualification is based on an assessment of your professional skills. You don't n
 ## Industries that are eligible to apply for the Taiwan Employment Gold Card:
 
 * [Science & Technology](https://staging.taiwangoldcard.tw/en/qualification/field-of-science-technology/)
-* [](https://staging.taiwangoldcard.tw/en/qualification/field-of-science-technology/)[Architecture](https://staging.taiwangoldcard.tw/en/qualification/field-of-architecture/)
-* [](https://staging.taiwangoldcard.tw/en/qualification/field-of-architecture/)[Culture & Arts](https://staging.taiwangoldcard.tw/en/qualification/field-of-culture-and-arts/)
+* [Architecture](/qualification/field-of-architecture/)
+* [](/qualification/field-of-architecture/)[](https://staging.taiwangoldcard.tw/en/qualification/field-of-architecture/)[Culture & Arts](https://staging.taiwangoldcard.tw/en/qualification/field-of-culture-and-arts/)
 * [](https://staging.taiwangoldcard.tw/en/qualification/field-of-culture-and-arts/)[Economy](https://staging.taiwangoldcard.tw/en/qualification/field-of-economy/)
 * [](https://staging.taiwangoldcard.tw/en/qualification/field-of-economy/)[Education](https://staging.taiwangoldcard.tw/en/qualification/field-of-education/)
 * [](https://staging.taiwangoldcard.tw/en/qualification/field-of-education/)[Finance](https://staging.taiwangoldcard.tw/en/qualification/field-of-finance/)
