@@ -42,8 +42,8 @@ Qualification is based on an assessment of your professional skills. You don't n
 * [](/qualification/field-of-architecture/)[](https://staging.taiwangoldcard.tw/en/qualification/field-of-architecture/)[Culture & Arts](https://staging.taiwangoldcard.tw/en/qualification/field-of-culture-and-arts/)
 * [](https://staging.taiwangoldcard.tw/en/qualification/field-of-culture-and-arts/)[Economy](https://staging.taiwangoldcard.tw/en/qualification/field-of-economy/)
 * [](https://staging.taiwangoldcard.tw/en/qualification/field-of-economy/)[Education](https://staging.taiwangoldcard.tw/en/qualification/field-of-education/)
-* [](https://staging.taiwangoldcard.tw/en/qualification/field-of-education/)[Finance](https://staging.taiwangoldcard.tw/en/qualification/field-of-finance/)
-* [](https://staging.taiwangoldcard.tw/en/qualification/field-of-finance/)[Law](https://staging.taiwangoldcard.tw/en/qualification/field-of-law/)
+* [Finance](/en/qualification/field-of-finance/)
+* [](/en/qualification/field-of-finance/)[](https://staging.taiwangoldcard.tw/en/qualification/field-of-finance/)[Law](https://staging.taiwangoldcard.tw/en/qualification/field-of-law/)
 * [Sport](https://staging.taiwangoldcard.tw/en/qualification/field-of-sport/)
 
 ## [](https://staging.taiwangoldcard.tw/en/qualification/field-of-sport/)Benefits in Summary
