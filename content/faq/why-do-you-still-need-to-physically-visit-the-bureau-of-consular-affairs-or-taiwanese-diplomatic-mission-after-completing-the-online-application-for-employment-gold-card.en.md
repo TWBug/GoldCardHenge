@@ -5,5 +5,7 @@ title: Why do you still need to physically visit the Bureau of Consular Affairs
 draft: false
 categories:
   - application
+tags:
+  - Application
 ---
 In accordance with the relevant regulations issued by the Ministry of Foreign Affairs, foreigners applying for visas should submit their passports for examination by the consular authority for authenticity and for review of other requisites.
