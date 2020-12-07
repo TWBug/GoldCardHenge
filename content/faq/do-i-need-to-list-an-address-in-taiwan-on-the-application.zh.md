@@ -4,4 +4,4 @@ draft: false
 tags:
   - Application
 ---
-NONE
+不需要，您可以先空著，直到確定你的台灣住址後再上網更新。
