@@ -4,7 +4,7 @@ draft: false
 categories:
   - about
 tags:
-  - Application
+  - General
 ---
 Holders of Employment Gold Card enjoy the following rights and interests:
 

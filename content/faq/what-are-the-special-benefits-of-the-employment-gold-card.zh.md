@@ -4,7 +4,7 @@ draft: false
 categories:
   - about
 tags:
-  - Application
+  - General
 ---
 就業金卡持有人享有以下權益：
 
