@@ -1,6 +1,6 @@
 ---
 title: Who is eligible to apply for the tax incentives for foreign special
-  professionals?
+  professionals? And what do they include?
 draft: false
 categories:
   - about
