@@ -1,5 +1,5 @@
 ---
-title: Can I be self-employed, start a business?
+title: Can I be self-employed or start a business?
 draft: false
 tags:
   - General
