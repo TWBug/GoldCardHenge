@@ -17,14 +17,12 @@
     {{ partial "navigation" .  }}
     <div class="absolute inset-0 bg-nav-start bg-gradient-to-b from-nav-start to-nav-end print:hidden">
         <div class="absolute inset-0 w-full h-full z-0">
-            <figure>
-                <img
-                sizes="100vw"
-                srcset="{{ $heroimagesmall.RelPermalink }} 480w, {{ $heroimagemedium.RelPermalink }} 768w, {{ $heroimageslarge.RelPermalink }} 1024w, {{ $heroimagesxlarge.RelPermalink }} 1440w"
-                src="{{ $heroimagesxlarge.RelPermalink }}"
-                loading="lazy"
-                alt="{{ .Summary | humanize }}" class="block w-full h-full object-cover object-left-bottom">
-            </figure>
+            <img
+            sizes="100vw"
+            srcset="{{ $heroimagesmall.RelPermalink }} 480w, {{ $heroimagemedium.RelPermalink }} 768w, {{ $heroimageslarge.RelPermalink }} 1024w, {{ $heroimagesxlarge.RelPermalink }} 1440w"
+            src="{{ $heroimagesxlarge.RelPermalink }}"
+            loading="lazy"
+            alt="{{ .Summary | humanize }}" class="block w-full h-full object-cover object-left-bottom">
         </div>
         <div class="absolute right-0 bottom-0 w-full sm:w-2/3 xxl:w-1/2 h-2/3">
             <div class="w-full lg:w-5/6 p-12">
