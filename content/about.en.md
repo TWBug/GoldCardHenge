@@ -26,22 +26,27 @@ cover_image_alt: null
 
 Launched in 2018, The Taiwan Employment Gold Card is a combined visa, work permit, and residence permit. The card gives you the right to stay and work in Taiwan for 1 to 3 years, and you can apply online without sponsorship. It comes with open-work rights, so you can work for any (or multiple) companies in Taiwan or start your own business.
 
-Four in one
+## Four-in-One
+
+* Work Permit
+* Residence Permit
+* Alien Resident Certificate
+* Re-entry Permit
 
 Qualification is based on an assessment of your professional skills. You don't need to have already secured a job in Taiwan. The Gold Card costs between USD 100 and USD 310 depending on your nationality and your card's duration. A perfect application takes 30-days. However, if additional supporting documents are requested, expect a time frame of 50-60 days. 
 
 ## Industries that are eligible to apply for the Taiwan Employment Gold Card:
 
-* Science & Technology
-* Architecture
-* Culture & Arts
-* Economy
-* Education
-* Finance
-* Law
-* Sport
+* [Science & Technology](https://staging.taiwangoldcard.tw/en/qualification/field-of-science-technology/)
+* [Architecture](/qualification/field-of-architecture/)
+* [](/qualification/field-of-architecture/)[](https://staging.taiwangoldcard.tw/en/qualification/field-of-architecture/)[Culture & Arts](https://staging.taiwangoldcard.tw/en/qualification/field-of-culture-and-arts/)
+* [](https://staging.taiwangoldcard.tw/en/qualification/field-of-culture-and-arts/)[Economy](https://staging.taiwangoldcard.tw/en/qualification/field-of-economy/)
+* [](https://staging.taiwangoldcard.tw/en/qualification/field-of-economy/)[Education](https://staging.taiwangoldcard.tw/en/qualification/field-of-education/)
+* [Finance](/en/qualification/field-of-finance/)
+* [](/en/qualification/field-of-finance/)[](https://staging.taiwangoldcard.tw/en/qualification/field-of-finance/)[Law](https://staging.taiwangoldcard.tw/en/qualification/field-of-law/)
+* [Sport](https://staging.taiwangoldcard.tw/en/qualification/field-of-sport/)
 
-## Benefits in Summary
+## [](https://staging.taiwangoldcard.tw/en/qualification/field-of-sport/)Benefits in Summary
 
 1. The card is an open-end work permit issued to employment-seeking individuals that require neither pre-confirmed hiring by or application through any employer.
 2. There are income tax benefits in terms of income tax deduction and exemption. 
