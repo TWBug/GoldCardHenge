@@ -10,7 +10,7 @@ topic: faq
 cover_image: null
 title: What is the Gold Card?
 tags:
-  - General
+  - Application
 publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
