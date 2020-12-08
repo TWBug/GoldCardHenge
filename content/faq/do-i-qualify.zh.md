@@ -14,4 +14,6 @@ publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
 ---
-在「領域專長」分頁中選擇所要申請的領域、申請資格條件與子領域（有些類別無），相關證明文件會依據您所選擇的「領域專長」而有相對應的要求。Gold Card Qualification Check[/zh/qualification/](/zh/qualification/)[/zh/qualification/](/zh/qualification/)
+您必須選擇在「[領域專長](/zh/qualification/)」分頁中選擇所要申請的領域、申請資格條件與子領域（有些類別無），相關證明文件會依據您所選擇的「領域專長」而有相對應的要求。
+
+您可以使用確認您可能符合的領域專長[Gold Card Qualification Check](https://visafinder.tw/gold-card-qualification/)
