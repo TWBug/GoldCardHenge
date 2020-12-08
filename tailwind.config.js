@@ -123,6 +123,7 @@ module.exports = {
             },
             outline: {
                 primary: ['2px dashed #ce3f00', '2px'],
+                white: ['2px dashed #fff', '2px'],
             },
             zIndex: {
                 '-1': '-1',
