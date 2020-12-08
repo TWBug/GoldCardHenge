@@ -1,5 +1,5 @@
 ---
-title: Taiwan Employment Gold
+title: Taiwan Employment Gold Card
 summary: In 2019, the Expat Insider named Taiwan the happiest country in East
   Asia and the best destination for Expats. The Employment Gold Card makes
   moving to Taiwan as an international professional easy and convenient. Find
