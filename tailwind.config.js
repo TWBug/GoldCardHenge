@@ -138,33 +138,13 @@ module.exports = {
         transitionProperty: ['responsive', 'hover', 'focus', 'motion-reduce'],
     },
     plugins: [
-        require('@tailwindcss/typography'),
+        // require('@tailwindcss/typography'),
         require('@tailwindcss/ui'),
+        require('@markusantonwolf/tailwindcss-filters'),
         plugin(function ({ addUtilities }) {
             const changedUtilities = {
-                '.backdrop-blur-1': {
-                    backdropFilter: 'blur(1px)',
-                },
-                '.backdrop-blur-2': {
-                    backdropFilter: 'blur(2px)',
-                },
-                '.backdrop-blur-3': {
-                    backdropFilter: 'blur(5px)',
-                },
                 '.font-bolder': {
                     fontWeight: 'bolder',
-                },
-                '.filter-dropshadow-white': {
-                    filter: 'drop-shadow(0px 0px 2px white)',
-                },
-                '.filter-dropshadow-black': {
-                    filter: 'drop-shadow(0px 0px 2px rgba(0,0,0,0.5))',
-                },
-                '.filter-dropshadow-blue': {
-                    filter: 'drop-shadow(0px 0px 2px rgba(1, 127, 209,1))',
-                },
-                '.filter-none': {
-                    filter: 'none',
                 },
                 '.self-right': {
                     justifySelf: 'right',
