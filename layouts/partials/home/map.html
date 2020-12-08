@@ -21,7 +21,7 @@
                         data-local="{{ $element.local }}"
                         data-description="{{ $element.description }}"
                         data-image="{{ $element.image }}"
-                        style="--left:{{ $element.left }}%;--top:{{ $element.top }}%;--delay:{{ mul $index 3000 }}ms"
+                        style="--left:{{ $element.left }}%;--top:{{ $element.top }}%;--delay:{{ mul $index 2000 }}ms"
                         @click.stop="toggle({{ $index }})"
                     >
                         <img src="/img/{{ $element.image }}" alt="{{ printf "Portrait %s" $element.name }}"
@@ -102,7 +102,7 @@
         animation-delay: var(--delay);
         animation-direction: normal;
         animation-name: animation-fade;
-        animation-duration: 15s;
+        animation-duration: 40s;
         animation-fill-mode: both;
     }
     .member.paused {
@@ -126,19 +126,19 @@
             opacity: 0;
             z-index: 0;
         }
-        20% {
+        6% {
             opacity: 1;
             z-index: 1;
         }
-        40% {
+        30% {
             opacity: 1;
             z-index: 1;
         }
-        60% {
+        35% {
             opacity: 0;
             z-index: 0;
         }
-        61% {
+        36% {
             opacity: 0;
             z-index: -1;
         }

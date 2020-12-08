@@ -118,3 +118,10 @@ items:
       local: "Taipei, Taiwan"
       description: "MBA Candidate in Sustainable Solutions at Presidio Graduate School exploring sustainability and food systems in Taiwan"
       image: "member-christopher-wong.jpg"
+    - name: "Diana N."
+      left: 73.45
+      top: 47.06
+      origin: "Los Angeles, California, USA"
+      local: "Taipei, Taiwan"
+      description: "User Experience Design"
+      image: "member-diana-n.jpg"
