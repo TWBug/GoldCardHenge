@@ -1,7 +1,8 @@
 ---
 title: Field of Culture and Arts
-summary: Standards for artists, performers, broadcasters, publishers, media,
-  cultural administrators, art academics, etc.
+summary: Those who have won international awards or achieved outstanding
+  distinction in the fields of performing arts, visual arts, publishing, film &
+  TV, popular music, handicrafts, and cultural administration.
 draft: false
 ---
 # Foreign Special Professional Who Possesses Special Expertise in the Field of Culture and Arts
