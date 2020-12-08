@@ -20,3 +20,4 @@ static/js-misc/lunr-search.js
 # Local Netlify folder
 .netlify
 cypress/integration/examples
+cypress/videos
