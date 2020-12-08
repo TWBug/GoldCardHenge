@@ -18,9 +18,6 @@ en:
             link: /gold-card-office/
         items:
           - apply
-    - name: FAQ
-      topic: faq
-      link: /faq/
     - name: Why Taiwan
       topic: whytaiwan
       link: /why-taiwan/
@@ -38,6 +35,9 @@ en:
             link: /events/
         items:
           - apply
+    - name: FAQ
+      topic: faq
+      link: /faq/
     - name: Resources
       topic: resources
       link: /about/
@@ -72,9 +72,6 @@ zh:
             link: /gold-card-office/
         items:
           - apply
-    - name: 常見問題
-      topic: faq
-      link: /faq/
     - name: Why Taiwan
       topic: whytaiwan
       link: /why-taiwan/
@@ -91,6 +88,9 @@ zh:
             link: /events/
         items:
           - apply
+    - name: 常見問題
+      topic: faq
+      link: /faq/
     - name: 相關資源
       topic: resources
       link: /about/
