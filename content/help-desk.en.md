@@ -17,8 +17,6 @@ cover_image_alt: null
 
 The Taiwan Gold Card Office operates a bi-lingual helpdesk for applicants and current cardholders. 
 
-If you have any questions, concerns, and suggestions, please don't hesitate to e-mail us at: 
-
-help@taiwangoldcard.tw
+If you have any questions, concerns, and suggestions, please don't hesitate to e-mail us at: help@taiwangoldcard.tw
 
 For any questions related to the Gold Card or your move to Taiwan.
