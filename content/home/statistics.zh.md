@@ -11,7 +11,7 @@ items:
     href: 金卡核發數
   - preview: null
     label: "60"
-    href: 金卡人國籍數
+    href: 金卡國籍數
   - preview: null
     label: "10876"
     href: 諮詢服務次數
