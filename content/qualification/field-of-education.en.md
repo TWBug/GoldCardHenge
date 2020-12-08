@@ -1,7 +1,9 @@
 ---
 title: Field of Education
-summary: Qualification standards for PhD holders, researchers, scholars and
-  high-level teachers.
+summary: Those who hold a doctoral degree from one of the world’s 200
+  top-ranking universities, have served in one of the world’s top 500
+  universities, and have engaged in teaching and research for at least five
+  years, or have gained a Yushan Scholar or Yushan Young Scholar award.
 draft: false
 icon: ""
 style: title
