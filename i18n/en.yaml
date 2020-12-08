@@ -116,12 +116,6 @@
   translation: 'Card'
 - id: usa
   translation: 'USA'
-- id: super
-  translation: 'Super'
-- id: cool
-  translation: 'Cool'
-- id: first
-  translation: 'First'
 - id: website
   translation: 'Website'
 - id: facebook
@@ -134,3 +128,20 @@
   translation: 'Twitter'
 - id: linkedin
   translation: 'LinkedIn'
+  
+- id: application
+  translation: 'Application'
+- id: general
+  translation: 'General'
+- id: qualification
+  translation: 'Qualification'
+- id: renewal--validity
+  translation: 'Renewal & Validity'
+  
+- id: super
+  translation: 'Super'
+- id: cool
+  translation: 'Cool'
+- id: first
+  translation: 'First'
+

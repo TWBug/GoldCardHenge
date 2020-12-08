@@ -69,7 +69,14 @@
                             </div>
                             <div class="text-center p-4">
                                 <h2 class="text-lg leading-snug font-bold text-primary">
-                                    <a href="{{ .Page.RelPermalink }}" class="inline-block p-1 focus-primary">{{ .Page.Title | truncate 80 }} ({{ .Count }})</a>
+                                    <a href="{{ .Page.RelPermalink }}" class="inline-block p-1 focus-primary" help="{{ .Page.Title | anchorize }}">
+                                        {{ if i18n (.Page.Title | anchorize ) }}
+                                        {{ i18n (.Page.Title | anchorize) }}
+                                        {{ else }}
+                                        {{ .Page.Title | humanize }}
+                                        {{ end }}
+                                        ({{ .Count }})
+                                    </a>
                                 </h2>
                             </div>
                         </div>
