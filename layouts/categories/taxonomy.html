@@ -93,11 +93,10 @@
                             <div class="border-2 border-secondary rounded-md text-center font-bold text-secondary p-2 mt-8">
                                 <div class="text-xl pb-2">
                                     {{ .Lastmod.Format "2006" }}
-                                    
                                 </div>
                                 <div class="border-t-2 border-secondary border-dashed text-xs pt-2">
                                     {{ if eq .Site.Language.Lang "zh" }}
-                                    {{ printf "%d年%s月" .Lastmod.Month (.Lastmod.Format "1") }}
+                                    {{ dateFormat "1月2年" .Lastmod }}
                                     {{ else }}
                                     {{ dateFormat "January 2th" .Lastmod }}
                                     {{ end }}
@@ -105,7 +104,7 @@
                             </div>
                         </div>
                         <div class="col-span-3 px-4 py-8">
-                            <h2 class="text-xl font-bold text-primary mb-1 hover:text-black">
+                            <h2 class="text-xl font-bold text-primary mb-1">
                                 <a href="{{ .RelPermalink }}" class="focus-primary">
                                     {{ .Title | truncate 110 }}
                                 </a>
@@ -129,7 +128,7 @@
                                 <ul class="inline">
                                   {{ range .Params.categories }}
                                   <li class="inline-block text-primary text-xs p-1 mx-1">
-                                      <a href="/{{ $.Site.Language }}/categories/{{ . }}" class="inline-flex items-center">
+                                      <a href="/{{ $.Site.Language }}/categories/{{ . }}" class="inline-flex items-center focus-primary">
                                           {{ partial "icon" (dict "name" "tag" "size" "3") }}
                                           <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
                                       </a>

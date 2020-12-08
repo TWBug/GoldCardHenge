@@ -50,7 +50,7 @@
             {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
             <span class="ml-2">
                 {{ if eq .lang "zh" }}
-                {{ dateFormat "2006" .article.Date}}
+                {{ dateFormat "2006年1月2日" .article.Date }}
                 {{ else }}
                 {{ dateFormat "Monday, January 2, 2006" .article.Date }}
                 {{ end }}
