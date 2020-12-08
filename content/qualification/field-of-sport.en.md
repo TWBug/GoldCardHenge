@@ -1,6 +1,9 @@
 ---
 title: Field of Sport
-summary: Qualification standards for athletes, coaches, referees or sporting officials.
+summary: Those who have placed in the top three in an international sports
+  competition or possess outstanding skills that will help raise the level of
+  competitiveness of sport in Taiwan, and those who have served as a national
+  team coach or an international sports competition referee.
 draft: false
 ---
 # Foreign Special Professionals Possessing Special Expertise in the Field of Sport
