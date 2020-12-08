@@ -420,6 +420,15 @@ collections:
       slug: '{{slug}}'
       preview_path: en/faq/{{slug}}
       summary: '{{title}}' # IMPORTANT! See NOTE
+      # summary: '{{title}} # {{tags}}'
+      sortable_fields: ['title', 'tags', 'summary']
+      # This allows the group by functionality in the UI, but it is not on by default.
+      # NOTE: Tags are immutable lists, so when serialized they appear as 'List [ "a", "b" ]'.
+      # Therefore this regex is meant to group by tags.
+      view_groups:
+          - label: Tags 標籤
+            field: tags
+            pattern: '\[.+?\]' # See NOTE
       i18n: true
       fields:
           - {
