@@ -305,13 +305,16 @@ CMS.registerEditorComponent({
 CMS.registerEditorComponent({
     id: 'teaser',
     label: 'Teaser',
-    fields: [{ name: 'body', label: 'Teaser Text', widget: 'markdown' }],
-    pattern: /^{{< teaser >}}\n([\s\S]+?)\n{{< \/teaser >}}/,
-    fromBlock: (match) => ({ body: match[1] }),
+    fields: [
+        { name: 'prefix', label: 'Prefix 字首', widget: 'nested-string', required: false },
+        { name: 'body', label: 'Teaser Text', widget: 'markdown' }
+    ],
+    pattern: /^{{< teaser prefix="(.+?)" >}}\n([\s\S]+?)\n{{< \/teaser >}}/,
+    fromBlock: (match) => ({ prefix: Props.unescape(match[1]), body: match[2] }),
     toBlock: (obj) => {
-        return `{{< teaser >}}\n${obj.body || ''}\n{{< /teaser >}}`;
+        return `{{< teaser prefix="${Props.escape(obj.prefix)}" >}}\n${obj.body || ''}\n{{< /teaser >}}`;
     },
-    toPreview: (obj) => <div className="font-medium text-xl leading-relaxed mb-6">{obj.body}</div>,
+    toPreview: (obj) => <div className="font-medium text-xl leading-relaxed mb-6">{obj.prefix} {obj.body}</div>,
 });
 
 CMS.registerEditorComponent({
