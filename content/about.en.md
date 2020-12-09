@@ -45,8 +45,8 @@ Qualification is based on an assessment of your professional skills. You don't n
 * [Culture & Arts](/en/qualification/field-of-culture-and-arts/)(Ministry of Culture)
 * [Sport](/en/qualification/field-of-sport/)(Ministry of Education)
 * [Finance](/en/qualification/field-of-finance/)(Financial Supervisory Commission)
-* [Law](/en/qualification/field-of-law/)(Ministry of Justice,  Ministry of the Interior)
-* [Architecture](/en/qualification/field-of-architecture/)(Ministry of Justice,  Ministry of the Interior)
+* [Law](/en/qualification/field-of-law/)(Ministry of Justice)
+* [Architecture](/en/qualification/field-of-architecture/)(Ministry of the Interior)
 
 ## [](/en/qualification/field-of-sport/)[](https://staging.taiwangoldcard.tw/en/qualification/field-of-sport/)Benefits in Summary
 
