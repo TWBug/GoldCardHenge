@@ -144,4 +144,16 @@
   translation: 'Cool'
 - id: first
   translation: 'First'
+- id: business
+  translation: 'Business'
+- id: culture
+  translation: 'Culture'
+- id: healthcare
+  translation: 'Healthcare'
+- id: insurance
+  translation: 'Insurance'
+- id: nature
+  translation: 'Nature'
+- id: transportation
+  translation: 'Transportation'
 

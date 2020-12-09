@@ -146,3 +146,15 @@
   translation: '涼'
 - id: first
   translation: '第一'
+- id: business
+  translation: '商業'
+- id: culture
+  translation: '文化'
+- id: healthcare
+  translation: '衛生保健'
+- id: insurance
+  translation: '保險'
+- id: nature
+  translation: '性質'
+- id: transportation
+  translation: '運輸'
