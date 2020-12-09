@@ -12,6 +12,8 @@
   translation: 'Apply now'
 - id: apply_now_text
   translation: 'Taiwan Gold Card is your right choice!'
+- id: gold_card_members_map
+  translation: 'Gold Card Community Map'
 - id: latest_news
   translation: 'Latest news'
 - id: reading_time
@@ -37,13 +39,13 @@
 - id: news_category
   translation: 'News category'
 - id: to_accupass_event
-  translation: 'Go to AccuPass event'
+  translation: 'Event Registration'
 - id: starts_at
   translation: 'Starts at'
 - id: upcoming_events
   translation: 'Upcoming events'
 - id: event_archive
-  translation: 'Event archive'
+  translation: 'Past Events'
 - id: why_taiwan
   translation: 'Why Taiwan'
 - id: topics

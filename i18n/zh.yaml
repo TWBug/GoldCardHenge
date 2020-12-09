@@ -1,5 +1,5 @@
 - id: powered_by
-  translation: 'Powered by'
+  translation: '版權所有'
 - id: search
   translation: '搜尋'
 - id: change_language
@@ -7,43 +7,45 @@
 - id: tego
   translation: '台灣就業金卡專案辦公室'
 - id: tego_logo
-  translation: 'Logo Taiwan Employment Gold Card Office'
+  translation: '商標 - 台灣就業金卡辦公室'
 - id: apply_now
-  translation: '馬上申請'
+  translation: '立馬申請'
 - id: apply_now_text
   translation: 'Taiwan Gold Card is your right choice!'
+- id: gold_card_members_map
+  translation: '金卡社區地圖'
 - id: latest_news
   translation: '最新消息'
 - id: reading_time
   translation: '閱讀時間: %d 分鍾'
 - id: read_more
-  translation: "Read more"
+  translation: "了解更多"
 - id: last_changed
-  translation: '發布日期'
+  translation: '最後更新'
 - id: table_of_contents
   translation: '目錄'
 - id: categories
-  translation: '類別'
+  translation: '分類'
 - id: all_categories
-  translation: '所有類別'
+  translation: '所有分類'
 - id: tags
   translation: '標籤'
 - id: all_tags
   translation: '所有標籤'
 - id: faq
-  translation: 'FAQ'
+  translation: '常見問題'
 - id: news
-  translation: '新聞'
+  translation: '最新消息'
 - id: news_category
-  translation: 'News category'
+  translation: '最新消息分類'
 - id: to_accupass_event
-  translation: 'Go to AccuPass event'
+  translation: '報名參加'
 - id: starts_at
-  translation: 'Starts at'
+  translation: '開始時間'
 - id: upcoming_events
-  translation: 'Upcoming events'
+  translation: '近期活動'
 - id: event_archive
-  translation: 'Event archive'
+  translation: '過去的活動'
 - id: why_taiwan
   translation: '為什麼台灣'
 - id: topics
@@ -51,45 +53,45 @@
 - id: all_topics
   translation: '话题'
 - id: legal
-  translation: '法律'
+  translation: '法律相關'
 - id: goldcard
   translation: '就業金卡'
 - id: summary
   translation: '摘要'
 - id: all_news
-  translation: '所有新聞'
+  translation: '所有消息'
 - id: latest_events
   translation: '最新活動'
 - id: all_events
   translation: '所有活動'
 - id: latest_articles
-  translation: 'Latest articles'
+  translation: '最新文章'
 - id: latest_faq
-  translation: 'Latest FAQ'
+  translation: '最新常見問題'
 - id: all_faq
-  translation: 'All faq'
+  translation: '所有常見問題'
 - id: open_new_window
   translation: 'Open in new window'
 - id: show_details
-  translation: 'Show details'
+  translation: '顯示更多'
 - id: back
-  translation: 'back'
+  translation: '返回'
 - id: reset_filter
-  translation: 'Reset filter'
+  translation: '重設篩選'
 - id: placeholder_filter_faq_list
-  translation: 'Filter FAQ list'
+  translation: '篩選常見問題'
 - id: loading_filter
-  translation: 'Loading filter'
+  translation: '載入篩選'
 - id: no_filtered_faq_found
-  translation: 'No filtered FAQ found'
+  translation: '查無資料'
 - id: how_to_apply
-  translation: 'How to apply'
+  translation: '如何申請'
 - id: how_to_apply_copy
   translation:
       'Are you convinced that the Taiwan Employment Gold Card will be your personal next step?
       Amazing - Start with your application now...'
 - id: since_2018
-  translation: 'Since 2018'
+  translation: '自2018起'
 - id: taipei_city_skyline
   translation: '台北市天際線'
 - id: taiwan_mountains
@@ -99,9 +101,9 @@
 - id: taiwan_hummingbird
   translation: '蜂台灣鳥'
 - id: footer_copyright
-  translation: 'Taiwan Employment Gold Card Office - All rights reserverd'
+  translation: '台灣就業金卡辦公室 - 版權所有'
 - id: footer_description
-  translation: 'The Taiwan Employment Gold Card is a combined open work permit, residence permit and visa for skilled professionals.'
+  translation: '台灣就業金卡是一張結合工作許可、居留簽證、外僑居留證及重入國許可等四證合一的個人工作許可證，在有效期間內提供符合資格的外國人才可自由尋職、就職及轉換工作的便利性。'
 - id: footer_goldcard_title
   translation: '就業金卡'
 - id: footer_languages_title
