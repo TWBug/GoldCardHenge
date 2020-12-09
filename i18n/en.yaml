@@ -88,8 +88,7 @@
   translation: 'How to apply'
 - id: how_to_apply_copy
   translation:
-      'Are you convinced that the Taiwan Employment Gold Card will be your personal next step?
-      Amazing - Start with your application now...'
+      'Are you convinced that the Taiwan Employment Gold Card will be your personal next step? Amazing - Start with your application now...'
 - id: since_2018
   translation: 'Since 2018'
 - id: taipei_city_skyline
@@ -101,7 +100,7 @@
 - id: taiwan_hummingbird
   translation: 'Taiwan Hummingbird'
 - id: footer_copyright
-  translation: 'Taiwan Employment Gold Card Office - All rights reserverd'
+  translation: 'Taiwan Employment Gold Card Office - All rights reserved'
 - id: footer_description
   translation: 'The Taiwan Employment Gold Card is a combined open work permit, residence permit and visa for skilled professionals.'
 - id: footer_goldcard_title

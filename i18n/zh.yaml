@@ -80,8 +80,6 @@
   translation: 'Filter FAQ list'
 - id: loading_filter
   translation: 'Loading filter'
-- id: placeholder_filter_faq_list
-  translation: 'Filter FAQ list'
 - id: no_filtered_faq_found
   translation: 'No filtered FAQ found'
 - id: how_to_apply
