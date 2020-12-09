@@ -35,6 +35,8 @@ cover_image_alt: null
 
 ## 八大專業領域：
 
+**您必須選擇最相關的領域專長，並在該特定領域的資格列表中選擇一個特定條目。**
+
 * [科技領域](/zh/qualification/field-of-science-technology/)（科技部）
 * [經濟領域](/zh/qualification/field-of-economy/)（經濟部）
 * [教育領域](/zh/qualification/field-of-education/)（教育部）
