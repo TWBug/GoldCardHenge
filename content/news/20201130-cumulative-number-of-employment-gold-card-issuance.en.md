@@ -5,8 +5,12 @@ draft: false
 hidden: false
 style: right
 ---
+# 1,711 Gold Cards issued to date!
+
 From February 8, 2018 to Nov. 30, 2020, "1711" cards were approved.
+
 Application field of cardholders:
+
 Economy: 1146
 Science & Technology: 191
 Culture and Arts: 143
