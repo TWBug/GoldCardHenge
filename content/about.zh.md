@@ -35,14 +35,16 @@ cover_image_alt: null
 
 ## 八大專業領域：
 
-* [科技領域（科技部）](/zh/qualification/field-of-science-technology/)
-* [](/zh/qualification/field-of-science-technology/)[經濟領域（經濟部）](/zh/qualification/field-of-economy/)
-* [](/zh/qualification/field-of-economy/)[教育領域（教育部）](/zh/qualification/field-of-education/)
-* [文化、藝術領域（文化部）](/zh/qualification/field-of-culture-and-arts/)
-* [體育領域（教育部）](/zh/qualification/field-of-sport/)
-* [](/zh/qualification/field-of-sport/)[金融領域（金融監督管理委員會）](/zh/qualification/field-of-finance/)
-* [](/zh/qualification/field-of-finance/)[法律領域（法務部）](/zh/qualification/field-of-law/)
-* [](/zh/qualification/field-of-law/)[建築設計領域（內政部）](/zh/qualification/field-of-architecture/)
+**您必須選擇最相關的領域專長，並在該特定領域的資格列表中選擇一個特定條目。**
+
+* [科技領域](/zh/qualification/field-of-science-technology/)（科技部）
+* [經濟領域](/zh/qualification/field-of-economy/)（經濟部）
+* [教育領域](/zh/qualification/field-of-education/)（教育部）
+* [文化、藝術領域](/zh/qualification/field-of-culture-and-arts/)（文化部）
+* [體育領域](/zh/qualification/field-of-sport/)（教育部）
+* [金融領域](/zh/qualification/field-of-finance/)（金融監督管理委員會）
+* [法律領域](/zh/qualification/field-of-law/)（法務部）
+* [建築設計領域](/zh/qualification/field-of-architecture/)（內政部）
 
 ## [](/zh/qualification/field-of-architecture/)[](https://staging.taiwangoldcard.tw/zh/qualification/field-of-architecture/)持有就業金卡者享有五大權益：
 

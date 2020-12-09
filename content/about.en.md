@@ -39,14 +39,14 @@ Qualification is based on an assessment of your professional skills. You don't n
 
 **You must select which single ministry is most relevant, and in most cases also select a specific entry in the list of that qualifications in that particular area for your application.**
 
-* [Science & Technology](/en/qualification/field-of-science-technology/)
-* [Architecture](/en/qualification/field-of-architecture/)
-* [Culture & Arts](/en/qualification/field-of-culture-and-arts/)
-* [Economy](/en/qualification/field-of-economy/)
-* [Education](/en/qualification/field-of-education/)
-* [Finance](/en/qualification/field-of-finance/)
-* [Law](/en/qualification/field-of-law/)
-* [Sport](/en/qualification/field-of-sport/)
+* [Science & Technology](/en/qualification/field-of-science-technology/)(Ministry of Science and Technology)
+* [Economy](/en/qualification/field-of-economy/)(Ministry of Economic Affairs)
+* [Education](/en/qualification/field-of-education/)(Ministry of Education)
+* [Culture & Arts](/en/qualification/field-of-culture-and-arts/)(Ministry of Culture)
+* [Sport](/en/qualification/field-of-sport/)(Ministry of Education)
+* [Finance](/en/qualification/field-of-finance/)(Financial Supervisory Commission)
+* [Law](/en/qualification/field-of-law/)(Ministry of Justice)
+* [Architecture](/en/qualification/field-of-architecture/)(Ministry of the Interior)
 
 ## [](/en/qualification/field-of-sport/)[](https://staging.taiwangoldcard.tw/en/qualification/field-of-sport/)Benefits in Summary
 
