@@ -14,7 +14,7 @@ items:
     href: /qualification/field-of-culture-and-arts
   - preview: /cms-uploads/architecture.png
     label: 經濟
-    href: /qualification/field-of-economy/
+    href: /qualification/field-of-economy
   - preview: /cms-uploads/architecture.png
     label: 教育
     href: /qualification/field-of-education
