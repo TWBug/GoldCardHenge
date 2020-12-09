@@ -76,7 +76,7 @@ disableSVG = false
 disableXML = false
 minifyOutput = true
 [outputs]
-home = ["HTML", "MANIFEST"]
+home = ["HTML", "MANIFEST", "SEARCH"]
 page = ["HTML"]
 term = ["HTML", "DATA"]
 [outputFormats.manifest]
@@ -89,6 +89,12 @@ permalinkable = "true"
 baseName = "data"
 mediaType = "application/json"
 name = "data"
+notAlternative = "true"
+permalinkable = "true"
+[outputFormats.search]
+baseName = "search"
+mediaType = "application/json"
+name = "search"
 notAlternative = "true"
 permalinkable = "true"
 # [outputFormats.welcome]
