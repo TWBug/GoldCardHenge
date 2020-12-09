@@ -1,7 +1,7 @@
 ---
 media_image: null
-draft: false
 summary: null
+draft: false
 hidden: false
 media_image_alt: null
 date: 2020-11-04T06:52:19.195Z
@@ -15,5 +15,8 @@ publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
 ---
+The salary requirement as stated relates to salary and not income in total.
+Most recent monthly salary of at least NT$160,000 means a monthly salary or average monthly salary of NT$160,000 or above within the three years preceding the month of the application; documentary proof of salary or tax payment means one of the following:
 
-Generally not, but it depends. The document requirements to prove an Article 1 (“salary”) application all talk about “…verifying salary or income tax payment related to employment…”. The most commonly accepted documents appear to be withholding tax statements from employers and income tax returns from a tax authority. Bank statements are generally not sufficient. If you don’t have salary-based compensation for your employment, we recommend [calling ahead](https://taiwangoldcard.com/application-faq/application/#who-can-i-talk-to-about-this). You may be able to make an argument if your freelance income looks a lot like salary (eg from the USA: “7 Nonemployee Compensation” on a [1099-MISC](https://www.irs.gov/forms-pubs/about-form-1099-misc) from before 2020 or a [1099-NEC](https://www.irs.gov/forms-pubs/about-form-1099-nec) form after 2020).
+1. Salary withholding certification or tax certification. But if such certification cannot be presented owing to provisions of tax law, it may, after explanation of the tax law provisions preventing its presentation, be replaced by employer’s certification (i.e. Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2).
+2. The employment contract of intended future employment in the ROC.
