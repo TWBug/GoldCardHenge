@@ -1,5 +1,5 @@
 ---
-title: 20200930Cumulative Number of Employment Gold Card Issuance
+title: 2020/SEP Cumulative Number of Employment Gold Card Issuance
 summary: ""
 date: 2020-09-30T05:00:20.617Z
 draft: false
