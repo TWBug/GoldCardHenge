@@ -102,13 +102,17 @@ Notes:
 {{< teaser prefix="4." >}}
 Payment and E-Mail Confirmation
 {{< /teaser >}}
-After the online application is complete, the system will send an e-mail with a 12-digits application number.
-Please login to the platform again with your account and password and enter the "Online Payment" tab.
- Please pay according to instructions. Payment is only possible with an international credit card. However, if you are in Taiwan, you can print the payment slip and pay at a convenience store.\
-After completing the application, you will get a system confirmation via e-mail. Your application has now entered the review process. 
-To check your application process, log in to the portal, click "Application Progress Inquiry", and fill in your 12-digits application number. 
 
-Note: The application fee is nonrefundable no matter the results of the application. If you choose not to use the Taiwan Employment Gold Card, you will not be eligible for a refund either. 
+* After the online application is complete, the system will send an e-mail with a 12-digits application number.
+* Please login to the platform again with your account and password and enter the "Online Payment" tab.
+* Please pay according to instructions. Payment is only possible with an international credit card. However, if you are in Taiwan, you can print the payment slip and pay at a convenience store.
+
+{{< base >}}
+收費標準
+{{< /base >}}
+
+* After completing the application, you will get a system confirmation via e-mail. Your application has now entered the review process. 
+* To check your application process, log in to the portal, click "Application Progress Inquiry", and fill in your 12-digits application number. **The application fee is nonrefundable no matter the results of the application. If you choose not to use the Taiwan Employment Gold Card, you will not be eligible for a refund either.** 
 
 What happens after you fill out the application? 
 
