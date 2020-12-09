@@ -1,7 +1,7 @@
 ---
 media_image: null
-draft: false
 summary: null
+draft: false
 hidden: false
 media_image_alt: null
 date: 2020-11-04T06:52:19.195Z
@@ -14,4 +14,4 @@ publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
 ---
-沒有，您必須選擇其中一個領域專長來評估您的技能。請使用金卡資格檢查為您找到最相關的選項。
+沒有「一般」這個選項，您必須選擇八大領域專長之一，並在該特定領域的資格列表中選擇一個特定條目。您可以至[領域專長](/zh/qualification/)頁面查看更加詳細的申請資格，或使用[Gold Card Qualification Check](https://visafinder.tw/gold-card-qualification/)確認您可能符合的領域專長。
