@@ -28,13 +28,13 @@ cover_image_alt: null
 
 ## 申請步驟一：線上申請
 
-{{< teaser >}}
+{{< teaser prefix="1." >}}
 註冊
 {{< /teaser >}}
 
 * 線上申請網址：[外國專業人才申辦窗口平台](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card)，首次登入者須先註冊帳號，之後可使用帳號密碼登入。**註冊頁面上的英文姓名需要與入境台灣所使用的護照一致。**
 
-{{< teaser >}}
+{{< teaser prefix="2." >}}
 資料填寫
 {{< /teaser >}}
 
@@ -59,7 +59,7 @@ cover_image_alt: null
 * *由於金卡需郵寄至各國辦事處，等待期需21個工作天以上，因此如果您在境外想儘快到台灣，請選擇在台灣領取金卡。領取方式的詳細說明在申請步驟三。*
 {{< /base >}}
 
-{{< teaser >}}
+{{< teaser prefix="3." >}}
 資料上傳
 {{< /teaser >}}
 
@@ -77,7 +77,7 @@ cover_image_alt: null
 * *請依照申請資格條件盡可能提供完整的文件，若因為文件不完整而被要求補件，處理時間將會延長數周至一個月。*
 {{< /base >}}
 
-{{< teaser >}}
+{{< teaser prefix="sssss4." >}}
 繳費與郵件通知
 {{< /teaser >}}
 
