@@ -3,6 +3,8 @@ title: 外國特定專業人才有那些類別?由何機關認定?
 draft: false
 categories:
   - about
+tags:
+  - General
 ---
 外國特定專業人才」資格分類為七大專業領堿，其標準分屬七個部會主管認定，列舉如下:
 
