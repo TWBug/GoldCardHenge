@@ -71,7 +71,7 @@ zh:
           - name: 金卡辦公室
             link: /gold-card-office/
         items:
-          - apply
+          - " 立即申請"
     - name: Why Taiwan
       topic: whytaiwan
       link: /why-taiwan/
@@ -87,7 +87,7 @@ zh:
           - name: 活動
             link: /events/
         items:
-          - apply
+          - " 立即申請"
     - name: 常見問題
       topic: faq
       link: /faq/
@@ -105,4 +105,4 @@ zh:
           - name: 相關網站
             link: /related-websites/
         items:
-          - apply
+          - " 立即申請"
