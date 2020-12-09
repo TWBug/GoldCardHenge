@@ -21,6 +21,15 @@ cover_image_alt: null
 Applying for the Taiwan Employment Gold Card is not that difficult. It’s as simple as filling out your personal information, attaching the necessary supporting documents, and paying the application fee. The whole process shouldn’t take more than 15-minutes. 
 We have prepared a step-by-step guide to lead you through the process. Before filling out the application form, read our qualification section, and prepare all required documents. 
 
+{{< base >}}
+Required documents
+
+1. Color copy of your passport with at least 6-month validity remaining 
+2. 2-inch hatless facial color photo taken within six months (size identical to the Identification Card of our country)
+3. Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification the applicant chooses to apply through.
+4. Your previous Taiwanese visa and residence permit (if any)
+{{< /base >}}
+
 ## STEP 1: Online Application
 
 {{< teaser prefix="1." >}}
@@ -108,7 +117,7 @@ Payment and E-Mail Confirmation
 * Please pay according to instructions. Payment is only possible with an international credit card. However, if you are in Taiwan, you can print the payment slip and pay at a convenience store.
 
 {{< base >}}
-收費標準
+Fees for Employment Gold Card:
 {{< /base >}}
 
 * After completing the application, you will get a system confirmation via e-mail. Your application has now entered the review process. 
