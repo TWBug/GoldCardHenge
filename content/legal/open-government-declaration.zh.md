@@ -1,7 +1,7 @@
 ---
 media_image: null
 date: 2020-11-05T07:09:20.617Z
-summary: null
+summary: <!-- This text will never be seen -->
 draft: false
 media_image_alt: null
 topic: resources
