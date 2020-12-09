@@ -78,7 +78,7 @@ cover_image_alt: null
 * *請依照申請資格條件盡可能提供完整的文件，若因為文件不完整而被要求補件，處理時間將會延長數周至一個月。*
 {{< /base >}}
 
-{{< teaser prefix="sssss4." >}}
+{{< teaser prefix="4." >}}
 繳費與郵件通知
 {{< /teaser >}}
 
