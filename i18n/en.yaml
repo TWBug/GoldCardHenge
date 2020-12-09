@@ -93,6 +93,8 @@
       'Are you convinced that the Taiwan Employment Gold Card will be your personal next step? Amazing - Start with your application now...'
 - id: since_2018
   translation: 'Since 2018'
+- id: located
+  translation: 'Located'
 - id: taipei_city_skyline
   translation: 'Taipei City Skyline'
 - id: taiwan_mountains

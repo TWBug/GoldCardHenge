@@ -92,6 +92,8 @@
       Amazing - Start with your application now...'
 - id: since_2018
   translation: '自2018起'
+- id: located
+  translation: '位於'
 - id: taipei_city_skyline
   translation: '台北市天際線'
 - id: taiwan_mountains
