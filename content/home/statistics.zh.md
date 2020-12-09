@@ -1,6 +1,6 @@
 ---
 title: Taiwan Employment Gold Card in numbers
-summary: 想要更了解金卡社群嗎? 想知道到底哪些人申請金卡、從哪裡來嗎? 點選照片就可以知道喔！
+summary: 想知道有哪些人申請金卡，他們從哪裡來的？點選照片了解更多！
 draft: false
 hidden: false
 headless: true
