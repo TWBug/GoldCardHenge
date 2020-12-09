@@ -79,17 +79,11 @@
                 <div class="">
                     <h4 class="font-semibold uppercase text-sm mb-1">{{ i18n "topics" }}</h4>
                     <ul class="flex flex-wrap items-center -ml-2">
-                        {{ range .Site.Sections }}
+                        {{ range sort .Site.Sections ".Title" "asc" }}
                         <li>
                             <a href="{{ .RelPermalink }}" class="inline-block px-2 py-1 focus-white">{{ .Title }}</a>
                         </li>
                         {{ end }}
-                        {{ $sitemap := .Site.GetPage "/sitemap" }}
-                        <li>
-                            <a href="{{ $sitemap.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
-                                {{ $sitemap.Title }}
-                            </a>
-                        </li>
                     </ul>
                 </div>
                 <div class="">
@@ -139,6 +133,12 @@
                             </a>
                         </li>
                         {{ end }}
+                        {{ $sitemap := .Site.GetPage "/sitemap" }}
+                        <li>
+                            <a href="{{ $sitemap.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
+                                {{ $sitemap.Title }}
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
