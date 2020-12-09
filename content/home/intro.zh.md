@@ -11,10 +11,12 @@ links:
     new_window: false
 items:
   - is_cta: false
-    label: 就業金卡是什麼？
-    href: /about
+    label: 申請流程
+    href: /application/
+  - label: Why Taiwan
+    href: /news/20201130-cumulative-number-of-employment-gold-card-issuance/
   - is_cta: false
-    label: Why Taiwan
+    label: 最新消息
     href: /news/1532-gold-cards-issued-to-date
     preview: /cms-uploads/icon-news.svg
 ---

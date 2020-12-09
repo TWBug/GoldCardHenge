@@ -8,11 +8,11 @@ links:
   - is_cta: false
     new_window: false
     label: Read More
-    href: /about
+    href: /en/about/
 items:
-  - label: What is Gold Card?
-    href: /about
+  - label: Application Process
+    href: /application/
   - label: Why Taiwan
-    href: /news/1532-gold-cards-issued-to-date
+    href: /news/20201130-cumulative-number-of-employment-gold-card-issuance/
 ---
 <!-- This text will never be seen -->
