@@ -14,25 +14,26 @@ cover_image_alt: null
 ---
 # Privacy Policy
 
-Welcome to “Taiwan Employment Gold Card Office” (https://taiwangoldcard.tw/, collectively the “Website”). This Website was built and organized by the “Taiwan Employment Gold Card Office” (“TEGO”), which is entrusted by the “National Development Council”. We respect your privacy and takes your privacy seriously. This Privacy Policy that covers and describes the policies and principles on how we collect, use, disclose, transfer and store your personal information (“Privacy Policy”).
+Welcome to “Taiwan Employment Gold Card Office” (https://taiwangoldcard.tw/, collectively the “Website”). This Website was built and organized by the “Taiwan Employment Gold Card Office” (“TEGO”), which is entrusted by the “National Development Council”. We respect your privacy and takes your privacy seriously. This Privacy Policy that covers and describes the policies and principles on how we collect, use, disclose, transfer and store your personal information (“Privacy Policy”). 
+
 **Please take a moment to familiarize yourself with our Privacy Policy and contact us if you have any questions.**
 
 ## 1. Applicable Scope of This Privacy Policy
 
- The content of this Privacy Policy includes how the Website deals and utilizes your personal information when you visit the Website and use the services on the Website. This Privacy Policy does not apply for relevant external websites.
+The content of this Privacy Policy includes how the Website deals and utilizes your personal information when you visit the Website and use the services on the Website. This Privacy Policy does not apply for relevant external websites.
 
 ## 2. Collection, Process and Use of Personal Information
 
 When you visit the Website or use the services which the Website provides, please provide your personal data which is essential or letting the device collect your personal information automatically for certain purposes. The Website collects the categories of information including the below:
 
-* C001: Your name, email address, contact details, and time of use when using the interactional function on the Website, such as mailbox and survey.
+* C001(Personal Data Identification ): Your name, email address, contact details, and time of use when using the interactional function on the Website, such as mailbox and survey.
 * Others: When you visit the Website, the server will record relevant behaviors including your device’s IP address, browser, clicking, and browsing records as a reference to improve the Website. These records are internal use only.
 
-The Website collects, manages and uses personal information for certain purposes such as operation management and maintenance, SMEs or other industries counseling, planning and evaluation, research analytics, etc. The Website does not use your personal data for any purpose other than the above specific purposes, unless the occurrence of one of the conditions listed in the first paragraph of Article 20 of the Law on the Protection of Personal Data of the Republic of China.
+The Website collects, manages and uses personal information for certain purposes including but not limited to the Employment Gold Card related matters such as surveys, events, recruitment, etc. The Website use your personal data in accordance with Article 16 under the laws of protection and personal information.
 
 To provide accurate service, the Website will gather the surveys for statistics and analytics. Depending on the demands, in addition to internal research, the Website may disclose the analytics results publicly, but the data will be de-identified information.
 
-This Website will collect, manage and use your personal information in the regions of the Republic of China and TEGO’s abroad stations or offices until the purpose of collection dissolves. The information will be used via the internet, email, written, fax, and any other legal ways without violating the purpose of collection.
+This Website will collect, manage and use your personal information for only a period of time unless it will be used for a specific purpose. The information will be used via the internet, email, written, fax, and any other legal ways without violating the purpose of collection.
 
 ## 3. Protection of Personal Information
 
@@ -40,15 +41,15 @@ The host of the Website is set up with information security equipment and protec
 
 If it is necessary to entrust another third party to provide service for the purpose of business, the Website will also strictly require such third party to comply with confidentiality obligations and take necessary inspection procedure to ensure the third party will comply.
 
-## 4. Rights of your information
+## 4. Rights of Personal Information
 
-You may exercise the following rights in respect of your personal information collected, managed, and used by the Website:
+Personal information collected, managed, and used by the website; you may exercise the following rights in accordance with Article 3 under the law of Protection of Personal Data:
 
 * Inquire or request to view your personal data collected by the Website.
 * Make duplications of your personal data collected by the Website.
 * Replenish and rectify your personal data collected by the Website.
 * Request the Website to discontinue collecting, managing, using your personal data it has collected.
-* Delete your personal data collected by the Website
+* Delete your personal data collected by the Website.
 
 Please note that if you request the website to stop collecting, managing, using your personal data or even request to delete it, we may not be able to provide the Website and service of the Website to you.
 
