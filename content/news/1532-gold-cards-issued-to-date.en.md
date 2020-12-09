@@ -1,5 +1,5 @@
 ---
-title: 20201031Cumulative Number of Employment Gold Card Issuance
+title: 2020/OCT Cumulative Number of Employment Gold Card Issuance
 summary: ""
 date: 2020-11-05T05:00:12.922Z
 draft: false
