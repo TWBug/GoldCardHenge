@@ -9,84 +9,84 @@
     x-transition:leave-end="opacity-0 translate-y-5"
     x-cloak
 >
-<div class="flex flex-col justify-around items-start px-6">
-  {{ range .dropdown.links }}
-  <a href="{{ print "/" $.lang .link }}" class="text-primary text-base font-bold my-2 focus-primary">{{ .name }}</a>
-  {{ end }}
-</div>
+    <div class="flex flex-col justify-around items-start px-6">
+    {{ range .dropdown.links }}
+    <a href="{{ print "/" $.lang .link }}" class="text-primary text-base font-bold my-2 focus-primary">{{ .name }}</a>
+    {{ end }}
+    </div>
 
-{{ $image := resources.Get .dropdown.image }}
-{{ $image = $image.Fill "800x300 jpg q30" }}
+    {{ $image := resources.Get .dropdown.image }}
+    {{ $image = $image.Fill "800x300 jpg q30" }}
 
-<div class="flex items-center p-6">
-    {{ with .dropdown.text }}
-    <p class="text-sm font-medium">
-    {{ . | markdownify | truncate 240 }}
-    </p>
-    {{ end }}
-</div>
+    <div class="flex items-center p-6">
+        {{ with .dropdown.text }}
+        <p class="text-sm font-medium">
+        {{ . | markdownify | truncate 240 }}
+        </p>
+        {{ end }}
+    </div>
 
-{{ if $image }}
-<div class="relative h-full rounded-md overflow-hidden">
-    <img src="{{ $image.RelPermalink }}" alt="asdasd" class="absolute inset-0 w-full h-full object-cover object-top">
-</div>
-{{ end }}
+    {{ if $image }}
+    <div class="relative h-full rounded-md overflow-hidden">
+        <img src="{{ $image.RelPermalink }}" alt="asdasd" class="absolute inset-0 w-full h-full object-cover object-top">
+    </div>
+    {{ end }}
 
-{{ if .dropdown.items }}
-{{ if and (eq (len .dropdown.items) 1 ) (in .dropdown.items "apply") }}
-<div class="col-span-3 flex items-center justify-end border-t-2 border-dashed border-gray-300 pt-2 pl-6">
-{{ else }}
-<div class="col-span-3 flex items-center justify-between border-t-2 border-dashed border-gray-300 pt-2 pl-6">
-{{ end }}
-    
-    {{ if in .dropdown.items "latestnews" }}
-    {{ $latestnews := .all.GetPage "news" }}
-    <a href="{{ $latestnews.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
-        {{ partial "icon" (dict "name" "newspaper" "size" "4") }}
-        <span class="ml-2">
-            {{ i18n "latest_news" }}
-        </span>
-    </a>
+    {{ if .dropdown.items }}
+    {{ if and (eq (len .dropdown.items) 1 ) (in .dropdown.items "apply") }}
+    <div class="col-span-3 flex items-center justify-end border-t-2 border-dashed border-gray-300 pt-2 pl-6">
+    {{ else }}
+    <div class="col-span-3 flex items-center justify-between border-t-2 border-dashed border-gray-300 pt-2 pl-6">
     {{ end }}
-    
-    {{ if in .dropdown.items "allnews" }}
-    {{ $allnews := .all.GetPage "news" }}
-    <a href="{{ $allnews.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
-        {{ partial "icon" (dict "name" "newspaper" "size" "4") }}
-        <span class="ml-2">
-            {{ i18n "all_news" }} ({{ len (where .all.RegularPages "Section" "==" "news") }})
-        </span>
-    </a>
+        
+        {{ if in .dropdown.items "latestnews" }}
+        {{ $latestnews := .all.GetPage "news" }}
+        <a href="{{ $latestnews.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
+            {{ partial "icon" (dict "name" "newspaper" "size" "4") }}
+            <span class="ml-2">
+                {{ i18n "latest_news" }}
+            </span>
+        </a>
+        {{ end }}
+        
+        {{ if in .dropdown.items "allnews" }}
+        {{ $allnews := .all.GetPage "news" }}
+        <a href="{{ $allnews.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
+            {{ partial "icon" (dict "name" "newspaper" "size" "4") }}
+            <span class="ml-2">
+                {{ i18n "all_news" }} ({{ len (where .all.RegularPages "Section" "==" "news") }})
+            </span>
+        </a>
+        {{ end }}
+        
+        {{ if in .dropdown.items "allevents" }}
+        {{ $allevents := .all.GetPage "events" }}
+        <a href="{{ $allevents.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
+            {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
+            <span class="ml-2">
+                {{ i18n "latest_events" }}
+            </span>
+        </a>
+        {{ end }}
+        
+        {{ if in .dropdown.items "allevents" }}
+        {{ $allevents := .all.GetPage "events" }}
+        <a href="{{ $allevents.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
+            {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
+            <span class="ml-2">
+                {{ i18n "all_events" }} ({{ len (where .all.RegularPages "Section" "==" "events") }})
+            </span>
+        </a>
+        {{ end }}
+        
+        {{ if in .dropdown.items "apply" }}
+        <a href="{{ $.Site.Language.Params.apply }}" class="flex items-center bg-primary text-white text-base font-bold px-6 py-2 rounded-md focus-primary">
+            <span class="mr-2">
+                {{ i18n "apply_now" "Apply now" }}
+            </span>
+            {{ partial "icon" (dict "name" "angle-right" "size" "8") }}
+        </a>
+        {{ end }}
+    </div>
     {{ end }}
-    
-    {{ if in .dropdown.items "allevents" }}
-    {{ $allevents := .all.GetPage "events" }}
-    <a href="{{ $allevents.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
-        {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
-        <span class="ml-2">
-            {{ i18n "latest_events" }}
-        </span>
-    </a>
-    {{ end }}
-    
-    {{ if in .dropdown.items "allevents" }}
-    {{ $allevents := .all.GetPage "events" }}
-    <a href="{{ $allevents.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
-        {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
-        <span class="ml-2">
-            {{ i18n "all_events" }} ({{ len (where .all.RegularPages "Section" "==" "events") }})
-        </span>
-    </a>
-    {{ end }}
-    
-    {{ if in .dropdown.items "apply" }}
-    <a href="{{ $.Site.Language.Params.apply }}" class="flex items-center bg-primary text-white text-base font-bold px-6 py-2 rounded-md focus-primary">
-        <span class="mr-2">
-            {{ i18n "apply_now" "Apply now" }}
-        </span>
-        {{ partial "icon" (dict "name" "angle-right" "size" "8") }}
-    </a>
-    {{ end }}
-</div>
-{{ end }}
 </div>
