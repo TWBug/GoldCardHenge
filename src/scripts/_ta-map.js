@@ -28,7 +28,7 @@ window.taMap = function () {
             this.modal = true;
             this.data = {
                 name: this.elements[index].dataset.name,
-                image: '/img/' + this.elements[index].dataset.image,
+                image: this.elements[index].dataset.image,
                 origin: this.elements[index].dataset.origin,
                 local: this.elements[index].dataset.local,
                 description: this.elements[index].dataset.description,
