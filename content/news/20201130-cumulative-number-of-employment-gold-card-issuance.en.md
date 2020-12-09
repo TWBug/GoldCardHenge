@@ -1,5 +1,5 @@
 ---
-title: "20201130 Cumulative Number of Employment Gold Card Issuance\t"
+title: "2020/NOV Cumulative Number of Employment Gold Card Issuance\t"
 date: 2020-12-03T05:00:29.184Z
 draft: false
 hidden: false
