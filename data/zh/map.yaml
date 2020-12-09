@@ -2,126 +2,126 @@ items:
     - name: "Trent P."
       left: 44.34
       top: 90.44
-      origin: "Melbourne, Australia"
-      local: "Zhongli, Taiwan"
-      description: "Product marketing, copywriting, and content"
+      origin: "澳洲, 墨爾本"
+      local: "台灣, 中壢"
+      description: "產品行銷、文案及內容撰寫"
       image: "member-trent-p.jpg"
     - name: "Štefan U."
       left: 11.50
       top: 38.60
-      origin: "Bratislava, Slovakia"
-      local: "Taipei, Taiwan"
-      description: "Mentor, data infrastructure architect, data governance practitioner, software engineer."
+      origin: "斯洛伐克, 布拉提斯拉瓦"
+      local: "台灣, 台北"
+      description: "導師、數據基礎架構設計師，、據治理從業者、軟體工程師"
       image: "member-ubanek-s.jpg"
     - name: "Adrien G."
       left: 7.34
       top: 35.02
-      origin: "Brussels, Belgium"
-      local: "Taipei, Taiwan"
-      description: "Offshore Wind power"
+      origin: "比利時, 布魯塞爾"
+      local: "台灣, 台北"
+      description: "海上風電"
       image: "member-adrien-g.jpg"
     - name: "Michael B."
       left: 74.86
       top: 41.36
-      origin: "Salt Lake City, Utah, USA"
-      local: "Hsinchu, Taiwan"
-      description: "I manage Asia operations for Romaric - a factory automation software company."
+      origin: "美國猶他州, 鹽湖城"
+      local: "台灣, 新竹"
+      description: "我替Romaric–一間工廠自動化軟體公司管理亞洲區業務"
       image: "member-michael-b.jpg"
     - name: "Dr. Prerana Bhan"
       left: 27.88
       top: 55.88
-      origin: "Hyderabad, India"
-      local: "Taichung, Taiwan"
-      description: "Master's, PhD and Post Doc at Life Science Department in NTHU; Currently R and D Director at Lihpao Life Science Corp."
+      origin: "印度, 海德拉巴"
+      local: "台灣, 臺中"
+      description: "國立清華大學生命科學系的碩士、博士及博士後學位，現任麗寶生醫的研發總監"
       image: "member-prerana-bhan.jpg"
     - name: "Animesh F."
       left: 29.38
       top: 52.94
-      origin: "Kolkata, India"
-      local: "Taipei, Taiwan"
-      description: "Software Engineer in Taiwan."
+      origin: "印度, 加爾各答"
+      local: "台灣, 台北"
+      description: "駐臺軟體工程師"
       image: "member-animesh-f.jpg"
     - name: "Colum B."
       left: 4.60
       top: 32.72
-      origin: "Dublin, Ireland"
-      local: "Taipei, Taiwan"
-      description: "Software Engineer."
+      origin: "愛爾蘭, 都柏林"
+      local: "台灣, 台北"
+      description: "軟體工程師"
       image: "member-colum-b.jpg"
     - name: "Zack H."
       left: 77.52
       top: 47.06
-      origin: "Austin, TX, USA"
-      local: "Taipei, Taiwan"
-      description: "STEAM education startup"
+      origin: "美國德州,  奧斯汀"
+      local: "台灣, 台北"
+      description: "STEAM教育新創"
       image: "member-zack-h.jpg"
     - name: "S.C. Poon"
       left: 45.75
       top: 87.50
-      origin: "Sydney, Australia"
-      local: "Taipei, Taiwan"
-      description: "Research Fellow"
+      origin: "澳洲 雪梨"
+      local: "台灣, 台北"
+      description: "研究員"
       image: "member-s-c-poon.jpg"
     - name: "Patrick L."
       left: 34.78
       top: 61.58
-      origin: "Singapore"
-      local: "Taipei, Taiwan"
-      description: "I work with an international accounting firm and provide consultancy services to large corporates."
+      origin: "新加坡"
+      local: "台灣, 台北"
+      description: "我與一家國際會計師事務所合作，並為大型公司提供諮詢服務"
       image: "member-patrick-l.jpg"
     - name: "John L."
       left: 81.68
       top: 41.36
-      origin: "Nashville, Tennessee, USA"
-      local: "New Taipei City, Taiwan"
-      description: "Conversational agents"
+      origin: "美國田納西州, 納許維爾"
+      local: "台灣, 新北"
+      description: "對話代理(聊天機器人)"
       image: "member-john-l.jpg"
     - name: "Lung Hao L."
       left: 34.78
       top: 61.58
-      origin: "Singapore"
-      local: "Taipei, Taiwan"
-      description: "Digital Transformation Consulting"
+      origin: "新加坡"
+      local: "台灣, 台北"
+      description: "數位化轉型諮詢"
       image: "member-lh-liu.jpg"
     - name: "S. Khan"
       left: 25.13
       top: 50
-      origin: "Peshawar, Pakistan"
-      local: "Kaohsiung, Taiwan"
-      description: "IoT Specialist"
+      origin: "巴基斯坦, 白沙瓦"
+      local: "台灣 高雄"
+      description: "物聯網專家"
       image: "member-s-khan.jpg"
     - name: "Chelsea M. Davis"
       left: 78.06
       top: 41.36
-      origin: "Denver, Colorado, USA"
-      local: "Taipei, Taiwan"
-      description: "Freelance Dancer / Vice President of Rozmova Films"
+      origin: "美國科羅拉多州, 丹佛"
+      local: "台灣, 台北"
+      description: "自由舞者，Rozmova Films副總裁"
       image: "member-chelsea-m-d.jpg"
     - name: "M. Pippin"
       left: 73.45
       top: 47.06
-      origin: "Van Nuys, California, USA"
-      local: "Taichung, Taiwan"
-      description: "Bicycle Development"
+      origin: "美國加州, 范努伊斯"
+      local: "台灣, 台中"
+      description: "自行車開發"
       image: "member-m-pippin.jpg"
     - name: "Dr. Uttam Patil"
       left: 25.13
       top: 55.88
-      origin: "Pune, India"
-      local: "Taichung, Taiwan"
-      description: "PhD in Chemistry NTHU, Post Doc at NTNU"
+      origin: "印度, 浦那"
+      local: "台灣, 台中"
+      description: "國立清華大學化學博士學位，國立師範大學博士後學位"
       image: "member-uttam-patil.jpg"
     - name: "Christopher Wong"
       left: 72.04
       top: 44.30
-      origin: "San Francisco, California, USA"
-      local: "Taipei, Taiwan"
-      description: "MBA Candidate in Sustainable Solutions at Presidio Graduate School exploring sustainability and food systems in Taiwan"
+      origin: "美國加州, 舊金山"
+      local: "台灣, 台北"
+      description: "Presidio Graduate School永續解決方案的MBA候選人，探索台灣的永續發展性和食品系統"
       image: "member-christopher-wong.jpg"
     - name: "Diana N."
       left: 73.45
       top: 47.06
-      origin: "Los Angeles, California, USA"
-      local: "Taipei, Taiwan"
-      description: "User Experience Design"
+      origin: "美國加州, 洛杉磯"
+      local: "台灣, 台北"
+      description: "用戶體驗設計"
       image: "member-diana-n.jpg"
