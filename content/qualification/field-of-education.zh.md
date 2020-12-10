@@ -2,7 +2,7 @@
 title: 教育領域
 summary: 博士學位畢業於世界大學排行前200名之大學校院、曾服務於世界大學排行前500名之大學校院，並從事教學研究工作五年以上、曾獲得我國玉山(青年)學者補助等。
 draft: false
-icon: ""
+icon: /cms-uploads/education.jpg
 style: title
 ---
 # 教育領域特殊專長

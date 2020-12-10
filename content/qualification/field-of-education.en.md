@@ -5,7 +5,7 @@ summary: Those who hold a doctoral degree from one of the world’s 200
   universities, and have engaged in teaching and research for at least five
   years, or have gained a Yushan Scholar or Yushan Young Scholar award.
 draft: false
-icon: ""
+icon: /cms-uploads/education.jpg
 style: title
 ---
 
