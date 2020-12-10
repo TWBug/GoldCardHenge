@@ -18,11 +18,10 @@ cover_image_alt: null
 ---
 # Application Process
 
-Applying for the Taiwan Employment Gold Card is not that difficult. It’s as simple as filling out your personal information, attaching the necessary supporting documents, and paying the application fee. The whole process shouldn’t take more than 15-minutes. 
-We have prepared a step-by-step guide to lead you through the process. Before filling out the application form, read our qualification section, and prepare all required documents. 
+Applying for the Taiwan Employment Gold Card is not that difficult. It’s as simple as filling out your personal information, attaching the necessary supporting documents, and paying the application fee. The whole process shouldn’t take more than 15-minutes. We have prepared a step-by-step guide to lead you through the process. Before filling out the application form, read our qualification section, and prepare all required documents. 
 
 {{< base >}}
-Required documents
+Required Documents
 
 1. Color copy of your passport with at least 6-month validity remaining 
 2. 2-inch hatless facial color photo taken within six months (size identical to the Identification Card of our country)
@@ -30,15 +29,17 @@ Required documents
 4. Your previous Taiwanese visa and residence permit (if any)
 {{< /base >}}
 
+{{< teaser >}}
+從遞件、審核到領取金卡的整個作業時程約需要60個工作天，若您已入境台灣，請注意所持簽證的停留時間是否足夠，若無法在期限內取得就業金卡，仍需要出境後再入境。
+{{< /teaser >}}
+
 ## STEP 1: Online Application
 
 {{< teaser prefix="1." >}}
 Registration
 {{< /teaser >}}
 
-* Please visit the website of the [Foreign Professionals Online Application Platform](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/) to access the application platform, and set up an account. Use the login details to login into the portal. 
-
-**Note: The English name needs to be consistent with the name on your passport you are using to enter Taiwan.**
+* Please visit the website of the [Foreign Professionals Online Application Platform](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/) to access the application platform, and set up an account. Use the login details to login into the portal. **The English name needs to be consistent with the name on your passport you are using to enter Taiwan.**
 
 {{< teaser prefix="2." >}}
 Fill in our information
@@ -49,8 +50,8 @@ Fill in our information
 {{< base >}}
 Notes for domestic application: 
 
-* If you have a household registration (e.g., Taiwan ID), you cannot apply for the Taiwan Employment Gold Card. 
-* If you are a National without household registration, you need to enter the country with a non-ROC passport. 
+* 境內申請者，須持非中華民國護照入境才能申請就業金卡。
+* 在台灣地區設有戶籍之國民，持外國護照入國者，申請就業金卡前應先至所在地戶政事務所辦理戶籍遷出登記。
 * If you are currently on a working holiday visa or a student visa for Chinese learning purposes, you cannot directly switch to a Taiwan Employment Gold Card. You will need to re-enter the country before applying. Or apply from abroad. 
 * The application can take 60-working days or more. If you hold a visa less than 60-days or are visa-free, if you cannot obtain the Taiwan Employment Gold Card within the time limit, you still need to leave the country and re-enter.
 {{< /base >}}
