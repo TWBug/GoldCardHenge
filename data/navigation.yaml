@@ -25,7 +25,7 @@ en:
       topic: eventsnews
       link: /news/
       dropdown:
-        image: cms-uploads/taiwan-taipei-chiang-kai-shek-memorial-hall.jpg
+        image: cms-uploads/navigation-events-news-header.jpg
         text: Read the latest news about the Taiwan Employment Gold Card Program and
           take a look at our events!
         links:
@@ -42,7 +42,7 @@ en:
       topic: resources
       link: /about/
       dropdown:
-        image: img/uploads/taiwan-lights.jpg
+        image: cms-uploads/navigation-resources-header.jpg
         text: Looking for some more help? Here are some resources to browse through.
         links:
           - name: Help-Desk
@@ -79,7 +79,7 @@ zh:
       topic: eventsnews
       link: /news/
       dropdown:
-        image: cms-uploads/taiwan-taipei-chiang-kai-shek-memorial-hall.jpg
+        image: cms-uploads/navigation-events-news-header.jpg
         text: 擁有就業金卡的第一手消息，或參加社群活動？來看看這裡。
         links:
           - name: 最新消息
@@ -95,7 +95,7 @@ zh:
       topic: resources
       link: /about
       dropdown:
-        image: img/uploads/taiwan-lights.jpg
+        image: cms-uploads/navigation-resources-header.jpg
         text: 提供專人聯繫方式、更多關於就業金卡的可用資源。
         links:
           - name: 聯繫我們
