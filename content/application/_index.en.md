@@ -124,3 +124,22 @@ Fees for Employment Gold Card:
 
 * After completing the application, you will get a system confirmation via e-mail. Your application has now entered the review process. 
 * To check your application process, log in to the portal, click "Application Progress Inquiry", and fill in your 12-digits application number. **The application fee is nonrefundable no matter the results of the application. If you choose not to use the Taiwan Employment Gold Card, you will not be eligible for a refund either.**
+
+## STEP 2: Passport Check
+
+{{< teaser >}}
+For overseas applications, or if you have entered Taiwan but have a visa with a limited stay period and cannot be extended or visa-free, passport inspection is required.
+
+{{< /teaser >}}
+
+* When your application is approved and passed the qualification review, you will receive an e-mail notification to bring your passport for passport inspection. At this point, please bring your original passport to your chosen Bureau of Consular Affairs or ROC mission/office. **Due to the COVID-19 pandemic, some overseas missions might be temporarily closed. If that is the case, please send in your passport, including a return envelope (with address and stamped).**
+* You will receive an e-mail stating your passport has been inspected and the gold card application was approved. Under normal circumstances, this process should take a week.
+
+{{< base >}}
+Notes:
+
+* You can change the passport inspection location anytime on the online platform before the application has finished the review process. You will not be able to make online changes after you receive the e-mail confirmation. At this point, you can only contact the Bureau of Consular Affairs to change the location in their internal system.
+* If you send your passport via post to an overseas mission/office, please make sure you don't have to use your passport within a month.
+{{< /base >}}
+
+## STEP 3: Receiving your Gold Card
