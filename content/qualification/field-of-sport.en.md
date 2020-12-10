@@ -5,6 +5,7 @@ summary: Those who have placed in the top three in an international sports
   competitiveness of sport in Taiwan, and those who have served as a national
   team coach or an international sports competition referee.
 draft: false
+icon: /cms-uploads/sports.jpg
 ---
 # Foreign Special Professionals Possessing Special Expertise in the Field of Sport
 
