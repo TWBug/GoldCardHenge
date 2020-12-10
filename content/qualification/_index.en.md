@@ -1,7 +1,8 @@
 ---
 title: Qualifications
-summary: Professionals from eight different industries can apply for the Gold
-  Card. Each field has its own individual qualification categories. Check out
-  below for more details.
+summary: The Act for the Recruitment and Employment of Foreign Professional
+  Talent identifies eight different fields under which individuals can apply for
+  the Taiwan Employment Gold Card. The qualifications for each field are
+  detailed below.
 ---
 <!-- This text will never be seen -->
