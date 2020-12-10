@@ -70,13 +70,12 @@ Note:
 * If you currently don't have a work address or residence address, you can temporarily leave it out during the application and review stage. However, you must provide this information when inspecting your passport.
 
 {{< base >}}
-溫馨提醒
+Note: 
 
-來臺工作地址與居留地址的填寫格式須全部以繁體中文或阿拉伯數字表示，不能有英文字母。
+The Taiwanese address needs to be Chinese symbols and Arabic numerals only; no English letters allowed. 
 
-* 正確：台北市中正區寶慶路3號2樓
-
-  錯誤：台北市中正區寶慶路No. 3, 2F
+* Correct：台北市中正區寶慶路3號2樓
+* Incorrect：台北市中正區寶慶路No. 3, 2F
 {{< /base >}}
 
 * In the "Profession" tab, please select the industry that you want to apply through. Please attach all relevant supporting documents. Click save after double-checking and uploading the files. 
@@ -98,7 +97,7 @@ Upload your files
 3. Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification the applicant chooses to apply through. 
 
 * If the provided documents are neither in English nor Chinese, please attach a translation to English or Chinese. 
-* 如果申請人的文件是由以下國家/地區發行的，需要先經過認證。
+* If the applicant's documents are issued by the following countries/regions, extra verification is needed.
 
   * Documents issued in the Mainland area have to be attested and examined by the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area."
   * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
