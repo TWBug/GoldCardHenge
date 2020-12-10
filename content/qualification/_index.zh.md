@@ -16,4 +16,6 @@ cover_image_alt: null
 請仔細閱讀每個相關領域的標準，因為您的條件可能符合多個領域。 但在就業金卡申請系統裡，您只能選擇一個領域進行申請。 以及為了審查您的資格，您提供的檔案必須符合官方文件標準。 
 
 請注意，其他格式的文件可能會導致審查延遲。
+
+Try the [Gold Card Qualification Check](https://visafinder.tw/gold-card-qualification/) to see which criteria you can consider  in your application.
 {{< /base >}}
