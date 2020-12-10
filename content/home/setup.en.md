@@ -8,7 +8,7 @@ hidden: false
 headless: true
 links: null
 items:
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/architecture.jpg
     label: Architecture
     href: /qualification/field-of-architecture
   - preview: /cms-uploads/architecture.png

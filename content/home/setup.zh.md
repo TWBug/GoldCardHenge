@@ -6,10 +6,10 @@ hidden: false
 headless: true
 links: null
 items:
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/architecture.jpg
     label: 建築
     href: /qualification/field-of-architecture
-  - preview: /cms-uploads/architecture.png
+  - preview: ""
     label: 文化藝術
     href: /qualification/field-of-culture-and-arts
   - preview: /cms-uploads/architecture.png
