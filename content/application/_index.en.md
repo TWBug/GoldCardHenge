@@ -48,7 +48,7 @@ Fill in our information
 * After you have successfully registered, login, and select "Employment Gold Card Application" in the menu "Online Application." Also, select the applicant's nationality and whether or not you are applying from Taiwan or abroad.
 
 {{< base >}}
-Notes for domestic application: 
+Notes for Domestic Application: 
 
 * To apply for the Taiwan Employment Gold Card, you need to enter the country with a non-ROC passport. 
 * ROC Nationals with household registration in Taiwan who entered the country with a non-ROC passport need to go to the local household registration office to cancel their household registration first.
