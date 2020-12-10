@@ -7,7 +7,7 @@ summary: Those with a most recent monthly salary of at least NT$160,000, or have
   cross-field integrating position in a semiconductor, optoelectronics, ICT, or
   other such enterprise.
 draft: false
-icon: /cms-uploads/economy.jpg
+icon: /cms-uploads/economy.png
 ---
 # Foreign special professionals with specialized knowledge/skills in economic fields
 
