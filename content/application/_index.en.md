@@ -50,8 +50,8 @@ Fill in our information
 {{< base >}}
 Notes for domestic application: 
 
-* 境內申請者，須持非中華民國護照入境才能申請就業金卡。
-* 在台灣地區設有戶籍之國民，持外國護照入國者，申請就業金卡前應先至所在地戶政事務所辦理戶籍遷出登記。
+* To apply for the Taiwan Employment Gold Card, you need to enter the country with a non-ROC passport. 
+* ROC Nationals with household registration in Taiwan who entered the country with a non-ROC passport need to go to the local household registration office to cancel their household registration first.
 * If you are currently on a working holiday visa or a student visa for Chinese learning purposes, you cannot directly switch to a Taiwan Employment Gold Card. You will need to re-enter the country before applying. Or apply from abroad. 
 * The application can take 60-working days or more. If you hold a visa less than 60-days or are visa-free, if you cannot obtain the Taiwan Employment Gold Card within the time limit, you still need to leave the country and re-enter.
 {{< /base >}}
