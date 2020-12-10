@@ -1,9 +1,8 @@
 ---
-title: 'Eligible to apply for the tax incentives: what are "other employment
-  periods in the R.O.C."?'
+title: What are "other employment periods in the R.O.C."?
 draft: false
 tags:
-  - General
+  - Tax
 ---
 The term "other employment periods in the R.O.C." shall refer to the period a foreign special professional is engaged in professional work and the extension period of his/her foreign special professional work permit.
 

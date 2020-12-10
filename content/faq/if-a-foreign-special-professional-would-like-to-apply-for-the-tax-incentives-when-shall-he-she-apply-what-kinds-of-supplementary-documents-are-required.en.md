@@ -4,7 +4,7 @@ title: " If a foreign special professional would like to apply for the tax
   required?"
 draft: false
 tags:
-  - General
+  - Tax
 ---
 A foreign special professional meeting the requirements of tax incentives shall apply for the tax incentives to the competent tax authority when filing his/her annual income tax return in May every year or the departure income tax return before leaving the R.O.C.
 
