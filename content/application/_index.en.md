@@ -66,8 +66,8 @@ Note:
 * If you don't have any specific plans, we recommend choosing a longer validity period. If you want to extend at the end of your validity period, you will have to reapply. Extensions are not possible.
 {{< /base >}}
 
-* 也請您選擇領證方式，申請人如在台灣境內，可選擇在移民署服務站；若在境外可選擇離您最近的中華民國駐外機構。**在COVID-19疫情流行期間，您所選擇的駐外機構可能會暫時關閉，若遇到此情況，申請人須要打電話到外交部從內部系統更改領證地點。**
-* 在「居留申請」分頁中，若暫時沒有來台工作地址與居留地址，在申請與審核階段可暫時不填寫，但在第二階段護照查驗會需要提供。
+* Please also choose the preferred location for picking up your Gold Card. If the applicant is in Taiwan, please select your nearest Immigration bureau. If the applicant is abroad, select the nearest ROC agency. **Due to COVID-19, many ROC agencies are temporarily closed. If so, please contact the Ministry of Foreign Affairs to change the pick-up location from the internal system.** 
+* If you currently don't have a work address or residence address, you can temporarily leave it out during the application and review stage. However, you must provide this information when inspecting your passport.
 
 {{< base >}}
 溫馨提醒
@@ -84,7 +84,7 @@ Note:
 {{< base >}}
 Note: 
 
-* The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. 領取方式的詳細說明在申請步驟三。
+* The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. For detailed instructions to pick up your Gold Card, please refer to Step 3.
 {{< /base >}}
 
 {{< teaser prefix="3." >}}
