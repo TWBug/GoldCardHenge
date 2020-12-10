@@ -16,7 +16,7 @@ items:
   - is_cta: false
     label: 最新消息
     href: /news/20201130-cumulative-number-of-employment-gold-card-issuance
-    preview: /cms-uploads/icon-news.svg
+    preview: /cms-uploads/news.png
   - label: Why Taiwan
     href: /why-taiwan
     preview: /cms-uploads/icon-news.svg
