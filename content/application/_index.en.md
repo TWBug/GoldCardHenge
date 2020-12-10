@@ -57,7 +57,7 @@ Notes for domestic application:
 {{< /base >}}
 
 * After entering the application page, please fill out the applicant's information. All fields with an asterisk are mandatory. Please make sure that the English name is the same as the passport used to enter Taiwan. You can save the filled out information at any time, come back to it later, and change before sending it.
-* If the applicant is in Taiwan, you can choose to submit your passport for inspection at the Bureau of Consular Affairs (Central, Southern, Eastern, Yunlin, Jiayi, and Tainan branches). If the applicant is abroad, choose your nearest ROC overseas mission/office. **In response to the COVID-19 epidemic, some foreign agencies might be closed and only accept passports by post.** 
+* If you are applying from abroad or are in Taiwan on a visitor-visa, visa-free, or a non-extendable visa, your passport needs to be inspected. An extra page will appear during the application process, where you can choose the location. If you are in Taiwan, please go to the Bureau of Consular Affairs (Central, Southern, Eastern, Yunlin, Jiayi, and Tainan branches). **In response to the COVID-19 epidemic, some foreign agencies might be closed and only accept passports by post.** 
 * Choose your validity period for the Taiwan Employment Gold Card. There are different validation periods: One, Two, or Three years. Please choose according to your needs. 
 
 {{< base >}}
