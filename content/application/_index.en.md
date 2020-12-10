@@ -63,7 +63,7 @@ Notes for domestic application:
 {{< base >}}
 Note:
 
-* 申請人在近期沒有其他特殊規劃，建議選擇較長效期，因為就業金卡效期屆滿皆須重新申請，不受理申請延期。
+* If you don't have any specific plans, we recommend choosing a longer validity period. If you want to extend at the end of your validity period, you will have to reapply. Extensions are not possible.
 {{< /base >}}
 
 * 也請您選擇領證方式，申請人如在台灣境內，可選擇在移民署服務站；若在境外可選擇離您最近的中華民國駐外機構。**在COVID-19疫情流行期間，您所選擇的駐外機構可能會暫時關閉，若遇到此情況，申請人須要打電話到外交部從內部系統更改領證地點。**
