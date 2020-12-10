@@ -143,3 +143,31 @@ Notes:
 {{< /base >}}
 
 ## STEP 3: Receiving your Gold Card
+
+After your application has now finally come to a completion, you will receive an e-mail notifying you that you can go pick up your Gold Card. Please bring your original passport and relevant documents to your chosen place for picking up your Gold Card. If it is not convenient to pick it up in person, you can ask a friend or agent. In that case, you need to include a power of attorney. 
+
+**During the COVID-19 pandemic, the foreign agency you choose may be temporarily closed. If this happens, the applicant must call the Ministry of Foreign Affairs to change the pick-up location.**
+
+{{< teaser prefix="1." >}}
+Domestic Applicants
+{{< /teaser >}}
+
+* Please go to the "Download" area on the online application platform and print out the "Payment Electronic Receipt" and take the receipt and your original passport to the previously chosen Immigration Bureau to pick-up your card
+
+{{< teaser prefix="2." >}}
+Overseas Applicants
+{{< /teaser >}}
+
+* Receiving your Gold Card after entry
+
+  * Please go to the "download" area on ​​the application platform to print out the "Republic of China Employment Gold Card Overseas Approval Certificate." You can enter Taiwan with this certificate. Within 30 days of the day after you enter Taiwan, you must bring this certificate and the original passport to the previously designated Immigration bureau to pick up the Gold Card.
+* Receiving your Gold Card abroad
+
+  * Please go to the "download" area on ​​the application platform to print out the "Republic of China Employment Gold Card Overseas Approval Certificate." Take the receipt and your passport to the previously designated ROC mission/office.
+  * The waiting period for receiving the Gold Card at an overseas ROC mission/office can take over 21 working days. The mission/office will notify the applicant to pick up the Gold Card. If the Gold Card is not picked up within three months, the mission/office will send it back to the Taiwanese Immigration Bureau.
+
+{{< base >}}
+Notes: 
+
+* You can only change the card collection location before your application review is passed. After you receive the e=mail confirmation, you cannot modify it online. Applicants will then need to contact the Bureau of Consular Affairs for any changes.
+{{< /base >}}
