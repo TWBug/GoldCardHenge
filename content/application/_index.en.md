@@ -98,6 +98,7 @@ Upload your files
 3. Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification the applicant chooses to apply through. 
 
 * If the provided documents are neither in English nor Chinese, please attach a translation to English or Chinese. 
+* 如果申請人的文件是由以下國家/地區發行的，需要先經過認證。
 
   * Documents issued in the Mainland area have to be attested and examined by the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area."
   * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
@@ -105,8 +106,8 @@ Upload your files
 {{< base >}}
 Notes: 
 
-* The uploaded passport copy must be the same as the passport used for the visa application
-  Please provide supporting documents as complete and extensive as possible following the eligibility requirements. If you are required to send in more supporting documents, the processing time can extend multiple weeks to a month.
+* The uploaded passport copy must be the same as the passport used for the visa application.
+* Please provide supporting documents as complete and extensive as possible following the eligibility requirements. If you are required to send in more supporting documents, the processing time can extend multiple weeks to a month.
 {{< /base >}}
 
 {{< teaser prefix="4." >}}
@@ -122,21 +123,4 @@ Fees for Employment Gold Card:
 {{< /base >}}
 
 * After completing the application, you will get a system confirmation via e-mail. Your application has now entered the review process. 
-* To check your application process, log in to the portal, click "Application Progress Inquiry", and fill in your 12-digits application number. **The application fee is nonrefundable no matter the results of the application. If you choose not to use the Taiwan Employment Gold Card, you will not be eligible for a refund either.** 
-
-What happens after you fill out the application? 
-
-Step 1 - Online Platform Application
-Fill out your personal details and pay to submit your application. 
-
-Step 2 - Verification of submitted data
-The National Immigration Agency will review the submitted information. If the data is correct, they will transfer all related documents to the Workforce Development Agency.
-
-Step 3 - Qualification Review
-The Ministry of labor and the relevant Ministry for your industry will review your application. If your application is approved, they will hand it over to the Ministry of Foreign Affairs.
-
-Step 4 - Resident Visa
-The Ministry of Foreign Affairs will review the work permit and provide the resident visa to the National Immigration Agency.
-
-Step 5 - Alien Resident Certificate (A.R.C.) & Re-Entry Permit
-The National Immigration Agency will check the resident visa and re-entry permit. Once the applicant has passed the review, the applicant's Gold Card will be made and issued.
+* To check your application process, log in to the portal, click "Application Progress Inquiry", and fill in your 12-digits application number. **The application fee is nonrefundable no matter the results of the application. If you choose not to use the Taiwan Employment Gold Card, you will not be eligible for a refund either.**
