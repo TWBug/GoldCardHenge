@@ -6,4 +6,4 @@ draft: false
 hidden: false
 layout: related
 ---
-此為非官方就業金卡資格篩選器，勾取你可能符合的項目後最後將會列出您可能符合的金卡領域與項目。
+This is an unofficial Gold Card Qualification Check. Please tick all that apply to explore ways you may qualify for the Gold Card.
