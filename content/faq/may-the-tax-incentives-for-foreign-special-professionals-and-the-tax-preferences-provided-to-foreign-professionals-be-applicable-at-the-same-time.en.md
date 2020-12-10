@@ -3,7 +3,7 @@ title: May the "tax incentives for foreign special professionals" and the "tax
   preferences provided to foreign professionals" be applicable at the same time?
 draft: false
 tags:
-  - General
+  - Tax
 ---
 
 
