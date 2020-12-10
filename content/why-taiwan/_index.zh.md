@@ -1,5 +1,5 @@
 ---
-title: 爲什麼台灣
+title: Why Taiwan
 draft: false
 cover_image: /cms-uploads/photo-1604854391694-17a6c60bc67f.jpg
 media_image: /cms-uploads/photo-1604854391694-17a6c60bc67f.jpg
