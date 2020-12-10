@@ -2,6 +2,7 @@
 title: 文化藝術領域
 summary: 於表演及視覺藝術類、出版事業類、影視及流行音樂類、工藝類及文化行政類，獲國際獎項或有優異事蹟等。
 draft: false
+icon: /cms-uploads/artncultrue.jpg
 ---
 # 文化藝術領域特殊專長
 
