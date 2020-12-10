@@ -4,7 +4,7 @@ summary: Those who have won international awards or achieved outstanding
   distinction in the fields of performing arts, visual arts, publishing, film &
   TV, popular music, handicrafts, and cultural administration.
 draft: false
-icon: /cms-uploads/artncultrue.jpg
+icon: /cms-uploads/artncultrue.png
 ---
 # Foreign Special Professional Who Possesses Special Expertise in the Field of Culture and Arts
 
