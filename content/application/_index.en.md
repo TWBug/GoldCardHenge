@@ -119,6 +119,14 @@ Payment and E-Mail Confirmation
 
 **Fees for Employment Gold Card:**
 
+* Domestic Applicants
+
+![Domestic Applicants](/cms-uploads/goldcardeng-02.png "Domestic Applicants")
+
+* Overseas Applicants
+
+![Overseas Applicants](/cms-uploads/goldcardeng-03.png "Overseas Applicants")
+
 * After completing the application, you will get a system confirmation via e-mail. Your application has now entered the review process. 
 * To check your application process, log in to the portal, click "Application Progress Inquiry", and fill in your 12-digits application number. **The application fee is nonrefundable no matter the results of the application. If you choose not to use the Taiwan Employment Gold Card, you will not be eligible for a refund either.**
 
