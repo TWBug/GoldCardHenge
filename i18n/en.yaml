@@ -144,6 +144,10 @@
   translation: 'Qualification'
 - id: renewal--validity
   translation: 'Renewal & Validity'
+- id: tax
+  translation: 'Tax'
+- id: national-health-insurance
+  translation: 'National Health Insurance'
   
 - id: super
   translation: 'Super'

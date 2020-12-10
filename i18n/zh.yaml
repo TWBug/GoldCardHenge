@@ -138,13 +138,17 @@
   translation: 'LinkedIn'
   
 - id: application
-  translation: '申請'
+  translation: '申請相關'
 - id: general
   translation: '一般'
 - id: qualification
-  translation: '資質'
+  translation: '申請資格'
 - id: renewal--validity
-  translation: '更新和有效期'
+  translation: '效期與更新'
+- id: tax
+  translation: '租稅'
+- id: national-health-insurance
+  translation: '全民健康保險'
   
 - id: super
   translation: '超'
