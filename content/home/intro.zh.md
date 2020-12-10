@@ -12,12 +12,13 @@ links:
 items:
   - is_cta: false
     label: 申請流程
-    href: /application/
+    href: /application
   - is_cta: false
     label: 最新消息
-    href: /news/20201130-cumulative-number-of-employment-gold-card-issuance/
+    href: /news/20201130-cumulative-number-of-employment-gold-card-issuance
     preview: /cms-uploads/icon-news.svg
   - label: Why Taiwan
-    href: ""
+    href: /why-taiwan
+    preview: /cms-uploads/icon-news.svg
 ---
 <!-- This text will never be seen -->

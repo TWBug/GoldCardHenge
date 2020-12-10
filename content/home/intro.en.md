@@ -11,9 +11,10 @@ links:
     href: /en/about/
 items:
   - label: Application Process
-    href: /application/
+    href: /application
   - label: News
-    href: /news/20201130-cumulative-number-of-employment-gold-card-issuance/
+    href: /news/20201130-cumulative-number-of-employment-gold-card-issuance
   - label: Why Taiwan
+    href: /why-taiwan
 ---
 <!-- This text will never be seen -->
