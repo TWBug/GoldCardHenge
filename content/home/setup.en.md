@@ -8,28 +8,28 @@ hidden: false
 headless: true
 links: null
 items:
-  - preview: /cms-uploads/architecture.jpg
+  - preview: /cms-uploads/architecture.png
     label: Architecture
     href: /qualification/field-of-architecture
-  - preview: /cms-uploads/artncultrue.jpg
+  - preview: /cms-uploads/artncultrue.png
     label: Arts and Culture
     href: /qualification/field-of-culture-and-arts
-  - preview: /cms-uploads/economy.jpg
+  - preview: /cms-uploads/economy.png
     label: Economy
     href: /qualification/field-of-economy
-  - preview: /cms-uploads/education.jpg
+  - preview: /cms-uploads/education.png
     label: Education
     href: /qualification/field-of-education
-  - preview: /cms-uploads/finance.jpg
+  - preview: /cms-uploads/finance.png
     label: Finance
     href: /qualification/field-of-finance
-  - preview: /cms-uploads/sciencentechnology.jpg
+  - preview: /cms-uploads/sciencentechnology.png
     label: Science and Technology
     href: /qualification/field-of-science-technology
-  - preview: /cms-uploads/law.jpg
+  - preview: /cms-uploads/law.png
     label: Law
     href: /qualification/field-of-law
-  - preview: /cms-uploads/sports.jpg
+  - preview: /cms-uploads/sports.png
     label: Sports
     href: /qualification/field-of-sport
 ---
