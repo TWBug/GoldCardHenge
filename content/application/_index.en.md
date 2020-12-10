@@ -118,9 +118,7 @@ Payment and E-Mail Confirmation
 * Please login to the platform again with your account and password and enter the "Online Payment" tab.
 * Please pay according to instructions. Payment is only possible with an international credit card. However, if you are in Taiwan, you can print the payment slip and pay at a convenience store.
 
-{{< base >}}
-Fees for Employment Gold Card:
-{{< /base >}}
+**Fees for Employment Gold Card:**
 
 * After completing the application, you will get a system confirmation via e-mail. Your application has now entered the review process. 
 * To check your application process, log in to the portal, click "Application Progress Inquiry", and fill in your 12-digits application number. **The application fee is nonrefundable no matter the results of the application. If you choose not to use the Taiwan Employment Gold Card, you will not be eligible for a refund either.**
