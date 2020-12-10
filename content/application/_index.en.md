@@ -79,12 +79,12 @@ Note:
   錯誤：台北市中正區寶慶路No. 3, 2F
 {{< /base >}}
 
-* In the "Profession" tab, please select the industry that you want to apply through. Please attach all relevant supporting documents. Click save after double-checking and uploading the files. Note: The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. 
+* In the "Profession" tab, please select the industry that you want to apply through. Please attach all relevant supporting documents. Click save after double-checking and uploading the files. 
 
 {{< base >}}
 Note: 
 
-* The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan.
+* The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. 領取方式的詳細說明在申請步驟三。
 {{< /base >}}
 
 {{< teaser prefix="3." >}}
