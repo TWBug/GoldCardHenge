@@ -47,7 +47,7 @@
 - id: event_archive
   translation: '過去的活動'
 - id: why_taiwan
-  translation: '為什麼台灣'
+  translation: 'Why Taiwan'
 - id: topics
   translation: '话题'
 - id: all_topics
