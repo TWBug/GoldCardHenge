@@ -11,25 +11,25 @@ items:
   - preview: /cms-uploads/architecture.jpg
     label: Architecture
     href: /qualification/field-of-architecture
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/artncultrue.jpg
     label: Arts and Culture
     href: /qualification/field-of-culture-and-arts
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/economy.jpg
     label: Economy
     href: /qualification/field-of-economy
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/education.jpg
     label: Education
     href: /qualification/field-of-education
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/finance.jpg
     label: Finance
     href: /qualification/field-of-finance
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/sciencentechnology.jpg
     label: Science and Technology
     href: /qualification/field-of-science-technology
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/law.jpg
     label: Law
     href: /qualification/field-of-law
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/sports.jpg
     label: Sports
     href: /qualification/field-of-sport
 ---

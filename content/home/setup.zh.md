@@ -9,25 +9,25 @@ items:
   - preview: /cms-uploads/architecture.jpg
     label: 建築
     href: /qualification/field-of-architecture
-  - preview: ""
+  - preview: /cms-uploads/artncultrue.jpg
     label: 文化藝術
     href: /qualification/field-of-culture-and-arts
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/economy.jpg
     label: 經濟
     href: /qualification/field-of-economy
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/education.jpg
     label: 教育
     href: /qualification/field-of-education
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/finance.jpg
     label: 金融
     href: /qualification/field-of-finance
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/sciencentechnology.jpg
     label: 科技
     href: /qualification/field-of-science-technology
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/law.jpg
     label: 法律
     href: /qualification/field-of-law
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/sports.jpg
     label: 體育
     href: /qualification/field-of-sport
 ---
