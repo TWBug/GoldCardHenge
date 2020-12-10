@@ -6,7 +6,7 @@ summary: Those who have obtained an ROC or foreign attorney license, with a
   or a law related executive position in a law firm or corporation, or have been
   recommended by the Taiwan Bar Association.
 draft: false
-icon: /cms-uploads/law.jpg
+icon: /cms-uploads/law.png
 ---
 # Field of Law
 
