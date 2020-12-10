@@ -166,5 +166,5 @@ Overseas Applicants
 {{< base >}}
 Notes: 
 
-* You can only change the card collection location before your application review is passed. After you receive the e=mail confirmation, you cannot modify it online. Applicants will then need to contact the Bureau of Consular Affairs for any changes.
+* You can only change the card collection location before your application review is passed. After you receive the e-mail confirmation, you cannot modify it online. Applicants will then need to contact the Bureau of Consular Affairs for any changes.
 {{< /base >}}
