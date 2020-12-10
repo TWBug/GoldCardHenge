@@ -80,7 +80,7 @@ a. Awards granted by major international arts organizations, or where the number
 
 {{< accordion title="Currently or previously serving as chief editor or senior manager of major international media or publishing house, or as copyright agent, with at least 10 years’ experience in publishing or mass communications." suffix="1." bottomless="true" >}}
 
-* Certificates of serving in the authoritative international media or the publishing houses, as chief editor, senior executive orcertified copywriter agent , and certificates of work experience in publishing or mass communication for more than a decade.
+* Certificates of serving in the authoritative international media or the publishing houses, as chief editor, senior executive or certified copywriter agent , and certificates of work experience in publishing or mass communication for more than a decade.
 
 a. The authoritative international media: The international print news media or news agency of at least two pages in length and serving a national or global audience of readers. Examples include but not limit US News and World Report, The New York Times, The Washington Post, The Financial Times, Associated Press, Reuters, L’ Agence France-Press, Time, Life, National Geographic. Yazhou Zhoukan (Hong Kong), and other publications or news agencies acknowledged by the MOC.
 

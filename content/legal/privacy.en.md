@@ -26,7 +26,7 @@ The content of this Privacy Policy includes how the Website deals and utilizes y
 
 1. When you visit the Website or use the services which the Website provides, please provide your personal data which is essential or letting the device collect your personal information automatically for certain purposes. The Website collects the categories of information including the below:
 
-* C001(Personal Data Identification ): Your name, email address, contact details, and time of use when using the interactional function on the Website, such as mailbox and survey.
+* C001(Personal Data Identification ): Your name, email address, contact details, and time of use when using the interactive function on the Website, such as mailbox and survey.
 * Others: When you visit the Website, the server will record relevant behaviors including your device’s IP address, browser, clicking, and browsing records as a reference to improve the Website. These records are internal use only.
 
 2. The Website collects, manages and uses personal information for certain purposes including but not limited to the Employment Gold Card related matters such as surveys, events, recruitment, etc. The Website use your personal data in accordance with Article 16 under the laws of protection and personal information.
@@ -79,11 +79,11 @@ Please keep your password safe and do not give it to anyone. After you log in to
 
 ## 11. Sending Messages
 
-Please keep your password safe and do not give it to anyone. After you log in to the Website to complete each assignment, please be sure to log out of your account. If you share a computer with someone else or use a public computer, please be sure to close the browser window in case of someone logging in with your account. Using incognito Brower is recommended in order to prevent others logging into your account.
+Please keep your password safe and do not give it to anyone. After you log in to the Website to complete each assignment, please be sure to log out of your account. If you share a computer with someone else or use a public computer, please be sure to close the browser window in case of someone logging in with your account. Using incognito Browser is recommended in order to prevent others logging into your account.
 
 ## 12. Governing Law and Jurisdiction
 
-All disputes resulting from this Privacy Policy and the use of this Website shall be resolved pursuant to the laws of the Republic of China, without reference to its conflict of law provisions. You agree that all litigations under this Privacy Policy shall be brought in the Taipei District Court of Taiwan. 
+All disputes resulting from this Privacy Policy and the use of this Website shall be resolved pursuant to the laws of the Republic of China, without reference to its conflict of law provisions. You agree that all litigation under this Privacy Policy shall be brought in the Taipei District Court of Taiwan. 
 
 ## 13. Contact Us
 
