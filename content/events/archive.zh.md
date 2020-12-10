@@ -13,7 +13,7 @@ layout: archive
 date: 2020-11-05T07:09:20.617Z
 topic: eventsnews
 end: ""
-cover_image: cms-uploads/icon-archive.svg
+cover_image: /cms-uploads/icon-australia-day.svg
 tags: null
 publishDate: 2020-11-05T07:09:20.617Z
 ---
