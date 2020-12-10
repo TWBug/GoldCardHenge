@@ -9,13 +9,13 @@ en:
           the Gold Card, how to qualify and apply.
         links:
           - name: About Gold Card
-            link: /about/
+            link: /about
           - name: Qualification
-            link: /qualification/
+            link: /qualification
           - name: Application Process
-            link: /application/
+            link: /application
           - name: Gold Card Office
-            link: /gold-card-office/
+            link: /gold-card-office
         items:
           - apply
     - name: Why Taiwan
@@ -30,9 +30,9 @@ en:
           take a look at our events!
         links:
           - name: News
-            link: /news/
+            link: /news
           - name: Events
-            link: /events/
+            link: /events
         items:
           - apply
     - name: FAQ
@@ -63,13 +63,13 @@ zh:
         text: 台灣就業金卡是針對外國特定專業人才的工作許可、居留簽證、外僑居留證及重入國許可4證合一的個人工作許可，提供外國人才自由尋職、就職及轉換工作的便利性。
         links:
           - name: 關於就業金卡
-            link: /about/
+            link: /about
           - name: 申請流程
-            link: /application/
+            link: /application
           - name: 申請資格
-            link: /qualification/
+            link: /qualification
           - name: 金卡辦公室
-            link: /gold-card-office/
+            link: /gold-card-office
         items:
           - apply
     - name: Why Taiwan
@@ -83,26 +83,26 @@ zh:
         text: 擁有就業金卡的第一手消息，或參加社群活動？來看看這裡。
         links:
           - name: 最新消息
-            link: /news/
+            link: /news
           - name: 活動
-            link: /events/
+            link: /events
         items:
           - apply
     - name: 常見問題
       topic: faq
-      link: /faq/
+      link: /faq
     - name: 相關資源
       topic: resources
-      link: /about/
+      link: /about
       dropdown:
         image: img/uploads/taiwan-lights.jpg
         text: 提供專人聯繫方式、更多關於就業金卡的可用資源。
         links:
           - name: 聯繫我們
-            link: /help-desk/
+            link: /help-desk
           - name: 工作職缺
-            link: /jobs/
+            link: /jobs
           - name: 相關網站
-            link: /related-websites/
+            link: /related-websites
         items:
           - apply
