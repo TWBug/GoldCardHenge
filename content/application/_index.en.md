@@ -74,8 +74,8 @@ Note:
 
 The Taiwanese address needs to be Chinese symbols and Arabic numerals only; no English letters allowed. 
 
-* Correct：台北市中正區寶慶路3號2樓
-* Incorrect：台北市中正區寶慶路No. 3, 2F
+* Correct：2 Floor., Number 3, Baoqing Rd., Zhongzheng Dist., Taipei City 100, Taiwan (R.O.C.)
+* Incorrect：2F., No. 3, Baoqing Rd., Zhongzheng Dist., Taipei City 100, Taiwan (R.O.C.)
 {{< /base >}}
 
 * In the "Profession" tab, please select the industry that you want to apply through. Please attach all relevant supporting documents. Click save after double-checking and uploading the files. 
