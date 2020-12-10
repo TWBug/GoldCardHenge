@@ -30,7 +30,7 @@ Required Documents
 {{< /base >}}
 
 {{< teaser >}}
-從遞件、審核到領取金卡的整個作業時程約需要60個工作天，若您已入境台灣，請注意所持簽證的停留時間是否足夠，若無法在期限內取得就業金卡，仍需要出境後再入境。
+It takes up to 60 business days to complete the entire Employment Gold Card application process. If you are already in Taiwan, please make sure you have enough time left. If you are running out of time, please exit and re-enter the country.
 {{< /teaser >}}
 
 ## STEP 1: Online Application
@@ -45,7 +45,7 @@ Registration
 Fill in our information
 {{< /teaser >}}
 
-* After you have successfully registered, login, and select "Employment Gold Card Application" in the menu "Online Application." 
+* After you have successfully registered, login, and select "Employment Gold Card Application" in the menu "Online Application." Also, select the applicant's nationality and whether or not you are applying from Taiwan or abroad.
 
 {{< base >}}
 Notes for domestic application: 
