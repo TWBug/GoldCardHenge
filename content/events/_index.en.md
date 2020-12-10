@@ -5,7 +5,7 @@ start: 2020-12-03T09:38:12.659Z
 end: ""
 cover_image: /cms-uploads/waiting-room-with-monitors.jpg
 cover_image_alt: null
-media_image: null
+media_image: /cms-uploads/waiting-room-with-monitors.jpg
 media_image_alt: null
 draft: false
 summary: null
