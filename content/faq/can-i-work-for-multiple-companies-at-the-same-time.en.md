@@ -4,4 +4,4 @@ draft: false
 tags:
   - General
 ---
-NONE
+Gold Card comes with open work rights, so you may work for any (or multiple) company in Taiwan or start your own business.
