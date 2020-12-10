@@ -10,8 +10,8 @@ links:
     href: /zh/about/
     new_window: false
 items:
-  - preview: /img/dummy-image.jpg
-    label: Headquaters
-    href: /news/single
+  - preview: /cms-uploads/taiwan-employment-gold-card-office.jpg
+    label: Taiwan Employment Gold Card Office
+    href: ""
 ---
 <!-- this text will never been used-->
