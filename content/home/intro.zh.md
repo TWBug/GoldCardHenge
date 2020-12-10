@@ -20,6 +20,6 @@ items:
     preview: /cms-uploads/icon-news.svg
   - label: Why Taiwan
     href: /why-taiwan
-    preview: ""
+    preview: /cms-uploads/image-1-.png
 ---
 <!-- This text will never be seen -->
