@@ -3,6 +3,7 @@ title: 臺灣商務禮儀
 draft: false
 cover_image: /cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
 media_image: /cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
+topic: whytaiwan
 topics:
   - Discover Taiwan
 style: right
