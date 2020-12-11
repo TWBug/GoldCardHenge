@@ -33,8 +33,8 @@
                         <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
                     </li>
                     {{ else }}
-                    <li class="inline-block bg-white text-primary rounded-md text-xs mx-1">
-                        <a href="/{{ $.lang }}/topics/{{ . }}" class="inline-flex items-center px-2 py-1 focus-primary">
+                    <li class="inline-block bg-white text-primary rounded-md shadow-md text-xs mx-1">
+                        <a href="/{{ $.lang }}/topics/{{ . | anchorize }}" class="inline-flex items-center px-2 py-1 focus-primary">
                             {{ partial "icon" (dict "name" "tag" "size" "3") }}
                             <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
                         </a>
