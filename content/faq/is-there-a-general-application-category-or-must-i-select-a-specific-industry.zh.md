@@ -9,7 +9,7 @@ topic: faq
 cover_image: null
 title: 是否有個「一般」選項或是我必須選擇其中一個特定條目？
 tags:
-  - Qualification
+  - Application
 publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
