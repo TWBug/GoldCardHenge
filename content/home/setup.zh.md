@@ -27,7 +27,7 @@ items:
   - preview: /cms-uploads/law.png
     label: 法律
     href: /qualification/field-of-law
-  - preview: /cms-uploads/field-08.png
+  - preview: /cms-uploads/sports.png
     label: 體育
     href: /qualification/field-of-sport
 ---
