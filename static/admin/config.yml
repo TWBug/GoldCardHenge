@@ -480,6 +480,7 @@ collections:
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Navigation', name: 'topic', widget: 'hidden', default: 'whytaiwan', i18n: duplicate }
           - {
                 label: 'Cover Image',
                 name: 'cover_image',
