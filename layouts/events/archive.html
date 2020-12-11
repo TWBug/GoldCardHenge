@@ -1,7 +1,5 @@
 {{ define "main" }}
 
-{{ $hero_image := resources.Get (printf "%s" ("cms-uploads/futureward-function-room.jpg" | safeURL)) }}
-
 {{ $cover_image := "" }}
 {{ if .Params.cover_image }}
 {{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
