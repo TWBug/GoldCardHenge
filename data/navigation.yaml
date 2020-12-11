@@ -25,7 +25,7 @@ en:
       topic: eventsnews
       link: /news/
       dropdown:
-        image: cms-uploads/navigation-events-news-header.jpg
+        image: /cms-uploads/waiting-room-with-monitors.jpg
         text: Read the latest news about the Taiwan Employment Gold Card Program and
           take a look at our events!
         links:
@@ -79,7 +79,7 @@ zh:
       topic: eventsnews
       link: /news/
       dropdown:
-        image: cms-uploads/navigation-events-news-header.jpg
+        image: /cms-uploads/waiting-room-with-monitors.jpg
         text: 擁有就業金卡的第一手消息，或參加社群活動？來看看這裡。
         links:
           - name: 最新消息
