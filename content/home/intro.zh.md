@@ -19,7 +19,7 @@ items:
     href: /news/20201130-cumulative-number-of-employment-gold-card-issuance
     preview: /cms-uploads/icon-news.svg
   - label: 近期活動
-    href: /zh/events
+    href: /events
     preview: /cms-uploads/icon-australia-day.svg
 ---
 <!-- This text will never be seen -->
