@@ -178,14 +178,23 @@ Notes:
 * You can only change the card collection location before your application review is passed. After you receive the e-mail confirmation, you cannot modify it online. Applicants will then need to contact the Bureau of Consular Affairs for any changes.
 {{< /base >}}
 
-## 退補件說明
+## Submitting Additional Documents & Rejection
 
-當申請人完成線上繳費後，審查程序就正式啟動。由於就業金卡是四證合一，需經過三個中華民國主管機關審核，分別是內政部移民署進行資料初審，再由勞動部會商其他部會進行資格複審，最後由外交部進行簽證審核。申請人通常在初審與複審階段，會因為所選簽證總類錯誤、資料準備不齊全、所選領域資格不符等，而需要資料補件、重新遞件或是申請被駁回。
+After the applicant completes the online payment, the review process officially begins. As the Taiwan Employment Gold Card is a combination of four different certificates, three ROC authorities need to review the application. The National Immigration Agency conducts the first step of the review process and then passes it to the Ministry of Labor. Here they will consult with your relevant Ministry and check your qualifications. The final stop is at the Bureau of Consular Affairs for the last visa review.
 
-* 簽證總類錯誤：例如持免簽入境台灣卻在申請時選擇「持停留期限六十天以上且未經簽證機關加註限制不准延期或其他限制簽證入國」。
-* 資料準備不齊全：沒有依據所選領域的資格條件提供可證明文件，例如未提供官方財稅證明文件；所提供資料非中英文且未檢附英文或中文譯本；文件是由以下國家/地區發行卻未經過驗證。
+**If you submit incomplete or inaccurate information and files, etc., you will need to resubmit documents, or your application can be rejected.**
 
-  * 大陸地區、阿富汗、阿爾及利亞、孟加拉、不丹、緬甸、柬埔寨、喀麥隆、古巴、迦納、伊朗、伊拉克、寮國、尼泊爾、尼日、奈及利亞、巴基斯坦、塞內加爾、索馬利亞、斯里蘭卡、敘利亞、菲律賓、泰國、越南、馬來西亞、印尼等。
-* 資格不符：申請人所提供的證明文件無法滿足所選擇的資格條件，例如月平均薪資經所得期間的最佳匯率計算仍未達新臺幣16萬元以上；所提供的證明文件無法判斷是否在專業領域具有重要貢獻或獨到才能；相關工作經驗年限累積未達規定等。
+* Please make sure to choose the right visa category that you have entered the country with, e.g., Visa-free, Student visa, visitor visa, etc.
+* Incomplete information: 
 
-若因資料不符或欠缺者，經郵件通知後須於30日內補正；若申請資料須至境外申請，補正期間為6個月。屆期未補正或補正不完全者，駁回申請。
+  * No supporting documents for your application qualifications
+  * Incorrect documents (e.g. No official tax statements)
+  * Documents are not in English/ or Chinese.
+  * Documents are from certain countries/regions but not verified.
+
+    * Mainland China, Afghanistan, Algeria, Bangladesh, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, Indonesia, etc.
+* Insufficient documents:
+
+  * If your documents can't prove that you are meeting the requirements, you will be asked to submit more documents. If you are not able to submit sufficient documents, your application will be rejected.
+
+If you need to change information or provide more supporting documents, you have 30-days of time. If your documents are only available abroad, you have a 6-months timeframe to provide them. [Your application will be rejected if you can't uphold the time limit.](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080204&flno=4)
