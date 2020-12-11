@@ -199,4 +199,4 @@ After the applicant completes the online payment, the review process officially 
 
   * If your documents can't prove that you are meeting the requirements, you will be asked to submit more documents. If you are not able to submit sufficient documents, your application will be rejected.
 
-If you need to change information or provide more supporting documents, you have 30-days of time. If your documents are only available abroad, you have a 6-months timeframe to provide them. [Your application will be rejected if you can't uphold the time limit.](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080204&flno=4)
+If you need to change information or provide more supporting documents, you have 30-days of time. If your documents are only available abroad, you have a 6-months timeframe to provide them. [Your application will be rejected if you can't uphold the time limit.](https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=D0080204)
