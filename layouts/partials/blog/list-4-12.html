@@ -28,7 +28,7 @@
                         <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
                     </li>
                     {{ else }}
-                    <li class="inline-block bg-white text-primary rounded-md shadow-md text-xs mx-1">
+                    <li class="inline-block bg-white text-primary border border-gray-200 rounded-md shadow-md text-xs mx-1">
                         <a href="/{{ $.lang }}/topics/{{ . | anchorize }}" class="inline-flex items-center px-2 py-1 focus-primary">
                             {{ partial "icon" (dict "name" "tag" "size" "3") }}
                             <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
@@ -39,10 +39,14 @@
             </ul>
         </div>
         {{ end }}
-        {{ if ne $cover_image "" }}
+        {{ if ne $cover_image_resized "" }}
         <img 
         src="{{ $cover_image_resized.RelPermalink }}"
         alt="{{ .Title | truncate 80 }}" class="block w-full -z-1" loading="lazy" />
+        {{ else }}
+        <div class="flex-center min-h-64 text-sm">
+            NO IMAGE FOUND 4/12: {{ .article.Params.cover_image }}
+        </div>
         {{ end }}
     </div>
     <div class="flex flex-col h-full bg-gradient-to-b from-white to-gray-100 px-8 py-6">
