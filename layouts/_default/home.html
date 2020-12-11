@@ -7,20 +7,19 @@
 {{ $heromessages = $heromessages | append .label }}
 {{ end }}
 
-{{ $heroimage := resources.Get "img/taipei-101.jpg" }}
-{{ $heroimagesmall := $heroimage.Fill "480x720 BottomLeft q40" }}
-{{ $heroimagemedium := $heroimage.Fill "768x1024 BottomLeft q40" }}
-{{ $heroimageslarge := $heroimage.Fill "1280x1280 BottomLeft q40" }}
-{{ $heroimagesxlarge := $heroimage.Fill "1800x1280 BottomLeft q40" }}
+{{ $hero_small := resources.Get "img/hero-taipei-101-small.jpg" | fingerprint }}
+{{ $hero_medium := resources.Get "img/hero-taipei-101-medium.jpg" | fingerprint }}
+{{ $hero_large := resources.Get "img/hero-taipei-101-large.jpg" | fingerprint }}
+{{ $hero_max := resources.Get "img/hero-taipei-101-max.jpg" | fingerprint }}
 
-<div class="relative h-screen xl:max-h-screen-3/4 xxl:max-h-screen-1/2 shadow-xl print:shadow-none">
+<div class="relative h-screen xl:max-h-screen-3/4 xxl:max-h-screen-2/3 shadow-xl print:shadow-none">
     {{ partial "navigation" .  }}
     <div class="absolute inset-0 bg-nav-start bg-gradient-to-b from-nav-start to-nav-end print:hidden">
         <div class="absolute inset-0 w-full h-full z-0">
             <img
             sizes="100vw"
-            srcset="{{ $heroimagesmall.RelPermalink }} 480w, {{ $heroimagemedium.RelPermalink }} 768w, {{ $heroimageslarge.RelPermalink }} 1024w, {{ $heroimagesxlarge.RelPermalink }} 1440w"
-            src="{{ $heroimagesxlarge.RelPermalink }}"
+            srcset="{{ $hero_small.RelPermalink }} 480w, {{ $hero_medium.RelPermalink }} 768w, {{ $hero_large.RelPermalink }} 1024w, {{ $hero_max.RelPermalink }} 1440w"
+            src="{{ $hero_max.RelPermalink }}"
             loading="lazy"
             alt="{{ .Summary | humanize }}" class="block w-full h-full object-cover object-left-bottom">
         </div>
