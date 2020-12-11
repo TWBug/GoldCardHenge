@@ -30,6 +30,8 @@ cover_image_alt: null
 從遞件、審核到領取金卡的整個作業時程約需要60個工作天，若您已入境台灣，請注意所持簽證的停留時間是否足夠，若無法在期限內取得就業金卡，仍需要出境後再入境。
 {{< /teaser >}}
 
+![Gold Card Application Process](/cms-uploads/流程圖-01.png "就業金卡申請流程圖")
+
 ## 申請步驟一：線上申請
 
 {{< teaser prefix="1." >}}
