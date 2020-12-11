@@ -67,8 +67,14 @@ blockquote {
 @tailwind utilities;
 
 .max-h-homehero {
-    /* xl:max-h-screen-3/4 xxl:max-h-screen-2/3 */
-    max-height: var(--homeHero, calc(var(--vh) * 75));
+    max-height: calc(var(--vh) * 100);
+}
+
+@screen lg {
+    .max-h-homehero {
+        /* xl:max-h-screen-3/4 xxl:max-h-screen-2/3 */
+        max-height: var(--homeHero, calc(var(--vh) * 75));
+    }
 }
 
 .overflow {

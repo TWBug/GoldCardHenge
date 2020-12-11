@@ -22,6 +22,8 @@ function handleResize() {
         }
     }
     document.documentElement.style.setProperty('--homeHero', `${home_hero}`);
+    
+    console.info('width x height: ', window.innerWidth + ' x ' + window.innerHeight);
 
     // view port height fix for mobile browsers
     const vh = window.innerHeight * 0.01;
