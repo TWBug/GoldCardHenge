@@ -3,7 +3,7 @@
     <head>
         {{ partial "head" . }}
         {{ block "head" . }}
-        {{ partial "head/alpine" ( dict "spruce" "true" ) }}
+        {{ partial "head/alpine" ( dict "spruce" "true" "cdn" .Site.Params.loadFromCDN ) }}
         {{ end }}
     </head>
     {{ if eq .Site.Language.Lang "zh" }}
@@ -21,9 +21,9 @@
         </div>
         {{ partial "welcome" . }}
         {{ block "scripts" . }}
-        {{ partial "scripts/global" }}
-        {{ partial "scripts/analytics" }}
-        {{ partial "scripts/lunr" }}
+        {{ partial "scripts/global" . }}
+        {{ partial "scripts/analytics" . }}
+        {{ partial "scripts/lunr" . }}
         {{ end }}
     </body>
 </html>

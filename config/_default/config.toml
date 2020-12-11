@@ -18,6 +18,9 @@ category = "categories"
 topic = "topics"
 tag = "tags"
 
+[Params]
+loadFromCDN = "true"
+
 [languages]
 
 [languages.en]

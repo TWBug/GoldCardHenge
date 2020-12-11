@@ -66,12 +66,16 @@
 <link rel="canonical" href="{{ .Page.Permalink }}" />
 <title>{{ .Page.Title | truncate 60 }} | {{ .Site.Title }}</title>
 {{ if eq .Site.Language.Lang "zh" }}
+    {{ if eq .Site.Params.loadFromCDN "true" }}
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&Krub:wght@300;400;500;600;700&display=swap"
         rel="stylesheet"
     />
+    {{ end }}
 {{ else }}
+    {{ if eq .Site.Params.loadFromCDN "true" }}
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    {{ end }}
 {{ end }}
 {{ if .Site.IsServer }}
 <link href="{{ $styles_develop.RelPermalink }}" rel="stylesheet" integrity="{{ $styles_develop.Data.Integrity }}" />

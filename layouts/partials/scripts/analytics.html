@@ -1,4 +1,4 @@
-{{ if eq hugo.Environment "production" }}
+{{ if or (eq hugo.Environment "production") (eq hugo.Environment "gh") }}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180546345-1"></script>
 <script>
