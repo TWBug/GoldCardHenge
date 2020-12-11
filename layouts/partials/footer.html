@@ -48,6 +48,34 @@
                         {{ partial "icon" (dict "name" "linkedin" "size" "8" "alt" "Link to linkedin page") }}
                     </a>
                 </div>
+                {{ $helpdesk := .Site.GetPage "/help-desk" }}
+                <h4 class="font-semibold uppercase text-sm mb-1">{{ i18n "footer_help_headline" }}</h4>
+                <p class="font-medium text-xs">{{ i18n "footer_help_description" }} <a href="{{ $helpdesk.RelPermalink }}" class="font-bold focus-white">{{ i18n "footer_help_desk" }} {{ $helpdesk.Title }}</a>
+                </p>
+                <a href="{{ $helpdesk.RelPermalink }}" class="flex items-center my-2 focus-white">
+                    <div class="flex-center w-3">
+                        {{ partial "icon" (dict "name" "info" "size" "3" "alt" "Help Desk Phone") }}
+                    </div>
+                    <span class="text-xs font-bold ml-2">
+                        {{ $helpdesk.Title }}
+                    </span>
+                </a>
+                <a href="tel:{{ .Site.Language.Params.phone}}" class="flex items-center my-2 focus-white">
+                    <div class="flex-center w-3">
+                        {{ partial "icon" (dict "name" "phone-alt" "size" "3" "alt" "Help Desk Phone") }}
+                    </div>
+                    <span class="text-xs font-bold ml-2">
+                        {{ .Site.Language.Params.phone}}
+                    </span>
+                </a>
+                <a href="mailto:{{ .Site.Language.Params.email}}" class="flex items-center my-2 focus-white">
+                    <div class="flex-center w-3">
+                        {{ partial "icon" (dict "name" "paper-plane" "size" "3" "alt" "Help Desk Email") }}
+                    </div>
+                    <span class="text-xs font-bold ml-2">
+                        {{ .Site.Language.Params.email}}
+                    </span>
+                </a>
             </div>
             <div class="flex-grow grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 text-xs font-regular">
                 <div class="">
@@ -156,6 +184,18 @@
                         <li>
                             <a href="{{ $sitemap.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
                                 {{ $sitemap.Title }}
+                            </a>
+                        </li>
+                        {{ $helpdesk := .Site.GetPage "/help-desk" }}
+                        <li>
+                            <a href="{{ $helpdesk.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
+                                {{ $helpdesk.Title }}
+                            </a>
+                        </li>
+                        {{ $goldcardoffice := .Site.GetPage "/gold-card-office" }}
+                        <li>
+                            <a href="{{ $goldcardoffice.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
+                                {{ $goldcardoffice.Title }}
                             </a>
                         </li>
                     </ul>

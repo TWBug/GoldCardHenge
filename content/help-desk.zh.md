@@ -18,3 +18,5 @@ cover_image_alt: null
 台灣就業金卡辦公室提供個雙語服務，如果您有任何疑問，請隨時與我們聯繫：
 
 help@taiwangoldcard.tw
+
++886 2-7733-7660
