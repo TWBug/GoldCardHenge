@@ -50,32 +50,34 @@
                 </div>
                 {{ $helpdesk := .Site.GetPage "/help-desk" }}
                 <h4 class="font-semibold uppercase text-sm mb-1">{{ i18n "footer_help_headline" }}</h4>
-                <p class="font-medium text-xs">{{ i18n "footer_help_description" }} <a href="{{ $helpdesk.RelPermalink }}" class="font-bold focus-white">{{ i18n "footer_help_desk" }} {{ $helpdesk.Title }}</a>
+                <p class="font-medium text-xs">{{ i18n "footer_help_description" }} {{ i18n "footer_help_desk" }} {{ $helpdesk.Title }}.
                 </p>
-                <a href="{{ $helpdesk.RelPermalink }}" class="inline-flex items-center my-2 focus-white">
-                    <div class="flex-center w-3">
-                        {{ partial "icon" (dict "name" "info" "size" "3" "alt" "Help Desk Phone") }}
-                    </div>
-                    <span class="text-xs font-bold ml-2">
-                        {{ $helpdesk.Title }}
-                    </span>
-                </a>
-                <a href="tel:{{ .Site.Language.Params.phone}}" class="inline-flex items-center my-2 focus-white">
-                    <div class="flex-center w-3">
-                        {{ partial "icon" (dict "name" "phone-alt" "size" "3" "alt" "Help Desk Phone") }}
-                    </div>
-                    <span class="text-xs font-bold ml-2">
-                        {{ .Site.Language.Params.phone}}
-                    </span>
-                </a>
-                <a href="mailto:{{ .Site.Language.Params.email}}" class="inline-flex items-center my-2 focus-white">
-                    <div class="flex-center w-3">
-                        {{ partial "icon" (dict "name" "paper-plane" "size" "3" "alt" "Help Desk Email") }}
-                    </div>
-                    <span class="text-xs font-bold ml-2">
-                        {{ .Site.Language.Params.email}}
-                    </span>
-                </a>
+                <div class="flex flex-col items-start mt-2">
+                    <a href="{{ $helpdesk.RelPermalink }}" class="inline-flex items-center my-1 focus-white">
+                        <div class="flex-center w-3">
+                            {{ partial "icon" (dict "name" "info" "size" "3" "alt" "Help Desk Phone") }}
+                        </div>
+                        <span class="text-xs font-bold ml-2">
+                            {{ $helpdesk.Title }}
+                        </span>
+                    </a>
+                    <a href="tel:{{ .Site.Language.Params.phone}}" class="inline-flex items-center my-1 focus-white">
+                        <div class="flex-center w-3">
+                            {{ partial "icon" (dict "name" "phone-alt" "size" "3" "alt" "Help Desk Phone") }}
+                        </div>
+                        <span class="text-xs font-bold ml-2">
+                            {{ .Site.Language.Params.phone}}
+                        </span>
+                    </a>
+                    <a href="mailto:{{ .Site.Language.Params.email}}" class="inline-flex items-center my-1 focus-white">
+                        <div class="flex-center w-3">
+                            {{ partial "icon" (dict "name" "paper-plane" "size" "3" "alt" "Help Desk Email") }}
+                        </div>
+                        <span class="text-xs font-bold ml-2">
+                            {{ .Site.Language.Params.email}}
+                        </span>
+                    </a>
+                </div>
             </div>
             <div class="flex-grow grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 text-xs font-regular">
                 <div class="">
