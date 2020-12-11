@@ -9,7 +9,7 @@ media_image_alt: Test alt
 date: 2020-11-05T07:09:20.617Z
 topic: goldcard
 title: Field of Science & Technology
-icon: /cms-uploads/sciencentechnology.png
+icon: /cms-uploads/icon-science-technology.svg
 tags: null
 style: right
 cover_image: img/uploads/dummy-image.jpg

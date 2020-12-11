@@ -1,7 +1,7 @@
 ---
 title: 科技領域
 summary: 在軟體應用、奈米、光電技術、資通訊技術、生物科技、人工智慧、物聯網等尖端及前瞻科技上有傑出研發設計或新創實績、國際獎項得主、國家科學院院士、國家院士級學者等。
-icon: /cms-uploads/sciencentechnology.png
+icon: /cms-uploads/icon-science-technology.svg
 style: right
 ---
 # 科技領域特殊專長
