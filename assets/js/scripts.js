@@ -657,6 +657,7 @@ window.taNavigation = function () {
     modal: false,
     search: false,
     fixed: false,
+    checked_menu_height: false,
     dropdown: {
       goldcard: false,
       faq: false,
@@ -740,6 +741,11 @@ window.taNavigation = function () {
       }
     },
     toggleDropdown: function toggleDropdown(topic, event) {
+      if (this.checked_menu_height === false) {
+        this.setMenuHeight();
+        this.checked_menu_height = true;
+      }
+
       for (var property in this.dropdown) {
         if (property === topic) {
           this.dropdown[topic] = !this.dropdown[topic];
@@ -777,6 +783,157 @@ window.taNavigation = function () {
       this.menue[property] = false;
     }
   }), _ref;
+};
+"use strict";
+
+function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+window.taSearch = function () {
+  return {
+    initialized: false,
+    query: '',
+    is_chinese_ui: false,
+    has_chinese_characters: false,
+    result: [],
+    active: -1,
+    has_results: false,
+    init: function init() {
+      var _this = this;
+
+      var _console = console,
+          assert = _console.assert;
+      assert(window.lunr, 'Lunr.js not found. Search cannot be supported without Lunr.js.');
+      this.is_chinese_ui = window.location.pathname.startsWith('/zh/');
+      this.loadIndex();
+      this.initLunr();
+      this.$watch('query', function (value) {
+        if (value.length === 0) {
+          _this.reset();
+
+          return;
+        }
+
+        _this.search(_this.query);
+      });
+    },
+    reset: function reset() {
+      this.result = [];
+      this.has_results = false;
+      this.query = '';
+      this.active = -1;
+    },
+    up: function up() {
+      if (this.active > 0) {
+        this.active -= 1;
+      }
+    },
+    down: function down() {
+      if (this.active < this.result.length - 1) {
+        this.active += 1;
+      }
+    },
+    enter: function enter() {
+      if (this.active === -1 && this.result.length === 0) {
+        return false;
+      }
+
+      var url = this.result[this.active].href;
+      location.href = url;
+    },
+    excerpt: function excerpt(string, length) {
+      return string.slice(0, length) + '…';
+    },
+    initLunr: function initLunr() {
+      // Set up support for chinese
+      window.lunr.zh = function () {
+        this.pipeline.reset();
+        this.pipeline.add(window.lunr.zh.trimmer, window.lunr.stopWordFilter, window.lunr.stemmer);
+      };
+
+      window.lunr.zh.trimmer = function (token) {
+        return token.update(function (str) {
+          if (function (str) {
+            /[\u4E00-\u9FA5\uF900-\uFA2D]/.test(str);
+          }) return str;
+          return str.replace(/^\W+/, '').replace(/\W+$/, '');
+        });
+      };
+
+      window.lunr.Pipeline.registerFunction(lunr.zh.trimmer, 'trimmer-zh');
+    },
+    loadIndex: function loadIndex() {
+      var _this2 = this;
+
+      console.log('[ALPINEJS] Lunr index loading:', this.$el.dataset.file); // First retrieve the index file
+
+      fetch(this.$el.dataset.file).then(function (x) {
+        return x.json();
+      }).then(function (index) {
+        window.lunrPages = index; // Set up lunrjs by declaring the fields we use
+        // Also provide their boost level for the ranking
+
+        window.lunrIndex = window.lunr(function () {
+          if (window.location.pathname.startsWith('/zh/')) {
+            console.log('[ALPINEJS] 中文頁面，開啟Lunr中文支援');
+            this.use(window.lunr.zh); // Set up Chinese support
+          }
+
+          this.field('title', {
+            boost: 10
+          });
+          this.field('tags', {
+            boost: 5
+          });
+          this.field('categories', {
+            boost: 8
+          });
+          this.field('content'); // ref is the result item identifier (I chose the page URL)
+
+          this.ref('href'); // Feed lunr with each file and let lunr actually index them
+
+          var _iterator = _createForOfIteratorHelper(window.lunrPages),
+              _step;
+
+          try {
+            for (_iterator.s(); !(_step = _iterator.n()).done;) {
+              var page = _step.value;
+              this.add(page);
+            }
+          } catch (err) {
+            _iterator.e(err);
+          } finally {
+            _iterator.f();
+          }
+        });
+        _this2.initialized = true;
+      })["catch"](function (err) {
+        console.error('Error getting Hugo index file:', err.message);
+      });
+    },
+    search: function search(query) {
+      // Find the item in our index corresponding to the lunr one to have more info
+      // Lunr result:
+      //  {ref: "/section/page1", score: 0.2725657778206127}
+      // Our result:
+      //  {title:"Page1", href:"/section/page1", ...}
+      this.result = window.lunrIndex.search(query).map(function (result) {
+        return window.lunrPages.find(function (page) {
+          return page.href === result.ref;
+        });
+      });
+      this.result = this.result.slice(0, 8);
+
+      if (this.result.length > 0) {
+        this.has_results = true;
+      } else {
+        this.has_results = false;
+      }
+    }
+  };
 };
 "use strict";
 

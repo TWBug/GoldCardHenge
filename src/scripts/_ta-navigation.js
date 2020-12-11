@@ -4,6 +4,7 @@ window.taNavigation = function () {
         modal: false,
         search: false,
         fixed: false,
+        checked_menu_height: false,
         dropdown: {
             goldcard: false,
             faq: false,
@@ -49,7 +50,7 @@ window.taNavigation = function () {
             // if (typeof menu !== 'undefined') {
             //     document.documentElement.style.setProperty('--navigationMenu', `${menu.offsetHeight}px`);
             // }
-            
+
             window.addEventListener('resize', () => {
                 this.setMenuHeight();
             });
@@ -85,6 +86,10 @@ window.taNavigation = function () {
             }
         },
         toggleDropdown(topic, event) {
+            if (this.checked_menu_height === false) {
+                this.setMenuHeight();
+                this.checked_menu_height = true;
+            }
             for (const property in this.dropdown) {
                 if (property === topic) {
                     this.dropdown[topic] = !this.dropdown[topic];
