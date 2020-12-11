@@ -9,7 +9,7 @@ topic: faq
 cover_image: null
 title: 我的專業服務/獨資經營/股息收入是否計入申請金卡的薪水要求？
 tags:
-  - Qualification
+  - Application
 publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null

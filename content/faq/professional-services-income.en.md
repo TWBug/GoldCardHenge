@@ -10,7 +10,7 @@ cover_image: null
 title: Does my professional services/sole proprietor/dividend income count
   towards the salary requirement for Gold Card application?
 tags:
-  - Qualification
+  - Application
 publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
