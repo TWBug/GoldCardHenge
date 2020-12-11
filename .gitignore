@@ -21,3 +21,4 @@ static/js-misc/lunr-search.js
 .netlify
 cypress/integration/examples
 cypress/videos
+cypress/screenshots
