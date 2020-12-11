@@ -1,8 +1,8 @@
 ---
 title: 臺灣商務禮儀
 draft: false
-cover_image: ""
-media_image: ""
+cover_image: /cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
+media_image: /cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
 topics:
   - Discover Taiwan
 style: right
