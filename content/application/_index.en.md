@@ -67,6 +67,13 @@ Note:
 {{< /base >}}
 
 * Please also choose the preferred location for picking up your Gold Card. If the applicant is in Taiwan, please select your nearest Immigration bureau. If the applicant is abroad, select the nearest ROC agency. **Due to COVID-19, many ROC agencies are temporarily closed. If so, please contact the Ministry of Foreign Affairs to change the pick-up location from the internal system.** 
+
+{{< base >}}
+Note: 
+
+* The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. For detailed instructions to pick up your Gold Card, please refer to Step 3.
+{{< /base >}}
+
 * If you currently don't have a work address or residence address, you can temporarily leave it out during the application and review stage. However, you must provide this information when inspecting your passport.
 
 {{< base >}}
@@ -79,12 +86,6 @@ The Taiwanese address needs to be Chinese symbols and Arabic numerals only; no E
 {{< /base >}}
 
 * In the "Profession" tab, please select the industry that you want to apply through. Please attach all relevant supporting documents. Click save after double-checking and uploading the files. 
-
-{{< base >}}
-Note: 
-
-* The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. For detailed instructions to pick up your Gold Card, please refer to Step 3.
-{{< /base >}}
 
 {{< teaser prefix="3." >}}
 Upload your files
