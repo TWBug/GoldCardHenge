@@ -52,7 +52,7 @@
                 <h4 class="font-semibold uppercase text-sm mb-1">{{ i18n "footer_help_headline" }}</h4>
                 <p class="font-medium text-xs">{{ i18n "footer_help_description" }} <a href="{{ $helpdesk.RelPermalink }}" class="font-bold focus-white">{{ i18n "footer_help_desk" }} {{ $helpdesk.Title }}</a>
                 </p>
-                <a href="{{ $helpdesk.RelPermalink }}" class="flex items-center my-2 focus-white">
+                <a href="{{ $helpdesk.RelPermalink }}" class="inline-flex items-center my-2 focus-white">
                     <div class="flex-center w-3">
                         {{ partial "icon" (dict "name" "info" "size" "3" "alt" "Help Desk Phone") }}
                     </div>
@@ -60,7 +60,7 @@
                         {{ $helpdesk.Title }}
                     </span>
                 </a>
-                <a href="tel:{{ .Site.Language.Params.phone}}" class="flex items-center my-2 focus-white">
+                <a href="tel:{{ .Site.Language.Params.phone}}" class="inline-flex items-center my-2 focus-white">
                     <div class="flex-center w-3">
                         {{ partial "icon" (dict "name" "phone-alt" "size" "3" "alt" "Help Desk Phone") }}
                     </div>
@@ -68,7 +68,7 @@
                         {{ .Site.Language.Params.phone}}
                     </span>
                 </a>
-                <a href="mailto:{{ .Site.Language.Params.email}}" class="flex items-center my-2 focus-white">
+                <a href="mailto:{{ .Site.Language.Params.email}}" class="inline-flex items-center my-2 focus-white">
                     <div class="flex-center w-3">
                         {{ partial "icon" (dict "name" "paper-plane" "size" "3" "alt" "Help Desk Email") }}
                     </div>
