@@ -9,7 +9,7 @@ topic: faq
 cover_image: null
 title: 申請就業金卡需要有較高薪資嗎？
 tags:
-  - Qualification
+  - Application
 publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
