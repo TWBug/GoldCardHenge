@@ -102,7 +102,7 @@ Upload your files
 * If the provided documents are neither in English nor Chinese, please attach a translation to English or Chinese. 
 * If the applicant's documents are issued by the following countries/regions, extra verification is needed.
 
-  * Documents issued in the Mainland area have to be attested and examined by the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area."
+  * Documents issued in the Mainland area have to be attested and examined by[ the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct5bfa.html?xItem=110586&ctNode=5946&mp=3) entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area."
   * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
 
 {{< base >}}
