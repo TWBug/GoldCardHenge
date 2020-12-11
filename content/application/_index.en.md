@@ -71,7 +71,7 @@ Note:
 {{< base >}}
 Note: 
 
-* The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. For detailed instructions to pick up your Gold Card, please refer to Step 3.
+* The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. For detailed instructions to pick up your Gold Card, please refer to [Step 3](#step-3-receiving-your-gold-card).
 {{< /base >}}
 
 * If you currently don't have a work address or residence address, you can temporarily leave it out during the application and review stage. However, you must provide this information when inspecting your passport.
