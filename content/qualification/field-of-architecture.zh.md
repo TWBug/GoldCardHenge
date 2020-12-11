@@ -2,7 +2,7 @@
 title: 建築設計領域
 summary: 月薪新臺幣16萬元且具我(外)國建築師資格或於外國建築師事務所年資5年以上具設計或監造執行經驗等。
 draft: false
-icon: /cms-uploads/architecture.png
+icon: /cms-uploads/icon-architecture.svg
 ---
 # 建築設計領域特殊專長
 

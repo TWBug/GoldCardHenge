@@ -6,28 +6,28 @@ hidden: false
 headless: true
 links: null
 items:
-  - preview: /cms-uploads/architecture.png
+  - preview: /cms-uploads/icon-architecture.svg
     label: 建築
     href: /qualification/field-of-architecture
-  - preview: /cms-uploads/artncultrue.png
+  - preview: /cms-uploads/icon-art-culture.svg
     label: 文化藝術
     href: /qualification/field-of-culture-and-arts
-  - preview: /cms-uploads/economy.png
+  - preview: /cms-uploads/icon-economy.svg
     label: 經濟
     href: /qualification/field-of-economy
-  - preview: /cms-uploads/education.png
+  - preview: /cms-uploads/icon-education.svg
     label: 教育
     href: /qualification/field-of-education
-  - preview: /cms-uploads/finance.png
+  - preview: /cms-uploads/icon-finance.svg
     label: 金融
     href: /qualification/field-of-finance
-  - preview: /cms-uploads/sciencentechnology.png
+  - preview: /cms-uploads/icon-science-technology.svg
     label: 科技
     href: /qualification/field-of-science-technology
-  - preview: /cms-uploads/law.png
+  - preview: /cms-uploads/icon-law.svg
     label: 法律
     href: /qualification/field-of-law
-  - preview: /cms-uploads/sports.png
+  - preview: /cms-uploads/icon-sports.svg
     label: 體育
     href: /qualification/field-of-sport
 ---
