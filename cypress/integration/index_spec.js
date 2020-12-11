@@ -9,8 +9,9 @@ describe('Home page', () => {
     });
 
     it('Should have a search box', () => {
+        const query = 'business in taiwan';
         cy.get('[data-cy="show-search"]').click(); // Reveal search box
-        cy.get('.search-box:visible').type('why taiwan').should('have.value', 'why taiwan');
-        cy.contains('humans of taiwan', { matchCase: false });
+        cy.get('.search-box:visible').type(query).should('have.value', query);
+        cy.contains('business etiquette in taiwan', { matchCase: false });
     });
 });

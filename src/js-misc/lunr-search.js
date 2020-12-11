@@ -126,14 +126,15 @@ const renderResults = (results, query) => {
 
         // The "excerpt" is a bit of text with a span highlighting the search
         // text. That's what all this logic is for.
-        const excerpt =
-            matchIndex === -1
-                ? [content.slice(0, excerptSize)]
-                : [
-                      content.slice(Math.max(0, matchIndex - excerptSize / 2), matchIndex),
-                      el('span', {}, query),
-                      content.slice(matchIndex + query.length, matchIndex + excerptSize / 2),
-                  ];
+        const excerpt = x.summary
+            ? [x.summary] // Default to the manually-created summary if present
+            : matchIndex === -1
+            ? [content.slice(0, excerptSize)]
+            : [
+                  content.slice(Math.max(0, matchIndex - excerptSize / 2), matchIndex),
+                  el('span', {}, query),
+                  content.slice(matchIndex + query.length, matchIndex + excerptSize / 2),
+              ];
 
         // Add "..." if the excerpt was chopped (i.e. most of the time)
         if (excerpt.length < content.length) {
@@ -222,7 +223,7 @@ function initUI() {
   background: white;
   border-radius: 0 0 3px 3px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
     #search-results {
         top: 130px;
     }
