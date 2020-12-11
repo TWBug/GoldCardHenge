@@ -26,16 +26,14 @@
         <div class="absolute right-0 bottom-0 w-full sm:w-2/3 xxl:w-1/2 h-2/3">
             <div class="w-full lg:w-5/6 p-12">
                 <div class="mb-1">
-                    
-                    <h1 class="text-6xl bg-white leading-snug font-bold padded-fixed">
-                        {{ $hero.Title | markdownify }}
+                    <h1 class="flex flex-col items-start leading-snug">
+                        <span class="text-6xl font-bold bg-white padded-fixed my-1">
+                            {{ $hero.Title | markdownify }}
+                        </span>
+                        <span class="text-4xl font-regular bg-white padded-fixed my-1">
+                            {{ $hero.Summary | markdownify }}
+                        </span>
                     </h1>
-                </div>
-                <div>
-                    <p class="text-4xl bg-white leading-snug font-regular padded-fixed">
-                        {{ $hero.Summary | markdownify }}
-                    </p>
-                    
                 </div>
                 <div class="mt-12 -ml-2">
                     <a
