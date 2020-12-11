@@ -518,11 +518,11 @@ collections:
           #   multiple: true
           #   required: false
           #   i18n: duplicate
-          - label: 'Categories'
-            name: 'categories'
+          - label: 'Topics'
+            name: 'topics'
             widget: 'relation'
             collection: 'taxonomies'
-            file: 'category_data'
+            file: 'topic_data'
             value_field: 'items.*'
             search_fields: ['items.*']
             multiple: true
@@ -765,6 +765,15 @@ collections:
             file: 'data/categories.yaml'
             fields:
                 - label: 'Categories'
+                  name: 'items'
+                  widget: 'list'
+                  summary: '{{fields.name}}'
+                  field: { label: Tag Name, name: name, widget: string }
+          - label: 'Topics'
+            name: 'topic_data'
+            file: 'data/topics.yaml'
+            fields:
+                - label: 'Topics'
                   name: 'items'
                   widget: 'list'
                   summary: '{{fields.name}}'
