@@ -4,11 +4,7 @@ summary: Your Home in Asia.
 draft: false
 hidden: false
 headless: true
-links: 
-  - is_cta: false
-    label: Learn More
-    href: /about
-    new_window: false
+links: []
 items:
   - is_cta: false
     label: Next Stop, Taiwan!
