@@ -27,6 +27,8 @@
             {{ partial "icon" (dict "name" "book-reader" "size" "4") }}
             <p class="text-xs font-bold ml-2">{{ printf (i18n "reading_time") $reading_time }}</p>
         </div>
+        {{ if ne .Page.Section "why-taiwan" }}
         <p class="text-sm leading-relaxed font-medium">{{ .Summary | markdownify }}</p>
+        {{ end}}
     </div>
 </div>
