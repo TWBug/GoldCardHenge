@@ -53,7 +53,7 @@ Fill in your information
 * If you are currently on a working holiday visa or a student visa for Chinese learning purposes, you cannot directly transfer to a Taiwan Employment Gold Card. You will need to re-enter the country before applying, or will need to apply from abroad.
 * If you are applying from abroad or are in Taiwan on a visitor-visa, visa-free, or a non-extendable visa, your passport needs to be inspected. An extra page will appear during the application process, where you can choose the location. If you are in Taiwan, please go to the Bureau of Consular Affairs (Central, Southern, Eastern, Yunlin, Jiayi, and Tainan branches). In response to the COVID-19 pandemic, some foreign agencies might be closed and only accept passports by post.
 
-{{< teaser prefix="" >}}
+{{< teaser prefix="3." >}}
 Basic Data / Passport Data
 {{< /teaser >}}
 
@@ -61,7 +61,7 @@ After entering the application page, please fill out your information. All field
 
 * You can save the filled out information at any time, come back to it later, and change before sending it.
 
-{{< teaser prefix="" >}}
+{{< teaser prefix="4." >}}
 Resident
 {{< /teaser >}}
 
@@ -80,22 +80,22 @@ The Taiwanese address needs to be Chinese symbols and Arabic numerals only; no E
 * Incorrect：台北市中正區寶慶路No. 3, 2F
 {{< /base >}}
 
-
-
-In the "Profession" tab, please select the industry that you want to apply through. Please attach all relevant supporting documents. Click save after double-checking and uploading the files. 
-
-{{< teaser prefix="3." >}}
-Upload your files
+{{< teaser prefix="" >}}
+Profession
 {{< /teaser >}}
 
-* Please upload 
+* Please select the industry that you want to apply through. Please attach all relevant supporting documents. Click save after double-checking and uploading the files.
+* Once you submit your application, it is very difficult to change the industry that you have applied under. 
 
-1. Color copy of your passport with at least 6-month validity remaining 
-2. 2-inch hatless facial color photo taken within six months (size identical to the Identification Card of our country)
-3. Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification the applicant chooses to apply through. 
+{{< teaser prefix="5." >}}
+Upload Document
+{{< /teaser >}}
 
+* Please upload  a color copy of your passport, and a color photo of you according to the specifications on this page. 
+* Use the Automatic photo cropping tool if you are unsure. 
+* Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification the applicant chooses to apply through.
 * If the provided documents are neither in English nor Chinese, please attach a translation to English or Chinese. 
-* If the applicant's documents are issued by the following countries/regions, extra verification is needed.
+* If the applicant's documents are issued by the following countries/regions, additional verification is needed.
 
   * Documents issued in the Mainland area have to be attested and examined by[ the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct5bfa.html?xItem=110586&ctNode=5946&mp=3) entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area."
   * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
@@ -104,16 +104,16 @@ Upload your files
 Notes: 
 
 * The uploaded passport copy must be the same as the passport used for the visa application.
-* Please provide supporting documents as complete and extensive as possible following the eligibility requirements. If you are required to send in more supporting documents, the processing time can extend multiple weeks to a month.
+* Provide and upload supporting documentation as closely as possible with the proposed specifications to ensure a speedy application. If you are required to send in more supporting documents, the processing time can extend by many weeks to over a month.
 {{< /base >}}
 
-{{< teaser prefix="4." >}}
+{{< teaser prefix="6." >}}
 Payment and E-Mail Confirmation
 {{< /teaser >}}
 
-* After the online application is complete, the system will send an e-mail with a 12-digits application number.
+* After the online application is complete, the system will send an e-mail with a 12-digits application number. Please note down this reference number as it is needed if you need to contact the help desk.
 * Please login to the platform again with your account and password and enter the "Online Payment" tab.
-* Please pay according to instructions. Payment is only possible with an international credit card. However, if you are in Taiwan, you can print the payment slip and pay at a convenience store.
+* Please pay according to the instructions. Payment is only possible with an international credit card. However, if you are in Taiwan, you can print out the payment slip and pay at a convenience store.
 
 **Fees for Employment Gold Card:**
 
@@ -126,7 +126,7 @@ Payment and E-Mail Confirmation
 ![Fees for Overseas Applicants](/cms-uploads/goldcardfee-03.png "Fees for Overseas Applicants")
 
 * After completing the application, you will get a system confirmation via e-mail. Your application has now entered the review process. 
-* To check your application process, log in to the portal, click "Application Progress Inquiry", and fill in your 12-digits application number. **The application fee is nonrefundable no matter the results of the application. If you choose not to use the Taiwan Employment Gold Card, you will not be eligible for a refund either.**
+* To check your application process, log in to the portal, click "Application Progress Inquiry", and fill in your 12-digit application number. **The application fee is nonrefundable regardless of your application.**
 
 ## STEP 2: Passport Check
 
