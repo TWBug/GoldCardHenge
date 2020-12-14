@@ -204,7 +204,7 @@ collections:
       preview_path: en/related-websites/{{slug}}
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-          - { label: 'Link', name: 'link', widget: 'string', i18n: duplicate }
+          - { label: 'Link', name: 'link', widget: 'string', i18n: true }
           - label: 'Social Links'
             name: 'social_links'
             widget: 'object'
