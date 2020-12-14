@@ -160,6 +160,15 @@
   translation: 'National Health Insurance'
 - id: discover-taiwan
   translation: 'Discover Taiwan'
+- id: industry-information
+  translation: 'Industry information'
+- id: other
+  translation: 'Other'
+- id: gold-card-policy
+  translation: 'Gold Card Policy'
+- id: announcement
+  translation: 'Announcement'
+
   
 - id: super
   translation: 'Super'
