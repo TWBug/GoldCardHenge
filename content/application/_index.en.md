@@ -41,14 +41,14 @@ It can take up to 60 business days to complete the entire Employment Gold Card a
 Registration
 {{< /teaser >}}
 
-* Please visit the website of the [Foreign Professionals Online Application Platform](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/), and set up an account. Use the login details to login into the portal. **Your name in English name needs to be consistent with the name on your passport you are using to enter Taiwan.**
+* Please visit the website of the [Foreign Professionals Online Application Platform](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/) and set up an account. Use the login details to login into the portal. **Your name in English name needs to be consistent with the name on your passport you are using to enter Taiwan.**
 
 {{< teaser prefix="2." >}}
 Fill in your information
 {{< /teaser >}}
 
-* After you have successfully registered, login and select "Employment Gold Card Application" in the Online Application menu. Then select your nationality and whether or not you are applying from Taiwan or abroad.
-* To apply for the Taiwan Employment Gold Card, you need to enter the country with a foreign passport, or hold a ROC passport without household registration.
+* After you have successfully registered, login and select "Employment Gold Card Application" in the "Online Application" menu. Then select your nationality and whether or not you are applying from Taiwan or abroad.
+* You may apply for the Taiwan Employment Gold Card with a foreign passport, or hold a ROC passport without household registration. ROC nationals with a household registration or national ID card are not eligible to apply for the Gold Card.
 * ROC passport holders nationals with a household registration also hold a Taiwan National ID card and do not need to apply for the Gold Card.
 * If you are currently on a working holiday visa or a student visa for Chinese learning purposes, you cannot directly transfer to a Taiwan Employment Gold Card. You will need to re-enter the country before applying, or will need to apply from abroad.
 * If you are applying from abroad or are in Taiwan on a visitor-visa, visa-free, or a non-extendable visa, your passport needs to be inspected. An extra page will appear during the application process, where you can choose the location. If you are in Taiwan, please go to the Bureau of Consular Affairs (Central, Southern, Eastern, Yunlin, Jiayi, and Tainan branches). In response to the COVID-19 pandemic, some foreign agencies might be closed and only accept passports by post.
@@ -69,7 +69,7 @@ Resident
 * If you don't have any specific plans, we recommend choosing a longer validity period. If you want to extend at the end of your validity period, you will have to submit another application. Extensions are not possible.
 * Please choose the preferred location for collecting your Gold Card. If you are in Taiwan, please select your nearest Immigration Bureau. If you are abroad, select the nearest ROC agency. **Due to COVID-19, many ROC agencies are temporarily closed. If so, please contact the Ministry of Foreign Affairs to change the pick-up location.**
 * The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. You may enter the country on a temporary certificate and collect the card after you arrive. For detailed instructions to pick up your Gold Card, please refer to Step 3.
-* If you currently don't have a work address, you can temporarily leave it out during the application and review stage. You may leave your Taiwan relative/friend’s resident address if you have no residence address. However, you must provide this information when inspecting your passport.
+* If you currently don't have a work address, you can temporarily leave it out during the application and review stage. You may leave your Taiwan relative/friend’s resident address if you have no residence address. However, you must provide a residential address within 30 days of arriving in Taiwan.
 
 {{< base >}}
 Note: 
@@ -91,13 +91,11 @@ Profession
 Upload Document
 {{< /teaser >}}
 
-* Please upload  a color copy of your passport, and a color photo of you according to the specifications on this page. 
+* Please upload a color copy of your passport, and a color photo of you according to the specifications on this page. 
 * Use the Automatic photo cropping tool if you are unsure. 
-* Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification the applicant chooses to apply through.
-* If the provided documents are neither in English nor Chinese, please attach a translation to English or Chinese. 
-* If the applicant's documents are issued by the following countries/regions, additional verification is needed.
-
-  * Documents issued in the Mainland area have to be attested and examined by[ the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct5bfa.html?xItem=110586&ctNode=5946&mp=3) entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area."
+* Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification you choose to apply through.
+* If the provided documents are neither in English nor Chinese, please attach a translation to English or Chinese. If your documents are issued by the following countries/regions, additional verification is needed:
+* * Documents issued in the Mainland area have to be attested and examined by[ the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct5bfa.html?xItem=110586&ctNode=5946&mp=3) entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area."
   * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
 
 {{< base >}}
