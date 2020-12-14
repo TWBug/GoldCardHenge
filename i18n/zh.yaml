@@ -5,9 +5,9 @@
 - id: change_language
   translation: '語言'
 - id: tego
-  translation: '台灣就業金卡專案辦公室'
+  translation: '台灣金卡專案辦公室'
 - id: tego_logo
-  translation: '商標 - 台灣就業金卡辦公室'
+  translation: '商標 - 台灣金卡辦公室'
 - id: apply_now
   translation: '立即申請'
 - id: apply_now_text
@@ -88,6 +88,10 @@
   translation: '載入篩選'
 - id: no_filtered_faq_found
   translation: '查無資料'
+- id: reset_search
+  translation: 'Reset search'
+- id: placeholder_search
+  translation: 'Search'
 - id: how_to_apply
   translation: '如何申請'
 - id: how_to_apply_copy
@@ -153,6 +157,8 @@
   translation: '租稅'
 - id: national-health-insurance
   translation: '全民健康保險'
+- id: discover-taiwan
+  translation: '聯繫我們'
   
 - id: super
   translation: '超'

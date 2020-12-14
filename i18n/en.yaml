@@ -90,6 +90,10 @@
   translation: 'Filter FAQ list'
 - id: no_filtered_faq_found
   translation: 'No filtered FAQ found'
+- id: reset_search
+  translation: 'Reset search'
+- id: placeholder_search
+  translation: 'Search'
 - id: how_to_apply
   translation: 'How to apply'
 - id: how_to_apply_copy
@@ -154,6 +158,8 @@
   translation: 'Tax'
 - id: national-health-insurance
   translation: 'National Health Insurance'
+- id: discover-taiwan
+  translation: 'Discover Taiwan'
   
 - id: super
   translation: 'Super'
