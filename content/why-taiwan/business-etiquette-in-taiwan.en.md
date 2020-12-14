@@ -1,16 +1,14 @@
 ---
 title: Business Etiquette in Taiwan
 draft: false
+topic: whytaiwan
 cover_image: /cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
 media_image: /cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
-topic: whytaiwan
 topics:
   - Discover Taiwan
 style: right
 ---
 # Business Etiquette in Taiwan
-
-
 
 {{< base >}}
 Greetings
@@ -30,6 +28,8 @@ Meetings
 2. If possible, bring a team of 2-4 people (one senior individual with decision-making power). This enhances the status and image of executives and reflects on the seriousness of the meeting.
 3. Decisions are made collectively and can be a lengthy process during negotiation. Once facts are established, agreements can sometimes be reached quickly.
 4. 關係 or guan-xi means connections/personal relationships. Guan-xi is vital for business success in Taiwan. Taiwanese business people will want to know you personally before they do business with you.
+
+![](/cms-uploads/meeting.jpg)
 
 {{< base >}}
 Dining and Entertainment
