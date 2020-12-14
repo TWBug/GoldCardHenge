@@ -80,14 +80,14 @@ The Taiwanese address needs to be Chinese symbols and Arabic numerals only; no E
 * Incorrect：台北市中正區寶慶路No. 3, 2F
 {{< /base >}}
 
-{{< teaser prefix="" >}}
+{{< teaser prefix="5." >}}
 Profession
 {{< /teaser >}}
 
 * Please select the industry that you want to apply through. Please attach all relevant supporting documents. Click save after double-checking and uploading the files.
 * Once you submit your application, it is very difficult to change the industry that you have applied under. 
 
-{{< teaser prefix="5." >}}
+{{< teaser prefix="6." >}}
 Upload Document
 {{< /teaser >}}
 
@@ -107,7 +107,7 @@ Notes:
 * Provide and upload supporting documentation as closely as possible with the proposed specifications to ensure a speedy application. If you are required to send in more supporting documents, the processing time can extend by many weeks to over a month.
 {{< /base >}}
 
-{{< teaser prefix="6." >}}
+{{< teaser prefix="7." >}}
 Payment and E-Mail Confirmation
 {{< /teaser >}}
 
