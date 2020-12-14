@@ -48,35 +48,28 @@ Fill in your information
 {{< /teaser >}}
 
 * After you have successfully registered, login and select "Employment Gold Card Application" in the Online Application menu. Then select your nationality and whether or not you are applying from Taiwan or abroad.
-
-{{< base >}}
-Notes for Domestic Application: 
-
 * To apply for the Taiwan Employment Gold Card, you need to enter the country with a foreign passport, or hold a ROC passport without household registration.
-* ROC Nationals with household registration in Taiwan who entered the country with a non-ROC passport need to go to the local household registration office to cancel their household registration first.
-* If you are currently on a working holiday visa or a student visa for Chinese learning purposes, you cannot directly switch to a Taiwan Employment Gold Card. You will need to re-enter the country before applying. Or apply from abroad. 
-* The application can take 60-working days or more. If you hold a visa less than 60-days or are visa-free, if you cannot obtain the Taiwan Employment Gold Card within the time limit, you still need to leave the country and re-enter.
-{{< /base >}}
+* ROC passport holders nationals with a household registration also hold a Taiwan National ID card and do not need to apply for the Gold Card.
+* If you are currently on a working holiday visa or a student visa for Chinese learning purposes, you cannot directly transfer to a Taiwan Employment Gold Card. You will need to re-enter the country before applying, or will need to apply from abroad.
+* If you are applying from abroad or are in Taiwan on a visitor-visa, visa-free, or a non-extendable visa, your passport needs to be inspected. An extra page will appear during the application process, where you can choose the location. If you are in Taiwan, please go to the Bureau of Consular Affairs (Central, Southern, Eastern, Yunlin, Jiayi, and Tainan branches). In response to the COVID-19 pandemic, some foreign agencies might be closed and only accept passports by post.
 
-* After entering the application page, please fill out the applicant's information. All fields with an asterisk are mandatory. Please make sure that the English name is the same as the passport used to enter Taiwan. You can save the filled out information at any time, come back to it later, and change before sending it.
-* If you are applying from abroad or are in Taiwan on a visitor-visa, visa-free, or a non-extendable visa, your passport needs to be inspected. An extra page will appear during the application process, where you can choose the location. If you are in Taiwan, please go to the Bureau of Consular Affairs (Central, Southern, Eastern, Yunlin, Jiayi, and Tainan branches). **In response to the COVID-19 epidemic, some foreign agencies might be closed and only accept passports by post.** 
-* Choose your validity period for the Taiwan Employment Gold Card. There are different validation periods: One, Two, or Three years. Please choose according to your needs. 
+{{< teaser prefix="" >}}
+Basic Data / Passport Data
+{{< /teaser >}}
 
-{{< base >}}
-Note:
+After entering the application page, please fill out your information. All fields with an asterisk are mandatory. Please make sure that the English name is the same as the passport used to enter Taiwan.
 
-* If you don't have any specific plans, we recommend choosing a longer validity period. If you want to extend at the end of your validity period, you will have to reapply. Extensions are not possible.
-{{< /base >}}
+* You can save the filled out information at any time, come back to it later, and change before sending it.
 
-* Please also choose the preferred location for picking up your Gold Card. If the applicant is in Taiwan, please select your nearest Immigration bureau. If the applicant is abroad, select the nearest ROC agency. **Due to COVID-19, many ROC agencies are temporarily closed. If so, please contact the Ministry of Foreign Affairs to change the pick-up location from the internal system.** 
+{{< teaser prefix="" >}}
+Resident
+{{< /teaser >}}
 
-{{< base >}}
-Note: 
-
-* The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. For detailed instructions to pick up your Gold Card, please refer to [Step 3](#step-3-receiving-your-gold-card).
-{{< /base >}}
-
-* If you currently don't have a work address or residence address, you can temporarily leave it out during the application and review stage. However, you must provide this information when inspecting your passport.
+* Choose your validity period for the Taiwan Employment Gold Card. There are different validation periods: One, Two, or Three years. Please choose according to your needs. The price of the application varies for longer validity periods.
+* If you don't have any specific plans, we recommend choosing a longer validity period. If you want to extend at the end of your validity period, you will have to submit another application. Extensions are not possible.
+* Please choose the preferred location for collecting your Gold Card. If you are in Taiwan, please select your nearest Immigration Bureau. If you are abroad, select the nearest ROC agency. **Due to COVID-19, many ROC agencies are temporarily closed. If so, please contact the Ministry of Foreign Affairs to change the pick-up location.**
+* The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. You may enter the country on a temporary certificate and collect the card after you arrive. For detailed instructions to pick up your Gold Card, please refer to Step 3.
+* If you currently don't have a work address, you can temporarily leave it out during the application and review stage. You may leave your Taiwan relative/friend’s resident address if you have no residence address. However, you must provide this information when inspecting your passport.
 
 {{< base >}}
 Note: 
@@ -87,7 +80,9 @@ The Taiwanese address needs to be Chinese symbols and Arabic numerals only; no E
 * Incorrect：台北市中正區寶慶路No. 3, 2F
 {{< /base >}}
 
-* In the "Profession" tab, please select the industry that you want to apply through. Please attach all relevant supporting documents. Click save after double-checking and uploading the files. 
+
+
+In the "Profession" tab, please select the industry that you want to apply through. Please attach all relevant supporting documents. Click save after double-checking and uploading the files. 
 
 {{< teaser prefix="3." >}}
 Upload your files
