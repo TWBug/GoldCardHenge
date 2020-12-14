@@ -1,5 +1,6 @@
 ---
 title: COVID-19防疫經驗談，台灣如何成為國際防疫模範生?
+date: 2020-12-14T06:35:39.159Z
 draft: false
 topic: whytaiwan
 cover_image: /cms-uploads/covid19.jpg

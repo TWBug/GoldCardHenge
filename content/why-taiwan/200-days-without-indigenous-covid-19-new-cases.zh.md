@@ -1,5 +1,6 @@
 ---
 title: COVID-19防疫經驗談，台灣如何成為國際防疫模範生?
+date: 2020-12-14T06:35:39.159Z
 draft: false
 topic: whytaiwan
 cover_image: /cms-uploads/covid19.jpg
@@ -24,12 +25,10 @@ style: title
 
 疫情初始尚未大爆發時，台灣政府立即將COVID-19列為第五類法定傳染病，即刻禁制國內旅行團赴中國旅遊，並全面限制中國人士來台，此外盤整防疫物資與限制醫療用品出口，更徵用國內口罩工廠生產，也對入境旅客強制實施14天的居家檢疫，有效保護台灣本土安全。因為防疫得當，遲至今日大多數確診個案為境外移入，佔了整體病例的87%。
 
-{{< card title="捷運公告禁止發燒狀況的人進入(圖片來源：臺北捷運公司)" link="" image="/cms-uploads/taipei-metro-fever-notice.jpg" >}}
-
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/taipei-metro-fever-notice.jpg" >}}
 {{< /card >}}
 
-{{< card title="台灣校園排隊檢測體溫與消毒場景。(圖片來源：國立臺灣師範大學)" link="" image="/cms-uploads/national-taiwan-normal-university-fever-station.jpg" >}}
-
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/national-taiwan-normal-university-fever-station.jpg" >}}
 {{< /card >}}
 
 從12月1日起，台灣政府啟動「秋冬防疫專案」，強化「邊境檢疫」、「社區防疫」及「醫療應變」措施。邊境檢疫：所有入境及轉機旅客登機前須附3日內COVID-19核酸檢驗報告；社區防疫：出入八大類場所應佩戴口罩，經勸導不聽者依法開罰；醫療應變：加強通報採檢，訂定獎勵指標。
