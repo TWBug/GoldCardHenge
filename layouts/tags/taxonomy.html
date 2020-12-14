@@ -23,7 +23,7 @@
         <div class="flex flex-col md:flex-row justify-between md:items-center lg:px-24">
             {{ if $cover_image }}
             <div class="flex-center w-1/3 md:w-1/4 mb-6">
-                <img src="{{ $cover_image.RelPermalink }}" class="w-full max-h-48 filter-dropshadow-white" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
+                <img src="{{ $cover_image.RelPermalink }}" class="w-full max-h-48 drop-shadow-white" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
             </div>
             {{ end }}
             <div class="replace w-full md:w-2/3">
@@ -42,10 +42,10 @@
                             </li>
                             <li class="border-l-2 border-gray-500 border-dashed px-2">
                                 <span class="flex items-center bg-white rounded px-2 py-1">
-                                    {{ if i18n .Title }}
-                                    {{ i18n .Title }}
+                                    {{ if i18n (.Page.Title | anchorize) }}
+                                    {{ i18n (.Page.Title | anchorize) }}
                                     {{ else }}
-                                    {{ .Title | humanize }}
+                                    {{ .Page.Title | humanize }}
                                     {{ end }}
                                 </span>
                             </li>
@@ -53,8 +53,8 @@
                     </div>
                 </nav>
                 <h1 class="text-5xl leading-tight font-semibold mb-2">
-                    {{ if i18n .Title }}
-                    {{ i18n .Title }}
+                    {{ if i18n (.Title | anchorize) }}
+                    {{ i18n (.Title | anchorize) }}
                     {{ else }}
                     {{ .Title | humanize }}
                     {{ end }}
@@ -141,7 +141,7 @@
                                     x-transition:leave-end="opacity-0 -translate-y-5"
                                     x-cloak
                                 >
-                                    <div class="text-base font-regular leading-7">
+                                    <div class="copy">
                                         {{ .Content }}
                                     </div>
                                     <div class="text-right">

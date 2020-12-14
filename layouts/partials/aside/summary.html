@@ -1,4 +1,5 @@
 {{ $reading_time := .ReadingTime }}
+{{ $date := .Lastmod }}
 {{ if eq .Language.Lang "zh" }}
   {{ range .Translations }}
     {{ if eq .Language.Lang "en" }}
@@ -12,21 +13,25 @@
         <h3 class="text-lg font-bold ml-2">{{ i18n "summary" }}</h3>
     </div>
     <div class="pt-6 pl-2">
-        <div class="flex items-center text-secondary mb-2">
-            {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
-            <p class="text-xs font-bold ml-2">
-                {{ i18n "last_changed" }}
-                {{ if eq .Site.Language.Lang "zh" }}
-                {{ printf "%d年%d月%s日" .Lastmod.Year .Lastmod.Month (.Lastmod.Format "2") }}
-                {{ else }}
-                {{ dateFormat "January 2th 2006" .Lastmod }}
-                {{ end }}
-            </p>
-        </div>
+        {{ if $date }}
+          <div data-cy="date-string" class="flex items-center text-secondary mb-2">
+              {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
+              <p class="text-xs font-bold ml-2">
+                  {{ i18n "last_changed" }}
+                  {{ if eq .Site.Language.Lang "zh" }}
+                  {{ dateFormat "2006年1月2日" $date }}
+                  {{ else }}
+                  {{ dateFormat "January 2th 2006" $date }}
+                  {{ end }}
+              </p>
+          </div>
+        {{ end }}
         <div class="flex items-center text-secondary mb-4">
             {{ partial "icon" (dict "name" "book-reader" "size" "4") }}
             <p class="text-xs font-bold ml-2">{{ printf (i18n "reading_time") $reading_time }}</p>
         </div>
+        {{ if ne .Page.Section "why-taiwan" }}
         <p class="text-sm leading-relaxed font-medium">{{ .Summary | markdownify }}</p>
+        {{ end}}
     </div>
 </div>

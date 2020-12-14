@@ -18,8 +18,10 @@ cover_image_alt: null
 
 "Taiwan Employment Gold Card Office" was created in October 2020 by the National Development Council, to serve as a single point of contact for the recruitment and assistance of foreign professionals working in Taiwan, under the Act for the Recruitment and Employment of Foreign Professionals.
 
-## The Gold Card Office has three main objectives:
+## Our Services:
 
-1. To promote the program through online platforms and community networks, increasing its reach to potential candidates and the recruitment of target applicants.
-2. To provide a single point of contact for questions about the program and its application process, and to assist successful applicants in their social integration with Taiwan.
-3. To create a professional website for a global audience, providing a streamlined gateway to the program and working in Taiwan.
+1. Single point of contact for questions about the program and its application process (email, phone, office hours).
+2. Creation and maintenance of the official Gold Card website
+3. Recruitment of global talents and potential applicants
+4. International marketing and promotion 
+5. Organization of Gold Card community events

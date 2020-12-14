@@ -1,10 +1,15 @@
 {{ $headless := .Site.GetPage "/home" }}
 {{ $cta := $headless.Resources.GetMatch "cta*" }}
-
 <div class="grid grid-cols-1 sm:grid-cols-5 bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium shadow-xl">
     {{ $cta_image := index $cta.Params.items 0 }}
+    {{ $cta_image_src := ""}}
+    {{ if $cta_image.preview }}
+    {{ $cta_image_src = (resources.Get $cta_image.preview).Fill "1024x640 q30 jpg" }}
+    {{ end }}
     <div class="sm:col-span-2 relative w-full min-h-64">
-        <img src="{{ $cta_image.preview }}" alt="{{ $cta_image.title }}" class="absolute inset-0 w-full h-full object-cover object-top" />
+        {{ if $cta_image_src }}
+        <img src="{{ $cta_image_src.RelPermalink }}" alt="{{ $cta_image.title }}" class="absolute inset-0 w-full h-full object-cover object-top" />
+        {{ end }}
     </div>
     <div class="replace relative col-span-3 text-white py-12 lg:py-24 px-12 lg:px-24 overflow-hidden z-0">
         <div class="absolute bottom-0 right-0 w-full sm:w-2/3 lg:w-1/2 -z-1" style="bottom: -1px;">
@@ -20,12 +25,12 @@
             <div class="flex justify-between mt-8">
                 {{ range $cta.Params.links }}
                 <a
-                href="{{ .href }}"
-                {{ if eq .new_window true }} target="_blank" {{ end }}
-                class="bg-primary border-2 border-primary rounded-md text-white font-bold leading-none shadow-xl px-6 py-3 focus"
-                >
-                {{ .label }}
-            </a>
+                    href="{{ .href }}"
+                    {{ if eq .new_window true }} target="_blank" {{ end }}
+                    class="bg-primary border-2 border-primary rounded-md text-white font-bold leading-none shadow-xl px-6 py-3 focus-primary"
+                    >
+                    {{ .label }}
+                </a>
             {{ end }}
         </div>
     </div>

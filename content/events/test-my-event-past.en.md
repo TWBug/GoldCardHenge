@@ -14,4 +14,4 @@ category: null
 ---
 The holiday season is upon us, and what better way to celebrate than with a party!? Join us on Wednesday, 12/23 at Theater Trattoria for a night filled with fun, food, networking, and general merriment! 
 
-The National Development Council and the Taiwan Gold Card Office has teamed up with Crossroads to cohost our very first Christmas Mixer! This Christmas Mixer is not only a chance for Gold Card holders to celebrate, but also a great opportunity for you to network with the local Taiwanese community.
+The National Development Council and the Taiwan Gold Card Office has teamed up with Crossroads to co-host our very first Christmas Mixer! This Christmas Mixer is not only a chance for Gold Card holders to celebrate, but also a great opportunity for you to network with the local Taiwanese community.

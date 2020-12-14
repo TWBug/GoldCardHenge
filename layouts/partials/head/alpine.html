@@ -1,7 +1,9 @@
 {{ $spruce := "false"}}
 {{ with .spruce }}
-{{ $spruce = .}}
+{{ $spruce = . }}
 {{ end }}
+
+{{ if eq .cdn "true" }}
 
 {{ if eq $spruce "true" }}
 <script src="https://cdn.jsdelivr.net/npm/@ryangjchandler/spruce@2.x.x/dist/spruce.umd.js"></script>
@@ -12,4 +14,19 @@
 <script src="https://cdn.jsdelivr.net/gh/alpine-collective/alpine-magic-helpers@0.5.x/dist/fetch.min.js"></script>
 <script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
 <script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js" defer></script>
+{{ end }}
+
+{{ else }}
+
+{{ if eq $spruce "true" }}
+<script src="/js/spruce.umd.js"></script>
+<script src="/js/fetch.min.js"></script>
+<script type="module" src="/js/alpine.min.js"></script>
+<script nomodule src="/js/alpine-ie11.min.js"></script>
+{{ else }}
+<script src="/js/fetch.min.js"></script>
+<script type="module" src="/js/alpine.min.js"></script>
+<script nomodule src="/js/alpine-ie11.min.js" defer></script>
+{{ end }}
+
 {{ end }}

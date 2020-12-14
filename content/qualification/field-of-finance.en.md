@@ -1,7 +1,11 @@
 ---
 title: Field of Finance
-summary: Qualification for professionals in the field of Finance.
+summary: "Those who have held a specialist post or served in a senior executive
+  position in a financial institution, have been recommended by a relevant
+  association, or possess financial expertise needed in an important sphere of
+  industry promoted by the government (such as fintech or e-commerce). "
 draft: false
+icon: /cms-uploads/icon-finance.svg
 ---
 # Foreign special professional with financial expertise
 

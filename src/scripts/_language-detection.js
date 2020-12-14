@@ -1,10 +1,15 @@
 window.languageDetection = {
     language: 'en',
+    default_language: 'en',
+    supported_languages: ['en', 'zh'],
     message:
         "Sorry, it looks like your browser storage has been corrupted. Please clear your storage by going to Tools -> Clear Recent History -> Cookies and set time range to 'Everything'. This will remove the corrupted browser storage across all sites.",
     init() {
         // checks always the language - if not valid reset it to default english
         this.language = this.getStorage('language')
+        if (this.supported_languages.indexOf(this.language) === -1) {
+            this.language = this.default_language
+        }
         if (this.language !== null) {
             if (this.checkValidLanguage(this.language) === false) {
                 this.language = 'en'
@@ -46,7 +51,7 @@ window.languageDetection = {
     },
     getStorage(item) {
         try {
-            return localStorage.getItem(item)
+            return localStorage.getItem(item).replace(/(<([^>]+)>)/gi, "");
         } catch (e) {
             if (e.name == 'NS_ERROR_FILE_CORRUPTED') {
                 alert(this.message)
@@ -91,6 +96,6 @@ window.languageDetection = {
     },
     getCookie(item) {
         var itemValue = document.cookie.match('(^|;) ?' + item + '=([^;]*)(;|$)')
-        return itemValue ? itemValue[2] : null
+        return itemValue ? itemValue[2].replace(/(<([^>]+)>)/gi, "") : null
     },
 }

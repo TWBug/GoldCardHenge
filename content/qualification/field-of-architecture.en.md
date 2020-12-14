@@ -1,8 +1,10 @@
 ---
 title: Field of Architecture
-summary: Qualification information for architects, architectural designers and
-  construction supervisors.
+summary: Those with a monthly salary of at least NT$160,000, who have obtained
+  an ROC or foreign architect’s license, or have at least five years experience
+  as a designer or construction supervisor in a foreign architecture firm.
 draft: false
+icon: /cms-uploads/icon-architecture.svg
 ---
 # Foreign Special Professional Who Possesses Special Expertise in the Field of Architecture
 

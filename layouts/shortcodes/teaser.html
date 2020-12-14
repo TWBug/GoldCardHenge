@@ -1,4 +1,5 @@
 {{/*  DONE registerEditorComponent netlify  */}}
+{{ $prefix := .Get "prefix" | plainify }}
 <div class="font-medium text-xl leading-relaxed mb-6">
-    {{ .Inner | markdownify }}
+    {{ $prefix}} {{ .Inner | markdownify }}
 </div>

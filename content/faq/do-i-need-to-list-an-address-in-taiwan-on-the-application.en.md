@@ -4,4 +4,4 @@ draft: false
 tags:
   - Application
 ---
-NONE
+No, You can leave it blank and update it online once you confirm your address in Taiwan.

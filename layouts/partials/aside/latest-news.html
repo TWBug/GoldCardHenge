@@ -15,7 +15,7 @@
                 </div>
                 <span class="ml-2">
                     {{ if eq .Site.Language.Lang "zh" }}
-                    {{ printf "%d年%d月%s日" .Lastmod.Year .Lastmod.Month (.Lastmod.Format "2") }}
+                    {{ dateFormat "2006年1月2日" .Lastmod }}
                     {{ else }}
                     {{ dateFormat "January 2th 2006" .Lastmod }}
                     {{ end }}

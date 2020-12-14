@@ -1,12 +1,15 @@
 ---
 media_image: img/uploads/taiwan-culture.jpg
-summary: Qualification standards for professionals or researchers working in
-  science, technology or R&D.
+summary: Those with outstanding achievements in R&D, design or innovation,
+  international awards, or national academy membership, in such cutting-edge
+  technological fields as software applications, nanotechnology,
+  optoelectronics, ICT, biotechnology, AI, and IoT.
 draft: false
 media_image_alt: Test alt
 date: 2020-11-05T07:09:20.617Z
 topic: goldcard
 title: Field of Science & Technology
+icon: /cms-uploads/icon-science-technology.svg
 tags: null
 style: right
 cover_image: img/uploads/dummy-image.jpg

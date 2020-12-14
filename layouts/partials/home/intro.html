@@ -19,12 +19,12 @@
                     <a
                     href="{{ .href }}"
                     {{ if eq .new_window true }} target="_blank" {{ end }}
-                    class="bg-primary rounded-md force-text-white force-no-underline font-bold text-xl leading-none shadow-xl px-8 py-4 mr-4 hover focus"
+                    class="bg-primary rounded-md force-text-white force-no-underline font-bold text-xl leading-none shadow-xl px-8 py-4 mr-4 focus-primary"
                     >
                     {{ else }}
                     <a
                     href="{{ .href }}"
-                    class="bg-white border-2 border-primary force-no-underline rounded-md text-primary font-bold leading-none shadow-xl px-6 py-3 hover focus"
+                    class="bg-white border-2 border-primary force-no-underline rounded-md text-primary font-bold leading-none shadow-xl px-6 py-3 focus-primary"
                     >
                     {{ end}}
                     {{ .label }}
@@ -49,8 +49,8 @@
                             {{ end }}
                         </div>
                         <div>
-                            <h3 class="text-primary text-lg leading-snug hover:text-black font-bold mb-1">
-                                <a href="{{ $href.RelPermalink }}" class="focus"> {{ $href.Title }} </a>
+                            <h3 class="text-primary text-lg leading-snug font-bold mb-1">
+                                <a href="{{ $href.RelPermalink }}" class="focus-primary"> {{ $href.Title }} </a>
                             </h3>
                             <p class="font-regular text-md">
                                 {{ $href.Summary | truncate 80 }}

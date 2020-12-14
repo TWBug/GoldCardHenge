@@ -18,6 +18,9 @@ category = "categories"
 topic = "topics"
 tag = "tags"
 
+[Params]
+loadFromCDN = "true"
+
 [languages]
 
 [languages.en]
@@ -26,7 +29,9 @@ title = "Taiwan Gold Card"
 weight = 1
 [languages.en.params]
 linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
-apply = "https://www.linkedin.com/company/taiwangoldcard/"
+apply = "https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card?lang=en"
+phone = "+886 2-7733-7660"
+email = "help@taiwangoldcard.tw"
 
 [languages.zh]
 languageName = "中文"
@@ -34,7 +39,9 @@ title = "台灣就業金卡"
 weight = 2
 [languages.zh.params]
 linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
-apply = "https://www.linkedin.com/company/taiwangoldcard/"
+apply = "https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/main?lang=zh"
+phone = "+886 2-7733-7660"
+email = "help@taiwangoldcard.tw"
 
 
 # [languages.de]
@@ -76,7 +83,7 @@ disableSVG = false
 disableXML = false
 minifyOutput = true
 [outputs]
-home = ["HTML", "MANIFEST"]
+home = ["HTML", "MANIFEST", "SEARCH"]
 page = ["HTML"]
 term = ["HTML", "DATA"]
 [outputFormats.manifest]
@@ -89,6 +96,12 @@ permalinkable = "true"
 baseName = "data"
 mediaType = "application/json"
 name = "data"
+notAlternative = "true"
+permalinkable = "true"
+[outputFormats.search]
+baseName = "search"
+mediaType = "application/json"
+name = "search"
 notAlternative = "true"
 permalinkable = "true"
 # [outputFormats.welcome]

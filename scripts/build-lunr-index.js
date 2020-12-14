@@ -164,6 +164,7 @@ const main = async (contentDir = DEFAULT_CONTENT_DIR) => {
         .map((x) => ({
             title: x.title,
             content: x.content,
+            summary: x.frontmatter.summary || '',
             tags: x.frontmatter.tags || [],
             categories: x.frontmatter.categories || [],
             href: x.href,

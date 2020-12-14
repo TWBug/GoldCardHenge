@@ -1,8 +1,13 @@
 ---
 title: Field of Economy
-summary: Qualification standards for professionals who can make a contribution
-  to Taiwan's economy.
+summary: Those with a most recent monthly salary of at least NT$160,000, or have
+  held a high-level operations or marketing position in an R&D center,
+  operations HQ, or transnational corporation, who possess important skills
+  required for a key product or service model, or who have held a specialist or
+  cross-field integrating position in a semiconductor, optoelectronics, ICT, or
+  other such enterprise.
 draft: false
+icon: /cms-uploads/icon-economy.svg
 ---
 # Foreign special professionals with specialized knowledge/skills in economic fields
 

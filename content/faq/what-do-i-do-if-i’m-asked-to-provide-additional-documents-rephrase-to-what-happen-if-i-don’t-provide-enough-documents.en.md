@@ -5,4 +5,4 @@ draft: false
 tags:
   - Application
 ---
-NONE
+The authorities will ask for more documents if the ones you provided were not sufficient. It’ll just extend the processing time by a couple of weeks to a month.

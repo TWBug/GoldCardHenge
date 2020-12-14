@@ -7,10 +7,10 @@ headless: true
 links:
 items:
     - preview: "/img/dummy-image.jpg"
-      label: High Tech manufactoring
+      label: High Tech manufacturing
       href: /news/single
     - preview: "/img/dummy-image.jpg"
-      label: Headquaters
+      label: Headquarters
       href: /news/single
     - preview: "/img/dummy-image.jpg"
       label: Innovation

@@ -3,7 +3,8 @@
 :root {
     --vh: 1vh;
     --overflow: hidden;
-    --navigationMenu: 60px;
+    --navigationMenu: 90px;
+    --homeHero: 75vh;
 }
 
 html,
@@ -64,6 +65,17 @@ blockquote {
 
 @tailwind components;
 @tailwind utilities;
+
+.max-h-homehero {
+    max-height: calc(var(--vh) * 100);
+}
+
+@screen lg {
+    .max-h-homehero {
+        /* xl:max-h-screen-3/4 xxl:max-h-screen-2/3 */
+        max-height: var(--homeHero, calc(var(--vh) * 75));
+    }
+}
 
 .overflow {
     overflow: var(--overflow);
@@ -154,6 +166,12 @@ blockquote {
     background: white;
     box-shadow: 0.2em 0.1em 0 white, -0.2em -0.1em 0 white, 0.2em -0.1em 0 white,
         -0.2em 0.1em 0 white;
+}
+.padded-fixed {
+    display: inline;
+    background: white;
+    box-shadow: 0.5rem 0.3rem 0 white, -0.5rem -0.3rem 0 white, 0.5rem -0.3rem 0 white,
+        -0.5rem 0.3rem 0 white;
 }
 .padded-dark {
     display: inline;

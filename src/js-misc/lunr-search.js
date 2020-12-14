@@ -126,14 +126,15 @@ const renderResults = (results, query) => {
 
         // The "excerpt" is a bit of text with a span highlighting the search
         // text. That's what all this logic is for.
-        const excerpt =
-            matchIndex === -1
-                ? [content.slice(0, excerptSize)]
-                : [
-                      content.slice(Math.max(0, matchIndex - excerptSize / 2), matchIndex),
-                      el('span', {}, query),
-                      content.slice(matchIndex + query.length, matchIndex + excerptSize / 2),
-                  ];
+        const excerpt = x.summary
+            ? [x.summary] // Default to the manually-created summary if present
+            : matchIndex === -1
+            ? [content.slice(0, excerptSize)]
+            : [
+                  content.slice(Math.max(0, matchIndex - excerptSize / 2), matchIndex),
+                  el('span', {}, query),
+                  content.slice(matchIndex + query.length, matchIndex + excerptSize / 2),
+              ];
 
         // Add "..." if the excerpt was chopped (i.e. most of the time)
         if (excerpt.length < content.length) {
@@ -222,6 +223,11 @@ function initUI() {
   background: white;
   border-radius: 0 0 3px 3px;
 }
+@media screen and (max-width: 1024px) {
+    #search-results {
+        top: 130px;
+    }
+}
 .search-result-list a h4 {
   font-weight: bold;
 }
@@ -247,19 +253,22 @@ function initUI() {
     document.head.appendChild(styles);
     document.body.appendChild($results);
 
-    const $input = document.querySelector('#search-box');
+    const $inputs = [].slice.call(document.querySelectorAll('.search-box'));
 
-    $input.addEventListener('keyup', (e) => {
-        const query = e.target.value;
-        if (query.length < 2) {
-            emptyEl($results);
-            return;
-        }
-        var results = search(query);
+    // Attach search handler to all search boxes.
+    $inputs.forEach(($input) => {
+        $input.addEventListener('keyup', (e) => {
+            const query = e.target.value;
+            if (query.length < 2) {
+                emptyEl($results);
+                return;
+            }
+            var results = search(query);
 
-        // Try to avoid stutters by putting this in a raf
-        requestAnimationFrame(() => {
-            renderResults(results, query);
+            // Try to avoid stutters by putting this in a raf
+            requestAnimationFrame(() => {
+                renderResults(results, query);
+            });
         });
     });
 }

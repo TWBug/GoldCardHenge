@@ -1,9 +1,11 @@
 ---
 title: Field of Education
-summary: Qualification standards for PhD holders, researchers, scholars and
-  high-level teachers.
+summary: Those who hold a doctoral degree from one of the world’s 200
+  top-ranking universities, have served in one of the world’s top 500
+  universities, and have engaged in teaching and research for at least five
+  years, or have gained a Yushan Scholar or Yushan Young Scholar award.
 draft: false
-icon: ""
+icon: /cms-uploads/icon-education.svg
 style: title
 ---
 
@@ -24,7 +26,7 @@ style: title
 {{< /accordion >}}
 {{< accordion title="The person has won a Yushan (Young) Scholar award in Taiwan." suffix="3." bottomless="true" >}}
 
-* Documentary proof of receivng a Yushan (Young) Scholar award from the Ministry of Education.
+* Documentary proof of receiving a Yushan (Young) Scholar award from the Ministry of Education.
 {{< /accordion >}}
 {{< accordion title="Have held or currently hold a teaching, or research position, or providing professional services based on their individual knowledge and expertise in one or more public or private schools, colleges, or universities and their affiliated units, educational institutions, or research institutions, or engaged in work listed in the Education Services sector in the Central Product Classification published by the Public Construction Commission of the Executive Yuan, for five years or more, with their most recent monthly salary being at least NTD 160,000." suffix="4." bottomless="true" >}}
 

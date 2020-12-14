@@ -23,7 +23,7 @@
         <div class="flex flex-col md:flex-row justify-between md:items-center lg:px-24">
             {{ if $cover_image }}
             <div class="flex-center w-1/3 md:w-1/4 mb-6">
-                <img src="{{ $cover_image.RelPermalink }}" class="w-full filter-dropshadow-white" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
+                <img src="{{ $cover_image.RelPermalink }}" class="w-full drop-shadow-white" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
             </div>
             {{ end }}
             <div class="replace w-full md:w-2/3">
@@ -43,6 +43,9 @@
     <section>
         <div class="container py-12 sm:pb-24 px-12 lg:px-16">
             {{ partial "breadcrumb" . }}
+            <div class="copy replace mb-12">
+                {{.Content}}
+            </div>
             <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4 auto-rows-fr gap-12 mt-6">
                 {{ range .RegularPages }}
                     {{ $default_icon := resources.Get "cms-uploads/icon-tag.svg" }}
@@ -52,23 +55,17 @@
                     {{ end }}
                     <div class="flex flex-col border-2 border-gray-200 bg-gradient-to-b from-white to-gray-100 rounded">
                         <div class="border-b border-gray-200 p-4">
-                            <img src="{{ $icon.RelPermalink }}" alt="asdasd" class="block mx-auto w-1/4 sm:w-1/3" />
+                            <a href="{{ .RelPermalink }}" tabindex="-1" aria-hidden="true" class="block">
+                                <img src="{{ $icon.RelPermalink }}" alt="{{ .Title }}" class="block mx-auto w-1/3 lg:w-1/2" />
+                            </a>
                         </div>
                         <div class="text-center p-4">
                             <h2 class="text-lg leading-snug font-bold text-primary">
-                                <a href="{{ .RelPermalink }}" class="inline-block p-1 focus-primary">{{ .Title | truncate 80 }}</a>
+                                <a href="{{ .RelPermalink }}" class="inline-block p-1 focus-primary" alt="{{ .Title }}">{{ .Title | truncate 80 }}</a>
                             </h2>
-                        {{/*
-                            <p class="text-md leading-relaxed">
-                                {{ .Summary | truncate 120 }}
-                            </p>
-                        */}}
                         </div>
                     </div>
                 {{ end }}
-            </div>
-            <div class="copy replace mt-12 md:w-2/3">
-                {{.Content}}
             </div>
         </div>
     </section>

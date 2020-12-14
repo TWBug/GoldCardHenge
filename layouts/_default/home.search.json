@@ -1,0 +1,21 @@
+[
+{{ range $index, $value := sort .Site.Pages "Title" "asc" }}
+{{ $title := .Title | plainify | chomp }}
+{{ $summary := .Content | plainify | chomp }}
+{
+    "title": "{{ print (replace (replace (replace $title "\t" "") "\n" "") "\"" "'") }}",
+    "content": "{{ print (replace (replace (replace $summary "\t" "") "\n" "") "\"" "'") }}",
+    {{ if .Params.tags }}
+    "tags": {{ .Params.tags | jsonify }},
+    {{ else }}
+    "tags": [],
+    {{ end }}
+    {{ if .Params.categories }}
+    "categories": {{ .Params.categories | jsonify }},
+    {{ else }}
+    "categories": [],
+    {{ end }}
+    "href": "{{ .RelPermalink }}",
+},
+{{ end }}
+]

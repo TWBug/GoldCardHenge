@@ -21,10 +21,15 @@
         {{ else }}
         class="self-stretch flex hover:text-black hover:bg-white"
         {{ end }}
-        aria-controls="{{ printf "nav-dropdown-%s" .topic }}"
-        :aria-expanded="{{ printf "!dropdown.%s" .topic }}"
     >
-        <a href="/{{ print $language .link }}" {{ if .dropdown }}  @click.stop="toggleDropdown('{{ .topic }}', $event)" {{ end }} class="flex-center focus:bg-white focus:text-black px-6" :class="{ 'bg-white text-black': {{ printf "dropdown.%s" .topic }} }">
+        <a href="/{{ print $language .link }}" {{ if .dropdown }}
+            @click.stop="toggleDropdown('{{ .topic }}', $event)" {{ end }}
+            class="flex-center focus:bg-white focus:text-black px-6"
+            :class="{ 'bg-white text-black': {{ printf "dropdown.%s" .topic }} }"
+            :aria-pressed="{{ printf "dropdown.%s" .topic }}"
+            aria-controls="{{ printf "nav-dropdown-%s" .topic }}"
+            :aria-expanded="{{ printf "dropdown.%s" .topic }}"
+        >
             {{ if .dropdown }}
                 <span class="mr-2">
                 {{ .name }}
@@ -48,7 +53,7 @@
     {{ end }}
 </ul>
 <div class="flex lg:hidden">
-    <button type="button" x-on:click="toggleSearch()" class="px-4" >
+    <button type="button" data-cy="show-search" x-on:click="toggleSearch()" class="px-4" >
         {{ partial "icon" (dict "name" "search" "size" "8") }}
     </button>
 </div>
@@ -70,7 +75,7 @@
         <form class="text-base text-white m-0">
             <div class="flex items-center border border-nav-end bg-nav-dark rounded-lg px-4">
                 {{ partial "icon" (dict "name" "search" "size" "4") }}
-                <input id="search-box" type="text" placeholder="{{ i18n "search" }}" class="bg-transparent font-semibold placeholder-white px-4 py-2" />
+                <input id="search-box" type="text" placeholder="{{ i18n "search" }}" class="search-box flex-auto bg-transparent font-semibold placeholder-white px-4 py-2" />
             </div>
         </form>
     </div>

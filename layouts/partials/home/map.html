@@ -1,6 +1,7 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{ $headless := .Site.GetPage "/home" }}
 {{ $map := $headless.Resources.GetMatch "map*" }}
+{{ $map_image := resources.Get "img/map/map.png" | fingerprint }}
 
 <div class="bg-background pt-24 pb-12">
     <div class="container replace">
@@ -13,6 +14,7 @@
             <div id="map" class="relative overflow-x-auto">
                 <div class="wrapper">
                     {{range $index, $element := (shuffle $data.map.items)}}
+                    {{ $member_image := resources.Get (printf "img/map/%s" $element.image) | fingerprint }}
                     <div
                         class="member border-4 border-secondary-dark rounded-full overflow-hidden"
                         :class="{ 'running' : play[{{ $index }}], 'paused' : !play[{{ $index }}] }"
@@ -20,19 +22,24 @@
                         data-origin="{{ $element.origin }}"
                         data-local="{{ $element.local }}"
                         data-description="{{ $element.description }}"
-                        data-image="{{ $element.image }}"
-                        style="--left:{{ $element.left }}%;--top:{{ $element.top }}%;--delay:{{ mul $index 3000 }}ms"
+                        data-image="{{ $member_image.RelPermalink }}"
+                        style="--left:{{ $element.left }}%;--top:{{ $element.top }}%;--delay:{{ mul $index 2000 }}ms"
                         @click.stop="toggle({{ $index }})"
+                        :aria-pressed="!play[{{ $index }}]"
+                        :aria-expanded="play[{{ $index }}]"
+                        aria-controls="map-modal"
                     >
-                        <img src="/img/{{ $element.image }}" alt="{{ printf "Portrait %s" $element.name }}"
+                        <img src="{{ $member_image.RelPermalink }}" alt="{{ printf "Portrait %s" $element.name }}"
                         class="absolute inset-0 w-full h-full" />
                     </div>
                     {{ end }}
-                    <img src="/img/map.png" alt="Temp Map" class="block w-full -z-1" x-ref="file" />
+                    <img src="{{ $map_image.RelPermalink }}" alt="{{ i18n "gold_card_members_map" }}" class="block w-full -z-1" x-ref="file" />
                 </div>
             </div>
             <template x-if="modal">
                 <div
+                    id="map-modal"
+                    :hidden="!modal"
                     class="modal bg-white bg-opacity-75 backdrop-blur-2 text-base text-gray-900 rounded-lg border border-gray-200 pl-12 pr-4 py-3 shadow-lg w-full max-w-96 lg:max-w-64"
                     :style="data.style"
                     @click.away="closeModal()"
@@ -52,7 +59,7 @@
                     <p class="text-xs font-bold" x-text="data.origin"></p>
                     <p class="text-xl font-bold mb-1" x-text="data.name"></p>
                     <p class="text-xs font-semibold uppercase mb-1">
-                        Located: <span x-text="data.local"></span>
+                        {{ i18n "located" }}: <span x-text="data.local"></span>
                     </p>
                     <p class="text-sm font-medium leading-snug" x-text="data.description"></p>
                     <button
@@ -60,6 +67,8 @@
                         @click="closeModal()"
                         title="close"
                         class="absolute flex-center bg-primary right-0 top-0 text-white w-8 h-8 -mr-4 -mt-2 shadow-lg rounded-full"
+                        :aria-pressed="false"
+                        aria-controls="map-modal"
                     >
                         {{ partial "icon" (dict "name" "times" "size" "4") }}
                     </button>
@@ -102,7 +111,7 @@
         animation-delay: var(--delay);
         animation-direction: normal;
         animation-name: animation-fade;
-        animation-duration: 15s;
+        animation-duration: 40s;
         animation-fill-mode: both;
     }
     .member.paused {
@@ -126,19 +135,19 @@
             opacity: 0;
             z-index: 0;
         }
-        20% {
+        6% {
             opacity: 1;
             z-index: 1;
         }
-        40% {
+        30% {
             opacity: 1;
             z-index: 1;
         }
-        60% {
+        35% {
             opacity: 0;
             z-index: 0;
         }
-        61% {
+        36% {
             opacity: 0;
             z-index: -1;
         }

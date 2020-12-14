@@ -4,4 +4,4 @@ draft: false
 tags:
   - General
 ---
-NONE
+You may simply find a new job. Your Gold Card is not sponsored by your employer and will not be affected by a change of job.

@@ -29,6 +29,8 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+{{/*  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'nonce-{{ hmac "sha256" "Secret key" hugo.BuildDate }}'" />  */}}
+{{/*  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.jsdelivr.net https://www.googletagmanager.com" /> */}}
 <meta name="dc.language" content="{{ .Site.Language.Lang }}" />
 <meta http-equiv="Content-Language" content="{{ .Site.Language.Lang }}" />
 <meta name="copyright" content="{{ .Site.Copyright }}" />
@@ -64,12 +66,16 @@
 <link rel="canonical" href="{{ .Page.Permalink }}" />
 <title>{{ .Page.Title | truncate 60 }} | {{ .Site.Title }}</title>
 {{ if eq .Site.Language.Lang "zh" }}
+    {{ if eq .Site.Params.loadFromCDN "true" }}
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&Krub:wght@300;400;500;600;700&display=swap"
         rel="stylesheet"
     />
+    {{ end }}
 {{ else }}
+    {{ if eq .Site.Params.loadFromCDN "true" }}
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    {{ end }}
 {{ end }}
 {{ if .Site.IsServer }}
 <link href="{{ $styles_develop.RelPermalink }}" rel="stylesheet" integrity="{{ $styles_develop.Data.Integrity }}" />

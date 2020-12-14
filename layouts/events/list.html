@@ -1,10 +1,15 @@
 {{ define "main" }}
 
-{{ $hero_image := resources.Get (printf "%s" ("cms-uploads/futureward-function-room.jpg" | safeURL)) }}
-
-{{ $cover_image := "" }}
+{{ $hero_image := "" }}
+{{ $hero_image_small := "" }}
+{{ $hero_image_medium := "" }}
+{{ $hero_image_large := "" }}
 {{ if .Params.cover_image }}
-{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ $hero_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ $hero_image_small = $hero_image.Fill "400x800 q30 center jpg" }}
+{{ $hero_image_medium = $hero_image.Fill "800x1000 q30 center jpg" }}
+{{ $hero_image_large = $hero_image.Fill "1600x450 q30 center jpg" }}
+{{ $hero_image = $hero_image.Fill "2400x600 q30 center jpg" }}
 {{ end }}
 
 <div class="relative bg-blue-500 shadow-xl">
@@ -13,7 +18,15 @@
 
 <div class="relative flex items-center z-0 shadow-xl py-16 min-h-hero lg:min-h-screen-1/3 xxl:min-h-screen-1/4">
     <div class="absolute inset-0 w-full h-full -z-1">
-        <img src="{{ $hero_image.RelPermalink }}" alt="asdasd" class="block w-full h-full object-cover">
+        {{ if $hero_image }}
+        <img
+            srcset="{{ $hero_image_small.RelPermalink }} 480w, {{ $hero_image_medium.RelPermalink }} 768w, {{ $hero_image_large.RelPermalink }} 1024w"
+            src="{{ $hero_image.RelPermalink }}"
+            alt="{{ .Params.hero_image_alt | truncate 160 }}"
+            class="block bg-gray-300 absolute inset-0 w-full h-full object-cover"
+            loading="lazy"
+        />
+        {{ end }}
     </div>
     {{ if .Site.IsServer }}
     <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">NEWS LIST TEMPLATE</div>
@@ -21,16 +34,11 @@
     <div
         class="absolute top-0 inset-x-0 h-full bg-gradient-to-b from-black to-transparent opacity-25 -z-1"
     ></div>
-    <div class="absolute bottom-0 right-0 opacity-50 w-2/3 lg:w-1/2 -z-1">
+    <div class="absolute bottom-0 right-0 opacity-100 w-2/3 lg:w-1/2 -z-1">
         <img src="/img/list-mountains-dark.svg" alt="{{ i18n "taiwan_mountains" }}" class="block w-full">
     </div>
     <div class="container px-12 lg:px-24">
         <div class="flex justify-between items-center lg:px-24">
-            {{ if $cover_image }}
-            <div class="flex-center w-1/4">
-                <img src="{{ $cover_image.RelPermalink }}" class="w-full" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
-            </div>
-            {{ end }}
             <div class="w-full sm:w-2/3">
                 <div class="text-5xl leading-tight font-semibold my-2 ml-1">
                     <h1 class="padded">

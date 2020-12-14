@@ -1,7 +1,12 @@
 ---
 title: Field of Law
-summary: Qualification standards for lawyers, law professors and legal executives.
+summary: Those who have obtained an ROC or foreign attorney license, with a
+  monthly salary of at least NT$160,000, hold or have held a position as a
+  professor, associate professor or assistant professor at a foreign university,
+  or a law related executive position in a law firm or corporation, or have been
+  recommended by the Taiwan Bar Association.
 draft: false
+icon: /cms-uploads/icon-law.svg
 ---
 # Field of Law
 

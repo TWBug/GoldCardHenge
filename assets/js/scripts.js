@@ -68,10 +68,16 @@ window.highlight = {
 
 window.languageDetection = {
   language: 'en',
+  default_language: 'en',
+  supported_languages: ['en', 'zh'],
   message: "Sorry, it looks like your browser storage has been corrupted. Please clear your storage by going to Tools -> Clear Recent History -> Cookies and set time range to 'Everything'. This will remove the corrupted browser storage across all sites.",
   init: function init() {
     // checks always the language - if not valid reset it to default english
     this.language = this.getStorage('language');
+
+    if (this.supported_languages.indexOf(this.language) === -1) {
+      this.language = this.default_language;
+    }
 
     if (this.language !== null) {
       if (this.checkValidLanguage(this.language) === false) {
@@ -119,7 +125,7 @@ window.languageDetection = {
   },
   getStorage: function getStorage(item) {
     try {
-      return localStorage.getItem(item);
+      return localStorage.getItem(item).replace(/(<([^>]+)>)/gi, "");
     } catch (e) {
       if (e.name == 'NS_ERROR_FILE_CORRUPTED') {
         alert(this.message);
@@ -170,7 +176,7 @@ window.languageDetection = {
   },
   getCookie: function getCookie(item) {
     var itemValue = document.cookie.match('(^|;) ?' + item + '=([^;]*)(;|$)');
-    return itemValue ? itemValue[2] : null;
+    return itemValue ? itemValue[2].replace(/(<([^>]+)>)/gi, "") : null;
   }
 };
 "use strict";
@@ -226,7 +232,22 @@ function handleResize() {
     navigationScrollHeight = 58;
   }
 
-  document.documentElement.style.setProperty('--navigationScroll', "".concat(navigationScrollHeight, "px")); // view port height fix for mobile browsers
+  document.documentElement.style.setProperty('--navigationScroll', "".concat(navigationScrollHeight, "px"));
+  var w_aspect = Math.round(window.innerWidth / window.innerHeight * 100) / 100;
+  var home_hero = 'calc(var(--vh) * 75)';
+
+  if (window.innerWidth < 1024) {
+    home_hero = 'calc(var(--vh) * 100)';
+  } else {
+    if (w_aspect > 1.64) {
+      home_hero = 'calc(var(--vh) * 100)';
+    } else if (w_aspect < 1.2) {
+      home_hero = 'calc(var(--vh) * 50)';
+    }
+  }
+
+  document.documentElement.style.setProperty('--homeHero', "".concat(home_hero));
+  console.info('width x height: ', window.innerWidth + ' x ' + window.innerHeight); // view port height fix for mobile browsers
 
   var vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', "".concat(vh, "px"));
@@ -608,7 +629,7 @@ window.taMap = function () {
       this.modal = true;
       this.data = {
         name: this.elements[index].dataset.name,
-        image: '/img/' + this.elements[index].dataset.image,
+        image: this.elements[index].dataset.image,
         origin: this.elements[index].dataset.origin,
         local: this.elements[index].dataset.local,
         description: this.elements[index].dataset.description,
@@ -657,6 +678,7 @@ window.taNavigation = function () {
     modal: false,
     search: false,
     fixed: false,
+    checked_menu_height: false,
     dropdown: {
       goldcard: false,
       faq: false,
@@ -740,6 +762,11 @@ window.taNavigation = function () {
       }
     },
     toggleDropdown: function toggleDropdown(topic, event) {
+      if (this.checked_menu_height === false) {
+        this.setMenuHeight();
+        this.checked_menu_height = true;
+      }
+
       for (var property in this.dropdown) {
         if (property === topic) {
           this.dropdown[topic] = !this.dropdown[topic];
@@ -777,6 +804,210 @@ window.taNavigation = function () {
       this.menue[property] = false;
     }
   }), _ref;
+};
+"use strict";
+
+function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+window.taSearch = function () {
+  return {
+    initialized: false,
+    query: '',
+    is_chinese_ui: false,
+    has_chinese_characters: false,
+    result: [],
+    active: -1,
+    is_dirty: false,
+    is_enough: false,
+    has_results: false,
+    excerpt_length: 200,
+    minimum_length: 3,
+    highlight: true,
+    highlight_class: 'inline-block font-semibold bg-highlight text-black',
+    init: function init() {
+      var _this = this;
+
+      var _console = console,
+          assert = _console.assert;
+      assert(window.lunr, 'Lunr.js not found. Search cannot be supported without Lunr.js.');
+      this.is_chinese_ui = window.location.pathname.startsWith('/zh/');
+      this.loadIndex();
+      this.initLunr();
+      this.$watch('query', function (value) {
+        if (value.length === 0) {
+          _this.reset();
+
+          return;
+        }
+
+        if (value.length >= _this.minimum_length) {
+          _this.is_enough = true;
+        } else {
+          _this.is_enough = false;
+        }
+
+        _this.is_dirty = true;
+
+        _this.search(_this.query);
+      });
+    },
+    reset: function reset() {
+      var query = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : true;
+      this.result = [];
+      this.has_results = false;
+      this.active = -1;
+
+      if (query === true) {
+        this.query = '';
+      }
+    },
+    up: function up() {
+      if (this.active > 0) {
+        this.active -= 1;
+      }
+    },
+    down: function down() {
+      if (this.active < this.result.length - 1) {
+        this.active += 1;
+      }
+    },
+    enter: function enter() {
+      if (this.active === -1 && this.result.length === 0) {
+        return false;
+      }
+
+      var url = this.result[this.active].href;
+      location.href = url;
+    },
+    excerpt: function excerpt(string) {
+      var length = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+
+      if (length === 0) {
+        length = this.excerpt_length;
+      }
+
+      var string_lower = string.toLowerCase();
+      var matchIndex = string_lower.indexOf(this.query.toLowerCase());
+      var excerpt = '';
+
+      if (matchIndex === -1) {
+        excerpt = string.slice(0, length);
+      } else {
+        excerpt = string.slice(Math.max(0, matchIndex - length / 2), matchIndex) + string.slice(matchIndex + this.query.length, matchIndex + length / 2);
+      }
+
+      if (this.highlight) {
+        excerpt = this.replace(excerpt);
+      }
+
+      if (excerpt.length < string.length) {
+        return excerpt + '…';
+      }
+
+      return excerpt;
+    },
+    replace: function replace(string) {
+      var query = string.substr(string.toLowerCase().indexOf(this.query.toLowerCase()), this.query.length);
+
+      if (query.length !== this.query.length) {
+        return string;
+      }
+
+      var regex = new RegExp(this.query, 'gi');
+      return string.replaceAll(regex, '<span class="' + this.highlight_class + '">' + query + '</span>');
+    },
+    initLunr: function initLunr() {
+      // Set up support for chinese
+      window.lunr.zh = function () {
+        this.pipeline.reset();
+        this.pipeline.add(window.lunr.zh.trimmer, window.lunr.stopWordFilter, window.lunr.stemmer);
+      };
+
+      window.lunr.zh.trimmer = function (token) {
+        return token.update(function (str) {
+          if (function (str) {
+            /[\u4E00-\u9FA5\uF900-\uFA2D]/.test(str);
+          }) return str;
+          return str.replace(/^\W+/, '').replace(/\W+$/, '');
+        });
+      };
+
+      window.lunr.Pipeline.registerFunction(lunr.zh.trimmer, 'trimmer-zh');
+    },
+    loadIndex: function loadIndex() {
+      var _this2 = this;
+
+      // console.log('[TA-SEARCH] Lunr index loading:', this.$el.dataset.file);
+      // First retrieve the index file
+      fetch(this.$el.dataset.file).then(function (x) {
+        return x.json();
+      }).then(function (index) {
+        window.lunrPages = index; // Set up lunrjs by declaring the fields we use
+        // Also provide their boost level for the ranking
+
+        window.lunrIndex = window.lunr(function () {
+          // console.log('[TA-SEARCH] Lunr index loaded');
+          if (window.location.pathname.startsWith('/zh/')) {
+            // console.log('[TA-SEARCH] Lunr chinese mode');
+            this.use(window.lunr.zh); // Set up Chinese support
+          }
+
+          this.field('title', {
+            boost: 10
+          });
+          this.field('tags', {
+            boost: 5
+          });
+          this.field('categories', {
+            boost: 8
+          });
+          this.field('content'); // ref is the result item identifier (I chose the page URL)
+
+          this.ref('href'); // Feed lunr with each file and let lunr actually index them
+
+          var _iterator = _createForOfIteratorHelper(window.lunrPages),
+              _step;
+
+          try {
+            for (_iterator.s(); !(_step = _iterator.n()).done;) {
+              var page = _step.value;
+              this.add(page);
+            }
+          } catch (err) {
+            _iterator.e(err);
+          } finally {
+            _iterator.f();
+          }
+        });
+        _this2.initialized = true;
+      })["catch"](function (err) {
+        console.error('Error getting Hugo index file:', err.message);
+      });
+    },
+    search: function search(query) {
+      if (query.length < 3) {
+        this.reset(false);
+        return false;
+      }
+
+      this.result = window.lunrIndex.search('*' + query + '*').map(function (result) {
+        return window.lunrPages.find(function (page) {
+          return page.href === result.ref;
+        });
+      });
+      this.result = this.result.slice(0, 8);
+
+      if (this.result.length > 0) {
+        this.has_results = true;
+      } else {
+        this.has_results = false;
+      }
+    }
+  };
 };
 "use strict";
 

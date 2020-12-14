@@ -3,9 +3,9 @@ title: 活動
 link: <!-- This text will never be seen -->
 start: 2020-12-03T09:38:12.659Z
 end: ""
-cover_image: null
-cover_image_alt: null
-media_image: null
+cover_image: "cms-uploads/hero-events.jpg"
+cover_image_alt: "Events"
+media_image: ""
 media_image_alt: null
 draft: false
 summary: null
