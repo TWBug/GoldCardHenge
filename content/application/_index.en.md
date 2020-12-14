@@ -135,21 +135,21 @@ For overseas applications, or if you have entered Taiwan but have a visa with a 
 
 {{< /teaser >}}
 
-* When your application is approved and passed the qualification review, you will receive an e-mail notification to bring your passport for passport inspection. At this point, please bring your original passport to your chosen Bureau of Consular Affairs or ROC mission/office. **Due to the COVID-19 pandemic, some overseas missions might be temporarily closed. If that is the case, please send in your passport, including a return envelope (with address and stamped).**
+* When your application is approved and passed the qualification review, you will receive an e-mail notification to bring your passport for passport inspection. At this point, please bring your original passport to your chosen Bureau of Consular Affairs or ROC mission/office. **Due to the COVID-19 pandemic, some overseas missions might be temporarily closed or working remotely. Please contact their office and see if passport inspections can be accepted via post..**
 * You will receive an e-mail stating your passport has been inspected and the gold card application was approved. Under normal circumstances, this process should take a week.
 
 {{< base >}}
 Notes:
 
-* You can change the passport inspection location anytime on the online platform before the application has finished the review process. You will not be able to make online changes after you receive the e-mail confirmation. At this point, you can only contact the Bureau of Consular Affairs to change the location in their internal system.
+* You can change the passport inspection location anytime on the online platform before the application has finished the review process. You will not be able to make online changes after you receive the e-mail confirmation. At this point, you can only change the location by contacting the Bureau of Consular Affairs.
 * If you send your passport via post to an overseas mission/office, please make sure you don't have to use your passport within a month.
 {{< /base >}}
 
 ## STEP 3: Receiving your Gold Card
 
-After your application has now finally come to a completion, you will receive an e-mail notifying you that you can go pick up your Gold Card. Please bring your original passport and relevant documents to your chosen place for picking up your Gold Card. If it is not convenient to pick it up in person, you can ask a friend or agent. In that case, you need to include a power of attorney. 
+After your application has been approved, you will receive an e-mail notifying you to collect your Gold Card. Please bring your original passport and relevant documents to your chosen place selected location for picking up your Gold Card. If it is not convenient to pick it up in person, you can ask a friend or agent. In that case, you need to provide them with a power of attorney. 
 
-**During the COVID-19 pandemic, the foreign agency you choose may be temporarily closed. If this happens, the applicant must call the Ministry of Foreign Affairs to change the pick-up location.**
+**During the COVID-19 pandemic, the overseas mission may be temporarily closed and unavailable. If this happens, you may call the Ministry of Foreign Affairs to change the pick-up location.**
 
 {{< teaser prefix="1." >}}
 Domestic Applicants
@@ -163,17 +163,11 @@ Overseas Applicants
 
 * Receiving your Gold Card after entry
 
-  * Please go to the "download" area on ​​the application platform to print out the "Republic of China Employment Gold Card Overseas Approval Certificate." You can enter Taiwan with this certificate. Within 30 days of the day after you enter Taiwan, you must bring this certificate and the original passport to the previously designated Immigration bureau to pick up the Gold Card.
+  * Please go to the "Download" area on ​​the application platform to print out the "Republic of China Employment Gold Card Overseas Approval Certificate." You can enter Taiwan with this certificate. Within 30 days of the day after you enter Taiwan, you must bring this certificate and the original passport to the previously designated Immigration Bureau to pick up the Gold Card.
 * Receiving your Gold Card abroad
 
   * Please go to the "download" area on ​​the application platform to print out the "Republic of China Employment Gold Card Overseas Approval Certificate." Take the receipt and your passport to the previously designated ROC mission/office.
-  * The waiting period for receiving the Gold Card at an overseas ROC mission/office can take over 21 working days. The mission/office will notify the applicant to pick up the Gold Card. If the Gold Card is not picked up within three months, the mission/office will send it back to the Taiwanese Immigration Bureau.
-
-{{< base >}}
-Notes: 
-
-* You can only change the card collection location before your application review is passed. After you receive the e-mail confirmation, you cannot modify it online. Applicants will then need to contact the Bureau of Consular Affairs for any changes.
-{{< /base >}}
+  * It can take over 21 working days to deliver a Gold Card to an overseas ROC mission/office. The mission/office will notify the applicant to pick up the Gold Card. If the Gold Card is not picked up within three months, the mission/office will send it back to the Taiwanese Immigration Bureau.
 
 ## Submitting Additional Documents & Rejection
 
