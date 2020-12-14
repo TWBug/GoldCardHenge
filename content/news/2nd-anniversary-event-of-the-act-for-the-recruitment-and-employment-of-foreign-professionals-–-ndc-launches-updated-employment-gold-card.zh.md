@@ -4,7 +4,7 @@ date: 2020-02-08T05:00:18.164Z
 draft: false
 hidden: false
 categories:
-  - event
+  - Announcement
 ---
 「外國專業人才延攬及僱用法」施行滿2週年，正式啟用新版就業金卡
 
