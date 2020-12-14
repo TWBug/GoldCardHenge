@@ -29,7 +29,7 @@ Meetings
 3. Decisions are made collectively and can be a lengthy process during negotiation. Once facts are established, agreements can sometimes be reached quickly.
 4. 關係 or guan-xi means connections/personal relationships. Guan-xi is vital for business success in Taiwan. Taiwanese business people will want to know you personally before they do business with you.
 
-{{< card title="undefined" link="" image="/cms-uploads/meeting.jpg" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/meeting.jpg" >}}
 
 {{< /card >}}
 
