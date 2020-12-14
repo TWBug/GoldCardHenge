@@ -5,7 +5,7 @@ date: 2020-11-05T05:00:12.922Z
 draft: false
 hidden: false
 categories:
-  - event
+  - Announcement
 ---
 # 1,532 Gold Cards issued to date!
 
