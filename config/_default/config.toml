@@ -29,7 +29,7 @@ title = "Taiwan Gold Card"
 weight = 1
 [languages.en.params]
 linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
-apply = "https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card?lang=en"
+apply = "https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/"
 phone = "+886 2-7733-7660"
 email = "help@taiwangoldcard.tw"
 
@@ -39,7 +39,7 @@ title = "台灣就業金卡"
 weight = 2
 [languages.zh.params]
 linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
-apply = "https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/main?lang=zh"
+apply = "https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/"
 phone = "+886 2-7733-7660"
 email = "help@taiwangoldcard.tw"
 
