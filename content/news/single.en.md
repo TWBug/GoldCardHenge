@@ -11,6 +11,8 @@ topic: eventsnews
 tags: null
 style: hero
 image: img/uploads/dummy-image.jpg
+categories:
+  - Announcement
 publishDate: 2020-11-05T07:09:20.617Z
 ---
 # 1,367 Gold Cards issued to date!
