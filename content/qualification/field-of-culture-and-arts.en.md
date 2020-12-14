@@ -8,7 +8,9 @@ icon: /cms-uploads/icon-art-culture.svg
 ---
 # Foreign Special Professional Who Possesses Special Expertise in the Field of Culture and Arts
 
-## Performing Arts
+## Must meet **ONE** of the following conditions:
+
+### Performing Arts
 
 {{< accordion title="Previously serving as member of international arts organization, or assuming post of significant capacity in governmental agency or private organization related to culture and arts." suffix="1." bottomless="true" >}}
 
@@ -35,12 +37,12 @@ b. Important capacity or key member: Defined as a manager, assistant manager, as
 a. Recognized award: Awards granted by an important international arts organization, wherein the number of competitors or nations competing reaches a threshold of significance, or where the award is one is of a sufficient caliber, or is otherwise a major international performing arts award. Examples include the  Tony Award(US),  National Dance Award(UK), and  International Tchaikovsky Competition award(RU), as well as any award that has been reviewed and approved of by the MOC.
 {{< /accordion >}}
 
-{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="4." bottomless="false" >}}
+{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="4." bottomless="true" >}}
 
 * Proof of accomplishments in performing arts acknowledged by the MOC.
 {{< /accordion >}}
 
-## Visual Arts
+### Visual Arts
 
 {{< accordion title="Previously serving as member of international arts organization, or assuming post of significant capacity in governmental agency or private organization related to culture and arts." suffix="1." bottomless="true" >}}
 
@@ -71,13 +73,13 @@ b. Important capacity or key member: Defined as a manager, assistant manager, as
 a. Awards granted by major international arts organizations, or where the number of competitors or nations competing reaches a threshold of significance, or where the award is of a sufficient caliber, or where the award is sufficiently representative and important to the visual arts. Examples include the New York Art Directors Club Annual Awards, Bologna Children’s Book Fair: Illustrator’s Award, and other awards reviewed and approved of by the MOC.
 {{< /accordion >}}
 
-{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="4." bottomless="false" >}}
+{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="4." bottomless="true" >}}
 
 * Proof of accomplishments in Visual arts acknowledged by the MOC.
 
 {{< /accordion >}}
 
-## Publishing
+### Publishing
 
 {{< accordion title="Currently or previously serving as chief editor or senior manager of major international media or publishing house, or as copyright agent, with at least 10 years’ experience in publishing or mass communications." suffix="1." bottomless="true" >}}
 
@@ -110,12 +112,12 @@ c. Senior managers of  the print media  indicate manager, assistant general mana
 * A curator who has curated an international book fair, or the manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director-general, responsible person, deputy general director, general director, or other similar position at an organization that has curated an international book fair.
 {{< /accordion >}}
 
-{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="6." bottomless="false" >}}
+{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="6." bottomless="true" >}}
 
 * Proof of accomplishments in publishing business acknowledged by the MOC.
 {{< /accordion >}}
 
-## Film, Broadcast and Pop Music
+### Film, Broadcast and Pop Music
 
 {{< accordion title="Previously received a major award for film, broadcast, or pop music from Taiwan or the recipient’s native country, or an international award." suffix="1." bottomless="true" >}}
 
@@ -138,12 +140,12 @@ b. Definition of top executive: An individual who has served as department head 
 * Copy of proof of five years’ work experience in the fields of film, broadcast, or pop music.
 {{< /accordion >}}
 
-{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="4." bottomless="false" >}}
+{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="4." bottomless="true" >}}
 
 * Copy of verification by the Ministry of Culture of documentation related to film, broadcast, or pop music.
 {{< /accordion >}}
 
-## Handicraft
+### Handicraft
 
 {{< accordion title="Previously awarded in nationally or internationally recognized competition relevant to handicraft." suffix="1." bottomless="true" >}}
 
@@ -155,12 +157,12 @@ b. Definition of top executive: An individual who has served as department head 
 * Nationally or internationally recognized organization: The World Crafts Council, UNESCO, or other international organizations, as well as organizations acknowledged of by the MOC.
 {{< /accordion >}}
 
-{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="3." bottomless="false" >}}
+{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="3." bottomless="true" >}}
 
 * Proof of accomplishments in Handicraft acknowledged by the MOC.
 {{< /accordion >}}
 
-## Cultural Administration
+### Cultural Administration
 
 {{< accordion title="Previously serving in culture and arts department of domestic or foreign government, or culture and arts institutions established by law or as expert or researcher, having culture and arts portfolio with outstanding performance in addition." suffix="1." bottomless="true" >}}
 
@@ -174,7 +176,7 @@ b. Definition of top executive: An individual who has served as department head 
 [https://en.unesco.org/partnerships/non-governmental-organizations/list?title=&field_acronym_value=&field_interest\_value=All&field\_ postal_address_country=All](https://en.unesco.org/partnerships/non-governmental-organizations/list?title=&field_acronym_value=&field_interest\_value=All&field\_ postal_address_country=All)
 {{< /accordion >}}
 
-{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="3." bottomless="false" >}}
+{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="3." bottomless="true" >}}
 
 * Proof of accomplishments in arts administration and cultural management acknowledged by the MOC.
 {{< /accordion >}}
