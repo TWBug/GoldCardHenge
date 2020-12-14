@@ -29,6 +29,10 @@ style: right
 3. 決策是集體做出的，談判可能是一段漫長的過程。一旦決定下來，有時可以很快達成協議。
 4. 「關係」指的是人際關係，「關係」對臺灣的商業成功至關重要。臺灣商人在與你做生意之前，會想親自瞭解你。
 
+{{< card title="undefined" link="" image="/cms-uploads/meeting.jpg" >}}
+
+{{< /card >}}
+
 {{< base >}}
 餐飲和娛樂
 {{< /base >}}
