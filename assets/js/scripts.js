@@ -68,10 +68,16 @@ window.highlight = {
 
 window.languageDetection = {
   language: 'en',
+  default_language: 'en',
+  supported_languages: ['en', 'zh'],
   message: "Sorry, it looks like your browser storage has been corrupted. Please clear your storage by going to Tools -> Clear Recent History -> Cookies and set time range to 'Everything'. This will remove the corrupted browser storage across all sites.",
   init: function init() {
     // checks always the language - if not valid reset it to default english
     this.language = this.getStorage('language');
+
+    if (this.supported_languages.indexOf(this.language) === -1) {
+      this.language = this.default_language;
+    }
 
     if (this.language !== null) {
       if (this.checkValidLanguage(this.language) === false) {
@@ -119,7 +125,7 @@ window.languageDetection = {
   },
   getStorage: function getStorage(item) {
     try {
-      return localStorage.getItem(item);
+      return localStorage.getItem(item).replace(/(<([^>]+)>)/gi, "");
     } catch (e) {
       if (e.name == 'NS_ERROR_FILE_CORRUPTED') {
         alert(this.message);
@@ -170,7 +176,7 @@ window.languageDetection = {
   },
   getCookie: function getCookie(item) {
     var itemValue = document.cookie.match('(^|;) ?' + item + '=([^;]*)(;|$)');
-    return itemValue ? itemValue[2] : null;
+    return itemValue ? itemValue[2].replace(/(<([^>]+)>)/gi, "") : null;
   }
 };
 "use strict";
@@ -815,7 +821,13 @@ window.taSearch = function () {
     has_chinese_characters: false,
     result: [],
     active: -1,
+    is_dirty: false,
+    is_enough: false,
     has_results: false,
+    excerpt_length: 200,
+    minimum_length: 3,
+    highlight: true,
+    highlight_class: 'inline-block font-semibold bg-highlight text-black',
     init: function init() {
       var _this = this;
 
@@ -832,14 +844,26 @@ window.taSearch = function () {
           return;
         }
 
+        if (value.length >= _this.minimum_length) {
+          _this.is_enough = true;
+        } else {
+          _this.is_enough = false;
+        }
+
+        _this.is_dirty = true;
+
         _this.search(_this.query);
       });
     },
     reset: function reset() {
+      var query = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : true;
       this.result = [];
       this.has_results = false;
-      this.query = '';
       this.active = -1;
+
+      if (query === true) {
+        this.query = '';
+      }
     },
     up: function up() {
       if (this.active > 0) {
@@ -859,8 +883,42 @@ window.taSearch = function () {
       var url = this.result[this.active].href;
       location.href = url;
     },
-    excerpt: function excerpt(string, length) {
-      return string.slice(0, length) + '…';
+    excerpt: function excerpt(string) {
+      var length = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+
+      if (length === 0) {
+        length = this.excerpt_length;
+      }
+
+      var string_lower = string.toLowerCase();
+      var matchIndex = string_lower.indexOf(this.query.toLowerCase());
+      var excerpt = '';
+
+      if (matchIndex === -1) {
+        excerpt = string.slice(0, length);
+      } else {
+        excerpt = string.slice(Math.max(0, matchIndex - length / 2), matchIndex) + string.slice(matchIndex + this.query.length, matchIndex + length / 2);
+      }
+
+      if (this.highlight) {
+        excerpt = this.replace(excerpt);
+      }
+
+      if (excerpt.length < string.length) {
+        return excerpt + '…';
+      }
+
+      return excerpt;
+    },
+    replace: function replace(string) {
+      var query = string.substr(string.toLowerCase().indexOf(this.query.toLowerCase()), this.query.length);
+
+      if (query.length !== this.query.length) {
+        return string;
+      }
+
+      var regex = new RegExp(this.query, 'gi');
+      return string.replaceAll(regex, '<span class="' + this.highlight_class + '">' + query + '</span>');
     },
     initLunr: function initLunr() {
       // Set up support for chinese
@@ -883,8 +941,8 @@ window.taSearch = function () {
     loadIndex: function loadIndex() {
       var _this2 = this;
 
-      console.log('[ALPINEJS] Lunr index loading:', this.$el.dataset.file); // First retrieve the index file
-
+      // console.log('[TA-SEARCH] Lunr index loading:', this.$el.dataset.file);
+      // First retrieve the index file
       fetch(this.$el.dataset.file).then(function (x) {
         return x.json();
       }).then(function (index) {
@@ -892,8 +950,9 @@ window.taSearch = function () {
         // Also provide their boost level for the ranking
 
         window.lunrIndex = window.lunr(function () {
+          // console.log('[TA-SEARCH] Lunr index loaded');
           if (window.location.pathname.startsWith('/zh/')) {
-            console.log('[ALPINEJS] 中文頁面，開啟Lunr中文支援');
+            // console.log('[TA-SEARCH] Lunr chinese mode');
             this.use(window.lunr.zh); // Set up Chinese support
           }
 
@@ -930,12 +989,12 @@ window.taSearch = function () {
       });
     },
     search: function search(query) {
-      // Find the item in our index corresponding to the lunr one to have more info
-      // Lunr result:
-      //  {ref: "/section/page1", score: 0.2725657778206127}
-      // Our result:
-      //  {title:"Page1", href:"/section/page1", ...}
-      this.result = window.lunrIndex.search(query).map(function (result) {
+      if (query.length < 3) {
+        this.reset(false);
+        return false;
+      }
+
+      this.result = window.lunrIndex.search('*' + query + '*').map(function (result) {
         return window.lunrPages.find(function (page) {
           return page.href === result.ref;
         });
