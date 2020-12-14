@@ -111,11 +111,9 @@
 - id: footer_description
   translation: '台灣就業金卡是一張結合工作許可、居留簽證、外僑居留證及重入國許可等四證合一的個人工作許可證，在有效期間內提供符合資格的外國人才可自由尋職、就職及轉換工作的便利性。'
 - id: footer_help_headline
-  translation: '需要幫忙？'
+  translation: '需要協助嗎？'
 - id: footer_help_description
-  translation: '您對金卡有疑問嗎？ 對您的申請有疑問或其他任何疑問，疑慮和建議？'
-- id: footer_help_desk
-  translation: '與我們取得聯繫'
+  translation: '您對金卡有什麼疑問嗎？您如有申請方面的疑慮或其他的建議，歡迎聯繫我們諮詢服務處！'
 - id: footer_goldcard_title
   translation: '就業金卡'
 - id: footer_languages_title
