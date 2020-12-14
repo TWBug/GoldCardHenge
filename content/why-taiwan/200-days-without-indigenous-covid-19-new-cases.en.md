@@ -1,5 +1,5 @@
 ---
-title: 200 天無本土 COVID-19 新病例，台灣怎麼做到的
+title: COVID-19防疫經驗談，台灣如何成為國際防疫模範生?
 draft: false
 topic: whytaiwan
 cover_image: /cms-uploads/covid19.jpg
