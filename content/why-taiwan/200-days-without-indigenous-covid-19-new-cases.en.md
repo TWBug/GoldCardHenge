@@ -12,7 +12,7 @@ topics:
   - Other
 style: title
 ---
-# COVID-19 Prevention and Control: How Taiwan Became the Global Model for Epidemic Prevention 
+# COVID-19 Prevention and Control: How Taiwan Became the Global Model for Epidemic Prevention
 
 As the COVID-19 pandemic continues to ravage the globe, infecting thousands and causing millions of deaths daily, Taiwan has been lauded by international media channels for its pandemic prevention policies. According to the Ministry of Health and Welfare, Taiwan has seen no domestic COVID-19 cases for more than 200 days since the end of November 2020. While most countries have been forced to shut down their cities once again due to threats of an impending second wave, life in Taiwan has been relatively normal. Citizens in Taiwan can travel freely within the country, dine out at restaurants, and even gather together in public.  
 
@@ -34,9 +34,9 @@ COVID-19 has caused a global economic collapse, affecting many countries includi
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/national-taiwan-normal-university-fever-station.jpg" >}}
 {{< /card >}}
 
-Since Taiwan announced its COVID-19 pandemic prevention regulations, many public places have prohibited people with fever symptoms from entering.
+*Since Taiwan announced its COVID-19 pandemic prevention regulations, many public places have prohibited people with fever symptoms from entering.*
 
-Taiwan university campus staff checking students and faculty temperatures.
+*Taiwan university campus staff checking students and faculty temperatures.*
 
 Starting December 1st, the Taiwanese government implemented the Autumn and Winter Epidemic Prevention Project in order to strengthen border quarantine measures, community epidemic prevention, and medical response. 
 
