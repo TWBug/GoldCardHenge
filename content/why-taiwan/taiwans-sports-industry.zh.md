@@ -21,6 +21,10 @@ style: title
 圖片來源：SBL 超級籃球聯賽FB
 {{< /card >}}
 
+{{< card title="undefined" link="https://www.facebook.com/heartbaseball/photos/3560471063990331" image="/cms-uploads/cpbl中華職棒.jpg" >}}
+圖片來源：CPBL 中華職棒FB
+{{< /card >}}
+
 ## 籃球
 
 籃球賽事則是另一個受國民重視的運動，目前台灣的聯賽有剛成立的全職業 P. LEAUGE+ 與半職業性質的超級籃球聯賽 (SBL)。P. LEAUGE+ 預計在 2020 年 12 月開始舉行賽事，總計有四支球隊，也是自 2000 年中華職業籃球聯盟 (CBL) 解散後，台灣第一個職業籃球聯盟。SBL為半職業聯賽，創立於2003年，由裕隆納智捷、台灣啤酒、臺灣銀行、桃園璞園建築與九太科技等五支球隊組成，每年約從11、12月左右開打，並於5月結束例行賽。
