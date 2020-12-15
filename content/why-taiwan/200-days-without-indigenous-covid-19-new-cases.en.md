@@ -27,8 +27,6 @@ Gold Card Yilan Day Trip
 
 {{< /card >}}
 
-{{< /card >}}
-
 Taiwan’s speedy response and organized reaction to the pandemic is due to a painful past experience. During the 2003 SARS pandemic, Taiwan’s economy, social order, and medical systems were all severely impacted, and the country suffered greatly. After the SARS pandemic subsided, the Taiwanese vowed to learn and grow from this painful memory, and created an epidemic prevention strategy that was implemented across all medical systems. 
 
 When the Taiwanese government first heard about the mystery virus from Wuhan, China in December 2019, they immediately began quarantining direct flights from Wuhan. By the beginning of 2020, COVID-19 was classified as a Category 5 Notifiable Communicable Disease, and Taiwan began implementing strict pandemic policies such as restricting travel to and from other countries, launching a domestic mask rationing system, and a mandatory 14-day quarantine period for all travelers who enter Taiwan. Due to these strict prevention policies, 87% of all COVID-19 cases in Taiwan have been imported from abroad. 
