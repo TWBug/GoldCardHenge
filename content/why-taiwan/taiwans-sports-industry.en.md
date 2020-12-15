@@ -17,6 +17,14 @@ Baseball is one of the most important and most representative sports in Taiwan, 
 
 CPBL is the only survival professional baseball league in Taiwan, and most baseball experts think its players' average strength is between US 2A and 3A leagues. There are four major teams, and each major teams own their minor teams act as reserves, similar to NPB, let players rest while get hurt, or players have bad performance.  Taiwan professional baseball teams learn from other countries professional baseball leagues, arranging their home game in their home base field, and promoting the team connection with the city of the home base located. And for the global talents, CPBL have regulation of recruiting foreign baseball players around the world. But luckily is not some random guys from 1A or 2A could survival in the baseball field in Taiwan, they should have at least have 3A experiences or even MBL experiences, then they could probably dominated CBPL's games.
 
+{{< card title="<!-- This text will never be seen -->" link="https://www.facebook.com/sbl.ctba/photos/1644647642362400" image="/cms-uploads/sblgame.jpg" >}}
+圖片來源：SBL 超級籃球聯賽FB
+{{< /card >}}
+
+{{< card title="<!-- This text will never be seen -->" link="https://www.facebook.com/heartbaseball/photos/3560471063990331" image="/cms-uploads/cpbl中華職棒.jpg" >}}
+圖片來源：CPBL 中華職棒FB
+{{< /card >}}
+
 There are baseball fields in most major cities in Taiwan that hold professional baseball games. For the sports fans, you could choose to go to the baseball fields to fell the movements of players and attendees, or watch live broadcast by TV sports stations, which is most convenience way. Thanks for the increasing speed of mobile transmission, you could also watch live game by streaming services. And you could also try the old fashion way of listening to the live games by radio.
 
 Taiwan professional baseball league is one of the oldest and biggest professional games in Taiwan history. There are other professional sports leagues in Taiwan. For the basketball, there are all-professional P. LEAUGE+, and half-professional basketball league Super Basketball League (SPB). P. LEAUGE+ is planned to start the first game in December, 2020, and will have 4 teams. P. LEAUGE+ is the first professional basketball league after the collapse of Chinese Basketball Alliance (CBA) in 2000. 
