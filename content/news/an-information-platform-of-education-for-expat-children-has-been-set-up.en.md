@@ -3,6 +3,8 @@ title: An information platform of education for expat children has been set up
 date: 2020-07-02T05:00:09.980Z
 draft: false
 hidden: false
+categories:
+  - Announcement
 ---
 In order to create a friendly educational environment for children of foreign professionals, the Ministry of Education has built a website that collects schools and programs for expat kids in Taiwan.
 Click the link for more information：https://www.ibst.org.tw/US/home

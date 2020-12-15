@@ -5,7 +5,7 @@ date: 2020-02-08T05:00:18.164Z
 draft: false
 hidden: false
 categories:
-  - event
+  - Announcement
 ---
 
 # 2nd Anniversary Event of the Act for the Recruitment and Employment of Foreign Professionals – NDC launches updated Employment Gold Card

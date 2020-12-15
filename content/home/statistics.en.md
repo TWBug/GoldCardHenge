@@ -13,9 +13,9 @@ items:
     href: Gold Card Holders
   - preview: null
     label: "60"
-    href: Different countries
+    href: Different Countries
   - preview: null
     label: "10876"
-    href: Answered questions
+    href: Number of Consultations
 ---
 <!-- This text will never be seen -->

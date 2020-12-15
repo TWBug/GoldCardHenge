@@ -3,6 +3,8 @@ title: "2020年11月就業金卡最新核發數字\t"
 date: 2020-12-03T05:00:29.184Z
 draft: false
 hidden: false
+categories:
+  - Announcement
 style: right
 ---
 # 就業金卡最新核發數字: 1,711!
