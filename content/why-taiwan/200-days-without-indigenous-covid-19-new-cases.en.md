@@ -34,6 +34,10 @@ COVID-19 has caused a global economic collapse, affecting many countries includi
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/national-taiwan-normal-university-fever-station.jpg" >}}
 {{< /card >}}
 
+When Taiwan raises its COVID-19 pandamic regulation, there are many public places prohibit of entrance of people with fever symptoms.
+
+There are staffs checking students and facality' staffs' temperture in most of Taiwan university campus.
+
 Starting December 1st, the Taiwanese government implemented the Autumn and Winter Epidemic Prevention Project in order to strengthen border quarantine measures, community epidemic prevention, and medical response. 
 
 Border quarantine measures: All inbound and transit passengers (regardless of nationality or purpose of arrival) must submit a negative COVID-19 nucleic acid test report within three days of their flight to Taiwan. 
