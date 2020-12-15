@@ -1,5 +1,5 @@
 ---
-title: 海外人才歸國橋接方案
+title: 6. 海外人才歸國橋接方案
 link: https://lifttaiwan.stpi.narl.org.tw/
 cover_image: /cms-uploads/lift-program-2.0.jpg
 cover_image_alt: LIFT Program 2.0
