@@ -31,6 +31,14 @@ Taiwan professional baseball league is one of the oldest and biggest professiona
 
 SBL is the half-professional basketball league in Taiwan after the collapse of CBA, and is the substitute for Taiwanese sports fan who do not have any local professional basketball league games to watch in most of these years.
 
+{{< card title="<!-- This text will never be seen -->" link="http://www.taipeicitymarathon.com/photo-page.php?pmid=4" image="/cms-uploads/2019台北馬拉松.jpg" >}}
+圖片來源：台北馬拉松官網
+{{< /card >}}
+
+{{< card title="<!-- This text will never be seen -->" link="http://www.esports.com.tw/edcontent_d.php?lang=tw&tb=4&id=4472" image="/cms-uploads/tesl電競.jpg" >}}
+圖片來源：TESL台灣電競官網
+{{< /card >}}
+
 Besides professional baseball and professional basketball, there are also some all-professional, half-professional leagues like Enterprise Volleyball League, Taiwan Football Premier League. And due to the flourish development of online gaming, there are also e-sports leagues which attracts gamers attention. There are always some local game leagues that get the attention of Taiwanese sport fans.
 
 Even though there are special sports channels broadcasting well-known professional sports events in your TV box, or streaming via internet, making watching sports events very easy. But for Taiwanese people, we still concern all-professional, half-professional local sports events. We care about the games happened in our land, games that have our people playing and championing for their best, glimpsing the figures of Taiwanese athletes running in the game fields.
