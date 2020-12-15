@@ -22,11 +22,11 @@
     x-transition:leave-start="opacity-100"
     x-transition:leave-end="opacity-0 translate-x-10"
     >
-    <button type="button" x-on:click="toggleModal()" class="absolute top-0 right-0 px-8 py-4" >
+    <button type="button" x-on:click="toggleModal()" class="absolute top-0 right-0 px-8 py-4 focus:bg-white focus:text-nav-start" >
         {{ partial "icon" (dict "name" "times" "size" "10") }}
     </button>
     <div class="flex flex-col h-full">
-        <a href="{{ .Site.Home.RelPermalink }}" class="block py-10 pl-12">
+        <a href="{{ .Site.Home.RelPermalink }}" class="block py-10 pl-12 focus-white">
             <img src="/img/taiwan-gold-card-logo.png" class="w-1/2" alt="{{ i18n "tego_logo" }}" />
         </a>
         <div class="flex items-center border-t border-b border-white border-opacity-50 mt-4 px-8" x-data="taLanguage()" x-init="init()">
@@ -40,6 +40,7 @@
             <a
                 href="{{ $url }}"
                 class="block bg-nav-dark font-bold px-2 py-3 mx-1 focus:bg-white focus:text-black"
+                tabindex="-1"
                 @click.prevent="switchLanguage('{{ .Lang }}')"
                 title="{{ i18n "change_language" }}"
             >
