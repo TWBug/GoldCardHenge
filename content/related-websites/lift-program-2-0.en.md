@@ -1,5 +1,5 @@
 ---
-title: LIFT Program 2.0
+title: 6. LIFT Program 2.0
 link: https://lifttaiwan.stpi.narl.org.tw/en
 social_links:
   facebook: https://www.facebook.com/LIFT2.0.MOST/
