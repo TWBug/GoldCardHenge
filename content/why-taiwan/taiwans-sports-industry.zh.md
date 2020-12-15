@@ -17,11 +17,11 @@ style: title
 
 棒球被喻為是台灣的國球，從日治時期開始至今，已發展出一套完整的培訓與聯賽系統，也讓台灣的棒球人才輩出，許多國內職棒明星與旅外選手都是出自這歷史悠久的聯賽系統。中華職棒聯盟是台灣最早成立的職業運動聯盟，目前有四支一軍球隊與附屬這些球隊的二軍。台灣職棒在球隊經營上借鏡其他國家的方式，採取深入與在地連結的屬地主義，而在外援部分也建立起嚴格的洋將選才制度，通常要在美國 3A 等級有好表現，甚至曾上過大聯盟的好手才有機會在中職生存。
 
-{{< card title="undefined" link="https://www.facebook.com/sbl.ctba/photos/1644647642362400" image="/cms-uploads/sblgame.jpg" >}}
+{{< card title="<!-- This text will never be seen -->" link="https://www.facebook.com/sbl.ctba/photos/1644647642362400" image="/cms-uploads/sblgame.jpg" >}}
 圖片來源：SBL 超級籃球聯賽FB
 {{< /card >}}
 
-{{< card title="undefined" link="https://www.facebook.com/heartbaseball/photos/3560471063990331" image="/cms-uploads/cpbl中華職棒.jpg" >}}
+{{< card title="<!-- This text will never be seen -->" link="https://www.facebook.com/heartbaseball/photos/3560471063990331" image="/cms-uploads/cpbl中華職棒.jpg" >}}
 圖片來源：CPBL 中華職棒FB
 {{< /card >}}
 
