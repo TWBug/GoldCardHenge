@@ -29,14 +29,12 @@ When the Taiwanese government first heard about the mystery virus from Wuhan, Ch
 COVID-19 has caused a global economic collapse, affecting many countries including Taiwan. In response to this, the Taiwanese government has introduced many relief measures and stimulus packages to aid and revitalize industries that have been hit hard by the pandemic, such as the tourism and hotel industries. For the general public, the government has provided different types of vouchers such as triple stimulus vouchers, art vouchers, and travel vouchers to increase domestic consumption and to boost the economy. 
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/taipei-metro-fever-notice.jpg" >}}
+Since Taiwan announced its COVID-19 pandemic prevention regulations, many public places have prohibited people with fever symptoms from entering.
 {{< /card >}}
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/national-taiwan-normal-university-fever-station.jpg" >}}
+Taiwan university campus staff checking students and faculty temperatures.
 {{< /card >}}
-
-*Since Taiwan announced its COVID-19 pandemic prevention regulations, many public places have prohibited people with fever symptoms from entering.*
-
-*Taiwan university campus staff checking students and faculty temperatures.*
 
 Starting December 1st, the Taiwanese government implemented the Autumn and Winter Epidemic Prevention Project in order to strengthen border quarantine measures, community epidemic prevention, and medical response. 
 
