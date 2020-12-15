@@ -17,9 +17,15 @@ style: title
 As the COVID-19 pandemic continues to ravage the globe, infecting thousands and causing millions of deaths daily, Taiwan has been lauded by international media channels for its pandemic prevention policies. According to the Ministry of Health and Welfare, Taiwan has seen no domestic COVID-19 cases for more than 200 days since the end of November 2020. While most countries have been forced to shut down their cities once again due to threats of an impending second wave, life in Taiwan has been relatively normal. Citizens in Taiwan can travel freely within the country, dine out at restaurants, and even gather together in public.  
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/2020911宜蘭傳藝_200912_3.jpg" >}}
+Gold Card Community Event
+
 {{< /card >}}
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/image-4-.png" >}}
+
+Gold Card Yilan Day Trip
+
+{{< /card >}}
 {{< /card >}}
 
 Taiwan’s speedy response and organized reaction to the pandemic is due to a painful past experience. During the 2003 SARS pandemic, Taiwan’s economy, social order, and medical systems were all severely impacted, and the country suffered greatly. After the SARS pandemic subsided, the Taiwanese vowed to learn and grow from this painful memory, and created an epidemic prevention strategy that was implemented across all medical systems. 
