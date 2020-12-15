@@ -18,11 +18,11 @@ Baseball is one of the most important and most representative sports in Taiwan, 
 CPBL is the only survival professional baseball league in Taiwan, and most baseball experts think its players' average strength is between US 2A and 3A leagues. There are four major teams, and each major teams own their minor teams act as reserves, similar to NPB, let players rest while get hurt, or players have bad performance.  Taiwan professional baseball teams learn from other countries professional baseball leagues, arranging their home game in their home base field, and promoting the team connection with the city of the home base located. And for the global talents, CPBL have regulation of recruiting foreign baseball players around the world. But luckily is not some random guys from 1A or 2A could survival in the baseball field in Taiwan, they should have at least have 3A experiences or even MBL experiences, then they could probably dominated CBPL's games.
 
 {{< card title="<!-- This text will never be seen -->" link="https://www.facebook.com/sbl.ctba/photos/1644647642362400" image="/cms-uploads/sblgame.jpg" >}}
-圖片來源：SBL 超級籃球聯賽FB
+Photo By: SBL FB
 {{< /card >}}
 
 {{< card title="<!-- This text will never be seen -->" link="https://www.facebook.com/heartbaseball/photos/3560471063990331" image="/cms-uploads/cpbl中華職棒.jpg" >}}
-圖片來源：CPBL 中華職棒FB
+Photo By: CPBL FB
 {{< /card >}}
 
 There are baseball fields in most major cities in Taiwan that hold professional baseball games. For the sports fans, you could choose to go to the baseball fields to fell the movements of players and attendees, or watch live broadcast by TV sports stations, which is most convenience way. Thanks for the increasing speed of mobile transmission, you could also watch live game by streaming services. And you could also try the old fashion way of listening to the live games by radio.
@@ -32,11 +32,11 @@ Taiwan professional baseball league is one of the oldest and biggest professiona
 SBL is the half-professional basketball league in Taiwan after the collapse of CBA, and is the substitute for Taiwanese sports fan who do not have any local professional basketball league games to watch in most of these years.
 
 {{< card title="<!-- This text will never be seen -->" link="http://www.taipeicitymarathon.com/photo-page.php?pmid=4" image="/cms-uploads/2019台北馬拉松.jpg" >}}
-圖片來源：台北馬拉松官網
+Photo By: Taipei Marathon
 {{< /card >}}
 
 {{< card title="<!-- This text will never be seen -->" link="http://www.esports.com.tw/edcontent_d.php?lang=tw&tb=4&id=4472" image="/cms-uploads/tesl電競.jpg" >}}
-圖片來源：TESL台灣電競官網
+Photo By: TESL
 {{< /card >}}
 
 Besides professional baseball and professional basketball, there are also some all-professional, half-professional leagues like Enterprise Volleyball League, Taiwan Football Premier League. And due to the flourish development of online gaming, there are also e-sports leagues which attracts gamers attention. There are always some local game leagues that get the attention of Taiwanese sport fans.
