@@ -36,28 +36,30 @@
                     </h1>
                 </div>
                 <div class="mt-12 -ml-2">
-                    <a
-                        href="{{ .Site.Language.Params.apply}}"
-                        class="inline-flex items-center border-2 border-primary bg-primary rounded font-bold text-white text-lg px-4 py-2 focus-white shadow-lg"
-                        target="_blank"
-                    >
-                        <span class="mr-2">
-                            {{ i18n "apply_now" }}
-                        </span>
-                        {{ partial "icon" (dict "name" "angle-right" "size" "8") }}
-                    </a>
                     {{ range $hero.Params.links }}
                     {{ $page := $.Site.GetPage .href }}
                     {{ if $page }}
+                        {{ if .is_cta }}
+                        <a
+                            href="{{ $page.RelPermalink }}"
+                            class="inline-flex items-center border-2 border-primary bg-primary rounded font-bold text-white text-lg px-4 py-2 focus-white shadow-lg"
+                        >
+                            <span class="mr-2">
+                                {{ .label }}
+                            </span>
+                            {{ partial "icon" (dict "name" "angle-right" "size" "8") }}
+                        </a>
+                        {{ else }}
                         <a
                             href="{{ $page.RelPermalink }}"
                             class="inline-flex items-center bg-white rounded font-bold text-primary text-base px-4 py-2 ml-6 focus-white shadow-lg"
                         >
-                        <span class="mr-2">
-                            {{ .label }}
-                        </span>
-                        {{ partial "icon" (dict "name" "question" "size" "4") }}
+                            <span class="mr-2">
+                                {{ .label }}
+                            </span>
+                            {{ partial "icon" (dict "name" "question" "size" "4") }}
                         </a>
+                        {{ end }}
                     {{ end }}
                     {{ end }}
                     
