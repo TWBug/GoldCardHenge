@@ -10,7 +10,9 @@
 </div>
 
 <div class="relative flex items-center bg-nav-meta shadow-xl z-0 py-16">
+    {{ if .Site.IsServer }}
     <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">DEFAULT LIST TEMPLATE</div>
+    {{ end }}
     <div class="absolute inset-x-0 top-0 h-3/4 bg-gradient-to-b from-black to-transparent opacity-25 -z-1"></div>
     <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
         <img src="/img/list-mountains.svg" alt="{{ i18n "taiwan_mountains" }}" class="block w-full">
