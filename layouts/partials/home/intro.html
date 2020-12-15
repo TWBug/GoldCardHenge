@@ -40,8 +40,8 @@
                     {{ $preview = resources.Get .preview }}
                     {{ end }}
                     {{ if $href }}
-                    <div
-                    class="flex items-center border border-gray-200 rounded-md bg-white shadow-xl px-8 py-4 my-4"
+                    <a href="{{ $href.RelPermalink }}" 
+                    class="flex items-center border border-gray-200 rounded-md bg-white shadow-xl px-8 py-4 my-4 focus-primary"
                 >
                         <div class="flex-shrink-0 w-1/6 max-w-16 mr-6">
                             {{ if $preview }}
@@ -50,13 +50,13 @@
                         </div>
                         <div>
                             <h3 class="text-primary text-lg leading-snug font-bold mb-1">
-                                <a href="{{ $href.RelPermalink }}" class="focus-primary"> {{ $href.Title }} </a>
+                                {{ $href.Title }}
                             </h3>
                             <p class="font-regular text-md">
                                 {{ $href.Summary | truncate 80 }}
                             </p>
                         </div>
-                    </div>
+                    </a>
                     {{ end }}
                 {{ end }}
             </div>
