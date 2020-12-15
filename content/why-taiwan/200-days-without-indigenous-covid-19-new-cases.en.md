@@ -34,9 +34,9 @@ COVID-19 has caused a global economic collapse, affecting many countries includi
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/national-taiwan-normal-university-fever-station.jpg" >}}
 {{< /card >}}
 
-When Taiwan raises its COVID-19 pandamic regulation, there are many public places prohibit of entrance of people with fever symptoms.
+Since Taiwan announced its COVID-19 pandemic prevention regulations, many public places have prohibited people with fever symptoms from entering.
 
-There are staffs checking students and facality' staffs' temperture in most of Taiwan university campus.
+Taiwan university campus staff checking students and faculty temperatures.
 
 Starting December 1st, the Taiwanese government implemented the Autumn and Winter Epidemic Prevention Project in order to strengthen border quarantine measures, community epidemic prevention, and medical response. 
 
