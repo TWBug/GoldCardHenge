@@ -1,5 +1,6 @@
 ---
-title: COVID-19防疫經驗談，台灣如何成為國際防疫模範生?
+title: "COVID-19 Prevention and Control: How Taiwan Became the Global Model for
+  Epidemic Prevention "
 date: 2020-12-14T06:35:39.159Z
 draft: false
 topic: whytaiwan
@@ -11,9 +12,9 @@ topics:
   - Other
 style: title
 ---
-# COVID-19防疫經驗談，台灣如何成為國際防疫模範生?
+# COVID-19 Prevention and Control: How Taiwan Became the Global Model for Epidemic Prevention 
 
-正當COVID-19疫情肆虐全球，上千萬人染疫，超過百萬人死亡，台灣卻因為在防疫上果斷地採取超前部署，而成為國際防疫模範生。根據衛福部疾管署至11月底統計，台灣已超過 200 天無本土病例出現。當全球大多數國家因再度席捲而來的第二波疫情而採取封城，生活在台灣的人民卻還能外出用餐、參加聚會甚至在國內旅行度假。
+As the COVID-19 pandemic continues to ravage the globe, infecting thousands and causing millions of deaths daily, Taiwan has been lauded by international media channels for its pandemic prevention policies. According to the Ministry of Health and Welfare, Taiwan has seen no domestic COVID-19 cases for more than 200 days since the end of November 2020. While most countries have been forced to shut down their cities once again due to threats of an impending second wave, life in Taiwan has been relatively normal. Citizens in Taiwan can travel freely within the country, dine out at restaurants, and even gather together in public.  
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/2020911宜蘭傳藝_200912_3.jpg" >}}
 {{< /card >}}
@@ -21,11 +22,11 @@ style: title
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/image-4-.png" >}}
 {{< /card >}}
 
-台灣社會能有如此迅速的反應，源自於台灣過去的慘痛經驗。在2003年SARS肆虐期間台灣遭受重創，國家經濟、社會秩序與醫療體系等層面皆受到重大衝擊，疫情過後台灣政府痛定思痛，全面檢討國內防疫體系缺失，逐步修訂防疫策略，並落實在各級醫療體系上，這些努力在COVID-19流行期間都展現出世界第一的防疫成績。
+Taiwan’s speedy response and organized reaction to the pandemic is due to a painful past experience. During the 2003 SARS pandemic, Taiwan’s economy, social order, and medical systems were all severely impacted, and the country suffered greatly. After the SARS pandemic subsided, the Taiwanese vowed to learn and grow from this painful memory, and created an epidemic prevention strategy that was implemented across all medical systems. 
 
-當台灣政府在2019年12月中旬接收到中國武漢不明肺炎的情報，馬上做出回應規定來自武漢的直航班機需要上機檢疫，隔年初將COVID-19列為第五類法定傳染病，開始擴大一連串的管制措施，例如對國際及小三通全面提昇警戒。此外盤整防疫物資與限制醫療用品出口，補助國內口罩業者建立口罩生產線，採取政府統一收購再分配給國民，穩定台灣的口罩供應。也對入境旅客強制實施14天的居家檢疫，有效保護台灣本土安全。因為防疫得當，直到今日遲至今日大多數確診個案為境外移入，佔整體病例的87%。
+When the Taiwanese government first heard about the mystery virus from Wuhan, China in December 2019, they immediately began quarantining direct flights from Wuhan. By the beginning of 2020, COVID-19 was classified as a Category 5 Notifiable Communicable Disease, and Taiwan began implementing strict pandemic policies such as restricting travel to and from other countries, launching a domestic mask rationing system, and a mandatory 14-day quarantine period for all travelers who enter Taiwan. Due to these strict prevention policies, 87% of all COVID-19 cases in Taiwan have been imported from abroad. 
 
-COVID-19導致全球經濟下滑，台灣以外貿為主的產業特性也因主要外銷國的需求減緩而面臨經濟困局。對此，台灣政府陸續推出多項抒困與振興措施，抒緩受到衝擊的產業，例如旅遊、飯店產業，採取諸如補貼減班休息與失業員工補助。而對一般民眾，則發放振興抵用券如三倍券、藝FUN券、動滋券、農遊券、浪漫客庄旅遊券，增加民眾在國內各項內需消費的意願，促進國內消費循環。
+COVID-19 has caused a global economic collapse, affecting many countries including Taiwan. In response to this, the Taiwanese government has introduced many relief measures and stimulus packages to aid and revitalize industries that have been hit hard by the pandemic, such as the tourism and hotel industries. For the general public, the government has provided different types of vouchers such as triple stimulus vouchers, art vouchers, and travel vouchers to increase domestic consumption and to boost the economy. 
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/taipei-metro-fever-notice.jpg" >}}
 {{< /card >}}
@@ -33,8 +34,11 @@ COVID-19導致全球經濟下滑，台灣以外貿為主的產業特性也因主
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/national-taiwan-normal-university-fever-station.jpg" >}}
 {{< /card >}}
 
-自12月1日起，台灣政府啟動「秋冬防疫專案」，強化「邊境檢疫」、「社區防疫」及「醫療應變」措施。邊境檢疫：所有入境及轉機旅客登機前須附3日內COVID-19核酸檢驗報告；社區防疫：出入八大類場所應佩戴口罩，經勸導不聽者依法開罰；醫療應變：加強通報採檢，訂定獎勵指標。
+Starting December 1st, the Taiwanese government implemented the Autumn and Winter Epidemic Prevention Project in order to strengthen border quarantine measures, community epidemic prevention, and medical response. 
 
-時值全球 COVID-19 疫情達到第二波高峰，各國政府嚴正以待，紛紛採取嚴格措施限制人民的社交生活，台灣因疫情控制得宜，除了限制海外旅遊，人民的生活沒有受到太大影響。
+Border quarantine measures: All inbound and transit passengers (regardless of nationality or purpose of arrival) must submit a negative COVID-19 nucleic acid test report within three days of their flight to Taiwan. 
+Community epidemic prevention: Masks must be worn when entering and leaving eight categories of places, including medical care facilities, mass transit, personal consumption locations, educational institutions, exhibitions and sporting events, entertainment and leisure venues, houses of worship, and public service and customer service centers. Those who fail to comply will face a fine of between NT$3,000 and NT$15,000. 
 
-在各大藥廠加緊腳步研發 COVID-19 疫苗，期盼有朝一日疫苗問世，疫情得以逐步被控制。台灣走過防疫大戰，也讓人看見這片土地所涵養的科技底蘊與人民的韌性，絕對是適合生活也適合工作的寶地。來吧！歡迎大家申請就業金卡，到寶島台灣生活與工作。
+Medical Response: The CECC is aiming to strengthen notifications and testing and establish rewards for hospitals that test patients.
+
+As the imminent second wave of COVID-19 hits, many governments have implemented strict policies to limit the social lives of their citizens. As Taiwan has been diligent in its epidemic prevention, its citizens are able to enjoy a relatively normal life aside from restricting travel outside of the country. With hopes to control and ultimately halt the pandemic, many countries are currently trying to develop and produce the COVID-19 vaccine. Though small in size, Taiwan has proven to be capable in battling the pandemic, and is currently one of the safest places to be. Apply for the Taiwan Employment Gold Card for your chance to live and work in Taiwan!
