@@ -33,6 +33,14 @@ style: title
 
 除了職棒與職籃之外，台灣較知名的運動賽事還有企業排球聯賽、各級足球聯賽等聯賽。另外這幾年因應電競產業的蓬勃發展，大廠紛紛投入資源舉行賽事與組隊參賽，近年也吸引不少年輕人投入，也培育出許多電競新星。
 
+{{< card title="<!-- This text will never be seen -->" link="http://www.taipeicitymarathon.com/photo-page.php?pmid=4" image="/cms-uploads/2019台北馬拉松.jpg" >}}
+圖片來源：台北馬拉松官網
+{{< /card >}}
+
+{{< card title="<!-- This text will never be seen -->" link="http://www.esports.com.tw/edcontent_d.php?lang=tw&tb=4&id=4472" image="/cms-uploads/tesl電競.jpg" >}}
+圖片來源：TESL台灣電競官網
+{{< /card >}}
+
 ## 耐力型運動
 
 近年台灣參與耐力型賽事(馬拉松、三鐵)的人口越來越多，也帶動賽事場數的成長，預估2019年台灣在各類耐力型賽事上總共舉辦約999場，頻率之高堪稱世界第一。2020年雖然有COVID-19來攪局，但台灣因防疫得宜，仍然舉辦多場超過千人的大型賽事，領先全球。台灣四大馬拉松分別為萬金石馬拉松、台北馬拉松、高雄國際馬拉松與田中馬拉松，每一場馬拉松賽事都充分結合當地風土民情，跑者在跑步的同時也感受台灣各地獨樹一幟的地形樣貌，並享受當地人富有人情味的招待，是認識台灣最美好的途徑。
