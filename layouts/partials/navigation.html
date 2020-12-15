@@ -1,8 +1,9 @@
-<nav><div class="relative hidden lg:block bg-nav-meta text-xs text-white font-semibold print:hidden z-10">
-    <div class="max-w-screen-xl mx-auto flex items-center justify-between px-8">
-        {{ partial "navigation/meta" . }}
+<nav>
+    <div class="relative hidden lg:block bg-nav-meta text-xs text-white font-semibold print:hidden z-50">
+        <div class="max-w-screen-xl mx-auto flex items-center justify-between px-8">
+            {{ partial "navigation/meta" . }}
+        </div>
     </div>
-</div>
 {{ if eq .Page.IsHome true }}
 <div class="relative bg-nav-meta bg-opacity-50 print:bg-none print:bg-white z-10" x-data="taNavigation()" x-init="init()">
 {{ else }}

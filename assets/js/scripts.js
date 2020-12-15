@@ -816,11 +816,13 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 window.taSearch = function () {
   return {
     initialized: false,
+    visible: false,
     query: '',
     is_chinese_ui: false,
     has_chinese_characters: false,
     result: [],
     active: -1,
+    trigger: '',
     is_dirty: false,
     is_enough: false,
     has_results: false,
@@ -837,6 +839,20 @@ window.taSearch = function () {
       this.is_chinese_ui = window.location.pathname.startsWith('/zh/');
       this.loadIndex();
       this.initLunr();
+      this.$watch('visible', function (value) {
+        if (value === true) {
+          setTimeout(function () {
+            _this.$refs.input.focus();
+          }, 300);
+        }
+      });
+      window.addEventListener('ta-search-show', function (event) {
+        _this.visible = true;
+        _this.trigger = event.detail;
+        setTimeout(function () {
+          _this.$refs.input.focus();
+        }, 300);
+      });
       this.$watch('query', function (value) {
         if (value.length === 0) {
           _this.reset();
@@ -844,7 +860,9 @@ window.taSearch = function () {
           return;
         }
 
-        if (value.length >= _this.minimum_length) {
+        _this.query = value.replace(/(<([^>]+)>)/gi, '');
+
+        if (_this.query.length >= _this.minimum_length) {
           _this.is_enough = true;
         } else {
           _this.is_enough = false;
@@ -860,8 +878,10 @@ window.taSearch = function () {
       this.result = [];
       this.has_results = false;
       this.active = -1;
+      this.is_dirty = false;
 
       if (query === true) {
+        this.$refs.input.focus();
         this.query = '';
       }
     },
@@ -882,6 +902,44 @@ window.taSearch = function () {
 
       var url = this.result[this.active].href;
       location.href = url;
+    },
+    esc: function esc() {
+      if (this.query.length < 1) {
+        this.visible = false;
+        this.eventSearchHide();
+      }
+
+      this.reset();
+    },
+    away: function away() {
+      if (this.initialized === true && this.visible === true) {
+        this.visible = false;
+        this.eventSearchHide();
+      }
+    },
+    show: function show(details) {
+      var _this2 = this;
+
+      this.visible = true;
+      this.trigger = details;
+      setTimeout(function () {
+        _this2.$refs.input.focus();
+      }, 300);
+    },
+    hide: function hide() {
+      this.reset(true);
+      this.visible = false;
+      this.eventSearchHide();
+    },
+    eventSearchHide: function eventSearchHide() {
+      var _this3 = this;
+
+      setTimeout(function () {
+        var event = new CustomEvent('ta-search-hide', {
+          detail: _this3.trigger
+        });
+        window.dispatchEvent(event);
+      }, 300);
     },
     excerpt: function excerpt(string) {
       var length = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
@@ -939,7 +997,7 @@ window.taSearch = function () {
       window.lunr.Pipeline.registerFunction(lunr.zh.trimmer, 'trimmer-zh');
     },
     loadIndex: function loadIndex() {
-      var _this2 = this;
+      var _this4 = this;
 
       // console.log('[TA-SEARCH] Lunr index loading:', this.$el.dataset.file);
       // First retrieve the index file
@@ -983,7 +1041,7 @@ window.taSearch = function () {
             _iterator.f();
           }
         });
-        _this2.initialized = true;
+        _this4.initialized = true;
       })["catch"](function (err) {
         console.error('Error getting Hugo index file:', err.message);
       });
@@ -999,13 +1057,35 @@ window.taSearch = function () {
           return page.href === result.ref;
         });
       });
-      this.result = this.result.slice(0, 8);
+      this.result = this.result.slice(0, 10);
 
       if (this.result.length > 0) {
         this.has_results = true;
       } else {
         this.has_results = false;
       }
+    }
+  };
+};
+
+window.taSearchTrigger = function () {
+  return {
+    trigger: '',
+    show: function show() {
+      var event = new CustomEvent('ta-search-show', {
+        detail: this.trigger
+      });
+      window.dispatchEvent(event);
+    },
+    init: function init(trigger) {
+      var _this5 = this;
+
+      this.trigger = trigger;
+      window.addEventListener('ta-search-hide', function (event) {
+        if (event.detail === _this5.trigger) {
+          _this5.$el.focus();
+        }
+      });
     }
   };
 };
@@ -1363,13 +1443,28 @@ window.onload = function () {
 };
 "use strict";
 
-Spruce.store('filter', {
-  faqs: {},
-  empty: false,
-  log: function log() {
-    console.info('faqs', this.faqs);
-  }
-}, false);
+// Spruce.store(
+//     'filter',
+//     {
+//         faqs: {},
+//         empty: false,
+//         log() {
+//             console.info('filter:faqs', this.faqs);
+//         },
+//     },
+//     false
+// );
+// Spruce.store(
+//     'search',
+//     {
+//         show: false,
+//         log() {
+//             console.info('search:show', this.show);
+//         },
+//     },
+//     false
+// );
+// Spruce.watch('search.show', value => console.log('Spruce.watch', value))
 window.languageDetection.init();
 window.highlight.replace();
 window.linksTargetBlank.replace();

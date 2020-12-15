@@ -53,12 +53,13 @@
     {{ end }}
 </ul>
 <div class="flex lg:hidden">
-    <button type="button" data-cy="show-search" x-on:click="toggleSearch()" class="px-4" >
+    <button type="button" data-cy="show-search" x-data="taSearchTrigger()" x-init="init('mobile')" @click="show()"  class="px-4 focus:bg-white focus:text-nav-start" >
+    {{/*  <button type="button" data-cy="show-search" @click="toggleSearch()" class="px-4" >  */}}
         {{ partial "icon" (dict "name" "search" "size" "8") }}
     </button>
 </div>
 <div class="flex lg:hidden">
-    <button type="button" x-on:click="toggleModal()" class="px-8 -mr-8" >
+    <button type="button" x-on:click="toggleModal()" class="px-8 -mr-8 focus:bg-white focus:text-nav-start" >
         {{ partial "icon" (dict "name" "bars" "size" "8") }}
     </button>
     <div
