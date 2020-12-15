@@ -170,21 +170,21 @@ Overseas Applicants
 
 ## Submitting Additional Documents & Rejection
 
-After the applicant completes the online payment, the review process officially begins. As the Taiwan Employment Gold Card is a combination of four different certificates, three ROC authorities need to review the application. The National Immigration Agency conducts the first step of the review process and then passes it to the Ministry of Labor. Here they will consult with your relevant Ministry and check your qualifications. The final stop is at the Bureau of Consular Affairs for the last visa review.
+After you complete the online payment, the review process officially begins. As the Taiwan Employment Gold Card is a combination of four different certificates, authorities from different departments will review your application. The National Immigration Agency conducts the first step of the review process and then passes it to the Ministry of Labor. Here they will consult with your relevant Ministry and check your qualifications. The final stop is at the Bureau of Consular Affairs for the last visa review.
 
-**If you submit incomplete or inaccurate information and files, etc., you will need to resubmit documents, or your application can be rejected.**
+**If you submit incomplete or inaccurate information, or the authorities require more information about your qualifications, you will need to submit additional documents for review. Failing to do so can result in your application being rejected.** 
 
-* Please make sure to choose the right visa category that you have entered the country with, e.g., Visa-free, Student visa, visitor visa, etc.
-* Incomplete information: 
+* Please take the time to check which visa you have entered the country with, and choose the right visa category as this cannot be changed later, e.g., Visa-free, Student visa, visitor visa, etc.
+* Incomplete information:
 
   * No supporting documents for your application qualifications
   * Incorrect documents (e.g. No official tax statements)
-  * Documents are not in English/ or Chinese.
+  * Documents are not in English or Chinese.
   * Documents are from certain countries/regions but not verified.
 
     * Mainland China, Afghanistan, Algeria, Bangladesh, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, Indonesia, etc.
 * Insufficient documents:
 
-  * If your documents can't prove that you are meeting the requirements, you will be asked to submit more documents. If you are not able to submit sufficient documents, your application will be rejected.
+  * If your documents cannot prove that you are meeting the requirements, you will be asked to submit more documents. If you are not able to submit sufficient documents, your application will be rejected.
 
-If you need to change information or provide more supporting documents, you have 30-days of time. If your documents are only available abroad, you have a 6-months timeframe to provide them. [Your application will be rejected if you can't uphold the time limit.](https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=D0080204)
+If you need to change information or provide more supporting documents, you have 30-days to do so. However, if your documents are only available abroad, you have a 6-months time frame to provide them. [Your application will be rejected if you can't uphold the time limit.](https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=D0080204)
