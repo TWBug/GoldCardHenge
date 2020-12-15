@@ -18,5 +18,5 @@ categories:
 We are currently getting set up and look forward to serving you soon.
 We know that finding a job is an important part of moving to a new country.
 
-In the meantime, please check out [Contact Taiwan](https://contacttaiwan.tw/) which is
+In the meantime, please check out [Contact Taiwan](https://www.contacttaiwan.tw/) which is
 a government initiative to link professionals and Taiwanese industries.
