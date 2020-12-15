@@ -1,5 +1,5 @@
 ---
-title: Act for the Recruitment and Employment of Foreign Professionals
+title: 1. Act for the Recruitment and Employment of Foreign Professionals
 link: https://foreigntalentact.ndc.gov.tw/en/Default.aspx
 draft: false
 hidden: false
