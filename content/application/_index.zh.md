@@ -4,8 +4,8 @@ summary: 不知道怎麼申請就業金卡嗎? 我們準備了步驟教學、應
 draft: false
 media_image_alt: null
 date: 2020-11-05T07:09:20.617Z
-topic: resources
 title: 申請流程
+topic: goldcard
 tags: null
 categories: null
 style: title
@@ -26,7 +26,7 @@ cover_image_alt: null
 * 之前的台灣簽證及居留許可(非必要)。
 {{< /base >}}
 
-{{< teaser >}}
+{{< teaser prefix="" >}}
 從遞件、審核到領取金卡的整個作業時程至少需要30個工作天，若您已入境台灣，請注意所持簽證的停留時間是否足夠，若無法在期限內取得就業金卡，仍需要出境後再入境。
 {{< /teaser >}}
 
