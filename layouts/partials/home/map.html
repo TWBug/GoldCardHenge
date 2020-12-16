@@ -11,7 +11,7 @@
             </h2>
         </div>
         <div class="relative my-6" x-data="taMap()" x-init="init()">
-            <div id="map" class="relative overflow-x-auto">
+            <div id="map" x-ref="map" class="relative overflow-x-auto">
                 <div class="wrapper">
                     {{range $index, $element := (shuffle $data.map.items)}}
                     {{ $member_image := resources.Get (printf "img/map/%s" $element.image) | fingerprint }}
@@ -160,13 +160,3 @@
         }
     }
 </style>
-
-<script>
-    var element = document.getElementById('map');
-    element.scrollLeft = 300;
-
-    {{/*  element.scroll({
-        left: 300,
-        behavior: 'smooth',
-    });  */}}
-</script>

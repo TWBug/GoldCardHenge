@@ -1,5 +1,6 @@
 window.taMap = function () {
     return {
+        status: false,
         elements: [],
         play: [],
         active: -1,
@@ -7,6 +8,9 @@ window.taMap = function () {
         wrapper: {},
         data: {},
         default: {},
+        options: {
+            ref: 'map',
+        },
         init() {
             const content = this.$el.querySelectorAll('.member');
             for (let index = 0; index < content.length; index++) {
@@ -18,6 +22,12 @@ window.taMap = function () {
                 left: wrapper.offsetLeft,
                 width: wrapper.innerWidth,
             };
+
+            // check if element is in the viewport -> start counting
+            window.addEventListener('scroll', () => {
+                this.startAnimation();
+            });
+            this.startAnimation();
         },
         toggle(index) {
             const top = this.elements[index].offsetTop;
@@ -45,6 +55,26 @@ window.taMap = function () {
                 this.play[index] = true;
             }
             this.active = -1;
+        },
+        startAnimation() {
+            if (this.isInViewport() && this.status === false) {
+                this.status = true;
+                const interval = setInterval(() => {
+                    this.$refs[this.options.ref].scrollLeft += 10;
+                    if (this.$refs[this.options.ref].scrollLeft > 250) {
+                        clearInterval(interval)
+                    }
+                }, 40);
+            }
+        },
+        isInViewport() {
+            const position = this.$refs[this.options.ref].getBoundingClientRect();
+            return (
+                position.top >= 0 &&
+                position.left >= 0 &&
+                position.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                position.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
         },
     };
 };
