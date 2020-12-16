@@ -24,7 +24,7 @@
     >
         <a href="/{{ print $language .link }}" {{ if .dropdown }}
             @click.stop="toggleDropdown('{{ .topic }}', $event)" {{ end }}
-            class="flex-center focus:bg-white focus:text-black px-4"
+            class="flex-center focus:bg-white focus:text-black px-4 xl:px-6"
             :class="{ 'bg-white text-black': {{ printf "dropdown.%s" .topic }} }"
             :aria-pressed="{{ printf "dropdown.%s" .topic }}"
             aria-controls="{{ printf "nav-dropdown-%s" .topic }}"
