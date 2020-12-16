@@ -1,10 +1,11 @@
 window.taSearch = function () {
-    var is_chinese_ui = window.location.pathname.startsWith('/zh/');
+    // not needed min length defined in the template
+    // var is_chinese_ui = window.location.pathname.startsWith('/zh/');
     return {
         initialized: false,
         visible: false,
         query: '',
-        is_chinese_ui: false,
+        // is_chinese_ui: false,
         has_chinese_characters: false,
         result: [],
         active: -1,
@@ -14,7 +15,8 @@ window.taSearch = function () {
         is_empty: true,
         has_results: false,
         excerpt_length: 200,
-        minimum_length: is_chinese_ui ? 2 : 3,
+        // not needed min length defined in the template
+        // minimum_length: is_chinese_ui ? 2 : 3,
         highlight: true,
         highlight_style: 'font-weight:bold;',
         options: {
@@ -48,7 +50,8 @@ window.taSearch = function () {
             const { assert } = console;
             assert(window.lunr, 'Lunr.js not found. Search cannot be supported without Lunr.js.');
 
-            this.is_chinese_ui = is_chinese_ui;
+            // not needed min length defined in the template
+            // this.is_chinese_ui = is_chinese_ui;
 
             this.loadIndex();
             this.initLunr();
@@ -71,13 +74,11 @@ window.taSearch = function () {
             this.$watch('query', (value) => {
                 this.query = value.replace(/(<([^>]+)>)/gi, '');
                 if (this.query.length === 0) {
-                    this.is_empty = true;
                     this.reset();
                     return;
                 }
                 this.is_empty = false;
                 if (this.query.length < this.options.minimum_length) {
-                    this.is_enough = false;
                     this.reset(false);
                     return;
                 }
@@ -89,10 +90,12 @@ window.taSearch = function () {
         reset(query = true) {
             this.result = [];
             this.has_results = false;
+            this.is_enough = false;
             this.active = -1;
             this.is_dirty = false;
             if (query === true) {
                 this.$refs.input.focus();
+                this.is_empty = true;
                 this.query = '';
             }
         },
