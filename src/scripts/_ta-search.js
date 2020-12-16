@@ -1,4 +1,5 @@
 window.taSearch = function () {
+    var is_chinese_ui = window.location.pathname.startsWith('/zh/');
     return {
         initialized: false,
         visible: false,
@@ -12,6 +13,8 @@ window.taSearch = function () {
         is_enough: false,
         is_empty: true,
         has_results: false,
+        excerpt_length: 200,
+        minimum_length: is_chinese_ui ? 2 : 3,
         highlight: true,
         highlight_style: 'font-weight:bold;',
         options: {
@@ -45,7 +48,7 @@ window.taSearch = function () {
             const { assert } = console;
             assert(window.lunr, 'Lunr.js not found. Search cannot be supported without Lunr.js.');
 
-            this.is_chinese_ui = window.location.pathname.startsWith('/zh/');
+            this.is_chinese_ui = is_chinese_ui;
 
             this.loadIndex();
             this.initLunr();
@@ -242,7 +245,7 @@ window.taSearch = function () {
                 });
         },
         search(query) {
-            if (query.length < 3) {
+            if (query.length < this.minimum_length) {
                 this.reset(false);
                 return false;
             }
