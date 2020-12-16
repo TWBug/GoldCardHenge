@@ -32,8 +32,8 @@ window.highlight = {
         continue;
       }
 
-      this.replaceInDocument(this.wrapper[index], /Taiwan Employment Gold Card/g, '<span class="font-semibold">Taiwan Employment<span class="highlight">Gold Card</span></span>');
-      this.replaceInDocument(this.wrapper[index], /台灣就業金卡/g, '<span class="font-bold">台灣就業<span class="highlight">金卡</span></span>');
+      this.replaceInDocument(this.wrapper[index], /Gold Card/g, '<span class="font-bold">Gold Card</span>');
+      this.replaceInDocument(this.wrapper[index], /金卡/g, '<span class="font-bold">金卡</span>');
     }
 
     this.wrapper = this.wrapper[0]; // this.replaceInDocument(
@@ -57,9 +57,12 @@ window.highlight = {
 
       return nodes.filter(function (_ref2) {
         var nodeType = _ref2.nodeType;
+        // console.info('nodeType', nodeType);
         return nodeType === document.ELEMENT_NODE;
       }).forEach(function (textNode) {
-        textNode.innerHTML = textNode.innerHTML.replace(pattern, string);
+        textNode.innerHTML = textNode.innerHTML.replace(pattern, string); // if (textNode.nodeName === 'P' || textNode.nodeName === 'H3' || textNode.nodeName === 'H2' ) {
+        //     console.info('textNode', textNode.nodeName);
+        // }
       });
     });
   }
@@ -825,6 +828,7 @@ window.taSearch = function () {
     trigger: '',
     is_dirty: false,
     is_enough: false,
+    is_empty: true,
     has_results: false,
     excerpt_length: 200,
     minimum_length: 3,
@@ -854,13 +858,17 @@ window.taSearch = function () {
         }, 300);
       });
       this.$watch('query', function (value) {
-        if (value.length === 0) {
+        _this.query = value.replace(/(<([^>]+)>)/gi, '');
+
+        if (_this.query.length === 0) {
+          _this.is_empty = true;
+
           _this.reset();
 
           return;
         }
 
-        _this.query = value.replace(/(<([^>]+)>)/gi, '');
+        _this.is_empty = false;
 
         if (_this.query.length >= _this.minimum_length) {
           _this.is_enough = true;

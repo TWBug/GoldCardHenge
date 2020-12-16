@@ -10,6 +10,7 @@ window.taSearch = function () {
         trigger: '',
         is_dirty: false,
         is_enough: false,
+        is_empty: true,
         has_results: false,
         excerpt_length: 200,
         minimum_length: 3,
@@ -40,11 +41,13 @@ window.taSearch = function () {
             });
 
             this.$watch('query', (value) => {
-                if (value.length === 0) {
+                this.query = value.replace(/(<([^>]+)>)/gi, '');
+                if (this.query.length === 0) {
+                    this.is_empty = true;
                     this.reset();
                     return;
                 }
-                this.query = value.replace(/(<([^>]+)>)/gi, '');
+                this.is_empty = false;
                 if (this.query.length >= this.minimum_length) {
                     this.is_enough = true;
                 } else {
