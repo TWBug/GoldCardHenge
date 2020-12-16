@@ -33,5 +33,4 @@ items:
     label: Sports
     href: /qualification/field-of-sport
 ---
-
-The text here should answer the question what are these buttons below and why the visitor should click on it and of course whats the benefit behind these this links.
+<!-- This text is never used -->
