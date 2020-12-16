@@ -23,7 +23,7 @@
                         data-local="{{ $element.local }}"
                         data-description="{{ $element.description }}"
                         data-image="{{ $member_image.RelPermalink }}"
-                        style="--left:{{ $element.left }}%;--top:{{ $element.top }}%;--delay:{{ mul $index 2000 }}ms"
+                        style="--left:{{ $element.left }}%;--top:{{ $element.top }}%;--delay:{{ mul $index 1000 }}ms"
                         @click.stop="toggle({{ $index }})"
                         :aria-pressed="!play[{{ $index }}]"
                         :aria-expanded="play[{{ $index }}]"
@@ -111,7 +111,7 @@
         animation-delay: var(--delay);
         animation-direction: normal;
         animation-name: animation-fade;
-        animation-duration: 40s;
+        animation-duration: 20s;
         animation-fill-mode: both;
     }
     .member.paused {
