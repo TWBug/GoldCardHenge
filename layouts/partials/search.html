@@ -31,8 +31,12 @@
                 <label for="search" class="text-secondary pl-4">
                     {{ partial "icon" (dict "name" "search" "size" "6" "alt" (i18n "placeholder_search")) }}
                 </label>
-                <input type="text" id="search" class="flex-grow placeholder-gray-400 text-lg
-                font-medium px-4 py-4" placeholder="{{ i18n "placeholder_search" }}"
+                <input 
+                    data-cy="search-box"
+                    type="text" 
+                    id="search" 
+                    class="flex-grow placeholder-gray-400 text-lg font-medium px-4 py-4" 
+                    placeholder="{{ i18n "placeholder_search" }}"
                     x-ref="input"
                     x-model.debounce.250="query"
                     x-on:keydown.escape.prevent="esc()"
