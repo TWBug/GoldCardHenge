@@ -12,11 +12,36 @@ window.taSearch = function () {
         is_enough: false,
         is_empty: true,
         has_results: false,
-        excerpt_length: 200,
-        minimum_length: 3,
         highlight: true,
-        highlight_class: 'inline-block font-semibold bg-highlight text-black',
-        init() {
+        highlight_style: 'font-weight:bold;',
+        options: {
+            file: '',
+            excerpt_length: 200,
+            minimum_length: 3,
+        },
+        init(options = {}) {
+            if (typeof options !== 'undefined') {
+                if (typeof options !== 'object' || options instanceof Array) {
+                    console.warn(
+                        'Options are in wrong type - should be object - options been used'
+                    );
+                }
+                for (let [key, value] of Object.entries(options)) {
+                    this.options[key] = value;
+                }
+            }
+
+            // checks if options are defined by data
+            for (let [key, value] of Object.entries(this.$el.dataset)) {
+                if (typeof this.options[key] !== 'undefined') {
+                    if (isNaN(value)) {
+                        this.options[key] = value;
+                    } else {
+                        this.options[key] = parseInt(value);
+                    }
+                }
+            }
+
             const { assert } = console;
             assert(window.lunr, 'Lunr.js not found. Search cannot be supported without Lunr.js.');
 
@@ -48,11 +73,12 @@ window.taSearch = function () {
                     return;
                 }
                 this.is_empty = false;
-                if (this.query.length >= this.minimum_length) {
-                    this.is_enough = true;
-                } else {
+                if (this.query.length < this.options.minimum_length) {
                     this.is_enough = false;
+                    this.reset(false);
+                    return;
                 }
+                this.is_enough = true;
                 this.is_dirty = true;
                 this.search(this.query);
             });
@@ -117,7 +143,7 @@ window.taSearch = function () {
         },
         excerpt(string, length = 0) {
             if (length === 0) {
-                length = this.excerpt_length;
+                length = this.options.excerpt_length;
             }
             const string_lower = string.toLowerCase();
             const matchIndex = string_lower.indexOf(this.query.toLowerCase());
@@ -150,7 +176,7 @@ window.taSearch = function () {
             const regex = new RegExp(this.query, 'gi');
             return string.replaceAll(
                 regex,
-                '<span class="' + this.highlight_class + '">' + query + '</span>'
+                '<span style="' + this.highlight_style + '">' + query + '</span>'
             );
         },
         initLunr() {
@@ -179,7 +205,7 @@ window.taSearch = function () {
         loadIndex() {
             // console.log('[TA-SEARCH] Lunr index loading:', this.$el.dataset.file);
             // First retrieve the index file
-            fetch(this.$el.dataset.file)
+            fetch(this.options.file)
                 .then((x) => x.json())
                 .then((index) => {
                     window.lunrPages = index;

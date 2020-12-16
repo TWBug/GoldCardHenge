@@ -1,4 +1,9 @@
-<div class="flex" x-data ="taSearch()" x-init="init()" data-file="/{{ .Site.Language.Lang}}/search.json">
+{{ $minimum := "3" }}
+{{ if eq .Site.Language.Lang "zh" }}
+{{ $minimum = "2" }}
+{{ end }}
+
+<div class="flex" x-data ="taSearch()" x-init="init()" data-file="/{{ .Site.Language.Lang}}/search.json" data-minimum_length="{{ $minimum }}">
 <div
     class="fixed inset-0 w-full h-full max-h-screen flex justify-center items-start backdrop-blur-3 bg-white bg-opacity-75 p-4 lg:p-32 z-50"
     x-show="visible"
@@ -59,7 +64,7 @@
                         :class="{'outline-primary': active == key}"
                     >
                         <span
-                            class="block text-base text-primary font-semibold"
+                            class="block text-base text-primary font-medium"
                             x-html="replace(item.title)"
                         ></span>
                         <span class="block text-xs" x-html="excerpt(item.content)"></span>
@@ -72,7 +77,7 @@
                 <div class="flex items-center text-base font-semibold text-secondary">
                     {{ partial "icon" (dict "name" "exclamation" "size" "4" "alt" (i18n "reset_filter")) }}
                     <span class="ml-2">
-                        Minimum of 3 characters
+                        {{ printf (i18n "search_minimum") $minimum }}
                     </span>
                 </div>
             </div>
@@ -82,7 +87,7 @@
                 <div class="flex items-center text-base font-semibold text-secondary">
                     {{ partial "icon" (dict "name" "exclamation" "size" "4" "alt" (i18n "reset_filter")) }}
                     <span class="ml-2">
-                        No results
+                        {{ i18n "search_no_results" }}
                     </span>
                 </div>
             </div>

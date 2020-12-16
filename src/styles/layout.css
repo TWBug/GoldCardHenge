@@ -81,6 +81,16 @@ blockquote {
     overflow: var(--overflow);
 }
 
+.zoom-80 {
+    zoom: 0.8;
+}
+.zoom-100 {
+    zoom: 1;
+}
+.zoom-120 {
+    zoom: 1.2;
+}
+
 .inset-x-center {
     left: 50%;
     transform: translateX(-50%);

@@ -115,6 +115,10 @@
   translation: 'Taiwan Landscape'
 - id: taiwan_hummingbird
   translation: 'Taiwan Hummingbird'
+- id: search_minimum
+  translation: 'Minimum of %s characters'
+- id: search_no_results
+  translation: 'No results'
 - id: footer_copyright
   translation: 'Taiwan Employment Gold Card Office - All rights reserved'
 - id: footer_description

@@ -113,6 +113,10 @@
   translation: '台灣的風景'
 - id: taiwan_hummingbird
   translation: '蜂台灣鳥'
+- id: search_minimum
+  translation: '最少 %s 個字符'
+- id: search_no_results
+  translation: '沒結果'
 - id: footer_copyright
   translation: '台灣就業金卡辦公室 - 版權所有'
 - id: footer_description
