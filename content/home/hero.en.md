@@ -7,7 +7,7 @@ headless: true
 links:
   - is_cta: true
     new_window: false
-    label: Know More About The Application Process
+    label: About the Application Process
     href: /application
 items:
   - is_cta: false
