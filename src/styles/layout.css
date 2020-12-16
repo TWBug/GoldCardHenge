@@ -73,7 +73,7 @@ blockquote {
 @screen lg {
     .max-h-homehero {
         /* xl:max-h-screen-3/4 xxl:max-h-screen-2/3 */
-        max-height: var(--homeHero, calc(100vh * 75));
+        max-height: var(--homeHero, calc(var(--vh) * 75));
     }
 }
 
