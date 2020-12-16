@@ -6,4 +6,4 @@ draft: false
 hidden: false
 layout: related
 ---
-The National Immigration Agency of the Ministry of the Interior (NIA) is the statutory agency under the Ministry of Interior of the Republic of China (Taiwan) which is responsible for immigration, entry and exit security, border services and registration of foreigners.
+The National Immigration Agency was established under the Ministry of Interior to take charge of border control and immigration affairs. The NIA is amongst other things responsible for border services, immigration, entry and exit security, foreign population management and  foreign population management.

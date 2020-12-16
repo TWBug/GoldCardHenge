@@ -33,8 +33,6 @@ items:
     label: Sports
     href: /qualification/field-of-sport
 ---
-
-
 {{< base >}}
 Please read the criteria for each relevant field carefully, as you may qualify under more than one field. However, you will be required to select only ONE field to apply under in the application.  In most cases, you need to choose a specific entry in the list of qualifications as well.
 
