@@ -836,6 +836,7 @@ function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o =
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
 window.taSearch = function () {
+  var is_chinese_ui = window.location.pathname.startsWith('/zh/');
   return {
     initialized: false,
     visible: false,
@@ -850,7 +851,7 @@ window.taSearch = function () {
     is_empty: true,
     has_results: false,
     excerpt_length: 200,
-    minimum_length: 3,
+    minimum_length: is_chinese_ui ? 2 : 3,
     highlight: true,
     highlight_class: 'inline-block font-semibold bg-highlight text-black',
     init: function init() {
@@ -859,7 +860,7 @@ window.taSearch = function () {
       var _console = console,
           assert = _console.assert;
       assert(window.lunr, 'Lunr.js not found. Search cannot be supported without Lunr.js.');
-      this.is_chinese_ui = window.location.pathname.startsWith('/zh/');
+      this.is_chinese_ui = is_chinese_ui;
       this.loadIndex();
       this.initLunr();
       this.$watch('visible', function (value) {
@@ -1074,7 +1075,7 @@ window.taSearch = function () {
       });
     },
     search: function search(query) {
-      if (query.length < 3) {
+      if (query.length < this.minimum_length) {
         this.reset(false);
         return false;
       }
