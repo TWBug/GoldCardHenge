@@ -2,6 +2,7 @@ window.taFilter = function () {
     return {
         initialized: false,
         filter: '',
+        is_empty: true,
         index: [],
         result: [],
         init() {
@@ -30,10 +31,17 @@ window.taFilter = function () {
             }
             this.$watch('filter', (value) => {
                 if (value.length === 0) {
+                    this.is_empty = true;
                     return this.resetResult();
                 }
+                this.is_empty = false;
                 this.findContent();
             });
+
+            setTimeout(() => {
+                console.info('this.$refs', this.$refs.input);
+                this.$refs.input.focus();
+            }, 200);
         },
         resetFilter() {
             this.filter = '';

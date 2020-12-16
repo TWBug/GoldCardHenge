@@ -435,6 +435,7 @@ window.taFilter = function () {
   return {
     initialized: false,
     filter: '',
+    is_empty: true,
     index: [],
     result: [],
     init: function init() {
@@ -466,11 +467,19 @@ window.taFilter = function () {
 
       this.$watch('filter', function (value) {
         if (value.length === 0) {
+          _this.is_empty = true;
           return _this.resetResult();
         }
 
+        _this.is_empty = false;
+
         _this.findContent();
       });
+      setTimeout(function () {
+        console.info('this.$refs', _this.$refs.input);
+
+        _this.$refs.input.focus();
+      }, 200);
     },
     resetFilter: function resetFilter() {
       this.filter = '';

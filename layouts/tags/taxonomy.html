@@ -83,11 +83,11 @@
                                 <label for="filter" class="text-secondary pl-4">
                                     {{ partial "icon" (dict "name" "filter" "size" "4" "alt" (i18n "placeholder_filter_faq_list")) }}
                                 </label>
-                                <input type="text" id="filter" class="flex-grow placeholder-gray-400 text-lg font-medium px-4 py-4" placeholder="{{ i18n "placeholder_filter_faq_list" }}" x-model.debounce.250="filter" x-show="initialized">
+                                <input type="text" id="filter" x-ref="input" class="flex-grow placeholder-gray-400 text-lg font-medium px-4 py-4" placeholder="{{ i18n "placeholder_filter_faq_list" }}" x-model.debounce.250="filter" x-show="initialized">
                                 <div class="flex-grow text-gray-700 text-lg font-medium px-4 py-4" x-show="!initialized">
                                     {{ i18n "loading_filter" }}
                                 </div>
-                                <button type="button" class="text-primary px-2 py-1 mr-2 focus-primary" x-show="isFiltered()" @click.prevent="resetFilter()">
+                                <button type="button" class="text-primary px-2 py-1 mr-2 focus-primary" x-show="!is_empty" @click.prevent="resetFilter()">
                                     {{ partial "icon" (dict "name" "times" "size" "6" "alt" (i18n "reset_filter")) }}
                                 </button>
                             </div>
