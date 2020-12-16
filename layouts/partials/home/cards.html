@@ -40,11 +40,11 @@
                 {{ end }}
             {{ end }}
         </div>
-        {{ $qualification := .Site.GetPage "/qualification" }}
-        <div class="mx-auto w-full sm:w-3/4 text-center mt-12">
-            <p class="text-sm leading-relaxed">
-                {{ $qualification.Content | plainify }}
-            </p>
+        {{/*  {{ $qualification := .Site.GetPage "/qualification" }}  */}}
+        {{ if $setup.Content }}
+        <div class="mx-auto w-full sm:w-3/4 text-center text-sm leading-relaxed mt-12">
+            {{ $setup.Content }}
         </div>
+        {{ end }}
     </div>
 </div>

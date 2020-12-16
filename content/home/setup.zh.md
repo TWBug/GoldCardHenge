@@ -31,8 +31,7 @@ items:
     label: 體育
     href: /qualification/field-of-sport
 ---
-{{< base >}}
+
 請仔細閱讀每個領域的條件，有可能您符合多個領域資格，但在就業金卡申請系統裡只能選擇其中一個領域進行申請。除了建築設計領域須符合所有條件外，其他領域皆需選擇一個特定的子項目，並依據所列資格盡可能提供應備文件。
 
 在提出申請前，您可以先前往 [Gold Card Qualification Check](https://visafinder.tw/gold-card-qualification/) 進行申請資格評估，此網站會依據您所提供的資訊，建議可申請的領域與應備文件。
-{{< /base >}}
