@@ -52,13 +52,19 @@
                 
                 <div class="flex flex-col border-2 border-gray-200 bg-gradient-to-b from-white to-gray-100 rounded  shadow-lg overflow-hidden">
                     <div class="p-4 border-b border-gray-200">
-                    {{ if ne $icon "" }}
-                        <img src="{{ $icon.RelPermalink }}" alt="{{ .Params.cover_image_alt }}" class="w-full mx-auto max-h-36 object-contain">
+                        {{ if ne $icon "" }}
+                        {{ $alt := .Title }}
+                        {{ if .Params.cover_image_alt }}
+                        {{ $alt = .Params.cover_image_alt}}
+                        {{ end }}
+                        <a href="{{ .Params.link }}" target="_blank" class="block focus-primary">
+                            <img src="{{ $icon.RelPermalink }}" alt="{{ $alt }}" class="w-full mx-auto max-h-36 object-contain">
+                        </a>
                         {{ end }}
                     </div>
                     <div class="flex-grow p-4">
-                        <h2 class="text-xl font-bold text-primary hover:text-black -ml-2">
-                            <a href="{{ .Params.link }}" target="_blank" class="inline-block focus-primary p-2">
+                        <h2 class="text-xl font-bold text-primary">
+                            <a href="{{ .Params.link }}" target="_blank" class="inline-block focus-primary">
                                 {{ .Title | truncate 80 }}
                             </a>
                         </h2>
@@ -67,7 +73,7 @@
                         </p>
                     </div>
                     <div class="flex flex-wrap justify-center text-md pb-4 px-2">
-                        <a href="{{ .Params.link }}" target="_blank" class="flex items-center font-bold text-primary focus-primary p-2">
+                        <a href="{{ .Params.link }}" target="_blank" class="flex items-center font-bold text-primary focus-primary m-2">
                             {{ partial "icon" (dict "name" "external-link-alt" "size" "6") }}
                             <span class="ml-2">
                                 {{ i18n "website" }}
