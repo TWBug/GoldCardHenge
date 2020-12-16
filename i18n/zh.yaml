@@ -4,6 +4,8 @@
   translation: '搜尋'
 - id: change_language
   translation: '語言'
+- id: change_language_to
+  translation: '語言'
 - id: tego
   translation: '台灣金卡專案辦公室'
 - id: tego_logo

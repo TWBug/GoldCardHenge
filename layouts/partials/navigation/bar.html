@@ -14,7 +14,7 @@
 <a href="{{ .Site.Home.RelPermalink }}" class="block w-1/2 max-w-48 px-4 py-4 lg:py-6 focus-primary">
     <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="{{ i18n "tego_logo" }}" />
 </a>
-<ul class="flex-grow hidden lg:flex justify-between items-center  text-lg font-semibold ml-10">
+<ul class="flex-grow hidden lg:flex justify-between items-center text-xl font-semibold ml-10">
     {{ range $data.items }}
     <li {{ if eq .topic $topic}}
         class="bg-yellow-400 self-stretch flex text-black font-bold"
@@ -24,7 +24,7 @@
     >
         <a href="/{{ print $language .link }}" {{ if .dropdown }}
             @click.stop="toggleDropdown('{{ .topic }}', $event)" {{ end }}
-            class="flex-center focus:bg-white focus:text-black px-6"
+            class="flex-center focus:bg-white focus:text-black px-4"
             :class="{ 'bg-white text-black': {{ printf "dropdown.%s" .topic }} }"
             :aria-pressed="{{ printf "dropdown.%s" .topic }}"
             aria-controls="{{ printf "nav-dropdown-%s" .topic }}"
