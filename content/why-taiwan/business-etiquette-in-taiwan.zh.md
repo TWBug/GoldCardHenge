@@ -35,9 +35,7 @@ style: right
 {{< /card >}}
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/meeting.jpg" >}}
-
-
-
+會議
 {{< /card >}}
 
 {{< base >}}
@@ -65,8 +63,6 @@ style: right
 1. 臺灣人注重衣著整潔、保守。男性傾向穿西裝。女性穿著保守的商務正裝，比如寬鬆的裙子和襯衫。
 2. 留下好的第一印象是至關重要的。第一次見面時避免穿T恤、牛仔褲和其他休閒裝。
 3. 即使你參加的是一場休閒活動，也要穿著端莊。你的衣服應該整潔、乾淨、不沾污漬
-
-
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/dining-and-entertainment.png" >}}
 餐飲和娛樂
