@@ -66,6 +66,14 @@ Fashion
 2. Making a good first impression is vital. Avoid wearing t-shirts, jeans, and other casual attire to first meetings.
 3. Even while attending a casual activity, you should dress modestly. Your clothing should be neat, clean, and unwrinkled.
 
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/dining-and-entertainment.png" >}}
+Dining and Entertainment
+{{< /card >}}
+
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/fashion.png" >}}
+Fashion
+{{< /card >}}
+
 {{< base >}}
 Gifts
 {{< /base >}}
@@ -90,3 +98,13 @@ Body Language
 9. Accept food and other objects with both hands to indicate respect.
 10. Be humble if you receive a compliment.
 11. Family is central in Taiwanese culture, so it is polite to inquire about someone’s family.
+
+
+
+{{< card title="<!-- This text will never be seen -->" link="" image="" >}}
+Gifts
+{{< /card >}}
+
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/body-language.jpg" >}}
+Body Language
+{{< /card >}}
