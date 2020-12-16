@@ -309,8 +309,8 @@ CMS.registerEditorComponent({
         { name: 'prefix', label: 'Prefix 字首', widget: 'nested-string', required: false },
         { name: 'body', label: 'Teaser Text', widget: 'markdown' }
     ],
-    pattern: /^{{< teaser prefix="(.+?)" >}}\n([\s\S]+?)\n{{< \/teaser >}}/,
-    fromBlock: (match) => ({ prefix: Props.unescape(match[1]), body: match[2] }),
+    pattern: /^{{< teaser prefix="(.*?)" >}}\n([\s\S]+?)\n{{< \/teaser >}}/,
+    fromBlock: (match) => ({ prefix: match[1], body: match[2] }),
     toBlock: (obj) => {
         return `{{< teaser prefix="${Props.escape(obj.prefix)}" >}}\n${obj.body || ''}\n{{< /teaser >}}`;
     },
