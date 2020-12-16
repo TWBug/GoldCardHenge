@@ -6,4 +6,4 @@ hidden: false
 headless: true
 links: null
 ---
-<!-- This text will never be seen -->
+想知道有哪些人申請金卡，他們從哪裡來的？點選照片了解更多！
