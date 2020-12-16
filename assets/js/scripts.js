@@ -236,33 +236,34 @@ function handleResize() {
   }
 
   document.documentElement.style.setProperty('--navigationScroll', "".concat(navigationScrollHeight, "px"));
-  var w_aspect = Math.round(window.innerWidth / window.innerHeight * 100) / 100; // var home_hero = '75vh';
+  var w_aspect = Math.round(window.innerWidth / window.innerHeight * 100) / 100;
+  var home_hero = '75vh';
+
+  if (window.innerWidth < 1024) {
+    home_hero = '100vh';
+  } else {
+    if (w_aspect > 1.64) {
+      home_hero = '100vh';
+    } else if (w_aspect < 1.2) {
+      home_hero = '50vh';
+    }
+  } // var home_hero = 'calc(var(--vh) * 75)';
   // if (window.innerWidth < 1024) {
-  //     home_hero = '100vh';
+  //     home_hero = 'calc(var(--vh) * 100)';
   // } else {
   //     if (w_aspect > 1.64) {
-  //         home_hero = '100vh';
+  //         home_hero = 'calc(var(--vh) * 100)';
   //     } else if (w_aspect < 1.2) {
-  //         home_hero = '50vh';
+  //         home_hero = 'calc(var(--vh) * 50)';
   //     }
   // }
 
-  var home_hero = 'calc(var(--vh) * 75)';
-
-  if (window.innerWidth < 1024) {
-    home_hero = 'calc(var(--vh) * 100)';
-  } else {
-    if (w_aspect > 1.64) {
-      home_hero = 'calc(var(--vh) * 100)';
-    } else if (w_aspect < 1.2) {
-      home_hero = 'calc(var(--vh) * 50)';
-    }
-  }
 
   document.documentElement.style.setProperty('--homeHero', "".concat(home_hero));
   console.info('width x height: ', window.innerWidth + ' x ' + window.innerHeight); // view port height fix for mobile browsers
-  // const vh = window.innerHeight * 0.01;
-  // document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+  var vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', "".concat(vh, "px"));
 }
 "use strict";
 
@@ -1482,9 +1483,6 @@ window.onload = function () {
 //     false
 // );
 // Spruce.watch('search.show', value => console.log('Spruce.watch', value))
-// view port height fix for mobile browsers
-var vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', "".concat(vh, "px"));
 window.languageDetection.init();
 window.highlight.replace();
 window.linksTargetBlank.replace();

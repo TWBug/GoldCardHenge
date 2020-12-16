@@ -22,10 +22,6 @@
 
 // Spruce.watch('search.show', value => console.log('Spruce.watch', value))
 
-// view port height fix for mobile browsers
-const vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
-
 window.languageDetection.init();
 window.highlight.replace();
 window.linksTargetBlank.replace();
