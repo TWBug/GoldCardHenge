@@ -6,6 +6,8 @@
   translation: '語言'
 - id: change_language_to
   translation: '語言'
+- id: click_to_see_more_details
+  translation: 'Click to get more details '
 - id: tego
   translation: '台灣金卡專案辦公室'
 - id: tego_logo

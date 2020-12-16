@@ -15,7 +15,8 @@
                 <div class="wrapper">
                     {{range $index, $element := (shuffle $data.map.items)}}
                     {{ $member_image := resources.Get (printf "img/map/%s" $element.image) | fingerprint }}
-                    <div
+                    <button
+                        type="button"
                         class="member border-4 border-secondary-dark rounded-full overflow-hidden"
                         :class="{ 'running' : play[{{ $index }}], 'paused' : !play[{{ $index }}] }"
                         data-name="{{ $element.name }}"
@@ -28,10 +29,11 @@
                         :aria-pressed="!play[{{ $index }}]"
                         :aria-expanded="play[{{ $index }}]"
                         aria-controls="map-modal"
+                        title="{{ i18n "click_to_see_more_details" }} {{ $element.name }}"
                     >
                         <img src="{{ $member_image.RelPermalink }}" alt="{{ printf "Portrait %s" $element.name }}"
                         class="absolute inset-0 w-full h-full" />
-                    </div>
+                    </button>
                     {{ end }}
                     <img src="{{ $map_image.RelPermalink }}" alt="{{ i18n "gold_card_members_map" }}" class="block w-full -z-1" x-ref="file" />
                 </div>
@@ -101,6 +103,9 @@
         transform: translate(-50%, -50%);
         opacity: 0;
         cursor: pointer;
+    }
+    .member:hover {
+        box-shadow: 0px 0px 0px 2px #ffffff, 0px 0px 0px 6px #ce3f00;
     }
 
     .member.running {

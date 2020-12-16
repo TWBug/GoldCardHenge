@@ -6,6 +6,8 @@
   translation: 'Change language'
 - id: change_language_to
   translation: 'Change language to '
+- id: click_to_see_more_details
+  translation: 'Click to get more details about'
 - id: tego
   translation: 'Taiwan Employment Gold Card Office'
 - id: tego_logo
