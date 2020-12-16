@@ -73,7 +73,7 @@ Resident
 {{< base >}}
 Note: 
 
-If you enter the Taiwanese address in Chinese, the format needs to be Chinese symbols and Arabic numerals only; no English letters allowed. 
+If you enter the Taiwanese address in Chinese, the format needs to be only Chinese symbols and Arabic numerals only; no English letters allowed.
 
 * Incorrect：台北市中正區寶慶路No. 3, 2F
 * Correct：台北市中正區寶慶路3號2樓
