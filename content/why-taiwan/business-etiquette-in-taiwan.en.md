@@ -59,7 +59,7 @@ Dining and Entertainment
 13. The host (person who has invited everyone) always pays the bill. It is polite for the guest to offer to pay, but don't insist.
 
 {{< base >}}
-Fashion
+Attire
 {{< /base >}}
 
 1. The Taiwanese place a heavy emphasis on dressing neatly and conservatively. Men tend to wear suits, while women wear conservative business attire, such as a loose skirt and blouse.
@@ -71,7 +71,7 @@ Dining and Entertainment
 {{< /card >}}
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/fashion.png" >}}
-Fashion
+Attire
 {{< /card >}}
 
 {{< base >}}
@@ -98,8 +98,6 @@ Body Language
 9. Accept food and other objects with both hands to indicate respect.
 10. Be humble if you receive a compliment.
 11. Family is central in Taiwanese culture, so it is polite to inquire about someone’s family.
-
-
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/gifts.jpg" >}}
 Gifts
