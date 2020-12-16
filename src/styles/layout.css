@@ -5,6 +5,7 @@
     --overflow: hidden;
     --navigationMenu: 90px;
     --homeHero: 75vh;
+    --homeHeroScrollHint: block;
 }
 
 html,
@@ -68,6 +69,10 @@ blockquote {
 
 .max-h-homehero {
     max-height: 100vh;
+}
+.hero-scroll-hint {
+    @apply absolute inset-x-0 w-full bottom-0;
+    display: var(--homeHeroScrollHint, block)
 }
 
 @screen lg {

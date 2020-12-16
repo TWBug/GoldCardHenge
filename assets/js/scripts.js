@@ -238,12 +238,15 @@ function handleResize() {
   document.documentElement.style.setProperty('--navigationScroll', "".concat(navigationScrollHeight, "px"));
   var w_aspect = Math.round(window.innerWidth / window.innerHeight * 100) / 100;
   var home_hero = '75vh';
+  document.documentElement.style.setProperty('--homeHeroScrollHint', 'none');
 
   if (window.innerWidth < 1024) {
     home_hero = '100vh';
+    document.documentElement.style.setProperty('--homeHeroScrollHint', 'block');
   } else {
     if (w_aspect > 1.64) {
       home_hero = '100vh';
+      document.documentElement.style.setProperty('--homeHeroScrollHint', 'block');
     } else if (w_aspect < 1.2) {
       home_hero = '50vh';
     }
