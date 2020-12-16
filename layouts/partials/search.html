@@ -71,8 +71,7 @@
             <div class="w-full pl-4 pb-4">
                 <div class="flex items-center text-base font-semibold text-secondary">
                     {{ partial "icon" (dict "name" "exclamation" "size" "4" "alt" (i18n "reset_filter")) }}
-                    <span class="ml-2">
-                        Minimum of 3 characters
+                    <span class="ml-2" x-text="'Minimum of ' + minimum_length + ' chars'">
                     </span>
                 </div>
             </div>
