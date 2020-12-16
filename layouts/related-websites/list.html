@@ -44,7 +44,7 @@
             {{ partial "breadcrumb" . }}
             <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 xl:gap-12 mt-6">
                 
-                {{ range .RegularPages }}
+                {{ range sort .RegularPages ".Params.Title" "asc" }}
                 {{ $icon := "" }}
                 {{ if .Params.cover_image }}
                 {{ $icon = resources.Get .Params.cover_image }}
