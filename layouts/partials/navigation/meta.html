@@ -3,9 +3,9 @@
 
 <div>{{ i18n "tego" }}</div>
 <div class="flex flex-end">
-    <button type="button" x-data="taSearchTrigger()" x-init="init('meta')" @click="show()" class="flex items-center border-r border-l border-white border-opacity-25 pl-4 pr-8 mr-4 focus:bg-white focus:text-black focus:text-opacity-100">
-        {{ partial "icon" (dict "name" "search" "size" "3" "alt" (i18n "placeholder_search")) }}
-        <span class="font-medium ml-2">
+    <button type="button" x-data="taSearchTrigger()" x-init="init('meta')" @click="show()" class="flex items-center border-r border-l border-white border-opacity-25 pl-4 pr-12 mr-4 focus:bg-white focus:text-black focus:text-opacity-100">
+        {{ partial "icon" (dict "name" "search" "size" "5" "alt" (i18n "placeholder_search")) }}
+        <span class="font-semibold ml-2">
             {{ i18n "placeholder_search" }}
         </span>
     </button>
