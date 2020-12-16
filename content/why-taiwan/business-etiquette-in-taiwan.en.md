@@ -101,7 +101,7 @@ Body Language
 
 
 
-{{< card title="<!-- This text will never be seen -->" link="" image="" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/gifts.jpg" >}}
 Gifts
 {{< /card >}}
 

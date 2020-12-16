@@ -101,7 +101,7 @@ style: right
 10. 如果你受到稱讚，要表現出謙虛態度。
 11. 因為家庭是臺灣文化的核心，所以詢問某人的家庭是禮貌的。
 
-{{< card title="<!-- This text will never be seen -->" link="" image="" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/gifts.jpg" >}}
 送禮
 {{< /card >}}
 
