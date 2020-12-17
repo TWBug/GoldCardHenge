@@ -58,21 +58,24 @@ window.taMap = function () {
             this.active = -1;
         },
         startAnimation() {
-            if (this.isInViewport() && this.status === false) {
-                this.test = 'in viewport'
-                this.status = true;
-                const interval = setInterval(() => {
-                    this.$refs[this.options.ref].scrollLeft += 10;
-                    if (this.$refs[this.options.ref].scrollLeft > 250) {
-                        this.test = 'done'
-                        clearInterval(interval)
-                    }
-                }, 40);
+            if (this.status === false) {
+                if (this.isInViewport()) {
+                    this.test = 'in viewport';
+                    this.status = true;
+                    const interval = setInterval(() => {
+                        this.$refs[this.options.ref].scrollLeft += 10;
+                        if (this.$refs[this.options.ref].scrollLeft > 250) {
+                            this.test = 'done';
+                            clearInterval(interval);
+                        }
+                    }, 40);
+                }
             }
         },
         isInViewport() {
             const position = this.$refs[this.options.ref].getBoundingClientRect();
-            this.test = 'check'
+            console.info('position', position);
+            this.test = 'check';
             return (
                 position.top >= 0 &&
                 position.left >= 0 &&
