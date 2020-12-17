@@ -34,6 +34,9 @@ window.taNavigation = function () {
                 }
             }
             const scroll = document.getElementById(this.default.initiator);
+            if (scroll === null) {
+                return
+            }
             const scroll_top = scroll.getBoundingClientRect().top + window.scrollY;
             // console.info('scroll_top', scroll_top);
             window.addEventListener('scroll', () => {

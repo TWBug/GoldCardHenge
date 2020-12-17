@@ -768,6 +768,11 @@ window.taNavigation = function () {
       }
 
       var scroll = document.getElementById(this["default"].initiator);
+
+      if (scroll === null) {
+        return;
+      }
+
       var scroll_top = scroll.getBoundingClientRect().top + window.scrollY; // console.info('scroll_top', scroll_top);
 
       window.addEventListener('scroll', function () {
