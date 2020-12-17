@@ -39,7 +39,6 @@ window.taFilter = function () {
             });
 
             setTimeout(() => {
-                console.info('this.$refs', this.$refs.input);
                 this.$refs.input.focus();
             }, 200);
         },

@@ -114,6 +114,7 @@
                                 <button
                                     id="{{ printf "faq-button-%d" $index }}"
                                     type="button"
+                                    x-ref="button"
                                     aria-controls="{{ printf "faq-answer-%d" $index }}"
                                     @click.prevent="toggle()"
                                     class="w-full text-left flex items-center justify-between text-primary px-2 -ml-2 focus-primary"
@@ -126,6 +127,8 @@
                                         {{ partial "icon" (dict "name" "angle-up" "size" "10" "alt" "Hide Answer") }}
                                     </span>
                                 </button>
+                                
+                                <input id="{{ i18n "show_details" }}: {{ .Title }}" x-ref="link" type="hidden" value="{{.RelPermalink}}">
 
                                 <div
                                     id="{{ printf "faq-answer-%d" $index }}"
@@ -143,14 +146,6 @@
                                 >
                                     <div class="copy">
                                         {{ .Content }}
-                                    </div>
-                                    <div class="text-right">
-                                        <a href="{{.RelPermalink}}" class="inline-flex items-center leading-none text-primary text-sm font-bold focus-primary">
-                                            <span class="mr-2">
-                                                {{ i18n "show_details" }}
-                                            </span>
-                                            {{ partial "icon" (dict "name" "angle-right" "size" "6") }}
-                                        </a>
                                     </div>
                                 </div>
                             </div>
