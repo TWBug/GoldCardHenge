@@ -12,6 +12,7 @@
         </div>
         <div class="relative my-6" x-data="taMap()" x-init="init()">
             <div id="map" x-ref="map" class="relative overflow-x-auto">
+                <span x-text="test" class="absolute inset-x-0 text-center"></span>
                 <div class="wrapper">
                     {{range $index, $element := (shuffle $data.map.items)}}
                     {{ $member_image := resources.Get (printf "img/map/%s" $element.image) | fingerprint }}

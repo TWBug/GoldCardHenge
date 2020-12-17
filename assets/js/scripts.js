@@ -633,6 +633,7 @@ window.taMap = function () {
     status: false,
     elements: [],
     play: [],
+    test: 'test',
     active: -1,
     modal: false,
     wrapper: {},
@@ -696,11 +697,13 @@ window.taMap = function () {
       var _this2 = this;
 
       if (this.isInViewport() && this.status === false) {
+        this.test = 'in viewport';
         this.status = true;
         var interval = setInterval(function () {
           _this2.$refs[_this2.options.ref].scrollLeft += 10;
 
           if (_this2.$refs[_this2.options.ref].scrollLeft > 250) {
+            _this2.test = 'done';
             clearInterval(interval);
           }
         }, 40);
@@ -708,6 +711,7 @@ window.taMap = function () {
     },
     isInViewport: function isInViewport() {
       var position = this.$refs[this.options.ref].getBoundingClientRect();
+      this.test = 'check';
       return position.top >= 0 && position.left >= 0 && position.bottom <= (window.innerHeight || document.documentElement.clientHeight) && position.right <= (window.innerWidth || document.documentElement.clientWidth);
     }
   };
