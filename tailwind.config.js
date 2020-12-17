@@ -91,8 +91,11 @@ module.exports = {
                 ...theme('spacing'),
                 192: '48rem',
             }),
+            // width: {
+            //     'full': 'calc(100% + var(--width-padding, 0))',
+            // },
             height: {
-                'hero': 'calc((var(--vh) * 100) - var(--navigationMenu))',
+                hero: 'calc((var(--vh) * 100) - var(--navigationMenu))',
             },
             maxHeight: (theme) => ({
                 ...theme('spacing'),
@@ -111,7 +114,7 @@ module.exports = {
                 'screen-3/4': 'calc(var(--vh) * 75)',
                 screen: 'calc(var(--vh) * 100)',
                 'screen-full': 'calc(var(--vh) * 100)',
-                'hero': 'calc((var(--vh) * 100) - var(--navigationMenu))',
+                hero: 'calc((var(--vh) * 100) - var(--navigationMenu))',
             }),
             screens: {
                 xxl: '1440px',
@@ -127,7 +130,7 @@ module.exports = {
             },
             zIndex: {
                 '-1': '-1',
-                '1': '1',
+                1: '1',
             },
         },
     },
@@ -164,6 +167,22 @@ module.exports = {
                 },
                 '.top-nav-menu': {
                     top: 'var(--navigationScroll)',
+                },
+                '.wp-full': {
+                    '--width-padding': '0px',
+                    width: 'calc(100% + var(--width-padding))',
+                },
+                '.wp-0': {
+                    '--width-padding': '0rem',
+                },
+                '.wp-1': {
+                    '--width-padding': '0.5rem',
+                },
+                '.wp-8': {
+                    '--width-padding': '4rem',
+                },
+                '.-wp-8': {
+                    '--width-padding': '-4rem',
                 },
             };
             addUtilities(changedUtilities, {

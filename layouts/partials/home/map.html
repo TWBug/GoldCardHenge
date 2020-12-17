@@ -12,7 +12,7 @@
         </div>
         <div class="relative my-6" x-data="taMap()" x-init="init()">
             <div id="map" x-ref="map" class="relative overflow-x-auto">
-                <span x-text="test" class="absolute inset-x-0 text-center"></span>
+                {{/*  <span x-text="test" class="absolute inset-x-0 text-center"></span>  */}}
                 <div class="wrapper">
                     {{range $index, $element := (shuffle $data.map.items)}}
                     {{ $member_image := resources.Get (printf "img/map/%s" $element.image) | fingerprint }}
@@ -43,7 +43,7 @@
                 <div
                     id="map-modal"
                     :hidden="!modal"
-                    class="modal bg-white bg-opacity-75 backdrop-blur-2 text-base text-gray-900 rounded-lg border border-gray-200 pl-12 pr-4 py-3 shadow-lg w-full max-w-96 lg:max-w-64"
+                    class="modal bg-white bg-opacity-75 backdrop-blur-2 text-base text-gray-900 rounded-lg border border-gray-200 pl-12 pr-4 py-3 shadow-lg wp-full -wp-8 sm:wp-0 max-w-96 lg:max-w-64"
                     :style="data.style"
                     @click.away="closeModal()"
                     x-show="modal"

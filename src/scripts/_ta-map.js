@@ -3,7 +3,7 @@ window.taMap = function () {
         status: false,
         elements: [],
         play: [],
-        test: 'test',
+        // test: 'test',
         active: -1,
         modal: false,
         wrapper: {},
@@ -60,12 +60,12 @@ window.taMap = function () {
         startAnimation() {
             if (this.status === false) {
                 if (this.isInViewport()) {
-                    this.test = 'in viewport';
+                    // this.test = 'in viewport';
                     this.status = true;
                     const interval = setInterval(() => {
                         this.$refs[this.options.ref].scrollLeft += 10;
                         if (this.$refs[this.options.ref].scrollLeft > 250) {
-                            this.test = 'done';
+                            // this.test = 'done';
                             clearInterval(interval);
                         }
                     }, 40);
@@ -74,8 +74,8 @@ window.taMap = function () {
         },
         isInViewport() {
             const position = this.$refs[this.options.ref].getBoundingClientRect();
-            console.info('position', position);
-            this.test = 'check';
+            // console.info('position', position);
+            // this.test = 'check';
             return (
                 position.top >= 0 &&
                 position.left >= 0 &&
