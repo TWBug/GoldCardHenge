@@ -11,6 +11,9 @@ style: right
 ---
 # 臺灣商務禮儀
 
+台灣人是很注重禮節的，人們都很講究社交禮儀。無論見面、會友，還是交際、拜訪，在言行舉止方面，他們特別注意尊重他人。
+下面介紹的是台灣基本的商務禮儀：
+
 {{< base >}}
 問候
 {{< /base >}}
@@ -34,8 +37,8 @@ style: right
 問候
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/meeting.jpg" >}}
-會議
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/exchange-business-cards.png" >}}
+交換名片
 {{< /card >}}
 
 {{< base >}}
@@ -97,10 +100,10 @@ style: right
 10. 如果你受到稱讚，要表現出謙虛態度。
 11. 因為家庭是臺灣文化的核心，所以詢問某人的家庭是禮貌的。
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/gifts.jpg" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/gifts.png" >}}
 送禮
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/body-language.jpg" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/body-language.png" >}}
 身體語言
 {{< /card >}}

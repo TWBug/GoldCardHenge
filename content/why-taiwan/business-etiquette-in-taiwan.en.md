@@ -11,6 +11,8 @@ style: right
 ---
 # Business Etiquette in Taiwan
 
+Social etiquette is very important for people in Taiwan. They pay special attention to be respectful in social interaction whether it be their words or deeds. Here are some basic business etiquette to guarantee you smooth sailing in business settings or with friends and family.
+
 {{< base >}}
 Greetings
 {{< /base >}}
@@ -34,10 +36,8 @@ Meetings
 Greetings
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/meeting.jpg" >}}
-
-Meetings
-
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/exchange-business-cards.png" >}}
+Exchange Business Cards
 {{< /card >}}
 
 {{< base >}}
@@ -99,10 +99,10 @@ Body Language
 10. Be humble if you receive a compliment.
 11. Family is central in Taiwanese culture, so it is polite to inquire about someone’s family.
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/gifts.jpg" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/gifts.png" >}}
 Gifts
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/body-language.jpg" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/body-language.png" >}}
 Body Language
 {{< /card >}}
