@@ -138,6 +138,10 @@ window.languageDetection = {
     }
   },
   redirect: function redirect(old_language) {
+    if (this.supported_languages.indexOf(old_language) === -1) {
+      old_language = this.default_language;
+    }
+
     var new_location = location.pathname.replace(old_language, this.language);
     var new_href = location.origin + new_location;
 
