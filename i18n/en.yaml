@@ -135,6 +135,11 @@
   translation: 'Languages'
 - id: footer_legal_title
   translation: 'Legal'
+- id: error_headline
+  translation: 'Page was not found'
+- id: error_description
+  translation: 'Sorry we can not find the page you were searching for.'
+  
 - id: undefined
   translation: 'UNDEFINED'
 - id: card

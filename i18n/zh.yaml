@@ -131,6 +131,10 @@
   translation: '語言'
 - id: footer_legal_title
   translation: '政策'
+- id: error_headline
+  translation: '找不到頁面'
+- id: error_description
+  translation: '抱歉，我們找不到您要搜索的頁面。'
 - id: undefined
   translation: 'UNDEFINED'
 - id: card

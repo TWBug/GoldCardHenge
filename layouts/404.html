@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="relative shadow-xl print:shadow-none">
+    {{ partial "navigation" . }}
+</div>
+<div class="flex-grow flex-center">
+    <div class="flex flex-col justify-center items-center w-full h-full">
+        <div>
+            <div class="w-full max-w-xl mx-auto mb-6">
+                <img class="w-full" src="/img/404.png" alt="" />
+            </div>
+            <div class="copy w-full max-w-xl mx-auto text-center">
+                <h2
+                    id="page-was-not-found"
+                    class="text-2xl font-semibold text-secondary leading-snug mb-2 mt-8"
+                >
+                    {{ i18n "error_headline" }}
+                </h2>
+                <p>{{ i18n "error_description" }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{{end}}
