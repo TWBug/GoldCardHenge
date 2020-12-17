@@ -70,15 +70,27 @@ blockquote {
 .max-h-homehero {
     max-height: 100vh;
 }
-.hero-scroll-hint {
-    @apply absolute inset-x-0 w-full bottom-0;
-    display: var(--homeHeroScrollHint, block)
-}
-
 @screen lg {
     .max-h-homehero {
         /* xl:max-h-screen-3/4 xxl:max-h-screen-2/3 */
         max-height: var(--homeHero, 75vh);
+    }
+}
+.hero-scroll-hint {
+    @apply hidden absolute inset-x-0 w-full bottom-0;
+    animation: scroll-hint ease 2s infinite;
+}
+@screen sm {
+    .hero-scroll-hint {
+        display: var(--homeHeroScrollHint, block);
+    }
+}
+@keyframes scroll-hint {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(1rem);
     }
 }
 
@@ -219,7 +231,7 @@ blockquote {
 }
 .focus-primary:focus-within {
     @apply border-primary;
-  }
+}
 .focus-white:focus {
     @apply outline-white;
 }

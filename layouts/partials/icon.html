@@ -1,5 +1,7 @@
 {{ $class := "h-8" }}
-{{ if eq .size "10" }}
+{{ if eq .size "20" }}
+{{ $class = "h-20" }}
+{{ else if eq .size "10"}}
 {{ $class = "h-10" }}
 {{ else if eq .size "8"}}
 {{ $class = "h-8" }}
