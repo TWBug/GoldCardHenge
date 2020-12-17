@@ -77,6 +77,7 @@
                     </button>
                 </div>
             </template>
+            <div class="block xl:hidden absolute right-0 inset-y-0 bg-gradient-to-l from-background to-transparent w-12"></div>
         </div>
         <div class="mx-auto w-full sm:w-3/4 text-center px-12 lg:px-24">
             <p class="font-regular text-base">
@@ -88,10 +89,12 @@
 
 <style>
     .wrapper {
+        padding: 0 2rem;
         position: relative;
         margin: 0 auto;
         width: 1130px;
         height: 544px;
+        box-sizing: content-box;
     }
 
     .member {
