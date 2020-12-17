@@ -19,9 +19,9 @@
 
 {{ $back := .Parent }}
 {{ if .Params.tags }}
-{{ $tag := index .Params.tags 0 }}
+{{ $tag := index .Params.tags 0 | anchorize }}
 {{ if $tag }}
-{{ $back = .Site.GetPage (printf "/tags/%s" (index .Params.tags 0)) }}
+{{ $back = .Site.GetPage (printf "/tags/%s" $tag) }}
 {{ end }}
 {{ end }}
 
