@@ -35,6 +35,7 @@
 <meta http-equiv="Content-Language" content="{{ .Site.Language.Lang }}" />
 <meta name="copyright" content="{{ .Site.Copyright }}" />
 <meta name="description" content="{{ .Summary | truncate 160 }}">
+<meta name="environment" content="{{ hugo.Environment }}">
 {{ with .Params.Author }}
 <meta name="author" content="Author name" />
 {{ end }}
