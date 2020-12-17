@@ -452,6 +452,8 @@ window.taFilter = function () {
           _this.initialized = true;
 
           _this.resetResult();
+
+          _this.setFocus();
         })["catch"](function (error) {
           console.warn(error);
         });
@@ -463,6 +465,8 @@ window.taFilter = function () {
           _this.initialized = true;
 
           _this.resetResult();
+
+          _this.setFocus();
         })["catch"](function (error) {
           console.warn(error);
         });
@@ -478,9 +482,6 @@ window.taFilter = function () {
 
         _this.findContent();
       });
-      setTimeout(function () {
-        _this.$refs.input.focus();
-      }, 200);
     },
     resetFilter: function resetFilter() {
       this.filter = '';
@@ -505,6 +506,13 @@ window.taFilter = function () {
         return 1;
       });
       this.result = result;
+    },
+    setFocus: function setFocus() {
+      var _this3 = this;
+
+      setTimeout(function () {
+        _this3.$refs.input.focus();
+      }, 200);
     },
     resetResult: function resetResult() {
       var result = [];

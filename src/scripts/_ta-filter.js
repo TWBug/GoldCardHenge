@@ -13,17 +13,19 @@ window.taFilter = function () {
                         this.index = response;
                         this.initialized = true;
                         this.resetResult();
+                        this.setFocus()
                     })
                     .catch((error) => {
                         console.warn(error);
                     });
-            } else {
-                fetch(url)
+                } else {
+                    fetch(url)
                     .then((response) => response.json())
                     .then((json) => {
                         this.index = json;
                         this.initialized = true;
                         this.resetResult();
+                        this.setFocus()
                     })
                     .catch((error) => {
                         console.warn(error);
@@ -37,10 +39,6 @@ window.taFilter = function () {
                 this.is_empty = false;
                 this.findContent();
             });
-
-            setTimeout(() => {
-                this.$refs.input.focus();
-            }, 200);
         },
         resetFilter() {
             this.filter = '';
@@ -62,6 +60,11 @@ window.taFilter = function () {
                 return 1;
             });
             this.result = result;
+        },
+        setFocus() {
+            setTimeout(() => {
+                this.$refs.input.focus();
+            }, 200);
         },
         resetResult() {
             var result = [];
