@@ -46,7 +46,7 @@ cover_image_alt: null
 * [法律領域](/zh/qualification/field-of-law/)（法務部）
 * [建築設計領域](/zh/qualification/field-of-architecture/)（內政部）
 
-## [](/zh/qualification/field-of-architecture/)[](https://staging.taiwangoldcard.tw/zh/qualification/field-of-architecture/)持有就業金卡者享有五大權益：
+## 持有就業金卡者享有五大權益：
 
 一、	無須受一定雇主聘僱及申請，提供持卡者開放式的個人工作許可，提供渠等自由尋職、工作、技術指導、演講、兼職及轉換工作之便利性。
 

@@ -1,5 +1,5 @@
-{{ $icon144 := resources.Get "img/android-icon-144x144.png" | fingerprint }}
-{{ $icon192 := resources.Get "img/android-icon-192x192.png" | fingerprint }}
+{{ $icon144 := resources.Get "img/android-icon-144x144.png" }}
+{{ $icon192 := resources.Get "img/android-icon-192x192.png" }}
 {
     "name": "{{ .Site.Title }}",
     "short_name": "{{ .Site.Data.variables.Plugin.Description }}",

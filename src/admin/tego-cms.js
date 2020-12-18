@@ -307,14 +307,20 @@ CMS.registerEditorComponent({
     label: 'Teaser',
     fields: [
         { name: 'prefix', label: 'Prefix 字首', widget: 'nested-string', required: false },
-        { name: 'body', label: 'Teaser Text', widget: 'markdown' }
+        { name: 'body', label: 'Teaser Text', widget: 'markdown' },
     ],
-    pattern: /^{{< teaser prefix="(.+?)" >}}\n([\s\S]+?)\n{{< \/teaser >}}/,
-    fromBlock: (match) => ({ prefix: Props.unescape(match[1]), body: match[2] }),
+    pattern: /^{{< teaser prefix="(.*?)" >}}\n([\s\S]+?)\n{{< \/teaser >}}/,
+    fromBlock: (match) => ({ prefix: match[1], body: match[2] }),
     toBlock: (obj) => {
-        return `{{< teaser prefix="${Props.escape(obj.prefix)}" >}}\n${obj.body || ''}\n{{< /teaser >}}`;
+        return `{{< teaser prefix="${Props.escape(obj.prefix)}" >}}\n${
+            obj.body || ''
+        }\n{{< /teaser >}}`;
     },
-    toPreview: (obj) => <div className="font-medium text-xl leading-relaxed mb-6">{obj.prefix} {obj.body}</div>,
+    toPreview: (obj) => (
+        <div className="font-medium text-xl leading-relaxed mb-6">
+            {obj.prefix} {obj.body}
+        </div>
+    ),
 });
 
 CMS.registerEditorComponent({
@@ -707,11 +713,31 @@ try {
     console.warn('[WARN] Could not set CMS locale due to error:', err);
 }
 
-// Init the CMS
-// NOTE: This works because we set window.CMS_MANUAL_INIT before the CMS file
-// was loaded.
-window.initCMS({
-    config: {
-        locale,
-    },
-});
+// The CMS doesn't seem to expose this for us... so we'll just grab it ourselves
+// NOTE: There is currently no event listener to make it easier to use the config directly.
+fetch('config.yml')
+    .then((x) => x.text())
+    .then((x) => jsyaml.load(x))
+    .then((x) => {
+        x.locale = locale;
+
+        if (locale !== 'en') {
+            console.info('[INFO] 以中文為主');
+            x.i18n = {
+                ...x.i18n,
+                locales: ['zh', 'en'],
+                default_locale: 'zh',
+            };
+        }
+
+        const config = {
+            ...x,
+            load_config_file: false,
+        };
+
+        // Init the CMS
+        // NOTE: This works because we set window.CMS_MANUAL_INIT before the CMS file
+        // was loaded.
+        window.cmsConfig = config;
+        window.initCMS({ config });
+    });

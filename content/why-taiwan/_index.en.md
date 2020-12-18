@@ -1,11 +1,11 @@
 ---
 title: Why Taiwan
+date: 2020-12-14T08:31:55.712Z
 draft: false
-cover_image: /cms-uploads/sport.jpg
-media_image: /cms-uploads/sport.jpg
 topic: whytaiwan
-topics:
-  - Industry Information
+cover_image: ""
+media_image: ""
+topics: []
 style: title
 ---
-1
+<!-- This text will never be seen -->

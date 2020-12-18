@@ -1,5 +1,6 @@
 ---
 title: Business Etiquette in Taiwan
+date: 2020-12-10T07:41:05.093Z
 draft: false
 topic: whytaiwan
 cover_image: /cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
@@ -9,6 +10,8 @@ topics:
 style: right
 ---
 # Business Etiquette in Taiwan
+
+Social etiquette is very important for people in Taiwan. They pay special attention to be respectful in social interaction whether it be their words or deeds. Here are some basic business etiquette to guarantee you smooth sailing in business settings or with friends and family.
 
 {{< base >}}
 Greetings
@@ -29,8 +32,12 @@ Meetings
 3. Decisions are made collectively and can be a lengthy process during negotiation. Once facts are established, agreements can sometimes be reached quickly.
 4. 關係 or guan-xi means connections/personal relationships. Guan-xi is vital for business success in Taiwan. Taiwanese business people will want to know you personally before they do business with you.
 
-{{< card title="undefined" link="" image="/cms-uploads/meeting.jpg" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/greetings.png" >}}
+Greetings
+{{< /card >}}
 
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/exchange-business-cards.png" >}}
+Exchange Business Cards
 {{< /card >}}
 
 {{< base >}}
@@ -52,12 +59,20 @@ Dining and Entertainment
 13. The host (person who has invited everyone) always pays the bill. It is polite for the guest to offer to pay, but don't insist.
 
 {{< base >}}
-Fashion
+Attire
 {{< /base >}}
 
 1. The Taiwanese place a heavy emphasis on dressing neatly and conservatively. Men tend to wear suits, while women wear conservative business attire, such as a loose skirt and blouse.
 2. Making a good first impression is vital. Avoid wearing t-shirts, jeans, and other casual attire to first meetings.
 3. Even while attending a casual activity, you should dress modestly. Your clothing should be neat, clean, and unwrinkled.
+
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/dining-and-entertainment.png" >}}
+Dining and Entertainment
+{{< /card >}}
+
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/fashion.png" >}}
+Attire
+{{< /card >}}
 
 {{< base >}}
 Gifts
@@ -83,3 +98,11 @@ Body Language
 9. Accept food and other objects with both hands to indicate respect.
 10. Be humble if you receive a compliment.
 11. Family is central in Taiwanese culture, so it is polite to inquire about someone’s family.
+
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/gifts.png" >}}
+Gifts
+{{< /card >}}
+
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/body-language.png" >}}
+Body Language
+{{< /card >}}

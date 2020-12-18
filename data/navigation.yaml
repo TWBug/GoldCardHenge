@@ -47,8 +47,6 @@ en:
         links:
           - name: Help-Desk
             link: /help-desk/
-          - name: Jobs
-            link: /jobs/
           - name: Related Websites
             link: /related-websites/
         items:
@@ -100,8 +98,6 @@ zh:
         links:
           - name: 聯繫我們
             link: /help-desk
-          - name: 工作職缺
-            link: /jobs
           - name: 相關網站
             link: /related-websites
         items:

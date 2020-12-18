@@ -9,5 +9,5 @@ Please read the criteria for each relevant field carefully, as you may qualify u
 
 To validate your qualification, you will need to provide supporting documentation. Match your supporting documentation as closely as possible with the proposed specifications to ensure a speedy application.
 
-Try the [Gold Card Qualification Check](https://visafinder.tw/gold-card-qualification/) to see which criteria you can consider  in your application.
+Try the [Gold Card Qualification Check](https://visafinder.tw/gold-card-qualification/) to see which criteria you can consider in your application.
 {{< /base >}}

@@ -1,9 +1,12 @@
 ---
-title: "Ministry Of Justice amended Foreign Special Professional Who Possesses Special Expertise in the Field of Law"
+title: Ministry Of Justice amended Foreign Special Professional Who Possesses
+  Special Expertise in the Field of Law
 summary: ""
 date: 2020-11-17T06:40:00.841Z
 draft: false
 hidden: false
+categories:
+  - Gold Card Policy
 ---
 
 # Ministry Of Justice amended Foreign Special Professional Who Possesses Special Expertise in the Field of Law

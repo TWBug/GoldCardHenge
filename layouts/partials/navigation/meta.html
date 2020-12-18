@@ -2,36 +2,47 @@
 {{ $actual_language := .Site.Language.Lang }}
 
 <div>{{ i18n "tego" }}</div>
-<div class="flex flex-end">
-        <form class="flex mr-8 border-r border-l border-white border-opacity-25 text-xs text-white m-0">
+<div class="flex justify-evenly text-xs">
+    <button type="button" x-data="taSearchTrigger()" x-init="init('meta')" @click="show()" class="flex items-center border-r border-l border-white border-opacity-25 pl-4 pr-8 focus:bg-white focus:text-black">
+        {{ partial "icon" (dict "name" "search" "size" "5" "alt" (i18n "placeholder_search")) }}
+        <span class="font-bold ml-2 uppercase">
+            {{ i18n "placeholder_search" }}
+        </span>
+    </button>
+        {{/*  <form class="flex mr-8 border-r border-l border-white border-opacity-25 text-xs text-white m-0">
             <div class="flex focus-within:bg-white focus-within:text-black">
                 <label for="search-box" class="flex-center pl-4">
                     {{ partial "icon" (dict "name" "search" "size" "3") }}
                 </label>
                 <input id="search-box" type="text" class="search-box flex-grow bg-transparent font-semibold placeholder-white placeholder-opacity-50 focus:placeholder-black focus:placeholder-opacity-50 p-2" placeholder="{{ i18n "search" }}">
             </div>
-        </form> 
-    
-    <div class="flex items-center uppercase" x-data="taLanguage()" x-init="init()">
-        <div class="mr-2">
+        </form>   */}}
+        {{/*  <div class="flex flex-grow-0">
+            <button class="flex items-center border-r border-white border-opacity-25 focus:bg-white focus:text-black w-10 p-2">
+                {{ partial "icon" (dict "name" "font-plus" "size" "6" "alt" (i18n "change_language")) }}
+                
+            </button>
+        </div>  */}}
+    <div class="flex items-center uppercase border-r border-white border-opacity-25" x-data="taLanguage()" x-init="init()">
+        {{/*  <div class="mr-2">
             {{ partial "icon" (dict "name" "language" "size" "6" "alt" (i18n "change_language")) }}
-        </div>
+        </div>  */}}
         {{ range .Site.Languages }}
         {{ if lt .Weight 10 }}
         {{ $url = replace $url $actual_language .Lang }}
         {{ if eq $actual_language .Lang }}
         <a
             href="{{ $url }}"
-            class="block bg-nav-dark font-bold px-2 py-3 mx-1 focus:bg-white focus:text-black"
+            class="block bg-nav-dark font-bold p-3 focus:bg-white focus:text-black"
             @click.prevent="switchLanguage('{{ .Lang }}')"
-            title="{{ i18n "change_language" }}"
+            title="{{ i18n "change_language_to" }}{{ .LanguageName }}"
         >
         {{ else }}
         <a
             href="{{ $url }}"
-            class="block px-2 py-3 mx-1 focus:bg-white focus:text-black"
+            class="block p-3 focus:bg-white focus:text-black"
             @click.prevent="switchLanguage('{{ .Lang }}')"
-            title="{{ i18n "change_language" }}"
+            title="{{ i18n "change_language_to" }}{{ .LanguageName }}"
         >
         {{ end }}
             {{ .LanguageName }}

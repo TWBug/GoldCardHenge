@@ -171,9 +171,8 @@ b. Definition of top executive: An individual who has served as department head 
 
 {{< accordion title="Currently or previously serving international non-governmental organization, having culture and arts portfolio with outstanding performance in addition." suffix="2." bottomless="true" >}}
 
-* Proof of serving in arts and cultural sections of an international arts NGO, together with copies of recommendation letters from the NGO.(Please refer to the UNESCO website for examples of arts NGOs:
-
-[https://en.unesco.org/partnerships/non-governmental-organizations/list?title=&field_acronym_value=&field_interest\_value=All&field\_ postal_address_country=All](https://en.unesco.org/partnerships/non-governmental-organizations/list?title=&field_acronym_value=&field_interest\_value=All&field\_ postal_address_country=All)
+* Proof of serving in arts and cultural sections of an international arts NGO, together with copies of recommendation letters from the NGO.(Please refer to the 
+[UNESCO website for examples of arts NGOs](https://en.unesco.org/partnerships/non-governmental-organizations/list?title=&field_acronym_value=&field_interest_value=All&field_postal_address_country=All))
 {{< /accordion >}}
 
 {{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="3." bottomless="true" >}}

@@ -32,8 +32,8 @@ window.highlight = {
         continue;
       }
 
-      this.replaceInDocument(this.wrapper[index], /Taiwan Employment Gold Card/g, '<span class="font-semibold">Taiwan Employment<span class="highlight">Gold Card</span></span>');
-      this.replaceInDocument(this.wrapper[index], /台灣就業金卡/g, '<span class="font-bold">台灣就業<span class="highlight">金卡</span></span>');
+      this.replaceInDocument(this.wrapper[index], /Gold Card/g, '<span class="font-bold">Gold Card</span>');
+      this.replaceInDocument(this.wrapper[index], /金卡/g, '<span class="font-bold">金卡</span>');
     }
 
     this.wrapper = this.wrapper[0]; // this.replaceInDocument(
@@ -57,9 +57,12 @@ window.highlight = {
 
       return nodes.filter(function (_ref2) {
         var nodeType = _ref2.nodeType;
+        // console.info('nodeType', nodeType);
         return nodeType === document.ELEMENT_NODE;
       }).forEach(function (textNode) {
-        textNode.innerHTML = textNode.innerHTML.replace(pattern, string);
+        textNode.innerHTML = textNode.innerHTML.replace(pattern, string); // if (textNode.nodeName === 'P' || textNode.nodeName === 'H3' || textNode.nodeName === 'H2' ) {
+        //     console.info('textNode', textNode.nodeName);
+        // }
       });
     });
   }
@@ -135,6 +138,10 @@ window.languageDetection = {
     }
   },
   redirect: function redirect(old_language) {
+    if (this.supported_languages.indexOf(old_language) === -1) {
+      old_language = this.default_language;
+    }
+
     var new_location = location.pathname.replace(old_language, this.language);
     var new_href = location.origin + new_location;
 
@@ -234,17 +241,30 @@ function handleResize() {
 
   document.documentElement.style.setProperty('--navigationScroll', "".concat(navigationScrollHeight, "px"));
   var w_aspect = Math.round(window.innerWidth / window.innerHeight * 100) / 100;
-  var home_hero = 'calc(var(--vh) * 75)';
+  var home_hero = '75vh';
+  document.documentElement.style.setProperty('--homeHeroScrollHint', 'none');
 
   if (window.innerWidth < 1024) {
-    home_hero = 'calc(var(--vh) * 100)';
+    home_hero = '100vh';
+    document.documentElement.style.setProperty('--homeHeroScrollHint', 'block');
   } else {
     if (w_aspect > 1.64) {
-      home_hero = 'calc(var(--vh) * 100)';
+      home_hero = '100vh';
+      document.documentElement.style.setProperty('--homeHeroScrollHint', 'block');
     } else if (w_aspect < 1.2) {
-      home_hero = 'calc(var(--vh) * 50)';
+      home_hero = '50vh';
     }
-  }
+  } // var home_hero = 'calc(var(--vh) * 75)';
+  // if (window.innerWidth < 1024) {
+  //     home_hero = 'calc(var(--vh) * 100)';
+  // } else {
+  //     if (w_aspect > 1.64) {
+  //         home_hero = 'calc(var(--vh) * 100)';
+  //     } else if (w_aspect < 1.2) {
+  //         home_hero = 'calc(var(--vh) * 50)';
+  //     }
+  // }
+
 
   document.documentElement.style.setProperty('--homeHero', "".concat(home_hero));
   console.info('width x height: ', window.innerWidth + ' x ' + window.innerHeight); // view port height fix for mobile browsers
@@ -422,6 +442,7 @@ window.taFilter = function () {
   return {
     initialized: false,
     filter: '',
+    is_empty: true,
     index: [],
     result: [],
     init: function init() {
@@ -435,6 +456,8 @@ window.taFilter = function () {
           _this.initialized = true;
 
           _this.resetResult();
+
+          _this.setFocus();
         })["catch"](function (error) {
           console.warn(error);
         });
@@ -446,6 +469,8 @@ window.taFilter = function () {
           _this.initialized = true;
 
           _this.resetResult();
+
+          _this.setFocus();
         })["catch"](function (error) {
           console.warn(error);
         });
@@ -453,8 +478,11 @@ window.taFilter = function () {
 
       this.$watch('filter', function (value) {
         if (value.length === 0) {
+          _this.is_empty = true;
           return _this.resetResult();
         }
+
+        _this.is_empty = false;
 
         _this.findContent();
       });
@@ -482,6 +510,13 @@ window.taFilter = function () {
         return 1;
       });
       this.result = result;
+    },
+    setFocus: function setFocus() {
+      var _this3 = this;
+
+      setTimeout(function () {
+        _this3.$refs.input.focus();
+      }, 200);
     },
     resetResult: function resetResult() {
       var result = [];
@@ -599,14 +634,21 @@ window.taLanguage = function () {
 
 window.taMap = function () {
   return {
+    status: false,
     elements: [],
     play: [],
+    // test: 'test',
     active: -1,
     modal: false,
     wrapper: {},
     data: {},
     "default": {},
+    options: {
+      ref: 'map'
+    },
     init: function init() {
+      var _this = this;
+
       var content = this.$el.querySelectorAll('.member');
 
       for (var index = 0; index < content.length; index++) {
@@ -618,7 +660,12 @@ window.taMap = function () {
       this.wrapper = {
         left: wrapper.offsetLeft,
         width: wrapper.innerWidth
-      };
+      }; // check if element is in the viewport -> start counting
+
+      window.addEventListener('scroll', function () {
+        _this.startAnimation();
+      });
+      this.startAnimation();
     },
     toggle: function toggle(index) {
       var top = this.elements[index].offsetTop;
@@ -649,6 +696,30 @@ window.taMap = function () {
       }
 
       this.active = -1;
+    },
+    startAnimation: function startAnimation() {
+      var _this2 = this;
+
+      if (this.status === false) {
+        if (this.isInViewport()) {
+          // this.test = 'in viewport';
+          this.status = true;
+          var interval = setInterval(function () {
+            _this2.$refs[_this2.options.ref].scrollLeft += 10;
+
+            if (_this2.$refs[_this2.options.ref].scrollLeft > 250) {
+              // this.test = 'done';
+              clearInterval(interval);
+            }
+          }, 40);
+        }
+      }
+    },
+    isInViewport: function isInViewport() {
+      var position = this.$refs[this.options.ref].getBoundingClientRect(); // console.info('position', position);
+      // this.test = 'check';
+
+      return position.top >= 0 && position.left >= 0 && position.bottom <= (window.innerHeight || document.documentElement.clientHeight) && position.right <= (window.innerWidth || document.documentElement.clientWidth);
     }
   };
 };
@@ -714,6 +785,11 @@ window.taNavigation = function () {
       }
 
       var scroll = document.getElementById(this["default"].initiator);
+
+      if (scroll === null) {
+        return;
+      }
+
       var scroll_top = scroll.getBoundingClientRect().top + window.scrollY; // console.info('scroll_top', scroll_top);
 
       window.addEventListener('scroll', function () {
@@ -807,49 +883,121 @@ window.taNavigation = function () {
 };
 "use strict";
 
-function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e2) { throw _e2; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e3) { didErr = true; err = _e3; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
 window.taSearch = function () {
+  // not needed min length defined in the template
+  // var is_chinese_ui = window.location.pathname.startsWith('/zh/');
   return {
     initialized: false,
+    visible: false,
     query: '',
-    is_chinese_ui: false,
+    // is_chinese_ui: false,
     has_chinese_characters: false,
     result: [],
     active: -1,
+    trigger: '',
     is_dirty: false,
     is_enough: false,
+    is_empty: true,
     has_results: false,
     excerpt_length: 200,
-    minimum_length: 3,
+    // not needed min length defined in the template
+    // minimum_length: is_chinese_ui ? 2 : 3,
     highlight: true,
-    highlight_class: 'inline-block font-semibold bg-highlight text-black',
+    highlight_style: 'font-weight:bold;',
+    options: {
+      file: '',
+      excerpt_length: 200,
+      minimum_length: 3
+    },
     init: function init() {
       var _this = this;
 
+      var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+      if (typeof options !== 'undefined') {
+        if (_typeof(options) !== 'object' || options instanceof Array) {
+          console.warn('Options are in wrong type - should be object - options been used');
+        }
+
+        for (var _i = 0, _Object$entries = Object.entries(options); _i < _Object$entries.length; _i++) {
+          var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+              key = _Object$entries$_i[0],
+              value = _Object$entries$_i[1];
+
+          this.options[key] = value;
+        }
+      } // checks if options are defined by data
+
+
+      for (var _i2 = 0, _Object$entries2 = Object.entries(this.$el.dataset); _i2 < _Object$entries2.length; _i2++) {
+        var _Object$entries2$_i = _slicedToArray(_Object$entries2[_i2], 2),
+            _key = _Object$entries2$_i[0],
+            _value = _Object$entries2$_i[1];
+
+        if (typeof this.options[_key] !== 'undefined') {
+          if (isNaN(_value)) {
+            this.options[_key] = _value;
+          } else {
+            this.options[_key] = parseInt(_value);
+          }
+        }
+      }
+
       var _console = console,
           assert = _console.assert;
-      assert(window.lunr, 'Lunr.js not found. Search cannot be supported without Lunr.js.');
-      this.is_chinese_ui = window.location.pathname.startsWith('/zh/');
+      assert(window.lunr, 'Lunr.js not found. Search cannot be supported without Lunr.js.'); // not needed min length defined in the template
+      // this.is_chinese_ui = is_chinese_ui;
+
       this.loadIndex();
       this.initLunr();
+      this.$watch('visible', function (value) {
+        if (value === true) {
+          setTimeout(function () {
+            _this.$refs.input.focus();
+          }, 300);
+        }
+      });
+      window.addEventListener('ta-search-show', function (event) {
+        _this.visible = true;
+        _this.trigger = event.detail;
+        setTimeout(function () {
+          _this.$refs.input.focus();
+        }, 300);
+      });
       this.$watch('query', function (value) {
-        if (value.length === 0) {
+        _this.query = value.replace(/(<([^>]+)>)/gi, '');
+
+        if (_this.query.length === 0) {
           _this.reset();
 
           return;
         }
 
-        if (value.length >= _this.minimum_length) {
-          _this.is_enough = true;
-        } else {
-          _this.is_enough = false;
+        _this.is_empty = false;
+
+        if (_this.query.length < _this.options.minimum_length) {
+          _this.reset(false);
+
+          return;
         }
 
+        _this.is_enough = true;
         _this.is_dirty = true;
 
         _this.search(_this.query);
@@ -859,9 +1007,13 @@ window.taSearch = function () {
       var query = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : true;
       this.result = [];
       this.has_results = false;
+      this.is_enough = false;
       this.active = -1;
+      this.is_dirty = false;
 
       if (query === true) {
+        this.$refs.input.focus();
+        this.is_empty = true;
         this.query = '';
       }
     },
@@ -883,11 +1035,49 @@ window.taSearch = function () {
       var url = this.result[this.active].href;
       location.href = url;
     },
+    esc: function esc() {
+      if (this.query.length < 1) {
+        this.visible = false;
+        this.eventSearchHide();
+      }
+
+      this.reset();
+    },
+    away: function away() {
+      if (this.initialized === true && this.visible === true) {
+        this.visible = false;
+        this.eventSearchHide();
+      }
+    },
+    show: function show(details) {
+      var _this2 = this;
+
+      this.visible = true;
+      this.trigger = details;
+      setTimeout(function () {
+        _this2.$refs.input.focus();
+      }, 300);
+    },
+    hide: function hide() {
+      this.reset(true);
+      this.visible = false;
+      this.eventSearchHide();
+    },
+    eventSearchHide: function eventSearchHide() {
+      var _this3 = this;
+
+      setTimeout(function () {
+        var event = new CustomEvent('ta-search-hide', {
+          detail: _this3.trigger
+        });
+        window.dispatchEvent(event);
+      }, 300);
+    },
     excerpt: function excerpt(string) {
       var length = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
 
       if (length === 0) {
-        length = this.excerpt_length;
+        length = this.options.excerpt_length;
       }
 
       var string_lower = string.toLowerCase();
@@ -918,7 +1108,7 @@ window.taSearch = function () {
       }
 
       var regex = new RegExp(this.query, 'gi');
-      return string.replaceAll(regex, '<span class="' + this.highlight_class + '">' + query + '</span>');
+      return string.replaceAll(regex, '<span style="' + this.highlight_style + '">' + query + '</span>');
     },
     initLunr: function initLunr() {
       // Set up support for chinese
@@ -939,11 +1129,11 @@ window.taSearch = function () {
       window.lunr.Pipeline.registerFunction(lunr.zh.trimmer, 'trimmer-zh');
     },
     loadIndex: function loadIndex() {
-      var _this2 = this;
+      var _this4 = this;
 
       // console.log('[TA-SEARCH] Lunr index loading:', this.$el.dataset.file);
       // First retrieve the index file
-      fetch(this.$el.dataset.file).then(function (x) {
+      fetch(this.options.file).then(function (x) {
         return x.json();
       }).then(function (index) {
         window.lunrPages = index; // Set up lunrjs by declaring the fields we use
@@ -983,13 +1173,13 @@ window.taSearch = function () {
             _iterator.f();
           }
         });
-        _this2.initialized = true;
+        _this4.initialized = true;
       })["catch"](function (err) {
         console.error('Error getting Hugo index file:', err.message);
       });
     },
     search: function search(query) {
-      if (query.length < 3) {
+      if (query.length < this.minimum_length) {
         this.reset(false);
         return false;
       }
@@ -999,13 +1189,35 @@ window.taSearch = function () {
           return page.href === result.ref;
         });
       });
-      this.result = this.result.slice(0, 8);
+      this.result = this.result.slice(0, 10);
 
       if (this.result.length > 0) {
         this.has_results = true;
       } else {
         this.has_results = false;
       }
+    }
+  };
+};
+
+window.taSearchTrigger = function () {
+  return {
+    trigger: '',
+    show: function show() {
+      var event = new CustomEvent('ta-search-show', {
+        detail: this.trigger
+      });
+      window.dispatchEvent(event);
+    },
+    init: function init(trigger) {
+      var _this5 = this;
+
+      this.trigger = trigger;
+      window.addEventListener('ta-search-hide', function (event) {
+        if (event.detail === _this5.trigger) {
+          _this5.$el.focus();
+        }
+      });
     }
   };
 };
@@ -1250,24 +1462,26 @@ window.taWelcome = function () {
 window.taAccordion = function () {
   return {
     show: false,
+    link: '',
     "default": {},
-    init: function init(tags) {
-      if (typeof this.$store === 'undefined') {
-        return false;
-      }
-
-      if (typeof this.$store.filter === 'undefined') {
-        return false;
-      }
-
-      var id = this.$el.id;
-      this.$store.filter.faqs[id] = {
-        active: true,
-        tags: tags
-      };
+    init: function init(tags) {// if (typeof this.$store === 'undefined') {
+      //     return false;
+      // }
+      // if (typeof this.$store.filter === 'undefined') {
+      //     return false;
+      // }
+      // const id = this.$el.id;
+      // this.$store.filter.faqs[id] = {
+      //     active: true,
+      //     tags: tags,
+      // };
     },
     toggle: function toggle() {
       this.show = !this.show;
+
+      if (document.activeElement === this.$refs.button) {
+        this.link = this.$refs.link.value;
+      }
     }
   };
 };
@@ -1363,13 +1577,28 @@ window.onload = function () {
 };
 "use strict";
 
-Spruce.store('filter', {
-  faqs: {},
-  empty: false,
-  log: function log() {
-    console.info('faqs', this.faqs);
-  }
-}, false);
+// Spruce.store(
+//     'filter',
+//     {
+//         faqs: {},
+//         empty: false,
+//         log() {
+//             console.info('filter:faqs', this.faqs);
+//         },
+//     },
+//     false
+// );
+// Spruce.store(
+//     'search',
+//     {
+//         show: false,
+//         log() {
+//             console.info('search:show', this.show);
+//         },
+//     },
+//     false
+// );
+// Spruce.watch('search.show', value => console.log('Spruce.watch', value))
 window.languageDetection.init();
 window.highlight.replace();
 window.linksTargetBlank.replace();

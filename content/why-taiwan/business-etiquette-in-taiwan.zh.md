@@ -1,5 +1,6 @@
 ---
 title: 臺灣商務禮儀
+date: 2020-12-10T07:41:05.093Z
 draft: false
 topic: whytaiwan
 cover_image: /cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
@@ -9,6 +10,9 @@ topics:
 style: right
 ---
 # 臺灣商務禮儀
+
+台灣人是很注重禮節的，人們都很講究社交禮儀。無論見面、會友，還是交際、拜訪，在言行舉止方面，他們特別注意尊重他人。
+下面介紹的是台灣基本的商務禮儀：
 
 {{< base >}}
 問候
@@ -29,8 +33,12 @@ style: right
 3. 決策是集體做出的，談判可能是一段漫長的過程。一旦決定下來，有時可以很快達成協議。
 4. 「關係」指的是人際關係，「關係」對臺灣的商業成功至關重要。臺灣商人在與你做生意之前，會想親自瞭解你。
 
-{{< card title="undefined" link="" image="/cms-uploads/meeting.jpg" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/greetings.png" >}}
+問候
+{{< /card >}}
 
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/exchange-business-cards.png" >}}
+交換名片
 {{< /card >}}
 
 {{< base >}}
@@ -57,7 +65,15 @@ style: right
 
 1. 臺灣人注重衣著整潔、保守。男性傾向穿西裝。女性穿著保守的商務正裝，比如寬鬆的裙子和襯衫。
 2. 留下好的第一印象是至關重要的。第一次見面時避免穿T恤、牛仔褲和其他休閒裝。
-3. 即使你參加的是一場休閒活動，也要穿著端莊。你的衣服應該整潔、乾淨、不沾污漬。
+3. 即使你參加的是一場休閒活動，也要穿著端莊。你的衣服應該整潔、乾淨、不沾污漬
+
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/dining-and-entertainment.png" >}}
+餐飲和娛樂
+{{< /card >}}
+
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/fashion.png" >}}
+穿著
+{{< /card >}}
 
 {{< base >}}
 送禮
@@ -83,3 +99,11 @@ style: right
 9. 雙手接受食物和其他物品以表示尊重。
 10. 如果你受到稱讚，要表現出謙虛態度。
 11. 因為家庭是臺灣文化的核心，所以詢問某人的家庭是禮貌的。
+
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/gifts.png" >}}
+送禮
+{{< /card >}}
+
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/body-language.png" >}}
+身體語言
+{{< /card >}}

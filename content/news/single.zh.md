@@ -9,6 +9,8 @@ media_image: ""
 media_image_alt: ""
 topic: eventsnews
 tags: null
+categories:
+  - Announcement
 publishDate: 2020-11-05T07:09:20.617Z
 ---
 # 就業金卡最新核發數字: 1,367!

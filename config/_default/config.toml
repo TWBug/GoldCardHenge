@@ -6,7 +6,7 @@ copyright = "Taiwan Employment Gold Card Office"
 defaultContentLanguageInSubdir = true
 disableAliases = true
 disableHugoGeneratorInject = false
-disableKinds = ["404", "RSS"]
+disableKinds = ["RSS"]
 disableLanguages = []
 enableInlineShortcodes = true
 ignoreErrors = ["error-disable-taxonomy"]
@@ -29,7 +29,7 @@ title = "Taiwan Gold Card"
 weight = 1
 [languages.en.params]
 linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
-apply = "https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card?lang=en"
+apply = "https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/main?lang=en"
 phone = "+886 2-7733-7660"
 email = "help@taiwangoldcard.tw"
 

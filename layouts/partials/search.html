@@ -1,0 +1,101 @@
+{{ $minimum := "3" }}
+{{ if eq .Site.Language.Lang "zh" }}
+{{ $minimum = "2" }}
+{{ end }}
+
+<div class="flex" x-data ="taSearch()" x-init="init()" data-file="/{{ .Site.Language.Lang}}/search.json" data-minimum_length="{{ $minimum }}">
+<div
+    class="fixed inset-0 w-full h-full max-h-screen flex justify-center items-start backdrop-blur-3 bg-white bg-opacity-75 p-4 lg:p-32 z-50"
+    x-show="visible"
+    x-cloak
+>
+    <div
+        class="relative flex flex-col text-gray-900 w-full lg:w-2/3 xxl:w-1/2 border-2 border-gray-200 bg-gradient-to-b from-white to-gray-100 rounded shadow-xl"
+        :class="{'h-full':has_results }"
+        @click.away.prevent="away()"
+        x-show="visible"
+        x-transition:enter="transition transform ease-out duration-200"
+        x-transition:enter-start="opacity-0 scale-90"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="transition transform ease-in duration-100"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0 scale-90"
+    >
+        <form class="p-4">
+            <button
+                type="button"
+                class="absolute top-0 right-0 flex-center bg-primary text-white rounded-full w-10 h-10 p-2 -mr-2 -mt-2 shadow-md focus-primary"
+                @click.prevent="hide()"
+            >
+                {{ partial "icon" (dict "name" "times" "size" "6" "alt" "close") }}
+            </button>
+
+            <div
+                class="flex justify-between items-center bg-white border-2 border-gray-200 rounded-xl overflow-hidden focus-within:border-2 focus-within:border-primary focus-within:border-dashed mr-12"
+            >
+                <label for="search" class="text-secondary pl-4">
+                    {{ partial "icon" (dict "name" "search" "size" "6" "alt" (i18n "placeholder_search")) }}
+                </label>
+                <input 
+                    data-cy="search-box"
+                    type="text" 
+                    id="search" 
+                    class="flex-grow placeholder-gray-400 text-lg font-medium w-full px-4 py-4" 
+                    placeholder="{{ i18n "placeholder_search" }}"
+                    x-ref="input"
+                    x-model.debounce.250="query"
+                    x-on:keydown.escape.prevent="esc()"
+                    x-on:keydown.arrow-down.prevent="down()"
+                    x-on:keydown.arrow-up.prevent="up()"
+                    x-on:keydown.enter.prevent="enter()"
+                />
+                <button
+                    type="button"
+                    class="text-primary px-2 py-1 mr-2 focus-primary"
+                    @click.prevent="reset()"
+                    x-show="!is_empty"
+                >
+                    {{ partial "icon" (dict "name" "times" "size" "6" "alt" (i18n "reset_filter")) }}
+                </button>
+            </div>
+        </form>
+        <template x-if="has_results" >
+            <div class="px-4 pb-4 overflow-y-auto">
+                <template x-for="(item, key) in result" :key="key">
+                    <a
+                        :href="item.href"
+                        class="block focus-primary p-1 my-4"
+                        :class="{'outline-primary': active == key}"
+                    >
+                        <span
+                            class="block text-base text-primary font-medium"
+                            x-html="replace(item.title)"
+                        ></span>
+                        <span class="block text-xs" x-html="excerpt(item.content)"></span>
+                    </a>
+                </template>
+            </div>
+        </template>
+        <template x-if="!is_enough">
+            <div class="w-full pl-4 pb-4">
+                <div class="flex items-center text-base font-semibold text-secondary">
+                    {{ partial "icon" (dict "name" "exclamation" "size" "4" "alt" (i18n "reset_filter")) }}
+                    <span class="ml-2">
+                        {{ printf (i18n "search_minimum") $minimum }}
+                    </span>
+                </div>
+            </div>
+        </template>
+        <template x-if="!has_results && is_dirty && is_enough">
+            <div class="w-full pl-4 pb-4">
+                <div class="flex items-center text-base font-semibold text-secondary">
+                    {{ partial "icon" (dict "name" "exclamation" "size" "4" "alt" (i18n "reset_filter")) }}
+                    <span class="ml-2">
+                        {{ i18n "search_no_results" }}
+                    </span>
+                </div>
+            </div>
+        </template>
+    </div>
+</div>
+</div>

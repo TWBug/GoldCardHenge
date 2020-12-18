@@ -23,7 +23,7 @@
             loading="lazy"
             alt="{{ .Summary | humanize }}" class="block w-full h-full object-cover object-left-bottom">
         </div>
-        <div class="absolute right-0 bottom-0 w-full sm:w-2/3 xxl:w-1/2 h-2/3">
+        <div class="absolute right-0 bottom-0 flex-center w-full sm:w-2/3 xxl:w-1/2 h-full sm:h-2/3">
             <div class="w-full lg:w-5/6 p-12">
                 <div class="mb-1">
                     <h1 class="flex flex-col items-start leading-snug">
@@ -36,32 +36,42 @@
                     </h1>
                 </div>
                 <div class="mt-12 -ml-2">
-                    <a
-                        href="{{ .Site.Language.Params.apply}}"
-                        class="inline-flex items-center border-2 border-primary bg-primary rounded font-bold text-white text-lg px-4 py-2 focus-white shadow-lg"
-                        target="_blank"
-                    >
-                        <span class="mr-2">
-                            {{ i18n "apply_now" }}
-                        </span>
-                        {{ partial "icon" (dict "name" "angle-right" "size" "8") }}
-                    </a>
                     {{ range $hero.Params.links }}
                     {{ $page := $.Site.GetPage .href }}
                     {{ if $page }}
+                        {{ if .is_cta }}
+                        <a
+                            href="{{ $page.RelPermalink }}"
+                            class="inline-flex items-center border-2 border-primary bg-primary rounded font-bold text-white text-lg px-4 py-2 focus-white shadow-lg"
+                        >
+                            <span class="mr-2">
+                                {{ .label }}
+                            </span>
+                            {{ partial "icon" (dict "name" "angle-right" "size" "8") }}
+                        </a>
+                        {{ else }}
                         <a
                             href="{{ $page.RelPermalink }}"
                             class="inline-flex items-center bg-white rounded font-bold text-primary text-base px-4 py-2 ml-6 focus-white shadow-lg"
                         >
-                        <span class="mr-2">
-                            {{ .label }}
-                        </span>
-                        {{ partial "icon" (dict "name" "question" "size" "4") }}
+                            <span class="mr-2">
+                                {{ .label }}
+                            </span>
+                            {{ partial "icon" (dict "name" "question" "size" "4") }}
                         </a>
+                        {{ end }}
                     {{ end }}
                     {{ end }}
                     
                 </div>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            {{/*  <div class="w-full lg:w-2/3 xl:w-1/2 mx-auto -mb-px">
+                <svg viewBox="0 0 698 64" class="w-full" xmlns="http://www.w3.org/2000/svg"><g fill="#005E9E"><path d="m125.5 63.3043h472.5s-120-61.30419-219-62.8043-253.5 62.8043-253.5 62.8043z" fill-opacity=".6"/><path d="m60 45.9257-60 17.3785h698s-136-48.8041-256.5-48.8042c-120.5 0-274.715-2.9549-381.5 31.4257z" fill-opacity=".4"/></g></svg>
+            </div>  */}}
+            <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex-center text-white opacity-50 mb-2">
+                {{ partial "icon" (dict "name" "angle-down" "size" "20") }}
             </div>
         </div>
     </div>

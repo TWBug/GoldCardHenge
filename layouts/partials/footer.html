@@ -113,27 +113,44 @@
                     </ul>
                 </div>
                 <div class="">
-                    <h4 class="font-semibold uppercase text-sm mb-1">{{ i18n "sections" }}</h4>
+                    <h4 class="font-semibold uppercase text-sm mb-1">
+                        {{ $whytaiwan := .Site.GetPage "/why-taiwan" }}
+                        <a href="{{ $whytaiwan.RelPermalink }}" class="focus-white">
+                            {{ i18n "why_taiwan" }}
+                        </a>
+                    </h4>
                     <ul class="flex flex-wrap items-center mb-4 -ml-2">
-                        {{ range sort .Site.Sections ".Title" "asc" }}
+                        {{ range .Site.Taxonomies.topics }}
                         <li>
-                            <a href="{{ .RelPermalink }}" class="inline-block px-2 py-1 focus-white">{{ .Title }}</a>
+                            <a href="{{ .Page.Permalink }}" class="inline-block px-2 py-1 focus-white">
+                            {{ if i18n (.Page.Title | anchorize) }}
+                            {{ i18n (.Page.Title | anchorize) }}
+                            {{ else }}
+                            {{ .Page.Title | humanize }}
+                            {{ end }}
+                            </a>
                         </li>
                         {{ end }}
                     </ul>
-                    <h4 class="font-semibold uppercase text-sm mb-1">
-                        {{ i18n "resources" }}
-                    </h4>
-                    <ul class="flex flex-wrap items-center -ml-2">
-                    {{ range $resources_links }}
-                    {{ with $.Site.GetPage .link }}
-                    <li>
-                        <a href="{{ .RelPermalink }}" class="inline-block px-2 py-1 focus-white">
-                            {{ .Title }}
-                        </a>
-                    </li>
-                    {{ end }}
-                    {{ end }}
+                    <h4 class="font-semibold uppercase text-sm mb-1">{{ i18n "sections" }}</h4>
+                    <ul class="flex flex-wrap items-center mb-4 -ml-2">
+                        {{ $events := .Site.GetPage "/events" }}
+                        <li>
+                            <a href="{{ $events.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
+                                {{ $events.Title }}
+                            </a>
+                        </li>
+                        {{ $news := .Site.GetPage "/news" }}
+                        <li>
+                            <a href="{{ $news.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
+                                {{ $news.Title }}
+                            </a>
+                        </li>
+                        {{/*  {{ range sort .Site.Sections ".Title" "asc" }}
+                        <li>
+                            <a href="{{ .RelPermalink }}" class="inline-block px-2 py-1 focus-white">{{ .Title }}</a>
+                        </li>
+                        {{ end }}  */}}
                     </ul>
                 </div>
                 <div class="">
@@ -152,23 +169,18 @@
                         {{ end }}
                     </ul>
                     <h4 class="font-semibold uppercase text-sm mb-1">
-                        {{ $whytaiwan := .Site.GetPage "/why-taiwan" }}
-                        <a href="{{ $whytaiwan.RelPermalink }}" class="focus-white">
-                            {{ i18n "why_taiwan" }}
-                        </a>
+                        {{ i18n "resources" }}
                     </h4>
                     <ul class="flex flex-wrap items-center -ml-2">
-                        {{ range .Site.Taxonomies.topics }}
-                        <li>
-                            <a href="{{ .Page.Permalink }}" class="inline-block px-2 py-1 focus-white">
-                            {{ if i18n (.Page.Title | anchorize) }}
-                            {{ i18n (.Page.Title | anchorize) }}
-                            {{ else }}
-                            {{ .Page.Title | humanize }}
-                            {{ end }}
-                            </a>
-                        </li>
-                        {{ end }}
+                    {{ range $resources_links }}
+                    {{ with $.Site.GetPage .link }}
+                    <li>
+                        <a href="{{ .RelPermalink }}" class="inline-block px-2 py-1 focus-white">
+                            {{ .Title }}
+                        </a>
+                    </li>
+                    {{ end }}
+                    {{ end }}
                     </ul>
                     
                 </div>
@@ -196,7 +208,7 @@
     </div>
 </div>
 <div class="bg-secondary-dark print:bg-white">
-    <div class="container text-center py-6 px-12 lg:px-24">
+    <div class="container text-center pt-8 pb-16 sm:py-6 px-12 lg:px-24">
         <p class="text-white print:text-black text-xs font-semibold">
             © {{ now.Format "2006"}} - {{ i18n "footer_copyright" }}
         </p>

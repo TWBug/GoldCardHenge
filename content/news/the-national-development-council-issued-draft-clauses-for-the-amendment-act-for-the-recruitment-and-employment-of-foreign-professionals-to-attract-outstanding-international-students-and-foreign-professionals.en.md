@@ -5,6 +5,8 @@ title: " The National Development Council issued draft clauses for the Amendment
 date: 2020-09-18T05:00:23.117Z
 draft: false
 hidden: false
+categories:
+  - Gold Card Policy
 ---
 # National Development Council News Release
 

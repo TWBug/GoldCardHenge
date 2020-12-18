@@ -204,7 +204,7 @@ collections:
       preview_path: en/related-websites/{{slug}}
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-          - { label: 'Link', name: 'link', widget: 'string', i18n: duplicate }
+          - { label: 'Link', name: 'link', widget: 'string', i18n: true }
           - label: 'Social Links'
             name: 'social_links'
             widget: 'object'
@@ -603,6 +603,13 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Navigation',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'goldcard',
+                i18n: duplicate,
+            }
           - label: 'Tags'
             name: 'tags'
             widget: 'relation'

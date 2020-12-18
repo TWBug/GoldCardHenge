@@ -1,8 +1,8 @@
 ---
 title: Choose your field
 summary: Professionals from eight different industries are eligible to apply for
-  the Gold Card program. Click on your area of expertise and find out if you are
-  qualified!
+  the Gold Card program. Click on the different areas of expertise and find out
+  if you are qualified! However,  note that you may only apply under one field.
 draft: false
 hidden: false
 headless: true
@@ -33,5 +33,6 @@ items:
     label: Sports
     href: /qualification/field-of-sport
 ---
-
-The text here should answer the question what are these buttons below and why the visitor should click on it and of course whats the benefit behind these this links.
+{{< base >}}
+You may also try the [Gold Card Qualification Check](https://visafinder.tw/gold-card-qualification/) to see which criteria you can consider in your application.
+{{< /base >}}

@@ -1,8 +1,9 @@
-<nav><div class="relative hidden lg:block bg-nav-meta text-xs text-white font-semibold print:hidden z-10">
-    <div class="max-w-screen-xl mx-auto flex items-center justify-between px-8">
-        {{ partial "navigation/meta" . }}
+<nav>
+    <div class="relative hidden lg:block bg-nav-meta text-xs text-white font-semibold print:hidden z-10">
+        <div class="max-w-screen-xl mx-auto flex items-center justify-between px-8">
+            {{ partial "navigation/meta" . }}
+        </div>
     </div>
-</div>
 {{ if eq .Page.IsHome true }}
 <div class="relative bg-nav-meta bg-opacity-50 print:bg-none print:bg-white z-10" x-data="taNavigation()" x-init="init()">
 {{ else }}
@@ -14,7 +15,7 @@
     <div id="navigationModal" class="fixed inset-0 text-white print:text-black z-50" x-show="modal" x-cloak>
         {{ partial "navigation/modal" . }}
     </div>
-    <div id="navigationScroll" class="fixed inset-x-0 top-0 bg-nav-dark bg-opacity-75 backdrop-blur-3 text-white shadow-xl pl-4 pr-8" x-show="scroll" 
+    <div id="navigationScroll" class="fixed inset-x-0 top-0 bg-nav-dark bg-opacity-75 backdrop-blur-3 text-white shadow-xl px-4" x-show="scroll" 
         x-transition:enter="transition transform ease-out duration-200"
         x-transition:enter-start="opacity-0 -translate-y-10"
         x-transition:enter-end="opacity-100"

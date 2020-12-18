@@ -1,6 +1,6 @@
 ---
-title: EZ Work Taiwan
-link: https://ezworktaiwan.wda.gov.tw/Default.aspx
+title: 5. EZ Work Taiwan
+link: https://ezworktaiwan.wda.gov.tw/en/
 cover_image: /cms-uploads/未命名-1-03.jpg
 cover_image_alt: ezworktaiwan
 draft: false

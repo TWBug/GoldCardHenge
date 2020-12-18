@@ -9,7 +9,7 @@ headless: true
 links:
   - is_cta: true
     label: Read More
-    href: /en/about/
+    href: /en/gold-card-office/
     new_window: false
 items:
   - preview: /cms-uploads/taiwan-employment-gold-card-office.jpg

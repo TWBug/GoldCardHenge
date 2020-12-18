@@ -19,9 +19,9 @@
 
 {{ $back := .Parent }}
 {{ if .Params.tags }}
-{{ $tag := index .Params.tags 0 }}
+{{ $tag := index .Params.tags 0 | anchorize }}
 {{ if $tag }}
-{{ $back = .Site.GetPage (printf "/tags/%s" (index .Params.tags 0)) }}
+{{ $back = .Site.GetPage (printf "/tags/%s" $tag) }}
 {{ end }}
 {{ end }}
 
@@ -30,7 +30,7 @@
 </div>
 <div class="relative flex-grow pt-24">
     <div
-        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-transparent -z-1"
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-white -z-1"
     ></div>
     {{ if .Site.IsServer }}
     <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2 z-1">SINGLE TEMPLATE - STYLE: {{ $style }}</div>

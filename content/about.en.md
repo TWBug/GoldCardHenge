@@ -50,7 +50,7 @@ A perfect application takes 30-days. However, if additional supporting documents
 * [Law](/en/qualification/field-of-law/)(Ministry of Justice)
 * [Architecture](/en/qualification/field-of-architecture/)(Ministry of the Interior)
 
-## [](/en/qualification/field-of-sport/)[](https://staging.taiwangoldcard.tw/en/qualification/field-of-sport/)Benefits in Summary
+## Benefits in Summary
 
 1. The card is an open-end work permit issued to employment-seeking individuals that require neither pre-confirmed hiring by or application through any employer.
 2. There are income tax benefits in terms of income tax deduction and exemption. 
