@@ -178,6 +178,8 @@ cover_image_alt: null
 
 若因資料不符或欠缺者，經郵件通知後須於30日內補正；若申請資料須至境外申請，補正期間為6個月。[屆期未補正或補正不完全者，駁回申請](https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0080204&flno=4)。
 
+## 註：
+
 {{< note title="1" >}}
 境內申請注意事項
 
