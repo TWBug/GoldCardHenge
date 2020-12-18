@@ -7,8 +7,12 @@ headless: true
 links:
   - is_cta: true
     new_window: false
-    label: 了解申請流程
+    label: 申請流程
     href: /application
+  - is_cta: false
+    new_window: false
+    label: 就業金卡
+    href: /about
 items:
   - is_cta: false
     label: Next Stop, Taiwan!
