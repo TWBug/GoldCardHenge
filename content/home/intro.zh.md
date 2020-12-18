@@ -4,11 +4,7 @@ summary: 為吸引外國專業人才來台留台，建構更友善之工作及�
 draft: false
 hidden: false
 headless: true
-links:
-  - is_cta: false
-    label: 了解更多
-    href: /zh/about
-    new_window: false
+links: []
 items:
   - is_cta: false
     label: 申請流程
