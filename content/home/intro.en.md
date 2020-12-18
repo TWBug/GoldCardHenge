@@ -6,7 +6,7 @@ summary: In 2019, the Expat Insider named Taiwan the happiest country in East
   out more about the fantastic benefits and why it's called a 4-1 Visa.
 links: []
 items:
-  - label: Application Process
+  - label: 提供持卡者開放式的個人工作許可，提供渠等自由尋職、工作、技術指導、演講、兼職及轉換工作之便利性。
     href: ""
     preview: ""
   - label: News
