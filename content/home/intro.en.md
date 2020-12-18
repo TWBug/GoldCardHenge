@@ -6,16 +6,18 @@ summary: In 2019, the Expat Insider named Taiwan the happiest country in East
   out more about the fantastic benefits and why it's called a 4-1 Visa.
 links: []
 items:
-  - label: 提供持卡者開放式的個人工作許可，提供渠等自由尋職、工作、技術指導、演講、兼職及轉換工作之便利性
+  - label: An open-end work permit issued to employment-seeking individuals
     href: ""
     preview: ""
-  - label: 享有所得稅優惠
+  - label: Income tax benefits in terms of income tax deduction and exemption.
     href: ""
     preview: ""
-  - label: " 直系尊親屬探親簽證停留期間放寬為最長1年"
+  - label: Lineal relatives can apply for visitor visas with a maximum stay of up to
+      one year.
     href: ""
     preview: ""
-  - label: 就業金卡持有人之配偶及未成年子女得申請依親在臺居留
-  - label: 放寬健保限制
+  - label: Spouses and children can apply for residency in Taiwan as well.
+  - label: Employment Gold Card Holders are eligible for the National Health
+      Insurance.
 ---
 <!-- This text will never be seen -->
