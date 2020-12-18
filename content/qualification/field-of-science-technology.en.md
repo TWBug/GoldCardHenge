@@ -1,18 +1,18 @@
 ---
-media_image: img/uploads/taiwan-culture.jpg
+title: Field of Science & Technology
 summary: Those with outstanding achievements in R&D, design or innovation,
   international awards, or national academy membership, in such cutting-edge
   technological fields as software applications, nanotechnology,
   optoelectronics, ICT, biotechnology, AI, and IoT.
 draft: false
+cover_image: ""
+media_image: ""
 media_image_alt: Test alt
 date: 2020-11-05T07:09:20.617Z
 topic: goldcard
-title: Field of Science & Technology
-icon: /cms-uploads/icon-science-technology.svg
-tags: null
 style: right
-cover_image: img/uploads/dummy-image.jpg
+tags: null
+icon: /cms-uploads/icon-science-technology.svg
 image: img/uploads/dummy-image.jpg
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: Test alt
