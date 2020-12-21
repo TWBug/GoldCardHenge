@@ -180,7 +180,7 @@ If you enter the Taiwanese address in Chinese, the format needs to be only Chine
 * Correct：台北市中正區寶慶路3號2樓
 {{< /note >}}
 
-{{< note title="undefined" >}}
+{{< note title="2" >}}
 * The uploaded passport copy must be the same as the passport used for the visa application.
 * Provide and upload supporting documentation as closely as possible with the proposed specifications to ensure a speedy application. If you are required to send in more supporting documents, the processing time can extend by many weeks to over a month.
 {{< /note >}}
