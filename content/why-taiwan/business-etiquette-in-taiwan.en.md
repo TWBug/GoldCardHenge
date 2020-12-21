@@ -49,7 +49,7 @@ Dining and Entertainment
 3. Be sure to arrive on time or early for a banquet.
 4. Do not discuss business at dinner unless your hosts bring it up.
 5. Toasting is common and is often made before and during meals.
-6. Toasting is done with wine or liquor. The host begins by raising their glass with two hands, with one handsupporting the bottom of the glass.
+6. Toasting is done with wine or liquor. The host begins by raising their glass with two hands, with one hand supporting the bottom of the glass.
 7. If your Taiwan host wishes to toast with you and passes you an empty glass, rest assured that it will be filled by one of the hosts. You are expected to toast your host and drink the contents of the glass.
 8. The guest of honor is the first to sample any dish brought to the table. Be sure to taste the food immediately as everyone else will wait for you to finish before they eat.
 9. The host will place food on the guests' plates. Each person can help themselves to any additional food by placing a small amount of food from a variety of dishes into their individual rice bowl.
