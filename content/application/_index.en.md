@@ -53,40 +53,22 @@ Fill in your information / Passport & Visa Status
 * If you are applying from abroad or are in Taiwan on a visitor-visa, visa-free, or a non-extendable visa, your passport needs to be inspected. An extra page will appear during the application process, where you can choose the location. If you are in Taiwan, please go to the Bureau of Consular Affairs (Central, Southern, Eastern, Yunlin, Jiayi, and Tainan branches). **In response to the COVID-19 pandemic, some foreign agencies might be closed and only accept passports by post.**
 * The application can take over 30 business days assuming you have all the proper documentation submitted. If you hold a visa less than 60-days or are visa-free, or you cannot obtain the Taiwan Employment Gold Card within the time limit, you will still need to leave the country and re-enter.
 
-{{< teaser prefix="3." >}}
-Basic Data / Passport Data
-{{< /teaser >}}
-
+{{< accordion title="Application Details" suffix="" bottomless="false" >}}
+1. Basic Data / Passport Data
 * After entering the application page, please fill out your information. All fields with an asterisk are mandatory. Please make sure that the English name is the same as the passport used to enter Taiwan. 
 * You can save the filled out information at any time, come back to it later, and change before sending it.
-
-{{< teaser prefix="4." >}}
-Resident
-{{< /teaser >}}
-
+2. Resident
 * Choose your validity period for the Taiwan Employment Gold Card. There are different validation periods: One, Two, or Three years. Please choose according to your needs. The price of the application varies for longer validity periods.
 * If you don't have any specific plans, we recommend choosing a longer validity period. If you want to extend at the end of your validity period, you will have to submit another application. Extensions are not possible.
 * Please choose the preferred location for collecting your Gold Card. If you are in Taiwan, please select your nearest Immigration Bureau. If you are abroad, select the nearest ROC agency. **Due to COVID-19, many ROC agencies are temporarily closed. If so, please contact the Ministry of Foreign Affairs to change the pick-up location.**
 * The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. You may enter the country on a temporary certificate and collect the card after you arrive. For detailed instructions to pick up your Gold Card, please refer to Step 3.
-* If you currently don't have a work address, you can temporarily leave it out during the application and review stage. You may leave your Taiwan relative/friend’s resident address if you have no residence address. However, you must provide a residential address within 30 days of arriving in Taiwan. 
-
-{{< base >}}
-Note: 
-
-If you enter the Taiwanese address in Chinese, the format needs to be only Chinese symbols and Arabic numerals only; no English letters allowed.
-
-* Incorrect：台北市中正區寶慶路No. 3, 2F
-* Correct：台北市中正區寶慶路3號2樓
-{{< /base >}}
-
-{{< teaser prefix="5." >}}
-Profession
-{{< /teaser >}}
-
+* If you currently don't have a work address, you can temporarily leave it out during the application and review stage. You may leave your Taiwan relative/friend’s resident address if you have no residence address. However, you must provide a residential address within 30 days of arriving in Taiwan. Note5
+3. Profession
 * Please select the industry that you want to apply through. Please attach all relevant supporting documents. Click save after double-checking and uploading the files.
-* After you submit your application, changing the industry can take time for processing, and add to the overall review. 
+* After you submit your application, changing the industry can take time for processing, and add to the overall review.
+{{< /accordion >}}
 
-{{< teaser prefix="6." >}}
+{{< teaser prefix="3." >}}
 Upload Document
 {{< /teaser >}}
 
@@ -106,7 +88,7 @@ Notes:
 * Provide and upload supporting documentation as closely as possible with the proposed specifications to ensure a speedy application. If you are required to send in more supporting documents, the processing time can extend by many weeks to over a month.
 {{< /base >}}
 
-{{< teaser prefix="7." >}}
+{{< teaser prefix="4." >}}
 Payment and E-Mail Confirmation
 {{< /teaser >}}
 
@@ -188,3 +170,17 @@ After you complete the online payment, the review process officially begins. As 
   * If your documents cannot prove that you are meeting the requirements, you will be asked to submit more documents. If you are not able to submit sufficient documents, your application will be rejected.
 
 If you need to change information or provide more supporting documents, you have 30-days to do so. However, if your documents are only available abroad, you have a 6-months time frame to provide them. [Your application will be rejected if you can't uphold the time limit.](https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=D0080204)
+
+## Note:
+
+{{< note title="undefined" >}}
+If you enter the Taiwanese address in Chinese, the format needs to be only Chinese symbols and Arabic numerals only; no English letters allowed.
+
+* Incorrect：台北市中正區寶慶路No. 3, 2F
+* Correct：台北市中正區寶慶路3號2樓
+{{< /note >}}
+
+{{< note title="undefined" >}}
+* The uploaded passport copy must be the same as the passport used for the visa application.
+* Provide and upload supporting documentation as closely as possible with the proposed specifications to ensure a speedy application. If you are required to send in more supporting documents, the processing time can extend by many weeks to over a month.
+{{< /note >}}
