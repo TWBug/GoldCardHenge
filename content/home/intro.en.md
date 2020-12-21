@@ -7,17 +7,14 @@ summary: In 2019, the Expat Insider named Taiwan the happiest country in East
 links: []
 items:
   - label: An open-end work permit issued to employment-seeking individuals
-    href: ""
+    href: "/about"
     preview: ""
   - label: Income tax benefits in terms of income tax deduction and exemption.
-    href: ""
+    href: "/"
     preview: ""
   - label: Lineal relatives can apply for visitor visas with a maximum stay of up to
       one year.
-    href: ""
+    href: "/"
     preview: ""
-  - label: Spouses and children can apply for residency in Taiwan as well.
-  - label: Employment Gold Card Holders are eligible for the National Health
-      Insurance.
 ---
 <!-- This text will never be seen -->

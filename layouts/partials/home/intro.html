@@ -34,13 +34,16 @@
             </div>
             <div class="replace">
                 {{ range $intro.Params.items }}
-                    {{ $href := $.Site.GetPage .href }}
+                    {{ $href := "" }}
+                    {{ if .href }}
+                    {{ $href = $.Site.GetPage .href }}
+                    {{ end }}
                     {{ $preview := resources.Get "/cms-uploads/icon-dummy.svg" }}
                     {{ if .preview }}
                     {{ $preview = resources.Get .preview }}
                     {{ end }}
                     {{ if $href }}
-                    <a href="{{ $href.RelPermalink }}" 
+                    <a href="{{ $href.RelPermalink }}"
                     class="flex items-center border border-gray-200 rounded-md bg-white shadow-xl px-8 py-4 my-4 focus-primary"
                 >
                         <div class="flex-shrink-0 w-1/6 max-w-16 mr-6">
