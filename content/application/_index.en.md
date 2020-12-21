@@ -18,7 +18,7 @@ cover_image_alt: null
 ---
 # Application Process
 
-Applying for the Taiwan Employment Gold Card is not a difficult task.  Filling out and submitting the online form takes around 15-minutes, but only if you have all the required documents prepared.  Therefore, before filling out the application form, read the qualification section carefully and prepare all your required documents. Once you are ready, follow on with this step-by-step guide to lead you through the process.  It is as simple as filling out your personal information, attaching the necessary supporting documents, and paying the application fee. 
+Applying for the Taiwan Employment Gold Card is not a difficult task.  Filling out and submitting the online form takes around **15-minutes**, but only if you have all the required documents prepared.  Therefore, before filling out the application form, read the qualification section carefully and prepare all your required documents. Once you are ready, follow on with this step-by-step guide to lead you through the process.  It is as simple as filling out your personal information, attaching the necessary supporting documents, and paying the application fee. 
 
 {{< base >}}
 Required Documents
@@ -30,7 +30,7 @@ Required Documents
 {{< /base >}}
 
 {{< teaser prefix="" >}}
-With all the correct documentation submitted, it can take over 30 business days to complete the entire Employment Gold Card application process. If you are already in Taiwan, please make sure you have enough time remaining on your existing visa. If not, you may need to exit and re-enter the country, even if you are currently applying for a gold card. 
+With all the correct documentation submitted, it can take **over 30 business days** to complete the entire Employment Gold Card application process. If you are already in Taiwan, please make sure you have enough time remaining on your existing visa. If not, you may need to exit and re-enter the country, even if you are currently applying for a gold card.
 {{< /teaser >}}
 
 ![Gold Card Application Process](/cms-uploads/application-process.png "Gold Card Application Process")
