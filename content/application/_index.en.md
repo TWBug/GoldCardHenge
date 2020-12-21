@@ -74,7 +74,7 @@ Upload Document
 
 * Please upload a color copy of your passport, and a color photo of you according to the specifications on this page. 
 * Use the Automatic photo cropping tool if you are unsure. 
-* Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification you choose to apply through.
+* Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification you choose to apply through. [Note 2](#note-2)
 * If the provided documents are neither in English nor Chinese, please attach a translation to English or Chinese. If your documents are issued by the following countries/regions, additional verification is needed:
 
   * Applicants from Hong Kong and Macau may need to supply copies of resident and identity information. 
