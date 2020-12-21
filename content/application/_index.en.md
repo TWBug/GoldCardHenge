@@ -16,7 +16,7 @@ cover_image: null
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: null
 ---
-# Application Process
+# Application Process TESTTTTTTT
 
 Applying for the Taiwan Employment Gold Card is not a difficult task.  Filling out and submitting the online form takes around 15-minutes, but only if you have all the required documents prepared.  Therefore, before filling out the application form, read the qualification section carefully and prepare all your required documents. Once you are ready, follow on with this step-by-step guide to lead you through the process.  It is as simple as filling out your personal information, attaching the necessary supporting documents, and paying the application fee. 
 
