@@ -17,6 +17,5 @@ items:
   - label: " 直系尊親屬探親簽證停留期間放寬為最長1年"
     href: /
     preview: ""
-  - label: 就業金卡持有人之配偶及未成年子女得申請依親在臺居留
 ---
 <!-- This text will never be seen -->
