@@ -60,6 +60,8 @@
   translation: '话题'
 - id: all_topics
   translation: '分類'
+- id: more_fields_qualification
+  translation: '申請資格'
 - id: legal
   translation: '法律相關'
 - id: goldcard
