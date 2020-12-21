@@ -644,7 +644,8 @@ window.taMap = function () {
     data: {},
     "default": {},
     options: {
-      ref: 'map'
+      ref: 'map',
+      file: 'file'
     },
     init: function init() {
       var _this = this;
@@ -702,13 +703,17 @@ window.taMap = function () {
 
       if (this.status === false) {
         if (this.isInViewport()) {
-          // this.test = 'in viewport';
+          var max_scroll = Math.floor(this.$refs[this.options.file].offsetWidth - this.$refs[this.options.ref].offsetWidth - 1);
+
+          if (max_scroll > 250) {
+            max_scroll = 250;
+          }
+
           this.status = true;
           var interval = setInterval(function () {
             _this2.$refs[_this2.options.ref].scrollLeft += 10;
 
-            if (_this2.$refs[_this2.options.ref].scrollLeft > 250) {
-              // this.test = 'done';
+            if (_this2.$refs[_this2.options.ref].scrollLeft > max_scroll) {
               clearInterval(interval);
             }
           }, 40);
@@ -716,9 +721,7 @@ window.taMap = function () {
       }
     },
     isInViewport: function isInViewport() {
-      var position = this.$refs[this.options.ref].getBoundingClientRect(); // console.info('position', position);
-      // this.test = 'check';
-
+      var position = this.$refs[this.options.ref].getBoundingClientRect();
       return position.top >= 0 && position.left >= 0 && position.bottom <= (window.innerHeight || document.documentElement.clientHeight) && position.right <= (window.innerWidth || document.documentElement.clientWidth);
     }
   };

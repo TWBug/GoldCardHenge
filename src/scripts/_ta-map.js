@@ -11,6 +11,7 @@ window.taMap = function () {
         default: {},
         options: {
             ref: 'map',
+            file: 'file',
         },
         init() {
             const content = this.$el.querySelectorAll('.member');
@@ -60,12 +61,14 @@ window.taMap = function () {
         startAnimation() {
             if (this.status === false) {
                 if (this.isInViewport()) {
-                    // this.test = 'in viewport';
+                    var max_scroll = Math.floor(this.$refs[this.options.file].offsetWidth - this.$refs[this.options.ref].offsetWidth - 1)
+                    if (max_scroll > 250) {
+                        max_scroll = 250
+                    }
                     this.status = true;
                     const interval = setInterval(() => {
                         this.$refs[this.options.ref].scrollLeft += 10;
-                        if (this.$refs[this.options.ref].scrollLeft > 250) {
-                            // this.test = 'done';
+                        if (this.$refs[this.options.ref].scrollLeft > max_scroll) {
                             clearInterval(interval);
                         }
                     }, 40);
@@ -74,8 +77,6 @@ window.taMap = function () {
         },
         isInViewport() {
             const position = this.$refs[this.options.ref].getBoundingClientRect();
-            // console.info('position', position);
-            // this.test = 'check';
             return (
                 position.top >= 0 &&
                 position.left >= 0 &&
