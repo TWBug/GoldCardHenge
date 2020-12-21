@@ -10,7 +10,7 @@ items:
     href: ""
     preview: ""
   - label: Income tax benefits in terms of income tax deduction and exemption.
-    href: "/"
+    href: "/about"
     preview: ""
   - label: Lineal relatives can apply for visitor visas with a maximum stay of up to
       one year.
