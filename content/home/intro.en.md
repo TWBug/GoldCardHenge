@@ -7,7 +7,7 @@ summary: In 2019, the Expat Insider named Taiwan the happiest country in East
 links: []
 items:
   - label: An open-end work permit issued to employment-seeking individuals
-    href: "/about"
+    href: ""
     preview: ""
   - label: Income tax benefits in terms of income tax deduction and exemption.
     href: "/"
