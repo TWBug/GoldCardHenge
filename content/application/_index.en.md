@@ -62,7 +62,7 @@ Fill in your information / Passport & Visa Status
 * If you don't have any specific plans, we recommend choosing a longer validity period. If you want to extend at the end of your validity period, you will have to submit another application. Extensions are not possible.
 * Please choose the preferred location for collecting your Gold Card. If you are in Taiwan, please select your nearest Immigration Bureau. If you are abroad, select the nearest ROC agency. **Due to COVID-19, many ROC agencies are temporarily closed. If so, please contact the Ministry of Foreign Affairs to change the pick-up location.**
 * The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. You may enter the country on a temporary certificate and collect the card after you arrive. For detailed instructions to pick up your Gold Card, please refer to Step 3.
-* If you currently don't have a work address, you can temporarily leave it out during the application and review stage. You may leave your Taiwan relative/friend’s resident address if you have no residence address. However, you must provide a residential address within 30 days of arriving in Taiwan. Note5
+* If you currently don't have a work address, you can temporarily leave it out during the application and review stage. You may leave your Taiwan relative/friend’s resident address if you have no residence address. However, you must provide a residential address within 30 days of arriving in Taiwan. [Note 1](#note-1)
 3. Profession
 * Please select the industry that you want to apply through. Please attach all relevant supporting documents. Click save after double-checking and uploading the files.
 * After you submit your application, changing the industry can take time for processing, and add to the overall review.
@@ -173,7 +173,7 @@ If you need to change information or provide more supporting documents, you have
 
 ## Note:
 
-{{< note title="undefined" >}}
+{{< note title="1" >}}
 If you enter the Taiwanese address in Chinese, the format needs to be only Chinese symbols and Arabic numerals only; no English letters allowed.
 
 * Incorrect：台北市中正區寶慶路No. 3, 2F
