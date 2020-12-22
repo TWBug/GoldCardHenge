@@ -8,7 +8,7 @@ links:
   - is_cta: false
     new_window: false
     label: Read More
-    href: /about
+    href: /about/
 items:
   - label: Open work permit. Work for any company you want.
     href: ""
