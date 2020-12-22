@@ -13,7 +13,7 @@ items:
     href: ""
     preview: ""
   - label: Bring your family. Your parents and grandparents can visit too!
-    href: /
+    href: ""
     preview: ""
 ---
 <!-- This text will never be seen -->
