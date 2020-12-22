@@ -4,7 +4,11 @@ summary: 為吸引外國專業人才來台留台，建構更友善之工作及�
 draft: false
 hidden: false
 headless: true
-links: []
+links:
+  - is_cta: false
+    new_window: false
+    label: 就業金卡是什麼
+    href: /about
 items:
   - is_cta: false
     label: 提供持卡者開放式的個人工作許可，提供渠等自由尋職、工作、技術指導、演講、兼職及轉換工作之便利性
