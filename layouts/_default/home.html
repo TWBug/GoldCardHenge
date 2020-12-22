@@ -42,7 +42,7 @@
                         {{ if .is_cta }}
                         <a
                             href="{{ $page.RelPermalink }}"
-                            class="inline-flex items-center border-2 border-primary bg-primary rounded font-bold text-white text-lg px-4 py-2 focus-white shadow-lg"
+                            class="inline-flex items-center border-2 border-primary bg-primary rounded font-bold text-white text-lg px-4 py-2 focus-white shadow-lg mr-4 mb-4"
                         >
                             <span class="mr-2">
                                 {{ .label }}
@@ -52,7 +52,7 @@
                         {{ else }}
                         <a
                             href="{{ $page.RelPermalink }}"
-                            class="inline-flex items-center bg-white rounded font-bold text-primary text-base px-4 py-2 ml-6 focus-white shadow-lg"
+                            class="inline-flex items-center bg-white rounded font-bold text-primary text-base px-4 py-2 focus-white shadow-lg mr-4 mb-4"
                         >
                             <span class="mr-2">
                                 {{ .label }}
