@@ -7,7 +7,7 @@ headless: true
 links: []
 items:
   - is_cta: false
-    label: 開放式的個人工作許可，無須受限於一定雇主聘雇及申請，持卡者可自由尋職、轉職、兼職。
+    label: 開放式個人工作許可，無須受限於一定雇主聘雇及申請，可自由尋職、轉職、兼職。
     href: ""
     preview: ""
   - is_cta: false
