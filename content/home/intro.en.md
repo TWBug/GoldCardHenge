@@ -6,14 +6,13 @@ summary: In 2019, the Expat Insider named Taiwan the happiest country in East
   out more about the fantastic benefits and why it's called a 4-1 Visa.
 links: []
 items:
-  - label: An open-end work permit issued to employment-seeking individuals
+  - label: Open work permit. Work for any company you want.
     href: ""
     preview: ""
-  - label: Income tax benefits in terms of income tax deduction and exemption.
+  - label: Stay for up to 3 years, with tax benefits for high salaries.
     href: ""
     preview: ""
-  - label: Lineal relatives can apply for visitor visas with a maximum stay of up to
-      one year.
+  - label: Bring your family. Your parents and grandparents can visit too!
     href: /
     preview: ""
 ---
