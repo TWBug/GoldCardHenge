@@ -4,7 +4,7 @@
 {{ if eq (.Get "bottomless") "true" }}
 <div class="mt-4 border-t-2 border-secondary border-dashed -ml-4 -mr-4 pt-4 px-4" x-data="taAccordion()">
 {{ else }}
-<div class="my-12 border-t-2 border-b-2 border-secondary border-dashed -ml-4 -mr-4 p-4" x-data="taAccordion()">
+<div class="my-12 border-2 border-secondary border-dashed rounded-xl shadow-xl -ml-4 -mr-4 p-4" x-data="taAccordion()">
 {{ end }}
     <button
         id="{{ printf "accordion-button-%s" $id }}"
@@ -14,8 +14,8 @@
         class="w-full flex items-center justify-between text-primary focus-primary p-2 -ml-2"
     >
         <span class="text-gray-800 text-lg font-bold text-left pr-12">{{ print $suffix " " $title }}</span>
-        <span x-show="!show"> {{ partial "icon" (dict "name" "angle-down" "size" "10" "alt" "Show Answer") }} </span>
-        <span x-show="show" x-cloak> {{ partial "icon" (dict "name" "angle-up" "size" "10" "alt" "Hide Answer") }} </span>
+        <span x-show="!show"> {{ partial "icon" (dict "name" "plus" "size" "6" "alt" "Show Answer") }} </span>
+        <span x-show="show" x-cloak> {{ partial "icon" (dict "name" "minus" "size" "6" "alt" "Hide Answer") }} </span>
     </button>
     <div
         id="{{ printf "accordion-content-%s" $id }}"
