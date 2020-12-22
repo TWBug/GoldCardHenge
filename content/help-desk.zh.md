@@ -19,4 +19,8 @@ cover_image_alt: null
 
 help@taiwangoldcard.tw
 
+## 電話諮詢時間：
+
+9:00-12:00；14:00-18:00
+
 +886 2-7733-7660
