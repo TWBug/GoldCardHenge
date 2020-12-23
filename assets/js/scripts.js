@@ -266,8 +266,8 @@ function handleResize() {
   // }
 
 
-  document.documentElement.style.setProperty('--homeHero', "".concat(home_hero));
-  console.info('width x height: ', window.innerWidth + ' x ' + window.innerHeight); // view port height fix for mobile browsers
+  document.documentElement.style.setProperty('--homeHero', "".concat(home_hero)); // console.info('width x height: ', window.innerWidth + ' x ' + window.innerHeight);
+  // view port height fix for mobile browsers
 
   var vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', "".concat(vh, "px"));
