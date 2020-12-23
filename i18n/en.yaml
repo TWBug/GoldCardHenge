@@ -65,7 +65,7 @@
 - id: legal
   translation: 'Legal'
 - id: goldcard
-  translation: 'Gold-Card'
+  translation: 'Gold Card'
 - id: summary
   translation: 'Summary'
 - id: latest_news
