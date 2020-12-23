@@ -9,13 +9,13 @@ items:
   - is_cta: false
     label: 開放式個人工作許可，無須受限於一定雇主聘雇及申請，可自由尋職、轉職、兼職。
     href: ""
-    preview: ""
+    preview: /cms-uploads/freelancer.png
   - is_cta: false
     label: 持卡人之配偶及未成年子女得申請依親在臺居留；放寬直系親屬探親簽證停留期間。
     href: ""
     preview: ""
   - label: 符合薪資與居留時間規定的持卡者可享有所得稅優惠；放寬健保限制。
     href: ""
-    preview: ""
+    preview: /cms-uploads/tax-reduce.png
 ---
 <!-- This text will never be seen -->

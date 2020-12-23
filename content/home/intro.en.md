@@ -8,12 +8,12 @@ links: []
 items:
   - label: Open work permit. Work for any company you want.
     href: ""
-    preview: ""
+    preview: /cms-uploads/freelancer.png
   - label: Stay for up to 3 years, with tax benefits for high salaries.
     href: ""
     preview: ""
   - label: Bring your family. Your parents and grandparents can visit too!
     href: ""
-    preview: ""
+    preview: /cms-uploads/tax-reduce.png
 ---
 <!-- This text will never be seen -->
