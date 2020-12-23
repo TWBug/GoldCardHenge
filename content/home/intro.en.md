@@ -11,7 +11,7 @@ items:
     preview: /cms-uploads/freelancer.png
   - label: Stay for up to 3 years, with tax benefits for high salaries.
     href: ""
-    preview: ""
+    preview: /cms-uploads/icon-benefit-family.svg
   - label: Bring your family. Your parents and grandparents can visit too!
     href: ""
     preview: /cms-uploads/tax-reduce.png

@@ -13,7 +13,7 @@ items:
   - is_cta: false
     label: 持卡人之配偶及未成年子女得申請依親在臺居留；放寬直系親屬探親簽證停留期間。
     href: ""
-    preview: ""
+    preview: /cms-uploads/icon-benefit-family.svg
   - label: 符合薪資與居留時間規定的持卡者可享有所得稅優惠；放寬健保限制。
     href: ""
     preview: /cms-uploads/tax-reduce.png
