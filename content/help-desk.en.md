@@ -21,4 +21,8 @@ If you have any questions, concerns, and suggestions, please don't hesitate to e
 
 For any questions related to the Gold Card or your move to Taiwan.
 
+## Phone Service Time:
+
+(GMT+8)9:00-12:00；14:00-18:00
+
 +886 2-7733-7660

@@ -18,7 +18,7 @@ cover_image_alt: null
 ---
 # Application Process
 
-Applying for the Taiwan Employment Gold Card is not a difficult task.  Filling out and submitting the online form takes around 15-minutes, but only if you have all the required documents prepared.  Therefore, before filling out the application form, read the qualification section carefully and prepare all your required documents. Once you are ready, follow on with this step-by-step guide to lead you through the process.  It is as simple as filling out your personal information, attaching the necessary supporting documents, and paying the application fee. 
+Applying for the Taiwan Employment Gold Card is not a difficult task.  Filling out and submitting the online form takes around **15-minutes**, but only if you have all the required documents prepared.  Therefore, before filling out the application form, read the qualification section carefully and prepare all your required documents. Once you are ready, follow on with this step-by-step guide to lead you through the process.  It is as simple as filling out your personal information, attaching the necessary supporting documents, and paying the application fee. 
 
 {{< base >}}
 Required Documents
@@ -30,7 +30,7 @@ Required Documents
 {{< /base >}}
 
 {{< teaser prefix="" >}}
-With all the correct documentation submitted, it can take over 30 business days to complete the entire Employment Gold Card application process. If you are already in Taiwan, please make sure you have enough time remaining on your existing visa. If not, you may need to exit and re-enter the country, even if you are currently applying for a gold card. 
+With all the correct documentation submitted, it can take **over 30 business days** to complete the entire Employment Gold Card application process. If you are already in Taiwan, please make sure you have enough time remaining on your existing visa. If not, you may need to exit and re-enter the country, even if you are currently applying for a gold card.
 {{< /teaser >}}
 
 ![Gold Card Application Process](/cms-uploads/application-process.png "Gold Card Application Process")
@@ -41,7 +41,7 @@ With all the correct documentation submitted, it can take over 30 business days 
 Registration
 {{< /teaser >}}
 
-* Please visit the website of the [Foreign Professionals Online Application Platform](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/) and set up an account. Use the login details to login into the portal. Y**our name in English  needs to be consistent with the name on your passport you are using to enter Taiwan.**
+* Please visit the website of the [Foreign Professionals Online Application Platform](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/) and set up an account. Use the login details to login into the portal. **Your name in English  needs to be consistent with the name on your passport you are using to enter Taiwan.**
 
 {{< teaser prefix="2." >}}
 Fill in your information / Passport & Visa Status
@@ -53,60 +53,41 @@ Fill in your information / Passport & Visa Status
 * If you are applying from abroad or are in Taiwan on a visitor-visa, visa-free, or a non-extendable visa, your passport needs to be inspected. An extra page will appear during the application process, where you can choose the location. If you are in Taiwan, please go to the Bureau of Consular Affairs (Central, Southern, Eastern, Yunlin, Jiayi, and Tainan branches). **In response to the COVID-19 pandemic, some foreign agencies might be closed and only accept passports by post.**
 * The application can take over 30 business days assuming you have all the proper documentation submitted. If you hold a visa less than 60-days or are visa-free, or you cannot obtain the Taiwan Employment Gold Card within the time limit, you will still need to leave the country and re-enter.
 
-{{< teaser prefix="3." >}}
-Basic Data / Passport Data
-{{< /teaser >}}
+{{< accordion title="Application Details" suffix="" bottomless="false" >}}
+
+**Basic Data / Passport Data**
 
 * After entering the application page, please fill out your information. All fields with an asterisk are mandatory. Please make sure that the English name is the same as the passport used to enter Taiwan. 
 * You can save the filled out information at any time, come back to it later, and change before sending it.
 
-{{< teaser prefix="4." >}}
-Resident
-{{< /teaser >}}
+**Resident**
 
 * Choose your validity period for the Taiwan Employment Gold Card. There are different validation periods: One, Two, or Three years. Please choose according to your needs. The price of the application varies for longer validity periods.
 * If you don't have any specific plans, we recommend choosing a longer validity period. If you want to extend at the end of your validity period, you will have to submit another application. Extensions are not possible.
 * Please choose the preferred location for collecting your Gold Card. If you are in Taiwan, please select your nearest Immigration Bureau. If you are abroad, select the nearest ROC agency. **Due to COVID-19, many ROC agencies are temporarily closed. If so, please contact the Ministry of Foreign Affairs to change the pick-up location.**
 * The Taiwan Employment Gold Card can take up to 21-working days before arriving at the overseas missions. If you would like to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. You may enter the country on a temporary certificate and collect the card after you arrive. For detailed instructions to pick up your Gold Card, please refer to Step 3.
-* If you currently don't have a work address, you can temporarily leave it out during the application and review stage. You may leave your Taiwan relative/friend’s resident address if you have no residence address. However, you must provide a residential address within 30 days of arriving in Taiwan. 
+* If you currently don't have a work address, you can temporarily leave it out during the application and review stage. You may leave your Taiwan relative/friend’s resident address if you have no residence address. However, you must provide a residential address within 30 days of arriving in Taiwan. [Note 1](#note-1)
 
-{{< base >}}
-Note: 
-
-If you enter the Taiwanese address in Chinese, the format needs to be only Chinese symbols and Arabic numerals only; no English letters allowed.
-
-* Incorrect：台北市中正區寶慶路No. 3, 2F
-* Correct：台北市中正區寶慶路3號2樓
-{{< /base >}}
-
-{{< teaser prefix="5." >}}
-Profession
-{{< /teaser >}}
+**Profession**
 
 * Please select the industry that you want to apply through. Please attach all relevant supporting documents. Click save after double-checking and uploading the files.
-* After you submit your application, changing the industry can take time for processing, and add to the overall review. 
+* After you submit your application, changing the industry can take time for processing, and add to the overall review.
+  {{< /accordion >}}
 
-{{< teaser prefix="6." >}}
+{{< teaser prefix="3." >}}
 Upload Document
 {{< /teaser >}}
 
 * Please upload a color copy of your passport, and a color photo of you according to the specifications on this page. 
 * Use the Automatic photo cropping tool if you are unsure. 
-* Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification you choose to apply through.
+* Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification you choose to apply through. [Note 2](#note-2)
 * If the provided documents are neither in English nor Chinese, please attach a translation to English or Chinese. If your documents are issued by the following countries/regions, additional verification is needed:
 
   * Applicants from Hong Kong and Macau may need to supply copies of resident and identity information. 
   * Documents issued in the Mainland area have to be attested and examined by[ the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct5bfa.html?xItem=110586&ctNode=5946&mp=3) entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area."
   * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
 
-{{< base >}}
-Notes: 
-
-* The uploaded passport copy must be the same as the passport used for the visa application.
-* Provide and upload supporting documentation as closely as possible with the proposed specifications to ensure a speedy application. If you are required to send in more supporting documents, the processing time can extend by many weeks to over a month.
-{{< /base >}}
-
-{{< teaser prefix="7." >}}
+{{< teaser prefix="4." >}}
 Payment and E-Mail Confirmation
 {{< /teaser >}}
 
@@ -135,30 +116,20 @@ For overseas applications, or if you have entered Taiwan but have a visa with a 
 {{< /teaser >}}
 
 * When your application is approved and passed the qualification review, you will receive an e-mail notification to bring your passport for passport inspection. At this point, please bring your original passport to your chosen Bureau of Consular Affairs or ROC mission/office. **Due to the COVID-19 pandemic, some overseas missions might be temporarily closed or working remotely. Please contact their office and see if passport inspections can be accepted via post.** 
-* After verification, you will receive an e-mail stating your passport has been inspected and the gold card application was approved. Under normal circumstances, this process should take a week.
-
-{{< base >}}
-Notes:
-
-* You can change the passport inspection location anytime on the online platform before the application has finished the review process. You will not be able to make online changes after you receive the e-mail confirmation that your application has passed review. At this point, you can only change the location by contacting the Bureau of Consular Affairs (from overseas) or contacting the National Immigration Agency (from within Taiwan).
-* If you send your passport via post to an overseas mission/office, please make sure you don't have to use your passport within a month.
-{{< /base >}}
+* After verification, you will receive an e-mail stating your passport has been inspected and the gold card application was approved. Under normal circumstances, this process should take a week. [Note 3](#note-3)
 
 ## STEP 3: Receiving your Gold Card
 
 After your application has been approved, you will receive an e-mail notifying you to collect your Gold Card. Please bring your original passport and relevant documents to your selected location for picking up your Gold Card. If it is not convenient to pick it up in person, you can ask a friend or agent. In that case, you need to provide them with a power of attorney form.
 
+{{< accordion title="More Detail" suffix="" bottomless="false" >}}
 **During the COVID-19 pandemic, the overseas mission may be temporarily closed and unavailable. If this happens, you can change the pickup location by contacting the Bureau of Consular Affairs (from overseas) or contacting the National Immigration Agency (from within Taiwan).**
 
-{{< teaser prefix="1." >}}
-Domestic Applicants
-{{< /teaser >}}
+**Domestic Applicants**
 
 * Please go to the "Download" area on the online application platform and print out the "Payment Electronic Receipt" and take the receipt and your original passport to the previously chosen Immigration Bureau to pick-up your card.
 
-{{< teaser prefix="2." >}}
-Overseas Applicants
-{{< /teaser >}}
+**Overseas Applicants**
 
 * Receiving your Gold Card after entry
 
@@ -167,11 +138,13 @@ Overseas Applicants
 
   * Please go to the "download" area on ​​the application platform to print out the "Republic of China Employment Gold Card Overseas Approval Certificate." Take the receipt and your passport to the previously designated ROC mission/office.
   * It can take over 21 working days to deliver a Gold Card to an overseas ROC mission/office. The mission/office will notify you to pick up your Gold Card. If the Gold Card is not picked up within three months, the mission/office will send it back to the Taiwanese Immigration Bureau.
+    {{< /accordion >}}
 
 ## Submitting Additional Documents & Rejection
 
 After you complete the online payment, the review process officially begins. As the Taiwan Employment Gold Card is a combination of four different certificates, authorities from different departments will review your application. The National Immigration Agency conducts the first step of the review process and then passes it to the Ministry of Labor. Here they will consult with your relevant Ministry and check your qualifications. The final stop is at the Bureau of Consular Affairs for the last visa review.
 
+{{< accordion title="More Detail" suffix="" bottomless="false" >}}
 **If you submit incomplete or inaccurate information, or the authorities require more information about your qualifications, you will need to submit additional documents for review. Failing to do so can result in your application being rejected.** 
 
 * Please take the time to check which visa you have entered the country with, and choose the right visa category as this cannot be changed later, e.g., Visa-free, Student visa, visitor visa, etc.
@@ -188,3 +161,23 @@ After you complete the online payment, the review process officially begins. As 
   * If your documents cannot prove that you are meeting the requirements, you will be asked to submit more documents. If you are not able to submit sufficient documents, your application will be rejected.
 
 If you need to change information or provide more supporting documents, you have 30-days to do so. However, if your documents are only available abroad, you have a 6-months time frame to provide them. [Your application will be rejected if you can't uphold the time limit.](https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=D0080204)
+{{< /accordion >}}
+
+## Note:
+
+{{< note title="1" >}}
+If you enter the Taiwanese address in Chinese, the format needs to be only Chinese symbols and Arabic numerals only; no English letters allowed.
+
+* Incorrect：台北市中正區寶慶路No. 3, 2F
+* Correct：台北市中正區寶慶路3號2樓
+{{< /note >}}
+
+{{< note title="2" >}}
+* The uploaded passport copy must be the same as the passport used for the visa application.
+* Provide and upload supporting documentation as closely as possible with the proposed specifications to ensure a speedy application. If you are required to send in more supporting documents, the processing time can extend by many weeks to over a month.
+{{< /note >}}
+
+{{< note title="3" >}}
+* You can change the passport inspection location anytime on the online platform before the application has finished the review process. You will not be able to make online changes after you receive the e-mail confirmation that your application has passed review. At this point, you can only change the location by contacting the Bureau of Consular Affairs (from overseas) or contacting the National Immigration Agency (from within Taiwan).
+* If you send your passport via post to an overseas mission/office, please make sure you don't have to use your passport within a month.
+{{< /note >}}

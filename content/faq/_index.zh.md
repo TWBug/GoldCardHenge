@@ -5,7 +5,7 @@ draft: false
 media_image_alt: Test alt
 date: 2020-11-05T07:09:20.617Z
 topic: faq
-cover_image: img/uploads/question.svg
+cover_image: cms-uploads/icon-faq.svg
 title: 常見問題
 tags: null
 categories: null

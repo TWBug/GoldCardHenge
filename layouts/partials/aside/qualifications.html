@@ -1,0 +1,20 @@
+{{ $qualification := where (where .Site.RegularPages "Section" "qualification") "Permalink" "!=" .Page.Permalink }}
+<div class="my-12">
+    <div class="flex items-center border-b-2 border-secondary border-dashed px-2 pb-2">
+        {{ partial "icon" (dict "name" "diploma" "size" "6") }}
+        <h3 class="text-xl font-bold ml-2">{{ i18n "more_fields_qualification" }}</h3>
+    </div>
+    <div class="pt-6 pl-2">
+        {{ range $qualification }}
+        <a href="{{.RelPermalink}}" class="inline-flex items-center font-bold text-primary text-base leading-snug -ml-3 focus-primary">
+            <div class="flex-shrink-0">
+                {{ partial "icon" (dict "name" "right" "size" "4") }}
+            </div>
+            <span class="pl-1">{{ .Title | truncate 60 }}</span>
+        </a>
+        <p class="text-xs mb-4">
+            {{ .Summary | truncate 90 }}
+        </p>
+        {{ end }}
+    </div>
+</div>

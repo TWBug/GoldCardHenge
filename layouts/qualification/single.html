@@ -1,0 +1,77 @@
+{{ define "main" }}
+
+{{ $style := "right" }}
+{{ with .Params.style }}
+{{ $style = . }}
+{{ end }}
+
+{{ $cover_image := "false" }}
+{{ $large := "" }}
+{{ $small := "" }}
+{{ $buffer := "" }}
+{{ with .Params.cover_image }}
+{{ if fileExists (printf "assets/%s" ( . | safeURL)) }}
+{{ if or (strings.HasSuffix . "png") (strings.HasSuffix . "jpg") }}
+{{ $buffer = resources.Get (printf "%s" ( . | safeURL)) }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ if ne $buffer "" }}
+{{ $large = $buffer.Fill "672x672 jpg q15" }}
+{{ $small = $buffer.Fill "336x336 q15" }}
+{{ $cover_image = "true" }}
+{{ end }}
+
+{{ $language := .Site.Language | urlize }}
+
+<div class="relative shadow-xl print:shadow-none">
+    {{ partial "navigation" . }}
+</div>
+<div class="relative flex-grow">
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-white -z-1"
+    ></div>
+    {{ if .Site.IsServer }}
+    <div class="absolute right-0 top-0 bg-black text-xs font-bold text-white p-2 z-1">SINGLE TEMPLATE QUALIFICATION - STYLE: {{ $style }}</div>
+    {{ end }}
+    <section>
+        <div class="container py-12 sm:py-24 px-12 lg:px-24">
+            {{ if eq $cover_image "true" }}
+            <div class="md:hidden relative w-full h-0 pb-full min-h-32 rounded-md shadow-xl overflow-hidden mb-8">
+                <figure>
+                    <img
+                        srcset="{{ $small.RelPermalink }} 480w, {{ $large.RelPermalink }} 1024w"
+                        src="{{ $large.RelPermalink | safeURL }}"
+                        alt="{{ .Page.Params.cover_image_alt | truncate 160 }}"
+                        class="block absolute inset-0 w-full h-full object-cover"
+                        loading="lazy"
+                    />
+                </figure>
+            </div>
+            {{ end }}
+            {{ partial "breadcrumb" . }}
+            <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xl:gap-24">
+                <div class="copy replace sm:col-span-2 pt-4">
+                    {{.Content}}
+                </div>
+                <div class="print:hidden -mt-8">
+                    {{ if eq $cover_image "true" }}
+                    <div class="hidden md:block relative w-full h-0 pb-full min-h-32 rounded-md shadow-xl overflow-hidden mb-8">
+                        <img
+                            srcset="{{ $small.RelPermalink }} 480w, {{ $large.RelPermalink }} 1024w"
+                            src="{{ $large.RelPermalink | safeURL }}"
+                            alt="{{ .Page.Params.cover_image_alt | truncate 160 }}"
+                            class="block absolute inset-0 w-full h-full object-cover"
+                            loading="lazy"
+                        />
+                    </div>
+                    {{ end }}
+                    {{ partial "aside/summary" . }}
+                    {{ partial "aside/qualifications" . }}
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{{end}}

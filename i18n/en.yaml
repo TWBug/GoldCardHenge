@@ -60,10 +60,12 @@
   translation: 'Topics'
 - id: all_topics
   translation: 'All topics'
+- id: more_fields_qualification
+  translation: 'More fields'
 - id: legal
   translation: 'Legal'
 - id: goldcard
-  translation: 'Gold-Card'
+  translation: 'Gold Card'
 - id: summary
   translation: 'Summary'
 - id: latest_news

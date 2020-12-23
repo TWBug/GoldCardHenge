@@ -41,7 +41,7 @@
     {{ else }}
     <div class="flex items-center justify-between border-t-2 border-dashed border-gray-300 pt-2 pl-6 mt-2">
     {{ end }}
-        
+
         {{ if in .dropdown.items "latestnews" }}
         {{ $latestnews := .all.GetPage "news" }}
         <a href="{{ $latestnews.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
@@ -51,7 +51,7 @@
             </span>
         </a>
         {{ end }}
-        
+
         {{ if in .dropdown.items "allnews" }}
         {{ $allnews := .all.GetPage "news" }}
         <a href="{{ $allnews.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
@@ -61,7 +61,7 @@
             </span>
         </a>
         {{ end }}
-        
+
         {{ if in .dropdown.items "allevents" }}
         {{ $allevents := .all.GetPage "events" }}
         <a href="{{ $allevents.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
@@ -71,7 +71,7 @@
             </span>
         </a>
         {{ end }}
-        
+
         {{ if in .dropdown.items "allevents" }}
         {{ $allevents := .all.GetPage "events" }}
         <a href="{{ $allevents.RelPermalink }}" class="flex items-center text-primary text-xs font-bold mr-6 py-4  focus-primary">
@@ -81,9 +81,9 @@
             </span>
         </a>
         {{ end }}
-        
+
         {{ if in .dropdown.items "apply" }}
-        <a href="{{ $.Site.Language.Params.apply }}" class="flex items-center bg-primary text-white text-base font-bold px-6 py-2 rounded-md focus-primary">
+        <a href="{{ .all.Language.Params.apply }}" class="flex items-center bg-primary text-white text-base font-bold px-6 py-2 rounded-md focus-primary">
             <span class="mr-2">
                 {{ i18n "apply_now" "Apply now" }}
             </span>

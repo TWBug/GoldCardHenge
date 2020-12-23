@@ -7,11 +7,15 @@ headless: true
 links:
   - is_cta: true
     new_window: false
-    label: About the Application Process
+    label: About Gold Card
+    href: /about
+  - is_cta: false
+    new_window: false
+    label: Application Process
     href: /application
 items:
   - is_cta: false
     label: Next Stop, Taiwan!
     href: "1"
 ---
-1
+<!-- This text will never be seen -->
