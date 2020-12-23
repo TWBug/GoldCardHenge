@@ -10,7 +10,7 @@ links:
     label: Read More
     href: /en/about
 items:
-  - label: Open work permit. Work for any company you want.
+  - label: "An open-ended work permit issued to employment-seeking individuals "
     href: ""
     preview: /cms-uploads/freelancer.png
   - label: Stay for up to 3 years, with tax benefits for high salaries.
