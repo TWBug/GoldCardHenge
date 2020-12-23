@@ -8,7 +8,7 @@ links:
   - is_cta: false
     new_window: false
     label: 了解更多
-    href: /zh/about/
+    href: /about
 items:
   - is_cta: false
     label: 開放式個人工作許可，無須受限於一定雇主聘雇及申請，可自由尋職、轉職、兼職。
