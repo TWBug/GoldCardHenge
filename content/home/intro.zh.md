@@ -4,7 +4,11 @@ summary: 為吸引外國專業人才來台留台，建構更友善之工作及�
 draft: false
 hidden: false
 headless: true
-links: []
+links:
+  - is_cta: false
+    new_window: false
+    label: 了解更多
+    href: /about
 items:
   - is_cta: false
     label: 開放式個人工作許可，無須受限於一定雇主聘雇及申請，可自由尋職、轉職、兼職。
