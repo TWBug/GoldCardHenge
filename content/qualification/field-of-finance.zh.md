@@ -15,7 +15,7 @@ icon: /cms-uploads/icon-finance.svg
 
 {{< accordion title="於金融機構擔任專業職務，具傑出專業才能或有跨國經驗為我國亟需之人才" suffix="2." bottomless="true" >}}
 
-* 申請人提供於國內外金融機構擔任經理級職務五年以上之證明文件，且取得相關重要國際性金融證照，如CFA(Chartered Financial Analyst)、CFP(Certified Financial Planner)、FRM(Financial Risk Manager)、CIIA(Certified International Investment Analysts)、CIA(Certified Internal Auditor)、PRM(Professional Risk Manager)、FSA (Fellow of the Society of Actuaries)、FCAS (Fellow of the Casualty Actuarial Society)、FIA (Fellow of the Institute and Faculty of Actuaries)、FIAA (Fellow of the Institute of Actuaries of Australia)、SEI-KAIIN (Fellow of the Institute of Actuaries of Japan)等。
+* 申請人提供於國內外金融機構擔任經理級職務累計達三年之證明文件，且取得相關重要國際性金融證照，如CFA(Chartered Financial Analyst)、CFP(Certified Financial Planner)、FRM(Financial Risk Manager)、CIIA(Certified International Investment Analysts)、CIA(Certified Internal Auditor)、PRM(Professional Risk Manager)、FSA (Fellow of the Society of Actuaries)、FCAS (Fellow of the Casualty Actuarial Society)、FIA (Fellow of the Institute and Faculty of Actuaries)、FIAA (Fellow of the Institute of Actuaries of Australia)、SEI-KAIIN (Fellow of the Institute of Actuaries of Japan)等。
 {{< /accordion >}}
 
 {{< accordion title="金融監督管理委員會、所屬周邊單位及金融相關公(協)會所推薦者" suffix="3." bottomless="true" >}}
@@ -29,12 +29,12 @@ icon: /cms-uploads/icon-finance.svg
 
 {{< accordion title="金融機構現任或前任之董事長、總經理、董監事及重要資深主管級以上之管理階層人士" suffix="4." bottomless="true" >}}
 
-* 由申請人提供相關任職證明，其中重要資深主管指於金融機構擔任經理級以上之主管職務累計達十年者。
+* 由申請人提供相關任職證明，其中重要資深主管指於金融機構擔任經理級以上之主管職務累計達五年者。
 {{< /accordion >}}
 
 {{< accordion title="政府推動之重點產業(如金融科技、電子商務、數位經濟、科技管理、綠能科技等)所需之金融專業人才" suffix="5." bottomless="true" >}}
 
-* 申請人提供任職金融科技、電子商務、數位經濟、科技管理、綠能科技等產業之金融相關職務累積達三年證明，並提出有利於產業發展具體事蹟。
+* 申請人提供任職金融科技、電子商務、數位經濟、科技管理、綠能科技等產業之金融相關職務累計達三年證明，並提出有利於產業發展具體事蹟。
 {{< /accordion >}}
 
 {{< accordion title="其他對我國金融產業具貢獻潛力者" suffix="6." bottomless="true" >}}
