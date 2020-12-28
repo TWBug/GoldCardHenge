@@ -19,7 +19,7 @@
 <div class="md:col-span-12 flex flex-wrap border border-gray-200 rounded shadow-lg overflow-hidden min-h-screen-1/4">
     <div class="relative border-r border-gray-200 bg-gray-200 w-full lg:w-1/2 xl:w-8/12 min-h-48">
         {{ if ne $cover_image_resized "" }}
-        <img 
+        <img
         src="{{ $cover_image_resized.RelPermalink }}"
         alt="{{ .Title | truncate 80 }}" class="block absolute inset-0 w-full h-full object-cover" loading="lazy" />
         {{ else }}
@@ -32,15 +32,27 @@
             <ul class="inline">
                 {{ range .article.Params.topics }}
                     {{ if eq . $.tag }}
-                    <li class="inline-flex items-center bg-white text-gray-700 rounded-md text-xs px-2 py-1 mx-1">
+                    <li class="inline-flex items-center bg-white text-gray-700 border border-gray-200 rounded-md shadow-md text-xs px-2 py-1 mx-1">
                         {{ partial "icon" (dict "name" "tag" "size" "3") }}
-                        <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
+                        <span class="font-bold uppercase ml-2">
+                            {{ if i18n (. | anchorize ) }}
+                            {{ i18n (. | anchorize) }}
+                            {{ else }}
+                            {{ . | humanize }}
+                            {{ end }}
+                        </span>
                     </li>
                     {{ else }}
                     <li class="inline-block bg-white text-primary border border-gray-200 rounded-md shadow-md text-xs mx-1">
                         <a href="/{{ $.lang }}/topics/{{ . | anchorize }}" class="inline-flex items-center px-2 py-1 focus-primary">
                             {{ partial "icon" (dict "name" "tag" "size" "3") }}
-                            <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
+                            <span class="font-bold uppercase ml-2">
+                                {{ if i18n (. | anchorize ) }}
+                                {{ i18n (. | anchorize) }}
+                                {{ else }}
+                                {{ . | humanize }}
+                                {{ end }}
+                            </span>
                         </a>
                     </li>
                     {{ end }}
@@ -69,7 +81,7 @@
             <p class="text-base mb-4">
                 {{ .article.Summary | truncate 200}}
             </p>
-            {{/* 
+            {{/*
                 <div class="flex items-center text-xs font-bold text-secondary mb-2">
                     {{ partial "icon" (dict "name" "book-reader" "size" "4") }}
                     <span class="ml-2">

@@ -60,14 +60,14 @@
                         </div>
                     </a>
                     {{ else }}
-                    <div class="flex items-center border border-gray-200 rounded-md bg-white shadow-xl px-8 py-4 my-4" >
+                    <div class="flex items-center border border-gray-200 rounded-md bg-white shadow-xl pl-8 pr-4 py-4 my-4" >
                         <div class="flex-shrink-0 w-1/6 max-w-16 mr-6">
                             {{ if $preview }}
                             <img src="{{ $preview.RelPermalink }}" alt="{{ .label | truncate 60 }}" class="w-full" />
                             {{ end }}
                         </div>
                         <div>
-                            <p class="text-base text-secondary leading-snug font-semibold">
+                            <p class="text-base sm:text-lg text-secondary leading-snug font-semibold">
                                 {{ .label }}
                             </p>
                         </div>
