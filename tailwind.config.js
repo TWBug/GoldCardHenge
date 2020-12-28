@@ -16,6 +16,7 @@ const colors = {
     'secondary-medium': '#3B6505',
     'secondary-light': '#1A683B',
     'secondary-white': '#E9F0EA',
+    'transparent-background': '#EEF5E000',
 };
 
 module.exports = {
