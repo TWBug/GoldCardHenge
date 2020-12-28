@@ -81,7 +81,7 @@
 - id: all_faq
   translation: '所有常見問題'
 - id: open_new_window
-  translation: 'Open in new window'
+  translation: '在新窗口中打開'
 - id: show_details
   translation: '顯示更多'
 - id: back
@@ -95,9 +95,9 @@
 - id: no_filtered_faq_found
   translation: '查無資料'
 - id: reset_search
-  translation: 'Reset search'
+  translation: '重置搜索'
 - id: placeholder_search
-  translation: 'Search'
+  translation: '搜索'
 - id: how_to_apply
   translation: '想要申請嗎'
 - id: how_to_apply_copy
