@@ -180,6 +180,8 @@
   translation: '金卡政策相關'
 - id: announcement
   translation: '公告'
+- id: about
+  translation: '關於'
 
 - id: super
   translation: '超'

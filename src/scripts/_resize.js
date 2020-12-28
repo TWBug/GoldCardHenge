@@ -24,20 +24,7 @@ function handleResize() {
             home_hero = '50vh';
         }
     }
-
-    // var home_hero = 'calc(var(--vh) * 75)';
-    // if (window.innerWidth < 1024) {
-    //     home_hero = 'calc(var(--vh) * 100)';
-    // } else {
-    //     if (w_aspect > 1.64) {
-    //         home_hero = 'calc(var(--vh) * 100)';
-    //     } else if (w_aspect < 1.2) {
-    //         home_hero = 'calc(var(--vh) * 50)';
-    //     }
-    // }
     document.documentElement.style.setProperty('--homeHero', `${home_hero}`);
-
-    // console.info('width x height: ', window.innerWidth + ' x ' + window.innerHeight);
 
     // view port height fix for mobile browsers
     const vh = window.innerHeight * 0.01;

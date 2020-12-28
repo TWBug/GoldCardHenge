@@ -1,8 +1,7 @@
 ---
 title: News
-summary: Gold Card Application FAQ Here is a summary of frequently asked
-  questions regarding the Taiwan Employment Gold Card program, the application
-  process, and other general questions regarding life in Taiwan and more.
+summary: Read about the latest news in the Taiwan Employment Gold Card program,
+  the National Development Council, and more.
 date: 2020-08-01T07:09:20.617Z
 draft: false
 cover_image: cms-uploads/icon-news.svg
