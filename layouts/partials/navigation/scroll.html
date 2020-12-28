@@ -1,9 +1,10 @@
+{{ $logo := resources.Get "img/taiwan-gold-card-logo-small.png" }}
 {{ $topic := .Page.Params.topic }}
 {{ $language := .Site.Language.Lang }}
 {{ $data := index .Site.Data.navigation .Site.Language.Lang }}
 <div class="max-w-screen-xl flex justify-between mx-auto" aria-hidden="true">
-    <a href="/{{ .Site.Language.Lang }}/" class="block w-1/2 max-w-48 px-4 py-4 focus-primary">
-        <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="{{ i18n "tego_logo" }}" />
+    <a href="/{{ .Site.Language.Lang }}/" class="block w-1/3 max-w-32 px-4 py-4 focus-primary">
+        <img src="{{ $logo.RelPermalink }}" class="w-full drop-shadow drop-shadow-white" alt="{{ i18n "tego_logo" }}" />
     </a>
     <button type="button" x-data="taSearchTrigger()" x-init="init('scroll')" @click="show()" class="hidden lg:flex items-center px-4 focus:bg-white focus:text-black">
         {{ partial "icon" (dict "name" "search" "size" "5" "alt" (i18n "placeholder_search")) }}

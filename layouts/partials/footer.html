@@ -1,3 +1,4 @@
+{{ $logo := resources.Get "img/taiwan-gold-card-logo-small.png" }}
 {{ $url := .Page.Permalink }}
 {{ $actual_language := .Site.Language.Lang }}
 
@@ -33,9 +34,9 @@
         <img src="/img/footer-meta-hummingbird.svg" class="block w-12" alt="{{ i18n "taiwan_hummingbird" }}">
     </div>
     <div class="relative container py-12 px-12 lg:px-24">
-        <div class="w-1/2 max-w-32 py-6">
+        <div class="w-1/2 max-w-28 py-6">
           <a href="/{{ .Site.Language.Lang }}/" class="block focus-white">
-            <img src="/img/taiwan-gold-card-logo.png" class="w-full" alt="{{ i18n "tego_logo" }}" />
+            <img src="{{ $logo.RelPermalink }}" class="w-full drop-shadow drop-shadow-white" alt="{{ i18n "tego_logo" }}" />
           </a>
         </div>
         <div class="flex flex-wrap sm:flex-no-wrap text-white print:text-black">
