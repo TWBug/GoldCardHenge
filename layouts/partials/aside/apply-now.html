@@ -1,3 +1,4 @@
+{{ if ne .RelPermalink .Site.Language.Params.apply }}
 <div class="md:sticky top-nav-scroll my-12">
     <div class="flex items-center border-b-2 border-secondary border-dashed px-2 pb-2">
         {{ partial "icon" (dict "name" "question" "size" "5") }}
@@ -20,3 +21,4 @@
         </a>
     </div>
 </div>
+{{ end }}
