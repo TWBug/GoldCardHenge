@@ -9,7 +9,11 @@
             <a href="{{ .Page.Permalink }}" class="flex items-center px-3 py-1">
               {{ partial "icon" (dict "name" "tag" "size" "3") }}
               <span class="font-bold uppercase ml-2">
-                {{ .Page.Title }}
+                {{ if i18n (.Page.Title | anchorize ) }}
+                {{ i18n (.Page.Title | anchorize) }}
+                {{ else }}
+                {{ .Page.Title | humanize }}
+                {{ end }}
               </span>
             </a>
         </li>
