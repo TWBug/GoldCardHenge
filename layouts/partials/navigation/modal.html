@@ -1,3 +1,4 @@
+{{ $logo := resources.Get "img/taiwan-gold-card-logo-small.png" }}
 {{ $topic := .Page.Params.topic }}
 {{ $language := .Site.Language.Lang }}
 {{ $data := index .Site.Data.navigation .Site.Language.Lang }}
@@ -26,8 +27,8 @@
         {{ partial "icon" (dict "name" "times" "size" "10") }}
     </button>
     <div class="flex flex-col h-full">
-        <a href="{{ .Site.Home.RelPermalink }}" class="block py-10 pl-12 focus-white">
-            <img src="/img/taiwan-gold-card-logo.png" class="w-1/2" alt="{{ i18n "tego_logo" }}" />
+        <a href="{{ .Site.Home.RelPermalink }}" class="block pt-10 pl-6 pb-4 focus-white">
+            <img src="{{ $logo.RelPermalink }}" class="w-1/2 drop-shadow drop-shadow-white" alt="{{ i18n "tego_logo" }}" />
         </a>
         <div class="flex items-center border-t border-b border-white border-opacity-50 mt-4 px-8" x-data="taLanguage()" x-init="init()">
             <div class="mr-2">
