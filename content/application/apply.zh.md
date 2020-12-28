@@ -1,6 +1,6 @@
 ---
-title: 申請須知
-summary: 想要申請金卡？請先點擊了解步驟須知！
+title: 申請
+summary: 準備好申請了嗎？ 確保遵循以下步驟!
 draft: false
 topic: goldcard
 style: right
