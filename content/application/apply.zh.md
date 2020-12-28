@@ -1,6 +1,6 @@
 ---
-title: 申請
-summary: ""
+title: 申請須知
+summary: 想要申請金卡？請先點擊了解步驟須知！
 draft: false
 topic: goldcard
 style: right
