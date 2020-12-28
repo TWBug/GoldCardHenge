@@ -7,6 +7,7 @@ summary: Those who have obtained an ROC or foreign attorney license, with a
   recommended by the Taiwan Bar Association.
 draft: false
 icon: /cms-uploads/icon-law.svg
+topic: goldcard
 ---
 # Field of Law
 

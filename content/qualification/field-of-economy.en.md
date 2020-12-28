@@ -8,6 +8,7 @@ summary: Those with a most recent monthly salary of at least NT$160,000, or have
   other such enterprise.
 draft: false
 icon: /cms-uploads/icon-economy.svg
+topic: goldcard
 ---
 # Foreign special professionals with specialized knowledge/skills in economic fields
 

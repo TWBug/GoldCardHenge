@@ -6,6 +6,7 @@ summary: Those who have placed in the top three in an international sports
   team coach or an international sports competition referee.
 draft: false
 icon: /cms-uploads/icon-sports.svg
+topic: goldcard
 ---
 # Foreign Special Professionals Possessing Special Expertise in the Field of Sport
 

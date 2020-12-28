@@ -3,6 +3,7 @@ title: 體育領域
 summary: 曾獲國際體育(運動)比賽前3名或具優異技能有助提升我國運動競技實力、曾任各國家代表隊教練、國際性體育(運動)比賽裁判等。
 draft: false
 icon: /cms-uploads/icon-sports.svg
+topic: goldcard
 ---
 # 體育領域特殊專長
 

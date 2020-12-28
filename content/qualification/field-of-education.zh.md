@@ -4,6 +4,7 @@ summary: 博士學位畢業於世界大學排行前200名之大學校院、曾�
 draft: false
 icon: /cms-uploads/icon-education.svg
 style: title
+topic: goldcard
 ---
 # 教育領域特殊專長
 
