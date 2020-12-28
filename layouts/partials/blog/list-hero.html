@@ -18,7 +18,7 @@
 
 <div class="relative bg-gray-200 border-r border-gray-200 shadow-lg w-full md:w-1/2 xl:w-3/5 min-h-96">
     {{ if ne $cover_image "" }}
-    <img 
+    <img
     src="{{ $cover_image_resized.RelPermalink }}"
     alt="{{ .Title | truncate 80 }}" class="block absolute inset-0 w-full h-full object-cover" loading="lazy" />
     {{ end }}
@@ -29,7 +29,13 @@
             <li class="inline-block bg-white text-primary border border-gray-200 rounded-md shadow-md text-xs px-2 py-1 mx-1">
                 <a href="/{{ $.Site.Language }}/topics/{{ . }}" class="inline-flex items-center">
                     {{ partial "icon" (dict "name" "tag" "size" "3") }}
-                    <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
+                    <span class="font-bold uppercase ml-2">
+                        {{ if i18n (. | anchorize ) }}
+                        {{ i18n (. | anchorize) }}
+                        {{ else }}
+                        {{ . | humanize }}
+                        {{ end }}
+                    </span>
                 </a>
             </li>
             {{ end }}
@@ -63,7 +69,7 @@
         <p class="text-lg mb-4">
             {{ .Summary | truncate 320}}
         </p>
-        {{/* 
+        {{/*
             <div class="flex items-center text-xs font-bold text-secondary mb-2">
                 {{ partial "icon" (dict "name" "book-reader" "size" "4") }}
                 <span class="ml-2">

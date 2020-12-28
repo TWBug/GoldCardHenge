@@ -31,7 +31,9 @@
                             <li class="pr-2">
                                 <a href="{{ .Site.Home.RelPermalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">
                                     {{ partial "icon" (dict "name" "home" "size" "4") }}
-                                    <span class="ml-2">Home</span>
+                                    <span class="ml-2">
+                                        {{ .Site.Home.Title }}
+                                    </span>
                                 </a>
                             </li>
                             <li class="border-l-2 border-gray-500 border-dashed px-2">
