@@ -1,9 +1,7 @@
 ---
 media_image: null
 summary: Applying for the Taiwan Employment Gold Card is not that difficult. We
-  have prepared a step-by-step guide to lead you through the process. Before
-  filling out the application form, read our qualification section, and prepare
-  all required documents.
+  have prepared a step-by-step guide to lead you through the process.
 draft: false
 media_image_alt: null
 date: 2020-11-05T07:09:20.617Z
