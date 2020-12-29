@@ -25,6 +25,7 @@
             {{ if ne $paginator.PageNumber 1 }}
             <a href="{{ $paginator.First.URL }}" class="p-2 focus-primary">
                 {{ partial "icon" (dict "name" "angle-double-left" "size" "4") }}
+		<span style="position: absolute; height: 1px; width: 1px; overflow: hidden;  clip: rect(0, 0, 0, 0); white-space: nowrap;">Return to first page</span>
             </a>
             {{ end }}
 
@@ -32,6 +33,7 @@
             {{ if $paginator.HasPrev }}
             <a href="{{ $paginator.Prev.URL }}" class="p-2 focus-primary">
                 {{ partial "icon" (dict "name" "angle-left" "size" "4") }}
+		<span style="position: absolute; height: 1px; width: 1px; overflow: hidden;  clip: rect(0, 0, 0, 0); white-space: nowrap;">Previous page</span>
             </a>
             {{ end }}
             
@@ -108,6 +110,7 @@
         {{ if $paginator.HasNext }}
         <a href="{{ $paginator.Next.URL }}" class="p-2 focus-primary">
             {{ partial "icon" (dict "name" "angle-right" "size" "4") }}
+		<span style="position: absolute; height: 1px; width: 1px; overflow: hidden;  clip: rect(0, 0, 0, 0); white-space: nowrap;">Next page</span>
         </a>
         {{ end }}
 
@@ -115,6 +118,7 @@
         {{ if ne $paginator.PageNumber $paginator.TotalPages }}
         <a href="{{ $paginator.Last.URL }}" class="p-2 focus-primary">
             {{ partial "icon" (dict "name" "angle-double-right" "size" "4") }}
+		<span style="position: absolute; height: 1px; width: 1px; overflow: hidden;  clip: rect(0, 0, 0, 0); white-space: nowrap;">Last page</span>
         </a>
         {{ end }}
     
