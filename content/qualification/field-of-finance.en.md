@@ -6,6 +6,7 @@ summary: "Those who have held a specialist post or served in a senior executive
   industry promoted by the government (such as fintech or e-commerce). "
 draft: false
 icon: /cms-uploads/icon-finance.svg
+topic: goldcard
 ---
 # Foreign special professional with financial expertise
 

@@ -3,6 +3,7 @@ title: 建築設計領域
 summary: 月薪新臺幣16萬元且具我(外)國建築師資格或於外國建築師事務所年資5年以上具設計或監造執行經驗等。
 draft: false
 icon: /cms-uploads/icon-architecture.svg
+topic: goldcard
 ---
 # 建築設計領域特殊專長
 
@@ -12,6 +13,6 @@ icon: /cms-uploads/icon-architecture.svg
 * 具我國建築師資格、外國建築師資格或於外國建築師事務所(建築設計公司)服務年資五年以上具設計或監造專案執行經驗之建築師證書，或於外國建築師事務所(建築設計公司)服務具設計或監造專案執行經驗年資5年以上薪資證明或繳稅證明文件
 {{< /accordion >}}
 
-{{< accordion title="曾經或現任於其他國家或於我國最近月薪達新臺幣十六萬元。" suffix="2." bottomless="true" >}}
+{{< accordion title="曾經或現任於其他國家或於我國最近月薪達新臺幣十六萬元。" suffix="2." bottomless="false" >}}
 * 曾經或現任於其他國家或於我國最近月薪達新臺幣十六萬元
 {{< /accordion >}}

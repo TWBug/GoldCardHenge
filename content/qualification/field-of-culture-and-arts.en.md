@@ -5,6 +5,7 @@ summary: Those who have won international awards or achieved outstanding
   TV, popular music, handicrafts, and cultural administration.
 draft: false
 icon: /cms-uploads/icon-art-culture.svg
+topic: goldcard
 ---
 # Foreign Special Professional Who Possesses Special Expertise in the Field of Culture and Arts
 

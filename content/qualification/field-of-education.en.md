@@ -7,6 +7,7 @@ summary: Those who hold a doctoral degree from one of the world’s 200
 draft: false
 icon: /cms-uploads/icon-education.svg
 style: title
+topic: goldcard
 ---
 
 # A foreign special professional with special expertise in the field of education

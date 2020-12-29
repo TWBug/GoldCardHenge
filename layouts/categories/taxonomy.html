@@ -35,7 +35,9 @@
                             <li class="pr-2">
                                 <a href="{{ .Site.Home.RelPermalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">
                                     {{ partial "icon" (dict "name" "home" "size" "4") }}
-                                    <span class="ml-2">Home</span>
+                                    <span class="ml-2">
+                                        {{ .Site.Home.Title }}
+                                    </span>
                                 </a>
                             </li>
                             <li class="border-l-2 border-gray-500 border-dashed px-2">
@@ -43,8 +45,8 @@
                             </li>
                             <li class="border-l-2 border-gray-500 border-dashed px-2">
                                 <span class="flex items-center bg-white rounded px-2 py-1">
-                                    {{ if i18n .Title }}
-                                    {{ i18n .Title }}
+                                    {{ if i18n (.Title | anchorize) }}
+                                    {{ i18n (.Title | anchorize) }}
                                     {{ else }}
                                     {{ .Title | humanize }}
                                     {{ end }}
@@ -55,8 +57,8 @@
                 </nav>
                 <h1 class="text-5xl leading-tight font-semibold my-2">
                     {{ i18n "news_category" }}:
-                    {{ if i18n .Title }}
-                    {{ .Title }}
+                    {{ if i18n (.Title | anchorize) }}
+                    {{ i18n (.Title | anchorize) }}
                     {{ else }}
                     {{ .Title | humanize }}
                     {{ end }}
@@ -78,7 +80,7 @@
                   <div class=" border-t-2 border-secondary border-dashed"></div>
                     {{ $paginator := .Paginate .Pages.ByDate.Reverse }}
                     {{ range $paginator.Pages }}
-                    
+
                     {{ $reading_time := .ReadingTime }}
                     {{ if eq .Language.Lang "zh" }}
                       {{ range .Translations }}
@@ -87,7 +89,7 @@
                         {{ end }}
                       {{ end }}
                     {{ end }}
-                    
+
                     <div class="grid grid-cols-4 border-b-2 border-secondary border-dashed">
                         <div class="p-4">
                             <div class="border-2 border-secondary rounded-md text-center font-bold text-secondary p-2 mt-8">
@@ -122,7 +124,7 @@
                             <div class="inline-flex items-center text-xs font-bold text-secondary">
                                   {{ partial "icon" (dict "name" "tags" "size" "4") }}
                                   <span class="ml-1">
-                                    {{ i18n "categories" }}: 
+                                    {{ i18n "categories" }}:
                                   </span>
                                 </div>
                                 <ul class="inline">
@@ -130,7 +132,13 @@
                                   <li class="inline-block text-primary text-xs p-1 mx-1">
                                       <a href="/{{ $.Site.Language }}/categories/{{ . }}" class="inline-flex items-center focus-primary">
                                           {{ partial "icon" (dict "name" "tag" "size" "3") }}
-                                          <span class="font-bold uppercase ml-2"> {{ . | humanize }} </span>
+                                          <span class="font-bold uppercase ml-2">
+                                            {{ if i18n (. | anchorize ) }}
+                                            {{ i18n (. | anchorize) }}
+                                            {{ else }}
+                                            {{ . | humanize }}
+                                            {{ end }}
+                                          </span>
                                       </a>
                                   </li>
                                   {{ end }}
@@ -138,17 +146,17 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     {{ end }}
-                    
+
                     {{ partial "pagination" . }}
-                    
+
                     {{ if .Content }}
                     {{ if eq $paginator.PageNumber 1 }}
                     <div class="copy mt-12">{{ .Content }}</div>
                     {{ end }}
                     {{ end }}
-                    
+
                 </div>
                 <div class="-mt-12">
                     {{ partial "aside/all-categories" . }}
