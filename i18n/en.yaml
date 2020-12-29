@@ -143,6 +143,8 @@
   translation: 'Sorry we can not find the page you were searching for.'
 - id: image_about
   translation: 'Image about'
+- id: gold_card_community_member
+  translation: 'Gold Card community member'
   
 - id: undefined
   translation: 'UNDEFINED'
