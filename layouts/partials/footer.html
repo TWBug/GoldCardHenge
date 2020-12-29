@@ -46,9 +46,8 @@
                 </p>
                 <div class="my-4">
                     <a href="{{ .Site.Language.Params.linkedin}}" class="inline-block focus-white" target="_blank">
-                        <span class="text-white">
-                            {{ partial "icon" (dict "name" "linkedin" "size" "8" "alt" "Link to linkedin page") }}
-                        </span>
+                        {{ $linkedin_icon := resources.Get "img/icons/linkedin-white.svg" }}
+                        <img src="{{ $linkedin_icon.RelPermalink }}" class="block h-8" alt="{{ i18n "link_linkedin_page" }}">
                     </a>
                 </div>
                 {{ $helpdesk := .Site.GetPage "/help-desk" }}
