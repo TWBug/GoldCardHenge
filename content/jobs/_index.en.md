@@ -13,7 +13,7 @@ tags:
 categories:
 ---
 
-# Hi, and welcome to the official Taiwan Employment Gold Card website.
+## Hi, and welcome to the official Taiwan Employment Gold Card website.
 
 We are currently getting set up and look forward to serving you soon.
 We know that finding a job is an important part of moving to a new country.
