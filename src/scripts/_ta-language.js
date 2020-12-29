@@ -20,9 +20,8 @@ window.taLanguage = function () {
             if (this.default.supported.indexOf(language) === -1) {
                 return false
             }
-            var location_path_name = location.pathname
-            var path_language = location_path_name.substring(1, 3)
-            var location_new = location.origin + location_path_name.replace(path_language, language)
+            var location_path_name = location.pathname.substr(3)
+            var location_new = location.origin + '/' + language + location_path_name
             localStorage.setItem('language', language)
             this.language = language
             if (this.checkDestination(location_new) === true) {
