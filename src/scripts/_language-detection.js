@@ -63,7 +63,7 @@ window.languageDetection = {
         if (this.supported_languages.indexOf(old_language) === -1) {
             old_language = this.default_language
         }
-        var new_location = location.pathname.replace(old_language, this.language)
+        var new_location = location.pathname.substring(1, 3).replace(old_language, this.language) + location.pathname.substring(location.pathname.length - 3)
         var new_href = location.origin + new_location
         if (this.checkDestination(new_href) === true) {
             window.location.href = new_location

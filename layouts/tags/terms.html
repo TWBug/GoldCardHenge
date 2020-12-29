@@ -1,50 +1,76 @@
 {{ define "main" }}
 
-{{ $cover_image := "" }}
-{{ if .Params.cover_image }}
-{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
-{{ end }}
+{{ $cover_image := resources.Get "cms-uploads/icon-tag.svg" }}
 
-<div class="relative bg-blue-500 shadow-xl" rel="terms" type="{{ .Data.Plural }}">
+<div class="relative bg-blue-500 shadow-xl">
     {{ partial "navigation" . }}
-    <div class="relative bg-nav-meta z-0 pt-16 pb-16">
-        <div class="absolute inset-x-0 top-0 h-3/4 bg-gradient-to-b from-black to-transparent opacity-25 -z-1"></div>
-        <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
-            <img src="/img/list-mountains.svg" alt="" class="block w-full" />
-        </div>
-        {{ if .Site.IsServer }}
-        <div class="absolute right-0 bottom-0 text-xs font-bold text-white text-opacity-25 p-2">TERMS LIST TEMPLATE</div>
-        {{ end }}
-        <div class="container">
-            <div class="px-24">
-                <div class="grid grid-cols-3 gap-24 items-center">
-                    <div class="replace col-span-2">
-                        <h1 class="text-white text-5xl leading-tight font-semibold mb-2">
-                            <span class="font-bold">{{ .Title }}
-                        </h1>
-                        <p class="text-white font-semibold">{{ .Summary }}</p>
+</div>
+
+<div class="relative flex items-center bg-background-light z-0 shadow-xl py-16">
+    <div
+    class="absolute top-0 inset-x-0 h-full bg-gradient-to-b from-gradient to-transparent opacity-25 -z-1"
+    ></div>
+    {{ if .Site.IsServer }}
+    <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">TAGS TERMS TEMPLATE</div>
+    {{ end }}
+    <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
+        <img src="/img/list-mountains-light.svg" alt="{{ i18n "taiwan_mountains" }}" class="block w-full">
+    </div>
+    <div class="container px-12 lg:px-24">
+        <div class="flex flex-col md:flex-row justify-between md:items-center lg:px-24">
+            {{ if $cover_image }}
+            <div class="flex-center w-1/3 md:w-1/4 mb-6">
+                <img src="{{ $cover_image.RelPermalink }}" class="w-full max-h-48 drop-shadow-white" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
+            </div>
+            {{ end }}
+            <div class="replace w-full md:w-2/3">
+                {{ $whytaiwan := .Site.GetPage "/why-taiwan" }}
+                <nav aria-label="breadcrumb">
+                    <div class="text-xs font-semibold mb-4">
+                        <ol class="flex items-center font-bold">
+                            <li class="pr-2">
+                                <a href="{{ .Site.Home.RelPermalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">
+                                    {{ partial "icon" (dict "name" "home" "size" "4") }}
+                                    <span class="ml-2">
+                                        {{ .Site.Home.Title }}
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="border-l-2 border-gray-500 border-dashed px-2">
+                                <a href="{{ $whytaiwan.RelPermalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">{{ $whytaiwan.Title }}</a>
+                            </li>
+                            <li class="border-l-2 border-gray-500 border-dashed px-2">
+                                <span class="flex items-center bg-white rounded px-2 py-1">
+                                    {{ i18n "topics" }}
+                                </span>
+                            </li>
+                        </ol>
                     </div>
-                    {{ if $cover_image }}
-                    <div class="min-h-32">
-                        <img src="{{ $cover_image.RelPermalink }}" class="w-full" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
-                    </div>
+                </nav>
+                <h1 class="text-5xl leading-tight font-semibold mb-2">
+                    {{ $whytaiwan.Title }}:
+                    {{ if i18n .Title }}
+                        {{ i18n .Title }}
+                    {{ else }}
+                        {{ .Title | humanize }}
                     {{ end }}
-                </div>
+                </h1>
+                <h2 class="text-lg font-medium leading-relaxed">{{ $whytaiwan.Summary | truncate 200 }}</h2>
             </div>
         </div>
     </div>
 </div>
+
 <div class="relative flex-grow">
     <div
         class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
     ></div>
     <section id="scroll">
         <div class="container py-12 sm:py-24 px-12 lg:px-24">
-            {{ partial "breadcrumb" . }}
-            <div class="border-2 border-gray-200 rounded-xl bg-gray-100 p-4 mb-8">
+            <div class="mb-8">
                 {{ range sort .Data.Terms.Alphabetical }}
                 <a
-                    class="inline-block border border-primary rounded-md text-lg font-semibold text-primary px-3 py-1 m-2"
+                    class="inline-block bg-white border-2 border-primary rounded-md text-lg font-semibold text-primary px-3 py-1 m-2"
                     href="{{ .Page.RelPermalink }}"
                 >
                     {{ if i18n .Page.Title }}
@@ -55,9 +81,6 @@
                 </a>
                 {{ end }}
             </div>
-            {{ if .Content }}
-            <div class="copy">{{ .Content }}</div>
-            {{ end }}
         </div>
     </section>
 </div>

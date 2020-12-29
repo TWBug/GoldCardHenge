@@ -130,7 +130,7 @@
                                 <ul class="inline">
                                   {{ range .Params.categories }}
                                   <li class="inline-block text-primary text-xs p-1 mx-1">
-                                      <a href="/{{ $.Site.Language }}/categories/{{ . }}" class="inline-flex items-center focus-primary">
+                                      <a href="/{{ $.Site.Language }}/categories/{{ . | anchorize }}" class="inline-flex items-center focus-primary">
                                           {{ partial "icon" (dict "name" "tag" "size" "3") }}
                                           <span class="font-bold uppercase ml-2">
                                             {{ if i18n (. | anchorize ) }}

@@ -141,6 +141,12 @@
   translation: 'Page was not found'
 - id: error_description
   translation: 'Sorry we can not find the page you were searching for.'
+- id: image_about
+  translation: 'Image about'
+- id: gold_card_community_member
+  translation: 'Gold Card community member'
+- id: link_linkedin_page
+  translation: 'Link to LinkedIn page'
   
 - id: undefined
   translation: 'UNDEFINED'
