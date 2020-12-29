@@ -137,6 +137,9 @@
   translation: '找不到頁面'
 - id: error_description
   translation: '抱歉，我們找不到您要搜索的頁面。'
+- id: image_about
+  translation: '關於圖片'
+  
 - id: undefined
   translation: 'UNDEFINED'
 - id: card
