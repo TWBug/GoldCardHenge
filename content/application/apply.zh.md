@@ -9,6 +9,6 @@ style: right
 
 1. 符合選定的[領域條件](https://goldcard.nat.gov.tw/zh/qualification/)
 2. 閱讀完[申請流程](/zh/application/)
-3. 完成以上後，請至[](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card)[外國專業人才申辦窗口平台](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card)申請
+3. 完成以上後，請至[外國專業人才申辦窗口平台](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card)申請
 
 如果您有遇到任何問題，歡迎與[我們聯繫](/zh/help-desk/)
