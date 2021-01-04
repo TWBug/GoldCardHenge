@@ -144,6 +144,21 @@ Please attach both of the following documents:
 - Proof of employment or resignation of the senior executive serving as a unit supervisor or any higher hierarchy in the startup company; or proof of employment of the core research & development personnel in the startup company.
 {{< /accordion >}}
 
+{{< accordion title="Those who have been a senior executive or core research & development personnel who has successfully led an overseas startup company to be merged or acquired by other company." suffix="12." bottomless="false" >}}
+Please select either 12.1 or 12.2, and attach all documents required for the selected item:
+
+- 12.1. Please attach either one or both of the following documents:
+    - Proof of employment or resignation of the senior executive of a venture capital firm or a fund that has USD 5,000,000 investment in a non-Taiwanese startup company/team.
+    - Proof of employment or resignation of the senior executive of a venture capital firm or a fund that has USD 1,000,000 investment in a startup company / team, affiliated to any program of MOST 
+
+- 12.2. Please attach the following document:
+    - Proof of employment or resignation of the senior executive serving as a unit supervisor or any higher hierarchy in the startup company.
+{{< /accordion >}}
+
+{{< accordion title="Other potential contributors to Taiwan’s science and technology fields." suffix="13." bottomless="false" >}}
+Document explaining the applicant's expertise or experience (such as a domestic or foreign certificate of academic attainment, or proof of work experience, academic research, technological expertise, technology transfer, or receipt of awards, etc.).
+{{< /accordion >}}
+
 ## Notes
 
 {{< note title="2.1a" >}}
