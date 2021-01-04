@@ -132,8 +132,16 @@ Please attach all of the following documents:
 - Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
 {{< /accordion >}}
 
-{{< accordion title="" suffix="" bottomless="false" >}}
+{{< accordion title="Those who have been a senior executive or core research & development personnel that has led an overseas startup company to IPO." suffix="10." bottomless="false" >}}
+Please attach both of the following documents:
+- Media coverage or other supporting information of the startup company being listed as a public traded company in a foreign stock exchange.
+- Proof of employment or resignation of the senior executive being a unit supervisor in the startup company; or proof of employment of a core research & development personnel in the startup company.
+{{< /accordion >}}
 
+{{< accordion title="Those who have been a senior executive or core research & development personnel who has successfully led an overseas startup company to be merged or acquired by other company." suffix="11." bottomless="false" >}}
+Please attach both of the following documents:
+- Media coverage or other supporting information of the startup company being merged or acquired with USD 5,000,000.
+- Proof of employment or resignation of the senior executive serving as a unit supervisor or any higher hierarchy in the startup company; or proof of employment of the core research & development personnel in the startup company.
 {{< /accordion >}}
 
 ## Notes
