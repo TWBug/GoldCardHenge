@@ -145,7 +145,7 @@ Please attach both of the following documents:
 {{< /accordion >}}
 
 {{< accordion title="Those who have been a senior executive or core research & development personnel who has successfully led an overseas startup company to be merged or acquired by other company." suffix="12." bottomless="true" >}}
-Please select either 12.1 or 12.2, and attach all documents required for the selected item:
+Please select either 12.1 or 12.2, and attach required for the selected item:
 
 - 12.1. Please attach either one or both of the following documents:
     - Proof of employment or resignation of the senior executive of a venture capital firm or a fund that has USD 5,000,000 investment in a non-Taiwanese startup company/team.
