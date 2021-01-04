@@ -131,6 +131,10 @@ blockquote {
     @apply flex justify-center items-center;
 }
 
+.hyphens-none {
+    hyphens: none;
+}
+
 /* .highlight {
     @apply inline-block bg-highlight font-bold text-black whitespace-no-wrap rounded-md;
     padding-right: 0.3em;

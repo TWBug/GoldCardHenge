@@ -128,7 +128,7 @@ window.languageDetection = {
   },
   getStorage: function getStorage(item) {
     try {
-      return localStorage.getItem(item).replace(/(<([^>]+)>)/gi, "");
+      return localStorage.getItem(item).replace(/(<([^>]+)>)/gi, '');
     } catch (e) {
       if (e.name == 'NS_ERROR_FILE_CORRUPTED') {
         alert(this.message);
@@ -142,11 +142,12 @@ window.languageDetection = {
       old_language = this.default_language;
     }
 
-    var new_location = location.pathname.replace(old_language, this.language);
-    var new_href = location.origin + new_location;
+    var location_path_name = location.pathname.substr(3);
+    var location_new = location.origin + '/' + this.language + location_path_name; // var new_location = location.pathname.substring(1, 3).replace(old_language, this.language) + location.pathname.substring(location.pathname.length - 3)
+    // var new_href = location.origin + new_location
 
-    if (this.checkDestination(new_href) === true) {
-      window.location.href = new_location;
+    if (this.checkDestination(location_new) === true) {
+      window.location.href = location_new;
     } else {
       window.location.href = location.origin + '/' + this.language + '/';
     }
@@ -183,7 +184,7 @@ window.languageDetection = {
   },
   getCookie: function getCookie(item) {
     var itemValue = document.cookie.match('(^|;) ?' + item + '=([^;]*)(;|$)');
-    return itemValue ? itemValue[2].replace(/(<([^>]+)>)/gi, "") : null;
+    return itemValue ? itemValue[2].replace(/(<([^>]+)>)/gi, '') : null;
   }
 };
 "use strict";
