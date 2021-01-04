@@ -21,15 +21,15 @@ cover_image_alt: Test alt
 
 ## Must meet **ONE** of the following requirements:
 
-{{< accordion title="The applicant has held, or currently holds, a position with a most recent monthly salary of over NTD 160,000 in Taiwan or another country." suffix="1." bottomless="true" >}}
-Please provide least one of the following items:
-- Documents verifying salary or income tax payment relating to employment at a technology company *(if the company's manufacturing or R&D achievements, and the individual's contributions as a participant, are consistent with the fields listed in article 2 or 3 of the eligibility/prerequisites column)*.
-- Documents verifying salary or income tax payment relating to employment at a public or private university in Taiwan or abroad, or academic research institution in Taiwan or abroad. [Note 1](#note-1)
+{{< accordion title="Applicant previously or currently holding a position at a technology company or in technological fields...with a most recent monthly salary of at least NTD 160,000." suffix="1." bottomless="true" >}}
+Please attach all of the following documents:
+- Documents verifying salary or income tax payment relating to employment at a technology company or in a technological field
+- Personal curriculum vitae and document verifying domestic or foreign service relating to employment at a technology company or in a technological field
 {{< /accordion >}}
 
 {{< accordion title="Those with unique talents or outstanding R&D ability or innovation performances…" suffix="2." bottomless="true" >}}
 
-**Those with unique talents or outstanding R&D or design ability or original achievements in such cutting-edge technological fields as software applications, software technology, nanotechnology, microelectromechanical technology, optoelectronics, information and communications, communication transmission technology, automation system integration technology, material application technology, high precision sensing technology, biotechnology, resources development and energy conservation, frontier scientific research, and national defense and military strategies.**
+**Those with unique talents or outstanding R&D ability or innovation performances in such cutting-edge technological fields as software applications, software technology, nanotechnology, optoelectronics, information and communication, communication transmission technology, automation system integration technology, material application technology, high precision sensing technology, biological technology, resources development or energy saving, frontier scientific research, and national defense and military strategies.**
 
 Please select either 2.1 or 2.2, and attach all documents required for the selected item:
 - 2.1. All of the following documents are required:
