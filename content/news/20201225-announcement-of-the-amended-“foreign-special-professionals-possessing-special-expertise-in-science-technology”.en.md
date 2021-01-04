@@ -11,7 +11,7 @@ categories:
   - Gold Card Policy
 style: right
 ---
-# In order to attract foreign special professionals, the Ministry of Science and Technology relaxes its regulations for “Foreign Special Professionals Possessing Special Expertise in Science & Technology”. 
+In order to attract foreign special professionals, the Ministry of Science and Technology relaxes its regulations for “Foreign Special Professionals Possessing Special Expertise in Science & Technology”.
 
 The amendments include:
 
