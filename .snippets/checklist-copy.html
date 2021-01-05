@@ -1,0 +1,72 @@
+{{ $dirFile := path.Split (path.Dir .Page) }}
+{{ $application := .Site.GetPage "application2" }}
+{{ eq .Page $application }}
+
+<div class="my-12">
+    <div class="flex items-baseline justify-between border-b-2 border-secondary border-dashed px-2 pb-2">
+        <h3 class="text-xl font-bold">{{ i18n "categories" }}</h3>
+        {{ partial "icon" (dict "name" "tags" "size" "7") }}
+    </div>
+    <div class="leading-tight text-base pt-6 pl-2">
+        {{ range $application.Sections }}
+            {{ $dirPage := path.Split (path.Dir .Page) }}
+            {{ $pages := "" }}
+            {{ if eq .RelPermalink $.Page.RelPermalink }}
+                {{ $pages = $.RegularPages }}
+            {{ else if eq $dirFile.File $dirPage.File }}
+                {{ $pages = $.Parent.RegularPages }}
+            {{ end }}
+            <p class="flex items-center text-base font-bold py-1 my-1 ">
+                {{ .Title }}
+            </p>
+            {{ if $pages }}
+                <div class="ml-2 pb-2">
+                    {{ range $pages }}
+                    <!-- <a href="{{ .RelPermalink }}" class=" block text-primary font-medium mb-1" x-data="taCheckList()" x-init="init()" data-id="{{ md5 .RelPermalink }}">
+                        <span x-cloak>
+                            <span x-show="checked">
+                                YES
+                            </span>
+                            <span x-show="!checked">
+                                NO
+                            </span>
+                        </span>
+                        <span>
+                            {{ .Title }}
+                        </span>
+                    </a> -->
+                    {{ template "checklist" (dict "item" . "active" $.Page ) }}
+                    {{ end }}
+                </div>
+            {{ else }}
+                {{ template "checklist" (dict "item" . "active" $.Page ) }}
+            {{ end }}
+            <div class="seperate h-6 -ml-2 -mr-2"></div>
+        {{ end }}
+    </div>
+</div>
+
+{{ define "checklist" }}
+{{ if eq .item .active }}
+<p class="flex items-center text-secondary text-sm font-bold py-1 my-1 ">
+    <span class="flex flex-shrink-0 w-10">
+        {{ partial "icon" (dict "name" "pen-alt" "size" "5" "alt" "Info") }}
+    </span>
+    {{ .item.Title }}
+</p>
+{{ else }}
+<div href="{{ .item.RelPermalink }}" class="flex items-center text-sm text-gray-700 font-semibold py-1 my-1 focus-primary" x-data="taCheckList()" x-init="init()" data-id="{{ md5 .item.RelPermalink }}">
+    <span x-cloak>
+        <span class="flex w-10 text-green-600" x-show="checked">
+            {{ partial "icon" (dict "name" "check" "size" "6" "alt" "Info") }}
+        </span>
+        <span class="flex w-10 text-gray-400" x-show="!checked">
+            {{ partial "icon" (dict "name" "circle" "size" "6" "alt" "Info") }}
+        </span>
+    </span>
+    <span>
+        {{ .item.Title }}
+    </span>
+</div>
+{{ end }}
+{{ end }}
