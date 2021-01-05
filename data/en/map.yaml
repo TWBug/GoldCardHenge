@@ -34,6 +34,13 @@ items:
       local: "Taichung, Taiwan"
       description: "Master's, PhD and Post Doc at Life Science Department in NTHU; Currently R and D Director at Lihpao Life Science Corp."
       image: "member-prerana-bhan.jpg"
+    - name: "Raymond W."
+      left: 72.04
+      top: 44.30
+      origin: "San Francisco, California, USA"
+      local: "Taipei, Taiwan"
+      description: "Biotech"
+      image: "member-raymond-w.jpg"
     - name: "Animesh F."
       left: 29.38
       top: 52.94

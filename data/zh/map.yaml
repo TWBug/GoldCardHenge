@@ -34,6 +34,13 @@ items:
       local: "台灣, 臺中"
       description: "國立清華大學生命科學系的碩士、博士及博士後學位，現任麗寶生醫的研發總監"
       image: "member-prerana-bhan.jpg"
+    - name: "Raymond W."
+      left: 72.04
+      top: 44.30
+      origin: "美國加州, 舊金山"
+      local: "台北，台灣"
+      description: "生物技術"
+      image: "member-raymond-w.jpg"
     - name: "Animesh F."
       left: 29.38
       top: 52.94
