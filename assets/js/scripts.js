@@ -317,6 +317,197 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
+window.taCheckList = function () {
+  return {
+    initialized: false,
+    trigger_id: '',
+    trigger_checked: false,
+    checked: {},
+    storage: false,
+    name: false,
+    elements: [],
+    has_resume: false,
+    has_finished: false,
+    resume: {},
+    options: {
+      id: '',
+      namespace: 'application',
+      prefix: 'ta-check'
+    },
+    init: function init(options) {
+      if (typeof options !== 'undefined') {
+        if (_typeof(options) !== 'object' || options instanceof Array) {
+          console.warn('Options are in wrong type - should be object - options been used');
+        }
+
+        for (var _i = 0, _Object$entries = Object.entries(options); _i < _Object$entries.length; _i++) {
+          var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+              key = _Object$entries$_i[0],
+              value = _Object$entries$_i[1];
+
+          this.options[key] = value;
+        }
+      } // checks if options are defined by data
+
+
+      for (var _i2 = 0, _Object$entries2 = Object.entries(this.$el.dataset); _i2 < _Object$entries2.length; _i2++) {
+        var _Object$entries2$_i = _slicedToArray(_Object$entries2[_i2], 2),
+            _key = _Object$entries2$_i[0],
+            _value = _Object$entries2$_i[1];
+
+        if (typeof this.options[_key] !== 'undefined') {
+          if (isNaN(_value)) {
+            this.options[_key] = _value;
+          } else {
+            this.options[_key] = parseInt(_value);
+          }
+        }
+      }
+
+      this.name = this.options.prefix + '.' + this.options.namespace;
+      this.storage = this.getStorage(this.name);
+
+      if (this.storage === null) {
+        this.storage = [];
+      } else {
+        try {
+          this.storage = JSON.parse(this.storage);
+        } catch (e) {
+          console.warn('TA-Check - storage file corrupted');
+          this.storage = [];
+        }
+      }
+    },
+    list: function list(options) {
+      this.init(options);
+      var elements = this.$el.querySelectorAll('[data-id]');
+
+      for (var _index = 0; _index < elements.length; _index++) {
+        var id = elements[_index].dataset.id;
+        var checked = this.storage.indexOf(id) !== -1 ? true : false;
+        this.checked[elements[_index].dataset.id] = checked;
+        this.elements.push({
+          index: _index,
+          id: id,
+          checked: checked,
+          href: elements[_index].dataset.href,
+          text: elements[_index].dataset.text
+        });
+      }
+
+      var index = 0;
+
+      for (index = 0; index < this.elements.length; index++) {
+        if (this.elements[index].checked === false) {
+          break;
+        }
+      }
+
+      if (index > 0) {
+        if (index >= this.elements.length) {
+          this.has_finished = true;
+        } else {
+          this.resume = this.elements[index];
+
+          if (this.resume.href !== location.pathname) {
+            this.has_resume = true;
+          }
+        }
+      }
+
+      this.initialized = true;
+    },
+    trigger: function trigger(options) {
+      var _this = this;
+
+      this.init(options);
+      this.trigger_id = location.pathname.replace(/\//gi, '');
+
+      if (this.options.id.length !== 0) {
+        this.trigger_id = this.options.id;
+      }
+
+      if (this.storage.length === 0) {
+        this.setStorage(this.name, JSON.stringify(this.storage));
+      }
+
+      if (this.storage.indexOf(this.trigger_id) !== -1) {
+        this.trigger_checked = true;
+      }
+
+      this.initialized = true;
+      this.$watch('trigger_checked', function (value) {
+        if (value === true) {
+          if (_this.storage.indexOf(_this.trigger_id) === -1) {
+            _this.storage.push(_this.trigger_id);
+          }
+        } else {
+          var index = _this.storage.indexOf(_this.trigger_id);
+
+          if (index !== -1) {
+            _this.storage.splice(index, 1);
+          }
+        }
+
+        _this.setStorage(_this.name, JSON.stringify(_this.storage));
+      });
+    },
+    toggleCheck: function toggleCheck() {
+      this.trigger_checked = !this.trigger_checked;
+    },
+    setStorage: function setStorage(item, value) {
+      try {
+        localStorage.setItem(item, value);
+        return true;
+      } catch (e) {
+        if (e.name == 'NS_ERROR_FILE_CORRUPTED') {
+          alert(this.message);
+        }
+
+        this.setCookie(item, value);
+        return false;
+      }
+    },
+    getStorage: function getStorage(item) {
+      try {
+        return localStorage.getItem(item).replace(/(<([^>]+)>)/gi, '');
+      } catch (e) {
+        if (e.name == 'NS_ERROR_FILE_CORRUPTED') {
+          alert(this.message);
+        }
+
+        return this.getCookie(item);
+      }
+    },
+    setCookie: function setCookie(item, value) {
+      var expires = '';
+      var date = new Date();
+      date.setTime(date.getTime() + 12 * 30 * 24 * 60 * 60 * 1000);
+      expires = '; expires=' + date.toUTCString();
+      document.cookie = item + '=' + value + expires + '; path=/';
+    },
+    getCookie: function getCookie(item) {
+      var itemValue = document.cookie.match('(^|;) ?' + item + '=([^;]*)(;|$)');
+      return itemValue ? itemValue[2].replace(/(<([^>]+)>)/gi, '') : null;
+    }
+  };
+};
+"use strict";
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
 window.taCounter = function () {
   return {
     status: false,
