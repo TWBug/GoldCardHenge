@@ -110,6 +110,8 @@
 - id: taipei_city_skyline
   translation: '台北市天際線'
 - id: taiwan_mountains
+  translation: '台北市天際線台灣的山'
+- id: taiwan_mountains
   translation: '台灣的山'
 - id: taiwan_landscape
   translation: '台灣的風景'

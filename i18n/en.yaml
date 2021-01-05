@@ -111,6 +111,8 @@
   translation: 'Located'
 - id: taipei_city_skyline
   translation: 'Taipei City Skyline'
+- id: taipei_mountains
+  translation: 'Taipei Mountains'
 - id: taiwan_mountains
   translation: 'Taiwan Mountains'
 - id: taiwan_landscape
