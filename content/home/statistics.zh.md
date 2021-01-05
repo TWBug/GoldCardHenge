@@ -10,7 +10,7 @@ items:
     label: "1945"
     href: 金卡核發數
   - preview: null
-    label: "60"
+    label: "62"
     href: 金卡國籍數
   - preview: null
     label: "11520"
