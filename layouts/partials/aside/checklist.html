@@ -1,0 +1,84 @@
+{{ $dirFile := path.Split (path.Dir .Page) }}
+{{ $application := .Site.GetPage "application2" }}
+
+{{ $isSectionHome := false }}
+{{ if eq .Page $application }}
+{{ $isSectionHome = true }}
+{{ end}}
+
+<div class="my-12">
+    <div class="flex items-baseline justify-between border-b-2 border-secondary text-secondary border-dashed px-2 pb-2">
+        <h2 class="text-xl font-bold">Check list</h2>
+        {{ partial "icon" (dict "name" "check-double" "size" "7") }}
+    </div>
+    <p class="text-base font-medium pt-4 pl-2">
+        Use your personal check list to make it easier for you to remember if you have completed all steps of the application process.
+    </p>
+    <div class="leading-tight text-md pt-4 pl-2" x-data="taCheckList()" x-init="list()">
+        {{ if $isSectionHome }}
+            {{ range $application.Sections }}
+                <h3 class="text-base font-bold py-1 my-1 ">
+                    {{ .Title }}
+                </h3>
+                <div class="seperate h-6 -ml-2 -mr-2"></div>
+            {{ end }}
+        {{ else }}
+            {{ range $application.Sections }}
+                <h3 class="text-base font-bold py-1 my-1 ">
+                    {{ .Title }}
+                </h3>
+                {{ if .RegularPages }}
+                    {{ range .RegularPages }}
+                    {{ template "check" (dict "link" .RelPermalink "text" .Title "active" (eq $.Page .Page) ) }}
+                    {{ end }}
+                {{ else }}
+                    {{ template "check" (dict "link" .RelPermalink "text" (.Summary | truncate 40) "active" (eq $.Page .Page) ) }}
+                {{ end }}
+                <div class="seperate h-6 -ml-2 -mr-2"></div>
+            {{ end }}
+        {{ end }}
+        <template x-if="has_resume">
+            <div class="text-right mt-4">
+                <a href="{{ $application.RelPermalink }}" :href="resume.href" class="inline-flex items-center text-primary text-base font-bold">
+                    <span class="mr-4">
+                        Continue with: <span class="block text-sm font-medium" x-text="resume.text"></span>
+                    </span>
+                    {{ partial "icon" (dict "name" "angle-right" "size" "8") }}
+                </a>
+            </div>
+        </template>
+        <template x-if="has_finished">
+            <div class="flex items-center text-green-600 mt-4">
+                {{ partial "icon" (dict "name" "check" "size" "10") }}
+                <span class="text-xl font-bold ml-4">
+                    All finished
+                </span>
+            </div>
+        </template>
+    </div>
+</div>
+
+{{ define "check" }}
+    {{ if .active }}
+        <div class="flex items-center text-nav-end font-bold py-1 my-1" data-id="{{ md5 .link }}" data-href="{{ .link }}" data-text="{{ .text }}">
+            <span class="flex flex-shrink-0 w-10">
+                {{ partial "icon" (dict "name" "pen-alt" "size" "5" "alt" "Info") }}
+            </span>
+            {{ .text }}
+        </div>
+    {{ else }}
+        <div class="flex items-center text-gray-700 font-medium py-1 my-1 focus-primary" :class="{'text-green-600 font-bold': checked['{{ md5 .link }}'] }" data-id="{{ md5 .link }}" data-href="{{ .link }}" data-text="{{ .text }}">
+            <span x-cloak>
+                <span class="flex w-10 text-green-600" x-show="checked['{{ md5 .link }}']">
+                    {{ partial "icon" (dict "name" "check" "size" "6" "alt" "Info") }}
+                </span>
+                <span class="flex w-10 text-gray-400" x-show="!checked['{{ md5 .link }}']">
+                    {{ partial "icon" (dict "name" "circle" "size" "6" "alt" "Info") }}
+                </span>
+            </span>
+            <span>
+                {{ .text }}
+            </span>
+        </div>
+    {{ end }}
+{{ end }}

@@ -1,0 +1,84 @@
+{{/*  TODO registerEditorComponent netlify  */}}
+{{ $buffer := "" }}
+
+{{ $start := "false" }}
+{{ with (.Params.start | plainify) }}
+{{ $start = . }}
+{{ end }}
+
+{{ $previous := .Params.previous | plainify }}
+{{ if eq ( substr $previous 0 1 ) "/" }}
+    {{ $previous = substr $previous 1 }}
+{{ end }}
+{{ if eq ( substr $previous -1 1 ) "/" }}
+    {{ $previous = substr $previous 0 -1 }}
+{{ end }}
+
+{{ if $previous }}
+    {{ $buffer = .Site.GetPage $previous }}
+    {{ if $buffer }}
+    {{ $previous = $buffer }}
+    {{ else }}
+    {{ $previous = "" }}
+    {{ end }}
+{{ end }}
+
+{{ $next := .Params.next | plainify }}
+{{ if eq ( substr $next 0 1 ) "/" }}
+    {{ $next = substr $next 1 }}
+{{ end }}
+{{ if eq ( substr $next -1 1 ) "/" }}
+    {{ $next = substr $next 0 -1 }}
+{{ end }}
+
+{{ if $next }}
+    {{ $buffer = .Site.GetPage $next }}
+    {{ if $buffer }}
+    {{ $next = $buffer }}
+    {{ else }}
+    {{ $next = "" }}
+    {{ end }}
+{{ end }}
+
+<div class="flex flex-wrap justify-center items-center border-b-2 border-t-2 border-gray-400 border-dashed p-4 mb-6">
+    {{ if eq $start "false" }}
+        <div class="w-full lg:w-1/2 lg:p-4">
+            {{ if $previous }}
+            <a href="{{ $previous.RelPermalink }}" class="w-full flex items-center justify-start border-2 border-primary rounded-md text-primary px-4 py-2 my-2 focus-primary">
+                <span class="flex-shrink-0">
+                    {{ partial "icon" (dict "name" "angle-left" "size" "8" "alt" "Info") }}
+                </span>
+                <span class="ml-4">
+                    <span class="block font-bold text-base">
+                        Previous Step
+                    </span>
+                    <span class="block font-medium text-xs">
+                        {{ $previous.Title }}
+                    </span>
+                </span>
+            </a>
+        {{ end }}
+    </div>
+    {{ end }}
+    <div class="w-full lg:w-1/2 lg:p-4">
+        {{ if $next }}
+            <a href="{{ $next.RelPermalink }}" class="w-full flex items-center justify-between border-2 border-primary rounded-md text-primary px-4 py-2 my-2 focus-primary">
+                <span class="mr-4">
+                    <span class="block font-bold text-base">
+                        {{ if eq $start "true" }}
+                        Start
+                        {{ else }}
+                        Next Step
+                        {{ end }}
+                    </span>
+                    <span class="block font-medium text-xs">
+                        {{ $next.Title }}
+                    </span>
+                </span>
+                <span class="flex-shrink-0">
+                    {{ partial "icon" (dict "name" "angle-right" "size" "8" "alt" "Info") }}
+                </span>
+            </a>
+        {{ end }}
+    </div>
+</div>
