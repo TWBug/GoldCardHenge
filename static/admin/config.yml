@@ -275,6 +275,16 @@ collections:
                 required: false,
                 i18n: duplicate,
             }
+          - {
+                label: 'Weight',
+                name: 'weight',
+                widget: 'number',
+                default: 10,
+                min: 1,
+                step: 1,
+                required: true,
+                i18n: duplicate,
+            }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true, required: false }
 
     - name: 'events'
