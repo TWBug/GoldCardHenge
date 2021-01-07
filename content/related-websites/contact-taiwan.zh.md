@@ -1,6 +1,10 @@
 ---
 title: Contact TAIWAN
-link: https://www.contacttaiwan.tw/main/index.aspx?lang=1
+link: https://www.contacttaiwan.tw/main/index.aspx
+social_links:
+  facebook: https://www.facebook.com/contacttaiwan
+  linkedin: https://www.linkedin.com/in/contacttaiwan/
+  youtube: https://www.youtube.com/channel/
 cover_image: /cms-uploads/未命名-1-02.jpg
 cover_image_alt: Contact TAIWAN
 draft: false
