@@ -47,7 +47,7 @@
                 {{.Content}}
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4 auto-rows-fr gap-12 mt-6">
-                {{ range .RegularPages }}
+                {{ range sort .RegularPages ".File.BaseFileName" "asc" }}
                     {{ $default_icon := resources.Get "cms-uploads/icon-tag.svg" }}
                     {{ $icon := $default_icon }}
                     {{ if .Params.icon }}

@@ -5,7 +5,8 @@ draft: false
 topic: goldcard
 style: right
 ---
-Before you head to the Application Portal, ensure that you have:
+
+# Before you head to the Application Portal, ensure that you have:
 
 1. Determined how you [qualify](/en/qualification/)
 2. Read the [Application Instructions](/en/application/)

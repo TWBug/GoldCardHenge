@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+{{ $style := "right" }}
+{{ with .Params.style }}
+{{ $style = . }}
+{{ end }}
+
+{{ $cover_image := "" }}
+{{ if .Params.cover_image }}
+{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ end }}
+
+{{ $language := .Site.Language | urlize }}
+
+<div class="relative shadow-xl print:shadow-none">
+    {{ partial "navigation" . }}
+</div>
+
+<div class="relative flex-grow">
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-white -z-1"
+    ></div>
+    {{ if .Site.IsServer }}
+    <div class="absolute right-0 top-0 bg-black text-xs font-bold text-white p-2 z-1">APPLICATION SINGLE TEMPLATE</div>
+    {{ end }}
+    <section>
+        <div class="container py-12 sm:py-24 px-12 lg:px-24">
+            {{ partial "breadcrumb" . }}
+            <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xl:gap-24">
+                <div class="sm:col-span-2 pt-4">
+                    <div class="copy replace">
+                        {{.Content}}
+                    </div>
+                    {{ partial "application/check" . }}
+                    {{ partial "application/navigation" . }}
+                    {{ partial "application/faq" . }}
+                </div>
+                <div class="print:hidden -mt-8">
+                    {{ partial "aside/checklist" . }}
+                </div>
+            </div>
+        </div>
+
+    </section>
+</div>
+{{end}}

@@ -1,0 +1,37 @@
+{{ if ne .Params.check false }}
+<div class="flex flex-wrap items-center border-t-2 border-gray-400 border-dashed p-4 lg:p-8 mt-6" x-data="taCheckList()" x-init="trigger()" data-id="{{ md5 .Page.RelPermalink }}">
+
+    <div class="w-full lg:w-1/2 my-4" x-show="initialized" x-cloak>
+        <button type="button" class="flex items-center text-primary text-left p-2 focus-primary" @click.prevent="toggleCheck()" x-show="!trigger_checked" alt="Yes i'm done" title="Yes i'm done">
+            <span class="mr-4">
+                {{ partial "icon" (dict "name" "circle" "size" "8" "alt" "Circle") }}
+            </span>
+            <span class="text-xl leading-tight font-medium">
+                {{ .Page.Title }}
+                <span class="font-bold">
+                    DONE?
+                </span>
+            </span>
+        </button>
+        <div class="flex items-center font-bold text-green-600" x-show="trigger_checked">
+            <div class="mr-4">
+                {{ partial "icon" (dict "name" "check" "size" "10" "alt" "Info") }}
+            </div>
+            <div class="text-xl leading-tight font-medium">
+                {{ .Page.Title }}
+                <span class="font-bold">
+                    DONE!
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="w-full lg:w-1/2 text-xs font-medium text-gray-500 lg:pl-4">
+        You can keep your personal check list up to date so it would be easier for you to remember which stept you have finished and what’s still on the list.
+        <span x-show="trigger_checked"> To remove your DONE you can click on:
+            <button type="button" class="text-primary font-bold focus-primary" @click.prevent="toggleCheck()">
+                remove check
+            </button>
+        </span>
+    </div>
+</div>
+{{ end }}

@@ -186,18 +186,28 @@ const NestedStringControl = createClass({
     },
 
     render() {
+        console.log('PROPS', this.props);
+        const isTextarea = this.props.field.get('textarea', false);
+        const FieldComponent = isTextarea ? 'textarea' : 'input';
+        const innerProps = isTextarea
+            ? {
+                  style: {
+                      fontFamily: 'sans-serif', // For some reason text areas are getting monospace by default...
+                  },
+              }
+            : { type: 'text' };
         return (
             <div>
                 {/* NOTE: This can be augmented with markdown controls if needed */}
-                <input
+                <FieldComponent
                     ref={(el) => {
                         this._el = el;
                     }}
-                    type="text"
                     value={this.props.value}
                     id={this.props.forID}
                     className={this.props.classNameWrapper}
                     onChange={this.handleChange}
+                    {...innerProps}
                 />
             </div>
         );
@@ -212,7 +222,11 @@ const NestedStringPreview = createClass({
 
 // Like a text component, but hopefully doesn't ruin everyone's day by snapping
 // the cursor to the end of the line.
-CMS.registerWidget('nested-string', NestedStringControl, NestedStringPreview, { properties: {} });
+CMS.registerWidget('nested-string', NestedStringControl, NestedStringPreview, {
+    properties: {
+        textarea: { type: 'boolean' },
+    },
+});
 
 // NOTE: The point of limiting string lenght is Netlify's build process. They
 // disallow filenames that are too long. To get around this, we're simply
@@ -325,12 +339,14 @@ CMS.registerEditorComponent({
 
 CMS.registerEditorComponent({
     id: 'accordion',
-    label: 'Accordion',
+    label: 'Accordion 折疊選單',
     fields: [
         { name: 'title', label: 'Title 標題', widget: 'nested-string' },
-        { name: 'suffix', label: 'Suffix 標題', widget: 'nested-string', required: false },
-        { name: 'bottomless', label: 'Bottomless 標題', widget: 'boolean', default: false },
-        { name: 'body', label: 'Inner Text 內容', widget: 'text' },
+        // NOTE: This is called suffix so as not to disrupt the data, but as of
+        // this commit its actually displayed as a prefix in the output HTML.
+        { name: 'suffix', label: 'Prefix 號碼', widget: 'nested-string', required: false },
+        { name: 'bottomless', label: 'Bottomless 無底', widget: 'boolean', default: false },
+        { name: 'body', label: 'Inner Text 內容', widget: 'nested-string', textarea: true },
     ],
     pattern: /^{{< accordion title="(.+?)" suffix="(.+?)" bottomless="(.+?)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
     fromBlock: (match) => ({

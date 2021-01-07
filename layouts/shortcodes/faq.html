@@ -1,24 +1,23 @@
 {{ $amount := 3 }}
 {{ with (.Get "amount") }}
-{{ $amount = . }}
+{{ $amount = . | plainify }}
 {{ end }}
 
 {{ $faq := where (where .Site.RegularPages "Section" "faq") "Permalink" "!=" .Page.Permalink }}
+{{ with (.Get "tag") }}
+{{ $faq = where $faq ".Params.tags" "intersect" (slice (. | plainify)) }}
+{{ end }}
 {{ $faq = first $amount $faq.ByLastmod.Reverse }}
 
-<div class="my-12 ">
+<div class="my-12">
 {{ range $faq }}
-    <div class="bg-gray-200 rounded-md px-6 py-4 my-2">
-        {{ $actualPage := .Page.Permalink }}
-    <span class="block text-sm font-semibold">{{ .Lastmod.Format "January 2, 2006" }}</span>
-    <a href="{{.Permalink }}" class="block text-primary text-xl font-bold">
-        {{ .Title }}
-    </a>
-    {{ if .Data.description }}
-    <p>
-        {{ .Data.description }}
-    </p>
-    {{ end }}
-</div>
+    <div class="pb-4">
+        <h3 class="text-secondary text-xl font-semibold mb-2">
+            {{ .Title }}
+        </h3>
+        <div class="text-base font-normal leading-relaxed">
+            {{ .Content }}
+        </div>
+    </div>
 {{ end }}
 </div>

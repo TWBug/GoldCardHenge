@@ -43,13 +43,13 @@
         <div class="container py-12 sm:pb-24 px-12 lg:px-24">
             {{ partial "breadcrumb" . }}
             <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 xl:gap-12 mt-6">
-                
-                {{ range sort .RegularPages ".Params.Title" "asc" }}
+
+                {{ range sort .RegularPages ".Params.weight" "asc" }}
                 {{ $icon := "" }}
                 {{ if .Params.cover_image }}
                 {{ $icon = resources.Get .Params.cover_image }}
                 {{ end }}
-                
+
                 <div class="flex flex-col border-2 border-gray-200 bg-gradient-to-b from-white to-gray-100 rounded  shadow-lg overflow-hidden">
                     <div class="p-4 border-b border-gray-200">
                         {{ if ne $icon "" }}
@@ -120,7 +120,7 @@
                         </a>
                         {{ end }}
                     </div>
-                    
+
                 </div>
                 {{ end }}
             </div>

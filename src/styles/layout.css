@@ -108,6 +108,24 @@ blockquote {
     zoom: 1.2;
 }
 
+.seperate {
+    @apply relative;
+}
+.seperate::before {
+    content: ' ';
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 1px);
+    @apply border-t-2 border-dashed border-gray-400;
+}
+.seperate-top::before {
+    top: 0px;
+}
+.seperate-bottom::before {
+    top: 100%;
+}
+
 .inset-x-center {
     left: 50%;
     transform: translateX(-50%);
