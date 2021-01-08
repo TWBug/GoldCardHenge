@@ -7,11 +7,9 @@ categories:
   - Announcement
 style: right
 ---
-
-
 # 1,945 Gold Cards issued to date!
 
-From February 8, 2018 to Dec. 30, 2020, "1711" cards were approved.
+From February 8, 2018 to Dec. 30, 2020, "1745" cards were approved.
 
 Application field of cardholders:
 
