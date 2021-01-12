@@ -1,8 +1,6 @@
 ---
 title: Finder
-summary: Those with a monthly salary of at least NT$160,000, who have obtained
-  an ROC or foreign architect’s license, or have at least five years experience
-  as a designer or construction supervisor in a foreign architecture firm.
+summary: Follow the steps to quickly see how you may qualify for the gold card.
 draft: false
 icon: null
 cover_image: "cms-uploads/icon-guide.svg"
@@ -13,4 +11,6 @@ topic: goldcard
 layout: finder
 ---
 
-You may apply for the Taiwan Employment Gold Card if you hold a foreign passport, or a ROC passport without household registration. ROC nationals with a household registration or national ID card are not eligible to apply for the Gold Card.
+This tool is an aid to allow you to more easily navigate the various qualifications for the Gold Card.
+It may be ambiguous or omit certain details in the interest of brevity.
+Only the full text of the regulations can be used to determine if you qualify, so please refer to the [detailed version](/qualification/) before making your decision.
