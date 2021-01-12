@@ -1,0 +1,15 @@
+{{ $files := readDir "assets/finder/js" }}
+{{ $buffer := "" }}
+{{ range $files }}
+    {{ $buffer = resources.Get (print "finder/js/" .Name )}}
+    {{ if $buffer }}
+        {{ if or (eq (substr .Name 0 5) "chunk") (eq (substr .Name 0 5) "index") }}
+        <link href="{{ $buffer.RelPermalink }}" rel="preload" as="script">
+        {{ else }}
+        <link href="{{ $buffer.RelPermalink }}" rel="prefetch">
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+<script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine-ie11.min.js" defer></script>
