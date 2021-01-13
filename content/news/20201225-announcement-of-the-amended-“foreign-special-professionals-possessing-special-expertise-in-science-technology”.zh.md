@@ -4,6 +4,7 @@ summary: 為延攬優秀外國特定專業人才，科技部放寬外國特定�
 date: 2021-01-04T06:44:43.772Z
 draft: false
 hidden: false
+topic: eventsnews
 categories:
   - Gold Card Policy
 style: right

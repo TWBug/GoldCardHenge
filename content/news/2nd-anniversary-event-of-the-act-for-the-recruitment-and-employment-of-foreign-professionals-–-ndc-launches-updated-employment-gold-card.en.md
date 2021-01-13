@@ -4,6 +4,7 @@ title: " 2nd Anniversary Event of the Act for the Recruitment and Employment of
 date: 2020-02-08T05:00:18.164Z
 draft: false
 hidden: false
+topic: eventsnews
 categories:
   - Announcement
 ---

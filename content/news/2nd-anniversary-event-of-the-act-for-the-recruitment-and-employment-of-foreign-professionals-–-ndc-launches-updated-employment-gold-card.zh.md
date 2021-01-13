@@ -3,6 +3,7 @@ title: "「外國專業人才延攬及僱用法」施行滿2週年，正式啟�
 date: 2020-02-08T05:00:18.164Z
 draft: false
 hidden: false
+topic: eventsnews
 categories:
   - Announcement
 ---
