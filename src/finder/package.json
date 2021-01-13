@@ -1,0 +1,45 @@
+{
+    "name": "gold-card-visa-finder",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "finder:serve": "vue-cli-service serve --port 8888",
+        "prefinder:build": "node src/convert.js",
+        "finder:build": "vue-cli-service build",
+        "finder:convert": "node src/convert.js",
+        "postfinder:build": "rm ../../assets/finder/js/* && cp -r -v ./dist/finder/js ../../assets/finder/",
+        "finder:copy": "rm ../../assets/finder/js/* && cp -r -v ./dist/finder/js ../../assets/finder/"
+    },
+    "dependencies": {
+        "core-js": "^3.8.2",
+        "date-fns": "^2.16.1",
+        "lodash": "^4.17.20",
+        "mobile-device-detect": "^0.4.3",
+        "vue": "^2.6.12",
+        "vue-i18n": "^8.22.3",
+        "vue-meta": "^2.4.0",
+        "vue-router": "^3.4.9",
+        "vuex": "^3.6.0"
+    },
+    "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^2.3.0",
+        "@markusantonwolf/tailwindcss-filters": "^1.0.1",
+        "@vue/cli-plugin-babel": "~4.4.0",
+        "@vue/cli-plugin-eslint": "~4.4.0",
+        "@vue/cli-plugin-router": "~4.4.0",
+        "@vue/cli-plugin-vuex": "~4.4.0",
+        "@vue/cli-service": "~4.4.0",
+        "autoprefixer": "^9.8.6",
+        "babel-eslint": "^10.1.0",
+        "change-case": "^4.1.2",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "flat": "^5.0.2",
+        "md5": "^2.3.0",
+        "object-to-string": "^1.0.0",
+        "tailwindcss": "^1.9.6",
+        "vue-template-compiler": "^2.6.12",
+        "webpack-bundle-analyzer": "^3.9.0",
+        "yaml": "^1.10.0"
+    }
+}

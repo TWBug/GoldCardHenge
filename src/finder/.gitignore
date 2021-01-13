@@ -1,8 +1,5 @@
 .DS_Store
 node_modules
-public
-src/finder/dist
-!src/finder/public
 resources/_gen
 
 # local env files
