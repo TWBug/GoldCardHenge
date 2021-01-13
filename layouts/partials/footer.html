@@ -1,6 +1,4 @@
 {{ $logo := resources.Get "img/taiwan-gold-card-logo-white.svg" }}
-{{ $url := .Page.Permalink }}
-{{ $actual_language := .Site.Language.Lang }}
 
 {{ $navigation := index .Site.Data.navigation .Site.Language.Lang }}
 {{ $goldcard_links := "" }}
@@ -88,7 +86,7 @@
                     <ul class="flex flex-wrap items-center mb-4 -ml-2" x-data="taLanguage()">
                         {{ range .Site.Languages }}
                         {{ if lt .Weight 10 }}
-                        {{ $url = replace $url $actual_language .Lang }}
+                        {{ $url := print "/" .Lang (substr $.RelPermalink 3) }}
                         <li>
                         <a
                             href="{{ $url }}"
