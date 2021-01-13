@@ -22,7 +22,7 @@ const colors = {
 module.exports = {
     purge: {
         enabled: true,
-        content: ['./layouts/**/*.html'],
+        content: ['./layouts/**/*.html', './src/finder/src/**/*.vue'],
         options: {
             whitelist: [],
         },
