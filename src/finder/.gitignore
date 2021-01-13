@@ -1,0 +1,23 @@
+.DS_Store
+node_modules
+resources/_gen
+
+# local env files
+.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+tmp
+static/admin/tego-cms.js
+content/tmp
+static/lunr_index.json
+static/js-misc/lunr-search.js
+
+# Local Netlify folder
+.netlify
+cypress/integration/examples
+cypress/videos
+cypress/screenshots

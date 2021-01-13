@@ -48,11 +48,11 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4 auto-rows-fr gap-12 mt-6">
                 {{ range sort .RegularPages ".File.BaseFileName" "asc" }}
-                    {{ $default_icon := resources.Get "cms-uploads/icon-tag.svg" }}
-                    {{ $icon := $default_icon }}
+                    {{ $icon := "" }}
                     {{ if .Params.icon }}
                         {{ $icon = resources.Get (printf "%s" (.Params.icon | safeURL)) }}
                     {{ end }}
+                    {{ if $icon }}
                     <a href="{{ .RelPermalink }}" class="flex flex-col border-2 border-gray-200 bg-gradient-to-b from-white to-gray-100 rounded focus-primary" alt="{{ .Title }}">
                         <div class="border-b border-gray-200 p-4">
                             <img src="{{ $icon.RelPermalink }}" alt="{{ .Title }}" class="block mx-auto w-1/3 lg:w-1/2" />
@@ -63,6 +63,7 @@
                             </h2>
                         </div>
                     </a>
+                    {{ end }}
                 {{ end }}
             </div>
         </div>

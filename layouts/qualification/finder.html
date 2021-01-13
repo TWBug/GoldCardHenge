@@ -1,0 +1,91 @@
+{{ define "head" }}
+{{ partial "head/finder" . }}
+{{ end }}
+
+{{ define "main" }}
+
+{{ $cover_image := "" }}
+{{ if .Params.cover_image }}
+{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ end }}
+
+<div class="relative shadow-xl">
+    {{ partial "navigation" . }}
+</div>
+
+<div class="relative flex items-center bg-background-light z-0 shadow-xl py-16">
+    <div
+    class="absolute top-0 inset-x-0 h-full bg-gradient-to-b from-gradient to-transparent opacity-25 -z-1"
+    ></div>
+    {{ if .Site.IsServer }}
+    <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">FINDER TEMPLATE</div>
+    {{ end }}
+    <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
+        <img src="/img/list-mountains-light.svg" alt="{{ i18n "taiwan_mountains" }}" class="block w-full">
+    </div>
+    <div class="container px-12 lg:px-24">
+        <div class="flex flex-col md:flex-row justify-between md:items-center lg:px-24">
+            {{ if $cover_image }}
+            <div class="flex-center w-1/2 md:w-1/4 mb-6">
+                <img src="{{ $cover_image.RelPermalink }}" class="w-full max-h-48  drop-shadow drop-shadow-xl drop-shadow-white" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
+            </div>
+            {{ end }}
+            <div class="replace w-full md:w-2/3">
+                {{ partial "breadcrumb" . }}
+                <h1 class="text-5xl leading-tight font-semibold my-2">
+                    {{ .Title | truncate 120 }}
+                </h1>
+                <p class="text-lg font-medium leading-relaxed">{{ .Summary | truncate 200 }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="scroll" class="relative flex-grow">
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-white -z-1"
+    ></div>
+    <section>
+        <div class="container py-12 sm:py-24 px-8 sm:px-12 lg:px-24">
+            <div class="border-b-2 border-dashed border-secondary pb-8 mb-6">
+                <div id="finder" class="relative w-full min-h-64">
+                    <div class="absolute inset-0 flex-center z-50">
+                        <div class="text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="w-24 fill-current">
+                                <path
+                                    d="M27.136 52.495c1.377 12.625 12.734 21.747 25.359 20.37s21.747-12.735 20.37-25.36m-3.878.423c1.14 10.438-6.378 19.91-16.915 21.06s-19.92-6.478-21.06-16.916"
+                                >
+                                    <animateTransform
+                                        attributeName="transform"
+                                        attributeType="XML"
+                                        type="rotate"
+                                        dur="1s"
+                                        from="0 50 50"
+                                        to="360 50 50"
+                                        repeatCount="indefinite"
+                                    />
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                {{ $files := readDir "assets/finder/js" }}
+                {{ $buffer := "" }}
+                {{ range $files }}
+                {{ if or (eq (substr .Name 0 5) "chunk") (eq (substr .Name 0 5) "index") }}
+                {{ $buffer = resources.Get (print "finder/js/" .Name )}}
+                {{ if $buffer }}
+                <script src={{ $buffer.RelPermalink }}></script>
+                {{ end }}
+                {{ end }}
+                {{ end }}
+            </div>
+            {{ if .Content }}
+            <div class="text-sm text-center max-w-2xl mx-auto">
+                {{ .Content }}
+            </div>
+            {{ end }}
+        </div>
+    </section>
+</div>
+{{end}}

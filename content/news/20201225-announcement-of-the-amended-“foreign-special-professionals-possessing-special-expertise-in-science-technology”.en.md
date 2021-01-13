@@ -7,6 +7,7 @@ summary: In order to attract foreign special professionals, the Ministry of
 date: 2021-01-04T06:44:43.772Z
 draft: false
 hidden: false
+topic: eventsnews
 categories:
   - Gold Card Policy
 style: right

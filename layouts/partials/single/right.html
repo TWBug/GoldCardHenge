@@ -16,6 +16,10 @@
 {{ $cover_image = "true" }}
 {{ end }}
 
+{{ $h1_count := .Content | strings.Count "<h1" }}
+
+{{ $h1_count }}
+
 <div class="container py-12 sm:py-24 px-12 lg:px-24">
     {{ if eq $cover_image "true" }}
     <div class="md:hidden relative w-full h-0 pb-full min-h-32 rounded-md shadow-xl overflow-hidden mb-8">
@@ -33,6 +37,11 @@
     {{ partial "breadcrumb" . }}
     <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xl:gap-24">
         <div class="copy replace sm:col-span-2 pt-4">
+            {{ if eq $h1_count 0 }}
+            <h1 class="text-5xl font-medium leading-tight mb-2">
+                {{ .Title | safeHTML }}
+            </h1>
+            {{ end }}
             {{.Content}}
         </div>
         <div class="print:hidden -mt-8">

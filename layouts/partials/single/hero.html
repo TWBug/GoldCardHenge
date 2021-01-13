@@ -18,6 +18,8 @@
 {{ $cover_image = "true" }}
 {{ end }}
 
+{{ $h1_count := .Content | strings.Count "<h1" }}
+
 {{ if eq $cover_image "true" }}
 <div class="relative w-full h-0 pb-16/9 lg:pb-1/2 xxl:pb-1/3 min-h-32 shadow-xl overflow-hidden">
     <figure>
@@ -41,6 +43,11 @@
             <div class="sm:col-span-2">
                 {{ partial "breadcrumb" . }}
                 <div class="copy replace mt-4">
+                    {{ if eq $h1_count 0 }}
+                    <h1 class="text-5xl font-medium leading-tight mb-2">
+                        {{ .Title | safeHTML }}
+                    </h1>
+                    {{ end }}
                     {{.Content}}
                 </div>
             </div>
