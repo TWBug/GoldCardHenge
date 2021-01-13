@@ -4,11 +4,11 @@
     "private": true,
     "scripts": {
         "finder:serve": "vue-cli-service serve --port 8888",
-        "prefinder:build": "node src/convert.js",
         "finder:build": "vue-cli-service build",
         "finder:convert": "node src/convert.js",
-        "postfinder:build": "rm ../../assets/finder/js/* && cp -r -v ./dist/finder/js ../../assets/finder/",
-        "finder:copy": "rm ../../assets/finder/js/* && cp -r -v ./dist/finder/js ../../assets/finder/"
+        "finder:copy": "rm ../../assets/finder/js/* && cp -r -v ./dist/finder/js ../../assets/finder/",
+        "prefinder:build": "npm run finder:convert",
+        "postfinder:build": "npm run finder:copy"
     },
     "dependencies": {
         "core-js": "^3.8.2",
