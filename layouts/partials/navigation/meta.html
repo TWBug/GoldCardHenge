@@ -1,6 +1,3 @@
-{{ $url := .Page.Permalink }}
-{{ $actual_language := .Site.Language.Lang }}
-
 <div>{{ i18n "tego" }}</div>
 <div class="flex justify-evenly text-xs">
     <button type="button" x-data="taSearchTrigger()" x-init="init('meta')" @click="show()" class="flex items-center border-r border-l border-white border-opacity-25 pl-4 pr-8 focus:bg-white focus:text-black">
@@ -29,8 +26,8 @@
         </div>  */}}
         {{ range .Site.Languages }}
         {{ if lt .Weight 10 }}
-        {{ $url = replace $url $actual_language .Lang }}
-        {{ if eq $actual_language .Lang }}
+        {{ $url := print "/" .Lang (substr $.RelPermalink 3) }}
+        {{ if eq $.Site.Language.Lang .Lang }}
         <a
             href="{{ $url }}"
             class="block bg-nav-dark font-bold p-3 focus:bg-white focus:text-black"
