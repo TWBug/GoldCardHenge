@@ -20,7 +20,7 @@
     "restart": "Restart",
     "apply_now": "Apply now",
     "headlines": {
-        "home": "Do you find yourself again? Choose at least one point.",
+        "home": "Please choose at least one area.",
         "1": "You are an athlete, coach or referee...",
         "2": "You are an lawyer...",
         "3": "You are an architect...",
@@ -33,14 +33,14 @@
         "10": "You are an artist, publisher/editor or arts administrator...",
         "11": "You have >8 years of experience...",
         "12": "You have skills otherwise in demand in Taiwan...",
-        "result": "Congratulations, you have one way to apply for your Gold Card | Congratulations, you have {count} different ways to apply for your Gold Card",
-        "no_result": "Sorry, there is not way you could apply for the Gold Card."
+        "result": "Congratulations, you may be eligible to apply for the Gold Card using the regulation below. | Congratulations, you may qualify under one of the {count} regulations below.",
+        "no_result": "Sorry, we couldn't find a Gold Card qualification that matched. Please take a look at the full list of qualifications and consider the many other visas."
     },
     "results": {
         "headline": "You may qualify under {ministery}, Regulation {regulation}",
         "answer": "because you answered Yes to:",
         "prepare": "Please prepare:",
-        "details": "Details to the field of "
+        "details": "Details for the field of "
     },
     "qualifications": {
         "MOST": "Science and Technology",
