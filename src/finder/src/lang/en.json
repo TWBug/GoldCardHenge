@@ -20,7 +20,7 @@
     "restart": "Restart",
     "apply_now": "Apply now",
     "headlines": {
-        "home": "Do you find yourself again? Choose at least one point.",
+        "home": "Please choose at least one area.",
         "1": "You are an athlete, coach or referee...",
         "2": "You are an lawyer...",
         "3": "You are an architect...",
