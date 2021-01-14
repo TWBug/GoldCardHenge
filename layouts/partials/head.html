@@ -4,7 +4,8 @@
 {{ $favicon96 := resources.Get "img/favicon-96x96.png" | fingerprint }}
 {{ $appleicon144 := resources.Get "img/apple-icon-144x144.png" | fingerprint }}
 
-{{ $media_image := resources.Get "img/uploads/taiwan-gold-card-social-preview.jpg" }}
+{{ $media_image := resources.Get (print "img/uploads/taiwan-gold-card-media-image-" .Site.Language.Lang ".jpg") }}
+
 {{ if .Params.cover_image }}
     {{ $buffer := resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
     {{ if $buffer }}
