@@ -1,7 +1,7 @@
 <template>
-    <div id="finder" class="relative w-full max-w-3xl min-h-64 mx-auto">
+    <div id="finder" class="relative w-full min-h-64">
         <div v-if="init">
-            <router-view :key="view_key"></router-view>
+            <router-view :key="view_key" :hash="hash"></router-view>
         </div>
         <div class="" v-else>
             <TheLoading />
@@ -10,6 +10,7 @@
 </template>
 
 <script>
+const md5 = require('md5');
 import TheLoading from './components/TheLoading';
 export default {
     name: 'App',
@@ -17,6 +18,7 @@ export default {
     data() {
         return {
             init: false,
+            hash: ''
         };
     },
     watch: {},
@@ -30,6 +32,7 @@ export default {
         if (location.pathname.substr(0, 3) === '/zh') {
             this.$i18n.locale = 'zh'
         }
+        this.hash = md5(location.pathname)
     },
     mounted() {
         this.init = true
