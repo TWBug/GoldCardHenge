@@ -14,4 +14,7 @@ previous: /apply/
 next: /apply/step-2/
 ---
 
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum aliquam, quod, quae libero quis culpa enim esse numquam earum obcaecati laboriosam ullam dolor maxime expedita fugiat aperiam fugit distinctio, nostrum dolorem quo laborum odit eligendi soluta harum. Distinctio amet natus aliquam, deserunt assumenda recusandae cumque possimus aut officiis! Voluptatum aliquid officiis sunt doloremque excepturi minima quidem nisi eveniet, porro cum error, veritatis vitae illum esse ad molestiae quo veniam recusandae alias amet. Error facere corporis molestias animi, pariatur eligendi eum delectus at illo a esse, impedit, et minus tempore tenetur debitis molestiae cumque nisi explicabo vitae qui! Dolore nemo minima ipsam consequatur, possimus vero distinctio. Nam deserunt corporis quia, quibusdam pariatur eveniet, sed nobis eius totam vero mollitia neque rerum.
+This tool is an aid to allow you to more easily navigate the various qualifications for the Gold Card.
+It may be ambiguous or omit certain details in the interest of brevity.
+Only the full text of the regulations can be used to determine if you qualify, so please refer to the [detailed version](/en/qualification/) before making your decision.
+

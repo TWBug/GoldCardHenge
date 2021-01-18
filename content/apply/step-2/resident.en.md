@@ -1,9 +1,9 @@
 ---
-title: Registration
+title: Resident
 date: 2021-01-18T03:10:55.207Z
 summary: Are you ready to apply? Make sure you follow the steps!
 draft: false
-order: 1
+order: 3
 topic: goldcard
 start: false
 check: true
