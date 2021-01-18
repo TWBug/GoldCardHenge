@@ -1,6 +1,6 @@
 <template>
     <button
-        class="flex items-center font-semibold text-xl text-left py-2 focus-primary"
+        class="flex items-center font-semibold text-lg text-left py-1 focus-primary"
         :class="{ 'text-primary': !question.selected, 'text-green-700': question.selected }"
         :data-id="question.id"
         :data-tree="question.tree_id"

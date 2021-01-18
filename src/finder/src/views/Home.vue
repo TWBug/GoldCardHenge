@@ -4,7 +4,7 @@
             {{ $t('headlines.home') }}
         </BaseHeadline>
         <div class="flex flex-col">
-            <div class="my-2" v-for="(question, index) in questions" :key="index">
+            <div class="my-1" v-for="(question, index) in questions" :key="index">
                 <BaseQuestion :question="question" />
             </div>
         </div>

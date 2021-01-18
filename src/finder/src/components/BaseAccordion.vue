@@ -2,7 +2,7 @@
     <div class="border-b-2 border-gray-400 border-dashed my-4 p-4 pb-8" :data-weight="item.weight">
         <button type="button" class="w-full flex justify-between items-center text-left focus-primary px-1 -ml-1" @click.prevent="toggle(item.id)">
             <span class="flex-grow mr-12">
-                <span class="block text-xl font-semibold text-primary mb-2">
+                <span class="block text-lg font-semibold text-primary mb-1">
                     {{
                         $t('results.headline', {
                             ministery: $t('qualifications.' + item.ministry),

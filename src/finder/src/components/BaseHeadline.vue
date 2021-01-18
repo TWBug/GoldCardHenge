@@ -1,6 +1,6 @@
 <template>
     <h2 class="flex items-center font-semibold text-2xl text-nav-end mb-8">
-        <span class="flex-shrink-0 flex-center w-12 h-12 mr-2 -ml-2">
+        <span class="flex-shrink-0 flex-center w-10 h-10 mr-4 -ml-2">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
