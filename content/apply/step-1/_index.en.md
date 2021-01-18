@@ -8,11 +8,11 @@ cover_image_alt: Icon with checklist application process
 order: 2
 start: false
 check: false
-previous: /application2/
-next: /application2/step-1/step-1-passport-visa/
+previous: /apply/
+next: /apply/step-1/step-1-passport-visa/
 ---
 
-{{< teaser >}}
+{{< teaser prefix="" >}}
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nemo aperiam a dolorem odit pariatur ea earum ipsa quo modi minus mollitia perspiciatis inventore id asperiores harum quia similique commodi molestiae cum, nulla culpa saepe delectus tempore. Iure, accusantium optio?
 {{< /teaser >}}
 

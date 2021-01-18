@@ -7,8 +7,8 @@ cover_image: /cms-uploads/icon-checklist.svg
 cover_image_alt: Icon with checklist application process
 order: 1
 start: false
-previous: /application2/step-1/step-1-upload-documents/
-next: /application2/step-3/
+previous: /apply/step-1/step-1-upload-documents/
+next: /apply/step-3/
 ---
 
 {{< teaser >}}

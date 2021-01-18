@@ -5,8 +5,8 @@ draft: false
 topic: goldcard
 order: 1
 start: false
-previous: /application2/step-1/step-1-passport-visa/
-next: /application2/step-1/step-1-upload-documents/
+previous: /apply/step-1/step-1-passport-visa/
+next: /apply/step-1/step-1-upload-documents/
 ---
 
 # Registration

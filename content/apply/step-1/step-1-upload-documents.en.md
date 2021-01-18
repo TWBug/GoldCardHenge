@@ -5,8 +5,8 @@ draft: false
 topic: goldcard
 order: 2
 start: false
-previous: /application2/step-1/step-1-registration/
-next: /application2/step-2/
+previous: /apply/step-1/step-1-registration/
+next: /apply/step-2/
 ---
 
 # Upload Documents

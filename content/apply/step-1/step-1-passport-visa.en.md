@@ -5,8 +5,8 @@ draft: false
 topic: goldcard
 order: 2
 start: false
-previous: /application2/step-1/
-next: /application2/step-1/step-1-registration/
+previous: /apply/step-1/
+next: /apply/step-1/step-1-registration/
 ---
 
 # Fill in your information / Passport & Visa Status
