@@ -7,8 +7,8 @@ order: 2
 topic: goldcard
 start: false
 check: true
-previous: /apply/step-1/step-1-passport-visa/
-next: /apply/step-1/step-1-upload-documents/
+previous: /apply/step-2/passport-visa/
+next: /apply/step-2/upload-documents/
 ---
 
 # Registration

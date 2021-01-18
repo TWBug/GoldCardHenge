@@ -7,8 +7,8 @@ order: 3
 topic: goldcard
 start: false
 check: true
-previous: /apply/step-1/step-1-registration/
-next: /apply/step-2/
+previous: /apply/step-2/registration/
+next: /apply/step-3/
 ---
 
 # Upload Documents

@@ -1,5 +1,5 @@
 ---
-title: Application Process
+title: Easy mode
 date: 2021-01-18T02:57:32.044Z
 cover_image: /cms-uploads/icon-checklist.svg
 cover_image_alt: Icon with checklist application process

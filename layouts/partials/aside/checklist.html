@@ -16,19 +16,27 @@
     </p>
     <div class="leading-tight text-md pt-4 pl-2" x-data="taCheckList()" x-init="list()">
         {{ if $isSectionHome }}
-            {{ range $application.Sections }}
+            {{ range sort $application.Sections ".File.Dir" "asc" }}
                 <h3 class="text-base font-bold py-1 my-1 ">
                     {{ .Title }}
                 </h3>
                 <div class="seperate h-6 -ml-2 -mr-2"></div>
             {{ end }}
         {{ else }}
-            {{ range $application.Sections }}
-                <h3 class="text-base font-bold py-1 my-1 ">
-                    {{ .Title }}
-                </h3>
+            {{ range sort $application.Sections ".File.Dir" "asc" }}
+                <a href="{{ .RelPermalink }}">
+                    {{ if eq .Dir $.Dir }}
+                    <h3 class="text-base text-nav-end font-bold py-1 my-1 ">
+                        {{ .Title }}
+                    </h3>
+                    {{ else }}
+                    <h3 class="text-base font-bold py-1 my-1 ">
+                        {{ .Title }}
+                    </h3>
+                    {{ end }}
+                </a>
                 {{ if .RegularPages }}
-                    {{ range .RegularPages }}
+                    {{ range sort .RegularPages ".Params.order" "asc" }}
                     {{ template "check" (dict "link" .RelPermalink "text" .Title "active" (eq $.Page .Page) ) }}
                     {{ end }}
                 {{ else }}
@@ -67,7 +75,7 @@
             {{ .text }}
         </div>
     {{ else }}
-        <div class="flex items-center text-gray-700 font-medium py-1 my-1 focus-primary" :class="{'text-green-600 font-bold': checked['{{ md5 .link }}'] }" data-id="{{ md5 .link }}" data-href="{{ .link }}" data-text="{{ .text }}">
+        <a href="{{ .link }}" class="flex items-center text-gray-700 font-medium py-1 my-1 focus-primary" :class="{'text-green-600 font-bold': checked['{{ md5 .link }}'] }" data-id="{{ md5 .link }}" data-href="{{ .link }}" data-text="{{ .text }}">
             <span x-cloak>
                 <span class="flex w-10 text-green-600" x-show="checked['{{ md5 .link }}']">
                     {{ partial "icon" (dict "name" "check" "size" "6" "alt" "Info") }}
@@ -79,6 +87,6 @@
             <span>
                 {{ .text }}
             </span>
-        </div>
+        </a>
     {{ end }}
 {{ end }}

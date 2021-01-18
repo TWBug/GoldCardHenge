@@ -1,20 +1,20 @@
 ---
-title: Step 3 - Receiving your Gold Card
-date: 2021-01-18T03:32:35.527Z
+title: Step 3 - After Application
+date: 2021-01-18T03:31:11.168Z
 summary: Are you ready to apply? Make sure you follow the steps!
 draft: false
 order: 0
 topic: goldcard
 cover_image: /cms-uploads/icon-checklist.svg
 cover_image_alt: Icon with checklist application process
-start: false
-check: true
-previous: /apply/step-2/
-next: null
+start: true
+check: false
+previous:
+next: /apply/step-3/supplementary-documents/
 ---
 
 {{< teaser >}}
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nemo aperiam a dolorem odit pariatur ea earum ipsa quo modi minus mollitia perspiciatis inventore id asperiores harum quia similique commodi molestiae cum, nulla culpa saepe delectus tempore. Iure, accusantium optio?
 {{< /teaser >}}
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, facere explicabo! Asperiores quaerat eum facere dicta odio rerum iusto aliquam tempore quisquam dolor. Quibusdam laborum corporis suscipit, magnam labore enim dolorem facilis, ad aut, nesciunt excepturi tempora velit quae. Possimus neque id, laboriosam inventore autem tempora nobis sapiente impedit ullam sequi corrupti commodi quas laudantium praesentium sed perferendis fugiat, ex odio, harum dolores dignissimos ad aliquid maiores sint. Quas ex explicabo iusto expedita neque facere eos dicta doloribus, possimus illo dolorum in excepturi natus numquam dolores quaerat voluptatem mollitia similique reprehenderit vero, odit beatae minus! Perferendis quas accusamus quos, quaerat doloribus accusantium mollitia reiciendis maxime quae. Quo consequatur ab non, nulla magnam facilis, nihil dolorem dolores, enim corporis excepturi minus!
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum aliquam, quod, quae libero quis culpa enim esse numquam earum obcaecati laboriosam ullam dolor maxime expedita fugiat aperiam fugit distinctio, nostrum dolorem quo laborum odit eligendi soluta harum. Distinctio amet natus aliquam, deserunt assumenda recusandae cumque possimus aut officiis! Voluptatum aliquid officiis sunt doloremque excepturi minima quidem nisi eveniet, porro cum error, veritatis vitae illum esse ad molestiae quo veniam recusandae alias amet. Error facere corporis molestias animi, pariatur eligendi eum delectus at illo a esse, impedit, et minus tempore tenetur debitis molestiae cumque nisi explicabo vitae qui! Dolore nemo minima ipsam consequatur, possimus vero distinctio. Nam deserunt corporis quia, quibusdam pariatur eveniet, sed nobis eius totam vero mollitia neque rerum.
