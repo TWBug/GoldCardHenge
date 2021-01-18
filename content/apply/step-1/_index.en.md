@@ -1,15 +1,19 @@
 ---
-title: Step 2 - Passport Check
-summary: Are you ready to apply? Make sure you follow the steps!
+title: Step 1 - Qualification Quick Check
+date: 2021-01-18T03:31:11.168Z
+summary: Visa Finder
 draft: false
+order: 0
 topic: goldcard
 cover_image: /cms-uploads/icon-checklist.svg
 cover_image_alt: Icon with checklist application process
-order: 1
 start: false
-previous: /application2/step-1/step-1-upload-documents/
-next: /application2/step-3/
+check: false
+previous: /apply/
+next: /apply/step-2/
 ---
+
+**VISA FINDER**
 
 {{< teaser >}}
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nemo aperiam a dolorem odit pariatur ea earum ipsa quo modi minus mollitia perspiciatis inventore id asperiores harum quia similique commodi molestiae cum, nulla culpa saepe delectus tempore. Iure, accusantium optio?

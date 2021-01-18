@@ -36,7 +36,7 @@
             </div>
             {{ range .Site.Languages }}
             {{ if lt .Weight 10 }}
-            {{ $url = replace $url $actual_language .Lang }}
+            {{ $url := print "/" .Lang (substr $.RelPermalink 3) }}
             {{ if eq $actual_language .Lang }}
             <a
                 href="{{ $url }}"

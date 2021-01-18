@@ -194,6 +194,367 @@ collections:
             }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
+    - name: 'apply-start'
+      label: 'Apply / Start'
+      label_singular: Apply Start
+      folder: 'content/apply'
+      create: false
+      slug: '{{slug}}'
+      i18n: true
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - {
+                label: 'Publish Date',
+                name: 'date',
+                widget: 'datetime',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Topic',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'goldcard',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Start?',
+                name: 'start',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Check?',
+                name: 'check',
+                widget: 'boolean',
+                default: true,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Previous page',
+                name: 'previous',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Next page',
+                name: 'next',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'apply-step-1'
+      label: 'Apply / Step-1'
+      label_singular: Apply Step-1
+      folder: 'content/apply/step-1'
+      create: true
+      slug: '{{slug}}'
+      i18n: true
+      summary: "{{title}} | Order: {{order}} | Check: {{check}}"
+      sortable_fields: ['title', 'order', 'date']
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - {
+                label: 'Publish Date',
+                name: 'date',
+                widget: 'datetime',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Order', name: 'order', widget: 'number', default: 1, i18n: duplicate }
+          - {
+                label: 'Topic',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'goldcard',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Start?',
+                name: 'start',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Check?',
+                name: 'check',
+                widget: 'boolean',
+                default: true,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Previous page',
+                name: 'previous',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Next page',
+                name: 'next',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'apply-step-2'
+      label: 'Apply / Step-2'
+      label_singular: Apply Step-2
+      folder: 'content/apply/step-2'
+      create: true
+      slug: '{{slug}}'
+      i18n: true
+      summary: "{{title}} | Order: {{order}} | Check: {{check}}"
+      sortable_fields: ['title', 'order', 'date']
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - {
+                label: 'Publish Date',
+                name: 'date',
+                widget: 'datetime',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Order', name: 'order', widget: 'number', default: 1, i18n: duplicate }
+          - {
+                label: 'Topic',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'goldcard',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Start?',
+                name: 'start',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Check?',
+                name: 'check',
+                widget: 'boolean',
+                default: true,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Previous page',
+                name: 'previous',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Next page',
+                name: 'next',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'apply-step-3'
+      label: 'Apply / Step-3'
+      label_singular: Apply Step-3
+      folder: 'content/apply/step-3'
+      create: true
+      slug: '{{slug}}'
+      i18n: true
+      summary: "{{title}} | Order: {{order}} | Check: {{check}}"
+      sortable_fields: ['title', 'order', 'date']
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - {
+                label: 'Publish Date',
+                name: 'date',
+                widget: 'datetime',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Order', name: 'order', widget: 'number', default: 1, i18n: duplicate }
+          - {
+                label: 'Topic',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'goldcard',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Start?',
+                name: 'start',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Check?',
+                name: 'check',
+                widget: 'boolean',
+                default: true,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Previous page',
+                name: 'previous',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Next page',
+                name: 'next',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
     - name: 'related-websites'
       label: 'Relatd Websites 相關資料'
       label_singular: Related Website

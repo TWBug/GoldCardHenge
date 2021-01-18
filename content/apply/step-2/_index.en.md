@@ -1,18 +1,19 @@
 ---
-title: Step 1 - Online Application
+title: Step 2 - Online Application
+date: 2021-01-18T03:14:03.141Z
 summary: Are you ready to apply? Make sure you follow the steps!
 draft: false
+order: 0
 topic: goldcard
 cover_image: /cms-uploads/icon-checklist.svg
 cover_image_alt: Icon with checklist application process
-order: 2
-start: false
+start: true
 check: false
-previous: /application2/
-next: /application2/step-1/step-1-passport-visa/
+previous: /apply/step-1/
+next: /apply/step-2/passport-visa/
 ---
 
-{{< teaser >}}
+{{< teaser prefix="" >}}
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nemo aperiam a dolorem odit pariatur ea earum ipsa quo modi minus mollitia perspiciatis inventore id asperiores harum quia similique commodi molestiae cum, nulla culpa saepe delectus tempore. Iure, accusantium optio?
 {{< /teaser >}}
 

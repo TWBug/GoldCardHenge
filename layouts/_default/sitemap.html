@@ -20,7 +20,7 @@
             <p class="font-medium text-xl leading-relaxed">{{ .Summary }}</p>
             <ul class="mt-6">
                 {{ range .Site.Sections }}
-                {{ if eq (.RelPermalink | strings.Count "/application2/")  0 }}
+                {{ if eq (.RelPermalink | strings.Count "/apply/")  0 }}
                 {{ template "sitemap" (dict "p" . ) }}
                 {{ end }}
                 {{ end }}

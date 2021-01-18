@@ -1,12 +1,14 @@
 ---
 title: Registration
+date: 2021-01-18T03:10:55.207Z
 summary: Are you ready to apply? Make sure you follow the steps!
 draft: false
+order: 2
 topic: goldcard
-order: 1
 start: false
-previous: /application2/step-1/step-1-passport-visa/
-next: /application2/step-1/step-1-upload-documents/
+check: true
+previous: /apply/step-2/passport-visa/
+next: /apply/step-2/upload-documents/
 ---
 
 # Registration

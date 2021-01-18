@@ -49,11 +49,11 @@
                     <div class="copy">{{ .Content }}</div>
                     {{ end }}
 
-                    {{ $pages := .RegularPages }}
+                    {{ $pages :=.RegularPages }}
                     {{ if gt (len .Sections) 0 }}
                     {{ $pages = .Sections }}
                     {{ end }}
-                    {{ range $pages }}
+                    {{ range  sort $pages ".File.Dir" "asc" }}
                     <div class="text-left mb-6">
                         <h2 class="text-xl font-bold text-secondary mb-1">
                             {{.Title}}
@@ -63,9 +63,11 @@
                         </p>
                     </div>
                     {{ end }}
-                    {{ partial "application/check" . }}
-                    {{ partial "application/navigation" . }}
-                    {{ partial "application/faq" . }}
+                    {{ partial "apply/check" . }}
+                    {{ partial "apply/navigation" . }}
+                    {{ if eq .Params.start false }}
+                    {{ partial "apply/faq" . }}
+                    {{ end }}
                 </div>
                 <div class="-mt-12">
                   {{ partial "aside/checklist" . }}
