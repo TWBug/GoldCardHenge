@@ -63,10 +63,10 @@
                         </p>
                     </div>
                     {{ end }}
-                    {{ partial "application/check" . }}
-                    {{ partial "application/navigation" . }}
+                    {{ partial "apply/check" . }}
+                    {{ partial "apply/navigation" . }}
                     {{ if eq .Params.start false }}
-                    {{ partial "application/faq" . }}
+                    {{ partial "apply/faq" . }}
                     {{ end }}
                 </div>
                 <div class="-mt-12">

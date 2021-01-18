@@ -1,8 +1,11 @@
 ---
 title: 申請
+date: 2021-01-18T03:10:55.207Z
 summary: 準備好申請了嗎？ 確保遵循以下步驟!
 draft: false
+order: 2
 topic: goldcard
+check: true
 style: right
 ---
 在您申請之前，請確認:

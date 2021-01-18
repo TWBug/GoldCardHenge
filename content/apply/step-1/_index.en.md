@@ -1,11 +1,12 @@
 ---
 title: Step 1 - Online Application
+date: 2021-01-18T03:14:03.141Z
 summary: Are you ready to apply? Make sure you follow the steps!
 draft: false
+order: 0
 topic: goldcard
 cover_image: /cms-uploads/icon-checklist.svg
 cover_image_alt: Icon with checklist application process
-order: 2
 start: false
 check: false
 previous: /apply/

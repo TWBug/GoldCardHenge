@@ -1,10 +1,12 @@
 ---
 title: Upload Documents
+date: 2021-01-18T03:11:02.768Z
 summary: Are you ready to apply? Make sure you follow the steps!
 draft: false
+order: 3
 topic: goldcard
-order: 2
 start: false
+check: true
 previous: /apply/step-1/step-1-registration/
 next: /apply/step-2/
 ---

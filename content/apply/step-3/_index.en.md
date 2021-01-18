@@ -1,12 +1,14 @@
 ---
 title: Step 3 - Receiving your Gold Card
+date: 2021-01-18T03:32:35.527Z
 summary: Are you ready to apply? Make sure you follow the steps!
 draft: false
+order: 0
 topic: goldcard
 cover_image: /cms-uploads/icon-checklist.svg
 cover_image_alt: Icon with checklist application process
-order: 1
 start: false
+check: true
 previous: /apply/step-2/
 next: null
 ---
