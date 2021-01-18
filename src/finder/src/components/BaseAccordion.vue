@@ -1,6 +1,10 @@
 <template>
     <div class="border-b-2 border-gray-400 border-dashed my-4 p-4 pb-8" :data-weight="item.weight">
-        <button type="button" class="w-full flex justify-between items-center text-left focus-primary px-1 -ml-1" @click.prevent="toggle(item.id)">
+        <button
+            type="button"
+            class="w-full flex justify-between items-center text-left focus-primary px-1 -ml-1"
+            @click.prevent="toggle(item.id)"
+        >
             <span class="flex-grow mr-12">
                 <span class="block text-lg font-semibold text-primary mb-1">
                     {{
@@ -106,22 +110,6 @@
                     </span>
                     {{ $t('results.details') }} {{ $t('qualifications.' + item.ministry) }}
                 </a>
-                <a :href="link_apply" class="flex items-center text-primary font-bold focus-primary">
-                    <span class="flex-shrink-0 w-3 mr-2">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 256 512"
-                            class="fill-current w-full"
-                            :alt="$t('next')"
-                        >
-                            <title>{{ $t('next') }}</title>
-                            <path
-                                d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
-                            />
-                        </svg>
-                    </span>
-                    {{ $t('apply_now') }}
-                </a>
             </div>
         </div>
     </div>
@@ -149,12 +137,9 @@ export default {
         has_prepare() {
             return this.item.prepare[this.$i18n.locale].length === 0 ? false : true;
         },
-        link_apply() {
-            return '/' + this.$i18n.locale + '/application/apply/';
-        },
         locale() {
-            return this.$i18n.locale
-        }
+            return this.$i18n.locale;
+        },
     },
     methods: {
         getQuestion(id) {
