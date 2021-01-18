@@ -15,7 +15,7 @@
             </div>
         </div>
         <BaseAccordion :item="item" v-for="(item, index) in result" :key="index" />
-        <div class="flex justify-between items-center mt-12">
+        <div class="flex flex-col sm:flex-row justify-between items-center mt-12">
             <div class="p-4">
                 <BaseButton direction="top">{{ $t('restart') }}</BaseButton>
             </div>
