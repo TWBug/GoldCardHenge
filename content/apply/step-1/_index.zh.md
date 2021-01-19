@@ -4,7 +4,4 @@ order: 0
 check: true
 layout: finder
 ---
-
-This tool is an aid to allow you to more easily navigate the various qualifications for the Gold Card.
-It may be ambiguous or omit certain details in the interest of brevity.
-Only the full text of the regulations can be used to determine if you qualify, so please refer to the [detailed version](/en/qualification/) before making your decision.
+此工具可以簡易的幫您進行就業金卡的資格評估，並依據您所提供的資訊建議可申請的領域與應備文件。
