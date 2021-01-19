@@ -1,15 +1,15 @@
 ---
+draft: false
+start: false
+summary: Determine how you may qualify
+check: false
+layout: finder
+order: 0
 title: Step 1 - Qualification Quick Check
 date: 2021-01-18T03:31:11.168Z
-summary: Visa Finder
-draft: false
-order: 0
 topic: goldcard
 cover_image: /cms-uploads/icon-checklist.svg
 cover_image_alt: Icon with checklist application process
-start: false
-check: false
-layout: finder
 previous: /apply/
 next: /apply/step-2/
 ---

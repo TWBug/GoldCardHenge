@@ -1,17 +1,16 @@
 ---
-title: Easy mode
+start: true
+summary: Follow the process step-by-step.
+check: false
 date: 2021-01-18T02:57:32.044Z
 cover_image: /cms-uploads/icon-checklist.svg
-cover_image_alt: Icon with checklist application process
-start: true
-check: false
-previous: ""
 next: apply/step-1
+previous: ""
+title: Apply for the Gold Card
+cover_image_alt: Icon with checklist application process
 ---
 {{< teaser >}}
-Applying for the Taiwan Employment Gold Card is not a difficult task. Filling out and submitting the online form takes around 15-minutes, but only if you have all the required documents prepared. 
+We're excited to have you. The process to apply is not complicated, but there are a few tricks to be aware of if you are new to Taiwan. First, click/tap "Next" to determine how you may qualify.
 {{< /teaser >}}
 
-**Before starting the application process prozess you might have a look at the [Visa Finder](/en/qualification/finder)**
-
-Therefore, before filling out the application form, read the qualification section carefully and prepare all your required documents. Once you are ready, follow on with this step-by-step guide to lead you through the process. It is as simple as filling out your personal information, attaching the necessary supporting documents, and paying the application fee.
+We'll help you work out how you may qualify, lead you through the application process, and give some hints for what happens afterward.

@@ -1,15 +1,15 @@
 ---
+draft: false
+start: true
+summary: What happens after you submit.
+check: false
 title: Step 3 - After Application
 date: 2021-01-18T03:31:11.168Z
-summary: Are you ready to apply? Make sure you follow the steps!
-draft: false
 order: 0
 topic: goldcard
 cover_image: /cms-uploads/icon-checklist.svg
 cover_image_alt: Icon with checklist application process
-start: true
-check: false
-previous:
+previous: null
 next: /apply/step-3/supplementary-documents/
 ---
 
