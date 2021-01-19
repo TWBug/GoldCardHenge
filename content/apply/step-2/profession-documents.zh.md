@@ -1,16 +1,22 @@
 ---
-title: Profession & Documents
-date: 2021-01-18T03:11:02.768Z
-summary: Are you ready to apply? Make sure you follow the steps!
 draft: false
+start: false
+date: 2021-01-18T03:11:02.768Z
+summary: 選擇其中一個領域並提供相關應備文件。
+check: true
+title: 資料上傳
 order: 4
 topic: goldcard
-start: false
-check: true
 previous: /apply/step-2/resident/
 next: /apply/step-3/
 ---
-
 # Profession & Documents
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt harum voluptates ad cupiditate deserunt eos, necessitatibus odit dolore error omnis ea doloremque veniam distinctio itaque labore accusantium eum non nisi ipsa ipsam temporibus inventore explicabo. Eius, enim nulla veniam aliquam cumque qui quas iste quae iure aperiam, nesciunt architecto doloribus deserunt veritatis maiores explicabo eligendi vero in maxime. In ipsam debitis nam. Architecto voluptas numquam vel corporis tempora, voluptatibus recusandae atque officia eum voluptatem veniam, expedita assumenda a cum itaque!
+請仔細閱讀每個領域的條件，有可能您符合多個領域資格，但在就業金卡申請系統裡只能選擇其中一個領域進行申請。除了建築設計領域須符合所有條件外，其他領域皆需選擇一個特定的子項目，並依據所列資格盡可能提供應備文件。
+
+* 請將您的資料上傳，包含近半年內2吋半身脫帽彩色照片、所餘效期6個月以上的護照彩色影本，與其他相關證明文件。相關證明文件會依據您所選擇的「領域專長」而有相對應的要求。 註 5
+* 如果文件不是英語或中文，需要檢附英文或中文譯本。
+* 如果申請人的文件是由以下國家/地區發行的，需要先經過認證。
+
+  * 若由大陸地區作成，依「臺灣地區與大陸地區人民關係條例」規定， 應經行政院設立或指定之機構或委託之民間團體驗證 。
+  * 若於阿富汗、阿爾及利亞、孟加拉、不丹、緬甸、柬埔寨、喀麥隆、古巴、迦納、伊朗、伊拉克、寮國、尼泊爾、尼日、奈及利亞、巴基斯坦、塞內加爾、索馬利亞、斯里蘭卡、敘利亞、菲律賓、泰國、越南、馬來西亞、印尼等國家地區作成者，需先取得我國駐外館處之驗證。

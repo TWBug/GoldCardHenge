@@ -1,16 +1,24 @@
 ---
-title: Profession & Documents
-date: 2021-01-18T03:11:02.768Z
-summary: Are you ready to apply? Make sure you follow the steps!
 draft: false
+start: false
+date: 2021-01-18T03:11:02.768Z
+summary: Select only ONE field and upload related documents.
+check: true
+title: Profession & Documents
 order: 4
 topic: goldcard
-start: false
-check: true
 previous: /apply/step-2/resident/
 next: /apply/step-3/
 ---
-
 # Profession & Documents
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt harum voluptates ad cupiditate deserunt eos, necessitatibus odit dolore error omnis ea doloremque veniam distinctio itaque labore accusantium eum non nisi ipsa ipsam temporibus inventore explicabo. Eius, enim nulla veniam aliquam cumque qui quas iste quae iure aperiam, nesciunt architecto doloribus deserunt veritatis maiores explicabo eligendi vero in maxime. In ipsam debitis nam. Architecto voluptas numquam vel corporis tempora, voluptatibus recusandae atque officia eum voluptatem veniam, expedita assumenda a cum itaque!
+Please read the criteria for each relevant field carefully, as you may qualify under more than one field. However, you will be required to select only ONE field to apply under in the application. In most cases, you need to choose a specific entry in the list of qualifications as well.
+
+* Please upload a color copy of your passport, and a color photo of you according to the specifications on this page.
+* Use the Automatic photo cropping tool if you are unsure.
+* Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification you choose to apply through. Note 2
+* If the provided documents are neither in English nor Chinese, please attach a translation to English or Chinese. If your documents are issued by the following countries/regions, additional verification is needed:
+
+  * Applicants from Hong Kong and Macau may need to supply copies of resident and identity information.
+    Documents issued in the Mainland area have to be attested and examined by the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of “Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area.”
+  * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
