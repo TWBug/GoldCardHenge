@@ -1,10 +1,10 @@
 ---
 draft: false
 start: false
-summary: Are you ready to apply? Make sure you follow the steps!
+date: 2021-01-18T03:13:01.397Z
+summary: Submitting Additional Documents & Rejection
 check: true
 title: Supplementary Documents
-date: 2021-01-18T03:13:01.397Z
 order: 1
 topic: goldcard
 previous: /apply/step-3/
