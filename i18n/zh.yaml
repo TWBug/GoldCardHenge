@@ -108,7 +108,7 @@
 - id: located
   translation: '居住地'
 - id: timezone
-  translation: 'CST (+08:00)'
+  translation: '英語 (+08:00)'
 - id: taipei_city_skyline
   translation: '台北市天際線'
 - id: taiwan_mountains

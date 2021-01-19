@@ -110,7 +110,7 @@
 - id: located
   translation: 'Located'
 - id: timezone
-  translation: 'CST (+08:00)'
+  translation: 'NST (+08:00)'
 - id: taipei_city_skyline
   translation: 'Taipei City Skyline'
 - id: taipei_mountains
