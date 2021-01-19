@@ -10,7 +10,7 @@ cover_image_alt: Icon with checklist application process
 start: true
 check: false
 previous: /apply/step-1/
-next: /apply/step-2/passport-visa/
+next: /apply/step-2/registration/
 ---
 
 {{< teaser prefix="" >}}

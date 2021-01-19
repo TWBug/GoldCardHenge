@@ -7,6 +7,8 @@ order: 1
 topic: goldcard
 check: true
 style: right
+previous: /apply/step-2/
+next: /apply/step-2/your-data/
 ---
 在您申請之前，請確認:
 

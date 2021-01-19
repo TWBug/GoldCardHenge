@@ -7,10 +7,10 @@ order: 3
 topic: goldcard
 start: false
 check: true
-previous: /apply/step-2/passport-visa/
-next: /apply/step-2/upload-documents/
+previous: /apply/step-2/your-data/
+next: /apply/step-2/profession-documents/
 ---
 
-# Registration
+# Resident
 
 Please visit the website of the Foreign Professionals Online Application Platform and set up an account. Use the login details to login into the portal. Your name in English needs to be consistent with the name on your passport you are using to enter Taiwan.

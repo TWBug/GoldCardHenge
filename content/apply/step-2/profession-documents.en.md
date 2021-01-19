@@ -7,7 +7,7 @@ order: 4
 topic: goldcard
 start: false
 check: true
-previous: /apply/step-2/registration/
+previous: /apply/step-2/resident/
 next: /apply/step-3/
 ---
 

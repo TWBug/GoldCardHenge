@@ -249,30 +249,6 @@ collections:
                 i18n: true,
             }
           - {
-                label: 'Start?',
-                name: 'start',
-                widget: 'boolean',
-                default: false,
-                required: false,
-                i18n: duplicate,
-            }
-          - {
-                label: 'Check?',
-                name: 'check',
-                widget: 'boolean',
-                default: true,
-                required: false,
-                i18n: duplicate,
-            }
-          - {
-                label: 'Previous page',
-                name: 'previous',
-                widget: 'string',
-                default: '',
-                required: false,
-                i18n: duplicate,
-            }
-          - {
                 label: 'Next page',
                 name: 'next',
                 widget: 'string',
@@ -286,10 +262,10 @@ collections:
       label: 'Apply / Step-1'
       label_singular: Apply Step-1
       folder: 'content/apply/step-1'
-      create: true
+      create: false
+      delete: false
       slug: '{{slug}}'
       i18n: true
-      summary: "{{title}} | Order: {{order}} | Check: {{check}}"
       sortable_fields: ['title', 'order', 'date']
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
@@ -303,7 +279,7 @@ collections:
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
-          - { label: 'Order', name: 'order', widget: 'number', default: 1, i18n: duplicate }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'finder' , i18n: duplicate }
           - {
                 label: 'Topic',
                 name: 'topic',
@@ -338,22 +314,6 @@ collections:
                 widget: 'string',
                 required: false,
                 i18n: true,
-            }
-          - {
-                label: 'Start?',
-                name: 'start',
-                widget: 'boolean',
-                default: false,
-                required: false,
-                i18n: duplicate,
-            }
-          - {
-                label: 'Check?',
-                name: 'check',
-                widget: 'boolean',
-                default: true,
-                required: false,
-                i18n: duplicate,
             }
           - {
                 label: 'Previous page',
@@ -380,7 +340,7 @@ collections:
       create: true
       slug: '{{slug}}'
       i18n: true
-      summary: "{{title}} | Order: {{order}} | Check: {{check}}"
+      summary: "{{title}} | Order: {{order}}"
       sortable_fields: ['title', 'order', 'date']
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
@@ -429,22 +389,6 @@ collections:
                 widget: 'string',
                 required: false,
                 i18n: true,
-            }
-          - {
-                label: 'Start?',
-                name: 'start',
-                widget: 'boolean',
-                default: false,
-                required: false,
-                i18n: duplicate,
-            }
-          - {
-                label: 'Check?',
-                name: 'check',
-                widget: 'boolean',
-                default: true,
-                required: false,
-                i18n: duplicate,
             }
           - {
                 label: 'Previous page',
@@ -471,7 +415,7 @@ collections:
       create: true
       slug: '{{slug}}'
       i18n: true
-      summary: "{{title}} | Order: {{order}} | Check: {{check}}"
+      summary: "{{title}} | Order: {{order}}"
       sortable_fields: ['title', 'order', 'date']
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
@@ -520,22 +464,6 @@ collections:
                 widget: 'string',
                 required: false,
                 i18n: true,
-            }
-          - {
-                label: 'Start?',
-                name: 'start',
-                widget: 'boolean',
-                default: false,
-                required: false,
-                i18n: duplicate,
-            }
-          - {
-                label: 'Check?',
-                name: 'check',
-                widget: 'boolean',
-                default: true,
-                required: false,
-                i18n: duplicate,
             }
           - {
                 label: 'Previous page',
