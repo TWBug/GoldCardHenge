@@ -77,7 +77,7 @@
                 </div>
             {{ else }}
                 <div class="grid grid-cols-1 md:grid-cols-2 xxl:grid-cols-3 gap-12 xl:gap-24 mt-6">
-                    {{ range ((where .Pages ".Params.hidden" "!=" true).ByParam "start").Reverse }}
+                    {{ range first 6 ((where .Pages ".Params.hidden" "!=" true).ByParam "start").Reverse }}
                         {{ partial "single-event" . }}
                     {{ end }}
                 </div>
