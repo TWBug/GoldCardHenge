@@ -1,16 +1,22 @@
 ---
 draft: false
 start: false
-summary: Are you ready to apply? Make sure you follow the steps!
-check: true
-title: Resident
 date: 2021-01-18T03:10:55.207Z
+summary: 選擇其中一個領域並提供相關應備文件。
+check: true
+title: 資料上傳
 order: 3
 topic: goldcard
 previous: /apply/step-2/your-data/
 next: /apply/step-2/profession-documents/
 ---
+# 資料上傳
 
-# Resident
+請仔細閱讀每個領域的條件，有可能您符合多個領域資格，但在就業金卡申請系統裡只能選擇其中一個領域進行申請。除了建築設計領域須符合所有條件外，其他領域皆需選擇一個特定的子項目，並依據所列資格盡可能提供應備文件。
 
-Please visit the website of the Foreign Professionals Online Application Platform and set up an account. Use the login details to login into the portal. Your name in English needs to be consistent with the name on your passport you are using to enter Taiwan.
+* 請將您的資料上傳，包含近半年內2吋半身脫帽彩色照片、所餘效期6個月以上的護照彩色影本，與其他相關證明文件。相關證明文件會依據您所選擇的「領域專長」而有相對應的要求。 註 5
+* 如果文件不是英語或中文，需要檢附英文或中文譯本。
+* 如果申請人的文件是由以下國家/地區發行的，需要先經過認證。
+
+  * 若由大陸地區作成，依「臺灣地區與大陸地區人民關係條例」規定， 應經行政院設立或指定之機構或委託之民間團體驗證 。
+  * 若於阿富汗、阿爾及利亞、孟加拉、不丹、緬甸、柬埔寨、喀麥隆、古巴、迦納、伊朗、伊拉克、寮國、尼泊爾、尼日、奈及利亞、巴基斯坦、塞內加爾、索馬利亞、斯里蘭卡、敘利亞、菲律賓、泰國、越南、馬來西亞、印尼等國家地區作成者，需先取得我國駐外館處之驗證。
