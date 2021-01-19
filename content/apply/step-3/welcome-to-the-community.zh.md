@@ -1,16 +1,16 @@
 ---
-title: Welcome to the Community
-date: 2021-01-18T03:13:01.397Z
-summary: Are you ready to apply? Make sure you follow the steps!
 draft: false
+start: false
+date: 2021-01-18T03:13:01.397Z
+summary: 加入金卡社團與好好享受在台灣的生活吧！
+check: true
+title: 歡迎加入金卡社團
 order: 4
 topic: goldcard
-start: false
-check: true
 previous: /apply/step-3/card-collection/
-next: 
+next: null
 ---
+# 歡迎加入金卡社團
 
-# Welcome to the Community
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero suscipit dolores magni itaque ipsum, tempora quidem fugiat ipsa est molestias quos veritatis ducimus facere quas rerum culpa reprehenderit, qui nobis quaerat ex exercitationem. Sit necessitatibus commodi eius maiores adipisci dolorem animi ad eligendi praesentium officia! Unde, totam itaque veritatis velit harum deleniti ratione mollitia quidem magnam sed veniam ad aliquid facere. Quia quod sed alias eum numquam autem voluptatum repudiandae sequi, sunt consequatur amet dolore distinctio maiores aspernatur, voluptatem tempora!
+這個社團只限金卡持卡者，我們會請您提供您的姓名、電子郵件和就業金卡申請號。
+您可以透過連結加入社團：<https://www.facebook.com/groups/goldcard>
