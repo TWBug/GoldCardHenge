@@ -19,6 +19,8 @@
     "file": "file",
     "restart": "Restart",
     "start_application": "Start application",
+    "previous_step": "Previous step",
+    "application_easy_mode": "Application easy mode",
     "headlines": {
         "home": "Please choose at least one area.",
         "1": "You are an athlete, coach or referee...",

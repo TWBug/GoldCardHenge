@@ -22,7 +22,7 @@
             <div class="p-4" v-if="has_result">
                 <a
                     :href="link_apply"
-                    class="flex items-center border-2 border-primary rounded-md px-6 py-4 text-base leading-none uppercase font-bold text-primary focus-primary"
+                    class="flex items-center border-2 border-primary rounded-md px-6 py-4 text-base leading-none font-bold text-primary focus-primary"
                 >
                     {{ $t('start_application') }}
                     <span class="flex-shrink-0 flex-center w-4 h-4 ml-4">
