@@ -4,13 +4,13 @@ start: false
 date: 2021-01-18T03:13:01.397Z
 summary: Are you ready to apply? Make sure you follow the steps!
 check: true
-title: Passport Verification
+title: 護照查驗
 order: 2
 topic: goldcard
 previous: /apply/step-3/supplementary-documents/
 next: /apply/step-3/card-collection/
 ---
-# Passport verification
+# Passport Verification
 
 {{< teaser prefix="" >}}
 境外申請，或是已入境台灣但所持有的簽證有限制停留時間且無法延期或是免簽，需要進行護照查驗。
