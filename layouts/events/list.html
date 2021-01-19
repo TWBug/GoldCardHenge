@@ -53,6 +53,13 @@
     </div>
 </div>
 
+{{ $count_events := 0 }}
+{{ range ((where .Pages ".Params.hidden" "!=" true).ByParam "start").Reverse }}
+{{ if gt (time .Params.start) now }}
+{{ $count_events = add $count_events 1 }}
+{{ end }}
+{{ end }}
+
 <div class="relative flex-grow pt-12">
     <div
         class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-white -z-1"
@@ -60,13 +67,22 @@
     <section id="scroll">
         <div class="container pb-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
             {{ partial "breadcrumb" . }}
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-24 mt-6">
-                {{ range ((where .Pages ".Params.hidden" "!=" true).ByParam "start").Reverse }}
-                    {{ if gt (time .Params.start) now }}
-                    {{ partial "single-event" . }}
+            {{ if gt $count_events 0 }}
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-24 mt-6">
+                    {{ range ((where .Pages ".Params.hidden" "!=" true).ByParam "start").Reverse }}
+                        {{ if gt (time .Params.start) now }}
+                        {{ partial "single-event" . }}
+                        {{ end }}
                     {{ end }}
-                {{ end }}
-            </div>
+                </div>
+            {{ else }}
+                <div class="grid grid-cols-1 md:grid-cols-2 xxl:grid-cols-3 gap-12 xl:gap-24 mt-6">
+                    {{ range ((where .Pages ".Params.hidden" "!=" true).ByParam "start").Reverse }}
+                        {{ partial "single-event" . }}
+                    {{ end }}
+                </div>
+            {{ end }}
+            {{ if gt $count_events 0 }}
             <div class="text-center mt-12">
                 {{ $events := .Site.GetPage "/events/archive" }}
                 <a href="{{ $events.RelPermalink }}" class="inline-flex items-center text-xl font-bold text-primary focus-primary p-1">
@@ -76,6 +92,7 @@
                     {{ partial "icon" (dict "name" "angle-right" "size" "6") }}
                 </a>
             </div>
+            {{ end }}
         </div>
     </section>
 </div>
