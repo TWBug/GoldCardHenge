@@ -2,7 +2,7 @@
 draft: false
 start: false
 date: 2021-01-18T03:11:02.768Z
-summary: Select only ONE field and upload related documents.
+summary: Detail about Gold Card fee and confirmation letter.
 check: true
 title: Payment and E-Mail Confirmation
 order: 4
