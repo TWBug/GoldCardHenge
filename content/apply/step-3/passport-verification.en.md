@@ -2,7 +2,10 @@
 draft: false
 start: false
 date: 2021-01-18T03:13:01.397Z
-summary: Are you ready to apply? Make sure you follow the steps!
+summary: For overseas applications, or if you have entered Taiwan but have a
+  visa with a limited stay period and cannot be extended or visa-free, your
+  passport will have to be inspected by the Bureau of Consular Affairs or an ROC
+  mission/office.
 check: true
 title: Passport Verification
 order: 2
@@ -10,7 +13,11 @@ topic: goldcard
 previous: /apply/step-3/supplementary-documents/
 next: /apply/step-3/card-collection/
 ---
-
 # Passport verification
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero suscipit dolores magni itaque ipsum, tempora quidem fugiat ipsa est molestias quos veritatis ducimus facere quas rerum culpa reprehenderit, qui nobis quaerat ex exercitationem. Sit necessitatibus commodi eius maiores adipisci dolorem animi ad eligendi praesentium officia! Unde, totam itaque veritatis velit harum deleniti ratione mollitia quidem magnam sed veniam ad aliquid facere. Quia quod sed alias eum numquam autem voluptatum repudiandae sequi, sunt consequatur amet dolore distinctio maiores aspernatur, voluptatem tempora!
+{{< teaser prefix="" >}}
+For overseas applications, or if you have entered Taiwan but have a visa with a limited stay period and cannot be extended or visa-free, your passport will have to be inspected by the Bureau of Consular Affairs or an ROC mission/office.
+{{< /teaser >}}
+
+* When your application is approved and passed the qualification review, you will receive an e-mail notification to bring your passport for passport inspection. At this point, please bring your original passport to your chosen Bureau of Consular Affairs or ROC mission/office. Due to the COVID-19 pandemic, some overseas missions might be temporarily closed or working remotely. Please contact their office and see if passport inspections can be accepted via post.
+* After verification, you will receive an e-mail stating your passport has been inspected and the gold card application was approved. Under normal circumstances, this process should take a week.
