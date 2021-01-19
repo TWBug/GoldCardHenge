@@ -13,7 +13,7 @@ en:
         - ministry: MOST
           regulation_no: 2
           link: 'https://foreigntalentact.ndc.gov.tw/en/Content_List.aspx?n=0DDF60C3BE8E44B5'
-          info: 'Lorem ipsum'
+          info: ''
           prepare:
               - 'formal proof of employment in the specific field, showing more than three years at a technology company or university and the documents from either Academic or Professional streams below.'
               - 'Academic Stream: a copy of your PhD degree'
@@ -409,7 +409,7 @@ zh:
         - ministry: MOST
           regulation_no: 2
           link: 'https://foreigntalentact.ndc.gov.tw/en/Content_List.aspx?n=0DDF60C3BE8E44B5'
-          info: 'Lorem ipsum'
+          info: ''
           prepare:
               - 'formal proof of employment in the specific field, showing more than three years at a technology company or university and the documents from either Academic or Professional streams below.'
               - 'Academic Stream: a copy of your PhD degree'

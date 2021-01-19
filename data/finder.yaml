@@ -18,7 +18,7 @@ qualification:
       weight: 20
     - ministry: MOST
       regulation_no: 2
-      info: 'Lorem ipsum'
+      info: ''
       link: 'https://foreigntalentact.ndc.gov.tw/en/Content_List.aspx?n=0DDF60C3BE8E44B5'
       notes: "Please prepare:\n☑ formal proof of employment in the specific field, showing more than three years at a technology company or university\nand the documents from either Academic or Professional streams below.\n\nAcademic Stream\n☑ a copy of your PhD degree\n☑ journal articles, conference papers, peer-reviewed books or chapters, or other specialized work such as software tools that are widely cited. Documents must be published within the past 3 years.\n\nProfessional Stream\n☑ copies of patent certificates, technology licensing contracts or other proof of technical skill\n☑ copies of major domestic or international awards you have received."
       prepare:
