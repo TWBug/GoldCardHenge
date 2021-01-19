@@ -4,21 +4,30 @@ start: false
 date: 2021-01-18T03:11:02.768Z
 summary: Select only ONE field and upload related documents.
 check: true
-title: Profession & Documents
+title: Payment and E-Mail Confirmation
 order: 4
 topic: goldcard
 previous: /apply/step-2/resident/
 next: /apply/step-3/
 ---
-# Profession & Documents
+# Payment and E-Mail Confirmation
 
-Please read the criteria for each relevant field carefully, as you may qualify under more than one field. However, you will be required to select only ONE field to apply under in the application. In most cases, you need to choose a specific entry in the list of qualifications as well.
+{{< teaser prefix="" >}}
+After the online application is complete, the system will send an e-mail with a 12-digits application number. Please note down this reference number as it is needed if you contact the help desk.
+{{< /teaser >}}
 
-* Please upload a color copy of your passport, and a color photo of you according to the specifications on this page.
-* Use the Automatic photo cropping tool if you are unsure.
-* Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification you choose to apply through. Note 2
-* If the provided documents are neither in English nor Chinese, please attach a translation to English or Chinese. If your documents are issued by the following countries/regions, additional verification is needed:
+* Please login to the platform again with your account and password and enter the “Online Payment” tab.
+* Please pay according to the instructions. Payment is only possible with an international credit card. However, if you are in Taiwan, you can print out the payment slip and pay at a convenience store.
 
-  * Applicants from Hong Kong and Macau may need to supply copies of resident and identity information.
-    Documents issued in the Mainland area have to be attested and examined by the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of “Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area.”
-  * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
+Fees for Employment Gold Card:
+
+Domestic Applicants
+
+![Fees for Domestic Applicants](/cms-uploads/goldcardfee-04.png "Fees for Domestic Applicants")
+
+Overseas Applicants
+
+![Fees for Overseas Applicants](/cms-uploads/goldcardfee-03.png "Fees for Overseas Applicants")
+
+* After completing the application, you will get a system confirmation via e-mail. Your application has now entered the review process.
+* To check your application process, log in to the portal, click “Application Progress Inquiry”, and fill in your 12-digit application number. The application fee is nonrefundable regardless of the results of your application.
