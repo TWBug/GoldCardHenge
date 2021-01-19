@@ -25,7 +25,7 @@
         {{ else }}
             {{ range sort $application.Sections ".File.Dir" "asc" }}
                 <a href="{{ .RelPermalink }}" class="inline-block focus-primary">
-                    {{ if eq .Dir $.Dir }}
+                    {{ if eq .File.Dir $.File.Dir }}
                     <h3 class="text-base text-nav-end font-bold py-1 my-1 ">
                         {{ .Title }}
                     </h3>
