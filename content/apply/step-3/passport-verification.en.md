@@ -1,12 +1,12 @@
 ---
-title: Passport verification
+draft: false
+start: false
 date: 2021-01-18T03:13:01.397Z
 summary: Are you ready to apply? Make sure you follow the steps!
-draft: false
+check: true
+title: Passport Verification
 order: 2
 topic: goldcard
-start: false
-check: true
 previous: /apply/step-3/supplementary-documents/
 next: /apply/step-3/card-collection/
 ---

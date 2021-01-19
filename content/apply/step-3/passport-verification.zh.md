@@ -1,16 +1,20 @@
 ---
-title: Passport verification
+draft: false
+start: false
 date: 2021-01-18T03:13:01.397Z
 summary: Are you ready to apply? Make sure you follow the steps!
-draft: false
+check: true
+title: Passport Verification
 order: 2
 topic: goldcard
-start: false
-check: true
 previous: /apply/step-3/supplementary-documents/
 next: /apply/step-3/card-collection/
 ---
-
 # Passport verification
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero suscipit dolores magni itaque ipsum, tempora quidem fugiat ipsa est molestias quos veritatis ducimus facere quas rerum culpa reprehenderit, qui nobis quaerat ex exercitationem. Sit necessitatibus commodi eius maiores adipisci dolorem animi ad eligendi praesentium officia! Unde, totam itaque veritatis velit harum deleniti ratione mollitia quidem magnam sed veniam ad aliquid facere. Quia quod sed alias eum numquam autem voluptatum repudiandae sequi, sunt consequatur amet dolore distinctio maiores aspernatur, voluptatem tempora!
+{{< teaser prefix="" >}}
+境外申請，或是已入境台灣但所持有的簽證有限制停留時間且無法延期或是免簽，需要進行護照查驗。
+{{< /teaser >}}
+
+* 當申請案件經資料核對無誤與資格審核通過，您會收到email通知攜帶護照「繳驗護照通知單」及護照正本，至申請時所選擇的外交部領事事務局及外交部國內各辦事處或中華民國駐外機構辦理護照查驗。
+* 護照查驗完畢，您會收到email說明金卡申請已獲批准。在一般情形下，從查驗到批准的時間會在一週內完成。
