@@ -1,8 +1,10 @@
 ---
+title: 退補件說明
 date: 2021-01-18T03:13:01.397Z
+summary: 退補件說明
 order: 1
 ---
-# Supplementary Documents
+
 
 After you complete the online payment, the review process officially begins. If you submit incomplete or inaccurate information, or the authorities require more information about your qualifications, you will need to submit additional documents for review.
 
