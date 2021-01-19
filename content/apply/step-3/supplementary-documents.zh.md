@@ -1,13 +1,11 @@
 ---
 title: 退補件說明
 date: 2021-01-18T03:13:01.397Z
-summary: 退補件說明
+summary: 退補件相關說明
 order: 1
 ---
+# 退補件說明
 
+當申請人完成線上繳費後，審查程序就正式啟動。由於就業金卡是四證合一，需經過三個中華民國主管機關審核，分別是內政部移民署進行資料初審，再由勞動部會商其他部會進行資格複審，最後由外交部進行簽證審核。申請人通常在初審與複審階段，會因為所選簽證總類錯誤、資料準備不齊全、所選領域資格不符等，而需要資料補件、重新遞件或是申請被駁回。
 
-After you complete the online payment, the review process officially begins. If you submit incomplete or inaccurate information, or the authorities require more information about your qualifications, you will need to submit additional documents for review.
-
-You will receive an email if this is the case. Log in to the Application Portal to review your application and the request for Supplementary Documents. You can then submit a modified version of your application and upload new documents.
-
-For more information see the [detailed instructions](/en/application/#submitting-additional-documents--rejection).
+如需更詳細說明參閱[申請流程](https://goldcard.nat.gov.tw/zh/application/)網頁。
