@@ -1,9 +1,9 @@
 ---
 draft: false
 start: true
-title: 申請步驟三：送出線上申請後
+title: 申請步驟三：送出申請後
 date: 2021-01-18T03:31:11.168Z
-summary: 送出線上申請後相關步驟
+summary: 送出申請後相關步驟
 check: false
 order: 0
 topic: goldcard
