@@ -16,4 +16,4 @@ next: /apply/step-3/supplementary-documents/
 Congratulations on submitting your application!
 {{< /teaser >}}
 
-At this point, your application is under review. In a few weeks, you may be asked to submit additional documents. If all goes well you will be notified with the result of your skill assessment, and if successful asked to submit your passport for verification and eventually collect your Gold Card.
+At this point, your application is under review. In a few weeks, you may be asked to submit additional documents. If all goes well you will be notified with the result of your skill assessment, and if successful asked to submit your passport for verification and eventually collect your Gold Card. With all the correct documentation submitted, it can **take over 60 business days** to complete the entire Employment Gold Card application process.
