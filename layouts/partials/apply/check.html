@@ -14,7 +14,7 @@
             <span class="text-xl leading-tight font-medium">
                 {{ .Page.Title }}
                 <span class="font-bold">
-                    DONE?
+                    {{ i18n "done" }}{{ if eq .Site.Language.Lang "en" }}?{{ end }}
                 </span>
             </span>
         </button>
@@ -25,16 +25,16 @@
             <div class="text-xl leading-tight font-medium">
                 {{ .Page.Title }}
                 <span class="font-bold">
-                    DONE!
+                    {{ i18n "done" }}{{ if eq .Site.Language.Lang "en" }}!{{ end }}
                 </span>
             </div>
         </div>
     </div>
     <div class="w-full lg:w-1/2 text-xs font-medium text-gray-500 lg:pl-4">
-        You can keep your personal check list up to date so it's easier to remember which steps you have finished and what’s still on the list.
-        <span x-show="trigger_checked"> To remove your DONE you can click on:
+        {{ i18n "check_info" }}
+        <span x-show="trigger_checked"> {{ i18n "check_remove_info" }}
             <button type="button" class="text-primary font-bold focus-primary" @click.prevent="toggleCheck()">
-                remove check
+                {{ i18n "check_remove_button" }}
             </button>
         </span>
     </div>

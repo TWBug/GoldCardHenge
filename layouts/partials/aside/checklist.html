@@ -8,11 +8,11 @@
 
 <div class="my-12">
     <div class="flex items-baseline justify-between border-b-2 border-secondary text-secondary border-dashed px-2 pb-2">
-        <h2 class="text-xl font-bold">Check list</h2>
+        <h2 class="text-xl font-bold">{{ i18n "check_list" }}</h2>
         {{ partial "icon" (dict "name" "check-double" "size" "7") }}
     </div>
     <p class="text-base font-medium pt-4 pl-2">
-        Use your personal check list to make it easier for you to remember if you have completed all steps of the application process.
+        {{ i18n "check_list_info" }}
     </p>
     <div class="leading-tight text-md pt-4 pl-2" x-data="taCheckList()" x-init="list()">
         {{ if $isSectionHome }}
@@ -49,7 +49,7 @@
             <div class="text-right mt-4">
                 <a href="{{ $application.RelPermalink }}" :href="resume.href" class="inline-flex items-center text-primary text-base font-bold">
                     <span class="mr-4">
-                        Continue with: <span class="block text-sm font-medium" x-text="resume.text"></span>
+                        {{ i18n "check_list_continue" }}: <span class="block text-sm font-medium" x-text="resume.text"></span>
                     </span>
                     {{ partial "icon" (dict "name" "angle-right" "size" "8") }}
                 </a>

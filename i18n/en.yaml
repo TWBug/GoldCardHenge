@@ -78,6 +78,10 @@
   translation: 'Latest articles'
 - id: latest_faq
   translation: 'Latest FAQ'
+- id: latest_faq_application
+  translation: 'Latest FAQ about the application process'
+- id: all_faq_application
+  translation: 'All FAQ about the application process'
 - id: all_events
   translation: 'All events'
 - id: all_faq
@@ -103,10 +107,31 @@
 - id: how_to_apply
   translation: 'How to apply'
 - id: how_to_apply_copy
-  translation:
-      'Are you convinced that the Taiwan Employment Gold Card will be your personal next step? Amazing - Start with your application now...'
+  translation: 'Are you convinced that the Taiwan Employment Gold Card will be your personal next step? Amazing - Start with your application now...'
 - id: since_2018
   translation: 'Since 2018'
+- id: previous_step
+  translation: 'Previous Step'
+- id: start
+  translation: 'Start'
+- id: next_step
+  translation: 'Next step'
+- id: done
+  translation: 'Done'
+- id: check_list
+  translation: 'Check list'
+- id: check_list_info
+  translation: 'Use your personal check list to make it easier for you to remember if you have completed all steps of the application process.'
+- id: check_list_continue
+  translation: "Continue with"
+- id: check_list_finished
+  translation: "All finished"
+- id: check_info
+  translation: "You can keep your personal check list up to date so it's easier to remember which steps you have finished and what’s still on the list."
+- id: check_remove_info
+  translation: "To remove your DONE you can click on:"
+- id: check_remove_button
+  translation: "remove check"
 - id: located
   translation: 'Located'
 - id: timezone
@@ -151,7 +176,7 @@
   translation: 'Gold Card community member'
 - id: link_linkedin_page
   translation: 'Link to LinkedIn page'
-  
+
 - id: undefined
   translation: 'UNDEFINED'
 - id: card
@@ -170,7 +195,7 @@
   translation: 'Twitter'
 - id: linkedin
   translation: 'LinkedIn'
-  
+
 - id: application
   translation: 'Application'
 - id: general
@@ -196,7 +221,6 @@
 - id: about
   translation: 'About'
 
-  
 - id: super
   translation: 'Super'
 - id: cool
@@ -215,4 +239,3 @@
   translation: 'Nature'
 - id: transportation
   translation: 'Transportation'
-

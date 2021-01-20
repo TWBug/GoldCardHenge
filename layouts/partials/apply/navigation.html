@@ -1,4 +1,3 @@
-{{/*  TODO registerEditorComponent netlify  */}}
 {{ $buffer := "" }}
 
 {{ $start := "false" }}
@@ -50,7 +49,7 @@
                 </span>
                 <span class="ml-4">
                     <span class="block font-bold text-base">
-                        Previous Step
+                        {{ i18n "previous_step" }}
                     </span>
                     <span class="block font-medium text-xs">
                         {{ $previous.Title }}
@@ -66,9 +65,9 @@
                 <span class="mr-4">
                     <span class="block font-bold text-base">
                         {{ if eq $start "true" }}
-                        Start
+                        {{ i18n "start" }}
                         {{ else }}
-                        Next Step
+                        {{ i18n "next_step" }}
                         {{ end }}
                     </span>
                     <span class="block font-medium text-xs">
