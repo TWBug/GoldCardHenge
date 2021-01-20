@@ -1,10 +1,10 @@
 ---
 draft: false
 start: true
-summary: What happens after you submit.
-check: false
 title: Step 3 - After Application
 date: 2021-01-18T03:31:11.168Z
+summary: What happens after you submit.
+check: false
 order: 0
 topic: goldcard
 cover_image: /cms-uploads/icon-checklist.svg

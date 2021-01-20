@@ -1,10 +1,10 @@
 ---
 draft: false
 start: true
-summary: Are you ready to apply? Make sure you follow the steps!
-check: false
-title: Step 3 - After Application
+title: 申請步驟三：送出線上申請後
 date: 2021-01-18T03:31:11.168Z
+summary: 送出線上申請後相關
+check: false
 order: 0
 topic: goldcard
 cover_image: /cms-uploads/icon-checklist.svg
