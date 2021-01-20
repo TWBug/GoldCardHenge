@@ -53,7 +53,11 @@
                     {{ if gt (len .Sections) 0 }}
                     {{ $pages = .Sections }}
                     {{ end }}
-                    {{ range sort $pages ".Params.order" "asc" }}
+                    {{ $sorted_pages := sort $pages ".File.Dir" "asc" }}
+                    {{ if .Parent.Section }}
+                    {{ $sorted_pages = sort $pages ".Params.order" "asc" }}
+                    {{ end }}
+                    {{ range $sorted_pages }}
                     <div class="text-left mb-6">
                         <h2 class="text-xl font-bold text-secondary mb-1">
                             {{.Title}}
