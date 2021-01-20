@@ -1137,6 +1137,45 @@ collections:
                   field: { label: Topic 主題, name: name, widget: string, i18n: true }
 
     # Configure the site. Menus for example
+    - name: 'finder'
+      label: 'Finder 選單'
+      description: "Content file for the visa finder application"
+      i18n:
+          structure: single_file
+      editor:
+          preview: false
+      files:
+          - label: 'Finder Translation'
+            name: 'finder_translation_data'
+            file: 'data/finder-translation_en_zh.yaml'
+            i18n: true
+            fields:
+                - label: 'Items 選項'
+                  name: 'items'
+                  widget: 'list'
+                  i18n: true
+                  fields:
+                      - { label: Key, name: key, widget: string, i18n: duplicate }
+                      - { label: Translation, name: translation, widget: string, i18n: true }
+          - label: 'Finder Questions'
+            name: 'finder_questions_data'
+            file: 'data/finder-questions_en_zh.yaml'
+            i18n: true
+            fields:
+                - label: 'Items 選項'
+                  name: 'items'
+                  widget: 'list'
+                  i18n: true
+                  sortable_fields: ['tree_id', 'tree_order', 'question_text']
+                  summary: '{{tree_id}} / {{tree_order}} - {{question_text}} - {{qualifications}}'
+                  fields:
+                      - { label: Tree ID, name: tree_id, widget: number, i18n: duplicate }
+                      - { label: Tree order, name: tree_order, widget: number, i18n: duplicate }
+                      - { label: Next tree ID, name: next_tree_id, required: false, widget: number, i18n: duplicate }
+                      - { label: Question, name: question_text, widget: string, i18n: true }
+                      - { label: Qualifications, name: qualifications, required: false, widget: list, allow_add: true, i18n: true }
+
+    # Configure the site. Menus for example
     - name: 'config'
       label: 'Menus 選單'
       description: >
