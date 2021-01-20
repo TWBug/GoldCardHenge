@@ -279,7 +279,13 @@ collections:
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'finder' , i18n: duplicate }
+          - {
+                label: 'Layout',
+                name: 'layout',
+                widget: 'hidden',
+                default: 'finder',
+                i18n: duplicate,
+            }
           - {
                 label: 'Topic',
                 name: 'topic',
@@ -340,7 +346,7 @@ collections:
       create: true
       slug: '{{slug}}'
       i18n: true
-      summary: "{{title}} | Order: {{order}}"
+      summary: '{{title}} | Order: {{order}}'
       sortable_fields: ['title', 'order', 'date']
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
@@ -415,7 +421,7 @@ collections:
       create: true
       slug: '{{slug}}'
       i18n: true
-      summary: "{{title}} | Order: {{order}}"
+      summary: '{{title}} | Order: {{order}}'
       sortable_fields: ['title', 'order', 'date']
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
@@ -766,6 +772,55 @@ collections:
           #   multiple: true
           #   required: false
           #   i18n: duplicate
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'help-desk'
+      label: 'Help Desk 洽詢平台'
+      label_singular: Help Desk Item
+      folder: 'content/help-desk'
+      create: true
+      slug: '{{slug}}'
+      preview_path: en/help-desk/{{slug}}
+      i18n: true
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Navigation',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'whytaiwan',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'why-taiwan'
@@ -1139,7 +1194,7 @@ collections:
     # Configure the site. Menus for example
     - name: 'finder'
       label: 'Finder 選單'
-      description: "Content file for the visa finder application"
+      description: 'Content file for the visa finder application'
       i18n:
           structure: single_file
       editor:
@@ -1171,9 +1226,22 @@ collections:
                   fields:
                       - { label: Tree ID, name: tree_id, widget: number, i18n: duplicate }
                       - { label: Tree order, name: tree_order, widget: number, i18n: duplicate }
-                      - { label: Next tree ID, name: next_tree_id, required: false, widget: number, i18n: duplicate }
+                      - {
+                            label: Next tree ID,
+                            name: next_tree_id,
+                            required: false,
+                            widget: number,
+                            i18n: duplicate,
+                        }
                       - { label: Question, name: question_text, widget: string, i18n: true }
-                      - { label: Qualifications, name: qualifications, required: false, widget: list, allow_add: true, i18n: true }
+                      - {
+                            label: Qualifications,
+                            name: qualifications,
+                            required: false,
+                            widget: list,
+                            allow_add: true,
+                            i18n: true,
+                        }
 
     # Configure the site. Menus for example
     - name: 'config'
