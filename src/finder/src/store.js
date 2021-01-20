@@ -1,10 +1,15 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 
-import data from './data.json';
+// import data from './data.json';
+import questions from './data/questions.json';
+import qualifications from './data/qualifications.json';
 var index = 0;
-for (index = 0; index < data.question.length; index++) {
-    data.question[index].selected = false;
+// for (index = 0; index < data.question.length; index++) {
+//     data.question[index].selected = false;
+// }
+for (index = 0; index < questions.length; index++) {
+    questions[index].selected = false;
 }
 
 Vue.use(Vuex);
@@ -15,8 +20,8 @@ export default new Vuex.Store({
         vertical_position: 0,
         tree_list: [],
         tree_active: -1,
-        qualifications: data.qualification,
-        questions: data.question,
+        qualifications: qualifications,
+        questions: questions
     },
     mutations: {
         TOGGLE_SELECTED(state, key) {

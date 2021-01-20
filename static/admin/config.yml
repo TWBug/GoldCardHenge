@@ -1242,6 +1242,30 @@ collections:
                             allow_add: true,
                             i18n: true,
                         }
+          - label: 'Finder Qualifications'
+            name: 'finder_qualifications_data'
+            file: 'data/finder-qualifications_en_zh.yaml'
+            i18n: true
+            fields:
+                - label: 'Items 選項'
+                  name: 'items'
+                  widget: 'list'
+                  i18n: true
+                  sortable_fields: ['ministry', 'regulation_no', 'weight']
+                  summary: '{{ministry}} / Regulation No.: {{regulation_no}} '
+                  fields:
+                      - { label: Ministry, name: ministry, widget: string, i18n: duplicate }
+                      - {
+                            label: Regulation No,
+                            name: regulation_no,
+                            widget: number,
+                            i18n: duplicate,
+                        }
+                      - { label: Weight, name: weight, widget: number, i18n: duplicate }
+                      - { label: Link, name: link, widget: string, i18n: true }
+                      - { label: Info, name: info, widget: string, required: false, i18n: true }
+                      - { label: Provide, name: provide, widget: markdown, i18n: true }
+                      - { label: Notes, name: notes, widget: string, required: false, i18n: true }
 
     # Configure the site. Menus for example
     - name: 'config'

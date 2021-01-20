@@ -1,7 +1,7 @@
 <template>
     <div>
         <BaseHeadline>
-            {{ $t('headlines.home') }}
+            {{ $t('headline_home') }}
         </BaseHeadline>
         <div class="flex flex-col">
             <div class="my-1" v-for="(question, index) in questions" :key="index">

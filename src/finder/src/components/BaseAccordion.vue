@@ -8,14 +8,14 @@
             <span class="flex-grow mr-12">
                 <span class="block text-lg font-semibold text-primary mb-1">
                     {{
-                        $t('results.headline', {
-                            ministery: $t('qualifications.' + item.ministry),
+                        $t('results_headline', {
+                            ministery: $t('qualifications_' + item.ministry),
                             regulation: item.regulation_no,
                         })
                     }}
                 </span>
                 <span class="block text-base font-semibold">
-                    {{ $t('results.answer') }}
+                    {{ $t('results_answer') }}
                     <span class="italic text-gray-700 font-medium">{{
                         getQuestion(item.questions[0])
                     }}</span>
@@ -67,31 +67,12 @@
                     {{ item.info[locale] }}
                 </span>
             </div>
-            <div class="mb-4" v-if="has_prepare">
-                <div class="font-bold">{{ $t('results.prepare') }}</div>
-                <div
-                    class="flex items-center font-medium my-4"
-                    v-for="(element, index) in item.prepare[locale]"
-                    :key="index"
-                >
-                    <div class="flex-shrink-0 w-6 mr-4">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 384 512"
-                            class="fill-current w-full"
-                            :alt="$t('file')"
-                        >
-                            <title>{{ $t('file') }}</title>
-                            <path
-                                d="M288 248v28c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-28c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm-12 72H108c-6.6 0-12 5.4-12 12v28c0 6.6 5.4 12 12 12h168c6.6 0 12-5.4 12-12v-28c0-6.6-5.4-12-12-12zm108-188.1V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V48C0 21.5 21.5 0 48 0h204.1C264.8 0 277 5.1 286 14.1L369.9 98c9 8.9 14.1 21.2 14.1 33.9zm-128-80V128h76.1L256 51.9zM336 464V176H232c-13.3 0-24-10.7-24-24V48H48v416h288z"
-                            />
-                        </svg>
-                    </div>
-                    {{ element }}
-                </div>
+            <div class="mb-4" v-if="has_provide">
+                <div class="font-bold">{{ $t('results_provide') }}</div>
+                <div class="copy" v-html="item.provide[locale]"></div>
             </div>
             <div class="text-sm mb-4" v-else>
-                {{ item.notes }}
+                {{ item.notes[locale] }}
             </div>
             <div class="flex justify-between items-center pt-4">
                 <a :href="item.link" class="flex items-center text-primary font-bold focus-primary">
@@ -108,7 +89,7 @@
                             />
                         </svg>
                     </span>
-                    {{ $t('results.details') }} {{ $t('qualifications.' + item.ministry) }}
+                    {{ $t('results_details') }} {{ $t('qualifications_' + item.ministry) }}
                 </a>
             </div>
         </div>
@@ -134,8 +115,8 @@ export default {
         has_info() {
             return this.item.info[this.$i18n.locale] === '' ? false : true;
         },
-        has_prepare() {
-            return this.item.prepare[this.$i18n.locale].length === 0 ? false : true;
+        has_provide() {
+            return this.item.provide[this.$i18n.locale] === '' ? false : true;
         },
         locale() {
             return this.$i18n.locale;
@@ -144,7 +125,7 @@ export default {
     methods: {
         getQuestion(id) {
             const question = this.$store.getters.getQuestion(id);
-            return question.question_text;
+            return question.question_text[this.$i18n.locale];
         },
         toggle() {
             this.details = !this.details;

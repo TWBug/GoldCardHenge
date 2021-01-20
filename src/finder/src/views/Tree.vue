@@ -1,7 +1,7 @@
 <template>
     <div v-if="init">
         <BaseHeadline>
-            {{ $t('headlines.' + id) }}
+            {{ $t('headline_' + id) }}
         </BaseHeadline>
         <div class="my-2" v-for="(question, index) in questions" :key="index">
             <BaseQuestion :question="question" />

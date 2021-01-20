@@ -33,7 +33,7 @@
             </svg>
         </span>
         <span>
-            {{ question.question_text }}
+            {{ question.question_text[this.$i18n.locale] }}
         </span>
     </button>
 </template>

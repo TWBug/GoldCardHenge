@@ -3,46 +3,102 @@ const YAML = require('yaml');
 const flatten = require('flat');
 const md5 = require('md5');
 const objectToString = require('object-to-string');
+const md = require('markdown-it')();
 
-const data = fs.readFileSync('../../data/finder.yaml', { encoding: 'utf8', flag: 'r' });
-const yaml = YAML.parse(data);
+const translation_source = fs.readFileSync('../../data/finder-translation_en_zh.yaml', {
+    encoding: 'utf8',
+    flag: 'r',
+});
+const translation_yaml = YAML.parse(translation_source);
 
-var index = 0;
-for (index = 0; index < yaml.question.length; index++) {
-    const flat = flatten(yaml.question[index]);
-    const string = objectToString(flat);
-    yaml.question[index].id = md5(string);
+// write english translation file
+console.info('Convert: translation_en');
+const translation_en = {};
+var counter = 0;
+for (counter = 0; counter < translation_yaml.en.items.length; counter++) {
+    translation_en[translation_yaml.en.items[counter].key] =
+        translation_yaml.en.items[counter].translation;
 }
-for (index = 0; index < yaml.qualification.length; index++) {
-    if (typeof yaml.qualification[index].info === 'undefined') {
-        yaml.qualification[index].info = {
+fs.writeFileSync('./src/lang/en.json', JSON.stringify(translation_en));
+
+// write chinese translation file
+console.info('Convert: translation_zh');
+const translation_zh = {};
+for (counter = 0; counter < translation_yaml.zh.items.length; counter++) {
+    translation_zh[translation_yaml.zh.items[counter].key] =
+        translation_yaml.zh.items[counter].translation;
+}
+fs.writeFileSync('./src/lang/zh.json', JSON.stringify(translation_zh));
+
+// write questions data file
+console.info('Convert: questions');
+const questions_source = fs.readFileSync('../../data/finder-questions_en_zh.yaml', {
+    encoding: 'utf8',
+    flag: 'r',
+});
+const questions_yaml = YAML.parse(questions_source);
+const questions = [];
+for (counter = 0; counter < questions_yaml.en.items.length; counter++) {
+    const flat = flatten(questions_yaml.en.items[counter]);
+    const string = objectToString(flat);
+    questions.push({
+        id: md5(string),
+        tree_id: questions_yaml.en.items[counter].tree_id,
+        tree_order: questions_yaml.en.items[counter].tree_order,
+        next_tree_id: questions_yaml.en.items[counter].next_tree_id,
+        question_text: {
+            en: questions_yaml.en.items[counter].question_text,
+            zh: questions_yaml.zh.items[counter].question_text,
+        },
+        qualifications: questions_yaml.en.items[counter].qualifications,
+    });
+}
+fs.writeFileSync('./src/data/questions.json', JSON.stringify(questions));
+
+// write qualifications data file
+console.info('Convert: qualifications');
+const qualifications_source = fs.readFileSync('../../data/finder-qualifications_en_zh.yaml', {
+    encoding: 'utf8',
+    flag: 'r',
+});
+const qualifications_yaml = YAML.parse(qualifications_source);
+const qualifications = [];
+for (counter = 0; counter < qualifications_yaml.en.items.length; counter++) {
+    const temp = {
+        ministry: qualifications_yaml.en.items[counter].ministry,
+        regulation_no: qualifications_yaml.en.items[counter].regulation_no,
+        weight: qualifications_yaml.en.items[counter].weight,
+        info: {
             en: '',
             zh: '',
+        },
+        link: {
+            en: qualifications_yaml.en.items[counter].link,
+            zh: qualifications_yaml.zh.items[counter].link,
+        },
+        provide: {
+            en: '',
+            zh: '',
+        },
+        notes: {
+            en: qualifications_yaml.en.items[counter].notes,
+            zh: qualifications_yaml.zh.items[counter].notes,
+        },
+    };
+    if (typeof qualifications_yaml.en.items[counter].info !== 'undefined') {
+        temp.info = {
+            en: qualifications_yaml.en.items[counter].info,
+            zh: qualifications_yaml.zh.items[counter].info,
         };
-    } else {
-        if (typeof yaml.qualification[index].info === 'string') {
-            yaml.qualification[index].info = {
-                en: yaml.qualification[index].info,
-                zh: yaml.qualification[index].info,
-            };
-        }
     }
-    if (typeof yaml.qualification[index].prepare === 'undefined') {
-        yaml.qualification[index].prepare = {
-            en: [],
-            zh: [],
+    if (typeof qualifications_yaml.en.items[counter].provide !== 'undefined') {
+        temp.provide = {
+            en: md.render(qualifications_yaml.en.items[counter].provide),
+            zh: md.render(qualifications_yaml.zh.items[counter].provide),
         };
-    } else {
-        if (typeof yaml.qualification[index].prepare.en === 'undefined') {
-            yaml.qualification[index].prepare = {
-                en: yaml.qualification[index].prepare,
-                zh: yaml.qualification[index].prepare,
-            };
-        }
     }
+    qualifications.push(temp);
 }
+fs.writeFileSync('./src/data/qualifications.json', JSON.stringify(qualifications));
 
-const json = JSON.stringify(yaml);
-fs.writeFileSync('./src/data.json', json);
-
-console.info('Conversion DONE!');
+console.info('Convert: DONE!');

@@ -1,7 +1,7 @@
 <template>
     <div v-if="init">
         <BaseHeadline icon="result" v-if="has_result">
-            {{ $tc('headlines.result', result.length, { count: result.length }) }}
+            {{ $tc('headline_result', result.length, { count: result.length }) }}
         </BaseHeadline>
         <BaseHeadline icon="no_result" v-else>
             {{ $t('headlines.no_result') }}
