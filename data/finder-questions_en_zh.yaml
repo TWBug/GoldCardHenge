@@ -1,9 +1,9 @@
-zh:
+en:
   items:
     - tree_id: 1
       tree_order: 0
       next_tree_id: null
-      question_text: 你的職業是運動員，教練，或者裁判嗎？
+      question_text: Are you an athlete, coach or referee?
       qualifications: []
     - tree_id: 1
       tree_order: 1
@@ -359,12 +359,12 @@ zh:
       question_text: Will the Bar Association recommend you?
       qualifications:
         - MOJ-4
-en:
+zh:
   items:
     - tree_id: 1
       tree_order: 0
       next_tree_id: null
-      question_text: Are you an athlete, coach or referee?
+      question_text: 你的職業是運動員，教練，或者裁判嗎？
       qualifications: []
     - tree_id: 1
       tree_order: 1
@@ -390,7 +390,7 @@ en:
     - tree_id: 2
       tree_order: 0
       next_tree_id: null
-      question_text: Are you a lawyer?
+      question_text: 你是律師嗎?
       qualifications: []
     - tree_id: 2
       tree_order: 1
@@ -471,7 +471,7 @@ en:
     - tree_id: 6
       tree_order: 0
       next_tree_id: null
-      question_text: Do you have a PhD?
+      question_text: 你有博士學位嗎？
       qualifications: []
     - tree_id: 6
       tree_order: 1
