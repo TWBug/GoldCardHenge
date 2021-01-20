@@ -2,9 +2,9 @@
 draft: false
 start: false
 date: 2021-01-18T03:13:01.397Z
-summary: Fill in your information / Passport & Visa Status
+summary: 填寫你的個人資料與護照或簽證狀態
 check: true
-title: Your data
+title: 你的資料
 order: 2
 topic: goldcard
 previous: /apply/step-2/registration/
