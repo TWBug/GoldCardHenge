@@ -1193,7 +1193,7 @@ collections:
 
     # Configure the site. Menus for example
     - name: 'finder'
-      label: 'Finder 選單'
+      label: 'Visa Finder 選單'
       description: 'Content file for the visa finder application'
       i18n:
           structure: single_file
