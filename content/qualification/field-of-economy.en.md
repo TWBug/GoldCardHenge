@@ -17,6 +17,7 @@ topic: goldcard
 {{< accordion title="Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000." suffix="1." bottomless="true" >}}
 
 * Proof of salary as per the amount stated in the application.
+Note: Recently, there have been many applications that have been made under the salary condition. Though most applicants fulfill the NT$160,000 average monthly salary condition, they do not work in an industry specified under the Field of Economics. For future applications, in order to comply with the principle and spirit of the Gold Card initiative, we will check that the industry in which the applicant works in is the under the specified Field of Economics, which will also serve as the basis for approval. To speed up the application review process and reduce the chances of returned applications or needing to provide additional documents, applicants are requested to provide their full CV and employment contract.
 {{< /accordion >}}
 
 {{< accordion title="Those who have held the position of operations, technical or marketing executive at an R&D center, operations headquarters or transnational corporation established in Taiwan." suffix="2." bottomless="true" >}}
