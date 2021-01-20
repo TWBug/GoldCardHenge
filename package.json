@@ -14,6 +14,7 @@
         "build:staging": "npm run hugo -- --environment staging",
         "build:gh": "npm run babel && TZ='Asia/Taipei' npm run hugo -- --environment gh",
         "build:ghlocal": "npm run babel && npm run hugo -- --environment gh-local",
+        "build:finder": "(cd src/finder && npm run finder:build)",
         "watch": "npx gulp watch",
         "lunr:index": "make lunr-index",
         "test": "npm run lunr:index && npm run cypress:run",

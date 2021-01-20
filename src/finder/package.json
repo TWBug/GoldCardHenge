@@ -7,7 +7,7 @@
         "finder:build": "vue-cli-service build",
         "finder:convert": "node src/convert.js",
         "finder:copy": "rm ../../assets/finder/js/* && cp -r -v ./dist/finder/js ../../assets/finder/",
-        "prefinder:build": "npm run finder:convert",
+        "prefinder:build": "npm install && npm run finder:convert",
         "postfinder:build": "npm run finder:copy"
     },
     "dependencies": {
