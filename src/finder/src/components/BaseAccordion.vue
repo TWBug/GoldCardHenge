@@ -75,7 +75,7 @@
                 {{ item.notes[locale] }}
             </div>
             <div class="flex justify-between items-center pt-4">
-                <a :href="item.link" class="flex items-center text-primary font-bold focus-primary">
+                <a :href="item.link[locale]" class="flex items-center text-primary font-bold focus-primary">
                     <span class="flex-shrink-0 w-3 mr-2">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
