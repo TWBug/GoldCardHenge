@@ -10,7 +10,9 @@ title: Apply for the Gold Card
 cover_image_alt: Icon with checklist application process
 ---
 {{< teaser >}}
-We're excited to have you. The process to apply is not complicated, but there are a few tricks to be aware of if you are new to Taiwan. First, click/tap "Next" to determine how you may qualify.
+We're excited to have you. The process to apply is not complicated, and we'll lead you through it. First, click/tap "Next" to determine how you may qualify.
 {{< /teaser >}}
 
 We'll help you work out how you may qualify, lead you through the application process, and give some hints for what happens afterward.
+
+Regarding qualification, professionals from eight different industries are eligible to apply for the Gold Card program. However, note that you may only apply under one field.
