@@ -12,9 +12,8 @@ cover_image_alt: Icon with checklist application process
 previous: null
 next: /apply/step-3/supplementary-documents/
 ---
-
 {{< teaser >}}
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nemo aperiam a dolorem odit pariatur ea earum ipsa quo modi minus mollitia perspiciatis inventore id asperiores harum quia similique commodi molestiae cum, nulla culpa saepe delectus tempore. Iure, accusantium optio?
+Congratulations on submitting your application!
 {{< /teaser >}}
 
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum aliquam, quod, quae libero quis culpa enim esse numquam earum obcaecati laboriosam ullam dolor maxime expedita fugiat aperiam fugit distinctio, nostrum dolorem quo laborum odit eligendi soluta harum. Distinctio amet natus aliquam, deserunt assumenda recusandae cumque possimus aut officiis! Voluptatum aliquid officiis sunt doloremque excepturi minima quidem nisi eveniet, porro cum error, veritatis vitae illum esse ad molestiae quo veniam recusandae alias amet. Error facere corporis molestias animi, pariatur eligendi eum delectus at illo a esse, impedit, et minus tempore tenetur debitis molestiae cumque nisi explicabo vitae qui! Dolore nemo minima ipsam consequatur, possimus vero distinctio. Nam deserunt corporis quia, quibusdam pariatur eveniet, sed nobis eius totam vero mollitia neque rerum.
+At this point, your application is under review. In a few weeks, you may be asked to submit additional documents. If all goes well you will be notified with the result of your skill assessment, and if successful asked to submit your passport for verification and eventually collect your Gold Card.
