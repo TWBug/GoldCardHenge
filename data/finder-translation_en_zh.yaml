@@ -91,7 +91,7 @@ en:
     - key: qualifications_MOEA
       translation: Economics
     - key: qualifications_MOC
-      translation: Culture nd Arts
+      translation: Culture and Arts
     - key: qualifications_MOS
       translation: Sport
     - key: qualifications_MOF
@@ -203,21 +203,21 @@ zh:
     - key: results_details
       translation: Details for the field of
     - key: qualifications_MOST
-      translation: Science and Technology
+      translation: 科技領域
     - key: qualifications_MOEA
-      translation: Economics
+      translation: 經濟領域
     - key: qualifications_MOC
-      translation: Culture nd Arts
+      translation: 文化藝術領域
     - key: qualifications_MOS
-      translation: Sport
+      translation: 體育領域
     - key: qualifications_MOF
-      translation: Finance
+      translation: 金融領域
     - key: qualifications_MOJ
-      translation: Law
+      translation: 法律領域
     - key: qualifications_MOA
-      translation: Architecture
+      translation: 建築設計領域
     - key: qualifications_MOE
-      translation: Education
+      translation: 教育領域
     - key: info_no_result
       translation: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
         error dolore adipisci quas amet enim doloribus nesciunt, ullam ex magnam
