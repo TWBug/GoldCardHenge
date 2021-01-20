@@ -199,7 +199,7 @@ zh:
     - key: results_answer
       translation: "because you answered Yes to:"
     - key: results_prepare
-      translation: "Please prepare:"
+      translation: "請準備:"
     - key: results_details
       translation: Details for the field of
     - key: qualifications_MOST
