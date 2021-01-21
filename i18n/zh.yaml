@@ -116,6 +116,8 @@
   translation: '下一步'
 - id: done
   translation: '完成了'
+- id: all_finished
+  translation: '全部完成'
 - id: check_list
   translation: '檢查清單'
 - id: check_list_info

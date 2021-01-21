@@ -59,7 +59,7 @@
             <div class="flex items-center text-green-600 mt-4">
                 {{ partial "icon" (dict "name" "check" "size" "10") }}
                 <span class="text-xl font-bold ml-4">
-                    All finished
+                    {{ i18n "all_finished" }}
                 </span>
             </div>
         </template>
@@ -75,7 +75,7 @@
             {{ .text }}
         </div>
     {{ else }}
-        <a href="{{ .link }}" class="flex items-center text-gray-700 font-medium py-1 my-1 focus-primary" :class="{'text-green-600 font-bold': checked['{{ md5 .link }}'] }" data-id="{{ md5 .link }}" data-href="{{ .link }}" data-text="{{ .text }}">
+        <a href="{{ .link }}" class="flex items-center text-gray-700 font-medium py-1 my-1 focus-primary" :class="{'text-green-600 font-bold': checked['{{ md5 .link }}'] }" data-id="{{ md5 .link }}" data-href="{{ .link }}" data-text="{{ .text }}" role="checkbox" :aria-checked="checked" >
             <span x-cloak>
                 <span class="flex w-10 text-green-600" x-show="checked['{{ md5 .link }}']">
                     {{ partial "icon" (dict "name" "check" "size" "6" "alt" "Info") }}

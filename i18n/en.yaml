@@ -118,6 +118,8 @@
   translation: 'Next step'
 - id: done
   translation: 'Done'
+- id: all_finished
+  translation: 'All finished'
 - id: check_list
   translation: 'Check list'
 - id: check_list_info
