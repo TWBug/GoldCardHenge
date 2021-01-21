@@ -1,9 +1,9 @@
-en:
+zh:
   items:
     - tree_id: 1
       tree_order: 0
       next_tree_id: null
-      question_text: Are you an athlete, coach or referee?
+      question_text: 你是運動員，教練，或者裁判嗎？
       qualifications: []
     - tree_id: 1
       tree_order: 1
@@ -29,7 +29,7 @@ en:
     - tree_id: 2
       tree_order: 0
       next_tree_id: null
-      question_text: Are you a lawyer?
+      question_text: 你是律師嗎？
       qualifications: []
     - tree_id: 2
       tree_order: 1
@@ -110,12 +110,12 @@ en:
     - tree_id: 6
       tree_order: 0
       next_tree_id: null
-      question_text: Do you have a PhD?
+      question_text: 你有博士學位嗎？
       qualifications: []
     - tree_id: 6
       tree_order: 1
       next_tree_id: null
-      question_text: Is it from a "top 200" university?
+      question_text: 你畢業於世界排名前兩百的大學嗎？
       qualifications:
         - MOE-1
     - tree_id: 6
@@ -160,7 +160,7 @@ en:
     - tree_id: 7
       tree_order: 2
       next_tree_id: null
-      question_text: Have you won a Yushan (young) scholar award?
+      question_text: 你是否獲得台灣玉山(青年)學者補助嗎？
       qualifications:
         - MOE-3
     - tree_id: 7
@@ -359,12 +359,12 @@ en:
       question_text: Will the Bar Association recommend you?
       qualifications:
         - MOJ-4
-zh:
+en:
   items:
     - tree_id: 1
       tree_order: 0
       next_tree_id: null
-      question_text: 你的職業是運動員，教練，或者裁判嗎？
+      question_text: Are you an athlete, coach or referee?
       qualifications: []
     - tree_id: 1
       tree_order: 1
@@ -390,7 +390,7 @@ zh:
     - tree_id: 2
       tree_order: 0
       next_tree_id: null
-      question_text: 你是律師嗎?
+      question_text: Are you a lawyer?
       qualifications: []
     - tree_id: 2
       tree_order: 1
@@ -471,7 +471,7 @@ zh:
     - tree_id: 6
       tree_order: 0
       next_tree_id: null
-      question_text: 你有博士學位嗎？
+      question_text: Do you have a PhD?
       qualifications: []
     - tree_id: 6
       tree_order: 1
