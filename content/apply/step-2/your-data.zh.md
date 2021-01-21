@@ -10,13 +10,14 @@ topic: goldcard
 previous: /apply/step-2/registration/
 next: /apply/step-2/resident/
 ---
+# 個人資料
 
-# Fill in your information / Passport & Visa Status
+* 註冊後登入頁面，點選標題列「線上申辦」中的子項目「就業金卡申請」，新增申請人後選擇申請者的國籍與身分，與是否在中華民國境內申請等。
+* 進入申請頁面後，請確實填寫申請者的資料，有加上星號的欄位皆需要填寫，特別注意英文姓名需與入境台灣所使用的護照一致。您可隨時儲存所填寫的資訊，在還未送出前都可以更改。
+* 若您在境外申請，或是已入境台灣，但所持有的簽證有限制停留時間且無法延期或是免簽，在申請頁面會出現簽證申請（繳驗護照）的分頁，繳驗護照的地點境外可選擇離您最近的中華民國駐外機構，境內可選擇外交部領事事務局、中部、南部、東部或雲嘉南辦事處。
+* 在居留申請分頁中，可按照您的需求勾選就業金卡效期，有1年、2年或3年共三種。
+* 也請您選擇領證方式，申請人如在台灣境內，可選擇在移民署服務站；若在境外可選擇離您最近的中華民國駐外機構。
+* 在「居留申請」分頁中，若暫時沒有來台工作地址與居留地址，在申請與審核階段可暫時不填寫，但在第二階段護照查驗會需要提供。
+* 在「領域專長」分頁中選擇所要申請的領域、申請資格條件與子領域（有些類別無），勾選完畢後按儲存。在「文件上傳」分頁會列出相對應需要準備的文件。
 
--   After you have successfully registered, login and select “Employment Gold Card Application” in the “Online Application” menu. Then select your nationality and whether or not you are applying from Taiwan or abroad.
--   You may apply for the Taiwan Employment Gold Card if you hold a foreign passport, or a ROC passport without household registration (NWHOR). ROC nationals with a household registration or national ID card are not eligible to apply for the Gold Card. If you hold a Taiwan NWHOR passport, when applying domestically, you must enter on your foreign passport and not your Taiwan NWHOR passport or your application will be rejected.
--   If you are currently on a working holiday visa or a student visa for Chinese learning purposes, you cannot directly transfer to a Taiwan Employment Gold Card. You will need to re-enter the country before applying, or will need to apply from abroad.
--   If you are applying from abroad or are in Taiwan on a visitor-visa, visa-free, or a non-extendable visa, your passport needs to be inspected. An extra page will appear during the application process, where you can choose the location. If you are in Taiwan, please go to the Bureau of Consular Affairs (Central, Southern, Eastern, Yunlin, Chiayi, and Tainan branches).
--   The application can take over 60 business days assuming you have all the proper documentation submitted. If you hold a visa less than 60-days or are visa-free, or you cannot obtain the Taiwan Employment Gold Card within the time limit, you will still need to leave the country and re-enter.
-
-For more information, please refer to the [detailed instructions](/en/application/#online-application).
+如需更多詳細資訊請參考[申請流程](https://goldcard.nat.gov.tw/zh/application/)頁面。
