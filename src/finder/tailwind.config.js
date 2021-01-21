@@ -143,9 +143,7 @@ module.exports = {
         transitionProperty: ['responsive', 'hover', 'focus', 'motion-reduce'],
     },
     plugins: [
-        // require('@tailwindcss/typography'),
-        // require('@tailwindcss/ui'),
-        require('@markusantonwolf/tailwindcss-filters'),
+        require('@markusantonwolf/tailwind-css-plugin-filters'),
         plugin(function ({ addUtilities }) {
             const changedUtilities = {
                 '.font-bolder': {

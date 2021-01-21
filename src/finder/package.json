@@ -23,7 +23,7 @@
     },
     "devDependencies": {
         "@fullhuman/postcss-purgecss": "^2.3.0",
-        "@markusantonwolf/tailwindcss-filters": "^1.0.1",
+        "@markusantonwolf/tailwind-css-plugin-filters": "^1.2.1",
         "@vue/cli-plugin-babel": "~4.4.0",
         "@vue/cli-plugin-eslint": "~4.4.0",
         "@vue/cli-plugin-router": "~4.4.0",
