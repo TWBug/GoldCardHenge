@@ -12,8 +12,6 @@ next: /apply/step-2/profession-documents/
 ---
 # Upload Document
 
-Please read the criteria for each relevant field carefully, as you may qualify under more than one field. However, you will be required to select only ONE field to apply under in the application. In most cases, you need to choose a specific entry in the list of qualifications as well.
-
 * Please upload a color copy of your passport, and a color photo of you according to the specifications on this page.
 * Use the Automatic photo cropping tool if you are unsure.
 * Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification you choose to apply through.
