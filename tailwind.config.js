@@ -37,6 +37,13 @@ module.exports = {
     experimental: {},
     important: false,
     theme: {
+        customColorPalette: {
+            colors: {
+                water: "#2183D1",
+                forest: "#567351",
+                mountain: "#1A683B",
+            },
+        },
         fontFamily: {
             sans: ['Krub', 'Helvetica', 'Arial', 'sans-serif'],
             chinese: ['"Noto Sans TC"', 'Krub', 'Helvetica', 'Arial', 'sans-serif'],
@@ -145,7 +152,8 @@ module.exports = {
     plugins: [
         // require('@tailwindcss/typography'),
         require('@tailwindcss/ui'),
-        require('@markusantonwolf/tailwindcss-filters'),
+        require('@markusantonwolf/tailwind-css-plugin-filters'),
+        require('@markusantonwolf/tailwind-css-plugin-custom-color-palette'),
         plugin(function ({ addUtilities }) {
             const changedUtilities = {
                 '.font-bolder': {
