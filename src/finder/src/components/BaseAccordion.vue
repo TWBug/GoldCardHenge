@@ -149,16 +149,3 @@ export default {
     },
 };
 </script>
-
-<style scoped>
-.slide-enter-active,
-.slide-leave-active {
-    opacity: 1;
-    transition: opacity 200ms, transform 200ms;
-    transform: translateY(0);
-}
-.slide-enter, .slide-leave-to /* .fade-leave-active below version 2.1.8 */ {
-    opacity: 0;
-    transform: translateY(-1rem);
-}
-</style>

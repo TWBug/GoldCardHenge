@@ -62,18 +62,3 @@ export default {
     },
 };
 </script>
-
-<style scoped>
-.fade-enter-active,
-.fade-leave-active {
-    opacity: 1;
-    transition: opacity 100ms, transform 100ms;
-    transform: translateX(0) scale(1);
-    transform-origin: center;
-}
-.fade-enter,
-.fade-leave-to {
-    opacity: 0;
-    transform: translateX(0.2rem) scale(1.1);
-}
-</style>
