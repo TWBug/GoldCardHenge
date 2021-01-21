@@ -19,7 +19,7 @@ After the online application is complete, the system will send an e-mail with a 
 * Please login to the platform again with your account and password and enter the “Online Payment” tab.
 * Please pay according to the instructions. Payment is only possible with an international credit card. However, if you are in Taiwan, you can print out the payment slip and pay at a convenience store.
 
-Fees for Employment Gold Card:
+**Fees for Employment Gold Card:**
 
 Domestic Applicants
 
