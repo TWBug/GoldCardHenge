@@ -10,9 +10,7 @@ topic: goldcard
 previous: /apply/step-2/registration/
 next: /apply/step-2/resident/
 ---
-# Fill in your information / Passport & Visa Status
-
-* After you have successfully registered, login and select “Employment Gold Card Application” in the “Online Application” menu. Then select your nationality and whether or not you are applying from Taiwan or abroad.
+# Your Data
 
 **Basic Data / Passport Data**
 
