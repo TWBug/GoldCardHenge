@@ -4,10 +4,13 @@
 {{/*  {{ end }}  */}}
 
 {{/*  {{ if eq $check true }}  */}}
+
+{{ $id := md5 .Page.RelPermalink }}
+
 <div class="flex flex-wrap items-center border-t-2 border-gray-400 border-dashed p-4 lg:p-8 mt-6" x-data="taCheckList()" x-init="trigger()" data-id="{{ md5 .Page.RelPermalink }}">
 
     <div class="w-full lg:w-1/2 my-4" x-show="initialized" x-cloak>
-        <button type="button" class="flex items-center text-primary text-left p-2 focus-primary" @click.prevent="toggleCheck()" x-show="!trigger_checked" alt="Yes i'm done" title="Yes i'm done">
+        <button id="{{ print "button_" $id }}" type="button" class="flex items-center text-primary text-left p-2 focus-primary" @click.prevent="toggleCheck()" x-show="!trigger_checked" aria-controls="{{ print "trigger_" $id }}">
             <span class="mr-4">
                 {{ partial "icon" (dict "name" "circle" "size" "8" "alt" "Circle") }}
             </span>
@@ -18,7 +21,7 @@
                 </span>
             </span>
         </button>
-        <div class="flex items-center font-bold text-green-600" x-show="trigger_checked">
+        <div id="{{ print "trigger_" $id }}" class="flex items-center font-bold text-green-600" x-show="trigger_checked" :hidden="!trigger_checked" role="checkbox" :aria-checked="trigger_checked" aria-labelledby="{{ printf "accordion-button-%s" $id }}">
             <div class="mr-4">
                 {{ partial "icon" (dict "name" "check" "size" "10" "alt" "Info") }}
             </div>
@@ -33,7 +36,7 @@
     <div class="w-full lg:w-1/2 text-xs font-medium text-gray-500 lg:pl-4">
         {{ i18n "check_info" }}
         <span x-show="trigger_checked"> {{ i18n "check_remove_info" }}
-            <button type="button" class="text-primary font-bold focus-primary" @click.prevent="toggleCheck()">
+            <button type="button" class="text-primary font-bold focus-primary" :hidden="!trigger_checked" @click.prevent="toggleCheck()" aria-controls="{{ print "trigger_" $id }}">
                 {{ i18n "check_remove_button" }}
             </button>
         </span>
