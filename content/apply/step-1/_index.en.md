@@ -13,8 +13,7 @@ cover_image_alt: Icon with checklist application process
 previous: /apply/
 next: /apply/step-2/
 ---
-
 This tool is an aid to allow you to more easily navigate the various qualifications for the Gold Card.
 It may be ambiguous or omit certain details in the interest of brevity.
-Only the full text of the regulations can be used to determine if you qualify, so please refer to the [detailed version](/en/qualification/) before making your decision.
 
+Only the full text of the regulations can be used to determine if you qualify, so please refer to the [detailed version](/en/qualification/) before making your decision.
