@@ -3,7 +3,7 @@ zh:
     - tree_id: 1
       tree_order: 0
       next_tree_id: null
-      question_text: 你是運動員，教練，或者裁判嗎？
+      question_text: 你是運動員、教練、或者裁判嗎？
       qualifications: []
     - tree_id: 1
       tree_order: 1
