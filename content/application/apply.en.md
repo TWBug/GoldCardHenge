@@ -1,5 +1,5 @@
 ---
-title: '"How To Apply'
+title: How To Apply
 summary: Are you ready to apply? Make sure you follow the steps!
 draft: false
 topic: goldcard
