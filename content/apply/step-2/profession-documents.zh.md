@@ -5,7 +5,7 @@ date: 2021-01-18T03:11:02.768Z
 summary: 就業金卡費用與確認信
 check: true
 title: 繳費與郵件通知
-order: 4
+order: 5
 topic: goldcard
 previous: /apply/step-2/resident/
 next: /apply/step-3/
