@@ -2,7 +2,7 @@
 draft: false
 start: false
 date: 2021-01-18T03:10:55.207Z
-summary: Set up an account on Foreign Professionals Online Application Platform.
+summary: Set up an account on the Online Application Platform.
 check: true
 title: Registration
 order: 1
