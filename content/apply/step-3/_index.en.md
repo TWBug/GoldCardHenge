@@ -13,7 +13,9 @@ previous: null
 next: /apply/step-3/supplementary-documents/
 ---
 {{< teaser >}}
-Congratulations on submitting your application!
+Congratulations on submitting your application! To check your application process, log in to the portal, click “Application Progress Inquiry”, and fill in your 12-digit application number. The application fee is nonrefundable regardless of the results of your application.
+
+
 {{< /teaser >}}
 
 At this point, your application is under review. In a few weeks, you may be asked to submit additional documents. If all goes well you will be notified with the result of your skill assessment, and if successful asked to submit your passport for verification and eventually collect your Gold Card. With all the correct documentation submitted, it can **take over 60 business days** to complete the entire Employment Gold Card application process.
