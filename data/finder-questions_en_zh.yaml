@@ -8,16 +8,13 @@ zh:
     - tree_id: 1
       tree_order: 1
       next_tree_id: null
-      question_text: Have you placed top 3 at the Olympics or first in the Asian Games
-        or a World Championship?
+      question_text: 你是否有在奧運得過前三名，或者亞運、世界錦標賽的第一名呢？
       qualifications:
         - MOS-1
     - tree_id: 1
       tree_order: 2
       next_tree_id: null
-      question_text: Have you been a national team coach, or had someone you coached
-        achieve top 3 at the Olympics or first in the Asian Games or a World
-        Championship?
+      question_text: 你是否有當過國家代表隊教練並教導選手得到奧運前三名，或者亞運、世界錦標賽的第一名呢？
       qualifications:
         - MOS-2
     - tree_id: 1
