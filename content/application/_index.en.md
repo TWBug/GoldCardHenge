@@ -69,7 +69,6 @@ Fill in your information / Passport & Visa Status
 * If you are applying from abroad or are in Taiwan on a visitor-visa, visa-free, or a non-extendable visa, your passport needs to be inspected. An extra page will appear during the application process, where you can choose the location. If you are in Taiwan, please go to the Bureau of Consular Affairs (Central, Southern, Eastern, Yunlin, Chiayi, and Tainan branches).
 * The application can take over 60 business days assuming you have all the proper documentation submitted. If you hold a visa less than 60-days or are visa-free, or you cannot obtain the Taiwan Employment Gold Card within the time limit, you will still need to leave the country and re-enter.
 
-
 {{< /accordion >}}
 
 {{< teaser prefix="3." >}}
@@ -181,6 +180,6 @@ If you enter the Taiwanese address in Chinese, the format needs to be only Chine
 {{< /note >}}
 
 {{< note title="3" >}}
-* You can change the passport inspection location anytime on the online platform before the application has finished the review process. You will not be able to make online changes after you receive the e-mail confirmation that your application has passed review. At this point, you can only change the location by contacting the Bureau of Consular Affairs (from overseas) or contacting the National Immigration Agency (from within Taiwan).
+* You can change the passport inspection location anytime on the online platform before the application has finished the review process. **You will not be able to make online changes after you receive the e-mail confirmation that your application has passed review.** At this point, you can only change the location by contacting the Bureau of Consular Affairs (from overseas) or contacting the National Immigration Agency (from within Taiwan).
 * If you send your passport via post to an overseas mission/office, please make sure you don't have to use your passport within a month.
 {{< /note >}}
