@@ -5,7 +5,7 @@ date: 2021-01-18T03:11:02.768Z
 summary: Detail about Gold Card fee and confirmation letter.
 check: true
 title: Payment and E-Mail Confirmation
-order: 4
+order: 5
 topic: goldcard
 previous: /apply/step-2/resident/
 next: /apply/step-3/
@@ -30,4 +30,3 @@ Overseas Applicants
 ![Fees for Overseas Applicants](/cms-uploads/goldcardfee-03.png "Fees for Overseas Applicants")
 
 * After completing the application, you will get a system confirmation via e-mail. Your application has now entered the review process.
-* To check your application process, log in to the portal, click “Application Progress Inquiry”, and fill in your 12-digit application number. The application fee is nonrefundable regardless of the results of your application.

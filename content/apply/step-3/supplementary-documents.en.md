@@ -2,7 +2,7 @@
 draft: false
 start: false
 date: 2021-01-18T03:13:01.397Z
-summary: Submitting Additional Documents & Rejection
+summary: 🕑3-4 weeks later. Submitting Additional Documents & Rejection
 check: true
 title: Supplementary Documents
 order: 1

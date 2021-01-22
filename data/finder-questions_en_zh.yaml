@@ -70,7 +70,7 @@ en:
         - MOEA-2
     - tree_id: 4
       tree_order: 3
-      next_tree_id: 9
+      next_tree_id: ""
       question_text: Have you run a film, broadcast, or pop music organisation for at
         least 5 years?
       qualifications:
@@ -102,7 +102,7 @@ en:
         - MOF-6
     - tree_id: 5
       tree_order: 4
-      next_tree_id: 9
+      next_tree_id: ""
       question_text: Do you have 5 years experience in FinTech, or finance related to
         another innovative field?
       qualifications:
@@ -215,11 +215,12 @@ en:
       qualifications:
         - MOST-2
     - tree_id: 8
-      tree_order: 6
+      tree_order: 7
       next_tree_id: 9
       question_text: Is your field particularly niche and lacking in Taiwan?
       qualifications:
         - MOST-8
+        - MOST-13
     - tree_id: 9
       tree_order: 0
       next_tree_id: null
@@ -334,6 +335,7 @@ en:
       question_text: Are your skills otherwise in demand in Taiwan?
       qualifications:
         - MOEA-5
+        - MOST-13
     - tree_id: 9
       tree_order: 1
       next_tree_id: null
@@ -359,93 +361,115 @@ en:
       question_text: Will the Bar Association recommend you?
       qualifications:
         - MOJ-4
+    - tree_id: 4
+      tree_order: 4
+      question_text: Did you run a startup and take it to IPO?
+      qualifications:
+        - MOST-10
+    - tree_id: 4
+      tree_order: 5
+      question_text: Was a startup you ran acquired for more than USD 5 million?
+      qualifications:
+        - MOST-11
+    - tree_id: 4
+      tree_order: 6
+      next_tree_id: 9
+      question_text: Are you a VC or fund executive with a solid track record?
+      qualifications:
+        - MOST-12
+    - tree_id: 5
+      tree_order: 5
+      next_tree_id: 9
+      question_text: Are you a VC or fund executive with a solid track record?
+      qualifications:
+        - MOST-12
+    - tree_id: 8
+      tree_order: 6
+      question_text: Were you a core R&D team member of a startup that you helped IPO
+        or be acquired for >5 million USD?
+      qualifications:
+        - MOST-10
+        - MOST-11
 zh:
   items:
     - tree_id: 1
       tree_order: 0
       next_tree_id: null
-      question_text: 你的職業是運動員，教練，或者裁判嗎？
+      question_text: 你是運動員、教練、或者裁判嗎？
       qualifications: []
     - tree_id: 1
       tree_order: 1
       next_tree_id: null
-      question_text: Have you placed top 3 at the Olympics or first in the Asian Games
-        or a World Championship?
+      question_text: 你曾在奧運得過前三名，或者亞運、世界錦標賽的第一名呢？
       qualifications:
         - MOS-1
     - tree_id: 1
       tree_order: 2
       next_tree_id: null
-      question_text: Have you been a national team coach, or had someone you coached
-        achieve top 3 at the Olympics or first in the Asian Games or a World
-        Championship?
+      question_text: 你曾任國家代表隊教練並教導選手得到奧運前三名，或者亞運、世界錦標賽的第一名呢？
       qualifications:
         - MOS-2
     - tree_id: 1
       tree_order: 3
       next_tree_id: 9
-      question_text: Did you referee a match at the Olympics, Asian Games or equivalent?
+      question_text: 你曾在奧運、亞運或同等級比賽上當過裁判嗎？
       qualifications:
         - MOS-3
     - tree_id: 2
       tree_order: 0
       next_tree_id: null
-      question_text: 你是律師嗎?
+      question_text: 你是律師嗎？
       qualifications: []
     - tree_id: 2
       tree_order: 1
       next_tree_id: 9
-      question_text: Was your most recent monthly salary >160k TWD?
+      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
       qualifications:
         - MOJ-1
     - tree_id: 3
       tree_order: 0
       next_tree_id: null
-      question_text: Are you an architect?
+      question_text: 你是建築師嗎？
       qualifications: []
     - tree_id: 3
       tree_order: 1
       next_tree_id: 9
-      question_text: Do you have an architect license, or at least five years of
-        design or contructions experience working at a firm AND a position with
-        most recent monthly salary of at least 160k NT?
+      question_text: 你是否有建築師執照，或於建築師事務所、建築設計公司服務年資五年以上具設計或監造專案執行經驗，並且最近月薪達新臺幣十六萬元？
       qualifications:
         - MOA-1
     - tree_id: 4
       tree_order: 0
       next_tree_id: null
-      question_text: Are you an Executive or GM?
+      question_text: 你是執行長或總經理嗎？
       qualifications: []
     - tree_id: 4
       tree_order: 1
       next_tree_id: null
-      question_text: Do you run a financial firm?
+      question_text: 你經營一家金融機構嗎？
       qualifications:
         - MOF-4
     - tree_id: 4
       tree_order: 2
       next_tree_id: null
-      question_text: Do you run the Taiwan R&D centre, Taiwan branch office or HQ of a
-        multinational?
+      question_text: 你在臺設立研發中心、營運總部、跨國公司嗎？
       qualifications:
         - MOEA-2
     - tree_id: 4
       tree_order: 3
-      next_tree_id: 9
-      question_text: Have you run a film, broadcast, or pop music organisation for at
-        least 5 years?
+      next_tree_id: ""
+      question_text: 你有經營電影、廣播電視、流行音樂領域組織等相關領域五年以上嗎？
       qualifications:
         - MOC-IV2
     - tree_id: 5
       tree_order: 0
       next_tree_id: null
-      question_text: Do you work in the Finance industry?
+      question_text: 你任職於金融相關產業嗎？
       qualifications: []
     - tree_id: 5
       tree_order: 1
       next_tree_id: null
-      question_text: Are you a  CFA,CFP, FRM, CIIA, CIA, PRM, FSA, FCAS, FIA, FIAA,
-        SEI-KAIIN etc?
+      question_text: 你有CFA,CFP, FRM, CIIA, CIA, PRM, FSA, FCAS, FIA, FIAA,
+        SEI-KAIIN等相關重要國際性金融證照嗎？
       qualifications:
         - MOF-2
     - tree_id: 5
@@ -463,7 +487,7 @@ zh:
         - MOF-6
     - tree_id: 5
       tree_order: 4
-      next_tree_id: 9
+      next_tree_id: ""
       question_text: Do you have 5 years experience in FinTech, or finance related to
         another innovative field?
       qualifications:
@@ -476,7 +500,7 @@ zh:
     - tree_id: 6
       tree_order: 1
       next_tree_id: null
-      question_text: Is it from a "top 200" university?
+      question_text: 你畢業於世界排名前兩百的大學嗎？
       qualifications:
         - MOE-1
     - tree_id: 6
@@ -521,7 +545,7 @@ zh:
     - tree_id: 7
       tree_order: 2
       next_tree_id: null
-      question_text: Have you won a Yushan (young) scholar award?
+      question_text: 你是否曾經獲得台灣玉山(青年)學者補助嗎？
       qualifications:
         - MOE-3
     - tree_id: 7
@@ -576,11 +600,12 @@ zh:
       qualifications:
         - MOST-2
     - tree_id: 8
-      tree_order: 6
+      tree_order: 7
       next_tree_id: 9
       question_text: Is your field particularly niche and lacking in Taiwan?
       qualifications:
         - MOST-8
+        - MOST-13
     - tree_id: 9
       tree_order: 0
       next_tree_id: null
@@ -695,28 +720,57 @@ zh:
       question_text: Are your skills otherwise in demand in Taiwan?
       qualifications:
         - MOEA-5
+        - MOST-13
     - tree_id: 9
       tree_order: 1
       next_tree_id: null
-      question_text: Was your most recent monthly salary  >160k TWD?
+      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
       qualifications:
         - MOEA-1
     - tree_id: 2
       tree_order: 2
       next_tree_id: null
-      question_text: Are you currently a university professor or research fellow?
+      question_text: 你目前是大學教授或研究員嗎？
       qualifications:
         - MOJ-2
     - tree_id: 2
       tree_order: 3
       next_tree_id: null
-      question_text: Are you an executive at a law firm or hold a law-related
-        executive position at a corporation?
+      question_text: 你是律師事務所的執行長或在公司擔任法務相關主管職務以上嗎？
       qualifications:
         - MOJ-3
     - tree_id: 2
       tree_order: 4
       next_tree_id: null
-      question_text: Will the Bar Association recommend you?
+      question_text: 你經全國律師聯合會或其所屬地方律師公會推薦嗎？
       qualifications:
         - MOJ-4
+    - tree_id: 4
+      tree_order: 4
+      question_text: Did you run a startup and take it to IPO?
+      qualifications:
+        - MOST-10
+    - tree_id: 4
+      tree_order: 5
+      question_text: Was a startup you ran acquired for more than USD 5 million?
+      qualifications:
+        - MOST-11
+    - tree_id: 4
+      tree_order: 6
+      next_tree_id: 9
+      question_text: Are you a VC or fund executive with a solid track record?
+      qualifications:
+        - MOST-12
+    - tree_id: 5
+      tree_order: 5
+      next_tree_id: 9
+      question_text: Are you a VC or fund executive with a solid track record?
+      qualifications:
+        - MOST-12
+    - tree_id: 8
+      tree_order: 6
+      question_text: Were you a core R&D team member of a startup that you helped IPO
+        or be acquired for >5 million USD?
+      qualifications:
+        - MOST-10
+        - MOST-11

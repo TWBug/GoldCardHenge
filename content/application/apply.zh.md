@@ -1,5 +1,5 @@
 ---
-title: 申請
+title: 申請須知
 summary: 準備好申請了嗎？ 確保遵循以下步驟!
 draft: false
 topic: goldcard
