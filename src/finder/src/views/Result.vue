@@ -4,7 +4,7 @@
             {{ $tc('headline_result', result.length, { count: result.length }) }}
         </BaseHeadline>
         <BaseHeadline icon="no_result" v-else>
-            {{ $t('headlines.no_result') }}
+            {{ $t('headline_no_result') }}
         </BaseHeadline>
         <div class="border-t-2 border-gray-400 border-dashed">
             <div
