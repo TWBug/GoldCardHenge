@@ -215,11 +215,12 @@ en:
       qualifications:
         - MOST-2
     - tree_id: 8
-      tree_order: 6
+      tree_order: 7
       next_tree_id: 9
       question_text: Is your field particularly niche and lacking in Taiwan?
       qualifications:
         - MOST-8
+        - MOST-13
     - tree_id: 9
       tree_order: 0
       next_tree_id: null
@@ -381,6 +382,13 @@ en:
       question_text: Are you a VC or fund executive with a solid track record?
       qualifications:
         - MOST-12
+    - tree_id: 8
+      tree_order: 6
+      question_text: Were you a core R&D team member of a startup that you helped IPO
+        or be acquired for >5 million USD?
+      qualifications:
+        - MOST-10
+        - MOST-11
 zh:
   items:
     - tree_id: 1
@@ -591,11 +599,12 @@ zh:
       qualifications:
         - MOST-2
     - tree_id: 8
-      tree_order: 6
+      tree_order: 7
       next_tree_id: 9
       question_text: Is your field particularly niche and lacking in Taiwan?
       qualifications:
         - MOST-8
+        - MOST-13
     - tree_id: 9
       tree_order: 0
       next_tree_id: null
@@ -756,3 +765,10 @@ zh:
       question_text: Are you a VC or fund executive with a solid track record?
       qualifications:
         - MOST-12
+    - tree_id: 8
+      tree_order: 6
+      question_text: Were you a core R&D team member of a startup that you helped IPO
+        or be acquired for >5 million USD?
+      qualifications:
+        - MOST-10
+        - MOST-11
