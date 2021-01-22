@@ -8,19 +8,19 @@ zh:
     - tree_id: 1
       tree_order: 1
       next_tree_id: null
-      question_text: 你有在奧運得過前三名，或者亞運、世界錦標賽的第一名呢？
+      question_text: 你曾在奧運得過前三名，或者亞運、世界錦標賽的第一名呢？
       qualifications:
         - MOS-1
     - tree_id: 1
       tree_order: 2
       next_tree_id: null
-      question_text: 你有當過國家代表隊教練並教導選手得到奧運前三名，或者亞運、世界錦標賽的第一名呢？
+      question_text: 你曾任國家代表隊教練並教導選手得到奧運前三名，或者亞運、世界錦標賽的第一名呢？
       qualifications:
         - MOS-2
     - tree_id: 1
       tree_order: 3
       next_tree_id: 9
-      question_text: Did you referee a match at the Olympics, Asian Games or equivalent?
+      question_text: 你曾在奧運、亞運或同等級比賽上當過裁判嗎？
       qualifications:
         - MOS-3
     - tree_id: 2
