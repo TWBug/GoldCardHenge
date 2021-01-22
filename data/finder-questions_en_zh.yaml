@@ -31,13 +31,13 @@ zh:
     - tree_id: 2
       tree_order: 1
       next_tree_id: 9
-      question_text: Was your most recent monthly salary >160k TWD?
+      question_text: 你最近平均月薪是否有超過16萬新台幣呢？
       qualifications:
         - MOJ-1
     - tree_id: 3
       tree_order: 0
       next_tree_id: null
-      question_text: Are you an architect?
+      question_text: 你是建築師嗎？
       qualifications: []
     - tree_id: 3
       tree_order: 1
