@@ -76,8 +76,8 @@ zh:
     - tree_id: 5
       tree_order: 1
       next_tree_id: null
-      question_text: Are you a  CFA,CFP, FRM, CIIA, CIA, PRM, FSA, FCAS, FIA, FIAA,
-        SEI-KAIIN etc?
+      question_text: 你有CFA,CFP, FRM, CIIA, CIA, PRM, FSA, FCAS, FIA, FIAA,
+        SEI-KAIIN等相關重要國際性金融證照嗎？
       qualifications:
         - MOF-2
     - tree_id: 5
@@ -330,26 +330,25 @@ zh:
     - tree_id: 9
       tree_order: 1
       next_tree_id: null
-      question_text: Was your most recent monthly salary  >160k TWD?
+      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
       qualifications:
         - MOEA-1
     - tree_id: 2
       tree_order: 2
       next_tree_id: null
-      question_text: Are you currently a university professor or research fellow?
+      question_text: 你目前是大學教授或研究員嗎？
       qualifications:
         - MOJ-2
     - tree_id: 2
       tree_order: 3
       next_tree_id: null
-      question_text: Are you an executive at a law firm or hold a law-related
-        executive position at a corporation?
+      question_text: 你是律師事務所的執行長或在公司擔任法務相關主管職務以上嗎？
       qualifications:
         - MOJ-3
     - tree_id: 2
       tree_order: 4
       next_tree_id: null
-      question_text: Will the Bar Association recommend you?
+      question_text: 你經全國律師聯合會或其所屬地方律師公會推薦嗎？
       qualifications:
         - MOJ-4
 en:
