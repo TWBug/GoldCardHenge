@@ -31,7 +31,7 @@ zh:
     - tree_id: 2
       tree_order: 1
       next_tree_id: 9
-      question_text: 你最近平均月薪是否有超過16萬新台幣呢？
+      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
       qualifications:
         - MOJ-1
     - tree_id: 3
@@ -42,9 +42,7 @@ zh:
     - tree_id: 3
       tree_order: 1
       next_tree_id: 9
-      question_text: Do you have an architect license, or at least five years of
-        design or contructions experience working at a firm AND a position with
-        most recent monthly salary of at least 160k NT?
+      question_text: 您是否有建築師執照，或於建築師事務所、建築設計公司服務年資五年以上具設計或監造專案執行經驗，並且最近月薪達新臺幣十六萬元？
       qualifications:
         - MOA-1
     - tree_id: 4
