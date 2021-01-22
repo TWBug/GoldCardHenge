@@ -335,6 +335,7 @@ en:
       question_text: Are your skills otherwise in demand in Taiwan?
       qualifications:
         - MOEA-5
+        - MOST-13
     - tree_id: 9
       tree_order: 1
       next_tree_id: null
@@ -719,6 +720,7 @@ zh:
       question_text: Are your skills otherwise in demand in Taiwan?
       qualifications:
         - MOEA-5
+        - MOST-13
     - tree_id: 9
       tree_order: 1
       next_tree_id: null
