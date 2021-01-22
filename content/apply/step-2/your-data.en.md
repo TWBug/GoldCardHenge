@@ -5,7 +5,7 @@ date: 2021-01-18T03:13:01.397Z
 summary: Fill in your information / Passport & Visa Status
 check: true
 title: Your Data
-order: 2
+order: 3
 topic: goldcard
 previous: /apply/step-2/registration/
 next: /apply/step-2/resident/
