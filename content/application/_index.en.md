@@ -26,7 +26,7 @@ Required Documents
 {{< /base >}}
 
 {{< teaser prefix="" >}}
-With all the correct documentation submitted, it can take **over 60 business days** to complete the entire Employment Gold Card application process. If you are already in Taiwan, please make sure you have enough time remaining on your existing visa. If not, you may need to exit and re-enter the country, even if you are currently applying for a gold card.
+With all the correct documentation submitted, it takes **at least over 60 business days** to complete the entire Employment Gold Card application process. If you are already in Taiwan, please make sure you have enough time remaining on your existing visa. If not, you may need to exit and re-enter the country, even if you are currently applying for a gold card.
 {{< /teaser >}}
 
 ![Gold Card Application Process](/cms-uploads/application-process.png "Gold Card Application Process")
