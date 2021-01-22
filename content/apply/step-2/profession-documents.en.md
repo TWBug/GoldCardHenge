@@ -30,4 +30,3 @@ Overseas Applicants
 ![Fees for Overseas Applicants](/cms-uploads/goldcardfee-03.png "Fees for Overseas Applicants")
 
 * After completing the application, you will get a system confirmation via e-mail. Your application has now entered the review process.
-* To check your application process, log in to the portal, click “Application Progress Inquiry”, and fill in your 12-digit application number. The application fee is nonrefundable regardless of the results of your application.
