@@ -65,14 +65,13 @@ zh:
     - tree_id: 4
       tree_order: 3
       next_tree_id: 9
-      question_text: Have you run a film, broadcast, or pop music organisation for at
-        least 5 years?
+      question_text: 你有經營電影、廣播電視、流行音樂領域組織等相關領域五年以上嗎？
       qualifications:
         - MOC-IV2
     - tree_id: 5
       tree_order: 0
       next_tree_id: null
-      question_text: Do you work in the Finance industry?
+      question_text: 你任職於金融相關產業嗎？
       qualifications: []
     - tree_id: 5
       tree_order: 1
