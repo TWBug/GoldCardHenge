@@ -42,25 +42,24 @@ zh:
     - tree_id: 3
       tree_order: 1
       next_tree_id: 9
-      question_text: 您是否有建築師執照，或於建築師事務所、建築設計公司服務年資五年以上具設計或監造專案執行經驗，並且最近月薪達新臺幣十六萬元？
+      question_text: 你是否有建築師執照，或於建築師事務所、建築設計公司服務年資五年以上具設計或監造專案執行經驗，並且最近月薪達新臺幣十六萬元？
       qualifications:
         - MOA-1
     - tree_id: 4
       tree_order: 0
       next_tree_id: null
-      question_text: Are you an Executive or GM?
+      question_text: 你是執行長或總經理嗎？
       qualifications: []
     - tree_id: 4
       tree_order: 1
       next_tree_id: null
-      question_text: Do you run a financial firm?
+      question_text: 你經營一家金融機構嗎？
       qualifications:
         - MOF-4
     - tree_id: 4
       tree_order: 2
       next_tree_id: null
-      question_text: Do you run the Taiwan R&D centre, Taiwan branch office or HQ of a
-        multinational?
+      question_text: 你在臺設立研發中心、營運總部、跨國公司嗎？
       qualifications:
         - MOEA-2
     - tree_id: 4
