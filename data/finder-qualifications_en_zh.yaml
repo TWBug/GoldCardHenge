@@ -455,16 +455,14 @@ en:
       regulation_no: IV2
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
       info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
+      provide: >-
+        - Proof of employment, showing at least five years experience in film,
+        broadcast or pop music
 
-        ☑ Proof of employment, showing at least five years experience in film, broadcast or pop music
-
-        ☑ Proof you hold or have held a position as a top executive (CEO, general manager, assistant manager, director-general, department head or similar) at a medium-sized or larger film, broadcast, or pop music organisation
-
-
-        The organisation must be engaged in transnational production, and either a) have more than 50 employees or b) have regional annual net revenue greater than NT$350 million
+        - Proof you hold or have held a position as a top executive (CEO, general manager, assistant manager, director-general, department head or similar) at a medium-sized or larger film, broadcast, or pop music organisation
+      notes: The organisation must be engaged in transnational production, and either
+        a) have more than 50 employees or b) have regional annual net revenue
+        greater than NT$350 million
       weight: 50
     - ministry: MOC
       regulation_no: IV3
@@ -1303,16 +1301,14 @@ zh:
       regulation_no: IV2
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
       info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
+      provide: >-
+        - Proof of employment, showing at least five years experience in film,
+        broadcast or pop music
 
-        ☑ Proof of employment, showing at least five years experience in film, broadcast or pop music
-
-        ☑ Proof you hold or have held a position as a top executive (CEO, general manager, assistant manager, director-general, department head or similar) at a medium-sized or larger film, broadcast, or pop music organisation
-
-
-        The organisation must be engaged in transnational production, and either a) have more than 50 employees or b) have regional annual net revenue greater than NT$350 million
+        - Proof you hold or have held a position as a top executive (CEO, general manager, assistant manager, director-general, department head or similar) at a medium-sized or larger film, broadcast, or pop music organisation
+      notes: The organisation must be engaged in transnational production, and either
+        a) have more than 50 employees or b) have regional annual net revenue
+        greater than NT$350 million
       weight: 50
     - ministry: MOC
       regulation_no: IV3
