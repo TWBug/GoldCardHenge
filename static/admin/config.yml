@@ -1258,7 +1258,7 @@ collections:
                       - {
                             label: Regulation No,
                             name: regulation_no,
-                            widget: number,
+                            widget: string,
                             i18n: duplicate,
                         }
                       - { label: Weight, name: weight, widget: number, i18n: duplicate }
