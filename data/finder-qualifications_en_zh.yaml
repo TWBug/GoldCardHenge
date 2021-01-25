@@ -432,8 +432,7 @@ en:
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
       info: ""
       provide: ""
-      notes: >-
-        For Film, Broadcast and Pop Music. Example awards include: the Golden
+      notes: "For Film, Broadcast and Pop Music. Example awards include: the Golden
         Horse Awards, Golden Harvest Awards for Outstanding Short Films, Taipei
         Film Festival, Kaohsiung Film Festival, Taiwan International Documentary
         Festival, Emmy Awards, BAFTA, Seoul International Drama Awards, Golden
@@ -442,14 +441,8 @@ en:
         Awards, BRIT Awards, American Music Awards, MTV Europe Music Awards,
         Golden Melody Awards, NRJ Music Awards, Billboard Music Awards, Golden
         Indie Music Awards, Japan Record Awards, Juno Awards, Mercury Prize,
-        Golden Disc Awards
-
-
-        Please prepare either:
-
-        ☑ a copy of your award, or
-
-        ☑ proof you were on the judging panel for said award.
+        Golden Disc AwardsPlease prepare either:☑ a copy of your award, or☑
+        proof you were on the judging panel for said award."
       weight: 40
     - ministry: MOC
       regulation_no: IV2
@@ -467,57 +460,41 @@ en:
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
       info: ""
       provide: ""
-      notes: >-
-        Please prepare:
-
-        ☑ formal proof of employment, showing at least five years of work experience in film, broadcast or pop music
-
-        and at least one of:
-
-        ☑ proof of special contributions to film, broadcast or pop music (eg copy of professional certificate, professional training certificate, copyright, thesis, patent or other certification of innovation or outstanding performance), or
-
-        ☑ letter of recommendation from official organisations such as the United Nations, government agencies in your home country or foreign representative offices in Taiwan
+      notes: Please prepare:☑ formal proof of employment, showing at least five years
+        of work experience in film, broadcast or pop musicand at least one of:☑
+        proof of special contributions to film, broadcast or pop music (eg copy
+        of professional certificate, professional training certificate,
+        copyright, thesis, patent or other certification of innovation or
+        outstanding performance), or☑ letter of recommendation from official
+        organisations such as the United Nations, government agencies in your
+        home country or foreign representative offices in Taiwan
       weight: 30
     - ministry: MOC
       regulation_no: IV4
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: ""
-      notes: >-
-        ⚠ Contact the Ministry of Culture Gold Card contact for advice before
-        applying under this regulation.
-
-
-        For film, broadcast and pop music. Please prepare:
-
-        ☑ Proof of accomplishments in film, broadcast or pop music
+      info: For film, broadcast and pop music. Contact the Ministry of Culture Gold
+        Card contact for advice before applying under this regulation
+      provide: "- Proof of accomplishments in film, broadcast or pop music"
+      notes: ""
       weight: 15
     - ministry: MOC
       regulation_no: V1
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
       info: ""
       provide: ""
-      notes: >-
-        For Handicraft. Example awards include: Talente Munich; ITAMI
+      notes: "For Handicraft. Example awards include: Talente Munich; ITAMI
         International Craft Exhibition; International Ceramics Competition Mino,
-        Japan; Faenza Prize; Cheongju International Craft Biennale;
-
-
-        Please prepare either:
-
-        ☑ a copy of your award, or
-
-        ☑ proof you were on the judging panel for said award.
+        Japan; Faenza Prize; Cheongju International Craft Biennale;Please
+        prepare either:☑ a copy of your award, or☑ proof you were on the judging
+        panel for said award."
       weight: 40
     - ministry: MOC
       regulation_no: V2
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
       info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
-
-        ☑ proof of recognition from a nationally or internationally recognised organisation such as The World Crafts Council, UNESCO, or equivalent
+      provide: "- proof of recognition from a nationally or internationally recognised
+        organisation such as The World Crafts Council, UNESCO, or equivalent"
+      notes: ""
       weight: 40
     - ministry: MOC
       regulation_no: V3
@@ -554,10 +531,9 @@ en:
     - ministry: MOC
       regulation_no: VI3
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
-      info: ontact the Ministry of Culture Gold Card contact for advice before
-        applying under this regulation
-      provide: "- For cultural administration.  Proof of accomplishments in cultural
-        administration"
+      info: For cultural administration. Contact the Ministry of Culture Gold Card
+        contact for advice before applying under this regulation
+      provide: "- Proof of accomplishments in cultural administration"
       notes: ""
       weight: 15
     - ministry: MOS
@@ -1309,8 +1285,9 @@ zh:
     - ministry: MOC
       regulation_no: IV4
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: ""
+      info: For film, broadcast and pop music. Contact the Ministry of Culture Gold
+        Card contact for advice before applying under this regulation
+      provide: "- Proof of accomplishments in film, broadcast or pop music"
       notes: >-
         ⚠ Contact the Ministry of Culture Gold Card contact for advice before
         applying under this regulation.
@@ -1341,11 +1318,9 @@ zh:
       regulation_no: V2
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
       info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
-
-        ☑ proof of recognition from a nationally or internationally recognised organisation such as The World Crafts Council, UNESCO, or equivalent
+      provide: "- proof of recognition from a nationally or internationally recognised
+        organisation such as The World Crafts Council, UNESCO, or equivalent"
+      notes: ""
       weight: 40
     - ministry: MOC
       regulation_no: V3
@@ -1382,10 +1357,9 @@ zh:
     - ministry: MOC
       regulation_no: VI3
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: Contact the Ministry of Culture Gold Card contact for advice before
-        applying under this regulation
-      provide: "- For cultural administration. Proof of accomplishments in cultural
-        administration"
+      info: For cultural administration. Contact the Ministry of Culture Gold Card
+        contact for advice before applying under this regulation
+      provide: "- Proof of accomplishments in cultural administration"
       notes: ""
       weight: 15
     - ministry: MOS
