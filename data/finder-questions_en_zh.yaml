@@ -153,38 +153,36 @@ zh:
     - tree_id: 7
       tree_order: 3
       next_tree_id: null
-      question_text: Do you hold an important art research position?
+      question_text: 你在政府機關文化藝術部門擔任研究相關職務嗎？
       qualifications:
         - MOC-VI1
     - tree_id: 7
       tree_order: 4
       next_tree_id: 8
-      question_text: Are you a professor of publishing or mass communication?
+      question_text: 你是出版或相關大眾傳播科系的大學教授嗎？
       qualifications:
         - MOC-II2
     - tree_id: 8
       tree_order: 0
       next_tree_id: null
-      question_text: Do you work in science or technology?
+      question_text: 你在科技相關領域工作嗎？
       qualifications: []
     - tree_id: 8
       tree_order: 1
       next_tree_id: null
-      question_text: Do you have a Nobel prize or other international award?
+      question_text: 你獲得諾貝爾獎或者其他國際獎項嗎？
       qualifications:
         - MOST-4
     - tree_id: 8
       tree_order: 2
       next_tree_id: null
-      question_text: Do you hold the highest academic title possible in your country,
-        at your national academy of sciences or equivalent?
+      question_text: 你在職稱頭銜為國家科學院院士、國家院士級學者或同等職稱？
       qualifications:
         - MOST-5
     - tree_id: 8
       tree_order: 3
       next_tree_id: null
-      question_text: Are you a researcher with significant notable publishing history
-        lasting over the past 3 years?
+      question_text: 你近3年的研究在學術上有重要貢獻或重要專門著作並為國際所推崇？
       qualifications:
         - MOST-6
     - tree_id: 8
