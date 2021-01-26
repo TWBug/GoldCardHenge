@@ -190,53 +190,50 @@ zh:
     - tree_id: 8
       tree_order: 4
       next_tree_id: null
-      question_text: Are you exceptional at AI, IoT, AU, Blockchain, VR, robots or 3D
-        printing?
+      question_text: 你在在人工智慧、物聯網、擴增實境、區塊鏈、虛擬實境、機器人、積層製造等前瞻科技上具有獨到才能？
       qualifications:
         - MOST-3
     - tree_id: 8
       tree_order: 5
       next_tree_id: null
-      question_text: Are you exceptional at software, electronics, material science,
-        sensing, biotech, green tech, frontier research or military tech?
+      question_text: 你在軟體技術、光電技術、材料應用技術、高精密感測技、生物科技、能源節約及尖端基礎研究、國防及軍事戰略具有獨到才能？
       qualifications:
         - MOST-2
     - tree_id: 8
       tree_order: 7
       next_tree_id: 9
-      question_text: Is your field particularly niche and lacking in Taiwan?
+      question_text: 你的專業領域為台灣所欠缺或少見的？
       qualifications:
         - MOST-8
         - MOST-13
     - tree_id: 9
       tree_order: 0
       next_tree_id: null
-      question_text: Was your most recent monthly salary  >160k TWD?
+      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
       qualifications:
         - MOEA-1
     - tree_id: 9
       tree_order: 2
       next_tree_id: null
-      question_text: Do you have more than 5 years of teaching experience?
+      question_text: 你有超過5年以上的教學經驗嗎？
       qualifications:
         - MOE-4
     - tree_id: 9
       tree_order: 3
       next_tree_id: null
-      question_text: Do you work in the Finance industry?
+      question_text: 你在金融相關領域工作嗎？
       qualifications:
         - MOF-1
     - tree_id: 9
       tree_order: 4
       next_tree_id: null
-      question_text: Do you work in science and technology?
+      question_text: 你在科技相關領域工作嗎？
       qualifications:
         - MOST-1
     - tree_id: 10
       tree_order: 1
       next_tree_id: null
-      question_text: Do you hold an important position in an international
-        organisation or government?
+      question_text: 你在國際組織或政府組織中擔任重要職位嗎？
       qualifications:
         - MOC-I1
         - MOC-II1
@@ -244,12 +241,12 @@ zh:
     - tree_id: 10
       tree_order: 0
       next_tree_id: null
-      question_text: Are you an artist, publisher/editor or arts administrator ?
+      question_text: 你是藝術家、出版商或文化行政人員嗎？
       qualifications: []
     - tree_id: 10
       tree_order: 2
       next_tree_id: null
-      question_text: Were you significant in hosting a major international event?
+      question_text: 你為舉辦國際大型重要活動之主要或重要成員嗎？
       qualifications:
         - MOC-I2
         - MOC-II2
@@ -257,8 +254,7 @@ zh:
     - tree_id: 10
       tree_order: 3
       next_tree_id: null
-      question_text: Have you received a major national or international award, or
-        judged a major award?
+      question_text: 你獲得過重大的國家或國際獎項？
       qualifications:
         - MOC-I3
         - MOC-II3
@@ -268,8 +264,7 @@ zh:
     - tree_id: 10
       tree_order: 4
       next_tree_id: null
-      question_text: Are you the editor/publisher/manager of a major publication, or a
-        copywriter, with at least 10 years experience
+      question_text: 你為國際權威性媒體、出版社主編或高階主管、版權經紀人，並從事出版或大眾傳播工作經驗十年以上？
       qualifications:
         - MOC-III1
     - tree_id: 10
