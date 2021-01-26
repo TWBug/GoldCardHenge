@@ -124,27 +124,24 @@ zh:
     - tree_id: 6
       tree_order: 4
       next_tree_id: null
-      question_text: Have you won an international award, worked in your field for
-        more than 4 years and filed a published a patent or journal paper?
+      question_text: 你獲得過國際獎項，在其領域有4年以上工作經驗並發表了相關專利或期刊論文？
       qualifications:
         - MOEA-3
     - tree_id: 6
       tree_order: 5
       next_tree_id: 7
-      question_text: Is your PhD related to the publishing industry and you have
-        received an important international award?
+      question_text: 你的博士學位是與出版業相關並獲得國際間重要獎項？
       qualifications:
         - MOC-III3
     - tree_id: 7
       tree_order: 0
       next_tree_id: null
-      question_text: Are you a teacher or researcher?
+      question_text: 你是老師或者研究員嗎？
       qualifications: []
     - tree_id: 7
       tree_order: 1
       next_tree_id: null
-      question_text: Have you worked as a teacher or researcher at a top 500
-        university during the past 5 years AND have at least 5 years experience?
+      question_text: 你過去五年內在排名前500的大學當教授或研究員並且有教學研究工作五年以上的工作經驗？
       qualifications:
         - MOE-2
     - tree_id: 7
