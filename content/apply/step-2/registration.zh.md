@@ -1,17 +1,19 @@
 ---
-title: 申請
-date: 2021-01-18T03:10:55.207Z
-summary: 準備好申請了嗎？ 確保遵循以下步驟!
+summary: 於外國專業人才申辦窗口平台註冊帳號
 draft: false
-order: 2
-topic: goldcard
 check: true
+title: 註冊
+date: 2021-01-18T03:10:55.207Z
+order: 1
+topic: goldcard
 style: right
+previous: /apply/step-2/
+next: /apply/step-2/your-data/
 ---
-在您申請之前，請確認:
+# 註冊
 
-1. 符合選定的[領域條件](https://goldcard.nat.gov.tw/zh/qualification/)
-2. 閱讀完[申請流程](/zh/application/)
-3. 完成以上後，請至[外國專業人才申辦窗口平台](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card)申請
+線上申請網址： [外國專業人才申辦窗口平台](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card) 
 
-如果您有遇到任何問題，歡迎與[我們聯繫](/zh/help-desk/)
+首次登入者須先註冊帳號，之後可使用帳號密碼登入。請確認填寫的email無誤，節省後續繁雜的行政流程。
+
+**註冊頁面上的英文姓名需要與入境台灣所使用的護照一致。**

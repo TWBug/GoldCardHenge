@@ -78,6 +78,10 @@
   translation: '最新文章'
 - id: latest_faq
   translation: '最新常見問題'
+- id: latest_faq_application
+  translation: 'Latest FAQ about the application process'
+- id: all_faq_application
+  translation: 'All FAQ about the application process'
 - id: all_faq
   translation: '所有常見問題'
 - id: open_new_window
@@ -101,12 +105,37 @@
 - id: how_to_apply
   translation: '想要申請嗎'
 - id: how_to_apply_copy
-  translation:
-      '台灣就業金卡將開啟您的人生新篇章，現在就開始您的申請吧！'
+  translation: '台灣就業金卡將開啟您的人生新篇章，現在就開始您的申請吧！'
 - id: since_2018
   translation: '自2018起'
+- id: previous_step
+  translation: '前一步'
+- id: start
+  translation: '開始'
+- id: next_step
+  translation: '下一步'
+- id: done
+  translation: '完成了'
+- id: all_finished
+  translation: '全部完成'
+- id: check_list
+  translation: '檢查清單'
+- id: check_list_info
+  translation: '使用個人檢查表可以使您更輕鬆地記住是否已完成申請流程的所有步驟。'
+- id: check_list_continue
+  translation: "繼續"
+- id: check_list_finished
+  translation: "全部完成"
+- id: check_info
+  translation: "您可以使個人檢查清單保持最新狀態，以便更輕鬆地記住完成了哪些步驟以及清單上還有哪些步驟。"
+- id: check_remove_info
+  translation: "要刪除您的“完成”，您可以點擊"
+- id: check_remove_button
+  translation: "刪除支票"
 - id: located
   translation: '居住地'
+- id: timezone
+  translation: '英語 (+08:00)'
 - id: taipei_city_skyline
   translation: '台北市天際線'
 - id: taiwan_mountains

@@ -30,6 +30,7 @@
                 {{ else }}
                 {{ dateFormat "Monday, January 2, 2006" $start_date.Local }}
                 {{ end }}
+                {{ i18n "timezone" }}
             </span>
         </div>
         {{ end }}
@@ -48,6 +49,7 @@
                 {{ else }}
                 {{ i18n "starts_at" }}: {{ partial "time" (dict "date" $start_date.Local "lang" .Site.Language.Lang )}}
                 {{ end }}
+                {{ i18n "timezone" }}
             </span>
         </div>
         {{ end }}

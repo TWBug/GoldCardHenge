@@ -8,7 +8,7 @@
 
 <div class="my-12">
     <h2 class="text-secondary text-3xl font-semibold mb-4">
-        Latest FAQ about the application process
+        {{ i18n "latest_faq_application" }}
     </h2>
     {{ range $faq }}
         <div class="pb-4">
@@ -24,7 +24,7 @@
         <a href="{{ $faq_page.RelPermalink }}" class="inline-flex items-center font-bold text-base text-primary focus-primary p-1">
             {{ partial "icon" (dict "name" "angle-right" "size" "5") }}
             <span class="ml-2">
-                All FAQ about the application process
+                {{ i18n "all_faq_application" }}
             </span>
         </a>
     </div>

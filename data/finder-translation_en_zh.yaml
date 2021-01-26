@@ -1,0 +1,232 @@
+en:
+  items:
+    - key: language
+      translation: English
+    - key: language_change
+      translation: Change the language to @:language
+    - key: site
+      translation: Best practice Vue js
+    - key: check
+      translation: Check
+    - key: circle
+      translation: circle
+    - key: next
+      translation: Next
+    - key: back
+      translation: Back
+    - key: result
+      translation: Result
+    - key: no_result
+      translation: No result
+    - key: question
+      translation: Question
+    - key: loading
+      translation: Loading
+    - key: right
+      translation: right
+    - key: left
+      translation: left
+    - key: top
+      translation: top
+    - key: plus
+      translation: plus
+    - key: minus
+      translation: minus
+    - key: exclamation
+      translation: exclamation
+    - key: file
+      translation: file
+    - key: restart
+      translation: Restart
+    - key: start_application
+      translation: Start application
+    - key: previous_step
+      translation: Previous step
+    - key: application_easy_mode
+      translation: Application easy mode
+    - key: headline_home
+      translation: Please choose all that apply.
+    - key: headline_1
+      translation: You are an athlete, coach or referee...
+    - key: headline_2
+      translation: You are an lawyer...
+    - key: headline_3
+      translation: You are an architect...
+    - key: headline_4
+      translation: You are an Executive or GM...
+    - key: headline_5
+      translation: You work in the finance industry...
+    - key: headline_6
+      translation: You have a PhD...
+    - key: headline_7
+      translation: You are a teacher or researcher...
+    - key: headline_8
+      translation: You work in science or technology...
+    - key: headline_9
+      translation: Your most recent monthly salary was >160k TWD...
+    - key: headline_10
+      translation: You are an artist publisher/editor or arts administrator...
+    - key: headline_11
+      translation: "  You have >8 years of experience..."
+    - key: headline_12
+      translation: You have skills otherwise in demand in Taiwan...
+    - key: headline_result
+      translation: Congratulations, you may be eligible to apply for the Gold Card
+        using the regulation below. | Congratulations, you may qualify under one
+        of the {count} regulations below.
+    - key: headline_no_result
+      translation: Sorry, we couldn't find a Gold Card qualification that matched.
+        Please take a look at the full list of qualifications and consider the
+        many other visas.
+    - key: results_headline
+      translation: You may qualify under {ministery}, Regulation {regulation}
+    - key: results_answer
+      translation: "because you answered Yes to:"
+    - key: results_provide
+      translation: "Please provide:"
+    - key: results_details
+      translation: Details for the field of
+    - key: qualifications_MOST
+      translation: Science and Technology
+    - key: qualifications_MOEA
+      translation: Economics
+    - key: qualifications_MOC
+      translation: Culture and Arts
+    - key: qualifications_MOS
+      translation: Sport
+    - key: qualifications_MOF
+      translation: Finance
+    - key: qualifications_MOJ
+      translation: Law
+    - key: qualifications_MOA
+      translation: Architecture
+    - key: qualifications_MOE
+      translation: Education
+    - key: info_no_result
+      translation: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
+        error dolore adipisci quas amet enim doloribus nesciunt, ullam ex magnam
+        molestias sed aut quasi mollitia ea debitis, expedita cumque sint! Ex
+        officia repellat quae nam commodi ducimus corporis, iste quidem voluptas
+        tenetur temporibus magnam repudiandae, dicta facilis accusantium
+        eveniet, fuga alias earum nisi numquam et. Dolores animi doloremque
+        consequuntur minus itaque consequatur voluptatibus a molestias natus
+        dolore. Ipsa, sequi a soluta quo blanditiis exercitationem vel, nam nisi
+        delectus libero earum?
+    - key: info_no_selection
+      translation: Choose at least one point to go to the next step.
+zh:
+  items:
+    - key: language
+      translation: English
+    - key: language_change
+      translation: Change the language to @:language
+    - key: site
+      translation: Best practice Vue js
+    - key: check
+      translation: Check
+    - key: circle
+      translation: circle
+    - key: next
+      translation: Next
+    - key: back
+      translation: Back
+    - key: result
+      translation: Result
+    - key: no_result
+      translation: No result
+    - key: question
+      translation: Question
+    - key: loading
+      translation: Loading
+    - key: right
+      translation: right
+    - key: left
+      translation: left
+    - key: top
+      translation: top
+    - key: plus
+      translation: plus
+    - key: minus
+      translation: minus
+    - key: exclamation
+      translation: exclamation
+    - key: file
+      translation: file
+    - key: restart
+      translation: Restart
+    - key: start_application
+      translation: Start application
+    - key: previous_step
+      translation: Previous step
+    - key: application_easy_mode
+      translation: Application easy mode
+    - key: headline_home
+      translation: Please choose at least one area.
+    - key: headline_1
+      translation: You are an athlete, coach or referee...
+    - key: headline_2
+      translation: You are an lawyer...
+    - key: headline_3
+      translation: You are an architect...
+    - key: headline_4
+      translation: You are an Executive or GM...
+    - key: headline_5
+      translation: You work in the finance industry...
+    - key: headline_6
+      translation: You have a PhD...
+    - key: headline_7
+      translation: You are a teacher or researcher...
+    - key: headline_8
+      translation: You work in science or technology...
+    - key: headline_9
+      translation: Your most recent monthly salary was >160k TWD...
+    - key: headline_10
+      translation: You are an artist publisher/editor or arts administrator...
+    - key: headline_11
+      translation: "  You have >8 years of experience..."
+    - key: headline_12
+      translation: You have skills otherwise in demand in Taiwan...
+    - key: headline_result
+      translation: Congratulations, you may be eligible to apply for the Gold Card
+        using the regulation below. | Congratulations, you may qualify under one
+        of the {count} regulations below.
+    - key: headline_no_result
+      translation: Sorry, we couldn't find a Gold Card qualification that matched.
+        Please take a look at the full list of qualifications and consider the
+        many other visas.
+    - key: results_headline
+      translation: You may qualify under {ministery}, Regulation {regulation}
+    - key: results_answer
+      translation: "because you answered Yes to:"
+    - key: results_prepare
+      translation: "請準備:"
+    - key: results_details
+      translation: Details for the field of
+    - key: qualifications_MOST
+      translation: 科技領域
+    - key: qualifications_MOEA
+      translation: 經濟領域
+    - key: qualifications_MOC
+      translation: 文化藝術領域
+    - key: qualifications_MOS
+      translation: 體育領域
+    - key: qualifications_MOF
+      translation: 金融領域
+    - key: qualifications_MOJ
+      translation: 法律領域
+    - key: qualifications_MOA
+      translation: 建築設計領域
+    - key: qualifications_MOE
+      translation: 教育領域
+    - key: info_no_result
+      translation: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
+        error dolore adipisci quas amet enim doloribus nesciunt, ullam ex magnam
+        molestias sed aut quasi mollitia ea debitis, expedita cumque sint! Ex
+        officia repellat quae nam commodi ducimus corporis, iste quidem voluptas
+        tenetur temporibus magnam repudiandae, dicta facilis accusantium
+        eveniet, fuga alias earum nisi numquam et. Dolores animi doloremque
+        consequuntur minus itaque consequatur voluptatibus a molestias natus
+        dolore. Ipsa, sequi a soluta quo blanditiis exercitationem vel, nam nisi
+        delectus libero earum?
+    - key: info_no_selection
+      translation: Choose at least one point to go to the next step.

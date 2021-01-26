@@ -249,30 +249,6 @@ collections:
                 i18n: true,
             }
           - {
-                label: 'Start?',
-                name: 'start',
-                widget: 'boolean',
-                default: false,
-                required: false,
-                i18n: duplicate,
-            }
-          - {
-                label: 'Check?',
-                name: 'check',
-                widget: 'boolean',
-                default: true,
-                required: false,
-                i18n: duplicate,
-            }
-          - {
-                label: 'Previous page',
-                name: 'previous',
-                widget: 'string',
-                default: '',
-                required: false,
-                i18n: duplicate,
-            }
-          - {
                 label: 'Next page',
                 name: 'next',
                 widget: 'string',
@@ -286,10 +262,10 @@ collections:
       label: 'Apply / Step-1'
       label_singular: Apply Step-1
       folder: 'content/apply/step-1'
-      create: true
+      create: false
+      delete: false
       slug: '{{slug}}'
       i18n: true
-      summary: "{{title}} | Order: {{order}} | Check: {{check}}"
       sortable_fields: ['title', 'order', 'date']
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
@@ -303,7 +279,13 @@ collections:
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
-          - { label: 'Order', name: 'order', widget: 'number', default: 1, i18n: duplicate }
+          - {
+                label: 'Layout',
+                name: 'layout',
+                widget: 'hidden',
+                default: 'finder',
+                i18n: duplicate,
+            }
           - {
                 label: 'Topic',
                 name: 'topic',
@@ -338,22 +320,6 @@ collections:
                 widget: 'string',
                 required: false,
                 i18n: true,
-            }
-          - {
-                label: 'Start?',
-                name: 'start',
-                widget: 'boolean',
-                default: false,
-                required: false,
-                i18n: duplicate,
-            }
-          - {
-                label: 'Check?',
-                name: 'check',
-                widget: 'boolean',
-                default: true,
-                required: false,
-                i18n: duplicate,
             }
           - {
                 label: 'Previous page',
@@ -380,7 +346,7 @@ collections:
       create: true
       slug: '{{slug}}'
       i18n: true
-      summary: "{{title}} | Order: {{order}} | Check: {{check}}"
+      summary: '{{title}} | Order: {{order}}'
       sortable_fields: ['title', 'order', 'date']
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
@@ -429,22 +395,6 @@ collections:
                 widget: 'string',
                 required: false,
                 i18n: true,
-            }
-          - {
-                label: 'Start?',
-                name: 'start',
-                widget: 'boolean',
-                default: false,
-                required: false,
-                i18n: duplicate,
-            }
-          - {
-                label: 'Check?',
-                name: 'check',
-                widget: 'boolean',
-                default: true,
-                required: false,
-                i18n: duplicate,
             }
           - {
                 label: 'Previous page',
@@ -471,7 +421,7 @@ collections:
       create: true
       slug: '{{slug}}'
       i18n: true
-      summary: "{{title}} | Order: {{order}} | Check: {{check}}"
+      summary: '{{title}} | Order: {{order}}'
       sortable_fields: ['title', 'order', 'date']
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
@@ -520,22 +470,6 @@ collections:
                 widget: 'string',
                 required: false,
                 i18n: true,
-            }
-          - {
-                label: 'Start?',
-                name: 'start',
-                widget: 'boolean',
-                default: false,
-                required: false,
-                i18n: duplicate,
-            }
-          - {
-                label: 'Check?',
-                name: 'check',
-                widget: 'boolean',
-                default: true,
-                required: false,
-                i18n: duplicate,
             }
           - {
                 label: 'Previous page',
@@ -838,6 +772,55 @@ collections:
           #   multiple: true
           #   required: false
           #   i18n: duplicate
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'help-desk'
+      label: 'Help Desk 洽詢平台'
+      label_singular: Help Desk Item
+      folder: 'content/help-desk'
+      create: true
+      slug: '{{slug}}'
+      preview_path: en/help-desk/{{slug}}
+      i18n: true
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Navigation',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'whytaiwan',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'why-taiwan'
@@ -1207,6 +1190,82 @@ collections:
                   summary: '{{fields.name}}'
                   i18n: true
                   field: { label: Topic 主題, name: name, widget: string, i18n: true }
+
+    # Configure the site. Menus for example
+    - name: 'finder'
+      label: 'Visa Finder 選單'
+      description: 'Content file for the visa finder application'
+      i18n:
+          structure: single_file
+      editor:
+          preview: false
+      files:
+          - label: 'Finder Translation'
+            name: 'finder_translation_data'
+            file: 'data/finder-translation_en_zh.yaml'
+            i18n: true
+            fields:
+                - label: 'Items 選項'
+                  name: 'items'
+                  widget: 'list'
+                  i18n: true
+                  fields:
+                      - { label: Key, name: key, widget: string, i18n: duplicate }
+                      - { label: Translation, name: translation, widget: string, i18n: true }
+          - label: 'Finder Questions'
+            name: 'finder_questions_data'
+            file: 'data/finder-questions_en_zh.yaml'
+            i18n: true
+            fields:
+                - label: 'Items 選項'
+                  name: 'items'
+                  widget: 'list'
+                  i18n: true
+                  sortable_fields: ['tree_id', 'tree_order', 'question_text']
+                  summary: '{{tree_id}} / {{tree_order}} - {{question_text}} - {{qualifications}}'
+                  fields:
+                      - { label: Tree ID, name: tree_id, widget: number, i18n: duplicate }
+                      - { label: Tree order, name: tree_order, widget: number, i18n: duplicate }
+                      - {
+                            label: Next tree ID,
+                            name: next_tree_id,
+                            required: false,
+                            widget: number,
+                            i18n: duplicate,
+                        }
+                      - { label: Question, name: question_text, widget: string, i18n: true }
+                      - {
+                            label: Qualifications,
+                            name: qualifications,
+                            required: false,
+                            widget: list,
+                            allow_add: true,
+                            i18n: true,
+                        }
+          - label: 'Finder Qualifications'
+            name: 'finder_qualifications_data'
+            file: 'data/finder-qualifications_en_zh.yaml'
+            i18n: true
+            fields:
+                - label: 'Items 選項'
+                  name: 'items'
+                  widget: 'list'
+                  i18n: true
+                  sortable_fields: ['ministry', 'regulation_no', 'weight']
+                  summary: '{{ministry}} / Regulation No.: {{regulation_no}} '
+                  fields:
+                      - { label: Ministry, name: ministry, widget: string, i18n: duplicate }
+                      - {
+                            label: Regulation No,
+                            name: regulation_no,
+                            widget: string,
+                            i18n: duplicate,
+                        }
+                      - { label: Weight, name: weight, widget: number, i18n: duplicate }
+                      - { label: Link, name: link, widget: string, i18n: true }
+                      - { label: Info, name: info, widget: string, required: false, i18n: true }
+                      - { label: Provide, name: provide, widget: markdown, required: false, i18n: true }
+                      - { label: Notes, name: notes, widget: string, required: false, i18n: true }
 
     # Configure the site. Menus for example
     - name: 'config'

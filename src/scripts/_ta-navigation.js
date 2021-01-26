@@ -103,6 +103,10 @@ window.taNavigation = function () {
             event.preventDefault();
         },
         toggleMenue(topic, event) {
+            const navigationScroll = document.getElementById('navigationScroll');
+            if (navigationScroll !== null) {
+                document.documentElement.style.setProperty('--navigationScroll', `${navigationScroll.offsetHeight}px`);
+            }
             for (const property in this.menue) {
                 if (property === topic) {
                     this.menue[topic] = !this.menue[topic];

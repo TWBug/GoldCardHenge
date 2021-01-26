@@ -1,16 +1,15 @@
 ---
-title: Application Process
+start: true
+summary: 請依照以下步驟
+check: false
 date: 2021-01-18T02:57:32.044Z
 cover_image: /cms-uploads/icon-checklist.svg
-start: true
-check: false
-previous: ""
 next: apply/step-1
+previous: ""
+title: 申請就業金卡
 ---
 {{< teaser >}}
-Applying for the Taiwan Employment Gold Card is not a difficult task. Filling out and submitting the online form takes around 15-minutes, but only if you have all the required documents prepared. 
+很高興您決定申請金卡，整個申請程序並不難，請依照以下步驟操作即可，首先請先點選"開始"確認您是否符合金卡資格。
 {{< /teaser >}}
 
-**Before starting the application process prozess you might have a look at the [Visa Finder](/en/qualification/finder)**
-
-Therefore, before filling out the application form, read the qualification section carefully and prepare all your required documents. Once you are ready, follow on with this step-by-step guide to lead you through the process. It is as simple as filling out your personal information, attaching the necessary supporting documents, and paying the application fee.
+有可能您符合多個領域資格，但在就業金卡申請系統裡只能選擇其中一個領域進行申請。

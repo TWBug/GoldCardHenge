@@ -1038,6 +1038,12 @@ window.taNavigation = function () {
       event.preventDefault();
     },
     toggleMenue: function toggleMenue(topic, event) {
+      var navigationScroll = document.getElementById('navigationScroll');
+
+      if (navigationScroll !== null) {
+        document.documentElement.style.setProperty('--navigationScroll', "".concat(navigationScroll.offsetHeight, "px"));
+      }
+
       for (var property in this.menue) {
         if (property === topic) {
           this.menue[topic] = !this.menue[topic];

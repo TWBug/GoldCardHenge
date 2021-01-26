@@ -33,18 +33,19 @@ const router = new VueRouter({
 
 router.beforeEach((to, from, next) => {
     if (window.innerWidth > 1024) {
-        next()
-    }
-    const scroll = document.getElementById('scroll');
-    if (scroll === null) {
+        next();
+    } else {
+        const scroll = document.getElementById('scroll');
+        if (scroll === null) {
+            next();
+        }
+        const vertical_position = scroll.getBoundingClientRect().top + window.scrollY - 60;
+        window.scroll({
+            top: vertical_position,
+            behavior: 'smooth',
+        });
         next();
     }
-    const vertical_position = scroll.getBoundingClientRect().top + window.scrollY - 60;
-    window.scroll({
-        top: vertical_position,
-        behavior: 'smooth',
-    });
-    next();
 });
 
 export default router;

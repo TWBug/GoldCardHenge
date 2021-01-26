@@ -1,16 +1,19 @@
 ---
-title: Supplementary Documents
-date: 2021-01-18T03:13:01.397Z
-summary: Are you ready to apply? Make sure you follow the steps!
 draft: false
+start: false
+date: 2021-01-18T03:13:01.397Z
+summary: 🕑3-4 weeks later. Submitting Additional Documents & Rejection
+check: true
+title: Supplementary Documents
 order: 1
 topic: goldcard
-start: false
-check: true
 previous: /apply/step-3/
 next: /apply/step-3/passport-verification/
 ---
-
 # Supplementary Documents
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero suscipit dolores magni itaque ipsum, tempora quidem fugiat ipsa est molestias quos veritatis ducimus facere quas rerum culpa reprehenderit, qui nobis quaerat ex exercitationem. Sit necessitatibus commodi eius maiores adipisci dolorem animi ad eligendi praesentium officia! Unde, totam itaque veritatis velit harum deleniti ratione mollitia quidem magnam sed veniam ad aliquid facere. Quia quod sed alias eum numquam autem voluptatum repudiandae sequi, sunt consequatur amet dolore distinctio maiores aspernatur, voluptatem tempora!
+After you complete the online payment, the review process officially begins. If you submit incomplete or inaccurate information, or the authorities require more information about your qualifications, you will need to submit additional documents for review.
+
+You will receive an email if this is the case. Log in to the Application Portal to review your application and the request for Supplementary Documents. You can then submit a modified version of your application and upload new documents.
+
+For more information see the [detailed instructions](/en/application/#submitting-additional-documents--rejection).
