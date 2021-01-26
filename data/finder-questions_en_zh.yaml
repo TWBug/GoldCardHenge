@@ -352,7 +352,7 @@ zh:
         - MOJ-4
     - tree_id: 4
       tree_order: 4
-      question_text: Did you run a startup and take it to IPO?
+      question_text: 你經營一家新創公司並並成功IPO嗎？
       qualifications:
         - MOST-10
     - tree_id: 4
