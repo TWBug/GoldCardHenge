@@ -1,4 +1,7 @@
-// import { assert } from "console";
+/**
+ * This file exports the configured db object which can be used to interact with
+ * the database in a JS-friendly way.
+ */
 import knex from "knex";
 import assert from "assert";
 import path from 'path'
