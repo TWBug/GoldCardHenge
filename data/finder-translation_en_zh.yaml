@@ -76,8 +76,6 @@ en:
         of the {count} regulations below.
     - key: headline_no_result
       translation: Sorry, we couldn't find a Gold Card qualification that matched.
-        Please take a look at the full list of qualifications and consider the
-        many other visas.
     - key: results_headline
       translation: You may qualify under {ministery}, Regulation {regulation}
     - key: results_answer
@@ -103,15 +101,8 @@ en:
     - key: qualifications_MOE
       translation: Education
     - key: info_no_result
-      translation: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
-        error dolore adipisci quas amet enim doloribus nesciunt, ullam ex magnam
-        molestias sed aut quasi mollitia ea debitis, expedita cumque sint! Ex
-        officia repellat quae nam commodi ducimus corporis, iste quidem voluptas
-        tenetur temporibus magnam repudiandae, dicta facilis accusantium
-        eveniet, fuga alias earum nisi numquam et. Dolores animi doloremque
-        consequuntur minus itaque consequatur voluptatibus a molestias natus
-        dolore. Ipsa, sequi a soluta quo blanditiis exercitationem vel, nam nisi
-        delectus libero earum?
+      translation: "Please take a look at the full list of qualifications and consider
+        the many other visas. "
     - key: info_no_selection
       translation: Choose at least one point to go to the next step.
 zh:
@@ -127,9 +118,9 @@ zh:
     - key: circle
       translation: circle
     - key: next
-      translation: Next
+      translation: 下一步
     - key: back
-      translation: Back
+      translation: 返回
     - key: result
       translation: Result
     - key: no_result
@@ -137,7 +128,7 @@ zh:
     - key: question
       translation: Question
     - key: loading
-      translation: Loading
+      translation: 載入中
     - key: right
       translation: right
     - key: left
@@ -153,15 +144,15 @@ zh:
     - key: file
       translation: file
     - key: restart
-      translation: Restart
+      translation: 重新開始
     - key: start_application
-      translation: Start application
+      translation: 開始申請
     - key: previous_step
-      translation: Previous step
+      translation: 上一步
     - key: application_easy_mode
       translation: Application easy mode
     - key: headline_home
-      translation: Please choose at least one area.
+      translation: 請選擇所有適用的選項。
     - key: headline_1
       translation: 你是運動員、教練、或者裁判．．．
     - key: headline_2
@@ -192,13 +183,11 @@ zh:
         of the {count} regulations below.
     - key: headline_no_result
       translation: Sorry, we couldn't find a Gold Card qualification that matched.
-        Please take a look at the full list of qualifications and consider the
-        many other visas.
     - key: results_headline
-      translation: You may qualify under {ministery}, Regulation {regulation}
+      translation: You may qualify under {ministery}的第{regulation}號條件
     - key: results_answer
-      translation: "because you answered Yes to:"
-    - key: results_prepare
+      translation: "因為您回答是： "
+    - key: results_provide
       translation: "請準備:"
     - key: results_details
       translation: Details for the field of
@@ -219,14 +208,7 @@ zh:
     - key: qualifications_MOE
       translation: 教育領域
     - key: info_no_result
-      translation: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
-        error dolore adipisci quas amet enim doloribus nesciunt, ullam ex magnam
-        molestias sed aut quasi mollitia ea debitis, expedita cumque sint! Ex
-        officia repellat quae nam commodi ducimus corporis, iste quidem voluptas
-        tenetur temporibus magnam repudiandae, dicta facilis accusantium
-        eveniet, fuga alias earum nisi numquam et. Dolores animi doloremque
-        consequuntur minus itaque consequatur voluptatibus a molestias natus
-        dolore. Ipsa, sequi a soluta quo blanditiis exercitationem vel, nam nisi
-        delectus libero earum?
+      translation: "Please take a look at the full list of qualifications and consider
+        the many other visas. "
     - key: info_no_selection
-      translation: Choose at least one point to go to the next step.
+      translation: 選擇至少一個點進行下一步。
