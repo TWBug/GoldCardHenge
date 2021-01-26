@@ -112,14 +112,13 @@ zh:
     - tree_id: 6
       tree_order: 2
       next_tree_id: null
-      question_text: Is it in science and technology? Have you worked in the field for
-        more than 4 years?
+      question_text: 你是在科技領域產業？你有相關工作經驗4年以上？
       qualifications:
         - MOST-7
     - tree_id: 6
       tree_order: 3
       next_tree_id: null
-      question_text: Is your field unique science and technology field and lacking in Taiwan?
+      question_text: 你的專長是科技領域且為台灣國內所欠缺的？
       qualifications:
         - MOST-9
     - tree_id: 6
