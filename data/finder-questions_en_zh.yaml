@@ -357,25 +357,24 @@ zh:
         - MOST-10
     - tree_id: 4
       tree_order: 5
-      question_text: Was a startup you ran acquired for more than USD 5 million?
+      question_text: 你經營的新創公司是否以超過500萬美元的價格被收購？
       qualifications:
         - MOST-11
     - tree_id: 4
       tree_order: 6
       next_tree_id: 9
-      question_text: Are you a VC or fund executive with a solid track record?
+      question_text: 你是一位有實績之創投公司或基金之高階主管？
       qualifications:
         - MOST-12
     - tree_id: 5
       tree_order: 5
       next_tree_id: 9
-      question_text: Are you a VC or fund executive with a solid track record?
+      question_text: 你是一位有實績之創投公司或基金之高階主管？
       qualifications:
         - MOST-12
     - tree_id: 8
       tree_order: 6
-      question_text: Were you a core R&D team member of a startup that you helped IPO
-        or be acquired for >5 million USD?
+      question_text: 你是新創公司研發團隊核心技術人員，曾幫助IPO或者公司以超過500萬美元的價格被收購？
       qualifications:
         - MOST-10
         - MOST-11
