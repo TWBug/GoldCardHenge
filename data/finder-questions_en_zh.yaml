@@ -275,28 +275,25 @@ zh:
     - tree_id: 10
       tree_order: 5
       next_tree_id: null
-      question_text: Do you have >5 years work experience and have made special
-        contributions to film, broadcast or pop music?
+      question_text: 你對電影、廣播電視及流行音樂領域具創見及特殊表現並有超過5年以上的相關工作經驗？
       qualifications:
         - MOC-IV3
     - tree_id: 10
       tree_order: 6
       next_tree_id: null
-      question_text: Are you a nationally/internationally recognised preserver of
-        handicraft technique?
+      question_text: 你是台灣/國際認可之工藝技術保存者嗎？
       qualifications:
         - MOC-V2
     - tree_id: 10
       tree_order: 7
       next_tree_id: null
-      question_text: Have you previously served in an international NGO?
+      question_text: 你在國際藝文非政府組織任職過嗎？
       qualifications:
         - MOC-VI2
     - tree_id: 10
       tree_order: 8
       next_tree_id: null
-      question_text: Will the Ministry of Culture validate your skills as an artist,
-        publisher or administrator?
+      question_text: 你的技能為文化部認定的藝術家、出版商或文化行政人員嗎？
       qualifications:
         - MOC-I4
         - MOC-II4
@@ -307,19 +304,18 @@ zh:
     - tree_id: 11
       tree_order: 0
       next_tree_id: null
-      question_text: Do you have >8 years of  experience?
+      question_text: 你有超過8年以上的相關經驗？
       qualifications: []
     - tree_id: 11
       tree_order: 1
       next_tree_id: null
-      question_text: Is your experience in semiconductor, electronics, IT, biotech,
-        machinery, transportation, green energy, or consulting?
+      question_text: 你在半導體、電子電路設計、系統整合、生技醫材、精密機械、運輸工具、綠色能源或諮詢顧問有相關經驗？
       qualifications:
         - MOEA-4
     - tree_id: 12
       tree_order: 0
       next_tree_id: null
-      question_text: Are your skills otherwise in demand in Taiwan?
+      question_text: 你的專業技能為台灣所欠缺的？
       qualifications:
         - MOEA-5
         - MOST-13
