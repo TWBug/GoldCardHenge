@@ -110,7 +110,7 @@
                                 x-transition:leave-start="opacity-100"
                                 x-transition:leave-end="opacity-0 -translate-y-5"
                             >
-                            <div class="border-t-2 border-secondary border-dashed p-4" x-data="taAccordion()" >
+                            <div class="border-t-2 border-secondary border-dashed p-4" x-data="taAccordion()" x-init="init()">
                                 <button
                                     id="{{ printf "faq-button-%d" $index }}"
                                     type="button"
@@ -147,6 +147,14 @@
                                     <div class="copy">
                                         {{ .Content }}
                                     </div>
+                                    <template x-if="shortcut">
+                                        <div class="w-full text-right">
+                                            <a href="{{ .RelPermalink }}" class="inline-flex items-center font-bold text-primary text-sm leading-snug mb-1 focus-primary" target="_blank" title="{{ i18n "open_in_new_window" }}"
+                                            >
+                                            {{ i18n "open_in_new_window" }}
+                                            </a>
+                                        </div>
+                                    </template>
                                 </div>
                             </div>
                             </div>
