@@ -725,6 +725,63 @@ window.taFilter = function () {
     }
   };
 };
+// window.taForm = function () {
+//     return {
+//         language: 'en',
+//         options: {
+//             language: 'en',
+//             supported: ['en', 'zh'],
+//         },
+//         data: {
+//             authenticity_token: 'UIrYBi5cp2iO8HaN9W3v/brtWrCDstDI4LkCk6QbYX8=',
+//             'helpdesk_ticket[email]': 'test@futureward.com',
+//             'helpdesk_ticket[name]': 'Test Name',
+//             'helpdesk_ticket[subject]': 'Test Subject',
+//             'helpdesk_ticket[ticket_body_attributes][description_html]': 'Description',
+//             'meta[user_agent]':
+//                 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+//             'meta[referrer]': 'help-desk-form',
+//             utf8: '&#x2713',
+//             'helpdesk_ticket[source]': '9',
+//             retainParams: '{"widgetType":"embedded","submitTitle":"Send"}',
+//         },
+//         init(options) {
+//             if (typeof options !== 'undefined') {
+//                 if (typeof options !== 'object' || options instanceof Array) {
+//                     console.warn(
+//                         'Options are in wrong type - should be object - default options been used'
+//                     );
+//                 }
+//                 for (let [key, value] of Object.entries(options)) {
+//                     this.options[key] = value;
+//                 }
+//             }
+//             console.info(this.$refs.iframe);
+//             setTimeout(function(){
+//                 console.info('window.freshdesk', window.freshdesk.document.head);
+//             }, 3000);
+//             // Array.prototype.forEach.call(window.parent.document.querySelectorAll("link[rel=stylesheet]"), function(link) {
+//             //     var newLink = document.createElement("link");
+//             //     newLink.rel  = link.rel;
+//             //     newLink.href = link.href;
+//             //     document.head.appendChild(newLink);
+//             // });
+//             const styles = document.createElement("link");
+//             styles.rel  = 'stylesheet';
+//             styles.href = 'http://localhost:1313/css/helpdesk.css';
+//             window.freshdesk.document.head.appendChild(styles);
+//             // this.$refs.iframe.document.head.appendChild(styles);
+//             // this.$refs.iframe.contents().find("head").append($('<link rel="stylesheet" type="text/css" href="http://localhost:1313/css/helpdesk.css">')
+//             // this.$fetch({
+//             //     url: 'https://help.taiwangoldcard.tw/widgets/feedback_widget?widgetType=embedded',
+//             //     method: 'post',
+//             //     headers: { 'Content-Type': 'application/json' },
+//             //     body: JSON.stringify(this.data),
+//             // }).then(({ data }) => console.log(data));
+//         },
+//     };
+// };
+"use strict";
 "use strict";
 
 window.taImageViewer = function () {
@@ -807,6 +864,95 @@ window.taLanguage = function () {
       }
 
       return true;
+    }
+  };
+};
+"use strict";
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+window.taMainContent = function () {
+  // https://www.w3.org/TR/WCAG-TECHS/G1.html
+  return {
+    href: '',
+    offsetTop: 0,
+    options: {
+      tag: 'h1',
+      fallback: 'maincontent',
+      offset: 0
+    },
+    init: function init(options) {
+      if (typeof options !== 'undefined') {
+        if (_typeof(options) !== 'object' || options instanceof Array) {
+          console.warn('Options are in wrong type - should be object - default options been used');
+        }
+
+        for (var _i = 0, _Object$entries = Object.entries(options); _i < _Object$entries.length; _i++) {
+          var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+              key = _Object$entries$_i[0],
+              value = _Object$entries$_i[1];
+
+          this.options[key] = value;
+        }
+      } // checks if options are defined by data
+
+
+      for (var _i2 = 0, _Object$entries2 = Object.entries(this.$el.dataset); _i2 < _Object$entries2.length; _i2++) {
+        var _Object$entries2$_i = _slicedToArray(_Object$entries2[_i2], 2),
+            _key = _Object$entries2$_i[0],
+            _value = _Object$entries2$_i[1];
+
+        if (typeof this.options[_key] !== 'undefined') {
+          if (isNaN(_value)) {
+            this.options[_key] = _value;
+          } else {
+            this.options[_key] = parseInt(_value);
+          }
+        }
+      }
+
+      var element = document.getElementsByTagName(this.options.tag);
+
+      if (typeof element[0] === 'undefined') {
+        return;
+      }
+
+      var element_id = this.options.fallback;
+
+      if (element[0].id === '') {
+        element[0].id = this.options.fallback;
+      } else {
+        element_id = element[0].id;
+      }
+
+      var scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
+
+      if (scrollNavHeight === '') {
+        scrollNavHeight = 0;
+      } else {
+        scrollNavHeight = parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
+      }
+
+      this.offsetTop = element[0].offsetTop + scrollNavHeight;
+      this.href = window.location.pathname + '#' + element_id;
+    },
+    go: function go() {
+      scroll({
+        top: parseInt(this.offsetTop) - parseInt(this.options.offset),
+        behavior: 'smooth'
+      });
     }
   };
 };

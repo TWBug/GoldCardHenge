@@ -1,5 +1,14 @@
 <div>{{ i18n "tego" }}</div>
 <div class="flex justify-evenly text-xs">
+    <a
+        href="{{ print .RelPermalink "#maincontent" }}" :href="href"
+        class="block font-bold p-3 uppercase border-l border-white border-opacity-25 focus:bg-white focus:text-black"
+        x-data="taMainContent()" x-init="init()"
+        data-offset="20"
+        @click.prevent="go()"
+    >
+        {{ i18n "to_main_content" }}
+    </a>
     {{ $sitemap := .Site.GetPage "sitemap" }}
     <a
         href="{{ $sitemap.RelPermalink }}"

@@ -26,6 +26,8 @@
   translation: "了解更多"
 - id: open_in_new_window
   translation: '開啟新視窗'
+- id: to_main_content
+  translation: '主要內容'
 - id: last_changed
   translation: '最後更新'
 - id: table_of_contents
