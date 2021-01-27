@@ -21,7 +21,7 @@ export default new Vuex.Store({
         tree_list: [],
         tree_active: -1,
         qualifications: qualifications,
-        questions: questions
+        questions: questions,
     },
     mutations: {
         TOGGLE_SELECTED(state, key) {
@@ -47,7 +47,7 @@ export default new Vuex.Store({
             state.tree_list.splice(position, 1);
         },
         SORT_TREELIST(state) {
-            state.tree_list.sort(function(a, b) {
+            state.tree_list.sort(function (a, b) {
                 return a - b;
             });
         },
@@ -67,7 +67,7 @@ export default new Vuex.Store({
     },
     actions: {
         toggleActive({ commit, state }, id) {
-            const key = state.questions.findIndex(item => item.id === id);
+            const key = state.questions.findIndex((item) => item.id === id);
             const selected = !state.questions[key].selected;
             commit('SET_SELECTED', { key: key, selected: selected });
             if (selected) {
@@ -79,7 +79,7 @@ export default new Vuex.Store({
         },
         toggleQualification({ commit, state }, id) {
             console.info('asdasd', id);
-            const key = state.qualifications.findIndex(item => item.id === id);
+            const key = state.qualifications.findIndex((item) => item.id === id);
             const details = !state.qualifications[key].details;
             commit('QUALIFICATION_DETAILS', { key: key, value: details });
         },
@@ -96,33 +96,53 @@ export default new Vuex.Store({
         },
     },
     getters: {
-        getHome: state => {
-            return state.questions.filter(item => item.tree_order === 0);
+        getHome: (state) => {
+            var questions = state.questions.filter((item) => item.tree_order === 0);
+            return questions.sort((a, b) => {
+                let fa = a.question_text.en.toLowerCase(),
+                    fb = b.question_text.en.toLowerCase();
+                if (fa < fb) {
+                    return -1;
+                }
+                if (fa > fb) {
+                    return 1;
+                }
+                return 0;
+            });
         },
-        getByTree: state => id => {
-            return state.questions.filter(item => {
+        getByTree: (state) => (id) => {
+            var questions = state.questions.filter((item) => {
                 if (item.tree_order === 0) {
                     return false;
                 }
                 return item.tree_id === id;
             });
+            // return questions.sort((a, b) => {
+            //     let fa = a.question_text.en.toLowerCase(),
+            //         fb = b.question_text.en.toLowerCase();
+            //     if (fa < fb) {
+            //         return -1;
+            //     }
+            //     if (fa > fb) {
+            //         return 1;
+            //     }
+            //     return 0;
+            // });
+            return questions.sort((a, b) => {
+                return a.tree_order - b.tree_order;
+            });
         },
-        isTreeValid: state => id => {
-            // console.info('id', typeof id);
-            // for (let index = 0; index < state.tree_list.length; index++) {
-            //     console.info('index', typeof state.tree_list[index]);
-
-            // }
+        isTreeValid: (state) => (id) => {
             return state.tree_list.indexOf(id) === -1 ? false : true;
         },
-        hasSelected: state => {
-            const selected = state.questions.filter(item => item.selected === true).length;
+        hasSelected: (state) => {
+            const selected = state.questions.filter((item) => item.selected === true).length;
             if (selected < 1) {
                 return false;
             }
             return true;
         },
-        getNextTree: state => {
+        getNextTree: (state) => {
             if (state.tree_list.length === 0) {
                 return 0;
             }
@@ -134,10 +154,10 @@ export default new Vuex.Store({
             }
             return state.tree_list[state.tree_active + 1];
         },
-        getQuestion: state => id => {
-            return state.questions.find(item => item.id === id);
+        getQuestion: (state) => (id) => {
+            return state.questions.find((item) => item.id === id);
         },
-        getQualifications: state => {
+        getQualifications: (state) => {
             var identifiers = [];
             for (let index = 0; index < state.questions.length; index++) {
                 if (state.questions[index].selected) {
@@ -161,7 +181,7 @@ export default new Vuex.Store({
                     result.push(qualification);
                 }
             }
-            result.sort(function(a, b) {
+            result.sort(function (a, b) {
                 return b.weight - a.weight;
             });
             return result;
