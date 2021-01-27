@@ -39,8 +39,6 @@ Qualification is based on an assessment of your professional skills. You don't n
 
 A perfect application takes 30-days. However, if additional supporting documents are requested, expect a time frame of 50-60 days.
 
-
-
 ## Industries that are eligible to apply for the Taiwan Employment Gold Card:
 
 **You must select which single ministry is most relevant, and in most cases also select a specific entry in the list of that qualifications in that particular area for your application.**
