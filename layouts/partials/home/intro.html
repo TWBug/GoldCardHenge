@@ -15,16 +15,21 @@
                 </p>
                 <div class="flex justify-between items-center mt-8">
                     {{ range $intro.Params.links }}
+                    {{ $local_page := $.Site.GetPage (substr .href 4) }}
+                    {{ $title := ""}}
+                    {{ if $local_page }}
+                    {{ $title = $local_page.Title | plainify}}
+                    {{ end }}
                     {{ if eq .is_cta true }}
                     <a
                     href="{{ .href }}"
                     {{ if eq .new_window true }} target="_blank" title="{{ i18n "open_in_new_window"}}" {{ end }}
-                    class="bg-primary rounded-md force-text-white force-no-underline font-bold text-xl leading-none shadow-xl px-8 py-4 mr-4 focus-primary"
+                    class="bg-primary rounded-md force-text-white force-no-underline font-bold text-xl leading-none shadow-xl px-8 py-4 mr-4 focus-primary" {{ with $title }}title="{{ . }}"{{ end }}
                     >
                     {{ else }}
                     <a
                     href="{{ .href }}"
-                    class="bg-white border-2 border-primary force-no-underline rounded-md text-primary font-bold leading-none shadow-xl px-6 py-3 focus-primary"
+                    class="bg-white border-2 border-primary force-no-underline rounded-md text-primary font-bold leading-none shadow-xl px-6 py-3 focus-primary" {{ with $title }}title="{{ . }}"{{ end }}
                     >
                     {{ end}}
                     {{ .label }}
