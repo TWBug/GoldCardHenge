@@ -17,7 +17,7 @@
                 {{ partial "breadcrumb" . }}
             </div>
             <h1 class="text-5xl font-medium leading-tight mb-2">{{ .Title }}</h1>
-            <p class="font-medium text-xl leading-relaxed">{{ .Summary }}</p>
+            <h2 class="font-medium text-xl leading-relaxed">{{ .Summary }}</h2>
             <ul class="mt-6">
                 {{ range .Site.Sections }}
                 {{ if eq (.RelPermalink | strings.Count "/apply/")  0 }}
