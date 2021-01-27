@@ -17,7 +17,8 @@ cover_image_alt: null
 Applying for the Taiwan Employment Gold Card is not a difficult task.  Filling out and submitting the online form takes around **15-minutes**, but only if you have all the required documents prepared.  Therefore, before filling out the application form, read the qualification section carefully and prepare all your required documents. Once you are ready, follow on with this step-by-step guide to lead you through the process.  It is as simple as filling out your personal information, attaching the necessary supporting documents, and paying the application fee. 
 
 {{< base >}}
-Required Documents
+
+## Required Documents
 
 1. Color copy of your passport with at least 6-month validity remaining
 2. 2-inch color passport/identification photo taken within six months (size identical to the Identification Card of our country, with clear resolution and without any hats or headwear). Check the specification on the application form if you are unsure. 
@@ -29,7 +30,7 @@ Required Documents
 With all the correct documentation submitted, it takes **at least over 60 business days** to complete the entire Employment Gold Card application process. If you are already in Taiwan, please make sure you have enough time remaining on your existing visa. If not, you may need to exit and re-enter the country, even if you are currently applying for a gold card.
 {{< /teaser >}}
 
-![Gold Card Application Process](/cms-uploads/application-process.png "Gold Card Application Process")
+![Gold Card Application Process](/cms-uploads/application-process.png)
 
 ## STEP 1: Online Application
 
@@ -81,7 +82,7 @@ Upload Document
 * If the provided documents are neither in English nor Chinese, please attach a translation to English or Chinese. If your documents are issued by the following countries/regions, additional verification is needed:
 
   * Applicants from Hong Kong and Macau may need to supply copies of resident and identity information. 
-  * Documents issued in the Mainland area have to be attested and examined by[ the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct5bfa.html?xItem=110586&ctNode=5946&mp=3) entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area."
+  * Documents issued in the Mainland area have to be attested and examined by [the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct5bfa.html?xItem=110586&ctNode=5946&mp=3) entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area."
   * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
 
 {{< teaser prefix="4." >}}
@@ -96,11 +97,11 @@ Payment and E-Mail Confirmation
 
 * Domestic Applicants
 
-![Holders of U.S. passports who entered R.O.C. (Taiwan) visa-free, or with a visa for a stay of less than 60 days, or with a visa for a stay of 60 days or longer and with annotation by the visa-issuing authority of a restriction disallowing extension or other limitation applying domestically: one-year validity, NT$7,260; two-year validity, NT$8,260 ; three-year validity, NT$9,260 . Holders of U.S. passports who entered R.O.C. (Taiwan) with a visa for a stay of 60 days or longer and without annotation by the visa-issuing authority of a restriction disallowing extension or other limitation applying domestically: one-year validity, NT$3,700; two-year validity, NT$4,700; three-year validity, NT$5,700. Holders of foreign passports other than U.S. who entered R.O.C. (Taiwan) visa-free, or with a visa for a stay of less than 60 days, or with a visa for a stay of 60 days or longer and with annotation by the visa-issuing authority of a restriction disallowing extension or other limitation applying domestically: one-year validity, NT$4,500; two-year validity, NT$5,500; three-year validity, NT$6,500. Holders of foreign passports other than U.S. who entered R.O.C. (Taiwan) with a visa for a stay of 60 days or longer and without annotation by the visa-issuing authority of a restriction disallowing extension or other limitation applying domestically: one-year validity, NT$3,700; two-year validity, NT$4,700; three-year validity NT$5,700.  Resident of Hong Kong or Macau: one-year to three-year validity, NT$3,100.](/cms-uploads/goldcardfee-04.png "Fees for Domestic Applicants")
+![Fees for Domestic Applicants Holders](/cms-uploads/goldcardfee-04.png "Fees of U.S. passports who entered R.O.C. (Taiwan) visa-free, or with a visa for a stay of less than 60 days, or with a visa for a stay of 60 days or longer and with annotation by the visa-issuing authority of a restriction disallowing extension or other limitation applying domestically: one-year validity, NT$7,260; two-year validity, NT$8,260 ; three-year validity, NT$9,260 . Holders of U.S. passports who entered R.O.C. (Taiwan) with a visa for a stay of 60 days or longer and without annotation by the visa-issuing authority of a restriction disallowing extension or other limitation applying domestically: one-year validity, NT$3,700; two-year validity, NT$4,700; three-year validity, NT$5,700. Holders of foreign passports other than U.S. who entered R.O.C. (Taiwan) visa-free, or with a visa for a stay of less than 60 days, or with a visa for a stay of 60 days or longer and with annotation by the visa-issuing authority of a restriction disallowing extension or other limitation applying domestically: one-year validity, NT$4,500; two-year validity, NT$5,500; three-year validity, NT$6,500. Holders of foreign passports other than U.S. who entered R.O.C. (Taiwan) with a visa for a stay of 60 days or longer and without annotation by the visa-issuing authority of a restriction disallowing extension or other limitation applying domestically: one-year validity, NT$3,700; two-year validity, NT$4,700; three-year validity NT$5,700.  Resident of Hong Kong or Macau: one-year to three-year validity, NT$3,100.")
 
 * Overseas Applicants
 
-![Holders of U.S. passports applying abroad: one-year validity, NT$6,460; two-year validity, NT$7,460; three-year validity, NT$8,460. Holders of foreign passports other than U.S. applying abroad: one-year validity, NT$3,700; two-year validity, NT$4,700; three-year validity, NT$5,700. Resident of Hong Kong or Macau: one-year to three-year validity, NT$3,100.](/cms-uploads/goldcardfee-03.png "Fees for Overseas Applicants")
+![Fees for Overseas Applicants](/cms-uploads/goldcardfee-03.png "Holders of U.S. passports applying abroad: one-year validity, NT$6,460; two-year validity, NT$7,460; three-year validity, NT$8,460. Holders of foreign passports other than U.S. applying abroad: one-year validity, NT$3,700; two-year validity, NT$4,700; three-year validity, NT$5,700. Resident of Hong Kong or Macau: one-year to three-year validity, NT$3,100.")
 
 * After completing the application, you will get a system confirmation via e-mail. Your application has now entered the review process.
 * To check your application process, log in to the portal, click "Application Progress Inquiry", and fill in your 12-digit application number. **The application fee is nonrefundable regardless of the results of your application.**
