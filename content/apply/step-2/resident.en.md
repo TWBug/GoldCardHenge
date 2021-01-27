@@ -1,10 +1,10 @@
 ---
 draft: false
 start: false
-date: 2021-01-18T03:10:55.207Z
 summary: Select only ONE field and upload related documents.
 check: true
 title: Upload Document
+date: 2021-01-18T03:10:55.207Z
 order: 4
 topic: goldcard
 previous: /apply/step-2/your-data/
@@ -29,6 +29,11 @@ next: /apply/step-2/profession-documents/
   * Documents issued in the Mainland area have to be attested and examined by [the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct0c08.html?xItem=63253&ctNode=5642&mp=1) entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of “Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area.”
   * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
 
-詳細請參考....
 
-preview.....
+**Preview**
+Once you have uploaded your documents, save and move to the Preview page. Please carefully check your application - any incorrect information could cause a delay of up to 30 days in your application.
+
+If everything seems in order, submit your application!
+
+
+
