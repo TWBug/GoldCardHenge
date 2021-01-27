@@ -79,7 +79,7 @@
         */}}
     </div>
     <div class="text-right">
-        <a href="{{ .RelPermalink }}" class="inline-flex items-center font-bold text-base text-primary focus-primary">
+        <a href="{{ .RelPermalink }}" class="inline-flex items-center font-bold text-base text-primary focus-primary" title="{{ .Title }}">
             {{ partial "icon" (dict "name" "angle-right" "size" "5") }}
             <span class="ml-2">
                 {{ i18n "read_more" }}
