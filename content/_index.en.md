@@ -1,19 +1,16 @@
 ---
-title: Home
+media_image: null
 summary: The official home page for the Taiwan Gold Card
-date: 2020-11-05T07:09:20.617Z
-publishDate: 2020-11-05T07:09:20.617Z
 draft: false
-topic:
-cover_image:
-cover_image_alt:
-media_image:
-media_image_alt:
-tags:
-categories:
-layout:
+media_image_alt: null
+layout: null
+date: 2020-11-05T07:09:20.617Z
+topic: null
+cover_image: null
+title: Home
+tags: null
+categories: null
+publishDate: 2020-11-05T07:09:20.617Z
+cover_image_alt: null
 ---
-
-Lorem ipsum dolor **sit amet consectetur** adipisicing elit. Nostrum, quia mollitia. Nam
-unde suscipit quaerat? Assumenda quis iste expedita numquam! unde suscipit quaerat?
-Assumenda quis iste expedita numquam!
+Due to the Lunar New Year Holiday, the Taiwan Gold Card Office will be closed from February 10 to February 16. The helpdesk and application processing will be delayed during this period, please accept our apologies for the inconvenience.
