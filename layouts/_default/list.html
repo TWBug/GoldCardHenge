@@ -15,7 +15,7 @@
     {{ end }}
     <div class="absolute inset-x-0 top-0 h-3/4 bg-gradient-to-b from-black to-transparent opacity-25 -z-1"></div>
     <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
-        <img src="/img/list-mountains.svg" alt="{{ i18n "taiwan_mountains" }}" class="block w-full">
+        <img src="/img/list-mountains.svg" alt="" class="block w-full" aria-hidden="true">
     </div>
     <div class="container px-12 lg:px-24">
         <div class="flex justify-between items-center lg:px-24">
@@ -53,11 +53,11 @@
                         </p>
                     </div>
                     {{ end }}
-                    
+
                     {{ if .Content }}
                     <div class="copy">{{ .Content }}</div>
                     {{ end }}
-                    
+
                 </div>
                 <div class="-mt-12">
                   {{ partial "aside/latest-news" . }}
