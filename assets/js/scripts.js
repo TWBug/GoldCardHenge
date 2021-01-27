@@ -50,7 +50,6 @@ window.highlight = {
     // )
   },
   replaceInDocument: function replaceInDocument(wrapper, pattern, string) {
-    ;
     [wrapper].concat(_toConsumableArray(wrapper.querySelectorAll('*:not(script):not(noscript):not(style)'))).forEach(function (_ref) {
       var _ref$childNodes = _toArray(_ref.childNodes),
           nodes = _ref$childNodes.slice(0);
@@ -60,9 +59,15 @@ window.highlight = {
         // console.info('nodeType', nodeType);
         return nodeType === document.ELEMENT_NODE;
       }).forEach(function (textNode) {
-        textNode.innerHTML = textNode.innerHTML.replace(pattern, string); // if (textNode.nodeName === 'P' || textNode.nodeName === 'H3' || textNode.nodeName === 'H2' ) {
-        //     console.info('textNode', textNode.nodeName);
-        // }
+        if (textNode.classList.contains('nohighlight')) {
+          return;
+        }
+
+        if (textNode.innerHTML.substr(0, 1) === '<') {
+          return;
+        }
+
+        textNode.innerHTML = textNode.innerHTML.replace(pattern, string);
       });
     });
   }
