@@ -21,7 +21,7 @@
             srcset="{{ $hero_small.RelPermalink }} 480w, {{ $hero_medium.RelPermalink }} 768w, {{ $hero_large.RelPermalink }} 1024w, {{ $hero_max.RelPermalink }} 1440w"
             src="{{ $hero_max.RelPermalink }}"
             loading="lazy"
-            alt="{{ .Summary | humanize }}" class="block w-full h-full object-cover object-left-bottom">
+            alt="{{ i18n "home_image_alt" }}" class="block w-full h-full object-cover object-left-bottom">
         </div>
         <div class="absolute right-0 bottom-0 flex-center w-full sm:w-2/3 xxl:w-1/2 h-full sm:h-2/3">
             <div class="w-full lg:w-5/6 p-12">
