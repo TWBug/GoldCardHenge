@@ -1,14 +1,14 @@
 ---
 draft: false
 start: false
-date: 2021-01-18T03:10:55.207Z
 summary: Set up an account on the Online Application Platform.
 check: true
 title: Registration
+date: 2021-01-18T03:10:55.207Z
 order: 1
 topic: goldcard
 previous: /apply/step-2/
-next: /apply/step-2/your-data/
+next: /apply/step-2/new-applicant/
 ---
 # Registration
 

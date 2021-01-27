@@ -2,13 +2,13 @@
 summary: 於外國專業人才申辦窗口平台註冊帳號
 draft: false
 check: true
-title: 註冊
 date: 2021-01-18T03:10:55.207Z
 order: 1
 topic: goldcard
 style: right
+title: 註冊
 previous: /apply/step-2/
-next: /apply/step-2/your-data/
+next: /apply/step-2/new-applicant/
 ---
 # 註冊
 
