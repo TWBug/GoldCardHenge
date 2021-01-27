@@ -43,16 +43,16 @@ for (let index = 0; index < html_files.length; index++) {
     }
 
     if (stats.h1 === false) {
-        console.info('no H1', html_files[index]);
+        console.info('no H1', cleanPath(html_files[index]));
     }
     if (stats.h1 === true && stats.h2 === false && stats.h3 === false) {
-        console.info('H1 and H3 but no H2', html_files[index]);
+        console.info('H1 and H3 but no H2', cleanPath(html_files[index]));
     }
     if (stats.h1 === true && stats.h2 === false && stats.h3 === false && stats.h4 === true) {
-        console.info('H1 and H4 but no H3 and H2', html_files[index]);
+        console.info('H1 and H4 but no H3 and H2', cleanPath(html_files[index]));
     }
     if (stats.h1 === true && stats.h2 === true && stats.h3 === false && stats.h4 === true) {
-        console.info('H1, H2 and H4 but no H3', html_files[index]);
+        console.info('H1, H2 and H4 but no H3', cleanPath(html_files[index]));
     }
 }
 
@@ -70,4 +70,9 @@ function readDir(relative_dir = '') {
             html_files.push(path.resolve(file_path));
         }
     });
+}
+
+function cleanPath(path_to_clean) {
+    const base = path.resolve('./public/');
+    return path_to_clean.substr(base.length)
 }
