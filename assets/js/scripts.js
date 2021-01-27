@@ -1862,6 +1862,117 @@ window.taAccordion = function () {
 };
 "use strict";
 
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+window.taAlert = function () {
+  return {
+    show: false,
+    options: {
+      name: 'ta-alert',
+      delay: 1500,
+      interval: 1 / 24
+    },
+    init: function init(options) {
+      var _this = this;
+
+      if (typeof options !== 'undefined') {
+        if (_typeof(options) !== 'object' || options instanceof Array) {
+          console.warn('Options are in wrong type - should be object - default options been used');
+        }
+
+        for (var _i = 0, _Object$entries = Object.entries(options); _i < _Object$entries.length; _i++) {
+          var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+              key = _Object$entries$_i[0],
+              value = _Object$entries$_i[1];
+
+          this.options[key] = value;
+        }
+      }
+
+      this.options.interval = parseFloat(this.options.interval);
+      this.options.delay = parseInt(this.options.delay); // checks if options are defined by data
+
+      for (var _i2 = 0, _Object$entries2 = Object.entries(this.$el.dataset); _i2 < _Object$entries2.length; _i2++) {
+        var _Object$entries2$_i = _slicedToArray(_Object$entries2[_i2], 2),
+            _key = _Object$entries2$_i[0],
+            _value = _Object$entries2$_i[1];
+
+        if (typeof this.options[_key] !== 'undefined') {
+          this.options[_key] = _value;
+        }
+      }
+
+      var storage = this.getStorage(this.options.name);
+      var date_now = new Date().getTime();
+      var date_last = date_now;
+
+      if (!isNaN(storage)) {
+        date_last = parseInt(storage);
+      }
+
+      if (date_now < date_last + this.options.interval * 60 * 60 * 1000) {
+        return;
+      }
+
+      setTimeout(function () {
+        _this.show = true;
+      }, this.options.delay);
+    },
+    hide: function hide() {
+      this.show = false;
+      this.setStorage(this.options.name, new Date().getTime());
+    },
+    setStorage: function setStorage(item, value) {
+      try {
+        localStorage.setItem(item, value);
+        return true;
+      } catch (e) {
+        if (e.name == 'NS_ERROR_FILE_CORRUPTED') {
+          alert(this.message);
+        }
+
+        this.setCookie(item, value);
+        return false;
+      }
+    },
+    getStorage: function getStorage(item) {
+      try {
+        return localStorage.getItem(item).replace(/(<([^>]+)>)/gi, '');
+      } catch (e) {
+        if (e.name == 'NS_ERROR_FILE_CORRUPTED') {
+          alert(this.message);
+        }
+
+        return this.getCookie(item);
+      }
+    },
+    setCookie: function setCookie(item, value) {
+      var expires = '';
+      var date = new Date();
+      date.setTime(date.getTime() + 12 * 30 * 24 * 60 * 60 * 1000);
+      expires = '; expires=' + date.toUTCString();
+      document.cookie = item + '=' + value + expires + '; path=/';
+    },
+    getCookie: function getCookie(item) {
+      var itemValue = document.cookie.match('(^|;) ?' + item + '=([^;]*)(;|$)');
+      return itemValue ? itemValue[2].replace(/(<([^>]+)>)/gi, '') : null;
+    }
+  };
+};
+"use strict";
+
 window.taToTop = function () {
   return {
     show: false,

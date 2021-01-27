@@ -26,6 +26,8 @@
   translation: '閱讀時間: %d 分鍾'
 - id: read_more
   translation: "了解更多"
+- id: close
+  translation: '關'
 - id: open_in_new_window
   translation: '開啟新視窗'
 - id: to_main_content

@@ -26,6 +26,8 @@
   translation: 'Reading time: %d minute(s)'
 - id: read_more
   translation: 'Read more'
+- id: close
+  translation: 'Close'
 - id: open_in_new_window
   translation: 'Open a new window'
 - id: to_main_content

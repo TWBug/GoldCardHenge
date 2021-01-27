@@ -25,7 +25,7 @@
         "babel": "npm run babel:admin && npm run babel:js-misc",
         "prehugo": "npm run babel && npm run lunr:index",
         "hugo": "hugo --gc -D --cleanDestinationDir --minify",
-        "accessibility": "node ./src/accessibility/headlines"
+        "accessibility": "node ./src/accessibility/headlines > ./result-headlines.txt"
     },
     "author": "TEGO Team <it@taiwangoldcard.tw>",
     "devDependencies": {
