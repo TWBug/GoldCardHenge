@@ -24,3 +24,16 @@ static/js-misc/lunr-search.js
 cypress/integration/examples
 cypress/videos
 cypress/screenshots
+
+assets/finder/js/Home.js
+assets/finder/js/Home.js.map
+assets/finder/js/Home~Result~Tree.js
+assets/finder/js/Home~Result~Tree.js.map
+assets/finder/js/Result.js
+assets/finder/js/Result.js.map
+assets/finder/js/Tree.js
+assets/finder/js/Tree.js.map
+assets/finder/js/chunk-vendors.js
+assets/finder/js/chunk-vendors.js.map
+assets/finder/js/index.js
+assets/finder/js/index.js.map
