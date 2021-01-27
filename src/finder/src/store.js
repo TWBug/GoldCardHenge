@@ -99,23 +99,7 @@ export default new Vuex.Store({
         getHome: (state) => {
             var questions = state.questions.filter((item) => item.tree_order === 0);
             return questions.sort((a, b) => {
-                let fa = a.question_text.en.toLowerCase(),
-                    fb = b.question_text.en.toLowerCase();
-                if (fa < fb) {
-                    return -1;
-                }
-                if (fa > fb) {
-                    return 1;
-                }
-                return 0;
-            });
-        },
-        getByTree: (state) => (id) => {
-            var questions = state.questions.filter((item) => {
-                if (item.tree_order === 0) {
-                    return false;
-                }
-                return item.tree_id === id;
+                return a.tree_id - b.tree_id;
             });
             // return questions.sort((a, b) => {
             //     let fa = a.question_text.en.toLowerCase(),
@@ -128,9 +112,28 @@ export default new Vuex.Store({
             //     }
             //     return 0;
             // });
+        },
+        getByTree: (state) => (id) => {
+            var questions = state.questions.filter((item) => {
+                if (item.tree_order === 0) {
+                    return false;
+                }
+                return item.tree_id === id;
+            });
             return questions.sort((a, b) => {
                 return a.tree_order - b.tree_order;
             });
+            // return questions.sort((a, b) => {
+            //     let fa = a.question_text.en.toLowerCase(),
+            //         fb = b.question_text.en.toLowerCase();
+            //     if (fa < fb) {
+            //         return -1;
+            //     }
+            //     if (fa > fb) {
+            //         return 1;
+            //     }
+            //     return 0;
+            // });
         },
         isTreeValid: (state) => (id) => {
             return state.tree_list.indexOf(id) === -1 ? false : true;
