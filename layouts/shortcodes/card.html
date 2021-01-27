@@ -27,6 +27,11 @@
 {{ end }}
 {{ end }}
 
+{{ $alt_truncated := $title | humanize | truncate 100 }}
+{{ if eq .Site.Language.Lang "zh" }}
+{{ $alt_truncated = $alt_truncated | truncate 70 }}
+{{ end }}
+
 <div class="inline-block w-full lg:w-1/2">
     <a
         href="{{ $link }}"
@@ -36,7 +41,7 @@
         <div class="relative w-full h-0 pb-16/9 min-h-32">
             <img
                 src="{{ $image.RelPermalink | safeURL }}"
-                alt=""
+                alt="{{ $alt_truncated }}"
                 class="block absolute inset-0 w-full h-full object-cover"
             />
         </div>
