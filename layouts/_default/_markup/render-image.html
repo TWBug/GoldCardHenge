@@ -18,8 +18,10 @@
 {{ $alt = $alt | truncate 70 }}
 {{ end }}
 
+{{ $id := $image | humanize | anchorize }}
+
 <div x-data="taImageViewer()">
-    <figure {{ with $caption }}aria-label="{{ . }}"{{ end }}>
+    <figure {{ with $caption }}aria-labelby="{{ $id }}"{{ end }} >
         <a href="{{ $image.RelPermalink }}" @click.prevent="toggleModal()">
             <img
                 sizes="100vw"
@@ -33,7 +35,7 @@
             />
         </a>
         {{ with $caption }}
-        <figcaption>
+        <figcaption id="{{ $id }}">
             <div class="text-xs leading-normal text-gray-700 my-2">
                 {{ . | markdownify }}
             </div>
