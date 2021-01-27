@@ -4,7 +4,7 @@ window.taAlert = () => {
         options: {
             name: 'ta-alert',
             delay: 1500,
-            interval: 1 / 24,
+            interval: 24,
         },
         init(options) {
             if (typeof options !== 'undefined') {

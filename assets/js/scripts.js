@@ -1887,7 +1887,7 @@ window.taAlert = function () {
     options: {
       name: 'ta-alert',
       delay: 1500,
-      interval: 1 / 24
+      interval: 24
     },
     init: function init(options) {
       var _this = this;
