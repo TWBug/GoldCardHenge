@@ -43,25 +43,29 @@
             {{ partial "breadcrumb" . }}
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24 mt-6">
                 <div class="lg:col-span-2">
-                    {{ range .RegularPages}}
-                    <div class="text-left mb-6">
-                        <h2 class="text-2xl font-bold text-primary mb-1">
-                            <a href="{{.RelPermalink}}" class="hover:text-black focus:text-black">{{.Title}}</a>
-                        </h2>
-                        <p class="text-base">
-                            {{ .Summary | truncate 180 }}
-                        </p>
-                    </div>
-                    {{ end }}
+                    <main>
+                        {{ range .RegularPages}}
+                        <div class="text-left mb-6">
+                            <h2 class="text-2xl font-bold text-primary mb-1">
+                                <a href="{{.RelPermalink}}" class="hover:text-black focus:text-black">{{.Title}}</a>
+                            </h2>
+                            <p class="text-base">
+                                {{ .Summary | truncate 180 }}
+                            </p>
+                        </div>
+                        {{ end }}
 
-                    {{ if .Content }}
-                    <div class="copy">{{ .Content }}</div>
-                    {{ end }}
+                        {{ if .Content }}
+                        <div class="copy">{{ .Content }}</div>
+                        {{ end }}
+                    </main>
 
                 </div>
-                <div class="-mt-12">
-                  {{ partial "aside/latest-news" . }}
-                  {{ partial "aside/apply-now" . }}
+                <div class="print:hidden -mt-12">
+                    <aside>
+                    {{ partial "aside/latest-news" . }}
+                    {{ partial "aside/apply-now" . }}
+                    </aside>
                 </div>
             </div>
         </div>
