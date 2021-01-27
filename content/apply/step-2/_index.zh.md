@@ -2,7 +2,13 @@
 title: 申請步驟二：線上申請
 date: 2021-01-18T03:14:03.141Z
 summary: 準備申請了嗎？請依照以下步驟！
+check: false
 order: 0
+topic: goldcard
+cover_image: /cms-uploads/icon-checklist.svg
+cover_image_alt: Icon with checklist application process
+previous: /apply/step-1/
+next: /apply/step-2/registration/
 ---
 ![就業金卡申請流程圖](/cms-uploads/流程圖-01.png "就業金卡申請流程圖")
 
