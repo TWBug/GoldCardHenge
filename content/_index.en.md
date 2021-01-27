@@ -13,4 +13,4 @@ categories: null
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: null
 ---
-Due to the Lunar New Year Holiday, the Taiwan Gold Card Office will be *closed from February 10 to February 16*. The helpdesk not operate and application processing will be delayed during this period, please accept our apologies for the inconvenience.
+Due to the Lunar New Year Holiday, the Taiwan Gold Card Office will be **closed from February 10 to February 16**. The helpdesk not operate and application processing will be delayed during this period, please accept our apologies for the inconvenience.
