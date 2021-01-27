@@ -32,7 +32,7 @@
                 >
                     <div class="copy text-base font-regular">{{ .Content }}</div>
                     <div class="text-right">
-                        <a href="{{.RelPermalink}}" class="inline-block text-primary" target="_blank">
+                        <a href="{{.RelPermalink}}" class="inline-block text-primary" target="_blank" title="{{ i18n "open_in_new_window"}}">
                             {{ partial "icon" (dict "name" "link" "size" "4" "alt" "Link to FAQ") }}
                         </a>
                     </div>

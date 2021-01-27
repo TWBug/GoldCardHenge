@@ -44,7 +44,7 @@
                     {{ i18n "footer_description" }}
                     </h2>
                     <div class="my-4">
-                        <a href="{{ .Site.Language.Params.linkedin}}" class="inline-block focus-white" target="_blank">
+                        <a href="{{ .Site.Language.Params.linkedin}}" class="inline-block focus-white" target="_blank"  title="{{ i18n "open_in_new_window"}}">
                             {{ $linkedin_icon := resources.Get "img/icons/linkedin-white.svg" }}
                             <img src="{{ $linkedin_icon.RelPermalink }}" class="block h-8" alt="{{ i18n "link_linkedin_page" }}">
                         </a>

@@ -18,7 +18,7 @@
                     {{ if eq .is_cta true }}
                     <a
                     href="{{ .href }}"
-                    {{ if eq .new_window true }} target="_blank" {{ end }}
+                    {{ if eq .new_window true }} target="_blank" title="{{ i18n "open_in_new_window"}}" {{ end }}
                     class="bg-primary rounded-md force-text-white force-no-underline font-bold text-xl leading-none shadow-xl px-8 py-4 mr-4 focus-primary"
                     >
                     {{ else }}

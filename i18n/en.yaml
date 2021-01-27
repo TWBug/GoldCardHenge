@@ -24,6 +24,8 @@
   translation: 'Reading time: %d minute(s)'
 - id: read_more
   translation: 'Read more'
+- id: open_in_new_window
+  translation: 'Opens a new window'
 - id: last_changed
   translation: 'Last changed'
 - id: table_of_contents
