@@ -9,6 +9,12 @@ readDir();
 for (let index = 0; index < html_files.length; index++) {
     const data = fs.readFileSync(html_files[index], { encoding: 'utf8', flag: 'r' });
     const html = HTMLParser.parse(data);
+
+    var body = html.querySelector('body');
+    if (body === null) {
+        continue;
+    }
+
     const stats = {
         h1: false,
         h2: false,
@@ -16,36 +22,36 @@ for (let index = 0; index < html_files.length; index++) {
         h4: false,
         h5: false,
         h6: false,
-    }
+    };
     var headline1 = html.querySelector('h1');
     if (headline1 !== null) {
-        stats.h1 = true
+        stats.h1 = true;
     }
     var headline2 = html.querySelector('h2');
     if (headline2 !== null) {
-        stats.h2 = true
+        stats.h2 = true;
     }
     var headline3 = html.querySelector('h3');
     if (headline3 !== null) {
-        stats.h3 = true
+        stats.h3 = true;
     }
     var headline4 = html.querySelector('h4');
     if (headline4 !== null) {
-        stats.h4 = true
+        stats.h4 = true;
     }
     var headline5 = html.querySelector('h5');
     if (headline5 !== null) {
-        stats.h5 = true
+        stats.h5 = true;
     }
     var headline6 = html.querySelector('h6');
     if (headline6 !== null) {
-        stats.h6 = true
+        stats.h6 = true;
     }
 
     if (stats.h1 === false) {
         console.info('no H1', cleanPath(html_files[index]));
     }
-    if (stats.h1 === true && stats.h2 === false && stats.h3 === false) {
+    if (stats.h1 === true && stats.h2 === false && stats.h3 === true) {
         console.info('H1 and H3 but no H2', cleanPath(html_files[index]));
     }
     if (stats.h1 === true && stats.h2 === false && stats.h3 === false && stats.h4 === true) {
@@ -74,5 +80,5 @@ function readDir(relative_dir = '') {
 
 function cleanPath(path_to_clean) {
     const base = path.resolve('./public/');
-    return path_to_clean.substr(base.length)
+    return path_to_clean.substr(base.length);
 }
