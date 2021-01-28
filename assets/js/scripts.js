@@ -1887,6 +1887,8 @@ window.taAlert = function () {
     options: {
       name: 'ta-alert',
       delay: 1500,
+      timeout: 0,
+      language: 'en',
       interval: 24
     },
     init: function init(options) {
@@ -1904,10 +1906,8 @@ window.taAlert = function () {
 
           this.options[key] = value;
         }
-      }
+      } // checks if options are defined by data
 
-      this.options.interval = parseFloat(this.options.interval);
-      this.options.delay = parseInt(this.options.delay); // checks if options are defined by data
 
       for (var _i2 = 0, _Object$entries2 = Object.entries(this.$el.dataset); _i2 < _Object$entries2.length; _i2++) {
         var _Object$entries2$_i = _slicedToArray(_Object$entries2[_i2], 2),
@@ -1917,29 +1917,45 @@ window.taAlert = function () {
         if (typeof this.options[_key] !== 'undefined') {
           this.options[_key] = _value;
         }
-      }
+      } // convert values to the right format
 
-      var storage = this.getStorage(this.options.name);
+
+      this.options.interval = parseFloat(this.options.interval);
+      this.options.delay = parseInt(this.options.delay);
+      this.options.timeout = parseInt(this.options.timeout); // check if user clicked away
+      // get last time user clicked
+
+      var storage = this.getStorage();
       var date_now = new Date().getTime();
       var date_last = date_now;
 
       if (!isNaN(storage)) {
         date_last = parseInt(storage);
-      }
+      } // if user clicked but in actual interval
+
 
       if (date_now < date_last + this.options.interval * 60 * 60 * 1000) {
         return;
-      }
+      } // set timeout for delay to show alert
+
 
       setTimeout(function () {
         _this.show = true;
-      }, this.options.delay);
+      }, this.options.delay); // if timeout is set alert will be gone after this amount of ms
+
+      if (this.options.timeout > 0) {
+        setTimeout(function () {
+          _this.show = false;
+        }, this.options.delay + this.options.timeout);
+      }
     },
     hide: function hide() {
       this.show = false;
-      this.setStorage(this.options.name, new Date().getTime());
+      this.setStorage(new Date().getTime());
     },
-    setStorage: function setStorage(item, value) {
+    setStorage: function setStorage(value) {
+      var item = this.options.name + '-' + this.options.language;
+
       try {
         localStorage.setItem(item, value);
         return true;
@@ -1952,7 +1968,9 @@ window.taAlert = function () {
         return false;
       }
     },
-    getStorage: function getStorage(item) {
+    getStorage: function getStorage() {
+      var item = this.options.name + '-' + this.options.language;
+
       try {
         return localStorage.getItem(item).replace(/(<([^>]+)>)/gi, '');
       } catch (e) {
