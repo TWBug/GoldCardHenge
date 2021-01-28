@@ -7,7 +7,13 @@
 - id: change_language_to
   translation: '語言'
 - id: click_to_see_more_details
-  translation: 'Click to get more details '
+  translation: '點擊獲取更多詳細信息'
+- id: click_to_hide_more_details
+  translation: '單擊以隱藏更多詳細信息'
+- id: stop_animation
+  translation: '停止動畫'
+- id: stopped_animation
+  translation: '動畫已停止'
 - id: tego
   translation: '台灣就業金卡辦公室'
 - id: tego_logo

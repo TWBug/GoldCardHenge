@@ -8,6 +8,12 @@
   translation: 'Change language to '
 - id: click_to_see_more_details
   translation: 'Click to get more details about'
+- id: click_to_hide_more_details
+  translation: 'Click to hide more details '
+- id: stop_animation
+  translation: 'Stop animation'
+- id: stopped_animation
+  translation: 'Animation stopped'
 - id: tego
   translation: 'Taiwan Employment Gold Card Office'
 - id: tego_logo

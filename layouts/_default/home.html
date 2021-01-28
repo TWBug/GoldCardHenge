@@ -1,3 +1,12 @@
+{{ define "head" }}
+{{ $map := resources.Get "css/map.min.css" }}
+{{ if $map }}
+{{ $map = $map | fingerprint }}
+{{ end }}
+{{ partial "head/alpine" ( dict "spruce" "true" "cdn" .Site.Params.loadFromCDN ) }}
+<link href="{{ $map.RelPermalink }}" rel="stylesheet" />
+{{ end }}
+
 {{ define "main" }}
 
 {{ $hero := (.Site.GetPage "/home").Resources.GetMatch "hero*" }}

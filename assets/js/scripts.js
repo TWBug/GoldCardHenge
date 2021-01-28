@@ -966,36 +966,77 @@ window.taMainContent = function () {
 };
 "use strict";
 
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 window.taMap = function () {
   return {
     status: false,
     elements: [],
     play: [],
-    // test: 'test',
+    stop: false,
     active: -1,
     modal: false,
+    title: '',
+    titleButton: [],
     wrapper: {},
     data: {},
     "default": {},
     options: {
       ref: 'map',
-      file: 'file'
+      file: 'file',
+      titleStop: '',
+      titlePlay: ''
     },
     init: function init() {
       var _this = this;
+
+      // checks if options are defined by data
+      for (var _i = 0, _Object$entries = Object.entries(this.$el.dataset); _i < _Object$entries.length; _i++) {
+        var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+            key = _Object$entries$_i[0],
+            value = _Object$entries$_i[1];
+
+        if (typeof this.options[key] !== 'undefined') {
+          this.options[key] = value;
+        }
+      }
 
       var content = this.$el.querySelectorAll('.member');
 
       for (var index = 0; index < content.length; index++) {
         this.elements.push(content[index]);
         this.play.push(true);
+        this.titleButton.push(content[index].dataset.titleShow);
       }
 
       var wrapper = this.$el.querySelector('.wrapper');
       this.wrapper = {
         left: wrapper.offsetLeft,
         width: wrapper.innerWidth
-      }; // check if element is in the viewport -> start counting
+      };
+
+      if (this.options.titleStop.length > 0) {
+        this.title = this.options.titleStop;
+        this.$watch('stop', function (value) {
+          if (value === true) {
+            _this.title = _this.options.titlePlay;
+            return;
+          }
+
+          _this.title = _this.options.titleStop;
+        });
+      } // check if element is in the viewport -> start counting
+
 
       window.addEventListener('scroll', function () {
         _this.startAnimation();
@@ -1008,7 +1049,14 @@ window.taMap = function () {
       this.play[this.active] = true;
       this.play[index] = !this.play[index];
       this.active = index;
-      this.modal = true;
+      this.modal = !this.modal;
+
+      if (this.modal === true) {
+        this.titleButton[index] = this.elements[index].dataset.titleHide;
+      } else {
+        this.titleButton[index] = this.elements[index].dataset.titleShow;
+      }
+
       this.data = {
         name: this.elements[index].dataset.name,
         image: this.elements[index].dataset.image,
@@ -1025,12 +1073,15 @@ window.taMap = function () {
     closeModal: function closeModal() {
       this.modal = false;
       this.play[this.active] = true;
+      this.active = -1;
+
+      if (this.stop === true) {
+        return;
+      }
 
       for (var index = 0; index < this.play.length; index++) {
         this.play[index] = true;
       }
-
-      this.active = -1;
     },
     startAnimation: function startAnimation() {
       var _this2 = this;
@@ -1052,6 +1103,13 @@ window.taMap = function () {
             }
           }, 40);
         }
+      }
+    },
+    stopAnimation: function stopAnimation() {
+      this.stop = true;
+
+      for (var index = 0; index < this.play.length; index++) {
+        this.play[index] = false;
       }
     },
     isInViewport: function isInViewport() {
