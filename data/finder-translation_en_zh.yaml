@@ -18,6 +18,18 @@ en:
       translation: Result
     - key: no_result
       translation: No result
+    - key: select_question
+      translation: Select this question
+    - key: unselect_question
+      translation: Unselect this question
+    - key: show
+      translation: Show
+    - key: show_details
+      translation: Show details
+    - key: hide
+      translation: Hide
+    - key: hide_details
+      translation: Hide details
     - key: question
       translation: Question
     - key: loading
@@ -125,6 +137,18 @@ zh:
       translation: Result
     - key: no_result
       translation: No result
+    - key: select_question
+      translation: Select this question
+    - key: unselect_question
+      translation: Unselect this question
+    - key: show
+      translation: Show
+    - key: show_details
+      translation: Show details
+    - key: hide
+      translation: Hide
+    - key: hide_details
+      translation: Hide details
     - key: question
       translation: Question
     - key: loading
