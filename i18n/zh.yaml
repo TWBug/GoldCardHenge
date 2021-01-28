@@ -184,22 +184,28 @@
   translation: '金卡社區會員'
 - id: link_linkedin_page
   translation: '鏈接到 LinkedIn 頁面'
+- id: contact_form_title
+  translation: '與我們交談'
+- id: contact_form_submit
+  translation: '發送問題'
+- id: contact_form_message
+  translation: '謝謝你的問題'
 - id: contact_widget_banner
-  translation: 'ZH Talk to us'
+  translation: '問你的問題'
 - id: contact_widget_launcher
-  translation: 'Talk to us'
+  translation: '問你的問題'
 - id: contact_widget_title
-  translation: 'Please enter your information'
+  translation: '請輸入您的信息'
 - id: contact_widget_submit
-  translation: 'Send'
+  translation: '發送'
 - id: contact_widget_confirmation
-  translation: 'Thank you, we got the message!'
+  translation: '謝謝，我們收到了消息！'
 - id: contact_widget_frustration_banner
-  translation: 'Can we help?'
+  translation: '我們可以幫忙嗎'
 - id: contact_widget_frustration_description
-  translation: 'We noticed that you are stuck. Tell us what you tried to accomplish and our support team will get back to you as soon as possible.'
+  translation: '我們注意到您被困住了。 告訴我們您要完成的工作，我們的支持團隊將盡快與您聯繫。'
 - id: contact_widget_frustration_confirmation
-  translation: 'Thank you. We will be in touch!'
+  translation: '謝謝。 我們將聯繫！'
   
 - id: undefined
   translation: 'UNDEFINED'

@@ -188,10 +188,16 @@
   translation: 'Gold Card community member'
 - id: link_linkedin_page
   translation: 'Link to LinkedIn page'
-- id: contact_widget_banner
-  translation: 'EN Talk to us'
-- id: contact_widget_launcher
+- id: contact_form_title
   translation: 'Talk to us'
+- id: contact_form_submit
+  translation: 'Send question'
+- id: contact_form_message
+  translation: 'Thank you for your question'
+- id: contact_widget_banner
+  translation: 'Ask your question'
+- id: contact_widget_launcher
+  translation: 'Ask your question'
 - id: contact_widget_title
   translation: 'Please enter your information'
 - id: contact_widget_submit
