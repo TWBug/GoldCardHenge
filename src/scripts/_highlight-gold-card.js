@@ -42,7 +42,6 @@ window.highlight = {
         ].forEach(({ childNodes: [...nodes] }) =>
             nodes
                 .filter(({ nodeType }) => {
-                    // console.info('nodeType', nodeType);
                     return nodeType === document.ELEMENT_NODE;
                 })
                 .forEach((textNode) => {
@@ -50,6 +49,9 @@ window.highlight = {
                         return;
                     }
                     if (textNode.innerHTML.substr(0,1) === '<') {
+                        return
+                    }
+                    if (textNode.innerHTML.indexOf(string) !== -1) {
                         return
                     }
                     textNode.innerHTML = textNode.innerHTML.replace(pattern, string);

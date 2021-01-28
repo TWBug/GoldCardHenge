@@ -56,7 +56,6 @@ window.highlight = {
 
       return nodes.filter(function (_ref2) {
         var nodeType = _ref2.nodeType;
-        // console.info('nodeType', nodeType);
         return nodeType === document.ELEMENT_NODE;
       }).forEach(function (textNode) {
         if (textNode.classList.contains('nohighlight')) {
@@ -64,6 +63,10 @@ window.highlight = {
         }
 
         if (textNode.innerHTML.substr(0, 1) === '<') {
+          return;
+        }
+
+        if (textNode.innerHTML.indexOf(string) !== -1) {
           return;
         }
 
