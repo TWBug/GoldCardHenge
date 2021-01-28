@@ -35,7 +35,7 @@
         <div class="relative container py-12 px-12 lg:px-24">
             <div class="w-1/2 max-w-28 py-6">
             <a href="/{{ .Site.Language.Lang }}/" class="block focus-white">
-                <img src="{{ $logo.RelPermalink }}" class="w-full" alt="{{ i18n "tego_logo" }}" />
+                <img src="{{ $logo.RelPermalink }}" class="w-full" alt="{{ partial "alt" ( dict "alt" (i18n "tego_logo") "lang" .Site.Language.Lang ) }}" />
             </a>
             </div>
             <div class="flex flex-wrap sm:flex-no-wrap text-white print:text-black">
@@ -46,7 +46,7 @@
                     <div class="my-4">
                         <a href="{{ .Site.Language.Params.linkedin}}" class="inline-block focus-white" target="_blank"  title="{{ i18n "open_in_new_window"}}">
                             {{ $linkedin_icon := resources.Get "img/icons/linkedin-white.svg" }}
-                            <img src="{{ $linkedin_icon.RelPermalink }}" class="block h-8" alt="{{ i18n "link_linkedin_page" }}">
+                            <img src="{{ $linkedin_icon.RelPermalink }}" class="block h-8" alt="{{ partial "alt" ( dict "alt" (i18n "link_linkedin_page") "lang" .Site.Language.Lang ) }}">
                         </a>
                     </div>
                     {{ $helpdesk := .Site.GetPage "/help-desk" }}

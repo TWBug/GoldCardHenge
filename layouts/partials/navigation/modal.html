@@ -28,7 +28,7 @@
     </button>
     <div class="flex flex-col h-full">
         <a href="{{ .Site.Home.RelPermalink }}" class="block pt-10 pl-6 pb-4 focus-white">
-            <img src="{{ $logo.RelPermalink }}" class="w-1/2" alt="{{ i18n "tego_logo" }}" />
+            <img src="{{ $logo.RelPermalink }}" class="w-1/2" alt="{{ partial "alt" ( dict "alt" (i18n "tego_logo") "lang" .Site.Language.Lang ) }}" />
         </a>
         <div class="flex items-center border-t border-b border-white border-opacity-50 mt-4 px-8" x-data="taLanguage()" x-init="init()">
             <div class="mr-2">
