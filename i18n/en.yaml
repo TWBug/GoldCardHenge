@@ -26,6 +26,10 @@
   translation: 'Reading time: %d minute(s)'
 - id: read_more
   translation: 'Read more'
+- id: show_answer
+  translation: 'Show answer'
+- id: hide_answer
+  translation: 'Hide answer'
 - id: close
   translation: 'Close'
 - id: open_in_new_window

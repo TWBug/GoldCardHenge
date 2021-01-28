@@ -26,6 +26,10 @@
   translation: '閱讀時間: %d 分鍾'
 - id: read_more
   translation: "了解更多"
+- id: show_answer
+  translation: '顯示答案'
+- id: hide_answer
+  translation: '隱藏答案'
 - id: close
   translation: '關'
 - id: open_in_new_window

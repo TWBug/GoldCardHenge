@@ -1819,8 +1819,11 @@ window.taAccordion = function () {
     show: false,
     link: '',
     shortcut: false,
+    title: '',
     options: {
-      shortcut: true
+      shortcut: true,
+      titleShow: '',
+      titleHide: ''
     },
     init: function init() {
       var _this = this;
@@ -1836,10 +1839,16 @@ window.taAccordion = function () {
         }
       }
 
-      this.options.shortcut = this.options.shortcut == true ? true : false;
+      if (this.options.titleShow.length > 0) {
+        this.title = this.options.titleShow;
+        this.$watch('show', function (value) {
+          if (value === true) {
+            _this.title = _this.options.titleHide;
+            return;
+          }
 
-      if (this.options.shortcut !== true) {
-        return;
+          _this.title = _this.options.titleShow;
+        });
       } // if (typeof this.$store === 'undefined') {
       //     return false;
       // }
@@ -1852,6 +1861,12 @@ window.taAccordion = function () {
       //     tags: tags,
       // };
 
+
+      this.options.shortcut = this.options.shortcut == true ? true : false;
+
+      if (this.options.shortcut !== true) {
+        return;
+      }
 
       this.$el.addEventListener('keydown', function (key) {
         if (key.ctrlKey === true && key.keyCode === 68) {
