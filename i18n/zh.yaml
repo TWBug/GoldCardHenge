@@ -216,6 +216,8 @@
   translation: '我們注意到您被困住了。 告訴我們您要完成的工作，我們的支持團隊將盡快與您聯繫。'
 - id: contact_widget_frustration_confirmation
   translation: '謝謝。 我們將聯繫！'
+- id: noscript_home_map_info
+  translation: '使用激活的javascript，您將看到有關Gold Card社區的更多詳細信息，一些成員來自何處以及他們的工作。'
   
 - id: undefined
   translation: 'UNDEFINED'

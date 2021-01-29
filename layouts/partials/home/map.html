@@ -12,6 +12,21 @@
         </div>
         <div class="relative my-6">
             <div id="map" x-ref="map" class="relative overflow-x-auto">
+                <div class="absolute right-0 bottom-0 p-2 z-10" x-cloak>
+                    <button
+                        type="button"
+                        class="block text-xs font-bold text-primary focus-primary p-2"
+                        @click.prevent="stopAnimation()"
+                        :aria-pressed="stop"
+                        >
+                        <span x-show="!stop">
+                            {{ i18n "stop_animation" }}
+                        </span>
+                        <span x-show="stop">
+                            {{ i18n "stopped_animation" }}
+                        </span>
+                    </button>
+                </div>
                 {{/*  <span x-text="test" class="absolute inset-x-0 text-center"></span>  */}}
                 <div class="wrapper">
                     {{range $index, $element := (shuffle $data.map.items)}}
@@ -85,20 +100,10 @@
         <div class="mx-auto w-full sm:w-3/4 text-center px-12 lg:px-24 font-regular text-base">
             {{ $map.Summary | markdownify }}
         </div>
-        <div class="text-center my-4">
-            <button
-                type="button"
-                class="inline-block font-bold text-primary focus-primary"
-                @click.prevent="stopAnimation()"
-                :aria-pressed="stop"
-                >
-                <span x-show="!stop">
-                    {{ i18n "stop_animation" }}
-                </span>
-                <span x-show="stop">
-                    {{ i18n "stopped_animation" }}
-                </span>
-            </button>
-        </div>
+        <noscript>
+            <div class="text-center border-2 border-red-800 font-bold text-red-800 m-8 p-4 max-w-xl mx-auto">
+                {{ i18n "noscript_home_map_info" }}
+            </div>
+        </noscript>
     </div>
 </div>
