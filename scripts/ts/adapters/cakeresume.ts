@@ -9,16 +9,27 @@ type CakeAppState = typeof __APP_INITIAL_REDUX_STATE__;
 
 export default class CakeResumeAdapter implements IAdapter {
     url: string;
+    hostname: string;
     data: null | CakeAppState = null;
     raw: null | string = null;
+
     constructor(url: string) {
         this.url = url;
+        this.hostname = new URL(url).hostname;
     }
 
     async getRaw() {
-        if (this.raw) return this.raw;
-        await this.getJobs();
-        return this.raw;
+        if (!this.raw) {
+            await this.getJobs();
+        }
+        return this.raw as string;
+    }
+
+    async getParsed() {
+        if (!this.data) {
+            await this.getJobs();
+        }
+        return this.data as CakeAppState;
     }
 
     async getJobs(options = {}) {
@@ -55,16 +66,25 @@ export default class CakeResumeAdapter implements IAdapter {
         x.location_list;
         x.tag_list;
 
+        const baseUrl = 'https://www.cakeresume.com';
+
         return hits.map((x) => {
+            const companyUrl = `${baseUrl}/companies/${x.page.path}`;
+            const jobUrl = `${companyUrl}/jobs/${x.path}`;
             return {
-                source: 'Cake Resume',
-                initial_id: x.objectID,
+                data_source_name: 'Cake Resume',
+                data_source_hostname: this.hostname,
+                data_source_url: this.url,
+                data_source_internal_id: x.objectID,
                 created_at: new Date(),
                 title: x.title,
-                html_url: '', // @todo Hrm..
+                company_name: x.page.name,
+                html_url: jobUrl,
+                html_company_url: companyUrl,
                 salary_text: x.salary_range.map((y) => x.salary_currency + y).join(' - '),
                 location_list: x.location_list,
                 tag_list: x.tag_list,
+                description: x.description_plain_text,
             };
         });
     }

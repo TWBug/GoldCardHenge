@@ -2,8 +2,9 @@ import fs from 'fs';
 import assert from 'assert';
 import CakeResumeAdapter from './adapters/cakeresume';
 import { debug } from 'console';
+import { IAdapterConstructor } from './types/adapter';
 
-const MAPPINGS = {
+const MAPPINGS: { [k: string]: IAdapterConstructor } = {
     'www.cakeresume.com': CakeResumeAdapter,
 };
 
@@ -31,9 +32,10 @@ const main = async (url: string) => {
 
     try {
         const jobs = await adapter.getJobs({ headers });
+        const parsed = await adapter.getParsed();
         const raw = await adapter.getRaw();
 
-        return { raw, jobs };
+        return { raw, jobs, parsed };
     } catch (err) {
         console.error('Error parsing JSON app state. Rethrowing to top lovel');
         throw err;
@@ -41,8 +43,12 @@ const main = async (url: string) => {
 };
 
 main(process.argv[2]).then(
-    ({ raw, jobs }) => {
+    ({ raw, jobs, parsed }) => {
         fs.writeFileSync('tmp/cake-jobs.raw.js', raw.replace(/^window/, 'module.exports'), {
+            encoding: 'utf-8',
+        });
+
+        fs.writeFileSync('tmp/cake-jobs.parsed.json', JSON.stringify(parsed, null, 2), {
             encoding: 'utf-8',
         });
 
@@ -50,7 +56,9 @@ main(process.argv[2]).then(
             encoding: 'utf-8',
         });
 
-        const titles = jobs.map((x) => '  - ' + x.title).join('\n');
+        const titles = jobs
+            .map((x) => `  -  ${x.title} (${x.company_name}) <${x.html_url}>`)
+            .join('\n');
 
         console.log('Found jobs. For full job JSON and raw JSON output see:');
         console.log('  ./tmp/cake-jobs.json');
