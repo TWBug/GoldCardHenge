@@ -52,18 +52,17 @@ const main = async () => {
     const data = yaml.load(fs.readFileSync(filepath, { encoding: 'utf-8' }));
     // @ts-ignore
     const urls: string[] = data?.items?.map((x) => x.url);
-    const result: IDBRowJob[][] = [];
+    // const result: IDBRowJob[][] = [];
 
-    for (let url of urls) {
-        try {
-            const jobs = await getJobs(url);
-            result.push(jobs);
-        } catch (err) {
-            console.error('The following URL errored out: ', url);
-            console.error(err);
-            continue;
-        }
-    }
+    const result: IDBRowJob[][] = await Promise.all(
+        urls.map((x) => {
+            return getJobs(x).catch((err) => {
+                console.error('The following URL errored out: ', x);
+                console.error(err);
+                return []; // Ignore the error by returning the appropriate type
+            });
+        })
+    );
 
     const jobs = result.flat();
 
