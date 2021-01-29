@@ -54,9 +54,9 @@ window.taAccordion = function () {
         },
         toggle() {
             this.show = !this.show;
-            if (document.activeElement === this.$refs.button) {
-                this.link = this.$refs.link.value;
-            }
+            // if (document.activeElement === this.$refs.button) {
+            //     this.link = this.$refs.link.value;
+            // }
         },
     };
 };

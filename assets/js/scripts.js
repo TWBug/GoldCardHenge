@@ -895,6 +895,7 @@ window.taMainContent = function () {
   // https://www.w3.org/TR/WCAG-TECHS/G1.html
   return {
     href: '',
+    id: '',
     offsetTop: 0,
     options: {
       tag: 'h1',
@@ -943,8 +944,10 @@ window.taMainContent = function () {
         element[0].id = this.options.fallback;
       } else {
         element_id = element[0].id;
-      }
+      } // set the id of the found element
 
+
+      this.id = element[0].id;
       var scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
 
       if (scrollNavHeight === '') {
@@ -957,6 +960,11 @@ window.taMainContent = function () {
       this.href = window.location.pathname + '#' + element_id;
     },
     go: function go() {
+      var main_content = document.getElementById('maincontent');
+      console.info('main_content', main_content);
+      var test = main_content.querySelector('a:first-of-type');
+      test.focus();
+      console.info('test', test);
       scroll({
         top: parseInt(this.offsetTop) - parseInt(this.options.offset),
         behavior: 'smooth'
@@ -1933,11 +1941,9 @@ window.taAccordion = function () {
       });
     },
     toggle: function toggle() {
-      this.show = !this.show;
-
-      if (document.activeElement === this.$refs.button) {
-        this.link = this.$refs.link.value;
-      }
+      this.show = !this.show; // if (document.activeElement === this.$refs.button) {
+      //     this.link = this.$refs.link.value;
+      // }
     }
   };
 };

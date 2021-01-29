@@ -18,6 +18,11 @@
         <span x-show="!show"> {{ partial "icon" (dict "name" "plus" "size" "6" "alt" (i18n "show_answer") ) }} </span>
         <span x-show="show" x-cloak> {{ partial "icon" (dict "name" "minus" "size" "6" "alt"  (i18n "hide_answer") ) }} </span>
     </button>
+    <noscript>
+        <div class="text-base font-medium leading-7 pt-6 pb-2">
+            {{ .Inner | markdownify }}
+        </div>
+    </noscript>
     <div
         id="{{ printf "accordion-content-%s" $id }}"
         class="text-base font-medium leading-7 pt-6 pb-2"
