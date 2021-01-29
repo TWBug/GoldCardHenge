@@ -9,19 +9,27 @@
  * Use the generated file, not this TS file.
  */
 
-import db from "./db";
+import cheerio from 'cheerio';
+import got from 'got';
 
-// @ts-ignore
-global.db = db;
+import db from './db';
 
-// Also include knex as a global so pasting examples from the docs works
-// @ts-ignore
-global.knex = db;
+// Expose globals
+for (let [k, v] of Object.entries({
+    got,
+    cheerio,
+    db,
+    knex: db, // Also include knex as a global so pasting examples from the docs works
+})) {
+    //@ts-ignore
+    global[k] = v;
+    console.log(`[INFO] - Exposing ${k}`);
+}
 
-console.log("[INFO] - Access the db using the global `db` object.");
-console.log("[INFO] - db is an instance of Knex: https://knexjs.org/#Builder-select");
-console.log("[INFO] - Top-level await is available. Examples:");
-console.log("[INFO]");
+console.log('[INFO] - Access the db using the global `db` object.');
+console.log('[INFO] - db is an instance of Knex: https://knexjs.org/#Builder-select');
+console.log('[INFO] - Top-level await is available. Examples:');
+console.log('[INFO]');
 console.log(
-  "[INFO]       var user = await db.select().from('user_metadata').where({ id: 1 }).first()",
+    "[INFO]       var user = await db.select().from('user_metadata').where({ id: 1 }).first()"
 );
