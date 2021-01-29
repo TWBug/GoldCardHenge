@@ -13,7 +13,6 @@ categories: null
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: null
 ---
-
 ## Taiwan Gold Card Help Desk
 
 The Taiwan Gold Card Office operates a bi-lingual helpdesk for applicants and current cardholders. 
@@ -27,3 +26,9 @@ For any questions related to the Gold Card or your move to Taiwan.
 (GMT+8)9:00-12:00；14:00-18:00
 
 +886 2-7733-7660
+
+## Open Office Hours: (Please make an appointment by email.)
+
+WED. 14:00-17:00
+
+THU. 14:00-17:00
