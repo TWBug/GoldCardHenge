@@ -6,6 +6,7 @@ window.taMainContent = function () {
         options: {
             tag: 'h1',
             fallback: 'maincontent',
+            wrapper: 'scroll',
             offset: 0,
         },
         init(options) {
@@ -41,6 +42,10 @@ window.taMainContent = function () {
             } else {
                 element_id = element[0].id;
             }
+
+            // set the id of the found element
+            this.id = element[0].id;
+
             var scrollNavHeight = document.documentElement.style.getPropertyValue(
                 '--navigationScroll'
             );
@@ -59,6 +64,23 @@ window.taMainContent = function () {
                 top: parseInt(this.offsetTop) - parseInt(this.options.offset),
                 behavior: 'smooth',
             });
+            const wrapper = document.getElementById(this.options.wrapper);
+            if (wrapper === null) {
+                return
+            }
+            const focus = wrapper.querySelector('a:first-of-type, input:first-of-type, button:first-of-type');
+            console.info('focus', focus);
+            if (focus === null) {
+                return
+            }
+            focus.focus();
+            // console.info('main_content', main_content);
+            // const test = main_content.querySelector('a:first-of-type');
+            // console.info('test', test);
+            // scroll({
+            //     top: parseInt(this.offsetTop) - parseInt(this.options.offset),
+            //     behavior: 'smooth',
+            // });
         },
     };
 };

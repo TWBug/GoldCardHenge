@@ -895,11 +895,11 @@ window.taMainContent = function () {
   // https://www.w3.org/TR/WCAG-TECHS/G1.html
   return {
     href: '',
-    id: '',
     offsetTop: 0,
     options: {
       tag: 'h1',
       fallback: 'maincontent',
+      wrapper: 'scroll',
       offset: 0
     },
     init: function init(options) {
@@ -960,15 +960,30 @@ window.taMainContent = function () {
       this.href = window.location.pathname + '#' + element_id;
     },
     go: function go() {
-      var main_content = document.getElementById('maincontent');
-      console.info('main_content', main_content);
-      var test = main_content.querySelector('a:first-of-type');
-      test.focus();
-      console.info('test', test);
       scroll({
         top: parseInt(this.offsetTop) - parseInt(this.options.offset),
         behavior: 'smooth'
       });
+      var wrapper = document.getElementById(this.options.wrapper);
+
+      if (wrapper === null) {
+        return;
+      }
+
+      var focus = wrapper.querySelector('a:first-of-type, input:first-of-type, button:first-of-type');
+      console.info('focus', focus);
+
+      if (focus === null) {
+        return;
+      }
+
+      focus.focus(); // console.info('main_content', main_content);
+      // const test = main_content.querySelector('a:first-of-type');
+      // console.info('test', test);
+      // scroll({
+      //     top: parseInt(this.offsetTop) - parseInt(this.options.offset),
+      //     behavior: 'smooth',
+      // });
     }
   };
 };

@@ -4,6 +4,7 @@
         href="{{ print .RelPermalink "#maincontent" }}" :href="href"
         class="block font-bold p-3 uppercase border-l border-white border-opacity-25 focus:bg-white focus:text-black"
         x-data="taMainContent()" x-init="init()"
+        @click.prevent="go()"
         data-offset="20"
     >
         {{ i18n "to_main_content" }}
