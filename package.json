@@ -60,8 +60,11 @@
     },
     "dependencies": {
         "@tailwindcss/typography": "^0.2.0",
+        "@types/cheerio": "^0.22.23",
         "@types/node": "^14.14.22",
         "change-case": "^4.1.2",
+        "cheerio": "^1.0.0-rc.5",
+        "got": "^11.8.1",
         "knex": "^0.21.16",
         "nodejieba": "2.5.1",
         "opencc": "^1.1.1",
