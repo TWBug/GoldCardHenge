@@ -2,6 +2,11 @@ import cheerio from 'cheerio';
 import got from 'got';
 import fs from 'fs';
 import path from 'path';
+import assert from 'assert';
+import typescript from 'typescript';
+import { __APP_INITIAL_REDUX_STATE__ } from '../types/cakeresume';
+
+type CakeAppState = typeof __APP_INITIAL_REDUX_STATE__;
 
 const main = async () => {
     const headers = {
@@ -24,22 +29,16 @@ const main = async () => {
         (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
     );
 
-    if (!script.length) {
-        console.log('Could not locate app data script in request body. Exiting.');
-        return;
-    }
+    assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
 
     const raw = script.html();
 
-    if (!raw) {
-        console.log('No inline script source found');
-        return;
-    }
+    assert(raw, 'No inline script source found');
 
     const preJson = raw.slice(raw.indexOf('{')).replace(/undefined/g, 'null');
     try {
-        const data = JSON.parse(preJson);
-        return data;
+        const data: CakeAppState = JSON.parse(preJson);
+        return { raw, data };
     } catch (err) {
         console.error('Error parsing JSON app state. Rethrowing to top lovel');
         throw err;
@@ -47,15 +46,33 @@ const main = async () => {
 };
 
 main().then(
-    (data) => {
+    ({ raw, data }) => {
         console.log('Complete');
+        fs.writeFileSync('tmp/cake-jobs.raw.js', raw.replace(/^window/, 'module.exports'), {
+            encoding: 'utf-8',
+        });
+
+        const result = data.jobSearch.jobResultsState.content;
+        const total = result.nbHits;
+        const pageCount = result.nbPages;
+        const perPage = result.hitsPerPage;
+        const currentPage = result.page;
+
+        const hits = result.hits; // The meat
+        const x = hits[0];
+        x.location_list;
+        x.tag_list;
+
         fs.writeFileSync(
-            'tmp/cake-jobs.data.json',
+            'tmp/cake-job-hits.json',
             JSON.stringify(data.jobSearch.jobResultsState.content.hits, null, 2),
             {
                 encoding: 'utf-8',
             }
         );
+        fs.writeFileSync('tmp/cake-jobs.data.json', JSON.stringify(data, null, 2), {
+            encoding: 'utf-8',
+        });
     },
     (err) => {
         console.error('We ran into some issues...');
