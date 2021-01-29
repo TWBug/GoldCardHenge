@@ -68,7 +68,9 @@ const main = async () => {
 
     fs.writeFileSync('tmp/jobs.json', JSON.stringify(jobs, null, 2), { encoding: 'utf-8' });
 
-    console.log('Jobs JSON written to tmp/jobs.json');
+    console.log();
+    console.log(`    ${jobs.length} jobs written to ->  tmp/jobs.json`);
+    console.log();
 };
 
 if (require.main === module) {
