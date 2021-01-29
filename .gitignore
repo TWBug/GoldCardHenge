@@ -37,5 +37,16 @@ assets/finder/js/chunk-vendors.js
 assets/finder/js/chunk-vendors.js.map
 assets/finder/js/index.js
 assets/finder/js/index.js.map
+assets/finder/js/Home.844c26e3.js
+assets/finder/js/Home~Result~Tree.2646a28c.js
+assets/finder/js/Result.d682f23d.js
+assets/finder/js/Tree.f037e23c.js
+assets/finder/js/chunk-vendors.07070c6e.js
+assets/finder/js/index.0f3ab947.js
+# src/finder/src/data/qualifications.json
+# src/finder/src/data/questions.json
+# src/finder/src/lang/en.json
+# src/finder/src/lang/zh.jsondist
+dist
 assets/css/layout.min.css
 assets/css/wysiwyg.min.css

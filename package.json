@@ -6,15 +6,17 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "repl": "tsc && node --experimental-repl-await -r ./dist/repl.js",
         "develop": "npx gulp build",
         "start": "npm run gulp && concurrently 'hugo server' 'netlify-cms-proxy-server' 'npm run babel:admin -- --watch' 'npm run babel:js-misc -- --watch'",
         "gulp": "NODE_ENV=production npx gulp build",
-        "build": "npm run gulp && npm run hugo",
+        "build": "npm run gulp && npm run build:finder && npm run hugo",
         "build:development": "npm run hugo -- --environment development",
         "build:staging": "npm run hugo -- --environment staging",
         "build:gh": "npm run babel && TZ='Asia/Taipei' npm run hugo -- --environment gh",
         "build:ghlocal": "npm run babel && npm run hugo -- --environment gh-local",
         "build:finder": "(cd src/finder && npm run finder:build)",
+        "build:jobs": "ts-node scripts/ts/populateJobDb.ts",
         "watch": "npx gulp watch",
         "lunr:index": "make lunr-index",
         "test": "npm run lunr:index && npm run cypress:run",
@@ -61,9 +63,17 @@
     },
     "dependencies": {
         "@tailwindcss/typography": "^0.2.0",
+        "@types/cheerio": "^0.22.23",
+        "@types/js-yaml": "^4.0.0",
+        "@types/node": "^14.14.22",
         "change-case": "^4.1.2",
+        "cheerio": "^1.0.0-rc.5",
+        "got": "^11.8.1",
+        "knex": "^0.21.16",
         "nodejieba": "2.5.1",
         "opencc": "^1.1.1",
-        "remove-markdown": "0.3.0"
+        "remove-markdown": "0.3.0",
+        "sqlite3": "^5.0.1",
+        "typescript": "^4.1.3"
     }
 }
