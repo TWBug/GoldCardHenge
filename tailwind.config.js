@@ -139,6 +139,7 @@ module.exports = {
             zIndex: {
                 '-1': '-1',
                 1: '1',
+                alert: '5',
             },
         },
     },

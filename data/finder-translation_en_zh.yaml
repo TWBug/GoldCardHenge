@@ -18,6 +18,18 @@ en:
       translation: Result
     - key: no_result
       translation: No result
+    - key: select_question
+      translation: Select this question
+    - key: unselect_question
+      translation: Unselect this question
+    - key: show
+      translation: Show
+    - key: show_details
+      translation: Show details
+    - key: hide
+      translation: Hide
+    - key: hide_details
+      translation: Hide details
     - key: question
       translation: Question
     - key: loading
@@ -125,6 +137,18 @@ zh:
       translation: Result
     - key: no_result
       translation: No result
+    - key: select_question
+      translation: Select this question
+    - key: unselect_question
+      translation: Unselect this question
+    - key: show
+      translation: Show
+    - key: show_details
+      translation: Show details
+    - key: hide
+      translation: Hide
+    - key: hide_details
+      translation: Hide details
     - key: question
       translation: Question
     - key: loading
@@ -150,7 +174,7 @@ zh:
     - key: previous_step
       translation: 上一步
     - key: application_easy_mode
-      translation: Application easy mode
+      translation: 申請簡單模式
     - key: headline_home
       translation: 請選擇所有適用的選項。
     - key: headline_1
@@ -178,19 +202,17 @@ zh:
     - key: headline_12
       translation: 你的專業技能為台灣所欠缺的．．．
     - key: headline_result
-      translation: Congratulations, you may be eligible to apply for the Gold Card
-        using the regulation below. | Congratulations, you may qualify under one
-        of the {count} regulations below.
+      translation: 恭喜，根據您所提供的資訊建議可試用下面的條件申請就業金卡．｜恭喜，根據您所提供的資訊建議可試用下面{count}個條件申請就業金卡．
     - key: headline_no_result
-      translation: Sorry, we couldn't find a Gold Card qualification that matched.
+      translation: "抱歉，我們找不到合適的就業金卡資格。 "
     - key: results_headline
-      translation: You may qualify under {ministery}的第{regulation}號條件
+      translation: 可試用{ministery}的第{regulation}號條件申請
     - key: results_answer
       translation: "因為您回答是： "
     - key: results_provide
       translation: "請準備:"
     - key: results_details
-      translation: Details for the field of
+      translation: 詳細資料：
     - key: qualifications_MOST
       translation: 科技領域
     - key: qualifications_MOEA
@@ -208,7 +230,6 @@ zh:
     - key: qualifications_MOE
       translation: 教育領域
     - key: info_no_result
-      translation: "Please take a look at the full list of qualifications and consider
-        the many other visas. "
+      translation: "請查看完整的資格清單，並考慮其他許多簽證。 "
     - key: info_no_selection
       translation: 選擇至少一個點進行下一步。

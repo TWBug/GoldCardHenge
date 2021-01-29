@@ -17,6 +17,7 @@ title = "Taiwan Gold Card"
 category = "categories"
 topic = "topics"
 tag = "tags"
+badge = "badges"
 
 [Params]
 loadFromCDN = "true"

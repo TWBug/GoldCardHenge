@@ -2,20 +2,20 @@
 {{ $elements := strings.Count "<li>" .TableOfContents }}
 {{ if gt $elements 1 }}
 <aside>
-    <div class="my-12 overflow-y-auto" x-data="taToc()" x-init="init({length: {{ len (.TableOfContents | plainify) }}, threshold: 400 })" data-length="{{ len (.TableOfContents | plainify) }}" data-elements="{{ strings.Count "<li>" .TableOfContents }}">
+    <div class="my-12 overflow-y-auto" x-data="taToc()" x-init="init({length: {{ len (.TableOfContents | plainify) }}, threshold: 400 })" data-length="{{ len (.TableOfContents | plainify) }}" data-elements="{{ strings.Count "<li>" .TableOfContents }}" data-title-show="{{ i18n "show_details" }}" data-title-hide="{{ i18n "hide_details" }}">
         <div class="flex items-center justify-between border-b-2 border-secondary border-dashed pl-2">
-            <h3 class="flex items-center">
+            <h2 class="flex items-center">
                 {{ partial "icon" (dict "name" "stream" "size" "5") }}
                 <span class="text-lg font-bold ml-2">
-                    {{ i18n "table_of_contents" }}            
+                    {{ i18n "table_of_contents" }}
                 </span>
-            </h3>
-            <button type="button" class="flex-center text-primary p-1 m-1 focus-primary" @click.prevent="toggle()" x-cloak>
+            </h2>
+            <button type="button" class="flex-center text-primary p-1 m-1 focus-primary" @click.prevent="toggle()" :title="title" x-cloak>
                 <span x-show="folded">
-                    {{ partial "icon" (dict "name" "angle-up" "size" "6") }}
+                    {{ partial "icon" (dict "name" "angle-up" "size" "6" "alt" (i18n "hide_details") ) }}
                 </span>
                 <span x-show="!folded">
-                    {{ partial "icon" (dict "name" "angle-down" "size" "6") }}
+                    {{ partial "icon" (dict "name" "angle-down" "size" "6" "alt" (i18n "show_details")) }}
                 </span>
             </button>
         </div>

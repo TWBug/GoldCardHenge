@@ -7,6 +7,7 @@
         @click.prevent="toggleActive(question.id)"
         role="checkbox"
         :aria-checked="question.selected"
+        :title="title"
     >
         <transition name="fade" mode="out-in">
             <span class="flex-shrink-0 h-8 w-8 mr-4" v-if="question.selected" key="selected">
@@ -56,7 +57,14 @@ export default {
         return {};
     },
     watch: {},
-    computed: {},
+    computed: {
+        title() {
+            if (this.question.selected) {
+                return this.$t('unselect_question');
+            }
+            return this.$t('select_question');
+        },
+    },
     methods: {
         ...mapActions(['toggleActive']),
     },

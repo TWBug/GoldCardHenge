@@ -6,6 +6,8 @@
             class="w-full flex justify-between items-center text-left focus-primary px-1 -ml-1"
             @click.prevent="toggle(item.id)"
             :aria-controls="'accordion-content-' + id"
+            :aria-label="label"
+            :title="title"
         >
             <span class="flex-grow mr-12">
                 <span class="block text-lg font-semibold text-primary mb-1">
@@ -28,7 +30,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512"
                     class="fill-current w-full"
-                    :alt="$t('plus')"
+                    :alt="$t('open')"
                     v-if="!details"
                 >
                     <title>{{ $t('plus') }}</title>
@@ -40,7 +42,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512"
                     class="fill-current w-full"
-                    :alt="$t('minus')"
+                    :alt="$t('close')"
                     v-else
                 >
                     <title>{{ $t('minus') }}</title>
@@ -136,6 +138,18 @@ export default {
         },
         id() {
             return this.item.ministry + this.item.regulation_no;
+        },
+        title() {
+            if (this.details) {
+                return this.$t('hide_details');
+            }
+            return this.$t('show_details');
+        },
+        label() {
+            if (this.details) {
+                return this.$t('hide');
+            }
+            return this.$t('show');
         },
     },
     methods: {

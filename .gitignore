@@ -48,3 +48,5 @@ assets/finder/js/index.0f3ab947.js
 # src/finder/src/lang/en.json
 # src/finder/src/lang/zh.jsondist
 dist
+assets/css/layout.min.css
+assets/css/wysiwyg.min.css

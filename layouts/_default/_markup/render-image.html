@@ -8,41 +8,54 @@
 {{ with .Title }}
 {{ $caption = . | safeHTML }}
 {{ end }}
+
 {{ if not $alt }}
 {{ $alt := $caption | markdownify | plainify }}
 {{ end }}
-<figure x-data="taImageViewer()">
-    <a href="{{ $image.RelPermalink }}" @click.prevent="toggleModal()">
-        <img
-            sizes="100vw"
-            srcset="{{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 768w, {{ $big.RelPermalink }} 1024w"
-            src="{{ $image.RelPermalink }}"
-            loading="lazy"
-            width="{{ $image.Width }}"
-            height="{{ $image.Height }}"
-            alt="{{ if $alt }}{{ $alt }}{{ else if $caption }}{{ $caption | markdownify | plainify }}{{ else }}&nbsp;{{ end }}"
-            class="block rounded-md border-2 border-gray-100 overflow-hidden w-full shadow-xl"
-        />
-    </a>
-    {{ with $caption }}
-    <figcaption>{{ . | markdownify }}</figcaption>
-    {{ end }}
-    <div class="fixed inset-0 w-full h-full flex-center z-50" x-show="modal" x-cloak>
+
+{{ $alt = $alt | truncate 100 }}
+{{ if eq .Page.Site.Language.Lang "zh" }}
+{{ $alt = $alt | truncate 70 }}
+{{ end }}
+
+{{ $id := $image | humanize | anchorize }}
+
+<div x-data="taImageViewer()">
+    <figure {{ with $caption }}aria-labelby="{{ $id }}"{{ end }} >
+        <a href="{{ $image.RelPermalink }}" @click.prevent="toggleModal()">
+            <img
+                sizes="100vw"
+                srcset="{{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 768w, {{ $big.RelPermalink }} 1024w"
+                src="{{ $image.RelPermalink }}"
+                loading="lazy"
+                width="{{ $image.Width }}"
+                height="{{ $image.Height }}"
+                alt="{{ $alt }}"
+                class="block rounded-md border-2 border-gray-100 overflow-hidden w-full shadow-xl"
+            />
+        </a>
+        {{ with $caption }}
+        <figcaption id="{{ $id }}">
+            <div class="text-xs leading-normal text-gray-700 my-2">
+                {{ . | markdownify }}
+            </div>
+        </figcaption>
+        {{ end }}
+    </figure>
+    <div class="fixed inset-0 w-full h-full flex-center z-50" aria-hidden="true" x-show="modal">
         <div
-            class="absolute inset-0 w-full h-full bg-white bg-opacity-50 backdrop-blur-2"
-            @click.prevent="toggleModal()"
-            x-show="modal"
+            class="absolute inset-0 w-full h-full bg-white bg-opacity-50 bg-blur-2 flex-center p-4"
             x-transition:enter="transition ease-out duration-100"
             x-transition:enter-start="opacity-0"
             x-transition:enter-end="opacity-100"
             x-transition:leave="transition ease-in duration-100"
             x-transition:leave-start="opacity-100"
             x-transition:leave-end="opacity-0"
-        ></div>
-        <div class="p-4">
+        >
             <div
                 class="relative container bg-white border border-gray-200 rounded-xl shadow-xl"
                 x-show="modal"
+                @click.away="hideModal()"
                 x-transition:enter="transition ease-out duration-200"
                 x-transition:enter-start="opacity-0 transform scale-90"
                 x-transition:enter-end="opacity-100 transform scale-100"
@@ -53,19 +66,19 @@
                 <button
                     type="button"
                     class="absolute top-0 right-0 flex-center bg-primary text-white rounded-full shadow-lg p-2 -m-4"
-                    @click.prevent="toggleModal()"
+                    @click.prevent="hideModal()"
                 >
                     <div class="flex-center w-8 h-8">{{ partial "icon" (dict "name" "times" "size" "8") }}</div>
                 </button>
                 <div class="rounded-xl overflow-hidden">
                     <div class="overflow-auto max-h-screen-3/4">
-                        <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" class="block w-full" />
+                        <img src="{{ $image.RelPermalink }}" alt="" class="block w-full" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</figure>
+</div>
 {{ else }}
 <div class="bg-gray-300 p-12">
     NO IMAGE: {{ .Destination | safeURL }}

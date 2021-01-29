@@ -7,7 +7,13 @@
 - id: change_language_to
   translation: '語言'
 - id: click_to_see_more_details
-  translation: 'Click to get more details '
+  translation: '點擊獲取更多詳細信息'
+- id: click_to_hide_more_details
+  translation: '單擊以隱藏更多詳細信息'
+- id: stop_animation
+  translation: '停止動畫'
+- id: stopped_animation
+  translation: '動畫已停止'
 - id: tego
   translation: '台灣就業金卡辦公室'
 - id: tego_logo
@@ -18,12 +24,30 @@
   translation: 'Taiwan Gold Card is your right choice!'
 - id: gold_card_members_map
   translation: '金卡社區地圖'
+- id: home_image_alt
+  translation: '台北101的夜景'
 - id: latest_news
   translation: '最新消息'
 - id: reading_time
   translation: '閱讀時間: %d 分鍾'
 - id: read_more
   translation: "了解更多"
+- id: show_answer
+  translation: '顯示答案'
+- id: hide_answer
+  translation: '隱藏答案'
+- id: show_details
+  translation: '顯示詳細資料'
+- id: hide_details
+  translation: '隱藏細節'
+- id: close
+  translation: '關'
+- id: open_in_new_window
+  translation: '開啟新視窗'
+- id: to_main_content
+  translation: '主要內容'
+- id: contact
+  translation: '聯繫'
 - id: last_changed
   translation: '最後更新'
 - id: table_of_contents
@@ -40,8 +64,18 @@
   translation: '常見問題'
 - id: news
   translation: '最新消息'
+- id: job_listing_title
+  translation: '工作清單'
+- id: job_listing_description
+  translation: '金卡網站結合併向您展示了幾個台灣工作門戶網站上的工作機會，以舉例說明台灣需要哪些職業。'
+- id: job_listing_info
+  translation: '單擊鏈接將打開一個新窗口，其中包含外部網站上的工作詳細信息。'
 - id: news_category
   translation: '最新消息分類'
+- id: job_category
+  translation: '工作類別'
+- id: all_job_categories
+  translation: '所有職位類別'
 - id: to_accupass_event
   translation: '報名參加'
 - id: starts_at
@@ -174,6 +208,30 @@
   translation: '金卡社區會員'
 - id: link_linkedin_page
   translation: '鏈接到 LinkedIn 頁面'
+- id: contact_form_title
+  translation: '與我們交談'
+- id: contact_form_submit
+  translation: '發送問題'
+- id: contact_form_message
+  translation: '謝謝你的問題'
+- id: contact_widget_banner
+  translation: '問你的問題'
+- id: contact_widget_launcher
+  translation: '問你的問題'
+- id: contact_widget_title
+  translation: '請輸入您的信息'
+- id: contact_widget_submit
+  translation: '發送'
+- id: contact_widget_confirmation
+  translation: '謝謝，我們收到了消息！'
+- id: contact_widget_frustration_banner
+  translation: '我們可以幫忙嗎'
+- id: contact_widget_frustration_description
+  translation: '我們注意到您被困住了。 告訴我們您要完成的工作，我們的支持團隊將盡快與您聯繫。'
+- id: contact_widget_frustration_confirmation
+  translation: '謝謝。 我們將聯繫！'
+- id: noscript_home_map_info
+  translation: '使用激活的javascript，您將看到有關Gold Card社區的更多詳細信息，一些成員來自何處以及他們的工作。'
   
 - id: undefined
   translation: 'UNDEFINED'

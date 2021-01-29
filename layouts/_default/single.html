@@ -14,6 +14,7 @@
 
 <div class="relative shadow-xl print:shadow-none">
     {{ partial "navigation" . }}
+    {{ partial "alert" .  }}
 </div>
 <div class="relative flex-grow">
     <div
@@ -22,7 +23,7 @@
     {{ if .Site.IsServer }}
     <div class="absolute right-0 top-0 bg-black text-xs font-bold text-white p-2 z-1">SINGLE TEMPLATE - STYLE: {{ $style }}</div>
     {{ end }}
-    <section>
+    <section id="maincontent">
         {{ partial ( printf "single/%s" $style) . }}
     </section>
 </div>

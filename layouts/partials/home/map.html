@@ -3,15 +3,30 @@
 {{ $map := $headless.Resources.GetMatch "map*" }}
 {{ $map_image := resources.Get "img/map/map.png" | fingerprint }}
 
-<div class="bg-background pt-24 pb-12">
+<div class="bg-background pt-24 pb-12" x-data="taMap()" x-init="init()" data-title-stop="ada" data-title-play="ddddd">
     <div class="container">
         <div class="mx-auto w-full lg:w-2/3 text-center px-12 replace">
             <h2 class="text-4xl leading-snug">
                 {{ $map.Title | markdownify }}
             </h2>
         </div>
-        <div class="relative my-6" x-data="taMap()" x-init="init()">
+        <div class="relative my-6">
             <div id="map" x-ref="map" class="relative overflow-x-auto">
+                <div class="absolute right-0 bottom-0 p-2 z-10" x-cloak>
+                    <button
+                        type="button"
+                        class="block text-xs font-bold text-primary focus-primary p-2"
+                        @click.prevent="stopAnimation()"
+                        :aria-pressed="stop"
+                        >
+                        <span x-show="!stop">
+                            {{ i18n "stop_animation" }}
+                        </span>
+                        <span x-show="stop">
+                            {{ i18n "stopped_animation" }}
+                        </span>
+                    </button>
+                </div>
                 {{/*  <span x-text="test" class="absolute inset-x-0 text-center"></span>  */}}
                 <div class="wrapper">
                     {{range $index, $element := (shuffle $data.map.items)}}
@@ -25,12 +40,14 @@
                         data-local="{{ $element.local }}"
                         data-description="{{ $element.description }}"
                         data-image="{{ $member_image.RelPermalink }}"
+                        data-title-show="{{ i18n "click_to_see_more_details" }} {{ $element.name }}"
+                        data-title-hide="{{ i18n "click_to_hide_more_details" }} {{ $element.name }}"
                         style="--left:{{ $element.left }}%;--top:{{ $element.top }}%;--delay:{{ mul $index 1000 }}ms"
                         @click.stop="toggle({{ $index }})"
                         :aria-pressed="!play[{{ $index }}]"
                         :aria-expanded="play[{{ $index }}]"
                         aria-controls="map-modal"
-                        title="{{ i18n "click_to_see_more_details" }} {{ $element.name }}"
+                        :title="titleButton[{{ $index }}]"
                     >
                         <img src="{{ $member_image.RelPermalink }}" alt="{{ printf "Portrait %s" $element.name }}"
                         class="absolute inset-0 w-full h-full" />
@@ -69,8 +86,8 @@
                     <button
                         type="button"
                         @click="closeModal()"
-                        title="close"
-                        class="absolute flex-center bg-primary right-0 top-0 text-white w-8 h-8 -mr-4 -mt-2 shadow-lg rounded-full"
+                        title="{{ i18n "close" }}"
+                        class="member-button absolute flex-center bg-primary right-0 top-0 text-white w-8 h-8 -mr-4 -mt-2 shadow-lg rounded-full"
                         :aria-pressed="false"
                         aria-controls="map-modal"
                     >
@@ -80,88 +97,13 @@
             </template>
             <div class="block xl:hidden absolute right-0 inset-y-0 bg-gradient-to-l from-background to-transparent-background w-12"></div>
         </div>
-        <div class="mx-auto w-full sm:w-3/4 text-center px-12 lg:px-24">
-            <p class="font-regular text-base">
-                {{ $map.Summary | markdownify }}
-            </p>
+        <div class="mx-auto w-full sm:w-3/4 text-center px-12 lg:px-24 font-regular text-base">
+            {{ $map.Summary | markdownify }}
         </div>
+        <noscript>
+            <div class="text-center border-2 border-red-800 font-bold text-red-800 m-8 p-4 max-w-xl mx-auto">
+                {{ i18n "noscript_home_map_info" }}
+            </div>
+        </noscript>
     </div>
 </div>
-
-<style>
-    .wrapper {
-        padding: 0 2rem;
-        position: relative;
-        margin: 0 auto;
-        width: 1130px;
-        height: 544px;
-        box-sizing: content-box;
-    }
-
-    .member {
-        position: absolute;
-        left: var(--left);
-        top: var(--top);
-        background-color: #466505;
-        width: 52px;
-        height: 52px;
-        transform: translate(-50%, -50%);
-        opacity: 0;
-        cursor: pointer;
-    }
-    .member:hover {
-        box-shadow: 0px 0px 0px 2px #ffffff, 0px 0px 0px 6px #ce3f00;
-    }
-
-    .member.running {
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        animation-delay: var(--delay);
-        animation-direction: normal;
-        animation-name: animation-fade;
-        animation-duration: 20s;
-        animation-fill-mode: both;
-    }
-    .member.paused {
-        opacity: 1;
-    }
-
-    .modal {
-        position: absolute;
-        left: var(--left, 50%);
-        top: var(--top, 70px);
-        transform: translate(var(--translatex, -50%), var(--translatey, -50%));
-        z-index: 2;
-    }
-
-    @keyframes animation-fade {
-        0% {
-            opacity: 0;
-            z-index: -1;
-        }
-        1% {
-            opacity: 0;
-            z-index: 0;
-        }
-        6% {
-            opacity: 1;
-            z-index: 1;
-        }
-        30% {
-            opacity: 1;
-            z-index: 1;
-        }
-        35% {
-            opacity: 0;
-            z-index: 0;
-        }
-        36% {
-            opacity: 0;
-            z-index: -1;
-        }
-        100% {
-            opacity: 0;
-            z-index: -1;
-        }
-    }
-</style>

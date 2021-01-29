@@ -1,5 +1,20 @@
 <div>{{ i18n "tego" }}</div>
 <div class="flex justify-evenly text-xs">
+    <a
+        href="{{ print .RelPermalink "#maincontent" }}" :href="href"
+        class="block font-bold p-3 uppercase border-l border-white border-opacity-25 focus:bg-white focus:text-black"
+        x-data="taMainContent()" x-init="init()"
+        @click.prevent="go()"
+        data-offset="20"
+    >
+        {{ i18n "to_main_content" }}
+    </a>
+    {{ $sitemap := .Site.GetPage "sitemap" }}
+    <a
+        href="{{ $sitemap.RelPermalink }}"
+        class="block font-bold p-3 uppercase border-l border-white border-opacity-25 focus:bg-white focus:text-black">
+        {{ $sitemap.Title }}
+    </a>
     <button type="button" x-data="taSearchTrigger()" x-init="init('meta')" @click="show()" class="flex items-center border-r border-l border-white border-opacity-25 pl-4 pr-8 focus:bg-white focus:text-black">
         {{ partial "icon" (dict "name" "search" "size" "5" "alt" (i18n "placeholder_search")) }}
         <span class="font-bold ml-2 uppercase">

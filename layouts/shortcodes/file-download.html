@@ -9,7 +9,7 @@
 
 {{ if $file }}
 <div class="my-6 -ml-2">
-    <a href="{{ $file.RelPermalink }}" target="_blank" class="inline-flex items-center text-primary font-bold text-xl focus-primary hover:text-black p-2">
+    <a href="{{ $file.RelPermalink }}" target="_blank" title="{{ i18n "open_in_new_window"}}" class="inline-flex items-center text-primary font-bold text-xl focus-primary hover:text-black p-2">
         {{ if eq (path.Ext $file) ".pdf" }}
         {{ partial "icon" (dict "name" "file-pdf" "size" "8") }}
         {{ else if eq (path.Ext $file) ".doc" }}

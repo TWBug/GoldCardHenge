@@ -2,6 +2,7 @@
 
 <div class="relative shadow-xl print:shadow-none">
     {{ partial "navigation" . }}
+    {{ partial "alert" .  }}
 </div>
 
 <div id="scroll" class="relative flex-grow pt-12">
@@ -17,7 +18,7 @@
                 {{ partial "breadcrumb" . }}
             </div>
             <h1 class="text-5xl font-medium leading-tight mb-2">{{ .Title }}</h1>
-            <p class="font-medium text-xl leading-relaxed">{{ .Summary }}</p>
+            <h2 class="font-medium text-xl leading-relaxed">{{ .Summary }}</h2>
             <ul class="mt-6">
                 {{ range .Site.Sections }}
                 {{ if eq (.RelPermalink | strings.Count "/apply/")  0 }}
@@ -36,7 +37,7 @@
     {{ if .p.IsNode }}
     <ul>
         <li>
-            <a href="{{ .p.RelPermalink}}" class="flex items-center text-primary  mb-1">
+            <a href="{{ .p.RelPermalink}}" class="inline-flex items-center text-primary mb-1 focus-primary">
                 <span class="flex-shrink-0 mr-2">
                     {{ partial "icon" (dict "name" "right" "size" "4") }}
                 </span>
@@ -47,7 +48,7 @@
     </ul>
     {{ else }}
     <li>
-        <a href="{{ .p.RelPermalink}}" class="flex items-center text-primary  mb-1">
+        <a href="{{ .p.RelPermalink}}" class="inline-flex  items-center text-primary mb-1 focus-primary">
             <span class="flex-shrink-0 mr-2">
                 {{ partial "icon" (dict "name" "right" "size" "4") }}
             </span>
@@ -64,7 +65,7 @@
     <ul class="ml-5">
         {{ range .p.Pages }}
         <li>
-            <a href="{{ .RelPermalink}}" class="flex items-center text-primary  mb-1">
+            <a href="{{ .RelPermalink}}" class="inline-flex  items-center text-primary mb-1 focus-primary">
                 <span class="flex-shrink-0 mr-2">
                     {{ partial "icon" (dict "name" "right" "size" "4") }}
                 </span>
@@ -75,7 +76,7 @@
     </ul>
     {{ else }}
     <li>
-        <a href="{{ .RelPermalink}}" class="flex items-center text-primary  mb-1">
+        <a href="{{ .RelPermalink}}" class="inline-flex items-center text-primary mb-1 focus-primary">
             <span class="flex-shrink-0 mr-2">
                 {{ partial "icon" (dict "name" "right" "size" "4") }}
             </span>

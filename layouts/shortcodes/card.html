@@ -27,16 +27,21 @@
 {{ end }}
 {{ end }}
 
+{{ $alt_truncated := $title | humanize | truncate 100 }}
+{{ if eq .Site.Language.Lang "zh" }}
+{{ $alt_truncated = $alt_truncated | truncate 70 }}
+{{ end }}
+
 <div class="inline-block w-full lg:w-1/2">
     <a
         href="{{ $link }}"
-        {{ with $target }} target="{{ $target }}" {{ end }}
+        {{ with $target }} target="{{ $target }}" title="{{ i18n "open_in_new_window"}}" {{ end }}
         class="flex flex-col justify-center items-center text-center border border-gray-200 rounded-lg overflow-hidden shadow-xl mr-9 mb-9 transition duration-300 transform hover:scale-105"
     >
         <div class="relative w-full h-0 pb-16/9 min-h-32">
             <img
                 src="{{ $image.RelPermalink | safeURL }}"
-                alt=""
+                alt="{{ $alt_truncated }}"
                 class="block absolute inset-0 w-full h-full object-cover"
             />
         </div>

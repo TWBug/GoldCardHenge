@@ -2,6 +2,7 @@
 
 <div class="relative shadow-xl">
     {{ partial "navigation" . }}
+    {{ partial "alert" .  }}
 </div>
 {{/*
 <div class="flex flex-wrap w-full shadow-xl min-h-hero sm:min-h-screen-1/3">
@@ -20,6 +21,23 @@
     {{ end }}
     <section>
         <div class="container pb-12 sm:pb-24 px-12 lg:px-24">
+            <nav aria-label="breadcrumb">
+                <div class="text-xs font-semibold mb-8">
+                    <ol class="flex items-center font-bold">
+                        <li class="pr-2">
+                            <a href="{{ .Site.Home.RelPermalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">
+                                {{ partial "icon" (dict "name" "home" "size" "4") }}
+                                <span class="ml-2">
+                                    {{ .Site.Home.Title }}
+                                </span>
+                            </a>
+                        </li>
+                        <li class="border-l-2 border-gray-500 border-dashed px-2">
+                            <h1 class="flex items-center bg-white rounded px-2 py-1">{{ .Title }}</h1>
+                        </li>
+                    </ol>
+                </div>
+            </nav>
             <div class="grid grid-cols-1 md:grid-cols-12 auto-rows-min gap-12 xl:gap-16">
                 {{ range $index, $value := .Pages }}
                     {{ if eq $index 0 }}

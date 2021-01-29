@@ -7,11 +7,11 @@
         class="relative bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium rounded-md shadow-xl text-white -ml-4 -mr-4 mb-12 mt-8 p-8 sm:p-12 z-0 overflow-hidden"
     >
         <div class="absolute bottom-0 right-0 w-full sm:w-2/3 -z-1" style="bottom: -1px;">
-            <img src="/img/footer-meta-mountains-trees.svg" class="block w-full flipped" alt="Taiwan Mountains">
+            <img src="/img/footer-meta-mountains-trees.svg" class="block w-full flipped" alt="" aria-hidden="true">
         </div>
         {{ if .Get "headline" }}
         <div class="text-4xl font-regular text-center">
-            {{ .Get "headline" }}    
+            {{ .Get "headline" }}
         </div>
         {{ end }}
         {{ if .Inner }}
@@ -20,7 +20,7 @@
                 {{ .Inner | markdownify }}
             </div>
             <div class="text-center">
-                <a href="{{ .Get "href"}}" class="inline-block whitespace-no-wrap bg-primary font-bold text-white leading-none rounded-md shadow-xl px-6 py-4" {{ with $target }} target="_blank" {{end}} >{{ .Get "button"}}</a>
+                <a href="{{ .Get "href"}}" class="inline-block whitespace-no-wrap bg-primary font-bold text-white leading-none rounded-md shadow-xl px-6 py-4" {{ with $target }} target="_blank" title="{{ i18n "open_in_new_window"}}" {{end}} >{{ .Get "button"}}</a>
             </div>
         </div>
         {{ end }}
