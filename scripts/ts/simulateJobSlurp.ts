@@ -1,6 +1,7 @@
 import fs from 'fs';
 import assert from 'assert';
 import CakeResumeAdapter from './adapters/cakeresume';
+import { debug } from 'console';
 
 const MAPPINGS = {
     'www.cakeresume.com': CakeResumeAdapter,
@@ -31,6 +32,8 @@ const main = async (url: string) => {
     try {
         const jobs = await adapter.getJobs({ headers });
         const raw = await adapter.getRaw();
+
+        debugger;
 
         return { raw, jobs };
     } catch (err) {
