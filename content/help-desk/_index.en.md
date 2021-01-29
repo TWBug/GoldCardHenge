@@ -1,12 +1,12 @@
 ---
+title: Help Desk
 draft: false
+topic: resources
 media_image: null
 summary: Ask questions, get help with your application
 media_image_alt: null
 layout: null
-title: Help Desk
 date: 2020-11-05T07:09:20.617Z
-topic: resources
 cover_image: null
 tags: null
 categories: null
