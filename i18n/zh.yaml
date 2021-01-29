@@ -36,6 +36,10 @@
   translation: '顯示答案'
 - id: hide_answer
   translation: '隱藏答案'
+- id: show_details
+  translation: '顯示詳細資料'
+- id: hide_details
+  translation: '隱藏細節'
 - id: close
   translation: '關'
 - id: open_in_new_window

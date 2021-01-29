@@ -1721,12 +1721,17 @@ window.taToc = function () {
   return {
     initialized: false,
     folded: true,
+    title: '',
     options: {
       folded: true,
       length: 100,
-      threshold: 100
+      threshold: 100,
+      titleShow: '',
+      titleHide: ''
     },
     init: function init(options) {
+      var _this = this;
+
       if (typeof options !== 'undefined') {
         if (_typeof(options) !== 'object' || options instanceof Array) {
           console.warn('Options are in wrong type - should be object - options been used');
@@ -1739,6 +1744,33 @@ window.taToc = function () {
 
           this.options[key] = value;
         }
+      } // checks if options are defined by data
+
+
+      for (var _i2 = 0, _Object$entries2 = Object.entries(this.$el.dataset); _i2 < _Object$entries2.length; _i2++) {
+        var _Object$entries2$_i = _slicedToArray(_Object$entries2[_i2], 2),
+            _key = _Object$entries2$_i[0],
+            _value = _Object$entries2$_i[1];
+
+        if (typeof this.options[_key] !== 'undefined') {
+          if (isNaN(_value)) {
+            this.options[_key] = _value;
+          } else {
+            this.options[_key] = parseInt(_value);
+          }
+        }
+      }
+
+      if (this.options.titleShow.length > 0) {
+        this.title = this.options.titleShow;
+        this.$watch('folded', function (value) {
+          if (value === true) {
+            _this.title = _this.options.titleHide;
+            return;
+          }
+
+          _this.title = _this.options.titleShow;
+        });
       }
 
       this.checkFolded();

@@ -36,6 +36,10 @@
   translation: 'Show answer'
 - id: hide_answer
   translation: 'Hide answer'
+- id: show_details
+  translation: 'Show details'
+- id: hide_details
+  translation: 'Hide details'
 - id: close
   translation: 'Close'
 - id: open_in_new_window
