@@ -33,8 +33,6 @@ const main = async (url: string) => {
         const jobs = await adapter.getJobs({ headers });
         const raw = await adapter.getRaw();
 
-        debugger;
-
         return { raw, jobs };
     } catch (err) {
         console.error('Error parsing JSON app state. Rethrowing to top lovel');

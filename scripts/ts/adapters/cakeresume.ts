@@ -37,6 +37,11 @@ export default class CakeResumeAdapter implements IAdapter {
 
         const preJson = raw.slice(raw.indexOf('{')).replace(/undefined/g, 'null');
         const data: CakeAppState = JSON.parse(preJson);
+
+        // @note It's very important we assign here.
+        // Get raw might be worth revisiting since it's quite ugly to have it
+        // operate with such side effects.
+        this.raw = raw;
         this.data = data;
 
         const result = data.jobSearch.jobResultsState.content;
@@ -57,7 +62,7 @@ export default class CakeResumeAdapter implements IAdapter {
                 created_at: new Date(),
                 title: x.title,
                 html_url: '', // @todo Hrm..
-                salary_text: '', // @todo Hrm..
+                salary_text: x.salary_range.map((y) => x.salary_currency + y).join(' - '),
                 location_list: x.location_list,
                 tag_list: x.tag_list,
             };
