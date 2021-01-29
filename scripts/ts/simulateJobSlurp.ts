@@ -1,19 +1,21 @@
-import cheerio from 'cheerio';
-import got from 'got';
 import fs from 'fs';
-import path from 'path';
 import assert from 'assert';
-import typescript from 'typescript';
-import { __APP_INITIAL_REDUX_STATE__ } from './types/cakeresume';
+import CakeResumeAdapter from './adapters/cakeresume';
 
-type CakeAppState = typeof __APP_INITIAL_REDUX_STATE__;
+const MAPPINGS = {
+    'www.cakeresume.com': CakeResumeAdapter,
+};
 
-const main = async () => {
-    // const url =
-    //     'https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2';
-    const url = process.argv[2];
-
+// Example URL: 'https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2';
+const main = async (url: string) => {
     assert(url, 'Must provide a URL');
+
+    const { host } = new URL(url);
+    const Adapter = MAPPINGS[host];
+
+    assert(Adapter, `No adapter found for "${host}"`);
+
+    const adapter = new Adapter(url);
 
     const headers = {
         // @note This awesome user agent string is meant to not trigger any
@@ -26,57 +28,35 @@ const main = async () => {
             'Mozilla/5.0 (Macintosh) AppleWebKit/537 (KHTML, like Gecko) Chrome/88.TEGO.special Safari/537.TEGO.special',
     };
 
-    console.info(`[FETCH] <- ${url}`);
-    const res = await got(url, { headers });
-    const $ = cheerio.load(res.body);
-    const script = $('script').filter(
-        (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
-    );
-
-    assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
-
-    const raw = script.html();
-
-    assert(raw, 'No inline script source found');
-
-    const preJson = raw.slice(raw.indexOf('{')).replace(/undefined/g, 'null');
     try {
-        const data: CakeAppState = JSON.parse(preJson);
-        return { raw, data };
+        const jobs = await adapter.getJobs({ headers });
+        const raw = await adapter.getRaw();
+
+        return { raw, jobs };
     } catch (err) {
         console.error('Error parsing JSON app state. Rethrowing to top lovel');
         throw err;
     }
 };
 
-main().then(
-    ({ raw, data }) => {
-        console.log('Complete');
+main(process.argv[2]).then(
+    ({ raw, jobs }) => {
         fs.writeFileSync('tmp/cake-jobs.raw.js', raw.replace(/^window/, 'module.exports'), {
             encoding: 'utf-8',
         });
 
-        const result = data.jobSearch.jobResultsState.content;
-        const total = result.nbHits;
-        const pageCount = result.nbPages;
-        const perPage = result.hitsPerPage;
-        const currentPage = result.page;
-
-        const hits = result.hits; // The meat
-        // const x = hits[0];
-        // x.location_list
-        // x.tag_list
-
-        fs.writeFileSync('tmp/cake-job-hits.json', JSON.stringify(hits, null, 2), {
-            encoding: 'utf-8',
-        });
-        fs.writeFileSync('tmp/cake-jobs.data.json', JSON.stringify(data, null, 2), {
+        fs.writeFileSync('tmp/cake-jobs.json', JSON.stringify(jobs, null, 2), {
             encoding: 'utf-8',
         });
 
-        const titles = hits.map((x) => '  - ' + x.title).join('\n');
-        console.log('Found jobs. For full output see: ./tmp/cake-job-hits.json');
+        const titles = jobs.map((x) => '  - ' + x.title).join('\n');
+
+        console.log('Found jobs. For full job JSON and raw JSON output see:');
+        console.log('  ./tmp/cake-jobs.json');
+        console.log('  ./tmp/cake-jobs.raw.json');
+        console.log('Jobs found:');
         console.log(titles);
+        console.log();
     },
     (err) => {
         console.error('We ran into some issues...');

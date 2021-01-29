@@ -8,6 +8,8 @@ import { __APP_INITIAL_REDUX_STATE__ } from '../types/cakeresume';
 
 type CakeAppState = typeof __APP_INITIAL_REDUX_STATE__;
 
+export default class CakeResumeAdapter {}
+
 const main = async () => {
     const headers = {
         // @note This awesome user agent string is meant to not trigger any

@@ -1,4 +1,6 @@
-interface IDBRowJob {
+import { Defaults as RequestOptions } from 'got';
+
+export interface IDBRowJob {
     source: any;
 
     // An identifier within the original. Wanted to avoid "source_id" lest there
@@ -26,4 +28,9 @@ interface IDBRowJob {
 
     // Any user-defined tags
     tag_list: string[];
+}
+
+export interface IAdapter {
+    getJobs(options?: RequestOptions): Promise<IDBRowJob[]>;
+    getRaw(): Promise<any>;
 }
