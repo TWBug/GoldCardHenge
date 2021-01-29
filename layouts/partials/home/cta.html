@@ -13,7 +13,7 @@
     </div>
     <div class="replace relative col-span-3 text-white py-12 lg:py-24 px-12 lg:px-24 overflow-hidden z-0">
         <div class="absolute bottom-0 right-0 w-full sm:w-2/3 lg:w-1/2 -z-1" style="bottom: -1px;">
-            <img src="/img/footer-meta-mountains-trees.svg" class="block w-full flipped" alt="{{ i18n "taiwan_landscape" }}">
+            <img src="/img/footer-meta-mountains-trees.svg" class="block w-full flipped" alt="" aria-hidden="true">
         </div>
         <div class="max-w-2xl">
             <h3 class="text-4xl mb-4">
@@ -26,7 +26,7 @@
                 {{ range $cta.Params.links }}
                 <a
                     href="{{ .href }}"
-                    {{ if eq .new_window true }} target="_blank" {{ end }}
+                    {{ if eq .new_window true }} target="_blank" title="{{ i18n "open_in_new_window"}}" {{ end }}
                     class="bg-primary border-2 border-primary rounded-md text-white font-bold leading-none shadow-xl px-6 py-3 focus-primary"
                     >
                     {{ .label }}

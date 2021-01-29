@@ -2,10 +2,13 @@ window.taToc = function () {
     return {
         initialized: false,
         folded: true,
+        title: '',
         options: {
             folded: true,
             length: 100,
-            threshold: 100
+            threshold: 100,
+            titleShow: '',
+            titleHide: '',
         },
         init(options) {
             if (typeof options !== 'undefined') {
@@ -18,6 +21,29 @@ window.taToc = function () {
                     this.options[key] = value;
                 }
             }
+
+            // checks if options are defined by data
+            for (let [key, value] of Object.entries(this.$el.dataset)) {
+                if (typeof this.options[key] !== 'undefined') {
+                    if (isNaN(value)) {
+                        this.options[key] = value;
+                    } else {
+                        this.options[key] = parseInt(value);
+                    }
+                }
+            }
+
+            if (this.options.titleShow.length > 0) {
+                this.title = this.options.titleShow
+                this.$watch('folded', (value) => {
+                    if (value === true) {
+                        this.title = this.options.titleHide;
+                        return
+                    }
+                    this.title = this.options.titleShow;
+                });
+            }
+
             this.checkFolded();
             this.setSmoothScrolling();
         },
@@ -27,7 +53,7 @@ window.taToc = function () {
         checkFolded() {
             this.folded = this.options.folded;
             if (this.options.length > this.options.threshold) {
-                this.folded = false
+                this.folded = false;
             }
         },
         setSmoothScrolling() {

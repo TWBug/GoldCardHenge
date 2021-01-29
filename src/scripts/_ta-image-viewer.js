@@ -5,7 +5,7 @@ window.taImageViewer = function () {
 
         },
         init() {
-            
+
         },
         toggleModal() {
             this.modal = !this.modal

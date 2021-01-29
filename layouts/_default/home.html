@@ -1,3 +1,12 @@
+{{ define "head" }}
+{{ $map := resources.Get "css/map.min.css" }}
+{{ if $map }}
+{{ $map = $map | fingerprint }}
+{{ end }}
+{{ partial "head/alpine" ( dict "spruce" "true" "cdn" .Site.Params.loadFromCDN ) }}
+<link href="{{ $map.RelPermalink }}" rel="stylesheet" />
+{{ end }}
+
 {{ define "main" }}
 
 {{ $hero := (.Site.GetPage "/home").Resources.GetMatch "hero*" }}
@@ -14,6 +23,7 @@
 
 <div class="relative h-screen max-h-homehero shadow-xl print:shadow-none">
     {{ partial "navigation" .  }}
+    {{ partial "alert" .  }}
     <div class="absolute inset-0 bg-nav-start bg-gradient-to-b from-nav-start to-nav-end print:hidden">
         <div class="absolute inset-0 w-full h-full z-0">
             <img
@@ -21,7 +31,7 @@
             srcset="{{ $hero_small.RelPermalink }} 480w, {{ $hero_medium.RelPermalink }} 768w, {{ $hero_large.RelPermalink }} 1024w, {{ $hero_max.RelPermalink }} 1440w"
             src="{{ $hero_max.RelPermalink }}"
             loading="lazy"
-            alt="{{ .Summary | humanize }}" class="block w-full h-full object-cover object-left-bottom">
+            alt="{{ i18n "home_image_alt" }}" class="block w-full h-full object-cover object-left-bottom">
         </div>
         <div class="absolute right-0 bottom-0 flex-center w-full sm:w-2/3 xxl:w-1/2 h-full sm:h-2/3">
             <div class="w-full lg:w-5/6 p-12">

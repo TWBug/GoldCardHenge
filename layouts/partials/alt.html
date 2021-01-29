@@ -1,0 +1,7 @@
+{{ $alt := .alt | truncate 150 }}
+{{ if eq .lang "en" }}
+{{ $alt = .alt | truncate 100 }}"
+{{ else if eq .lang "zh" }}
+{{ $alt = .alt | truncate 70 }}"
+{{ end }}
+{{ return $alt }}"

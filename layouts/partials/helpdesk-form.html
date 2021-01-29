@@ -1,0 +1,29 @@
+{{ $language := .Site.Language.Lang }}
+{{ if eq $language "zh" }}
+{{ $language = "zh" }}
+{{ end }}
+
+{{ $title := replace (i18n "contact_form_title") " " "%20" }}
+{{ $submit := replace (i18n "contact_form_submit") " " "%20" }}
+{{ $message := replace (i18n "contact_form_message") " " "%20" }}
+
+{{ $iframe := print "https://help.taiwangoldcard.tw/widgets/feedback_widget/new?&widgetType=embedded&searchArea=no&locale=" $language "&submitTitle=" $submit "&submitThanks=" $message "&formTitle=" $title  }}
+
+<div class="w-full">
+    <script
+        type="text/javascript"
+        src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"
+    ></script>
+    <iframe
+        title="Feedback Form"
+        name="freshdesk"
+        class="freshwidget-embedded-form"
+        id="freshwidget-embedded-form"
+        src="{{ $iframe }}"
+        scrolling="auto"
+        height="500px"
+        width="100%"
+        frameborder="0"
+    >
+    </iframe>
+</div>

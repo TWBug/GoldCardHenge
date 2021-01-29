@@ -9,6 +9,7 @@
 
 <div class="relative shadow-xl">
     {{ partial "navigation" . }}
+    {{ partial "alert" .  }}
 </div>
 
 <div class="relative flex items-center bg-background-light z-0 shadow-xl py-16">
@@ -19,7 +20,7 @@
     <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">NEWS LIST TEMPLATE</div>
     {{ end }}
     <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
-        <img src="/img/list-mountains-light.svg" alt="{{ i18n "taiwan_mountains" }}" class="block w-full">
+        <img src="/img/list-mountains-light.svg" alt="" class="block w-full" aria-hidden="true">
     </div>
     <div class="container px-12 lg:px-24">
         <div class="flex flex-col md:flex-row justify-between md:items-center lg:px-24">

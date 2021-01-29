@@ -16,92 +16,167 @@
 {{ end }}
 {{ end }}
 
-<div class="relative h-40 print:hidden">
-    <div class="absolute bottom-0 right-8 w-4/5 sm:w-1/3 xl:w-1/3" style="bottom: -1px">
-        <img src="/img/footer-taipei-skyline.svg" alt="{{ i18n "taipei_city_skyline" }}">
-    </div>
-    <div class="absolute bottom-0 left-0 w-2/3 lg:w-1/2 xl:w-1/3 overflow-hidden" style="bottom: -1px; left: -1px">
-        <img src="/img/footer-taipei-mountains.svg" alt="{{ i18n "taipei_mountains" }}">
-    </div>
-</div>
-<div class="relative bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium print:bg-white print:bg-none">
-    <div class="absolute bottom-0 left-0 w-full sm:w-1/2 xl:w-1/3 print:hidden" style="bottom: -1px">
-        <img src="/img/footer-meta-mountains-trees.svg" class="block" alt="{{ i18n "taiwan_landscape" }}">
-    </div>
-    <div id="footerHumminbird" class="absolute left-20 bottom-1/3 print:hidden">
-        <img src="/img/footer-meta-hummingbird.svg" class="block w-12" alt="{{ i18n "taiwan_hummingbird" }}">
-    </div>
-    <div class="relative container py-12 px-12 lg:px-24">
-        <div class="w-1/2 max-w-28 py-6">
-          <a href="/{{ .Site.Language.Lang }}/" class="block focus-white">
-            <img src="{{ $logo.RelPermalink }}" class="w-full" alt="{{ i18n "tego_logo" }}" />
-          </a>
+<footer>
+    <div class="relative h-40 print:hidden">
+        <div class="absolute bottom-0 right-8 w-4/5 sm:w-1/3 xl:w-1/3" style="bottom: -1px">
+            <img src="/img/footer-taipei-skyline.svg" alt="" aria-hidden="true">
         </div>
-        <div class="flex flex-wrap sm:flex-no-wrap text-white print:text-black">
-            <div class="w-full sm:w-1/3 flex-shrink-0 mr-8 mb-6 sm:mb-0">
-                <p class="font-semibold text-xs">
-                  {{ i18n "footer_description" }}
-                </p>
-                <div class="my-4">
-                    <a href="{{ .Site.Language.Params.linkedin}}" class="inline-block focus-white" target="_blank">
-                        {{ $linkedin_icon := resources.Get "img/icons/linkedin-white.svg" }}
-                        <img src="{{ $linkedin_icon.RelPermalink }}" class="block h-8" alt="{{ i18n "link_linkedin_page" }}">
-                    </a>
-                </div>
-                {{ $helpdesk := .Site.GetPage "/help-desk" }}
-                <h4 class="font-semibold uppercase text-sm mb-1">{{ i18n "footer_help_headline" }}</h4>
-                <p class="font-medium text-xs">
-                    {{ i18n "footer_help_description" }}
-                </p>
-                <div class="flex flex-col items-start mt-2">
-                    <a href="{{ $helpdesk.RelPermalink }}" class="inline-flex items-center my-1 focus-white">
-                        <div class="flex-center w-3">
-                            {{ partial "icon" (dict "name" "info" "size" "3" "alt" "Help Desk Phone") }}
-                        </div>
-                        <span class="text-xs font-bold ml-2">
-                            {{ $helpdesk.Title }}
-                        </span>
-                    </a>
-                    <a href="tel:{{ .Site.Language.Params.phone}}" class="inline-flex items-center my-1 focus-white">
-                        <div class="flex-center w-3">
-                            {{ partial "icon" (dict "name" "phone-alt" "size" "3" "alt" "Help Desk Phone") }}
-                        </div>
-                        <span class="text-xs font-bold ml-2">
-                            {{ .Site.Language.Params.phone}}
-                        </span>
-                    </a>
-                    <a href="mailto:{{ .Site.Language.Params.email}}" class="inline-flex items-center my-1 focus-white">
-                        <div class="flex-center w-3">
-                            {{ partial "icon" (dict "name" "paper-plane" "size" "3" "alt" "Help Desk Email") }}
-                        </div>
-                        <span class="text-xs font-bold ml-2">
-                            {{ .Site.Language.Params.email}}
-                        </span>
-                    </a>
-                </div>
+        <div class="absolute bottom-0 left-0 w-2/3 lg:w-1/2 xl:w-1/3 overflow-hidden" style="bottom: -1px; left: -1px">
+            <img src="/img/footer-taipei-mountains.svg" alt="" aria-hidden="true">
+        </div>
+    </div>
+    <div class="relative bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium print:bg-white print:bg-none">
+        <div class="absolute bottom-0 left-0 w-full sm:w-1/2 xl:w-1/3 print:hidden" style="bottom: -1px">
+            <img src="/img/footer-meta-mountains-trees.svg" class="block" alt="" aria-hidden="true">
+        </div>
+        <div id="footerHumminbird" class="absolute left-20 bottom-1/3 print:hidden">
+            <img src="/img/footer-meta-hummingbird.svg" class="block w-12" alt="" aria-hidden="true">
+        </div>
+        <div class="relative container py-12 px-12 lg:px-24">
+            <div class="w-1/2 max-w-28 py-6">
+            <a href="/{{ .Site.Language.Lang }}/" class="block focus-white">
+                <img src="{{ $logo.RelPermalink }}" class="w-full" alt="{{ partial "alt" ( dict "alt" (i18n "tego_logo") "lang" .Site.Language.Lang ) }}" />
+            </a>
             </div>
-            <div class="flex-grow grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 text-xs font-regular">
-                <div class="">
-                    <h4 class="font-semibold uppercase text-sm mb-1">{{ i18n "footer_languages_title" }}</h4>
-                    <ul class="flex flex-wrap items-center mb-4 -ml-2" x-data="taLanguage()">
-                        {{ range .Site.Languages }}
-                        {{ if lt .Weight 10 }}
-                        {{ $url := print "/" .Lang (substr $.RelPermalink 3) }}
-                        <li>
-                        <a
-                            href="{{ $url }}"
-                            @click.prevent="switchLanguage('{{ .Lang }}')"
-                            title="Change Language"
-                            class="inline-block px-2 py-1 focus-white"
-                        >
-                            {{ .LanguageName }}
-                        </a></li>
-                        {{ end }}
-                        {{ end }}
-                    </ul>
-                    <h4 class="font-semibold uppercase text-sm mb-1">{{ i18n "goldcard" }}</h4>
-                    <ul class="-ml-2">
-                        {{ range $goldcard_links }}
+            <div class="flex flex-wrap sm:flex-no-wrap text-white print:text-black">
+                <div class="w-full sm:w-1/3 flex-shrink-0 mr-8 mb-6 sm:mb-0">
+                    <h2 class="font-semibold text-xs">
+                    {{ i18n "footer_description" }}
+                    </h2>
+                    <div class="my-4">
+                        <a href="{{ .Site.Language.Params.linkedin}}" class="inline-block focus-white" target="_blank"  title="{{ i18n "open_in_new_window"}}">
+                            {{ $linkedin_icon := resources.Get "img/icons/linkedin-white.svg" }}
+                            <img src="{{ $linkedin_icon.RelPermalink }}" class="block h-8" alt="{{ partial "alt" ( dict "alt" (i18n "link_linkedin_page") "lang" .Site.Language.Lang ) }}">
+                        </a>
+                    </div>
+                    {{ $helpdesk := .Site.GetPage "/help-desk" }}
+                    <h3 class="font-semibold uppercase text-sm mb-1">{{ i18n "footer_help_headline" }}</h3>
+                    <p class="font-medium text-xs">
+                        {{ i18n "footer_help_description" }}
+                    </p>
+                    <div class="flex flex-col items-start mt-2">
+                        <a href="{{ $helpdesk.RelPermalink }}" class="inline-flex items-center my-1 focus-white">
+                            <div class="flex-center w-3">
+                                {{ partial "icon" (dict "name" "info" "size" "3" "alt" "Help Desk Phone") }}
+                            </div>
+                            <span class="text-xs font-bold ml-2">
+                                {{ $helpdesk.Title }}
+                            </span>
+                        </a>
+                        <a href="tel:{{ .Site.Language.Params.phone}}" class="inline-flex items-center my-1 focus-white">
+                            <div class="flex-center w-3">
+                                {{ partial "icon" (dict "name" "phone-alt" "size" "3" "alt" "Help Desk Phone") }}
+                            </div>
+                            <span class="text-xs font-bold ml-2">
+                                {{ .Site.Language.Params.phone}}
+                            </span>
+                        </a>
+                        <a href="mailto:{{ .Site.Language.Params.email}}" class="inline-flex items-center my-1 focus-white">
+                            <div class="flex-center w-3">
+                                {{ partial "icon" (dict "name" "paper-plane" "size" "3" "alt" "Help Desk Email") }}
+                            </div>
+                            <span class="text-xs font-bold ml-2">
+                                {{ .Site.Language.Params.email}}
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-grow grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 text-xs font-regular">
+                    <div class="">
+                        <h3 class="font-semibold uppercase text-sm mb-1">{{ i18n "footer_languages_title" }}</h3>
+                        <ul class="flex flex-wrap items-center mb-4 -ml-2" x-data="taLanguage()">
+                            {{ range .Site.Languages }}
+                            {{ if lt .Weight 10 }}
+                            {{ $url := print "/" .Lang (substr $.RelPermalink 3) }}
+                            <li>
+                            <a
+                                href="{{ $url }}"
+                                @click.prevent="switchLanguage('{{ .Lang }}')"
+                                title="Change Language"
+                                class="inline-block px-2 py-1 focus-white"
+                            >
+                                {{ .LanguageName }}
+                            </a></li>
+                            {{ end }}
+                            {{ end }}
+                        </ul>
+                        <h3 class="font-semibold uppercase text-sm mb-1">{{ i18n "goldcard" }}</h3>
+                        <ul class="-ml-2">
+                            {{ range $goldcard_links }}
+                            {{ with $.Site.GetPage .link }}
+                            <li>
+                                <a href="{{ .RelPermalink }}" class="inline-block px-2 py-1 focus-white">
+                                    {{ .Title }}
+                                </a>
+                            </li>
+                            {{ end }}
+                            {{ end }}
+                        </ul>
+                    </div>
+                    <div class="">
+                        <h3 class="font-semibold uppercase text-sm mb-1">
+                            {{ $whytaiwan := .Site.GetPage "/why-taiwan" }}
+                            <a href="{{ $whytaiwan.RelPermalink }}" class="focus-white">
+                                {{ i18n "why_taiwan" }}
+                            </a>
+                        </h3>
+                        <ul class="flex flex-wrap items-center mb-4 -ml-2">
+                            {{ range .Site.Taxonomies.topics }}
+                            <li>
+                                <a href="{{ .Page.Permalink }}" class="inline-block px-2 py-1 focus-white">
+                                {{ if i18n (.Page.Title | anchorize) }}
+                                {{ i18n (.Page.Title | anchorize) }}
+                                {{ else }}
+                                {{ .Page.Title | humanize }}
+                                {{ end }}
+                                </a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                        <h3 class="font-semibold uppercase text-sm mb-1">{{ i18n "other" }}</h3>
+                        <ul class="flex flex-wrap items-center mb-4 -ml-2">
+                            {{ $events := .Site.GetPage "/events" }}
+                            <li>
+                                <a href="{{ $events.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
+                                    {{ $events.Title }}
+                                </a>
+                            </li>
+                            {{ $news := .Site.GetPage "/news" }}
+                            <li>
+                                <a href="{{ $news.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
+                                    {{ $news.Title }}
+                                </a>
+                            </li>
+                            <li aria-hidden="true">
+                                <button type="button" class="inline-block px-2 py-1 focus-white" onclick="FreshworksWidget('open');">{{ i18n "contact" }}</button>
+                            </li>
+                            {{/*  {{ range sort .Site.Sections ".Title" "asc" }}
+                            <li>
+                                <a href="{{ .RelPermalink }}" class="inline-block px-2 py-1 focus-white">{{ .Title }}</a>
+                            </li>
+                            {{ end }}  */}}
+                        </ul>
+                    </div>
+                    <div class="">
+                        <h3 class="font-semibold uppercase text-sm mb-1">{{ i18n "faq" }}</h3>
+                        <ul class="flex flex-wrap items-center mb-4 -ml-2">
+                            {{ range .Site.Taxonomies.tags }}
+                            <li>
+                                <a href="{{ .Page.Permalink }}" class="inline-block px-2 py-1 focus-white">
+                                {{ if i18n (.Page.Title | anchorize) }}
+                                {{ i18n (.Page.Title | anchorize) }}
+                                {{ else }}
+                                {{ .Page.Title | humanize }}
+                                {{ end }}
+                                </a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                        <h3 class="font-semibold uppercase text-sm mb-1">
+                            {{ i18n "resources" }}
+                        </h3>
+                        <ul class="flex flex-wrap items-center -ml-2">
+                        {{ range $resources_links }}
                         {{ with $.Site.GetPage .link }}
                         <li>
                             <a href="{{ .RelPermalink }}" class="inline-block px-2 py-1 focus-white">
@@ -110,107 +185,37 @@
                         </li>
                         {{ end }}
                         {{ end }}
-                    </ul>
-                </div>
-                <div class="">
-                    <h4 class="font-semibold uppercase text-sm mb-1">
-                        {{ $whytaiwan := .Site.GetPage "/why-taiwan" }}
-                        <a href="{{ $whytaiwan.RelPermalink }}" class="focus-white">
-                            {{ i18n "why_taiwan" }}
-                        </a>
-                    </h4>
-                    <ul class="flex flex-wrap items-center mb-4 -ml-2">
-                        {{ range .Site.Taxonomies.topics }}
-                        <li>
-                            <a href="{{ .Page.Permalink }}" class="inline-block px-2 py-1 focus-white">
-                            {{ if i18n (.Page.Title | anchorize) }}
-                            {{ i18n (.Page.Title | anchorize) }}
-                            {{ else }}
-                            {{ .Page.Title | humanize }}
-                            {{ end }}
-                            </a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                    <h4 class="font-semibold uppercase text-sm mb-1">{{ i18n "other" }}</h4>
-                    <ul class="flex flex-wrap items-center mb-4 -ml-2">
-                        {{ $events := .Site.GetPage "/events" }}
-                        <li>
-                            <a href="{{ $events.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
-                                {{ $events.Title }}
-                            </a>
-                        </li>
-                        {{ $news := .Site.GetPage "/news" }}
-                        <li>
-                            <a href="{{ $news.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
-                                {{ $news.Title }}
-                            </a>
-                        </li>
-                        {{/*  {{ range sort .Site.Sections ".Title" "asc" }}
-                        <li>
-                            <a href="{{ .RelPermalink }}" class="inline-block px-2 py-1 focus-white">{{ .Title }}</a>
-                        </li>
-                        {{ end }}  */}}
-                    </ul>
-                </div>
-                <div class="">
-                    <h4 class="font-semibold uppercase text-sm mb-1">{{ i18n "faq" }}</h4>
-                    <ul class="flex flex-wrap items-center mb-4 -ml-2">
-                        {{ range .Site.Taxonomies.tags }}
-                        <li>
-                            <a href="{{ .Page.Permalink }}" class="inline-block px-2 py-1 focus-white">
-                            {{ if i18n (.Page.Title | anchorize) }}
-                            {{ i18n (.Page.Title | anchorize) }}
-                            {{ else }}
-                            {{ .Page.Title | humanize }}
-                            {{ end }}
-                            </a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                    <h4 class="font-semibold uppercase text-sm mb-1">
-                        {{ i18n "resources" }}
-                    </h4>
-                    <ul class="flex flex-wrap items-center -ml-2">
-                    {{ range $resources_links }}
-                    {{ with $.Site.GetPage .link }}
-                    <li>
-                        <a href="{{ .RelPermalink }}" class="inline-block px-2 py-1 focus-white">
-                            {{ .Title }}
-                        </a>
-                    </li>
-                    {{ end }}
-                    {{ end }}
-                    </ul>
+                        </ul>
 
-                </div>
-                <div class="">
-                    <h4 class="font-semibold uppercase text-sm mb-1">{{ i18n "legal" }}</h4>
-                    <ul class="-ml-2">
-                        {{ $legal := .Site.GetPage "/legal" }}
-                        {{ range $legal.RegularPages }}
-                        <li>
-                            <a href="{{ .RelPermalink }}" class="inline-block px-2 py-1 focus-white">
-                                {{ .Title }}
-                            </a>
-                        </li>
-                        {{ end }}
-                        {{ $sitemap := .Site.GetPage "/sitemap" }}
-                        <li>
-                            <a href="{{ $sitemap.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
-                                {{ $sitemap.Title }}
-                            </a>
-                        </li>
-                    </ul>
+                    </div>
+                    <div class="">
+                        <h3 class="font-semibold uppercase text-sm mb-1">{{ i18n "legal" }}</h3>
+                        <ul class="-ml-2">
+                            {{ $legal := .Site.GetPage "/legal" }}
+                            {{ range $legal.RegularPages }}
+                            <li>
+                                <a href="{{ .RelPermalink }}" class="inline-block px-2 py-1 focus-white">
+                                    {{ .Title }}
+                                </a>
+                            </li>
+                            {{ end }}
+                            {{ $sitemap := .Site.GetPage "/sitemap" }}
+                            <li>
+                                <a href="{{ $sitemap.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
+                                    {{ $sitemap.Title }}
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="bg-secondary-dark print:bg-white">
-    <div class="container text-center pt-8 pb-16 sm:py-6 px-12 lg:px-24">
-        <p class="text-white print:text-black text-xs font-semibold">
-            © {{ now.Format "2006"}} - {{ i18n "footer_copyright" }}
-        </p>
+    <div class="bg-secondary-dark print:bg-white">
+        <div class="container text-center pt-8 pb-16 sm:py-6 px-12 lg:px-24">
+            <p class="text-white print:text-black text-xs font-semibold">
+                © {{ now.Format "2006"}} - {{ i18n "footer_copyright" }}
+            </p>
+        </div>
     </div>
-</div>
+</footer>

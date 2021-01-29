@@ -50,19 +50,27 @@ window.highlight = {
     // )
   },
   replaceInDocument: function replaceInDocument(wrapper, pattern, string) {
-    ;
     [wrapper].concat(_toConsumableArray(wrapper.querySelectorAll('*:not(script):not(noscript):not(style)'))).forEach(function (_ref) {
       var _ref$childNodes = _toArray(_ref.childNodes),
           nodes = _ref$childNodes.slice(0);
 
       return nodes.filter(function (_ref2) {
         var nodeType = _ref2.nodeType;
-        // console.info('nodeType', nodeType);
         return nodeType === document.ELEMENT_NODE;
       }).forEach(function (textNode) {
-        textNode.innerHTML = textNode.innerHTML.replace(pattern, string); // if (textNode.nodeName === 'P' || textNode.nodeName === 'H3' || textNode.nodeName === 'H2' ) {
-        //     console.info('textNode', textNode.nodeName);
-        // }
+        if (textNode.classList.contains('nohighlight')) {
+          return;
+        }
+
+        if (textNode.innerHTML.substr(0, 1) === '<') {
+          return;
+        }
+
+        if (textNode.innerHTML.indexOf(string) !== -1) {
+          return;
+        }
+
+        textNode.innerHTML = textNode.innerHTML.replace(pattern, string);
       });
     });
   }
@@ -725,6 +733,63 @@ window.taFilter = function () {
     }
   };
 };
+// window.taForm = function () {
+//     return {
+//         language: 'en',
+//         options: {
+//             language: 'en',
+//             supported: ['en', 'zh'],
+//         },
+//         data: {
+//             authenticity_token: 'UIrYBi5cp2iO8HaN9W3v/brtWrCDstDI4LkCk6QbYX8=',
+//             'helpdesk_ticket[email]': 'test@futureward.com',
+//             'helpdesk_ticket[name]': 'Test Name',
+//             'helpdesk_ticket[subject]': 'Test Subject',
+//             'helpdesk_ticket[ticket_body_attributes][description_html]': 'Description',
+//             'meta[user_agent]':
+//                 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+//             'meta[referrer]': 'help-desk-form',
+//             utf8: '&#x2713',
+//             'helpdesk_ticket[source]': '9',
+//             retainParams: '{"widgetType":"embedded","submitTitle":"Send"}',
+//         },
+//         init(options) {
+//             if (typeof options !== 'undefined') {
+//                 if (typeof options !== 'object' || options instanceof Array) {
+//                     console.warn(
+//                         'Options are in wrong type - should be object - default options been used'
+//                     );
+//                 }
+//                 for (let [key, value] of Object.entries(options)) {
+//                     this.options[key] = value;
+//                 }
+//             }
+//             console.info(this.$refs.iframe);
+//             setTimeout(function(){
+//                 console.info('window.freshdesk', window.freshdesk.document.head);
+//             }, 3000);
+//             // Array.prototype.forEach.call(window.parent.document.querySelectorAll("link[rel=stylesheet]"), function(link) {
+//             //     var newLink = document.createElement("link");
+//             //     newLink.rel  = link.rel;
+//             //     newLink.href = link.href;
+//             //     document.head.appendChild(newLink);
+//             // });
+//             const styles = document.createElement("link");
+//             styles.rel  = 'stylesheet';
+//             styles.href = 'http://localhost:1313/css/helpdesk.css';
+//             window.freshdesk.document.head.appendChild(styles);
+//             // this.$refs.iframe.document.head.appendChild(styles);
+//             // this.$refs.iframe.contents().find("head").append($('<link rel="stylesheet" type="text/css" href="http://localhost:1313/css/helpdesk.css">')
+//             // this.$fetch({
+//             //     url: 'https://help.taiwangoldcard.tw/widgets/feedback_widget?widgetType=embedded',
+//             //     method: 'post',
+//             //     headers: { 'Content-Type': 'application/json' },
+//             //     body: JSON.stringify(this.data),
+//             // }).then(({ data }) => console.log(data));
+//         },
+//     };
+// };
+"use strict";
 "use strict";
 
 window.taImageViewer = function () {
@@ -812,36 +877,189 @@ window.taLanguage = function () {
 };
 "use strict";
 
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+window.taMainContent = function () {
+  // https://www.w3.org/TR/WCAG-TECHS/G1.html
+  return {
+    href: '',
+    offsetTop: 0,
+    options: {
+      tag: 'h1',
+      fallback: 'maincontent',
+      wrapper: 'scroll',
+      offset: 0
+    },
+    init: function init(options) {
+      if (typeof options !== 'undefined') {
+        if (_typeof(options) !== 'object' || options instanceof Array) {
+          console.warn('Options are in wrong type - should be object - default options been used');
+        }
+
+        for (var _i = 0, _Object$entries = Object.entries(options); _i < _Object$entries.length; _i++) {
+          var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+              key = _Object$entries$_i[0],
+              value = _Object$entries$_i[1];
+
+          this.options[key] = value;
+        }
+      } // checks if options are defined by data
+
+
+      for (var _i2 = 0, _Object$entries2 = Object.entries(this.$el.dataset); _i2 < _Object$entries2.length; _i2++) {
+        var _Object$entries2$_i = _slicedToArray(_Object$entries2[_i2], 2),
+            _key = _Object$entries2$_i[0],
+            _value = _Object$entries2$_i[1];
+
+        if (typeof this.options[_key] !== 'undefined') {
+          if (isNaN(_value)) {
+            this.options[_key] = _value;
+          } else {
+            this.options[_key] = parseInt(_value);
+          }
+        }
+      }
+
+      var element = document.getElementsByTagName(this.options.tag);
+
+      if (typeof element[0] === 'undefined') {
+        return;
+      }
+
+      var element_id = this.options.fallback;
+
+      if (element[0].id === '') {
+        element[0].id = this.options.fallback;
+      } else {
+        element_id = element[0].id;
+      } // set the id of the found element
+
+
+      this.id = element[0].id;
+      var scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
+
+      if (scrollNavHeight === '') {
+        scrollNavHeight = 0;
+      } else {
+        scrollNavHeight = parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
+      }
+
+      this.offsetTop = element[0].offsetTop + scrollNavHeight;
+      this.href = window.location.pathname + '#' + element_id;
+    },
+    go: function go() {
+      scroll({
+        top: parseInt(this.offsetTop) - parseInt(this.options.offset),
+        behavior: 'smooth'
+      });
+      var wrapper = document.getElementById(this.options.wrapper);
+
+      if (wrapper === null) {
+        return;
+      }
+
+      var focus = wrapper.querySelector('a:first-of-type, input:first-of-type, button:first-of-type');
+      console.info('focus', focus);
+
+      if (focus === null) {
+        return;
+      }
+
+      focus.focus(); // console.info('main_content', main_content);
+      // const test = main_content.querySelector('a:first-of-type');
+      // console.info('test', test);
+      // scroll({
+      //     top: parseInt(this.offsetTop) - parseInt(this.options.offset),
+      //     behavior: 'smooth',
+      // });
+    }
+  };
+};
+"use strict";
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 window.taMap = function () {
   return {
     status: false,
     elements: [],
     play: [],
-    // test: 'test',
+    stop: false,
     active: -1,
     modal: false,
+    title: '',
+    titleButton: [],
     wrapper: {},
     data: {},
     "default": {},
     options: {
       ref: 'map',
-      file: 'file'
+      file: 'file',
+      titleStop: '',
+      titlePlay: ''
     },
     init: function init() {
       var _this = this;
+
+      // checks if options are defined by data
+      for (var _i = 0, _Object$entries = Object.entries(this.$el.dataset); _i < _Object$entries.length; _i++) {
+        var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+            key = _Object$entries$_i[0],
+            value = _Object$entries$_i[1];
+
+        if (typeof this.options[key] !== 'undefined') {
+          this.options[key] = value;
+        }
+      }
 
       var content = this.$el.querySelectorAll('.member');
 
       for (var index = 0; index < content.length; index++) {
         this.elements.push(content[index]);
         this.play.push(true);
+        this.titleButton.push(content[index].dataset.titleShow);
       }
 
       var wrapper = this.$el.querySelector('.wrapper');
       this.wrapper = {
         left: wrapper.offsetLeft,
         width: wrapper.innerWidth
-      }; // check if element is in the viewport -> start counting
+      };
+
+      if (this.options.titleStop.length > 0) {
+        this.title = this.options.titleStop;
+        this.$watch('stop', function (value) {
+          if (value === true) {
+            _this.title = _this.options.titlePlay;
+            return;
+          }
+
+          _this.title = _this.options.titleStop;
+        });
+      } // check if element is in the viewport -> start counting
+
 
       window.addEventListener('scroll', function () {
         _this.startAnimation();
@@ -854,7 +1072,14 @@ window.taMap = function () {
       this.play[this.active] = true;
       this.play[index] = !this.play[index];
       this.active = index;
-      this.modal = true;
+      this.modal = !this.modal;
+
+      if (this.modal === true) {
+        this.titleButton[index] = this.elements[index].dataset.titleHide;
+      } else {
+        this.titleButton[index] = this.elements[index].dataset.titleShow;
+      }
+
       this.data = {
         name: this.elements[index].dataset.name,
         image: this.elements[index].dataset.image,
@@ -871,12 +1096,15 @@ window.taMap = function () {
     closeModal: function closeModal() {
       this.modal = false;
       this.play[this.active] = true;
+      this.active = -1;
+
+      if (this.stop === true) {
+        return;
+      }
 
       for (var index = 0; index < this.play.length; index++) {
         this.play[index] = true;
       }
-
-      this.active = -1;
     },
     startAnimation: function startAnimation() {
       var _this2 = this;
@@ -898,6 +1126,13 @@ window.taMap = function () {
             }
           }, 40);
         }
+      }
+    },
+    stopAnimation: function stopAnimation() {
+      this.stop = true;
+
+      for (var index = 0; index < this.play.length; index++) {
+        this.play[index] = false;
       }
     },
     isInViewport: function isInViewport() {
@@ -1486,12 +1721,17 @@ window.taToc = function () {
   return {
     initialized: false,
     folded: true,
+    title: '',
     options: {
       folded: true,
       length: 100,
-      threshold: 100
+      threshold: 100,
+      titleShow: '',
+      titleHide: ''
     },
     init: function init(options) {
+      var _this = this;
+
       if (typeof options !== 'undefined') {
         if (_typeof(options) !== 'object' || options instanceof Array) {
           console.warn('Options are in wrong type - should be object - options been used');
@@ -1504,6 +1744,33 @@ window.taToc = function () {
 
           this.options[key] = value;
         }
+      } // checks if options are defined by data
+
+
+      for (var _i2 = 0, _Object$entries2 = Object.entries(this.$el.dataset); _i2 < _Object$entries2.length; _i2++) {
+        var _Object$entries2$_i = _slicedToArray(_Object$entries2[_i2], 2),
+            _key = _Object$entries2$_i[0],
+            _value = _Object$entries2$_i[1];
+
+        if (typeof this.options[_key] !== 'undefined') {
+          if (isNaN(_value)) {
+            this.options[_key] = _value;
+          } else {
+            this.options[_key] = parseInt(_value);
+          }
+        }
+      }
+
+      if (this.options.titleShow.length > 0) {
+        this.title = this.options.titleShow;
+        this.$watch('folded', function (value) {
+          if (value === true) {
+            _this.title = _this.options.titleHide;
+            return;
+          }
+
+          _this.title = _this.options.titleShow;
+        });
       }
 
       this.checkFolded();
@@ -1648,12 +1915,54 @@ window.taWelcome = function () {
 };
 "use strict";
 
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 window.taAccordion = function () {
   return {
     show: false,
     link: '',
-    "default": {},
-    init: function init(tags) {// if (typeof this.$store === 'undefined') {
+    shortcut: false,
+    title: '',
+    options: {
+      shortcut: true,
+      titleShow: '',
+      titleHide: ''
+    },
+    init: function init() {
+      var _this = this;
+
+      // checks if options are defined by data
+      for (var _i = 0, _Object$entries = Object.entries(this.$el.dataset); _i < _Object$entries.length; _i++) {
+        var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+            key = _Object$entries$_i[0],
+            value = _Object$entries$_i[1];
+
+        if (typeof this.options[key] !== 'undefined') {
+          this.options[key] = value;
+        }
+      }
+
+      if (this.options.titleShow.length > 0) {
+        this.title = this.options.titleShow;
+        this.$watch('show', function (value) {
+          if (value === true) {
+            _this.title = _this.options.titleHide;
+            return;
+          }
+
+          _this.title = _this.options.titleShow;
+        });
+      } // if (typeof this.$store === 'undefined') {
       //     return false;
       // }
       // if (typeof this.$store.filter === 'undefined') {
@@ -1664,13 +1973,153 @@ window.taAccordion = function () {
       //     active: true,
       //     tags: tags,
       // };
+
+
+      this.options.shortcut = this.options.shortcut == true ? true : false;
+
+      if (this.options.shortcut !== true) {
+        return;
+      }
+
+      this.$el.addEventListener('keydown', function (key) {
+        if (key.ctrlKey === true && key.keyCode === 68) {
+          _this.shortcut = !_this.shortcut;
+        }
+      });
     },
     toggle: function toggle() {
-      this.show = !this.show;
+      this.show = !this.show; // if (document.activeElement === this.$refs.button) {
+      //     this.link = this.$refs.link.value;
+      // }
+    }
+  };
+};
+"use strict";
 
-      if (document.activeElement === this.$refs.button) {
-        this.link = this.$refs.link.value;
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+window.taAlert = function () {
+  return {
+    show: false,
+    options: {
+      name: 'ta-alert',
+      delay: 1500,
+      timeout: 0,
+      language: 'en',
+      interval: 24
+    },
+    init: function init(options) {
+      var _this = this;
+
+      if (typeof options !== 'undefined') {
+        if (_typeof(options) !== 'object' || options instanceof Array) {
+          console.warn('Options are in wrong type - should be object - default options been used');
+        }
+
+        for (var _i = 0, _Object$entries = Object.entries(options); _i < _Object$entries.length; _i++) {
+          var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+              key = _Object$entries$_i[0],
+              value = _Object$entries$_i[1];
+
+          this.options[key] = value;
+        }
+      } // checks if options are defined by data
+
+
+      for (var _i2 = 0, _Object$entries2 = Object.entries(this.$el.dataset); _i2 < _Object$entries2.length; _i2++) {
+        var _Object$entries2$_i = _slicedToArray(_Object$entries2[_i2], 2),
+            _key = _Object$entries2$_i[0],
+            _value = _Object$entries2$_i[1];
+
+        if (typeof this.options[_key] !== 'undefined') {
+          this.options[_key] = _value;
+        }
+      } // convert values to the right format
+
+
+      this.options.interval = parseFloat(this.options.interval);
+      this.options.delay = parseInt(this.options.delay);
+      this.options.timeout = parseInt(this.options.timeout); // check if user clicked away
+      // get last time user clicked
+
+      var storage = this.getStorage();
+      var date_now = new Date().getTime();
+      var date_last = date_now;
+
+      if (!isNaN(storage)) {
+        date_last = parseInt(storage);
+      } // if user clicked but in actual interval
+
+
+      if (date_now < date_last + this.options.interval * 60 * 60 * 1000) {
+        return;
+      } // set timeout for delay to show alert
+
+
+      setTimeout(function () {
+        _this.show = true;
+      }, this.options.delay); // if timeout is set alert will be gone after this amount of ms
+
+      if (this.options.timeout > 0) {
+        setTimeout(function () {
+          _this.show = false;
+        }, this.options.delay + this.options.timeout);
       }
+    },
+    hide: function hide() {
+      this.show = false;
+      this.setStorage(new Date().getTime());
+    },
+    setStorage: function setStorage(value) {
+      var item = this.options.name + '-' + this.options.language;
+
+      try {
+        localStorage.setItem(item, value);
+        return true;
+      } catch (e) {
+        if (e.name == 'NS_ERROR_FILE_CORRUPTED') {
+          alert(this.message);
+        }
+
+        this.setCookie(item, value);
+        return false;
+      }
+    },
+    getStorage: function getStorage() {
+      var item = this.options.name + '-' + this.options.language;
+
+      try {
+        return localStorage.getItem(item).replace(/(<([^>]+)>)/gi, '');
+      } catch (e) {
+        if (e.name == 'NS_ERROR_FILE_CORRUPTED') {
+          alert(this.message);
+        }
+
+        return this.getCookie(item);
+      }
+    },
+    setCookie: function setCookie(item, value) {
+      var expires = '';
+      var date = new Date();
+      date.setTime(date.getTime() + 12 * 30 * 24 * 60 * 60 * 1000);
+      expires = '; expires=' + date.toUTCString();
+      document.cookie = item + '=' + value + expires + '; path=/';
+    },
+    getCookie: function getCookie(item) {
+      var itemValue = document.cookie.match('(^|;) ?' + item + '=([^;]*)(;|$)');
+      return itemValue ? itemValue[2].replace(/(<([^>]+)>)/gi, '') : null;
     }
   };
 };

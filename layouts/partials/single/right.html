@@ -27,7 +27,7 @@
             <img
                 srcset="{{ $small.RelPermalink }} 480w, {{ $large.RelPermalink }} 1024w"
                 src="{{ $large.RelPermalink | safeURL }}"
-                alt="{{ .Page.Params.cover_image_alt | truncate 160 }}"
+                alt="{{ .Page.Params.cover_image_alt | truncate 100 }}"
                 class="block absolute inset-0 w-full h-full object-cover"
                 loading="lazy"
             />
@@ -37,12 +37,14 @@
     {{ partial "breadcrumb" . }}
     <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xl:gap-24">
         <div class="copy replace sm:col-span-2 pt-4">
-            {{ if eq $h1_count 0 }}
-            <h1 class="text-5xl font-medium leading-tight mb-2">
-                {{ .Title | safeHTML }}
-            </h1>
-            {{ end }}
-            {{.Content}}
+            <main>
+                {{ if eq $h1_count 0 }}
+                <h1 class="text-5xl font-medium leading-tight mb-2">
+                    {{ .Title | safeHTML }}
+                </h1>
+                {{ end }}
+                {{.Content}}
+            </main>
         </div>
         <div class="print:hidden -mt-8">
             {{ if eq $cover_image "true" }}
@@ -50,24 +52,28 @@
                 <img
                     srcset="{{ $small.RelPermalink }} 480w, {{ $large.RelPermalink }} 1024w"
                     src="{{ $large.RelPermalink | safeURL }}"
-                    alt="{{ .Page.Params.cover_image_alt | truncate 160 }}"
+                    alt="{{ .Page.Params.cover_image_alt | truncate 100 }}"
                     class="block absolute inset-0 w-full h-full object-cover"
                     loading="lazy"
                 />
             </div>
             {{ end }}
-            {{ partial "aside/summary" . }}
-            {{ partial "aside/toc" . }}
-            {{ if .Params.categories }}
-            {{ partial "aside/all-categories" . }}
-            {{ end }}
-            {{ if .Params.tags }}
-            {{ partial "aside/all-tags" . }}
-            {{ end }}
-            {{ if .Params.topics }}
-            {{ partial "aside/all-topics" . }}
-            {{ end }}
-            {{ partial "aside/apply-now" . }}
+            <div class="print:hidden sm:-mt-4">
+                <aside>
+                {{ partial "aside/summary" . }}
+                {{ partial "aside/toc" . }}
+                {{ if .Params.categories }}
+                {{ partial "aside/all-categories" . }}
+                {{ end }}
+                {{ if .Params.tags }}
+                {{ partial "aside/all-tags" . }}
+                {{ end }}
+                {{ if .Params.topics }}
+                {{ partial "aside/all-topics" . }}
+                {{ end }}
+                {{ partial "aside/apply-now" . }}
+                </aside>
+            </div>
         </div>
     </div>
 </div>

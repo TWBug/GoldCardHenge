@@ -9,6 +9,7 @@
 
 <div class="relative shadow-xl">
     {{ partial "navigation" . }}
+    {{ partial "alert" .  }}
 </div>
 
 <div class="relative flex items-center z-0 pt-16">
@@ -41,7 +42,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
                 <div class="lg:col-span-2 pt-10">
                     <div class="-ml-2">
-                        
+
                         {{ range .Pages }}
                         <a href="{{ .RelPermalink }}" class="inline-flex items-center text-primary text-base border-2 rounded-md px-4 py-2 m-2">
                             {{ partial "icon" (dict "name" "tag" "size" "4") }}
@@ -49,11 +50,11 @@
                         </a>
                         {{ end }}
                     </div>
-                    
+
                     {{ if .Content }}
                     <div class="copy mt-12">{{ .Content }}</div>
                     {{ end }}
-                    
+
                 </div>
                 <div class="-mt-12">
                     {{ partial "aside/latest-news" . }}

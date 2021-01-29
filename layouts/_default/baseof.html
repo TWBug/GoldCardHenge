@@ -1,5 +1,9 @@
+{{ $language := .Site.Language.Lang }}
+{{ if eq $language "zh" }}
+{{ $language = "zh-Hant-TW" }}
+{{ end }}
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}">
+<html lang="{{ $language }}">
     <head>
         {{ partial "head" . }}
         {{ block "head" . }}
@@ -19,6 +23,7 @@
             {{ end }}
             {{ partial "footer" . }}
         </div>
+        {{ partial "helpdesk-widget" . }}
         {{ partial "welcome" . }}
         {{ partial "search" . }}
         {{ block "scripts" . }}

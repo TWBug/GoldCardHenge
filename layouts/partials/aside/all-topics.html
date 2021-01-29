@@ -1,7 +1,7 @@
 <div class="my-12">
     <div class="flex items-center border-b-2 border-secondary border-dashed px-2 pb-2">
         {{ partial "icon" (dict "name" "tags" "size" "5") }}
-        <h3 class="text-xl font-bold ml-2">{{ i18n "all_topics" }}</h3>
+        <h2 class="text-xl font-bold ml-2">{{ i18n "all_topics" }}</h2>
     </div>
     <ul class="block pt-6 pl-2">
         {{ range .Site.Taxonomies.topics }}
