@@ -20,10 +20,12 @@
 {{ end }}
 
 {{ $alt := .name }}
-{{ if eq .alt false }}
-{{ $alt = "" }}
-{{ else }}
-{{ $alt = .alt }}
+{{ if .alt }}
+    {{ if eq .alt false }}
+    {{ $alt = "" }}
+    {{ else }}
+    {{ $alt = .alt }}
+    {{ end }}
 {{ end }}
 
 {{ if eq .name "home" }}
