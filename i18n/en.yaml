@@ -64,8 +64,18 @@
   translation: 'FAQ'
 - id: news
   translation: 'News'
+- id: job_listing_title
+  translation: 'Job listings'
+- id: job_listing_description
+  translation: 'Gold Card website combines and shows you a selection of job offerings from several Taiwan job portals to give you an example of what kind of professions are needed in Taiwan.'
+- id: job_listing_info
+  translation: 'Clicking on the link will open a new window with the job details on an external website.'
 - id: news_category
   translation: 'News category'
+- id: job_category
+  translation: 'Job category'
+- id: all_job_categories
+  translation: 'All job categories'
 - id: to_accupass_event
   translation: 'Event Registration'
 - id: starts_at
