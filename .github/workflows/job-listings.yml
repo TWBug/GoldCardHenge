@@ -1,0 +1,31 @@
+name: Build Job Listings
+
+on:
+    push:
+        branches:
+            - master
+        paths:
+            - 'data/job_lists.yaml'
+
+jobs:
+    scrape:
+        runs-on: ubuntu-18.04
+        steps:
+            - uses: actions/checkout@v2
+            - name: Setup Node
+              uses: actions/setup-node@v2.1.2
+              with:
+                  node-version: '12'
+            - name: Cache dependencies
+              uses: actions/cache@v2
+              with:
+                  path: ~/.npm
+                  key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+                  restore-keys: |
+                      ${{ runner.os }}-node-
+            - name: Install dependencies
+              run: yarn --frozen-lockfile
+
+            # The meat. The rest is just boilerplate. This is where the job scraping happens
+            - name: Build the Finder tool
+              run: 'yarn build:jobs'
