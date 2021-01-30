@@ -1,6 +1,5 @@
 ---
 draft: false
-summary: null
 date: 2020-11-04T06:52:19.195Z
 topic: resources
 cover_image: cms-uploads/icon-job-search.svg
