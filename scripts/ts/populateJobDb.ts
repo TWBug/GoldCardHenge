@@ -8,6 +8,8 @@ import db from './db';
 import { pathCase } from 'change-case';
 import path from 'path';
 
+const DEBUG = !!process.env.DEBUG
+
 const MAPPINGS: { [k: string]: IAdapterConstructor } = {
     'www.cakeresume.com': CakeResumeAdapter,
 };
@@ -38,12 +40,8 @@ const getJobs = async (url: string) => {
             'Mozilla/5.0 (Macintosh) AppleWebKit/537 (KHTML, like Gecko) Chrome/88.TEGO.special Safari/537.TEGO.special',
     };
 
-    try {
-        return await adapter.getJobs({ headers });
-    } catch (err) {
-        console.error('Error with database?');
-        throw err;
-    }
+    // This could throw, but We'll catch at a higher level
+    return await adapter.getJobs({ headers });
 };
 
 const main = async () => {
@@ -57,19 +55,25 @@ const main = async () => {
     const result: IDBRowJob[][] = await Promise.all(
         urls.map((x) => {
             return getJobs(x).catch((err) => {
-                console.error('The following URL errored out: ', x);
-                console.error(err);
+                console.error('[SKIP] The following URL errored. Ignoring and continuing: ', x);
+                if (DEBUG) {
+                    console.log('DEBUG flag set. Error follows:')
+                    console.error(err);
+                }
                 return []; // Ignore the error by returning the appropriate type
             });
         })
     );
 
     const jobs = result.flat();
+    const outfile = 'dist/jobs.json'
 
-    fs.writeFileSync('tmp/jobs.json', JSON.stringify(jobs, null, 2), { encoding: 'utf-8' });
+    // Ensure that the output dir exists before writing
+    fs.mkdirSync(path.dirname(outfile))
+    fs.writeFileSync(outfile, JSON.stringify(jobs, null, 2), { encoding: 'utf-8' });
 
     console.log();
-    console.log(`    ${jobs.length} jobs written to ->  tmp/jobs.json`);
+    console.log(`    ${jobs.length} jobs written to ->  ${outfile}`);
     console.log();
 };
 
