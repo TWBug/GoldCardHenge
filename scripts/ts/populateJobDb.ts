@@ -69,7 +69,7 @@ const main = async () => {
     const outfile = 'dist/jobs.json'
 
     // Ensure that the output dir exists before writing
-    fs.mkdirSync(path.dirname(outfile))
+    fs.mkdirSync(path.dirname(outfile), { recursive: true })
     fs.writeFileSync(outfile, JSON.stringify(jobs, null, 2), { encoding: 'utf-8' });
 
     console.log();
