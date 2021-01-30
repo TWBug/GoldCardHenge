@@ -1,9 +1,8 @@
 name: Build Job Listings
 
+# Trigger whneever the job list file changes
 on:
     push:
-        branches:
-            - master
         paths:
             - 'data/job_lists.yaml'
 
