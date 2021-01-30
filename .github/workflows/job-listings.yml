@@ -26,5 +26,5 @@ jobs:
               run: yarn --frozen-lockfile
 
             # The meat. The rest is just boilerplate. This is where the job scraping happens
-            - name: Build the Finder tool
+            - name: Scrape all URLs specified in data/job_lists.yaml
               run: 'yarn build:jobs'
