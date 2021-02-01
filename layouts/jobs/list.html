@@ -50,12 +50,12 @@
                     {{ range $paginator.Pages }}
                     <section>
                         <div
-                            class="relative flex flex-row border border-gray-200 rounded-xl bg-gradient-to-b from-white to-gray-100 shadow-lg my-8" data-id="{{ .Params.data_source_internal_id }}"
+                            class="relative flex flex-col sm:flex-row border border-gray-200 rounded-xl bg-gradient-to-b from-white to-gray-100 shadow-lg my-8" data-id="{{ .Params.data_source_internal_id }}"
                         >
                             <div class="absolute right-0 top-0 -mt-6 pr-2">
                                 <span class="font-semibold text-xs text-gray-500">Source: {{ .Params.data_source_name }}</span>
                             </div>
-                            <div class="flex-shrink-0 w-32">
+                            <div class="flex-shrink-0 w-full sm:w-48 lg:w-32">
                                 {{ if .Params.company_logo_url }}
                                 <div class="border-r border-b border-gray-200 w-full p-4">
                                     {{ if .Params.company_page_url }}
@@ -67,17 +67,14 @@
                                     {{ end }}
                                 </div>
                                 {{ end }}
-                                <div class="w-full pt-2 pl-2 pb-4">
+                                <div class="w-full leading-tight pt-4 pl-4 sm:pl-2 sm:pb-4">
                                     {{ range .Params.badges }}
-                                    <li class="inline-block text-primary text-xs p-1 mx-1">
-                                        <a href="/{{ $.Site.Language }}/badges/{{ . | anchorize }}" class="inline-flex items-center focus-primary truncate">
-                                            {{ partial "icon" (dict "name" "tag" "size" "3") }}
-                                            <span class="font-bold uppercase ml-2">
-                                            {{ if i18n (. | anchorize ) }}
-                                            {{ i18n (. | anchorize) }}
-                                            {{ else }}
-                                            {{ . | humanize }}
-                                            {{ end }}
+                                    {{ $tag := . | humanize }}
+                                    <li class="inline-block text-primary text-xxs p-1 mx-1">
+                                        <a href="/{{ $.Site.Language }}/badges/{{ . | anchorize }}" class="inline-flex items-center focus-primary" {{ if gt (len $tag) 20 }} title="{{ $tag }}" {{ end }}>
+                                            {{ partial "icon" (dict "name" "tag" "size" "2") }}
+                                            <span class="font-bold uppercase max-w-32 sm:max-w-24 whitespace-nowrap truncate ml-2">
+                                                {{ $tag }}
                                             </span>
                                         </a>
                                     </li>
@@ -92,11 +89,11 @@
                                 {{ end }}
                                 <h2 class="block text-xl font-bold text-primary mb-2">
                                     <a href="{{ .Params.job_url }}" target="_blank" class="inline-block focus-primary" >
-                                        {{ .Title }}
+                                        {{ trim .Title " " }}
                                     </a>
                                 </h2>
                                 <div class="text-base font-medium">
-                                    {{ .Content }}
+                                    {{ .Content | truncate 180 }}
                                 </div>
                                 {{ if .Params.salary_text }}
                                 <div class="flex items-center text-base font-bold text-water-600 border-b-2 border-t-2 border-gray-300 border-dashed py-4 my-4 -ml-2 pl-2">
@@ -142,12 +139,12 @@
                     {{ end }}
                     {{ end }}
             </div>
-            <div class="print:hidden -mt-12">
-                <aside>
+            <aside>
+                <div class="print:hidden h-full -mt-12">
                     {{ partial "aside/job-listings" . }}
                     {{ partial "aside/apply-now" . }}
-                </aside>
-            </div>
+                </div>
+            </aside>
         </div>
     </main>
 </div>
