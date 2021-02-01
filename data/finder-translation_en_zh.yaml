@@ -1,3 +1,119 @@
+zh:
+  items:
+    - key: language
+      translation: English
+    - key: language_change
+      translation: Change the language to @:language
+    - key: site
+      translation: Best practice Vue js
+    - key: check
+      translation: Check
+    - key: circle
+      translation: circle
+    - key: next
+      translation: 下一步
+    - key: back
+      translation: 返回
+    - key: result
+      translation: Result
+    - key: no_result
+      translation: No result
+    - key: select_question
+      translation: Select this question
+    - key: unselect_question
+      translation: Unselect this question
+    - key: show
+      translation: Show
+    - key: show_details
+      translation: Show details
+    - key: hide
+      translation: Hide
+    - key: hide_details
+      translation: Hide details
+    - key: question
+      translation: Question
+    - key: loading
+      translation: 載入中
+    - key: right
+      translation: right
+    - key: left
+      translation: left
+    - key: top
+      translation: top
+    - key: plus
+      translation: plus
+    - key: minus
+      translation: minus
+    - key: exclamation
+      translation: exclamation
+    - key: file
+      translation: file
+    - key: restart
+      translation: 重新開始
+    - key: start_application
+      translation: 開始申請
+    - key: previous_step
+      translation: 上一步
+    - key: application_easy_mode
+      translation: 申請簡單模式
+    - key: headline_home
+      translation: 請選擇所有適用的選項。
+    - key: headline_1
+      translation: 你是運動員、教練、或者裁判．．．
+    - key: headline_2
+      translation: 你是律師．．．
+    - key: headline_3
+      translation: 你是建築師．．．
+    - key: headline_4
+      translation: 你是執行長或總經理．．．
+    - key: headline_5
+      translation: 你任職於金融相關產業．．．
+    - key: headline_6
+      translation: 你有博士學位．．．
+    - key: headline_7
+      translation: 你是老師或者研究員．．．
+    - key: headline_8
+      translation: 你在科技相關領域工作．．．
+    - key: headline_9
+      translation: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元．．．
+    - key: headline_10
+      translation: 你是藝術家、出版商或文化行政人員．．．
+    - key: headline_11
+      translation: 你有超過8年以上的相關經驗．．．
+    - key: headline_12
+      translation: 你的專業技能為台灣所欠缺的．．．
+    - key: headline_result
+      translation: 恭喜，根據您所提供的資訊建議可試用下面的條件申請就業金卡．｜恭喜，根據您所提供的資訊建議可試用下面{count}個條件申請就業金卡．
+    - key: headline_no_result
+      translation: 抱歉，根據您選擇的條件無適用的申請資格。
+    - key: results_headline
+      translation: 可適用{ministery}的第{regulation}號條件申請
+    - key: results_answer
+      translation: 因為您回答是：
+    - key: results_provide
+      translation: 請準備：
+    - key: results_details
+      translation: 詳細資料：
+    - key: qualifications_MOST
+      translation: 科技領域
+    - key: qualifications_MOEA
+      translation: 經濟領域
+    - key: qualifications_MOC
+      translation: 文化藝術領域
+    - key: qualifications_MOS
+      translation: 體育領域
+    - key: qualifications_MOF
+      translation: 金融領域
+    - key: qualifications_MOJ
+      translation: 法律領域
+    - key: qualifications_MOA
+      translation: 建築設計領域
+    - key: qualifications_MOE
+      translation: 教育領域
+    - key: info_no_result
+      translation: "請查看完整的資格列表，並考慮其他種類簽證。 "
+    - key: info_no_selection
+      translation: 選擇至少一個選項再進行下一步。
 en:
   items:
     - key: language
@@ -117,119 +233,3 @@ en:
         the many other visas. "
     - key: info_no_selection
       translation: Choose at least one point to go to the next step.
-zh:
-  items:
-    - key: language
-      translation: English
-    - key: language_change
-      translation: Change the language to @:language
-    - key: site
-      translation: Best practice Vue js
-    - key: check
-      translation: Check
-    - key: circle
-      translation: circle
-    - key: next
-      translation: 下一步
-    - key: back
-      translation: 返回
-    - key: result
-      translation: Result
-    - key: no_result
-      translation: No result
-    - key: select_question
-      translation: Select this question
-    - key: unselect_question
-      translation: Unselect this question
-    - key: show
-      translation: Show
-    - key: show_details
-      translation: Show details
-    - key: hide
-      translation: Hide
-    - key: hide_details
-      translation: Hide details
-    - key: question
-      translation: Question
-    - key: loading
-      translation: 載入中
-    - key: right
-      translation: right
-    - key: left
-      translation: left
-    - key: top
-      translation: top
-    - key: plus
-      translation: plus
-    - key: minus
-      translation: minus
-    - key: exclamation
-      translation: exclamation
-    - key: file
-      translation: file
-    - key: restart
-      translation: 重新開始
-    - key: start_application
-      translation: 開始申請
-    - key: previous_step
-      translation: 上一步
-    - key: application_easy_mode
-      translation: 申請簡單模式
-    - key: headline_home
-      translation: 請選擇所有適用的選項。
-    - key: headline_1
-      translation: 你是運動員、教練、或者裁判．．．
-    - key: headline_2
-      translation: 你是律師．．．
-    - key: headline_3
-      translation: 你是建築師．．．
-    - key: headline_4
-      translation: 你是執行長或總經理．．．
-    - key: headline_5
-      translation: 你任職於金融相關產業．．．
-    - key: headline_6
-      translation: 你有博士學位．．．
-    - key: headline_7
-      translation: 你是老師或者研究員．．．
-    - key: headline_8
-      translation: 你在科技相關領域工作．．．
-    - key: headline_9
-      translation: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元．．．
-    - key: headline_10
-      translation: 你是藝術家、出版商或文化行政人員．．．
-    - key: headline_11
-      translation: 你有超過8年以上的相關經驗．．．
-    - key: headline_12
-      translation: 你的專業技能為台灣所欠缺的．．．
-    - key: headline_result
-      translation: 恭喜，根據您所提供的資訊建議可試用下面的條件申請就業金卡．｜恭喜，根據您所提供的資訊建議可試用下面{count}個條件申請就業金卡．
-    - key: headline_no_result
-      translation: "抱歉，我們找不到合適的就業金卡資格。 "
-    - key: results_headline
-      translation: 可試用{ministery}的第{regulation}號條件申請
-    - key: results_answer
-      translation: "因為您回答是： "
-    - key: results_provide
-      translation: "請準備:"
-    - key: results_details
-      translation: 詳細資料：
-    - key: qualifications_MOST
-      translation: 科技領域
-    - key: qualifications_MOEA
-      translation: 經濟領域
-    - key: qualifications_MOC
-      translation: 文化藝術領域
-    - key: qualifications_MOS
-      translation: 體育領域
-    - key: qualifications_MOF
-      translation: 金融領域
-    - key: qualifications_MOJ
-      translation: 法律領域
-    - key: qualifications_MOA
-      translation: 建築設計領域
-    - key: qualifications_MOE
-      translation: 教育領域
-    - key: info_no_result
-      translation: "請查看完整的資格清單，並考慮其他許多簽證。 "
-    - key: info_no_selection
-      translation: 選擇至少一個點進行下一步。
