@@ -31,42 +31,36 @@ zh:
 
         * 具 3 年以上相關領域工作經驗之國內外服務證明
         * 技術證明(如國內外專利證書等)、技術移轉證明(如技術移轉合約書等)或其他專業證明(如學術著作、證照、獲獎證明等)
-      notes: "Please prepare: ☑ formal proof of employment in the specific field,
-        showing more than three years at a technology company or university and
-        the documents from either Academic or Professional streams
-        below.  Academic Stream ☑ a copy of your university degree(s) or
-        certification(s) ☑ journal articles, conference papers, peer-reviewed
-        books or chapters, or other specialized work such as software tools that
-        are widely cited. Documents must be published within the past 3
-        years.  Professional Stream ☑ copies of patent certificates, technology
-        licensing contracts or other proof of technical skill ☑ copies of major
-        domestic or international awards you have received."
+      notes: ""
       weight: 30
     - ministry: MOST
       regulation_no: 3
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
       info: ""
-      provide: ""
-      notes: "Please prepare: ☑ formal proof of employment in the specific field,
-        showing more than three years at a technology company or university and
-        the documents from either Academic or Professional streams
-        below.  Academic Stream ☑ a copy of your degree(s) or certification(s) ☑
-        journal articles, conference papers, peer-reviewed books or chapters, or
-        other specialized work such as software tools that are widely cited.
-        Documents must be published within the past 3 years.  Professional
-        Stream ☑ copies of patent certificates, technology licensing contracts
-        or other proof of technical skill ☑ copies of major domestic or
-        international awards you have received."
+      provide: |-
+        請先就 3.1 或 3.2 擇一，再就所選項目檢附全部文件：
+
+        3.1. 請全部檢附：
+
+        * 國內外學歷證書
+        * 具 3 年以上相關領域工作經驗之國內外服務證明
+        * 近 3 年之學術研究相關資料
+
+        3.2. 請全部檢附：
+
+        * 具 3 年以上相關領域工作經驗之國內外服務證明
+        * 技術證明(如國內外專利證書等)、技術移轉證明(如技術移轉合約書等)或其他專業證明(如學術著作、證照、獲獎證明等)
+      notes: ""
       weight: 30
     - ministry: MOST
       regulation_no: 4
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
       info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
+      provide: |-
+        請提供
 
-        ☑ a copy of your Nobel Prize , Tang Prize, Wolf Prize, Fields Medal, or other equivalent internationally-recognized award.
+        * 具國際性之國內外重要獎項獲獎證明文件。
+      notes: ""
       weight: 90
     - ministry: MOST
       regulation_no: 5
