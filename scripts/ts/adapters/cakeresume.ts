@@ -89,6 +89,7 @@ export default class CakeResumeAdapter implements IAdapter {
                 job_url: jobUrl,
                 company_name: x.page.name,
                 company_page_url: companyUrl,
+                company_logo_url: x.page.logo.medium,
                 salary_text: x.salary_range.map((y) => x.salary_currency + y).join(' - '),
                 location_list: x.location_list,
                 badges: x.tag_list,

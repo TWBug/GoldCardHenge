@@ -42,6 +42,9 @@ export interface IDBRowJob {
     // The URL to the companies web page
     company_page_url: string | null;
 
+    // The image file location for the company logo
+    company_logo_url: string | null;
+
     // The job description
     description: string | null;
 }

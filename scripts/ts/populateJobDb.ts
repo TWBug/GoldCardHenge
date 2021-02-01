@@ -72,6 +72,7 @@ const main = async () => {
 
     // Clean output dir
     const oldFiles = fs.readdirSync(outdir);
+    console.log();
     console.log(`Cleaning ${oldFiles.length} outdated job files...`);
     oldFiles
         .filter((x) => !x.startsWith('_index'))
@@ -79,6 +80,7 @@ const main = async () => {
             fs.unlinkSync(path.resolve(outdir, filename));
         });
 
+    // Write a markdown file for each job. These will get picked up by the hugo build process.
     for (const j of jobs) {
         const str = toMarkdownString(j);
         for (const lang of ['en', 'zh']) {

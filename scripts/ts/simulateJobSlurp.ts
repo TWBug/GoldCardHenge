@@ -57,7 +57,7 @@ main(process.argv[2]).then(
         });
 
         const titles = jobs
-            .map((x) => `  -  ${x.title} (${x.company_name}) <${x.html_url}>`)
+            .map((x) => `  -  ${x.title} (${x.company_name}) <${x.job_url}>`)
             .join('\n');
 
         console.log('Found jobs. For full job JSON and raw JSON output see:');
