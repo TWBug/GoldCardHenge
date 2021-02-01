@@ -87,7 +87,7 @@ zh:
     - key: headline_no_result
       translation: 抱歉，根據您選擇的條件無適用的就業金卡資格。
     - key: results_headline
-      translation: 可適用{ministery}的第{regulation}號條件申請
+      translation: 可適用{ministery}的第{regulation}個資格條件
     - key: results_answer
       translation: 因為您選擇的選項為：
     - key: results_provide
