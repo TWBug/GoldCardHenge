@@ -66,19 +66,29 @@ zh:
       regulation_no: 5
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
       info: ""
-      provide: ""
-      notes: >-
-        Please provide:
+      provide: |-
+        請提供
 
-        ☑ formal proof of your posting holding the highest academic title awarded in your country at your country's equivalent of the national academy of sciences
-
-        ☑ information about the title you hold and the institution in which it is held.
+        * 國內外院士證書或相當之證明文件
+      notes: ""
       weight: 70
     - ministry: MOST
       regulation_no: 6
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
       info: ""
-      provide: ""
+      provide: |-
+        請先就 6.1 或 6.2 擇一，再就所選項目檢附全部文件：
+
+        6.1. 請全部檢附：
+
+        * 具博士學位之國內外學歷證書
+        * 具 3 年以上相關領域工作經驗之國內外服務證明
+        * 近3年之學術研究相關資料
+
+        6.2. 請全部檢附：
+
+        * 具 3 年以上相關領域工作經驗之國內外服務證明
+        * 技術證明(如國內外專利證書等)、技術移轉證明(如技術移轉合約書等)或其他專業證明(如學術著作、證照、獲獎證明等)
       notes: >-
         Please prepare:
 
@@ -918,19 +928,38 @@ en:
       regulation_no: 5
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
       info: ""
-      provide: ""
-      notes: >-
-        Please provide:
+      provide: >-
+        Please provide: 
 
-        ☑ formal proof of your posting holding the highest academic title awarded in your country at your country's equivalent of the national academy of sciences
 
-        ☑ information about the title you hold and the institution in which it is held.
+        * Domestic or foreign academician certificate or equivalent verifying document
+      notes: ""
       weight: 70
     - ministry: MOST
       regulation_no: 6
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
       info: ""
-      provide: ""
+      provide: >-
+        Please select either 6.1 or 6.2, and attach all documents required for
+        the selected item:
+
+
+        6.1. Please attach all of the following documents:
+
+
+        * Domestic or foreign certificate verifying possession of a Ph.D. degree
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years 
+
+        * Related academic research during the most recent three years
+
+
+        6.2. Please attach all of the following documents:
+
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years
+
+        * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
       notes: >-
         Please prepare:
 
