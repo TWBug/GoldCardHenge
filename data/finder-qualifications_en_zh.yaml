@@ -769,16 +769,18 @@ zh:
       ministry: MOST
       regulation_no: 10
       weight: 25
-      provide: >-
-        -  media coverage and other formal documents proving the startup was
-        listed as a public traded company on a stock exchange outside of Taiwan
+      provide: |-
+        請全部檢附
 
-        - formal proof of employment, showing that you were a senor executive or core technical/research & development personnel of the startup company
+        * 成功上市於國外證券交易所，需檢附公司上市之相關新聞或佐證文件。
+        * 高階主管為該企業單位主管以上之職位，需檢附服務證明或離職證明相關文件。研發團隊核心技術人員需檢附在該公司研發單位任職相關證明。
     - ministry: MOST
       regulation_no: 11
       weight: 25
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
       provide: |-
+        請全部檢附
+
         * 需檢附公司被其他公司購併交易金額達500萬美元以上之相關新聞或佐證文件。
         * 高階主管為該企業單位主管以上之職位，需檢附服務證明或離職證明相關文件。研發團隊核心技術人員需檢附在該公司研發單位任職相關證明。
     - ministry: MOST
