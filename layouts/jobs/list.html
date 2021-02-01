@@ -50,20 +50,24 @@
                     {{ range $paginator.Pages }}
                     <section>
                         <div
-                            class="relative flex flex-row border border-gray-200 rounded-xl bg-gradient-to-b from-white to-gray-100 shadow-lg my-8"
+                            class="relative flex flex-row border border-gray-200 rounded-xl bg-gradient-to-b from-white to-gray-100 shadow-lg my-8" data-id="{{ .Params.data_source_internal_id }}"
                         >
                             <div class="absolute right-0 top-0 -mt-6 pr-2">
-                                <span class="font-semibold text-xs text-gray-500">Source: {{ .Params.source }}</span>
+                                <span class="font-semibold text-xs text-gray-500">Source: {{ .Params.data_source_name }}</span>
                             </div>
                             <div class="flex-shrink-0 w-32">
                                 {{ if .Params.company_logo_url }}
                                 <div class="border-r border-b border-gray-200 w-full p-4">
+                                    {{ if .Params.company_page_url }}
                                     <a href="{{ .Params.company_page_url }}" target="_blank" class="block focus-primary">
-                                        <img src="{{ .Params.company_logo_url }}" alt="Logoaksdj" class="block max-w-full">
+                                        <img src="{{ .Params.company_logo_url }}" alt="{{ .Params.company_name }}" class="block max-w-full">
                                     </a>
+                                    {{ else }}
+                                    <img src="{{ .Params.company_logo_url }}" alt="{{ .Params.company_name }}" class="block max-w-full">
+                                    {{ end }}
                                 </div>
                                 {{ end }}
-                                <div class="w-full pt-2 pl-2">
+                                <div class="w-full pt-2 pl-2 pb-4">
                                     {{ range .Params.badges }}
                                     <li class="inline-block text-primary text-xs p-1 mx-1">
                                         <a href="/{{ $.Site.Language }}/badges/{{ . | anchorize }}" class="inline-flex items-center focus-primary truncate">
@@ -87,19 +91,19 @@
                                 </div>
                                 {{ end }}
                                 <h2 class="block text-xl font-bold text-primary mb-2">
-                                    <a href="{{ .Params.link }}" target="_blank" class="inline-block focus-primary" >
+                                    <a href="{{ .Params.job_url }}" target="_blank" class="inline-block focus-primary" >
                                         {{ .Title }}
                                     </a>
                                 </h2>
                                 <div class="text-base font-medium">
                                     {{ .Content }}
                                 </div>
-                                {{ if .Params.salary }}
+                                {{ if .Params.salary_text }}
                                 <div class="flex items-center text-base font-bold text-water-600 border-b-2 border-t-2 border-gray-300 border-dashed py-4 my-4 -ml-2 pl-2">
                                     <div class="flex-center w-5 mr-2">
                                         {{ partial "icon" (dict "name" "dollar-sign" "size" "6") }}
                                     </div>
-                                    {{ .Params.salary }}
+                                    {{ .Params.salary_text }}
                                 </div>
                                 {{ end }}
                                 {{ if .Params.types }}
@@ -114,12 +118,12 @@
                                     {{ end }}
                                 </div>
                                 {{ end }}
-                                {{ if .Params.location }}
+                                {{ if .Params.location_list }}
                                 <div class="flex items-center text-xs font-bold text-water-600 my-4">
                                     <div class="flex-center w-5 mr-2">
                                         {{ partial "icon" (dict "name" "map-marked-alt" "size" "4") }}
                                     </div>
-                                    {{ .Params.location }}
+                                    {{ .Params.location_list }}
                                 </div>
                                 {{ end }}
                             </div>
