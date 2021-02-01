@@ -3,7 +3,7 @@
 [build]
 command = "npm run build:finder && npm run build:staging"
 publish = "public"
-timeout = 60000
+timeout = 80000
 
 [build.environment]
 HUGO_VERSION = "0.79.1"
