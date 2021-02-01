@@ -55,9 +55,9 @@ zh:
     - key: previous_step
       translation: 上一步
     - key: application_easy_mode
-      translation: 申請簡單模式
+      translation: 申請流程簡易模式
     - key: headline_home
-      translation: 請選擇所有適用的選項。
+      translation: 請選擇所有符合的選項。
     - key: headline_1
       translation: 你是運動員、教練、或者裁判．．．
     - key: headline_2
