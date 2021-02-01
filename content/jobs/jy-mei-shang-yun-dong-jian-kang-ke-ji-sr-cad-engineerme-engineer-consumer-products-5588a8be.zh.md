@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '23658'
-date: 2021-02-01T07:30:15.567Z
+date: 2021-02-01T16:08:57.686Z
 title: JY-美商運動健康科技 Sr. CAD Engineer/ME Engineer (Consumer Products)
 job_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan/jobs/59803a'
 company_name: 新加坡商立可人事顧問有限公司台灣分公司 Recruit Express (Taiwan)

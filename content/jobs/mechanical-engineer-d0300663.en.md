@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '26436'
-date: 2021-02-01T07:30:15.567Z
+date: 2021-02-01T16:08:57.686Z
 title: Mechanical Engineer
 job_url: >-
   https://www.cakeresume.com/companies/Luxshare-f539e5/jobs/mechanical-engineer-54e098

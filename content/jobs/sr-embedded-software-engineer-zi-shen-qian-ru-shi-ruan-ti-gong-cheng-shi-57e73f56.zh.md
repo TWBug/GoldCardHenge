@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '22384'
-date: 2021-02-01T07:30:15.520Z
+date: 2021-02-01T16:08:57.059Z
 title: Sr. Embedded Software Engineer 資深嵌入式軟體工程師
 job_url: >-
   https://www.cakeresume.com/companies/tomofun/jobs/sr-embedded-software-engineer

@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '21735'
-date: 2021-02-01T07:30:15.699Z
+date: 2021-02-01T16:08:57.842Z
 title: Senior UX/UI Designer
 job_url: 'https://www.cakeresume.com/companies/roehl/jobs/senior-ux-ui-designer-39d342'
 company_name: ROEHL

@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '25558'
-date: 2021-02-01T07:30:15.699Z
+date: 2021-02-01T16:08:57.842Z
 title: Mid-Senior UI Designer
 job_url: 'https://www.cakeresume.com/companies/onedegree/jobs/mid-senior-ui-designer'
 company_name: OneDegree香港商甯寶管理科技有限公司

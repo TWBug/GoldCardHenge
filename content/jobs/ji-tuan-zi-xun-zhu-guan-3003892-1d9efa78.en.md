@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '20134'
-date: 2021-02-01T07:30:14.539Z
+date: 2021-02-01T16:08:56.370Z
 title: 集團資訊主管（3003892）
 job_url: >-
   https://www.cakeresume.com/companies/1111-cc8677/jobs/group-information-supervisor-3003892

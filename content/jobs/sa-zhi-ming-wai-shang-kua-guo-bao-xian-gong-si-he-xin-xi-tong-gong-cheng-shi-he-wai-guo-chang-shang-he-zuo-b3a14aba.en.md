@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '19581'
-date: 2021-02-01T07:30:14.539Z
+date: 2021-02-01T16:08:56.370Z
 title: SA-知名外商跨國保險公司 核心系統工程師 (和外國廠商合作)
 job_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan/jobs/8d1f59'
 company_name: 新加坡商立可人事顧問有限公司台灣分公司 Recruit Express (Taiwan)

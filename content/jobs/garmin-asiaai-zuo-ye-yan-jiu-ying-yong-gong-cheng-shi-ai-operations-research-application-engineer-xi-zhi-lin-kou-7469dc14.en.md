@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '12199'
-date: 2021-02-01T07:30:15.520Z
+date: 2021-02-01T16:08:57.059Z
 title: Garmin Asia_AI作業研究應用工程師(AI & Operations Research Application Engineer)_汐止/林口
 job_url: 'https://www.cakeresume.com/companies/garmin/jobs/DATA_scientist'
 company_name: Garmin Ltd. 台灣國際航電股份有限公司

@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=cloud%20computing&locale=en&refinementList%5Bseniority_level%5D%5B0%5D=mid_senior_level&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '19677'
-date: 2021-02-01T07:30:14.280Z
+date: 2021-02-01T16:08:57.651Z
 title: 後端工程師（須具效能調校經驗）
 job_url: >-
   https://www.cakeresume.com/companies/bqool.com/jobs/cloud-computing-engineer-cloud-computing
@@ -20,7 +20,7 @@ location_list:
   - 台北市
   - 西湖捷運站
 badges:
-  - C#
+  - Csharp
   - MS SQL
   - 軟體程式設計
   - 資料庫系統管理維護

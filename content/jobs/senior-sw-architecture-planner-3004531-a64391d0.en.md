@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=iot%20solutions&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '24649'
-date: 2021-02-01T07:30:14.652Z
+date: 2021-02-01T16:08:57.208Z
 title: Senior SW Architecture Planner (3004531)
 job_url: >-
   https://www.cakeresume.com/companies/1111headhunt/jobs/senior-sw-architecture-planner-3004531

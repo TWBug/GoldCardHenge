@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=iot%20solutions&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '19332'
-date: 2021-02-01T07:30:14.652Z
+date: 2021-02-01T16:08:57.208Z
 title: 後端工程師 Backend Engineer
 job_url: >-
   https://www.cakeresume.com/companies/lilee-systems/jobs/senior-team-engineer-technical-team-lead

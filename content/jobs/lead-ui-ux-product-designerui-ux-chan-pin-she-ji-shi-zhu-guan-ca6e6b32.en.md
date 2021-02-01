@@ -4,8 +4,8 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '26098'
-date: 2021-02-01T07:30:15.699Z
-title: 'Lead UI UX Product Designer_UI UX 產品設計師主管 '
+date: 2021-02-01T16:08:57.842Z
+title: Lead UI UX Product Designer_UI UX 產品設計師主管
 job_url: >-
   https://www.cakeresume.com/companies/opennet-limited/jobs/lead-ui-ux-product-designer_ui-ux-product-designer
 company_name: OpenNet 開網有限公司

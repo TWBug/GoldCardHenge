@@ -67,7 +67,12 @@ const main = async () => {
         })
     );
 
-    const jobs = result.flat();
+    const jobs = result.flat().map((x) => {
+        return {
+            ...x,
+            badges: x.badges.map(stringifyJobTag),
+        };
+    });
     const outdir = path.join('content', 'jobs');
 
     // Clean output dir
@@ -111,6 +116,18 @@ if (require.main === module) {
         }
     );
 }
+
+// NOTE: When dealing with job tags we run into the odd edge cases like "c#" and
+// "c". "c" is a fine tag for a job, but "c#" causes issues since if it ends up
+// as a URL (which it will) it would actually be matched against the "c" path
+// since "#" in URLs indicates that all content afterword should not be sent to
+// the server. We could of course just strip these characters, but the odd edge
+// case of "c" and "c#" would end up the same. I.e. jobs tagged with either tag
+// would end up in the same bucket, despite being different programming
+// languages.
+const stringifyJobTag = (x: string) => {
+    return x.replace(/#/g, 'sharp'); // c# -> csharp
+};
 
 const toMarkdownString = (x: IDBRowJob) => {
     const { description, ...frontmatter } = x;

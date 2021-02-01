@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '24218'
-date: 2021-02-01T07:30:14.927Z
+date: 2021-02-01T16:08:56.800Z
 title: Full Stack .NET Engineer
 job_url: >-
   https://www.cakeresume.com/companies/sandline-discovery/jobs/full-stack-net-engineer
@@ -19,7 +19,7 @@ location_list:
 badges:
   - Git
   - ASP.NET
-  - C#
+  - Csharp
   - MS SQL
   - MySQL
   - Relativity

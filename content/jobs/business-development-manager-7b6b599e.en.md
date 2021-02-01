@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=marketing%20international&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '26011'
-date: 2021-02-01T07:30:15.287Z
+date: 2021-02-01T16:08:56.739Z
 title: Business Development Manager
 job_url: >-
   https://www.cakeresume.com/companies/moni-media/jobs/business-development-manager-ae16a0

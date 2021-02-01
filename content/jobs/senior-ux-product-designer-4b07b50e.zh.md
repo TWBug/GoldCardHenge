@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '25270'
-date: 2021-02-01T07:30:15.699Z
+date: 2021-02-01T16:08:57.842Z
 title: Senior UX/Product Designer
 job_url: 'https://www.cakeresume.com/companies/insearch/jobs/senior-ux-product-designer'
 company_name: iN Search Management Consultants 卓恩管理顧問有限公司
