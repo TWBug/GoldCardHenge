@@ -82,6 +82,7 @@ module.exports = {
                 bolder: 'bolder',
             },
             fontSize: {
+                xxs: '0.65rem',
                 md: '0.925rem',
                 '5xl': '2.45rem',
                 '6xl': '3rem',
