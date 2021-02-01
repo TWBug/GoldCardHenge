@@ -83,7 +83,7 @@ zh:
     - key: headline_12
       translation: 你的專業技能為台灣所欠缺的．．．
     - key: headline_result
-      translation: 恭喜，根據您所提供的資訊建議可試用下面的條件申請就業金卡．｜恭喜，根據您所提供的資訊建議可試用下面{count}個條件申請就業金卡．
+      translation: 恭喜，根據您所提供的資訊，建議可用以下的條件申請就業金卡．｜恭喜，根據您所提供的資訊建議，可用下以下{count}個條件申請就業金卡．
     - key: headline_no_result
       translation: 抱歉，根據您選擇的條件無適用的就業金卡資格。
     - key: results_headline
