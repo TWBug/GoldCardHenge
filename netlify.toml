@@ -3,6 +3,7 @@
 [build]
 command = "yarn build:finder && yarn build:staging"
 publish = "public"
+timeout = 60000
 
 [build.environment]
 HUGO_VERSION = "0.79.1"
