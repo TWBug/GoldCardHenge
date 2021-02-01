@@ -1,7 +1,7 @@
 # For reference, see:
 # https://github.com/gohugoio/hugoDocs/blob/master/netlify.toml
 [build]
-command = "yarn build:finder && yarn build:staging"
+command = "npm run build:finder && npm run build:staging"
 publish = "public"
 timeout = 60000
 
