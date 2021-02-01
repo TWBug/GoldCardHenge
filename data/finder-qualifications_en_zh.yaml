@@ -3,17 +3,15 @@ zh:
     - ministry: MOST
       regulation_no: 1
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      info: Ministry of Science and Technology does not allow applicants purely based
-        on salary, you must also prove your technical skill
+      info: 科技部不予許申請人單純以薪水作為基礎，須提供相關文件證明在科技領域服務。
       provide: >-
-        -  a tax statement and/or salary statements from your employer to prove
-        your salary was above 160,000NT (eg Australia PAYG payment summary,
-        Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US
-        W-2)
+        * 從事科技產業或領域相關工作之薪資證明或繳稅證明文件
 
-        - a copy of your CV
+          * 請提供納稅證明或薪資單，證明平均月薪超過160,000萬（如：澳洲PAYG payment summary、加拿大T4、以色列106表格、俄羅斯2-NDFL、波蘭PIT-11、英國P60、美國W- 2）
+          * 未來擬於我國受聘僱之聘僱契約書
+        * 從事科技產業或領域相關工作之國內外服務證明
 
-        - formal proof of employment, showing experience working at a technology company or in a technological field
+        * 個人履歷
       notes: ""
       weight: 20
     - ministry: MOST
