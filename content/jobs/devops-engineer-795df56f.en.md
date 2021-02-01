@@ -4,11 +4,13 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '13710'
-date: 2021-02-01T06:50:04.443Z
+date: 2021-02-01T07:30:14.927Z
 title: DevOps Engineer
 job_url: 'https://www.cakeresume.com/companies/gogolook/jobs/devops-engineer-4b5db3'
 company_name: 'Whoscall (Gogolook) '
 company_page_url: 'https://www.cakeresume.com/companies/gogolook'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--sDOFLLXX--/c_pad,fl_png8,h_200,w_200/v1557458311/z169kbsaby4jh1ph0ndz.png
 salary_text: TWD1000000 - TWD1600000
 location_list:
   - 台北

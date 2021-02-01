@@ -4,12 +4,14 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=marketing%20international&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '25314'
-date: 2021-02-01T06:50:04.235Z
+date: 2021-02-01T07:30:15.287Z
 title: 全球社群行銷副理 Global Social Media Marketing Assistant Manager
 job_url: >-
   https://www.cakeresume.com/companies/viewsonic-international-corporation/jobs/global-social-media-marketing-assistant-manager
 company_name: ViewSonic International Corporation
 company_page_url: 'https://www.cakeresume.com/companies/viewsonic-international-corporation'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--mfD9wLgm--/c_pad,fl_png8,h_200,w_200/v1588058492/auzfyk61ypziemamoszg.png
 salary_text: TWD800000 - TWD1200000
 location_list:
   - 台灣

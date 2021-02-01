@@ -4,12 +4,14 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '20134'
-date: 2021-02-01T06:50:05.245Z
+date: 2021-02-01T07:30:14.539Z
 title: 集團資訊主管（3003892）
 job_url: >-
   https://www.cakeresume.com/companies/1111-cc8677/jobs/group-information-supervisor-3003892
 company_name: 1111獵才顧問中心Executive Recruiting Consultancy Dept.
 company_page_url: 'https://www.cakeresume.com/companies/1111-cc8677'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s---LJkY0fU--/c_pad,fl_png8,h_200,w_200/v1555050577/cvev1lhcvc1ohvufsw8d.png
 salary_text: TWD1000000 - TWD1500000
 location_list:
   - 新北市三重區

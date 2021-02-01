@@ -4,12 +4,14 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=tech_devops&refi[…]5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '25225'
-date: 2021-02-01T06:50:04.157Z
+date: 2021-02-01T07:30:14.609Z
 title: Video Streaming Engineer
 job_url: >-
   https://www.cakeresume.com/companies/trevi/jobs/video-streaming-engineer-f2f880
 company_name: TREVI 特雷維科技有限公司
 company_page_url: 'https://www.cakeresume.com/companies/trevi'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--qw2P1FLp--/c_pad,fl_png8,h_200,w_200/v1550037353/oj7cdkyebdw8eu6lavrs.png
 salary_text: TWD1000000 - TWD1500000
 location_list:
   - 台北

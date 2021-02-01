@@ -4,11 +4,13 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '16916'
-date: 2021-02-01T06:50:04.493Z
+date: 2021-02-01T07:30:15.567Z
 title: Garmin Asia_CMF Engineer
 job_url: 'https://www.cakeresume.com/companies/garmin/jobs/cmf-engineer'
 company_name: Garmin Ltd. 台灣國際航電股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/garmin'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--Qvm9_H5H--/c_pad,fl_png8,h_200,w_200/v1564044674/biwpxixihfsdsrcqfpsx.png
 salary_text: TWD1000000 - TWD1500000
 location_list:
   - 汐科火車站

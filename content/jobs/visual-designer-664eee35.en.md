@@ -4,12 +4,14 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '16124'
-date: 2021-02-01T06:50:05.088Z
+date: 2021-02-01T07:30:15.699Z
 title: Visual Designer
 job_url: >-
   https://www.cakeresume.com/companies/PicCollage/jobs/visual-communication-designer
 company_name: PicCollage 拼貼趣
 company_page_url: 'https://www.cakeresume.com/companies/PicCollage'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--GXCe09RR--/c_pad,fl_png8,h_200,w_200/v1516267311/page__logo_1482125639.png
 salary_text: TWD800000 - TWD1600000
 location_list:
   - 台北

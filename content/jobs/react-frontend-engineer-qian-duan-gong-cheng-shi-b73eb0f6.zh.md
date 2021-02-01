@@ -4,12 +4,14 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '10963'
-date: 2021-02-01T06:50:04.847Z
+date: 2021-02-01T07:30:16.321Z
 title: React Frontend Engineer 前端工程師
 job_url: >-
   https://www.cakeresume.com/companies/gogoro/jobs/frontend-engineer-front-end-engineer-14c247
 company_name: 'Gogoro '
 company_page_url: 'https://www.cakeresume.com/companies/gogoro'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--539TJO1O--/c_pad,fl_png8,h_200,w_200/v1519962195/bs30ppqfsdpnhblxxk90.png
 salary_text: TWD800000 - TWD1200000
 location_list:
   - 台北

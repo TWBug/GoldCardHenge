@@ -4,11 +4,13 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '21569'
-date: 2021-02-01T06:50:04.375Z
+date: 2021-02-01T07:30:15.520Z
 title: Sr. Software Development Engineer in Test 資深品質測試工程師
 job_url: 'https://www.cakeresume.com/companies/tomofun/jobs/8960d0'
 company_name: Tomofun 寵物AI科技新創
 company_page_url: 'https://www.cakeresume.com/companies/tomofun'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--Lnjf32Kn--/c_pad,fl_png8,h_200,w_200/v1594890273/ztfrcn5jli33qaw9bpsz.png
 salary_text: TWD900000 - TWD1600000
 location_list:
   - 台北

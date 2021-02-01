@@ -4,11 +4,13 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '24977'
-date: 2021-02-01T06:50:04.847Z
+date: 2021-02-01T07:30:16.321Z
 title: 'Sr. Software Engineer, Frontend Web(Buyer Experience Team)'
 job_url: 'https://www.cakeresume.com/companies/carousell/jobs/85dcbb'
 company_name: Carousell 旋轉拍賣
 company_page_url: 'https://www.cakeresume.com/companies/carousell'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--GJsX0gn8--/c_pad,fl_png8,h_200,w_200/v1565956862/epaplsqwkax9tjzivjde.png
 salary_text: TWD1500000 - TWD1700000
 location_list:
   - 台北

@@ -4,11 +4,13 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '6566'
-date: 2021-02-01T06:50:04.375Z
+date: 2021-02-01T07:30:15.520Z
 title: 資深前端工程師 Sr. Front-end Developer
 job_url: 'https://www.cakeresume.com/companies/icard-ai/jobs/sr-frontend-developer'
 company_name: 'iCard.AI '
 company_page_url: 'https://www.cakeresume.com/companies/icard-ai'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--4hQDZiO6--/c_pad,fl_png8,h_200,w_200/v1588138648/wobidf4op2fgkpipzunf.png
 salary_text: TWD1500000 - TWD2500000
 location_list:
   - 信義區

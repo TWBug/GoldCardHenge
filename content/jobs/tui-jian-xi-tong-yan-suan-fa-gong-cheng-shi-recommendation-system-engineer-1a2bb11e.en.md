@@ -4,11 +4,13 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '11294'
-date: 2021-02-01T06:50:05.245Z
+date: 2021-02-01T07:30:14.539Z
 title: 推薦系統演算法工程師 (Recommendation System Engineer)
 job_url: 'https://www.cakeresume.com/companies/popin-cc-zh-index-html/jobs/0a4367'
 company_name: 博英科技有限公司
 company_page_url: 'https://www.cakeresume.com/companies/popin-cc-zh-index-html'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--vPA1MBdO--/c_pad,fl_png8,h_200,w_200/v1561002816/gxrf8z7vlcrk599zejtp.png
 salary_text: TWD800000 - TWD1200000
 location_list:
   - 台灣

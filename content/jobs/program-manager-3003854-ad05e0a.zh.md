@@ -4,11 +4,13 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '19404'
-date: 2021-02-01T06:50:05.023Z
+date: 2021-02-01T07:30:15.407Z
 title: Program Manager(3003854)
 job_url: 'https://www.cakeresume.com/companies/1111headhunt/jobs/program-manager-3003854'
 company_name: 1111高階獵頭顧問中心
 company_page_url: 'https://www.cakeresume.com/companies/1111headhunt'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--5DKHug43--/c_pad,fl_png8,h_200,w_200/v1531993906/jlp8g9p7p6bf58jc0zju.png
 salary_text: TWD700000 - TWD1500000
 location_list:
   - 台灣

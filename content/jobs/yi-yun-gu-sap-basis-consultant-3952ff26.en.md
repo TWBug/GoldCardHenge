@@ -4,11 +4,13 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '7099'
-date: 2021-02-01T06:50:05.245Z
+date: 2021-02-01T07:30:14.539Z
 title: '[伊雲谷] SAP Basis Consultant'
 job_url: 'https://www.cakeresume.com/companies/ecloudvalley/jobs/sap-consultant'
 company_name: 伊雲谷數位股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/ecloudvalley'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--PmE1rXrm--/c_pad,fl_png8,h_200,w_200/v1573020972/xwfdrgep6c3vtnxm1g2n.png
 salary_text: TWD600000 - TWD1500000
 location_list:
   - 新北

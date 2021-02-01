@@ -4,11 +4,13 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '19463'
-date: 2021-02-01T06:50:05.023Z
+date: 2021-02-01T07:30:15.407Z
 title: 【數位轉型】IT Project Manager (年120~150萬)
 job_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan/jobs/e2b46c'
 company_name: 新加坡商立可人事顧問有限公司台灣分公司 Recruit Express (Taiwan)
 company_page_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--8jzlPgwu--/c_pad,fl_png8,h_200,w_200/v1566176619/pxugexvfcc68sz5kf2sn.png
 salary_text: TWD1200000 - TWD1500000
 location_list:
   - 台灣

@@ -4,12 +4,14 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '24218'
-date: 2021-02-01T06:50:04.443Z
+date: 2021-02-01T07:30:14.927Z
 title: Full Stack .NET Engineer
 job_url: >-
   https://www.cakeresume.com/companies/sandline-discovery/jobs/full-stack-net-engineer
 company_name: Sandline Discovery
 company_page_url: 'https://www.cakeresume.com/companies/sandline-discovery'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--UiHoiirP--/c_pad,fl_png8,h_200,w_200/v1600059614/xx1ulodu3pjaukjztn6f.png
 salary_text: TWD800000 - TWD1000000
 location_list:
   - 台北

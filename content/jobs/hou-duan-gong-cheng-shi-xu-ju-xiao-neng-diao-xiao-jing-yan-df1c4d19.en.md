@@ -4,12 +4,14 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=cloud%20computing&locale=en&refinementList%5Bseniority_level%5D%5B0%5D=mid_senior_level&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '19677'
-date: 2021-02-01T06:50:04.886Z
+date: 2021-02-01T07:30:14.280Z
 title: 後端工程師（須具效能調校經驗）
 job_url: >-
   https://www.cakeresume.com/companies/bqool.com/jobs/cloud-computing-engineer-cloud-computing
 company_name: BQool 葳騰科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/bqool.com'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--amgJju7V--/c_pad,fl_png8,h_200,w_200/v1561958302/yligtkcjaxxred2qbrmq.png
 salary_text: TWD600000 - TWD1200000
 location_list:
   - 內湖科技園區

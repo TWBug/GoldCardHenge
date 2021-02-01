@@ -4,11 +4,13 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '23062'
-date: 2021-02-01T06:50:04.493Z
+date: 2021-02-01T07:30:15.567Z
 title: 'JY-美商運動健康科技 Sr. CAD Engineer(Familiar with Solidwork, Pro-E)'
 job_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan/jobs/9c8eef'
 company_name: 新加坡商立可人事顧問有限公司台灣分公司 Recruit Express (Taiwan)
 company_page_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--8jzlPgwu--/c_pad,fl_png8,h_200,w_200/v1566176619/pxugexvfcc68sz5kf2sn.png
 salary_text: TWD1200000 - TWD1800000
 location_list:
   - 台北

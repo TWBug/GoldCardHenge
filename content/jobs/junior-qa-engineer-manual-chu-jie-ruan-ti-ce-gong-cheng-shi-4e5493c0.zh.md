@@ -4,12 +4,14 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '26431'
-date: 2021-02-01T06:50:04.675Z
+date: 2021-02-01T07:30:14.818Z
 title: Junior QA Engineer (manual)_初階軟體測��工程師
 job_url: >-
   https://www.cakeresume.com/companies/opennet-limited/jobs/junior-qa-engineer-manual-_software-test-engineer
 company_name: OpenNet 開網有限公司
 company_page_url: 'https://www.cakeresume.com/companies/opennet-limited'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s---KIdOoH---/c_pad,fl_png8,h_200,w_200/v1574663536/bzaybcelyff1kqaqhhmr.png
 salary_text: TWD650000 - TWD1000000
 location_list:
   - 台北市
