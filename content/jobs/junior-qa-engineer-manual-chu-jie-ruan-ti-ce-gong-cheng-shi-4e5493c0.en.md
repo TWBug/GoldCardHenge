@@ -1,0 +1,25 @@
+---
+data_source_name: Cake Resume
+data_source_hostname: www.cakeresume.com
+data_source_url: >-
+  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
+data_source_internal_id: '26431'
+date: 2021-02-01T06:50:04.675Z
+title: Junior QA Engineer (manual)_初階軟體測��工程師
+job_url: >-
+  https://www.cakeresume.com/companies/opennet-limited/jobs/junior-qa-engineer-manual-_software-test-engineer
+company_name: OpenNet 開網有限公司
+company_page_url: 'https://www.cakeresume.com/companies/opennet-limited'
+salary_text: TWD650000 - TWD1000000
+location_list:
+  - 台北市
+  - 中正區
+badges:
+  - QA
+  - Android
+  - API Testing
+  - IOS
+
+---
+
+Responsibilities ● Simulate user needs and actual usage scenarios from a user perspective ● Testing (black box, white box, integration, and performance) of the Web and Mobile platforms ● Write test plans/test cases and output test reports according to feature requirements ● Track and record product issues and analyze the problems through various tools, giving feedback to relevant personnel to make corrections ● Share test-related information with other team members

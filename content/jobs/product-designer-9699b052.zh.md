@@ -1,0 +1,24 @@
+---
+data_source_name: Cake Resume
+data_source_hostname: www.cakeresume.com
+data_source_url: >-
+  https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
+data_source_internal_id: '25756'
+date: 2021-02-01T06:50:05.088Z
+title: Product Designer
+job_url: 'https://www.cakeresume.com/companies/rosetta-ai/jobs/product-designer-3846e5'
+company_name: 'Rosetta, Inc.'
+company_page_url: 'https://www.cakeresume.com/companies/rosetta-ai'
+salary_text: TWD720000 - TWD1020000
+location_list:
+  - Taipei City
+badges:
+  - Product Design
+  - Interaction Design
+  - UX Design
+  - UI Design
+  - Design Thinking
+
+---
+
+Rosetta.ai helps fashion e-commerce uncover consumer's shopping preferences and provide personalized shopping experiences to consumers. We're making e-commerce merchants have enterprise-level AI backup on day 1. We're looking for a Product Designer. You will ensure our products and features are valuable for people, easy to use, and of the highest level of craft and execution. You will be involved in every aspect of the product development process, from brainstorming the next great product innova

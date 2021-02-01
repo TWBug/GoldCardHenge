@@ -1,0 +1,24 @@
+---
+data_source_name: Cake Resume
+data_source_hostname: www.cakeresume.com
+data_source_url: >-
+  https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
+data_source_internal_id: '26098'
+date: 2021-02-01T06:50:05.088Z
+title: 'Lead UI UX Product Designer_UI UX 產品設計師主管 '
+job_url: >-
+  https://www.cakeresume.com/companies/opennet-limited/jobs/lead-ui-ux-product-designer_ui-ux-product-designer
+company_name: OpenNet 開網有限公司
+company_page_url: 'https://www.cakeresume.com/companies/opennet-limited'
+salary_text: TWD700000 - TWD1500000
+location_list:
+  - 台北市
+  - 中正區
+badges:
+  - photoshop
+  - Sketch
+  - illustrator
+
+---
+
+Candidate Profile ● The successful candidate will be a self-driven UI / UX designer with experience in mobile internet. ● The candidate will work on ensuring that all user-experience journeys across all products and channels are smooth and intuitive interactions. ● The candidate will seek to deeply understand end-users and business users and deliver an innovative experience that ends up serving users in ways that users. themselves may not have been able to articulate or request. ● The candidate 

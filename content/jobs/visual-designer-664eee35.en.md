@@ -1,0 +1,27 @@
+---
+data_source_name: Cake Resume
+data_source_hostname: www.cakeresume.com
+data_source_url: >-
+  https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
+data_source_internal_id: '16124'
+date: 2021-02-01T06:50:05.088Z
+title: Visual Designer
+job_url: >-
+  https://www.cakeresume.com/companies/PicCollage/jobs/visual-communication-designer
+company_name: PicCollage 拼貼趣
+company_page_url: 'https://www.cakeresume.com/companies/PicCollage'
+salary_text: TWD800000 - TWD1600000
+location_list:
+  - 台北
+  - 台灣
+badges:
+  - Visual Design
+  - Illustrator
+  - Photoshop
+  - Sketch
+  - AfterEffects
+  - Designer
+
+---
+
+Come and join PicCollage where you can work with an international team and learn from seasoned Designers, PMs & Developers on a popular mobile app with significant traction (millions of active users per day), and also collaborate on new product ideas! As an equal opportunity employer, we support and accept differences and strive to create a workplace where stimulate creativity, collaboration and learning from all members. As a Visual Designer, you will need to know how to design a brand and also

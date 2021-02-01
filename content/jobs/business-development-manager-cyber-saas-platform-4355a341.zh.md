@@ -1,0 +1,20 @@
+---
+data_source_name: Cake Resume
+data_source_hostname: www.cakeresume.com
+data_source_url: >-
+  https://www.cakeresume.com/jobs?q=cyber%20security&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
+data_source_internal_id: '25525'
+date: 2021-02-01T06:50:05.128Z
+title: Business Development Manager – Cyber SAAS Platform
+job_url: >-
+  https://www.cakeresume.com/companies/onedegree/jobs/business-development-manager-cyber-saas-platform
+company_name: OneDegree香港商甯寶管理科技有限公司
+company_page_url: 'https://www.cakeresume.com/companies/onedegree'
+salary_text: TWD700000 - TWD2000000
+location_list:
+  - 信義區
+badges: []
+
+---
+
+We are looking for an ambitious and dedicated BD manager to build customer relationships and drive the growth of Cybersecurity-as-a-Service (SaaS) business. Responsibilities: Research and prospect into potential brands, stakeholders and decision-makers that are a good fit to the cyber business. Manage a strong pipeline and deliver accurate forecast. Contact potential clients to create engagement for continuous visibility and enable future pipeline opportunities. Address escalated client issues w

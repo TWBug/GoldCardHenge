@@ -1,0 +1,23 @@
+---
+data_source_name: Cake Resume
+data_source_hostname: www.cakeresume.com
+data_source_url: >-
+  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
+data_source_internal_id: '25154'
+date: 2021-02-01T06:50:04.675Z
+title: '[KKStream] Software Architect 軟體架構師'
+job_url: >-
+  https://www.cakeresume.com/companies/kkboxgroup/jobs/kkstream-software-architect-software-architect
+company_name: KKBOX Group
+company_page_url: 'https://www.cakeresume.com/companies/kkboxgroup'
+salary_text: TWD1379000 - TWD0
+location_list:
+  - 台北
+  - 南港軟體園區
+badges:
+  - architect
+  - Software Engineering
+
+---
+
+KKStream is part of the KKBOX group. KKStream combines technology with market-leading OTT solution to provide cloud-based streaming service for millions of users all around the world. The Software Architect is responsible for providing leadership and vision of software architecture and strategy related to infrastructure, data, application architecture, and systems integration. The Software Architect will become familiar with video streaming products, services, and business processes and is respo
