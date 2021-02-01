@@ -778,18 +778,14 @@ zh:
       regulation_no: 11
       weight: 25
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      provide: >-
-        -  media coverage and other formal documents proving the startup was
-        merged or acquired for a value greater than 5 million USD
-
-        - formal proof of employment, showing that you were a senior executive (unit supervisor or higher) or core technical/research & development personnel of the startup company
+      provide: |-
+        * 需檢附公司被其他公司購併交易金額達500萬美元以上之相關新聞或佐證文件。
+        * 高階主管為該企業單位主管以上之職位，需檢附服務證明或離職證明相關文件。研發團隊核心技術人員需檢附在該公司研發單位任職相關證明。
     - ministry: MOST
       regulation_no: 12
       weight: 10
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      info: This criteria was introduced in December 2020. You should consider
-        providing additional documents in the spirit of the qualification
-        criteria due to its recency.
+      info: 該資格條件於2020年12月才開始，由於此資格條件較新，建議您提供較充足的相關文件以防萬一。
       notes: "Please prepare one or both of the following: ☑  media coverage and other
         formal documents proving the VC firm or fund has an investment of
         greater than 5 million USD in a non-Taiwanese company ☑  media coverage
@@ -798,6 +794,16 @@ zh:
         the Ministry of Science and Technology  and:  ☑ formal proof of
         employment, showing that you were a senior executive of the relevant VC
         firm or fund"
+      provide: |-
+        請先就 12 .1 或 12.2 擇一，再就所選項目檢附文件：
+
+        12.1. 請擇一或全部檢附：
+
+        投資國外新創或事業達500萬美元以上之創投公司或基金之高階主管。
+        投資科技部相關計畫之新創達100萬美元之創投公司或基金之高階主管。
+        12.2. 請全部檢附：
+
+        高階主管為單位主管以上之職位，需檢附服務證明或離職證明相關文件。
     - ministry: MOST
       regulation_no: 13
       weight: 10
