@@ -840,23 +840,55 @@ en:
       regulation_no: 2
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
       info: ""
-      provide: ""
-      notes: "Please prepare: ☑ formal proof of employment in the specific field,
-        showing more than three years at a technology company or university and
-        the documents from either Academic or Professional streams
-        below.  Academic Stream ☑ a copy of your university degree(s) or
-        certification(s) ☑ journal articles, conference papers, peer-reviewed
-        books or chapters, or other specialized work such as software tools that
-        are widely cited. Documents must be published within the past 3
-        years.  Professional Stream ☑ copies of patent certificates, technology
-        licensing contracts or other proof of technical skill ☑ copies of major
-        domestic or international awards you have received."
+      provide: >-
+        Please select either 2.1 or 2.2, and attach all documents required for
+        the selected item:
+
+
+        2.1. Please attach all of the following documents:
+
+
+        * Domestic or foreign certificate of academic attainment
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years
+
+        * Related academic research during the most recent three years
+
+
+        2.2. Please attach all of the following documents:
+
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years
+
+        * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
+      notes: ""
       weight: 30
     - ministry: MOST
       regulation_no: 3
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
       info: ""
-      provide: ""
+      provide: >-
+        
+
+        Please select either 3.1 or 3.2, and attach all documents required for the selected item:
+
+
+        3.1. Please attach all of the following documents:
+
+
+        * Domestic or foreign certificate of academic attainment
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years
+
+        * Related academic research during the most recent three years
+
+
+        3.2. Please attach all of the following documents:
+
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years
+
+        * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
       notes: "Please prepare: ☑ formal proof of employment in the specific field,
         showing more than three years at a technology company or university and
         the documents from either Academic or Professional streams
@@ -872,7 +904,11 @@ en:
       regulation_no: 4
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
       info: ""
-      provide: ""
+      provide: >-
+        Please provide:
+
+
+        * Documents verifying receipt of internationally-recognized domestic or foreign awards or prizes.
       notes: >-
         Please prepare:
 
