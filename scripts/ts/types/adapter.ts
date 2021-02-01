@@ -49,11 +49,6 @@ export interface IDBRowJob {
     description: string | null;
 }
 
-// Ruby -> Rails, Sintra
-// PHP -> Laravel
-// Python -> Django, Flask
-// JS -> ??, Express
-
 export interface IAdapter {
     // This is the main method for getting jobs. Instantiate with a URL and then call this.
     getJobs(options?: Partial<RequestOptions>): Promise<IDBRowJob[]>;
