@@ -3,8 +3,8 @@ title: Business Etiquette in Taiwan
 date: 2020-12-10T07:41:05.093Z
 draft: false
 topic: whytaiwan
-cover_image: /cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
-media_image: /cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
+cover_image:
+media_image:
 topics:
     - Discover Taiwan
 style: title
@@ -33,9 +33,9 @@ Social etiquette is very important for people in Taiwan. They pay special attent
 -   Decisions are made collectively and can be a lengthy process during negotiation. Once facts are established, agreements can sometimes be reached quickly.
 -   關係 or guan-xi means connections/personal relationships. Guan-xi is vital for business success in Taiwan. Taiwanese business people will want to know you personally before they do business with you.
 
-![Dining and Entertainment](/cms-uploads/greetings.png "Greetings")
+![Dining and Entertainment](/cms-uploads/greetings.png 'Greetings')
 
-![Dining and Entertainment](/cms-uploads/exchange-business-cards.png "Exchange Business Cards")
+![Dining and Entertainment](/cms-uploads/exchange-business-cards.png 'Exchange Business Cards')
 
 ## Dining and Entertainment
 
@@ -63,36 +63,35 @@ Social etiquette is very important for people in Taiwan. They pay special attent
 -   Making a good first impression is vital. Avoid wearing t-shirts, jeans, and other casual attire to first meetings.
 -   Even while attending a casual activity, you should dress modestly. Your clothing should be neat, clean, and unwrinkled.
 
-![Dining and Entertainment](/cms-uploads/dining-and-entertainment.png "Dining and Entertainment")
+![Dining and Entertainment](/cms-uploads/dining-and-entertainment.png 'Dining and Entertainment')
 
-![Attire](/cms-uploads/fashion.png "Attire")
+![Attire](/cms-uploads/fashion.png 'Attire')
 
 ## Gifts
 
 {{< seperator >}}
 
-- Present and receive gifts with both hands and do not open them in front of the giver.
-- Recipients may refuse a gift to be polite, but politely persist until the gift is accepted.
-- Custom requires people to reciprocate with a gift of equal value.
-- Gifts should be wrapped with great care, and the container and wrapping of the gift is as important as the gift itself.
+-   Present and receive gifts with both hands and do not open them in front of the giver.
+-   Recipients may refuse a gift to be polite, but politely persist until the gift is accepted.
+-   Custom requires people to reciprocate with a gift of equal value.
+-   Gifts should be wrapped with great care, and the container and wrapping of the gift is as important as the gift itself.
 
 ## Body Language
 
 {{< seperator >}}
 
-- Do not touch anyone, especially a baby, on the top of their head.
-- Affection for the opposite sex is not shown in public.
-- Never use your feet to move an object or to point as feet are considered dirty.
-- Place your hands in your lap when sitting.
-- Men should not cross their legs, but rather place both feet on the floor.
-- Putting an arm around someone's shoulder, winking, and pointing with your index finger are all considered rude gestures. You may point with an open hand.
-- Palms facing outward and in front of the face moving back and forth means "no".
-- Nervous movements, such as tapping your foot, are considered rude.
-- Accept food and other objects with both hands to indicate respect.
-- Be humble if you receive a compliment.
-- Family is central in Taiwanese culture, so it is polite to inquire about someone’s family.
+-   Do not touch anyone, especially a baby, on the top of their head.
+-   Affection for the opposite sex is not shown in public.
+-   Never use your feet to move an object or to point as feet are considered dirty.
+-   Place your hands in your lap when sitting.
+-   Men should not cross their legs, but rather place both feet on the floor.
+-   Putting an arm around someone's shoulder, winking, and pointing with your index finger are all considered rude gestures. You may point with an open hand.
+-   Palms facing outward and in front of the face moving back and forth means "no".
+-   Nervous movements, such as tapping your foot, are considered rude.
+-   Accept food and other objects with both hands to indicate respect.
+-   Be humble if you receive a compliment.
+-   Family is central in Taiwanese culture, so it is polite to inquire about someone’s family.
 
-![Attire](/cms-uploads/gifts.png "Gifts")
+![Attire](/cms-uploads/gifts.png 'Gifts')
 
-![Attire](/cms-uploads/body-language.png "Body Language")
-
+![Attire](/cms-uploads/body-language.png 'Body Language')
