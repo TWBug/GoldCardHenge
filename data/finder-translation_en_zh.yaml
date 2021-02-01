@@ -85,7 +85,7 @@ zh:
     - key: headline_result
       translation: 恭喜，根據您所提供的資訊建議可試用下面的條件申請就業金卡．｜恭喜，根據您所提供的資訊建議可試用下面{count}個條件申請就業金卡．
     - key: headline_no_result
-      translation: 抱歉，根據您選擇的條件無適用的申請資格。
+      translation: 抱歉，根據您選擇的條件無適用的就業金卡資格。
     - key: results_headline
       translation: 可適用{ministery}的第{regulation}號條件申請
     - key: results_answer
