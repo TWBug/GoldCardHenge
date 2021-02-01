@@ -69,9 +69,8 @@ Please provide:
 {{< /accordion >}}
 
 {{< accordion title="Academician at a national academy of sciences or scholar at an equivalent national level." suffix="5." bottomless="true" >}}
-
 Please provide: 
-*Domestic or foreign academician certificate or equivalent verifying document  [Note 5](#note-5)
+* Domestic or foreign academician certificate or equivalent verifying document  [Note 5](#note-5)
 
 {{< /accordion >}}
 
