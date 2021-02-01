@@ -18,13 +18,13 @@ export interface IDBRowJob {
     // This is the datetime that the record was created. This data does not come
     // from the source itself.
     // In the DB this will probably be stored as a string...
-    created_at: Date;
+    date: Date;
 
     // Job title
     title: string;
 
     // This is the external URL which we will link to
-    html_url: string;
+    job_url: string;
 
     // The format of the salary is not well defined so we must be flexible with
     // it.
@@ -34,14 +34,22 @@ export interface IDBRowJob {
     location_list: string[];
 
     // Any user-defined tags
-    tag_list: string[];
+    badges: string[];
 
     // Name of the company this job is at
     company_name: string;
 
     // The URL to the companies web page
-    html_company_url: string | null;
+    company_page_url: string | null;
+
+    // The job description
+    description: string | null;
 }
+
+// Ruby -> Rails, Sintra
+// PHP -> Laravel
+// Python -> Django, Flask
+// JS -> ??, Express
 
 export interface IAdapter {
     // This is the main method for getting jobs. Instantiate with a URL and then call this.

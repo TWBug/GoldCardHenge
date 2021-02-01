@@ -4,6 +4,7 @@ import fs from 'fs';
 import assert from 'assert';
 import { __APP_INITIAL_REDUX_STATE__ } from '../types/cakeresume';
 import { IAdapter } from '../types/adapter';
+import yaml from 'js-yaml';
 
 type CakeAppState = typeof __APP_INITIAL_REDUX_STATE__;
 
@@ -72,18 +73,25 @@ export default class CakeResumeAdapter implements IAdapter {
             const companyUrl = `${baseUrl}/companies/${x.page.path}`;
             const jobUrl = `${companyUrl}/jobs/${x.path}`;
             return {
+                // Data source
                 data_source_name: 'Cake Resume',
                 data_source_hostname: this.hostname,
                 data_source_url: this.url,
                 data_source_internal_id: x.objectID,
-                created_at: new Date(),
+
+                // @note This is the date we scraped the record at, not the date
+                // it was created in the original system we are scraping it
+                // from.
+                date: new Date(),
+
+                // About the job itself
                 title: x.title,
+                job_url: jobUrl,
                 company_name: x.page.name,
-                html_url: jobUrl,
-                html_company_url: companyUrl,
+                company_page_url: companyUrl,
                 salary_text: x.salary_range.map((y) => x.salary_currency + y).join(' - '),
                 location_list: x.location_list,
-                tag_list: x.tag_list,
+                badges: x.tag_list,
                 description: x.description_plain_text,
             };
         });

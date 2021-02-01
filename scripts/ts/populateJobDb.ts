@@ -3,12 +3,14 @@ import fs from 'fs';
 import CakeResumeAdapter from './adapters/cakeresume';
 import { IAdapter, IAdapterConstructor, IDBRowJob } from './types/adapter';
 import yaml from 'js-yaml';
+import crc from 'crc';
+import sluggify from 'limax';
 
 import db from './db';
 import { pathCase } from 'change-case';
 import path from 'path';
 
-const DEBUG = !!process.env.DEBUG
+const DEBUG = !!process.env.DEBUG;
 
 const MAPPINGS: { [k: string]: IAdapterConstructor } = {
     'www.cakeresume.com': CakeResumeAdapter,
@@ -57,7 +59,7 @@ const main = async () => {
             return getJobs(x).catch((err) => {
                 console.error('[SKIP] The following URL errored. Ignoring and continuing: ', x);
                 if (DEBUG) {
-                    console.log('DEBUG flag set. Error follows:')
+                    console.log('DEBUG flag set. Error follows:');
                     console.error(err);
                 }
                 return []; // Ignore the error by returning the appropriate type
@@ -66,14 +68,33 @@ const main = async () => {
     );
 
     const jobs = result.flat();
-    const outfile = 'dist/jobs.json'
+    const outdir = path.join('content', 'jobs');
+
+    // Clean output dir
+    const oldFiles = fs.readdirSync(outdir);
+    console.log(`Cleaning ${oldFiles.length} outdated job files...`);
+    oldFiles
+        .filter((x) => !x.startsWith('_index'))
+        .forEach((filename) => {
+            fs.unlinkSync(path.resolve(outdir, filename));
+        });
+
+    for (const j of jobs) {
+        const str = toMarkdownString(j);
+        for (const lang of ['en', 'zh']) {
+            const uniqueFileId = crc.crc32(j.data_source_internal_id).toString(16);
+            const filename = `${sluggify(j.title, { tone: false })}-${uniqueFileId}.${lang}.md`;
+            const outfile = path.join(outdir, filename);
+            fs.writeFileSync(outfile, str, { encoding: 'utf-8' });
+        }
+    }
 
     // Ensure that the output dir exists before writing
-    fs.mkdirSync(path.dirname(outfile), { recursive: true })
-    fs.writeFileSync(outfile, JSON.stringify(jobs, null, 2), { encoding: 'utf-8' });
+    // fs.mkdirSync(path.dirname(outfile), { recursive: true })
+    // fs.writeFileSync(outfile, JSON.stringify(jobs, null, 2), { encoding: 'utf-8' });
 
     console.log();
-    console.log(`    ${jobs.length} jobs written to ->  ${outfile}`);
+    console.log(`    ${jobs.length} files written to -> ${outdir}`);
     console.log();
 };
 
@@ -88,3 +109,9 @@ if (require.main === module) {
         }
     );
 }
+
+const toMarkdownString = (x: IDBRowJob) => {
+    const { description, ...frontmatter } = x;
+    const fm = yaml.dump(frontmatter);
+    return `---\n${fm}\n---\n\n${description}`;
+};
