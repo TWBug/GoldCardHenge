@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '24218'
-date: 2021-02-01T16:08:56.800Z
 title: Full Stack .NET Engineer
 job_url: >-
   https://www.cakeresume.com/companies/sandline-discovery/jobs/full-stack-net-engineer
+date: 2020-10-29T09:28:19.115Z
 company_name: Sandline Discovery
 company_page_url: 'https://www.cakeresume.com/companies/sandline-discovery'
 company_logo_url: >-
@@ -17,9 +17,11 @@ location_list:
   - 台北
   - 中正區
 badges:
+  - Mechanical engineer
+job_tags:
   - Git
   - ASP.NET
-  - Csharp
+  - C#
   - MS SQL
   - MySQL
   - Relativity

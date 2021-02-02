@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '20633'
-date: 2021-02-01T16:08:56.370Z
 title: Infra Manager (Financial Service)
 job_url: >-
   https://www.cakeresume.com/companies/recruit-express-taiwan/jobs/infra-manager-financial-service
+date: 2020-05-28T11:42:18.912Z
 company_name: 新加坡商立可人事顧問有限公司台灣分公司 Recruit Express (Taiwan)
 company_page_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan'
 company_logo_url: >-
@@ -16,6 +16,8 @@ salary_text: TWD1500000 - TWD2000000
 location_list:
   - 台北
 badges:
+  - Software  architecture
+job_tags:
   - Infrastructure
   - banking
 

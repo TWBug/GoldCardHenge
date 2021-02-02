@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '20134'
-date: 2021-02-01T16:08:56.370Z
 title: 集團資訊主管（3003892）
 job_url: >-
   https://www.cakeresume.com/companies/1111-cc8677/jobs/group-information-supervisor-3003892
+date: 2020-05-11T08:19:21.476Z
 company_name: 1111獵才顧問中心Executive Recruiting Consultancy Dept.
 company_page_url: 'https://www.cakeresume.com/companies/1111-cc8677'
 company_logo_url: >-
@@ -16,6 +16,8 @@ salary_text: TWD1000000 - TWD1500000
 location_list:
   - 新北市三重區
 badges:
+  - Software  architecture
+job_tags:
   - MIS
   - MIS主管
   - 資訊主管

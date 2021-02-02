@@ -4,9 +4,9 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=iot%20solutions&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '24505'
-date: 2021-02-01T16:08:57.208Z
 title: (外商) IT Manager
 job_url: 'https://www.cakeresume.com/companies/robert-walters/jobs/foreign-it-manager'
+date: 2020-11-09T08:02:34.559Z
 company_name: Robert Walters
 company_page_url: 'https://www.cakeresume.com/companies/robert-walters'
 company_logo_url: >-
@@ -15,6 +15,8 @@ salary_text: TWD1500000 - TWD2000000
 location_list:
   - 桃園市
 badges:
+  - IoT Solution
+job_tags:
   - PLM
   - MIS
   - SAP

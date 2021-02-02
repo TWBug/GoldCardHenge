@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '17970'
-date: 2021-02-01T16:08:57.842Z
-title: Senior UXUI Product Designer_ UXUI產品設計師
+title: 'Senior UXUI Product Designer_ UXUI產品設計師 '
 job_url: >-
   https://www.cakeresume.com/companies/opennet-limited/jobs/senior-product-designer_-senior-product-designer
+date: 2020-02-15T07:25:48.327Z
 company_name: OpenNet 開網有限公司
 company_page_url: 'https://www.cakeresume.com/companies/opennet-limited'
 company_logo_url: >-
@@ -18,6 +18,8 @@ location_list:
   - 台灣
   - 中正
 badges:
+  - Designer
+job_tags:
   - Product Design
   - UI/UX Designer
   - App

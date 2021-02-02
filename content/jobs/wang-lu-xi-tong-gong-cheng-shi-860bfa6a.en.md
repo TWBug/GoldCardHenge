@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '14409'
-date: 2021-02-01T16:08:56.370Z
 title: 網路系統工程師
 job_url: >-
   https://www.cakeresume.com/companies/nanshanlife-nanshanweb/jobs/network-system-engineer-058404
+date: 2019-10-05T10:01:00.671Z
 company_name: '南山人壽保險股份有限公司 '
 company_page_url: 'https://www.cakeresume.com/companies/nanshanlife-nanshanweb'
 company_logo_url: >-
@@ -15,7 +15,9 @@ company_logo_url: >-
 salary_text: TWD650000 - TWD1500000
 location_list:
   - 台北
-badges: []
+badges:
+  - Software  architecture
+job_tags: []
 
 ---
 

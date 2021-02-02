@@ -4,9 +4,9 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '25243'
-date: 2021-02-01T16:08:57.842Z
 title: Visual Designer 視覺設計師
 job_url: 'https://www.cakeresume.com/companies/kronos/jobs/visual-designer-48745b'
+date: 2020-12-04T10:04:09.002Z
 company_name: Kronos Research 麒點科技
 company_page_url: 'https://www.cakeresume.com/companies/kronos'
 company_logo_url: >-
@@ -15,6 +15,8 @@ salary_text: TWD800000 - TWD1500000
 location_list:
   - 台北市中山區樂群二路189號6樓之一
 badges:
+  - Designer
+job_tags:
   - Adobe Photoshop
   - illustrator
 

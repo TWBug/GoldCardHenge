@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '21570'
-date: 2021-02-01T16:08:57.059Z
 title: Sr. iOS Developer 資深iOS工程師
 job_url: >-
   https://www.cakeresume.com/companies/tomofun/jobs/sr-ios-developer-senior-ios-engineer-b30aa1
+date: 2020-07-15T03:40:20.929Z
 company_name: Tomofun 寵物AI科技新創
 company_page_url: 'https://www.cakeresume.com/companies/tomofun'
 company_logo_url: >-
@@ -16,6 +16,8 @@ salary_text: TWD900000 - TWD1600000
 location_list:
   - 台北
 badges:
+  - AI Engineer
+job_tags:
   - swift
   - objective c
   - MVVM

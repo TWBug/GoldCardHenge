@@ -4,9 +4,9 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '21681'
-date: 2021-02-01T16:08:57.686Z
 title: 'JL - [知名穩定外商] - 中高階_QA supervisor - 英文中等以上 - 年薪保障14個月'
 job_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan/jobs/7b4b0d'
+date: 2020-07-20T11:19:38.831Z
 company_name: 新加坡商立可人事顧問有限公司台灣分公司 Recruit Express (Taiwan)
 company_page_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan'
 company_logo_url: >-
@@ -15,6 +15,8 @@ salary_text: TWD800000 - TWD1000000
 location_list:
   - 宜蘭
 badges:
+  - Industrial Engineer
+job_tags:
   - ISO
   - QA Engineer
   - QA

@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '16086'
-date: 2021-02-01T16:08:56.854Z
 title: 前端工程師  Front End Engineer (Mid~Senior)
 job_url: >-
   https://www.cakeresume.com/companies/onedegree/jobs/senior-front-end-engineer-can-work-after-year
+date: 2019-12-03T03:49:33.227Z
 company_name: OneDegree香港商甯寶管理科技有限公司
 company_page_url: 'https://www.cakeresume.com/companies/onedegree'
 company_logo_url: >-
@@ -17,6 +17,8 @@ location_list:
   - 台北
   - 台灣
 badges:
+  - Frontend
+job_tags:
   - React.js
 
 ---

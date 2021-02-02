@@ -4,9 +4,9 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '25938'
-date: 2021-02-01T16:08:56.854Z
 title: Frontend Engineer 前端工程師（17.Live）
 job_url: 'https://www.cakeresume.com/companies/17LIVE/jobs/frontend-engineer-17-live'
+date: 2021-01-07T10:08:59.029Z
 company_name: 17 LIVE_英屬維京群島商藝啟股份有限公司臺灣分公司
 company_page_url: 'https://www.cakeresume.com/companies/17LIVE'
 company_logo_url: >-
@@ -15,7 +15,9 @@ salary_text: TWD1000000 - TWD1
 location_list:
   - 台北
   - 中正區
-badges: []
+badges:
+  - Frontend
+job_tags: []
 
 ---
 

@@ -4,17 +4,19 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '22639'
-date: 2021-02-01T16:08:56.800Z
 title: HS-Backend Engineer (Python/Golang) 板橋區
 job_url: >-
   https://www.cakeresume.com/companies/recruit-express-taiwan/jobs/hs-backend-engineer-python-golang-itabashi
+date: 2020-08-26T02:47:28.606Z
 company_name: 新加坡商立可人事顧問有限公司台灣分公司 Recruit Express (Taiwan)
 company_page_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--8jzlPgwu--/c_pad,fl_png8,h_200,w_200/v1566176619/pxugexvfcc68sz5kf2sn.png
 salary_text: TWD55000 - TWD1000000
 location_list: []
-badges: []
+badges:
+  - Mechanical engineer
+job_tags: []
 
 ---
 

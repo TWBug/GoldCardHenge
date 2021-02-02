@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '17917'
-date: 2021-02-01T16:08:56.927Z
 title: Web/App Product Manager 產品經理
 job_url: >-
   https://www.cakeresume.com/companies/opennet-limited/jobs/product-manager-b3a25b
+date: 2020-02-14T03:06:51.456Z
 company_name: OpenNet 開網有限公司
 company_page_url: 'https://www.cakeresume.com/companies/opennet-limited'
 company_logo_url: >-
@@ -19,6 +19,8 @@ location_list:
   - 中正區
   - 台北市
 badges:
+  - Project Manager
+job_tags:
   - Product
   - Product Management
   - PM

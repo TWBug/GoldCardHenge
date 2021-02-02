@@ -4,9 +4,9 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '19463'
-date: 2021-02-01T16:08:56.927Z
 title: 【數位轉型】IT Project Manager (年120~150萬)
 job_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan/jobs/e2b46c'
+date: 2020-04-13T07:33:43.666Z
 company_name: 新加坡商立可人事顧問有限公司台灣分公司 Recruit Express (Taiwan)
 company_page_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan'
 company_logo_url: >-
@@ -17,6 +17,8 @@ location_list:
   - 台北
   - 信義區
 badges:
+  - Project Manager
+job_tags:
   - java
   - pm
 

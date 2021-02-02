@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '25659'
-date: 2021-02-01T16:08:56.370Z
 title: ' 【知名外商】Mechanical Engineer (Outdoor Product)'
 job_url: >-
   https://www.cakeresume.com/companies/robert-walters/jobs/mechanical-engineer-outdoor-products
+date: 2020-12-23T08:45:04.357Z
 company_name: Robert Walters
 company_page_url: 'https://www.cakeresume.com/companies/robert-walters'
 company_logo_url: >-
@@ -18,8 +18,10 @@ location_list:
   - 台北
   - 台北市
   - 台北市信義區
-badges: []
+badges:
+  - Software  architecture
+job_tags: []
 
 ---
 
-Key responsibilities： In charge of Mechanical Engineering of networking products such as AP, antenna, power supply or charger. Responsible for product spec define and system architecture design Evaluate new and existing products to improve future design
+Key responsibilities: In charge of Mechanical Engineering of networking products such as AP, antenna, power supply or charger. Responsible for product spec define and system architecture design Evaluate new and existing products to improve future design

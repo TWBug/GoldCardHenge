@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=finance&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '7590'
-date: 2021-02-01T16:08:57.390Z
 title: Business Development(FinTech)
 job_url: >-
   https://www.cakeresume.com/companies/gdp-world/jobs/business-development-blockchain
+date: 2018-11-06T06:24:18.149Z
 company_name: GDP World
 company_page_url: 'https://www.cakeresume.com/companies/gdp-world'
 company_logo_url: >-
@@ -18,6 +18,8 @@ location_list:
   - 捷運中山國中站
   - 台北
 badges:
+  - Finance
+job_tags:
   - BD
   - sales manager
   - MarketingCommunication

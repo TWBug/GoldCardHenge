@@ -4,9 +4,9 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '25756'
-date: 2021-02-01T16:08:57.842Z
 title: Product Designer
 job_url: 'https://www.cakeresume.com/companies/rosetta-ai/jobs/product-designer-3846e5'
+date: 2020-12-28T12:14:41.886Z
 company_name: 'Rosetta, Inc.'
 company_page_url: 'https://www.cakeresume.com/companies/rosetta-ai'
 company_logo_url: >-
@@ -15,6 +15,8 @@ salary_text: TWD720000 - TWD1020000
 location_list:
   - Taipei City
 badges:
+  - Designer
+job_tags:
   - Product Design
   - Interaction Design
   - UX Design

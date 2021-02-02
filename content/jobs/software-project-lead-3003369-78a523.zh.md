@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '15325'
-date: 2021-02-01T16:08:56.927Z
 title: Software Project Lead(3003369)
 job_url: >-
   https://www.cakeresume.com/companies/1111headhunt/jobs/software-project-lead_a-well-known-company-3003369
+date: 2019-11-05T08:35:07.928Z
 company_name: 1111高階獵頭顧問中心
 company_page_url: 'https://www.cakeresume.com/companies/1111headhunt'
 company_logo_url: >-
@@ -18,6 +18,8 @@ location_list:
   - Taipei
   - 台北市大安區
 badges:
+  - Project Manager
+job_tags:
   - 軟體專案主管
   - 軟體專案管理
   - 軟體專案經理

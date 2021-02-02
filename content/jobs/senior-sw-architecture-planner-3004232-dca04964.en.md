@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=iot%20solutions&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '22221'
-date: 2021-02-01T16:08:57.208Z
 title: Senior SW Architecture Planner(3004232)
 job_url: >-
   https://www.cakeresume.com/companies/1111headhunt/jobs/senior-sw-architecture-planner-3004232
+date: 2020-08-11T08:33:10.299Z
 company_name: 1111高階獵頭顧問中心
 company_page_url: 'https://www.cakeresume.com/companies/1111headhunt'
 company_logo_url: >-
@@ -17,6 +17,8 @@ location_list:
   - 台灣
   - 台北
 badges:
+  - IoT Solution
+job_tags:
   - 軟體工程師
   - IoT
   - 軟體開發
