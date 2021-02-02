@@ -24,22 +24,31 @@
             {{ end }}
         {{ else }}
             {{ range sort $application.Sections ".File.Dir" "asc" }}
-                <a href="{{ .RelPermalink }}" class="inline-block focus-primary">
-                    {{ if eq .File.Dir $.File.Dir }}
-                    <h3 class="text-base text-nav-end font-bold py-1 my-1 ">
-                        {{ .Title }}
-                    </h3>
-                    {{ else }}
-                    <h3 class="text-base font-bold py-1 my-1 ">
-                        {{ .Title }}
-                    </h3>
-                    {{ end }}
-                </a>
                 {{ if .RegularPages }}
+                    <a href="{{ .RelPermalink }}" class="inline-block focus-primary">
+                        {{ if eq .File.Dir $.File.Dir }}
+                        <h3 class="text-base text-nav-end font-bold py-1 my-1 ">
+                            {{ .Title }}
+                        </h3>
+                        {{ else }}
+                        <h3 class="text-base font-bold py-1 my-1 ">
+                            {{ .Title }}
+                        </h3>
+                        {{ end }}
+                    </a>
                     {{ range sort .RegularPages ".Params.order" "asc" }}
                     {{ template "check" (dict "link" .RelPermalink "text" .Title "active" (eq $.Page .Page) ) }}
                     {{ end }}
                 {{ else }}
+                    {{ if eq .File.Dir $.File.Dir }}
+                        <h3 class="text-base text-nav-end font-bold py-1 my-1 ">
+                            {{ .Title }}
+                        </h3>
+                        {{ else }}
+                        <h3 class="text-base font-bold py-1 my-1 ">
+                            {{ .Title }}
+                        </h3>
+                    {{ end }}
                     {{ template "check" (dict "link" .RelPermalink "text" (.Summary | truncate 40) "active" (eq $.Page .Page) ) }}
                 {{ end }}
                 <div class="seperate h-6 -ml-2 -mr-2"></div>
