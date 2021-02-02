@@ -82,11 +82,12 @@ export default class CakeResumeAdapter implements IAdapter {
                 // @note This is the date we scraped the record at, not the date
                 // it was created in the original system we are scraping it
                 // from.
-                date: new Date(),
+                fetched_at: new Date(),
 
                 // About the job itself
                 title: x.title,
                 job_url: jobUrl,
+                date: new Date(x.created_at),
                 company_name: x.page.name,
                 company_page_url: companyUrl,
                 company_logo_url: x.page.logo.medium,

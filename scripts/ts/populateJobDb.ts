@@ -58,9 +58,8 @@ const main = async () => {
     const filepath = path.resolve(__dirname, '../../data/job_lists.yaml');
     console.log(`[INFO] Reading URLs from YAML: ${filepath}`);
     const data = yaml.load(fs.readFileSync(filepath, { encoding: 'utf-8' }));
-    // @ts-ignore
+    // @ts-ignore The yaml lib seems to have poor typing.
     const urls: IYamlData[] = data?.items;
-    // const result: IDBRowJob[][] = [];
 
     const result: IDBRowJob[][] = await Promise.all(
         urls.map(({ label, url }) => {
@@ -69,7 +68,10 @@ const main = async () => {
                     return xs.map((x) => ({ ...x, badges: [label] }));
                 })
                 .catch((err) => {
-                    console.error('[SKIP] The following URL errored. Ignoring and continuing: ', x);
+                    console.error(
+                        '[SKIP] The following URL errored. Ignoring and continuing: ',
+                        url
+                    );
                     if (DEBUG) {
                         console.log('DEBUG flag set. Error follows:');
                         console.error(err);
@@ -129,7 +131,10 @@ const stringifyJobTag = (x: string) => {
 };
 
 const toMarkdownString = (x: IDBRowJob) => {
-    const { description, ...frontmatter } = x;
+    // @note fetched_at is only extracted so it doesn't make it into the output
+    // YAML. Since it changes every fetch it causes a data change on every
+    // single job file even if the job has not changed.
+    const { description, fetched_at, ...frontmatter } = x;
     const fm = yaml.dump(frontmatter);
     return `---\n${fm}\n---\n\n${description}`;
 };

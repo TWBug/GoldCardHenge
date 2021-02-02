@@ -15,10 +15,12 @@ export interface IAdapterOutput {
     // within the source.
     data_source_internal_id: string;
 
+    // This is the date attached to the job listing. It's nullable in case some providers don't have a date associated with them
+    date: Date | null;
+
     // This is the datetime that the record was created. This data does not come
     // from the source itself.
-    // In the DB this will probably be stored as a string...
-    date: Date;
+    fetched_at: Date;
 
     // Job title
     title: string;
