@@ -56,7 +56,7 @@
         {{ end }}
         <template x-if="has_resume">
             <div class="text-right mt-4">
-                <a href="{{ $application.RelPermalink }}" :href="resume.href" class="inline-flex items-center text-primary text-base font-bold">
+                <a href="{{ $application.RelPermalink }}" :href="resume.href" class="inline-flex items-center text-primary text-base font-bold focus-primary">
                     <span class="mr-4">
                         {{ i18n "check_list_continue" }}: <span class="block text-sm font-medium" x-text="resume.text"></span>
                     </span>
