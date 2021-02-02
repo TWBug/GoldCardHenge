@@ -21,7 +21,7 @@
                 </span>
             </span>
         </button>
-        <div id="{{ print "trigger_" $id }}" class="flex items-center font-bold text-green-600" x-show="trigger_checked" :hidden="!trigger_checked" role="checkbox" :aria-checked="trigger_checked" aria-labelledby="{{ printf "accordion-button-%s" $id }}">
+        <div id="{{ print "trigger_" $id }}" class="flex items-center font-bold text-green-600" x-show="trigger_checked" :hidden="!trigger_checked" role="checkbox" :aria-checked="trigger_checked">
             <div class="mr-4">
                 {{ partial "icon" (dict "name" "check" "size" "10" "alt" "Info") }}
             </div>
