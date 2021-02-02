@@ -2,42 +2,39 @@
 {{ if eq $language "zh" }}
 {{ $language = "zh-TW" }}
 {{ end }}
+
+<script type="text/javascript" src="https://widget.freshworks.com/widgets/66000001340.js" async defer></script>
 <script>
-    window.fwSettings = {
-        widget_id: 66000001340,
-        locale: '{{ $language }}',
-    };
-    !(function () {
-        if ('function' != typeof window.FreshworksWidget) {
-            var n = function () {
-                n.q.push(arguments);
-            };
-            (n.q = []), (window.FreshworksWidget = n);
-        }
-    })();
-</script>
-<script
-    type="text/javascript"
-    src="https://widget.freshworks.com/widgets/66000001340.js"
-    async
-    defer
-></script>
-<script type="text/javascript">
-    FreshworksWidget('hide', 'launcher');
-    FreshworksWidget('setLabels', {
-        '{{ $language }}': {
-            banner: '{{ i18n "contact_widget_banner" | htmlEscape }}',
-            launcher: '{{ i18n "contact_widget_launcher" | htmlEscape }}',
-            contact_form: {
-                title: '{{ i18n "contact_widget_title" | htmlEscape }}',
-                submit: '{{ i18n "contact_widget_submit" | htmlEscape }}',
-                confirmation: '{{ i18n "contact_widget_confirmation" | htmlEscape }}',
+    document.addEventListener('DOMContentLoaded', function () {
+        window.fwSettings = {
+            widget_id: 66000001340,
+            locale: '{{ $language }}',
+        };
+        !(function () {
+            if ('function' != typeof window.FreshworksWidget) {
+                var n = function () {
+                    n.q.push(arguments);
+                };
+                (n.q = []), (window.FreshworksWidget = n);
+            }
+        })();
+        FreshworksWidget('hide', 'launcher');
+        FreshworksWidget('setLabels', {
+            '{{ $language }}': {
+                banner: '{{ i18n "contact_widget_banner" | htmlEscape }}',
+                launcher: '{{ i18n "contact_widget_launcher" | htmlEscape }}',
+                contact_form: {
+                    title: '{{ i18n "contact_widget_title" | htmlEscape }}',
+                    submit: '{{ i18n "contact_widget_submit" | htmlEscape }}',
+                    confirmation: '{{ i18n "contact_widget_confirmation" | htmlEscape }}',
+                },
+                frustration_tracking: {
+                    banner: '{{ i18n "contact_widget_frustration_banner" | htmlEscape }}',
+                    description: '{{ i18n "contact_widget_frustration_description" | htmlEscape }}',
+                    confirmation:
+                        '{{ i18n "contact_widget_frustration_confirmation" | htmlEscape }}',
+                },
             },
-            frustration_tracking: {
-                banner: '{{ i18n "contact_widget_frustration_banner" | htmlEscape }}',
-                description: '{{ i18n "contact_widget_frustration_description" | htmlEscape }}',
-                confirmation: '{{ i18n "contact_widget_frustration_confirmation" | htmlEscape }}',
-            },
-        }
+        });
     });
 </script>
