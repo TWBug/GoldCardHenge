@@ -13,7 +13,7 @@
             <a href="{{ .Params.link }}" target="_blank" title="{{ i18n "open_in_new_window"}}" tabindex="-1" class="block focus-primary">
             <img
             src="{{ $cover_image_resized.RelPermalink }}"
-            alt="{{ .Summary | truncate 160 }}" class="block w-full" loading="lazy" />
+            alt="{{ partial "alt" ( dict "alt" .Summary "lang" .Site.Language.Lang ) }}" class="block w-full" loading="lazy" />
         </a>
         {{ end }}
     </div>
