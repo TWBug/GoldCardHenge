@@ -9,6 +9,11 @@ readDir();
 for (let index = 0; index < html_files.length; index++) {
     const data = fs.readFileSync(html_files[index], { encoding: 'utf8', flag: 'r' });
     const html = HTMLParser.parse(data);
+    const clean_path = cleanPath(html_files[index]);
+
+    if (clean_path.substr(0, 7) === '/admin/') {
+        continue;
+    }
 
     var body = html.querySelector('body');
     if (body === null) {
@@ -49,16 +54,16 @@ for (let index = 0; index < html_files.length; index++) {
     }
 
     if (stats.h1 === false) {
-        console.info('no H1', cleanPath(html_files[index]));
+        console.info('no H1', clean_path);
     }
     if (stats.h1 === true && stats.h2 === false && stats.h3 === true) {
-        console.info('H1 and H3 but no H2', cleanPath(html_files[index]));
+        console.info('H1 and H3 but no H2', clean_path);
     }
     if (stats.h1 === true && stats.h2 === false && stats.h3 === false && stats.h4 === true) {
-        console.info('H1 and H4 but no H3 and H2', cleanPath(html_files[index]));
+        console.info('H1 and H4 but no H3 and H2', clean_path);
     }
     if (stats.h1 === true && stats.h2 === true && stats.h3 === false && stats.h4 === true) {
-        console.info('H1, H2 and H4 but no H3', cleanPath(html_files[index]));
+        console.info('H1, H2 and H4 but no H3', clean_path);
     }
 }
 
