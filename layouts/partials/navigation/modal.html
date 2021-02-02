@@ -5,7 +5,7 @@
 {{ $url := .Page.Permalink }}
 {{ $actual_language := .Site.Language.Lang }}
 
-<div class="absolute inset-0 w-full h-full bg-white bg-opacity-75 backdrop-blur-2" x-on:click="toggleModal()"
+<div class="absolute inset-0 w-full h-full bg-white bg-opacity-75 backdrop-blur-2" aria-hidden="true" x-on:click="toggleModal()"
     x-show="modal"
     x-transition:enter="transition transform ease-out duration-100"
     x-transition:enter-start="opacity-0"

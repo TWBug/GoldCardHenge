@@ -1,15 +1,15 @@
 ---
-title: Field of Science & Technology
 summary: Those with outstanding achievements in R&D, design or innovation,
   international awards, or national academy membership, in such cutting-edge
   technological fields as software applications, nanotechnology,
   optoelectronics, ICT, biotechnology, AI, and IoT.
 draft: false
-cover_image: ""
 media_image: ""
 media_image_alt: Test alt
 date: 2020-11-05T07:09:20.617Z
 topic: goldcard
+title: Field of Science & Technology
+cover_image: ""
 style: right
 tags: null
 icon: /cms-uploads/icon-science-technology.svg
@@ -69,9 +69,8 @@ Please provide:
 {{< /accordion >}}
 
 {{< accordion title="Academician at a national academy of sciences or scholar at an equivalent national level." suffix="5." bottomless="true" >}}
-
 Please provide: 
-*Domestic or foreign academician certificate or equivalent verifying document  [Note 5](#note-5)
+* Domestic or foreign academician certificate or equivalent verifying document  [Note 5](#note-5)
 
 {{< /accordion >}}
 
@@ -144,7 +143,7 @@ Please attach both of the following documents:
 - Proof of employment or resignation of the senior executive serving as a unit supervisor or any higher hierarchy in the startup company; or proof of employment of the core research & development personnel in the startup company.
 {{< /accordion >}}
 
-{{< accordion title="Those who have been a senior executive or core research & development personnel who has successfully led an overseas startup company to be merged or acquired by other company." suffix="12." bottomless="true" >}}
+{{< accordion title="Those who have been a senior executive of a venture capital firm or a fund, who has investment performance in an overseas startup company or a startup company that is supported by any of the Ministry of Science of Technology (MOST) programs." suffix="12." bottomless="true" >}}
 Please select either 12.1 or 12.2, and attach required for the selected item:
 
 - 12.1. Please attach either one or both of the following documents:

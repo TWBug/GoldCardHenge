@@ -64,8 +64,20 @@
   translation: '常見問題'
 - id: news
   translation: '最新消息'
+- id: source
+  translation: '資源'
+- id: job_listing_title
+  translation: '工作清單'
+- id: job_listing_description
+  translation: '金卡網站結合併向您展示了幾個台灣工作門戶網站上的工作機會，以舉例說明台灣需要哪些職業。'
+- id: job_listing_info
+  translation: '單擊鏈接將打開一個新窗口，其中包含外部網站上的工作詳細信息。'
 - id: news_category
   translation: '最新消息分類'
+- id: job_category
+  translation: '工作類別'
+- id: all_job_categories
+  translation: '所有職位類別'
 - id: to_accupass_event
   translation: '報名參加'
 - id: starts_at

@@ -131,9 +131,11 @@
                     {{ end }}
 
                 </div>
-                <div class="-mt-12">
-                    {{ partial "aside/all-categories" . }}
-                    {{ partial "aside/apply-now" . }}
+                <div class="print:hidden -mt-12">
+                    <aside>
+                        {{ partial "aside/all-categories" . }}
+                        {{ partial "aside/apply-now" . }}
+                    </aside>
                 </div>
             </div>
         </div>

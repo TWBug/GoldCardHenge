@@ -1,0 +1,72 @@
+{{ define "head" }}
+{{ partial "head/alpine" ( dict "spruce" "true" "cdn" .Site.Params.loadFromCDN ) }}
+<meta name="robots" content="noindex">
+{{ end }}
+
+{{ define "main" }}
+
+{{ $hero_image := resources.Get (printf "%s" ("img/uploads/taiwan-lights.jpg" | safeURL)) }}
+
+{{ $cover_image := "" }}
+{{ if .Params.cover_image }}
+{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ end }}
+
+<div class="relative shadow-xl">
+    {{ partial "navigation" . }}
+    {{ partial "alert" .  }}
+</div>
+
+<div class="relative flex items-center z-0 pt-16">
+    <div
+    class="absolute top-0 inset-x-0 h-full max-h-48 bg-white bg-gradient-to-b from-gradient to-white opacity-25 -z-1"
+    ></div>
+    {{ if .Site.IsServer }}
+    <div class="absolute right-0 top-0 bg-black text-xs font-bold text-white p-2">BADGES TERMS TEMPLATE</div>
+    {{ end }}
+    <div class="container px-12 lg:px-24">
+        <div class="sm:grid sm:grid-cols-3 gap-12 xxl:gap-24 items-center">
+            <div>
+                {{ if $cover_image }}
+                <img src="{{ $cover_image.RelPermalink }}" class="mx-auto w-full max-w-48" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
+                {{ end }}
+            </div>
+            <div class="replace sm:col-span-2 text-center sm:text-left mt-4 sm:mt-0">
+                <h1 class="text-5xl leading-tight font-semibold mb-2">
+                    {{ .Title }}
+                </h1>
+                <p class="text-xl font-medium leading-relaxed">{{ .Summary }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="relative flex-grow">
+    <section id="scroll">
+        <div class="container py-12 sm:pb-24 sm:pt-12 px-12 lg:px-24">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
+                <div class="lg:col-span-2 pt-10">
+                    <div class="-ml-2">
+
+                        {{ range .Pages }}
+                        <a href="{{ .RelPermalink }}" class="inline-flex items-center text-primary text-base border-2 rounded-md px-4 py-2 m-2 focus-primary">
+                            {{ partial "icon" (dict "name" "tag" "size" "4") }}
+                            <span class="font-bold uppercase ml-2"> {{ .Title | humanize }} </span>
+                        </a>
+                        {{ end }}
+                    </div>
+
+                    {{ if .Content }}
+                    <div class="copy mt-12">{{ .Content }}</div>
+                    {{ end }}
+
+                </div>
+                <div class="-mt-12">
+                    {{ partial "aside/latest-news" . }}
+                    {{ partial "aside/apply-now" . }}
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{{end}}

@@ -43,12 +43,9 @@
         {{ if lt .Weight 10 }}
         {{ $url := print "/" .Lang (substr $.RelPermalink 3) }}
         {{ if eq $.Site.Language.Lang .Lang }}
-        <a
-            href="{{ $url }}"
-            class="block bg-nav-dark font-bold p-3 focus:bg-white focus:text-black"
-            @click.prevent="switchLanguage('{{ .Lang }}')"
-            title="{{ i18n "change_language_to" }}{{ .LanguageName }}"
-        >
+        <div class="block bg-nav-dark font-bold p-3">
+            {{ .LanguageName }}
+        </div>
         {{ else }}
         <a
             href="{{ $url }}"
@@ -56,9 +53,9 @@
             @click.prevent="switchLanguage('{{ .Lang }}')"
             title="{{ i18n "change_language_to" }}{{ .LanguageName }}"
         >
-        {{ end }}
             {{ .LanguageName }}
         </a>
+        {{ end }}
         {{ end }}
         {{ end }}
     </div>

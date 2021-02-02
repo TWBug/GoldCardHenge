@@ -23,7 +23,7 @@
                 {{ . }}
             </div>
             <div class="flex-shrink-0 flex-center">
-                <button type="button" class="text-white" @click.prevent="hide()" aria-label="{{ i18n "close" }}" aria-controls="taiwan-gold-card-alert">
+                <button type="button" class="text-white p-1 focus-white" @click.prevent="hide()" aria-label="{{ i18n "close" }}" aria-controls="taiwan-gold-card-alert">
                     <span aria-hidden="true" class="hidden">{{ i18n "close" }}</span>
                     {{ partial "icon" (dict "name" "times" "size" "8" "alt" (i18n "close")) }}
                 </button>

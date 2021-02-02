@@ -1,0 +1,22 @@
+<div class="my-12">
+    <div class="flex items-center border-b-2 border-secondary border-dashed px-2 pb-2">
+        {{ partial "icon" (dict "name" "tags" "size" "5") }}
+        <h2 class="text-xl font-bold ml-2">{{ i18n "all_job_categories" }}</h2>
+    </div>
+    <ul class="block pt-6 pl-2">
+        {{ range .Site.Taxonomies.badges }}
+        <li class="inline-block bg-primary rounded-lg text-white text-sm mr-2 mb-2">
+            <a href="{{ .Page.Permalink }}" class="flex items-center px-3 py-1 focus-primary">
+              {{ partial "icon" (dict "name" "tag" "size" "3") }}
+              <span class="font-bold uppercase ml-2">
+                {{ if i18n (.Page.Title | anchorize) }}
+                {{ i18n (.Page.Title | anchorize) }} ({{ .Count }})
+                {{ else }}
+                {{ .Page.Title }} ({{ .Count }})
+                {{ end }}
+              </span>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>

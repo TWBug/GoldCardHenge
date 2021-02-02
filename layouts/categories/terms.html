@@ -1,3 +1,8 @@
+{{ define "head" }}
+{{ partial "head/alpine" ( dict "spruce" "true" "cdn" .Site.Params.loadFromCDN ) }}
+<meta name="robots" content="noindex">
+{{ end }}
+
 {{ define "main" }}
 
 {{ $hero_image := resources.Get (printf "%s" ("img/uploads/taiwan-lights.jpg" | safeURL)) }}
@@ -44,7 +49,7 @@
                     <div class="-ml-2">
 
                         {{ range .Pages }}
-                        <a href="{{ .RelPermalink }}" class="inline-flex items-center text-primary text-base border-2 rounded-md px-4 py-2 m-2">
+                        <a href="{{ .RelPermalink }}" class="inline-flex items-center text-primary text-base border-2 rounded-md px-4 py-2 m-2 focus-primary">
                             {{ partial "icon" (dict "name" "tag" "size" "4") }}
                             <span class="font-bold uppercase ml-2"> {{ .Title | humanize }} </span>
                         </a>

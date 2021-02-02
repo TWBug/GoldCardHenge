@@ -1,0 +1,16 @@
+<div class="my-12">
+    <div class="flex items-center border-b-2 border-gray-600 border-dashed px-2 pb-2">
+        {{ partial "icon" (dict "name" "users" "size" "5") }}
+        <h2 class="text-xl font-bold ml-2">
+            {{ i18n "job_listing_title" }}
+        </h2>
+    </div>
+    <div class="pt-6 pl-2">
+        <p class="text-md font-regular leading-normal pb-2">
+            {{ i18n "job_listing_description" }}
+        </p>
+        <p class="text-md font-regular leading-normal">
+            {{ i18n "job_listing_info" }}
+        </p>
+    </div>
+</div>

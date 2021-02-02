@@ -1,0 +1,112 @@
+{{ define "main" }}
+
+{{ $jobs := .Site.GetPage "/jobs" }}
+{{ $cover_image := "" }}
+{{ if $jobs.Params.cover_image }}
+{{ $cover_image = resources.Get $jobs.Params.cover_image }}
+{{ end }}
+
+<div class="relative shadow-xl">
+    {{ partial "navigation" . }}
+    {{ partial "alert" .  }}
+</div>
+
+<div class="relative flex items-center bg-background-light z-0 shadow-xl py-16">
+    <div
+    class="absolute top-0 inset-x-0 h-full bg-gradient-to-b from-gradient to-transparent opacity-25 -z-1"
+    ></div>
+    {{ if .Site.IsServer }}
+    <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">BADGES TAXONOMY TEMPLATE</div>
+    {{ end }}
+    <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
+        <img src="/img/list-mountains-light.svg" alt="" class="block w-full" aria-hidden="true">
+    </div>
+    <div class="container px-12 lg:px-24">
+        <div class="flex flex-col md:flex-row justify-between md:items-center lg:px-24">
+            {{ if $cover_image }}
+            <div class="flex-center w-1/3 md:w-1/4 mb-6">
+                <img src="{{ $cover_image.RelPermalink }}" class="w-full max-h-48 drop-shadow-white" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
+            </div>
+            {{ end }}
+            <div class="replace w-full md:w-2/3">
+                <nav aria-label="breadcrumb">
+                    <div class="text-xs font-semibold mb-4">
+                        <ol class="flex items-center font-bold">
+                            <li class="pr-2">
+                                <a href="{{ .Site.Home.RelPermalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">
+                                    {{ partial "icon" (dict "name" "home" "size" "4") }}
+                                    <span class="ml-2">
+                                        {{ .Site.Home.Title }}
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="border-l-2 border-gray-500 border-dashed px-2">
+                                <a href="{{ $jobs.RelPermalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">{{ $jobs.Title }}</a>
+                            </li>
+                            <li class="border-l-2 border-gray-500 border-dashed px-2">
+                                <span class="flex items-center bg-white rounded px-2 py-1">
+                                    {{ if i18n (.Title | anchorize) }}
+                                    {{ i18n (.Title | anchorize) }}
+                                    {{ else }}
+                                    {{ .Title | humanize }}
+                                    {{ end }}
+                                </span>
+                            </li>
+                        </ol>
+                    </div>
+                </nav>
+                <h1 class="text-5xl leading-tight font-semibold my-2">
+                    {{ i18n "job_category" }}:
+                    {{ if i18n (.Title | anchorize) }}
+                    {{ i18n (.Title | anchorize) }}
+                    {{ else }}
+                    {{ .Title | humanize }}
+                    {{ end }}
+                </h1>
+                <p class="text-lg font-medium leading-relaxed">{{ $jobs.Summary }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="scroll" class="relative flex-grow pt-12">
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-white -z-1"
+    ></div>
+    <section>
+        <div class="container pb-12 sm:pb-24 px-12 lg:px-24">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
+                <div class="lg:col-span-2 flex flex-col">
+                    {{ $paginator := .Paginate .Pages.ByDate.Reverse }}
+                    {{ range $paginator.Pages }}
+                    <section>
+                        {{ partial "job-single" . }}
+                    </section>
+                    {{ end }}
+
+
+                    {{ if ne (len $paginator.Pages) $paginator.NumberOfElements }}
+                    <div class="border-t-2 border-secondary border-dashed mt-8 px-4">
+                        {{ partial "pagination" . }}
+                    </div>
+                    {{ end }}
+
+                    {{ if .Content }}
+                    {{ if eq $paginator.PageNumber 1 }}
+                    <div class="copy mt-12">{{ .Content }}</div>
+                    {{ end }}
+                    {{ end }}
+
+                </div>
+                <div class="print:hidden -mt-12">
+                    <aside>
+                        {{ partial "aside/job-listings" . }}
+                        {{ partial "aside/all-badges" . }}
+                        {{ partial "aside/apply-now" . }}
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{{end}}

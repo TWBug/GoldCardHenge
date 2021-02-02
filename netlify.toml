@@ -3,20 +3,21 @@
 [build]
 command = "npm run build:finder && npm run build:staging"
 publish = "public"
+timeout = 80000
 
 [build.environment]
 HUGO_VERSION = "0.79.1"
 
 [context.production.environment]
-HUGO_ENABLEGITINFO = "true"
+# HUGO_ENABLEGITINFO = "true"
 HUGO_ENV = "staging"
 TZ = "Asia/Taipei"
 
-[context.split1]
-command = "hugo --gc --minify --enableGitInfo"
+# [context.split1]
+# command = "hugo --gc --minify --enableGitInfo"
 
-[context.split1.environment]
-HUGO_ENV = "production"
+# [context.split1.environment]
+# HUGO_ENV = "production"
 
 [context.deploy-preview]
 command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
@@ -24,8 +25,8 @@ command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 [context.branch-deploy]
 command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
-[context.next.environment]
-HUGO_ENABLEGITINFO = "true"
+# [context.next.environment]
+# HUGO_ENABLEGITINFO = "true"
 
 ##
 # 404 redirects by lang

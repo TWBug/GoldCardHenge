@@ -1,0 +1,95 @@
+<div
+    class="relative flex flex-col sm:flex-row border border-gray-200 rounded-xl bg-gradient-to-b from-white to-gray-100 shadow-lg my-8" data-id="{{ .Params.data_source_internal_id }}"
+>
+    <div class="absolute right-0 top-0 -mt-6 pr-2">
+        <span class="font-semibold text-xs text-gray-500">{{ i18n "source" }} {{ .Params.data_source_name }}</span>
+    </div>
+    <div class="flex-shrink-0 w-full sm:w-48 lg:w-32">
+        {{ if .Params.company_logo_url }}
+        <div class="border-r border-b border-gray-200 w-full p-4">
+            {{ if .Params.company_page_url }}
+            <a href="{{ .Params.company_page_url }}" target="_blank" class="block focus-primary">
+                <img src="{{ .Params.company_logo_url }}" alt="{{ .Params.company_name }}" class="block max-w-full">
+            </a>
+            {{ else }}
+            <img src="{{ .Params.company_logo_url }}" alt="{{ .Params.company_name }}" class="block max-w-full">
+            {{ end }}
+        </div>
+        {{ end }}
+        <ul class="w-full leading-tight pt-4 pl-4 sm:pl-2 sm:pb-4">
+            {{range $index, $value := .Params.badges }}
+                {{ if lt $index 8 }}
+                    {{ $tag := . }}
+                    <li class="inline-block text-primary text-xxs p-1 mx-1">
+                        <a href="/{{ $.Site.Language }}/badges/{{ . | anchorize }}" class="inline-flex items-center focus-primary" {{ if gt (len $tag) 20 }} title="{{ $tag | humanize }}" {{ end }}>
+                            {{ partial "icon" (dict "name" "tag" "size" "2") }}
+                            <span class="font-bold uppercase max-w-32 sm:max-w-24 whitespace-nowrap truncate ml-2">
+                                {{ $tag }}
+                            </span>
+                        </a>
+                    </li>
+                {{ end }}
+            {{ end }}
+        </ul>
+    </div>
+    <div class="flex-grow p-6">
+        {{ if .Params.company_name }}
+        <div class="text-sm font-semibold text-gray-600 mb-1">
+            {{ .Params.company_name }}
+        </div>
+        {{ end }}
+        <h2 class="block text-xl font-bold text-primary mb-2">
+            <a href="{{ .Params.job_url }}" target="_blank" class="inline-block focus-primary" >
+                {{ trim .Title " " }}
+            </a>
+        </h2>
+        <div class="text-base font-medium">
+            {{ .Content | truncate 180 }}
+        </div>
+        {{ if .Params.salary_text }}
+        <div class="flex items-center text-base font-bold text-water-600 border-b-2 border-t-2 border-gray-300 border-dashed py-4 my-4 -ml-2 pl-2">
+            <div class="flex-center w-5 mr-2">
+                {{ partial "icon" (dict "name" "dollar-sign" "size" "6") }}
+            </div>
+            {{ .Params.salary_text }}
+        </div>
+        {{ end }}
+        {{ if .Params.types }}
+        <div class="flex items-center text-xs font-bold text-water-600 my-4">
+            <div class="flex-center w-5 mr-2">
+                {{ partial "icon" (dict "name" "info-circle" "size" "4") }}
+            </div>
+            {{ range .Params.types }}
+            <span class="mr-2">
+                {{ . }}
+            </span>
+            {{ end }}
+        </div>
+        {{ end }}
+        {{ if .Params.location_list }}
+        <div class="flex items-center text-xs font-bold text-water-600 my-4">
+            <div class="flex-center w-5 mr-2">
+                {{ partial "icon" (dict "name" "map-marked-alt" "size" "4") }}
+            </div>
+            {{ .Params.location_list }}
+        </div>
+        {{ end }}
+        {{ if ge (len .Params.badges) 8 }}
+            <ul class="flex flex-wrap items-center border-t-2 border-gray-300 border-dashed pt-2 my-4 -ml-1">
+            {{range $index, $value := .Params.badges }}
+                {{ if ge $index 8 }}
+                    {{ $tag := . }}
+                    <li class="inline-block text-primary text-xxs p-1 mr-2">
+                        <a href="/{{ $.Site.Language }}/badges/{{ . | anchorize }}" class="inline-flex items-center focus-primary" {{ if gt (len $tag) 20 }} title="{{ $tag | humanize }}" {{ end }}>
+                            {{ partial "icon" (dict "name" "tag" "size" "2") }}
+                            <span class="font-bold uppercase max-w-32 sm:max-w-24 whitespace-nowrap truncate ml-2">
+                                {{ $tag }}
+                            </span>
+                        </a>
+                    </li>
+                {{ end }}
+            {{ end }}
+            </ul>
+        {{ end }}
+    </div>
+</div>

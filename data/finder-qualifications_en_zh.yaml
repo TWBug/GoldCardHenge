@@ -1,3 +1,830 @@
+zh:
+  items:
+    - ministry: MOST
+      regulation_no: 1
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
+      info: 科技部不予許申請人單純以薪水作為基礎，須提供相關文件證明在科技領域服務。
+      provide: >-
+        * 從事科技產業或領域相關工作之薪資證明或繳稅證明文件
+
+          * 請提供納稅證明或薪資單，證明平均月薪超過160,000萬（如：澳洲PAYG payment summary、加拿大T4、以色列106表格、俄羅斯2-NDFL、波蘭PIT-11、英國P60、美國W- 2）
+          * 未來擬於我國受聘僱之聘僱契約書
+        * 從事科技產業或領域相關工作之國內外服務證明
+
+        * 個人履歷
+      notes: ""
+      weight: 20
+    - ministry: MOST
+      regulation_no: 2
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
+      info: ""
+      provide: |-
+        請先就 2.1 或 2.2 擇一，再就所選項目檢附全部文件：
+
+        2.1. 請全部檢附：
+
+        * 國內外學歷證書
+        * 具 3 年以上相關領域工作經驗之國內外服務證明
+        * 近 3 年之學術研究相關資料
+
+        2.2. 請全部檢附：
+
+        * 具 3 年以上相關領域工作經驗之國內外服務證明
+        * 技術證明(如國內外專利證書等)、技術移轉證明(如技術移轉合約書等)或其他專業證明(如學術著作、證照、獲獎證明等)
+      notes: ""
+      weight: 30
+    - ministry: MOST
+      regulation_no: 3
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
+      info: ""
+      provide: |-
+        請先就 3.1 或 3.2 擇一，再就所選項目檢附全部文件：
+
+        3.1. 請全部檢附：
+
+        * 國內外學歷證書
+        * 具 3 年以上相關領域工作經驗之國內外服務證明
+        * 近 3 年之學術研究相關資料
+
+        3.2. 請全部檢附：
+
+        * 具 3 年以上相關領域工作經驗之國內外服務證明
+        * 技術證明(如國內外專利證書等)、技術移轉證明(如技術移轉合約書等)或其他專業證明(如學術著作、證照、獲獎證明等)
+      notes: ""
+      weight: 30
+    - ministry: MOST
+      regulation_no: 4
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
+      info: ""
+      provide: |-
+        請提供
+
+        * 具國際性之國內外重要獎項獲獎證明文件。
+      notes: ""
+      weight: 90
+    - ministry: MOST
+      regulation_no: 5
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
+      info: ""
+      provide: |-
+        請提供
+
+        * 國內外院士證書或相當之證明文件
+      notes: ""
+      weight: 70
+    - ministry: MOST
+      regulation_no: 6
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
+      info: ""
+      provide: |-
+        請先就 6.1 或 6.2 擇一，再就所選項目檢附全部文件：
+
+        6.1. 請全部檢附：
+
+        * 具博士學位之國內外學歷證書
+        * 具 3 年以上相關領域工作經驗之國內外服務證明
+        * 近3年之學術研究相關資料
+
+        6.2. 請全部檢附：
+
+        * 具 3 年以上相關領域工作經驗之國內外服務證明
+        * 技術證明(如國內外專利證書等)、技術移轉證明(如技術移轉合約書等)或其他專業證明(如學術著作、證照、獲獎證明等)
+      notes: >-
+        Please prepare:
+
+        ☑ formal proof of employment, showing more than three years at a technology company or university
+
+        and the documents from either Academic or Professional streams below.
+
+
+        Academic Stream
+
+        ☑ a copy of your PhD degree
+
+        ☑ journal articles, conference papers, peer-reviewed books or chapters, or other specialized work such as software tools that are widely cited. Documents must be published within the past 3 years.
+
+
+        Professional Stream
+
+        ☑ copies of patent certificates, technology licensing contracts or other proof of technical skill
+
+        ☑ copies of major domestic or international awards you have received.
+      weight: 30
+    - ministry: MOST
+      regulation_no: 7
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
+      info: ""
+      provide: |-
+        請先就 7.1 或 7.2 擇一，再就所選項目檢附全部文件：
+
+        7.1. 請全部檢附：
+
+        * 具博士學位之國內外學歷證書
+        * 具 4 年以上相關領域工作經驗之國內外服務證明
+        * 近4年之學術研究相關資料
+
+        7.2. 請全部檢附：
+
+        * 具博士學位之國內外學歷證書
+        * 具 4 年以上相關領域工作經驗之國內外服務證明
+        * 技術證明(如國內外專利證書等)、技術移轉證明(如技術移轉合約書等)或其他專業證明(如學術著作、證照、獲獎證明等)
+      notes: ""
+      weight: 30
+    - ministry: MOST
+      regulation_no: 8
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
+      info: ""
+      provide: |-
+        請先就 8.1 或 8.2 擇一，再就所選項目檢附全部文件：
+
+        8.1. 請全部檢附：
+
+        * 國內外學歷證書
+        * 具 3 年以上相關領域工作經驗之國內外服務證明
+        * 近3年之學術研究相關資料
+
+        8.2. 請全部檢附：
+
+        * 具 3 年以上相關領域工作經驗之國內外服務證明
+        * 技術證明(如國內外專利證書等)、技術移轉證明(如技術移轉合約書等)或其他專業證明(如學術著作、證照、獲獎證明等)
+      notes: ""
+      weight: 10
+    - ministry: MOST
+      regulation_no: 9
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
+      info: ""
+      provide: |-
+        請全部檢附
+
+        * 具博士學位之國內外學歷證書
+        * 具 3 年以上相關領域工作經驗之國內外服務證明
+        * 技術證明(如國內外專利證書等)、技術移轉證明(如技術移轉合約書等)或其他專業證明(如學術著作、證照、獲獎證明等)
+      notes: >-
+        Please prepare:
+
+        ☑ information about why expertise you can provide is currently lacking in Taiwan
+
+        ☑ a copy of your PhD degree
+
+        ☑ formal proof of employment, showing more than three years at a technology company or university
+
+        ☑ journal articles, conference papers, peer-reviewed books or chapters, or other specialized work such as software tools that are widely cited. Documents must be published within the past 3 years
+
+        ☑ copies of patent certificates, technology licensing contracts or other proof of technical skill
+
+        ☑ copies of major domestic or international awards you have received
+      weight: 30
+    - ministry: MOEA
+      regulation_no: 1
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-economy/
+      notes: >-
+        Please prepare either:
+
+        ☑  a tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
+
+        or
+
+        ☑ a copy of your upcoming employment contract for a job in Taiwan, showing monthly salary above 160,000NT
+      weight: 60
+    - ministry: MOEA
+      regulation_no: 2
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-economy/
+      info: ""
+      provide: ""
+      notes: >-
+        Please prepare:
+
+        ☑ formal documentation to prove your past or current employer's status in Taiwan as its headquarters, an R&D center or a branch of a multi-national company
+
+        ☑ proof of your position as an executive, such as job contract or evidence of your managerial position of the operations, technology or marketing departments of the company.
+
+
+        ⚠ A multi-national company is defined as having a branch in two or more countries which has at least $USD2 billion in assets globally, or has net income of at least NT$1 billion in Taiwan or NT$1.5 billion in the region,  or employs more than 100 staff in Taiwan (50 must have college degrees) or is otherwise certified by the Ministry of Economic Affairs.
+      weight: 50
+    - ministry: MOEA
+      regulation_no: 3
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-economy/
+      notes: >-
+        Please prepare:
+
+        ☑ A cover letter explaining the key industry you are skilled in, why it's important to Taiwan and why you are considered skilled
+
+        ☑ documents to prove your technical capabilities such as patent filings, licensing contracts or academic work (journal articles, conference papers, peer-reviewed books or chapters, or other specialized work such as software tools that are widely cited)
+
+        ☑ a copy of your PhD degree
+
+
+        and at least one of:
+
+        ☑ formal proof of employment, showing more than four years in your field
+
+        ☑ copies of the major international awards you have received.
+      weight: 35
+    - ministry: MOEA
+      regulation_no: 4
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-economy/
+      info: ""
+      provide: ""
+      notes: >-
+        Please prepare:
+
+        ☑ formal proof of employment, showing at least eight years of experience in the relevant field
+
+
+        and if necessary, 
+
+        ☑ a cover letter explaining which of the following fields you hold a specialised position in: manufacturing, semiconductors, optoelectronics, information and communication, electrical and electronic design, biomedical material, precision machinery, transportation, systems integration, consultancy, and green energy,
+      weight: 30
+    - ministry: MOEA
+      regulation_no: 5
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-economy/
+      info: ""
+      provide: ""
+      notes: >-
+        ⚠ Consider contacting the Ministry of Economic Affairs Gold Card contact
+        for advice before applying under this regulation.
+
+
+        Please prepare:
+
+        ☑ A cover letter explaining your specialized and international experience and why it is needed in Taiwan
+
+        ☑ Supporting documents proving your outstanding and unique skills
+      weight: 10
+    - ministry: MOC
+      regulation_no: I1
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: ""
+      notes: >-
+        Please prepare:
+
+        ☑ proof your current/past employer was an international arts organisation, government agency or private organisation related to culture and the arts. Examples to compare with include American Theatre Wing, OISTAT, The Broadway League.
+
+        ☑ proof you were a key member. Examples titles: manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director general, responsible person, deputy general director, general director, other similar position
+      weight: 30
+    - ministry: MOC
+      regulation_no: I2
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: ""
+      notes: >-
+        Please prepare:
+
+        ☑ proof your event is considered international or major level. Examples to compare with include Edinburgh International Festival, Festival d’Avignon, and BAM Next Wave Festival
+
+        ☑ proof you were a key member. Examples titles: manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director general, responsible person, deputy general director, general director, other similar position
+      weight: 30
+    - ministry: MOC
+      regulation_no: I3
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: ""
+      notes: >-
+        For Performing Arts. Example awards include: Tony Award(US),  National
+        Dance Award(UK), and International Tchaikovsky Competition award(RU)
+
+
+        Please prepare either:
+
+        ☑ a copy of your award, or
+
+        ☑ proof you were on the  judging panel for said award.
+      weight: 40
+    - ministry: MOC
+      regulation_no: I4
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: ""
+      notes: >-
+        ⚠ Contact the Ministry of Culture Gold Card contact for advice before
+        applying under this regulation.
+
+
+        For performing arts. Please prepare:
+
+        ☑ Proof of accomplishments in performing arts
+      weight: 15
+    - ministry: MOC
+      regulation_no: II1
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: >-
+        - proof your current/past employer was an international arts
+        organisation, government agency or private organisation related to
+        culture and the arts. Examples to compare with include the National
+        Endowment for the Arts, European Fine Art Fair, Affordable Art Fair, MCH
+        Swiss Exhibition (Basel) Ltd., and the Association of International
+        Photography Art Dealers.
+
+        - proof you were a key member. Examples titles: manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director general, responsible person, deputy general director, general director, or other similar position
+      notes: ""
+      weight: 30
+    - ministry: MOC
+      regulation_no: II2
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: "- proof your event is considered international or major level.
+        Examples to compare with include Art Taipei; Art Basel Hong Kong; Art
+        Stage Singapore; Art Basel Miami Beach; Art Basel, La Biennale di
+        Venezia; Berlin Biennale for Contemporary Art;  European Biennial of
+        Contemporary Art; Shanghai Biennial; Biennale of Sydney; Sao Paulo Art
+        Biennial; Whitney Biennial; Costa Rica Biennale; Gwangju Biennale;
+        International Istanbul Biennial;☑ proof you were a key member. Examples
+        titles: manager, assistant manager, assistant general manager, general
+        manager, deputy CEO, CEO, deputy executive director, executive director,
+        deputy publisher, publisher, vice president, president, deputy
+        director-general, director general, responsible person, deputy general
+        director, general director, other similar position"
+      notes: ""
+      weight: 30
+    - ministry: MOC
+      regulation_no: II3
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: ""
+      notes: >-
+        For Visual Arts. Example awards include: New York Art Directors Club
+        Annual Awards, Bologna Children’s Book Fair: Illustrator’s Award
+
+
+        Please prepare either:
+
+        ☑ a copy of your award, or
+
+        ☑ proof you were on the  judging panel for said award.
+      weight: 40
+    - ministry: MOC
+      regulation_no: II4
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: For visual arts. Contact the Ministry of Culture Gold Card contact for
+        advice before applying under this regulation.
+      provide: "- Proof of accomplishments in visual arts"
+      notes: ""
+      weight: 15
+    - ministry: MOC
+      regulation_no: III1
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: >-
+        - proof of employment, showing more than 10 years in publishing or media
+
+        - proof you have served at a major international media or a major publishing house a chief editor, senior executive, certified copywriter agent, manager, assistant general manager, deputy general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, deputy director-general, director-general, vice president, president, responsible person, chief editor, deputy managing editor, managing editor, deputy general director, general director, or other similar position. Examples of 'international media': US News and World Report, The New York Times, The Washington Post, The Financial Times, Associated Press, Reuters, L’ Agence France-Press, Time, Life, National Geographic. Yazhou Zhoukan (Hong Kong),Example major publishing house: Penguin Random House, HarperCollins Publishers LLC,
+      notes: ""
+      weight: 30
+    - ministry: MOC
+      regulation_no: III2
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: "- formal proof of employment as a professor of publishing, mass
+        communication or related discipline at a university outside of Taiwan"
+      notes: ""
+      weight: 40
+    - ministry: MOC
+      regulation_no: III3
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: |-
+        - a copy of your PhD in publishing-related disciplines
+        - a copy of your internationally-recognised academic prize
+      notes: ""
+      weight: 35
+    - ministry: MOC
+      regulation_no: III4
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: ""
+      notes: >-
+        For Publishing. Example awards include: Nobel Prize; Pulitzer Prize; Man
+        Booker Prize; Prix Goncourt;  National Magazine Awards; Premio Miguel de
+        Cervantes; Premio Planeta de Novela; Naoki Prize; Akutagawa Prize
+
+
+        Please prepare either:
+
+        ☑ a copy of your award, or
+
+        ☑ proof you were on the  judging panel for said award.
+      weight: 40
+    - ministry: MOC
+      regulation_no: III5
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: >-
+        - proof your event is considered a major international publishing event
+
+        - proof you have curated the event or were a key member. Examples titles: manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director-general, responsible person, deputy general director, general director, or other similar position
+      notes: ""
+      weight: 30
+    - ministry: MOC
+      regulation_no: III6
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      notes: ""
+      weight: 15
+      info: For publishing and media. Contact the Ministry of Culture Gold Card
+        contact for advice before applying under this regulation.
+      provide: "- Proof of accomplishments in publishing and media"
+    - ministry: MOC
+      regulation_no: IV1
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: ""
+      notes: >-
+        For Film, Broadcast and Pop Music. Example awards include: the Golden
+        Horse Awards, Golden Harvest Awards for Outstanding Short Films, Taipei
+        Film Festival, Kaohsiung Film Festival, Taiwan International Documentary
+        Festival, Emmy Awards, BAFTA, Seoul International Drama Awards, Golden
+        Globe Awards, Golden Bell Awards, New York Festivals International
+        Television & Film Awards, British Academy Television Awards, Grammy
+        Awards, BRIT Awards, American Music Awards, MTV Europe Music Awards,
+        Golden Melody Awards, NRJ Music Awards, Billboard Music Awards, Golden
+        Indie Music Awards, Japan Record Awards, Juno Awards, Mercury Prize,
+        Golden Disc Awards
+
+
+        Please prepare either:
+
+        ☑ a copy of your award, or
+
+        ☑ proof you were on the judging panel for said award.
+      weight: 40
+    - ministry: MOC
+      regulation_no: IV2
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: >-
+        - Proof of employment, showing at least five years experience in film,
+        broadcast or pop music
+
+        - Proof you hold or have held a position as a top executive (CEO, general manager, assistant manager, director-general, department head or similar) at a medium-sized or larger film, broadcast, or pop music organisation. The organisation must be engaged in transnational production, and either a) have more than 50 employees or b) have regional annual net revenue greater than NT$350 million
+      notes: ""
+      weight: 50
+    - ministry: MOC
+      regulation_no: IV3
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: ""
+      notes: >-
+        Please prepare:
+
+        ☑ formal proof of employment, showing at least five years of work experience in film, broadcast or pop music
+
+        and at least one of:
+
+        ☑ proof of special contributions to film, broadcast or pop music (eg copy of professional certificate, professional training certificate, copyright, thesis, patent or other certification of innovation or outstanding performance), or
+
+        ☑ letter of recommendation from official organisations such as the United Nations, government agencies in your home country or foreign representative offices in Taiwan
+      weight: 30
+    - ministry: MOC
+      regulation_no: IV4
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: For film, broadcast and pop music. Contact the Ministry of Culture Gold
+        Card contact for advice before applying under this regulation
+      provide: "- Proof of accomplishments in film, broadcast or pop music"
+      notes: >-
+        ⚠ Contact the Ministry of Culture Gold Card contact for advice before
+        applying under this regulation.
+
+
+        For film, broadcast and pop music. Please prepare:
+
+        ☑ Proof of accomplishments in film, broadcast or pop music
+      weight: 15
+    - ministry: MOC
+      regulation_no: V1
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: ""
+      notes: >-
+        For Handicraft. Example awards include: Talente Munich; ITAMI
+        International Craft Exhibition; International Ceramics Competition Mino,
+        Japan; Faenza Prize; Cheongju International Craft Biennale;
+
+
+        Please prepare either:
+
+        ☑ a copy of your award, or
+
+        ☑ proof you were on the judging panel for said award.
+      weight: 40
+    - ministry: MOC
+      regulation_no: V2
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: "- proof of recognition from a nationally or internationally recognised
+        organisation such as The World Crafts Council, UNESCO, or equivalent"
+      notes: ""
+      weight: 40
+    - ministry: MOC
+      regulation_no: V3
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: For handicraft. Contact the Ministry of Culture Gold Card contact for
+        advice before applying under this regulation
+      provide: "- Proof of accomplishments in handicraft"
+      notes: ""
+      weight: 15
+    - ministry: MOC
+      regulation_no: VI1
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: >-
+        - proof your current/past employer was a government department or
+        institution established by law
+
+        -  a letter of recommendation from your institution
+
+        - proof you were serving in a significant position, such as an expert or a researcher
+      notes: ""
+      weight: 30
+    - ministry: MOC
+      regulation_no: VI2
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: ""
+      provide: >-
+        - proof that you have served in the arts/cultural section of an
+        international arts NGO
+
+        - letters of recommendation from the NGO. A list of example arts NGOs can be found on the UNESCO website.
+      notes: ""
+      weight: 30
+    - ministry: MOC
+      regulation_no: VI3
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      info: For cultural administration. Contact the Ministry of Culture Gold Card
+        contact for advice before applying under this regulation
+      provide: "- Proof of accomplishments in cultural administration"
+      notes: ""
+      weight: 15
+    - ministry: MOS
+      regulation_no: 1
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-sport/
+      info: ""
+      prepare:
+        - that you are a national team athlete
+        - that you possess outstanding skills that will raise the
+          competitiveness of Taiwan
+        - "of your: top 3 finish at the Olympics, 1st place in the Asian Games,
+          and/or 1st place in a world championship"
+      notes: >-
+        Please prepare proof:
+
+        ☑ that you are a national team athlete
+
+        ☑ that you possess outstanding skills that will raise the competitiveness of Taiwan
+
+        ☑ of your: top 3 finish at the Olympics, 1st place in the Asian Games, and/or 1st place in a world championship
+      weight: 90
+    - ministry: MOS
+      regulation_no: 2
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-sport/
+      info: ""
+      provide: ""
+      notes: >-
+        Please prepare proof:
+
+        ☑ that you have served as a national team coach
+
+        ☑ that your athletes achieved excellent results and you will help raise the competitiveness of Taiwan
+
+        ☑ of your athlete's accomplishments: top 3 finish at the Olympics, 1st place in the Asian Games, and/or 1st place in a world championship
+      weight: 90
+    - ministry: MOS
+      regulation_no: 3
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-sport/
+      info: ""
+      provide: ""
+      notes: |-
+        Please prepare proof:
+        ☑ that you have served as a referee at an Olympic Games or Asian Games
+        ☑ that you will help to raise the level of competitiveness in Taiwan
+      weight: 90
+    - ministry: MOF
+      regulation_no: 1
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-finance/
+      info: ""
+      provide: >-
+        - a tax statement and/or salary statements from your employer to prove
+        your salary was above 160,000NT (eg Australia PAYG payment summary,
+        Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US
+        W-2)
+
+        - evidence that your salary was earned in the financial industry
+      notes: ""
+      weight: 40
+    - ministry: MOF
+      regulation_no: 2
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-finance/
+      info: ""
+      provide: >-
+        - a copy of your CFA,CFP, FRM, CIIA, CIA, PRM, FSA, FCAS, FIA, FIAA or
+        SEI-KAIIN
+
+        - proof you have held a managerial position for more than three years
+
+        - proof that you have outstanding talent in your area of expertise
+      notes: ""
+      weight: 50
+    - ministry: MOF
+      regulation_no: 3
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-finance/
+      info: ""
+      provide: >-
+        - a letter of recommendation from the FSC
+
+        - a letter of recommendation from a banking, securities, insurance or finance association in Taiwan
+      notes: ""
+      weight: 50
+    - ministry: MOF
+      regulation_no: 4
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-finance/
+      info: ""
+      provide: "- proof of employment, showing more than 5 years in a managerial
+        position in a financial institution"
+      notes: ""
+      weight: 50
+    - ministry: MOF
+      regulation_no: 5
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-finance/
+      info: ""
+      provide: >-
+        - proof of employment, showing at least 3 years in a financial position
+        in FinTech, E-Commerce, Digital Economy, Technology Management, Green
+        Energy or other innovative field
+
+        - A statement describing concrete achievements beneficial to the development of the field
+      notes: ""
+      weight: 20
+    - ministry: MOF
+      regulation_no: 6
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-finance/
+      info: Contact the FSC Gold Card contact for advice before applying under this
+        regulation.
+      provide: "- a series of documents that show your potential to contribute to
+        Taiwan's financial industry."
+      notes: ""
+      weight: 10
+    - ministry: MOJ
+      regulation_no: 1
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-law/
+      notes: >-
+        Please prepare:
+
+        ☑ a tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2,)
+
+        -and-
+
+        ☑ a copy of your ROC foreign legal affairs attorney license
+
+        -or
+
+        ☑ a copy of your ROC attorney license
+      weight: 90
+    - ministry: MOA
+      regulation_no: 1
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-architecture/
+      info: ""
+      provide: ""
+      notes: >-
+        Please prepare:
+
+        ☑ A copy of your architects license
+
+        ☑ Formal proof of employment showing at least 5 years experience designing or supervising construction, or in an architectural firm
+
+        ☑  a tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
+      weight: 90
+    - ministry: MOE
+      regulation_no: 1
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-education/
+      info: ""
+      provide: ""
+      notes: ☑ Please prepare a copy of your doctoral degree, issued by a university
+        in the top 200 of the most recent Times Higher Education World
+        University Rankings or QS World University Rankings.
+      weight: 70
+    - ministry: MOE
+      regulation_no: 2
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-education/
+      info: ""
+      provide: ""
+      notes: >-
+        ☑ Please prepare evidence of having been engaged in teaching and
+        research for five years or more
+
+        ☑ Please ask your university (from the top 500 of the most recent Times Higher Education World University Rankings or QS World University Rankings) to produce a document proving you worked there in the last five years
+      weight: 40
+    - ministry: MOE
+      regulation_no: 3
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-education/
+      info: ""
+      provide: ""
+      notes: ☑ Please prepare proof that you received a Yushan Young Scholar Award
+      weight: 90
+    - ministry: MOE
+      regulation_no: 4
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-education/
+      info: ""
+      provide: ""
+      notes: >-
+        Please prepare:
+
+        ☑ a tax statement and/or salary statements from your employer to prove your monthly salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
+
+        ☑ evidence of having been engaged in teaching and research (or performing similar activities as professional services) for five years or more
+      weight: 40
+    - ministry: MOJ
+      regulation_no: 2
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-law/
+      info: ""
+      provide: ""
+      notes: >-
+        Please prepare:
+
+        ☑ evidence of your past or current position outside Taiwan as a university professor, or as a research fellow of a research institution. Associate or assistant professor or fellow titles are acceptable.
+
+        -and-
+
+        ☑ a copy of your ROC foreign legal affairs attorney license
+
+        -or-
+
+        ☑ a copy of your ROC attorney license
+      weight: 30
+    - ministry: MOJ
+      regulation_no: 3
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-law/
+      info: ""
+      provide: ""
+      notes: |-
+        Please prepare:
+        ☑ evidence of your law-related executive position
+        -and-
+        ☑ a copy of your ROC foreign legal affairs attorney license
+        -or-
+        ☑ a copy of your ROC attorney license
+      weight: 30
+    - ministry: MOJ
+      regulation_no: 4
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-law/
+      info: ""
+      provide: ""
+      notes: |-
+        Please prepare:
+        ☑ a copy of your recommendation from the Bar Association
+        -and-
+        ☑ a copy of your ROC foreign legal affairs attorney license
+        -or-
+        ☑ a copy of your ROC attorney license
+      weight: 10
+    - link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
+      ministry: MOST
+      regulation_no: 10
+      weight: 25
+      provide: |-
+        請全部檢附
+
+        * 成功上市於國外證券交易所，需檢附公司上市之相關新聞或佐證文件。
+        * 高階主管為該企業單位主管以上之職位，需檢附服務證明或離職證明相關文件。研發團隊核心技術人員需檢附在該公司研發單位任職相關證明。
+    - ministry: MOST
+      regulation_no: 11
+      weight: 25
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
+      provide: |-
+        請全部檢附
+
+        * 需檢附公司被其他公司購併交易金額達500萬美元以上之相關新聞或佐證文件。
+        * 高階主管為該企業單位主管以上之職位，需檢附服務證明或離職證明相關文件。研發團隊核心技術人員需檢附在該公司研發單位任職相關證明。
+    - ministry: MOST
+      regulation_no: 12
+      weight: 10
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
+      info: 該資格條件於2020年12月才開始，由於此資格條件較新，建議您提供較充足的相關文件以防萬一。
+      notes: "Please prepare one or both of the following: ☑  media coverage and other
+        formal documents proving the VC firm or fund has an investment of
+        greater than 5 million USD in a non-Taiwanese company ☑  media coverage
+        and other formal documents proving the VC firm or fund has an investment
+        of greater than 1 million USD in a startup affiliated with a program of
+        the Ministry of Science and Technology  and:  ☑ formal proof of
+        employment, showing that you were a senior executive of the relevant VC
+        firm or fund"
+      provide: |-
+        請先就 12 .1 或 12.2 擇一，再就所選項目檢附文件：
+
+        12.1. 請擇一或全部檢附：
+
+        投資國外新創或事業達500萬美元以上之創投公司或基金之高階主管。
+        投資科技部相關計畫之新創達100萬美元之創投公司或基金之高階主管。
+        12.2. 請全部檢附：
+
+        高階主管為單位主管以上之職位，需檢附服務證明或離職證明相關文件。
+    - ministry: MOST
+      regulation_no: 13
+      weight: 10
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
+      info: 若要以此資格條件申請，申請前請先與科技領域的金卡持有聯繫人聯絡尋求建議。
+      provide: |-
+        * 說明申請人專業或經驗之文件(如：國內外學歷證書、服務證明、學術研究、技術證明、技術移轉、獲獎證明等)。
+        * 證明對我國科技產業具貢獻潛力之相關文件。
 en:
   items:
     - ministry: MOST
@@ -20,23 +847,55 @@ en:
       regulation_no: 2
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
       info: ""
-      provide: ""
-      notes: "Please prepare: ☑ formal proof of employment in the specific field,
-        showing more than three years at a technology company or university and
-        the documents from either Academic or Professional streams
-        below.  Academic Stream ☑ a copy of your university degree(s) or
-        certification(s) ☑ journal articles, conference papers, peer-reviewed
-        books or chapters, or other specialized work such as software tools that
-        are widely cited. Documents must be published within the past 3
-        years.  Professional Stream ☑ copies of patent certificates, technology
-        licensing contracts or other proof of technical skill ☑ copies of major
-        domestic or international awards you have received."
+      provide: >-
+        Please select either 2.1 or 2.2, and attach all documents required for
+        the selected item:
+
+
+        2.1. Please attach all of the following documents:
+
+
+        * Domestic or foreign certificate of academic attainment
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years
+
+        * Related academic research during the most recent three years
+
+
+        2.2. Please attach all of the following documents:
+
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years
+
+        * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
+      notes: ""
       weight: 30
     - ministry: MOST
       regulation_no: 3
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
       info: ""
-      provide: ""
+      provide: >-
+        
+
+        Please select either 3.1 or 3.2, and attach all documents required for the selected item:
+
+
+        3.1. Please attach all of the following documents:
+
+
+        * Domestic or foreign certificate of academic attainment
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years
+
+        * Related academic research during the most recent three years
+
+
+        3.2. Please attach all of the following documents:
+
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years
+
+        * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
       notes: "Please prepare: ☑ formal proof of employment in the specific field,
         showing more than three years at a technology company or university and
         the documents from either Academic or Professional streams
@@ -52,7 +911,11 @@ en:
       regulation_no: 4
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
       info: ""
-      provide: ""
+      provide: >-
+        Please provide:
+
+
+        * Documents verifying receipt of internationally-recognized domestic or foreign awards or prizes.
       notes: >-
         Please prepare:
 
@@ -62,19 +925,38 @@ en:
       regulation_no: 5
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
       info: ""
-      provide: ""
-      notes: >-
-        Please provide:
+      provide: >-
+        Please provide: 
 
-        ☑ formal proof of your posting holding the highest academic title awarded in your country at your country's equivalent of the national academy of sciences
 
-        ☑ information about the title you hold and the institution in which it is held.
+        * Domestic or foreign academician certificate or equivalent verifying document
+      notes: ""
       weight: 70
     - ministry: MOST
       regulation_no: 6
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
       info: ""
-      provide: ""
+      provide: >-
+        Please select either 6.1 or 6.2, and attach all documents required for
+        the selected item:
+
+
+        6.1. Please attach all of the following documents:
+
+
+        * Domestic or foreign certificate verifying possession of a Ph.D. degree
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years 
+
+        * Related academic research during the most recent three years
+
+
+        6.2. Please attach all of the following documents:
+
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years
+
+        * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
       notes: >-
         Please prepare:
 
@@ -100,54 +982,71 @@ en:
       regulation_no: 7
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
       info: ""
-      provide: ""
-      notes: >-
-        ⚠ Ministry of Science and Technology does not allow applicants purely
-        based on length of time served, you must also prove your technical
-        skill.
+      provide: >-
+        Please select either 7.1 or 7.2, and attach all documents required for
+        the selected item:
 
 
-        Please prepare:
-
-        ☑ formal proof of employment, showing more than four years or experience in your field
-
-        and the documents from either Academic or Professional streams below.
+        7.1. Please attach all of the following documents:
 
 
-        Academic Stream
+        * Domestic or foreign certificate verifying possession of a Ph.D. degree
 
-        ☑ a copy of your PhD degree
+        * Documents verifying domestic or foreign work experience in a relevant field for four or more years
 
-        ☑ journal articles, conference papers, peer-reviewed books or chapters, or other specialized work such as software tools that are widely cited. Documents must be published within the past 4 years.
+        * Related academic research during the most recent four years
 
 
-        Professional Stream
+        7.2. Please attach all of the following documents:
 
-        ☑ copies of patent certificates, technology licensing contracts or other proof of technical skill
 
-        ☑ copies of major domestic or international awards you have received.
+        * Domestic or foreign certificate verifying possession of a Ph.D. degree
+
+        * Documents verifying domestic or foreign work experience in a relevant field for four or more years
+
+        * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
+      notes: ""
       weight: 30
     - ministry: MOST
       regulation_no: 8
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
       info: ""
-      provide: ""
-      notes: "Please prepare: ☑ information about why your abilities are distinctive
-        and rare ☑ formal proof of employment in the specific field, showing
-        more than three years of service and the documents from either Academic
-        or Professional streams below.  Academic Stream ☑ a copy of your
-        degree(s) or certification(s) ☑ journal articles, conference papers,
-        peer-reviewed books or chapters, or other specialized work such as
-        software tools that are widely cited. Documents must be published within
-        the past 3 years.  Professional Stream ☑ copies of patent certificates,
-        technology licensing contracts or other proof of technical skill ☑
-        copies of major domestic or international awards you have received."
+      provide: >-
+        Please select either 8.1 or 8.2, and attach all documents required for
+        the selected item:
+
+
+        8.1. Please attach all of the following documents:
+
+
+        * Domestic or foreign certificate of academic attainment
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years
+
+        * Related academic research during the most recent three years
+
+
+        8.2. Please attach all of the following documents:
+
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years
+
+        * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
+      notes: ""
       weight: 10
     - ministry: MOST
       regulation_no: 9
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
       info: ""
-      provide: ""
+      provide: >-
+        Please attach all of the following documents:
+
+
+        * Domestic or foreign certificate verifying possession of a Ph.D. degree
+
+        * Verification of domestic or foreign work experience in a relevant field for three or more years
+
+        * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
       notes: >-
         Please prepare:
 
@@ -780,818 +1679,6 @@ en:
       regulation_no: 13
       weight: 10
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
-      info: Consider contacting the Ministry of Science and Technology Gold Card
-        contact for advice before applying under this regulation.
-      provide: >-
-        -  several documents detailing your expertise and achievements (eg
-        awards, academic research papers, patent certificates, technology
-        licensing contracts or other proof of technical skill)
-
-        -  a statement on your potential contribution to Taiwan
-zh:
-  items:
-    - ministry: MOST
-      regulation_no: 1
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      info: Ministry of Science and Technology does not allow applicants purely based
-        on salary, you must also prove your technical skill
-      provide: >-
-        -  a tax statement and/or salary statements from your employer to prove
-        your salary was above 160,000NT (eg Australia PAYG payment summary,
-        Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US
-        W-2)
-
-        - a copy of your CV
-
-        - formal proof of employment, showing experience working at a technology company or in a technological field
-      notes: ""
-      weight: 20
-    - ministry: MOST
-      regulation_no: 2
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      info: ""
-      provide: ""
-      notes: "Please prepare: ☑ formal proof of employment in the specific field,
-        showing more than three years at a technology company or university and
-        the documents from either Academic or Professional streams
-        below.  Academic Stream ☑ a copy of your university degree(s) or
-        certification(s) ☑ journal articles, conference papers, peer-reviewed
-        books or chapters, or other specialized work such as software tools that
-        are widely cited. Documents must be published within the past 3
-        years.  Professional Stream ☑ copies of patent certificates, technology
-        licensing contracts or other proof of technical skill ☑ copies of major
-        domestic or international awards you have received."
-      weight: 30
-    - ministry: MOST
-      regulation_no: 3
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      info: ""
-      provide: ""
-      notes: "Please prepare: ☑ formal proof of employment in the specific field,
-        showing more than three years at a technology company or university and
-        the documents from either Academic or Professional streams
-        below.  Academic Stream ☑ a copy of your degree(s) or certification(s) ☑
-        journal articles, conference papers, peer-reviewed books or chapters, or
-        other specialized work such as software tools that are widely cited.
-        Documents must be published within the past 3 years.  Professional
-        Stream ☑ copies of patent certificates, technology licensing contracts
-        or other proof of technical skill ☑ copies of major domestic or
-        international awards you have received."
-      weight: 30
-    - ministry: MOST
-      regulation_no: 4
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
-
-        ☑ a copy of your Nobel Prize , Tang Prize, Wolf Prize, Fields Medal, or other equivalent internationally-recognized award.
-      weight: 90
-    - ministry: MOST
-      regulation_no: 5
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      info: ""
-      provide: ""
-      notes: >-
-        Please provide:
-
-        ☑ formal proof of your posting holding the highest academic title awarded in your country at your country's equivalent of the national academy of sciences
-
-        ☑ information about the title you hold and the institution in which it is held.
-      weight: 70
-    - ministry: MOST
-      regulation_no: 6
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
-
-        ☑ formal proof of employment, showing more than three years at a technology company or university
-
-        and the documents from either Academic or Professional streams below.
-
-
-        Academic Stream
-
-        ☑ a copy of your PhD degree
-
-        ☑ journal articles, conference papers, peer-reviewed books or chapters, or other specialized work such as software tools that are widely cited. Documents must be published within the past 3 years.
-
-
-        Professional Stream
-
-        ☑ copies of patent certificates, technology licensing contracts or other proof of technical skill
-
-        ☑ copies of major domestic or international awards you have received.
-      weight: 30
-    - ministry: MOST
-      regulation_no: 7
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      info: ""
-      provide: ""
-      notes: >-
-        ⚠ Ministry of Science and Technology does not allow applicants purely
-        based on length of time served, you must also prove your technical
-        skill.
-
-
-        Please prepare:
-
-        ☑ formal proof of employment, showing more than four years or experience in your field
-
-        and the documents from either Academic or Professional streams below.
-
-
-        Academic Stream
-
-        ☑ a copy of your PhD degree
-
-        ☑ journal articles, conference papers, peer-reviewed books or chapters, or other specialized work such as software tools that are widely cited. Documents must be published within the past 4 years.
-
-
-        Professional Stream
-
-        ☑ copies of patent certificates, technology licensing contracts or other proof of technical skill
-
-        ☑ copies of major domestic or international awards you have received.
-      weight: 30
-    - ministry: MOST
-      regulation_no: 8
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      info: ""
-      provide: ""
-      notes: "Please prepare: ☑ information about why your abilities are distinctive
-        and rare ☑ formal proof of employment in the specific field, showing
-        more than three years of service and the documents from either Academic
-        or Professional streams below.  Academic Stream ☑ a copy of your
-        degree(s) or certification(s) ☑ journal articles, conference papers,
-        peer-reviewed books or chapters, or other specialized work such as
-        software tools that are widely cited. Documents must be published within
-        the past 3 years.  Professional Stream ☑ copies of patent certificates,
-        technology licensing contracts or other proof of technical skill ☑
-        copies of major domestic or international awards you have received."
-      weight: 10
-    - ministry: MOST
-      regulation_no: 9
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
-
-        ☑ information about why expertise you can provide is currently lacking in Taiwan
-
-        ☑ a copy of your PhD degree
-
-        ☑ formal proof of employment, showing more than three years at a technology company or university
-
-        ☑ journal articles, conference papers, peer-reviewed books or chapters, or other specialized work such as software tools that are widely cited. Documents must be published within the past 3 years
-
-        ☑ copies of patent certificates, technology licensing contracts or other proof of technical skill
-
-        ☑ copies of major domestic or international awards you have received
-      weight: 30
-    - ministry: MOEA
-      regulation_no: 1
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-economy/
-      notes: >-
-        Please prepare either:
-
-        ☑  a tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
-
-        or
-
-        ☑ a copy of your upcoming employment contract for a job in Taiwan, showing monthly salary above 160,000NT
-      weight: 60
-    - ministry: MOEA
-      regulation_no: 2
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-economy/
-      info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
-
-        ☑ formal documentation to prove your past or current employer's status in Taiwan as its headquarters, an R&D center or a branch of a multi-national company
-
-        ☑ proof of your position as an executive, such as job contract or evidence of your managerial position of the operations, technology or marketing departments of the company.
-
-
-        ⚠ A multi-national company is defined as having a branch in two or more countries which has at least $USD2 billion in assets globally, or has net income of at least NT$1 billion in Taiwan or NT$1.5 billion in the region,  or employs more than 100 staff in Taiwan (50 must have college degrees) or is otherwise certified by the Ministry of Economic Affairs.
-      weight: 50
-    - ministry: MOEA
-      regulation_no: 3
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-economy/
-      notes: >-
-        Please prepare:
-
-        ☑ A cover letter explaining the key industry you are skilled in, why it's important to Taiwan and why you are considered skilled
-
-        ☑ documents to prove your technical capabilities such as patent filings, licensing contracts or academic work (journal articles, conference papers, peer-reviewed books or chapters, or other specialized work such as software tools that are widely cited)
-
-        ☑ a copy of your PhD degree
-
-
-        and at least one of:
-
-        ☑ formal proof of employment, showing more than four years in your field
-
-        ☑ copies of the major international awards you have received.
-      weight: 35
-    - ministry: MOEA
-      regulation_no: 4
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-economy/
-      info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
-
-        ☑ formal proof of employment, showing at least eight years of experience in the relevant field
-
-
-        and if necessary, 
-
-        ☑ a cover letter explaining which of the following fields you hold a specialised position in: manufacturing, semiconductors, optoelectronics, information and communication, electrical and electronic design, biomedical material, precision machinery, transportation, systems integration, consultancy, and green energy,
-      weight: 30
-    - ministry: MOEA
-      regulation_no: 5
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-economy/
-      info: ""
-      provide: ""
-      notes: >-
-        ⚠ Consider contacting the Ministry of Economic Affairs Gold Card contact
-        for advice before applying under this regulation.
-
-
-        Please prepare:
-
-        ☑ A cover letter explaining your specialized and international experience and why it is needed in Taiwan
-
-        ☑ Supporting documents proving your outstanding and unique skills
-      weight: 10
-    - ministry: MOC
-      regulation_no: I1
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
-
-        ☑ proof your current/past employer was an international arts organisation, government agency or private organisation related to culture and the arts. Examples to compare with include American Theatre Wing, OISTAT, The Broadway League.
-
-        ☑ proof you were a key member. Examples titles: manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director general, responsible person, deputy general director, general director, other similar position
-      weight: 30
-    - ministry: MOC
-      regulation_no: I2
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
-
-        ☑ proof your event is considered international or major level. Examples to compare with include Edinburgh International Festival, Festival d’Avignon, and BAM Next Wave Festival
-
-        ☑ proof you were a key member. Examples titles: manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director general, responsible person, deputy general director, general director, other similar position
-      weight: 30
-    - ministry: MOC
-      regulation_no: I3
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: ""
-      notes: >-
-        For Performing Arts. Example awards include: Tony Award(US),  National
-        Dance Award(UK), and International Tchaikovsky Competition award(RU)
-
-
-        Please prepare either:
-
-        ☑ a copy of your award, or
-
-        ☑ proof you were on the  judging panel for said award.
-      weight: 40
-    - ministry: MOC
-      regulation_no: I4
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: ""
-      notes: >-
-        ⚠ Contact the Ministry of Culture Gold Card contact for advice before
-        applying under this regulation.
-
-
-        For performing arts. Please prepare:
-
-        ☑ Proof of accomplishments in performing arts
-      weight: 15
-    - ministry: MOC
-      regulation_no: II1
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: >-
-        - proof your current/past employer was an international arts
-        organisation, government agency or private organisation related to
-        culture and the arts. Examples to compare with include the National
-        Endowment for the Arts, European Fine Art Fair, Affordable Art Fair, MCH
-        Swiss Exhibition (Basel) Ltd., and the Association of International
-        Photography Art Dealers.
-
-        - proof you were a key member. Examples titles: manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director general, responsible person, deputy general director, general director, or other similar position
-      notes: ""
-      weight: 30
-    - ministry: MOC
-      regulation_no: II2
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: "- proof your event is considered international or major level.
-        Examples to compare with include Art Taipei; Art Basel Hong Kong; Art
-        Stage Singapore; Art Basel Miami Beach; Art Basel, La Biennale di
-        Venezia; Berlin Biennale for Contemporary Art;  European Biennial of
-        Contemporary Art; Shanghai Biennial; Biennale of Sydney; Sao Paulo Art
-        Biennial; Whitney Biennial; Costa Rica Biennale; Gwangju Biennale;
-        International Istanbul Biennial;☑ proof you were a key member. Examples
-        titles: manager, assistant manager, assistant general manager, general
-        manager, deputy CEO, CEO, deputy executive director, executive director,
-        deputy publisher, publisher, vice president, president, deputy
-        director-general, director general, responsible person, deputy general
-        director, general director, other similar position"
-      notes: ""
-      weight: 30
-    - ministry: MOC
-      regulation_no: II3
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: ""
-      notes: >-
-        For Visual Arts. Example awards include: New York Art Directors Club
-        Annual Awards, Bologna Children’s Book Fair: Illustrator’s Award
-
-
-        Please prepare either:
-
-        ☑ a copy of your award, or
-
-        ☑ proof you were on the  judging panel for said award.
-      weight: 40
-    - ministry: MOC
-      regulation_no: II4
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: For visual arts. Contact the Ministry of Culture Gold Card contact for
-        advice before applying under this regulation.
-      provide: "- Proof of accomplishments in visual arts"
-      notes: ""
-      weight: 15
-    - ministry: MOC
-      regulation_no: III1
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: >-
-        - proof of employment, showing more than 10 years in publishing or media
-
-        - proof you have served at a major international media or a major publishing house a chief editor, senior executive, certified copywriter agent, manager, assistant general manager, deputy general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, deputy director-general, director-general, vice president, president, responsible person, chief editor, deputy managing editor, managing editor, deputy general director, general director, or other similar position. Examples of 'international media': US News and World Report, The New York Times, The Washington Post, The Financial Times, Associated Press, Reuters, L’ Agence France-Press, Time, Life, National Geographic. Yazhou Zhoukan (Hong Kong),Example major publishing house: Penguin Random House, HarperCollins Publishers LLC,
-      notes: ""
-      weight: 30
-    - ministry: MOC
-      regulation_no: III2
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: "- formal proof of employment as a professor of publishing, mass
-        communication or related discipline at a university outside of Taiwan"
-      notes: ""
-      weight: 40
-    - ministry: MOC
-      regulation_no: III3
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: |-
-        - a copy of your PhD in publishing-related disciplines
-        - a copy of your internationally-recognised academic prize
-      notes: ""
-      weight: 35
-    - ministry: MOC
-      regulation_no: III4
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: ""
-      notes: >-
-        For Publishing. Example awards include: Nobel Prize; Pulitzer Prize; Man
-        Booker Prize; Prix Goncourt;  National Magazine Awards; Premio Miguel de
-        Cervantes; Premio Planeta de Novela; Naoki Prize; Akutagawa Prize
-
-
-        Please prepare either:
-
-        ☑ a copy of your award, or
-
-        ☑ proof you were on the  judging panel for said award.
-      weight: 40
-    - ministry: MOC
-      regulation_no: III5
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: >-
-        - proof your event is considered a major international publishing event
-
-        - proof you have curated the event or were a key member. Examples titles: manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director-general, responsible person, deputy general director, general director, or other similar position
-      notes: ""
-      weight: 30
-    - ministry: MOC
-      regulation_no: III6
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      notes: ""
-      weight: 15
-      info: For publishing and media. Contact the Ministry of Culture Gold Card
-        contact for advice before applying under this regulation.
-      provide: "- Proof of accomplishments in publishing and media"
-    - ministry: MOC
-      regulation_no: IV1
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: ""
-      notes: >-
-        For Film, Broadcast and Pop Music. Example awards include: the Golden
-        Horse Awards, Golden Harvest Awards for Outstanding Short Films, Taipei
-        Film Festival, Kaohsiung Film Festival, Taiwan International Documentary
-        Festival, Emmy Awards, BAFTA, Seoul International Drama Awards, Golden
-        Globe Awards, Golden Bell Awards, New York Festivals International
-        Television & Film Awards, British Academy Television Awards, Grammy
-        Awards, BRIT Awards, American Music Awards, MTV Europe Music Awards,
-        Golden Melody Awards, NRJ Music Awards, Billboard Music Awards, Golden
-        Indie Music Awards, Japan Record Awards, Juno Awards, Mercury Prize,
-        Golden Disc Awards
-
-
-        Please prepare either:
-
-        ☑ a copy of your award, or
-
-        ☑ proof you were on the judging panel for said award.
-      weight: 40
-    - ministry: MOC
-      regulation_no: IV2
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: >-
-        - Proof of employment, showing at least five years experience in film,
-        broadcast or pop music
-
-        - Proof you hold or have held a position as a top executive (CEO, general manager, assistant manager, director-general, department head or similar) at a medium-sized or larger film, broadcast, or pop music organisation. The organisation must be engaged in transnational production, and either a) have more than 50 employees or b) have regional annual net revenue greater than NT$350 million
-      notes: ""
-      weight: 50
-    - ministry: MOC
-      regulation_no: IV3
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
-
-        ☑ formal proof of employment, showing at least five years of work experience in film, broadcast or pop music
-
-        and at least one of:
-
-        ☑ proof of special contributions to film, broadcast or pop music (eg copy of professional certificate, professional training certificate, copyright, thesis, patent or other certification of innovation or outstanding performance), or
-
-        ☑ letter of recommendation from official organisations such as the United Nations, government agencies in your home country or foreign representative offices in Taiwan
-      weight: 30
-    - ministry: MOC
-      regulation_no: IV4
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: For film, broadcast and pop music. Contact the Ministry of Culture Gold
-        Card contact for advice before applying under this regulation
-      provide: "- Proof of accomplishments in film, broadcast or pop music"
-      notes: >-
-        ⚠ Contact the Ministry of Culture Gold Card contact for advice before
-        applying under this regulation.
-
-
-        For film, broadcast and pop music. Please prepare:
-
-        ☑ Proof of accomplishments in film, broadcast or pop music
-      weight: 15
-    - ministry: MOC
-      regulation_no: V1
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: ""
-      notes: >-
-        For Handicraft. Example awards include: Talente Munich; ITAMI
-        International Craft Exhibition; International Ceramics Competition Mino,
-        Japan; Faenza Prize; Cheongju International Craft Biennale;
-
-
-        Please prepare either:
-
-        ☑ a copy of your award, or
-
-        ☑ proof you were on the judging panel for said award.
-      weight: 40
-    - ministry: MOC
-      regulation_no: V2
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: "- proof of recognition from a nationally or internationally recognised
-        organisation such as The World Crafts Council, UNESCO, or equivalent"
-      notes: ""
-      weight: 40
-    - ministry: MOC
-      regulation_no: V3
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: For handicraft. Contact the Ministry of Culture Gold Card contact for
-        advice before applying under this regulation
-      provide: "- Proof of accomplishments in handicraft"
-      notes: ""
-      weight: 15
-    - ministry: MOC
-      regulation_no: VI1
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: >-
-        - proof your current/past employer was a government department or
-        institution established by law
-
-        -  a letter of recommendation from your institution
-
-        - proof you were serving in a significant position, such as an expert or a researcher
-      notes: ""
-      weight: 30
-    - ministry: MOC
-      regulation_no: VI2
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: ""
-      provide: >-
-        - proof that you have served in the arts/cultural section of an
-        international arts NGO
-
-        - letters of recommendation from the NGO. A list of example arts NGOs can be found on the UNESCO website.
-      notes: ""
-      weight: 30
-    - ministry: MOC
-      regulation_no: VI3
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      info: For cultural administration. Contact the Ministry of Culture Gold Card
-        contact for advice before applying under this regulation
-      provide: "- Proof of accomplishments in cultural administration"
-      notes: ""
-      weight: 15
-    - ministry: MOS
-      regulation_no: 1
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-sport/
-      info: ""
-      prepare:
-        - that you are a national team athlete
-        - that you possess outstanding skills that will raise the
-          competitiveness of Taiwan
-        - "of your: top 3 finish at the Olympics, 1st place in the Asian Games,
-          and/or 1st place in a world championship"
-      notes: >-
-        Please prepare proof:
-
-        ☑ that you are a national team athlete
-
-        ☑ that you possess outstanding skills that will raise the competitiveness of Taiwan
-
-        ☑ of your: top 3 finish at the Olympics, 1st place in the Asian Games, and/or 1st place in a world championship
-      weight: 90
-    - ministry: MOS
-      regulation_no: 2
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-sport/
-      info: ""
-      provide: ""
-      notes: >-
-        Please prepare proof:
-
-        ☑ that you have served as a national team coach
-
-        ☑ that your athletes achieved excellent results and you will help raise the competitiveness of Taiwan
-
-        ☑ of your athlete's accomplishments: top 3 finish at the Olympics, 1st place in the Asian Games, and/or 1st place in a world championship
-      weight: 90
-    - ministry: MOS
-      regulation_no: 3
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-sport/
-      info: ""
-      provide: ""
-      notes: |-
-        Please prepare proof:
-        ☑ that you have served as a referee at an Olympic Games or Asian Games
-        ☑ that you will help to raise the level of competitiveness in Taiwan
-      weight: 90
-    - ministry: MOF
-      regulation_no: 1
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-finance/
-      info: ""
-      provide: >-
-        - a tax statement and/or salary statements from your employer to prove
-        your salary was above 160,000NT (eg Australia PAYG payment summary,
-        Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US
-        W-2)
-
-        - evidence that your salary was earned in the financial industry
-      notes: ""
-      weight: 40
-    - ministry: MOF
-      regulation_no: 2
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-finance/
-      info: ""
-      provide: >-
-        - a copy of your CFA,CFP, FRM, CIIA, CIA, PRM, FSA, FCAS, FIA, FIAA or
-        SEI-KAIIN
-
-        - proof you have held a managerial position for more than three years
-
-        - proof that you have outstanding talent in your area of expertise
-      notes: ""
-      weight: 50
-    - ministry: MOF
-      regulation_no: 3
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-finance/
-      info: ""
-      provide: >-
-        - a letter of recommendation from the FSC
-
-        - a letter of recommendation from a banking, securities, insurance or finance association in Taiwan
-      notes: ""
-      weight: 50
-    - ministry: MOF
-      regulation_no: 4
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-finance/
-      info: ""
-      provide: "- proof of employment, showing more than 5 years in a managerial
-        position in a financial institution"
-      notes: ""
-      weight: 50
-    - ministry: MOF
-      regulation_no: 5
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-finance/
-      info: ""
-      provide: >-
-        - proof of employment, showing at least 3 years in a financial position
-        in FinTech, E-Commerce, Digital Economy, Technology Management, Green
-        Energy or other innovative field
-
-        - A statement describing concrete achievements beneficial to the development of the field
-      notes: ""
-      weight: 20
-    - ministry: MOF
-      regulation_no: 6
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-finance/
-      info: Contact the FSC Gold Card contact for advice before applying under this
-        regulation.
-      provide: "- a series of documents that show your potential to contribute to
-        Taiwan's financial industry."
-      notes: ""
-      weight: 10
-    - ministry: MOJ
-      regulation_no: 1
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-law/
-      notes: >-
-        Please prepare:
-
-        ☑ a tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2,)
-
-        -and-
-
-        ☑ a copy of your ROC foreign legal affairs attorney license
-
-        -or
-
-        ☑ a copy of your ROC attorney license
-      weight: 90
-    - ministry: MOA
-      regulation_no: 1
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-architecture/
-      info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
-
-        ☑ A copy of your architects license
-
-        ☑ Formal proof of employment showing at least 5 years experience designing or supervising construction, or in an architectural firm
-
-        ☑  a tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
-      weight: 90
-    - ministry: MOE
-      regulation_no: 1
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-education/
-      info: ""
-      provide: ""
-      notes: ☑ Please prepare a copy of your doctoral degree, issued by a university
-        in the top 200 of the most recent Times Higher Education World
-        University Rankings or QS World University Rankings.
-      weight: 70
-    - ministry: MOE
-      regulation_no: 2
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-education/
-      info: ""
-      provide: ""
-      notes: >-
-        ☑ Please prepare evidence of having been engaged in teaching and
-        research for five years or more
-
-        ☑ Please ask your university (from the top 500 of the most recent Times Higher Education World University Rankings or QS World University Rankings) to produce a document proving you worked there in the last five years
-      weight: 40
-    - ministry: MOE
-      regulation_no: 3
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-education/
-      info: ""
-      provide: ""
-      notes: ☑ Please prepare proof that you received a Yushan Young Scholar Award
-      weight: 90
-    - ministry: MOE
-      regulation_no: 4
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-education/
-      info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
-
-        ☑ a tax statement and/or salary statements from your employer to prove your monthly salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
-
-        ☑ evidence of having been engaged in teaching and research (or performing similar activities as professional services) for five years or more
-      weight: 40
-    - ministry: MOJ
-      regulation_no: 2
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-law/
-      info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
-
-        ☑ evidence of your past or current position outside Taiwan as a university professor, or as a research fellow of a research institution. Associate or assistant professor or fellow titles are acceptable.
-
-        -and-
-
-        ☑ a copy of your ROC foreign legal affairs attorney license
-
-        -or-
-
-        ☑ a copy of your ROC attorney license
-      weight: 30
-    - ministry: MOJ
-      regulation_no: 3
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-law/
-      info: ""
-      provide: ""
-      notes: |-
-        Please prepare:
-        ☑ evidence of your law-related executive position
-        -and-
-        ☑ a copy of your ROC foreign legal affairs attorney license
-        -or-
-        ☑ a copy of your ROC attorney license
-      weight: 30
-    - ministry: MOJ
-      regulation_no: 4
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-law/
-      info: ""
-      provide: ""
-      notes: |-
-        Please prepare:
-        ☑ a copy of your recommendation from the Bar Association
-        -and-
-        ☑ a copy of your ROC foreign legal affairs attorney license
-        -or-
-        ☑ a copy of your ROC attorney license
-      weight: 10
-    - link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      ministry: MOST
-      regulation_no: 10
-      weight: 25
-      provide: >-
-        -  media coverage and other formal documents proving the startup was
-        listed as a public traded company on a stock exchange outside of Taiwan
-
-        - formal proof of employment, showing that you were a senor executive or core technical/research & development personnel of the startup company
-    - ministry: MOST
-      regulation_no: 11
-      weight: 25
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      provide: >-
-        -  media coverage and other formal documents proving the startup was
-        merged or acquired for a value greater than 5 million USD
-
-        - formal proof of employment, showing that you were a senior executive (unit supervisor or higher) or core technical/research & development personnel of the startup company
-    - ministry: MOST
-      regulation_no: 12
-      weight: 10
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
-      info: This criteria was introduced in December 2020. You should consider
-        providing additional documents in the spirit of the qualification
-        criteria due to its recency.
-      notes: "Please prepare one or both of the following: ☑  media coverage and other
-        formal documents proving the VC firm or fund has an investment of
-        greater than 5 million USD in a non-Taiwanese company ☑  media coverage
-        and other formal documents proving the VC firm or fund has an investment
-        of greater than 1 million USD in a startup affiliated with a program of
-        the Ministry of Science and Technology  and:  ☑ formal proof of
-        employment, showing that you were a senior executive of the relevant VC
-        firm or fund"
-    - ministry: MOST
-      regulation_no: 13
-      weight: 10
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
       info: Consider contacting the Ministry of Science and Technology Gold Card
         contact for advice before applying under this regulation.
       provide: >-

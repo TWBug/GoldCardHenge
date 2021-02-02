@@ -1,0 +1,116 @@
+{{ define "head" }}
+{{ partial "head/alpine" ( dict "spruce" "true" "cdn" .Site.Params.loadFromCDN ) }}
+<meta name="robots" content="noindex">
+{{ end }}
+
+{{ define "main" }}
+
+{{ $style := "right" }}
+{{ with .Params.style }}
+{{ $style = . }}
+{{ end }}
+
+{{ $cover_image := "" }}
+{{ if .Params.cover_image }}
+{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ end }}
+
+{{ $language := .Site.Language | urlize }}
+
+<div class="relative shadow-xl print:shadow-none">
+    {{ partial "navigation" . }}
+    {{ partial "alert" .  }}
+</div>
+
+<div class="relative flex-grow">
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-white -z-1"
+    ></div>
+    {{ if .Site.IsServer }}
+    <div class="absolute right-0 top-0 bg-black text-xs font-bold text-white p-2 z-1">JOBS SINGLE TEMPLATE</div>
+    {{ end }}
+    <section>
+        <div class="container py-12 sm:py-24 px-12 lg:px-24">
+            {{ partial "breadcrumb" . }}
+            <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xl:gap-24">
+                <div class="sm:col-span-2 pt-4">
+                    <div class="my-4">
+                        <a href="{{ .Params.company_page_url }}" target="_blank" class="inline-flex items-center text-primary focus-primary">
+                            <img src="{{ .Params.company_logo_url }}" alt="Logoaksdj" class="block max-w-8 border border-gray-200 rounded-md">
+                            <span class="text-sm font-bold ml-2">
+                                {{ .Params.company_name }}
+                            </span>
+                        </a>
+                    </div>
+                    <h1 class="text-5xl leading-tight font-semibold my-2">
+                        {{ .Title }}
+                    </h1>
+                    <div class="text-base font-medium copy replace">
+                        {{ .Content }}
+                    </div>
+                    <div class="w-full my-4 -ml-1">
+                        {{ range .Params.badges }}
+                        <li class="inline-block text-primary text-sm p-1 mx-1">
+                            <a href="/{{ $.Site.Language }}/badges/{{ . | anchorize }}" class="inline-flex items-center focus-primary truncate">
+                                {{ partial "icon" (dict "name" "tag" "size" "4") }}
+                                <span class="font-bold uppercase ml-2">
+                                {{ if i18n (. | anchorize ) }}
+                                {{ i18n (. | anchorize) }}
+                                {{ else }}
+                                {{ . | humanize }}
+                                {{ end }}
+                                </span>
+                            </a>
+                        </li>
+                        {{ end }}
+                    </div>
+                    {{ if .Params.salary }}
+                    <div class="flex items-center text-base font-bold text-water-600 my-4">
+                        <div class="flex-center w-5 mr-2">
+                            {{ partial "icon" (dict "name" "dollar-sign" "size" "6") }}
+                        </div>
+                        {{ .Params.salary }}
+                    </div>
+                    {{ end }}
+                    {{ if .Params.types }}
+                    <div class="flex items-center text-base font-bold text-water-600 my-4">
+                        <div class="flex-center w-5 mr-2">
+                            {{ partial "icon" (dict "name" "info-circle" "size" "6") }}
+                        </div>
+                        {{ range .Params.types }}
+                        <span class="mr-2">
+                            {{ . }}
+                        </span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                    {{ if .Params.location }}
+                    <div class="flex items-center text-base font-bold text-water-600 my-4">
+                        <div class="flex-center w-5 mr-2">
+                            {{ partial "icon" (dict "name" "map-marked-alt" "size" "6") }}
+                        </div>
+                        {{ .Params.location }}
+                    </div>
+                    {{ end }}
+                    <div class="flex justify-end mt-8">
+                        <a href="{{ .Params.link }}" target="_blank" title="{{ i18n "open_in_new_window"}}" class="flex items-center font-bold text-primary focus-primary m-2">
+                            {{ partial "icon" (dict "name" "external-link-alt" "size" "6") }}
+                            <span class="ml-2">
+                                {{ i18n "website" }}
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="print:hidden -mt-12">
+                    <aside>
+                        {{ partial "aside/job-listings" . }}
+                        {{ partial "aside/all-badges" . }}
+                        {{ partial "aside/apply-now" . }}
+                    </aside>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</div>
+{{end}}
