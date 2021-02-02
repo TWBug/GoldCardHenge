@@ -33,9 +33,9 @@ Social etiquette is very important for people in Taiwan. They pay special attent
 -   Decisions are made collectively and can be a lengthy process during negotiation. Once facts are established, agreements can sometimes be reached quickly.
 -   關係 or guan-xi means connections/personal relationships. Guan-xi is vital for business success in Taiwan. Taiwanese business people will want to know you personally before they do business with you.
 
-![Dining and Entertainment](/cms-uploads/greetings.png 'Greetings')
+![Greetings](/cms-uploads/greetings.png)
 
-![Dining and Entertainment](/cms-uploads/exchange-business-cards.png 'Exchange Business Cards')
+![Exchange Business Cards](/cms-uploads/exchange-business-cards.png)
 
 ## Dining and Entertainment
 
@@ -63,9 +63,9 @@ Social etiquette is very important for people in Taiwan. They pay special attent
 -   Making a good first impression is vital. Avoid wearing t-shirts, jeans, and other casual attire to first meetings.
 -   Even while attending a casual activity, you should dress modestly. Your clothing should be neat, clean, and unwrinkled.
 
-![Dining and Entertainment](/cms-uploads/dining-and-entertainment.png 'Dining and Entertainment')
+![Dining and Entertainment](/cms-uploads/dining-and-entertainment.png)
 
-![Attire](/cms-uploads/fashion.png 'Attire')
+![Attire](/cms-uploads/fashion.png)
 
 ## Gifts
 
@@ -92,6 +92,6 @@ Social etiquette is very important for people in Taiwan. They pay special attent
 -   Be humble if you receive a compliment.
 -   Family is central in Taiwanese culture, so it is polite to inquire about someone’s family.
 
-![Attire](/cms-uploads/gifts.png 'Gifts')
+![Gifts](/cms-uploads/gifts.png)
 
-![Attire](/cms-uploads/body-language.png 'Body Language')
+![Body Language](/cms-uploads/body-language.png)
