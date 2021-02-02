@@ -679,10 +679,15 @@ collections:
       label: 'Jobs 求職'
       label_singular: Job
       folder: 'content/jobs'
-      create: true
+      create: false # Jobs are scraped, not created in the CMS
+      delete: false
+      editor:
+          preview: false
       slug: '{{slug}}'
       preview_path: en/jobs/{{slug}}
       i18n: true
+       # @todo The CMS simply does not respect this filter
+      filter: {field: "title", value: "Jobs"}
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }

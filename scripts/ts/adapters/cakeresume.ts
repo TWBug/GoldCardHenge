@@ -92,7 +92,8 @@ export default class CakeResumeAdapter implements IAdapter {
                 company_logo_url: x.page.logo.medium,
                 salary_text: x.salary_range.map((y) => x.salary_currency + y).join(' - '),
                 location_list: x.location_list,
-                badges: x.tag_list,
+                badges: x.tag_list, // @todo This needs to become the user-generated label, preferably an array of them in the case of job overlap for multiple labels
+                job_tags: x.tag_list,
                 description: x.description_plain_text,
             };
         });
