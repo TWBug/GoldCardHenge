@@ -18,8 +18,6 @@
 
 {{ $h1_count := .Content | strings.Count "<h1" }}
 
-{{ $h1_count }}
-
 <div class="container py-12 sm:py-24 px-12 lg:px-24">
     {{ if eq $cover_image "true" }}
     <div class="md:hidden relative w-full h-0 pb-full min-h-32 rounded-md shadow-xl overflow-hidden mb-8">
