@@ -86,18 +86,25 @@
                         <h3 class="font-semibold uppercase text-sm mb-1">{{ i18n "footer_languages_title" }}</h3>
                         <ul class="flex flex-wrap items-center mb-4 -ml-2" x-data="taLanguage()">
                             {{ range .Site.Languages }}
-                            {{ if lt .Weight 10 }}
-                            {{ $url := print "/" .Lang (substr $.RelPermalink 3) }}
-                            <li>
-                            <a
-                                href="{{ $url }}"
-                                @click.prevent="switchLanguage('{{ .Lang }}')"
-                                title="Change Language"
-                                class="inline-block px-2 py-1 focus-white"
-                            >
-                                {{ .LanguageName }}
-                            </a></li>
-                            {{ end }}
+                                {{ if lt .Weight 10 }}
+                                    {{ $url := print "/" .Lang (substr $.RelPermalink 3) }}
+                                    {{ if ne $url $.RelPermalink }}
+                                        <li>
+                                            <a
+                                                href="{{ $url }}"
+                                                @click.prevent="switchLanguage('{{ .Lang }}')"
+                                                title="{{ i18n "change_language_to" }}{{ .LanguageName }}"
+                                                class="inline-block px-2 py-1 focus-white"
+                                            >
+                                                {{ .LanguageName }}
+                                            </a>
+                                        </li>
+                                        {{ else }}
+                                        <li class="inline-block px-2 py-1 focus-white">
+                                            {{ .LanguageName }}
+                                        </li>
+                                    {{ end }}
+                                {{ end }}
                             {{ end }}
                         </ul>
                         <h3 class="font-semibold uppercase text-sm mb-1">{{ i18n "goldcard" }}</h3>
