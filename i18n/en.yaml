@@ -64,6 +64,8 @@
   translation: 'FAQ'
 - id: news
   translation: 'News'
+- id: source
+  translation: 'Source'
 - id: job_listing_title
   translation: 'Job listings'
 - id: job_listing_description

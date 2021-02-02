@@ -64,6 +64,8 @@
   translation: '常見問題'
 - id: news
   translation: '最新消息'
+- id: source
+  translation: '資源'
 - id: job_listing_title
   translation: '工作清單'
 - id: job_listing_description
