@@ -2,7 +2,7 @@
     class="relative flex flex-col sm:flex-row border border-gray-200 rounded-xl bg-gradient-to-b from-white to-gray-100 shadow-lg my-8" data-id="{{ .Params.data_source_internal_id }}"
 >
     <div class="absolute right-0 top-0 -mt-6 pr-2">
-        <span class="font-semibold text-xs text-gray-500">Source: {{ .Params.data_source_name }}</span>
+        <span class="font-semibold text-xs text-gray-500">{{ i18n "source" }} {{ .Params.data_source_name }}</span>
     </div>
     <div class="flex-shrink-0 w-full sm:w-48 lg:w-32">
         {{ if .Params.company_logo_url }}
