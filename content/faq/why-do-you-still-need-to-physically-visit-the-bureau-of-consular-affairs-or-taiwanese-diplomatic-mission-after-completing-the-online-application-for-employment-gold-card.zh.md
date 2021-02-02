@@ -1,8 +1,7 @@
 ---
 title: 為什麼申請就業金卡完成線上申辦手續後仍需向外交部臨櫃申請簽證。
 draft: false
-categories:
-  - application
+categories: null
 tags:
   - Application
 ---

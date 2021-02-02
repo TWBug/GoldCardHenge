@@ -1,8 +1,7 @@
 ---
 title: What are the special benefits of the Employment Gold Card?
 draft: false
-categories:
-  - about
+categories: null
 tags:
   - General
 ---

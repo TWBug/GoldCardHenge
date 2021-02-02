@@ -1,8 +1,7 @@
 ---
 title: 哪些人可以申請適用外國特定專業人才租稅優惠? 該租稅優惠內容為何？
 draft: false
-categories:
-  - about
+categories: null
 tags:
   - Tax
 ---

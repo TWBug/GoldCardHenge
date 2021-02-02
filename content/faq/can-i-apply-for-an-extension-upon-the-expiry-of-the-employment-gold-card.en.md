@@ -1,8 +1,7 @@
 ---
 title: " Can I apply for an extension upon the expiry of the Employment Gold Card?"
 draft: false
-categories:
-  - about
+categories: null
 tags:
   - Renewal & Validity
 ---
