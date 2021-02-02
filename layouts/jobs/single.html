@@ -1,3 +1,7 @@
+{{ define "head" }}
+<meta name="robots" content="noindex">
+{{ end }}
+
 {{ define "main" }}
 
 {{ $style := "right" }}
@@ -59,12 +63,15 @@
                         </li>
                         {{ end }}
                     </div>
+                    {{ if .Params.salary }}
                     <div class="flex items-center text-base font-bold text-water-600 my-4">
                         <div class="flex-center w-5 mr-2">
                             {{ partial "icon" (dict "name" "dollar-sign" "size" "6") }}
                         </div>
                         {{ .Params.salary }}
                     </div>
+                    {{ end }}
+                    {{ if .Params.types }}
                     <div class="flex items-center text-base font-bold text-water-600 my-4">
                         <div class="flex-center w-5 mr-2">
                             {{ partial "icon" (dict "name" "info-circle" "size" "6") }}
@@ -75,14 +82,16 @@
                         </span>
                         {{ end }}
                     </div>
+                    {{ end }}
+                    {{ if .Params.location }}
                     <div class="flex items-center text-base font-bold text-water-600 my-4">
                         <div class="flex-center w-5 mr-2">
                             {{ partial "icon" (dict "name" "map-marked-alt" "size" "6") }}
                         </div>
                         {{ .Params.location }}
                     </div>
+                    {{ end }}
                     <div class="flex justify-end mt-8">
-
                         <a href="{{ .Params.link }}" target="_blank" title="{{ i18n "open_in_new_window"}}" class="flex items-center font-bold text-primary focus-primary m-2">
                             {{ partial "icon" (dict "name" "external-link-alt" "size" "6") }}
                             <span class="ml-2">
