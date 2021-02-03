@@ -1,5 +1,5 @@
 function smoothScroll() {
-    const links = document.querySelectorAll(".copy a[href^='#']")
+    const links = document.querySelectorAll(".copy a[href^='#']");
     // const links = document.querySelectorAll("#tableofcontents a[href^='#'], .copy a[href^='#']")
     for (const link of links) {
         link.addEventListener('click', (e) => {
@@ -12,14 +12,20 @@ function smoothScroll() {
             // }
             href = `[id="${href.substr(1)}"]`;
 
-            const scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
+            const scrollNavHeight = document.documentElement.style.getPropertyValue(
+                '--navigationScroll'
+            );
+
+            const bodyRect = document.body.getBoundingClientRect();
+            const elemRect = document.querySelector(href).getBoundingClientRect();
             const offsetTop =
-                document.querySelector(href).offsetTop +
+                elemRect.top -
+                bodyRect.top +
                 parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
             scroll({
-                top: offsetTop -20,
+                top: parseInt(offsetTop - 20),
                 behavior: 'smooth',
             });
-        })
+        });
     }
 }

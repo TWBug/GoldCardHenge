@@ -1,31 +1,38 @@
 {{ if eq .Level 1 }}
-  <h1 id="{{ .Anchor | safeURL }}" class="text-5xl font-medium leading-tight mb-2">
+  <h1 class="relative text-5xl font-medium leading-tight mb-2 overflow-hidden">
+    <div id="{{ .Anchor | safeURL }}" class="onpage-ancor"></div>
     {{ .Text | safeHTML }}
   </h1>
 {{ else if eq .Level 2 }}
     {{ if eq .Page.Site.Language.Lang "zh" }}
-    <h2 id="{{ .Anchor | safeURL }}" class="text-2xl font-semibold text-secondary leading-snug mb-2 mt-8">
+    <h2 class="relative text-2xl font-semibold text-secondary leading-snug mb-2 mt-8 overflow-hidden">
+        <div id="{{ .Anchor | safeURL }}" class="onpage-ancor"></div>
         {{ .Text | safeHTML }}
     </h2>
     {{ else }}
-    <h2 id="{{ .Anchor | safeURL }}" class="text-2xl font-semibold text-secondary leading-snug mb-2 mt-8">
+    <h2 class="relative text-2xl font-semibold text-secondary leading-snug mb-2 mt-8 overflow-hidden">
+        <div id="{{ .Anchor | safeURL }}" class="onpage-ancor"></div>
         {{ .Text | safeHTML }}
     </h2>
     {{ end }}
 {{ else if eq .Level 3 }}
-  <h3 id="{{ .Anchor | safeURL }}" class="text-xl font-semibold text-secondary leading-snug mb-2 mt-4">
+  <h3 class="relative text-xl font-semibold text-secondary leading-snug mb-2 mt-4 overflow-hidden">
+    <div id="{{ .Anchor | safeURL }}" class="onpage-ancor"></div>
     {{ .Text | safeHTML }}
   </h3>
 {{ else if eq .Level 4 }}
-  <h4 id="{{ .Anchor | safeURL }}" class="text-base font-semibold text-secondary leading-snug mb-2">
+  <h4 class="relative text-base font-semibold text-secondary leading-snug mb-2 overflow-hidden">
+    <div id="{{ .Anchor | safeURL }}" class="onpage-ancor"></div>
     {{ .Text | safeHTML }}
   </h4>
 {{ else if eq .Level 5 }}
-  <h5 id="{{ .Anchor | safeURL }}" class="text-base font-semibold text-secondary leading-snug mb-2">
+  <h5 class="relative text-base font-semibold text-secondary leading-snug mb-2 overflow-hidden">
+    <div id="{{ .Anchor | safeURL }}" class="onpage-ancor"></div>
     {{ .Text | safeHTML }}
   </h5>
 {{ else }}
-  <h{{ .Level }} id="{{ .Anchor | safeURL }}" class="text-2xl font-regular leading-snug mb-2 mt-8">
+  <h{{ .Level }} class="relative text-2xl font-regular leading-snug mb-2 mt-8 overflow-hidden">
+    <div id="{{ .Anchor | safeURL }}" class="onpage-ancor"></div>
     {{ .Text | safeHTML }}
   </h{{ .Level }}>
 {{ end }}
