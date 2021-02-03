@@ -1,3 +1,7 @@
+{{ define "head" }}
+{{ partial "head/alpine" ( dict "clipboard" "true" "cdn" .Site.Params.loadFromCDN ) }}
+{{ end }}
+
 {{ define "main" }}
 
 {{ $style := "right" }}

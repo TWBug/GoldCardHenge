@@ -2,9 +2,9 @@
 {{ $title := .Get "title" | plainify }}
 {{ $id := md5 ( $title | plainify ) }}
 {{ if eq (.Get "bottomless") "true" }}
-<div class="mt-4 border-t-2 border-secondary border-dashed -ml-4 -mr-4 pt-4 px-4" x-data="taAccordion()" x-init="init()" data-shortcut="false" data-title-show="{{ i18n "show_answer" }}" data-title-hide="{{ i18n "hide_answer" }}">
+<div class="mt-4 border-t-2 border-secondary border-dashed -ml-4 -mr-4 pt-4 px-4" x-data="taAccordion()" x-init="init()" data-shortcut="false" data-clipboard="true" data-title-show="{{ i18n "show_answer" }}" data-title-hide="{{ i18n "hide_answer" }}">
 {{ else }}
-<div class="my-12 border-2 border-secondary border-dashed rounded-xl shadow-xl -ml-4 -mr-4 p-4" x-data="taAccordion()" x-init="init()" data-shortcut="false" data-title-show="{{ i18n "show_answer" }}" data-title-hide="{{ i18n "hide_answer" }}">
+<div class="my-12 border-2 border-secondary border-dashed rounded-xl shadow-xl -ml-4 -mr-4 p-4" x-data="taAccordion()" x-init="init()" data-shortcut="false" data-clipboard="true" data-title-show="{{ i18n "show_answer" }}" data-title-hide="{{ i18n "hide_answer" }}">
 {{ end }}
     <button
         id="{{ printf "accordion-button-%s" $id }}"

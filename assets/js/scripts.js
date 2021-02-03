@@ -1606,9 +1606,7 @@ window.taSearch = function () {
       if (query.length < this.minimum_length) {
         this.reset(false);
         return false;
-      }
-
-      glog(query); // @note Search query is built up here
+      } // @note Search query is built up here
       // Initially we were constructing a query using the `search(string)`
       // approach. This is fine, however, it was giving us issues with the
       // wildcards. Namely, typing an exact term would cause the search
@@ -1619,6 +1617,7 @@ window.taSearch = function () {
       // looking for "license_" with at least one character in the place
       // of the underscore. Initial search approach was as follows:
       //     this.result = window.lunrIndex.search('*' + query + '*')
+
 
       this.result = window.lunrIndex.query(function (qInstance) {
         qInstance.term(query, {
@@ -1643,10 +1642,6 @@ window.taSearch = function () {
   };
   window.searcher = searcher;
   return searcher;
-};
-
-var glog = function glog(s) {
-  console.log('%c' + s, 'font-size:18px;color:gold;');
 };
 
 window.taSearchTrigger = function () {
@@ -1957,9 +1952,11 @@ window.taAccordion = function () {
     show: false,
     link: '',
     shortcut: false,
+    clipboard: '',
     title: '',
     options: {
       shortcut: true,
+      clipboard: false,
       titleShow: '',
       titleHide: ''
     },
@@ -2000,17 +1997,25 @@ window.taAccordion = function () {
       // };
 
 
-      this.options.shortcut = this.options.shortcut == true ? true : false;
+      this.options.shortcut = this.options.shortcut == "true" ? true : false;
 
-      if (this.options.shortcut !== true) {
-        return;
+      if (this.options.shortcut === true) {
+        this.$el.addEventListener('keydown', function (key) {
+          if (key.ctrlKey === true && key.keyCode === 68) {
+            _this.shortcut = !_this.shortcut;
+          }
+        });
       }
 
-      this.$el.addEventListener('keydown', function (key) {
-        if (key.ctrlKey === true && key.keyCode === 68) {
-          _this.shortcut = !_this.shortcut;
-        }
-      });
+      this.options.clipboard = this.options.clipboard == 'true' ? true : false;
+
+      if (this.options.clipboard === true && typeof this.$clipboard === 'function') {
+        this.$el.addEventListener('keydown', function (key) {
+          if (key.ctrlKey === true && key.keyCode === 67) {
+            _this.$clipboard(_this.$el.innerText);
+          }
+        });
+      }
     },
     toggle: function toggle() {
       this.show = !this.show; // if (document.activeElement === this.$refs.button) {

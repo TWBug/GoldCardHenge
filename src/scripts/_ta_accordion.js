@@ -3,9 +3,11 @@ window.taAccordion = function () {
         show: false,
         link: '',
         shortcut: false,
+        clipboard: '',
         title: '',
         options: {
             shortcut: true,
+            clipboard: false,
             titleShow: '',
             titleHide: '',
         },
@@ -18,11 +20,11 @@ window.taAccordion = function () {
             }
 
             if (this.options.titleShow.length > 0) {
-                this.title = this.options.titleShow
+                this.title = this.options.titleShow;
                 this.$watch('show', (value) => {
                     if (value === true) {
                         this.title = this.options.titleHide;
-                        return
+                        return;
                     }
                     this.title = this.options.titleShow;
                 });
@@ -40,17 +42,23 @@ window.taAccordion = function () {
             //     tags: tags,
             // };
 
-
-            this.options.shortcut = this.options.shortcut == true ? true : false;
-            if (this.options.shortcut !== true) {
-                return;
+            this.options.shortcut = this.options.shortcut == "true" ? true : false;
+            if (this.options.shortcut === true) {
+                this.$el.addEventListener('keydown', (key) => {
+                    if (key.ctrlKey === true && key.keyCode === 68) {
+                        this.shortcut = !this.shortcut;
+                    }
+                });
             }
 
-            this.$el.addEventListener('keydown', (key) => {
-                if (key.ctrlKey === true && key.keyCode === 68) {
-                    this.shortcut = !this.shortcut;
-                }
-            });
+            this.options.clipboard = this.options.clipboard == 'true' ? true : false;
+            if (this.options.clipboard === true && typeof this.$clipboard === 'function') {
+                this.$el.addEventListener('keydown', (key) => {
+                    if (key.ctrlKey === true && key.keyCode === 67) {
+                        this.$clipboard(this.$el.innerText)
+                    }
+                });
+            }
         },
         toggle() {
             this.show = !this.show;
