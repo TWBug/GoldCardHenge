@@ -4,9 +4,9 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '21735'
-date: 2021-02-01T16:08:57.842Z
 title: Senior UX/UI Designer
 job_url: 'https://www.cakeresume.com/companies/roehl/jobs/senior-ux-ui-designer-39d342'
+date: 2020-07-22T10:46:24.844Z
 company_name: ROEHL
 company_page_url: 'https://www.cakeresume.com/companies/roehl'
 company_logo_url: >-
@@ -14,7 +14,9 @@ company_logo_url: >-
 salary_text: CNY180000 - CNY340000
 location_list:
   - 'Shanghai, China'
-badges: []
+badges:
+  - Designer
+job_tags: []
 
 ---
 

@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=tech_devops&refi[…]5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '25901'
-date: 2021-02-01T16:08:57.290Z
 title: 可靠性工程師 (SRE，Site Reliability Engineer)
 job_url: >-
   https://www.cakeresume.com/companies/cyrdg.com/jobs/reliability-engineer-sre-site-reliability-engineer
+date: 2021-01-06T05:55:32.505Z
 company_name: 創弈人數位科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/cyrdg.com'
 company_logo_url: >-
@@ -17,6 +17,8 @@ location_list:
   - 台北市
   - 南港
 badges:
+  - DevOps
+job_tags:
   - SRE
   - DevOps
   - Site Reliability Engineer

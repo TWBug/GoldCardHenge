@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=cloud%20computing&locale=en&refinementList%5Bseniority_level%5D%5B0%5D=mid_senior_level&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '19677'
-date: 2021-02-01T16:08:57.651Z
 title: 後端工程師（須具效能調校經驗）
 job_url: >-
   https://www.cakeresume.com/companies/bqool.com/jobs/cloud-computing-engineer-cloud-computing
+date: 2020-04-22T05:38:45.074Z
 company_name: BQool 葳騰科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/bqool.com'
 company_logo_url: >-
@@ -20,7 +20,9 @@ location_list:
   - 台北市
   - 西湖捷運站
 badges:
-  - Csharp
+  - Cloud Computing
+job_tags:
+  - C#
   - MS SQL
   - 軟體程式設計
   - 資料庫系統管理維護

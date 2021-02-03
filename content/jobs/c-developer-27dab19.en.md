@@ -4,9 +4,9 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=cyber%20security&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '9205'
-date: 2021-02-01T16:08:57.003Z
 title: 'C++ Developer '
 job_url: 'https://www.cakeresume.com/companies/trevi/jobs/c-developer-378a78'
+date: 2019-03-11T09:50:11.697Z
 company_name: TREVI 特雷維科技有限公司
 company_page_url: 'https://www.cakeresume.com/companies/trevi'
 company_logo_url: >-
@@ -16,6 +16,8 @@ location_list:
   - 信義區
   - 台北
 badges:
+  - Cyber Security
+job_tags:
   - C++
   - tcp
   - HTTP

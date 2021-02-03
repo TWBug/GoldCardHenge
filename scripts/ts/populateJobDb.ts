@@ -1,16 +1,19 @@
 import assert from 'assert';
 import fs from 'fs';
 import CakeResumeAdapter from './adapters/cakeresume';
-import { IAdapter, IAdapterConstructor, IDBRowJob } from './types/adapter';
+import { IAdapter, IAdapterConstructor, IAdapterOutput } from './types/adapter';
 import yaml from 'js-yaml';
 import crc from 'crc';
 import sluggify from 'limax';
 
-import db from './db';
-import { pathCase } from 'change-case';
+// import db from './db';
 import path from 'path';
 
 const DEBUG = !!process.env.DEBUG;
+
+interface IDBRowJob extends IAdapterOutput {
+    badges: string[];
+}
 
 const MAPPINGS: { [k: string]: IAdapterConstructor } = {
     'www.cakeresume.com': CakeResumeAdapter,
@@ -46,24 +49,35 @@ const getJobs = async (url: string) => {
     return await adapter.getJobs({ headers });
 };
 
+interface IYamlData {
+    label: string;
+    url: string;
+}
+
 const main = async () => {
     const filepath = path.resolve(__dirname, '../../data/job_lists.yaml');
     console.log(`[INFO] Reading URLs from YAML: ${filepath}`);
     const data = yaml.load(fs.readFileSync(filepath, { encoding: 'utf-8' }));
-    // @ts-ignore
-    const urls: string[] = data?.items?.map((x) => x.url);
-    // const result: IDBRowJob[][] = [];
+    // @ts-ignore The yaml lib seems to have poor typing.
+    const urls: IYamlData[] = data?.items;
 
     const result: IDBRowJob[][] = await Promise.all(
-        urls.map((x) => {
-            return getJobs(x).catch((err) => {
-                console.error('[SKIP] The following URL errored. Ignoring and continuing: ', x);
-                if (DEBUG) {
-                    console.log('DEBUG flag set. Error follows:');
-                    console.error(err);
-                }
-                return []; // Ignore the error by returning the appropriate type
-            });
+        urls.map(({ label, url }) => {
+            return getJobs(url)
+                .then((xs) => {
+                    return xs.map((x) => ({ ...x, badges: [label] }));
+                })
+                .catch((err) => {
+                    console.error(
+                        '[SKIP] The following URL errored. Ignoring and continuing: ',
+                        url
+                    );
+                    if (DEBUG) {
+                        console.log('DEBUG flag set. Error follows:');
+                        console.error(err);
+                    }
+                    return []; // Ignore the error by returning the appropriate type
+                });
         })
     );
 
@@ -78,7 +92,7 @@ const main = async () => {
     // Clean output dir
     const oldFiles = fs.readdirSync(outdir);
     console.log();
-    console.log(`Cleaning ${oldFiles.length} outdated job files...`);
+    console.log(`    Cleaning ${oldFiles.length} outdated job files...`);
     oldFiles
         .filter((x) => !x.startsWith('_index'))
         .forEach((filename) => {
@@ -100,22 +114,9 @@ const main = async () => {
     // fs.mkdirSync(path.dirname(outfile), { recursive: true })
     // fs.writeFileSync(outfile, JSON.stringify(jobs, null, 2), { encoding: 'utf-8' });
 
-    console.log();
     console.log(`    ${jobs.length} files written to -> ${outdir}`);
     console.log();
 };
-
-if (require.main === module) {
-    main().then(
-        () => {
-            console.log('Done.');
-        },
-        (err) => {
-            console.error('We ran into some issues...');
-            console.error(err);
-        }
-    );
-}
 
 // NOTE: When dealing with job tags we run into the odd edge cases like "c#" and
 // "c". "c" is a fine tag for a job, but "c#" causes issues since if it ends up
@@ -130,7 +131,22 @@ const stringifyJobTag = (x: string) => {
 };
 
 const toMarkdownString = (x: IDBRowJob) => {
-    const { description, ...frontmatter } = x;
+    // @note fetched_at is only extracted so it doesn't make it into the output
+    // YAML. Since it changes every fetch it causes a data change on every
+    // single job file even if the job has not changed.
+    const { description, fetched_at, ...frontmatter } = x;
     const fm = yaml.dump(frontmatter);
     return `---\n${fm}\n---\n\n${description}`;
 };
+
+if (require.main === module) {
+    main().then(
+        () => {
+            console.log('Done.');
+        },
+        (err) => {
+            console.error('We ran into some issues...');
+            console.error(err);
+        }
+    );
+}

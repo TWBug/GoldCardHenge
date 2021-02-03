@@ -82,17 +82,19 @@ export default class CakeResumeAdapter implements IAdapter {
                 // @note This is the date we scraped the record at, not the date
                 // it was created in the original system we are scraping it
                 // from.
-                date: new Date(),
+                fetched_at: new Date(),
 
                 // About the job itself
                 title: x.title,
                 job_url: jobUrl,
+                date: new Date(x.created_at),
                 company_name: x.page.name,
                 company_page_url: companyUrl,
                 company_logo_url: x.page.logo.medium,
                 salary_text: x.salary_range.map((y) => x.salary_currency + y).join(' - '),
                 location_list: x.location_list,
-                badges: x.tag_list,
+                badges: x.tag_list, // @todo This needs to become the user-generated label, preferably an array of them in the case of job overlap for multiple labels
+                job_tags: x.tag_list,
                 description: x.description_plain_text,
             };
         });

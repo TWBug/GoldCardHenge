@@ -4,9 +4,9 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '25558'
-date: 2021-02-01T16:08:57.842Z
 title: Mid-Senior UI Designer
 job_url: 'https://www.cakeresume.com/companies/onedegree/jobs/mid-senior-ui-designer'
+date: 2020-12-17T07:44:02.394Z
 company_name: OneDegree香港商甯寶管理科技有限公司
 company_page_url: 'https://www.cakeresume.com/companies/onedegree'
 company_logo_url: >-
@@ -14,7 +14,9 @@ company_logo_url: >-
 salary_text: TWD700000 - TWD1400000
 location_list:
   - 信義區
-badges: []
+badges:
+  - Designer
+job_tags: []
 
 ---
 

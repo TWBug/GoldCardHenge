@@ -1,6 +1,6 @@
 import { Defaults as RequestOptions } from 'got';
 
-export interface IDBRowJob {
+export interface IAdapterOutput {
     // The name of the data source. Ex: "Cake Resume"
     data_source_name: string;
 
@@ -15,10 +15,12 @@ export interface IDBRowJob {
     // within the source.
     data_source_internal_id: string;
 
+    // This is the date attached to the job listing. It's nullable in case some providers don't have a date associated with them
+    date: Date | null;
+
     // This is the datetime that the record was created. This data does not come
     // from the source itself.
-    // In the DB this will probably be stored as a string...
-    date: Date;
+    fetched_at: Date;
 
     // Job title
     title: string;
@@ -33,8 +35,11 @@ export interface IDBRowJob {
     // Where is this job
     location_list: string[];
 
+    // The CMS-defined label for a gropu of jobs
+    // badges: string[];
+
     // Any user-defined tags
-    badges: string[];
+    job_tags: string[];
 
     // Name of the company this job is at
     company_name: string;
@@ -50,8 +55,13 @@ export interface IDBRowJob {
 }
 
 export interface IAdapter {
-    // This is the main method for getting jobs. Instantiate with a URL and then call this.
-    getJobs(options?: Partial<RequestOptions>): Promise<IDBRowJob[]>;
+    /**
+     *
+     * This is the main method for getting jobs. Instantiate with a URL and then call this.
+     * @param options HTTP Options to pass to the got lib
+     * @param extra Extra data which will be merged onto the output
+     */
+    getJobs(options?: Partial<RequestOptions>): Promise<IAdapterOutput[]>;
 
     // This is mainly for debugging. Get the raw output that will be parsed
     getRaw(): Promise<string>;

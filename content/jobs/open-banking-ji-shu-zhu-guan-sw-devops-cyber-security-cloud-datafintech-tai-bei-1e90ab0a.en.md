@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=cyber%20security&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '20961'
-date: 2021-02-01T16:08:57.003Z
 title: 'Open banking技術主管 <SW DevOps + Cyber Security + Cloud + Data>(Fintech, 台北)'
 job_url: >-
   https://www.cakeresume.com/companies/alpha-human-resource-consulting-co-ltd/jobs/commerce-manager-american-commodity-taipei
+date: 2020-06-12T07:29:09.831Z
 company_name: 'Alpha Human Resource Consulting Co., Ltd 萬豐人力資源'
 company_page_url: 'https://www.cakeresume.com/companies/alpha-human-resource-consulting-co-ltd'
 company_logo_url: >-
@@ -16,6 +16,8 @@ salary_text: TWD1800000 - TWD2400000
 location_list:
   - 台北
 badges:
+  - Cyber Security
+job_tags:
   - scrummaster
   - Agile development
   - RESTful web services

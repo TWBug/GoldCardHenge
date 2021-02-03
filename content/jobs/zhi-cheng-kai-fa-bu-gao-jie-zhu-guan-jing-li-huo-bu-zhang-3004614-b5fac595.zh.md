@@ -4,9 +4,9 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=semiconductor&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '26172'
-date: 2021-02-01T16:08:56.696Z
 title: 製程開發部高階主管 (經理或部長) (3004614)
 job_url: 'https://www.cakeresume.com/companies/1111headhunt/jobs/6a4527'
+date: 2021-01-15T07:40:27.658Z
 company_name: 1111高階獵頭顧問中心
 company_page_url: 'https://www.cakeresume.com/companies/1111headhunt'
 company_logo_url: >-
@@ -16,6 +16,8 @@ location_list:
   - 台灣
   - 苗栗
 badges:
+  - Semiconductor
+job_tags:
   - 半導體
   - 製程開發
   - process manufacturing

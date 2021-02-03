@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=tech_devops&refi[…]5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '5483'
-date: 2021-02-01T16:08:57.290Z
 title: Sr. Software Engineer - SRE
 job_url: >-
   https://www.cakeresume.com/companies/shopback/jobs/taiwan-senior-software-engineer-devops
+date: 2018-05-11T07:00:20.730Z
 company_name: ShopBack 回饋網股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/shopback'
 company_logo_url: >-
@@ -19,6 +19,8 @@ location_list:
   - 松山區
   - 台北市
 badges:
+  - DevOps
+job_tags:
   - python
   - Perl
   - Bash

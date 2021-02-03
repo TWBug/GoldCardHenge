@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=tech_devops&refi[…]5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '11814'
-date: 2021-02-01T16:08:57.290Z
 title: Site Reliability Engineer
 job_url: >-
   https://www.cakeresume.com/companies/maicoin/jobs/site-reliability-engineer-15cb37
+date: 2019-07-11T07:52:35.053Z
 company_name: MaiCoin
 company_page_url: 'https://www.cakeresume.com/companies/maicoin'
 company_logo_url: >-
@@ -18,6 +18,8 @@ location_list:
   - 台北
   - 台灣
 badges:
+  - DevOps
+job_tags:
   - Kubernetes
   - Chef
   - Docker

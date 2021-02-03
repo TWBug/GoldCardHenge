@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '25133'
-date: 2021-02-01T16:08:56.800Z
 title: Software QA Engineer (Operation System)
 job_url: >-
   https://www.cakeresume.com/companies/morgan-philips-hong-kong-limited-taiwan-branch/jobs/software-qa-engineer-operation-system
+date: 2020-12-02T02:18:02.431Z
 company_name: Morgan Philips Group 香港商博禹國際顧問有限公司台灣分公司
 company_page_url: >-
   https://www.cakeresume.com/companies/morgan-philips-hong-kong-limited-taiwan-branch
@@ -18,6 +18,8 @@ location_list:
   - 台北
   - 台灣
 badges:
+  - Mechanical engineer
+job_tags:
   - linux
   - test
   - Quality Assurance

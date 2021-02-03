@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=cyber%20security&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '24400'
-date: 2021-02-01T16:08:57.003Z
 title: Senior Back End Engineer -Cyber SAAS Product
 job_url: >-
   https://www.cakeresume.com/companies/onedegree/jobs/senior-back-end-engineer-node-js
+date: 2020-11-04T09:39:02.113Z
 company_name: OneDegree香港商甯寶管理科技有限公司
 company_page_url: 'https://www.cakeresume.com/companies/onedegree'
 company_logo_url: >-
@@ -15,7 +15,9 @@ company_logo_url: >-
 salary_text: TWD1400000 - TWD1800000
 location_list:
   - 台北
-badges: []
+badges:
+  - Cyber Security
+job_tags: []
 
 ---
 

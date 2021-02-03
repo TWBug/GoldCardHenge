@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '25964'
-date: 2021-02-01T16:08:56.800Z
 title: Service Engineer-General (3000100)
 job_url: >-
   https://www.cakeresume.com/companies/1111headhunt/jobs/service-engineer-general-3000100
+date: 2021-01-08T06:36:43.868Z
 company_name: 1111高階獵頭顧問中心
 company_page_url: 'https://www.cakeresume.com/companies/1111headhunt'
 company_logo_url: >-
@@ -17,6 +17,8 @@ location_list:
   - 台灣
   - 桃園
 badges:
+  - Mechanical engineer
+job_tags:
   - CAD
   - 技術專家
   - electrical

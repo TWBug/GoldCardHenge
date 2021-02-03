@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=marketing%20international&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '25315'
-date: 2021-02-01T16:08:56.739Z
 title: 資深社群行銷專員Senior Social Media Marketing Specialist
 job_url: >-
   https://www.cakeresume.com/companies/viewsonic-international-corporation/jobs/senior-social-media-marketing-specialist
+date: 2020-12-08T01:47:38.186Z
 company_name: ViewSonic International Corporation
 company_page_url: 'https://www.cakeresume.com/companies/viewsonic-international-corporation'
 company_logo_url: >-
@@ -20,6 +20,8 @@ location_list:
   - 中和區
   - 中和
 badges:
+  - Marketing International
+job_tags:
   - Social Media Marketing
   - Social Media
   - social media marketing

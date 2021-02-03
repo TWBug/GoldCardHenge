@@ -1326,7 +1326,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 window.taSearch = function () {
   // not needed min length defined in the template
   // var is_chinese_ui = window.location.pathname.startsWith('/zh/');
-  return {
+  var searcher = {
     initialized: false,
     visible: false,
     query: '',
@@ -1608,7 +1608,26 @@ window.taSearch = function () {
         return false;
       }
 
-      this.result = window.lunrIndex.search('*' + query + '*').map(function (result) {
+      glog(query); // @note Search query is built up here
+      // Initially we were constructing a query using the `search(string)`
+      // approach. This is fine, however, it was giving us issues with the
+      // wildcards. Namely, typing an exact term would cause the search
+      // results to disappear, because unlike regex a Lunr `*` wildcard
+      // tries to match at least one char. So searching "licens" would
+      // turn up results for the english word "license" but searching the
+      // whole word would result in an empty result set since it was
+      // looking for "license_" with at least one character in the place
+      // of the underscore. Initial search approach was as follows:
+      //     this.result = window.lunrIndex.search('*' + query + '*')
+
+      this.result = window.lunrIndex.query(function (qInstance) {
+        qInstance.term(query, {
+          wildcard: lunr.Query.wildcard.TRAILING
+        });
+        qInstance.term(query, {
+          wildcard: lunr.Query.wildcard.NONE
+        });
+      }).map(function (result) {
         return window.lunrPages.find(function (page) {
           return page.href === result.ref;
         });
@@ -1622,6 +1641,12 @@ window.taSearch = function () {
       }
     }
   };
+  window.searcher = searcher;
+  return searcher;
+};
+
+var glog = function glog(s) {
+  console.log('%c' + s, 'font-size:18px;color:gold;');
 };
 
 window.taSearchTrigger = function () {

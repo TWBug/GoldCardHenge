@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '20261'
-date: 2021-02-01T16:08:56.800Z
 title: EE&SI Engineer (3002183)
 job_url: >-
   https://www.cakeresume.com/companies/1111headhunt/jobs/ee-amp-si-engineer-3002183
+date: 2020-05-15T08:49:04.849Z
 company_name: 1111高階獵頭顧問中心
 company_page_url: 'https://www.cakeresume.com/companies/1111headhunt'
 company_logo_url: >-
@@ -17,6 +17,8 @@ location_list:
   - 中國
   - 福建
 badges:
+  - Mechanical engineer
+job_tags:
   - 電子工程師
   - PCB
   - 產品開發

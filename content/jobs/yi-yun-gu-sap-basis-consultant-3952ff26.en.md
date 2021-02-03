@@ -4,9 +4,9 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '7099'
-date: 2021-02-01T16:08:56.370Z
 title: '[伊雲谷] SAP Basis Consultant'
 job_url: 'https://www.cakeresume.com/companies/ecloudvalley/jobs/sap-consultant'
+date: 2018-10-01T08:08:11.554Z
 company_name: 伊雲谷數位股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/ecloudvalley'
 company_logo_url: >-
@@ -16,6 +16,8 @@ location_list:
   - 新北
   - 台北
 badges:
+  - Software  architecture
+job_tags:
   - SAP
   - AWS
   - Cloud Services

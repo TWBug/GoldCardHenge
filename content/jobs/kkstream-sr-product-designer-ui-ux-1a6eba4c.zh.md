@@ -4,10 +4,10 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '26108'
-date: 2021-02-01T16:08:57.842Z
 title: '[KKStream] Sr. Product Designer (UI/UX)'
 job_url: >-
   https://www.cakeresume.com/companies/kkboxgroup/jobs/kkstream-sr-product-designer-ui-ux
+date: 2021-01-14T07:58:17.073Z
 company_name: KKBOX Group
 company_page_url: 'https://www.cakeresume.com/companies/kkboxgroup'
 company_logo_url: >-
@@ -18,6 +18,8 @@ location_list:
   - 捷運南港展覽館站
   - 南港軟題園區
 badges:
+  - Designer
+job_tags:
   - UXUI designer
   - UX
 
