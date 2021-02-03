@@ -42,7 +42,7 @@ window.taAccordion = function () {
             //     tags: tags,
             // };
 
-            this.options.shortcut = this.options.shortcut == "true" ? true : false;
+            this.options.shortcut = this.options.shortcut == 'true' ? true : false;
             if (this.options.shortcut === true) {
                 this.$el.addEventListener('keydown', (key) => {
                     if (key.ctrlKey === true && key.keyCode === 68) {
@@ -55,7 +55,7 @@ window.taAccordion = function () {
             if (this.options.clipboard === true && typeof this.$clipboard === 'function') {
                 this.$el.addEventListener('keydown', (key) => {
                     if (key.ctrlKey === true && key.keyCode === 67) {
-                        this.$clipboard(this.$el.innerText)
+                        this.$clipboard(this.$el.innerText);
                     }
                 });
             }

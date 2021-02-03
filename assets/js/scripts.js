@@ -1997,7 +1997,7 @@ window.taAccordion = function () {
       // };
 
 
-      this.options.shortcut = this.options.shortcut == "true" ? true : false;
+      this.options.shortcut = this.options.shortcut == 'true' ? true : false;
 
       if (this.options.shortcut === true) {
         this.$el.addEventListener('keydown', function (key) {
