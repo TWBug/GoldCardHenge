@@ -364,9 +364,14 @@ en:
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
       info: ""
       provide: >-
-        - proof of employment, showing more than 10 years in publishing or media
+        * Certificates of serving in the authoritative international media or
+        the publishing houses, as chief editor, senior executive or certified
+        copywriter agent , and certificates of work experience in publishing or
+        mass communication for more than a decade.
 
-        - proof you have served at a major international media or a major publishing house a chief editor, senior executive, certified copywriter agent, manager, assistant general manager, deputy general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, deputy director-general, director-general, vice president, president, responsible person, chief editor, deputy managing editor, managing editor, deputy general director, general director, or other similar position. Examples of 'international media': US News and World Report, The New York Times, The Washington Post, The Financial Times, Associated Press, Reuters, L’ Agence France-Press, Time, Life, National Geographic. Yazhou Zhoukan (Hong Kong),Example major publishing house: Penguin Random House, HarperCollins Publishers LLC,
+          1. The authoritative international media: The international print news media or news agency of at least two pages in length and serving a national or global audience of readers. Examples include but not limit US News and World Report, The New York Times, The Washington Post, The Financial Times, Associated Press, Reuters, L’ Agence France-Press, Time, Life, National Geographic. Yazhou Zhoukan (Hong Kong), and other publications or news agencies acknowledged by the MOC.
+          2. The publishing houses include but not limit Penguin Random House, HarperCollins Publishers LLC, or other publishing houses acknowledged by the MOC.
+          3. Senior managers of the print media indicate manager, assistant general manager, deputy general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, deputy director-general, director-general, vice president, president, responsible person, chief editor, deputy managing editor, managing editor, deputy general director, general director, other similar position, or other individuals reviewed and approved of by the MOC.
       notes: ""
       weight: 30
     - ministry: MOC
@@ -1095,9 +1100,11 @@ zh:
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
       info: ""
       provide: >-
-        - proof of employment, showing more than 10 years in publishing or media
+        * 擔任國際權威性媒體、出版社主編或高階主管、版權經紀人證明影本，及從事出版或大眾傳播工作經驗十年以上之證明影本。
 
-        - proof you have served at a major international media or a major publishing house a chief editor, senior executive, certified copywriter agent, manager, assistant general manager, deputy general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, deputy director-general, director-general, vice president, president, responsible person, chief editor, deputy managing editor, managing editor, deputy general director, general director, or other similar position. Examples of 'international media': US News and World Report, The New York Times, The Washington Post, The Financial Times, Associated Press, Reuters, L’ Agence France-Press, Time, Life, National Geographic. Yazhou Zhoukan (Hong Kong),Example major publishing house: Penguin Random House, HarperCollins Publishers LLC,
+          1. 國際權威性媒體：以國家、重要城市為名、至少以二個版面以上刊登國際新聞、且發行對象以全國或全球讀者為目標之平面媒體或通訊社，例如《美國新聞與世界報導》(U.S. News & World Report)、《紐約時報》(The New York Times)、《華盛頓郵報》(The Washington Post)、《英國金融時報》(The Financial Times)、《日本產經新聞》(産経ニュース)、美國聯合通訊社（Associated Press）、英國路透社(The Reuters)、法國新聞社（L’Agence France-Presse）、美國時代雜誌(Time)、生活雜誌(Life)、國家地理雜誌(National Geographic)、香港亞洲周刊…等，或其他經文化部審查認定之平面媒體或通訊社。
+          2. 出版社部分，例如企鵝藍燈書屋（Penguin Random House）、哈潑柯林斯出版集團（HarperCollins Publishers LLC）…等或其他經文化部審查認定之出版社。
+          3. 高階主管：該媒體機構或組織之經理、協理、副總經理、總經理、副董事長、董事長、副執行長、執行長、副社長、社長、副理事長、理事長、副會長、會長、負責人、主編、副總編輯、總編輯、副總監、總監等或其他相類位階主管職者。
       notes: ""
       weight: 30
     - ministry: MOC
