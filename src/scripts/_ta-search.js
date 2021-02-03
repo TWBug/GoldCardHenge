@@ -252,7 +252,6 @@ window.taSearch = function () {
                 this.reset(false);
                 return false;
             }
-            glog(query);
             // @note Search query is built up here
             // Initially we were constructing a query using the `search(string)`
             // approach. This is fine, however, it was giving us issues with the
@@ -285,9 +284,6 @@ window.taSearch = function () {
 
     window.searcher = searcher;
     return searcher;
-};
-const glog = (s) => {
-    console.log('%c' + s, 'font-size:18px;color:gold;');
 };
 
 window.taSearchTrigger = function () {
