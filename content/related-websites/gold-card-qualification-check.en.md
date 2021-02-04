@@ -1,10 +1,10 @@
 ---
-title: Gold Card Qualification Check
-link: https://visafinder.tw/gold-card-qualification/
+title: Unofficial Gold Card Community
+link: https://taiwangoldcard.com/
 cover_image: /cms-uploads/gold-card-qualification-check-01.jpg
 draft: false
 hidden: false
 layout: related
 weight: 4
 ---
-This is an unofficial Gold Card Qualification Check. Please tick all that apply to explore ways you may qualify for the Gold Card.
+This is an unofficial website run by the Gold Card Community. You may find some interesting information here.

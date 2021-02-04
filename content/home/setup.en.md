@@ -34,5 +34,5 @@ items:
     href: /qualification/field-of-sport
 ---
 {{< base >}}
-You may also try the [Gold Card Qualification Check](https://visafinder.tw/gold-card-qualification/) to see which criteria you can consider in your application.
+You may also try the [Gold Card Qualification Check](/en/apply/step-1/) to see which criteria you can consider in your application.
 {{< /base >}}
