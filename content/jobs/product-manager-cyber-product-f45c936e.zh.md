@@ -14,7 +14,7 @@ company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--xqiEHvO1--/c_pad,fl_png8,h_200,w_200/v1578296147/zhabcskfo2ifv72dmwtx.png
 salary_text: TWD700000 - TWD1200000
 location_list:
-  - ��義區
+  - 信義區
   - 台北
 badges:
   - Cyber Security

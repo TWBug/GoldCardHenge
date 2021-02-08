@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '24330'
-title: '[KKStream] Technical Product / Program Manager'
+title: '[KKStream] Technical Product / Program Manager (BlendVision)'
 job_url: >-
   https://www.cakeresume.com/companies/kkboxgroup/jobs/kkstream-product-manager-planner-video-streaming
 date: 2020-11-03T05:20:34.589Z

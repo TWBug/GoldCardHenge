@@ -24,4 +24,4 @@ job_tags: []
 
 ---
 
-Key responsibilities: In charge of Mechanical Engineering of networking products such as AP, antenna, power supply or charger. Responsible for product spec define and system architecture design Evaluate new and existing products to improve future design
+Key responsibilities： In charge of Mechanical Engineering of networking products such as AP, antenna, power supply or charger. Responsible for product spec define and system architecture design Evaluate new and existing products to improve future design

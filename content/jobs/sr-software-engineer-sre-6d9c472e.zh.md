@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=tech_devops&refi[…]5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
+  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '5483'
 title: Sr. Software Engineer - SRE
 job_url: >-
@@ -19,7 +19,7 @@ location_list:
   - 松山區
   - 台北市
 badges:
-  - DevOps
+  - Software
 job_tags:
   - python
   - Perl
