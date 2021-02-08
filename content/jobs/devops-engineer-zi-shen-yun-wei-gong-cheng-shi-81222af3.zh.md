@@ -2,9 +2,9 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=cloud%20computing&locale=en&refinementList%5Bseniority_level%5D%5B0%5D=mid_senior_level&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
+  https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '15863'
-title: DevOps Engineer_資深運維工程師
+title: 'DevOps Engineer_資深運維工程師 '
 job_url: >-
   https://www.cakeresume.com/companies/opennet-limited/jobs/senior-devops-engineer-senior-operations-engineer
 date: 2019-11-25T07:31:09.600Z
@@ -23,7 +23,7 @@ location_list:
   - 台北
   - 台灣
 badges:
-  - Cloud Computing
+  - Software  architecture
 job_tags:
   - Java
   - MySQL
