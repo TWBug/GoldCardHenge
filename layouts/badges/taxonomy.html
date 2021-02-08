@@ -48,7 +48,7 @@
                                     {{ if i18n (.Title | anchorize) }}
                                     {{ i18n (.Title | anchorize) }}
                                     {{ else }}
-                                    {{ .Title | humanize }}
+                                    {{ .Title }}
                                     {{ end }}
                                 </span>
                             </li>
@@ -60,7 +60,7 @@
                     {{ if i18n (.Title | anchorize) }}
                     {{ i18n (.Title | anchorize) }}
                     {{ else }}
-                    {{ .Title | humanize }}
+                    {{ .Title }}
                     {{ end }}
                 </h1>
                 <p class="text-lg font-medium leading-relaxed">{{ $jobs.Summary }}</p>
@@ -84,8 +84,7 @@
                     </section>
                     {{ end }}
 
-
-                    {{ if ne (len $paginator.Pages) $paginator.NumberOfElements }}
+                    {{ if ne (len .Pages) $paginator.NumberOfElements }}
                     <div class="border-t-2 border-secondary border-dashed mt-8 px-4">
                         {{ partial "pagination" . }}
                     </div>
@@ -98,13 +97,12 @@
                     {{ end }}
 
                 </div>
-                <div class="print:hidden -mt-12">
-                    <aside>
+                <aside>
+                    <div class="print:hidden h-full -mt-12">
                         {{ partial "aside/job-listings" . }}
-                        {{ partial "aside/all-badges" . }}
                         {{ partial "aside/apply-now" . }}
-                    </aside>
-                </div>
+                    </div>
+                </aside>
             </div>
         </div>
     </section>

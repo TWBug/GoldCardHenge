@@ -13,4 +13,20 @@
             {{ i18n "job_listing_info" }}
         </p>
     </div>
+    <ul class="block pt-6 pl-2">
+        {{ range .Site.Taxonomies.badges }}
+        <li class="inline-block bg-primary rounded-lg text-white text-sm mr-2 mb-2">
+            <a href="{{ .Page.Permalink }}" class="flex items-center px-3 py-1 focus-primary">
+              {{ partial "icon" (dict "name" "tag" "size" "3") }}
+              <span class="font-bold uppercase ml-2">
+                {{ if i18n (.Page.Title | anchorize) }}
+                {{ i18n (.Page.Title | anchorize) }} ({{ .Count }})
+                {{ else }}
+                {{ .Page.Title }} ({{ .Count }})
+                {{ end }}
+              </span>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
 </div>
