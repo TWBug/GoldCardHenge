@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/sandline-discovery'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--UiHoiirP--/c_pad,fl_png8,h_200,w_200/v1600059614/xx1ulodu3pjaukjztn6f.png
 salary_text: TWD800000 - TWD1000000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 800000
+salary_max: 1000000
 location_list:
   - 台北
   - 中正區

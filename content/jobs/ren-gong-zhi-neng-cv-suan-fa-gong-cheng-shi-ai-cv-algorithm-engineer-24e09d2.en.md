@@ -12,6 +12,10 @@ company_page_url: 'https://www.cakeresume.com/companies/rogersai'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--An_nyRo6--/c_pad,fl_png8,h_200,w_200/v1590039633/txfg95ywos0nsrd2xvmb.png
 salary_text: TWD1000000 - TWD3000000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 1000000
+salary_max: 3000000
 location_list: []
 badges:
   - AI Engineer

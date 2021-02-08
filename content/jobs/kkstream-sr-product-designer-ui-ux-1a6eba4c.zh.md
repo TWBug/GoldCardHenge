@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/kkboxgroup'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--RqaQjEF4--/c_pad,fl_png8,h_200,w_200/v1604375754/f9qlpok430hwd4k1zx95.png
 salary_text: TWD980000 - TWD0
+salary_currency: TWD
+salary_type: per_year
+salary_min: 980000
+salary_max: 0
 location_list:
   - 台北市
   - 捷運南港展覽館站

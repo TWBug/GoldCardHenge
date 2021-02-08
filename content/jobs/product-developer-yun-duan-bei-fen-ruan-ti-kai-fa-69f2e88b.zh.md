@@ -12,6 +12,10 @@ company_page_url: 'https://www.cakeresume.com/companies/synology-zh-tw'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--bRzpiQqE--/c_pad,fl_png8,h_200,w_200/v1562310837/lyd0wozvo39ycoc8t2ke.png
 salary_text: TWD1000000 - TWD2500000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 1000000
+salary_max: 2500000
 location_list:
   - 台北
   - 台灣

@@ -12,6 +12,10 @@ company_page_url: 'https://www.cakeresume.com/companies/gliacloud'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--NnKfi_sm--/c_pad,fl_png8,h_200,w_200/v1565941306/toliwpxmw5sg8nrwuujs.png
 salary_text: TWD600000 - TWD1200000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 600000
+salary_max: 1200000
 location_list:
   - 台北
 badges:

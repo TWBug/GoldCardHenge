@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/moni-media'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--JTs5HF5F--/c_pad,fl_png8,h_200,w_200/v1610349414/wmhtrdp2ua6hkdbphj97.png
 salary_text: TWD750000 - TWD1300000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 750000
+salary_max: 1300000
 location_list:
   - 台北
 badges:

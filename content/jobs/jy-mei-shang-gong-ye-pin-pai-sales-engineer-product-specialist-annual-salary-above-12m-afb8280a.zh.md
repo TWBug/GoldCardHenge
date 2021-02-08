@@ -12,6 +12,10 @@ company_page_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--8jzlPgwu--/c_pad,fl_png8,h_200,w_200/v1566176619/pxugexvfcc68sz5kf2sn.png
 salary_text: TWD1200000 - TWD1500000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 1200000
+salary_max: 1500000
 location_list:
   - 台北
   - 台灣

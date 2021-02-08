@@ -12,6 +12,10 @@ company_page_url: 'https://www.cakeresume.com/companies/icard-ai'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--4hQDZiO6--/c_pad,fl_png8,h_200,w_200/v1588138648/wobidf4op2fgkpipzunf.png
 salary_text: TWD1500000 - TWD2500000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 1500000
+salary_max: 2500000
 location_list:
   - 信義區
   - 台北

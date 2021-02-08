@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/Luxshare-f539e5'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--X714GhOM--/c_pad,fl_png8,h_200,w_200/v1608280873/rnltccw6rken1feye2vv.png
 salary_text: TWD650000 - TWD1000000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 650000
+salary_max: 1000000
 location_list:
   - 內湖區
 badges:

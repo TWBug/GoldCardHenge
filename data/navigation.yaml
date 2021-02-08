@@ -45,6 +45,8 @@ en:
         image: cms-uploads/navigation-resources-header.jpg
         text: Looking for some more help? Here are some resources to browse through.
         links:
+          - name: Jobs
+            link: /jobs
           - name: Help-Desk
             link: /help-desk/
           - name: Related Websites
@@ -96,6 +98,8 @@ zh:
         image: cms-uploads/navigation-resources-header.jpg
         text: 提供專人聯繫方式、更多關於就業金卡的可用資源。
         links:
+          - name: 工作
+            link: /jobs
           - name: 聯繫我們
             link: /help-desk
           - name: 相關網站

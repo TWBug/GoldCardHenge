@@ -12,6 +12,10 @@ company_page_url: 'https://www.cakeresume.com/companies/1111headhunt'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--5DKHug43--/c_pad,fl_png8,h_200,w_200/v1531993906/jlp8g9p7p6bf58jc0zju.png
 salary_text: TWD1500000 - TWD2000000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 1500000
+salary_max: 2000000
 location_list:
   - 台灣
   - 苗栗

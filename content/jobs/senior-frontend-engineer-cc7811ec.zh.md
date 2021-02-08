@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/insearch'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--9dhdcOiu--/c_pad,fl_png8,h_200,w_200/v1610522688/ppnzb1veba43cha2rznf.png
 salary_text: TWD1800000 - TWD2000000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 1800000
+salary_max: 2000000
 location_list:
   - 台北
 badges:

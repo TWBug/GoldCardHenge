@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/gomore-me-e214b4'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--wPaKgECD--/c_pad,fl_png8,h_200,w_200/v1602730312/sjfbvc4ymgccoetlsfzh.png
 salary_text: TWD12000000 - TWD2000000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 12000000
+salary_max: 2000000
 location_list:
   - 新店區
   - 台北

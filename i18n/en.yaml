@@ -238,6 +238,14 @@
   translation: 'Thank you. We will be in touch!'
 - id: noscript_home_map_info
   translation: 'With activated javascript you would see more details about the Gold Card Community, were some members are from and what they do.'
+- id: goto_first_page
+  translation: 'Go to first page'
+- id: goto_previous_page
+  translation: 'Go to previous page'
+- id: goto_next_page
+  translation: 'Go to next page'
+- id: goto_last_page
+  translation: 'Go to last page'
 
 - id: undefined
   translation: 'UNDEFINED'
@@ -301,3 +309,41 @@
   translation: 'Nature'
 - id: transportation
   translation: 'Transportation'
+  
+- id: per_year
+  translation: 'per year'
+- id: per_month
+  translation: 'per month'
+  
+
+# Job categories (badges)
+- id: ai-engineer
+  translation: 'AI engineer'
+- id: designer
+  translation: 'Designer'
+- id: devops
+  translation: 'DevOps'
+- id: frontend
+  translation: 'Frontend developer'
+- id: mechanical-engineer
+  translation: 'Mechanical engineer'
+- id: project-manager
+  translation: 'Project manager'
+- id: software-architecture
+  translation: 'Software architecture'
+- id: software
+  translation: 'Software'
+- id: industrial-engineer
+  translation: 'Industrial engineer'
+- id: cloud-computing
+  translation: 'Cloud computing'
+- id: iot-solution
+  translation: 'IOT solution'
+- id: marketing-international
+  translation: 'Marketing international'
+- id: cyber-security
+  translation: 'Cyber security'
+- id: semiconductor
+  translation: 'Semiconductor'
+- id: finance
+  translation: 'Finance'

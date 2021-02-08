@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/bqool.com'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--amgJju7V--/c_pad,fl_png8,h_200,w_200/v1561958302/yligtkcjaxxred2qbrmq.png
 salary_text: TWD900000 - TWD1200000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 900000
+salary_max: 1200000
 location_list:
   - 內湖科技園區
   - 西湖捷運站

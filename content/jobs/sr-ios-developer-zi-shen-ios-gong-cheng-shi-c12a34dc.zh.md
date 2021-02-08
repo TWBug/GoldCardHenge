@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/tomofun'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--Lnjf32Kn--/c_pad,fl_png8,h_200,w_200/v1594890273/ztfrcn5jli33qaw9bpsz.png
 salary_text: TWD900000 - TWD1600000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 900000
+salary_max: 1600000
 location_list:
   - 台北
 badges:

@@ -12,6 +12,10 @@ company_page_url: 'https://www.cakeresume.com/companies/fst-network'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--NGWUpByz--/c_pad,fl_png8,h_200,w_200/v1610531404/ac8gnbsgjgcdjqkqsdk8.png
 salary_text: TWD780000 - TWD1300000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 780000
+salary_max: 1300000
 location_list:
   - 新北市
   - 中和區

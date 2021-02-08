@@ -46,13 +46,30 @@
         <div class="text-base font-medium">
             {{ .Content | truncate 180 }}
         </div>
-        {{ if .Params.salary_text }}
-        <div class="flex items-center text-base font-bold text-water-600 border-b-2 border-t-2 border-gray-300 border-dashed py-4 my-4 -ml-2 pl-2">
-            <div class="flex-center w-5 mr-2">
-                {{ partial "icon" (dict "name" "dollar-sign" "size" "6") }}
+        {{ if .Params.salary_currency }}
+            {{ $min := float .Params.salary_min }}
+            {{ $max := float .Params.salary_max }}
+            <div class="flex items-center text-base font-bold text-water-600 border-b-2 border-t-2 border-gray-300 border-dashed py-4 my-4 -ml-2 pl-2">
+                <div class="flex-center w-5 mr-2">
+                    {{ partial "icon" (dict "name" "dollar-sign" "size" "6") }}
+                </div>
+                {{ .Params.salary_currency }}
+                {{ if ge $max $min  }}
+                {{ lang.NumFmt 0 $min }} - {{ lang.NumFmt 0 $max }}
+                {{ else }}
+                {{ lang.NumFmt 0 $max }} - {{ lang.NumFmt 0 $min }}
+                {{ end }}
+                {{ if .Params.salary_type }}
+                ({{ i18n .Params.salary_type }})
+                {{ end }}
             </div>
-            {{ .Params.salary_text }}
-        </div>
+        {{ else if .Params.salary_text }}
+            <div class="flex items-center text-base font-bold text-water-600 border-b-2 border-t-2 border-gray-300 border-dashed py-4 my-4 -ml-2 pl-2">
+                <div class="flex-center w-5 mr-2">
+                    {{ partial "icon" (dict "name" "dollar-sign" "size" "6") }}
+                </div>
+                {{ .Params.salary_text }}
+            </div>
         {{ end }}
         {{ if .Params.types }}
         <div class="flex items-center text-xs font-bold text-water-600 my-4">

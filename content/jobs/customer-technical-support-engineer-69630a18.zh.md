@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/infuseai'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--rkKoAp-j--/c_pad,fl_png8,h_200,w_200/v1599116834/cxaf2uwm0l8wrvazu3ms.png
 salary_text: TWD700000 - TWD1235000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 700000
+salary_max: 1235000
 location_list:
   - 台灣
 badges:

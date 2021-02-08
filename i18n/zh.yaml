@@ -31,7 +31,7 @@
 - id: reading_time
   translation: '閱讀時間: %d 分鍾'
 - id: read_more
-  translation: "了解更多"
+  translation: '了解更多'
 - id: show_answer
   translation: '顯示答案'
 - id: hide_answer
@@ -159,15 +159,15 @@
 - id: check_list_info
   translation: '使用個人檢查表可以使您更輕鬆地記住是否已完成申請流程的所有步驟。'
 - id: check_list_continue
-  translation: "繼續"
+  translation: '繼續'
 - id: check_list_finished
-  translation: "全部完成"
+  translation: '全部完成'
 - id: check_info
-  translation: "您可以使個人檢查清單保持最新狀態，以便更輕鬆地記住完成了哪些步驟以及清單上還有哪些步驟。"
+  translation: '您可以使個人檢查清單保持最新狀態，以便更輕鬆地記住完成了哪些步驟以及清單上還有哪些步驟。'
 - id: check_remove_info
-  translation: "要刪除您的“完成”，您可以點擊"
+  translation: '要刪除您的“完成”，您可以點擊'
 - id: check_remove_button
-  translation: "刪除支票"
+  translation: '刪除支票'
 - id: located
   translation: '居住地'
 - id: timezone
@@ -234,7 +234,15 @@
   translation: '謝謝。 我們將聯繫！'
 - id: noscript_home_map_info
   translation: '使用激活的javascript，您將看到有關Gold Card社區的更多詳細信息，一些成員來自何處以及他們的工作。'
-  
+- id: goto_first_page
+  translation: '轉到第一頁'
+- id: goto_previous_page
+  translation: '轉到上一頁'
+- id: goto_next_page
+  translation: '轉到下一頁'
+- id: goto_last_page
+  translation: '轉到最後一頁'
+
 - id: undefined
   translation: 'UNDEFINED'
 - id: card
@@ -255,7 +263,7 @@
   translation: 'Twitter'
 - id: linkedin
   translation: 'LinkedIn'
-  
+
 - id: application
   translation: '申請相關'
 - id: general
@@ -299,3 +307,40 @@
   translation: '性質'
 - id: transportation
   translation: '運輸'
+  
+- id: per_year
+  translation: '每年'
+- id: per_month
+  translation: '每月'
+
+# Job categories (badges)
+- id: ai-engineer
+  translation: 'AI 工程師'
+- id: designer
+  translation: '設計師'
+- id: devops
+  translation: 'DevOps'
+- id: frontend
+  translation: 'Frontend developer'
+- id: mechanical-engineer
+  translation: '機械工程師'
+- id: project-manager
+  translation: '專案經理'
+- id: software-architecture
+  translation: '軟件架構'
+- id: software
+  translation: '軟件'
+- id: industrial-engineer
+  translation: '工業工程師'
+- id: cloud-computing
+  translation: '雲計算'
+- id: iot-solution
+  translation: 'IOT 解'
+- id: marketing-international
+  translation: '國際營銷'
+- id: cyber-security
+  translation: '網絡安全'
+- id: semiconductor
+  translation: '半導體'
+- id: finance
+  translation: '金融'

@@ -12,6 +12,10 @@ company_page_url: 'https://www.cakeresume.com/companies/PicCollage'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--GXCe09RR--/c_pad,fl_png8,h_200,w_200/v1516267311/page__logo_1482125639.png
 salary_text: TWD1000000 - TWD1800000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 1000000
+salary_max: 1800000
 location_list:
   - 台北
 badges:
