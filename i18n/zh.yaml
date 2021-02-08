@@ -234,6 +234,8 @@
   translation: '謝謝。 我們將聯繫！'
 - id: noscript_home_map_info
   translation: '使用激活的javascript，您將看到有關Gold Card社區的更多詳細信息，一些成員來自何處以及他們的工作。'
+- id: goto_first_page
+  translation: 'Go to first page'
 
 - id: undefined
   translation: 'UNDEFINED'
