@@ -1,8 +1,7 @@
 ---
 title: 「外國特定專業人才」定義為何？
 draft: false
-categories:
-  - about
+categories: null
 tags:
   - General
 ---

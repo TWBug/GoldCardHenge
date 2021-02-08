@@ -1,8 +1,7 @@
 ---
 title: How inquire about the status of an Employment Gold Card application?
 draft: false
-categories:
-  - application
+categories: null
 tags:
   - Application
 ---

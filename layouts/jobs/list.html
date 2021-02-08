@@ -30,7 +30,7 @@
             <div class="replace w-full md:w-2/3">
                 {{ partial "breadcrumb" . }}
                 <h1 class="text-5xl leading-tight font-semibold my-2">
-                    {{ .Title | truncate 120 }}
+                    {{ .Title | truncate 120 }} ({{ len .Pages }})
                 </h1>
                 <p class="text-lg font-medium leading-relaxed">{{ .Summary | truncate 200 }}</p>
             </div>

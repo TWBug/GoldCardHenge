@@ -1,8 +1,7 @@
 ---
 title: 如何查詢就業金卡申請進度?
 draft: false
-categories:
-  - application
+categories: null
 tags:
   - Application
 ---

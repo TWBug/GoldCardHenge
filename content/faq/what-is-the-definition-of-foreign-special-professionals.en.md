@@ -1,8 +1,7 @@
 ---
 title: What is the definition of "foreign special professionals"?
 draft: false
-categories:
-  - about
+categories: null
 tags:
   - General
 ---

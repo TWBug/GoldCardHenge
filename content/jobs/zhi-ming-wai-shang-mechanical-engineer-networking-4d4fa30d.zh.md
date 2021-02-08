@@ -23,4 +23,4 @@ job_tags: []
 
 ---
 
-Key responsibilities : In charge of Mechanical Engineering of networking products such as AP, routers, switches etc. Responsible for product spec define and system architecture design Evaluate new and existing products to improve future designs
+Key responsibilities: In charge of Mechanical Engineering of networking products such as AP, routers, switches etc. Responsible for product spec define and system architecture design Evaluate new and existing products to improve future designs

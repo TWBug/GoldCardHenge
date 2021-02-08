@@ -1,17 +1,16 @@
-en:
-    items:
-        - Industry Information
-        - Humans of Taiwan
-        - Discover Taiwan
-        - Other
-        - Gold Card Policy
-        - Announcement
-
 zh:
-    items:
-        - 行業資料
-        - 台灣之人
-        - 發掘台灣
-        - 其他
-        - 就業金卡政策
-        - 宣告
+  items:
+    - 產業資訊
+    - Humans of Taiwan
+    - 發掘台灣
+    - 其他
+    - 就業金卡政策
+    - 公告
+en:
+  items:
+    - Industry Information
+    - Humans of Taiwan
+    - Discover Taiwan
+    - Other
+    - Gold Card Policy
+    - Announcement

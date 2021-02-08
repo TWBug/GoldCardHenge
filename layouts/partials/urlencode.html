@@ -1,0 +1,8 @@
+{{ $url := "" }}
+{{ if .url }}
+{{ $url = .url | urlize }}
+{{ $url = replace $url "+" "%2B" }}
+{{ $url = replace $url "\"" "%22" }}
+{{ $url = replace $url "/" "%2F" }}
+{{ end }}
+{{ return $url }}

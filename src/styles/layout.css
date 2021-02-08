@@ -261,6 +261,11 @@ blockquote {
     @apply outline-black;
 }
 
+.onpage-ancor {
+    position: absolute;
+    top: calc((var(--navigationMenu) * -1) - 10px);
+}
+
 .copy {
     @apply text-base leading-loose font-medium;
 }

@@ -1,8 +1,7 @@
 ---
 title: 就業金卡效期屆滿，可以申請延期嗎?
 draft: false
-categories:
-  - about
+categories: null
 tags:
   - Renewal & Validity
 ---

@@ -1,0 +1,67 @@
+{{ $reading_time := .ReadingTime }}
+{{ if eq .Language.Lang "zh" }}
+  {{ range .Translations }}
+    {{ if eq .Language.Lang "en" }}
+      {{ $reading_time = .ReadingTime }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<div class="grid grid-cols-1 sm:grid-cols-4 border-b-2 border-secondary border-dashed">
+    <div class="p-4 pt-8">
+        <div class="flex flex-row sm:flex-col border border-secondary rounded bg-white text-center font-medium text-lg text-secondary max-w-64 sm:max-w-36 p-2 sm:mt-4">
+            <div class="flex-grow flex-center sm:pb-2">
+                {{ .Lastmod.Format "2006" }}
+            </div>
+            <div class="flex-grow flex-center border-l sm:border-l-0 sm:border-t border-secondary sm:text-xs sm:pt-2">
+                {{ if eq .Site.Language.Lang "zh" }}
+                {{ dateFormat "1月2日" .Lastmod }}
+                {{ else }}
+                {{ dateFormat "January 2th" .Lastmod }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    <div class="col-span-3 px-4 pb-8 sm:py-8">
+        <h2 class="text-xl font-bold text-primary mb-1 -ml-1">
+            <a href="{{ .RelPermalink }}" class="block focus-primary p-1">
+                {{ .Title | truncate 110 }}
+            </a>
+        </h2>
+        <p class="text-md mb-4">
+            {{ .Summary | truncate 180 }}
+        </p>
+        <div class="flex items-center text-xs font-bold text-secondary mb-2">
+            {{ partial "icon" (dict "name" "book-reader" "size" "4") }}
+            <span class="ml-2">
+              {{ printf (i18n "reading_time") $reading_time }}
+            </span>
+          </div>
+        <div>
+        {{ if .Params.categories }}
+        <div class="inline-flex items-center text-xs font-bold text-secondary">
+              {{ partial "icon" (dict "name" "tags" "size" "4") }}
+              <span class="ml-1">
+                {{ i18n "categories" }}:
+              </span>
+            </div>
+            <ul class="inline">
+              {{ range .Params.categories }}
+              <li class="inline-block text-primary text-xs p-1 mx-1">
+                  <a href="/{{ $.Site.Language }}/categories/{{ . | anchorize }}" class="inline-flex items-center focus-primary">
+                      {{ partial "icon" (dict "name" "tag" "size" "3") }}
+                      <span class="font-bold uppercase ml-2">
+                        {{ if i18n (. | anchorize ) }}
+                        {{ i18n (. | anchorize) }}
+                        {{ else }}
+                        {{ . | humanize }}
+                        {{ end }}
+                      </span>
+                  </a>
+              </li>
+              {{ end }}
+            </ul>
+            {{ end }}
+        </div>
+    </div>
+</div>

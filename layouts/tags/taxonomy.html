@@ -1,3 +1,7 @@
+{{ define "head" }}
+{{ partial "head/alpine" ( dict "clipboard" "true" "cdn" .Site.Params.loadFromCDN ) }}
+{{ end }}
+
 {{ define "main" }}
 
 {{ $cover_image := resources.Get "cms-uploads/icon-question.svg" }}
@@ -111,7 +115,7 @@
                                 x-transition:leave-start="opacity-100"
                                 x-transition:leave-end="opacity-0 -translate-y-5"
                             >
-                                <div class="border-t-2 border-secondary border-dashed p-4" x-data="taAccordion()" x-init="init()" data-title-show="{{ i18n "show_answer" }}" data-title-hide="{{ i18n "hide_answer" }}">
+                                <div class="border-t-2 border-secondary border-dashed p-4" x-data="taAccordion()" x-init="init()" data-clipboard="true" data-title-show="{{ i18n "show_answer" }}" data-title-hide="{{ i18n "hide_answer" }}">
                                     <button
                                         id="{{ printf "faq-button-%d" $index }}"
                                         type="button"

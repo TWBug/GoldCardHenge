@@ -296,9 +296,11 @@ function smoothScroll() {
 
         href = "[id=\"".concat(href.substr(1), "\"]");
         var scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
-        var offsetTop = document.querySelector(href).offsetTop + parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
+        var bodyRect = document.body.getBoundingClientRect();
+        var elemRect = document.querySelector(href).getBoundingClientRect();
+        var offsetTop = elemRect.top - bodyRect.top + parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
         scroll({
-          top: offsetTop - 20,
+          top: parseInt(offsetTop - 20),
           behavior: 'smooth'
         });
       });
@@ -1326,7 +1328,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 window.taSearch = function () {
   // not needed min length defined in the template
   // var is_chinese_ui = window.location.pathname.startsWith('/zh/');
-  return {
+  var searcher = {
     initialized: false,
     visible: false,
     query: '',
@@ -1606,9 +1608,27 @@ window.taSearch = function () {
       if (query.length < this.minimum_length) {
         this.reset(false);
         return false;
-      }
+      } // @note Search query is built up here
+      // Initially we were constructing a query using the `search(string)`
+      // approach. This is fine, however, it was giving us issues with the
+      // wildcards. Namely, typing an exact term would cause the search
+      // results to disappear, because unlike regex a Lunr `*` wildcard
+      // tries to match at least one char. So searching "licens" would
+      // turn up results for the english word "license" but searching the
+      // whole word would result in an empty result set since it was
+      // looking for "license_" with at least one character in the place
+      // of the underscore. Initial search approach was as follows:
+      //     this.result = window.lunrIndex.search('*' + query + '*')
 
-      this.result = window.lunrIndex.search('*' + query + '*').map(function (result) {
+
+      this.result = window.lunrIndex.query(function (qInstance) {
+        qInstance.term(query, {
+          wildcard: lunr.Query.wildcard.TRAILING
+        });
+        qInstance.term(query, {
+          wildcard: lunr.Query.wildcard.NONE
+        });
+      }).map(function (result) {
         return window.lunrPages.find(function (page) {
           return page.href === result.ref;
         });
@@ -1622,6 +1642,8 @@ window.taSearch = function () {
       }
     }
   };
+  window.searcher = searcher;
+  return searcher;
 };
 
 window.taSearchTrigger = function () {
@@ -1932,9 +1954,11 @@ window.taAccordion = function () {
     show: false,
     link: '',
     shortcut: false,
+    clipboard: '',
     title: '',
     options: {
       shortcut: true,
+      clipboard: false,
       titleShow: '',
       titleHide: ''
     },
@@ -1975,17 +1999,25 @@ window.taAccordion = function () {
       // };
 
 
-      this.options.shortcut = this.options.shortcut == true ? true : false;
+      this.options.shortcut = this.options.shortcut == 'true' ? true : false;
 
-      if (this.options.shortcut !== true) {
-        return;
+      if (this.options.shortcut === true) {
+        this.$el.addEventListener('keydown', function (key) {
+          if (key.ctrlKey === true && key.keyCode === 68) {
+            _this.shortcut = !_this.shortcut;
+          }
+        });
       }
 
-      this.$el.addEventListener('keydown', function (key) {
-        if (key.ctrlKey === true && key.keyCode === 68) {
-          _this.shortcut = !_this.shortcut;
-        }
-      });
+      this.options.clipboard = this.options.clipboard == 'true' ? true : false;
+
+      if (this.options.clipboard === true && typeof this.$clipboard === 'function') {
+        this.$el.addEventListener('keydown', function (key) {
+          if (key.ctrlKey === true && key.keyCode === 67) {
+            _this.$clipboard(_this.$el.innerText);
+          }
+        });
+      }
     },
     toggle: function toggle() {
       this.show = !this.show; // if (document.activeElement === this.$refs.button) {
