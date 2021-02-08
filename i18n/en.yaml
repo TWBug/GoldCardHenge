@@ -301,6 +301,12 @@
   translation: 'Nature'
 - id: transportation
   translation: 'Transportation'
+  
+- id: per_year
+  translation: 'per year'
+- id: per_month
+  translation: 'per month'
+  
 
 # Job categories (badges)
 - id: ai-engineer

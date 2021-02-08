@@ -12,6 +12,10 @@ company_page_url: 'https://www.cakeresume.com/companies/popin-cc-zh-index-html'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--vPA1MBdO--/c_pad,fl_png8,h_200,w_200/v1561002816/gxrf8z7vlcrk599zejtp.png
 salary_text: TWD800000 - TWD1200000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 800000
+salary_max: 1200000
 location_list:
   - 台灣
   - 台北

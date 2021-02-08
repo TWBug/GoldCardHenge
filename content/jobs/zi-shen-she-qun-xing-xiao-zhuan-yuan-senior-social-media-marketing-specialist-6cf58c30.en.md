@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/viewsonic-international-
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--mfD9wLgm--/c_pad,fl_png8,h_200,w_200/v1588058492/auzfyk61ypziemamoszg.png
 salary_text: TWD700000 - TWD1000000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 700000
+salary_max: 1000000
 location_list:
   - 台灣
   - 新北市

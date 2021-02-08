@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/1111-cc8677'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s---LJkY0fU--/c_pad,fl_png8,h_200,w_200/v1555050577/cvev1lhcvc1ohvufsw8d.png
 salary_text: TWD1000000 - TWD1500000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 1000000
+salary_max: 1500000
 location_list:
   - 新北市三重區
 badges:

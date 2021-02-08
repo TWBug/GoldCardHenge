@@ -12,6 +12,10 @@ company_page_url: 'https://www.cakeresume.com/companies/garmin'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--Qvm9_H5H--/c_pad,fl_png8,h_200,w_200/v1564044674/biwpxixihfsdsrcqfpsx.png
 salary_text: TWD900000 - TWD1100000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 900000
+salary_max: 1100000
 location_list:
   - 龜山區
   - 汐止區

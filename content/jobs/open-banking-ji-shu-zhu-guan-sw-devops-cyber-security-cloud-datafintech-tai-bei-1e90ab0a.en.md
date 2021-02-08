@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/alpha-human-resource-con
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--3MMou6GN--/c_pad,fl_png8,h_200,w_200/v1560482558/x3eymfkjvjbxlnnzw2el.png
 salary_text: TWD1800000 - TWD2400000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 1800000
+salary_max: 2400000
 location_list:
   - 台北
 badges:

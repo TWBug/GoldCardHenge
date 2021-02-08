@@ -299,6 +299,11 @@
   translation: '性質'
 - id: transportation
   translation: '運輸'
+  
+- id: per_year
+  translation: '每年'
+- id: per_month
+  translation: '每月'
 
 # Job categories (badges)
 - id: ai-engineer

@@ -14,6 +14,10 @@ company_page_url: >-
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--GTH_P523--/c_pad,fl_png8,h_200,w_200/v1568172484/nvzyjpche72gydugggfm.png
 salary_text: TWD1500000 - TWD2500000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 1500000
+salary_max: 2500000
 location_list:
   - 台北
   - 台灣

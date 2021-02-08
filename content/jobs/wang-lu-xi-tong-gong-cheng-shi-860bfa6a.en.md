@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/nanshanlife-nanshanweb'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--jxK67Ios--/c_pad,fl_png8,h_200,w_200/v1569986779/jzt52d6tcmcvxp8vov9l.png
 salary_text: TWD650000 - TWD1500000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 650000
+salary_max: 1500000
 location_list:
   - 台北
 badges:

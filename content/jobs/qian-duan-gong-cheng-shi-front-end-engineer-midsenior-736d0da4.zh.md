@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/onedegree'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--xqiEHvO1--/c_pad,fl_png8,h_200,w_200/v1578296147/zhabcskfo2ifv72dmwtx.png
 salary_text: TWD840000 - TWD1800000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 840000
+salary_max: 1800000
 location_list:
   - 台北
   - 台灣

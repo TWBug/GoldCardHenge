@@ -12,6 +12,10 @@ company_page_url: 'https://www.cakeresume.com/companies/robert-walters'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--EW7Edb1u--/c_pad,fl_png8,h_200,w_200/v1600053194/xc6aglyvacjd8nwbof70.png
 salary_text: TWD900000 - TWD1300000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 900000
+salary_max: 1300000
 location_list:
   - 台北
 badges:

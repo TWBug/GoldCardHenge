@@ -12,6 +12,10 @@ company_page_url: 'https://www.cakeresume.com/companies/c5b563'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--lBF3OZ8---/c_pad,fl_png8,h_200,w_200/v1605680300/mifv3jy3f7vuahmxwvkd.png
 salary_text: JPY3000000 - JPY6000000
+salary_currency: JPY
+salary_type: per_year
+salary_min: 3000000
+salary_max: 6000000
 location_list: []
 badges:
   - DevOps

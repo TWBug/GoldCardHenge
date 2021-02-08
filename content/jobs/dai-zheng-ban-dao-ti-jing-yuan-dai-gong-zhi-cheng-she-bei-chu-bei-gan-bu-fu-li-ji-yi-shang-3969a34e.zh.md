@@ -12,6 +12,10 @@ company_page_url: 'https://www.cakeresume.com/companies/facebook-tn-talentnettin
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--yrKE5hGp--/c_pad,fl_png8,h_200,w_200/v1582014654/rdfxdke5ayxkuyqlzatu.png
 salary_text: TWD2200000 - TWD3200000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 2200000
+salary_max: 3200000
 location_list:
   - 外派大陸
 badges:

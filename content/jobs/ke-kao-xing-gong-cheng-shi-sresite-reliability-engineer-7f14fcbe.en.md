@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/cyrdg.com'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--QwwvTbZ2--/c_pad,fl_png8,h_200,w_200/v1606900053/eyo6xc4vp4hjrlxutxu6.png
 salary_text: TWD840000 - TWD1300000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 840000
+salary_max: 1300000
 location_list:
   - 台北市
   - 南港

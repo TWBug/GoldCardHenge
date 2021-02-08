@@ -13,6 +13,10 @@ company_page_url: 'https://www.cakeresume.com/companies/gdp-world'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--4bIKgV1h--/c_pad,fl_png8,h_200,w_200/v1566284793/r8a8h5tmoj4rzelvp7wp.png
 salary_text: TWD600000 - TWD1000000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 600000
+salary_max: 1000000
 location_list:
   - 松山區
   - 捷運中山國中站

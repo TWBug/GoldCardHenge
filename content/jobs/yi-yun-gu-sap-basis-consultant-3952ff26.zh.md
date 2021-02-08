@@ -12,6 +12,10 @@ company_page_url: 'https://www.cakeresume.com/companies/ecloudvalley'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--PmE1rXrm--/c_pad,fl_png8,h_200,w_200/v1573020972/xwfdrgep6c3vtnxm1g2n.png
 salary_text: TWD600000 - TWD1500000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 600000
+salary_max: 1500000
 location_list:
   - 新北
   - 台北
