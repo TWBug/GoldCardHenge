@@ -301,3 +301,35 @@
   translation: 'Nature'
 - id: transportation
   translation: 'Transportation'
+
+# Job categories (badges)
+- id: ai-engineer
+  translation: 'AI engineer'
+- id: designer
+  translation: 'Designer'
+- id: devops
+  translation: 'DevOps'
+- id: frontend
+  translation: 'Frontend developer'
+- id: mechanical-engineer
+  translation: 'Mechanical engineer'
+- id: project-manager
+  translation: 'Project manager'
+- id: software-architecture
+  translation: 'Software architecture'
+- id: software
+  translation: 'Software'
+- id: industrial-engineer
+  translation: 'Industrial engineer'
+- id: cloud-computing
+  translation: 'Cloud computing'
+- id: iot-solution
+  translation: 'IOT solution'
+- id: marketing-international
+  translation: 'Marketing international'
+- id: cyber-security
+  translation: 'Cyber security'
+- id: semiconductor
+  translation: 'Semiconductor'
+- id: finance
+  translation: 'Finance'
