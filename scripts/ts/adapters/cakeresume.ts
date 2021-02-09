@@ -97,7 +97,6 @@ export default class CakeResumeAdapter implements IAdapter {
                 salary_min: x.salary_min,
                 salary_max: x.salary_max,
                 location_list: x.location_list,
-                badges: x.tag_list, // @todo This needs to become the user-generated label, preferably an array of them in the case of job overlap for multiple labels
                 job_tags: x.tag_list,
                 description: x.description_plain_text,
             };

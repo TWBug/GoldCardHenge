@@ -11,7 +11,12 @@ import path from 'path';
 
 const DEBUG = !!process.env.DEBUG;
 
+// This is separated out as a type because it is not the adapters responsibility
+// to handle badges. Anything that comes from our CMS and _not_ the site adapter
+// does not concern the adapter.
 interface IDBRowJob extends IAdapterOutput {
+    // The CMS-defined label for a group of jobs
+    // badges: string[];
     badges: string[];
 }
 

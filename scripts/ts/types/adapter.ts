@@ -35,9 +35,6 @@ export interface IAdapterOutput {
     // Where is this job
     location_list: string[];
 
-    // The CMS-defined label for a gropu of jobs
-    // badges: string[];
-
     // Any user-defined tags
     job_tags: string[];
 
