@@ -1,5 +1,5 @@
 <div
-    class="relative flex flex-col sm:flex-row border border-gray-200 rounded-xl bg-gradient-to-b from-white to-gray-100 shadow-lg my-8" data-id="{{ .Params.data_source_internal_id }}"
+    class="relative flex flex-col sm:flex-row border border-gray-200 rounded-xl bg-gradient-to-b from-white to-gray-100 shadow-lg my-8" data-id="{{ .Params.data_source_internal_id }}" data-src="{{ .File }}"
 >
     <div class="absolute right-0 top-0 -mt-6 pr-2">
         <span class="font-semibold text-xs text-gray-500">{{ i18n "source" }} {{ .Params.data_source_name }}</span>
@@ -18,7 +18,7 @@
         {{ end }}
         <ul class="w-full leading-tight pt-4 pl-4 sm:pl-2 sm:pb-4">
             {{range $index, $value := .Params.job_tags }}
-                {{ if lt $index 8 }}
+                {{ if lt $index 10 }}
                     {{ $tag := . }}
                     <li class="inline-block text-primary text-xxs p-1 mx-1">
                         <a href="https://www.cakeresume.com/jobs/{{ partial "urlencode" ( dict "url" . ) }}" class="inline-flex items-center focus-primary" {{ if gt (len $tag) 20 }} title="{{ $tag | humanize }}" {{ end }} target="_blank">
@@ -90,23 +90,6 @@
             </div>
             {{ .Params.location_list }}
         </div>
-        {{ end }}
-        {{ if ge (len .Params.job_tags) 8 }}
-            <ul class="flex flex-wrap items-center border-t-2 border-gray-300 border-dashed pt-2 my-4 -ml-1">
-            {{range $index, $value := .Params.job_tags }}
-                {{ if ge $index 8 }}
-                    {{ $tag := . }}
-                    <li class="inline-block text-primary text-xxs p-1 mr-2">
-                        <a href="https://www.cakeresume.com/jobs/{{ partial "urlencode" ( dict "url" . ) }}" class="inline-flex items-center focus-primary" {{ if gt (len $tag) 20 }} title="{{ $tag | humanize }}" {{ end }} target="_blank">
-                            {{ partial "icon" (dict "name" "tag" "size" "2") }}
-                            <span class="font-bold uppercase max-w-32 sm:max-w-24 whitespace-nowrap truncate ml-2">
-                                {{ $tag }}
-                            </span>
-                        </a>
-                    </li>
-                {{ end }}
-            {{ end }}
-            </ul>
         {{ end }}
     </div>
 </div>
