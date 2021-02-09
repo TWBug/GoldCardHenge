@@ -46,7 +46,7 @@
         <div class="text-base font-medium">
             {{ .Content | truncate 180 }}
         </div>
-        {{ if .Params.salary_currency }}
+        {{ if and .Params.salary_currency .Params.salary_min .Params.salary_max .Params.salary_type }}
             {{ $min := float .Params.salary_min }}
             {{ $max := float .Params.salary_max }}
             <div class="flex items-center text-base font-bold text-water-600 border-b-2 border-t-2 border-gray-300 border-dashed py-4 my-4 -ml-2 pl-2">
