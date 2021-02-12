@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '18374'
-title: JY-美商晶片大廠 Hardware Engineer/硬體研發工程師(需有系統廠經驗)
+title: JY-美商晶片大廠 Hardware Engineer/硬體���發工程師(需有系統廠經驗)
 job_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan/jobs/a9d104'
 date: 2020-02-26T08:32:31.563Z
 company_name: 新加坡商立可人事顧問有限公司台灣分公司 Recruit Express (Taiwan)
