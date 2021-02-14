@@ -18,9 +18,9 @@ salary_min: 1200000
 salary_max: 18000000
 location_list:
   - 新竹科學園區
+job_tags: []
 badges:
   - Semiconductor
-job_tags: []
 
 ---
 

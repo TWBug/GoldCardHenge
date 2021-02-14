@@ -20,9 +20,9 @@ location_list:
   - 台灣
   - 台北
   - 新北市
+job_tags: []
 badges:
   - Software
-job_tags: []
 
 ---
 

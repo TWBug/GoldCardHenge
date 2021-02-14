@@ -20,11 +20,11 @@ salary_max: 1500000
 location_list:
   - 台北
   - 松山區
-badges:
-  - Project Manager
 job_tags:
   - 專案管理
   - PM
+badges:
+  - Project Manager
 
 ---
 

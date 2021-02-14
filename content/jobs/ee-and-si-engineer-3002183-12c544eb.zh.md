@@ -20,12 +20,12 @@ salary_max: 2500000
 location_list:
   - 中國
   - 福建
-badges:
-  - Mechanical engineer
 job_tags:
   - 電子工程師
   - PCB
   - 產品開發
+badges:
+  - Mechanical engineer
 
 ---
 

@@ -18,14 +18,14 @@ salary_min: 1400000
 salary_max: 2000000
 location_list:
   - 台北
-badges:
-  - Frontend
 job_tags:
   - +frontend
   - +react.js
   - +jQuery
   - +html
   - +CSS3
+badges:
+  - Frontend
 
 ---
 

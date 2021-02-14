@@ -18,14 +18,14 @@ salary_min: 720000
 salary_max: 1020000
 location_list:
   - Taipei City
-badges:
-  - Designer
 job_tags:
   - Product Design
   - Interaction Design
   - UX Design
   - UI Design
   - Design Thinking
+badges:
+  - Designer
 
 ---
 

@@ -20,10 +20,10 @@ salary_max: 1800000
 location_list:
   - 台北
   - 台灣
-badges:
-  - Frontend
 job_tags:
   - React.js
+badges:
+  - Frontend
 
 ---
 

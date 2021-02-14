@@ -20,12 +20,12 @@ salary_max: 1500000
 location_list:
   - 台北市
   - 中正區
-badges:
-  - Designer
 job_tags:
   - photoshop
   - Sketch
   - illustrator
+badges:
+  - Designer
 
 ---
 

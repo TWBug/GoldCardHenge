@@ -19,9 +19,9 @@ salary_min: 650000
 salary_max: 1500000
 location_list:
   - 台北
+job_tags: []
 badges:
   - Software  architecture
-job_tags: []
 
 ---
 

@@ -23,8 +23,6 @@ location_list:
   - 新北市
   - 中和
   - 中和區
-badges:
-  - Marketing International
 job_tags:
   - Social Media Marketing
   - Social Media
@@ -36,6 +34,8 @@ job_tags:
   - twitter
   - YouTube
   - youtube
+badges:
+  - Marketing International
 
 ---
 

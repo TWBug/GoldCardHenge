@@ -20,12 +20,12 @@ salary_max: 1000000
 location_list:
   - 台灣
   - 台北
-badges:
-  - Software  architecture
 job_tags:
   - 網路管理工程師
   - 系統規劃
   - 系統維運人員​
+badges:
+  - Software  architecture
 
 ---
 

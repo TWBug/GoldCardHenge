@@ -20,9 +20,9 @@ salary_max: 1200000
 location_list:
   - 信義區
   - 台北
+job_tags: []
 badges:
   - Cyber Security
-job_tags: []
 
 ---
 

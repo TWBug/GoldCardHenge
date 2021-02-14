@@ -20,14 +20,14 @@ location_list:
   - 台北
   - 信義區
   - 內湖區
-badges:
-  - Frontend
 job_tags:
   - 前端工程師
   - 前端開發
   - 前端開發工程師
   - Frontend
   - frontend engineer
+badges:
+  - Frontend
 
 ---
 

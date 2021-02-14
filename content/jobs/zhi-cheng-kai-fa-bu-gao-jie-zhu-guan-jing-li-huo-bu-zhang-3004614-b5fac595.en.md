@@ -19,12 +19,12 @@ salary_max: 2000000
 location_list:
   - 台灣
   - 苗栗
-badges:
-  - Semiconductor
 job_tags:
   - 半導體
   - 製程開發
   - process manufacturing
+badges:
+  - Semiconductor
 
 ---
 

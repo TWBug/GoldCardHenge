@@ -19,12 +19,12 @@ salary_min: 1200000
 salary_max: 1
 location_list:
   - 台中
-badges:
-  - Software
 job_tags:
   - Frontend
   - Web
   - PHP
+badges:
+  - Software
 
 ---
 

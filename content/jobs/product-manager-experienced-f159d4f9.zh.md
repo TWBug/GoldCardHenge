@@ -18,14 +18,14 @@ salary_min: 1000000
 salary_max: 1800000
 location_list:
   - 台北
-badges:
-  - Project Manager
 job_tags:
   - PM
   - 產品經理
   - 產品管理
   - Product Manager
   - 產品
+badges:
+  - Project Manager
 
 ---
 

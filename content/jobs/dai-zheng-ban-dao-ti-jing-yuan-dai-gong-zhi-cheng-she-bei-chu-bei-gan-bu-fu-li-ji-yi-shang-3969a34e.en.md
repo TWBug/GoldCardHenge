@@ -18,12 +18,12 @@ salary_min: 2200000
 salary_max: 3200000
 location_list:
   - 外派大陸
-badges:
-  - Semiconductor
 job_tags:
   - 推薦獎金
   - 堤亞
   - 儲備幹部
+badges:
+  - Semiconductor
 
 ---
 

@@ -22,8 +22,6 @@ location_list:
   - 中正區
   - 台北
   - 台灣
-badges:
-  - Software
 job_tags:
   - python
   - shellscript
@@ -34,6 +32,8 @@ job_tags:
   - backend
   - QA
   - CI/ CD
+badges:
+  - Software
 
 ---
 

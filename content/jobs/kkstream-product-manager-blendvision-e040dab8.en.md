@@ -21,11 +21,11 @@ location_list:
   - 台灣
   - 台北
   - 南港軟體園區
-badges:
-  - Project Manager
 job_tags:
   - BlendVision
   - Product Manager
+badges:
+  - Project Manager
 
 ---
 

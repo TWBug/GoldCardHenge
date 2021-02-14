@@ -19,12 +19,12 @@ salary_min: 1000000
 salary_max: 1500000
 location_list:
   - 新北市三重區
-badges:
-  - Software  architecture
 job_tags:
   - MIS
   - MIS主管
   - 資訊主管
+badges:
+  - Software  architecture
 
 ---
 

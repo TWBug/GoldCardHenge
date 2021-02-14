@@ -19,12 +19,12 @@ salary_max: 1700000
 location_list:
   - 台北
   - 中山區
-badges:
-  - Frontend
 job_tags:
   - Frontend
   - Frontend Engineer
   - Web Development
+badges:
+  - Frontend
 
 ---
 

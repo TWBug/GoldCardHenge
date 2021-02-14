@@ -20,13 +20,13 @@ salary_max: 1000000
 location_list:
   - 台北市
   - 中正區
-badges:
-  - Software
 job_tags:
   - QA
   - Android
   - API Testing
   - IOS
+badges:
+  - Software
 
 ---
 

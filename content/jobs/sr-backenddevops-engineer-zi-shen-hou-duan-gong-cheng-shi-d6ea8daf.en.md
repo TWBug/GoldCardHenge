@@ -19,14 +19,14 @@ salary_min: 900000
 salary_max: 1600000
 location_list:
   - 台北
-badges:
-  - AI Engineer
 job_tags:
   - AWS
   - Python
   - Golang
   - DevOps
   - Cloud Services
+badges:
+  - AI Engineer
 
 ---
 

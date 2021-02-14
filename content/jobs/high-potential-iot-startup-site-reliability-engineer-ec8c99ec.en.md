@@ -18,8 +18,6 @@ salary_min: 900000
 salary_max: 1300000
 location_list:
   - 台北
-badges:
-  - Cloud Computing
 job_tags:
   - Site Reliability Engineer
   - SRE
@@ -29,6 +27,8 @@ job_tags:
   - jenkins
   - Docker
   - cloud computing
+badges:
+  - Cloud Computing
 
 ---
 

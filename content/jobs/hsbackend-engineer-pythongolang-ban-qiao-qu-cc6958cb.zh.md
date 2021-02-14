@@ -18,9 +18,9 @@ salary_type: per_year
 salary_min: 55000
 salary_max: 1000000
 location_list: []
+job_tags: []
 badges:
   - Mechanical engineer
-job_tags: []
 
 ---
 

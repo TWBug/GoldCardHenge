@@ -18,9 +18,9 @@ salary_min: 800000
 salary_max: 1100000
 location_list:
   - 內湖區
+job_tags: []
 badges:
   - Mechanical engineer
-job_tags: []
 
 ---
 

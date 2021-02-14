@@ -19,9 +19,9 @@ salary_max: 1
 location_list:
   - 台北
   - 中正區
+job_tags: []
 badges:
   - Frontend
-job_tags: []
 
 ---
 

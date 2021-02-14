@@ -19,11 +19,11 @@ salary_min: 1500000
 salary_max: 2000000
 location_list:
   - 台北
-badges:
-  - Software  architecture
 job_tags:
   - Infrastructure
   - banking
+badges:
+  - Software  architecture
 
 ---
 

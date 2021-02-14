@@ -20,14 +20,14 @@ location_list:
   - 台北
   - 台灣
   - 內湖科學園區
-badges:
-  - Industrial Engineer
 job_tags:
   - AutoCAD
   - 2D
   - 3D
   - SolidWorks
   - pro-E
+badges:
+  - Industrial Engineer
 
 ---
 

@@ -20,9 +20,9 @@ location_list:
   - 台灣
   - 新北市
   - 板橋區
+job_tags: []
 badges:
   - Software
-job_tags: []
 
 ---
 

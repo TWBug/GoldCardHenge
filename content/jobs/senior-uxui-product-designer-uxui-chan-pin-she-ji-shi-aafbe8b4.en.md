@@ -21,12 +21,12 @@ location_list:
   - 台北
   - 台灣
   - 中正
-badges:
-  - Designer
 job_tags:
   - Product Design
   - UI/UX Designer
   - App
+badges:
+  - Designer
 
 ---
 

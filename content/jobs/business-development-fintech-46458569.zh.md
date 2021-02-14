@@ -21,14 +21,14 @@ location_list:
   - 松山區
   - 捷運中山國中站
   - 台北
-badges:
-  - Finance
 job_tags:
   - BD
   - sales manager
   - MarketingCommunication
   - Marketing
   - FinTech
+badges:
+  - Finance
 
 ---
 

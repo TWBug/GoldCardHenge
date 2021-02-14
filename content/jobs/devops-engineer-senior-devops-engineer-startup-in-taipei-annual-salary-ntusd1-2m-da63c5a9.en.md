@@ -23,9 +23,9 @@ location_list:
   - 台北市中山區
   - Taipei city
   - Taiwan
+job_tags: []
 badges:
   - Cloud Computing
-job_tags: []
 
 ---
 

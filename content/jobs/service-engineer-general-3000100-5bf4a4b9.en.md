@@ -20,14 +20,14 @@ salary_max: 1500000
 location_list:
   - 台灣
   - 桃園
-badges:
-  - Mechanical engineer
 job_tags:
   - AutoCAD
   - service sales
   - 售後技術服務
   - engineer
   - electrical
+badges:
+  - Mechanical engineer
 
 ---
 

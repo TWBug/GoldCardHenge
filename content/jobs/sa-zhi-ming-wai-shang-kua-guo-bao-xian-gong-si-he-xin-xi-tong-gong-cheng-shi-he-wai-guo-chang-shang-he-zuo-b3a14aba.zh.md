@@ -20,8 +20,6 @@ location_list:
   - 台北
   - 台灣
   - 信義區
-badges:
-  - Software  architecture
 job_tags:
   - insuretech
   - insurance
@@ -35,6 +33,8 @@ job_tags:
   - digital
   - digitaltransformation
   - .net
+badges:
+  - Software  architecture
 
 ---
 

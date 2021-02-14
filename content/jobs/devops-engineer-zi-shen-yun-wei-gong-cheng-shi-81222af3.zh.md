@@ -22,13 +22,13 @@ location_list:
   - 中正區
   - 台北
   - 台灣
-badges:
-  - Cloud Computing
 job_tags:
   - Java
   - MySQL
   - DevOps
   - aws
+badges:
+  - Cloud Computing
 
 ---
 

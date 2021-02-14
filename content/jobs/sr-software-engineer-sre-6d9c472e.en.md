@@ -22,8 +22,6 @@ location_list:
   - 台灣
   - 松山區
   - 台北市
-badges:
-  - Software
 job_tags:
   - python
   - Perl
@@ -35,6 +33,8 @@ job_tags:
   - Java
   - PHP
   - JavaScripts
+badges:
+  - Software
 
 ---
 

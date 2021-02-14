@@ -21,12 +21,12 @@ salary_max: 1500000
 location_list:
   - 台北
   - 台灣
-badges:
-  - Mechanical engineer
 job_tags:
   - linux
   - test
   - Quality Assurance
+badges:
+  - Mechanical engineer
 
 ---
 

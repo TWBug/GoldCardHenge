@@ -21,14 +21,14 @@ location_list:
   - 信義區
   - 台灣
   - 台北
-badges:
-  - AI Engineer
 job_tags:
   - AI & Machine Learning
   - AI
   - 人工智慧
   - 美國
   - 外商
+badges:
+  - AI Engineer
 
 ---
 

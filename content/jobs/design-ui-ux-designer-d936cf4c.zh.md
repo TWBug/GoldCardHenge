@@ -19,11 +19,11 @@ salary_min: 700000
 salary_max: 1000000
 location_list:
   - 汐止區
-badges:
-  - Designer
 job_tags:
   - photoshop
   - illustrator
+badges:
+  - Designer
 
 ---
 

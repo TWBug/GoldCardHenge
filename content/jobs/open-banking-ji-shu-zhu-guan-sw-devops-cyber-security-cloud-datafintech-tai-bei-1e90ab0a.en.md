@@ -19,8 +19,6 @@ salary_min: 1800000
 salary_max: 2400000
 location_list:
   - 台北
-badges:
-  - Cyber Security
 job_tags:
   - scrummaster
   - Agile development
@@ -41,6 +39,8 @@ job_tags:
   - Algorithm
   - Modeling
   - AI & Machine Learning
+badges:
+  - Cyber Security
 
 ---
 

@@ -20,9 +20,9 @@ salary_max: 2000000
 location_list:
   - 台北
   - 中正區
+job_tags: []
 badges:
   - DevOps
-job_tags: []
 
 ---
 

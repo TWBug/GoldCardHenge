@@ -21,8 +21,6 @@ location_list:
   - 信義區
   - 台北
   - 台灣
-badges:
-  - DevOps
 job_tags:
   - Kubernetes
   - Chef
@@ -30,6 +28,8 @@ job_tags:
   - ci/cd
   - Cloud Services
   - AWS
+  - DevOps
+badges:
   - DevOps
 
 ---

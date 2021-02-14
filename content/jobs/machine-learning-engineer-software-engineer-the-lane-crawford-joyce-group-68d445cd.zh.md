@@ -20,8 +20,6 @@ salary_max: 1200000
 location_list:
   - 台北
   - 台灣
-badges:
-  - Software
 job_tags:
   - sas
   - excel
@@ -31,6 +29,8 @@ job_tags:
   - Power BI
   - Tableau
   - ETL pipeline
+badges:
+  - Software
 
 ---
 

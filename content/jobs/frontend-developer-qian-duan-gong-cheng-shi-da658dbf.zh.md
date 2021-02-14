@@ -22,8 +22,6 @@ location_list:
   - 中正區
   - 台北
   - 台灣
-badges:
-  - Frontend
 job_tags:
   - frontend
   - front end
@@ -31,6 +29,8 @@ job_tags:
   - vue
   - react
   - angular
+badges:
+  - Frontend
 
 ---
 

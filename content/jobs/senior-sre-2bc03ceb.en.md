@@ -18,9 +18,9 @@ salary_min: 1500000
 salary_max: 2000000
 location_list:
   - 台灣
+job_tags: []
 badges:
   - DevOps
-job_tags: []
 
 ---
 

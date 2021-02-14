@@ -22,12 +22,12 @@ location_list:
   - 台灣
   - 中正區
   - 台北市
-badges:
-  - Project Manager
 job_tags:
   - Product
   - Product Management
   - PM
+badges:
+  - Project Manager
 
 ---
 

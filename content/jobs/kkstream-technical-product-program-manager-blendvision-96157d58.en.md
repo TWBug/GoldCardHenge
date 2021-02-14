@@ -21,13 +21,13 @@ location_list:
   - 台北市
   - 南港軟體園區
   - 捷運南港展覽館站
-badges:
-  - Project Manager
 job_tags:
   - Product Management
   - Project Management
   - Streaming
   - OTTService
+badges:
+  - Project Manager
 
 ---
 

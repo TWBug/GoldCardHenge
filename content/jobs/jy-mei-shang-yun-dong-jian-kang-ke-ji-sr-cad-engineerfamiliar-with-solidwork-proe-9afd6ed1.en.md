@@ -20,13 +20,13 @@ location_list:
   - 台北
   - 台灣
   - 內湖科技園區
-badges:
-  - Industrial Engineer
 job_tags:
   - 3D
   - 2D
   - SolidWorks
   - pro-E
+badges:
+  - Industrial Engineer
 
 ---
 

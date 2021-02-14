@@ -20,13 +20,13 @@ salary_max: 3000000
 location_list:
   - France
   - 法國
-badges:
-  - Project Manager
 job_tags:
   - PM
   - 專案管理
   - 專案企劃
   - 專案規劃
+badges:
+  - Project Manager
 
 ---
 

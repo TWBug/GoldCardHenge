@@ -19,8 +19,6 @@ salary_max: 1100000
 location_list:
   - 龜山區
   - 汐止區
-badges:
-  - AI Engineer
 job_tags:
   - Python
   - R
@@ -36,6 +34,8 @@ job_tags:
   - Keras
   - OpenCV
   - Tableau
+badges:
+  - AI Engineer
 
 ---
 

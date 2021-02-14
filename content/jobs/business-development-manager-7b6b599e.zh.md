@@ -19,8 +19,6 @@ salary_min: 750000
 salary_max: 1300000
 location_list:
   - 台北
-badges:
-  - Marketing International
 job_tags:
   - Business Development
   - Magento
@@ -29,6 +27,8 @@ job_tags:
   - International
   - Digital
   - Retail
+badges:
+  - Marketing International
 
 ---
 

@@ -19,8 +19,6 @@ salary_min: 900000
 salary_max: 1600000
 location_list:
   - 台北
-badges:
-  - AI Engineer
 job_tags:
   - Embedded Software
   - Linux
@@ -30,6 +28,8 @@ job_tags:
   - system integration
   - Git
   - 5-10年工作經驗
+badges:
+  - AI Engineer
 
 ---
 

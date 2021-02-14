@@ -20,14 +20,14 @@ salary_max: 1500000
 location_list:
   - 台灣
   - 桃園
-badges:
-  - Mechanical engineer
 job_tags:
   - CAD
   - 技術專家
   - electrical
   - 設備工程師
   - 設備維護
+badges:
+  - Mechanical engineer
 
 ---
 

@@ -19,8 +19,6 @@ salary_min: 1000000
 salary_max: 1300000
 location_list:
   - 台北
-badges:
-  - DevOps
 job_tags:
   - DevOps
   - Cloud Services
@@ -31,6 +29,8 @@ job_tags:
   - startup
   - k8s
   - Kubernetes (k8s)
+badges:
+  - DevOps
 
 ---
 

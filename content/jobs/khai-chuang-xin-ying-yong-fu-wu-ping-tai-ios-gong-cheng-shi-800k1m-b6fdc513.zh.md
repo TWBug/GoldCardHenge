@@ -18,9 +18,9 @@ salary_min: 800000
 salary_max: 1000000
 location_list:
   - 大安區
+job_tags: []
 badges:
   - AI Engineer
-job_tags: []
 
 ---
 

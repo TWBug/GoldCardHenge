@@ -19,12 +19,12 @@ salary_max: 1500000
 location_list:
   - 新北
   - 台北
-badges:
-  - Software  architecture
 job_tags:
   - SAP
   - AWS
   - Cloud Services
+badges:
+  - Software  architecture
 
 ---
 

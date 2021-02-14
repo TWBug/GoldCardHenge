@@ -19,8 +19,6 @@ salary_max: 1600000
 location_list:
   - 台北
   - 中正區
-badges:
-  - Mechanical engineer
 job_tags:
   - Ansible
   - Docker
@@ -33,6 +31,8 @@ job_tags:
   - Nginx
   - DevOps
   - CI/CD
+badges:
+  - Mechanical engineer
 
 ---
 

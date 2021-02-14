@@ -24,8 +24,6 @@ location_list:
   - 高雄
   - 台南
   - 台北
-badges:
-  - Software
 job_tags:
   - Front-end
   - Vue
@@ -34,6 +32,8 @@ job_tags:
   - C#
   - Xamarin
   - UI/UXDesign
+badges:
+  - Software
 
 ---
 
