@@ -242,6 +242,8 @@
   translation: '轉到下一頁'
 - id: goto_last_page
   translation: '轉到最後一頁'
+- id: goto_page
+  translation: '轉到頁面'
 
 - id: undefined
   translation: 'UNDEFINED'

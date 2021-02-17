@@ -246,6 +246,8 @@
   translation: 'Go to next page'
 - id: goto_last_page
   translation: 'Go to last page'
+- id: goto_page
+  translation: 'Go to page'
 
 - id: undefined
   translation: 'UNDEFINED'
