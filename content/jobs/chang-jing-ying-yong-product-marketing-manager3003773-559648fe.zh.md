@@ -19,14 +19,14 @@ salary_max: 2500000
 location_list:
   - 台灣
   - 台北
-badges:
-  - IoT Solution
 job_tags:
   - 產品企劃
   - 產品企劃開發
   - IoT
   - 智能家電
   - 產品經理
+badges:
+  - IoT Solution
 
 ---
 

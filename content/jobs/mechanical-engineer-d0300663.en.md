@@ -19,9 +19,9 @@ salary_min: 650000
 salary_max: 1000000
 location_list:
   - 內湖區
+job_tags: []
 badges:
   - Industrial Engineer
-job_tags: []
 
 ---
 

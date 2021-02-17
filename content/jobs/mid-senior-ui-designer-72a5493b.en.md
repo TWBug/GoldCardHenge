@@ -18,9 +18,9 @@ salary_min: 700000
 salary_max: 1400000
 location_list:
   - 信義區
+job_tags: []
 badges:
   - Designer
-job_tags: []
 
 ---
 

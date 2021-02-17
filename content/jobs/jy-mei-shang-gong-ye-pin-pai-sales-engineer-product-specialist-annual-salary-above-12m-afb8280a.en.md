@@ -22,11 +22,11 @@ location_list:
   - 台中
   - 桃園
   - 新竹
-badges:
-  - Industrial Engineer
 job_tags:
   - Sales
   - sales engineer
+badges:
+  - Industrial Engineer
 
 ---
 

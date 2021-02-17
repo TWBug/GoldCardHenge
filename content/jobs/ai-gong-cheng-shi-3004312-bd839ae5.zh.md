@@ -18,8 +18,6 @@ salary_min: 1100000
 salary_max: 1600000
 location_list:
   - 新北市土城區
-badges:
-  - AI Engineer
 job_tags:
   - AI
   - 大數據
@@ -27,6 +25,8 @@ job_tags:
   - Hadoop
   - Python
   - Machine Learning
+badges:
+  - AI Engineer
 
 ---
 

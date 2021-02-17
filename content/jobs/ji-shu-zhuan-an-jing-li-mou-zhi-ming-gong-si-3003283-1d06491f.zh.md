@@ -19,11 +19,11 @@ salary_max: 2000000
 location_list:
   - 台南市新市區
   - 台南市
-badges:
-  - Project Manager
 job_tags:
   - 專案管理
   - 零售業
+badges:
+  - Project Manager
 
 ---
 

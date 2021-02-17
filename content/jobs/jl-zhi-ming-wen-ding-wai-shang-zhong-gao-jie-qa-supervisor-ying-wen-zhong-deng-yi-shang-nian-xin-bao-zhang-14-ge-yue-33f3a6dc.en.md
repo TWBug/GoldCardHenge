@@ -18,12 +18,12 @@ salary_min: 800000
 salary_max: 1000000
 location_list:
   - 宜蘭
-badges:
-  - Industrial Engineer
 job_tags:
   - ISO
   - QA Engineer
   - QA
+badges:
+  - Industrial Engineer
 
 ---
 

@@ -19,14 +19,14 @@ salary_max: 1500000
 location_list:
   - 信義區
   - 台北
-badges:
-  - Cyber Security
 job_tags:
   - C++
   - tcp
   - HTTP
   - HTTPS
   - TCP/UDP
+badges:
+  - Cyber Security
 
 ---
 

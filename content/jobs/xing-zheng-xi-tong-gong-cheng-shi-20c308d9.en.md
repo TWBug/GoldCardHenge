@@ -20,14 +20,14 @@ salary_max: 1000000
 location_list:
   - 台灣
   - 台北
-badges:
-  - Software  architecture
 job_tags:
   - R6
   - aix
   - VM管理
   - Windows
   - Unix
+badges:
+  - Software  architecture
 
 ---
 

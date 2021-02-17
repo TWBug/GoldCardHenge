@@ -18,12 +18,12 @@ salary_min: 1500000
 salary_max: 2000000
 location_list:
   - 桃園市
-badges:
-  - IoT Solution
 job_tags:
   - PLM
   - MIS
   - SAP
+badges:
+  - IoT Solution
 
 ---
 

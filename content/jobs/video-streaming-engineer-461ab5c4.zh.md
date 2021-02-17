@@ -19,10 +19,10 @@ salary_min: 1000000
 salary_max: 1500000
 location_list:
   - 台北
-badges:
-  - DevOps
 job_tags:
   - C++
+badges:
+  - DevOps
 
 ---
 

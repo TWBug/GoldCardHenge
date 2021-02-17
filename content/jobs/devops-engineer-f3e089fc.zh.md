@@ -18,8 +18,6 @@ salary_min: 700000
 salary_max: 1300000
 location_list:
   - 台北
-badges:
-  - DevOps
 job_tags:
   - Python
   - Golang
@@ -29,6 +27,8 @@ job_tags:
   - Git
   - Shell Script
   - Docker
+badges:
+  - DevOps
 
 ---
 

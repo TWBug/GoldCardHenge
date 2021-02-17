@@ -20,14 +20,14 @@ salary_max: 1600000
 location_list:
   - 台北
   - 台灣
-badges:
-  - Designer
 job_tags:
   - Visual Design
   - Illustrator
   - Photoshop
   - Sketch
   - AfterEffects
+  - Designer
+badges:
   - Designer
 
 ---

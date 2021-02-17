@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '24329'
-title: '[KKStream] Sr. Product Manager (Video Streaming)'
+title: '[KKStream] Sr. Product Manager (BlendVision)'
 job_url: >-
   https://www.cakeresume.com/companies/kkboxgroup/jobs/kkstream-sr-product-manager-video-streaming
 date: 2020-11-03T04:19:17.860Z
@@ -21,12 +21,12 @@ location_list:
   - 台北市
   - 南港軟體園區
   - 捷運南港展覽館站
-badges:
-  - Project Manager
 job_tags:
   - Product Management
   - Product Manager
   - Leadership
+badges:
+  - Project Manager
 
 ---
 

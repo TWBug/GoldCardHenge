@@ -18,8 +18,6 @@ salary_min: 70000
 salary_max: 1200000
 location_list:
   - 台北市內湖區
-badges:
-  - Software  architecture
 job_tags:
   - 運維工程師
   - Linux
@@ -28,6 +26,8 @@ job_tags:
   - Shell
   - Python
   - AWS
+badges:
+  - Software  architecture
 
 ---
 

@@ -23,8 +23,6 @@ location_list:
   - 內湖區
   - 台北市
   - 西湖捷運站
-badges:
-  - Cloud Computing
 job_tags:
   - C#
   - MS SQL
@@ -35,6 +33,8 @@ job_tags:
   - engineer
   - SaaS
   - cloud computing
+badges:
+  - Cloud Computing
 
 ---
 

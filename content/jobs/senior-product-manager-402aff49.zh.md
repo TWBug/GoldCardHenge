@@ -20,9 +20,9 @@ salary_max: 2000000
 location_list:
   - 新店區
   - 台北
+job_tags: []
 badges:
   - Project Manager
-job_tags: []
 
 ---
 

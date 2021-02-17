@@ -7,7 +7,7 @@ data_source_internal_id: '26172'
 title: 製程開發部高階主管 (經理或部長) (3004614)
 job_url: 'https://www.cakeresume.com/companies/1111headhunt/jobs/6a4527'
 date: 2021-01-15T07:40:27.658Z
-company_name: 1111高階獵���顧問中心
+company_name: 1111高階獵頭顧問中心
 company_page_url: 'https://www.cakeresume.com/companies/1111headhunt'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--5DKHug43--/c_pad,fl_png8,h_200,w_200/v1531993906/jlp8g9p7p6bf58jc0zju.png
@@ -19,12 +19,12 @@ salary_max: 2000000
 location_list:
   - 台灣
   - 苗栗
-badges:
-  - Semiconductor
 job_tags:
   - 半導體
   - 製程開發
   - process manufacturing
+badges:
+  - Semiconductor
 
 ---
 

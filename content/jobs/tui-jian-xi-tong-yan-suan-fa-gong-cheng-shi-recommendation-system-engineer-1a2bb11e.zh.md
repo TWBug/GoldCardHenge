@@ -19,14 +19,14 @@ salary_max: 1200000
 location_list:
   - 台灣
   - 台北
-badges:
-  - Software  architecture
 job_tags:
   - Machine Learning
   - ML
   - Recommendation System
   - NLP
   - Natural Language Processing
+badges:
+  - Software  architecture
 
 ---
 

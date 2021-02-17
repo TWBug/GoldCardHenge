@@ -19,12 +19,12 @@ salary_min: 700000
 salary_max: 1235000
 location_list:
   - 台灣
-badges:
-  - DevOps
 job_tags:
   - Linux
   - Shell Script
   - Kubernetes (k8s)
+badges:
+  - DevOps
 
 ---
 

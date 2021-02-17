@@ -23,8 +23,6 @@ location_list:
   - 內湖
   - 台北
   - 內湖區
-badges:
-  - Cloud Computing
 job_tags:
   - C#
   - MSSQL
@@ -35,6 +33,8 @@ job_tags:
   - SaaS
   - engineer
   - Amazon
+badges:
+  - Cloud Computing
 
 ---
 

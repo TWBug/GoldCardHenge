@@ -21,8 +21,6 @@ location_list:
   - 台北
   - Taipei
   - 台北市大安區
-badges:
-  - Project Manager
 job_tags:
   - 軟體專案主管
   - 軟體專案管理
@@ -35,6 +33,8 @@ job_tags:
   - MicroService
   - JavaScript
   - Web Developer
+badges:
+  - Project Manager
 
 ---
 

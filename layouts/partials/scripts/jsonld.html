@@ -1,0 +1,48 @@
+{{ $published := .Lastmod }}
+{{ $modified := .Lastmod }}
+{{ $buffer := os.Stat ( print "content/" .File.Path ) }}
+{{ if $buffer }}
+    {{ $modified = $buffer.ModTime }}
+{{ end }}
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": "{{ .Site.Home.Permalink }}#website",
+                "url": "{{ .Site.Home.Permalink }}",
+                "name": "{{ print .Site.Home.Title " | " .Site.Title }}",
+                "description": "{{ .Site.Home.Summary }}",
+                "inLanguage": "{{ .Site.Language.Lang }}",
+                "potentialAction": [
+                    {
+                        "@type": "ReadAction",
+                        "target": ["{{ .Site.Home.Permalink }}"]
+                    }
+                ]
+            },
+            {
+                "@type": "WebPage",
+                "@id": "{{ .Permalink }}#webpage",
+                "url": "{{ .Permalink }}",
+                "name": "{{ .Title }} | {{ .Site.Title }}",
+                "isPartOf": { "@id": "{{ .Site.Home.Permalink }}#website" },
+                "datePublished": "{{ dateFormat "2006-01-02T15:04:05Z07:00" $published }}",
+                "dateModified": "{{ dateFormat "2006-01-02T15:04:05Z07:00" $modified }}",
+                "inLanguage": "{{ .Site.Language.Lang }}",
+                "potentialAction": [
+                    {
+                        "@type": "ReadAction",
+                        "target": ["{{ .Permalink }}"],
+                        "object": {
+                            "@type": "WebPage",
+                            "name": "{{ .Title }}"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+</script>

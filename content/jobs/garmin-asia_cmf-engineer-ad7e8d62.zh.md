@@ -24,8 +24,6 @@ location_list:
   - utown
   - 汐止區
   - 台灣
-badges:
-  - Industrial Engineer
 job_tags:
   - 高分子材料設計與合成
   - 材料評估測試
@@ -35,6 +33,8 @@ job_tags:
   - CMF Engineer
   - 工業設計
   - 材料研發
+badges:
+  - Industrial Engineer
 
 ---
 

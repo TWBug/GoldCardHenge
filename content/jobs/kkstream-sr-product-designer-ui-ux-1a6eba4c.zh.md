@@ -21,11 +21,11 @@ location_list:
   - 台北市
   - 捷運南港展覽館站
   - 南港軟題園區
-badges:
-  - Designer
 job_tags:
   - UXUI designer
   - UX
+badges:
+  - Designer
 
 ---
 

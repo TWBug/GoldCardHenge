@@ -20,8 +20,6 @@ salary_max: 1300000
 location_list:
   - 台北市
   - 南港
-badges:
-  - DevOps
 job_tags:
   - SRE
   - DevOps
@@ -29,6 +27,8 @@ job_tags:
   - 可靠性工程師
   - devops
   - sre
+badges:
+  - DevOps
 
 ---
 

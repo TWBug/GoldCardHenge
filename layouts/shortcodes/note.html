@@ -1,6 +1,7 @@
 {{/*  DONE registerEditorComponent netlify  */}}
 {{ $id := anchorize (.Get "title") }}
-<div id="{{ print "note-" $id }}" class="my-6 ">
+<div class="relative my-6 overflow-hidden">
+    <div id="{{ print "note-" $id }}" class="onpage-ancor -mt-12"></div>
     <div class="border-b-2 border-dashed border-secondary border-opacity-50">
         <span class="inline-block border-l-2 border-t-2 border-r-2 border-dashed border-secondary border-opacity-50 rounded-t-md text-secondary text-lg font-bold px-2 py-1">
             {{ .Get "title" }}

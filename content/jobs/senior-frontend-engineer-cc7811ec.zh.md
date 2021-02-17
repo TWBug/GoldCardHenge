@@ -19,9 +19,9 @@ salary_min: 1800000
 salary_max: 2000000
 location_list:
   - 台北
+job_tags: []
 badges:
   - Frontend
-job_tags: []
 
 ---
 

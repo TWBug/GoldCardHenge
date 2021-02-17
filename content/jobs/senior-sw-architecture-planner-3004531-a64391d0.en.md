@@ -20,13 +20,13 @@ salary_max: 2500000
 location_list:
   - 台灣
   - 台北
-badges:
-  - IoT Solution
 job_tags:
   - 軟體工程師
   - Software Engineering
   - Full Stack Software Engineer
   - Development
+badges:
+  - IoT Solution
 
 ---
 

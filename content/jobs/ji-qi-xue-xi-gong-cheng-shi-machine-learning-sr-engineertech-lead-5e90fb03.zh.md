@@ -21,10 +21,10 @@ salary_max: 2500000
 location_list:
   - 台北
   - 台灣
-badges:
-  - Mechanical engineer
 job_tags:
   - Machine Learning
+badges:
+  - Mechanical engineer
 
 ---
 

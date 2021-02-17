@@ -63,20 +63,25 @@ window.taToc = function () {
                     e.preventDefault();
                     var href = e.target.getAttribute('href');
                     href = `[id="${href.substr(1)}"]`;
-                    const scrollNavHeight = document.documentElement.style.getPropertyValue(
+
+                    var scrollNavHeight = document.documentElement.style.getPropertyValue(
                         '--navigationScroll'
                     );
-                    const scrollNavHeightInt = parseInt(
+                    scrollNavHeight = parseInt(
                         scrollNavHeight.substring(0, scrollNavHeight.indexOf('px'))
                     );
-                    const offsetTop =
-                        document.querySelector(href).offsetTop +
-                        scrollNavHeightInt -
-                        Math.round(scrollNavHeightInt * 0.2);
+                    if (scrollNavHeight < 40) {
+                        scrollNavHeight = 75;
+                    }
+
+                    const bodyRect = document.body.getBoundingClientRect();
+                    const elemRect = document.querySelector(href).getBoundingClientRect();
+                    const offsetTop = elemRect.top - bodyRect.top + scrollNavHeight - 20 - 40;
                     scroll({
-                        top: offsetTop,
+                        top: parseInt(offsetTop),
                         behavior: 'smooth',
                     });
+
                 });
             }
         },

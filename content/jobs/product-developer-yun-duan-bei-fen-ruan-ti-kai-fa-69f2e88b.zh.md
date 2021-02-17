@@ -20,11 +20,11 @@ location_list:
   - 台北
   - 台灣
   - 板橋
-badges:
-  - DevOps
 job_tags:
   - C
   - C++
+badges:
+  - DevOps
 
 ---
 

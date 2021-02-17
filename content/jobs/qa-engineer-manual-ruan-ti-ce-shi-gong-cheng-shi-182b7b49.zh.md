@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '15860'
-title: 'QA Engineer (manual)_軟體測試工程師 '
+title: QA Engineer (manual)_軟體測試工程師
 job_url: >-
   https://www.cakeresume.com/companies/opennet-limited/jobs/qa-engineer-quality-control-test-engineer
 date: 2019-11-25T07:19:17.105Z
@@ -22,8 +22,6 @@ location_list:
   - 中正區
   - 台北
   - 台灣
-badges:
-  - Software
 job_tags:
   - python
   - shellscript
@@ -34,6 +32,8 @@ job_tags:
   - backend
   - QA
   - CI/ CD
+badges:
+  - Software
 
 ---
 

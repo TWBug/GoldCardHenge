@@ -19,8 +19,6 @@ salary_min: 1400000
 salary_max: 2000000
 location_list:
   - 台北
-badges:
-  - Frontend
 job_tags:
   - React.js
   - Frontend
@@ -29,6 +27,8 @@ job_tags:
   - international
   - Software Development
   - Web Development
+badges:
+  - Frontend
 
 ---
 

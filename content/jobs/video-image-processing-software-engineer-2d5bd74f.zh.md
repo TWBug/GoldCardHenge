@@ -19,13 +19,13 @@ salary_min: 1000000
 salary_max: 1800000
 location_list:
   - 台北
-badges:
-  - Software
 job_tags:
   - OpenCV
   - Metal
   - Image Processing
   - Video Processing
+badges:
+  - Software
 
 ---
 

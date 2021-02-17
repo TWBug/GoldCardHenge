@@ -21,8 +21,6 @@ location_list:
   - 台北
   - 捷運市政府站
   - 捷運象山站
-badges:
-  - AI Engineer
 job_tags:
   - JavaScript
   - React.js
@@ -34,6 +32,8 @@ job_tags:
   - HTML5
   - CSS3
   - frontend engineer
+badges:
+  - AI Engineer
 
 ---
 

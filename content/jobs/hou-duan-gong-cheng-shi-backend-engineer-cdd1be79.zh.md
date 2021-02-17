@@ -19,8 +19,6 @@ salary_min: 850000
 salary_max: 1100000
 location_list:
   - 新北市板橋區
-badges:
-  - IoT Solution
 job_tags:
   - Python
   - JAVA
@@ -30,6 +28,8 @@ job_tags:
   - JIRA
   - Agile
   - Linux
+badges:
+  - IoT Solution
 
 ---
 

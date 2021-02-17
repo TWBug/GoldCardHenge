@@ -20,8 +20,6 @@ salary_max: 1000000
 location_list:
   - 台北
   - 中正區
-badges:
-  - Mechanical engineer
 job_tags:
   - Git
   - ASP.NET
@@ -30,6 +28,8 @@ job_tags:
   - MySQL
   - Relativity
   - AngularJS
+badges:
+  - Mechanical engineer
 
 ---
 

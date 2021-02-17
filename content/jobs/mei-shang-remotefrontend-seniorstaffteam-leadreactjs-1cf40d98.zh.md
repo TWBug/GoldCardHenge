@@ -18,8 +18,6 @@ salary_min: 1500000
 salary_max: 2500000
 location_list:
   - 台灣
-badges:
-  - Frontend
 job_tags:
   - Frontend
   - frontend engineer
@@ -27,6 +25,8 @@ job_tags:
   - Remote
   - Remote Working
   - startup
+badges:
+  - Frontend
 
 ---
 
