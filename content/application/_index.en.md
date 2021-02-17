@@ -39,7 +39,7 @@ Fill in your information / Passport & Visa Status
 
 * Choose the validity period for the Taiwan Employment Gold Card. There are different validation periods: One, Two, or Three years. Please choose according to your needs. The price of the application varies depending on the validity period of the card.
 * If you don't have any specific plans, we recommend choosing a longer validity period. If you want to extend at the end of your validity period, you will have to submit another application. Extensions are not possible.
-* Please choose the preferred location for collecting your Gold Card. If you are in Taiwan, please select your nearest Immigration Bureau. If you are abroad, select the nearest ROC agency. 
+* Please choose the preferred location for collecting your Gold Card. If you are in Taiwan, please select your nearest National Immigration Agency Service Center. If you are abroad, select the nearest ROC agency. 
 * The ROC overseas mission Gold Card can take up to 21-working days before arriving at the overseas missions. If you wish to come to Taiwan as soon as possible while abroad, please choose to pick up the Gold Card in Taiwan. You may enter the country with a Resident Authorization and collect the card after you arrive. For detailed instructions on how to pick up your Gold Card, please refer to Step 3.
 * If you currently don't have a work address, you can temporarily leave it out during the application and review stage. You may leave your Taiwan relative/friend’s resident address if you have no residence address. However, you must provide a residential address within 30 days of arriving in Taiwan. [Note 1](#note-1)
 
@@ -110,17 +110,17 @@ After your application has been approved, you will receive an e-mail notifying y
 
 **Domestic Applicants**
 
-* Please go to the "Download" area on the online application platform and print out the "Payment Electronic Receipt" and take the receipt and your original passport to the previously chosen Immigration Bureau to pick-up your card.
+* Please go to the "Download" area on the online application platform and print out the "Payment Electronic Receipt" and take the receipt and your original passport to the previously chosen National Immigration Agency Service Center to pick-up your card.
 
 **Overseas Applicants**
 
 * Receiving your Gold Card after entry
 
-  * Please go to the "Download" area on ​​the application platform to print out the "Republic of China Employment Gold Card Overseas Approval Certificate." You can enter Taiwan with this certificate. Within 30 days of the day after you enter Taiwan, you must bring this certificate and the original passport to the previously designated Immigration Bureau to pick up the Gold Card.
+  * Please go to the "Download" area on ​​the application platform to print out the "Republic of China Employment Gold Card Overseas Approval Certificate." You can enter Taiwan with this certificate. Within 30 days of the day after you enter Taiwan, you must bring this certificate and the original passport to the previously designated National Immigration Agency Service Center to pick up the Gold Card.
 * Receiving your Gold Card abroad
 
   * Please go to the "download" area on ​​the application platform to print out the "Republic of China Employment Gold Card Overseas Approval Certificate." Take the receipt and your passport to the previously designated ROC mission/office.
-  * It can take over 21 working days to deliver a Gold Card to an overseas ROC mission/office. The mission/office will notify you to pick up your Gold Card. If the Gold Card is not collected within three months, the mission/office will send it back to the Taiwanese Immigration Bureau.
+  * It can take over 21 working days to deliver a Gold Card to an overseas ROC mission/office. The mission/office will notify you to pick up your Gold Card. If the Gold Card is not collected within three months, the mission/office will send it back to the National Immigration Agency in Taiwan.
     {{< /accordion >}}
 
 ## Submitting Additional Documents & Rejection
