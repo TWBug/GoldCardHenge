@@ -21,7 +21,7 @@ location_list:
   - 台北
 job_tags: []
 badges:
-  - Software  architecture
+  - Software architecture
 
 ---
 

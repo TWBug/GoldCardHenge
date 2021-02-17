@@ -23,7 +23,7 @@ job_tags:
   - Infrastructure
   - banking
 badges:
-  - Software  architecture
+  - Software architecture
 
 ---
 

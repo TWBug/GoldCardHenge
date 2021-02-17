@@ -24,7 +24,7 @@ job_tags:
   - MIS主管
   - 資訊主管
 badges:
-  - Software  architecture
+  - Software architecture
 
 ---
 

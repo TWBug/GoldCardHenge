@@ -34,7 +34,7 @@ job_tags:
   - digitaltransformation
   - .net
 badges:
-  - Software  architecture
+  - Software architecture
 
 ---
 
