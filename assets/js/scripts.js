@@ -296,11 +296,17 @@ function smoothScroll() {
 
         href = "[id=\"".concat(href.substr(1), "\"]");
         var scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
+        scrollNavHeight = parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
+
+        if (scrollNavHeight < 40) {
+          scrollNavHeight = 75;
+        }
+
         var bodyRect = document.body.getBoundingClientRect();
         var elemRect = document.querySelector(href).getBoundingClientRect();
-        var offsetTop = elemRect.top - bodyRect.top + parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
+        var offsetTop = elemRect.top - bodyRect.top + scrollNavHeight - 20;
         scroll({
-          top: parseInt(offsetTop - 20),
+          top: parseInt(offsetTop),
           behavior: 'smooth'
         });
       });
@@ -1822,10 +1828,17 @@ window.taToc = function () {
             var href = e.target.getAttribute('href');
             href = "[id=\"".concat(href.substr(1), "\"]");
             var scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
-            var scrollNavHeightInt = parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
-            var offsetTop = document.querySelector(href).offsetTop + scrollNavHeightInt - Math.round(scrollNavHeightInt * 0.2);
+            scrollNavHeight = parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
+
+            if (scrollNavHeight < 40) {
+              scrollNavHeight = 75;
+            }
+
+            var bodyRect = document.body.getBoundingClientRect();
+            var elemRect = document.querySelector(href).getBoundingClientRect();
+            var offsetTop = elemRect.top - bodyRect.top + scrollNavHeight - 20 - 40;
             scroll({
-              top: offsetTop,
+              top: parseInt(offsetTop),
               behavior: 'smooth'
             });
           });

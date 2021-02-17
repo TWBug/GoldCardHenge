@@ -12,18 +12,21 @@ function smoothScroll() {
             // }
             href = `[id="${href.substr(1)}"]`;
 
-            const scrollNavHeight = document.documentElement.style.getPropertyValue(
+            var scrollNavHeight = document.documentElement.style.getPropertyValue(
                 '--navigationScroll'
             );
+            scrollNavHeight = parseInt(
+                scrollNavHeight.substring(0, scrollNavHeight.indexOf('px'))
+            );
+            if (scrollNavHeight < 40) {
+                scrollNavHeight = 75;
+            }
 
             const bodyRect = document.body.getBoundingClientRect();
             const elemRect = document.querySelector(href).getBoundingClientRect();
-            const offsetTop =
-                elemRect.top -
-                bodyRect.top +
-                parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
+            const offsetTop = elemRect.top - bodyRect.top + scrollNavHeight - 20;
             scroll({
-                top: parseInt(offsetTop - 20),
+                top: parseInt(offsetTop),
                 behavior: 'smooth',
             });
         });
