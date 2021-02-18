@@ -33,4 +33,4 @@ badges:
 
 ---
 
-【 About the role 】 Furbo 狗狗攝影機是少數台灣自行研發，且成功熱銷全球的消費性 AIoT 產品。寵物飼主將透過手機App確認家中毛小孩的安全狀況並與毛小孩互動。資深嵌入式軟體工程師(Embedded Software Engineer)負責嵌入式系統(Embedded system) 的軟體開發，負責 AIoT 系統軟件架構設計，軟硬體系統整合(system integration)，P2P連線品質，影音串流優化(Multimedia)，系統效能最佳化。 【 About the company 】 Tomofun是全球寵物科技業中，第一家實踐AIoT於產品-Furbo 狗狗攝影機的台灣新創。Furbo結合 AI、深度學習及雲端大數據，能辨識並分析狗狗行為，讓狗爸媽即使不在家也能隨時隨地瞭解寵物狀態、與寵物互動！2016年至今，Furbo已進入全球12國市場，目前已有數十萬使用者、遍布133國，並位居歐美亞10國Amazon寵物類別銷售冠軍。 立足台灣的Tomofun，至今每年都有超過200%的驚人成長！延攬多國菁英，組織扁平、資訊透明的環境，讓每位Tomofun
+【 About the role 】 Furbo 狗狗攝影機是少數台灣自行研發，且成功熱銷全球的消費性 AIoT 產品。寵物飼主將透過手機App確認家中毛小孩的安全狀況並與毛小孩互動。資深嵌入式軟體工程師(Embedded Software Engineer)負責嵌入式系統(Embedded system) 的軟體開發，負責 AIoT 系統軟件架構設計，軟硬體系統整合(system integration)，P2P連線品質，影音串流優化(Multimedia)，系統效能最佳化。 【 About the company 】 Tomofun是全球寵物科技業中，第一家實踐AIoT於產���-Furbo 狗狗攝影機的台灣新創。Furbo結合 AI、深度學習及雲端大數據，能辨識並分析狗狗行為，讓狗爸媽即使不在家也能隨時隨地瞭解寵物狀態、與寵物互動！2016年至今，Furbo已進入全球12國市場，目前已有數十萬使用者、遍布133國，並位居歐美亞10國Amazon寵物類別銷售冠軍。 立足台灣的Tomofun，至今每年都有超過200%的驚人成長！延攬多國菁英，組織扁平、資訊透明的環境，讓每位Tomofun
