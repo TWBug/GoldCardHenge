@@ -1,15 +1,15 @@
 ---
+title: Field of Science & Technology
 summary: Those with outstanding achievements in R&D, design or innovation,
   international awards, or national academy membership, in such cutting-edge
   technological fields as software applications, nanotechnology,
   optoelectronics, ICT, biotechnology, AI, and IoT.
 draft: false
+cover_image: ""
 media_image: ""
 media_image_alt: Test alt
 date: 2020-11-05T07:09:20.617Z
 topic: goldcard
-title: Field of Science & Technology
-cover_image: ""
 style: right
 tags: null
 icon: /cms-uploads/icon-science-technology.svg
@@ -187,6 +187,13 @@ Document explaining the applicant's expertise or experience (such as a domestic 
 {{< /note >}}
 
 {{< note title="6.1a" >}}
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
+{{< /note >}}
+
+
+
+{{< note title="6.2a" >}}
 * Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
