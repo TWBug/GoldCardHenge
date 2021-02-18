@@ -5,7 +5,7 @@ date: 2021-01-18T03:11:02.768Z
 summary: Detail about Gold Card fee and confirmation letter.
 check: true
 title: Payment and E-Mail Confirmation
-order: 6
+order: 7
 topic: goldcard
 previous: /apply/step-2/resident/
 next: /apply/step-3/
