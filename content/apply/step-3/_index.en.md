@@ -1,10 +1,10 @@
 ---
 draft: false
 start: true
-title: Step 3 - After Application
-date: 2021-01-18T03:31:11.168Z
 summary: What happens after you submit.
 check: false
+title: Step 3 - After Application
+date: 2021-01-18T03:31:11.168Z
 order: 0
 topic: goldcard
 cover_image: /cms-uploads/icon-checklist.svg
@@ -13,8 +13,7 @@ previous: null
 next: /apply/step-3/supplementary-documents/
 ---
 {{< teaser >}}
-Congratulations on submitting your application! To check your application process, log in to the portal, click “Application Progress Inquiry”, and fill in your 12-digit application number. The application fee is nonrefundable regardless of the results of your application.
-
+Congratulations on submitting your application! To check your application process, [log in to the portal](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card), click “Application Progress Inquiry”, and fill in your 12-digit application number. The application fee is nonrefundable regardless of the results of your application.
 
 {{< /teaser >}}
 

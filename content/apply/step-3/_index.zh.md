@@ -1,10 +1,10 @@
 ---
 draft: false
 start: true
-title: 申請步驟三：送出申請後
-date: 2021-01-18T03:31:11.168Z
 summary: 送出申請後相關步驟
 check: false
+title: 申請步驟三：送出申請後
+date: 2021-01-18T03:31:11.168Z
 order: 0
 topic: goldcard
 cover_image: /cms-uploads/icon-checklist.svg
