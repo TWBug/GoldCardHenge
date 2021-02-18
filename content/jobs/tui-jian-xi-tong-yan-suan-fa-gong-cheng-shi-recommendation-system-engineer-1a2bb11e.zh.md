@@ -26,7 +26,7 @@ job_tags:
   - NLP
   - Natural Language Processing
 badges:
-  - Software  architecture
+  - Software architecture
 
 ---
 

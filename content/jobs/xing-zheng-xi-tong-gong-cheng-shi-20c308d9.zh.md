@@ -27,7 +27,7 @@ job_tags:
   - Windows
   - Unix
 badges:
-  - Software  architecture
+  - Software architecture
 
 ---
 

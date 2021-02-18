@@ -25,7 +25,7 @@ job_tags:
   - 系統規劃
   - 系統維運人員​
 badges:
-  - Software  architecture
+  - Software architecture
 
 ---
 

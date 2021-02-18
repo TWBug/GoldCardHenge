@@ -24,7 +24,7 @@ job_tags:
   - AWS
   - Cloud Services
 badges:
-  - Software  architecture
+  - Software architecture
 
 ---
 

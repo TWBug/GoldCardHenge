@@ -18,7 +18,7 @@ salary_type: per_year
 salary_min: 700000
 salary_max: 1000000
 location_list:
-  - 汐止區
+  - 汐��區
 job_tags:
   - photoshop
   - illustrator
