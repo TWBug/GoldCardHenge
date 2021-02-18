@@ -24,7 +24,7 @@ cover_image_alt: Test alt
 {{< accordion title="Applicant previously or currently holding a position at a technology company or in technological fields...with a most recent monthly salary of at least NTD 160,000." suffix="1." bottomless="true" >}}
 Please attach all of the following documents:
 - Documents verifying salary or income tax payment relating to employment at a technology company or in a technological field
-Most recent monthly salary of at least NT$160,000 means a monthly salary or average monthly salary of NT$160,000 or above within the three years preceding the month of the application; documentary proof of salary or tax payment. 
+Most recent monthly salary of at least NT$160,000 means a monthly salary or average monthly salary of NT$160,000 or above within the three years preceding the month of the application; documentary proof of salary or tax payment. (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2) 
 - Personal curriculum vitae and document verifying domestic or foreign service relating to employment at a technology company or in a technological field
 {{< /accordion >}}
 
