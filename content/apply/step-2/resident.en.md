@@ -1,11 +1,11 @@
 ---
 draft: false
 start: false
+date: 2021-01-18T03:10:55.207Z
 summary: Select only ONE field and upload related documents.
 check: true
 title: Upload Document
-date: 2021-01-18T03:10:55.207Z
-order: 4
+order: 5
 topic: goldcard
 previous: /apply/step-2/your-data/
 next: /apply/step-2/profession-documents/
