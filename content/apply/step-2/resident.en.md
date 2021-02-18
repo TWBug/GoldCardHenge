@@ -12,13 +12,6 @@ next: /apply/step-2/profession-documents/
 ---
 # Upload Document
 
-**Profession**
-
-* Please select the industry that you want to apply through. Click save after double-checking.
-* After you submit your application, changing the industry can take time for processing, and add to the overall review.
-
-**Upload Document**
-
 * Please upload a color copy of your passport, and a color photo of you according to the specifications on this page.
 * Use the Automatic photo cropping tool if you are unsure.
 * Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification you choose to apply through.
@@ -29,11 +22,4 @@ next: /apply/step-2/profession-documents/
   * Documents issued in the Mainland area have to be attested and examined by [the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct0c08.html?xItem=63253&ctNode=5642&mp=1) entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of “Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area.”
   * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
 
-
-**Preview**
-Once you have uploaded your documents, save and move to the Preview page. Please carefully check your application - any incorrect information could cause a delay of up to 30 days in your application.
-
-If everything seems in order, submit your application!
-
-
-
+For more information, please refer to the [detailed instructions](/en/application/#online-application).
