@@ -5,7 +5,7 @@ date: 2021-01-18T03:10:55.207Z
 summary: Select only ONE field and upload related documents.
 check: true
 title: Upload Document
-order: 5
+order: 6
 topic: goldcard
 previous: /apply/step-2/your-data/
 next: /apply/step-2/profession-documents/
