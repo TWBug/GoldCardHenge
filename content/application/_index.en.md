@@ -54,6 +54,7 @@ Fill in your information / Passport & Visa Status
 * After you have successfully registered, login and select "Employment Gold Card Application" in the "Online Application" menu. Then select your nationality and if you are applying from Taiwan or abroad.
 * You may apply for the Taiwan Employment Gold Card if you hold a foreign passport, or a ROC passport without household registration (NWHOR). ROC nationals with a household registration or National ID card are not eligible to apply. If you hold a Taiwan NWHOR passport, when applying domestically, you must have entered with your foreign passport and not Taiwan NWHOR passport or your application will be rejected.
 * If you are currently on a working holiday visa or a student visa for Chinese learning purposes, you cannot directly transfer to a Taiwan Employment Gold Card. You will need to re-enter the country before applying, or will need to apply from abroad.
+* If you enter Taiwan under visiting visa with remark of "no extension will be granted", you will need to submit application abroad or re-enter Taiwan with other visa.
 * If you are applying from abroad or are in Taiwan on a visitor-visa, visa-free, or a non-extendable visa, your passport needs to be inspected. An extra page will appear during the application process, where you can choose the location for your passport inspection. If you are in Taiwan, please go to the Bureau of Consular Affairs (Central, Southern, Eastern, Yunlin, Chiayi, and Tainan branches).
 * The application can take over 60 business days assuming you have all the proper documentation submitted. If you hold a 60-days visa or are visa-free, or you cannot obtain the Taiwan Employment Gold Card within the time limit, you will still need to leave the country and re-enter.
 
@@ -127,6 +128,10 @@ After your application has been approved, you will receive an e-mail notifying y
 ## Submitting Additional Documents & Rejection
 
 The review process after you complete the online payment officially begins. As the Taiwan Employment Gold Card is a combination of four different certificates, authorities from different departments will review your application. The National Immigration Agency conducts the first step of the review process then passes it to the Ministry of Labor. Here they will consult with your relevant Ministry and check your qualifications. The final stop is the Bureau of Consular Affairs for the last visa review.
+
+{{< teaser prefix="" >}}
+Visa issuance is an act of sovereignty and related to the National security. The government reserves the right not to issue a visa and is under no obligation to disclose the reason.
+{{< /teaser >}}
 
 {{< accordion title="More Details" suffix="" bottomless="false" >}}
 **If you submit incomplete or inaccurate information, or the authorities require more information about your qualifications, you will need to submit additional documents for review. Failing to do so can result in your application being rejected.** 
