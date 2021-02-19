@@ -6,7 +6,7 @@ draft: false
 hidden: false
 order: 2
 topic: goldcard
-previous: ""
+previous: /apply/step-2/registration/
 next: /apply/step-2/your-data/
 ---
 # 新增申請者
