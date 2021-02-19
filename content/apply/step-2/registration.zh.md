@@ -1,5 +1,5 @@
 ---
-summary: 於外國專業人才申辦窗口平台註冊帳號
+summary: 於「外國專業人才申辦窗口平台」註冊帳號
 draft: false
 check: true
 title: 註冊
