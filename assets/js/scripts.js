@@ -1014,6 +1014,8 @@ window.taMap = function () {
     status: false,
     elements: [],
     play: [],
+    paused: [],
+    expanded: [],
     stop: false,
     active: -1,
     modal: false,
@@ -1022,6 +1024,7 @@ window.taMap = function () {
     wrapper: {},
     data: {},
     "default": {},
+    previousActiveElement: false,
     options: {
       ref: 'map',
       file: 'file',
@@ -1047,6 +1050,8 @@ window.taMap = function () {
       for (var index = 0; index < content.length; index++) {
         this.elements.push(content[index]);
         this.play.push(true);
+        this.paused.push(false);
+        this.expanded.push(false);
         this.titleButton.push(content[index].dataset.titleShow);
       }
 
@@ -1073,12 +1078,23 @@ window.taMap = function () {
         _this.startAnimation();
       });
       this.startAnimation();
+      this.$el.addEventListener('keydown', function (event) {
+        if (event.code === 'Escape') {
+          _this.closeModal();
+        }
+      }, false);
     },
     toggle: function toggle(index) {
       var top = this.elements[index].offsetTop;
       var left = this.elements[index].offsetLeft + this.wrapper.left;
-      this.play[this.active] = true;
-      this.play[index] = !this.play[index];
+      this.paused[this.active] = false;
+      this.paused[index] = !this.paused[index];
+
+      if (this.stop !== true) {
+        this.play[this.active] = true;
+        this.play[index] = !this.play[index];
+      }
+
       this.active = index;
       this.modal = !this.modal;
 
@@ -1100,11 +1116,21 @@ window.taMap = function () {
       if (window.innerWidth < this.$refs.file.width) {
         this.data.style = '';
       }
+
+      if (this.modal) {
+        this.previousActiveElement = document.activeElement;
+        this.setFocus(document.getElementById('map-modal-close-button'));
+      } else {
+        if (document.activeElement !== this.previousActiveElement) {
+          this.setFocus(this.previousActiveElement);
+        }
+      }
     },
     closeModal: function closeModal() {
       this.modal = false;
-      this.play[this.active] = true;
+      this.paused[this.active] = false;
       this.active = -1;
+      this.previousActiveElement.focus();
 
       if (this.stop === true) {
         return;
@@ -1146,6 +1172,11 @@ window.taMap = function () {
     isInViewport: function isInViewport() {
       var position = this.$refs[this.options.ref].getBoundingClientRect();
       return position.top >= 0 && position.left >= 0 && position.bottom <= (window.innerHeight || document.documentElement.clientHeight) && position.right <= (window.innerWidth || document.documentElement.clientWidth);
+    },
+    setFocus: function setFocus(element) {
+      setTimeout(function () {
+        element.focus();
+      }, 10);
     }
   };
 };

@@ -2,6 +2,8 @@ name: Build Job Listings
 
 # Trigger whneever the job list file changes
 on:
+    schedule:
+        - cron: '0 0 * * *' # At midnight (minute 0 of hour 0)
     push:
         paths:
             - 'data/job_lists.yaml'
@@ -28,3 +30,12 @@ jobs:
             # The meat. The rest is just boilerplate. This is where the job scraping happens
             - name: Scrape all URLs specified in data/job_lists.yaml
               run: 'yarn build:jobs'
+
+            # Commit the new jobs, which should trigger a build (assuming job files changed)
+            - uses: stefanzweifel/git-auto-commit-action@v4
+              with:
+                  commit_message: Update job listings
+
+                  # Optional options appended to `git-push`
+                  # See git-push documentation for details: https://git-scm.com/docs/git-push#_options
+                  push_options: '--force'
