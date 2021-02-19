@@ -21,7 +21,7 @@ next: /apply/step-2/your-data/
 
 * 請確認護照上簽證狀態並選擇正確的簽證類別，若您選錯身分，將被要求重新遞件，且無法退費。
 
-{{< figure src="/cms-uploads/免簽蓋章.png" >}}
+{{< figure src="/cms-uploads/roc-taiwan-stap-example.png" >}}
 免簽證章範例
 {{< /figure >}}
 

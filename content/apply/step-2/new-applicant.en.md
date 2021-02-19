@@ -23,7 +23,7 @@ Once logged in to the portal, Select Application for Employment Gold Card from t
 
 * Please remember to double check your passport to confirm your visa situation. If you choose the wrong identity, you will be asked to reapply and not given a refund.
 
-{{< figure src="/cms-uploads/免簽蓋章.png" >}}
+{{< figure src="/cms-uploads/roc-taiwan-stap-example.png" >}}
 Visa Exempt Stamp example
 {{< /figure >}}
 
