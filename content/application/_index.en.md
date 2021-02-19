@@ -63,7 +63,7 @@ Fill in your information / Passport & Visa Status
 Uploading Your Documents
 {{< /teaser >}}
 
-* Please upload a color copy of your passport, and a color photo of you according to the specifications on this page. [](#note-21a)[](#note-21a)\[Note 2](#note-2)
+* Please upload a color copy of your passport, and a color photo (White background) of you according to the specifications on this page. [](#note-21a)[](#note-21a)\[Note 2](#note-2)
 * Use the automatic photo cropping tool if you are unsure. 
 * Attach all relevant supporting documents. Documents need to correspond with the requirements based on the qualification you choose to apply. \[Note 3](#note-3)[](#note-2)
 * If the provided documents are not in English or Chinese, please attach a translation to English or Chinese. If your documents are issued by the following countries/regions, additional verification is needed:
