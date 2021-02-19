@@ -2,6 +2,7 @@ const plugin = require('tailwindcss/plugin');
 
 const colors = {
     primary: '#ce3f00',
+    'primary-dark': '#942C00',
     secondary: '#567351',
     highlight: '#E5AD02',
     background: '#EEF5E0',
