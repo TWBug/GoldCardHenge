@@ -19,6 +19,8 @@ Once logged in to the portal, Select Application for Employment Gold Card from t
 
 * If you are applying from within Taiwan, be sure to select your current visa carefully as this cannot be changed later. Note that the common "visa exempt" entry is the last item in the list.
 
+![Visa Status](/cms-uploads/new-applicant-questions.png "Detailed information about the Visa Status of your application")
+
 ![Visa Status](/cms-uploads/簽證狀態eng.png "Visa Status")
 
 * Please remember to double check your passport to confirm your visa situation. If you choose the wrong identity, you will be asked to reapply and not given a refund.
