@@ -9,20 +9,29 @@
     {{ end }}
 {{ end }}
 
+{{ $image := "" }}
+{{ with (.Get "src" ) }}
+    {{ $buffer := resources.Get . }}
+    {{ if $buffer }}
+        {{ $image = $buffer | fingerprint }}
+    {{ end }}
+{{ end }}
+
+{{ if $image }}
 <figure class="{{ $class }}">
     {{ if isset .Params "link"}}
         <a href="{{ index .Params "link"}}">
     {{ end }}
     {{ if eq (.Get "style") "" }}
         <img
-            src="{{ index .Params "src" }}" {{ if or (isset .Params "alt") (isset .Params "caption") }}
+            src="{{ $image.RelPermalink }}" {{ if or (isset .Params "alt") (isset .Params "caption") }}
             alt="{{ if isset .Params "alt"}}{{ index .Params "alt"}}{{else}}{{ index .Params "caption" }}{{ end }}"{{ end }}
             class="block rounded-md"
             loading="lazy"
         />
     {{ else }}
         <img
-            src="{{ index .Params "src" }}" {{ if or (isset .Params "alt") (isset .Params "caption") }}
+            src="{{ $image }}" {{ if or (isset .Params "alt") (isset .Params "caption") }}
             alt="{{ if isset .Params "alt"}}{{ index .Params "alt"}}{{else}}{{ index .Params "caption" }}{{ end }}"{{ end }}
             class="block rounded-md w-full"
             loading="lazy"
@@ -51,6 +60,7 @@
     </figcaption>
     {{ end }}
 </figure>
+{{ end }}
 
 {{ define "purge" }}
 <div class="w-1/2 sm:w-1/3 float-right ml-8 float-left mt-2 mr-8 mb-2"></div>
