@@ -163,7 +163,7 @@ When entering the Taiwanese address in Chinese, must be only Chinese symbols and
 {{< /note >}}
 
 {{< note title="2" >}}
-* If your birthplace is in China, the National Immigration Agency will require you to upload the following documents: 
+* If your birthplace is in Mainland China, the National Immigration Agency will require you to upload the following documents: 
 
 1. Upload the passport to prove you've been to foreign countries over four years; for example, present every page of the passport to prove the duration of your stay. 
 2. Make an entry list along with your passport pages to show that each time you go back to China, Macau, and Hong Kong is within 30 days in these four years. (dates and entry stamps are required.) 
