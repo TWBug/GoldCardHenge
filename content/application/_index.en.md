@@ -63,9 +63,9 @@ Fill in your information / Passport & Visa Status
 Uploading Your Documents
 {{< /teaser >}}
 
-* Please upload a color copy of your passport, and a color photo of you according to the specifications on this page. 
+* Please upload a color copy of your passport, and a color photo of you according to the specifications on this page. [](#note-21a)[](#note-21a)\[Note 2](#note-2)
 * Use the automatic photo cropping tool if you are unsure. 
-* Attach all relevant supporting documents. Documents need to correspond with the requirements based on the qualification you choose to apply. [Note 2](#note-2)
+* Attach all relevant supporting documents. Documents need to correspond with the requirements based on the qualification you choose to apply. \[Note 3](#note-3)[](#note-2)
 * If the provided documents are not in English or Chinese, please attach a translation to English or Chinese. If your documents are issued by the following countries/regions, additional verification is needed:
 
   * Applicants from Hong Kong and Macau may need to supply copies of resident and identity information. 
@@ -101,7 +101,7 @@ For overseas applications, or if you have entered Taiwan but have a visa with a 
 {{< /teaser >}}
 
 * When your application is approved and has passed the qualification review, you will receive an e-mail notification to bring your passport for passport inspection. At this point, please bring your original passport to your chosen Bureau of Consular Affairs or ROC mission/office. 
-* After verification, you will receive an e-mail stating your passport has been inspected and the gold card application was approved. Under normal circumstances, this process should take a week. [Note 3](#note-3)
+* After verification, you will receive an e-mail stating your passport has been inspected and the gold card application was approved. Under normal circumstances, this process should take a week. [](#note-3)\[Note 4](#note-4)
 
 ## STEP 3: Receiving your Gold Card
 
@@ -163,11 +163,20 @@ When entering the Taiwanese address in Chinese, must be only Chinese symbols and
 {{< /note >}}
 
 {{< note title="2" >}}
+* If your birthplace is in China, the National Immigration Agency will require you to upload the following documents: 
+
+1. Upload the passport to prove you've been to foreign countries over four years; for example, present every page of the passport to prove the duration of your stay. 
+2. Make an entry list along with your passport pages to show that each time you go back to China, Macau, and Hong Kong is within 30 days in these four years. (dates and entry stamps are required.) 
+
+   Please refer to [article 7 of Enforcement Rules for the Act Governing Relations Between the People of the Taiwan Area and the Mainland Area ](https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=Q0010002)
+{{< /note >}}
+
+{{< note title="3" >}}
 * The uploaded passport copy must be the same as the passport used for the visa application.
 * Provide and upload supporting documentation as closely as possible with the proposed specifications to ensure a speedy application. If you are required to send in more supporting documents, the processing time can extend by many weeks to over a month.
 {{< /note >}}
 
-{{< note title="3" >}}
+{{< note title="4" >}}
 * You can change the passport inspection location anytime on the online platform before the application has finished the review process. **You will not be able to make online changes after you receive the e-mail confirmation that your application has passed review.** At this point, you can only change the location by contacting the Bureau of Consular Affairs (from overseas) or contacting the National Immigration Agency (from within Taiwan).
 * If you send your passport via post to an overseas mission/office, please make sure you don't have to use your passport within a month.
 {{< /note >}}
