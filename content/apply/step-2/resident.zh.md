@@ -4,13 +4,13 @@ start: false
 date: 2021-01-18T03:10:55.207Z
 summary: 選擇其中一個領域並提供相關應備文件
 check: true
-title: 資料上傳
+title: 文件上傳
 order: 6
 topic: goldcard
 previous: /apply/step-2/your-data/
 next: /apply/step-2/profession-documents/
 ---
-# 資料上傳
+# 文件上傳
 
 * 請將您的資料上傳，包含近半年內2吋半身脫帽彩色照片（背景為白底）、所餘效期6個月以上的護照彩色影本，與其他相關證明文件。相關證明文件會依據您所選擇的「領域專長」而有相對應的要求。
 * 若您的出生地在中國大陸，您須提供護照簽證頁，證明您近四年內在大陸、香港或澳門滯留期間每次不超過30天；或者提供大陸除籍證明。
