@@ -156,7 +156,7 @@ Some overseas missions might be temporarily closed or working remotely. Please c
 ## Note:
 
 {{< note title="1" >}}
-When entering the Taiwanese address in Chinese, must be only Chinese symbols and Arabic numerals only; no English letters allowed.
+Domestic applications require a resident address when applying. When entering the Taiwanese address in Chinese, only Chinese symbols and Arabic numerals can be used, no English letters allowed.
 
 * Incorrect：台北市中正區寶慶路No. 3, 2F
 * Correct：台北市中正區寶慶路3號2樓
