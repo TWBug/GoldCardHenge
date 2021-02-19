@@ -21,7 +21,7 @@ Once logged in to the portal, Select Application for Employment Gold Card from t
 
 ![Visa Status](/cms-uploads/簽證狀態eng.png "Visa Status")
 
-*
+* Please remember to double check your passport to confirm your visa situation. If you choose the wrong identity, you will be asked to reapply and not given a refund.
 
 ![Visa Exempt Stamp example](/cms-uploads/免簽蓋章.png "Visa Exempt Stamp example")
 
