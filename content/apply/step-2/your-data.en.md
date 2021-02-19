@@ -7,7 +7,7 @@ check: true
 title: Basic Data
 order: 3
 topic: goldcard
-previous: /apply/step-2/registration/
+previous: /apply/step-2/new-applicant/
 next: /apply/step-2/resident/
 ---
 # Your Data
