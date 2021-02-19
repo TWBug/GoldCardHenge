@@ -2,7 +2,7 @@
 draft: false
 start: false
 date: 2021-01-18T03:11:02.768Z
-summary: 就業金卡費用與確認信
+summary: 繳交就業金卡費用與確認信通知
 check: true
 title: 繳費與郵件通知
 order: 7
