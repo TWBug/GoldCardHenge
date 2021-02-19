@@ -2,7 +2,7 @@
 draft: false
 start: false
 date: 2021-01-18T03:10:55.207Z
-summary: 選擇其中一個領域並提供相關應備文件
+summary: 依據所選擇的領域專長提供相關應備文件
 check: true
 title: 文件上傳
 order: 6
