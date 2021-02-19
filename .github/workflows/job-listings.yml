@@ -35,3 +35,7 @@ jobs:
             - uses: stefanzweifel/git-auto-commit-action@v4
               with:
                   commit_message: Update job listings
+
+                  # Optional options appended to `git-push`
+                  # See git-push documentation for details: https://git-scm.com/docs/git-push#_options
+                  push_options: '--force'
