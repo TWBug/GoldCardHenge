@@ -1,24 +1,35 @@
-{{ $class := "w-full mb-6" }}
+{{ $class := "block mb-6" }}
 {{ with .Get "style" }}
-{{ if eq . "right" }}
-{{ $class = "w-1/2 sm:w-1/3 float-right mt-2 ml-4 mb-2" }}
-{{ else if eq . "left" }}
-{{ $class = "w-1/2 sm:w-1/3 float-left mt-2 mr-4 mb-2" }}
-{{ end }}
+    {{ if eq . "right" }}
+        {{ $class = "w-1/2 sm:w-1/3 float-right mt-2 ml-8 mb-2" }}
+    {{ else if eq . "left" }}
+        {{ $class = "w-1/2 sm:w-1/3 float-left mt-2 mr-8 mb-2" }}
+    {{ else if eq . "full" }}
+        {{ $class = "w-full mb-6" }}
+    {{ end }}
 {{ end }}
 
 <figure class="{{ $class }}">
     {{ if isset .Params "link"}}
-    <a href="{{ index .Params "link"}}">
+        <a href="{{ index .Params "link"}}">
     {{ end }}
-    <img
-        src="{{ index .Params "src" }}" {{ if or (isset .Params "alt") (isset .Params "caption") }}
-        alt="{{ if isset .Params "alt"}}{{ index .Params "alt"}}{{else}}{{ index .Params "caption" }}{{ end }}"{{ end }}
-        class="block rounded-md w-full"
-        loading="lazy"
-    />
+    {{ if eq (.Get "style") "" }}
+        <img
+            src="{{ index .Params "src" }}" {{ if or (isset .Params "alt") (isset .Params "caption") }}
+            alt="{{ if isset .Params "alt"}}{{ index .Params "alt"}}{{else}}{{ index .Params "caption" }}{{ end }}"{{ end }}
+            class="block rounded-md"
+            loading="lazy"
+        />
+    {{ else }}
+        <img
+            src="{{ index .Params "src" }}" {{ if or (isset .Params "alt") (isset .Params "caption") }}
+            alt="{{ if isset .Params "alt"}}{{ index .Params "alt"}}{{else}}{{ index .Params "caption" }}{{ end }}"{{ end }}
+            class="block rounded-md w-full"
+            loading="lazy"
+        />
+    {{ end }}
     {{ if isset .Params "link"}}
-    </a>
+        </a>
     {{ end }}
     {{ if or (or (isset .Params "title") (isset .Params "caption")) (isset .Params "attr")}}
     <figcaption>
@@ -29,7 +40,18 @@
             {{ index .Params "attr" }}
         {{ if isset .Params "attrlink"}}</a> {{ end }}
         </div>
-        {{ end }} 
+        {{ end }}
+    </figcaption>
+    {{ end }}
+    {{ if .Inner }}
+    <figcaption>
+        <div class="text-xs font-semibold break-words mt-2">
+            {{ .Inner | .Page.RenderString }}
+        </div>
     </figcaption>
     {{ end }}
 </figure>
+
+{{ define "purge" }}
+<div class="w-1/2 sm:w-1/3 float-right ml-8 float-left mt-2 mr-8 mb-2"></div>
+{{ end }}
