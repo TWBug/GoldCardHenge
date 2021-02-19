@@ -20,8 +20,9 @@ Visa issuance is an act of sovereignty and related to the National security. The
 
 **Common reasons for visa rejection:**
 
-1. False information:
-2. Visa cannot be switched. Ex. If you enter Taiwan under working holiday visa or international meeting visa with "non-switchable" condition, you will need to submit application abroad.
+1. Wrong visa status
+2. Incomplete information
+3. Insufficient documents
 
 You will receive an email if this is the case. [Log in to the Application Portal](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card) to review your application and the request for Supplementary Documents. You can then submit a modified version of your application and upload new documents.
 
