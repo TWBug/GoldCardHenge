@@ -1,7 +1,7 @@
 ---
 title: 新增申請者
 date: 2021-01-22T05:59:59.754Z
-summary: 注意選擇的簽證狀態
+summary: 若您在台灣境內申請，請依照入境時所持有的簽證做選擇
 draft: false
 hidden: false
 order: 2
