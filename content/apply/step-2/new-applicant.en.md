@@ -21,9 +21,9 @@ Once logged in to the portal, Select Application for Employment Gold Card from t
 
 ![Visa Status](/cms-uploads/簽證狀態eng.png "Visa Status")
 
-{{< card title="Visa-Exempt Example" link="" image="/cms-uploads/免簽蓋章.png" >}}
+*
 
-{{< /card >}}
+![Visa Exempt Stamp example](/cms-uploads/免簽蓋章.png "Visa Exempt Stamp example")
 
 * If you are currently on a working holiday visa or a student visa for Chinese learning purposes, you cannot directly transfer to a Taiwan Employment Gold Card.
 * If you hold a visa less than 60-days or are visa-free, or you cannot obtain the Taiwan Employment Gold Card within the time limit, you will still need to leave the country and re-enter.

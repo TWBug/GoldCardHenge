@@ -19,8 +19,8 @@ next: /apply/step-2/your-data/
 
 ![簽證狀態](/cms-uploads/簽證狀態chi.png "簽證狀態")
 
-{{< card title="免簽證章範例" link="" image="/cms-uploads/免簽蓋章.png" >}}
+*
 
-{{< /card >}}
+![免簽證章範例](/cms-uploads/免簽蓋章.png "免簽證章範例")
 
 * 從遞件到領取金卡至少需要 60 個工作天的申請作業程序，持 60 天以下簽證或免簽證，若無法在期限內取得就業金卡，仍需要出境後再入境。
