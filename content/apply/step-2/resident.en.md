@@ -15,6 +15,10 @@ next: /apply/step-2/profession-documents/
 * Please upload a color copy of your passport, and a color photo of you (White background) according to the specifications on this page.
 * Use the Automatic photo cropping tool if you are unsure.
 * Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification you choose to apply through.
+* If your birthplace is in Mainland China, the National Immigration Agency will require you to upload the following documents: 
+
+  1. Upload the passport to prove you've been to foreign countries over four years; for example, present every page of the passport to prove the duration of your stay. 
+  2. Make an entry list along with your passport pages to show that each time you go back to China, Macau, and Hong Kong is within 30 days in these four years. (dates and entry stamps are required.) 
 * If the provided documents are neither in English nor Chinese, please attach a translation to English or Chinese. 
 * If your documents are issued by the following countries/regions, additional verification is needed:
 
