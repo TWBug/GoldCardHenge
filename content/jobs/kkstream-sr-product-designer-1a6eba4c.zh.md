@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '26108'
-title: '[KKStream] Sr. Product Designer (UI/UX)'
+title: '[KKStream] Sr. Product Designer '
 job_url: >-
   https://www.cakeresume.com/companies/kkboxgroup/jobs/kkstream-sr-product-designer-ui-ux
 date: 2021-01-14T07:58:17.073Z
