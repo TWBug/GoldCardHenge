@@ -7,7 +7,7 @@ data_source_internal_id: '26094'
 title: 資深軟體工程師 Sr. Software Developer
 job_url: 'https://www.cakeresume.com/companies/fst-network/jobs/sr-software-developer'
 date: 2021-01-13T10:17:22.919Z
-company_name: FST Network 邦拓鏈���份有限公司
+company_name: FST Network 邦拓鏈股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/fst-network'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--NGWUpByz--/c_pad,fl_png8,h_200,w_200/v1610531404/ac8gnbsgjgcdjqkqsdk8.png

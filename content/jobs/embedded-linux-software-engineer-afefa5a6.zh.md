@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '26937'
-title: 【知名外商】Embedded Linux Software Engineer
+title: 【知名外商-竹北】Embedded Linux Software Engineer
 job_url: 'https://www.cakeresume.com/companies/robert-walters/jobs/3aa770'
 date: 2021-02-19T02:09:15.349Z
 company_name: Robert Walters
@@ -18,9 +18,8 @@ salary_min: 1000000
 salary_max: 1800000
 location_list:
   - 台灣
-  - 台北
-  - 台北市
-  - 台北市信義區
+  - 新竹
+  - 竹北
 job_tags: []
 badges:
   - Software
