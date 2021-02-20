@@ -27,4 +27,4 @@ badges:
 
 ---
 
-As a UX designer at Kronos, you will be responsible for the designing and developing all of our interactive projects. You will help making the user experience of cryptocurrency platforms easy to use to the beginners and you will also help shaping the trading experience for professional traders. To join our team, you should be excited to: Conducting user research and analyzing user behavior. Researching on industry trends/ strategies and making competitor analysis. Evaluating user research from d
+【投遞方式】 此處不收履歷，請至 https://grnh.se/545911cf3us 投遞。 As a UX designer at Kronos, you will be responsible for designing and developing all of our interactive projects. You will help to make the user experience of cryptocurrency platforms easy to use for beginners and you will also help shaping the trading experience for professional traders. To join our team, you should be excited to: Conducting user research and analyzing user behavior. Researching industry trends/ strategies and making competitor a

@@ -26,4 +26,4 @@ badges:
 
 ---
 
-As an experienced visual designer, your role is to collaborate with multidisciplinary designers and drive product iterations. You should be able to extend your skills and experience to the company’s digital product design, service design, and also being able to create new expressions for global branding. In this role you will have the opportunity to drive the latest technological trends, grow with our talented teams together and touch the lives of many users. We thrive on being challenged. You w
+【投遞方式】 此處不收履歷，請至 https://grnh.se/b233ea8c3us 投遞。 As an experienced visual designer, your role is to collaborate with multidisciplinary designers and drive product iterations. You should be able to extend your skills and experience to the company’s digital product design, service design, and also being able to create new expressions for global branding. In this role, you will have the opportunity to drive the latest technological trends, grow with our talented teams together and touch the lives o
