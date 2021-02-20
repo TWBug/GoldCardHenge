@@ -3,7 +3,7 @@ name: Build Job Listings
 # Trigger whneever the job list file changes
 on:
     schedule:
-        - cron: '0 0 * * *' # At midnight (minute 0 of hour 0)
+        - cron: '0 22 * * *' # At midnight (minute 0 of hour 0)
     push:
         paths:
             - 'data/job_lists.yaml'
@@ -38,4 +38,7 @@ jobs:
 
                   # Optional options appended to `git-push`
                   # See git-push documentation for details: https://git-scm.com/docs/git-push#_options
-                  push_options: '--force'
+                  # NOTE: This should not be necessary, since we will be running
+                  # during off hours and it's unlikely there will be conflicts
+                  # to be rebased. But just in case, the option is available.
+                  # push_options: '--force'
