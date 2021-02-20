@@ -248,6 +248,10 @@
   translation: 'Go to last page'
 - id: goto_page
   translation: 'Go to page'
+- id: goto_top
+  translation: 'Go to the top'
+- id: button_goto_to_top
+  translation: 'Scrolls up to the top'
 
 - id: undefined
   translation: 'UNDEFINED'
