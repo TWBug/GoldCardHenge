@@ -7,8 +7,11 @@ hidden: false
 order: 5
 topic: goldcard
 media_image_alt: ""
-previous: ""
-next: ""
+previous: "/apply/step-2/resident/"
+next: "/apply/step-2/upload-document/"
 ---
+
+# Profession
+
 * Please select the industry that you want to apply under and attach all relevant supporting documents. Click save after double-checking and uploading the files.
 * After you submit your application, changing the industry will be difficult and it will take longer to process review your application.

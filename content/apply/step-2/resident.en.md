@@ -1,30 +1,24 @@
 ---
+title: Resident
+date: 2021-02-18T06:42:49.867Z
+summary: Choose your validity period and preferred location for collecting Gold Card
 draft: false
-start: false
-date: 2021-01-18T03:10:55.207Z
-summary: Select only ONE field and upload related documents.
-check: true
-title: Upload Document
-order: 6
+hidden: false
+order: 4
 topic: goldcard
 previous: /apply/step-2/your-data/
-next: /apply/step-2/profession-documents/
+next: /apply/step-2/profession/
 ---
-# Upload Document
 
-* Please upload a color copy of your passport, and a color photo of you (White background) according to the specifications on this page.
-* Use the Automatic photo cropping tool if you are unsure.
-* Attach relevant supporting documents. Documents need to correspond to the requirements based on the qualification you choose to apply through.
-* If your birthplace is in Mainland China, the National Immigration Agency will require you to upload the following documents: 
+# Resident
 
-  1. Upload the passport to prove you've been to foreign countries over four years; for example, present every page of the passport to prove the duration of your stay. 
-  2. Make an entry list along with your passport pages to show that each time you go back to China, Macau, and Hong Kong is within 30 days in these four years. (dates and entry stamps are required.) 
-* If you choose to apply as a Hong Kong citizen, you will be required to give up your other citizenship. You must give up your foreign citizenship according to Article 4 of Laws and Regulations Regarding Hong Kong & Macao Affairs, the "Hong Kong Residents" as used herein refers to persons who qualify for permanent residency in Hong Kong and who do not hold a travel document other than a British (Overseas) passport or a Hong Kong passport. However, if you apply as a foreign citizen, you would only have to sign an affidavit stating that you will only use the designated passport you chose to enter Taiwan.
-* If the provided documents are neither in English nor Chinese, please attach a translation to English or Chinese. 
-* If your documents are issued by the following countries/regions, additional verification is needed:
+* Choose your validity period for the Taiwan Employment Gold Card. The price of the application varies for longer validity periods. Extensions are not possible.
+* Please choose the preferred location for collecting your Gold Card.
+* If you would like to come to Taiwan as soon as possible you can choose to pick up the Gold Card in Taiwan. You may enter the country on a temporary certificate and collect the card after you arrive. You can collect your card overseas but it can take up to 21-working days for the card to arrive at overseas missions. For detailed instructions to pick up your Gold Card, please refer to Card Collection.
+* If you currently don’t have a work address, you can temporarily leave it out during the application and review stage. You may leave your Taiwan relative/friend’s resident address if you have no residence address. However, you must provide a residential address within 30 days of arriving in Taiwan.
+* Domestic applications require a resident address when applying. When entering the Taiwanese address in Chinese, only Chinese symbols and Arabic numerals can be used, no English letters allowed.
 
-  * Applicants from Hong Kong and Macau may need to supply copies of resident and identity information.
-  * Documents issued in the Mainland area have to be attested and examined by [the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct0c08.html?xItem=63253&ctNode=5642&mp=1) entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of “Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area.”
-  * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
+  * Incorrect：台北市中正區寶慶路No. 3, 2F
+  * Correct：台北市中正區寶慶路3號2樓
 
-For more information, please refer to the [detailed instructions](/en/application/#online-application).
+![Address Format](/cms-uploads/地址格式.png "Address Format")
