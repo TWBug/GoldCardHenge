@@ -26,4 +26,4 @@ badges:
 
 ---
 
-Key responsibilities: Responsible for designing and modifying software source code with specifications of source comments, end user documentation Develop applications and drivers for operating systems such as Linux and embedded systems Cooperate with electrical engineer function and report to department manager within review meeting, external stakeholder management, etc. SW project management with emphasis on documentation and tool debugging (such as simulators, emulators, and analyzers) Display
+Key responsibilities： Responsible for designing and modifying software source code with specifications of source comments, end user documentation Develop applications and drivers for operating systems such as Linux and embedded systems Cooperate with electrical engineer function and report to department manager within review meeting, external stakeholder management, etc. SW project management with emphasis on documentation and tool debugging (such as simulators, emulators, and analyzers) Display

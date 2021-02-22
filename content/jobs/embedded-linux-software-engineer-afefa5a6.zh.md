@@ -26,4 +26,4 @@ badges:
 
 ---
 
-Key Responsibilities: Design and implement firmware of embedded devices and systems from requirements to production and commercial deployment Interface with system-level development, emphasis on kernel driver/ file system/ source management/ various peripheral. Collaborate with internal and vendor engineers to develop consumer/enterprise networking products
+Key Responsibilities： Design and implement firmware of embedded devices and systems from requirements to production and commercial deployment Interface with system-level development, emphasis on kernel driver/ file system/ source management/ various peripheral. Collaborate with internal and vendor engineers to develop consumer/enterprise networking products
