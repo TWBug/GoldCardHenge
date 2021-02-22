@@ -35,8 +35,6 @@ for (let index = 0; index < html_files.length; index++) {
             console.info('Tag:', actions[action_index].rawTagName);
             console.info('Text:', actions[action_index].textContent);
             console.info('Content:', actions[action_index].toString());
-            // console.info('href:', actions[action_index].getAttribute('href'));
-            // console.info('class:', actions[action_index].getAttribute('class'));
             console.info('\n----------------\n');
         }
     }
