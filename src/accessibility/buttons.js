@@ -10,11 +10,6 @@ for (let index = 0; index < html_files.length; index++) {
     const data = fs.readFileSync(html_files[index], { encoding: 'utf8', flag: 'r' });
     const html = HTMLParser.parse(data);
 
-    var language = 'en';
-    if (html_files[index].indexOf('/zh/') !== -1) {
-        language = 'zh';
-    }
-
     var body = html.querySelector('body');
     if (body === null) {
         continue;
@@ -25,21 +20,23 @@ for (let index = 0; index < html_files.length; index++) {
     for (let action_index = 0; action_index < actions.length; action_index++) {
         var error = true;
 
-        if (actions[action_index].childNodes.length > 0) {
-            error = false;
-        } else if (actions[action_index].rawText.length > 0) {
+        if (typeof actions[action_index].firstChild !== 'undefined') {
+            if (actions[action_index].firstChild.rawTagName !== 'svg') {
+                error = false;
+            } else if (actions[action_index].childNodes.length > 1) {
+                error = false;
+            }
+        } else if (typeof actions[action_index].textContent === 'undefined') {
             error = false;
         }
 
         if (error) {
-            console.info('path:', html_files[index]);
-            console.info('tag:', actions[action_index].rawTagName);
-            console.info('innerHTML:', actions[action_index].innerHTML);
-            console.info('text:', actions[action_index].text);
-            console.info('textContent:', actions[action_index].textContent);
-            console.info('string:', actions[action_index].toString());
-            console.info('href:', actions[action_index].getAttribute('href'));
-            console.info('class:', actions[action_index].getAttribute('class'));
+            console.info('Path:', html_files[index]);
+            console.info('Tag:', actions[action_index].rawTagName);
+            console.info('Text:', actions[action_index].textContent);
+            console.info('Content:', actions[action_index].toString());
+            // console.info('href:', actions[action_index].getAttribute('href'));
+            // console.info('class:', actions[action_index].getAttribute('class'));
             console.info('\n----------------\n');
         }
     }
