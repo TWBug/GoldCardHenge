@@ -46,6 +46,10 @@
   translation: 'Open a new window'
 - id: to_main_content
   translation: 'Main Content'
+- id: show_navigation
+  translation: 'Show navigation'
+- id: hide_navigation
+  translation: 'Hide navigation'
 - id: contact
   translation: 'Contact'
 - id: last_changed

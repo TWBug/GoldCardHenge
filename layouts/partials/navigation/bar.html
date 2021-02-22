@@ -62,6 +62,9 @@
     </div>
     <div class="flex">
         <button type="button" x-on:click="toggleModal()" class="px-8 -mr-8 focus:bg-white focus:text-nav-start" >
+            <span class="sr-only">
+                {{ i18n "show_navigation" }}
+            </span>
             {{ partial "icon" (dict "name" "bars" "size" "8") }}
         </button>
         {{/*  <div

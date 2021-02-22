@@ -24,6 +24,9 @@
     x-transition:leave-end="opacity-0 translate-x-10"
     >
     <button type="button" x-on:click="toggleModal()" class="absolute top-0 right-0 px-8 py-4 focus:bg-white focus:text-nav-start" >
+        <span>
+            {{ i18n "hide_navigation" }}
+        </span>
         {{ partial "icon" (dict "name" "times" "size" "10") }}
     </button>
     <div class="flex flex-col h-full">

@@ -93,6 +93,9 @@
                                     {{ i18n "loading_filter" }}
                                 </div>
                                 <button type="button" class="text-primary px-2 py-1 mr-2 focus-primary" x-show="!is_empty" @click.prevent="resetFilter()">
+                                    <span class="sr-only">
+                                        {{ i18n "reset_filter" }}
+                                    </span>
                                     {{ partial "icon" (dict "name" "times" "size" "6" "alt" (i18n "reset_filter")) }}
                                 </button>
                             </div>

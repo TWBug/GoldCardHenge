@@ -46,6 +46,10 @@
   translation: '開啟新視窗'
 - id: to_main_content
   translation: '主要內容'
+- id: show_navigation
+  translation: '顯示導航'
+- id: hide_navigation
+  translation: '隱藏導航'
 - id: contact
   translation: '聯繫'
 - id: last_changed
