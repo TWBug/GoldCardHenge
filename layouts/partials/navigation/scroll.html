@@ -7,6 +7,7 @@
         <img src="{{ $logo.RelPermalink }}" class="w-full" alt="{{ partial "alt" ( dict "alt" (i18n "tego_logo") "lang" .Site.Language.Lang ) }}" />
     </a>
     <button type="button" x-data="taSearchTrigger()" x-init="init('scroll')" @click="show()" class="hidden lg:flex items-center px-4 focus:bg-white focus:text-black">
+        <span class="sr-only">{{ i18n "placeholder_search" }}</span>
         {{ partial "icon" (dict "name" "search" "size" "5" "alt" (i18n "placeholder_search")) }}
     </button>
     <ul class="flex-grow-0 hidden lg:flex justify-between items-center text-base font-semibold">
@@ -51,11 +52,15 @@
     <div class="flex lg:hidden">
         <div class="flex">
             <button type="button" x-data="taSearchTrigger()" x-init="init('scroll')" @click="show()" class="flex items-center px-4 focus:bg-white focus:text-black">
+                <span class="sr-only">{{ i18n "placeholder_search" }}</span>
                 {{ partial "icon" (dict "name" "search" "size" "6" "alt" (i18n "placeholder_search")) }}
             </button>
         </div>
         <div class="flex">
             <button type="button" x-on:click="toggleModal()" class="px-8 -mr-4 focus-white" >
+                <span>
+                    {{ i18n "show_navigation" }}
+                </span>
                 {{ partial "icon" (dict "name" "bars" "size" "8") }}
             </button>
         </div>

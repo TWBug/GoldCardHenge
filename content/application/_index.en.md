@@ -64,9 +64,9 @@ Fill in your information / Passport & Visa Status
 Uploading Your Documents
 {{< /teaser >}}
 
-* Please upload a color copy of your passport, and a color photo (White background) of you according to the specifications on this page. [](#note-21a)[](#note-21a)[Note 2](#note-2)
+* Please upload a color copy of your passport, and a color photo (White background) of you according to the specifications on this page. [Note 2](#note-2)
 * Use the automatic photo cropping tool if you are unsure. 
-* Attach all relevant supporting documents. Documents need to correspond with the requirements based on the qualification you choose to apply. [Note 3](#note-3)[](#note-2)
+* Attach all relevant supporting documents. Documents need to correspond with the requirements based on the qualification you choose to apply. [Note 3](#note-3)
 * If the provided documents are not in English or Chinese, please attach a translation to English or Chinese. If your documents are issued by the following countries/regions, additional verification is needed:
 
   * Applicants from Hong Kong and Macau may need to supply copies of resident and identity information. 
@@ -102,7 +102,7 @@ For overseas applications, or if you have entered Taiwan but have a visa with a 
 {{< /teaser >}}
 
 * When your application is approved and has passed the qualification review, you will receive an e-mail notification to bring your passport for passport inspection. At this point, please bring your original passport to your chosen Bureau of Consular Affairs or ROC mission/office. 
-* After verification, you will receive an e-mail stating your passport has been inspected and the gold card application was approved. Under normal circumstances, this process should take a week. [](#note-3)\[Note 4](#note-4)
+* After verification, you will receive an e-mail stating your passport has been inspected and the gold card application was approved. Under normal circumstances, this process should take a week. [Note 4](#note-4)
 
 ## STEP 3: Receiving your Gold Card
 

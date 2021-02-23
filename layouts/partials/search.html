@@ -26,8 +26,10 @@
                 type="button"
                 class="absolute top-0 right-0 flex-center bg-primary text-white rounded-full w-10 h-10 p-2 -mr-2 -mt-2 shadow-md focus-primary"
                 @click.prevent="hide()"
-            >
-                {{ partial "icon" (dict "name" "times" "size" "6" "alt" "close") }}
+            >   <span class="sr-only">
+                    {{ i18n "close" }}
+                </span>
+                {{ partial "icon" (dict "name" "times" "size" "6" "alt" false) }}
             </button>
 
             <div
@@ -36,11 +38,11 @@
                 <label for="search" class="text-secondary pl-4">
                     {{ partial "icon" (dict "name" "search" "size" "6" "alt" (i18n "placeholder_search")) }}
                 </label>
-                <input 
+                <input
                     data-cy="search-box"
-                    type="text" 
-                    id="search" 
-                    class="flex-grow placeholder-gray-400 text-lg font-medium w-full px-4 py-4" 
+                    type="text"
+                    id="search"
+                    class="flex-grow placeholder-gray-400 text-lg font-medium w-full px-4 py-4"
                     placeholder="{{ i18n "placeholder_search" }}"
                     x-ref="input"
                     x-model.debounce.250="query"
@@ -55,6 +57,9 @@
                     @click.prevent="reset()"
                     x-show="!is_empty"
                 >
+                    <span class="sr-only">
+                        {{ i18n "reset_filter" }}
+                    </span>
                     {{ partial "icon" (dict "name" "times" "size" "6" "alt" (i18n "reset_filter")) }}
                 </button>
             </div>

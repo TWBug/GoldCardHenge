@@ -46,6 +46,10 @@
   translation: '開啟新視窗'
 - id: to_main_content
   translation: '主要內容'
+- id: show_navigation
+  translation: '顯示導航'
+- id: hide_navigation
+  translation: '隱藏導航'
 - id: contact
   translation: '聯繫'
 - id: last_changed
@@ -244,6 +248,10 @@
   translation: '轉到最後一頁'
 - id: goto_page
   translation: '轉到頁面'
+- id: goto_top
+  translation: '轉到頂部'
+- id: button_goto_to_top
+  translation: '向上滾動到頂部'
 
 - id: undefined
   translation: 'UNDEFINED'

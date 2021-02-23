@@ -17,6 +17,17 @@
     {{ end }}
 {{ end }}
 
+{{ $alt := "" }}
+{{ with .Get "caption" }}
+{{ $alt = . }}
+{{ end }}
+{{ with .Get "alt" }}
+{{ $alt = . }}
+{{ end }}
+{{ if .Inner }}
+{{ $alt = .Inner | plainify }}
+{{ end }}
+
 {{ if $image }}
 <figure class="{{ $class }}">
     {{ if isset .Params "link"}}
@@ -24,15 +35,15 @@
     {{ end }}
     {{ if eq (.Get "style") "" }}
         <img
-            src="{{ $image.RelPermalink }}" {{ if or (isset .Params "alt") (isset .Params "caption") }}
-            alt="{{ if isset .Params "alt"}}{{ index .Params "alt"}}{{else}}{{ index .Params "caption" }}{{ end }}"{{ end }}
+            src="{{ $image.RelPermalink }}"
+            alt="{{ $alt }}"
             class="block rounded-md"
             loading="lazy"
         />
     {{ else }}
         <img
-            src="{{ $image }}" {{ if or (isset .Params "alt") (isset .Params "caption") }}
-            alt="{{ if isset .Params "alt"}}{{ index .Params "alt"}}{{else}}{{ index .Params "caption" }}{{ end }}"{{ end }}
+            src="{{ $image }}"
+            alt="{{ $alt }}"
             class="block rounded-md w-full"
             loading="lazy"
         />

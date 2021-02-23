@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=tech_devops&refi[…]5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
+  https://www.cakeresume.com/jobs?q=enterprise%20architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '16296'
 title: Product Developer (雲端備份軟體開發)
 job_url: 'https://www.cakeresume.com/companies/synology-zh-tw/jobs/d64c07'
@@ -24,7 +24,7 @@ job_tags:
   - C
   - C++
 badges:
-  - DevOps
+  - Enterprise Architecture
 
 ---
 
