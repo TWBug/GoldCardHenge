@@ -40,9 +40,9 @@ module.exports = {
     theme: {
         customColorPalette: {
             colors: {
-                water: "#2183D1",
-                forest: "#567351",
-                mountain: "#1A683B",
+                water: '#2183D1',
+                forest: '#567351',
+                mountain: '#1A683B',
             },
         },
         fontFamily: {
@@ -149,8 +149,9 @@ module.exports = {
         borderStyle: ['responsive', 'hover', 'focus', 'focus-within'],
         borderWidth: ['responsive', 'first', 'hover', 'focus', 'focus-within'],
         borderColor: ['responsive', 'hover', 'focus', 'focus-within'],
-        backgroundColor: ['responsive', 'hover', 'focus', 'focus-within'],
+        backgroundColor: ['responsive', 'hover', 'focus', 'focus-within', 'disabled'],
         transitionProperty: ['responsive', 'hover', 'focus', 'motion-reduce'],
+        cursor: ['disabled'],
     },
     plugins: [
         // require('@tailwindcss/typography'),

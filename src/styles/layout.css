@@ -252,7 +252,7 @@ blockquote {
     @apply outline-primary;
 }
 .focus-primary:focus-within {
-    @apply border-primary;
+    @apply outline-primary;
 }
 .focus-white:focus {
     @apply outline-white;
