@@ -1,10 +1,10 @@
 {{/* TODO registerEditorComponent netlify  */}}
 
-<div class="border-t-2 border-gray-400 border-dashed my-6 pt-6">
+<div class="border-t-2 border-gray-400 border-dashed my-6">
 
     <form class="relative" x-data="taForm()" x-init="init({topic: '',email: '',subject: '',description: '',priority: 1,status: 2})" @submit.prevent="submit()">
 
-        <div role="region" aria-live="polite" id="message" x-show="sent" x-cloak>
+        <div id="message" class="pt-6" role="region" aria-live="polite" x-show="sent" x-cloak>
             <div class="flex justify-start items-center leading-tight border-l-4 border-red-700 text-red-800 bg-red-100 text-lg font-semibold pl-8 py-4" x-show="!valid">
                 {{ partial "icon" (dict "name" "exclamation" "size" "6") }}
                 <span class="ml-4">
@@ -19,51 +19,59 @@
             </div>
         </div>
 
-        <div class="w-full lg:w-2/3 relative border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 p-2 my-6 focus-primary">
-            <label for="topic" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_topic_name"}}</label>
-            <select id="topic" name="topic" x-model="form.topic" class="w-full text-lg bg-transparent font-medium px-1 pt-5 pb-1" :aria-invalid="error.topic ? 'true' : 'false'" :aria-describedby="error.topic ? 'topicHint' : false" aria-controls="message">
-                <option selected="selected">{{ i18n "form_fields_topic_select_none" }}</option>
-                <option value="gold_card_program">{{ i18n "form_fields_topic_select_gold_card_program" }}</option>
-                <option value="application_process">{{ i18n "form_fields_topic_select_application_process" }}</option>
-                <option value="question_about_taiwan">{{ i18n "form_fields_topic_select_question_about_taiwan" }}</option>
-                <option value="general">{{ i18n "form_fields_topic_select_general" }}</option>
-            </select>
-            <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.topic" id="topicHint" x-cloak>
-                {{ i18n "form_fields_topic_error" }}
-            </div>
-        </div>
+        <div class="relative p-2 pt-6 -mr-2 -ml-2" x-show="!sent && !valid">
 
-        <div class="w-full lg:w-2/3 relative border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 p-2 my-6 focus-primary">
-            <label for="email" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_email_name"}}</label>
-            <input type="text" name="email" id="email" x-model="form.email" placeholder="{{ i18n "form_fields_email_placeholder" }}" class="w-full text-lg font-medium bg-transparent px-2 pt-5 pb-1" :aria-invalid="error.email ? 'true' : 'false'" :aria-describedby="error.email ? 'emailHint' : false" aria-controls="message">
-            <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.email" id="emailHint" x-cloak>
-                {{ i18n "form_fields_email_error"}}
+            <div class="absolute inset-0 w-full h-full flex-center bg-white bg-opacity-75 bg-blur-2 z-1" x-show="loading" x-cloak>
+                {{ partial "icon" (dict "name" "loading" "size" "20") }}
             </div>
-        </div>
 
-        <div class="w-full relative border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 p-2 my-6 focus-primary">
-            <label for="subject" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_subject_name" }}</label>
-            <input type="text" name="subject" id="subject" x-model="form.subject" placeholder="{{ i18n "form_fields_subject_placeholder" }}" class="w-full text-lg bg-transparent font-medium px-2 pt-5 pb-1" :aria-invalid="error.subject ? 'true' : 'false'" :aria-describedby="error.subject ? 'subjectHint' : false" aria-controls="message">
-            <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.subject" id="subjectHint" x-cloak>
-                {{ i18n "form_fields_subject_error" }}
+            <div class="w-full lg:w-2/3 relative border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 p-2 mb-6 focus-primary">
+                <label for="topic" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_topic_name"}}</label>
+                <select id="topic" name="topic" x-model="form.topic" class="w-full text-lg bg-transparent font-medium px-1 pt-5 pb-1" :aria-invalid="error.topic ? 'true' : 'false'" :aria-describedby="error.topic ? 'topicHint' : false" aria-controls="message">
+                    <option selected="selected">{{ i18n "form_fields_topic_select_none" }}</option>
+                    <option value="gold_card_program">{{ i18n "form_fields_topic_select_gold_card_program" }}</option>
+                    <option value="application_process">{{ i18n "form_fields_topic_select_application_process" }}</option>
+                    <option value="question_about_taiwan">{{ i18n "form_fields_topic_select_question_about_taiwan" }}</option>
+                    <option value="general">{{ i18n "form_fields_topic_select_general" }}</option>
+                </select>
+                <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.topic" id="topicHint" x-cloak>
+                    {{ i18n "form_fields_topic_error" }}
+                </div>
             </div>
-        </div>
 
-        <div class="w-full relative border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 p-2 my-6 focus-primary">
-            <label for="description" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_description_name" }}</label>
-            <textarea name="description" id="description" x-model="form.description" cols="30" rows="10" placeholder="{{ i18n "form_fields_description_placeholder" }}" class="w-full text-lg font-medium bg-transparent px-2 pt-5 pb-1" :aria-invalid="error.description ? 'true' : 'false'" :aria-describedby="error.description ? 'descriptionHint' : false" aria-controls="message"></textarea>
-            <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.description" id="descriptionHint" x-cloak>
-                {{ i18n "form_fields_description_error" }}
+            <div class="w-full lg:w-2/3 relative border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 p-2 mb-6 focus-primary">
+                <label for="email" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_email_name"}}</label>
+                <input type="text" name="email" id="email" x-model="form.email" placeholder="{{ i18n "form_fields_email_placeholder" }}" class="w-full text-lg font-medium bg-transparent px-2 pt-5 pb-1" :aria-invalid="error.email ? 'true' : 'false'" :aria-describedby="error.email ? 'emailHint' : false" aria-controls="message">
+                <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.email" id="emailHint" x-cloak>
+                    {{ i18n "form_fields_email_error"}}
+                </div>
             </div>
-        </div>
 
-        <div class="flex-center" class="my-6">
-            <button type="submit" class="inline-flex items-center bg-primary text-white rounded font-bold text-lg px-6 py-3 focus-primary disabled:cursor-default disabled:bg-gray-500" :disabled="loading">
-                {{ partial "icon" (dict "name" "check" "size" "6") }}
-                <span class="ml-2">
-                    {{ i18n "form_fields_submit" }}
-                </span>
-            </button>
+            <div class="w-full relative border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 p-2 mb-6 focus-primary">
+                <label for="subject" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_subject_name" }}</label>
+                <input type="text" name="subject" id="subject" x-model="form.subject" placeholder="{{ i18n "form_fields_subject_placeholder" }}" class="w-full text-lg bg-transparent font-medium px-2 pt-5 pb-1" :aria-invalid="error.subject ? 'true' : 'false'" :aria-describedby="error.subject ? 'subjectHint' : false" aria-controls="message">
+                <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.subject" id="subjectHint" x-cloak>
+                    {{ i18n "form_fields_subject_error" }}
+                </div>
+            </div>
+
+            <div class="w-full relative border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 p-2 mb-6 focus-primary">
+                <label for="description" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_description_name" }}</label>
+                <textarea name="description" id="description" x-model="form.description" cols="30" rows="10" placeholder="{{ i18n "form_fields_description_placeholder" }}" class="w-full text-lg font-medium bg-transparent px-2 pt-5 pb-1" :aria-invalid="error.description ? 'true' : 'false'" :aria-describedby="error.description ? 'descriptionHint' : false" aria-controls="message"></textarea>
+                <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.description" id="descriptionHint" x-cloak>
+                    {{ i18n "form_fields_description_error" }}
+                </div>
+            </div>
+
+            <div class="flex-center" class="my-6">
+                <button type="submit" class="inline-flex items-center bg-primary text-white rounded font-bold text-lg px-6 py-3 focus-primary disabled:cursor-default disabled:bg-gray-500" :disabled="loading">
+                    {{ partial "icon" (dict "name" "check" "size" "6") }}
+                    <span class="ml-2">
+                        {{ i18n "form_fields_submit" }}
+                    </span>
+                </button>
+            </div>
+
         </div>
 
     </form>
