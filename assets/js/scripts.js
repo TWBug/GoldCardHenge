@@ -741,7 +741,99 @@ window.taFilter = function () {
     }
   };
 };
-// window.taForm = function () {
+"use strict";
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+window.taForm = function () {
+  return {
+    language: 'en',
+    options: {
+      language: 'en',
+      supported: ['en', 'zh']
+    },
+    loading: false,
+    valid: false,
+    sent: false,
+    message: '',
+    form: {},
+    error: {},
+    init: function init(options) {
+      if (typeof options !== 'undefined') {
+        if (_typeof(options) !== 'object' || options instanceof Array) {
+          console.warn('Options are in wrong type - should be object - default options been used');
+        }
+
+        for (var property in options) {
+          this.form[property] = options[property];
+        }
+      } // checks if options are defined by data
+
+
+      for (var _property in this.$el.dataset) {
+        this.form[_property] = this.$el.dataset[_property];
+      } // defines error object
+
+
+      for (var _property2 in this.form) {
+        this.error[_property2] = false;
+      }
+    },
+    submit: function submit() {
+      var _this = this;
+
+      if (this.check() === false) {
+        return;
+      }
+
+      this.loading = true;
+      this.$fetch('https://plain-grass-a9c0.taiwan-gold-card-office.workers.dev/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(this.form)
+      }).then(function () {
+        console.info('fetch', _this);
+        _this.valid = true;
+      })["catch"](function () {
+        _this.valid = false;
+      })["finally"](function () {
+        _this.loading = false;
+        _this.sent = true;
+      });
+    },
+    check: function check() {
+      for (var property in this.error) {
+        this.error[property] = false;
+      }
+
+      if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(this.form.email) === false) {
+        this.error.email = true;
+      }
+
+      if (this.form.topic.length === 0) {
+        this.error.topic = true;
+      }
+
+      if (this.form.subject.length === 0) {
+        this.error.subject = true;
+      }
+
+      if (this.form.description.length === 0) {
+        this.error.description = true;
+      }
+
+      for (var _property3 in this.error) {
+        if (this.error[_property3] === true) {
+          return false;
+        }
+      }
+
+      return true;
+    }
+  };
+}; // window.taForm = function () {
 //     return {
 //         language: 'en',
 //         options: {
@@ -797,7 +889,6 @@ window.taFilter = function () {
 //         },
 //     };
 // };
-"use strict";
 "use strict";
 
 window.taImageViewer = function () {
