@@ -18,7 +18,7 @@ salary_type: per_year
 salary_min: 650000
 salary_max: 1500000
 location_list:
-  - 台北市
+  - 台北��
   - 中正區
   - 台北
   - 台灣
