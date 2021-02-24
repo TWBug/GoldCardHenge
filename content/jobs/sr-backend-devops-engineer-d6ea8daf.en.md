@@ -30,4 +30,4 @@ badges:
 
 ---
 
-【 About the role 】 Tomofun Backend 架構是���全架設在 AWS 的雲端服務，每年我們最大的挑戰在於，隨著使用者數量快速地成長，打造出可以乘載對應數量的後端架構．近期，我們逐步完成了 Microservice 架構的雛形，並且利用 Golang Concurrency 的優勢同時由日漸多樣化的 AI model 中取得各種辨識結果。加入 Tomofun Backend 團隊，將有機會與 AI/Mobile App/Frontend/Iot/QA 等RD團隊共同打造世界級的產品，與專業的 PM 團隊一起完成 User validation 以及實現嶄新的功能．你所撰寫的每一行程式碼，將影響全球超過70萬寵物飼主，安撫有分離焦慮症的毛小孩，甚至有機會拯救他們的生命。 【 About the company 】 Tomofun是一間國際化的寵物科技新創公司，由Victor Chang及Maggie Cheung共同成立，並由趨勢科技創辦人Steve作為Mentor，運用最先進的技術-IoT物聯網、AI人工智慧、雲端大數據等，致力於帶給全世界寵物飼主源源不絕的歡樂
+【 About the role 】 Tomofun Backend 架構是完全架���在 AWS 的雲端服務，每年我們最大的挑戰在於，隨著使用者數量快速地成長，打造出可以乘載對應數量的後端架構．近期，我們逐步完成了 Microservice 架構的雛形，並且利用 Golang Concurrency 的優勢同時由日漸多樣化的 AI model 中取得各種辨識結果。加入 Tomofun Backend 團隊，將有機會與 AI/Mobile App/Frontend/Iot/QA 等RD團隊共同打造世界級的產品，與專業的 PM 團隊一起完成 User validation 以及實現嶄新的功能．你所撰寫的每一行程式碼，將影響全球超過70萬寵物飼主，安撫有分離焦慮症的毛小孩，甚至有機會拯救他們的生命。 【 About the company 】 Tomofun是一間國際化的寵物科技新創公司，由Victor Chang及Maggie Cheung共同成立，並由趨勢科技創辦人Steve作為Mentor，運用最先進的技術-IoT物聯網、AI人工智慧、雲端大數據等，致力於帶給全世界寵物飼主源源不絕的歡樂

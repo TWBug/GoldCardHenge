@@ -7,7 +7,7 @@
     <head>
         {{ partial "head" . }}
         {{ block "head" . }}
-        {{ partial "head/alpine" ( dict "spruce" "true" "cdn" .Site.Params.loadFromCDN ) }}
+        {{ partial "head/alpine" ( dict "spruce" "false" "cdn" .Site.Params.loadFromCDN "fetch" "true" ) }}
         {{ end }}
     </head>
     {{ if eq .Site.Language.Lang "zh" }}
