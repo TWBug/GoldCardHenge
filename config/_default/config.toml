@@ -30,7 +30,7 @@ title = "Taiwan Gold Card"
 weight = 1
 [languages.en.params]
 linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
-apply = "/en/application/apply/"
+apply = "/en/apply/"
 phone = "+886 2-7733-7660"
 email = "help@taiwangoldcard.tw"
 
@@ -40,7 +40,7 @@ title = "台灣就業金卡"
 weight = 2
 [languages.zh.params]
 linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
-apply = "/zh/application/apply/"
+apply = "/zh/apply/"
 phone = "+886 2-7733-7660"
 email = "help@taiwangoldcard.tw"
 
