@@ -1,5 +1,5 @@
 ---
-title: How do I update information on my Gold Card?
+title: 如果我要更改金卡上的資料怎麼辦？
 draft: false
 tags:
   - 一般
