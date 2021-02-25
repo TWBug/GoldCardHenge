@@ -790,14 +790,14 @@ window.taForm = function () {
       }
 
       this.loading = true;
-      this.$fetch('https://plain-grass-a9c0.taiwan-gold-card-office.workers.dev/', {
+      this.$fetch({
+        url: 'https://ticket.taiwan-gold-card-office.workers.dev',
         method: 'post',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(this.form)
+        data: JSON.stringify(this.form)
       }).then(function () {
-        console.info('fetch', _this);
         _this.valid = true;
 
         _this.reset();
@@ -817,8 +817,8 @@ window.taForm = function () {
         this.error.email = true;
       }
 
-      if (this.form.topic.length === 0) {
-        this.error.topic = true;
+      if (this.form.type.length === 0) {
+        this.error.type = true;
       }
 
       if (this.form.subject.length === 0) {

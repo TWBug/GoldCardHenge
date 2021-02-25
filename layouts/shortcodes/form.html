@@ -2,7 +2,7 @@
 
 <div class="border-t-2 border-gray-400 border-dashed my-6">
 
-    <form class="relative" x-data="taForm()" x-init="init({topic: '',email: '',subject: '',description: '',priority: 1,status: 2})" @submit.prevent="submit()">
+    <form method="post" class="relative" x-data="taForm()" x-init="init({type: '',email: '',subject: '',description: '',priority: 1,status: 2})" @submit.prevent="submit()">
 
         <div id="message" class="pt-6" role="region" aria-live="polite" x-show="sent" x-cloak>
             <div class="flex justify-start items-center leading-tight border-l-4 border-red-700 text-red-800 bg-red-100 text-lg font-semibold pl-8 py-4" x-show="!valid">
@@ -27,14 +27,14 @@
 
             <div class="w-full lg:w-2/3 relative border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 p-2 mb-6 focus-primary">
                 <label for="topic" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_topic_name"}}</label>
-                <select id="topic" name="topic" x-model="form.topic" class="w-full text-lg bg-transparent font-medium px-1 pt-5 pb-1" :aria-invalid="error.topic ? 'true' : 'false'" :aria-describedby="error.topic ? 'topicHint' : false" aria-controls="message">
+                <select id="type" name="type" x-model="form.type" class="w-full text-lg bg-transparent font-medium px-1 pt-5 pb-1" :aria-invalid="error.type ? 'true' : 'false'" :aria-describedby="error.type ? 'topicHint' : false" aria-controls="message">
                     <option selected="selected">{{ i18n "form_fields_topic_select_none" }}</option>
                     <option value="gold_card_program">{{ i18n "form_fields_topic_select_gold_card_program" }}</option>
                     <option value="application_process">{{ i18n "form_fields_topic_select_application_process" }}</option>
                     <option value="question_about_taiwan">{{ i18n "form_fields_topic_select_question_about_taiwan" }}</option>
                     <option value="general">{{ i18n "form_fields_topic_select_general" }}</option>
                 </select>
-                <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.topic" id="topicHint" x-cloak>
+                <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.type" id="topicHint" x-cloak>
                     {{ i18n "form_fields_topic_error" }}
                 </div>
             </div>
