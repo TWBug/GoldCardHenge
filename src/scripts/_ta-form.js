@@ -87,7 +87,7 @@ window.taForm = function () {
         reset() {
             // set form to default values
             for (const property in this.default) {
-                this.form[property] = this.fodefaultm[property];
+                this.form[property] = this.default[property];
             }
         },
     };

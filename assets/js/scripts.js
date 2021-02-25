@@ -840,7 +840,7 @@ window.taForm = function () {
     reset: function reset() {
       // set form to default values
       for (var property in this["default"]) {
-        this.form[property] = this.fodefaultm[property];
+        this.form[property] = this["default"][property];
       }
     }
   };
