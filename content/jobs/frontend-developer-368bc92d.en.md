@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '26386'
-title: '[純軟體���發公司] Frontend Developer'
+title: '[純軟體開發公司] Frontend Developer'
 job_url: 'https://www.cakeresume.com/companies/robert-walters/jobs/2a53ef'
 date: 2021-01-23T17:10:35.938Z
 company_name: Robert Walters

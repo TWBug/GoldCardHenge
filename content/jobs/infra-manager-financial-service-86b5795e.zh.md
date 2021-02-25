@@ -8,7 +8,7 @@ title: Infra Manager (Financial Service)
 job_url: >-
   https://www.cakeresume.com/companies/recruit-express-taiwan/jobs/infra-manager-financial-service
 date: 2020-05-28T11:42:18.912Z
-company_name: 新加坡商立可人事顧問有限公司台灣分公司 Recruit Express (Taiwan)
+company_name: 新��坡商立可人事顧問有限公司台灣分公司 Recruit Express (Taiwan)
 company_page_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--8jzlPgwu--/c_pad,fl_png8,h_200,w_200/v1566176619/pxugexvfcc68sz5kf2sn.png
