@@ -84,11 +84,14 @@
 
                     <div x-data="taFilter()" x-init="init()">
                         <form>
-                            <div class="flex justify-between items-center bg-white border-2 border-gray-200 rounded-xl overflow-hidden shadow-xl focus-within:border-2 focus-within:border-primary focus-within:border-dashed mx-4">
+                            <div class="flex justify-between items-center border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 overflow-hidden focus-primary mx-4">
                                 <label for="filter" class="text-secondary pl-4">
-                                    {{ partial "icon" (dict "name" "filter" "size" "4" "alt" (i18n "placeholder_filter_faq_list")) }}
+                                    <span class="sr-only">
+                                        {{ i18n "placeholder_filter_faq_list" }}
+                                    </span>
+                                    {{ partial "icon" (dict "name" "filter" "size" "4" "alt" false ) }}
                                 </label>
-                                <input type="text" id="filter" x-ref="input" class="flex-grow placeholder-gray-400 text-lg font-medium px-4 py-4" placeholder="{{ i18n "placeholder_filter_faq_list" }}" x-model.debounce.250="filter" x-show="initialized">
+                                <input type="text" id="filter" x-ref="input" class="flex-grow placeholder-gray-400 text-lg font-medium px-4 py-4" placeholder="{{ i18n "placeholder_filter_faq_list" }}" x-model.debounce.250="filter" x-show="initialized" aria-controls="faqs">
                                 <div class="flex-grow text-gray-700 text-lg font-medium px-4 py-4" x-show="!initialized" x-cloak>
                                     {{ i18n "loading_filter" }}
                                 </div>
@@ -100,7 +103,7 @@
                                 </button>
                             </div>
                         </form>
-                        <div class="border-b-2 border-secondary border-dashed mt-8">
+                        <div id="faqs" role="region" aria-live="polite" class="border-b-2 border-secondary border-dashed mt-8">
                             <div class="text-center font-bold text-xl text-red-800 border-t-2 border-secondary border-dashed p-8" x-show="isNoResult()" x-cloak>
                                 <div class="inline-flex">
                                     {{ partial "icon" (dict "name" "exclamation" "size" "6") }}
