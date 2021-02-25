@@ -1,0 +1,17 @@
+{{ if ge (len .Params.job_tags) 8 }}
+<ul class="flex flex-wrap items-center border-t-2 border-gray-300 border-dashed pt-2 my-4 -ml-1">
+{{range $index, $value := .Params.job_tags }}
+    {{ if ge $index 8 }}
+        {{ $tag := . }}
+        <li class="inline-block text-primary text-xxs p-1 mr-2">
+            <a href="https://www.cakeresume.com/jobs/{{ partial "urlencode" ( dict "url" . ) }}" class="inline-flex items-center focus-primary" {{ if gt (len $tag) 20 }} title="{{ $tag | humanize }}" {{ end }} target="_blank">
+                {{ partial "icon" (dict "name" "tag" "size" "2") }}
+                <span class="font-bold uppercase max-w-32 sm:max-w-24 whitespace-nowrap truncate ml-2">
+                    {{ $tag }}
+                </span>
+            </a>
+        </li>
+    {{ end }}
+{{ end }}
+</ul>
+{{ end }}
