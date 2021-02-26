@@ -70,6 +70,10 @@ window.highlight = {
           return;
         }
 
+        if (['OPTION', 'SELECT', 'path', 'INPUT', 'TEXTAREA', 'animateTransform'].indexOf(textNode.nodeName) !== -1) {
+          return;
+        }
+
         textNode.innerHTML = textNode.innerHTML.replace(pattern, string);
       });
     });
