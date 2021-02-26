@@ -7,7 +7,7 @@ data_source_internal_id: '24977'
 title: 'Sr. Software Engineer, Frontend Web(Buyer Experience Team)'
 job_url: 'https://www.cakeresume.com/companies/carousell/jobs/85dcbb'
 date: 2020-11-24T03:59:28.368Z
-company_name: Carousell 旋轉���賣
+company_name: Carousell 旋轉拍賣
 company_page_url: 'https://www.cakeresume.com/companies/carousell'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--GJsX0gn8--/c_pad,fl_png8,h_200,w_200/v1565956862/epaplsqwkax9tjzivjde.png
