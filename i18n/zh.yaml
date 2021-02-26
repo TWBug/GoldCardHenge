@@ -360,9 +360,9 @@
 - id: form_message_valid
   translation: 'Form sucessfully submitted!'
 - id: form_fields_type_name
-  translation: '話題'
+  translation: '主題'
 - id: form_fields_type_select_none
-  translation: '選擇一個話題'
+  translation: '選擇一個主題'
 - id: form_fields_type_select_gold_card_program
   translation: '關於金卡計劃'
 - id: form_fields_type_select_application_process
@@ -374,22 +374,22 @@
 - id: form_fields_type_error
   translation: 'Select your type'
 - id: form_fields_email_name
-  translation: 'Email'
+  translation: '電子信箱'
 - id: form_fields_email_placeholder
   translation: 'Your email address'
 - id: form_fields_email_error
   translation: 'Please enter a valid email address'
 - id: form_fields_subject_name
-  translation: 'Subject'
+  translation: '主旨'
 - id: form_fields_subject_placeholder
   translation: 'What is it about...'
 - id: form_fields_subject_error
   translation: 'Fill out your subject'
 - id: form_fields_description_name
-  translation: 'Description'
+  translation: '說明'
 - id: form_fields_description_placeholder
   translation: 'Tell us more...'
 - id: form_fields_description_error
   translation: 'You should tell us more about it'
 - id: form_fields_submit
-  translation: 'Submit'
+  translation: '送出'
