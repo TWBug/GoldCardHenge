@@ -1,6 +1,8 @@
 ---
 title: How to upload supplementary documents?
 draft: false
+tags:
+  - Application
 ---
 進度查詢 → 補正(件)列表 → 檢視 → 修改→ 文件上傳
 
