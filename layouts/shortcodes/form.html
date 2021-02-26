@@ -26,16 +26,16 @@
             </div>
 
             <div class="w-full lg:w-2/3 relative border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 p-2 mb-6 focus-primary">
-                <label for="topic" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_topic_name"}}</label>
-                <select id="type" name="type" x-model="form.type" class="w-full text-lg bg-transparent font-medium px-1 pt-5 pb-1" :aria-invalid="error.type ? 'true' : 'false'" :aria-describedby="error.type ? 'topicHint' : false" aria-controls="message">
-                    <option selected="selected">{{ i18n "form_fields_topic_select_none" }}</option>
-                    <option value="gold_card_program">{{ i18n "form_fields_topic_select_gold_card_program" }}</option>
-                    <option value="application_process">{{ i18n "form_fields_topic_select_application_process" }}</option>
-                    <option value="question_about_taiwan">{{ i18n "form_fields_topic_select_question_about_taiwan" }}</option>
-                    <option value="general">{{ i18n "form_fields_topic_select_general" }}</option>
+                <label for="type" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_type_name"}}</label>
+                <select id="type" name="type" x-model="form.type" class="w-full text-lg bg-transparent font-medium px-1 pt-5 pb-1" :aria-invalid="error.type ? 'true' : 'false'" :aria-describedby="error.type ? 'typeHint' : false" aria-controls="message">
+                    <option selected="selected">{{ i18n "form_fields_type_select_none" }}</option>
+                    <option value="About the Gold Card Program">{{ i18n "form_fields_type_select_gold_card_program" }}</option>
+                    <option value="About the Application Process">{{ i18n "form_fields_type_select_application_process" }}</option>
+                    <option value="Questions about Taiwan">{{ i18n "form_fields_type_select_question_about_taiwan" }}</option>
+                    <option value="General">{{ i18n "form_fields_type_select_general" }}</option>
                 </select>
-                <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.type" id="topicHint" x-cloak>
-                    {{ i18n "form_fields_topic_error" }}
+                <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.type" id="typeHint" x-cloak>
+                    {{ i18n "form_fields_type_error" }}
                 </div>
             </div>
 
