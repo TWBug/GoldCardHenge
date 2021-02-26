@@ -18,7 +18,7 @@ salary_type: per_year
 salary_min: 800000
 salary_max: 1300000
 location_list:
-  - 台北
+  - 台���
   - 台灣
 job_tags: []
 badges:

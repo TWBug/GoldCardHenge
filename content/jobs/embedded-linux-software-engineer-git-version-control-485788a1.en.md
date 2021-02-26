@@ -26,4 +26,4 @@ badges:
 
 ---
 
-Key Responsibilities： Design and implement firmware of embedded devices and systems from requirements to production and commercial deployment Interface with integration and enhancement for software components and applications into the stack Collaborate with internal and vendor engineers to develop IoT products
+Key Responsibilities: Design and implement firmware of embedded devices and systems from requirements to production and commercial deployment Interface with integration and enhancement for software components and applications into the stack Collaborate with internal and vendor engineers to develop IoT products
