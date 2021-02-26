@@ -360,25 +360,25 @@
 - id: form_message_valid
   translation: 'Form sucessfully submitted!'
 - id: form_fields_type_name
-  translation: '主題'
+  translation: '類別'
 - id: form_fields_type_select_none
-  translation: '選擇一個主題'
+  translation: '選擇類別'
 - id: form_fields_type_select_gold_card_program
-  translation: '關於金卡計劃'
+  translation: '關於金卡專案'
 - id: form_fields_type_select_application_process
-  translation: 'About the Application Process'
+  translation: '關於申請流程'
 - id: form_fields_type_select_question_about_taiwan
-  translation: 'Questions about Taiwan'
+  translation: '關於台灣'
 - id: form_fields_type_select_general
-  translation: 'General'
+  translation: '一般'
 - id: form_fields_type_error
-  translation: 'Select your type'
+  translation: '請選擇類別'
 - id: form_fields_email_name
   translation: '電子信箱'
 - id: form_fields_email_placeholder
-  translation: 'Your email address'
+  translation: '填寫電子信箱'
 - id: form_fields_email_error
-  translation: 'Please enter a valid email address'
+  translation: '請填寫有效電子信箱'
 - id: form_fields_subject_name
   translation: '主旨'
 - id: form_fields_subject_placeholder
