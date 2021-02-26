@@ -13,6 +13,7 @@ categories: null
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: null
 ---
+
 ## 台灣就業金卡諮詢處
 
 台灣就業金卡辦公室提供個雙語服務，如果您有任何疑問，請隨時與我們聯繫：
@@ -32,3 +33,5 @@ help@taiwangoldcard.tw
 週三 14:00-17:00
 
 週四 14:00-17:00
+
+{{< form >}}

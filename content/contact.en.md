@@ -20,5 +20,3 @@ If you want to apply for the Gold Card, or even if you have one already, feel fr
 [help@taiwangoldcard.tw](mailto:help@taiwangoldcard.tw)
 
 The Taiwan Gold Card Office has staff dedicated to answering your questions, and if we don't know the answer we can help introduce you to other government departments that will.
-
-{{< form >}}
