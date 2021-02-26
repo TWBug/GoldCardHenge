@@ -29,7 +29,7 @@ Launched in 2018, the Taiwan Employment Gold Card is a 4-in-1 card, that include
 ## Four-in-One
 
 * Work Permit: Allows cardholders to seek employment freely, obtain employment at any time, work any part-time job legally, and freely change jobs.
-* Residence Visa:  Long-term visa which allows cardholders to stay in Taiwan for more than 180 days.
+* Resident Visa:  Long-term visa which allows cardholders to stay in Taiwan for more than 180 days.
 * Alien Resident Certificate:  A physical ID card proving that you can live in Taiwan legally.
 * Re-entry Permit:  Allows unlimited entry and exit from Taiwan (even during COVID-19).
 

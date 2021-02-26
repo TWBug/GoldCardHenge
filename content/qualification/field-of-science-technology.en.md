@@ -168,8 +168,6 @@ Document explaining the applicant's expertise or experience (such as a domestic 
 {{< note title="2.1a" >}}
 * Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
-
-  Most recent monthly salary of at least NT$160,000 means a monthly salary or average monthly salary of NT$160,000 or above within the three years preceding the month of the application; documentary proof of salary or tax payment. (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
 {{< /note >}}
 
 {{< note title="2.2a" >}}

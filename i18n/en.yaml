@@ -362,20 +362,20 @@
   translation: 'Ooops! Something went wrong!'
 - id: form_message_valid
   translation: 'Form sucessfully submitted!'
-- id: form_fields_topic_name
-  translation: 'Topic'
-- id: form_fields_topic_select_none
-  translation: 'Select a topic'
-- id: form_fields_topic_select_gold_card_program
+- id: form_fields_type_name
+  translation: 'Type'
+- id: form_fields_type_select_none
+  translation: 'Select a type'
+- id: form_fields_type_select_gold_card_program
   translation: 'About the Gold Card Program'
-- id: form_fields_topic_select_application_process
+- id: form_fields_type_select_application_process
   translation: 'About the Application Process'
-- id: form_fields_topic_select_question_about_taiwan
+- id: form_fields_type_select_question_about_taiwan
   translation: 'Questions about Taiwan'
-- id: form_fields_topic_select_general
+- id: form_fields_type_select_general
   translation: 'General'
-- id: form_fields_topic_error
-  translation: 'Select your topic'
+- id: form_fields_type_error
+  translation: 'Select your type'
 - id: form_fields_email_name
   translation: 'Email'
 - id: form_fields_email_placeholder

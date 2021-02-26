@@ -1,0 +1,20 @@
+
+<main></main>
+
+<div class="print:hidden sm:-mt-4">
+    <aside></aside>
+</div>
+
+
+{{ $alt = $alt | truncate 100 }}
+{{ if eq .Page.Site.Language.Lang "zh" }}
+{{ $alt = $alt | truncate 70 }}
+{{ end }}
+
+{{ define "head" }}
+{{ $map := resources.Get "css/map.min.css" }}
+{{ if $map }}
+{{ $map = $map | fingerprint }}
+{{ end }}
+<link href="{{ $map.RelPermalink }}" rel="stylesheet" />
+{{ end }}

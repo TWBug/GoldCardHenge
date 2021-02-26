@@ -44,7 +44,7 @@
                     {{ i18n "footer_description" }}
                     </h2>
                     <div class="my-4">
-                        <a href="{{ .Site.Language.Params.linkedin}}" class="inline-block focus-white" target="_blank"  title="{{ i18n "open_in_new_window"}}">
+                        <a href="{{ .Site.Language.Params.linkedin}}" class="inline-block focus-white" target="_blank"  title="{{ i18n "open_in_new_window"}}" rel="noopener">
                             {{ $linkedin_icon := resources.Get "img/icons/linkedin-white.svg" }}
                             <img src="{{ $linkedin_icon.RelPermalink }}" class="block h-8" alt="{{ partial "alt" ( dict "alt" (i18n "link_linkedin_page") "lang" .Site.Language.Lang ) }}">
                         </a>
@@ -154,14 +154,12 @@
                                     {{ $news.Title }}
                                 </a>
                             </li>
-                            <li aria-hidden="true">
-                                <button type="button" class="inline-block px-2 py-1 focus-white" onclick="showWidget();">{{ i18n "contact" }}</button>
-                            </li>
-                            {{/*  {{ range sort .Site.Sections ".Title" "asc" }}
+                            {{ $contact := .Site.GetPage "/contact" }}
                             <li>
-                                <a href="{{ .RelPermalink }}" class="inline-block px-2 py-1 focus-white">{{ .Title }}</a>
+                                <a href="{{ $contact.RelPermalink }}" class="inline-block px-2 py-1 focus-white">
+                                    {{ $contact.Title }}
+                                </a>
                             </li>
-                            {{ end }}  */}}
                         </ul>
                     </div>
                     <div class="">

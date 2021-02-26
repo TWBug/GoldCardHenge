@@ -5,4 +5,6 @@ categories: null
 tags:
   - Renewal & Validity
 ---
-The term of the Employment Gold Card cannot be extended since it is an open-end work permit issued to employment-seeking individuals that require neither confirmed hiring by nor application through the employer.  Periodic reviews and updates are needed on the applicant's work status and on potential changes in the qualification of the applicant.  Therefore, a new application should be filed prior to the Employment Gold Card's expiration.
+Cardholders may reapply for a new Employment Gold Card before the expiration date on the Foreign Professionals Online Application Platform. After re-entering your personal information, the platform will automatically transfer your documents from your previous application. Please refer to the details below:
+
+{{< file-download title="Required Documents" path="/cms-uploads/20210208外國特定專業人才資格條件.pdf" >}}

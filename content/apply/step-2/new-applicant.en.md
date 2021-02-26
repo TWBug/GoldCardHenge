@@ -15,7 +15,7 @@ next: /apply/step-2/your-data/
 If you enter Taiwan with Taiwanese passport, you will not be allowed to apply for the Employment Gold Card domestically. You must submit the application abroad.
 {{< /teaser >}}
 
-*
+* When applying for the Gold Card, your passport must have at least six months of validity. If not, the application portal will ask you to upload your new passport before allowing you to upload your supplemental documents.
 * Once logged in to the portal, Select Application for Employment Gold Card from the Application menu, then click "New Applicant".
 * If you are applying from within Taiwan, be sure to select your current visa carefully as this cannot be changed later. Note that the common "visa exempt" entry is the last item in the list.
 
