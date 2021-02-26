@@ -1,8 +1,7 @@
 ---
 title: How do I update information on my Gold Card?
 draft: false
-tags:
-  - 一般
+tags: []
 ---
 The following information can be updated through the online application platform:
 
