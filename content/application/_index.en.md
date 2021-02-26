@@ -176,6 +176,7 @@ Domestic applications require a resident address when applying. When entering th
    Please refer to [article 7 of Enforcement Rules for the Act Governing Relations Between the People of the Taiwan Area and the Mainland Area ](https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=Q0010002)
 
 * If you choose to apply as a Hong Kong citizen, you will be required to give up your other citizenship. You must give up your foreign citizenship according to Article 4 of Laws and Regulations Regarding Hong Kong & Macao Affairs, the "Hong Kong Residents" as used herein refers to persons who qualify for permanent residency in Hong Kong and who do not hold a travel document other than a British (Overseas) passport or a Hong Kong passport. However, if you apply as a foreign citizen, you would only have to sign an affidavit stating that you will only use the designated passport you chose to enter Taiwan.
+* Hong Kong and Macao applicants must download the Hong Kong or Macao Resident Identity Confirmation Document. Signatures must be in Chinese.
 {{< /note >}}
 
 {{< note title="3" >}}
