@@ -30,4 +30,4 @@ badges:
 
 ---
 
-Today’s content provider needs speed and flexibility to match the lifestyle pace of their consumers. Getting content to audiences and all their devices when and where they want it is a big responsibility. Cloud migration can be pretty heavy lifting if companies have to do it alone. But the good news is, they don’t have to do it alone. At KKStream, we find the perfect solutions and scale to meet their content needs, no matter how challenging they are. As a product manager at KKStream, you will ha
+Please submit your application via KKBOX Group's Recruiting Site , as we will prioritize the applicants on our site Today’s content provider needs speed and flexibility to match the lifestyle pace of their consumers. Getting content to audiences and all their devices when and where they want it is a big responsibility. Cloud migration can be pretty heavy lifting if companies have to do it alone. But the good news is, they don’t have to do it alone. At KKStream, we find the perfect solutions and 
