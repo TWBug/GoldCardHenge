@@ -12,7 +12,7 @@ links:
   - is_cta: false
     new_window: false
     label: Step-by-Step Application Process
-    href: /application
+    href: /apply
 items:
   - is_cta: false
     label: Next Stop, Taiwan!
