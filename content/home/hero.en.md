@@ -11,7 +11,7 @@ links:
     href: /about
   - is_cta: false
     new_window: false
-    label: Application Process
+    label: Step-by-Step Application Process
     href: /application
 items:
   - is_cta: false
