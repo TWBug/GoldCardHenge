@@ -14,3 +14,5 @@ We're excited to have you. The process to apply is not complicated, and we'll le
 {{< /teaser >}}
 
 Regarding qualification, professionals from eight different industries are eligible to apply for the Gold Card program. However, note that you may only apply under one field.
+
+If you prefer to read the full detailed application instructions in one page, please go [HERE](https://goldcard.nat.gov.tw/zh/application/).
