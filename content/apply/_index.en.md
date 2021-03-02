@@ -6,7 +6,7 @@ date: 2021-01-18T02:57:32.044Z
 cover_image: /cms-uploads/icon-checklist.svg
 next: apply/step-1
 previous: ""
-title: Apply for the Gold Card
+title: "Step-by-Step Application "
 cover_image_alt: Icon with checklist application process
 ---
 {{< teaser >}}
