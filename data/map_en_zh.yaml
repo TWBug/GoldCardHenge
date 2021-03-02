@@ -32,7 +32,7 @@ en:
           left: 27.88
           top: 55.88
           origin: 'Hyderabad, India'
-          local: 'Taichung, Taiwan'
+          local: 'Zhonghe, New Taipei City'
           description: "Master's, PhD and Post Doc at Life Science Department in NTHU; Currently R and D Director at Lihpao Life Science Corp."
           image: 'member-prerana-bhan.jpg'
         - name: 'Raymond W.'
@@ -116,7 +116,7 @@ en:
           left: 25.13
           top: 55.88
           origin: 'Pune, India'
-          local: 'Taichung, Taiwan'
+          local: 'Zhonghe, New Taipei City'
           description: 'PhD in Chemistry NTHU, Post Doc at NTNU'
           image: 'member-uttam-patil.jpg'
         - name: 'Christopher Wong'
