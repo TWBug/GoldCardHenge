@@ -15,6 +15,8 @@ zh:
             link: /qualification
           - name: 金卡辦公室
             link: /gold-card-office
+          - name: 步驟式申請流程
+            link: /apply
         items:
           - apply
     - name: Why Taiwan
@@ -69,6 +71,8 @@ en:
             link: /application
           - name: Gold Card Office
             link: /gold-card-office
+          - name: Step-by-Step Application Process
+            link: /apply
         items:
           - apply
     - name: Why Taiwan
