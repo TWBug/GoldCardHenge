@@ -29,4 +29,4 @@ badges:
 
 ---
 
-Work at KKStream KKStream is the foremost streaming solution provider in Asia, which was formed in 2016 by KKBOX. Our initial product is Videopass, which offers video streaming service on multi-screens for millions of users in Japan. Today, we are expanding to several countries in Asia, including Taiwan, Myanmar and more. At KKStream, you will work with talented designers, engineers, PM, and growth hackers in an agile team to build products for abroad markets. The team is driven by the KKStream 
+Please submit your application via KKBOX Group's Recruiting Site , as we will prioritize the applicants on our site Work at KKStream KKStream is the foremost streaming solution provider in Asia, which was formed in 2016 by KKBOX. Our initial product is Videopass, which offers video streaming service on multi-screens for millions of users in Japan. Today, we are expanding to several countries in Asia, including Taiwan, Myanmar and more. At KKStream, you will work with talented designers, engineer

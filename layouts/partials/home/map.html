@@ -1,4 +1,4 @@
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index .Site.Data.map_en_zh .Site.Language.Lang }}
 {{ $headless := .Site.GetPage "/home" }}
 {{ $map := $headless.Resources.GetMatch "map*" }}
 {{ $map_image := resources.Get "img/map/map.png" | fingerprint }}
@@ -29,7 +29,7 @@
                 </div>
                 {{/*  <span x-text="test" class="absolute inset-x-0 text-center"></span>  */}}
                 <div class="wrapper">
-                    {{range $index, $element := (shuffle $data.map.items)}}
+                    {{range $index, $element := (shuffle $data.items)}}
                     {{ $member_image := resources.Get (printf "img/map/%s" $element.image) | fingerprint }}
                     <button
                         type="button"

@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=enterprise%20architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
+  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '25154'
 title: '[KKStream] Software Architect (Enterprise Solution)'
 job_url: >-
@@ -24,8 +24,8 @@ job_tags:
   - architect
   - Software Engineering
 badges:
-  - Enterprise Architecture
+  - Software
 
 ---
 
-KKStream is part of the KKBOX group. KKStream combines technology with market-leading OTT solution to provide cloud-based streaming service for millions of users all around the world. The Software Architect is responsible for providing leadership and vision of software architecture and strategy related to infrastructure, data, application architecture, and systems integration. The Software Architect will become familiar with video streaming products, services, and business processes and is respo
+Please submit your application via KKBOX Group's Recruiting Site , as we will prioritize the applicants on our site KKStream is part of the KKBOX group. KKStream combines technology with market-leading OTT solution to provide cloud-based streaming service for millions of users all around the world. The Software Architect is responsible for providing leadership and vision of software architecture and strategy related to infrastructure, data, application architecture, and systems integration. The 

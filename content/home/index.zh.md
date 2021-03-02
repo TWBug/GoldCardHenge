@@ -8,5 +8,3 @@ links: null
 items: null
 cms_omit: true
 ---
-
-因228連假，金卡辦公室將於3/1暫停服務，敬請見諒。
