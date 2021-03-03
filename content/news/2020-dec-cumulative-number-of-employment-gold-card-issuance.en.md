@@ -7,19 +7,16 @@ categories:
   - Announcement
 style: right
 ---
-
 # 1,945 Gold Cards issued to date!
 
-{{< teaser prefix="" >}}
-From February 8, 2018 to Dec. 30, 2020, **1745** cards were approved.
-{{< /teaser >}}
+From February 8, 2018 to Dec. 31, 2020, "1,945" cards were approved.
 
-## Application field of cardholders
+Application field of cardholders:
 
--   Science & Technology: 204
--   Economy: 1,341
--   Education: 115
--   Culture and Arts: 153
--   Sport: 1
--   Finance: 125
--   Architectural Design: 6
+* Science & Technology: 204
+* Economy: 1,341
+* Education: 115
+* Culture and Arts: 153
+* Sport: 1
+* Finance: 125
+* Architectural Design: 6
