@@ -402,3 +402,16 @@
   translation: 'You should tell us more about it'
 - id: form_fields_submit
   translation: 'Submit'
+  
+- id: chat_title
+  translation: 'Live Chat'
+- id: chat_time_title
+  translation: 'Actual time in Taipei'
+- id: chat_online
+  translation: 'Online'
+- id: chat_online_description
+  translation: 'Use the live chat to ask your questions directly to the help desk team.'
+- id: chat_offline
+  translation: 'Offline'
+- id: chat_offline_description
+  translation: 'Live chat with the help desk team is available on Mo-Fr: 9 AM to 6 PM local time.'

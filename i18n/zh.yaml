@@ -399,3 +399,16 @@
   translation: '請填寫您的問題'
 - id: form_fields_submit
   translation: '送出'
+  
+- id: chat_title
+  translation: '在線聊天'
+- id: chat_time_title
+  translation: '台北市實際時間'
+- id: chat_online
+  translation: '在線的'
+- id: chat_online_description
+  translation: '使用實時聊天直接向服務台團隊詢問您的問題。'
+- id: chat_offline
+  translation: '離線'
+- id: chat_offline_description
+  translation: '週一至週五與服務台團隊進行實時聊天：當地時間上午9點至下午6點。'

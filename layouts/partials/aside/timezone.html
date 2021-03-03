@@ -1,0 +1,90 @@
+{{ $locale := "en-US" }}
+{{ if eq .Site.Language.Lang "zh" }}
+{{ $locale = "zh-TW" }}
+{{ end }}
+
+<div class="my-12" x-data="taTimezone()" x-init="init()" data-timezone="Asia/Taipei" data-locale="{{ $locale }}" data-breaks="sa,su" data-start="9" data-end="18">
+    <div class="flex items-center border-b-2 border-secondary border-dashed px-2 pb-2">
+        {{ partial "icon" (dict "name" "comments" "size" "5") }}
+        <h2 class="text-xl font-bold ml-2">{{ i18n "chat_title" }}</h2>
+    </div>
+    <div class="flex items-center my-4">
+        <div class="flex-center w-12 h-12 flex-grow-0 mr-4">
+            {{ $night := resources.Get "/img/icons/time-taipei-night.svg"}}
+            <img src="{{ $night.RelPermalink }}" class="block w-full" alt="" x-show="night" x-cloak>
+            {{ $morning := resources.Get "/img/icons/time-taipei-morning.svg"}}
+            <img src="{{ $morning.RelPermalink }}" class="block w-full" alt="" x-show="morning" x-cloak>
+            {{ $day := resources.Get "/img/icons/time-taipei-day.svg"}}
+            <img src="{{ $day.RelPermalink }}" class="block w-full" alt="" x-show="day" x-cloak>
+            {{ $evening := resources.Get "/img/icons/time-taipei-evening.svg"}}
+            <img src="{{ $evening.RelPermalink }}" class="block w-full" alt="" x-show="evening" x-cloak>
+        </div>
+        <div>
+            <div class="text-xs font-medium leading-none">
+                {{ i18n "chat_time_title" }}
+            </div>
+            <div class="text-2xl font-bold" x-text="local_time"></div>
+        </div>
+    </div>
+    <div class="flex items-start  mb-4" x-show="show" x-cloak>
+        <div class="flex-center flex-shrink-0 text-green-600 w-12 mr-4">
+            {{ partial "icon" (dict "name" "check" "size" "10") }}
+        </div>
+        <div>
+            <div class="text-lg font-bold">
+                {{ i18n "chat_online" }}
+            </div>
+            <div class="text-md font-regular leading-normal">
+                {{ i18n "chat_online_description" }}
+            </div>
+        </div>
+    </div>
+    <div class="flex items-start mb-4" x-show="!show" x-cloak>
+        <div class="flex-center flex-shrink-0 text-red-600 w-12 mr-4">
+            {{ partial "icon" (dict "name" "times" "size" "10") }}
+        </div>
+        <div>
+            <div class="text-lg font-bold">
+                {{ i18n "chat_offline" }}
+            </div>
+            <div class="text-md font-regular leading-normal mb-2">
+                {{ i18n "chat_offline_description" }}
+            </div>
+            {{ $helpdesk := .Site.GetPage "/help-desk" }}
+            <a href="{{ $helpdesk.RelPermalink }}" class="flex items-center font-bold text-primary text-base leading-snug focus-primary">
+                <div class="flex-shrink-0">
+                    {{ partial "icon" (dict "name" "angle-right" "size" "4") }}
+                </div>
+                <span class="pl-1">
+                    {{ $helpdesk.Title }}
+                </span>
+            </a>
+        </div>
+    </div>
+    <template x-if="show">
+        <div>
+            <!-- Load Facebook SDK for JavaScript -->
+            <div id="fb-root"></div>
+            <script>
+                window.fbAsyncInit = function () {
+                    FB.init({
+                        xfbml: true,
+                        version: 'v9.0',
+                    });
+                };
+                (function (d, s, id) {
+                    var js,
+                        fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                })(document, 'script', 'facebook-jssdk');
+            </script>
+            <!-- Your Chat Plugin code -->
+            <div class="fb-customerchat" attribution="setup_tool" page_id="103150628440435"></div>
+        </div>
+    </template>
+
+</div>
