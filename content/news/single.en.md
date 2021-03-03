@@ -2,12 +2,12 @@
 title: 2020/SEP Cumulative Number of Employment Gold Card Issuance
 summary: ""
 date: 2020-09-30T05:00:20.617Z
+topic: eventsnews
 draft: false
 cover_image: ""
 cover_image_alt: ""
 media_image: ""
 media_image_alt: ""
-topic: eventsnews
 tags: null
 style: hero
 image: img/uploads/dummy-image.jpg
