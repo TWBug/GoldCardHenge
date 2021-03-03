@@ -4,7 +4,7 @@ date: 2021-01-04T06:41:01.549Z
 draft: false
 hidden: false
 categories:
-    - Announcement
+  - Announcement
 style: right
 ---
 
