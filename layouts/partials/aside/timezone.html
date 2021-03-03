@@ -11,13 +11,13 @@
     <div class="flex items-center my-4">
         <div class="flex-center w-12 h-12 flex-grow-0 mr-4">
             {{ $night := resources.Get "/img/icons/time-taipei-night.svg"}}
-            <img src="{{ $night.RelPermalink }}" class="block w-full" alt="" x-show="night" x-cloak>
+            <img src="{{ $night.RelPermalink }}" class="block w-full" alt="" x-show="night" loading="lazy" x-cloak>
             {{ $morning := resources.Get "/img/icons/time-taipei-morning.svg"}}
-            <img src="{{ $morning.RelPermalink }}" class="block w-full" alt="" x-show="morning" x-cloak>
+            <img src="{{ $morning.RelPermalink }}" class="block w-full" alt="" x-show="morning" loading="lazy" x-cloak>
             {{ $day := resources.Get "/img/icons/time-taipei-day.svg"}}
-            <img src="{{ $day.RelPermalink }}" class="block w-full" alt="" x-show="day" x-cloak>
+            <img src="{{ $day.RelPermalink }}" class="block w-full" alt="" x-show="day" loading="lazy" x-cloak>
             {{ $evening := resources.Get "/img/icons/time-taipei-evening.svg"}}
-            <img src="{{ $evening.RelPermalink }}" class="block w-full" alt="" x-show="evening" x-cloak>
+            <img src="{{ $evening.RelPermalink }}" class="block w-full" alt="" x-show="evening" loading="lazy" x-cloak>
         </div>
         <div>
             <div class="text-xs font-medium leading-none">
