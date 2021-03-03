@@ -70,6 +70,9 @@ window.taForm = function () {
             if (this.form.type.length === 0) {
                 this.error.type = true;
             }
+            if (this.form.name.length === 0) {
+                this.error.name = true;
+            }
             if (this.form.subject.length === 0) {
                 this.error.subject = true;
             }

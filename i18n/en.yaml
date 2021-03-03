@@ -376,6 +376,12 @@
   translation: 'General'
 - id: form_fields_type_error
   translation: 'Select your type'
+- id: form_fields_name
+  translation: 'Name'
+- id: form_fields_name_placeholder
+  translation: 'Your name'
+- id: form_fields_name_error
+  translation: 'Please enter your name'
 - id: form_fields_email_name
   translation: 'Email'
 - id: form_fields_email_placeholder

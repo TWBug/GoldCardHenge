@@ -373,6 +373,12 @@
   translation: '一般'
 - id: form_fields_type_error
   translation: '請選擇類別'
+- id: form_fields_name
+  translation: '姓名'
+- id: form_fields_name_placeholder
+  translation: '你的名字'
+- id: form_fields_name_error
+  translation: '請輸入你的名字'
 - id: form_fields_email_name
   translation: '電子信箱'
 - id: form_fields_email_placeholder
