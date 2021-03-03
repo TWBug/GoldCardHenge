@@ -1,5 +1,5 @@
 ---
-title: 2021/FEB Cumulative Number of Employment Gold Card Issuance
+title: 2021年2月就業金卡最新核發數字
 date: 2021-03-03T02:16:33.156Z
 topic: eventsnews
 draft: false
