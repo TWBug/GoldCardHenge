@@ -11,8 +11,8 @@ links:
     href: /about
   - is_cta: false
     new_window: false
-    label: Application Process
-    href: /application
+    label: Step-by-Step Application
+    href: /apply
 items:
   - is_cta: false
     label: Next Stop, Taiwan!

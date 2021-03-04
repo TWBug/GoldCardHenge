@@ -11,8 +11,8 @@ links:
     href: /about
   - is_cta: false
     new_window: false
-    label: 申請流程
-    href: /application
+    label: 步驟式申請流程
+    href: /apply
 items:
   - is_cta: false
     label: Next Stop, Taiwan!

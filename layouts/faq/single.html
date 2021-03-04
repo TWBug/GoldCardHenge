@@ -65,6 +65,9 @@
                     <div class="-mt-8">
                         {{ partial "aside/all-tags" . }}
                         {{ partial "aside/latest-faq" . }}
+                        {{ if ne .Params.chatbot false }}
+                        {{ partial "aside/timezone" . }}
+                        {{ end }}
                         {{ partial "aside/apply-now" . }}
                     </div>
                 </aside>

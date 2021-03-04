@@ -1,5 +1,6 @@
 ---
-title: " Can I apply for an extension upon the expiry of the Employment Gold Card?"
+title: " Can I apply for an extension upon the expiry of the Employment Gold
+  Card? What documents do I need to provide for renewal?"
 draft: false
 categories: null
 tags:

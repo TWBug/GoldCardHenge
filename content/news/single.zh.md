@@ -2,12 +2,12 @@
 title: "2020年9月就業金卡最新核發數字\t"
 summary: ""
 date: 2020-09-30T05:00:20.617Z
+topic: eventsnews
 draft: false
 cover_image: ""
 cover_image_alt: ""
 media_image: ""
 media_image_alt: ""
-topic: eventsnews
 tags: null
 categories:
   - Announcement
@@ -19,10 +19,10 @@ publishDate: 2020-11-05T07:09:20.617Z
 
 領域別：
 
-* 經濟882件
-* 科技166件
-* 文化119件
-* 金融99件
-* 教育94件
-* 建築6件
-* 體育1件
+* 經濟：882件
+* 科技：166件
+* 文化：119件
+* 金融：99件
+* 教育：94件
+* 建築：6件
+* 體育：1件

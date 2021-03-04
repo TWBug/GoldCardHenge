@@ -66,6 +66,9 @@
             <aside>
                 <div class="print:hidden h-full -mt-12">
                     {{ partial "aside/job-listings" . }}
+                    {{ if ne .Params.chatbot false }}
+                    {{ partial "aside/timezone" . }}
+                    {{ end }}
                     {{ partial "aside/apply-now" . }}
                 </div>
             </aside>

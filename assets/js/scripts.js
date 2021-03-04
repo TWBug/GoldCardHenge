@@ -825,6 +825,10 @@ window.taForm = function () {
         this.error.type = true;
       }
 
+      if (this.form.name.length === 0) {
+        this.error.name = true;
+      }
+
       if (this.form.subject.length === 0) {
         this.error.subject = true;
       }
@@ -1806,6 +1810,151 @@ window.taTags = function () {
       }
 
       this.$store.filter.empty = count > 0 ? false : true;
+    }
+  };
+};
+"use strict";
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+window.taTimezone = function () {
+  return {
+    show: false,
+    time: 0,
+    local_date: '',
+    user_date: '',
+    user_locale: '',
+    breaks: [],
+    morning: false,
+    day: false,
+    evening: false,
+    night: false,
+    options: {
+      timezone: 'America/Los_Angeles',
+      locale: 'en-US',
+      start: '9',
+      end: '23',
+      breaks: 'sa,su'
+    },
+    init: function init() {
+      var _this = this;
+
+      this.user_locale = navigator.language || navigator.userLanguage; // checks if options are defined by data
+
+      for (var _i = 0, _Object$entries = Object.entries(this.$el.dataset); _i < _Object$entries.length; _i++) {
+        var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+            key = _Object$entries$_i[0],
+            value = _Object$entries$_i[1];
+
+        if (typeof this.options[key] !== 'undefined') {
+          if (isNaN(value)) {
+            this.options[key] = value;
+          } else {
+            this.options[key] = parseInt(value);
+          }
+        }
+      }
+
+      var breaks = this.options.breaks.split(',');
+
+      for (var index = 0; index < breaks.length; index++) {
+        switch (breaks[index]) {
+          case 'mo':
+            this.breaks.push(1);
+            break;
+
+          case 'tu':
+            this.breaks.push(2);
+            break;
+
+          case 'we':
+            this.breaks.push(3);
+            break;
+
+          case 'th':
+            this.breaks.push(4);
+            break;
+
+          case 'fr':
+            this.breaks.push(5);
+            break;
+
+          case 'sa':
+            this.breaks.push(6);
+            break;
+
+          default:
+            this.breaks.push(0);
+            break;
+        }
+      }
+
+      this.checkDate();
+      setInterval(function () {
+        _this.checkDate();
+      }, 1000);
+    },
+    checkDate: function checkDate() {
+      var user_date = new Date();
+      var local_date = new Date(user_date.toLocaleString('en-US', {
+        timeZone: this.options.timezone
+      }));
+      this.time = user_date.getTime();
+      this.user_date = user_date.toLocaleString(this.user_locale, {
+        dateStyle: 'medium',
+        timeStyle: 'short'
+      });
+      this.local_date = local_date.toLocaleString(this.user_locale, {
+        dateStyle: 'medium'
+      });
+      this.local_time = local_date.toLocaleString(this.user_locale, {
+        timeStyle: 'short'
+      });
+      var local_hours = local_date.getHours();
+      this.morning = false;
+      this.day = false;
+      this.evening = false;
+      this.night = false;
+
+      if (local_hours > 6 && local_hours < 9) {
+        this.morning = true;
+      } else if (local_hours >= 9 && local_hours < 17) {
+        this.day = true;
+      } else if (local_hours >= 17 && local_hours < 20) {
+        this.day = true;
+      } else {
+        this.night = true;
+      }
+
+      var local_date_start = new Date(user_date.toLocaleString('en-US', {
+        timeZone: this.options.timezone
+      }));
+      var local_date_end = new Date(user_date.toLocaleString('en-US', {
+        timeZone: this.options.timezone
+      }));
+      local_date_start.setHours(this.options.start, 0, 0, 0);
+      local_date_end.setHours(this.options.end, 0, 0, 0);
+
+      if (this.breaks.indexOf(local_date.getDay()) !== -1) {
+        return;
+      }
+
+      if (local_date_start.getTime() < local_date.getTime() && local_date_end.getTime() > local_date.getTime()) {
+        this.show = true;
+        return;
+      }
+
+      this.show = false;
     }
   };
 };

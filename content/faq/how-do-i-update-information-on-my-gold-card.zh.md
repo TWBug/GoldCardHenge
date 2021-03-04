@@ -1,7 +1,8 @@
 ---
 title: 如果我要更改金卡上的資料怎麼辦？
 draft: false
-tags: []
+tags:
+  - General
 ---
 申請人可以在平台上更改的資訊包括：
 
