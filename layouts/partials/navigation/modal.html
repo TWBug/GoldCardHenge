@@ -24,7 +24,7 @@
     x-transition:leave-end="opacity-0 translate-x-10"
     >
     <button type="button" x-on:click="toggleModal()" class="absolute top-0 right-0 px-8 py-4 focus:bg-white focus:text-nav-start" >
-        <span>
+        <span class="sr-only">
             {{ i18n "hide_navigation" }}
         </span>
         {{ partial "icon" (dict "name" "times" "size" "10") }}
@@ -35,25 +35,31 @@
         </a>
         <div class="flex items-center border-t border-b border-white border-opacity-50 mt-4 px-8" x-data="taLanguage()" x-init="init()">
             <div class="mr-2">
-                {{ partial "icon" (dict "name" "language" "size" "6" "alt" (i18n "change_language")) }}
+                {{ partial "icon" (dict "name" "language" "size" "6" "alt" false ) }}
             </div>
             {{ range .Site.Languages }}
             {{ if lt .Weight 10 }}
             {{ $url := print "/" .Lang (substr $.RelPermalink 3) }}
+            {{ $language := .Lang }}
+            {{ if eq $language "zh" }}
+            {{ $language = "zh-Hant-TW" }}
+            {{ end }}
             {{ if eq $actual_language .Lang }}
             <a
                 href="{{ $url }}"
                 class="block bg-nav-dark font-bold px-2 py-3 mx-1 focus:bg-white focus:text-black"
                 tabindex="-1"
+                lang="{{ $language }}"
                 @click.prevent="switchLanguage('{{ .Lang }}')"
-                title="{{ i18n "change_language" }}"
+                title="{{ i18n (print "change_language_to_" .Lang) }}"
             >
             {{ else }}
             <a
                 href="{{ $url }}"
                 class="block px-2 py-3 mx-1 focus:bg-white focus:text-black"
                 @click.prevent="switchLanguage('{{ .Lang }}')"
-                title="{{ i18n "change_language" }}"
+                lang="{{ $language }}"
+                title="{{ i18n (print "change_language_to_" .Lang) }}"
             >
             {{ end }}
                 {{ .LanguageName }}

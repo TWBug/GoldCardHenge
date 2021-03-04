@@ -2,10 +2,10 @@
   translation: 'Powered by'
 - id: search
   translation: 'Search'
-- id: change_language
-  translation: 'Change language'
-- id: change_language_to
-  translation: 'Change language to '
+- id: change_language_to_zh
+  translation: '變更語言至中文'
+- id: change_language_to_en
+  translation: 'Change language to English'
 - id: click_to_see_more_details
   translation: 'Click to get more details about'
 - id: click_to_hide_more_details

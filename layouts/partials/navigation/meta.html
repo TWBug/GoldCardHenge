@@ -21,25 +21,12 @@
             {{ i18n "placeholder_search" }}
         </span>
     </button>
-        {{/*  <form class="flex mr-8 border-r border-l border-white border-opacity-25 text-xs text-white m-0">
-            <div class="flex focus-within:bg-white focus-within:text-black">
-                <label for="search-box" class="flex-center pl-4">
-                    {{ partial "icon" (dict "name" "search" "size" "3") }}
-                </label>
-                <input id="search-box" type="text" class="search-box flex-grow bg-transparent font-semibold placeholder-white placeholder-opacity-50 focus:placeholder-black focus:placeholder-opacity-50 p-2" placeholder="{{ i18n "search" }}">
-            </div>
-        </form>   */}}
-        {{/*  <div class="flex flex-grow-0">
-            <button class="flex items-center border-r border-white border-opacity-25 focus:bg-white focus:text-black w-10 p-2">
-                {{ partial "icon" (dict "name" "font-plus" "size" "6" "alt" (i18n "change_language")) }}
-
-            </button>
-        </div>  */}}
     <div class="flex items-center uppercase border-r border-white border-opacity-25" x-data="taLanguage()" x-init="init()">
-        {{/*  <div class="mr-2">
-            {{ partial "icon" (dict "name" "language" "size" "6" "alt" (i18n "change_language")) }}
-        </div>  */}}
         {{ range .Site.Languages }}
+        {{ $language := .Lang }}
+        {{ if eq $language "zh" }}
+        {{ $language = "zh-Hant-TW" }}
+        {{ end }}
         {{ if lt .Weight 10 }}
         {{ $url := print "/" .Lang (substr $.RelPermalink 3) }}
         {{ if eq $.Site.Language.Lang .Lang }}
@@ -51,7 +38,8 @@
             href="{{ $url }}"
             class="block p-3 focus:bg-white focus:text-black"
             @click.prevent="switchLanguage('{{ .Lang }}')"
-            title="{{ i18n "change_language_to" }}{{ .LanguageName }}"
+            lang="{{ $language }}"
+            title="{{ i18n (print "change_language_to_" .Lang) }}"
         >
             {{ .LanguageName }}
         </a>

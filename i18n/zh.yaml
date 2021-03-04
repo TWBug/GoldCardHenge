@@ -2,10 +2,10 @@
   translation: '版權所有'
 - id: search
   translation: '搜尋'
-- id: change_language
-  translation: '語言'
-- id: change_language_to
-  translation: '語言'
+- id: change_language_to_zh
+  translation: '變更語言至中文'
+- id: change_language_to_en
+  translation: 'Change language to English'
 - id: click_to_see_more_details
   translation: '點擊獲取更多詳細信息'
 - id: click_to_hide_more_details
