@@ -16,9 +16,8 @@ topic: goldcard
 
 {{< accordion title="Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000." suffix="1." bottomless="true" >}}
 
--   Proof of salary as per the amount stated in the application.
+-   Proof of salary as per the amount stated in the application. (please provide ONE of the following).
     -   A tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
-OR
     -   The employment contract of intended future employment in the ROC.
 -   Note: Recently, there have been many applications that have been made under the salary condition. Though most applicants fulfill the NT$160,000 average monthly salary condition, they do not work in an industry specified under the Field of Economics. In order to comply with the principle and spirit of the Gold Card initiative, we will check that the industry in which the applicant works in is the under the specified Field of Economics, which will also serve as the basis for approval. To speed up the application review process and reduce the chances of returned applications or needing to provide additional documents, applicants are requested to provide their full CV and employment contract.
 
