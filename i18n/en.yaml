@@ -414,4 +414,4 @@
 - id: chat_offline
   translation: 'Offline'
 - id: chat_offline_description
-  translation: 'Live chat with the help desk team is available on Mo-Fr: 9 AM to 6 PM local time.'
+  translation: 'Live chat with the help desk team is available on Mo-Fr: 10 AM to 6 PM local time.'

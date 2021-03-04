@@ -3,7 +3,7 @@
 {{ $locale = "zh-TW" }}
 {{ end }}
 
-<div class="my-12" x-data="taTimezone()" x-init="init()" data-timezone="Asia/Taipei" data-locale="{{ $locale }}" data-breaks="sa,su" data-start="9" data-end="18">
+<div class="my-12" x-data="taTimezone()" x-init="init()" data-timezone="Asia/Taipei" data-locale="{{ $locale }}" data-breaks="sa,su" data-start="10" data-end="18">
     <div class="flex items-center border-b-2 border-secondary border-dashed px-2 pb-2">
         {{ partial "icon" (dict "name" "comments" "size" "5") }}
         <h2 class="text-xl font-bold ml-2">{{ i18n "chat_title" }}</h2>
