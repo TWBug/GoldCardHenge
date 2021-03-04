@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '27107'
-title: Software User Interface (UI) Designer for FinTech
+title: Web User Interface (UI) Designer for FinTech
 job_url: >-
   https://www.cakeresume.com/companies/otsogroup/jobs/web-user-interface-ui-designer-for-fintech
 date: 2021-02-23T10:03:44.029Z
