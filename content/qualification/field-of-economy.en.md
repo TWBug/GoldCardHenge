@@ -22,7 +22,6 @@ topic: goldcard
 {{< /accordion >}}
 
 {{< accordion title="Those who have held the position of operations, technical or marketing executive at an R&D center, operations headquarters or transnational corporation established in Taiwan." suffix="2." bottomless="true" >}}
-
 -   One of the following documents to indicate the applicant’current and former employer’s status in Taiwan such as the enterprise operational headquarter, research & development centers, transnational enterprise:
 
 1. Certificate of the range of the enterprise operational headquarters.
