@@ -162,7 +162,10 @@ Document explaining the applicant's expertise or experience (such as a domestic 
 ## Notes:
 
 {{< note title="1" >}}
-* Most recent monthly salary of at least NT$160,000 means a monthly salary or average monthly salary of NT$160,000 or above within the three years preceding the month of the application; documentary proof of salary or tax payment. (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
+**Please provide ONE of the following**
+
+* A tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
+* The employment contract of intended future employment in the ROC.
 {{< /note >}}
 
 {{< note title="2.1a" >}}
