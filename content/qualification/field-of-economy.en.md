@@ -20,7 +20,7 @@ topic: goldcard
     -   A tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
     -   The employment contract of intended future employment in the ROC.
 -   Note: Recently, there have been many applications that have been made under the salary condition. Though most applicants fulfill the NT$160,000 average monthly salary condition, they do not work in an industry specified under the Field of Economics. In order to comply with the principle and spirit of the Gold Card initiative, we will check that the industry in which the applicant works in is the under the specified Field of Economics, which will also serve as the basis for approval. To speed up the application review process and reduce the chances of returned applications or needing to provide additional documents, applicants are requested to provide their full CV and employment contract.
-
+-   Personal curriculum vitae and document verifying domestic or foreign service relating to employment at an economic company or in an economic field.
 {{< /accordion >}}
 
 {{< accordion title="Those who have held the position of operations, technical or marketing executive at an R&D center, operations headquarters or transnational corporation established in Taiwan." suffix="2." bottomless="true" >}}
