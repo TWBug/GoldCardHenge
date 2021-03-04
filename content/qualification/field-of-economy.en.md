@@ -1,16 +1,15 @@
 ---
 title: Field of Economy
 summary: Those with a most recent monthly salary of at least NT$160,000, or have
-    held a high-level operations or marketing position in an R&D center,
-    operations HQ, or transnational corporation, who possess important skills
-    required for a key product or service model, or who have held a specialist or
-    cross-field integrating position in a semiconductor, optoelectronics, ICT, or
-    other such enterprise.
+  held a high-level operations or marketing position in an R&D center,
+  operations HQ, or transnational corporation, who possess important skills
+  required for a key product or service model, or who have held a specialist or
+  cross-field integrating position in a semiconductor, optoelectronics, ICT, or
+  other such enterprise.
 draft: false
 icon: /cms-uploads/icon-economy.svg
 topic: goldcard
 ---
-
 # Foreign special professionals with specialized knowledge/skills in economic fields
 
 ## Must meet **ONE** of the following conditions:
@@ -19,6 +18,7 @@ topic: goldcard
 
 -   Proof of salary as per the amount stated in the application.
     -   A tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
+OR
     -   The employment contract of intended future employment in the ROC.
 -   Note: Recently, there have been many applications that have been made under the salary condition. Though most applicants fulfill the NT$160,000 average monthly salary condition, they do not work in an industry specified under the Field of Economics. In order to comply with the principle and spirit of the Gold Card initiative, we will check that the industry in which the applicant works in is the under the specified Field of Economics, which will also serve as the basis for approval. To speed up the application review process and reduce the chances of returned applications or needing to provide additional documents, applicants are requested to provide their full CV and employment contract.
 
@@ -61,5 +61,5 @@ topic: goldcard
 
 {{< accordion title="Those who have been certified by the relevant central competent authority as specialized talents possessing professional capacity or transnational experience needed in Taiwan." suffix="5." bottomless="true" >}}
 
--   Evidence proving applicant’s professional ability or transnational experience.
-    {{< /accordion >}}
+* Evidence proving applicant’s professional ability or transnational experience.
+  {{< /accordion >}}
