@@ -401,14 +401,14 @@
   translation: '送出'
   
 - id: chat_title
-  translation: '在線聊天'
+  translation: '即時諮詢'
 - id: chat_time_title
   translation: '台北市實際時間'
 - id: chat_online
-  translation: '在線的'
+  translation: 'Online'
 - id: chat_online_description
-  translation: '使用實時聊天直接向服務台團隊詢問您的問題。'
+  translation: '使用即時諮詢直接詢問您的問題。'
 - id: chat_offline
-  translation: '離線'
+  translation: 'Offline'
 - id: chat_offline_description
-  translation: '週一至週五與服務台團隊進行實時聊天：當地時間上午10點至下午6點。'
+  translation: '即時諮詢的服務時間為：台北當地 周一至周五 10:00-18:00'
