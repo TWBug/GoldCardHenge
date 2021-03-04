@@ -1417,9 +1417,37 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
+var __shouldDebug = false;
+
+window.taSearchDebug = function () {
+  var activated = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : true;
+  __shouldDebug = activated;
+  localStorage.setItem('@@TEGO_DBG', activated);
+};
+
 window.taSearch = function () {
-  // not needed min length defined in the template
+  try {
+    __shouldDebug = localStorage.getItem('@@TEGO_DBG') === 'true';
+  } catch (err) {
+    console.warn('Could not init debugger.');
+  }
+
+  var shouldUseChinese = window.location.pathname.startsWith('/zh/');
+
+  var dbg = function dbg() {
+    if (__shouldDebug) {
+      var _console;
+
+      for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+        args[_key] = arguments[_key];
+      }
+
+      (_console = console).info.apply(_console, ['[TA-SEARCH]'].concat(args));
+    }
+  }; // not needed min length defined in the template
   // var is_chinese_ui = window.location.pathname.startsWith('/zh/');
+
+
   var searcher = {
     initialized: false,
     visible: false,
@@ -1465,20 +1493,20 @@ window.taSearch = function () {
 
       for (var _i2 = 0, _Object$entries2 = Object.entries(this.$el.dataset); _i2 < _Object$entries2.length; _i2++) {
         var _Object$entries2$_i = _slicedToArray(_Object$entries2[_i2], 2),
-            _key = _Object$entries2$_i[0],
+            _key2 = _Object$entries2$_i[0],
             _value = _Object$entries2$_i[1];
 
-        if (typeof this.options[_key] !== 'undefined') {
+        if (typeof this.options[_key2] !== 'undefined') {
           if (isNaN(_value)) {
-            this.options[_key] = _value;
+            this.options[_key2] = _value;
           } else {
-            this.options[_key] = parseInt(_value);
+            this.options[_key2] = parseInt(_value);
           }
         }
       }
 
-      var _console = console,
-          assert = _console.assert;
+      var _console2 = console,
+          assert = _console2.assert;
       assert(window.lunr, 'Lunr.js not found. Search cannot be supported without Lunr.js.'); // not needed min length defined in the template
       // this.is_chinese_ui = is_chinese_ui;
 
@@ -1649,8 +1677,8 @@ window.taSearch = function () {
     loadIndex: function loadIndex() {
       var _this4 = this;
 
-      // console.log('[TA-SEARCH] Lunr index loading:', this.$el.dataset.file);
-      // First retrieve the index file
+      dbg('Lunr index loading:', this.$el.dataset.file); // First retrieve the index file
+
       fetch(this.options.file).then(function (x) {
         return x.json();
       }).then(function (index) {
@@ -1658,9 +1686,10 @@ window.taSearch = function () {
         // Also provide their boost level for the ranking
 
         window.lunrIndex = window.lunr(function () {
-          // console.log('[TA-SEARCH] Lunr index loaded');
-          if (window.location.pathname.startsWith('/zh/')) {
-            // console.log('[TA-SEARCH] Lunr chinese mode');
+          dbg('Lunr index loaded');
+
+          if (shouldUseChinese) {
+            dbg('Lunr chinese mode');
             this.use(window.lunr.zh); // Set up Chinese support
           }
 
@@ -1699,8 +1728,11 @@ window.taSearch = function () {
     search: function search(query) {
       if (query.length < this.minimum_length) {
         this.reset(false);
+        dbg('Query not long enough.');
         return false;
-      } // @note Search query is built up here
+      }
+
+      dbg('Stemmed query', lunrIndex.pipeline.runString(query)); // @note Search query is built up here
       // Initially we were constructing a query using the `search(string)`
       // approach. This is fine, however, it was giving us issues with the
       // wildcards. Namely, typing an exact term would cause the search
@@ -1711,27 +1743,53 @@ window.taSearch = function () {
       // looking for "license_" with at least one character in the place
       // of the underscore. Initial search approach was as follows:
       //     this.result = window.lunrIndex.search('*' + query + '*')
+      // To test manually:
+      // - "183" -> has results
+      // - "183 days" -> has results
+      // - "如何" -> has results
+      // - "如何申請" -> has results
+      // For additional guidance on the query API see this issue: https://github.com/olivernn/lunr.js/issues/256
 
+      var xs = [];
 
-      this.result = window.lunrIndex.query(function (qInstance) {
-        qInstance.term(query, {
-          wildcard: lunr.Query.wildcard.TRAILING
+      if (shouldUseChinese) {
+        dbg('zh: 中文搜尋 ->', query);
+        xs = window.lunrIndex.query(function (q
+        /* lunr.Query */
+        ) {
+          q.term(query, {
+            usePipeline: true,
+            boost: 100
+          });
+          q.term(query + '*', {
+            usePipeline: false,
+            boost: 10
+          });
+          q.term(query, {
+            usePipeline: false,
+            editDistance: 2,
+            boost: 2
+          });
+          q.term(query);
         });
-        qInstance.term(query, {
-          wildcard: lunr.Query.wildcard.NONE
-        });
-      }).map(function (result) {
+      } else {
+        dbg('en: English search ->', query);
+        xs = window.lunrIndex.search(query);
+      }
+
+      this.result = xs.map(function (result) {
         return window.lunrPages.find(function (page) {
           return page.href === result.ref;
         });
-      });
-      this.result = this.result.slice(0, 10);
+      }).slice(0, 10);
 
       if (this.result.length > 0) {
         this.has_results = true;
       } else {
         this.has_results = false;
       }
+
+      return this.result;
     }
   };
   window.searcher = searcher;

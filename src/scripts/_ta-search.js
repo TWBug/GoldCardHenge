@@ -1,4 +1,25 @@
+let __shouldDebug = false;
+
+window.taSearchDebug = (activated = true) => {
+    __shouldDebug = activated;
+    localStorage.setItem('@@TEGO_DBG', activated);
+};
+
 window.taSearch = function () {
+    try {
+        __shouldDebug = localStorage.getItem('@@TEGO_DBG') === 'true';
+    } catch (err) {
+        console.warn('Could not init debugger.');
+    }
+
+    const shouldUseChinese = window.location.pathname.startsWith('/zh/');
+
+    const dbg = (...args) => {
+        if (__shouldDebug) {
+            console.info('[TA-SEARCH]', ...args);
+        }
+    };
+
     // not needed min length defined in the template
     // var is_chinese_ui = window.location.pathname.startsWith('/zh/');
     const searcher = {
@@ -209,7 +230,8 @@ window.taSearch = function () {
             window.lunr.Pipeline.registerFunction(lunr.zh.trimmer, 'trimmer-zh');
         },
         loadIndex() {
-            // console.log('[TA-SEARCH] Lunr index loading:', this.$el.dataset.file);
+            dbg('Lunr index loading:', this.$el.dataset.file);
+
             // First retrieve the index file
             fetch(this.options.file)
                 .then((x) => x.json())
@@ -218,11 +240,12 @@ window.taSearch = function () {
                     // Set up lunrjs by declaring the fields we use
                     // Also provide their boost level for the ranking
                     window.lunrIndex = window.lunr(function () {
-                        // console.log('[TA-SEARCH] Lunr index loaded');
-                        if (window.location.pathname.startsWith('/zh/')) {
-                            // console.log('[TA-SEARCH] Lunr chinese mode');
+                        dbg('Lunr index loaded');
+                        if (shouldUseChinese) {
+                            dbg('Lunr chinese mode');
                             this.use(window.lunr.zh); // Set up Chinese support
                         }
+
                         this.field('title', {
                             boost: 10,
                         });
@@ -250,8 +273,12 @@ window.taSearch = function () {
         search(query) {
             if (query.length < this.minimum_length) {
                 this.reset(false);
+                dbg('Query not long enough.');
                 return false;
             }
+
+            dbg('Stemmed query', lunrIndex.pipeline.runString(query));
+
             // @note Search query is built up here
             // Initially we were constructing a query using the `search(string)`
             // approach. This is fine, however, it was giving us issues with the
@@ -263,22 +290,41 @@ window.taSearch = function () {
             // looking for "license_" with at least one character in the place
             // of the underscore. Initial search approach was as follows:
             //     this.result = window.lunrIndex.search('*' + query + '*')
-            this.result = window.lunrIndex
-                .query((qInstance) => {
-                    qInstance.term(query, { wildcard: lunr.Query.wildcard.TRAILING });
-                    qInstance.term(query, { wildcard: lunr.Query.wildcard.NONE });
-                })
+            // To test manually:
+            // - "183" -> has results
+            // - "183 days" -> has results
+            // - "如何" -> has results
+            // - "如何申請" -> has results
+            // For additional guidance on the query API see this issue: https://github.com/olivernn/lunr.js/issues/256
+            let xs = [];
+            if (shouldUseChinese) {
+                dbg('zh: 中文搜尋 ->', query);
+                xs = window.lunrIndex.query((q /* lunr.Query */) => {
+                    q.term(query, { usePipeline: true, boost: 100 });
+                    q.term(query + '*', { usePipeline: false, boost: 10 });
+                    q.term(query, { usePipeline: false, editDistance: 2, boost: 2 });
+                    q.term(query);
+                });
+            } else {
+                dbg('en: English search ->', query);
+                xs = window.lunrIndex.search(query);
+            }
+
+            this.result = xs
                 .map((result) => {
                     return window.lunrPages.find((page) => {
                         return page.href === result.ref;
                     });
-                });
-            this.result = this.result.slice(0, 10);
+                })
+                .slice(0, 10);
+
             if (this.result.length > 0) {
                 this.has_results = true;
             } else {
                 this.has_results = false;
             }
+
+            return this.result;
         },
     };
 
