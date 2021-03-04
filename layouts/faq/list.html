@@ -85,6 +85,9 @@
                 </div>
                 <div class="-mt-12">
                   {{ partial "aside/latest-article" . }}
+                  {{ if ne .Params.chatbot false }}
+                  {{ partial "aside/timezone" . }}
+                  {{ end }}
                   {{ partial "aside/apply-now" . }}
                 </div>
             </div>
