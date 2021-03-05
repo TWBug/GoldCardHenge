@@ -3,12 +3,26 @@
         {{ .Inner }}
     </div>
     <template x-if="modal">
-        <div class="fixed inset-0 z-50 flex-center bg-white bg-opacity-75 bg-blur-4">
-            <div class="relative bg-white border border-gray-100 max-h-screen-3/4 max-w-screen-xl" @click.away.prevent="toggleModal()">
+        <div class="fixed inset-0 z-50 flex-center bg-white bg-opacity-75 bg-blur-4" style="max-width: 100vw">
+            <div class="relative bg-white border border-gray-100 m-4" @click.away.prevent="toggleModal()">
+                <div class="absolute inset-y-0 right-0 flex-center h-full -mr-4 -mt-4">
+                    <button type="button" class="bg-red-800 text-white font-bold p-4" @click.prevent="next()">
+                        >
+                    </button>
+                </div>
+                <div class="absolute inset-y-0 left-0 flex-center h-full -ml-4 -mt-4">
+                    <button type="button" class="bg-red-800 text-white font-bold p-4" @click.prevent="previous()">
+                        <
+                    </button>
+                </div>
                 <button type="button" class="absolute right-0 top-0 bg-red-800 text-white font-bold -mr-4 -mt-4 p-4" @click.prevent="toggleModal()">
-                    close
+                    x
                 </button>
-                <img :src="image.src" :alt="image.alt" class="block">
+                <img :src="image.src" :alt="image.alt" class="block max-h-screen-3/4 max-w-full">
+                <div class="absolute inset-x-0 bottom-0 py-2 pl-3 bg-black bg-opacity-75 bg-blur-3 text-white text-xs font-bold" x-show="image.description !== false" x-text="image.description"></div>
+                <div class="absolute left-0 top-0 text-black bg-white font-bold text-sm p-2" x-text="index">
+
+                </div>
             </div>
         </div>
     </template>

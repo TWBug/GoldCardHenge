@@ -912,30 +912,47 @@ window.taGallery = function () {
         }
       }
 
-      this.items = this.$el.querySelectorAll('.' + this.options.item);
+      var items = this.$el.querySelectorAll('.' + this.options.item);
 
-      var _loop = function _loop(index) {
-        _this.items[index].addEventListener('click', function (event) {
+      for (var index = 0; index < items.length; index++) {
+        if (typeof items[index].href === 'undefined') {
+          continue;
+        }
+
+        this.items.push(items[index]);
+      }
+
+      var _loop = function _loop(_index) {
+        _this.items[_index].addEventListener('click', function (event) {
           event.preventDefault();
 
-          _this.showModal(index);
+          _this.showModal(_index);
         });
       };
 
-      for (var index = 0; index < this.items.length; index++) {
-        _loop(index);
+      for (var _index = 0; _index < this.items.length; _index++) {
+        _loop(_index);
       }
 
       this.$el.addEventListener('keyup', function (event) {
-        console.info('keyup', event);
-        event.preventDefault();
+        if (event.key === 'Escape') {
+          _this.hideModal();
 
-        _this.next();
+          return;
+        } else if (event.key === 'ArrowRight') {
+          _this.next();
+
+          return;
+        } else if (event.key === 'ArrowLeft') {
+          _this.previous();
+
+          return;
+        }
+
+        event.preventDefault();
       });
-      console.info('items', this.items);
     },
     showModal: function showModal(index) {
-      console.info('index', index);
       this.index = index;
       this.setImage();
       this.modal = true;
@@ -943,19 +960,47 @@ window.taGallery = function () {
     toggleModal: function toggleModal() {
       this.modal = !this.modal;
     },
+    hideModal: function hideModal() {
+      this.modal = false;
+    },
     next: function next() {
-      var next_index = this.index++;
+      var next_index = this.index + 1;
 
-      if (next_index > this.items.length) {
+      if (next_index > this.items.length - 1) {
         next_index = 0;
       }
 
       this.index = next_index;
       this.setImage();
     },
+    previous: function previous() {
+      var previous_index = this.index - 1;
+
+      if (previous_index < 0) {
+        previous_index = this.items.length - 1;
+      }
+
+      this.index = previous_index;
+      this.setImage();
+    },
     setImage: function setImage() {
       this.image.src = this.items[this.index].href;
       this.image.alt = this.items[this.index].href;
+      this.image.title = false;
+
+      if (typeof this.items[this.index].dataset.title !== 'undefined') {
+        if (this.items[this.index].dataset.title !== '') {
+          this.image.title = this.items[this.index].dataset.title;
+        }
+      }
+
+      this.image.description = false;
+
+      if (typeof this.items[this.index].dataset.description !== 'undefined') {
+        if (this.items[this.index].dataset.description !== '') {
+          this.image.description = this.items[this.index].dataset.description;
+        }
+      }
     }
   };
 };
