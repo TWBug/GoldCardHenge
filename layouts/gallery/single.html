@@ -1,0 +1,65 @@
+{{ define "head" }}
+{{ partial "head/alpine" ( dict "spruce" "true" "cdn" .Site.Params.loadFromCDN ) }}
+<meta name="robots" content="noindex">
+{{ end }}
+
+{{ define "main" }}
+
+{{ $style := "right" }}
+{{ with .Params.style }}
+{{ $style = . }}
+{{ end }}
+
+{{ $cover_image := "" }}
+{{ if .Params.cover_image }}
+{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ end }}
+
+{{ $language := .Site.Language | urlize }}
+
+{{ $question := .Title }}
+{{ if .Params.question }}
+{{ $question = .Params.question | markdownify }}
+{{ end }}
+
+{{ $back := .Parent }}
+{{ if .Params.tags }}
+{{ $tag := index .Params.tags 0 | anchorize }}
+{{ if $tag }}
+{{ $back = .Site.GetPage (printf "/tags/%s" $tag) }}
+{{ end }}
+{{ end }}
+
+<div class="relative shadow-xl print:shadow-none">
+    {{ partial "navigation" . }}
+    {{ partial "alert" .  }}
+</div>
+<div class="flex-grow pt-24">
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-white -z-1"
+    ></div>
+    {{ if .Site.IsServer }}
+    <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2 z-1">SINGLE TEMPLATE - GALLERY</div>
+    {{ end }}
+    <section>
+        <div class="container pb-12 sm:pb-24 px-12 lg:px-24">
+            {{ partial "breadcrumb" . }}
+            <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xl:gap-24">
+                <div class="sm:col-span-2">
+                    {{ .Content }}
+                </div>
+                <aside>
+                    <div class="-mt-8">
+                        {{ partial "aside/all-tags" . }}
+                        {{ partial "aside/latest-faq" . }}
+                        {{ if ne .Params.chatbot false }}
+                        {{ partial "aside/timezone" . }}
+                        {{ end }}
+                        {{ partial "aside/apply-now" . }}
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+</div>
+{{end}}

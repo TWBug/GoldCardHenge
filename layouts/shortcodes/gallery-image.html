@@ -1,0 +1,13 @@
+{{ $src := print "/cms-gallery/" (.Get "src") }}
+{{ $src := resources.Get $src }}
+{{ if $src }}
+{{ $image := $src.Fill "260x260" }}
+{{ $src := $src.Fit "1280x1280" }}
+<div class="w-1/3 flex-shrink-0">
+    <div class="p-2">
+        <a href="{{ $src.RelPermalink }}" class="ta-gallery-item">
+            <img src="{{ $image.RelPermalink }}" alt="" class="block w-full h-full object-cover">
+        </a>
+    </div>
+</div>
+{{ end }}

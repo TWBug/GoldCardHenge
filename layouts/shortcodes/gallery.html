@@ -1,0 +1,15 @@
+<div class="flex justify-start items-stretch flex-wrap" x-data="taGallery()" x-init="init()">
+    <div class="flex justify-start items-stretch flex-wrap">
+        {{ .Inner }}
+    </div>
+    <template x-if="modal">
+        <div class="fixed inset-0 z-50 flex-center bg-white bg-opacity-75 bg-blur-4">
+            <div class="relative bg-white border border-gray-100 max-h-screen-3/4 max-w-screen-xl" @click.away.prevent="toggleModal()">
+                <button type="button" class="absolute right-0 top-0 bg-red-800 text-white font-bold -mr-4 -mt-4 p-4" @click.prevent="toggleModal()">
+                    close
+                </button>
+                <img :src="image.src" :alt="image.alt" class="block">
+            </div>
+        </div>
+    </template>
+</div>
