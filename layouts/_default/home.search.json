@@ -2,6 +2,7 @@
 {{ range $index, $value := sort .Site.Pages "Title" "asc" }}
 {{ $title := .Title | plainify | chomp }}
 {{ $summary := .Content | plainify | chomp }}
+{{ if ne $summary "" }}
 {
     "title": "{{ print (replace (replace (replace $title "\t" "") "\n" "") "\"" "'") }}",
     "content": "{{ print (replace (replace (replace $summary "\t" "") "\n" "") "\"" "'") }}",
@@ -17,5 +18,6 @@
     {{ end }}
     "href": "{{ .RelPermalink }}",
 },
+{{ end }}
 {{ end }}
 ]
