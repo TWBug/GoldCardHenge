@@ -25,17 +25,17 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto assumenda e
 {{< gallery-image src="image-01.jpg" >}}
 {{< gallery-image src="image-03.jpg" >}}
 {{< gallery-image src="image-01.jpg" >}}
-{{< gallery-image src="image-01.jpg" >}}
+{{< gallery-image src="image-04.jpg" >}}
 {{< gallery-image src="image-02.jpg" >}}
 {{< gallery-image src="image-02.jpg" >}}
-{{< gallery-image src="image-03.jpg" >}}
+{{< gallery-image src="image-04.jpg" >}}
 {{< gallery-image src="image-01.jpg" >}}
 {{< gallery-image src="image-03.jpg" >}}
 {{< gallery-image src="image-02.jpg" >}}
 {{< gallery-video id="sKLCDKHGHN8" >}}
-{{< gallery-image src="image-03.jpg" >}}
-{{< gallery-image src="image-03.jpg" >}}
-{{< gallery-image src="image-03.jpg" >}}
 {{< gallery-image src="image-01.jpg" >}}
+{{< gallery-image src="image-03.jpg" >}}
+{{< gallery-image src="image-04.jpg" >}}
+{{< gallery-image src="image-03.jpg" >}}
 {{< gallery-image src="image-01.jpg" >}}
 {{< /gallery >}}

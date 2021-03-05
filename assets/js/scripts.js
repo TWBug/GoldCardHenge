@@ -855,6 +855,112 @@ window.taForm = function () {
 };
 "use strict";
 
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+window.taGallery = function () {
+  return {
+    initialized: false,
+    modal: false,
+    image: {},
+    items: [],
+    index: 0,
+    options: {
+      id: '',
+      item: 'ta-gallery-item'
+    },
+    init: function init(options) {
+      var _this = this;
+
+      if (typeof options !== 'undefined') {
+        if (_typeof(options) !== 'object' || options instanceof Array) {
+          console.warn('Options are in wrong type - should be object - options been used');
+        }
+
+        for (var _i = 0, _Object$entries = Object.entries(options); _i < _Object$entries.length; _i++) {
+          var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+              key = _Object$entries$_i[0],
+              value = _Object$entries$_i[1];
+
+          this.options[key] = value;
+        }
+      } // checks if options are defined by data
+
+
+      for (var _i2 = 0, _Object$entries2 = Object.entries(this.$el.dataset); _i2 < _Object$entries2.length; _i2++) {
+        var _Object$entries2$_i = _slicedToArray(_Object$entries2[_i2], 2),
+            _key = _Object$entries2$_i[0],
+            _value = _Object$entries2$_i[1];
+
+        if (typeof this.options[_key] !== 'undefined') {
+          if (isNaN(_value)) {
+            this.options[_key] = _value;
+          } else {
+            this.options[_key] = parseInt(_value);
+          }
+        }
+      }
+
+      this.items = this.$el.querySelectorAll('.' + this.options.item);
+
+      var _loop = function _loop(index) {
+        _this.items[index].addEventListener('click', function (event) {
+          event.preventDefault();
+
+          _this.showModal(index);
+        });
+      };
+
+      for (var index = 0; index < this.items.length; index++) {
+        _loop(index);
+      }
+
+      this.$el.addEventListener('keyup', function (event) {
+        console.info('keyup', event);
+        event.preventDefault();
+
+        _this.next();
+      });
+      console.info('items', this.items);
+    },
+    showModal: function showModal(index) {
+      console.info('index', index);
+      this.index = index;
+      this.setImage();
+      this.modal = true;
+    },
+    toggleModal: function toggleModal() {
+      this.modal = !this.modal;
+    },
+    next: function next() {
+      var next_index = this.index++;
+
+      if (next_index > this.items.length) {
+        next_index = 0;
+      }
+
+      this.index = next_index;
+      this.setImage();
+    },
+    setImage: function setImage() {
+      this.image.src = this.items[this.index].href;
+      this.image.alt = this.items[this.index].href;
+    }
+  };
+};
+"use strict";
+
 window.taImageViewer = function () {
   return {
     modal: false,
