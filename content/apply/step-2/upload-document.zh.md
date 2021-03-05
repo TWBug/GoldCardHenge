@@ -9,6 +9,7 @@ order: 6
 topic: goldcard
 previous: /apply/step-2/your-data/
 next: /apply/step-2/profession-documents/
+chatbot: true
 ---
 # 文件上傳
 

@@ -8,6 +8,7 @@ order: 5
 topic: goldcard
 previous: "/apply/step-2/resident/"
 next: "/apply/step-2/upload-document/"
+chatbot: true
 ---
 
 # 領域專長

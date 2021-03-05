@@ -74,7 +74,10 @@
                     {{ end }}
                 </div>
                 <div class="-mt-12">
-                  {{ partial "aside/checklist" . }}
+                    {{ if eq .Params.chatbot true }}
+                    {{ partial "aside/timezone" . }}
+                    {{ end }}
+                    {{ partial "aside/checklist" . }}
                 </div>
             </div>
         </div>

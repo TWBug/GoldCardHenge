@@ -8,6 +8,7 @@ order: 2
 topic: goldcard
 previous: /apply/step-2/registration/
 next: /apply/step-2/your-data/
+chatbot: true
 ---
 # 新增申請者
 

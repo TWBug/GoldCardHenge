@@ -9,6 +9,7 @@ order: 4
 topic: goldcard
 previous: /apply/step-3/card-collection/
 next: null
+chatbot: true
 ---
 # Welcome to the Community
 

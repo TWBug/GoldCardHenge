@@ -9,6 +9,7 @@ topic: goldcard
 style: right
 previous: /apply/step-2/
 next: /apply/step-2/new-applicant/
+chatbot: true
 ---
 # 註冊
 

@@ -12,6 +12,7 @@ style: title
 cover_image: null
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: null
+chatbot: true
 ---
 就業金卡申請流程相當簡單，只需要提供申請者資訊、應附的證明文件、繳納申請費，整個申請過程可以在**15分鐘內**完成。
 

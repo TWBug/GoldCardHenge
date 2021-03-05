@@ -73,7 +73,7 @@
                     </div>
                     {{ end }}
                     {{ partial "aside/summary" . }}
-                    {{ if ne .Params.chatbot false }}
+                    {{ if eq .Params.chatbot true }}
                     {{ partial "aside/timezone" . }}
                     {{ end }}
                     {{ partial "aside/qualifications" . }}

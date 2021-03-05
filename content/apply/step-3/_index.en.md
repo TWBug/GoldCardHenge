@@ -11,6 +11,7 @@ cover_image: /cms-uploads/icon-checklist.svg
 cover_image_alt: Icon with checklist application process
 previous: null
 next: /apply/step-3/supplementary-documents/
+chatbot: true
 ---
 {{< teaser >}}
 Congratulations on submitting your application! To check your application process, [log in to the portal](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card), click “Application Progress Inquiry”, and fill in your 12-digit application number. The application fee is nonrefundable regardless of the results of your application.
