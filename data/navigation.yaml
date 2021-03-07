@@ -10,13 +10,13 @@ en:
         links:
           - name: About Gold Card
             link: /about
-          - name: Qualification
-            link: /qualification
-          - name: Step-by-Step Application
+          - name: Application Guide
             link: /apply
-          - name: One Page Application
+          - name: Application Information
             link: /application
-          - name: Gold Card Office
+          - name: About the Qualifications
+            link: /qualification
+          - name: About the Gold Card Office
             link: /gold-card-office
         items:
           - apply
