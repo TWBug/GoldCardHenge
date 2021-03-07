@@ -25,4 +25,4 @@ badges:
 
 ---
 
-17LIVE 歡迎對以下工作內容有興趣的 前端工程師 加入我們的大家庭！ 開發與維護 https://17.live ，17.live 是 17 的網頁版，負責在大螢幕上提供用戶更好的瀏覽體驗。 17.live 也提供手機版，負責讓用戶在下載 app 之前，能在手機的瀏覽器上搶先體驗 17 的內容。 以下為目前團隊所使用的技術(非招募條件)： ES2015+ React 16.8+ Redux redux-observable, redux-immutable react-router v4+ storybook puppeteer styled-components Jest、Enzyme、react-testing-library webpack Node.js We are current hiring for Frontend Engineer professionals that will take part in: You will have to develop and maintain https://17.live , 17’s web version. You wi
+17LIVE 歡迎對以下工作內容有興趣的 前端工程師 加入我們的大家庭！ 開發與維護 https://17.live ，17.live 是 17 的網頁版，負責在大螢幕上提供用戶更好的瀏覽體驗。 17.live 也提供手機版，負責讓用戶在下載 app 之前，能在手機的瀏覽器上搶先體驗 17 的內容。 以下為目前團隊所使用的技術(非招募條件)： ES2015+ React 16.8+ Redux redux-observable, redux-immutable react-router v4+ storybook puppeteer styled-components Jest、Enzyme���react-testing-library webpack Node.js We are current hiring for Frontend Engineer professionals that will take part in: You will have to develop and maintain https://17.live , 17’s web version. You wi
