@@ -15,8 +15,12 @@
 // format.
 
 const Props = {
-    fromString: (str) => {
+    // Given keyword args parse them into an object. This is (currently) for the
+    // inner arguments to a shortcode,
+    // Ex: `name="hey" title="wee"` => { name: "hey", title: "wee" }
+    fromString: (str, shouldDecode) => {
         const result = {};
+        const dec = shouldDecode ? decodeURIComponent : (x) => x;
 
         // Turn string into a flat list of keys and values. Exmaple:
         // `title="How to apply" link="url.com" image="/file.jpg"`
@@ -30,15 +34,16 @@ const Props = {
         for (let i = 0; i < xs.length - 1; i += 2) {
             const k = xs[i];
             const v = xs[i + 1];
-            result[k] = v;
+            result[k] = dec(v);
         }
 
         return result;
     },
-    toString: (obj) => {
+    toString: (obj, shouldEncode = false) => {
         const result = [];
+        const enc = shouldEncode ? encodeURIComponent : (x) => x;
         for (const [k, v] of Object.entries(obj)) {
-            result.push(`${k}="${v}"`);
+            result.push(`${k}="${enc(v)}"`);
         }
         return result.join(' ');
     },
@@ -690,10 +695,10 @@ CMS.registerEditorComponent({
             name: 'images',
             label: 'Images',
             widget: 'list',
-            summary: '{{image}}',
+            summary: '{{alt}} -> {{src}}',
             fields: [
                 {
-                    label: 'Src',
+                    label: 'Image',
                     name: 'src',
                     widget: 'image',
                 },
@@ -739,10 +744,17 @@ CMS.registerEditorComponent({
         };
     },
     toBlock: function toBlock(obj) {
-        return '{{< gallery >}}\n' + 'HEY' + '\n{{< /gallery >}}';
+        const serializeImageShortcodes = (images) => {
+            return images
+                .map((x) => {
+                    return '{{< gallery-image ' + Props.toString(x) + ' >}}';
+                })
+                .join('\n');
+        };
+        return '{{< gallery >}}\n' + serializeImageShortcodes(obj.images) + '\n{{< /gallery >}}';
     },
     toPreview: (obj) => {
-        return '<h1>HEY</h1>';
+        return '<h1>Gallery</h1>';
     },
 });
 
