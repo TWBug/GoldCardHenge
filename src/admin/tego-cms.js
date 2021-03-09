@@ -717,7 +717,7 @@ CMS.registerEditorComponent({
                 {
                     label: 'Description',
                     name: 'description',
-                    widget: 'text',
+                    widget: 'string', // NOTE: For now, having newlines in the description would be troublesome
                     required: false,
                 },
             ],
