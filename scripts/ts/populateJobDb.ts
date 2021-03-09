@@ -147,7 +147,12 @@ const commands: { [k: string]: (xs: IYamlData[], ...args: any[]) => Promise<void
 
 if (require.main === module) {
     const [commandName, ...args] = process.argv.slice(2);
-    const cmd = commands[commandName || 'processJobLists'];
+    const cmd = commands[commandName];
+
+    if (!cmd) {
+        console.log('Viable commands are: ', Object.keys(commands));
+        process.exit(99);
+    }
 
     const filepath = path.resolve(__dirname, '../../data/job_lists.yaml');
     console.log(`[INFO] Reading URLs from YAML: ${filepath}`);
