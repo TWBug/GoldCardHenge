@@ -1,12 +1,9 @@
 import cheerio from 'cheerio';
 import got from 'got';
-import fs from 'fs';
 import assert from 'assert';
 import { __APP_INITIAL_REDUX_STATE__ } from '../types/cakeresume';
 import { IAdapter } from '../types/adapter';
-import yaml from 'js-yaml';
 import { getHeaders } from './utils';
-import querystring from 'querystring';
 
 type CakeAppState = typeof __APP_INITIAL_REDUX_STATE__;
 
@@ -38,32 +35,12 @@ export default class CakeResumeAdapter implements IAdapter {
         return $('title').text();
     }
 
-    async getPageCount() {
-        const $ = await this.getMarkup();
-        let xs = $('.ais-Pagination-item')
-            .map((_, x) => $(x).text().trim())
-            .get()
-            .map(Number)
-            .filter((x) => !isNaN(x));
-        return xs[xs.length - 1] || -1; // @note There should always be at least 1 page, so the default should never happen
-    }
-
     async getJobCount() {
         const data = await this.populateData();
         const result = data.jobSearch.jobResultsState.content;
         const total = result.nbHits;
         return total;
     }
-
-    // async getJobCount() {
-    //     const pageSize = 10; // This is just from looking at the page in a browser
-    //     const lastPage = await this.getPageCount();
-    //     let _ = new URL(this.url);
-    //     _.searchParams.set('page', String(lastPage));
-    //     const $ = await this.getMarkup(_.toString());
-    //     const n = $('job.well-list-item.well-list-item-link').get().length;
-    //     return (lastPage - 1) * pageSize + n;
-    // }
 
     async getRaw() {
         if (!this.raw) {

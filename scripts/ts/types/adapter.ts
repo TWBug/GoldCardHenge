@@ -68,9 +68,6 @@ export interface IAdapter {
     // might be much more data in this parsed output.
     getParsed(): Promise<any>;
 
-    // Get the number of pages of jobs for the associated URL
-    getPageCount(): Promise<number>;
-
     // Get the total number of jobs for a given search
     getJobCount(): Promise<number>;
 
