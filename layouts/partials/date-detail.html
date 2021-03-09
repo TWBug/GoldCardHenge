@@ -1,0 +1,5 @@
+{{ if eq .lang "zh" }}
+{{ dateFormat "2006年1月2日" .date }}
+{{ else }}
+{{ dateFormat "January 2, 2006" .date }}
+{{ end }}

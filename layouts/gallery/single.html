@@ -45,18 +45,30 @@
         <div class="container pb-12 sm:pb-24 px-12 lg:px-24">
             {{ partial "breadcrumb" . }}
             <div id="scroll" class="grid grid-cols-1 md:grid-cols-3 gap-12 xl:gap-24">
-                <div class="sm:col-span-2">
-                    {{ .Content }}
-                </div>
-                <aside>
-                    <div class="-mt-8">
-                        {{ partial "aside/all-tags" . }}
-                        {{ partial "aside/latest-faq" . }}
-                        {{ if eq .Params.chatbot true }}
-                        {{ partial "aside/timezone" . }}
-                        {{ end }}
-                        {{ partial "aside/apply-now" . }}
+                <div class="sm:col-span-2 pt-4">
+                    <div class="text-sm font-bold">
+                        {{ partial "date-detail" (dict "date" .Date "lang" .Site.Language.Lang ) }}
                     </div>
+                    <h1 class="relative text-5xl font-medium leading-tight mb-2 overflow-hidden">
+                        {{ .Title }}
+                    </h1>
+                    {{ .Content }}
+                    <div class="text-center border-t-2 border-dashed border-gray-600 pt-12 mt-12 -ml-2 -mr-2">
+                        {{ $gallery := .Site.GetPage "/gallery" }}
+                        <a href="{{ $gallery.RelPermalink }}" class="inline-flex items-center text-xl font-bold text-primary focus-primary p-1">
+                            {{ partial "icon" (dict "name" "angle-left" "size" "6") }}
+                            <span class="ml-2">
+                                {{ i18n "show_all_galleries" }}
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <aside class="-mt-8">
+                    {{ partial "aside/latest-galleries" . }}
+                    {{ if eq .Params.chatbot true }}
+                    {{ partial "aside/timezone" . }}
+                    {{ end }}
+                    {{ partial "aside/apply-now" . }}
                 </aside>
             </div>
         </div>

@@ -89,7 +89,6 @@ window.taGallery = function () {
         },
         setImage() {
             this.image.src = this.items[this.index].href;
-            this.image.alt = this.items[this.index].href;
             this.image.title = false;
             if (typeof this.items[this.index].dataset.title !== 'undefined') {
                 if (this.items[this.index].dataset.title !== '') {
@@ -100,6 +99,12 @@ window.taGallery = function () {
             if (typeof this.items[this.index].dataset.description !== 'undefined') {
                 if (this.items[this.index].dataset.description !== '') {
                     this.image.description = this.items[this.index].dataset.description;
+                }
+            }
+            this.image.alt = false;
+            if (typeof this.items[this.index].dataset.alt !== 'undefined') {
+                if (this.items[this.index].dataset.alt !== '') {
+                    this.image.alt = this.items[this.index].dataset.alt;
                 }
             }
         },

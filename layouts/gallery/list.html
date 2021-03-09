@@ -45,29 +45,82 @@
     <section>
       <div class="container pb-12 sm:pb-24 px-12 lg:px-24">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
-                <div class="lg:col-span-2 flex justify-start items-stretch">
-                    {{ range .RegularPages }}
-                    <div class="w-1/3 p-4">
-                        <a href="{{ .RelPermalink }}" class="relative block focus-primary rounded-md shadow-lg overflow-hidden">
-                            {{ $img := resources.Get .Params.cover_image }}
-                            {{ if $img }}
-                            {{ $img := $img.Fill "360x360" }}
-                            <img src="{{ $img.RelPermalink }}" alt="" class="w-full object-cover">
-                            {{ end }}
-                            <div class="absolute w-full left-0 bottom-0 p-4 bg-gray-900 bg-opacity-75 bg-blur-3 text-white font-semibold">
-                                {{ .Title }}
+                <div class="lg:col-span-2 -mt-8">
+                    {{ .Content }}
+                    <div class="flex flex-wrap justify-start items-stretch -ml-4 -mr-4 my-8">
+                        {{ $paginator := .Paginate (sort .RegularPages ".Params.date" "desc") 4 }}
+                        {{ range $index, $value := $paginator.Pages }}
+                            {{ $dirFile := path.Split .Params.cover_image }}
+                            {{ $alt := index (split $dirFile.File ".") 0 | humanize }}
+                            {{ if and (eq $index 0) (eq $paginator.PageNumber 1) }}
+                            <div class="w-full p-4">
+                                <a href="{{ .RelPermalink }}" class="relative block focus-primary rounded-md shadow-lg overflow-hidden">
+                                    {{ $img := resources.Get .Params.cover_image }}
+                                    {{ if $img }}
+                                    {{ $img := $img.Fill "700x500 Center" }}
+                                    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" class="w-full object-cover" loading="lazy">
+                                    {{ end }}
+                                    <div class="absolute w-full left-0 bottom-0 text-lg bg-black bg-opacity-50 bg-blur-3 text-white font-semibold p-4">
+                                        <div class="text-right text-sm mb-2">
+                                            {{ partial "date-detail" (dict "date" .Date "lang" .Site.Language.Lang ) }}
+                                        </div>
+                                        <div>
+                                            {{ .Title }}
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                            {{ else if and (eq $index 1) (eq $paginator.PageNumber 1) }}
+                            <div class="w-full p-4">
+                                <a href="{{ .RelPermalink }}" class="relative block focus-primary rounded-md shadow-lg overflow-hidden">
+                                    {{ $img := resources.Get .Params.cover_image }}
+                                    {{ if $img }}
+                                    {{ $img := $img.Fill "700x360 Center" }}
+                                    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" class="w-full object-cover" loading="lazy">
+                                    {{ end }}
+                                    <div class="absolute w-full left-0 bottom-0 text-lg bg-black bg-opacity-50 bg-blur-3 text-white font-semibold p-4">
+                                        <div class="text-right text-sm mb-2">
+                                            {{ partial "date-detail" (dict "date" .Date "lang" .Site.Language.Lang ) }}
+                                        </div>
+                                        <div>
+                                            {{ .Title }}
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            {{ else }}
+                            <div class="w-1/2 p-4">
+                                <a href="{{ .RelPermalink }}" class="relative block focus-primary rounded-md shadow-lg overflow-hidden">
+                                    {{ $img := resources.Get .Params.cover_image }}
+                                    {{ if $img }}
+                                    {{ $img := $img.Fill "360x360" }}
+                                    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" class="w-full object-cover" loading="lazy">
+                                    {{ end }}
+                                    <div class="absolute w-full left-0 bottom-0 text-md bg-black bg-opacity-50 bg-blur-3 text-white font-semibold p-4">
+                                        <div class="text-right text-xs mb-2">
+                                            {{ partial "date-detail" (dict "date" .Date "lang" .Site.Language.Lang ) }}
+                                        </div>
+                                        <div>
+                                            {{ .Title }}
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            {{ end }}
+                        {{ end }}
+
                     </div>
-                    {{ end }}
+
+                    {{ partial "pagination" . }}
+
                 </div>
-                <div class="-mt-12">
-                  {{ partial "aside/latest-article" . }}
+                <aside class="-mt-12">
+                  {{ partial "aside/latest-galleries" . }}
                   {{ if eq .Params.chatbot true }}
                   {{ partial "aside/timezone" . }}
                   {{ end }}
                   {{ partial "aside/apply-now" . }}
-                </div>
+                </aside>
             </div>
         </div>
     </section>

@@ -28,12 +28,18 @@
   translation: 'Night view of Taipei 101'
 - id: latest_news
   translation: 'Latest news'
+- id: latest_galleries
+  translation: 'Latest galleries'
 - id: reading_time
   translation: 'Reading time: %d minute(s)'
 - id: read_more
   translation: 'Read more'
 - id: show_answer
   translation: 'Show answer'
+- id: show_all_galleries
+  translation: 'Show all galleries'
+- id: gallery_image_no
+  translation: 'Image number '
 - id: hide_answer
   translation: 'Hide answer'
 - id: show_details
@@ -319,6 +325,8 @@
   translation: 'Nature'
 - id: transportation
   translation: 'Transportation'
+- id: youtube_video
+  translation: 'Youtube video'
   
 - id: per_year
   translation: 'per year'

@@ -1,17 +1,16 @@
 ---
-title: Test
+title: Test-06
 draft: false
 topic: resources
 media_image: null
 summary: Test - Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, culpa?
 media_image_alt: null
 layout: null
-date: 2020-11-05T07:09:20.617Z
+date: 2021-02-05T07:09:20.617Z
 cover_image: /cms-gallery/image-01.jpg
 cover_image_alt: asdkjalksdjakldj
 tags: null
 categories: null
-publishDate: 2020-11-05T07:09:20.617Z
 chatbot: false
 ---
 

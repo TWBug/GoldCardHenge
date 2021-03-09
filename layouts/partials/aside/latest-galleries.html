@@ -1,0 +1,35 @@
+{{ $galleries := first 3 (where (where .Site.RegularPages "Section" "gallery") "Permalink" "!=" .Page.Permalink).ByDate.Reverse }}
+
+{{ if $galleries }}
+<div class="my-12">
+    <div class="flex items-center border-b-2 border-secondary border-dashed px-2 pb-2">
+        {{ partial "icon" (dict "name" "images" "size" "5") }}
+        <h2 class="text-xl font-bold ml-2">{{ i18n "latest_galleries" }}</h2>
+    </div>
+    <div class="pl-2 pt-6">
+        {{ range $galleries }}
+        <div class="mb-6">
+            <div class="flex items-center text-xs text-secondary font-bold mb-2">
+                <div class="flex-shrink-0">
+                    {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
+                </div>
+                <span class="ml-2">
+                    {{ if eq .Site.Language.Lang "zh" }}
+                    {{ dateFormat "2006年1月2日" .Lastmod }}
+                    {{ else }}
+                    {{ dateFormat "January 2th 2006" .Lastmod }}
+                    {{ end }}
+                </span>
+            </div>
+            <a href="{{.RelPermalink}}" class="flex items-center font-bold text-primary text-base leading-snug -ml-3 mb-1 focus-primary">
+                <div class="flex-shrink-0">
+                    {{ partial "icon" (dict "name" "right" "size" "4") }}
+                </div>
+                <span class="pl-1">{{ .Title | truncate 60 }}</span>
+            </a>
+            <p class="text-xs font-medium leading-relaxed">{{ .Summary | truncate 120 }}</p>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
