@@ -32,4 +32,4 @@ badges:
 
 ---
 
-CRUISYS正在尋求強力的技術夥伴加入我們的行列，帶領技術團隊實踐各種技術可能、健全整體產品系統 依照商務需求提出技術解決方案 平衡技術實踐成本以及商務交付時程 設計並引領團隊實踐高可靠度、高延展性、易維護之系統架構 對於未知或者未實現過之技術進行可行性分析 解決系統問題並提出改善方案 CRUISYS is looking for a skillful technical architect / RD manager. You may lead the team to implement all product features and improve whole product architecture. Provide technical solution for business requirement Balance technical effort and business deliver schedule Design and lead the team to implement system architecture with high-availability, sc
+CRUISYS正在尋求強力的技術夥伴加入我們的行列，帶領技術團隊實踐各種技術可能、健全整體產品系統 依照商務需求提出技術���決方案 平衡技術實踐成本以及商務交付時程 設計並引領團隊實踐高可靠度、高延展性、易維護之系統架構 對於未知或者未實現過之技術進行可行性分析 解決系統問題並提出改善方案 CRUISYS is looking for a skillful technical architect / RD manager. You may lead the team to implement all product features and improve whole product architecture. Provide technical solution for business requirement Balance technical effort and business deliver schedule Design and lead the team to implement system architecture with high-availability, sc

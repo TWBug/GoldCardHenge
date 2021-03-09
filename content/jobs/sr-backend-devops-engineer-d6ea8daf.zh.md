@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '21568'
-title: Sr. Backend/DevOps Engineer 資深後端���程師
+title: Sr. Backend/DevOps Engineer 資深後端工程師
 job_url: >-
   https://www.cakeresume.com/companies/tomofun/jobs/sr-backend-devops-engineer-senior-backend-engineer
 date: 2020-07-15T03:31:21.370Z
