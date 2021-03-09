@@ -21,13 +21,13 @@ const Props = {
         // Turn string into a flat list of keys and values. Exmaple:
         // `title="How to apply" link="url.com" image="/file.jpg"`
         // => ["title", "How to apply", "link", "url.com", "image", "/file.jpg"]
-        const xs = s
+        const xs = str
             .split(/(.+?)="(.+?)"/) // NOTE: We count on double quotes, NOT single
             .filter(Boolean)
             .map((x) => x.trim());
 
         // NOTE: This is iteration by two. See structure of xs for reasoning
-        for (let i = 0; i < kvs.length - 1; i += 2) {
+        for (let i = 0; i < xs.length - 1; i += 2) {
             const k = xs[i];
             const v = xs[i + 1];
             result[k] = v;
@@ -273,10 +273,6 @@ CMS.registerWidget('max-length-string', MaxLengthString, NestedStringPreview, {
 
 /// Configure CMS
 //
-
-const comp = () => {
-    return <div>Hey there you</div>;
-};
 
 CMS.registerEditorComponent({
     id: 'quote',
@@ -684,6 +680,70 @@ CMS.registerEditorComponent({
         return `{{< color color="${obj.color || ''}" >}}\n${obj.body || ''}\n{{< /color >}}`;
     },
     toPreview: (obj) => <p className={`text-${obj.color}-700`}>{obj.body}</p>,
+});
+
+CMS.registerEditorComponent({
+    id: 'gallery',
+    label: 'Gallery 畫廊',
+    fields: [
+        {
+            name: 'images',
+            label: 'Images',
+            widget: 'list',
+            summary: '{{image}}',
+            fields: [
+                {
+                    label: 'Src',
+                    name: 'src',
+                    widget: 'image',
+                },
+                {
+                    label: 'Title',
+                    name: 'title',
+                    widget: 'string',
+                    required: false,
+                },
+                {
+                    label: 'Alt',
+                    name: 'alt',
+                    widget: 'string',
+                    required: false,
+                },
+                {
+                    label: 'Description',
+                    name: 'description',
+                    widget: 'text',
+                    required: false,
+                },
+            ],
+        },
+    ],
+    pattern: /^{{< gallery >}}\n([\s\S]+?)\n{{< \/gallery >}}/,
+    fromBlock: function fromBlock(match) {
+        const re = /^{{< gallery-image (.+)\s*>}}/; // @note Do NOT use the `g` flag while matching with regex. Will fail, JS quirk.
+        const fromGalleryImageShortcode = (s) => {
+            try {
+                const kwargs = s.match(re)[1];
+                return Props.fromString(kwargs);
+            } catch (err) {
+                console.warn('[WARN!] Unhandled inner gallery string', s);
+                return null;
+            }
+        };
+
+        const innerText = match[1];
+        const images = innerText.split('\n').map(fromGalleryImageShortcode).filter(Boolean);
+
+        return {
+            images,
+        };
+    },
+    toBlock: function toBlock(obj) {
+        return '{{< gallery >}}\n' + 'HEY' + '\n{{< /gallery >}}';
+    },
+    toPreview: (obj) => {
+        return '<h1>HEY</h1>';
+    },
 });
 
 CMS.registerEditorComponent({
