@@ -5,6 +5,8 @@ import assert from 'assert';
 import { __APP_INITIAL_REDUX_STATE__ } from '../types/cakeresume';
 import { IAdapter } from '../types/adapter';
 import yaml from 'js-yaml';
+import { getHeaders } from './utils';
+import querystring from 'querystring';
 
 type CakeAppState = typeof __APP_INITIAL_REDUX_STATE__;
 
@@ -13,11 +15,55 @@ export default class CakeResumeAdapter implements IAdapter {
     hostname: string;
     data: null | CakeAppState = null;
     raw: null | string = null;
+    $: null | cheerio.Root = null;
 
     constructor(url: string) {
         this.url = url;
         this.hostname = new URL(url).hostname;
     }
+
+    // Get the cheerio markup for a page. The url is an argument so that you can
+    // get the markup for separately paginated pages as well
+    async getMarkup(url = this.url) {
+        if (this.$) return this.$;
+
+        const res = await got(url, { headers: getHeaders(url) });
+        const $ = cheerio.load(res.body);
+        this.$ = $;
+        return $;
+    }
+
+    async getPageTitle() {
+        const $ = await this.getMarkup();
+        return $('title').text();
+    }
+
+    async getPageCount() {
+        const $ = await this.getMarkup();
+        let xs = $('.ais-Pagination-item')
+            .map((_, x) => $(x).text().trim())
+            .get()
+            .map(Number)
+            .filter((x) => !isNaN(x));
+        return xs[xs.length - 1] || -1; // @note There should always be at least 1 page, so the default should never happen
+    }
+
+    async getJobCount() {
+        const data = await this.populateData();
+        const result = data.jobSearch.jobResultsState.content;
+        const total = result.nbHits;
+        return total;
+    }
+
+    // async getJobCount() {
+    //     const pageSize = 10; // This is just from looking at the page in a browser
+    //     const lastPage = await this.getPageCount();
+    //     let _ = new URL(this.url);
+    //     _.searchParams.set('page', String(lastPage));
+    //     const $ = await this.getMarkup(_.toString());
+    //     const n = $('job.well-list-item.well-list-item-link').get().length;
+    //     return (lastPage - 1) * pageSize + n;
+    // }
 
     async getRaw() {
         if (!this.raw) {
@@ -33,9 +79,38 @@ export default class CakeResumeAdapter implements IAdapter {
         return this.data as CakeAppState;
     }
 
+    async populateData() {
+        if (this.data) return this.data;
+
+        const $ = await this.getMarkup();
+        const script = $('script').filter(
+            (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
+        );
+
+        assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
+
+        const raw = script.html();
+
+        assert(raw, 'No inline script source found');
+
+        const preJson = raw.slice(raw.indexOf('{')).replace(/undefined/g, 'null');
+        const data: CakeAppState = JSON.parse(preJson);
+
+        // @note It's very important we assign here.
+        // Get raw might be worth revisiting since it's quite ugly to have it
+        // operate with such side effects.
+        this.raw = raw;
+        this.data = data;
+
+        return data;
+    }
+
     async getJobs(options = {}) {
         console.info(`[FETCH] <- ${this.url}`);
-        const res = await got(this.url, options);
+        const res = await got(this.url, {
+            headers: getHeaders(this.url),
+            ...options,
+        });
         const $ = cheerio.load(res.body);
         const script = $('script').filter(
             (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
