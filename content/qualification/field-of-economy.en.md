@@ -32,6 +32,8 @@ topic: goldcard
 
 {{< /accordion >}}
 
+
+
 {{< accordion title="Those with professional technical capabilities related to key industry products, components or service models, have obtained a doctoral degree or above in related fields at a domestic or foreign university, and have either received an international invention/innovation award or have more than four years of work experience in related fields." suffix="3." bottomless="true" >}}
 
 -   One of the following documents to prove applicant’s professional technical capabilities related to key industry products, components or service models:
