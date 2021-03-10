@@ -692,6 +692,11 @@ CMS.registerEditorComponent({
     label: 'Gallery 畫廊',
     fields: [
         {
+            label: 'Teaser',
+            name: 'teaser',
+            widget: 'string',
+        },
+        {
             name: 'images',
             label: 'Images',
             widget: 'list',
@@ -723,7 +728,7 @@ CMS.registerEditorComponent({
             ],
         },
     ],
-    pattern: /^{{< gallery >}}\n([\s\S]+?)\n{{< \/gallery >}}/,
+    pattern: /^{{< gallery (.+?)\s?>}}\n([\s\S]+?)\n{{< \/gallery >}}/,
     fromBlock: function fromBlock(match) {
         const re = /^{{< gallery-image (.+)\s*>}}/; // @note Do NOT use the `g` flag while matching with regex. Will fail, JS quirk.
         const fromGalleryImageShortcode = (s) => {
@@ -736,7 +741,8 @@ CMS.registerEditorComponent({
             }
         };
 
-        const innerText = match[1];
+        const props = match[1];
+        const innerText = match[2];
         const images = innerText.split('\n').map(fromGalleryImageShortcode).filter(Boolean);
 
         return {
@@ -744,6 +750,7 @@ CMS.registerEditorComponent({
         };
     },
     toBlock: function toBlock(obj) {
+        const { title, images } = obj;
         const serializeImageShortcodes = (images) => {
             return images
                 .map((x) => {
@@ -751,7 +758,11 @@ CMS.registerEditorComponent({
                 })
                 .join('\n');
         };
-        return '{{< gallery >}}\n' + serializeImageShortcodes(obj.images) + '\n{{< /gallery >}}';
+        return (
+            `{{< gallery ${Props.toString({ title })} >}}\n` +
+            serializeImageShortcodes(images) +
+            '\n{{< /gallery >}}'
+        );
     },
     toPreview: (obj) => {
         return '<h1>Gallery</h1>';
