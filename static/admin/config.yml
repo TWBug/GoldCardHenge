@@ -1225,8 +1225,6 @@ collections:
 
     - name: 'taxonomies'
       label: 'Taxonomies 類別與標籤'
-      i18n:
-          structure: single_file
       editor:
           preview: false
       description: >
@@ -1234,37 +1232,37 @@ collections:
       files:
           - label: 'Tags 標籤'
             name: 'tag_data'
-            file: 'data/tags_en_zh.yaml'
-            i18n: true
+            file: 'data/tags.yaml'
+            i18n: false
             fields:
                 - label: 'Tags 標籤'
                   name: 'items'
                   widget: 'list'
                   summary: '{{fields.name}}'
-                  i18n: true
-                  field: { label: Tag 標籤, name: name, widget: string, i18n: true }
+                  i18n: false
+                  field: { label: Tag 標籤, name: name, widget: string, i18n: false }
           - label: 'Categories 類別'
             name: 'category_data'
-            file: 'data/categories_en_zh.yaml'
-            i18n: true
+            file: 'data/categories.yaml'
+            i18n: false
             fields:
                 - label: 'Categories'
                   name: 'items'
                   widget: 'list'
                   summary: '{{fields.name}}'
-                  i18n: true
-                  field: { label: Category 類別, name: name, widget: string, i18n: true }
+                  i18n: false
+                  field: { label: Category 類別, name: name, widget: string, i18n: false }
           - label: 'Topics 主題'
             name: 'topic_data'
-            file: 'data/topics_en_zh.yaml'
-            i18n: true
+            file: 'data/topics.yaml'
+            i18n: false
             fields:
                 - label: 'Topics'
                   name: 'items'
                   widget: 'list'
                   summary: '{{fields.name}}'
-                  i18n: true
-                  field: { label: Topic 主題, name: name, widget: string, i18n: true }
+                  i18n: false
+                  field: { label: Topic 主題, name: name, widget: string, i18n: false }
 
     # Configure the site. Menus for example
     - name: 'finder'
