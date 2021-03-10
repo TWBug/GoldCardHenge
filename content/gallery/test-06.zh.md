@@ -14,11 +14,9 @@ categories: null
 chatbot: false
 ---
 
-# ajgdskjagdjkagaskj dagsd
-
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto assumenda error accusantium ad, eos ullam dolores dolorum quo? Quos in, doloribus dolore optio similique sint ipsum, voluptate debitis, quod blanditiis nostrum! Veritatis temporibus, at consectetur praesentium dolorem sit suscipit quia, excepturi adipisci, laborum aut? Iusto ut consectetur ad aperiam reprehenderit, doloremque quis suscipit velit eius nemo animi dolorum, aspernatur odit harum veritatis voluptate vero eum perferendis perspiciatis necessitatibus ullam officia assumenda eaque. Veniam sit vel tenetur possimus dicta ratione mollitia culpa delectus officia quasi? Pariatur ducimus laboriosam corrupti asperiores tenetur rerum, possimus sit aut soluta debitis! Alias tempora natus voluptate impedit nesciunt. Libero quisquam corrupti nesciunt vitae? Odio dolore ratione consequatur eos quaerat quibusdam, asperiores magnam dolor? Impedit, at tenetur!
 
-{{< gallery >}}
+{{< gallery title="Headline for the gallery" >}}
 {{< gallery-image src="image-01.jpg" title="Lorem ipsum, dolor sit amet consectetur" description="Doloremque quis suscipit velit eius nemo animi dolorum, aspernatur odit harum veritatis voluptate vero eum perferendis perspiciatis" >}}
 {{< gallery-image src="image-02.jpg" >}}
 {{< gallery-image src="image-01.jpg" description="Voluptate vero eum perferendis perspiciatis">}}

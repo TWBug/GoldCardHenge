@@ -1,6 +1,10 @@
+{{ $title := .Page.Params.summary }}
+{{ with (.Get "title") }}
+{{ $title = . | plainify }}
+{{ end }}
 <div class="flex justify-start items-stretch flex-wrap my-8" x-data="taGallery()" x-init="init()">
     <div class="flex justify-start items-stretch flex-wrap -ml-2 -mr-2" :aria-hidden="modal ? 'true' : 'false'" x-ref="jdaskld">
-        <h2 class="sr-only">{{ .Page.Params.summary }}</h2>
+        <h2 class="sr-only">{{ $title }}</h2>
         {{ .Inner }}
     </div>
     <div class="fixed inset-0 z-50 flex-center bg-white bg-opacity-75 bg-blur-4" style="max-width: 100vw" :aria-hidden="modal ? 'false' : 'true'" aria-describedby="gallery_description" x-show="modal" role="dialog" aria-modal="true">

@@ -16,7 +16,7 @@ chatbot: false
 
 culpa delectus officia quasi? Pariatur ducimus laboriosam corrupti asperiores tenetur rerum, possimus sit aut soluta debitis! Alias tempora natus voluptate impedit nesciunt. Libero quisquam corrupti nesciunt vitae? Odio dolore ratione consequatur eos quaerat quibusdam, asperiores magnam dolor? Impedit, at tenetur!
 
-{{< gallery >}}
+{{< gallery title="Headline for the gallery" >}}
 {{< gallery-image src="image-01.jpg" title="Lorem ipsum, dolor sit amet consectetur" description="Doloremque quis suscipit velit eius nemo animi dolorum, aspernatur odit harum veritatis voluptate vero eum perferendis perspiciatis" >}}
 {{< gallery-image src="image-02.jpg" >}}
 {{< gallery-image src="image-01.jpg" alt="asldjakhsdkja gasd ahsgd" description="Voluptate vero eum perferendis perspiciatis">}}

@@ -49,9 +49,11 @@
                     <div class="text-sm font-bold">
                         {{ partial "date-detail" (dict "date" .Date "lang" .Site.Language.Lang ) }}
                     </div>
+                    {{ if eq (strings.Count "<h1" .Content) 0 }}
                     <h1 class="relative text-5xl font-medium leading-tight mb-2 overflow-hidden">
                         {{ .Title }}
                     </h1>
+                    {{ end }}
                     {{ .Content }}
                     <div class="text-center border-t-2 border-dashed border-gray-600 pt-12 mt-12 -ml-2 -mr-2">
                         {{ $gallery := .Site.GetPage "/gallery" }}
