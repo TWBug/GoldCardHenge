@@ -48,7 +48,6 @@
         <div class="container pb-12 sm:pb-24 px-12 lg:px-24">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
                 <div class="lg:col-span-2 pt-10">
-                  <div class="border-t-2 border-secondary border-dashed"></div>
                     {{ $paginator := .Paginate .Pages.ByDate.Reverse }}
                     {{ range $paginator.Pages }}
                     {{ partial "single-news" . }}
@@ -66,7 +65,7 @@
                 <div class="print:hidden -mt-12">
                     <aside>
                         {{ partial "aside/all-categories" . }}
-                        {{ if ne .Params.chatbot false }}
+                        {{ if eq .Params.chatbot true }}
                         {{ partial "aside/timezone" . }}
                         {{ end }}
                         {{ partial "aside/apply-now" . }}

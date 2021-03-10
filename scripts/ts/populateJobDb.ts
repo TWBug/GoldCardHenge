@@ -39,19 +39,8 @@ const getJobs = async (url: string) => {
 
     const adapter = getAdapter(url);
 
-    const headers = {
-        // @note This awesome user agent string is meant to not trigger any
-        // automated scrape prevention, but also inform the recipient of our
-        // presence should they decide to view their logs. They've already
-        // agreed to let us scrape their site, but who knows if htey utilize any
-        // intermediate scrape prevention software that they don't even know
-        // about. After all, they are a job board.
-        'User-Agent':
-            'Mozilla/5.0 (Macintosh) AppleWebKit/537 (KHTML, like Gecko) Chrome/88.TEGO.special Safari/537.TEGO.special',
-    };
-
     // This could throw, but We'll catch at a higher level
-    return await adapter.getJobs({ headers });
+    return await adapter.getJobs();
 };
 
 interface IYamlData {
@@ -59,15 +48,22 @@ interface IYamlData {
     url: string;
 }
 
-const main = async () => {
-    const filepath = path.resolve(__dirname, '../../data/job_lists.yaml');
-    console.log(`[INFO] Reading URLs from YAML: ${filepath}`);
-    const data = yaml.load(fs.readFileSync(filepath, { encoding: 'utf-8' }));
-    // @ts-ignore The yaml lib seems to have poor typing.
-    const urls: IYamlData[] = data?.items;
+const getStats = async (items: IYamlData[]) => {
+    return Promise.all(
+        items.map(async (x) => {
+            const adapter = getAdapter(x.url);
+            const jobCount = String(await adapter.getJobCount()).padStart(3, '0');
 
+            return `${jobCount}\t${x.label}\t${adapter.url}`;
+        })
+    )
+        .then((xs) => xs.sort().reverse().join('\n'))
+        .then(console.log);
+};
+
+const processJobLists = async (items: IYamlData[]) => {
     const result: IDBRowJob[][] = await Promise.all(
-        urls.map(({ label, url }) => {
+        items.map(({ label, url }) => {
             return getJobs(url)
                 .then((xs) => {
                     return xs.map((x) => ({ ...x, badges: [label] }));
@@ -144,8 +140,27 @@ const toMarkdownString = (x: IDBRowJob) => {
     return `---\n${fm}\n---\n\n${description}`;
 };
 
+const commands: { [k: string]: (xs: IYamlData[], ...args: any[]) => Promise<void> } = {
+    processJobLists,
+    getStats,
+};
+
 if (require.main === module) {
-    main().then(
+    const [commandName, ...args] = process.argv.slice(2);
+    const cmd = commands[commandName];
+
+    if (!cmd) {
+        console.log('Viable commands are: ', Object.keys(commands));
+        process.exit(99);
+    }
+
+    const filepath = path.resolve(__dirname, '../../data/job_lists.yaml');
+    console.log(`[INFO] Reading URLs from YAML: ${filepath}`);
+    const data = yaml.load(fs.readFileSync(filepath, { encoding: 'utf-8' }));
+    // @ts-ignore The yaml lib seems to have poor typing.
+    const items: IYamlData[] = data?.items;
+
+    cmd(items, ...args).then(
         () => {
             console.log('Done.');
         },

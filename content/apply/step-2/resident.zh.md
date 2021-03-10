@@ -8,6 +8,7 @@ order: 4
 topic: goldcard
 previous: /apply/step-2/your-data/
 next: /apply/step-2/profession/
+chatbot: true
 ---
 
 # 居留申請

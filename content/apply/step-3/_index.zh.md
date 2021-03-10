@@ -11,6 +11,7 @@ cover_image: /cms-uploads/icon-checklist.svg
 cover_image_alt: Icon with checklist application process
 previous: null
 next: /apply/step-3/supplementary-documents/
+chatbot: true
 ---
 {{< teaser >}}
 恭喜你完成線上申請！

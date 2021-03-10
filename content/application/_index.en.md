@@ -1,16 +1,17 @@
 ---
 media_image: null
 summary: Applying for the Taiwan Employment Gold Card is not difficult. We have
-  prepared a step-by-step guide to lead you through the process.
+  prepared a guide to lead you through the process.
 draft: false
 media_image_alt: null
 date: 2020-11-05T07:09:20.617Z
-title: One Page Application Process
 topic: goldcard
+chatbot: true
+title: One Page Application Process
 tags: null
-categories: null
 style: title
 cover_image: null
+categories: null
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: null
 ---
@@ -91,6 +92,7 @@ Payment and E-Mail Confirmation
 
 ![Fees for Overseas Applicants](/cms-uploads/goldcardfee-03.png "Holders of U.S. passports applying abroad: one-year validity, NT$6,460; two-year validity, NT$7,460; three-year validity, NT$8,460. Holders of foreign passports other than U.S. applying abroad: one-year validity, NT$3,700; two-year validity, NT$4,700; three-year validity, NT$5,700. Resident of Hong Kong or Macau: one-year to three-year validity, NT$3,100.")
 
+* Holders of valid Alien Resident Certificates or other Certificates functioning as alien resident certificates can apply for an Employment Gold Card: one-year validity, NT$1,500; two-year validity, NT$2,500;three-year validity, NT$3,500.
 * After completing the application, you will get a confirmation via e-mail from the platform. Your application has now entered the review process.
 * To check your application, log in to the portal, click "Application Progress Inquiry", and fill in your 12-digit application number. **The application fee is nonrefundable regardless of the results of your application.**
 

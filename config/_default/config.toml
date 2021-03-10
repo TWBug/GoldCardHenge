@@ -22,6 +22,9 @@ badge = "badges"
 [Params]
 loadFromCDN = "true"
 
+[permalinks]
+gallery = "/gallery/:year/:month/:slug/"
+
 [languages]
 
 [languages.en]

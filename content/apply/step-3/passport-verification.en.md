@@ -12,6 +12,7 @@ order: 2
 topic: goldcard
 previous: /apply/step-3/supplementary-documents/
 next: /apply/step-3/card-collection/
+chatbot: true
 ---
 # Passport verification
 

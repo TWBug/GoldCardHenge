@@ -156,6 +156,7 @@ module.exports = {
     plugins: [
         // require('@tailwindcss/typography'),
         require('@tailwindcss/ui'),
+        require('@tailwindcss/aspect-ratio'),
         require('@markusantonwolf/tailwind-css-plugin-filters'),
         require('@markusantonwolf/tailwind-css-plugin-custom-color-palette'),
         plugin(function ({ addUtilities }) {

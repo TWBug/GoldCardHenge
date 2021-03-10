@@ -685,9 +685,10 @@ collections:
           preview: false
       slug: '{{slug}}'
       preview_path: en/jobs/{{slug}}
-      i18n: true
-       # @todo The CMS simply does not respect this filter
-      filter: {field: "title", value: "Jobs"}
+      i18n:
+          true
+          # @todo The CMS simply does not respect this filter
+      filter: { field: 'title', value: 'Jobs' }
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
@@ -777,6 +778,75 @@ collections:
           #   multiple: true
           #   required: false
           #   i18n: duplicate
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'gallery'
+      label: 'Gallery 畫廊'
+      label_singular: Gallery
+      folder: 'content/gallery'
+      create: true
+      slug: '{{slug}}'
+      preview_path: en/gallery/{{slug}}
+      i18n: true
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Topic',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'resources',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - label: 'Tags'
+            name: 'tags'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'tag_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
+          - label: 'Categories'
+            name: 'categories'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'category_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'help-desk'
@@ -1155,8 +1225,6 @@ collections:
 
     - name: 'taxonomies'
       label: 'Taxonomies 類別與標籤'
-      i18n:
-          structure: single_file
       editor:
           preview: false
       description: >
@@ -1164,37 +1232,37 @@ collections:
       files:
           - label: 'Tags 標籤'
             name: 'tag_data'
-            file: 'data/tags_en_zh.yaml'
-            i18n: true
+            file: 'data/tags.yaml'
+            i18n: false
             fields:
                 - label: 'Tags 標籤'
                   name: 'items'
                   widget: 'list'
                   summary: '{{fields.name}}'
-                  i18n: true
-                  field: { label: Tag 標籤, name: name, widget: string, i18n: true }
+                  i18n: false
+                  field: { label: Tag 標籤, name: name, widget: string, i18n: false }
           - label: 'Categories 類別'
             name: 'category_data'
-            file: 'data/categories_en_zh.yaml'
-            i18n: true
+            file: 'data/categories.yaml'
+            i18n: false
             fields:
                 - label: 'Categories'
                   name: 'items'
                   widget: 'list'
                   summary: '{{fields.name}}'
-                  i18n: true
-                  field: { label: Category 類別, name: name, widget: string, i18n: true }
+                  i18n: false
+                  field: { label: Category 類別, name: name, widget: string, i18n: false }
           - label: 'Topics 主題'
             name: 'topic_data'
-            file: 'data/topics_en_zh.yaml'
-            i18n: true
+            file: 'data/topics.yaml'
+            i18n: false
             fields:
                 - label: 'Topics'
                   name: 'items'
                   widget: 'list'
                   summary: '{{fields.name}}'
-                  i18n: true
-                  field: { label: Topic 主題, name: name, widget: string, i18n: true }
+                  i18n: false
+                  field: { label: Topic 主題, name: name, widget: string, i18n: false }
 
     # Configure the site. Menus for example
     - name: 'finder'
@@ -1277,7 +1345,7 @@ collections:
                             i18n: true,
                         }
                       - { label: Notes, name: notes, widget: string, required: false, i18n: true }
-                        
+
     - name: 'jobs_config'
       label: 'Job Lists 求職列表'
       editor:

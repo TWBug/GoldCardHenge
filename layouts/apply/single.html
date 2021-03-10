@@ -37,6 +37,9 @@
                     {{ partial "apply/faq" . }}
                 </div>
                 <div class="print:hidden -mt-8">
+                    {{ if eq .Params.chatbot true }}
+                    {{ partial "aside/timezone" . }}
+                    {{ end }}
                     {{ partial "aside/checklist" . }}
                 </div>
             </div>

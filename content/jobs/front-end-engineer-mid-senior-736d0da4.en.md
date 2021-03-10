@@ -27,4 +27,4 @@ badges:
 
 ---
 
-Responsibilities: Build UIs of core web (for hand-held and desktop devices) and mobile apps, and development tools for both internal & external uses as part of an agile team. Extend the JavaScript architecture (React/Redux, and React Native). Write tests and constantly seek to improve code quality and reliability. Drive the quality standards within the development team by example, produce highly usable technical documentation as well as conduct code reviews. Take on critical and particularly cha
+Responsibilities: Build UIs of core web (for mobile and desktop devices) and development tools for both internal & external uses as part of an agile team. Extend the JavaScript architecture (e.g. React/Redux). Write tests and constantly seek to improve code quality and reliability. Drive the quality standards within the development team by example, produce highly usable technical documentation as well as conduct code reviews. Headcount: 3

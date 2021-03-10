@@ -7,9 +7,9 @@
 {{ end}}
 
 <div class="my-12">
-    <div class="flex items-baseline justify-between border-b-2 border-secondary text-secondary border-dashed px-2 pb-2">
-        <h2 class="text-xl font-bold">{{ i18n "check_list" }}</h2>
-        {{ partial "icon" (dict "name" "check-double" "size" "7") }}
+    <div class="flex items-center border-b-2 border-secondary border-dashed px-2 pb-2">
+        {{ partial "icon" (dict "name" "check-double" "size" "6") }}
+        <h2 class="text-xl font-bold ml-2">{{ i18n "check_list" }}</h2>
     </div>
     <p class="text-base font-medium pt-4 pl-2">
         {{ i18n "check_list_info" }}

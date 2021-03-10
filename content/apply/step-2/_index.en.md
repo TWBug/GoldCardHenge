@@ -11,6 +11,7 @@ cover_image: /cms-uploads/icon-checklist.svg
 cover_image_alt: Icon with checklist application process
 previous: /apply/step-1/
 next: /apply/step-2/registration/
+chatbot: true
 ---
 
 ![Gold Card Application Process](/cms-uploads/application-process.png)

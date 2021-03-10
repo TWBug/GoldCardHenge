@@ -1,0 +1,21 @@
+{{ $id := .Get "id" }}
+{{ $title := i18n "youtube_video" }}
+{{ with (.Get "title") }}
+{{ $title = . | plainify }}
+{{ end }}
+{{ if $id }}
+    {{ $id = print "https://www.youtube.com/embed/" $id "?cc_load_policy=1" }}
+    {{ if eq (.Get "size") "small" }}
+    <div class="w-2/3 flex-shrink-0">
+        <div class="h-full w-full p-2">
+            <iframe width="100%" height="100%" src="{{ $id }}" title="{{ $title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    {{ else }}
+    <div class="w-full flex-shrink-0 p-2">
+        <div class="aspect-w-16 aspect-h-9 bg-gray-800">
+            <iframe width="100%" height="100%" src="{{ $id }}" title="{{ $title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    {{ end }}
+{{ end }}

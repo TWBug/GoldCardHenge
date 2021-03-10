@@ -1,0 +1,128 @@
+{{ define "main" }}
+
+{{ $cover_image := "" }}
+{{ if .Params.cover_image }}
+{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ end }}
+
+<div class="relative shadow-xl">
+    {{ partial "navigation" . }}
+    {{ partial "alert" .  }}
+</div>
+
+<div class="relative flex items-center bg-background-light z-0 shadow-xl py-16">
+    <div
+    class="absolute top-0 inset-x-0 h-full bg-gradient-to-b from-gradient to-transparent opacity-25 -z-1"
+    ></div>
+    {{ if .Site.IsServer }}
+    <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">LIST TEMPLATE - GALLERY</div>
+    {{ end }}
+    <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
+        <img src="/img/list-mountains-light.svg" alt="" class="block w-full" aria-hidden="true">
+    </div>
+    <div class="container px-12 lg:px-24">
+        <div class="flex flex-col md:flex-row justify-between md:items-center lg:px-24">
+            {{ if $cover_image }}
+            <div class="flex-center w-1/2 md:w-1/4 mb-6">
+                <img src="{{ $cover_image.RelPermalink }}" class="w-full max-h-48  drop-shadow drop-shadow-xl drop-shadow-white" loading="lazy" alt="{{ .Page.Params.cover_image_alt }}" />
+            </div>
+            {{ end }}
+            <div class="replace w-full md:w-2/3">
+                {{ partial "breadcrumb" . }}
+                <h1 class="text-5xl leading-tight font-semibold my-2">
+                    {{ .Title | truncate 120 }}
+                </h1>
+                <p class="text-lg font-medium leading-relaxed">{{ .Summary | truncate 200 }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="scroll" class="relative flex-grow pt-16">
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-white -z-1"
+    ></div>
+    <section>
+      <div class="container pb-12 sm:pb-24 px-12 lg:px-24">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
+                <div class="lg:col-span-2 -mt-8">
+                    {{ .Content }}
+                    <div class="flex flex-wrap justify-start items-stretch -ml-4 -mr-4 my-8">
+                        {{ $paginator := .Paginate (sort .RegularPages ".Params.date" "desc") 4 }}
+                        {{ range $index, $value := $paginator.Pages }}
+                            {{ $dirFile := path.Split .Params.cover_image }}
+                            {{ $alt := index (split $dirFile.File ".") 0 | humanize }}
+                            {{ if and (eq $index 0) (eq $paginator.PageNumber 1) }}
+                            <div class="w-full p-4">
+                                <a href="{{ .RelPermalink }}" class="relative block focus-primary rounded-md shadow-lg overflow-hidden">
+                                    {{ $img := resources.Get .Params.cover_image }}
+                                    {{ if $img }}
+                                    {{ $img := $img.Fill "700x500 Center" }}
+                                    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" class="w-full object-cover" loading="lazy">
+                                    {{ end }}
+                                    <div class="absolute w-full left-0 bottom-0 text-lg bg-black bg-opacity-50 bg-blur-3 text-white font-semibold p-4">
+                                        <div class="text-right text-sm mb-2">
+                                            {{ partial "date-detail" (dict "date" .Date "lang" .Site.Language.Lang ) }}
+                                        </div>
+                                        <div>
+                                            {{ .Title }}
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            {{ else if and (eq $index 1) (eq $paginator.PageNumber 1) }}
+                            <div class="w-full p-4">
+                                <a href="{{ .RelPermalink }}" class="relative block focus-primary rounded-md shadow-lg overflow-hidden">
+                                    {{ $img := resources.Get .Params.cover_image }}
+                                    {{ if $img }}
+                                    {{ $img := $img.Fill "700x360 Center" }}
+                                    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" class="w-full object-cover" loading="lazy">
+                                    {{ end }}
+                                    <div class="absolute w-full left-0 bottom-0 text-lg bg-black bg-opacity-50 bg-blur-3 text-white font-semibold p-4">
+                                        <div class="text-right text-sm mb-2">
+                                            {{ partial "date-detail" (dict "date" .Date "lang" .Site.Language.Lang ) }}
+                                        </div>
+                                        <div>
+                                            {{ .Title }}
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            {{ else }}
+                            <div class="w-1/2 p-4">
+                                <a href="{{ .RelPermalink }}" class="relative block focus-primary rounded-md shadow-lg overflow-hidden">
+                                    {{ $img := resources.Get .Params.cover_image }}
+                                    {{ if $img }}
+                                    {{ $img := $img.Fill "360x360" }}
+                                    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" class="w-full object-cover" loading="lazy">
+                                    {{ end }}
+                                    <div class="absolute w-full left-0 bottom-0 text-md bg-black bg-opacity-50 bg-blur-3 text-white font-semibold p-4">
+                                        <div class="text-right text-xs mb-2">
+                                            {{ partial "date-detail" (dict "date" .Date "lang" .Site.Language.Lang ) }}
+                                        </div>
+                                        <div>
+                                            {{ .Title }}
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            {{ end }}
+                        {{ end }}
+
+                    </div>
+
+                    {{ partial "pagination" . }}
+
+                </div>
+                <aside class="-mt-12">
+                  {{ partial "aside/latest-galleries" . }}
+                  {{ if eq .Params.chatbot true }}
+                  {{ partial "aside/timezone" . }}
+                  {{ end }}
+                  {{ partial "aside/apply-now" . }}
+                </aside>
+            </div>
+        </div>
+    </section>
+</div>
+{{end}}

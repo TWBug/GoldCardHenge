@@ -9,6 +9,7 @@ order: 3
 topic: goldcard
 previous: /apply/step-2/new-applicant/
 next: /apply/step-2/resident/
+chatbot: true
 ---
 # Your Data
 

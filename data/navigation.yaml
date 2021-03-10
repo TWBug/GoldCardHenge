@@ -10,13 +10,13 @@ en:
         links:
           - name: About Gold Card
             link: /about
-          - name: Qualification
-            link: /qualification
-          - name: Step-by-Step Application
+          - name: Application Guide
             link: /apply
-          - name: One Page Application
+          - name: Application Information
             link: /application
-          - name: Gold Card Office
+          - name: About the Qualifications
+            link: /qualification
+          - name: About the Gold Card Office
             link: /gold-card-office
         items:
           - apply
@@ -47,7 +47,7 @@ en:
         image: cms-uploads/navigation-resources-header.jpg
         text: Looking for some more help? Here are some resources to browse through.
         links:
-          - name: Jobs
+          - name: Job Board
             link: /jobs
           - name: Help-Desk
             link: /help-desk/
@@ -102,7 +102,7 @@ zh:
         image: cms-uploads/navigation-resources-header.jpg
         text: 提供專人聯繫方式、更多關於就業金卡的可用資源。
         links:
-          - name: 工作
+          - name: 工作職缺
             link: /jobs
           - name: 聯繫我們
             link: /help-desk

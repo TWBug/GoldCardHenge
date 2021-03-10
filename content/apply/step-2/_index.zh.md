@@ -9,6 +9,7 @@ cover_image: /cms-uploads/icon-checklist.svg
 cover_image_alt: Icon with checklist application process
 previous: /apply/step-1/
 next: /apply/step-2/registration/
+chatbot: true
 ---
 ![就業金卡申請流程圖](/cms-uploads/流程圖-01.png)
 

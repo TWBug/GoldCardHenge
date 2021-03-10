@@ -15,30 +15,35 @@
 // format.
 
 const Props = {
-    fromString: (str) => {
+    // Given keyword args parse them into an object. This is (currently) for the
+    // inner arguments to a shortcode,
+    // Ex: `name="hey" title="wee"` => { name: "hey", title: "wee" }
+    fromString: (str, shouldDecode) => {
         const result = {};
+        const dec = shouldDecode ? decodeURIComponent : (x) => x;
 
         // Turn string into a flat list of keys and values. Exmaple:
         // `title="How to apply" link="url.com" image="/file.jpg"`
         // => ["title", "How to apply", "link", "url.com", "image", "/file.jpg"]
-        const xs = s
+        const xs = str
             .split(/(.+?)="(.+?)"/) // NOTE: We count on double quotes, NOT single
             .filter(Boolean)
             .map((x) => x.trim());
 
         // NOTE: This is iteration by two. See structure of xs for reasoning
-        for (let i = 0; i < kvs.length - 1; i += 2) {
+        for (let i = 0; i < xs.length - 1; i += 2) {
             const k = xs[i];
             const v = xs[i + 1];
-            result[k] = v;
+            result[k] = dec(v);
         }
 
         return result;
     },
-    toString: (obj) => {
+    toString: (obj, shouldEncode = false) => {
         const result = [];
+        const enc = shouldEncode ? encodeURIComponent : (x) => x;
         for (const [k, v] of Object.entries(obj)) {
-            result.push(`${k}="${v}"`);
+            result.push(`${k}="${enc(v)}"`);
         }
         return result.join(' ');
     },
@@ -274,10 +279,6 @@ CMS.registerWidget('max-length-string', MaxLengthString, NestedStringPreview, {
 /// Configure CMS
 //
 
-const comp = () => {
-    return <div>Hey there you</div>;
-};
-
 CMS.registerEditorComponent({
     id: 'quote',
     label: 'Quote',
@@ -346,7 +347,7 @@ CMS.registerEditorComponent({
         // this commit its actually displayed as a prefix in the output HTML.
         { name: 'suffix', label: 'Prefix 號碼', widget: 'nested-string', required: false },
         { name: 'bottomless', label: 'Bottomless 無底', widget: 'boolean', default: false },
-        { name: 'body', label: 'Inner Text 內容', widget: 'nested-string', textarea: true },
+        { name: 'body', label: 'Inner Text 內容', widget: 'markdown', textarea: true },
     ],
     pattern: /^{{< accordion title="(.+?)" suffix="(.+?)" bottomless="(.+?)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
     fromBlock: (match) => ({
@@ -684,6 +685,93 @@ CMS.registerEditorComponent({
         return `{{< color color="${obj.color || ''}" >}}\n${obj.body || ''}\n{{< /color >}}`;
     },
     toPreview: (obj) => <p className={`text-${obj.color}-700`}>{obj.body}</p>,
+});
+
+CMS.registerEditorComponent({
+    id: 'gallery',
+    label: 'Gallery 畫廊',
+    fields: [
+        {
+            label: 'Teaser',
+            name: 'teaser',
+            widget: 'string',
+            required: false,
+            default: '',
+        },
+        {
+            name: 'images',
+            label: 'Images',
+            widget: 'list',
+            summary: '{{alt}} -> {{src}}',
+            fields: [
+                {
+                    label: 'Image',
+                    name: 'src',
+                    widget: 'image',
+                },
+                {
+                    label: 'Title',
+                    name: 'title',
+                    widget: 'string',
+                    required: false,
+                },
+                {
+                    label: 'Alt',
+                    name: 'alt',
+                    widget: 'string',
+                    required: false,
+                },
+                {
+                    label: 'Description',
+                    name: 'description',
+                    widget: 'string', // NOTE: For now, having newlines in the description would be troublesome
+                    required: false,
+                },
+            ],
+        },
+    ],
+
+    pattern: /^{{< gallery (.*?)\s?>}}\n([\s\S]+?)\n{{< \/gallery >}}/,
+
+    fromBlock: function fromBlock(match) {
+        const re = /^{{< gallery-image (.+)\s*>}}/; // @note Do NOT use the `g` flag while matching with regex. Will fail, JS quirk.
+        const fromGalleryImageShortcode = (s) => {
+            try {
+                const kwargs = s.match(re)[1];
+                return Props.fromString(kwargs);
+            } catch (err) {
+                console.warn('[WARN!] Unhandled inner gallery string', s);
+                return null;
+            }
+        };
+
+        const props = Props.fromString(match[1] || '');
+        const innerText = match[2] || '';
+        const images = innerText.split('\n').map(fromGalleryImageShortcode).filter(Boolean);
+
+        return {
+            ...props,
+            images,
+        };
+    },
+    toBlock: function toBlock(obj) {
+        const { teaser, images = [] } = obj;
+        const serializeImageShortcodes = (images) => {
+            return images
+                .map((x) => {
+                    return '{{< gallery-image ' + Props.toString(x) + ' >}}';
+                })
+                .join('\n');
+        };
+        return (
+            `{{< gallery ${Props.toString({ teaser })} >}}\n` +
+            serializeImageShortcodes(images) +
+            '\n{{< /gallery >}}'
+        );
+    },
+    toPreview: (obj) => {
+        return '<h1>Gallery</h1>';
+    },
 });
 
 CMS.registerEditorComponent({

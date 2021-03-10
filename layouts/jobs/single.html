@@ -105,7 +105,7 @@
                     <aside>
                         {{ partial "aside/job-listings" . }}
                         {{ partial "aside/all-badges" . }}
-                        {{ if ne .Params.chatbot false }}
+                        {{ if eq .Params.chatbot true }}
                         {{ partial "aside/timezone" . }}
                         {{ end }}
                         {{ partial "aside/apply-now" . }}

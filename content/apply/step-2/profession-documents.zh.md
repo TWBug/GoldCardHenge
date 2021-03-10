@@ -9,6 +9,7 @@ order: 7
 topic: goldcard
 previous: /apply/step-2/resident/
 next: /apply/step-3/
+chatbot: true
 ---
 # 繳費與郵件通知
 

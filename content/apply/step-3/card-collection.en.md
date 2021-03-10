@@ -9,6 +9,7 @@ order: 3
 topic: goldcard
 previous: /apply/step-3/passport-verification/
 next: /apply/step-3/welcome-to-the-community/
+chatbot: true
 ---
 
 # Card Collection

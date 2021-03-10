@@ -28,12 +28,18 @@
   translation: '台北101的夜景'
 - id: latest_news
   translation: '最新消息'
+- id: latest_galleries
+  translation: '最新畫廊'
 - id: reading_time
   translation: '閱讀時間: %d 分鍾'
 - id: read_more
   translation: '了解更多'
 - id: show_answer
   translation: '顯示答案'
+- id: show_all_galleries
+  translation: '顯示所有畫廊'
+- id: gallery_image_no
+  translation: '圖片編號'
 - id: hide_answer
   translation: '隱藏答案'
 - id: show_details
@@ -317,6 +323,8 @@
   translation: '性質'
 - id: transportation
   translation: '運輸'
+- id: youtube_video
+  translation: 'YouTube視頻'
   
 - id: per_year
   translation: '每年'

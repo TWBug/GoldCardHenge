@@ -9,6 +9,7 @@ topic: goldcard
 media_image_alt: ""
 previous: "/apply/step-2/resident/"
 next: "/apply/step-2/upload-document/"
+chatbot: true
 ---
 
 # Profession
