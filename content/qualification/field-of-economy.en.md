@@ -36,34 +36,36 @@ topic: goldcard
 {{< /accordion >}}
 
 {{< accordion title="Those with professional technical capabilities related to key industry products, components or service models, have obtained a doctoral degree or above in related fields at a domestic or foreign university, and have either received an international invention/innovation award or have more than four years of work experience in related fields." suffix="3." bottomless="true" >}}
-
--   One of the following documents to prove applicant’s professional technical capabilities related to key industry products, components or service models:
+* One of the following documents to prove applicant’s professional technical capabilities related to key industry products, components or service models:
 
 1. Evidence proving a filed patent application has been obtained or lodged.
 2. Journal publications or public presentations (i.e. conferences or seminars) of research results.
 
--   Copy of doctoral diploma in relevant fields from foreign or domestic universities.
--   One of the following documents to prove applicant received an international invention/innovation award or have more than four years of work experience in related fields:
+* Copy of doctoral diploma in relevant fields from foreign or domestic universities.
+* One of the following documents to prove applicant received an international invention/innovation award or have more than four years of work experience in related fields:
 
 1. Copy of certification or verification of international invention awards.
 2. Proof of work experience for at least four years in relevant fields. Please attach all of the following documents:
-    - Verification of domestic or foreign work experience in a relevant field for four or more years.
-Notes:
- A. Verifying documents must consist of proof of service,or proof of resignation made out by the employing organization.
- B. When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least four years.
-   Corporation information during employment, job description (such as project experience, service experience, effectiveness after customer's introduction of solutions, etc.), documents verifying technology or other proof of expertise (such as domestic or foreign patent certificate, a technology transfer contract, academic works, licenses, documents verifying receipt of awards, etc.)
 
+   * Verification of domestic or foreign work experience in a relevant field for four or more years.
+
+     Notes:
+
+     1. Verifying documents must consist of proof of service,or proof of resignation made out by the employing organization.
+     2. When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least four years.
+   * Corporation information during employment, job description (such as project experience, service experience, effectiveness after customer's introduction of solutions, etc.), documents verifying technology or other proof of expertise (such as domestic or foreign patent certificate, a technology transfer contract, academic works, licenses, documents verifying receipt of awards, etc.)
 {{< /accordion >}}
 
 {{< accordion title="Those who have held a specialized or interdisciplinary positions at a semiconductors, optoelectronics, information and communication, electronic circuit design, biotechnology/medical materials, precision machinery, transportation, systems integration, consultancy, or green energy company in the manufacturing sector or related technology services sectors, and have more than eight years of work experience in related fields." suffix="4." bottomless="true" >}}
+* Proof of work experience of for at least eight years in relevant fields. Please attach all of the following documents:
 
--   Proof of work experience of for at least eight years in relevant fields. Please attach all of the following documents:
-    Verification of domestic or foreign work experience in a relevant field for eight or more years.
+  * Verification of domestic or foreign work experience in a relevant field for eight or more years.
+
     Notes:
-    A. Verifying documents must consist of proof of service, or proof of resignation made out by the employing organization.
-    B. When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least eight years.
-    Corporation information during employment, job description (such as project experience, service experience, effectiveness after customer's introduction of solutions, etc.), documents verifying technology or other proof of expertise (such as domestic or foreign patent certificate, a technology transfer contract, academic works, licenses, documents verifying receipt of awards, etc.)
 
+    1. Verifying documents must consist of proof of service, or proof of resignation made out by the employing organization.
+    2. When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least eight years.
+  * Corporation information during employment, job description (such as project experience, service experience, effectiveness after customer's introduction of solutions, etc.), documents verifying technology or other proof of expertise (such as domestic or foreign patent certificate, a technology transfer contract, academic works, licenses, documents verifying receipt of awards, etc.)
 {{< /accordion >}}
 
 {{< accordion title="Those who have been certified by the relevant central competent authority as specialized talents possessing professional capacity or transnational experience needed in Taiwan." suffix="5." bottomless="true" >}}
