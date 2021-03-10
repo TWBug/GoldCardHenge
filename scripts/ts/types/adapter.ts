@@ -67,6 +67,15 @@ export interface IAdapter {
     // getJobs method returns the standardized data required by the db, but there
     // might be much more data in this parsed output.
     getParsed(): Promise<any>;
+
+    // Get the total number of jobs for a given search
+    getJobCount(): Promise<number>;
+
+    // The title of the page
+    getPageTitle(): Promise<string>;
+
+    // The URL which will be scraped
+    url: string;
 }
 
 export interface IAdapterConstructor {

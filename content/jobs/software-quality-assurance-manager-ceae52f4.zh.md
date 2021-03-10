@@ -29,4 +29,4 @@ badges:
 
 ---
 
-About this Company An ambitious team based in the heart of Silicon Valley, aiming to build the best Customer Care Automation SaaS platform. Our AI-powered solution has won AI Breakthrough Award and is serving tens of millions of consumers for global brands. Responsibilities: ��� Lead QA team to collect and report key product performance metrics ● Lead QA team to coordinate with developers to perform software release operations of branch cut, candidate creation, testing, deployment to various envir
+About this Company An ambitious team based in the heart of Silicon Valley, aiming to build the best Customer Care Automation SaaS platform. Our AI-powered solution has won AI Breakthrough Award and is serving tens of millions of consumers for global brands. Responsibilities: ● Lead QA team to collect and report key product performance metrics ● Lead QA team to coordinate with developers to perform software release operations of branch cut, candidate creation, testing, deployment to various envir
