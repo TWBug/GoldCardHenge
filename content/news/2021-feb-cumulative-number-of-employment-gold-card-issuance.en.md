@@ -5,7 +5,7 @@ topic: eventsnews
 draft: false
 hidden: false
 categories:
-  - 公告
+  - Announcement
 style: right
 ---
 # 2,243 Gold Cards issued to date!
