@@ -1,16 +1,15 @@
 ---
 title: Field of Economy
 summary: Those with a most recent monthly salary of at least NT$160,000, or have
-    held a high-level operations or marketing position in an R&D center,
-    operations HQ, or transnational corporation, who possess important skills
-    required for a key product or service model, or who have held a specialist or
-    cross-field integrating position in a semiconductor, optoelectronics, ICT, or
-    other such enterprise.
+  held a high-level operations or marketing position in an R&D center,
+  operations HQ, or transnational corporation, who possess important skills
+  required for a key product or service model, or who have held a specialist or
+  cross-field integrating position in a semiconductor, optoelectronics, ICT, or
+  other such enterprise.
 draft: false
 icon: /cms-uploads/icon-economy.svg
 topic: goldcard
 ---
-
 # Foreign special professionals with specialized knowledge/skills in economic fields
 
 ## Must meet **ONE** of the following conditions:
@@ -32,7 +31,7 @@ topic: goldcard
 2. Authorization letter of domestic and foreign enterprises’plan to establish research & development centers in Taiwan.
 3. Any other documents which verify it as a transnational enterprise*(interpreted by the Ministry of Labor per Order Lao-Zhi-Guan-Tzu No. 1010504602 on April 9th, 2012).*
 
--       Verification of service, or  verification of resignation made out by the employing organization to indicate the applicant who have held the position of operations, technical or marketing executive.
+-   Verification of service, or  verification of resignation made out by the employing organization to indicate the applicant who have held the position of operations, technical or marketing executive.
 
 {{< /accordion >}}
 
