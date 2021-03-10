@@ -5,6 +5,7 @@ window.taGallery = function () {
         image: {},
         items: [],
         index: 0,
+        active_element: false,
         options: {
             id: '',
             item: 'ta-gallery-item',
@@ -46,7 +47,10 @@ window.taGallery = function () {
                 });
             }
 
-            this.$el.addEventListener('keyup', (event) => {
+            window.addEventListener('keyup', (event) => {
+                if (this.modal === false) {
+                    return;
+                }
                 if (event.key === 'Escape') {
                     this.hideModal();
                     return;
@@ -57,23 +61,31 @@ window.taGallery = function () {
                     this.previous();
                     return;
                 }
-                event.preventDefault();
             });
         },
         showModal(index) {
             this.index = index;
             this.setImage();
             this.modal = true;
+            this.active_element = document.activeElement;
+            setTimeout(() => {
+                this.$refs['focus'].focus();
+            }, 100);
         },
         toggleModal() {
-            this.modal = !this.modal;
+            if (this.modal === true) {
+                this.hideModal();
+                return;
+            }
+            this.showModal();
         },
         hideModal() {
             this.modal = false;
+            this.active_element.focus();
         },
         next() {
             var next_index = this.index + 1;
-            if (next_index > this.items.length -1) {
+            if (next_index > this.items.length - 1) {
                 next_index = 0;
             }
             this.index = next_index;
