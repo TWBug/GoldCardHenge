@@ -47,7 +47,9 @@ topic: goldcard
 1. Copy of certification or verification of international invention awards.
 2. Proof of work experience for at least four years in relevant fields. Please attach all of the following documents:
 
-Verification of domestic or foreign work experience in a relevant field for four or more years.
+
+
+* * Verification of domestic or foreign work experience in a relevant field for four or more years.
 
 Notes:
 
