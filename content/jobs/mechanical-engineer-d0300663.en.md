@@ -18,7 +18,7 @@ salary_type: per_year
 salary_min: 650000
 salary_max: 1000000
 location_list:
-  - 內湖區
+  - 台北市大同區
 job_tags: []
 badges:
   - Industrial Engineer
