@@ -5,6 +5,8 @@ date: 2021-02-08T05:00:31.524Z
 topic: eventsnews
 draft: false
 hidden: false
+tags:
+  - Renewal & Validity
 categories:
   - 就業金卡政策
 style: right
