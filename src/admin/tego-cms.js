@@ -347,7 +347,7 @@ CMS.registerEditorComponent({
         // this commit its actually displayed as a prefix in the output HTML.
         { name: 'suffix', label: 'Prefix 號碼', widget: 'nested-string', required: false },
         { name: 'bottomless', label: 'Bottomless 無底', widget: 'boolean', default: false },
-        { name: 'body', label: 'Inner Text 內容', widget: 'nested-string', textarea: true },
+        { name: 'body', label: 'Inner Text 內容', widget: 'markdown', textarea: true },
     ],
     pattern: /^{{< accordion title="(.+?)" suffix="(.+?)" bottomless="(.+?)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
     fromBlock: (match) => ({
@@ -745,7 +745,7 @@ CMS.registerEditorComponent({
             }
         };
 
-        const props = Props.fromString(match[1]);
+        const props = Props.fromString(match[1] || '');
         const innerText = match[2] || '';
         const images = innerText.split('\n').map(fromGalleryImageShortcode).filter(Boolean);
 
