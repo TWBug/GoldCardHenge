@@ -28,10 +28,7 @@ topic: goldcard
 2. Authorization letter of domestic and foreign enterprises’plan to establish research & development centers in Taiwan.
 3. Any other documents which verify it as a transnational enterprise*(interpreted by the Ministry of Labor per Order Lao-Zhi-Guan-Tzu No. 1010504602 on April 9th, 2012).*
 
--   One of the following documents to indicate the applicant who have held the position of operations, technical or marketing executive:
-
-1. The contract which indicated the applicant’s position is operations, technical or marketing executive.
-2. Evidence such as proving the applicant’s managerial position in advanced operation, technology or marketing departments at the employing company.
+-     Verification of service, or  verification of resignation made out by the employing organization to indicate the applicant who have held the position of operations, technical or marketing executive.
 
 {{< /accordion >}}
 
