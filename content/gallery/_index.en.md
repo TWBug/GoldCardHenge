@@ -13,7 +13,6 @@ tags: null
 categories: null
 publishDate: 2020-11-05T07:09:20.617Z
 ---
+## Event Photos
 
-## adsagsdgahjsdgasd
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cum voluptatum corporis ullam rerum accusantium, minus magni deserunt perspiciatis suscipit?
+Interested in upcoming Gold Card events? Check out some of our previous event photos!
