@@ -263,7 +263,7 @@
 - id: button_goto_to_top
   translation: 'Scrolls up to the top'
 - id: only_gold_card
-  translation: 'Only Gold Card Members'
+  translation: 'Gold Card Holders Only'
 
 - id: undefined
   translation: 'UNDEFINED'
