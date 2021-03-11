@@ -258,6 +258,8 @@
   translation: '轉到頂部'
 - id: button_goto_to_top
   translation: '向上滾動到頂部'
+- id: only_gold_card
+  translation: '僅限金卡持卡人'
 
 - id: undefined
   translation: 'UNDEFINED'
