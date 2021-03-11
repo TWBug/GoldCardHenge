@@ -9,6 +9,7 @@ cover_image_alt: Basic Tax Workshop
 media_image: /cms-uploads/basic-tax-workshop.png
 media_image_alt: Basic Tax Workshop
 draft: false
+only_gold_card: true
 hidden: false
 ---
 By popular request, the Taiwan Employment Gold Card office will be holding a Basic Tax Workshop for all Gold Card Holders! Every foreigner's tax situation is different, but we believe that there are certain things that every person must know. At this workshop, we will be covering 2 basic topics:
