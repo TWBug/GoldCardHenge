@@ -666,6 +666,14 @@ collections:
                 i18n: duplicate,
             }
           - {
+                label: 'Only for Gold-Card-Holders',
+                name: 'only_gold_card',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
                 label: 'Hidden',
                 name: 'hidden',
                 widget: 'boolean',
