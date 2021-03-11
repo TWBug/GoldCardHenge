@@ -148,6 +148,8 @@
   translation: '重置搜索'
 - id: placeholder_search
   translation: '搜索'
+- id: title_search
+  translation: '開啟搜尋視窗'
 - id: how_to_apply
   translation: '想要申請嗎'
 - id: how_to_apply_copy

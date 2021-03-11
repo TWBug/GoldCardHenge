@@ -150,6 +150,8 @@
   translation: 'Reset search'
 - id: placeholder_search
   translation: 'Search'
+- id: title_search
+  translation: 'Open search window'
 - id: how_to_apply
   translation: 'How to apply'
 - id: how_to_apply_copy
