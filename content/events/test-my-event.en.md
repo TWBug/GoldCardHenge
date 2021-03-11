@@ -9,6 +9,7 @@ cover_image_alt: What Resources are Available to You?
 media_image: /cms-uploads/11_02-event-banner-final.png
 media_image_alt: What Resources are Available to You?
 tags: null
+only_gold_card: true
 hidden: false
 category: null
 ---
