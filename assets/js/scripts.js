@@ -36,18 +36,7 @@ window.highlight = {
       this.replaceInDocument(this.wrapper[index], /金卡/g, '<span class="font-bold">金卡</span>');
     }
 
-    this.wrapper = this.wrapper[0]; // this.replaceInDocument(
-    //     /Taiwan Gold Card/g,
-    //     '<span class="font-bold text-black">Taiwan <span class="highlight">Gold Card</span></span>'
-    // )
-    // this.replaceInDocument(
-    //     /Gold Card/g,
-    //     '<span class="tinline-block bg-highlight text-black rounded-md px-2">Gold Card</span>'
-    // )
-    // this.replaceInDocument(
-    //     /Gold-Card/g,
-    //     '<span class="inline-block bg-highlight text-black rounded-md px-2">Gold Card</span>'
-    // )
+    this.wrapper = this.wrapper[0];
   },
   replaceInDocument: function replaceInDocument(wrapper, pattern, string) {
     [wrapper].concat(_toConsumableArray(wrapper.querySelectorAll('*:not(script):not(noscript):not(style)'))).forEach(function (_ref) {
@@ -102,7 +91,6 @@ window.languageDetection = {
     } else {
       this.language = this.getBrowserLanguage();
     } // if not redirect to a valid and checked destination
-    // var path = location.pathname
 
 
     var old_language = location.pathname.substring(1, 3);
@@ -155,8 +143,7 @@ window.languageDetection = {
     }
 
     var location_path_name = location.pathname.substr(3);
-    var location_new = location.origin + '/' + this.language + location_path_name; // var new_location = location.pathname.substring(1, 3).replace(old_language, this.language) + location.pathname.substring(location.pathname.length - 3)
-    // var new_href = location.origin + new_location
+    var location_new = location.origin + '/' + this.language + location_path_name;
 
     if (this.checkDestination(location_new) === true) {
       window.location.href = location_new;
@@ -229,14 +216,6 @@ window.linksTargetBlank = {
     });
   }
 };
-// window.addEventListener('scroll', handleParallaxScrolling)
-// function handleParallaxScrolling() {
-//   const test = document.getElementById('test')
-//   test.style.top = (window.scrollY / 2) + 'px'
-//   console.info('test', test.getBoundingClientRect().top);
-//   console.info("scrolly", window.scrollY);
-// }
-"use strict";
 "use strict";
 
 function handleResize() {
@@ -283,7 +262,7 @@ function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o =
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
 function smoothScroll() {
-  var links = document.querySelectorAll(".copy a[href^='#']"); // const links = document.querySelectorAll("#tableofcontents a[href^='#'], .copy a[href^='#']")
+  var links = document.querySelectorAll(".copy a[href^='#']");
 
   var _iterator = _createForOfIteratorHelper(links),
       _step;
@@ -293,11 +272,7 @@ function smoothScroll() {
       var link = _step.value;
       link.addEventListener('click', function (e) {
         e.preventDefault();
-        var href = e.target.getAttribute('href'); // fix for leading numbers
-        // if ( !isNaN(href.substring(1,2))  ) {
-        //     href = '#\\3' + href.substr(1)
-        // }
-
+        var href = e.target.getAttribute('href');
         href = "[id=\"".concat(href.substr(1), "\"]");
         var scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');
         scrollNavHeight = parseInt(scrollNavHeight.substring(0, scrollNavHeight.indexOf('px')));
@@ -2461,18 +2436,7 @@ window.taAccordion = function () {
 
           _this.title = _this.options.titleShow;
         });
-      } // if (typeof this.$store === 'undefined') {
-      //     return false;
-      // }
-      // if (typeof this.$store.filter === 'undefined') {
-      //     return false;
-      // }
-      // const id = this.$el.id;
-      // this.$store.filter.faqs[id] = {
-      //     active: true,
-      //     tags: tags,
-      // };
-
+      }
 
       this.options.shortcut = this.options.shortcut == 'true' ? true : false;
 
@@ -2495,9 +2459,7 @@ window.taAccordion = function () {
       }
     },
     toggle: function toggle() {
-      this.show = !this.show; // if (document.activeElement === this.$refs.button) {
-      //     this.link = this.$refs.link.value;
-      // }
+      this.show = !this.show;
     }
   };
 };
@@ -2666,87 +2628,8 @@ window.taToTop = function () {
 };
 "use strict";
 
-var TxtRotate = function TxtRotate(el, toRotate, period) {
-  this.toRotate = toRotate;
-  this.el = el;
-  this.loopNum = 0;
-  this.period = parseInt(period, 10) || 2000;
-  this.txt = "";
-  this.tick();
-  this.isDeleting = false;
-};
-
-TxtRotate.prototype.tick = function () {
-  var i = this.loopNum % this.toRotate.length;
-  var fullTxt = this.toRotate[i];
-
-  if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
-  } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
-  }
-
-  this.el.innerHTML = this.txt;
-  var that = this;
-  var delta = 100 - Math.random() * 100;
-
-  if (this.isDeleting) {
-    delta /= 2;
-  }
-
-  if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
-  } else if (this.isDeleting && this.txt === "") {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
-  }
-
-  setTimeout(function () {
-    that.tick();
-  }, delta);
-};
-
-window.onload = function () {
-  var elements = document.getElementsByClassName("typing");
-
-  for (var i = 0; i < elements.length; i++) {
-    var toRotate = elements[i].getAttribute("data-rotate");
-    var period = elements[i].getAttribute("data-period");
-
-    if (toRotate) {
-      new TxtRotate(elements[i], JSON.parse(toRotate), period);
-    }
-  }
-};
-"use strict";
-
-// Spruce.store(
-//     'filter',
-//     {
-//         faqs: {},
-//         empty: false,
-//         log() {
-//             console.info('filter:faqs', this.faqs);
-//         },
-//     },
-//     false
-// );
-// Spruce.store(
-//     'search',
-//     {
-//         show: false,
-//         log() {
-//             console.info('search:show', this.show);
-//         },
-//     },
-//     false
-// );
-// Spruce.watch('search.show', value => console.log('Spruce.watch', value))
 window.languageDetection.init();
 window.highlight.replace();
-window.linksTargetBlank.replace(); // window.addEventListener('resize', handleResize);
-
+window.linksTargetBlank.replace();
 handleResize();
 smoothScroll();

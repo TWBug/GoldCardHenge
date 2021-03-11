@@ -30,18 +30,6 @@ window.taAccordion = function () {
                 });
             }
 
-            // if (typeof this.$store === 'undefined') {
-            //     return false;
-            // }
-            // if (typeof this.$store.filter === 'undefined') {
-            //     return false;
-            // }
-            // const id = this.$el.id;
-            // this.$store.filter.faqs[id] = {
-            //     active: true,
-            //     tags: tags,
-            // };
-
             this.options.shortcut = this.options.shortcut == 'true' ? true : false;
             if (this.options.shortcut === true) {
                 this.$el.addEventListener('keydown', (key) => {
@@ -62,9 +50,6 @@ window.taAccordion = function () {
         },
         toggle() {
             this.show = !this.show;
-            // if (document.activeElement === this.$refs.button) {
-            //     this.link = this.$refs.link.value;
-            // }
         },
     };
 };
