@@ -9,6 +9,7 @@ cover_image_alt: Navigating Taiwan's Job Market
 media_image: /cms-uploads/navigating-taiwan-s-job-market.png
 media_image_alt: Navigating Taiwan's Job Market
 draft: false
+only_gold_card: true
 hidden: false
 ---
 Building a life in a new country is challenging to say the least. Throw in job hunting and the difficulty increases! Don't fret! The Gold Card Office has invited special guest speaker Alan McIvor, Practice Leader at Paul Wright Group, to share his experience and shed some light on navigating the job market in Taiwan. 
