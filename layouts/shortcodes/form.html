@@ -41,7 +41,7 @@
 
             <div class="w-full lg:w-2/3 relative border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 p-2 mb-6 focus-primary">
                 <label for="name" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_name"}}</label>
-                <input type="text" name="name" id="name" x-model="form.name" placeholder="{{ i18n "form_fields_name_placeholder" }}" class="w-full text-lg font-medium bg-transparent px-2 pt-5 pb-1" :aria-invalid="error.name ? 'true' : 'false'" :aria-describedby="error.name ? 'nameHint' : false" aria-controls="message">
+                <input type="text" name="name" id="name" x-model="form.name" title="{{ i18n "form_fields_name_placeholder" }}" placeholder="{{ i18n "form_fields_name_placeholder" }}" class="w-full text-lg font-medium bg-transparent px-2 pt-5 pb-1" :aria-invalid="error.name ? 'true' : 'false'" :aria-describedby="error.name ? 'nameHint' : false" aria-controls="message">
                 <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.name" id="nameHint" x-cloak>
                     {{ i18n "form_fields_name_error"}}
                 </div>
@@ -49,7 +49,7 @@
 
             <div class="w-full lg:w-2/3 relative border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 p-2 mb-6 focus-primary">
                 <label for="email" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_email_name"}}</label>
-                <input type="text" name="email" id="email" x-model="form.email" placeholder="{{ i18n "form_fields_email_placeholder" }}" class="w-full text-lg font-medium bg-transparent px-2 pt-5 pb-1" :aria-invalid="error.email ? 'true' : 'false'" :aria-describedby="error.email ? 'emailHint' : false" aria-controls="message">
+                <input type="text" name="email" id="email" x-model="form.email" title="{{ i18n "form_fields_email_placeholder" }}" placeholder="{{ i18n "form_fields_email_placeholder" }}" class="w-full text-lg font-medium bg-transparent px-2 pt-5 pb-1" :aria-invalid="error.email ? 'true' : 'false'" :aria-describedby="error.email ? 'emailHint' : false" aria-controls="message">
                 <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.email" id="emailHint" x-cloak>
                     {{ i18n "form_fields_email_error"}}
                 </div>
@@ -57,7 +57,7 @@
 
             <div class="w-full relative border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 p-2 mb-6 focus-primary">
                 <label for="subject" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_subject_name" }}</label>
-                <input type="text" name="subject" id="subject" x-model="form.subject" placeholder="{{ i18n "form_fields_subject_placeholder" }}" class="w-full text-lg bg-transparent font-medium px-2 pt-5 pb-1" :aria-invalid="error.subject ? 'true' : 'false'" :aria-describedby="error.subject ? 'subjectHint' : false" aria-controls="message">
+                <input type="text" name="subject" id="subject" x-model="form.subject" title="{{ i18n "form_fields_subject_placeholder" }}" placeholder="{{ i18n "form_fields_subject_placeholder" }}" class="w-full text-lg bg-transparent font-medium px-2 pt-5 pb-1" :aria-invalid="error.subject ? 'true' : 'false'" :aria-describedby="error.subject ? 'subjectHint' : false" aria-controls="message">
                 <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.subject" id="subjectHint" x-cloak>
                     {{ i18n "form_fields_subject_error" }}
                 </div>
@@ -65,14 +65,14 @@
 
             <div class="w-full relative border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 p-2 mb-6 focus-primary">
                 <label for="description" class="absolute top-3 left-4 font-semibold text-xs text-gray-900">{{ i18n "form_fields_description_name" }}</label>
-                <textarea name="description" id="description" x-model="form.description" cols="30" rows="10" placeholder="{{ i18n "form_fields_description_placeholder" }}" class="w-full text-lg font-medium bg-transparent px-2 pt-5 pb-1" :aria-invalid="error.description ? 'true' : 'false'" :aria-describedby="error.description ? 'descriptionHint' : false" aria-controls="message"></textarea>
+                <textarea name="description" id="description" x-model="form.description" title="{{ i18n "form_fields_description_placeholder" }}" cols="30" rows="10" placeholder="{{ i18n "form_fields_description_placeholder" }}" class="w-full text-lg font-medium bg-transparent px-2 pt-5 pb-1" :aria-invalid="error.description ? 'true' : 'false'" :aria-describedby="error.description ? 'descriptionHint' : false" aria-controls="message"></textarea>
                 <div class="absolute right-2 top-1 text-xs text-red-800 font-semibold px-2" x-show="error.description" id="descriptionHint" x-cloak>
                     {{ i18n "form_fields_description_error" }}
                 </div>
             </div>
 
             <div class="flex-center" class="my-6">
-                <button type="submit" class="inline-flex items-center bg-primary text-white rounded font-bold text-lg px-6 py-3 focus-primary disabled:cursor-default disabled:bg-gray-500" :disabled="loading">
+                <button type="submit" title="{{ i18n "title_submit" }}" class="inline-flex items-center bg-primary text-white rounded font-bold text-lg px-6 py-3 focus-primary disabled:cursor-default disabled:bg-gray-500" :disabled="loading">
                     {{ partial "icon" (dict "name" "check" "size" "6") }}
                     <span class="ml-2">
                         {{ i18n "form_fields_submit" }}

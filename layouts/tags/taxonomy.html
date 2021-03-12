@@ -91,7 +91,7 @@
                                     </span>
                                     {{ partial "icon" (dict "name" "filter" "size" "4" "alt" false ) }}
                                 </label>
-                                <input type="text" id="filter" x-ref="input" class="flex-grow placeholder-gray-400 text-lg font-medium px-4 py-4" placeholder="{{ i18n "placeholder_filter_faq_list" }}" x-model.debounce.250="filter" x-show="initialized" aria-controls="faqs">
+                                <input type="text" id="filter" x-ref="input" title="{{ i18n "placeholder_filter_faq_list" }}" class="flex-grow placeholder-gray-400 text-lg font-medium px-4 py-4" placeholder="{{ i18n "placeholder_filter_faq_list" }}" x-model.debounce.250="filter" x-show="initialized" aria-controls="faqs">
                                 <div class="flex-grow text-gray-700 text-lg font-medium px-4 py-4" x-show="!initialized" x-cloak>
                                     {{ i18n "loading_filter" }}
                                 </div>
