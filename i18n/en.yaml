@@ -152,6 +152,8 @@
   translation: 'Search'
 - id: title_search
   translation: 'Search inside of the Taiwan Employment Gold Card Office website'
+- id: title_submit
+  translation: 'Submit new help desk support ticket'
 - id: how_to_apply
   translation: 'How to apply'
 - id: how_to_apply_copy

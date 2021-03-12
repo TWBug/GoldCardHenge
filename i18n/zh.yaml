@@ -150,6 +150,8 @@
   translation: '搜索'
 - id: title_search
   translation: '在台灣就業金卡辦事處網站內搜索'
+- id: title_submit
+  translation: '提交新的服務台支持票'
 - id: how_to_apply
   translation: '想要申請嗎'
 - id: how_to_apply_copy
