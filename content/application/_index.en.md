@@ -101,6 +101,8 @@ Payment and E-Mail Confirmation
 {{< teaser >}}
 For overseas applications, or if you have entered Taiwan but have a visa with a limited stay period and cannot be extended or visa-free, your passport will have to be inspected by the Bureau of Consular Affairs or an ROC overseas mission/office.
 
+**Hong Kong/Macao applicants are not required to have their passport inspected by the Bureau of Consular Affairs or an ROC overseas mission/office.**
+
 {{< /teaser >}}
 
 * When your application is approved and has passed the qualification review, you will receive an e-mail notification to bring your passport for passport inspection. At this point, please bring your original passport to your chosen Bureau of Consular Affairs or ROC mission/office. 
