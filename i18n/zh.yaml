@@ -148,6 +148,8 @@
   translation: '重置搜索'
 - id: placeholder_search
   translation: '搜索'
+- id: title_search
+  translation: '在台灣就業金卡辦事處網站內搜索'
 - id: how_to_apply
   translation: '想要申請嗎'
 - id: how_to_apply_copy
@@ -258,6 +260,8 @@
   translation: '轉到頂部'
 - id: button_goto_to_top
   translation: '向上滾動到頂部'
+- id: only_gold_card
+  translation: '僅限金卡持卡人'
 
 - id: undefined
   translation: 'UNDEFINED'
@@ -293,7 +297,7 @@
 - id: national-health-insurance
   translation: '全民健康保險'
 - id: discover-taiwan
-  translation: '聯繫我們'
+  translation: '探索台灣'
 - id: industry-information
   translation: '產業資訊'
 - id: other

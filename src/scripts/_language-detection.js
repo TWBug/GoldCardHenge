@@ -20,7 +20,6 @@ window.languageDetection = {
         }
 
         // if not redirect to a valid and checked destination
-        // var path = location.pathname
         var old_language = location.pathname.substring(1, 3);
         if (old_language !== this.language) {
             this.redirect(old_language);
@@ -66,8 +65,6 @@ window.languageDetection = {
 
         var location_path_name = location.pathname.substr(3);
         var location_new = location.origin + '/' + this.language + location_path_name;
-        // var new_location = location.pathname.substring(1, 3).replace(old_language, this.language) + location.pathname.substring(location.pathname.length - 3)
-        // var new_href = location.origin + new_location
         if (this.checkDestination(location_new) === true) {
             window.location.href = location_new;
         } else {

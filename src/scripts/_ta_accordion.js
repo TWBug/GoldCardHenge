@@ -19,6 +19,11 @@ window.taAccordion = function () {
                 }
             }
 
+            this.options.shortcut =
+            String(this.options.shortcut).toLowerCase() === 'true';
+            this.options.clipboard =
+            String(this.options.clipboard).toLowerCase() === 'true';
+
             if (this.options.titleShow.length > 0) {
                 this.title = this.options.titleShow;
                 this.$watch('show', (value) => {
@@ -30,30 +35,18 @@ window.taAccordion = function () {
                 });
             }
 
-            // if (typeof this.$store === 'undefined') {
-            //     return false;
-            // }
-            // if (typeof this.$store.filter === 'undefined') {
-            //     return false;
-            // }
-            // const id = this.$el.id;
-            // this.$store.filter.faqs[id] = {
-            //     active: true,
-            //     tags: tags,
-            // };
-
-            this.options.shortcut = this.options.shortcut == 'true' ? true : false;
             if (this.options.shortcut === true) {
                 this.$el.addEventListener('keydown', (key) => {
+                    // CTRL + d
                     if (key.ctrlKey === true && key.keyCode === 68) {
                         this.shortcut = !this.shortcut;
                     }
                 });
             }
 
-            this.options.clipboard = this.options.clipboard == 'true' ? true : false;
             if (this.options.clipboard === true && typeof this.$clipboard === 'function') {
                 this.$el.addEventListener('keydown', (key) => {
+                    // CTRL + c
                     if (key.ctrlKey === true && key.keyCode === 67) {
                         this.$clipboard(this.$el.innerText);
                     }
@@ -62,9 +55,6 @@ window.taAccordion = function () {
         },
         toggle() {
             this.show = !this.show;
-            // if (document.activeElement === this.$refs.button) {
-            //     this.link = this.$refs.link.value;
-            // }
         },
     };
 };

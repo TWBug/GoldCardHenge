@@ -595,6 +595,13 @@ collections:
           - { label: 'Event Link', name: 'link', widget: 'string', i18n: duplicate }
           - { label: 'Start Date', name: 'start', widget: 'datetime', i18n: duplicate }
           - {
+                label: 'Goldcard Only 限持卡人',
+                name: 'goldcard_only',
+                widget: 'boolean',
+                i18n: duplicate,
+                default: false,
+            }
+          - {
                 label: 'End Date',
                 name: 'end',
                 widget: 'datetime',
@@ -660,6 +667,14 @@ collections:
           - {
                 label: 'Draft?',
                 name: 'draft',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Only for Gold-Card-Holders',
+                name: 'only_gold_card',
                 widget: 'boolean',
                 default: false,
                 required: false,

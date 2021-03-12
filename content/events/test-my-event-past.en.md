@@ -9,6 +9,7 @@ cover_image_alt: Christmas Mixer
 media_image: /cms-uploads/christmas-mixer.png
 media_image_alt: Christmas Mixer
 tags: null
+only_gold_card: true
 hidden: false
 category: null
 ---

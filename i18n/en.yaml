@@ -150,6 +150,8 @@
   translation: 'Reset search'
 - id: placeholder_search
   translation: 'Search'
+- id: title_search
+  translation: 'Search inside of the Taiwan Employment Gold Card Office website'
 - id: how_to_apply
   translation: 'How to apply'
 - id: how_to_apply_copy
@@ -262,6 +264,8 @@
   translation: 'Go to the top'
 - id: button_goto_to_top
   translation: 'Scrolls up to the top'
+- id: only_gold_card
+  translation: 'Gold Card Holders Only'
 
 - id: undefined
   translation: 'UNDEFINED'
