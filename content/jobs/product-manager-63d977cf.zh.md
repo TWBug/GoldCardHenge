@@ -28,4 +28,4 @@ badges:
 
 ---
 
-【投遞方式】 此處不收履歷，請至 https://grnh.se/12fc7df13us 投遞。 Wootrade is a digital asset liquidity pool incubated by Kronos Research, a leading quantitative trading company averaging more than $ 5 Billion USD / day in volume alone. The team’s mission is to disrupt financial markets by empowering the individual. We believe the global financial system is undergoing a major evolution wherein a few years, anyone from anywhere will be able to freely trade, invest, borrow and lend to better their lives. Much like
+【投遞方��】 此處不收履歷，請至 https://grnh.se/12fc7df13us 投遞。 Wootrade is a digital asset liquidity pool incubated by Kronos Research, a leading quantitative trading company averaging more than $ 5 Billion USD / day in volume alone. The team’s mission is to disrupt financial markets by empowering the individual. We believe the global financial system is undergoing a major evolution wherein a few years, anyone from anywhere will be able to freely trade, invest, borrow and lend to better their lives. Much like
