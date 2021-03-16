@@ -1,10 +1,10 @@
 {{ define "head" }}
 {{ $map := resources.Get "css/map.min.css" }}
+{{ partial "head/alpine" ( dict "spruce" "true" "cdn" .Site.Params.loadFromCDN ) }}
 {{ if $map }}
 {{ $map = $map | fingerprint }}
-{{ end }}
-{{ partial "head/alpine" ( dict "spruce" "true" "cdn" .Site.Params.loadFromCDN ) }}
 <link href="{{ $map.RelPermalink }}" rel="stylesheet" />
+{{ end }}
 {{ end }}
 
 {{ define "main" }}
@@ -77,9 +77,6 @@
             </div>
         </div>
         <div class="hero-scroll-hint">
-            {{/*  <div class="w-full lg:w-2/3 xl:w-1/2 mx-auto -mb-px">
-                <svg viewBox="0 0 698 64" class="w-full" xmlns="http://www.w3.org/2000/svg"><g fill="#005E9E"><path d="m125.5 63.3043h472.5s-120-61.30419-219-62.8043-253.5 62.8043-253.5 62.8043z" fill-opacity=".6"/><path d="m60 45.9257-60 17.3785h698s-136-48.8041-256.5-48.8042c-120.5 0-274.715-2.9549-381.5 31.4257z" fill-opacity=".4"/></g></svg>
-            </div>  */}}
             <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex-center text-white opacity-50 mb-2">
                 {{ partial "icon" (dict "name" "angle-down" "size" "20") }}
             </div>
@@ -102,6 +99,5 @@
     <section help="cards">
         {{ partial "home/cards" .  }}
     </section>
-    {{/*  {{ partial "home/expand" .  }}  */}}
 </div>
 {{ end }}

@@ -29,9 +29,17 @@
 {{ end }}
 
 {{ $styles_wysiwyg := resources.Get "css/wysiwyg.min.css" }}
+{{ if $styles_wysiwyg }}
 {{ $styles_wysiwyg_output := $styles_wysiwyg.RelPermalink }}
-{{ $styles_develop := resources.Get "css/layout.css" | fingerprint }}
-{{ $styles_live := resources.Get "css/layout.min.css" | fingerprint }}
+{{ end }}
+{{ $styles_develop := resources.Get "css/layout.css" }}
+{{ if $styles_develop }}
+{{ $styles_develop = $styles_develop | fingerprint }}
+{{ end }}
+{{ $styles_live := resources.Get "css/layout.min.css" }}
+{{ if $styles_live }}
+{{ $styles_live = $styles_live | fingerprint }}
+{{ end }}
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -64,12 +72,22 @@
         {{ end }}
     {{ end }}
 {{ end }}
+{{ if $favicon }}
 <link rel="icon" href="{{ $favicon.RelPermalink }}" />
+{{ end }}
 <link rel="manifest" href="/{{ .Site.Language.Lang }}/manifest.json" />
+{{ if $favicon16 }}
 <link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16.RelPermalink }}" />
+{{ end }}
+{{ if $favicon32 }}
 <link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32.RelPermalink }}" />
+{{ end }}
+{{ if $favicon96 }}
 <link rel="icon" type="image/png" sizes="96x96" href="{{ $favicon96.RelPermalink }}" />
+{{ end }}
+⁄⁄{{ if $appleicon144 }}
 <link rel="apple-touch-icon" sizes="144x144" href="{{ $appleicon144.RelPermalink }}" />
+{{ end }}
 <link rel="canonical" href="{{ .Page.Permalink }}" />
 <title>{{ .Page.Title | truncate 60 }} | {{ .Site.Title }}</title>
 {{ if eq .Site.Language.Lang "zh" }}
@@ -85,7 +103,11 @@
     {{ end }}
 {{ end }}
 {{ if  and .Site.IsServer (eq hugo.Environment "development") }}
-<link href="{{ $styles_develop.RelPermalink }}" rel="stylesheet" integrity="{{ $styles_develop.Data.Integrity }}" />
+    {{ if $styles_develop }}
+    <link href="{{ $styles_develop.RelPermalink }}" rel="stylesheet" integrity="{{ $styles_develop.Data.Integrity }}" />
+    {{ end }}
 {{ else }}
-<link href="{{ $styles_live.RelPermalink }}" rel="stylesheet" integrity="{{ $styles_live.Data.Integrity }}" />
+    {{ if $styles_live }}
+    <link href="{{ $styles_live.RelPermalink }}" rel="stylesheet" integrity="{{ $styles_live.Data.Integrity }}" />
+    {{ end }}
 {{ end }}
