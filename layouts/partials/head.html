@@ -85,7 +85,7 @@
 {{ if $favicon96 }}
 <link rel="icon" type="image/png" sizes="96x96" href="{{ $favicon96.RelPermalink }}" />
 {{ end }}
-⁄⁄{{ if $appleicon144 }}
+{{ if $appleicon144 }}
 <link rel="apple-touch-icon" sizes="144x144" href="{{ $appleicon144.RelPermalink }}" />
 {{ end }}
 <link rel="canonical" href="{{ .Page.Permalink }}" />
