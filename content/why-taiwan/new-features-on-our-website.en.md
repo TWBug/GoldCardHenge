@@ -3,6 +3,10 @@ title: New Features on our Website
 date: 2021-03-16T01:31:42.932Z
 draft: false
 topic: whytaiwan
+cover_image: /cms-uploads/new-features-on-our-website.jpg
+cover_image_alt: New Features on our Website
+media_image: /cms-uploads/new-features-on-our-website.jpg
+media_image_alt: New Features on our Website
 topics:
   - Other
 style: right
