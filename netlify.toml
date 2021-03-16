@@ -1,9 +1,14 @@
 # For reference, see:
 # https://github.com/gohugoio/hugoDocs/blob/master/netlify.toml
 [build]
-command = "npm run build:finder && npm run build:staging"
+command = "(git diff --quiet HEAD^ HEAD -- . ':!content/' || npm run build:finder) && (git diff --quiet HEAD^ HEAD -- content/ || npm run build:staging)"
+# ignore = "git diff --quiet HEAD^ HEAD content/"
 publish = "public"
 timeout = 80000
+
+# If skip_processing = true, all other settings are ignored
+[build.processing]
+skip_processing = false
 
 [build.environment]
 HUGO_VERSION = "0.79.1"
