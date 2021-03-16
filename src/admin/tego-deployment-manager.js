@@ -1,8 +1,45 @@
+const Button = (props) => {
+    const { style = {}, ...rest } = props;
+    return (
+        <button
+            style={{
+                display: 'block',
+                position: 'relative',
+                border: '0px',
+                cursor: 'pointer',
+                height: '27px',
+                lineHeight: '27px',
+                fontSize: '12px',
+                fontWeight: 600,
+                borderRadius: '3px',
+                padding: '0px 24px 0px 14px',
+                backgroundColor: 'rgb(121, 130, 145)',
+                color: 'rgb(255, 255, 255)',
+                marginRight: '8px',
+                ...style,
+            }}
+            {...rest}
+        ></button>
+    );
+};
 class DeploymentManager extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            pageReady: false,
+            show: false,
+        };
+
+        // Only show this control if we are on the "home page" layout, where the
+        // header lines up with the appropriate built-in controls.
+        this.handleRouteChange = (e) => {
+            const isSubpage = e.newURL.match(/\/admin\/#\/collections\/(.+)\/.+/);
+            if (isSubpage) {
+                this.setState({ show: false });
+            } else {
+                this.setState({ show: true });
+            }
+            console.log('change route', e);
+            console.log('this', this);
         };
     }
 
@@ -11,11 +48,13 @@ class DeploymentManager extends React.Component {
             const headerControls = document.querySelector('[class*="AppHeaderActions"]');
             if (headerControls) {
                 this.targetBox = headerControls.getBoundingClientRect();
-                this.setState({ pageReady: true });
+                this.setState({ show: true });
             } else {
                 this.to = setTimeout(fn, 1000);
             }
         };
+
+        window.addEventListener('hashchange', this.handleRouteChange);
 
         this.to = setTimeout(fn, 1000);
     }
@@ -25,9 +64,9 @@ class DeploymentManager extends React.Component {
     }
 
     render() {
-        if (!this.state.pageReady) return null;
+        if (!this.state.show) return null;
         return (
-            <h1
+            <div
                 style={{
                     position: 'absolute',
                     top: this.targetBox.top,
@@ -39,8 +78,15 @@ class DeploymentManager extends React.Component {
                 }}
                 {...this.props}
             >
-                Hey we made it
-            </h1>
+                <Button
+                    onClick={(e) => {
+                        e.preventDefault();
+                        console.log('deploy me!');
+                    }}
+                >
+                    Deploy
+                </Button>
+            </div>
         );
     }
 }
