@@ -8,4 +8,13 @@ cover_image_alt: What resources are available
 media_image: /cms-uploads/11_02-event-banner-final.png
 media_image_alt: What resources are available
 ---
-<!-- This text will never be seen -->
+{{< gallery teaser="What resources are available" >}}
+{{< gallery-image src="/cms-uploads/img_9989.jpg" >}}
+{{< gallery-image src="/cms-uploads/img_0046.jpg" >}}
+{{< gallery-image src="/cms-uploads/img_0026.jpg" >}}
+{{< gallery-image src="/cms-uploads/img_0093.jpg" >}}
+{{< gallery-image src="/cms-uploads/img_0170.jpg" >}}
+{{< gallery-image src="/cms-uploads/img_0265.jpg" >}}
+{{< gallery-image src="/cms-uploads/img_0277.jpg" >}}
+{{< gallery-image src="/cms-uploads/img_9976.jpg" >}}
+{{< /gallery >}}
