@@ -24,4 +24,4 @@ badges:
 
 ---
 
-DLP解決方案 SOC/SIEM解決方案 About The Role • Work closely with the sales team, and provide pre-sales support and technical consultancy to customers • Responsible to understudy customer requirements, environment and challenges and able to propose/provide security solution design and implementation solutions to clients • Responsible for carrying out presales function in solution offerings (proposal, demo, presentation, etc.) • Participate in preparing tender documents and proposals, RFPs, RFIs • Perform 
+DLP解決方案 SOC/SIEM解決方案 About The Role • Work closely with the sales team, and provide pre-sales support and technical consultancy to customers • Responsible to understudy customer requirements, environment and challenges and able to propose/provide security solution design and implementation solutions to clients • Responsible for carrying out presales function in solution offerings (proposal, demo, presentation, etc.) • Participate in preparing tender documents and proposals, RFPs, RFIs ��� Perform 
