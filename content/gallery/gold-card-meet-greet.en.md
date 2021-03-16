@@ -8,4 +8,3 @@ cover_image_alt: Gold Card Meet & Greet
 media_image: /cms-uploads/dscf1834.jpg
 media_image_alt: Gold Card Meet & Greet
 ---
-<!-- This text will never be seen -->
