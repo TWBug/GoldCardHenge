@@ -1,6 +1,9 @@
 {{ $published := .Lastmod }}
 {{ $modified := .Lastmod }}
-{{ $buffer := os.Stat ( print "content/" .File.Path ) }}
+{{ $buffer := "" }}
+{{ with .File }}
+{{ $buffer = os.Stat ( print "content/" .File.Path ) }}
+{{ end }}
 {{ if $buffer }}
     {{ $modified = $buffer.ModTime }}
 {{ end }}
