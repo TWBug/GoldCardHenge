@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '27703'
-title: '[KKNow] UX/UI Designer'
+title: '[KKNOW] UX/UI Designer'
 job_url: 'https://www.cakeresume.com/companies/kkboxgroup/jobs/kknow-ux-ui-designer'
 date: 2021-03-15T14:23:04.692Z
 company_name: KKBOX Group
