@@ -775,6 +775,24 @@ CMS.registerEditorComponent({
 });
 
 CMS.registerEditorComponent({
+    id: 'helpdesk-from',
+    label: 'Helpdesk Form 求助表格',
+    fields: [],
+    pattern: /^{{< form >}}/,
+    fromBlock: () => {
+        return {};
+    },
+    toBlock: (obj) => {
+        return '{{< form >}}';
+    },
+    toPreview: (obj) => (
+        <p className={`text-${obj.color}-700 p-4 border border-gray-300 bg-gray-200`}>
+            HELPDESK FORM
+        </p>
+    ),
+});
+
+CMS.registerEditorComponent({
     id: 'youtube',
     label: 'Youtube',
     fields: [{ name: 'id', label: 'Youtube Video ID' }],
