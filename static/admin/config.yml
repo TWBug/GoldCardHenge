@@ -84,6 +84,14 @@ collections:
                 i18n: true,
             }
           - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
                 label: 'Style',
                 name: 'style',
                 widget: 'select',
@@ -184,6 +192,14 @@ collections:
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
           - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
                 label: 'Style',
                 name: 'style',
                 widget: 'select',
@@ -213,6 +229,14 @@ collections:
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
           - {
                 label: 'Topic',
                 name: 'topic',
@@ -279,6 +303,14 @@ collections:
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
           - {
                 label: 'Layout',
                 name: 'layout',
@@ -360,6 +392,14 @@ collections:
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
           - { label: 'Order', name: 'order', widget: 'number', default: 1, i18n: duplicate }
           - {
                 label: 'Topic',
@@ -435,6 +475,14 @@ collections:
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
           - { label: 'Order', name: 'order', widget: 'number', default: 1, i18n: duplicate }
           - {
                 label: 'Topic',
@@ -558,6 +606,14 @@ collections:
                 label: 'Hidden',
                 name: 'hidden',
                 widget: 'hidden',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
                 default: false,
                 required: false,
                 i18n: duplicate,
@@ -869,6 +925,14 @@ collections:
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
                 label: 'Navigation',
                 name: 'topic',
                 widget: 'hidden',
@@ -917,6 +981,14 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
           - {
                 label: 'Navigation',
                 name: 'topic',
@@ -996,6 +1068,14 @@ collections:
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
                 label: 'Cover Image',
                 name: 'cover_image',
                 widget: 'image',
@@ -1067,6 +1147,14 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
           - {
                 label: 'Navigation',
                 name: 'topic',
@@ -1167,6 +1255,14 @@ collections:
                 label: 'Hidden?',
                 name: 'hidden',
                 widget: 'hidden',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
                 default: false,
                 required: false,
                 i18n: duplicate,
