@@ -12,7 +12,7 @@
         "gulp": "NODE_ENV=production npx gulp build",
         "build": "npm run gulp && npm run build:finder && npm run hugo",
         "build:development": "npm run hugo -- --environment development",
-        "build:staging": "npm run hugo -- --environment staging",
+        "build:staging": "totallyfailtobuild && npm run hugo -- --environment staging",
         "build:gh": "npm run babel && TZ='Asia/Taipei' npm run hugo -- --environment gh",
         "build:ghlocal": "npm run babel && npm run hugo -- --environment gh-local",
         "build:finder": "(cd src/finder && npm run finder:build)",
