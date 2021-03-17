@@ -24,10 +24,14 @@ main() {
             echo "        $_f"
         done
         echo "[BUILD] npm run build:staging ..."
-        npm run build:staging
     else
-        echo "[SKIP] No changes to ./content"
+        echo "[BUILD] No changes to ./content. Building anyway to generate ./public dir ..."
     fi
+    
+    # NOTE: In the netlify env we _have to build_ hugo, otherwise the
+    # git-ignored ./public directory--the directory to be deployed--will not
+    # exist in netlify.
+    npm run build:staging
 }
 
 main
