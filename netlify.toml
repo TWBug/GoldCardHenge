@@ -1,7 +1,8 @@
 # For reference, see:
 # https://github.com/gohugoio/hugoDocs/blob/master/netlify.toml
 [build]
-command = "(git diff --quiet HEAD^ HEAD -- . ':!content/' || npm run build:finder) && (git diff --quiet HEAD^ HEAD -- content/ || npm run build:staging)"
+command = "./scripts/netlify-build.sh"
+
 # ignore = "git diff --quiet HEAD^ HEAD content/"
 publish = "public"
 timeout = 80000
