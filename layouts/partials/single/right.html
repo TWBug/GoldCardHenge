@@ -57,19 +57,19 @@
             </div>
             {{ end }}
             <div class="print:hidden sm:-mt-4">
-                <aside>
-                {{ partial "aside/summary" . }}
-                {{ partial "aside/toc" . }}
-                {{ if .Params.categories }}
-                {{ partial "aside/all-categories" . }}
-                {{ end }}
-                {{ if .Params.tags }}
-                {{ partial "aside/all-tags" . }}
-                {{ end }}
-                {{ if .Params.topics }}
-                {{ partial "aside/all-topics" . }}
-                {{ end }}
-                {{ partial "aside/apply-now" . }}
+                <aside class="h-full">
+                    {{ partial "aside/summary" . }}
+                    {{ partial "aside/toc" . }}
+                    {{ if .Params.categories }}
+                    {{ partial "aside/all-categories" . }}
+                    {{ end }}
+                    {{ if .Params.tags }}
+                    {{ partial "aside/all-tags" . }}
+                    {{ end }}
+                    {{ if .Params.topics }}
+                    {{ partial "aside/all-topics" . }}
+                    {{ end }}
+                    {{ partial "aside/apply-now" . }}
                 </aside>
             </div>
         </div>

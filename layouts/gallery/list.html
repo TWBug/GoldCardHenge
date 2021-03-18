@@ -114,13 +114,15 @@
                     {{ partial "pagination" . }}
 
                 </div>
-                <aside class="-mt-12">
-                  {{ partial "aside/latest-galleries" . }}
-                  {{ if eq .Params.chatbot true }}
-                  {{ partial "aside/timezone" . }}
-                  {{ end }}
-                  {{ partial "aside/apply-now" . }}
-                </aside>
+                <div class="-mt-12">
+                    <aside class="h-full">
+                        {{ partial "aside/latest-galleries" . }}
+                        {{ if eq .Params.chatbot true }}
+                        {{ partial "aside/timezone" . }}
+                        {{ end }}
+                        {{ partial "aside/apply-now" . }}
+                    </aside>
+                </div>
             </div>
         </div>
     </section>

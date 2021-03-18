@@ -84,11 +84,13 @@
                     </div>
                 </div>
                 <div class="-mt-12">
-                  {{ partial "aside/latest-article" . }}
-                  {{ if eq .Params.chatbot true }}
-                  {{ partial "aside/timezone" . }}
-                  {{ end }}
-                  {{ partial "aside/apply-now" . }}
+                    <aside class="h-full">
+                        {{ partial "aside/latest-article" . }}
+                        {{ if eq .Params.chatbot true }}
+                        {{ partial "aside/timezone" . }}
+                        {{ end }}
+                        {{ partial "aside/apply-now" . }}
+                    </aside>
                 </div>
             </div>
         </div>
