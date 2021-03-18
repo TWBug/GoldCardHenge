@@ -1,8 +1,7 @@
 let securityHeaders = {
-	"Content-Security-Policy" : "block-all-mixed-content; object-src 'none'; upgrade-insecure-requests",
+	"Content-Security-Policy" : "block-all-mixed-content; frame-ancestors 'self' https://*.facebook.com/ https://*.facebook.net https://www.messenger.com/; upgrade-insecure-requests",
 	"Strict-Transport-Security" : "max-age=86400",
 	"X-Xss-Protection" : "1; mode=block",
-	"X-Frame-Options" : "DENY",
 	"X-Content-Type-Options" : "nosniff",
 	"Referrer-Policy" : "strict-origin-when-cross-origin",
 	"Permissions-Policy": "autoplay=(), camera=(), microphone=(), midi=(), payment=(), usb=()",
