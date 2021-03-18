@@ -1,4 +1,4 @@
-{{ $src := print "/cms-gallery/" (.Get "src") }}
+{{ $src := .Get "src" }}
 {{ $dirFile := path.Split (.Get "src") }}
 {{ $alt := index (split $dirFile.File ".") 0 | humanize }}
 {{ with (.Get "alt")}}
