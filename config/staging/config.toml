@@ -1,2 +1,2 @@
 baseURL = "https://staging.taiwangoldcard.tw"
-timeout = 300
+timeout = 60000
