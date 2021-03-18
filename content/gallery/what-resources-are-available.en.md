@@ -9,7 +9,6 @@ media_image: /cms-uploads/11_02-event-banner-final.png
 media_image_alt: What resources are available
 ---
 
-
 {{< gallery teaser="What resources are available" >}}
 {{< gallery-image src="/cms-uploads/img_9989.jpg" >}}
 {{< gallery-image src="/cms-uploads/img_0046.jpg" >}}
