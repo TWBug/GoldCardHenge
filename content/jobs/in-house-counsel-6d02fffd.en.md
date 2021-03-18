@@ -18,7 +18,7 @@ salary_type: per_year
 salary_min: 900000
 salary_max: 1800000
 location_list:
-  - 台北市中山區樂群二路189號6樓之一
+  - 台北市中山區���群二路189號6樓之一
 job_tags:
   - Legal
   - 法務

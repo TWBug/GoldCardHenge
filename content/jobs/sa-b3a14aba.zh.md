@@ -17,7 +17,7 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 1600000
 location_list:
-  - 台北
+  - 台���
   - 台灣
   - 信義區
 job_tags:

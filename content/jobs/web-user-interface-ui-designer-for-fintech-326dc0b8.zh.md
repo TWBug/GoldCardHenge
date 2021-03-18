@@ -8,7 +8,7 @@ title: Web User Interface (UI) Designer for FinTech
 job_url: >-
   https://www.cakeresume.com/companies/otsogroup/jobs/web-user-interface-ui-designer-for-fintech
 date: 2021-02-23T10:03:44.029Z
-company_name: 黑森科技��限公司
+company_name: 黑森科技有限公司
 company_page_url: 'https://www.cakeresume.com/companies/otsogroup'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--mxUaMJvi--/c_pad,fl_png8,h_200,w_200/v1614073899/rxgwhfamtgc8wjodu5n0.png
