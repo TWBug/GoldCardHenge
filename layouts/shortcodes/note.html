@@ -8,6 +8,6 @@
         </span>
     </div>
     <div class=" border-l-2 border-dashed border-secondary border-opacity-50 font-medium leading-relaxed text-md text-left italic pl-4 pt-3">
-        {{ .Inner | markdownify }}
+        {{ .Inner | .Page.RenderString }}
     </div>
 </div>

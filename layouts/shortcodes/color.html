@@ -2,42 +2,42 @@
 {{ $color := .Get "color" | plainify }}
 {{ if eq $color "red" }}
 <p class="text-red-700">
-    {{ .Inner | markdownify }}
+    {{ .Inner | .Page.RenderString }}
 </p>
 {{ else if eq $color "green" }}
 <p class="text-green-700">
-    {{ .Inner | markdownify }}
+    {{ .Inner | .Page.RenderString }}
 </p>
 {{ else if eq $color "orange" }}
 <p class="text-orange-700">
-    {{ .Inner | markdownify }}
+    {{ .Inner | .Page.RenderString }}
 </p>
 {{ else if eq $color "brown" }}
 <p class="text-yellow-700">
-    {{ .Inner | markdownify }}
+    {{ .Inner | .Page.RenderString }}
 </p>
 {{ else if eq $color "teal" }}
 <p class="text-teal-700">
-    {{ .Inner | markdownify }}
+    {{ .Inner | .Page.RenderString }}
 </p>
 {{ else if eq $color "blue" }}
 <p class="text-blue-700">
-    {{ .Inner | markdownify }}
+    {{ .Inner | .Page.RenderString }}
 </p>
 {{ else if eq $color "indigo" }}
 <p class="text-indigo-700">
-    {{ .Inner | markdownify }}
+    {{ .Inner | .Page.RenderString }}
 </p>
 {{ else if eq $color "purple" }}
 <p class="text-purple-700">
-    {{ .Inner | markdownify }}
+    {{ .Inner | .Page.RenderString }}
 </p>
 {{ else if eq $color "pink" }}
 <p class="text-pink-700">
-    {{ .Inner | markdownify }}
+    {{ .Inner | .Page.RenderString }}
 </p>
 {{ else }}
 <p class="text-gray-700">
-    {{ .Inner | markdownify }}
+    {{ .Inner | .Page.RenderString }}
 </p>
 {{ end }}

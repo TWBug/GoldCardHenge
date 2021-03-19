@@ -9,7 +9,7 @@
         <div class="container replace py-24 px-12 lg:px-24">
             <div class="mx-auto w-full sm:w-1/2 text-center mb-4">
                 <h2 class="text-4xl">
-                    {{ $expand.Title | markdownify }}
+                    {{ $expand.Title | .Page.RenderString }}
                 </h2>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 auto-rows-fr gap-12 my-12">
@@ -39,7 +39,7 @@
                 {{ end }}
             </div>
             <div class="mx-auto w-full sm:w-2/3 text-center mb-4">
-                {{ $expand.Summary | markdownify }}
+                {{ $expand.Summary | .Page.RenderString }}
             </div>
         </div>
     </div>

@@ -19,7 +19,7 @@
 
 {{ $question := .Title }}
 {{ if .Params.question }}
-{{ $question = .Params.question | markdownify }}
+{{ $question = .Params.question | .Page.RenderString }}
 {{ end }}
 
 {{ $back := .Parent }}

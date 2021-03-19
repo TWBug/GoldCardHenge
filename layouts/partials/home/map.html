@@ -7,7 +7,7 @@
     <div class="container">
         <div class="mx-auto w-full lg:w-2/3 text-center px-12 replace">
             <h2 class="text-4xl leading-snug">
-                {{ $map.Title | markdownify }}
+                {{ $map.Title | .Page.RenderString }}
             </h2>
         </div>
         <div class="relative my-6">
@@ -99,7 +99,7 @@
             <div class="block xl:hidden absolute right-0 inset-y-0 bg-gradient-to-l from-background to-transparent-background w-12"></div>
         </div>
         <div class="mx-auto w-full sm:w-3/4 text-center px-12 lg:px-24 font-regular text-base">
-            {{ $map.Summary | markdownify }}
+            {{ $map.Summary | .Page.RenderString }}
         </div>
         <noscript>
             <div class="text-center border-2 border-red-800 font-bold text-red-800 m-8 p-4 max-w-xl mx-auto">

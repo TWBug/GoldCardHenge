@@ -8,10 +8,10 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 lg:gap-32">
             <div class="replace self-center copy">
                 <h2 class="text-4xl leading-tight mb-2">
-                    {{ $intro.Title | markdownify }}
+                    {{ $intro.Title | .Page.RenderString }}
                 </h2>
                 <p class="font-regular">
-                    {{ $intro.Summary | markdownify }}
+                    {{ $intro.Summary | .Page.RenderString }}
                 </p>
                 <div class="flex justify-between items-center mt-8">
                     {{ range $intro.Params.links }}

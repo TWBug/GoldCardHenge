@@ -38,10 +38,10 @@
                 <div class="mb-1">
                     <h1 class="flex flex-col items-start leading-snug break-normal hyphens-none">
                         <span class="text-6xl font-bold bg-white padded-fixed my-1">
-                            {{ $hero.Title | markdownify }}
+                            {{ $hero.Title | .Page.RenderString }}
                         </span>
                         <span class="text-4xl font-regular bg-white padded-fixed my-1">
-                            {{ $hero.Summary | markdownify }}
+                            {{ $hero.Summary | .Page.RenderString }}
                         </span>
                     </h1>
                 </div>

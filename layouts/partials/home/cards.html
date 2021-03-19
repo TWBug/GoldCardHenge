@@ -6,12 +6,12 @@
     <div class="container replace py-24 px-12 lg:px-24">
         <div class="mx-auto w-full sm:w-1/2 text-center mb-4">
             <h2 class="text-4xl">
-                {{ $setup.Title | markdownify }}
+                {{ $setup.Title | .Page.RenderString }}
             </h2>
         </div>
         <div class="mx-auto w-full sm:w-3/4 text-center">
             <p class="">
-                {{ $setup.Summary | markdownify }}
+                {{ $setup.Summary | .Page.RenderString }}
             </p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr gap-12 mt-6">

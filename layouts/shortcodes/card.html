@@ -12,7 +12,7 @@
 
 {{ $title := i18n "undefined" }}
 {{ with .Get "title" }}
-{{ $title = . | markdownify }}
+{{ $title = . | $.Page.RenderString }}
 {{ end }}
 
 {{ $link := "#" }}
@@ -47,7 +47,7 @@
         </div>
         <div class="px-6 pt-4">
             <h2 class="text-xl font-bold text-primary mb-1">{{ $title }}</h2>
-            <p class="text-center text-md font-regular">{{ .Inner | markdownify }}</p>
+            <p class="text-center text-md font-regular">{{ .Inner | .Page.RenderString }} }}</p>
         </div>
     </a>
 </div>

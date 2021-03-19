@@ -10,7 +10,7 @@
 {{ end }}
 
 {{ if not $alt }}
-{{ $alt := $caption | markdownify | plainify }}
+{{ $alt := $caption | .Page.RenderString | plainify }}
 {{ end }}
 
 {{ $alt = $alt | truncate 100 }}
@@ -37,7 +37,7 @@
         {{ with $caption }}
         <figcaption id="{{ $id }}">
             <div class="text-xs leading-normal text-gray-700 my-2">
-                {{ . | markdownify }}
+                {{ . | $.Page.RenderString }}
             </div>
         </figcaption>
         {{ end }}

@@ -17,7 +17,7 @@
         {{ if .Inner }}
         <div class="grid grid-cols-1 sm:grid-cols-3 items-center gap-8 sm:gap-12 mt-8">
             <div class="sm:col-span-2 font-semibold text-center sm:text-right">
-                {{ .Inner | markdownify }}
+                {{ .Inner | .Page.RenderString }}
             </div>
             <div class="text-center">
                 <a href="{{ .Get "href"}}" class="inline-block whitespace-no-wrap bg-primary font-bold text-white leading-none rounded-md shadow-xl px-6 py-4" {{ with $target }} target="_blank" title="{{ i18n "open_in_new_window"}}" {{end}} >{{ .Get "button"}}</a>

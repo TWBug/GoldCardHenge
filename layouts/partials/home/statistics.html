@@ -2,13 +2,6 @@
 
 <div class="relative">
     <div class="container replace pt-6 pb-24 px-12 lg:px-24">
-        {{/* 
-        <div class="mx-auto w-full sm:w-1/2 text-center mb-4">
-            <h2 class="text-4xl leading-snug">
-                {{ $statistics.Title | markdownify }}
-            </h2>
-        </div>
-        */}}
         <div class="flex flex-wrap  justify-around items-center my-6 lg:my-12">
             {{ range $index, $value := $statistics.Params.items }}
             <div class="flex flex-col w-full lg:w-1/4 text-center text-gray-blue my-6" x-data="taCounter()" x-init="init({end: {{ .label }}})">
@@ -34,7 +27,7 @@
             {{ end }}
         </div>
         <div class="mx-auto w-full sm:w-2/3 text-center mb-4">
-            {{ $statistics.Summary | markdownify }}
+            {{ $statistics.Summary | .Page.RenderString }}
         </div>
     </div>
 </div>
