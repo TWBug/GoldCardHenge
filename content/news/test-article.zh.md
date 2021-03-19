@@ -1,6 +1,6 @@
 ---
 title: 金融監督管理委員會預告「外國特定專業人才具有金融領域特殊專長之資格條件及認定原則」修正草案
-summary: ""
+summary: ''
 date: 2020-09-24T05:00:45.948Z
 draft: false
 cover_image: img/uploads/dummy-image.jpg
@@ -10,7 +10,8 @@ media_image_alt: Test alt
 topic: eventsnews
 tags: null
 categories:
-  - Gold Card Policy
+    - Gold Card Policy
 publishDate: 2020-11-05T07:09:20.617Z
 ---
-https://join.gov.tw/policies/detail/4ef14af6-68da-4a14-ad92-1324c486a7bd
+
+[國家發展委員會公告](https://join.gov.tw/policies/detail/03101e40-569b-4a0d-aae8-4b9af38e97f9#middle)

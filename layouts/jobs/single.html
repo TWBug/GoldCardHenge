@@ -46,7 +46,7 @@
                         {{ .Title }}
                     </h1>
                     <div class="text-base font-medium copy replace">
-                        {{ .Content }}
+                        {{ .Content | plainify }}
                     </div>
                     <div class="w-full my-4 -ml-1">
                         {{ range .Params.badges }}

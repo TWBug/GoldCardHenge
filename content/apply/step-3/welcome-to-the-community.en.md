@@ -15,4 +15,4 @@ chatbot: true
 
 This group is for Gold Card holders only. You will be asked to provide your name, email, and Gold Card application number.)
 
-You can join through this link: <https://www.facebook.com/groups/goldcard>
+You can join through this link: [Facebok Gold Card Group](https://www.facebook.com/groups/goldcard)
