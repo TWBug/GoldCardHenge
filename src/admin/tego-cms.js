@@ -349,7 +349,7 @@ CMS.registerEditorComponent({
         { name: 'bottomless', label: 'Bottomless 無底', widget: 'boolean', default: false },
         { name: 'body', label: 'Inner Text 內容', widget: 'markdown', textarea: true },
     ],
-    pattern: /^{{< accordion title="(.+?)" suffix="(.+?)" bottomless="(.+?)" >}}\n([\s\S]+?)\n{{< \/accordion >}}/,
+    pattern: /^{{< accordion title="(.+?)" suffix="(.+?)" bottomless="(.+?)" >}}\n?([\s\S]+?)\n?{{< \/accordion >}}/,
     fromBlock: (match) => ({
         title: Props.unescape(match[1]),
         suffix: Props.unescape(match[2]),
