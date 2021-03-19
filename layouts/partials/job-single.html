@@ -8,7 +8,7 @@
         {{ if .Params.company_logo_url }}
         <div class="border-r border-b border-gray-200 w-full p-4">
             {{ if .Params.company_page_url }}
-            <a href="{{ .Params.company_page_url }}" target="_blank" class="block focus-primary" rel="noopener">
+            <a href="{{ .Params.company_page_url }}" target="_blank" class="block focus-primary" rel="noopener" title="{{ i18n "open_in_new_window" }}">
                 <img src="{{ .Params.company_logo_url }}" alt="{{ .Params.company_name }}" class="block max-w-full">
             </a>
             {{ else }}
@@ -21,7 +21,7 @@
                 {{ if lt $index 10 }}
                     {{ $tag := . }}
                     <li class="inline-block text-primary text-xxs p-1 mx-1">
-                        <a href="https://www.cakeresume.com/jobs/{{ partial "urlencode" ( dict "url" . ) }}" class="inline-flex items-center focus-primary" {{ if gt (len $tag) 20 }} title="{{ $tag | humanize }}" {{ end }} target="_blank" rel="noopener">
+                        <a href="https://www.cakeresume.com/jobs/{{ partial "urlencode" ( dict "url" . ) }}" class="inline-flex items-center focus-primary" {{ if gt (len $tag) 20 }} title="{{ $tag | humanize }}" {{ end }} target="_blank" rel="noopener" title="{{ i18n "open_in_new_window" }}">
                             {{ partial "icon" (dict "name" "tag" "size" "2") }}
                             <span class="font-bold uppercase max-w-32 sm:max-w-24 whitespace-nowrap truncate ml-2">
                                 {{ $tag }}
@@ -39,7 +39,7 @@
         </div>
         {{ end }}
         <h2 class="block text-xl font-bold text-primary mb-2">
-            <a href="{{ .Params.job_url }}" target="_blank" class="inline-block focus-primary" rel="noopener">
+            <a href="{{ .Params.job_url }}" target="_blank" class="inline-block focus-primary" rel="noopener" title="{{ i18n "open_in_new_window" }}">
                 {{ trim .Title " " }}
             </a>
         </h2>
