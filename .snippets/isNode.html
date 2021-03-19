@@ -1,5 +1,0 @@
-{{ if .item.IsNode }}
-<a href="{{ .item.RelPermalink }}" class="flex items-center text-primary font-bold my-2 focus-primary" x-data="taCheckList()" x-init="init()" data-id="{{ md5 .item.RelPermalink }}">
-{{ else }}
-<a href="{{ .item.RelPermalink }}" class="flex items-center text-primary font-semibold mb-1 focus-primary" x-data="taCheckList()" x-init="init()" data-id="{{ md5 .item.RelPermalink }}">
-{{ end }}
