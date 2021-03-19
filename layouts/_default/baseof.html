@@ -17,12 +17,12 @@
     <body
     class="bg-white font-sans leading-relaxed tracking-wide text-base text-gray-800 print:text-black font-light hyphens antialiased">
     {{ end }}
-        {{ partial "to-top" . }}
         <div class="flex flex-col justify-center min-h-screen">
             {{ block "main" . }}
             {{ end }}
             {{ partial "footer" . }}
         </div>
+        {{ partial "to-top" . }}
         {{/* partial "helpdesk-widget" . */}}
         {{ partial "welcome" . }}
         {{ partial "search" . }}

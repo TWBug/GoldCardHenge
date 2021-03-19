@@ -12,7 +12,7 @@
     x-transition:leave-end="opacity-0 translate-y-10"
     x-cloak
 >
-    <button type="button" @click.prevent="scrollToTop()" class="flex-center shadow-white bg-white border-2 border-primary  text-primary rounded-full w-10 h-10" tabindex="-1" aria-hidden="true" title="{{ i18n "button_goto_to_top" }}">
+    <button type="button" @click.prevent="scrollToTop()" class="flex-center shadow-white bg-white border-2 border-primary focus-white text-primary rounded-full w-10 h-10" tabindex="0" aria-hidden="true" title="{{ i18n "button_goto_to_top" }}">
         <span class="sr-only">{{ i18n "goto_top" }}</span>
         {{ partial "icon" (dict "name" "angle-up" "size" "6") }}
     </button>
