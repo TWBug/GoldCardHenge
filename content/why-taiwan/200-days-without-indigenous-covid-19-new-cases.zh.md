@@ -15,11 +15,11 @@ style: title
 
 正當COVID-19疫情肆虐全球，上千萬人染疫，超過百萬人死亡，台灣卻因為在防疫上果斷地採取超前部署，而成為國際防疫模範生。根據衛福部疾管署至11月底統計，台灣已超過 200 天無本土病例出現。當全球大多數國家因再度席捲而來的第二波疫情而採取封城，生活在台灣的人民卻還能外出用餐、參加聚會甚至在國內旅行度假。
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/2020911宜蘭傳藝_200912_3.jpg" >}}
+{{< card title="" link="" image="/cms-uploads/2020911宜蘭傳藝_200912_3.jpg" >}}
 金卡宜蘭一日遊
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/image-4-.png" >}}
+{{< card title="" link="" image="/cms-uploads/image-4-.png" >}}
 金卡社群活動
 {{< /card >}}
 
@@ -29,11 +29,11 @@ style: title
 
 COVID-19導致全球經濟下滑，台灣以外貿為主的產業特性也因主要外銷國的需求減緩而面臨經濟困局。對此，台灣政府陸續推出多項抒困與振興措施，抒緩受到衝擊的產業，例如旅遊、飯店產業，採取諸如補貼減班休息與失業員工補助。而對一般民眾，則發放振興抵用券如三倍券、藝FUN券、動滋券、農遊券、浪漫客庄旅遊券，增加民眾在國內各項內需消費的意願，促進國內消費循環。
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/taipei-metro-fever-notice.jpg" >}}
+{{< card title="" link="" image="/cms-uploads/taipei-metro-fever-notice.jpg" >}}
 自從臺灣升高 COVID-19 的應對措施，不少公共場所如捷運系統都貼出公告禁止發燒狀況的人進入。(圖片來源：臺北捷運公司)
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/national-taiwan-normal-university-fever-station.jpg" >}}
+{{< card title="" link="" image="/cms-uploads/national-taiwan-normal-university-fever-station.jpg" >}}
 台灣校園排隊檢測體溫與消毒場景。(圖片來源：國立臺灣師範大學)
 {{< /card >}}
 

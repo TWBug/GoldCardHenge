@@ -16,12 +16,12 @@ style: title
 
 As the COVID-19 pandemic continues to ravage the globe, infecting thousands and causing millions of deaths, Taiwan has been lauded by international media channels for its pandemic prevention policies. According to the Ministry of Health and Welfare, Taiwan has seen no domestic COVID-19 cases for more than 200 days since the end of November 2020. While most countries have been forced to shut down their cities once again due to threats of an impending second wave, life in Taiwan has been relatively normal. Citizens in Taiwan can travel freely within the country, dine out at restaurants, and even gather together in public.  
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/2020911宜蘭傳藝_200912_3.jpg" >}}
+{{< card title="" link="" image="/cms-uploads/2020911宜蘭傳藝_200912_3.jpg" >}}
 Gold Card Community Event
 
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/image-4-.png" >}}
+{{< card title="" link="" image="/cms-uploads/image-4-.png" >}}
 
 Gold Card Yilan Day Trip
 
@@ -33,13 +33,13 @@ When the Taiwanese government first heard about the mystery virus from Wuhan, Ch
 
 COVID-19 has caused a global economic collapse, affecting many countries including Taiwan. In response to this, the Taiwanese government has introduced many relief measures and stimulus packages to aid and revitalize industries that have been hit hard by the pandemic, such as the tourism and hotel industries. For the general public, the government has provided different types of vouchers such as triple stimulus vouchers, art vouchers, and travel vouchers to increase domestic consumption and to boost the economy. 
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/taipei-metro-fever-notice.jpg" >}}
+{{< card title="" link="" image="/cms-uploads/taipei-metro-fever-notice.jpg" >}}
 Photo By: Metro Taipei
 
 Since Taiwan announced its COVID-19 pandemic prevention regulations, many public places have prohibited people with fever symptoms from entering.
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/national-taiwan-normal-university-fever-station.jpg" >}}
+{{< card title="" link="" image="/cms-uploads/national-taiwan-normal-university-fever-station.jpg" >}}
 Photo By: National Taiwan Normal University
 
 Taiwan university campus staff checking students and faculty temperatures.

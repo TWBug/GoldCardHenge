@@ -10,9 +10,11 @@
 
 {{ $image := $image.Fill "600x337 jpg q20" }}
 
-{{ $title := i18n "undefined" }}
+{{ $title := "" }}
 {{ with .Get "title" }}
-{{ $title = . | $.Page.RenderString }}
+    {{ if ne . "<!-- This text will never be seen -->"}}
+        {{ $title = . | markdownify }}
+    {{ end }}
 {{ end }}
 
 {{ $link := "#" }}
@@ -46,8 +48,10 @@
             />
         </div>
         <div class="px-6 pt-4">
+            {{ if $title }}
             <h2 class="text-xl font-bold text-primary mb-1">{{ $title }}</h2>
-            <p class="text-center text-md font-regular">{{ .Inner | .Page.RenderString }} }}</p>
+            {{ end }}
+            <p class="text-center text-md font-regular">{{ .Inner | .Page.RenderString }}</p>
         </div>
     </a>
 </div>
