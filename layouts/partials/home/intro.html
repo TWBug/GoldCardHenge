@@ -52,7 +52,7 @@
                     class="flex items-center border border-gray-200 rounded-md bg-white shadow-xl px-8 py-4 my-4 focus-primary" >
                         <div class="flex-shrink-0 w-1/6 max-w-16 mr-6">
                             {{ if $preview }}
-                            <img src="{{ $preview.RelPermalink }}" alt="{{ print (i18n "image_about") ": " (.label | truncate 30) }}" class="w-full" />
+                            <img src="{{ $preview.RelPermalink }}" alt="" class="w-full" />
                             {{ end }}
                         </div>
                         <div>
@@ -68,7 +68,7 @@
                     <div class="flex items-center border border-gray-200 rounded-md bg-white shadow-xl pl-8 pr-4 py-4 my-4" >
                         <div class="flex-shrink-0 w-1/6 max-w-16 mr-6">
                             {{ if $preview }}
-                            <img src="{{ $preview.RelPermalink }}" alt="{{ print (i18n "image_about") ": " (.label | truncate 30) }}" class="w-full" />
+                            <img src="{{ $preview.RelPermalink }}" alt="" class="w-full" />
                             {{ end }}
                         </div>
                         <div>
