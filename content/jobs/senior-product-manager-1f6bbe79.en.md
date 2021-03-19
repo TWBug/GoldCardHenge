@@ -28,4 +28,4 @@ badges:
 
 ---
 
-AlleyPin is a leading CRM company focusing on providing CRM solution for clinics. Integrity is the most important guidance while we are doing business. We also work closely with existing HIS providers such as 北昕資訊, 小天使 and 耀���資訊 etc. In 2019, we target to server more than 600 clinics in Taiwan and now we are on the way to hit the target. We would like to invite you to join together!! As Product Manager in AlleyPin, you will work closely with engineers, BDs to develop great products and features f
+AlleyPin is a leading CRM company focusing on providing CRM solution for clinics. Integrity is the most important guidance while we are doing business. We also work closely with existing HIS providers such as 北昕資訊, 小天使 and 耀聖資訊 etc. In 2019, we target to server more than 600 clinics in Taiwan and now we are on the way to hit the target. We would like to invite you to join together!! As Product Manager in AlleyPin, you will work closely with engineers, BDs to develop great products and features f

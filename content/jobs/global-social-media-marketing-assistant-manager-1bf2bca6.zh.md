@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=marketing%20international&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '25314'
-title: 全球社群��銷副理 Global Social Media Marketing Assistant Manager
+title: 全球社群行銷副理 Global Social Media Marketing Assistant Manager
 job_url: >-
   https://www.cakeresume.com/companies/viewsonic-international-corporation/jobs/global-social-media-marketing-assistant-manager
 date: 2020-12-08T01:43:12.851Z
