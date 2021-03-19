@@ -17,11 +17,11 @@ Taiwan is a small, but dense island, with a total population of 24 million and l
 
 Baseball is often considered as Taiwan’s national sport. Since the Japanese occupation of Taiwan to present day, Taiwan has developed a complete training and league system that has brought about many talented Taiwanese baseball players. Many domestic professional baseball stars and foreign players have come from this long-established system. The Chinese Professional Baseball League is the first professional sports league established in Taiwan. It consists of five organizations, four have teams in the main league, one in the farm league, and has Major (一軍) and Minor (二軍) leagues. Taiwan’s professional baseball leagues utilize methods from different countries as references to better strengthen their program. Should foreign players want to be accepted into the league, they must play at the Triple-A level or have been in the Major Leagues. 
 
-{{< card title="<!-- This text will never be seen -->" link="https://www.facebook.com/sbl.ctba/photos/1644647642362400" image="/cms-uploads/sblgame.jpg" >}}
+{{< card title="" link="https://www.facebook.com/sbl.ctba/photos/1644647642362400" image="/cms-uploads/sblgame.jpg" >}}
 Photo By: SBL FB
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="https://www.facebook.com/heartbaseball/photos/3560471063990331" image="/cms-uploads/cpbl中華職棒.jpg" >}}
+{{< card title="" link="https://www.facebook.com/heartbaseball/photos/3560471063990331" image="/cms-uploads/cpbl中華職棒.jpg" >}}
 Photo By: CPBL FB
 {{< /card >}}
 
@@ -33,11 +33,11 @@ Basketball is another popular sport that the Taiwanese value and enjoy. Currentl
 
 In addition to professional baseball and basketball leagues, Taiwan also holds well-known sports events such as corporate volleyball competitions and different levels of soccer competitions. In response to the growing popularity of the E-Sports industry, many companies have begun investing resources and holding company sports competitions. The younger generation, especially, has taken an interest in this industry, investing more and more of their time and resources, causing new E-Sports Stars to be born. 
 
-{{< card title="<!-- This text will never be seen -->" link="http://www.taipeicitymarathon.com/photo-page.php?pmid=4" image="/cms-uploads/2019台北馬拉松.jpg" >}}
+{{< card title="" link="http://www.taipeicitymarathon.com/photo-page.php?pmid=4" image="/cms-uploads/2019台北馬拉松.jpg" >}}
 Photo By: Taipei Marathon
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="http://www.esports.com.tw/edcontent_d.php?lang=tw&tb=4&id=4472" image="/cms-uploads/tesl電競.jpg" >}}
+{{< card title="" link="http://www.esports.com.tw/edcontent_d.php?lang=tw&tb=4&id=4472" image="/cms-uploads/tesl電競.jpg" >}}
 Photo By: TESL
 {{< /card >}}
 

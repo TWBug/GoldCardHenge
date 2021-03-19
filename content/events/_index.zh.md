@@ -1,6 +1,6 @@
 ---
 title: 活動
-link: <!-- This text will never be seen -->
+link: 
 start: 2020-12-03T09:38:12.659Z
 end: ""
 cover_image: "cms-uploads/hero-events.jpg"

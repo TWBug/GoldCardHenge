@@ -33,11 +33,11 @@ style: right
 3. 決策是集體做出的，談判可能是一段漫長的過程。一旦決定下來，有時可以很快達成協議。
 4. 「關係」指的是人際關係，「關係」對臺灣的商業成功至關重要。臺灣商人在與你做生意之前，會想親自瞭解你。
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/greetings.png" >}}
+{{< card title="" link="" image="/cms-uploads/greetings.png" >}}
 問候
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/exchange-business-cards.png" >}}
+{{< card title="" link="" image="/cms-uploads/exchange-business-cards.png" >}}
 交換名片
 {{< /card >}}
 
@@ -67,11 +67,11 @@ style: right
 2. 留下好的第一印象是至關重要的。第一次見面時避免穿T恤、牛仔褲和其他休閒裝。
 3. 即使你參加的是一場休閒活動，也要穿著端莊。你的衣服應該整潔、乾淨、不沾污漬
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/dining-and-entertainment.png" >}}
+{{< card title="" link="" image="/cms-uploads/dining-and-entertainment.png" >}}
 餐飲和娛樂
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/fashion.png" >}}
+{{< card title="" link="" image="/cms-uploads/fashion.png" >}}
 穿著
 {{< /card >}}
 
@@ -100,10 +100,10 @@ style: right
 10. 如果你受到稱讚，要表現出謙虛態度。
 11. 因為家庭是臺灣文化的核心，所以詢問某人的家庭是禮貌的。
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/gifts.png" >}}
+{{< card title="" link="" image="/cms-uploads/gifts.png" >}}
 送禮
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/body-language.png" >}}
+{{< card title="" link="" image="/cms-uploads/body-language.png" >}}
 身體語言
 {{< /card >}}
