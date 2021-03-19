@@ -34,6 +34,15 @@ for (let index = 0; index < html_files.length; index++) {
                 error = true;
             }
         }
+
+        if (alt === null) {
+            error = true;
+        }
+
+        if (alt === '"<!') {
+            error = true;
+        }
+
         if (error) {
             console.info('path', html_files[index]);
             console.info('image src', images[image_index].attributes.src);
