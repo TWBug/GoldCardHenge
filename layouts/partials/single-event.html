@@ -21,10 +21,10 @@
             </div>
             {{ end }}
             <a href="{{ .Params.link }}" target="_blank" title="{{ i18n "open_in_new_window"}}" tabindex="-1" class="block focus-primary" rel="noopener">
-            <img
-            src="{{ $cover_image_resized.RelPermalink }}"
-            alt="{{ partial "alt" ( dict "alt" .Summary "lang" .Site.Language.Lang ) }}" class="block w-full" loading="lazy" />
-        </a>
+                <img
+                src="{{ $cover_image_resized.RelPermalink }}"
+                alt="{{ partial "alt" ( dict "alt" .Summary "lang" .Site.Language.Lang ) }}" class="block w-full" loading="lazy" />
+            </a>
         {{ end }}
     </div>
     <div class="px-8 py-6">
