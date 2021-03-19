@@ -4,9 +4,9 @@ summary: 不知道怎麼申請就業金卡嗎? 我們準備了應備文件與注
 draft: false
 media_image_alt: null
 date: 2020-11-05T07:09:20.617Z
-topic: goldcard
-chatbot: true
 title: 一頁式申請流程
+chatbot: true
+topic: goldcard
 tags: null
 style: title
 cover_image: null
@@ -26,7 +26,7 @@ cover_image_alt: null
 {{< /base >}}
 
 {{< teaser prefix="" >}}
-從遞件、審核到領取金卡的整個作業時程**至少需要60個工作天**，若您已入境台灣，請注意所持簽證的停留時間是否足夠，若無法在期限內取得就業金卡，仍需要出境後再入境。
+從遞件、審核到領取金卡的整個作業時程**至少需要60個工作天**，若您已入境台灣，請注意所持簽證的停留時間是否足夠**(建議至少達60天)**，若無法在期限內取得就業金卡，仍需要出境後再入境。
 {{< /teaser >}}
 
 ![就業金卡申請流程圖](/cms-uploads/流程圖-01.png)

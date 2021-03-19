@@ -5,9 +5,9 @@ summary: Applying for the Taiwan Employment Gold Card is not difficult. We have
 draft: false
 media_image_alt: null
 date: 2020-11-05T07:09:20.617Z
-topic: goldcard
-chatbot: true
 title: One Page Application Process
+chatbot: true
+topic: goldcard
 tags: null
 style: title
 cover_image: null
