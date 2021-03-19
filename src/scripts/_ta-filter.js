@@ -13,7 +13,6 @@ window.taFilter = function () {
                         this.index = response;
                         this.initialized = true;
                         this.resetResult();
-                        this.setFocus()
                     })
                     .catch((error) => {
                         console.warn(error);
@@ -25,7 +24,6 @@ window.taFilter = function () {
                         this.index = json;
                         this.initialized = true;
                         this.resetResult();
-                        this.setFocus()
                     })
                     .catch((error) => {
                         console.warn(error);
@@ -42,7 +40,7 @@ window.taFilter = function () {
         },
         resetFilter() {
             this.filter = '';
-            document.getElementById('filter').focus();
+            // document.getElementById('filter').focus();
         },
         findContent() {
             var result = [];
@@ -61,11 +59,12 @@ window.taFilter = function () {
             });
             this.result = result;
         },
-        setFocus() {
-            setTimeout(() => {
-                this.$refs.input.focus();
-            }, 200);
-        },
+        // NOT USED BECAUSE OF ACCESSIBILITY ISSUES
+        // setFocus() {
+        //     setTimeout(() => {
+        //         this.$refs.input.focus();
+        //     }, 200);
+        // },
         resetResult() {
             var result = [];
             for (let index = 0; index < this.index.length; index++) {

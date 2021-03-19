@@ -632,8 +632,6 @@ window.taFilter = function () {
           _this.initialized = true;
 
           _this.resetResult();
-
-          _this.setFocus();
         })["catch"](function (error) {
           console.warn(error);
         });
@@ -645,8 +643,6 @@ window.taFilter = function () {
           _this.initialized = true;
 
           _this.resetResult();
-
-          _this.setFocus();
         })["catch"](function (error) {
           console.warn(error);
         });
@@ -664,8 +660,7 @@ window.taFilter = function () {
       });
     },
     resetFilter: function resetFilter() {
-      this.filter = '';
-      document.getElementById('filter').focus();
+      this.filter = ''; // document.getElementById('filter').focus();
     },
     findContent: function findContent() {
       var _this2 = this;
@@ -687,13 +682,12 @@ window.taFilter = function () {
       });
       this.result = result;
     },
-    setFocus: function setFocus() {
-      var _this3 = this;
-
-      setTimeout(function () {
-        _this3.$refs.input.focus();
-      }, 200);
-    },
+    // NOT USED BECAUSE OF ACCESSIBILITY ISSUES
+    // setFocus() {
+    //     setTimeout(() => {
+    //         this.$refs.input.focus();
+    //     }, 200);
+    // },
     resetResult: function resetResult() {
       var result = [];
 
