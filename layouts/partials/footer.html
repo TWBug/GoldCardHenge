@@ -40,9 +40,9 @@
             </div>
             <div class="flex flex-wrap sm:flex-no-wrap text-white print:text-black">
                 <div class="w-full sm:w-1/3 flex-shrink-0 mr-8 mb-6 sm:mb-0">
-                    <h2 class="font-semibold text-xs">
+                    <div class="font-semibold text-xs">
                     {{ i18n "footer_description" }}
-                    </h2>
+                    </div>
                     <div class="my-4">
                         <a href="{{ .Site.Language.Params.linkedin}}" class="inline-block focus-white" target="_blank"  title="{{ i18n "open_in_new_window"}}" rel="noopener">
                             {{ $linkedin_icon := resources.Get "img/icons/linkedin-white.svg" }}
@@ -50,7 +50,7 @@
                         </a>
                     </div>
                     {{ $helpdesk := .Site.GetPage "/help-desk" }}
-                    <h3 class="font-semibold uppercase text-sm mb-1">{{ i18n "footer_help_headline" }}</h3>
+                    <div class="font-semibold uppercase text-sm mb-1">{{ i18n "footer_help_headline" }}</div>
                     <p class="font-medium text-xs">
                         {{ i18n "footer_help_description" }}
                     </p>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="flex-grow grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 text-xs font-regular">
                     <div class="">
-                        <h3 class="font-semibold uppercase text-sm mb-1">{{ i18n "footer_languages_title" }}</h3>
+                        <div class="font-semibold uppercase text-sm mb-1">{{ i18n "footer_languages_title" }}</div>
                         <ul class="flex flex-wrap items-center mb-4 -ml-2" x-data="taLanguage()">
                             {{ range .Site.Languages }}
                                 {{ $language := .Lang }}
@@ -112,7 +112,7 @@
                                 {{ end }}
                             {{ end }}
                         </ul>
-                        <h3 class="font-semibold uppercase text-sm mb-1">{{ i18n "goldcard" }}</h3>
+                        <div class="font-semibold uppercase text-sm mb-1">{{ i18n "goldcard" }}</div>
                         <ul class="-ml-2">
                             {{ range $goldcard_links }}
                             {{ with $.Site.GetPage .link }}
@@ -126,12 +126,12 @@
                         </ul>
                     </div>
                     <div class="">
-                        <h3 class="font-semibold uppercase text-sm mb-1">
+                        <div class="font-semibold uppercase text-sm mb-1">
                             {{ $whytaiwan := .Site.GetPage "/why-taiwan" }}
                             <a href="{{ $whytaiwan.RelPermalink }}" class="focus-white">
                                 {{ i18n "why_taiwan" }}
                             </a>
-                        </h3>
+                        </div>
                         <ul class="flex flex-wrap items-center mb-4 -ml-2">
                             {{ range .Site.Taxonomies.topics }}
                             <li>
@@ -145,7 +145,7 @@
                             </li>
                             {{ end }}
                         </ul>
-                        <h3 class="font-semibold uppercase text-sm mb-1">{{ i18n "other" }}</h3>
+                        <div class="font-semibold uppercase text-sm mb-1">{{ i18n "other" }}</div>
                         <ul class="flex flex-wrap items-center mb-4 -ml-2">
                             {{ $events := .Site.GetPage "/events" }}
                             <li>
@@ -168,7 +168,7 @@
                         </ul>
                     </div>
                     <div class="">
-                        <h3 class="font-semibold uppercase text-sm mb-1">{{ i18n "faq" }}</h3>
+                        <div class="font-semibold uppercase text-sm mb-1">{{ i18n "faq" }}</div>
                         <ul class="flex flex-wrap items-center mb-4 -ml-2">
                             {{ range .Site.Taxonomies.tags }}
                             <li>
@@ -182,9 +182,9 @@
                             </li>
                             {{ end }}
                         </ul>
-                        <h3 class="font-semibold uppercase text-sm mb-1">
+                        <div class="font-semibold uppercase text-sm mb-1">
                             {{ i18n "resources" }}
-                        </h3>
+                        </div>
                         <ul class="flex flex-wrap items-center -ml-2">
                         {{ range $resources_links }}
                         {{ with $.Site.GetPage .link }}
@@ -199,7 +199,7 @@
 
                     </div>
                     <div class="">
-                        <h3 class="font-semibold uppercase text-sm mb-1">{{ i18n "legal" }}</h3>
+                        <div class="font-semibold uppercase text-sm mb-1">{{ i18n "legal" }}</div>
                         <ul class="-ml-2">
                             {{ $legal := .Site.GetPage "/legal" }}
                             {{ range $legal.RegularPages }}
