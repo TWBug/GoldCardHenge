@@ -248,6 +248,8 @@
   translation: '謝謝。 我們將聯繫！'
 - id: noscript_home_map_info
   translation: '使用激活的javascript，您將看到有關Gold Card社區的更多詳細信息，一些成員來自何處以及他們的工作。'
+- id: noscript_search_info
+  translation: '激活javascript以使用站點搜索'
 - id: goto_first_page
   translation: '轉到第一頁'
 - id: goto_previous_page

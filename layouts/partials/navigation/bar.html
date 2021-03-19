@@ -56,7 +56,14 @@
 <div class="flex lg:hidden">
     <div class="flex">
         <button type="button" data-cy="show-search" x-data="taSearchTrigger()" x-init="init('mobile')" @click="show()"  class="px-4 focus:bg-white focus:text-nav-start" >
-            <span class="sr-only">{{ i18n "placeholder_search" }}</span>
+            <span class="sr-only">
+                {{ i18n "placeholder_search" }}
+            </span>
+            <noscript>
+                <span class="text-xs font-medium pl-1">
+                    {{ i18n "noscript_search_info" }}
+                </span>
+            </noscript>
             {{ partial "icon" (dict "name" "search" "size" "8") }}
         </button>
     </div>

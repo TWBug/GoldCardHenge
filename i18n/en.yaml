@@ -252,6 +252,8 @@
   translation: 'Thank you. We will be in touch!'
 - id: noscript_home_map_info
   translation: 'With activated javascript you would see more details about the Gold Card Community, were some members are from and what they do.'
+- id: noscript_search_info
+  translation: 'Activate javascript to use the site search'
 - id: goto_first_page
   translation: 'Go to first page'
 - id: goto_previous_page

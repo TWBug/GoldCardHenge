@@ -20,6 +20,11 @@
         <span class="font-bold ml-2 uppercase">
             {{ i18n "placeholder_search" }}
         </span>
+        <noscript>
+            <span class="text-xs font-medium pl-1">
+                {{ i18n "noscript_search_info" }}
+            </span>
+        </noscript>
     </button>
     <div class="flex items-center uppercase border-r border-white border-opacity-25" x-data="taLanguage()" x-init="init()">
         {{ range .Site.Languages }}
