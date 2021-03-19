@@ -1,4 +1,4 @@
 {{/*  DONE registerEditorComponent netlify  */}}
 <div class="border-t-2 border-b-2 border-secondary border-dashed font-medium text-secondary text-center italic -ml-4 -mr-4 mb-12 mt-8 py-4 px-8">
-    {{ .Inner | markdownify }}
+    {{ .Inner | .Page.RenderString  }}
 </div>
