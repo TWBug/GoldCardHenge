@@ -23,8 +23,9 @@ cover_image_alt: Test alt
 
 {{< accordion title="Applicant previously or currently holding a position at a technology company or in technological fields...with a most recent monthly salary of at least NTD 160,000." suffix="1." bottomless="true" >}}
 Please attach all of the following documents:
-- Documents verifying salary or income tax payment relating to employment at a technology company or in a technological field [Note 1](#note-1)
-- Personal curriculum vitae and document verifying domestic or foreign service relating to employment at a technology company or in a technological field
+
+* Documents verifying salary or income tax payment relating to employment at a technology company or in a technological field [Note 1](#note-1)
+* Personal curriculum vitae and document verifying domestic or foreign service relating to employment at a technology company or in a technological field. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Those with unique talents or outstanding R&D ability or innovation performances…" suffix="2." bottomless="true" >}}
@@ -169,22 +170,22 @@ Document explaining the applicant's expertise or experience (such as a domestic 
 {{< /note >}}
 
 {{< note title="2.1a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="2.2a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="3.1a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="3.2a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
@@ -194,36 +195,36 @@ Document explaining the applicant's expertise or experience (such as a domestic 
 {{< /note >}}
 
 {{< note title="6.1a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="6.2a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="7.1a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least four years.
 {{< /note >}}
 
 {{< note title="7.2a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="8.1a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="8.2a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="9" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service.
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
