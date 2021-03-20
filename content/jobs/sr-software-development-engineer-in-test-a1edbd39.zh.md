@@ -26,4 +26,4 @@ badges:
 
 ---
 
-【 About the role 】 Tomofun 是一間自行研發創新 IoT 產品的新創寵物科技公司，我們的產品同時橫跨 Mobile app、IoT、Cloud service、AI 等不同領域．QA 團隊的職責含括產品的測試與規劃，與開發團隊一同規劃與實施產品發布，監控全球超過70萬線上產品的品質，分析問題與除錯，與專業的 PM 團隊一起完成 User validation 並實現嶄新的功能。歡迎加入 Tomofun，挑戰自己，與團隊一起快速成長！ 【 About the company 】 Tomofun是一間國際化的寵物科技新創公司，由Victor Chang及Maggie Cheung共同成立，並由趨勢科技創辦人Steve作為Mentor，運用最先進的技術-IoT物聯網、AI人工智慧、雲端大數據等，致力於帶給全世界寵物飼主源源不絕的歡樂與創新！ Furbo丟零食狗狗攝影機是我們推出的第一個革命性產品，讓飼主透過手機隨時與狗狗遠端互動��還能進一步追蹤和分析狗狗的行為，真正實踐寵物就是家人，永遠緊緊相依的願景。Furbo不只在台灣受注目，於全球十個國家的Amazon平台上更都
+【 About the role 】 Tomofun 是一間自行研發創新 IoT 產品的新創寵物科技公司，我們的產品同時橫跨 Mobile app、IoT、Cloud service、AI 等不同領域．QA 團隊的職責含括產品的測試與規劃，與開發團隊一同規劃與實施產品發布，監控全球超過70萬線上產品的品質，分析問題與除錯，與專業的 PM 團隊一起完成 User validation 並實現嶄新的功能。歡迎加入 Tomofun，挑戰自己，與團隊一起快速成長！ 【 About the company 】 Tomofun是一間國際化的寵物科技新創公司，由Victor Chang及Maggie Cheung共同成立，並由趨勢科技創辦人Steve作為Mentor，運用最先進的技術-IoT物聯網、AI人工智慧、雲端大數據等，致力於帶給全世界寵物飼主源源不絕的歡樂與創新！ Furbo丟零食狗狗攝影機是我們推出的第一個革命性產品，讓飼主透過手機隨時與狗狗遠端互動，還能進一步追蹤和分析狗狗的行為，真正實踐寵物就是家人，永遠緊緊相依的願景。Furbo不只在台灣受注目，於全球十個國家的Amazon平台上更都
