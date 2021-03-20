@@ -293,7 +293,7 @@ CMS.registerEditorComponent({
     // NOTE: It's EXTREMELY(!) important that the pattern begins with ^,
     // otherwise shortcode patterns will conflict with each other. See:
     // https://github.com/netlify/netlify-cms/issues/3328#issuecomment-591234910
-    pattern: /^{{< quote >}}\n([\s\S]+?)\n{{< \/quote >}}/,
+    pattern: /^{{< quote >}}\n?([\s\S]+?)\n?{{< \/quote >}}/,
 
     // Given the match object for the above regex, return the relevant data shape
     fromBlock: function (match) {
@@ -324,7 +324,7 @@ CMS.registerEditorComponent({
         { name: 'prefix', label: 'Prefix 字首', widget: 'nested-string', required: false },
         { name: 'body', label: 'Teaser Text', widget: 'markdown' },
     ],
-    pattern: /^{{< teaser prefix="(.*?)" >}}\n([\s\S]+?)\n{{< \/teaser >}}/,
+    pattern: /^{{< teaser prefix="(.*?)" >}}\n?([\s\S]+?)\n?{{< \/teaser >}}/,
     fromBlock: (match) => ({ prefix: match[1], body: match[2] }),
     toBlock: (obj) => {
         return `{{< teaser prefix="${Props.escape(obj.prefix)}" >}}\n${
@@ -413,7 +413,7 @@ CMS.registerEditorComponent({
         { name: 'button', label: 'Button', widget: 'nested-string', required: true },
         { name: 'body', label: 'Text', widget: 'markdown' },
     ],
-    pattern: /^{{< action headline="(.+)" href="(.*)" blank="(.*)" button="(.*)" >}}\n([\s\S]+?)\n{{< \/action >}}/,
+    pattern: /^{{< action headline="(.+)" href="(.*)" blank="(.*)" button="(.*)" >}}\n?([\s\S]+?)\n?{{< \/action >}}/,
     fromBlock: (match) => {
         return {
             headline: match[1],
@@ -482,7 +482,7 @@ CMS.registerEditorComponent({
         { name: 'image', label: 'Image', widget: 'image', required: false },
         { name: 'body', label: 'Text', widget: 'markdown' },
     ],
-    pattern: /^{{< card title="(.+)" link="(.*)" image="(.*)" >}}\n([\s\S]+?)\n{{< \/card >}}/,
+    pattern: /^{{< card title="(.+)" link="(.*)" image="(.*)" >}}\n?([\s\S]+?)\n?{{< \/card >}}/,
     fromBlock: (match) => {
         return { title: match[1], link: match[2], image: match[3], body: match[4] };
     },
@@ -546,7 +546,7 @@ CMS.registerEditorComponent({
             widget: 'markdown',
         },
     ],
-    pattern: /^{{< note title="(.+)" >}}\n([\s\S]+?)\n{{< \/note >}}/,
+    pattern: /^{{< note title="(.+)" >}}\n?([\s\S]+?)\n?{{< \/note >}}/,
     fromBlock: function fromBlock(match) {
         return {
             title: match[1],
@@ -585,7 +585,7 @@ CMS.registerEditorComponent({
             widget: 'markdown',
         },
     ],
-    pattern: /^{{< message style="(.+)" >}}\n([\s\S]+?)\n{{< \/message >}}/,
+    pattern: /^{{< message style="(.*)" >}}\n?([\s\S]+?)\n?{{< \/message >}}/,
     fromBlock: function fromBlock(match) {
         return {
             style: match[1],
@@ -633,7 +633,7 @@ CMS.registerEditorComponent({
             widget: 'markdown',
         },
     ],
-    pattern: /^{{< base >}}\n([\s\S]+?)\n{{< \/base >}}/,
+    pattern: /^{{< base >}}\n?([\s\S]+?)\n?{{< \/base >}}/,
     fromBlock: function fromBlock(match) {
         return {
             body: match[1],
@@ -677,7 +677,7 @@ CMS.registerEditorComponent({
         },
         { name: 'body', label: 'Text', widget: 'markdown' },
     ],
-    pattern: /^{{< color color="(.*?)" >}}\n([\s\S]+?)\n{{< \/color >}}/,
+    pattern: /^{{< color color="(.*?)" >}}\n?([\s\S]+?)\n?{{< \/color >}}/,
     fromBlock: (match) => {
         return { color: match[1], body: match[2] };
     },
@@ -731,7 +731,7 @@ CMS.registerEditorComponent({
         },
     ],
 
-    pattern: /^{{< gallery (.*?)\s?>}}\n([\s\S]+?)\n{{< \/gallery >}}/,
+    pattern: /^{{< gallery (.*?)\s?>}}\n?([\s\S]+?)\n?{{< \/gallery >}}/,
 
     fromBlock: function fromBlock(match) {
         const re = /^{{< gallery-image (.+)\s*>}}/; // @note Do NOT use the `g` flag while matching with regex. Will fail, JS quirk.
