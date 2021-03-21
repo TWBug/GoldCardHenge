@@ -163,7 +163,7 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
       }, this.props), /*#__PURE__*/React.createElement(Button, {
         onClick: function onClick(e) {
           e.preventDefault();
-          console.log('deploy me!');
+          console.log('Deploy!');
         }
       }, "Deploy")));
     }

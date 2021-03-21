@@ -117,7 +117,7 @@ class DeploymentManager extends React.Component {
                     <Button
                         onClick={(e) => {
                             e.preventDefault();
-                            console.log('deploy me!');
+                            console.log('Deploy!');
                         }}
                     >
                         Deploy
