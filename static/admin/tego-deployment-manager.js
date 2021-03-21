@@ -102,6 +102,7 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
       show: false,
       loading: false
     };
+    _this.user = null;
     var styleTag = document.createElement('style'); // Need to put hover styles in an actual style tag
 
     styleTag.innerText = "\n        .tego-Button {\n            color: rgb(255, 255, 255);\n            background-color: rgb(121, 130, 145);\n        }\n        .tego-Button:hover {\n            color: rgb(255, 255, 255);\n            background-color: rgb(85, 90, 101);\n        }\n        ".trim();
@@ -133,7 +134,11 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
     value: function componentDidMount() {
       var _this2 = this;
 
-      document.head.appendChild(this.styleTag);
+      // User is a full github-user object, but most notable for our use is user.token
+      this.user = JSON.parse(localStorage.getItem('netlify-cms-user'));
+      console.log("[Deployment Manager] Authenciated as ".concat(this.user.email)); // Append styles
+
+      document.head.appendChild(this.styleTag); // Display or hide the button based on route
 
       var fn = function fn() {
         var headerControls = document.querySelector('[class*="AppHeaderActions"]');
@@ -179,7 +184,7 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
             method: 'POST',
             headers: {
               Accept: 'application/vnd.github.v3+json',
-              Authorization: "token ".concat(_this3.props.user.token),
+              Authorization: "token ".concat(_this3.user.token),
               'Content-Type': 'application/json; charset=utf-8'
             },
             body: JSON.stringify({
@@ -238,15 +243,10 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
 }(React.Component);
 
 try {
-  // User is a full github-user object, but most notable for our use is user.token
-  var user = JSON.parse(localStorage.getItem('netlify-cms-user'));
-  console.log("[Deployment Manager] Authenciated as ".concat(user.email));
   var root = document.createElement('div');
   root.classList.add('DeploymentManager');
   document.body.appendChild(root);
-  ReactDOM.render( /*#__PURE__*/React.createElement(DeploymentManager, {
-    user: user
-  }), root);
+  ReactDOM.render( /*#__PURE__*/React.createElement(DeploymentManager, null), root);
 } catch (err) {
   console.warn(err);
 }

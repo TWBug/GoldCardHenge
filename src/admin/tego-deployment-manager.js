@@ -56,6 +56,8 @@ class DeploymentManager extends React.Component {
             loading: false,
         };
 
+        this.user = null;
+
         const styleTag = document.createElement('style');
 
         // Need to put hover styles in an actual style tag
@@ -87,7 +89,14 @@ class DeploymentManager extends React.Component {
     }
 
     componentDidMount() {
+        // User is a full github-user object, but most notable for our use is user.token
+        this.user = JSON.parse(localStorage.getItem('netlify-cms-user'));
+        console.log(`[Deployment Manager] Authenciated as ${this.user.email}`);
+
+        // Append styles
         document.head.appendChild(this.styleTag);
+
+        // Display or hide the button based on route
         const fn = () => {
             const headerControls = document.querySelector('[class*="AppHeaderActions"]');
             if (headerControls) {
@@ -125,7 +134,7 @@ class DeploymentManager extends React.Component {
                     method: 'POST',
                     headers: {
                         Accept: 'application/vnd.github.v3+json',
-                        Authorization: `token ${this.props.user.token}`,
+                        Authorization: `token ${this.user.token}`,
                         'Content-Type': 'application/json; charset=utf-8',
                     },
                     body: JSON.stringify({
@@ -180,13 +189,10 @@ class DeploymentManager extends React.Component {
 }
 
 try {
-    // User is a full github-user object, but most notable for our use is user.token
-    const user = JSON.parse(localStorage.getItem('netlify-cms-user'));
-    console.log(`[Deployment Manager] Authenciated as ${user.email}`);
     const root = document.createElement('div');
     root.classList.add('DeploymentManager');
     document.body.appendChild(root);
-    ReactDOM.render(<DeploymentManager user={user} />, root);
+    ReactDOM.render(<DeploymentManager />, root);
 } catch (err) {
     console.warn(err);
 }
