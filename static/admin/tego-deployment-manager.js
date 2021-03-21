@@ -39,17 +39,23 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
  * we can merge into real prod. Ideally, you also get a warning if there are
  * changes in the CMS that have not yet been merged to master.
  */
+// @todo Replace with the actual prod branch, which is just prod
+var PROD_BRANCH = 'test-prod';
+
 var Button = function Button(props) {
   var _props$style = props.style,
       style = _props$style === void 0 ? {} : _props$style,
       _props$className = props.className,
       className = _props$className === void 0 ? '' : _props$className,
-      rest = _objectWithoutProperties(props, ["style", "className"]);
+      children = props.children,
+      rest = _objectWithoutProperties(props, ["style", "className", "children"]);
 
+  var svgHeight = 20;
   return /*#__PURE__*/React.createElement("button", _extends({
     className: ['tego-Button', className].join(' '),
     style: _objectSpread({
-      display: 'block',
+      display: 'flex',
+      alignItems: 'center',
       position: 'relative',
       border: '0px',
       cursor: 'pointer',
@@ -58,10 +64,27 @@ var Button = function Button(props) {
       fontSize: '12px',
       fontWeight: 600,
       borderRadius: '3px',
-      padding: '0px 24px 0px 14px',
+      padding: '0px 14px 0px 14px',
       marginRight: '8px'
     }, style)
-  }, rest));
+  }, rest), /*#__PURE__*/React.createElement("span", {
+    style: {
+      marginRight: 5
+    }
+  }, children), /*#__PURE__*/React.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 ".concat(svgHeight, " ").concat(svgHeight),
+    width: svgHeight,
+    height: svgHeight,
+    fill: "currentColor",
+    style: {
+      transform: 'scale(0.7)'
+    }
+  }, /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    d: "M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z",
+    clipRule: "evenodd"
+  })));
 };
 
 var DeploymentManager = /*#__PURE__*/function (_React$Component) {
@@ -76,7 +99,8 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
 
     _this = _super.call(this, props);
     _this.state = {
-      show: false
+      show: false,
+      loading: false
     };
     var styleTag = document.createElement('style'); // Need to put hover styles in an actual style tag
 
@@ -139,7 +163,51 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
+      var _this3 = this;
+
       if (!this.state.show) return null;
+
+      var handleDeploy = function handleDeploy(e) {
+        e.preventDefault();
+
+        if (window.confirm('Are you sure? If you confirm then the site will be deployed to goldcard.nat.gov.tw.')) {
+          _this3.setState({
+            loading: true
+          });
+
+          return fetch('https://api.github.com/repos/tego-tech/www/merges', {
+            method: 'POST',
+            headers: {
+              Accept: 'application/vnd.github.v3+json',
+              Authorization: "token ".concat(_this3.props.user.token),
+              'Content-Type': 'application/json; charset=utf-8'
+            },
+            body: JSON.stringify({
+              base: PROD_BRANCH,
+              head: 'master',
+              // Merge this branch into the base branch
+              commit_message: 'Merged via CMS'
+            })
+          }).then(function (res) {
+            if (res.status >= 300) {
+              return Promise.reject(res.text());
+            }
+
+            return res.json();
+          }).then(function (json) {
+            _this3.setState({
+              loading: false
+            });
+          })["catch"](function (err) {
+            _this3.setState({
+              loading: false
+            });
+
+            console.warn(err);
+          });
+        }
+      };
+
       return /*#__PURE__*/React.createElement("div", {
         style: {
           position: 'relative',
@@ -161,10 +229,7 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
           justifyContent: 'flex-end'
         }
       }, this.props), /*#__PURE__*/React.createElement(Button, {
-        onClick: function onClick(e) {
-          e.preventDefault();
-          console.log('Deploy!');
-        }
+        onClick: handleDeploy
       }, "Deploy")));
     }
   }]);
@@ -173,10 +238,15 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
 }(React.Component);
 
 try {
+  // User is a full github-user object, but most notable for our use is user.token
+  var user = JSON.parse(localStorage.getItem('netlify-cms-user'));
+  console.log("[Deployment Manager] Authenciated as ".concat(user.email));
   var root = document.createElement('div');
   root.classList.add('DeploymentManager');
   document.body.appendChild(root);
-  ReactDOM.render( /*#__PURE__*/React.createElement(DeploymentManager, null), root);
+  ReactDOM.render( /*#__PURE__*/React.createElement(DeploymentManager, {
+    user: user
+  }), root);
 } catch (err) {
   console.warn(err);
 }

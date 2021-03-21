@@ -4,13 +4,18 @@
  * changes in the CMS that have not yet been merged to master.
  */
 
+// @todo Replace with the actual prod branch, which is just prod
+const PROD_BRANCH = 'test-prod';
+
 const Button = (props) => {
-    const { style = {}, className = '', ...rest } = props;
+    const { style = {}, className = '', children, ...rest } = props;
+    const svgHeight = 20;
     return (
         <button
             className={['tego-Button', className].join(' ')}
             style={{
-                display: 'block',
+                display: 'flex',
+                alignItems: 'center',
                 position: 'relative',
                 border: '0px',
                 cursor: 'pointer',
@@ -19,12 +24,28 @@ const Button = (props) => {
                 fontSize: '12px',
                 fontWeight: 600,
                 borderRadius: '3px',
-                padding: '0px 24px 0px 14px',
+                padding: '0px 14px 0px 14px',
                 marginRight: '8px',
                 ...style,
             }}
             {...rest}
-        ></button>
+        >
+            <span style={{ marginRight: 5 }}>{children}</span>
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox={`0 0 ${svgHeight} ${svgHeight}`}
+                width={svgHeight}
+                height={svgHeight}
+                fill="currentColor"
+                style={{ transform: 'scale(0.7)' }}
+            >
+                <path
+                    fillRule="evenodd"
+                    d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                    clipRule="evenodd"
+                />
+            </svg>
+        </button>
     );
 };
 class DeploymentManager extends React.Component {
@@ -32,6 +53,7 @@ class DeploymentManager extends React.Component {
         super(props);
         this.state = {
             show: false,
+            loading: false,
         };
 
         const styleTag = document.createElement('style');
@@ -91,6 +113,42 @@ class DeploymentManager extends React.Component {
 
     render() {
         if (!this.state.show) return null;
+        const handleDeploy = (e) => {
+            e.preventDefault();
+            if (
+                window.confirm(
+                    'Are you sure? If you confirm then the site will be deployed to goldcard.nat.gov.tw.'
+                )
+            ) {
+                this.setState({ loading: true });
+                return fetch('https://api.github.com/repos/tego-tech/www/merges', {
+                    method: 'POST',
+                    headers: {
+                        Accept: 'application/vnd.github.v3+json',
+                        Authorization: `token ${this.props.user.token}`,
+                        'Content-Type': 'application/json; charset=utf-8',
+                    },
+                    body: JSON.stringify({
+                        base: PROD_BRANCH,
+                        head: 'master', // Merge this branch into the base branch
+                        commit_message: 'Merged via CMS',
+                    }),
+                })
+                    .then((res) => {
+                        if (res.status >= 300) {
+                            return Promise.reject(res.text());
+                        }
+                        return res.json();
+                    })
+                    .then((json) => {
+                        this.setState({ loading: false });
+                    })
+                    .catch((err) => {
+                        this.setState({ loading: false });
+                        console.warn(err);
+                    });
+            }
+        };
         return (
             <div
                 style={{
@@ -114,14 +172,7 @@ class DeploymentManager extends React.Component {
                     }}
                     {...this.props}
                 >
-                    <Button
-                        onClick={(e) => {
-                            e.preventDefault();
-                            console.log('Deploy!');
-                        }}
-                    >
-                        Deploy
-                    </Button>
+                    <Button onClick={handleDeploy}>Deploy</Button>
                 </div>
             </div>
         );
@@ -129,10 +180,13 @@ class DeploymentManager extends React.Component {
 }
 
 try {
+    // User is a full github-user object, but most notable for our use is user.token
+    const user = JSON.parse(localStorage.getItem('netlify-cms-user'));
+    console.log(`[Deployment Manager] Authenciated as ${user.email}`);
     const root = document.createElement('div');
     root.classList.add('DeploymentManager');
     document.body.appendChild(root);
-    ReactDOM.render(<DeploymentManager />, root);
+    ReactDOM.render(<DeploymentManager user={user} />, root);
 } catch (err) {
     console.warn(err);
 }
