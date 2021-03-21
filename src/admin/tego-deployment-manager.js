@@ -7,6 +7,24 @@
 // @todo Replace with the actual prod branch, which is just prod
 const PROD_BRANCH = 'test-prod';
 
+const TextSpinner = (props) => {
+    const [dots, setDots] = React.useState('');
+    React.useEffect(() => {
+        const interval = setInterval(() => {
+            const nextLength = (dots.length % 3) + 1;
+            setDots(
+                Array.from({ length: nextLength })
+                    .map(() => '.')
+                    .join('')
+            );
+        }, 200);
+        return () => {
+            clearInterval(interval);
+        };
+    });
+    return <span {...props}>Loading{dots}</span>;
+};
+
 const Button = (props) => {
     const { style = {}, className = '', children, ...rest } = props;
     const svgHeight = 20;
@@ -158,6 +176,7 @@ class DeploymentManager extends React.Component {
                     });
             }
         };
+        const { loading } = this.state;
         return (
             <div
                 style={{
@@ -181,7 +200,19 @@ class DeploymentManager extends React.Component {
                     }}
                     {...this.props}
                 >
-                    <Button onClick={handleDeploy}>Deploy</Button>
+                    <Button
+                        onClick={handleDeploy}
+                        disabled={loading}
+                        style={{ opacity: loading ? 0.6 : 1 }}
+                    >
+                        {loading ? (
+                            <TextSpinner
+                                style={{ width: 60, textAlign: 'left', display: 'block' }}
+                            />
+                        ) : (
+                            'Deploy'
+                        )}
+                    </Button>
                 </div>
             </div>
         );

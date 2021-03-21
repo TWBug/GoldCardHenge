@@ -34,6 +34,18 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
 
 function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 /**
  * We want to click button, merge master -> test-prod. Once we know it's working
  * we can merge into real prod. Ideally, you also get a warning if there are
@@ -41,6 +53,28 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
  */
 // @todo Replace with the actual prod branch, which is just prod
 var PROD_BRANCH = 'test-prod';
+
+var TextSpinner = function TextSpinner(props) {
+  var _React$useState = React.useState(''),
+      _React$useState2 = _slicedToArray(_React$useState, 2),
+      dots = _React$useState2[0],
+      setDots = _React$useState2[1];
+
+  React.useEffect(function () {
+    var interval = setInterval(function () {
+      var nextLength = dots.length % 3 + 1;
+      setDots(Array.from({
+        length: nextLength
+      }).map(function () {
+        return '.';
+      }).join(''));
+    }, 200);
+    return function () {
+      clearInterval(interval);
+    };
+  });
+  return /*#__PURE__*/React.createElement("span", props, "Loading", dots);
+};
 
 var Button = function Button(props) {
   var _props$style = props.style,
@@ -213,6 +247,7 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
         }
       };
 
+      var loading = this.state.loading;
       return /*#__PURE__*/React.createElement("div", {
         style: {
           position: 'relative',
@@ -234,8 +269,18 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
           justifyContent: 'flex-end'
         }
       }, this.props), /*#__PURE__*/React.createElement(Button, {
-        onClick: handleDeploy
-      }, "Deploy")));
+        onClick: handleDeploy,
+        disabled: loading,
+        style: {
+          opacity: loading ? 0.6 : 1
+        }
+      }, loading ? /*#__PURE__*/React.createElement(TextSpinner, {
+        style: {
+          width: 60,
+          textAlign: 'left',
+          display: 'block'
+        }
+      }) : 'Deploy')));
     }
   }]);
 
