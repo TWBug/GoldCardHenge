@@ -34,12 +34,20 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
 
 function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
+/**
+ * We want to click button, merge master -> test-prod. Once we know it's working
+ * we can merge into real prod. Ideally, you also get a warning if there are
+ * changes in the CMS that have not yet been merged to master.
+ */
 var Button = function Button(props) {
   var _props$style = props.style,
       style = _props$style === void 0 ? {} : _props$style,
-      rest = _objectWithoutProperties(props, ["style"]);
+      _props$className = props.className,
+      className = _props$className === void 0 ? '' : _props$className,
+      rest = _objectWithoutProperties(props, ["style", "className"]);
 
   return /*#__PURE__*/React.createElement("button", _extends({
+    className: ['tego-Button', className].join(' '),
     style: _objectSpread({
       display: 'block',
       position: 'relative',
@@ -51,8 +59,6 @@ var Button = function Button(props) {
       fontWeight: 600,
       borderRadius: '3px',
       padding: '0px 24px 0px 14px',
-      backgroundColor: 'rgb(121, 130, 145)',
-      color: 'rgb(255, 255, 255)',
       marginRight: '8px'
     }, style)
   }, rest));
@@ -71,7 +77,11 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
     _this = _super.call(this, props);
     _this.state = {
       show: false
-    }; // Only show this control if we are on the "home page" layout, where the
+    };
+    var styleTag = document.createElement('style'); // Need to put hover styles in an actual style tag
+
+    styleTag.innerText = "\n        .tego-Button {\n            color: rgb(255, 255, 255);\n            background-color: rgb(121, 130, 145);\n        }\n        .tego-Button:hover {\n            color: rgb(255, 255, 255);\n            background-color: rgb(85, 90, 101);\n        }\n        ".trim();
+    _this.styleTag = styleTag; // Only show this control if we are on the "home page" layout, where the
     // header lines up with the appropriate built-in controls.
 
     _this.handleRouteChange = function (e) {
@@ -99,33 +109,47 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
     value: function componentDidMount() {
       var _this2 = this;
 
+      document.head.appendChild(this.styleTag);
+
       var fn = function fn() {
         var headerControls = document.querySelector('[class*="AppHeaderActions"]');
 
         if (headerControls) {
-          _this2.targetBox = headerControls.getBoundingClientRect();
+          _this2.targetBox = headerControls.getBoundingClientRect(); // Call the handler once to determine whether or not to show these
+          // controls on the current route. Without this deep linking to a subpage
+          // will still show the controls.
 
-          _this2.setState({
-            show: true
+          _this2.handleRouteChange({
+            newURL: window.location.href
           });
         } else {
-          _this2.to = setTimeout(fn, 1000);
+          _this2.timeout = setTimeout(fn, 1000);
         }
       };
 
       window.addEventListener('hashchange', this.handleRouteChange);
-      this.to = setTimeout(fn, 1000);
+      this.timeout = setTimeout(fn, 1000);
     }
   }, {
     key: "componentWillUnmount",
     value: function componentWillUnmount() {
-      if (this.to) clearTimeout(this.to);
+      if (this.timeout) clearTimeout(this.timeout);
+      document.head.removeChild(this.styleTag);
     }
   }, {
     key: "render",
     value: function render() {
       if (!this.state.show) return null;
-      return /*#__PURE__*/React.createElement("div", _extends({
+      return /*#__PURE__*/React.createElement("div", {
+        style: {
+          position: 'relative',
+          minWidth: '800px',
+          maxWidth: '1440px',
+          padding: '0px 12px',
+          margin: '0px auto',
+          zIndex: 999
+        }
+      }, /*#__PURE__*/React.createElement("div", _extends({
         style: {
           position: 'absolute',
           top: this.targetBox.top,
@@ -134,14 +158,14 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
           // height of header
           display: 'flex',
           alignItems: 'center',
-          zIndex: 999
+          justifyContent: 'flex-end'
         }
       }, this.props), /*#__PURE__*/React.createElement(Button, {
         onClick: function onClick(e) {
           e.preventDefault();
           console.log('deploy me!');
         }
-      }, "Deploy"));
+      }, "Deploy")));
     }
   }]);
 

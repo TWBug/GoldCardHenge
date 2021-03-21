@@ -1,7 +1,14 @@
+/**
+ * We want to click button, merge master -> test-prod. Once we know it's working
+ * we can merge into real prod. Ideally, you also get a warning if there are
+ * changes in the CMS that have not yet been merged to master.
+ */
+
 const Button = (props) => {
-    const { style = {}, ...rest } = props;
+    const { style = {}, className = '', ...rest } = props;
     return (
         <button
+            className={['tego-Button', className].join(' ')}
             style={{
                 display: 'block',
                 position: 'relative',
@@ -13,8 +20,6 @@ const Button = (props) => {
                 fontWeight: 600,
                 borderRadius: '3px',
                 padding: '0px 24px 0px 14px',
-                backgroundColor: 'rgb(121, 130, 145)',
-                color: 'rgb(255, 255, 255)',
                 marginRight: '8px',
                 ...style,
             }}
@@ -28,6 +33,22 @@ class DeploymentManager extends React.Component {
         this.state = {
             show: false,
         };
+
+        const styleTag = document.createElement('style');
+
+        // Need to put hover styles in an actual style tag
+        styleTag.innerText = `
+        .tego-Button {
+            color: rgb(255, 255, 255);
+            background-color: rgb(121, 130, 145);
+        }
+        .tego-Button:hover {
+            color: rgb(255, 255, 255);
+            background-color: rgb(85, 90, 101);
+        }
+        `.trim();
+
+        this.styleTag = styleTag;
 
         // Only show this control if we are on the "home page" layout, where the
         // header lines up with the appropriate built-in controls.
@@ -44,23 +65,28 @@ class DeploymentManager extends React.Component {
     }
 
     componentDidMount() {
+        document.head.appendChild(this.styleTag);
         const fn = () => {
             const headerControls = document.querySelector('[class*="AppHeaderActions"]');
             if (headerControls) {
                 this.targetBox = headerControls.getBoundingClientRect();
-                this.setState({ show: true });
+                // Call the handler once to determine whether or not to show these
+                // controls on the current route. Without this deep linking to a subpage
+                // will still show the controls.
+                this.handleRouteChange({ newURL: window.location.href });
             } else {
-                this.to = setTimeout(fn, 1000);
+                this.timeout = setTimeout(fn, 1000);
             }
         };
 
         window.addEventListener('hashchange', this.handleRouteChange);
 
-        this.to = setTimeout(fn, 1000);
+        this.timeout = setTimeout(fn, 1000);
     }
 
     componentWillUnmount() {
-        if (this.to) clearTimeout(this.to);
+        if (this.timeout) clearTimeout(this.timeout);
+        document.head.removeChild(this.styleTag);
     }
 
     render() {
@@ -68,24 +94,35 @@ class DeploymentManager extends React.Component {
         return (
             <div
                 style={{
-                    position: 'absolute',
-                    top: this.targetBox.top,
-                    right: this.targetBox.width + 20,
-                    height: 56, // height of header
-                    display: 'flex',
-                    alignItems: 'center',
+                    position: 'relative',
+                    minWidth: '800px',
+                    maxWidth: '1440px',
+                    padding: '0px 12px',
+                    margin: '0px auto',
                     zIndex: 999,
                 }}
-                {...this.props}
             >
-                <Button
-                    onClick={(e) => {
-                        e.preventDefault();
-                        console.log('deploy me!');
+                <div
+                    style={{
+                        position: 'absolute',
+                        top: this.targetBox.top,
+                        right: this.targetBox.width + 20,
+                        height: 56, // height of header
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'flex-end',
                     }}
+                    {...this.props}
                 >
-                    Deploy
-                </Button>
+                    <Button
+                        onClick={(e) => {
+                            e.preventDefault();
+                            console.log('deploy me!');
+                        }}
+                    >
+                        Deploy
+                    </Button>
+                </div>
             </div>
         );
     }
