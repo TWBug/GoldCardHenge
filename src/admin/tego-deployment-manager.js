@@ -169,6 +169,7 @@ class DeploymentManager extends React.Component {
                     })
                     .then((json) => {
                         this.setState({ loading: false });
+                        window.alert('Success!');
                     })
                     .catch((err) => {
                         this.setState({ loading: false });

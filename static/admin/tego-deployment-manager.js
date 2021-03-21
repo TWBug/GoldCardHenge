@@ -237,6 +237,8 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
             _this3.setState({
               loading: false
             });
+
+            window.alert('Success!');
           })["catch"](function (err) {
             _this3.setState({
               loading: false
