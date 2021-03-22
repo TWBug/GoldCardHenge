@@ -8,6 +8,7 @@
     "scripts": {
         "repl": "tsc && node --experimental-repl-await -r ./dist/repl.js",
         "develop": "npx gulp build",
+        "prestart": "npm run build:i18n",
         "start": "npm run gulp && concurrently 'hugo server' 'netlify-cms-proxy-server' 'npm run babel:admin -- --watch' 'npm run babel:js-misc -- --watch'",
         "gulp": "NODE_ENV=production npx gulp build",
         "build": "npm run gulp && npm run build:finder && npm run hugo",

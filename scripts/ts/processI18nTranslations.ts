@@ -28,6 +28,7 @@ if (require.main === module) {
 
     for (const [lang, data] of translations) {
         const outfile = path.join('i18n', `${lang}.yaml`);
+        fs.mkdirSync(path.dirname(outfile), { recursive: true });
         fs.writeFileSync(outfile, yaml.dump(data), { encoding: 'utf8' });
         console.log(`[INFO] Wrote ${outfile}`);
     }
