@@ -7,7 +7,7 @@ data_source_internal_id: '11033'
 title: 雲端工程師 Cloud Engineer
 job_url: 'https://www.cakeresume.com/companies/omnieyes/jobs/cloud-engineer-245fd2'
 date: 2019-06-11T03:14:10.143Z
-company_name: 動見科技 OmniEyes
+company_name: 動��科技 OmniEyes
 company_page_url: 'https://www.cakeresume.com/companies/omnieyes'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--XWynPM1q--/c_pad,fl_png8,h_200,w_200/v1615194351/cnooukbovmmzkplynmzg.png
