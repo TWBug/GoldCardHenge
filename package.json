@@ -17,6 +17,7 @@
         "build:ghlocal": "npm run babel && npm run hugo -- --environment gh-local",
         "build:finder": "(cd src/finder && npm run finder:build)",
         "build:jobs": "ts-node scripts/ts/populateJobDb.ts processJobLists",
+        "build:i18n": "ts-node scripts/ts/processI18nTranslations.ts",
         "build:jobs:stats": "ts-node scripts/ts/populateJobDb.ts getStats",
         "watch": "npx gulp watch",
         "lunr:index": "make lunr-index",
@@ -26,7 +27,7 @@
         "babel:admin": "babel --presets=@babel/preset-env,@babel/preset-react --out-dir ./static/admin src/admin",
         "babel:js-misc": "babel --presets=@babel/preset-env,@babel/preset-react --out-dir ./static/js-misc src/js-misc",
         "babel": "npm run babel:admin && npm run babel:js-misc",
-        "prehugo": "npm run babel && npm run lunr:index",
+        "prehugo": "npm run babel && npm run lunr:index && npm run build:i18n",
         "hugo": "hugo --gc -D --cleanDestinationDir --minify",
         "accessibility": "node ./src/accessibility/links > ./result-links.txt && node ./src/accessibility/images > ./result-images.txt && node ./src/accessibility/headlines > ./result-headlines.txt && node ./src/accessibility/buttons > ./result-buttons.txt && node ./src/accessibility/linktexts > ./result-linktexts.txt "
     },
