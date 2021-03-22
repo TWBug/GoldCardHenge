@@ -1,0 +1,865 @@
+en:
+  items:
+    - id: powered_by
+      translation: Powered by
+    - id: search
+      translation: Search
+    - id: change_language_to_zh
+      translation: 變更語言至中文
+    - id: change_language_to_en
+      translation: Change language to English
+    - id: click_to_see_more_details
+      translation: Click to get more details about
+    - id: click_to_hide_more_details
+      translation: "Click to hide more details "
+    - id: stop_animation
+      translation: Stop animation
+    - id: stopped_animation
+      translation: Animation stopped
+    - id: tego
+      translation: Taiwan Employment Gold Card Office
+    - id: tego_logo
+      translation: Logo Taiwan Employment Gold Card Office
+    - id: apply_now
+      translation: Apply now
+    - id: apply_now_text
+      translation: Taiwan Gold Card is your right choice!
+    - id: gold_card_members_map
+      translation: Gold Card Community Map
+    - id: home_image_alt
+      translation: Night view of Taipei 101
+    - id: latest_news
+      translation: Latest news
+    - id: latest_galleries
+      translation: Latest galleries
+    - id: reading_time
+      translation: "Reading time: %d minute(s)"
+    - id: read_more
+      translation: Read more
+    - id: show_answer
+      translation: Show answer
+    - id: show_all_galleries
+      translation: Show all galleries
+    - id: gallery_image_no
+      translation: "Image number "
+    - id: hide_answer
+      translation: Hide answer
+    - id: show_details
+      translation: Show details
+    - id: hide_details
+      translation: Hide details
+    - id: close
+      translation: Close
+    - id: open_in_new_window
+      translation: Opens a new window
+    - id: to_main_content
+      translation: Main Content
+    - id: show_navigation
+      translation: Show navigation
+    - id: hide_navigation
+      translation: Hide navigation
+    - id: contact
+      translation: Contact
+    - id: last_changed
+      translation: Last changed
+    - id: table_of_contents
+      translation: Table of contents
+    - id: categories
+      translation: Categories
+    - id: all_categories
+      translation: All categories
+    - id: tags
+      translation: Tags
+    - id: all_tags
+      translation: All Tags
+    - id: faq
+      translation: FAQ
+    - id: news
+      translation: News
+    - id: source
+      translation: Source
+    - id: job_listing_title
+      translation: Job listings
+    - id: job_listing_description
+      translation: Gold Card website combines and shows you a selection of job
+        offerings from several Taiwan job portals to give you an example of what
+        kind of professions are needed in Taiwan.
+    - id: job_listing_info
+      translation: Clicking on the link will open a new window with the job details on
+        an external website.
+    - id: news_category
+      translation: News category
+    - id: job_category
+      translation: Job category
+    - id: all_job_categories
+      translation: All job categories
+    - id: to_accupass_event
+      translation: Event Registration
+    - id: starts_at
+      translation: Starts at
+    - id: upcoming_events
+      translation: Upcoming events
+    - id: event_archive
+      translation: Past Events
+    - id: why_taiwan
+      translation: Why Taiwan
+    - id: resources
+      translation: Resources
+    - id: sections
+      translation: Sections
+    - id: topics
+      translation: Topics
+    - id: all_topics
+      translation: All topics
+    - id: more_fields_qualification
+      translation: More fields
+    - id: legal
+      translation: Legal
+    - id: goldcard
+      translation: Gold Card
+    - id: summary
+      translation: Summary
+    - id: latest_news
+      translation: Latest news
+    - id: all_news
+      translation: All news
+    - id: latest_events
+      translation: Latest events
+    - id: latest_articles
+      translation: Latest articles
+    - id: latest_faq
+      translation: Latest FAQ
+    - id: latest_faq_application
+      translation: Latest FAQ about the application process
+    - id: all_faq_application
+      translation: All FAQ about the application process
+    - id: all_events
+      translation: All events
+    - id: all_faq
+      translation: All faq
+    - id: open_new_window
+      translation: Open in new window
+    - id: show_details
+      translation: Show details
+    - id: back
+      translation: back
+    - id: reset_filter
+      translation: Reset filter
+    - id: loading_filter
+      translation: Loading filter
+    - id: placeholder_filter_faq_list
+      translation: Filter FAQ list
+    - id: no_filtered_faq_found
+      translation: No filtered FAQ found
+    - id: reset_search
+      translation: Reset search
+    - id: placeholder_search
+      translation: Search
+    - id: title_search
+      translation: Search inside of the Taiwan Employment Gold Card Office website
+    - id: title_submit
+      translation: Submit new help desk support ticket
+    - id: how_to_apply
+      translation: How to apply
+    - id: how_to_apply_copy
+      translation: Are you convinced that the Taiwan Employment Gold Card will be your
+        personal next step? Amazing - Start with your application now...
+    - id: since_2018
+      translation: Since 2018
+    - id: previous_step
+      translation: Previous Step
+    - id: start
+      translation: Start
+    - id: next_step
+      translation: Next step
+    - id: done
+      translation: Done
+    - id: all_finished
+      translation: All finished
+    - id: check_list
+      translation: Check list
+    - id: check_list_info
+      translation: Use your personal check list to make it easier for you to remember
+        if you have completed all steps of the application process.
+    - id: check_list_continue
+      translation: Continue with
+    - id: check_list_finished
+      translation: All finished
+    - id: check_info
+      translation: You can keep your personal check list up to date so it's easier to
+        remember which steps you have finished and what’s still on the list.
+    - id: check_remove_info
+      translation: "To remove your DONE you can click on:"
+    - id: check_remove_button
+      translation: remove check
+    - id: located
+      translation: Located
+    - id: timezone
+      translation: NST (+08:00)
+    - id: taipei_city_skyline
+      translation: Taipei City Skyline
+    - id: taipei_mountains
+      translation: Taipei Mountains
+    - id: taiwan_mountains
+      translation: Taiwan Mountains
+    - id: taiwan_landscape
+      translation: Taiwan Landscape
+    - id: taiwan_hummingbird
+      translation: Taiwan Hummingbird
+    - id: search_minimum
+      translation: Minimum of %s characters
+    - id: search_no_results
+      translation: No results
+    - id: footer_copyright
+      translation: Taiwan Employment Gold Card Office - All rights reserved
+    - id: footer_description
+      translation: The Taiwan Employment Gold Card is a combined open work permit,
+        residence permit and visa for skilled professionals.
+    - id: footer_help_headline
+      translation: Need help?
+    - id: footer_help_description
+      translation: Do you have any questions about the Gold Card? Questions about your
+        application or any other questions, concerns, and suggestions?
+    - id: footer_help_desk
+      translation: Get in touch with our
+    - id: footer_goldcard_title
+      translation: Gold-Card
+    - id: footer_languages_title
+      translation: Languages
+    - id: footer_legal_title
+      translation: Legal
+    - id: error_headline
+      translation: Page was not found
+    - id: error_description
+      translation: Sorry we can not find the page you were searching for.
+    - id: image_about
+      translation: Image about
+    - id: gold_card_community_member
+      translation: Gold Card community member
+    - id: link_linkedin_page
+      translation: Link to LinkedIn page
+    - id: contact_form_title
+      translation: Talk to us
+    - id: contact_form_submit
+      translation: Send question
+    - id: contact_form_message
+      translation: Thank you for your question
+    - id: contact_widget_banner
+      translation: Ask your question
+    - id: contact_widget_launcher
+      translation: Ask your question
+    - id: contact_widget_title
+      translation: Please enter your information
+    - id: contact_widget_submit
+      translation: Send
+    - id: contact_widget_confirmation
+      translation: Thank you, we got the message!
+    - id: contact_widget_frustration_banner
+      translation: Can we help?
+    - id: contact_widget_frustration_description
+      translation: We noticed that you are stuck. Tell us what you tried to accomplish
+        and our support team will get back to you as soon as possible.
+    - id: contact_widget_frustration_confirmation
+      translation: Thank you. We will be in touch!
+    - id: noscript_home_map_info
+      translation: With activated javascript you would see more details about the Gold
+        Card Community, were some members are from and what they do.
+    - id: noscript_search_info
+      translation: Activate javascript to use the site search
+    - id: goto_first_page
+      translation: Go to first page
+    - id: goto_previous_page
+      translation: Go to previous page
+    - id: goto_next_page
+      translation: Go to next page
+    - id: goto_last_page
+      translation: Go to last page
+    - id: goto_page
+      translation: Go to page
+    - id: goto_top
+      translation: Go to the top
+    - id: button_goto_to_top
+      translation: Scrolls up to the top
+    - id: only_gold_card
+      translation: Gold Card Holders Only
+    - id: undefined
+      translation: UNDEFINED
+    - id: card
+      translation: Card
+    - id: usa
+      translation: USA
+    - id: website
+      translation: Website
+    - id: facebook
+      translation: Facebook
+    - id: youtube
+      translation: YouTube
+    - id: instagram
+      translation: Instagram
+    - id: twitter
+      translation: Twitter
+    - id: linkedin
+      translation: LinkedIn
+    - id: application
+      translation: Application
+    - id: general
+      translation: General
+    - id: qualification
+      translation: Qualification
+    - id: renewal--validity
+      translation: Renewal & Validity
+    - id: tax
+      translation: Tax
+    - id: national-health-insurance
+      translation: National Health Insurance
+    - id: discover-taiwan
+      translation: Discover Taiwan
+    - id: industry-information
+      translation: Industry information
+    - id: other
+      translation: Other
+    - id: gold-card-policy
+      translation: Gold Card Policy
+    - id: announcement
+      translation: Announcement
+    - id: about
+      translation: About
+    - id: super
+      translation: Super
+    - id: cool
+      translation: Cool
+    - id: first
+      translation: First
+    - id: business
+      translation: Business
+    - id: culture
+      translation: Culture
+    - id: healthcare
+      translation: Healthcare
+    - id: insurance
+      translation: Insurance
+    - id: nature
+      translation: Nature
+    - id: transportation
+      translation: Transportation
+    - id: youtube_video
+      translation: Youtube video
+    - id: per_year
+      translation: per year
+    - id: per_month
+      translation: per month
+    - id: ai-engineer
+      translation: AI engineer
+    - id: designer
+      translation: Designer
+    - id: devops
+      translation: DevOps
+    - id: frontend
+      translation: Frontend developer
+    - id: mechanical-engineer
+      translation: Mechanical engineer
+    - id: project-manager
+      translation: Project manager
+    - id: software-architecture
+      translation: Software architecture
+    - id: software
+      translation: Software
+    - id: industrial-engineer
+      translation: Industrial engineer
+    - id: cloud-computing
+      translation: Cloud computing
+    - id: iot-solution
+      translation: IOT solution
+    - id: marketing-international
+      translation: Marketing international
+    - id: cyber-security
+      translation: Cyber security
+    - id: semiconductor
+      translation: Semiconductor
+    - id: finance
+      translation: Finance
+    - id: form_message_error
+      translation: Ooops! Something went wrong!
+    - id: form_message_valid
+      translation: Form sucessfully submitted!
+    - id: form_fields_type_name
+      translation: Type
+    - id: form_fields_type_select_none
+      translation: Select a type
+    - id: form_fields_type_select_gold_card_program
+      translation: About the Gold Card Program
+    - id: form_fields_type_select_application_process
+      translation: About the Application Process
+    - id: form_fields_type_select_question_about_taiwan
+      translation: Questions about Taiwan
+    - id: form_fields_type_select_general
+      translation: General
+    - id: form_fields_type_error
+      translation: Select your type
+    - id: form_fields_name
+      translation: Name
+    - id: form_fields_name_placeholder
+      translation: Your name
+    - id: form_fields_name_error
+      translation: Please enter your name
+    - id: form_fields_email_name
+      translation: Email
+    - id: form_fields_email_placeholder
+      translation: Your email address
+    - id: form_fields_email_error
+      translation: Please enter a valid email address
+    - id: form_fields_subject_name
+      translation: Subject
+    - id: form_fields_subject_placeholder
+      translation: What is it about...
+    - id: form_fields_subject_error
+      translation: Fill out your subject
+    - id: form_fields_description_name
+      translation: Description
+    - id: form_fields_description_placeholder
+      translation: Tell us more...
+    - id: form_fields_description_error
+      translation: You should tell us more about it
+    - id: form_fields_submit
+      translation: Submit
+    - id: chat_title
+      translation: Live Chat
+    - id: chat_time_title
+      translation: Actual time in Taipei
+    - id: chat_online
+      translation: Online
+    - id: chat_online_description
+      translation: Use the live chat to ask your questions directly to the help desk team.
+    - id: chat_offline
+      translation: Offline
+    - id: chat_offline_description
+      translation: "Live chat with the help desk team is available on Mo-Fr: 10 AM to
+        6 PM local time."
+    - id: test_translation
+      translation: This is a test translation
+zh:
+  items:
+    - id: powered_by
+      translation: 版權所有
+    - id: search
+      translation: 搜尋
+    - id: change_language_to_zh
+      translation: 變更語言至中文
+    - id: change_language_to_en
+      translation: Change language to English
+    - id: click_to_see_more_details
+      translation: 點擊獲取更多詳細信息
+    - id: click_to_hide_more_details
+      translation: 單擊以隱藏更多詳細信息
+    - id: stop_animation
+      translation: 停止動畫
+    - id: stopped_animation
+      translation: 動畫已停止
+    - id: tego
+      translation: 台灣就業金卡辦公室
+    - id: tego_logo
+      translation: 商標 - 台灣就業金卡辦公室
+    - id: apply_now
+      translation: 立即申請
+    - id: apply_now_text
+      translation: Taiwan Gold Card is your right choice!
+    - id: gold_card_members_map
+      translation: 金卡社區地圖
+    - id: home_image_alt
+      translation: 台北101的夜景
+    - id: latest_news
+      translation: 最新消息
+    - id: latest_galleries
+      translation: 最新畫廊
+    - id: reading_time
+      translation: "閱讀時間: %d 分鍾"
+    - id: read_more
+      translation: 了解更多
+    - id: show_answer
+      translation: 顯示答案
+    - id: show_all_galleries
+      translation: 顯示所有畫廊
+    - id: gallery_image_no
+      translation: 圖片編號
+    - id: hide_answer
+      translation: 隱藏答案
+    - id: show_details
+      translation: 顯示詳細資料
+    - id: hide_details
+      translation: 隱藏細節
+    - id: close
+      translation: 關
+    - id: open_in_new_window
+      translation: 開啟新視窗
+    - id: to_main_content
+      translation: 主要內容
+    - id: show_navigation
+      translation: 顯示導航
+    - id: hide_navigation
+      translation: 隱藏導航
+    - id: contact
+      translation: 聯繫
+    - id: last_changed
+      translation: 最後更新
+    - id: table_of_contents
+      translation: 目錄
+    - id: categories
+      translation: 分類
+    - id: all_categories
+      translation: 所有分類
+    - id: tags
+      translation: 標籤
+    - id: all_tags
+      translation: 所有標籤
+    - id: faq
+      translation: 常見問題
+    - id: news
+      translation: 最新消息
+    - id: source
+      translation: 資源
+    - id: job_listing_title
+      translation: 工作清單
+    - id: job_listing_description
+      translation: 金卡網站結合併向您展示了幾個台灣工作門戶網站上的工作機會，以舉例說明台灣需要哪些職業。
+    - id: job_listing_info
+      translation: 單擊鏈接將打開一個新窗口，其中包含外部網站上的工作詳細信息。
+    - id: news_category
+      translation: 最新消息分類
+    - id: job_category
+      translation: 工作類別
+    - id: all_job_categories
+      translation: 所有職位類別
+    - id: to_accupass_event
+      translation: 報名參加
+    - id: starts_at
+      translation: 開始時間
+    - id: upcoming_events
+      translation: 近期活動
+    - id: event_archive
+      translation: 過去的活動
+    - id: why_taiwan
+      translation: Why Taiwan
+    - id: resources
+      translation: 相關資源
+    - id: sections
+      translation: 欄目
+    - id: topics
+      translation: 话题
+    - id: all_topics
+      translation: 分類
+    - id: more_fields_qualification
+      translation: 申請資格
+    - id: legal
+      translation: 法律相關
+    - id: goldcard
+      translation: 就業金卡
+    - id: summary
+      translation: 摘要
+    - id: all_news
+      translation: 所有消息
+    - id: latest_events
+      translation: 最新活動
+    - id: all_events
+      translation: 所有活動
+    - id: latest_articles
+      translation: 最新文章
+    - id: latest_faq
+      translation: 最新常見問題
+    - id: latest_faq_application
+      translation: Latest FAQ about the application process
+    - id: all_faq_application
+      translation: All FAQ about the application process
+    - id: all_faq
+      translation: 所有常見問題
+    - id: open_new_window
+      translation: 在新窗口中打開
+    - id: show_details
+      translation: 顯示更多
+    - id: back
+      translation: 返回
+    - id: reset_filter
+      translation: 重設篩選
+    - id: placeholder_filter_faq_list
+      translation: 篩選常見問題
+    - id: loading_filter
+      translation: 載入篩選
+    - id: no_filtered_faq_found
+      translation: 查無資料
+    - id: reset_search
+      translation: 重置搜索
+    - id: placeholder_search
+      translation: 搜索
+    - id: title_search
+      translation: 在台灣就業金卡辦事處網站內搜索
+    - id: title_submit
+      translation: 提交新的服務台支持票
+    - id: how_to_apply
+      translation: 想要申請嗎
+    - id: how_to_apply_copy
+      translation: 台灣就業金卡將開啟您的人生新篇章，現在就開始您的申請吧！
+    - id: since_2018
+      translation: 自2018起
+    - id: previous_step
+      translation: 前一步
+    - id: start
+      translation: 開始
+    - id: next_step
+      translation: 下一步
+    - id: done
+      translation: 完成了
+    - id: all_finished
+      translation: 全部完成
+    - id: check_list
+      translation: 檢查清單
+    - id: check_list_info
+      translation: 使用個人檢查表可以使您更輕鬆地記住是否已完成申請流程的所有步驟。
+    - id: check_list_continue
+      translation: 繼續
+    - id: check_list_finished
+      translation: 全部完成
+    - id: check_info
+      translation: 您可以使個人檢查清單保持最新狀態，以便更輕鬆地記住完成了哪些步驟以及清單上還有哪些步驟。
+    - id: check_remove_info
+      translation: 要刪除您的“完成”，您可以點擊
+    - id: check_remove_button
+      translation: 刪除支票
+    - id: located
+      translation: 居住地
+    - id: timezone
+      translation: 英語 (+08:00)
+    - id: taipei_city_skyline
+      translation: 台北市天際線
+    - id: taiwan_mountains
+      translation: 台北市天際線台灣的山
+    - id: taiwan_mountains
+      translation: 台灣的山
+    - id: taiwan_landscape
+      translation: 台灣的風景
+    - id: taiwan_hummingbird
+      translation: 蜂台灣鳥
+    - id: search_minimum
+      translation: 最少 %s 個字符
+    - id: search_no_results
+      translation: 沒結果
+    - id: footer_copyright
+      translation: 台灣就業金卡辦公室 - 版權所有
+    - id: footer_description
+      translation: 台灣就業金卡是一張結合工作許可、居留簽證、外僑居留證及重入國許可等四證合一的個人工作許可證，在有效期間內提供符合資格的外國人才可自由尋職、就職及轉換工作的便利性。
+    - id: footer_help_headline
+      translation: 需要協助嗎？
+    - id: footer_help_description
+      translation: 您對金卡有什麼疑問嗎？您如有申請方面的疑慮或其他的建議，歡迎聯繫我們諮詢服務處！
+    - id: footer_goldcard_title
+      translation: 就業金卡
+    - id: footer_languages_title
+      translation: 語言
+    - id: footer_legal_title
+      translation: 政策
+    - id: error_headline
+      translation: 找不到頁面
+    - id: error_description
+      translation: 抱歉，我們找不到您要搜索的頁面。
+    - id: image_about
+      translation: 關於圖片
+    - id: gold_card_community_member
+      translation: 金卡社區會員
+    - id: link_linkedin_page
+      translation: 鏈接到 LinkedIn 頁面
+    - id: contact_form_title
+      translation: 與我們交談
+    - id: contact_form_submit
+      translation: 發送問題
+    - id: contact_form_message
+      translation: 謝謝你的問題
+    - id: contact_widget_banner
+      translation: 問你的問題
+    - id: contact_widget_launcher
+      translation: 問你的問題
+    - id: contact_widget_title
+      translation: 請輸入您的信息
+    - id: contact_widget_submit
+      translation: 發送
+    - id: contact_widget_confirmation
+      translation: 謝謝，我們收到了消息！
+    - id: contact_widget_frustration_banner
+      translation: 我們可以幫忙嗎
+    - id: contact_widget_frustration_description
+      translation: 我們注意到您被困住了。 告訴我們您要完成的工作，我們的支持團隊將盡快與您聯繫。
+    - id: contact_widget_frustration_confirmation
+      translation: 謝謝。 我們將聯繫！
+    - id: noscript_home_map_info
+      translation: 使用激活的javascript，您將看到有關Gold Card社區的更多詳細信息，一些成員來自何處以及他們的工作。
+    - id: noscript_search_info
+      translation: 激活javascript以使用站點搜索
+    - id: goto_first_page
+      translation: 轉到第一頁
+    - id: goto_previous_page
+      translation: 轉到上一頁
+    - id: goto_next_page
+      translation: 轉到下一頁
+    - id: goto_last_page
+      translation: 轉到最後一頁
+    - id: goto_page
+      translation: 轉到頁面
+    - id: goto_top
+      translation: 轉到頂部
+    - id: button_goto_to_top
+      translation: 向上滾動到頂部
+    - id: only_gold_card
+      translation: 僅限金卡持卡人
+    - id: undefined
+      translation: UNDEFINED
+    - id: card
+      translation: 卡
+    - id: usa
+      translation: 美國
+    - id: goldcard
+      translation: 就業金卡
+    - id: website
+      translation: Website
+    - id: facebook
+      translation: Facebook
+    - id: youtube
+      translation: YouTube
+    - id: instagram
+      translation: Instagram
+    - id: twitter
+      translation: Twitter
+    - id: linkedin
+      translation: LinkedIn
+    - id: application
+      translation: 申請相關
+    - id: general
+      translation: 一般
+    - id: qualification
+      translation: 申請資格
+    - id: renewal--validity
+      translation: 效期與更新
+    - id: tax
+      translation: 租稅
+    - id: national-health-insurance
+      translation: 全民健康保險
+    - id: discover-taiwan
+      translation: 探索台灣
+    - id: industry-information
+      translation: 產業資訊
+    - id: other
+      translation: 其他
+    - id: gold-card-policy
+      translation: 金卡政策相關
+    - id: announcement
+      translation: 公告
+    - id: about
+      translation: 關於
+    - id: super
+      translation: 超
+    - id: cool
+      translation: 涼
+    - id: first
+      translation: 第一
+    - id: business
+      translation: 商業
+    - id: culture
+      translation: 文化
+    - id: healthcare
+      translation: 衛生保健
+    - id: insurance
+      translation: 保險
+    - id: nature
+      translation: 性質
+    - id: transportation
+      translation: 運輸
+    - id: youtube_video
+      translation: YouTube視頻
+    - id: per_year
+      translation: 每年
+    - id: per_month
+      translation: 每月
+    - id: ai-engineer
+      translation: AI 工程師
+    - id: designer
+      translation: 設計師
+    - id: devops
+      translation: DevOps
+    - id: frontend
+      translation: Frontend developer
+    - id: mechanical-engineer
+      translation: 機械工程師
+    - id: project-manager
+      translation: 專案經理
+    - id: software-architecture
+      translation: 軟件架構
+    - id: software
+      translation: 軟件
+    - id: industrial-engineer
+      translation: 工業工程師
+    - id: cloud-computing
+      translation: 雲計算
+    - id: iot-solution
+      translation: IOT 解
+    - id: marketing-international
+      translation: 國際營銷
+    - id: cyber-security
+      translation: 網絡安全
+    - id: semiconductor
+      translation: 半導體
+    - id: finance
+      translation: 金融
+    - id: form_message_error
+      translation: Ooops! Something went wrong!
+    - id: form_message_valid
+      translation: Form sucessfully submitted!
+    - id: form_fields_type_name
+      translation: 類別
+    - id: form_fields_type_select_none
+      translation: 選擇類別
+    - id: form_fields_type_select_gold_card_program
+      translation: 關於金卡專案
+    - id: form_fields_type_select_application_process
+      translation: 關於申請流程
+    - id: form_fields_type_select_question_about_taiwan
+      translation: 關於台灣
+    - id: form_fields_type_select_general
+      translation: 一般
+    - id: form_fields_type_error
+      translation: 請選擇類別
+    - id: form_fields_name
+      translation: 姓名
+    - id: form_fields_name_placeholder
+      translation: 你的名字
+    - id: form_fields_name_error
+      translation: 請輸入你的名字
+    - id: form_fields_email_name
+      translation: 電子信箱
+    - id: form_fields_email_placeholder
+      translation: 填寫電子信箱
+    - id: form_fields_email_error
+      translation: 請填寫有效電子信箱
+    - id: form_fields_subject_name
+      translation: 主旨
+    - id: form_fields_subject_placeholder
+      translation: 請簡述您的問題
+    - id: form_fields_subject_error
+      translation: 請填寫主旨
+    - id: form_fields_description_name
+      translation: 詳細內容
+    - id: form_fields_description_placeholder
+      translation: 請說明您的問題
+    - id: form_fields_description_error
+      translation: 請填寫您的問題
+    - id: form_fields_submit
+      translation: 送出
+    - id: chat_title
+      translation: 即時諮詢
+    - id: chat_time_title
+      translation: 台北市實際時間
+    - id: chat_online
+      translation: Online
+    - id: chat_online_description
+      translation: 使用即時諮詢直接詢問您的問題。
+    - id: chat_offline
+      translation: Offline
+    - id: chat_offline_description
+      translation: 即時諮詢的服務時間為：台北當地 周一至周五 10:00-18:00
+    - id: test_translation
+      translation: 這是測試翻譯

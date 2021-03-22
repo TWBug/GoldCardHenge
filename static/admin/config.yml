@@ -1466,6 +1466,30 @@ collections:
                       - { label: URL, name: url, widget: string }
 
     # Configure the site. Menus for example
+    - name: 'translations'
+      label: 'Translations 翻譯'
+      description: >
+          Translation strings for the site.
+      i18n:
+          structure: single_file
+      editor:
+          preview: false
+      files:
+          - label: 'Translation'
+            name: 'translation_en_zh'
+            file: 'data/translations_en_zh.yaml'
+            i18n: true
+            fields:
+                - label: 'Labels 選項'
+                  name: 'items'
+                  widget: 'list'
+                  i18n: true
+                  fields:
+                      - { label: Identifier, name: id, widget: string, i18n: duplicate }
+                      - { label: Translation, name: translation, widget: string, i18n: true }
+
+
+    # Configure the site. Menus for example
     - name: 'config'
       label: 'Menus 選單'
       description: >
