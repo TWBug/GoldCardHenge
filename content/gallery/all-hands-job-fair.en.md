@@ -7,7 +7,8 @@ cover_image: /cms-uploads/dsc02559.jpg
 cover_image_alt: These photos are snapshots of our booth at the All Hands Job
   fair. There are a total of 8 pictures in this gallery.
 media_image: /cms-uploads/dsc02559.jpg
-media_image_alt: All Hands Job Fair
+media_image_alt: These photos are snapshots of our booth at the All Hands Job
+  fair. There are a total of 8 pictures in this gallery.
 ---
 {{< gallery teaser="All Hands Job Fair" >}}
 {{< gallery-image src="/cms-uploads/event_2020-11-21_all-hands-taiwan_01.jpg" alt="These photos are snapshots of our booth at the All Hands Job fair. There are a total of 8 pictures in this gallery." >}}
