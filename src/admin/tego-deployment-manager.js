@@ -167,15 +167,29 @@ class DeploymentManager extends React.Component {
                         if (res.status >= 300) {
                             return Promise.reject(res.text());
                         }
-                        return res.json();
+                        if (res.status === 204) {
+                            return Promise.resolve(
+                                window.alert('No changes to deploy. Everything is up to date.')
+                            );
+                        }
+                        if (res.status === 209) {
+                            return Promise.resolve(
+                                window.alert(
+                                    'Conflicting changes. See: https://github.com/tego-tech/www/compare/prod...master'
+                                )
+                            );
+                        }
+                        return res.json().then((json) => {
+                            window.alert('Success!');
+                        });
                     })
-                    .then((json) => {
+                    .then(() => {
                         this.setState({ loading: false });
-                        window.alert('Success!');
                     })
                     .catch((err) => {
                         this.setState({ loading: false });
                         console.warn(err);
+                        window.alert('Error. Deployment failed. See the console log for details.');
                     });
             }
         };

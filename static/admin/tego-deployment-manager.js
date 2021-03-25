@@ -234,19 +234,28 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
               return Promise.reject(res.text());
             }
 
-            return res.json();
-          }).then(function (json) {
+            if (res.status === 204) {
+              return Promise.resolve(window.alert('No changes to deploy. Everything is up to date.'));
+            }
+
+            if (res.status === 209) {
+              return Promise.resolve(window.alert('Conflicting changes. See: https://github.com/tego-tech/www/compare/prod...master'));
+            }
+
+            return res.json().then(function (json) {
+              window.alert('Success!');
+            });
+          }).then(function () {
             _this3.setState({
               loading: false
             });
-
-            window.alert('Success!');
           })["catch"](function (err) {
             _this3.setState({
               loading: false
             });
 
             console.warn(err);
+            window.alert('Error. Deployment failed. See the console log for details.');
           });
         }
       };
