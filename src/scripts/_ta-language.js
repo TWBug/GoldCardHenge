@@ -50,6 +50,8 @@ window.taLanguage = function () {
             for (let i = 0; i < source.length; i++) {
                 if (this.default.validCharacters.indexOf(source[i].toLowerCase()) !== -1) {
                     destination += source[i]
+                } else {
+                    console.warn(`%cStriped out character: ${source[i]}!`, 'color:red;background:yellow;');
                 }
             }
             return destination;

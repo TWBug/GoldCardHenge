@@ -135,6 +135,8 @@ window.languageDetection = {
     for (var i = 0; i < source.length; i++) {
       if (this.validCharacters.indexOf(source[i].toLowerCase()) !== -1) {
         destination += source[i];
+      } else {
+        console.warn("%cStriped out character: ".concat(source[i], "!"), 'color:red;background:yellow;');
       }
     }
 
@@ -1105,6 +1107,8 @@ window.taLanguage = function () {
       for (var i = 0; i < source.length; i++) {
         if (this["default"].validCharacters.indexOf(source[i].toLowerCase()) !== -1) {
           destination += source[i];
+        } else {
+          console.warn("%cStriped out character: ".concat(source[i], "!"), 'color:red;background:yellow;');
         }
       }
 
