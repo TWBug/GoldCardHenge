@@ -14,7 +14,7 @@ main() {
         echo "[BUILD] Running: npm run build:finder ..."
         npm run build:finder
     else
-        echo "[SKIP] No changes outside of ./content"
+        echo "[BUILD SKIP] No changes outside of ./content"
     fi
 
     if [[ -n "${content_changelist}" ]]
