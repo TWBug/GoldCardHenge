@@ -44,7 +44,10 @@ window.taForm = function () {
             this.$fetch({
                 url: 'https://ticket.taiwan-gold-card-office.workers.dev',
                 method: 'post',
-                headers: { 'Content-Type': 'application/json' },
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRF-TOKEN': window.TGC_SESSION_ID,
+                },
                 data: JSON.stringify(this.form),
             })
                 .then(() => {

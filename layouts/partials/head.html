@@ -109,3 +109,11 @@
     <link href="{{ $styles_live.RelPermalink }}" rel="stylesheet" integrity="{{ $styles_live.Data.Integrity }}" />
     {{ end }}
 {{ end }}
+<script>
+    try {
+        const cks = document.cookie.split(/;\s?/).reduce((agg, kv) => ({ ...agg, [kv.split('=')[0]]: kv.split('=')[1] }), {});
+        window.TGC_SESSION_ID = cks.tgcsessionid || '';
+    } catch (err) {
+        window.TGC_SESSION_ID = cks.tgcsessionid || 'UNQUALIFIED';
+    }
+</script>
