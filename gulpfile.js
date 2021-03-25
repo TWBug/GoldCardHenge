@@ -12,16 +12,11 @@ const DST_STYLES = './assets/css/';
 const DST_SCRIPTS = './assets/js/';
 
 const TAILWIND_CONFIG = require('./tailwind.config.js');
-TAILWIND_CONFIG.purge.enabled = false
+TAILWIND_CONFIG.purge.enabled = false;
 
 const styles_develop = function styles_develop() {
     return src(SRC_STYLES)
-        .pipe(
-            postcss([
-                require('tailwindcss')(TAILWIND_CONFIG),
-                require('autoprefixer'),
-            ])
-        )
+        .pipe(postcss([require('tailwindcss')(TAILWIND_CONFIG), require('autoprefixer')]))
         .pipe(dest(DST_STYLES));
 };
 const styles_build = function styles_build() {
@@ -48,6 +43,14 @@ const scripts = function scripts() {
         .pipe(
             babel({
                 presets: ['@babel/preset-env', '@babel/preset-react'],
+                plugins: [
+                    [
+                        'transform-inline-environment-variables',
+                        {
+                            include: ['NODE_ENV'],
+                        },
+                    ],
+                ],
             })
         )
         .pipe(concat('scripts.js'))
