@@ -114,7 +114,7 @@ window.languageDetection = {
     var u = new URL(str);
     var whitelist = ['staging.taiwangoldcard.tw', 'goldcard.nat.gov.tw'];
 
-    if ("production" !== 'production') {
+    if ("development" !== 'production') {
       console.warn('%cDev URLs enabled', 'color:red;background:yellow;');
       whitelist.push('localhost:1313');
     }
@@ -790,7 +790,8 @@ window.taForm = function () {
         url: 'https://ticket.taiwan-gold-card-office.workers.dev',
         method: 'post',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
+          'X-CSRF-TOKEN': window.TGC_SESSION_ID
         },
         data: JSON.stringify(this.form)
       }).then(function () {
@@ -1086,7 +1087,7 @@ window.taLanguage = function () {
       var u = new URL(str);
       var whitelist = ['staging.taiwangoldcard.tw', 'goldcard.nat.gov.tw'];
 
-      if ("production" !== 'production') {
+      if ("development" !== 'production') {
         console.warn('%cDev URLs enabled', 'color:red;background:yellow;');
         whitelist.push('localhost:1313');
       }
