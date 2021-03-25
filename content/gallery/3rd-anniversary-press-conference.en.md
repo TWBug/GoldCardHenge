@@ -12,11 +12,11 @@ media_image_alt: These photos are snapshots of the 3rd Anniversary of the Taiwan
   Employment Gold Card Program Press Conference. There are a total of 8 pictures
   in this gallery.
 ---
-{{< gallery teaser="" >}}
+{{< gallery teaser="undefined" >}}
 {{< gallery-image alt="These photos are snapshots of the 3rd Anniversary of the Taiwan Employment Gold Card Program Press Conference. There are a total of 8 pictures in this gallery." >}}
 {{< gallery-image  >}}
 {{< gallery-image  >}}
-{{< gallery-image  >}}
+{{< gallery-image src="/cms-uploads/event_2021-02-05_press-conference_04.jpg" >}}
 {{< gallery-image  >}}
 {{< gallery-image  >}}
 {{< gallery-image  >}}
