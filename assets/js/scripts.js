@@ -74,6 +74,7 @@ window.languageDetection = {
   language: 'en',
   default_language: 'en',
   supported_languages: ['en', 'zh'],
+  validCharacters: '0123456789abcdefghijklmnopqrstuvwxyz-/:%=_#&.@()+*,;',
   message: "Sorry, it looks like your browser storage has been corrupted. Please clear your storage by going to Tools -> Clear Recent History -> Cookies and set time range to 'Everything'. This will remove the corrupted browser storage across all sites.",
   init: function init() {
     // checks always the language - if not valid reset it to default english
@@ -113,19 +114,31 @@ window.languageDetection = {
     var u = new URL(str);
     var whitelist = ['staging.taiwangoldcard.tw', 'goldcard.nat.gov.tw'];
 
-    if ("development" === 'development') {
+    if (undefined !== 'production') {
       console.warn('%cDev URLs enabled', 'color:red;background:yellow;');
       whitelist.push('localhost:1313');
     }
 
     if (!whitelist.includes(u.host)) {
       console.warn("%cNon whitelisted URL: ".concat(str, "!"), 'color:red;background:yellow;');
-      return 'goldcard.nat.gov.tw';
+      u.host = 'goldcard.nat.gov.tw';
     } // NOTE: The string is automatically URI encoded, so no need for manual
     // encoding logic.
 
 
     return u.toString();
+  },
+  getCleanLocationPathname: function getCleanLocationPathname() {
+    var source = location.pathname.substr(3).toString();
+    var destination = '';
+
+    for (var i = 0; i < source.length; i++) {
+      if (this.validCharacters.indexOf(source[i].toLowerCase()) !== -1) {
+        destination += source[i];
+      }
+    }
+
+    return destination;
   },
   getBrowserLanguage: function getBrowserLanguage() {
     var browser_language = navigator.language || navigator.userLanguage;
@@ -168,7 +181,7 @@ window.languageDetection = {
       old_language = this.default_language;
     }
 
-    var location_path_name = location.pathname.substr(3);
+    var location_path_name = this.getCleanLocationPathname();
     var location_new = location.origin + '/' + this.language + location_path_name;
     window.location.href = this.cleanURL(location_new);
     return true;
@@ -641,7 +654,7 @@ window.taFilter = function () {
 
           _this.resetResult();
         })["catch"](function (error) {
-          console.warn(error);
+          console.warn('Unable to load data.json for filtering');
         });
       } else {
         fetch(url).then(function (response) {
@@ -652,7 +665,7 @@ window.taFilter = function () {
 
           _this.resetResult();
         })["catch"](function (error) {
-          console.warn(error);
+          console.warn('Unable to parse json format for data.json for filtering');
         });
       }
 
@@ -1039,7 +1052,8 @@ window.taLanguage = function () {
     language: 'en',
     "default": {
       language: 'en',
-      supported: ['en', 'zh']
+      supported: ['en', 'zh'],
+      validCharacters: '0123456789abcdefghijklmnopqrstuvwxyz-/:%=_#&.@()+*,;'
     },
     init: function init(options) {
       if (typeof options !== 'undefined') {
@@ -1070,26 +1084,38 @@ window.taLanguage = function () {
       var u = new URL(str);
       var whitelist = ['staging.taiwangoldcard.tw', 'goldcard.nat.gov.tw'];
 
-      if ("development" === 'development') {
+      if (undefined !== 'production') {
         console.warn('%cDev URLs enabled', 'color:red;background:yellow;');
         whitelist.push('localhost:1313');
       }
 
       if (!whitelist.includes(u.host)) {
         console.warn("%cNon whitelisted URL: ".concat(str, "!"), 'color:red;background:yellow;');
-        return 'goldcard.nat.gov.tw';
+        u.host = 'goldcard.nat.gov.tw';
       } // NOTE: The string is automatically URI encoded, so no need for manual
       // encoding logic.
 
 
       return u.toString();
     },
+    getCleanLocationPathname: function getCleanLocationPathname() {
+      var source = location.pathname.substr(3).toString();
+      var destination = '';
+
+      for (var i = 0; i < source.length; i++) {
+        if (this["default"].validCharacters.indexOf(source[i].toLowerCase()) !== -1) {
+          destination += source[i];
+        }
+      }
+
+      return destination;
+    },
     switchLanguage: function switchLanguage(language) {
       if (this["default"].supported.indexOf(language) === -1) {
         return false;
       }
 
-      var location_path_name = location.pathname.substr(3);
+      var location_path_name = this.getCleanLocationPathname();
       var location_new = location.origin + '/' + language + location_path_name;
       localStorage.setItem('language', language);
       this.language = language;
@@ -1881,7 +1907,7 @@ window.taSearch = function () {
         });
         _this4.initialized = true;
       })["catch"](function (err) {
-        console.error('Error getting Hugo index file:', err.message);
+        console.error('Error getting Hugo index file.');
       });
     },
     search: function search(query) {
@@ -2367,7 +2393,7 @@ window.taWelcome = function () {
           _this.show = true;
         }
       })["catch"](function (error) {
-        console.warn(error);
+        console.warn('Unable to load welcome message for language: ' + language);
       });
     },
     listenerKeyupEscape: function listenerKeyupEscape() {

@@ -2,6 +2,7 @@ window.languageDetection = {
     language: 'en',
     default_language: 'en',
     supported_languages: ['en', 'zh'],
+    validCharacters: '0123456789abcdefghijklmnopqrstuvwxyz-/:%=_#&.@()+*,;',
     message:
         "Sorry, it looks like your browser storage has been corrupted. Please clear your storage by going to Tools -> Clear Recent History -> Cookies and set time range to 'Everything'. This will remove the corrupted browser storage across all sites.",
     init() {
@@ -37,19 +38,29 @@ window.languageDetection = {
     cleanURL(str) {
         const u = new URL(str);
         const whitelist = ['staging.taiwangoldcard.tw', 'goldcard.nat.gov.tw'];
-        if (process.env.NODE_ENV === 'development') {
+        if (process.env.NODE_ENV !== 'production') {
             console.warn('%cDev URLs enabled', 'color:red;background:yellow;');
             whitelist.push('localhost:1313');
         }
-
         if (!whitelist.includes(u.host)) {
             console.warn(`%cNon whitelisted URL: ${str}!`, 'color:red;background:yellow;');
-            return 'goldcard.nat.gov.tw';
+            u.host = 'goldcard.nat.gov.tw';
         }
 
         // NOTE: The string is automatically URI encoded, so no need for manual
         // encoding logic.
         return u.toString();
+    },
+
+    getCleanLocationPathname() {
+        const source = location.pathname.substr(3).toString();
+        let destination = '';
+        for (let i = 0; i < source.length; i++) {
+            if (this.validCharacters.indexOf(source[i].toLowerCase()) !== -1) {
+                destination += source[i]
+            }
+        }
+        return destination;
     },
 
     getBrowserLanguage() {
@@ -89,7 +100,7 @@ window.languageDetection = {
             old_language = this.default_language;
         }
 
-        var location_path_name = location.pathname.substr(3);
+        var location_path_name = this.getCleanLocationPathname();
         var location_new = location.origin + '/' + this.language + location_path_name;
         window.location.href = this.cleanURL(location_new);
         return true;
