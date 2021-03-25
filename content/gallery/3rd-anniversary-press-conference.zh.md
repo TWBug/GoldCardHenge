@@ -14,13 +14,13 @@ media_image_alt: These photos are snapshots of the 3rd Anniversary of the Taiwan
 ---
 
 
-{{< gallery teaser="" >}}
-{{< gallery-image alt="These photos are snapshots of the 3rd Anniversary of the Taiwan Employment Gold Card Program Press Conference. There are a total of 8 pictures in this gallery." >}}
-{{< gallery-image  >}}
-{{< gallery-image  >}}
-{{< gallery-image  >}}
-{{< gallery-image  >}}
-{{< gallery-image  >}}
-{{< gallery-image  >}}
-{{< gallery-image  >}}
+{{< gallery teaser="3rd Anniversary Press Conference" >}}
+{{< gallery-image alt="These photos are snapshots of the 3rd Anniversary of the Taiwan Employment Gold Card Program Press Conference. There are a total of 8 pictures in this gallery." src="/cms-uploads/event_2021-02-05_press-conference_01.jpg" >}}
+{{< gallery-image src="/cms-uploads/event_2021-02-05_press-conference_02.jpg" >}}
+{{< gallery-image src="/cms-uploads/event_2021-02-05_press-conference_03.jpg" >}}
+{{< gallery-image src="/cms-uploads/event_2021-02-05_press-conference_04.jpg" >}}
+{{< gallery-image src="/cms-uploads/event_2021-02-05_press-conference_05.jpg" >}}
+{{< gallery-image src="/cms-uploads/event_2021-02-05_press-conference_06.jpg" >}}
+{{< gallery-image src="/cms-uploads/event_2021-02-05_press-conference_07.jpg" >}}
+{{< gallery-image src="/cms-uploads/event_2021-02-05_press-conference_08.jpg" >}}
 {{< /gallery >}}
