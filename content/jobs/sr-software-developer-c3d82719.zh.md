@@ -46,4 +46,4 @@ badges:
 
 ---
 
-您將有機會參與國內外一流金融業之資料轉型與數位轉型，透過實現 FST 獨有的資料治理方法論與產品，啟動企業通往 "資料網格中台" (Data Mesh) 與 "資料治理" (Data Governance) 的開關，持續性提升企業的資料安全、資料使用效度與數位永續發展。 技術面上您將接觸到 Cloud-Native 雲原生生態，與新世代軟體工具、程式語言生態等，透過新技術解決新問題，並重視新技術落地化，參與到扎實的工程強度。 我們不只為企業解決資料治理問題，更在共同為企業於未來遭遇的各種數位挑戰，打開新思路，增加價值與增進 ESG 指標。 ▍工作職責 Responsibilities Design, develop, test, and maintain platforms/systems/services/tools that pragmatically meet real business needs Collaborate closely with team members and other teams to achieve goals Mentor and grow team
+您將有機會參與國內外一流金融業之資料轉型與數位轉型，透過實現 FST 獨有的資料治理方法論與產品，啟動企業通往 "資料網格中台" (Data Mesh) 與 "資料治理" (Data Governance) 的開關，持續性提升企業的資料安全、資料使用效度與數位永續發展。 技術面上您將接觸到 Cloud-Native 雲原生生態，與新世代軟��工具、程式語言生態等，透過新技術解決新問題，並重視新技術落地化，參與到扎實的工程強度。 我們不只為企業解決資料治理問題，更在共同為企業於未來遭遇的各種數位挑戰，打開新思路，增加價值與增進 ESG 指標。 ▍工作職責 Responsibilities Design, develop, test, and maintain platforms/systems/services/tools that pragmatically meet real business needs Collaborate closely with team members and other teams to achieve goals Mentor and grow team
