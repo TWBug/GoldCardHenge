@@ -1,17 +1,6 @@
-{{ if eq .Site.Params.loadFromCDN "true" }}
-
-{{/*  Lunr search script  */}}
-<script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
-{{/*  <script src="/js-misc/lunr-search.js" defer></script>  */}}
-{{/* Just some debug info */}}
-
-{{ else }}
-
 {{/*  Lunr search script  */}}
 <script src="/js/lunr.min.js"></script>
 {{/*  <script src="/js-misc/lunr-search.js" defer></script>  */}}
 {{/* Just some debug info */}}
-
-{{ end }}
 
 <!-- ENV: {{ hugo.Environment }} -->

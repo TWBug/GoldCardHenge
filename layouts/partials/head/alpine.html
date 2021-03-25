@@ -13,34 +13,17 @@
 {{ $clipboard = . }}
 {{ end }}
 
-{{ if eq .cdn "false" }}
-
-    {{ if eq $spruce "true" }}
-    <script src="/js/spruce.umd.js"></script>
-    <script src="/js/fetch.min.js"></script>
-    <script type="module" src="/js/alpine.min.js"></script>
-    <script nomodule src="/js/alpine-ie11.min.js"></script>
-    {{ else }}
-    <script src="/js/fetch.min.js"></script>
-    <script type="module" src="/js/alpine.min.js"></script>
-    <script nomodule src="/js/alpine-ie11.min.js" defer></script>
-    {{ end }}
-
-{{ else }}
-
-    {{ if eq $spruce "true" }}
-    <script src="https://cdn.jsdelivr.net/npm/@ryangjchandler/spruce@2.x.x/dist/spruce.umd.js"></script>
-    {{ end }}
-
-    {{ if eq $fetch "true" }}
-    <script src="https://cdn.jsdelivr.net/gh/alpine-collective/alpine-magic-helpers@1.0.x/dist/fetch.min.js"></script>
-    {{ end }}
-
-    {{ if eq $clipboard "true" }}
-    <script src="https://cdn.jsdelivr.net/npm/@ryangjchandler/alpine-clipboard@1.x.x/dist/alpine-clipboard.js"></script>
-    {{ end }}
-
-    <script type="module" src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js"></script>
-    <script nomodule src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine-ie11.min.js" defer></script>
-
+{{ if eq $spruce "true" }}
+<script src="/js/spruce.umd.js"></script>
 {{ end }}
+
+{{ if eq $fetch "true" }}
+<script src="/js/fetch.min.js"></script>
+{{ end }}
+
+{{ if eq $clipboard "true" }}
+<script src="/js/alpine-clipboard.min.js"></script>
+{{ end }}
+
+<script type="module" src="/js/alpine.min.js"></script>
+<script nomodule src="/js/alpine-ie11.min.js" defer></script>
