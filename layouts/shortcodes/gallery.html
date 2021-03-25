@@ -9,7 +9,7 @@
     </div>
     <div class="fixed inset-0 z-50 flex-center bg-white bg-opacity-75 bg-blur-4" style="max-width: 100vw" :aria-hidden="modal ? 'false' : 'true'" aria-describedby="gallery_description" x-show="modal" role="dialog" aria-modal="true">
         <div class="relative bg-white border border-gray-100 m-8" @click.away.prevent="toggleModal()">
-            <button type="button" class="absolute right-0 top-0 flex-center bg-white rounded-full text-primary border-2 border-primary font-bold shadow-xl -mr-4 -mt-4 h-8 w-8 focus-primary" @click.prevent="toggleModal()" x-ref="focus">
+            <button type="button" class="absolute right-0 top-0 flex-center bg-white rounded-full text-primary border-2 border-primary font-bold shadow-xl -mr-4 -mt-4 h-8 w-8 focus-primary z-50" @click.prevent="toggleModal()" x-ref="focus">
                 <span class="sr-only">
                     {{ i18n "close" }}
                 </span>
