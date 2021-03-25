@@ -4,8 +4,10 @@
  * changes in the CMS that have not yet been merged to master.
  */
 
-// @todo Replace with the actual prod branch, which is just prod
-const PROD_BRANCH = 'test-prod';
+// @note Use the test-prod branch when developing this component to avoid
+// unwanted changes to the prod branch.
+// const PROD_BRANCH = 'test-prod';
+const PROD_BRANCH = 'prod';
 
 const TextSpinner = (props) => {
     const [dots, setDots] = React.useState('');

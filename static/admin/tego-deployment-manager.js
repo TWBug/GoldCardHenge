@@ -51,8 +51,10 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
  * we can merge into real prod. Ideally, you also get a warning if there are
  * changes in the CMS that have not yet been merged to master.
  */
-// @todo Replace with the actual prod branch, which is just prod
-var PROD_BRANCH = 'test-prod';
+// @note Use the test-prod branch when developing this component to avoid
+// unwanted changes to the prod branch.
+// const PROD_BRANCH = 'test-prod';
+var PROD_BRANCH = 'prod';
 
 var TextSpinner = function TextSpinner(props) {
   var _React$useState = React.useState(''),
