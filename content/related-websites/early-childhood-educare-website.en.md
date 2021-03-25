@@ -8,3 +8,5 @@ hidden: false
 layout: related
 weight: 9
 ---
+The Early Childhood Educare Website is a public webpage by the Ministry of Education. It provides information regarding the country’s preschool education and insurance-related policies, laws, and parental education.
+The website also provides a list of officially registered kindergartens and their evaluation results.
