@@ -48,7 +48,7 @@
                 <div class="lg:col-span-2 -mt-8">
                     {{ .Content }}
                     <div class="flex flex-wrap justify-start items-stretch -ml-4 -mr-4 my-8">
-                        {{ $paginator := .Paginate (sort .RegularPages ".Params.date" "desc") 4 }}
+                        {{ $paginator := .Paginate (sort .RegularPages ".Params.date" "desc") 10 }}
                         {{ range $index, $value := $paginator.Pages }}
                             {{ $dirFile := path.Split .Params.cover_image }}
                             {{ $alt := index (split $dirFile.File ".") 0 | humanize }}
