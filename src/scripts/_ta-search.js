@@ -267,7 +267,7 @@ window.taSearch = function () {
                     this.initialized = true;
                 })
                 .catch((err) => {
-                    console.error('Error getting Hugo index file:', err.message);
+                    console.error('Error getting Hugo index file.');
                 });
         },
         search(query) {

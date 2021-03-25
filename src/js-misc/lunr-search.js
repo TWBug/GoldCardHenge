@@ -193,7 +193,7 @@ const initLunr = () => {
             window.lunrIndex = lunrIndex;
         })
         .catch((err) => {
-            console.error('Error getting Hugo index file:', err.message);
+            console.error('Error getting Hugo index file:');
         });
 };
 

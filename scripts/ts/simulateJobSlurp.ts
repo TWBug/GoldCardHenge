@@ -68,7 +68,6 @@ main(process.argv[2]).then(
         console.log();
     },
     (err) => {
-        console.error('We ran into some issues...');
-        console.error(err);
+        console.error('We ran into some issues with Job Processing');
     }
 );

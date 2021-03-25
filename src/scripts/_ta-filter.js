@@ -15,7 +15,7 @@ window.taFilter = function () {
                         this.resetResult();
                     })
                     .catch((error) => {
-                        console.warn(error);
+                        console.warn('Unable to load data.json for filtering');
                     });
                 } else {
                     fetch(url)
@@ -26,7 +26,7 @@ window.taFilter = function () {
                         this.resetResult();
                     })
                     .catch((error) => {
-                        console.warn(error);
+                        console.warn('Unable to parse json format for data.json for filtering');
                     });
             }
             this.$watch('filter', (value) => {

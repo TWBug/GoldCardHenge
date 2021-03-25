@@ -56,7 +56,7 @@ window.taWelcome = function () {
                     }
                 })
                 .catch((error) => {
-                    console.warn(error)
+                    console.warn('Unable to load welcome message for language: ' + language)
                 })
         },
         listenerKeyupEscape() {
