@@ -101,6 +101,32 @@ window.languageDetection = {
 
     return this.language;
   },
+
+  /**
+   * Given a URL, ensure that it is under a whitelisted hostname and url
+   * encoded.
+   * @note This is duplicated in _ta-language.js
+   * @param {string} str
+   * @returns str
+   */
+  cleanURL: function cleanURL(str) {
+    var u = new URL(str);
+    var whitelist = ['staging.taiwangoldcard.tw', 'goldcard.nat.gov.tw'];
+
+    if ("development" === 'development') {
+      console.warn('%cDev URLs enabled', 'color:red;background:yellow;');
+      whitelist.push('localhost:1313');
+    }
+
+    if (!whitelist.includes(u.host)) {
+      console.warn("%cNon whitelisted URL: ".concat(str, "!"), 'color:red;background:yellow;');
+      return 'goldcard.nat.gov.tw';
+    } // NOTE: The string is automatically URI encoded, so no need for manual
+    // encoding logic.
+
+
+    return u.toString();
+  },
   getBrowserLanguage: function getBrowserLanguage() {
     var browser_language = navigator.language || navigator.userLanguage;
     var user_language = browser_language.split('-');
@@ -144,25 +170,7 @@ window.languageDetection = {
 
     var location_path_name = location.pathname.substr(3);
     var location_new = location.origin + '/' + this.language + location_path_name;
-
-    if (this.checkDestination(location_new) === true) {
-      window.location.href = location_new;
-    } else {
-      window.location.href = location.origin + '/' + this.language + '/';
-    }
-
-    return true;
-  },
-  checkDestination: function checkDestination(url) {
-    var request;
-    if (window.XMLHttpRequest) request = new XMLHttpRequest();else request = new ActiveXObject('Microsoft.XMLHTTP');
-    request.open('GET', url, false);
-    request.send();
-
-    if (request.status === 404) {
-      return false;
-    }
-
+    window.location.href = this.cleanURL(location_new);
     return true;
   },
   checkValidLanguage: function checkValidLanguage(language) {
@@ -1050,6 +1058,32 @@ window.taLanguage = function () {
 
       this.language = this["default"].language;
     },
+
+    /**
+     * Given a URL, ensure that it is under a whitelisted hostname and url
+     * encoded.
+     * @note This is duplicated in _language-detection.js
+     * @param {string} str
+     * @returns str
+     */
+    cleanURL: function cleanURL(str) {
+      var u = new URL(str);
+      var whitelist = ['staging.taiwangoldcard.tw', 'goldcard.nat.gov.tw'];
+
+      if ("development" === 'development') {
+        console.warn('%cDev URLs enabled', 'color:red;background:yellow;');
+        whitelist.push('localhost:1313');
+      }
+
+      if (!whitelist.includes(u.host)) {
+        console.warn("%cNon whitelisted URL: ".concat(str, "!"), 'color:red;background:yellow;');
+        return 'goldcard.nat.gov.tw';
+      } // NOTE: The string is automatically URI encoded, so no need for manual
+      // encoding logic.
+
+
+      return u.toString();
+    },
     switchLanguage: function switchLanguage(language) {
       if (this["default"].supported.indexOf(language) === -1) {
         return false;
@@ -1059,24 +1093,7 @@ window.taLanguage = function () {
       var location_new = location.origin + '/' + language + location_path_name;
       localStorage.setItem('language', language);
       this.language = language;
-
-      if (this.checkDestination(location_new) === true) {
-        window.location.href = location_new;
-      } else {
-        window.location.href = location.origin + '/' + language + '/';
-      }
-    },
-    checkDestination: function checkDestination(url) {
-      var request;
-      if (window.XMLHttpRequest) request = new XMLHttpRequest();else request = new ActiveXObject('Microsoft.XMLHTTP');
-      request.open('GET', url, false);
-      request.send();
-
-      if (request.status === 404) {
-        return false;
-      }
-
-      return true;
+      window.location.href = this.cleanURL(location_new);
     }
   };
 };
