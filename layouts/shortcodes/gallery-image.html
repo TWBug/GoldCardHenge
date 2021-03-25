@@ -4,20 +4,22 @@
 {{ with (.Get "alt")}}
 {{ $alt = . }}
 {{ end }}
-{{ $src := resources.Get $src }}
 {{ if $src }}
-{{ $image := $src.Fill "260x260" }}
-{{ $src = $src.Fit "1280x1280" }}
-<div class="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0">
-    <div class="p-2">
-        <a href="{{ $src.RelPermalink }}" class="ta-gallery-item block relative rounded-md overflow-hidden focus-primary" data-title="{{ .Get "title" }}" data-description="{{ .Get "description" }}" data-alt="{{ $alt }}">
-            {{ with .Get "title"}}
-            <div class="absolute inset-x-0 bottom-0 py-2 pl-3 bg-black bg-opacity-75 bg-blur-3 text-white text-xs font-bold">
-                {{ . }}
-            </div>
-            {{ end }}
-            <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" class="block w-full h-full object-cover -z-1">
-        </a>
+    {{ $src := resources.Get $src }}
+    {{ if $src }}
+    {{ $image := $src.Fill "260x260" }}
+    {{ $src = $src.Fit "1280x1280" }}
+    <div class="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0">
+        <div class="p-2">
+            <a href="{{ $src.RelPermalink }}" class="ta-gallery-item block relative rounded-md overflow-hidden focus-primary" data-title="{{ .Get "title" }}" data-description="{{ .Get "description" }}" data-alt="{{ $alt }}">
+                {{ with .Get "title"}}
+                <div class="absolute inset-x-0 bottom-0 py-2 pl-3 bg-black bg-opacity-75 bg-blur-3 text-white text-xs font-bold">
+                    {{ . }}
+                </div>
+                {{ end }}
+                <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" class="block w-full h-full object-cover -z-1">
+            </a>
+        </div>
     </div>
-</div>
+    {{ end }}
 {{ end }}
