@@ -114,7 +114,7 @@ window.languageDetection = {
     var u = new URL(str);
     var whitelist = ['staging.taiwangoldcard.tw', 'goldcard.nat.gov.tw'];
 
-    if ("production" !== 'production') {
+    if (undefined !== 'production') {
       console.warn('%cDev URLs enabled', 'color:red;background:yellow;');
       whitelist.push('localhost:1313');
     }
@@ -1087,7 +1087,7 @@ window.taLanguage = function () {
       var u = new URL(str);
       var whitelist = ['staging.taiwangoldcard.tw', 'goldcard.nat.gov.tw'];
 
-      if ("production" !== 'production') {
+      if (undefined !== 'production') {
         console.warn('%cDev URLs enabled', 'color:red;background:yellow;');
         whitelist.push('localhost:1313');
       }
