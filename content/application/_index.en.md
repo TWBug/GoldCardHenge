@@ -8,9 +8,9 @@ date: 2020-11-05T07:09:20.617Z
 title: One Page Application Process
 chatbot: true
 topic: goldcard
-tags: null
 style: title
 cover_image: null
+tags: null
 categories: null
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: null
@@ -50,7 +50,7 @@ Fill in your information / Passport & Visa Status
 * Please select the industry that you want to apply under and attach all relevant supporting documents. Click save after double-checking and uploading the files.
 * After you submit your application, changing the industry will be difficult and it will take longer to process review your application.
 
-{{< accordion title="Application Details" suffix="" bottomless="false" >}}
+{{< accordion title="Application Details" suffix="" bottomless="true" >}}
 
 * After you have successfully registered, login and select "Employment Gold Card Application" in the "Online Application" menu. Then select your nationality and if you are applying from Taiwan or abroad.
 * You may apply for the Taiwan Employment Gold Card if you hold a foreign passport, or a ROC passport without household registration (NWHOR). ROC nationals with a household registration or National ID card are not eligible to apply. If you hold a Taiwan NWHOR passport, when applying domestically, you must have entered with your foreign passport and not Taiwan NWHOR passport or your application will be rejected.
@@ -112,7 +112,7 @@ For overseas applications, or if you have entered Taiwan but have a visa with a 
 
 After your application has been approved, you will receive an e-mail notifying you to collect your Gold Card. Please bring your original passport and relevant documents to your selected location for picking up your Gold Card. If you can not to pick it up in person, you can ask a friend or agent. In that case, you need to provide them with a power of attorney form.
 
-{{< accordion title="More Details" suffix="" bottomless="false" >}}
+{{< accordion title="More Details" suffix="" bottomless="true" >}}
 
 **Domestic Applicants**
 
@@ -127,7 +127,8 @@ After your application has been approved, you will receive an e-mail notifying y
 
   * Please go to the "download" area on ​​the application platform to print out the "Republic of China Employment Gold Card Overseas Approval Certificate." Take the receipt and your passport to the previously designated ROC mission/office.
   * It can take over 21 working days to deliver a Gold Card to an overseas ROC mission/office. The mission/office will notify you to pick up your Gold Card. If the Gold Card is not collected within three months, the mission/office will send it back to the National Immigration Agency in Taiwan.
-    {{< /accordion >}}
+    
+{{< /accordion >}}
 
 ## Submitting Additional Documents & Rejection
 
@@ -137,7 +138,7 @@ The review process after you complete the online payment officially begins. As t
 Visa issuance is an act of sovereignty and related to the National security. The government reserves the right not to issue a visa and is under no obligation to disclose the reason.
 {{< /teaser >}}
 
-{{< accordion title="More Details" suffix="" bottomless="false" >}}
+{{< accordion title="More Details" suffix="" bottomless="true" >}}
 **If you submit incomplete or inaccurate information, or the authorities require more information about your qualifications, you will need to submit additional documents for review. Failing to do so can result in your application being rejected.** 
 
 * Please take the time to check which visa you have entered the country with, and choose the right visa category as this cannot be changed later, e.g., Visa-free, Student visa, visitor visa, etc.
@@ -189,6 +190,6 @@ Domestic applications require a resident address when applying. When entering th
 {{< /note >}}
 
 {{< note title="4" >}}
-* You can change the passport inspection location anytime on the online platform before the application has finished the review process. **You will not be able to make online changes after you receive the e-mail confirmation that your application has passed review.** At this point, you can only change the location by contacting the Bureau of Consular Affairs (from overseas) or contacting the National Immigration Agency (from within Taiwan).
-* If you send your passport via post to an overseas mission/office, please make sure you don't have to use your passport within a month.
+* You can change the **passport inspection location or Gold Card pick-up location** anytime on the online platform before the application has finished the review process. You will not be able to make online changes after you receive the e-mail confirmation that your application has passed review. At this point, you can only change the location by contacting the Bureau of Consular Affairs (from overseas) or contacting the National Immigration Agency (from within Taiwan).
+* If you send your passport via post to an overseas mission/office, please make sure you don’t have to use your passport within a month.
 {{< /note >}}

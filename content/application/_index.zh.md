@@ -7,9 +7,9 @@ date: 2020-11-05T07:09:20.617Z
 title: 一頁式申請流程
 chatbot: true
 topic: goldcard
-tags: null
 style: title
 cover_image: null
+tags: null
 categories: null
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: null
@@ -189,5 +189,5 @@ cover_image_alt: null
 {{< note title="7" >}}
 領卡注意事項
 
-* 請注意領卡地點可在審查通過前於線上平台更改，**若已接到審查通過的郵件通知，即無法線上修改**，境內申請者請聯繫移民署服務站，境外申請者請聯繫外交部領務局做更改。
+* 請注意領卡地點**可在勞發署審查通過前於線上平台更改，若已接到審查通過的郵件通知，即無法線上修改**，境內申請者請聯繫移民署服務站，境外申請者請聯繫外交部領務局做更改。
 {{< /note >}}
