@@ -30,4 +30,4 @@ badges:
 
 ---
 
-Purpose of Role ● The successful candidate will be a self-driven UI designer with experience in mobile product mindset ● The candidate will work on ensuring that all user-experience journeys across all products and channels are smooth and intuitive interactions ● The candidate will be passionate for the product, design and user experience ● The candidate will have strong problem-solving skills and able to be OK with ambiguity Key Responsibilities ● Collaborate closely with PM and developers to d
+Purpose of Role ��� The successful candidate will be a self-driven UI designer with experience in mobile product mindset ● The candidate will work on ensuring that all user-experience journeys across all products and channels are smooth and intuitive interactions ● The candidate will be passionate for the product, design and user experience ● The candidate will have strong problem-solving skills and able to be OK with ambiguity Key Responsibilities ● Collaborate closely with PM and developers to d
