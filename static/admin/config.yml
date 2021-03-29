@@ -100,7 +100,7 @@ collections:
                 i18n: duplicate,
                 required: false,
             }
-          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true, required: false }
 
     # Home page
     - name: 'home_page'
@@ -574,26 +574,26 @@ collections:
                 required: false,
                 i18n: duplicate,
             }
-        #   - label: 'Tags'
-        #     name: 'tags'
-        #     widget: 'relation'
-        #     collection: 'taxonomies'
-        #     file: 'tag_data'
-        #     value_field: 'items.*'
-        #     search_fields: ['items.*']
-        #     multiple: true
-        #     required: false
-        #     i18n: duplicate
-        #   - label: 'Categories'
-        #     name: 'categories'
-        #     widget: 'relation'
-        #     collection: 'taxonomies'
-        #     file: 'category_data'
-        #     value_field: 'items.*'
-        #     search_fields: ['items.*']
-        #     multiple: true
-        #     required: false
-        #     i18n: duplicate
+          #   - label: 'Tags'
+          #     name: 'tags'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'tag_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          #   - label: 'Categories'
+          #     name: 'categories'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'category_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
           - {
                 label: 'Draft?',
                 name: 'draft',
@@ -700,26 +700,26 @@ collections:
                 required: false,
                 i18n: duplicate,
             }
-        #   - label: 'Tags'
-        #     name: 'tags'
-        #     widget: 'relation'
-        #     collection: 'taxonomies'
-        #     file: 'tag_data'
-        #     value_field: 'items.*'
-        #     search_fields: ['items.*']
-        #     multiple: true
-        #     required: false
-        #     i18n: duplicate
-        #   - label: 'Categories'
-        #     name: 'categories'
-        #     widget: 'relation'
-        #     collection: 'taxonomies'
-        #     file: 'category_data'
-        #     value_field: 'items.*'
-        #     search_fields: ['items.*']
-        #     multiple: true
-        #     required: false
-        #     i18n: duplicate
+          #   - label: 'Tags'
+          #     name: 'tags'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'tag_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          #   - label: 'Categories'
+          #     name: 'categories'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'category_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
           - {
                 label: 'Draft?',
                 name: 'draft',
@@ -756,26 +756,26 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
-        #   - label: 'Tags'
-        #     name: 'tags'
-        #     widget: 'relation'
-        #     collection: 'taxonomies'
-        #     file: 'tag_data'
-        #     value_field: 'items.*'
-        #     search_fields: ['items.*']
-        #     multiple: true
-        #     required: false
-        #     i18n: duplicate
-        #   - label: 'Categories'
-        #     name: 'categories'
-        #     widget: 'relation'
-        #     collection: 'taxonomies'
-        #     file: 'category_data'
-        #     value_field: 'items.*'
-        #     search_fields: ['items.*']
-        #     multiple: true
-        #     required: false
-        #     i18n: duplicate
+          #   - label: 'Tags'
+          #     name: 'tags'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'tag_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          #   - label: 'Categories'
+          #     name: 'categories'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'category_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
 
     # NOTE: Netlify CMS internally tries to infer which field should represent
     # the title of a collection item in the UI. This was fine until we changed
@@ -891,26 +891,26 @@ collections:
                 required: false,
                 i18n: duplicate,
             }
-        #   - label: 'Tags'
-        #     name: 'tags'
-        #     widget: 'relation'
-        #     collection: 'taxonomies'
-        #     file: 'tag_data'
-        #     value_field: 'items.*'
-        #     search_fields: ['items.*']
-        #     multiple: true
-        #     required: false
-        #     i18n: duplicate
-        #   - label: 'Categories'
-        #     name: 'categories'
-        #     widget: 'relation'
-        #     collection: 'taxonomies'
-        #     file: 'category_data'
-        #     value_field: 'items.*'
-        #     search_fields: ['items.*']
-        #     multiple: true
-        #     required: false
-        #     i18n: duplicate
+          #   - label: 'Tags'
+          #     name: 'tags'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'tag_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          #   - label: 'Categories'
+          #     name: 'categories'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'category_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
 
     - name: 'help-desk'
@@ -1163,26 +1163,26 @@ collections:
                 default: 'goldcard',
                 i18n: duplicate,
             }
-        #   - label: 'Tags'
-        #     name: 'tags'
-        #     widget: 'relation'
-        #     collection: 'taxonomies'
-        #     file: 'tag_data'
-        #     value_field: 'items.*'
-        #     search_fields: ['items.*']
-        #     multiple: true
-        #     required: false
-        #     i18n: duplicate
-        #   - label: 'Categories'
-        #     name: 'categories'
-        #     widget: 'relation'
-        #     collection: 'taxonomies'
-        #     file: 'category_data'
-        #     value_field: 'items.*'
-        #     search_fields: ['items.*']
-        #     multiple: true
-        #     required: false
-        #     i18n: duplicate
+          #   - label: 'Tags'
+          #     name: 'tags'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'tag_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          #   - label: 'Categories'
+          #     name: 'categories'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'category_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
           - {
                 label: 'Style',
                 name: 'style',
@@ -1296,16 +1296,16 @@ collections:
                 required: false,
                 i18n: duplicate,
             }
-        #   - label: 'Tags'
-        #     name: 'tags'
-        #     widget: 'relation'
-        #     collection: 'taxonomies'
-        #     file: 'tag_data'
-        #     value_field: 'items.*'
-        #     search_fields: ['items.*']
-        #     multiple: true
-        #     required: false
-        #     i18n: duplicate
+          #   - label: 'Tags'
+          #     name: 'tags'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'tag_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
           - label: 'Categories'
             name: 'categories'
             widget: 'relation'
@@ -1488,7 +1488,6 @@ collections:
                   fields:
                       - { label: Identifier, name: id, widget: string, i18n: duplicate }
                       - { label: Translation, name: translation, widget: string, i18n: true }
-
 
     # Configure the site. Menus for example
     - name: 'config'
