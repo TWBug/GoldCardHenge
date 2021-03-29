@@ -24,4 +24,4 @@ badges:
 
 ---
 
-工作內容： 我們正在建構AI相關的軟硬體產品 加入我們的團隊，你將有機會參與到產品開發的完整過程 我們鼓勵夥伴提出想法，參與討論，為客戶提供更好的體驗 在這份工作，你將負責產品後端服務的開發，並與其他內部團隊一起打造最棒AI產品 1. API designs and implementations 2. Implement microservices to enable our service functions on the workstation or embedded system 3. Implement the unit test codes 4. Improve user experiences Requirements * Solid on the programming languages: Python & Golang (technical percentage 7:3) * Experience with SQL and NoSQL database * Experience with docker and docker compose * Experience 
+工作內容： ���們正在建構AI相關的軟硬體產品 加入我們的團隊，你將有機會參與到產品開發的完整過程 我們鼓勵夥伴提出想法，參與討論，為客戶提供更好的體驗 在這份工作，你將負責產品後端服務的開發，並與其他內部團隊一起打造最棒AI產品 1. API designs and implementations 2. Implement microservices to enable our service functions on the workstation or embedded system 3. Implement the unit test codes 4. Improve user experiences Requirements * Solid on the programming languages: Python & Golang (technical percentage 7:3) * Experience with SQL and NoSQL database * Experience with docker and docker compose * Experience 
