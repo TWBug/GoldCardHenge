@@ -31,4 +31,4 @@ badges:
 
 ---
 
-產��類別： 塑膠製品製造 職責要求 1.Can provide the solution to meet customer’s requirement both technically and economically 2.Promote and sell service contract and spare parts 3.Provide technical support to sales 4.Work with Sales,Engineering, Applications,Service Support 5.Repairing,testing and maintaining loan unit,warehouse and showroom equipment 6.Provide AutoCAD drawing for project and fabrication drawings and equipment utility requirement data for the customers 7.Performs field installation of equipment
+產業類別： 塑膠製品製造 職責要求 1.Can provide the solution to meet customer’s requirement both technically and economically 2.Promote and sell service contract and spare parts 3.Provide technical support to sales 4.Work with Sales,Engineering, Applications,Service Support 5.Repairing,testing and maintaining loan unit,warehouse and showroom equipment 6.Provide AutoCAD drawing for project and fabrication drawings and equipment utility requirement data for the customers 7.Performs field installation of equipment

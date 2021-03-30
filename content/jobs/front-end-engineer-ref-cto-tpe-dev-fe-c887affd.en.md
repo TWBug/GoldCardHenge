@@ -30,4 +30,4 @@ badges:
 
 ---
 
-- 負責開發 Web App 或 Desktop App 以及後端 API 設計； - 與 UI/UX 設計師合作，並評估設計之可行性； - 優化前端效能及擴充性； - 開發��端及 API 測試模組。 - Responsible for developing functional and appealing user facing features for web and desktop applications as well as backend API design; - Collaborate with UI/UX designers to ensure the technical feasibility of designs; - Optimize applications to maximize performance and scalability; - Perform UI and API testing.
+- 負責開發 Web App 或 Desktop App 以及後端 API 設計； - 與 UI/UX 設計師合作，並評估設計之可行性； - 優化前端效能及擴充性； - 開發前端及 API 測試模組。 - Responsible for developing functional and appealing user facing features for web and desktop applications as well as backend API design; - Collaborate with UI/UX designers to ensure the technical feasibility of designs; - Optimize applications to maximize performance and scalability; - Perform UI and API testing.
