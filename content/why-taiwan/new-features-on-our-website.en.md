@@ -26,6 +26,14 @@ Of course, please do still follow the links to the formal regulations whenever y
 
 Our hardworking helpdesk team now provides live chat support in addition to the existing email and phone options. You can talk with us though instant messaging on our helpdesk page between 10am and 6pm Taiwan time (UTC+8).
 
+{{< card title="Qualification Quick Check Diagram" link="" image="/cms-uploads/qualification-quick-check-diagram.png" >}}
+
+{{< /card >}}
+
+{{< card title="Chat Bot Diagram" link="" image="/cms-uploads/chat-bot-diagram.png" >}}
+
+{{< /card >}}
+
 * Job Board
 
 Finding a job is sometimes one of the harder tasks of moving countries, and we're here to help. Powered by popular Taiwanese job search site Cakeresume, we now list some of the most relevant jobs for Gold Card holders on our Job Board.
@@ -33,5 +41,13 @@ Finding a job is sometimes one of the harder tasks of moving countries, and we'r
 * Improved Helpdesk Form
 
 We have inaugurated a new helpdesk form that you can use to send us emails. One of the main improvements is that you can now select the Type of question you have. This helps direct your request to the right people and results in even faster response times. The form's performance for our friends that use screenreaders has also been greatly improved.
+
+{{< card title="Job Board Diagram" link="" image="/cms-uploads/job-board-diagram.png" >}}
+
+{{< /card >}}
+
+{{< card title="Help Desk Diagram" link="" image="/cms-uploads/help-desk-diagram.png" >}}
+
+{{< /card >}}
 
 That's all for now, but please feel free to contact us any time with your ideas!
