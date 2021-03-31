@@ -34,8 +34,6 @@ Our hardworking helpdesk team now provides live chat support in addition to the 
 
 {{< /card >}}
 
-![Job Board Diagram](/cms-uploads/job-board-diagram.png)
-
 * Job Board
 
 Finding a job is sometimes one of the harder tasks of moving countries, and we're here to help. Powered by popular Taiwanese job search site Cakeresume, we now list some of the most relevant jobs for Gold Card holders on our Job Board.
