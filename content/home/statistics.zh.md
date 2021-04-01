@@ -7,13 +7,12 @@ headless: true
 links: null
 items:
   - preview: null
-    label: "2243"
+    label: "2447"
     href: 金卡核發數
   - preview: null
     label: "62"
     href: 金卡國籍數
   - preview: null
-    label: "12192"
+    label: "14545"
     href: 諮詢服務次數
 ---
-
