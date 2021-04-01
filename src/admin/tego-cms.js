@@ -816,10 +816,8 @@ CMS.registerEditorComponent({
 CMS.registerPreviewStyle('/css/wysiwyg.min.css');
 
 const zh = CMS.getLocale('zh_Hant');
-if (true /* TODO: What should be the check for zh user lang? */) {
-    CMS.registerLocale('zh', zh);
-    CMS.registerLocale('zh_Hant', zh);
-}
+CMS.registerLocale('zh', zh);
+CMS.registerLocale('zh_Hant', zh);
 
 // NOTE: The main website stores the user's locale on this key, so the way to
 // change the locale is via the main website, not via the CMS interface.

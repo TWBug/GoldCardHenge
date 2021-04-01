@@ -750,7 +750,7 @@ collections:
       preview_path: en/jobs/{{slug}}
       i18n:
           true
-          # @todo The CMS simply does not respect this filter
+          # @note The CMS simply does not respect this filter
       filter: { field: 'title', value: 'Jobs' }
       fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }

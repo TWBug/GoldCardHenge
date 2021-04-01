@@ -212,7 +212,6 @@ function initUI() {
         'style',
         {},
         `
-/* TODO: These temp styles will likely be removed later */
 #search-results {
   position: absolute;
   top: 40px; /* The height of the upper header */
