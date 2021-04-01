@@ -5,6 +5,8 @@ topic: eventsnews
 draft: false
 hidden: false
 chatbot: false
+categories:
+  - Announcement
 style: right
 ---
 # 就業金卡最新核發數字: 2,447!
