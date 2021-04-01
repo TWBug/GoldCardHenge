@@ -793,6 +793,20 @@ CMS.registerEditorComponent({
 });
 
 CMS.registerEditorComponent({
+    id: 'separator',
+    label: 'Separator 分隔線',
+    fields: [],
+    pattern: /^{{< separate >}}/,
+    fromBlock: () => {
+        return {};
+    },
+    toBlock: (obj) => {
+        return '{{< separate >}}';
+    },
+    toPreview: (obj) => <div className="separate separate-top h-6 -ml-2 -mr-2"></div>,
+});
+
+CMS.registerEditorComponent({
     id: 'youtube',
     label: 'Youtube',
     fields: [{ name: 'id', label: 'Youtube Video ID' }],
