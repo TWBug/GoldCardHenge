@@ -16,7 +16,7 @@ Social etiquette is very important for people in Taiwan. They pay special attent
 
 ## Greetings
 
-{{< seperator >}}
+{{< separate >}}
 
 -   Names and titles are very important and it is customary to exchange business cards upon introduction. Keep extra business cards in your wallet at all times, and it's best to have cards with both Chinese and English. After shaking hands, present your business card with both hands to the other person. Do not throw your card on the table and always try to give a card if you receive one.
 -   A nod or a slight bow is considered polite for the first meeting, while handshakes are generally only for males who are friends.
@@ -26,7 +26,7 @@ Social etiquette is very important for people in Taiwan. They pay special attent
 
 ## Meetings
 
-{{< seperator >}}
+{{< separate >}}
 
 -   Business people in Taiwan are hard bargainers and may try to gain concessions by wearing the other party down. Be patient and do not push too hard or fast.
 -   If possible, bring a team of 2-4 people (one senior individual with decision-making power). This enhances the status and image of executives and reflects on the seriousness of the meeting.
@@ -39,7 +39,7 @@ Social etiquette is very important for people in Taiwan. They pay special attent
 
 ## Dining and Entertainment
 
-{{< seperator >}}
+{{< separate >}}
 
 -   To be successful in Taiwan, one must master the Art of Entertaining. Entertaining should never be regarded as a waste of time and choosing the right restaurant is vital and can greatly enhance your chances of success.
 -   Dining in Taiwan can be elaborate and exhausting with as many as twenty courses at a banquet, meaning that business dinners can go late into the night.
@@ -57,7 +57,7 @@ Social etiquette is very important for people in Taiwan. They pay special attent
 
 ## Attire
 
-{{< seperator >}}
+{{< separate >}}
 
 -   The Taiwanese place a heavy emphasis on dressing neatly and conservatively. Men tend to wear suits, while women wear conservative business attire, such as a loose skirt and blouse.
 -   Making a good first impression is vital. Avoid wearing t-shirts, jeans, and other casual attire to first meetings.
@@ -69,7 +69,7 @@ Social etiquette is very important for people in Taiwan. They pay special attent
 
 ## Gifts
 
-{{< seperator >}}
+{{< separate >}}
 
 -   Present and receive gifts with both hands and do not open them in front of the giver.
 -   Recipients may refuse a gift to be polite, but politely persist until the gift is accepted.
@@ -78,7 +78,7 @@ Social etiquette is very important for people in Taiwan. They pay special attent
 
 ## Body Language
 
-{{< seperator >}}
+{{< separate >}}
 
 -   Do not touch anyone, especially a baby, on the top of their head.
 -   Affection for the opposite sex is not shown in public.

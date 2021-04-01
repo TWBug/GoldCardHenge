@@ -59,6 +59,26 @@ blockquote {
 @tailwind utilities;
 
 /* purgecss start ignore */
+
+
+.separate {
+    @apply relative;
+}
+.separate::before {
+    content: ' ';
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 1px);
+    @apply border-t-2 border-dashed border-gray-400;
+}
+.separate-top::before {
+    top: 0px;
+}
+.separate-bottom::before {
+    top: 100%;
+}
+
 .frame-content {
     @apply leading-relaxed text-lg;
 }
