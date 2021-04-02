@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '13264'
-title: Sr. Front-end Engineer 資深前端工程師 (Vue)
+title: (Sr.) Front-end Engineer (資深)前端工程師 (Vue)
 job_url: >-
   https://www.cakeresume.com/companies/cruisys/jobs/sr-front-end-engineer-front-end-engineer-vue
 date: 2019-09-11T02:27:02.104Z

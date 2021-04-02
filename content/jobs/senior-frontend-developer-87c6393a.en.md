@@ -26,6 +26,8 @@ job_tags:
   - React.js
   - Vue
   - Vue.js
+  - Angular
+  - AngularJS
 badges:
   - Frontend
 
