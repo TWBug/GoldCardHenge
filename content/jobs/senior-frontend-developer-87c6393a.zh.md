@@ -17,7 +17,8 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 1000000
 salary_max: 1300000
-location_list: []
+location_list:
+  - 台北市中山區玉門街1號
 job_tags:
   - Frontend
   - frontend engineer
