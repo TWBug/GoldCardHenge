@@ -8,4 +8,4 @@ You must log in to the [Foreign Professionals Online Application Platform](https
 
 Process for address change: 
 
-Log into the \[Foreign Professionals Online Application Platform] Information change of Employment Gold Card --> Upload proof of address (i.e. lease contract or water bill) --> Additional Documents (if needed) --> Receive automated email stating that the “steps of the online payment and the delivery have been completed” --> Bring passport, current Gold Card, and electronic payment receipt to the National Immigration Agency to claim new Gold Card.
+Log into the \[Foreign Professionals Online Application Platform] Information change of Employment Gold Card –> Upload proof of address (i.e. proof of accommodation, lease contract, or water/electricity bill) –> Additional Documents (if needed) –> Receive automated email stating that the “steps of the online payment and the delivery have been completed” –> Bring passport, current Gold Card, and electronic payment receipt to the National Immigration Agency to claim new Gold Card.
