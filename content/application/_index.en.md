@@ -70,9 +70,9 @@ Uploading Your Documents
 * Attach all relevant supporting documents. Documents need to correspond with the requirements based on the qualification you choose to apply. [Note 3](#note-3)
 * If the provided documents are not in English or Chinese, please attach a translation to English or Chinese. If your documents are issued by the following countries/regions, additional verification is needed:
 
+  * Applicants from Hong Kong and Macau may need to supply copies of resident and identity information.
+  * Documents issued in the Mainland area have to be attested and examined by [the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct5bfa.html?xItem=110586&ctNode=5946&mp=3) entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area."
   * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
-* Hong Kong and Macao applicants must download the "Hong Kong or Macao Resident Confirmation Document" and the "Residence Declaration Form for Hong Kong and Macao Residents". Signatures must be in Chinese.
-* Documents issued in the Mainland area have to be attested and examined by [the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct5bfa.html?xItem=110586&ctNode=5946&mp=3) entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area."
 
 {{< teaser prefix="4." >}}
 Payment and E-Mail Confirmation
@@ -181,7 +181,7 @@ Domestic applications require a resident address when applying. When entering th
    Please refer to [article 7 of Enforcement Rules for the Act Governing Relations Between the People of the Taiwan Area and the Mainland Area ](https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=Q0010002)
 
 * If you choose to apply as a Hong Kong citizen, you will be required to give up your other citizenship. You must give up your foreign citizenship according to Article 4 of Laws and Regulations Regarding Hong Kong & Macao Affairs, the "Hong Kong Residents" as used herein refers to persons who qualify for permanent residency in Hong Kong and who do not hold a travel document other than a British (Overseas) passport or a Hong Kong passport. However, if you apply as a foreign citizen, you would only have to sign an affidavit stating that you will only use the designated passport you chose to enter Taiwan.
-* Hong Kong and Macao applicants must download the Hong Kong or Macao Resident Identity Confirmation Document. Signatures must be in Chinese.
+* Hong Kong and Macao applicants must download the "Hong Kong or Macao Resident Confirmation Document" and the "Residence Declaration Form for Hong Kong and Macao Residents". Signatures must be in Chinese. Please refer to the links to download the necessary documents: [香港或澳門居民身分確認書](https://www.immigration.gov.tw/media/51515/%E9%A6%99%E6%B8%AF%E6%88%96%E6%BE%B3%E9%96%80%E5%B1%85%E6%B0%91%E8%BA%AB%E5%88%86%E7%A2%BA%E8%AA%8D%E6%9B%B8.pdf)、[香港澳門居民申請居留定居申報書](https://www.immigration.gov.tw/media/62232/%E9%A6%99%E6%B8%AF%E6%BE%B3%E9%96%80%E5%B1%85%E6%B0%91%E7%94%B3%E8%AB%8B%E5%B1%85%E7%95%99%E5%AE%9A%E5%B1%85%E7%94%B3%E5%A0%B1%E6%9B%B8.pdf)
 {{< /note >}}
 
 {{< note title="3" >}}
