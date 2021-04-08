@@ -4,13 +4,12 @@ date: 2021-02-18T06:42:49.867Z
 summary: 請按照您的需求勾選就業金卡效期，並選擇領證方式
 draft: false
 hidden: false
+chatbot: true
 order: 4
 topic: goldcard
 previous: /apply/step-2/your-data/
 next: /apply/step-2/profession/
-chatbot: true
 ---
-
 # 居留申請
 
 * 在居留申請分頁中，可按照您的需求勾選就業金卡效期，有1年、2年或3年共三種。
@@ -21,4 +20,4 @@ chatbot: true
   * 正確：台北市中正區寶慶路3號2樓
   * 錯誤：台北市中正區寶慶路No. 3, 2F
 
-![地址格式](/cms-uploads/地址格式.png "地址格式")
+![地址格式示意圖](/cms-uploads/地址格式.png "地址格式示意圖")

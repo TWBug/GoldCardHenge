@@ -4,13 +4,12 @@ date: 2021-02-18T06:42:49.867Z
 summary: Choose your validity period and preferred location for collecting Gold Card
 draft: false
 hidden: false
+chatbot: true
 order: 4
 topic: goldcard
 previous: /apply/step-2/your-data/
 next: /apply/step-2/profession/
-chatbot: true
 ---
-
 # Resident
 
 * Choose your validity period for the Taiwan Employment Gold Card. The price of the application varies for longer validity periods. Extensions are not possible.
@@ -22,4 +21,4 @@ chatbot: true
   * Incorrect：台北市中正區寶慶路No. 3, 2F
   * Correct：台北市中正區寶慶路3號2樓
 
-![Address Format](/cms-uploads/地址格式.png "Address Format")
+![Address Format Showcase](/cms-uploads/地址格式.png "Address Format Showcase")
