@@ -8,4 +8,4 @@ categories:
 ---
 為延攬優秀外國特定專業人才，法務部放寬法律領域特殊專長之認定條件。
 
-更新後的認定條件請參考[法律領域](/zh/qualification/field-of-law/)
+更新後的認定條件請參考[法律領域](/zh/qualification/field-of-law/)。
