@@ -5,9 +5,9 @@ summary: In order to attract foreign special professionals, the Ministry of
   Science and Technology relaxes its regulations for “Foreign Special
   Professionals Possessing Special Expertise in Science & Technology”.
 date: 2021-01-04T06:44:43.772Z
+topic: eventsnews
 draft: false
 hidden: false
-topic: eventsnews
 categories:
   - Gold Card Policy
 style: right
@@ -21,4 +21,4 @@ The amendments include:
 3. Added qualifications in regards to individuals who contribute to Taiwan’s science and technology fields (Article 13)
 4. Relaxation on certain required supporting documents. Instead of providing a \[Doctorate Diploma] , a \[Foreign or Domestic Diploma] will suffice.
 
-{{< file-download title="科技領域公告" path="/cms-uploads/科技領域公告.pdf" >}}
+{{< file-download title="Ministry of Science and Technology Announcement.pdf" path="/cms-uploads/科技領域公告.pdf" >}}

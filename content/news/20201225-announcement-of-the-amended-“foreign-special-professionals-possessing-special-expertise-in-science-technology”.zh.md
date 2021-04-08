@@ -2,9 +2,9 @@
 title: 20201225 科技部修正「外國特定專業人才具有科技領域特殊專長」
 summary: 為延攬優秀外國特定專業人才，科技部放寬外國特定專業人才具有科技領域特殊專長
 date: 2021-01-04T06:44:43.772Z
+topic: eventsnews
 draft: false
 hidden: false
-topic: eventsnews
 categories:
   - Gold Card Policy
 style: right
@@ -18,4 +18,4 @@ style: right
 3. 新增對我國科技產業具有貢獻潛力者(第13點)
 4. 鬆綁部分資格條件之應備文件，如由「博士學位證書」鬆綁為「國內外學歷證書」即可。
 
-{{< file-download title="科技領域公告" path="/cms-uploads/科技領域公告.pdf" >}}
+{{< file-download title="科技領域公告.pdf" path="/cms-uploads/科技領域公告.pdf" >}}
