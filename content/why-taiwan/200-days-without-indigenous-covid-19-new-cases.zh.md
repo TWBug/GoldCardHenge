@@ -4,9 +4,9 @@ date: 2020-12-14T06:35:39.159Z
 draft: false
 topic: whytaiwan
 cover_image: /cms-uploads/covid19.jpg
-cover_image_alt: COVID-19
+cover_image_alt: ""
 media_image: /cms-uploads/covid19.jpg
-media_image_alt: COVID-19
+media_image_alt: ""
 topics:
   - Other
 style: title
