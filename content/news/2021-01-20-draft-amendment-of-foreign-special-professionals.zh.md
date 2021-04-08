@@ -25,6 +25,6 @@ style: right
 * 電話：(02)8512-6772。
 * 電子郵件：wheat0422@moc.gov.tw。
 
-{{< file-download title="文化部公告" path="/cms-uploads/文化部公告.pdf" >}}
+{{< file-download title="文化部公告.pdf" path="/cms-uploads/文化部公告.pdf" >}}
 
-{{< file-download title="「外國特定專業人才具有文化藝術領域特殊專長」修正草案總說明和對照表" path="/cms-uploads/「外國特定專業人才具有文化藝術領域特殊專長」修正草案總說明和對照表.pdf" >}}
+{{< file-download title="「外國特定專業人才具有文化藝術領域特殊專長」修正草案總說明和對照表.pdf" path="/cms-uploads/「外國特定專業人才具有文化藝術領域特殊專長」修正草案總說明和對照表.pdf" >}}
