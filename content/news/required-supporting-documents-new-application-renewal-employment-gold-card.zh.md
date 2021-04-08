@@ -4,9 +4,9 @@ date: 2021-02-08T05:00:31.524Z
 topic: eventsnews
 draft: false
 hidden: false
-tags: []
 categories:
   - Gold Card Policy
 style: right
+tags: []
 ---
-{{< file-download title="20210208外國特定專業人才資格條件" path="/cms-uploads/20210208外國特定專業人才資格條件.pdf" >}}
+{{< file-download title="20210208外國特定專業人才資格條件.pdf" path="/cms-uploads/20210208外國特定專業人才資格條件.pdf" >}}
