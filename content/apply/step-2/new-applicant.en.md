@@ -4,11 +4,11 @@ date: 2021-01-22T05:59:59.754Z
 summary: Choose the right visa status
 draft: false
 hidden: false
+chatbot: true
 order: 2
 topic: goldcard
 previous: /apply/step-2/registration/
 next: /apply/step-2/your-data/
-chatbot: true
 ---
 # New Applicant
 
@@ -20,7 +20,7 @@ If you enter Taiwan with Taiwanese passport, you will not be allowed to apply fo
 * Once logged in to the portal, Select Application for Employment Gold Card from the Application menu, then click "New Applicant".
 * If you are applying from within Taiwan, be sure to select your current visa carefully as this cannot be changed later. Note that the common "visa exempt" entry is the last item in the list.
 
-![Visa Status](/cms-uploads/簽證狀態eng.png "Visa Status")
+![Visa Status Showcase](/cms-uploads/簽證狀態eng.png "Visa Status Showcase")
 
 * Please remember to double check your passport to confirm your visa situation. If you choose the wrong identity, you will be asked to reapply and not given a refund.
 
