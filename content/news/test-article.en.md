@@ -2,6 +2,10 @@
 title: "National Development Council Notice: Advance notice of draft amendments
   to the Act for the Recruitment and Employment of Foreign Professionals"
 date: 2020-09-24T05:00:45.948Z
+cover_image: ""
+cover_image_alt: ""
+media_image: ""
+media_image_alt: ""
 categories:
   - Gold Card Policy
 ---
