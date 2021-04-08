@@ -6,7 +6,7 @@ social_links:
   linkedin: https://www.linkedin.com/in/contacttaiwan/
   youtube: https://www.youtube.com/channel/UClqvUxN81wFYEXsu7zwo-PQ
 cover_image: /cms-uploads/未命名-1-02.jpg
-cover_image_alt: Contact TAIWAN
+cover_image_alt: ""
 draft: false
 hidden: false
 layout: related
