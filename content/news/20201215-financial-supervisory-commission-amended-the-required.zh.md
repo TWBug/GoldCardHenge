@@ -38,4 +38,4 @@ style: right
 
 * 由申請人檢具符合前點所列政府推動重點產業之學歷及經歷，足以認定對我國金融產業具貢獻潛力之相關證明文件，並經金融監督管理委員會審認核可者。
 
-{{< file-download title="公告" path="/cms-uploads/公告.pdf" >}}
+{{< file-download title="公告.pdf" path="/cms-uploads/公告.pdf" >}}
