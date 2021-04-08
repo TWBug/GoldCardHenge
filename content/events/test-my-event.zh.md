@@ -13,4 +13,4 @@ hidden: false
 tags: null
 category: null
 ---
-English Only Event
+此為全英文活動
