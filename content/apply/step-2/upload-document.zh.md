@@ -1,15 +1,15 @@
 ---
 draft: false
 start: false
+title: 文件上傳
 date: 2021-01-18T03:10:55.207Z
 summary: 依據所選擇的領域專長提供相關應備文件
 check: true
-title: 文件上傳
+chatbot: true
 order: 6
 topic: goldcard
 previous: /apply/step-2/your-data/
 next: /apply/step-2/profession-documents/
-chatbot: true
 ---
 # 文件上傳
 
@@ -18,7 +18,7 @@ chatbot: true
 * 港澳籍申請金卡者如果持有雙國籍，根據港澳條例第四條，移民署會要求放棄另一國籍，以港澳居民身分繼續辦理申請案，須檢附經外館驗證之放棄美國國籍證明書，並檢附經駐外館處或國內公證人認證之中譯本。除非一開始就填其他國籍非港澳籍，才需填寫切結書說明只使用其他國籍入台。
 * 如果申請人的文件是由以下國家/地區發行的，需要先經過認證。
 
-  * 若由大陸地區作成，依「臺灣地區與大陸地區人民關係條例」規定， [應經行政院設立或指定之機構或委託之民間團體驗證 ](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct0c08.html?xItem=63253&ctNode=5642&mp=1)。
+  * 若由大陸地區作成，依「臺灣地區與大陸地區人民關係條例」規定，相關規定請參考：[應經行政院設立或指定之機構或委託之民間團體驗證](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct0c08.html?xItem=63253&ctNode=5642&mp=1)。
   * 若於阿富汗、阿爾及利亞、孟加拉、不丹、緬甸、柬埔寨、喀麥隆、古巴、迦納、伊朗、伊拉克、寮國、尼泊爾、尼日、奈及利亞、巴基斯坦、塞內加爾、索馬利亞、斯里蘭卡、敘利亞、菲律賓、泰國、越南、馬來西亞、印尼等國家地區作成者，需先取得我國駐外館處之驗證。
 
 如需更多詳細資訊請參考[申請流程](https://goldcard.nat.gov.tw/zh/application/)頁面。

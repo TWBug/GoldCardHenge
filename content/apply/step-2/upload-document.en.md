@@ -1,15 +1,15 @@
 ---
 draft: false
 start: false
+title: Upload Document
 date: 2021-01-18T03:10:55.207Z
 summary: Select only ONE field and upload related documents.
 check: true
-title: Upload Document
+chatbot: true
 order: 6
 topic: goldcard
 previous: /apply/step-2/your-data/
 next: /apply/step-2/profession-documents/
-chatbot: true
 ---
 # Upload Document
 
@@ -25,7 +25,7 @@ chatbot: true
 * If your documents are issued by the following countries/regions, additional verification is needed:
 
   * Applicants from Hong Kong and Macau may need to supply copies of resident and identity information.
-  * Documents issued in the Mainland area have to be attested and examined by [the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct0c08.html?xItem=63253&ctNode=5642&mp=1) entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of “Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area.”
+  * Documents issued in the Mainland area have to be attested and examined by the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area." Please click [HERE](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct5bfa.html?xItem=110586&ctNode=5946&mp=3) for more information.
   * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
 
 For more information, please refer to the [detailed instructions](/en/application/#online-application).
