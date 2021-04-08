@@ -6,7 +6,7 @@ social_links:
   linkedin: ""
   youtube: https://www.youtube.com/channel/UCRQDbpuomUatHOAqLxp4IRQ?fbclid=IwAR0KNkJI2YyMMbc262xbWPWIPVe2SClKJmKPg7P8pN1UqC70KRuPYpFK5fQ
 cover_image: /cms-uploads/lift-program-2.0.jpg
-cover_image_alt: Logo of the LIFT Program 2.0
+cover_image_alt: ""
 draft: false
 hidden: false
 layout: related
