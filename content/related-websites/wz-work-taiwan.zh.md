@@ -2,7 +2,7 @@
 title: 勞動力發展署全球資訊網
 link: https://ezworktaiwan.wda.gov.tw/Default.aspx
 cover_image: /cms-uploads/未命名-1-03.jpg
-cover_image_alt: ezworktaiwan
+cover_image_alt: ""
 draft: false
 hidden: false
 layout: related
