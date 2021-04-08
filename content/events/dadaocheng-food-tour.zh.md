@@ -12,4 +12,4 @@ media_image_alt: Dadaocheng food tour event picture
 draft: false
 hidden: false
 ---
-English Only Event
+此為全英文活動
