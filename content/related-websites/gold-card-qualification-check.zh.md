@@ -1,5 +1,5 @@
 ---
-title: 非官方就業金卡社羣
+title: 非官方就業金卡社群
 link: https://taiwangoldcard.com/
 cover_image: /cms-uploads/gold-card-qualification-check-01.jpg
 draft: false
