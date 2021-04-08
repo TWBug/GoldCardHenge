@@ -2,14 +2,14 @@
 title: Business Registration Workshop
 link: https://www.accupass.com/event/2012290702181363174977
 start: 2021-01-28T10:00:04.404Z
+only_gold_card: true
 end: 2021-01-28T13:00:00.000Z
 location: FutureWard Central
 cover_image: /cms-uploads/business-registration-workshop.png
-cover_image_alt: Business Registration Workshop
+cover_image_alt: Business Registration Workshop event picture
 media_image: /cms-uploads/business-registration-workshop.png
-media_image_alt: Business Registration Workshop
+media_image_alt: Business Registration Workshop event picture
 draft: false
-only_gold_card: true
 hidden: false
 ---
 The Gold Card office will be holding a Business Registration Workshop for all Gold Card Holders! At this workshop, we will be covering the basics of registering your business in Taiwan.
