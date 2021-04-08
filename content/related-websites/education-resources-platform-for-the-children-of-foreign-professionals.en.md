@@ -2,7 +2,7 @@
 title: Education Resources Platform for the Children of Foreign Professionals
 link: https://www.ibst.org.tw/US/home
 cover_image: /cms-uploads/海外攬才子女教育資源平臺logo.jpg
-cover_image_alt: 海外攬才子女教育資源平臺LOGO
+cover_image_alt: ""
 draft: false
 hidden: false
 layout: related
