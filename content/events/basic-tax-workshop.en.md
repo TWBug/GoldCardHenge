@@ -2,14 +2,14 @@
 title: Basic Tax Workshop
 link: https://www.accupass.com/event/2011090730535142464340
 start: 2020-11-27T06:00:00.154Z
+only_gold_card: true
 end: 2020-11-27T09:00:00.154Z
 location: FutureWard Central
 cover_image: /cms-uploads/basic-tax-workshop.png
-cover_image_alt: Basic Tax Workshop
+cover_image_alt: Basic Tax Workshop event picture
 media_image: /cms-uploads/basic-tax-workshop.png
-media_image_alt: Basic Tax Workshop
+media_image_alt: Basic Tax Workshop event picture
 draft: false
-only_gold_card: true
 hidden: false
 ---
 By popular request, the Taiwan Employment Gold Card office will be holding a Basic Tax Workshop for all Gold Card Holders! Every foreigner's tax situation is different, but we believe that there are certain things that every person must know. At this workshop, we will be covering 2 basic topics:
