@@ -50,7 +50,7 @@ Fill in your information / Passport & Visa Status
 * Please select the industry that you want to apply under and attach all relevant supporting documents. Click save after double-checking and uploading the files.
 * After you submit your application, changing the industry will be difficult and it will take longer to process review your application.
 
-{{< accordion title="Application Details" suffix="" bottomless="true" >}}
+{{< accordion title="Application Details" suffix="" bottomless="false" >}}
 
 * After you have successfully registered, login and select "Employment Gold Card Application" in the "Online Application" menu. Then select your nationality and if you are applying from Taiwan or abroad.
 * You may apply for the Taiwan Employment Gold Card if you hold a foreign passport, or a ROC passport without household registration (NWHOR). ROC nationals with a household registration or National ID card are not eligible to apply. If you hold a Taiwan NWHOR passport, when applying domestically, you must have entered with your foreign passport and not Taiwan NWHOR passport or your application will be rejected.
@@ -112,7 +112,7 @@ For overseas applications, or if you have entered Taiwan but have a visa with a 
 
 After your application has been approved, you will receive an e-mail notifying you to collect your Gold Card. Please bring your original passport and relevant documents to your selected location for picking up your Gold Card. If you can not to pick it up in person, you can ask a friend or agent. In that case, you need to provide them with a power of attorney form.
 
-{{< accordion title="More Details" suffix="" bottomless="true" >}}
+{{< accordion title="More Details" suffix="" bottomless="false" >}}
 
 **Domestic Applicants**
 
