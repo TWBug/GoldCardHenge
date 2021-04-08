@@ -8,7 +8,7 @@ categories:
 ---
 「海外攬才子女資源平臺」，彙集全臺招收外籍專業人才子女的學校及專班，歡迎多多利用。[](https://www.ibst.org.tw/TW/home)
 
-[教育部海外攬才子女教育資源平台](https://www.ibst.org.tw/TW/home)
+詳細內容請參考 [教育部海外攬才子女教育資源平台](https://www.ibst.org.tw/TW/home)
 
 電話: 06-5053168
 
