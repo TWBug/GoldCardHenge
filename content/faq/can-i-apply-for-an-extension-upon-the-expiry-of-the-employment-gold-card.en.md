@@ -8,4 +8,4 @@ tags:
 ---
 Cardholders may reapply for a new Employment Gold Card before the expiration date on the Foreign Professionals Online Application Platform. After re-entering your personal information, the platform will automatically transfer your documents from your previous application**(you will not be able to preview or download your previous documents)**. Please refer to the details below:
 
-{{< file-download title="Required Documents" path="/cms-uploads/20210208外國特定專業人才資格條件.pdf" >}}
+{{< file-download title="Required Documents.pdf" path="/cms-uploads/20210208外國特定專業人才資格條件.pdf" >}}
