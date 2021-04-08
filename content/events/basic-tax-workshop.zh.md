@@ -12,4 +12,4 @@ media_image_alt: Basic Tax Workshop event picture
 draft: false
 hidden: false
 ---
-English Only Event
+此為全英文活動
