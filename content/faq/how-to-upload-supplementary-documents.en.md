@@ -10,6 +10,12 @@ If you do not submit your supplementary documents within 6 months, your applicat
 
 If you are asked to provide supplementary documents, but the validity period of your passport is less than 6 months, you will need to apply for a new passport. After you receive your new passport, you need to fill in your new passport number and validity period on the application platform. Please select your passport validity period by clicking on the calendar icon as shown in the photo(s) below.
 
-![change passport info 1](/cms-uploads/change-passport-info-2.png "change passport info 1")
+{{< card title="change passport info 1" link="" image="/cms-uploads/change-passport-info-2.png" >}}
 
-![change passport info 2](/cms-uploads/change-passport-info1.png "change passport info 2")
+{{< /card >}}
+
+
+
+{{< card title="change passport info 2" link="" image="/cms-uploads/change-passport-info1.png" >}}
+
+{{< /card >}}

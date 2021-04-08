@@ -12,16 +12,12 @@ tags:
 
 補件時若護照效期不足6個月，須重新申請護照後，並填入護照號碼及重選效期，效期請用小日曆點選如下圖。
 
-{{< card title="change passport info 1" link="" image="/cms-uploads/change-passport-info-2.png" >}}
+{{< card title="更改護照效期示意圖1" link="" image="/cms-uploads/change-passport-info-2.png" >}}
 
 {{< /card >}}
 
 
 
-{{< card title="change passport info 2" link="" image="/cms-uploads/change-passport-info1.png" >}}
+{{< card title="更改護照效期示意圖2" link="" image="/cms-uploads/change-passport-info1.png" >}}
 
 {{< /card >}}
-
-![change passport info 1](/cms-uploads/change-passport-info-2.png "change passport info 1")
-
-![change passport info 2](/cms-uploads/change-passport-info1.png "change passport info 2")
