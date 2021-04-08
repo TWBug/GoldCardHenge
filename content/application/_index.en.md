@@ -50,7 +50,7 @@ Fill in your information / Passport & Visa Status
 * Please select the industry that you want to apply under and attach all relevant supporting documents. Click save after double-checking and uploading the files.
 * After you submit your application, changing the industry will be difficult and it will take longer to process review your application.
 
-{{< accordion title="Application Details" suffix="" bottomless="false" >}}
+{{< accordion title="Application Details" suffix="" bottomless="true" >}}
 
 * After you have successfully registered, login and select "Employment Gold Card Application" in the "Online Application" menu. Then select your nationality and if you are applying from Taiwan or abroad.
 * You may apply for the Taiwan Employment Gold Card if you hold a foreign passport, or a ROC passport without household registration (NWHOR). ROC nationals with a household registration or National ID card are not eligible to apply. If you hold a Taiwan NWHOR passport, when applying domestically, you must have entered with your foreign passport and not Taiwan NWHOR passport or your application will be rejected.
@@ -71,7 +71,7 @@ Uploading Your Documents
 * If the provided documents are not in English or Chinese, please attach a translation to English or Chinese. If your documents are issued by the following countries/regions, additional verification is needed:
 
   * Applicants from Hong Kong and Macau may need to supply copies of resident and identity information.
-  * Documents issued in the Mainland area have to be attested and examined by [the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct5bfa.html?xItem=110586&ctNode=5946&mp=3) entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area."
+  * Documents issued in the Mainland area have to be attested and examined by the institutions instituted or appointed by the Executive Yuan, or non-governmental organizations entrusted by the Executive Yuan (Strait Exchange Foundation) following the rule in Article 7 of "Act Governing Relations between Peoples of the Taiwan Area and the Mainland Area." Please click [HERE](https://ws.mac.gov.tw/001/Upload/OldWeb/www.mac.gov.tw/ct5bfa.html?xItem=110586&ctNode=5946&mp=3) for more information.
   * An overseas ROC representative office must verify documents from the following countries/regions: Afghanistan, Algeria, Bengal, Bhutan, Myanmar, Cambodia, Cameroon, Cuba, Ghana, Iran, Iraq, Laos, Nepal, Niger, Nigeria, Pakistan, Senegal, Somalia, Sri Lanka, Syria, Philippines, Thailand, Vietnam, Malaysia, and Indonesia.
 
 {{< teaser prefix="4." >}}
@@ -112,7 +112,7 @@ For overseas applications, or if you have entered Taiwan but have a visa with a 
 
 After your application has been approved, you will receive an e-mail notifying you to collect your Gold Card. Please bring your original passport and relevant documents to your selected location for picking up your Gold Card. If you can not to pick it up in person, you can ask a friend or agent. In that case, you need to provide them with a power of attorney form.
 
-{{< accordion title="More Details" suffix="" bottomless="false" >}}
+{{< accordion title="More Details" suffix="" bottomless="true" >}}
 
 **Domestic Applicants**
 
@@ -138,7 +138,7 @@ The review process after you complete the online payment officially begins. As t
 Visa issuance is an act of sovereignty and related to the National security. The government reserves the right not to issue a visa and is under no obligation to disclose the reason.
 {{< /teaser >}}
 
-{{< accordion title="More Details" suffix="" bottomless="false" >}}
+{{< accordion title="More Details" suffix="" bottomless="true" >}}
 **If you submit incomplete or inaccurate information, or the authorities require more information about your qualifications, you will need to submit additional documents for review. Failing to do so can result in your application being rejected.**
 
 * Please take the time to check which visa you have entered the country with, and choose the right visa category as this cannot be changed later, e.g., Visa-free, Student visa, visitor visa, etc.
