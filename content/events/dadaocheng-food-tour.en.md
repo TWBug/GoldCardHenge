@@ -6,9 +6,9 @@ only_gold_card: true
 end: 2021-04-27T05:30:00.000Z
 location: Daqiaotou MRT Station, Taipei City, Taiwan
 cover_image: /cms-uploads/dadaocheng-food-tour.png
-cover_image_alt: Dadaocheng food tour event photo
+cover_image_alt: Dadaocheng food tour event picture
 media_image: /cms-uploads/dadaocheng-food-tour.png
-media_image_alt: Dadaocheng food tour event photo
+media_image_alt: Dadaocheng food tour event picture
 draft: false
 hidden: false
 ---
