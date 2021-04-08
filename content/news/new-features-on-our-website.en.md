@@ -6,6 +6,8 @@ topic: eventsnews
 draft: false
 hidden: false
 chatbot: false
+categories:
+  - Other
 style: right
 ---
 # 網站上的新功能
