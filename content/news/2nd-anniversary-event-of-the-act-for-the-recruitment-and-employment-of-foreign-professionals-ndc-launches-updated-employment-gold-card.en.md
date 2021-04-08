@@ -2,17 +2,16 @@
 title: " 2nd Anniversary Event of the Act for the Recruitment and Employment of
   Foreign Professionals – NDC launches updated Employment Gold Card"
 date: 2020-02-08T05:00:18.164Z
+topic: eventsnews
 draft: false
 hidden: false
-topic: eventsnews
 categories:
   - Announcement
 ---
-
 # 2nd Anniversary Event of the Act for the Recruitment and Employment of Foreign Professionals – NDC launches updated Employment Gold Card
 
 {{< teaser >}}
-Date of release: February 8, 2020  
+Date of release: February 8, 2020\
 Released by: Department of Human Resources Development
 {{< /teaser >}}
 
@@ -25,4 +24,5 @@ To express the government's great attention to Employment Gold Card holders, Nat
 584 Employment Gold Cards have been issued up to January 30, 2020. The breakdown by field of expertise of recipients is as follows: the highest proportion, 318 cards constituting 55% of the total, have been issued to specialists in the economic field; next is 106 cards (18%) in the science & technology field, followed by 65 (11%) in the cultural field, 49 (8%) in the financial field, and 41 (7%) in the educational field (see Figure 5). In terms of nationality, Americans come top, with 134 approvals, constituting 23% of the total, followed by Hong Kong residents with 90 (15%), UK nationals with 44 (8%), Malaysians with 37 (6%), Danes with 32 (6%), and Singaporeans with 26 (4%) (see Figure 6).
 
 Contact person: Gyh-mei Lin, Director-General of the Department of Human Resources
+
 Liaison: (02) 2316-5379
