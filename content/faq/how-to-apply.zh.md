@@ -4,7 +4,7 @@ draft: false
 tags:
   - Application
 ---
-線上即可申請。請點選 [線上申請平台](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/)
+線上即可申請。請點選申請平台： [外國專業人才申辦窗口平台](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/)[](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/)
 
 當您確認您的資格後，請收集所需的文件：
 
