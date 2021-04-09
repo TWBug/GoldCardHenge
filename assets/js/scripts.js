@@ -294,7 +294,7 @@ function smoothScroll() {
     for (_iterator.s(); !(_step = _iterator.n()).done;) {
       var link = _step.value;
       link.addEventListener('click', function (e) {
-        e.preventDefault();
+        // e.preventDefault();
         var href = e.target.getAttribute('href');
         href = "[id=\"".concat(href.substr(1), "\"]");
         var scrollNavHeight = document.documentElement.style.getPropertyValue('--navigationScroll');

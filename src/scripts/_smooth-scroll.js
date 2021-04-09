@@ -2,7 +2,8 @@ function smoothScroll() {
     const links = document.querySelectorAll(".copy a[href^='#']");
     for (const link of links) {
         link.addEventListener('click', (e) => {
-            e.preventDefault();
+            // removed because of accessibility issues
+            // e.preventDefault();
             var href = e.target.getAttribute('href');
             href = `[id="${href.substr(1)}"]`;
 
