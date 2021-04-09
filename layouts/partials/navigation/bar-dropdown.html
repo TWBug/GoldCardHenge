@@ -31,7 +31,7 @@
         {{ if $image }}
         {{ $alt := strings.TrimSuffix (path.Ext $image ) (path.Base $image) | humanize }}
         <div class="w-1/3 relative flex rounded-md overflow-hidden">
-            <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" class="absolute inset-0 w-full h-full object-cover object-top">
+            <img src="{{ $image.RelPermalink }}" alt="" class="absolute inset-0 w-full h-full object-cover object-top">
         </div>
         {{ end }}
     </div>
