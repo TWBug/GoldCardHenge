@@ -26,9 +26,6 @@ for (let index = 0; index < html_files.length; index++) {
 
         var in_whitelist = false;
         for (let i = 0; i < whitelist.length; i++) {
-            // console.info('whitelist[i]', whitelist[i]);
-            // console.info('src', src);
-            // console.info('check', src.indexOf(whitelist[i]));
             if (src.indexOf(whitelist[i]) !== -1) {
                 in_whitelist = true;
                 break;
