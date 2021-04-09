@@ -427,6 +427,8 @@
   translation: You should tell us more about it
 - id: form_fields_submit
   translation: Submit
+- id: form_fields_required
+  translation: required
 - id: chat_title
   translation: Live Chat
 - id: chat_time_title

@@ -754,6 +754,7 @@ window.taForm = function () {
     message: '',
     form: {},
     error: {},
+    filled: {},
     "default": {},
     init: function init(options) {
       if (typeof options !== 'undefined') {
@@ -808,26 +809,37 @@ window.taForm = function () {
     check: function check() {
       for (var property in this.error) {
         this.error[property] = false;
+        this.filled[property] = false;
       }
 
       if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(this.form.email) === false) {
         this.error.email = true;
+      } else {
+        this.filled.email = true;
       }
 
       if (this.form.type.length === 0) {
         this.error.type = true;
+      } else {
+        this.filled.type = true;
       }
 
       if (this.form.name.length === 0) {
         this.error.name = true;
+      } else {
+        this.filled.name = true;
       }
 
       if (this.form.subject.length === 0) {
         this.error.subject = true;
+      } else {
+        this.filled.subject = true;
       }
 
       if (this.form.description.length === 0) {
         this.error.description = true;
+      } else {
+        this.filled.description = true;
       }
 
       for (var _property3 in this.error) {
