@@ -5,6 +5,8 @@ window.taNavigation = function () {
         search: false,
         fixed: false,
         checked_menu_height: false,
+        active_element: '',
+        active_dropdown: '',
         dropdown: {
             goldcard: false,
             faq: false,
@@ -35,13 +37,10 @@ window.taNavigation = function () {
             }
             const scroll = document.getElementById(this.default.initiator);
             if (scroll === null) {
-                return
+                return;
             }
             const scroll_top = scroll.getBoundingClientRect().top + window.scrollY;
-            // console.info('scroll_top', scroll_top);
             window.addEventListener('scroll', () => {
-                // scroll
-                // var position = document.documentElement.style.getPropertyValue('--navscroll')
                 if (window.scrollY >= scroll_top) {
                     this.scroll = true;
                 } else {
@@ -49,10 +48,12 @@ window.taNavigation = function () {
                 }
             });
 
-            // const menu = this.$refs.menu
-            // if (typeof menu !== 'undefined') {
-            //     document.documentElement.style.setProperty('--navigationMenu', `${menu.offsetHeight}px`);
-            // }
+            const all_links = document.querySelectorAll('a');
+            for (let i = 0; i < all_links.length; i++) {
+                all_links[i].addEventListener('focus', () => {
+                    this.active_element = document.activeElement;
+                });
+            }
 
             window.addEventListener('resize', () => {
                 this.setMenuHeight();
@@ -66,6 +67,21 @@ window.taNavigation = function () {
                     this.hideDropdown();
                 }
             });
+            this.$watch('active_element', (value) => {
+                if (this.active_dropdown.length === 0) {
+                    return;
+                }
+                if (this.focusIsChild() === false) {
+                    this.hideDropdown();
+                    console.info('hide');
+                }
+            });
+        },
+        focusIsChild() {
+            if (this.active_dropdown.length === 0) {
+                return false;
+            }
+            return this.$refs[this.active_dropdown].contains(this.active_element);
         },
         toggleModal() {
             this.modal = !this.modal;
@@ -100,12 +116,22 @@ window.taNavigation = function () {
                 }
                 this.dropdown[property] = false;
             }
+            this.active_dropdown = '';
+            for (const property in this.dropdown) {
+                if (this.dropdown[property] === true) {
+                    this.active_dropdown = property;
+                    break;
+                }
+            }
             event.preventDefault();
         },
         toggleMenue(topic, event) {
             const navigationScroll = document.getElementById('navigationScroll');
             if (navigationScroll !== null) {
-                document.documentElement.style.setProperty('--navigationScroll', `${navigationScroll.offsetHeight}px`);
+                document.documentElement.style.setProperty(
+                    '--navigationScroll',
+                    `${navigationScroll.offsetHeight}px`
+                );
             }
             for (const property in this.menue) {
                 if (property === topic) {
@@ -115,11 +141,6 @@ window.taNavigation = function () {
                 this.menue[property] = false;
             }
             event.preventDefault();
-        },
-        hideDropdown() {
-            for (const property in this.dropdown) {
-                this.dropdown[property] = false;
-            }
         },
         hideDropdown() {
             for (const property in this.dropdown) {

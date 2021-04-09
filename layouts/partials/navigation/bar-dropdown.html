@@ -1,5 +1,5 @@
 <div class="absolute top-menu left-0 right-0">
-<div id="{{ printf "nav-dropdown-%s" .topic }}" class="flex flex-col bg-white bg-gradient-to-t from-gray-200 to-white text-black border border-gray-200 rounded-md shadow-2xl p-2 mx-2" x-show="{{ printf "dropdown.%s" .topic }}"
+<div id="{{ printf "nav-dropdown-%s" .topic }}" class="flex flex-col bg-white bg-gradient-to-t from-gray-200 to-white text-black border border-gray-200 rounded-md shadow-2xl p-2 mx-2" x-show="{{ printf "dropdown.%s" .topic }}" x-ref="{{ .topic }}"
     @click.away="hideDropdown()"
     :hidden="{{ printf "dropdown.%s" .topic }}"
     x-transition:enter="transition transform ease-out duration-200"

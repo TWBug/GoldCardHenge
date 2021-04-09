@@ -294,6 +294,7 @@ function smoothScroll() {
     for (_iterator.s(); !(_step = _iterator.n()).done;) {
       var link = _step.value;
       link.addEventListener('click', function (e) {
+        // removed because of accessibility issues
         // e.preventDefault();
         var href = e.target.getAttribute('href');
         href = "[id=\"".concat(href.substr(1), "\"]");
@@ -1439,8 +1440,6 @@ window.taMap = function () {
 };
 "use strict";
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -1456,14 +1455,14 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 window.taNavigation = function () {
-  var _ref;
-
-  return _ref = {
+  return {
     scroll: false,
     modal: false,
     search: false,
     fixed: false,
     checked_menu_height: false,
+    active_element: '',
+    active_dropdown: '',
     dropdown: {
       goldcard: false,
       faq: false,
@@ -1504,20 +1503,21 @@ window.taNavigation = function () {
         return;
       }
 
-      var scroll_top = scroll.getBoundingClientRect().top + window.scrollY; // console.info('scroll_top', scroll_top);
-
+      var scroll_top = scroll.getBoundingClientRect().top + window.scrollY;
       window.addEventListener('scroll', function () {
-        // scroll
-        // var position = document.documentElement.style.getPropertyValue('--navscroll')
         if (window.scrollY >= scroll_top) {
           _this.scroll = true;
         } else {
           _this.scroll = false;
         }
-      }); // const menu = this.$refs.menu
-      // if (typeof menu !== 'undefined') {
-      //     document.documentElement.style.setProperty('--navigationMenu', `${menu.offsetHeight}px`);
-      // }
+      });
+      var all_links = document.querySelectorAll('a');
+
+      for (var i = 0; i < all_links.length; i++) {
+        all_links[i].addEventListener('focus', function () {
+          _this.active_element = document.activeElement;
+        });
+      }
 
       window.addEventListener('resize', function () {
         _this.setMenuHeight();
@@ -1531,6 +1531,24 @@ window.taNavigation = function () {
           _this.hideDropdown();
         }
       });
+      this.$watch('active_element', function (value) {
+        if (_this.active_dropdown.length === 0) {
+          return;
+        }
+
+        if (_this.focusIsChild() === false) {
+          _this.hideDropdown();
+
+          console.info('hide');
+        }
+      });
+    },
+    focusIsChild: function focusIsChild() {
+      if (this.active_dropdown.length === 0) {
+        return false;
+      }
+
+      return this.$refs[this.active_dropdown].contains(this.active_element);
     },
     toggleModal: function toggleModal() {
       this.modal = !this.modal;
@@ -1566,6 +1584,15 @@ window.taNavigation = function () {
         this.dropdown[property] = false;
       }
 
+      this.active_dropdown = '';
+
+      for (var _property in this.dropdown) {
+        if (this.dropdown[_property] === true) {
+          this.active_dropdown = _property;
+          break;
+        }
+      }
+
       event.preventDefault();
     },
     toggleMenue: function toggleMenue(topic, event) {
@@ -1590,16 +1617,13 @@ window.taNavigation = function () {
       for (var property in this.dropdown) {
         this.dropdown[property] = false;
       }
+    },
+    hideMenue: function hideMenue() {
+      for (var property in this.menue) {
+        this.menue[property] = false;
+      }
     }
-  }, _defineProperty(_ref, "hideDropdown", function hideDropdown() {
-    for (var property in this.dropdown) {
-      this.dropdown[property] = false;
-    }
-  }), _defineProperty(_ref, "hideMenue", function hideMenue() {
-    for (var property in this.menue) {
-      this.menue[property] = false;
-    }
-  }), _ref;
+  };
 };
 "use strict";
 
