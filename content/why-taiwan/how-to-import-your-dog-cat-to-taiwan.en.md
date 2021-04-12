@@ -15,3 +15,17 @@ Step 1:
 {{< /teaser >}}
 
 Before we can get started, we need to figure out what type of country you are importing your pet from. All countries are divided into either rabies-free or rabies-infected countries. **Australia, New Zealand, United Kingdom, Sweden, Iceland, Norway, Hawaii state, Territory of Guam, Singapore, Estonia, and Japan** are recognized as rabies-free countries. All other countries are rabies-infected.
+
+Please call the Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan if you would like to confirm. TEL：(02)2343-1401
+
+{{< teaser prefix="" >}}
+Step 2:
+{{< /teaser >}}
+
+Are we meeting the requirements? 
+
+Before we move on to the actual process of importing your cat/dog, we need to figure out if your pet is meeting the general requirements for import:
+
+1. Implanted with a microchip (Please check with the vet even if you're sure the pet has a microchip. The chip can move or be destroyed by accident) 
+2. At least 3-months old and had a rabies shot after reaching the 3-months of age.
+3. Up-to-date rabies vaccine, meaning not older than 1-year before import
