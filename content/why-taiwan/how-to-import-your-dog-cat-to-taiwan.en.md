@@ -102,13 +102,3 @@ Rabies-Infected Country (Zone) Import
 * Some airlines don't allow certain types of pets at all (e.g., Emirates) 
 * Every airline's pricing and rules are different. Please make sure to check on their websites or call for any questions.
 {{< /accordion >}}
-
-
-
-Some airlines allow pets in the cabin when they are small enough (e.g., KLM, Lufthansa) 
-
-Some airlines only allow pets in cargo (e.g., Eva Air)
-
-Some airlines don't allow certain types of pets at all (e.g., Emirates) 
-
-Every airline's pricing and rules are different. Please make sure to check on their websites or call for any questions.
