@@ -490,7 +490,7 @@ zh:
     - id: close
       translation: 關
     - id: open_in_new_window
-      translation: 開啟新視窗
+      translation: 在新視窗打開鏈結
     - id: to_main_content
       translation: 主要內容
     - id: show_navigation
