@@ -73,8 +73,6 @@ Rabies-Free Country (Zone) Import
 Rabies-Infected Country (Zone) Import
 {{< /teaser >}}
 
-
-
 {{< accordion title="Rabies-Titer-Test at your veterinarian." suffix="1." bottomless="true" >}}
 * A Rabies-Titer-Test is a test that checks the rabies virus neutralizing antibody after vaccination. 
 * Please make sure that the Rabies-Titer-Test is checked at one of the [LISTED](https://www.baphiq.gov.tw/en/ws.php?id=14261) laboratories. Click the link and scroll down to the bottom to find the up to date "List of Rabies Neutralization Antibody Testing Laboratories." 
@@ -90,11 +88,7 @@ Rabies-Infected Country (Zone) Import
 * There are two ways of applying for an import permit. Either [APPLY ONLINE](https://pet-epermit.baphiq.gov.tw/) or fill out the application form they provide on their [WEBSITE](https://www.baphiq.gov.tw/en/ws.php?id=14261) and send it via post, fax, or email.
 {{< /accordion >}}
 
-
-
 **NOTE: Choose an arbitrary date in the future, start counting 180 days after the drawing of the blood for the Rabies-Titer-Test. The dates of the successful import permit will be a timeframe around your chosen date. If you need to change the dates due to a different flight booking, it can be done via email!**
-
-
 
 {{< accordion title="After you receive your import permit, you can start looking for flights. We recommend booking them via call, so the airline can check directly if you can take a pet on board for that specific flight." suffix="3." bottomless="true" >}}
 * Some airlines allow pets in the cabin when they are small enough (e.g., KLM, Lufthansa) 
@@ -103,13 +97,26 @@ Rabies-Infected Country (Zone) Import
 * Every airline's pricing and rules are different. Please make sure to check on their websites or call for any questions.
 {{< /accordion >}}
 
-
-
 {{< teaser prefix="" >}}
 Step 4
 {{< /teaser >}}
 
-Apply for a post-entry quarantine facility spot in Taiwan 
+**Apply for a post-entry quarantine facility spot in Taiwan** 
 
 * After receiving your import permit and booking your flight, you will need to apply for the post-entry quarantine facility. 
 * Email your area's Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan branch office to arrange for a quarantine spot. Contacts can be found [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261).
+
+
+
+{{< teaser prefix="" >}}
+Step 5
+{{< /teaser >}}
+
+**Finding the right carriage**
+
+Whether you are transporting the pet in the cabin or in cargo, you will have to look for the right transport carriage. 
+
+* For in-cabin flights, we recommend going for soft bags as they tend to have more space for the pet to move around. They can also be a little bigger than the airline standards, which makes it even more comfortable for your furry friend! 
+* If you are transporting your pet in cargo, the transportation cage needs to fit the IATA-standards. Make sure your carrier has enough space for the pet to comfortably stand up and move around. 
+
+**NOTE: If you decided to transport the pet in a soft bag, you would still need a transport cage for transport to the quarantine facilities. You can bring it to the Taiwan airport previous to your flight or have a friend drop it off. Please go to the quarantine office at the port of entry to organize the drop-off. Please check out the shipping fare for transportation from the airport to the quarantine facilities [HERE](https://www.baphiq.gov.tw/ws.php?id=20897).**
