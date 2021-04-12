@@ -36,8 +36,6 @@ Before we move on to the actual process of importing your cat/dog, we need to fi
 2. At least 3-months old and had a rabies shot after reaching the 3-months of age.
 3. Up-to-date rabies vaccine, meaning not older than 1-year before import
 
-
-
 {{< teaser prefix="" >}}
 Step 3
 {{< /teaser >}}
@@ -75,8 +73,6 @@ Rabies-Free Country (Zone) Import
 Rabies-Infected Country (Zone) Import
 {{< /teaser >}}
 
-
-
 1. Rabies-Titer-Test at your veterinarian. 
 
 A Rabies-Titer-Test is a test that checks the rabies virus neutralizing antibody after vaccination. 
@@ -101,7 +97,7 @@ There are two ways of applying for an import permit. Either [APPLY ONLINE](https
 
 **NOTE: Choose an arbitrary date in the future, start counting 180 days after the drawing of the blood for the Rabies-Titer-Test. The dates of the successful import permit will be a timeframe around your chosen date. If you need to change the dates due to a different flight booking, it can be done via email!**
 
-1. After you receive your import permit, you can start looking for flights. We recommend booking them via call, so the airline can check directly if you can take a pet on board for that specific flight. 
+2. After you receive your import permit, you can start looking for flights. We recommend booking them via call, so the airline can check directly if you can take a pet on board for that specific flight. 
 
 Some airlines allow pets in the cabin when they are small enough (e.g., KLM, Lufthansa) 
 
