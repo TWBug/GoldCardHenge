@@ -90,7 +90,23 @@ If you need to refresh your vaccine, wait a month after the vaccine at least for
 A Rabies-Titer-Test will take up to 3-4 weeks to come back with results. Also, calculate that the costs can range between 40 USD to 150 USD. 
 
 1. Apply for an import permit after your Titer-Test results are out. You will need the following documents: 
-   a.	Veterinarian signed proof of rabies vaccination, it will need the following information on it: the dog/cat's breed, sex, age, microchip number, inoculation date, that inactivated vaccine was indeed used. The format doesn't really matter; important is that it's stamped by the veterinarian and signed. 
-   b.	Proof of passed Rabies-Titer-Test. The laboratory usually provides the report in English already with all the needed information. 
-   c.	Your personal identification documents, eg. Passport, ARC, Taiwanese ID etc. 
-   d.	There are two ways of applying for an import permit. Either apply online or fill out the application form they provide on their website and send it via post, fax, or email.
+
+Veterinarian signed proof of rabies vaccination, it will need the following information on it: the dog/cat's breed, sex, age, microchip number, inoculation date, that inactivated vaccine was indeed used. The format doesn't really matter; important is that it's stamped by the veterinarian and signed. 
+
+Proof of passed Rabies-Titer-Test. The laboratory usually provides the report in English already with all the needed information. 
+
+Your personal identification documents, eg. Passport, ARC, Taiwanese ID etc. 
+
+There are two ways of applying for an import permit. Either [APPLY ONLINE](https://pet-epermit.baphiq.gov.tw/) or fill out the application form they provide on their [WEBSITE](https://www.baphiq.gov.tw/en/ws.php?id=14261) and send it via post, fax, or email.
+
+**NOTE: Choose an arbitrary date in the future, start counting 180 days after the drawing of the blood for the Rabies-Titer-Test. The dates of the successful import permit will be a timeframe around your chosen date. If you need to change the dates due to a different flight booking, it can be done via email!**
+
+1. After you receive your import permit, you can start looking for flights. We recommend booking them via call, so the airline can check directly if you can take a pet on board for that specific flight. 
+
+Some airlines allow pets in the cabin when they are small enough (e.g., KLM, Lufthansa) 
+
+Some airlines only allow pets in cargo (e.g., Eva Air)
+
+Some airlines don't allow certain types of pets at all (e.g., Emirates) 
+
+Every airline's pricing and rules are different. Please make sure to check on their websites or call for any questions.
