@@ -8,6 +8,4 @@ style: right
 ---
 # hed  {#alpha-101}
 
-
-
-text
+text {#do-anchors-work-in-text}
