@@ -96,7 +96,7 @@ Rabies-Infected Country (Zone) Import
 
 
 
-{{< accordion title="After you receive your import permit, you can start looking for flights. We recommend booking them via call, so the airline can check directly if you can take a pet on board for that specific flight." suffix="3." bottomless="false" >}}
+{{< accordion title="After you receive your import permit, you can start looking for flights. We recommend booking them via call, so the airline can check directly if you can take a pet on board for that specific flight." suffix="3." bottomless="true" >}}
 * Some airlines allow pets in the cabin when they are small enough (e.g., KLM, Lufthansa) 
 * Some airlines only allow pets in cargo (e.g., Eva Air)
 * Some airlines don't allow certain types of pets at all (e.g., Emirates) 
