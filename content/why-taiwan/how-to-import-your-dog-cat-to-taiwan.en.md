@@ -40,7 +40,7 @@ Before we move on to the actual process of importing your cat/dog, we need to fi
 Step 3
 {{< /teaser >}}
 
-If you are importing your pet from a recognized rabies-free country, please keep reading. The pet needs to be at least 180-days in the rabies-free country. If you are importing from a rabies-infected country, please check "Rabies-Infected Country (Zone) Import" below.
+If you are importing your pet from a recognized rabies-free country, please keep reading. The pet needs to be at least 180-days in the rabies-free country. If you are importing from a rabies-infected country, please check "Rabies-Infected Country (Zone) Import{#rabies-free-dogs-only-kthx}" below.
 
 {{< teaser prefix="" >}}
 Rabies-Free Country (Zone) Import
@@ -70,7 +70,7 @@ Rabies-Free Country (Zone) Import
 * **The Taiwanese animal quarantine authority will issue the Import Veterinary Certificate, but only after all the above requirements are met, and the dog/cat gives no cause for suspicion of notifiable animal infectious diseases.**
 
 {{< teaser prefix="" >}}
-Rabies-Infected Country (Zone) Import
+Rabies-Infected Country (Zone) Import"#rabies-free-dogs-only-kthx"
 {{< /teaser >}}
 
 {{< accordion title="Rabies-Titer-Test at your veterinarian." suffix="1." bottomless="true" >}}
@@ -105,8 +105,6 @@ Step 4
 
 * After receiving your import permit and booking your flight, you will need to apply for the post-entry quarantine facility. 
 * Email your area's Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan branch office to arrange for a quarantine spot. Contacts can be found [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261).
-
-
 
 {{< teaser prefix="" >}}
 Step 5
