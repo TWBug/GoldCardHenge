@@ -40,7 +40,7 @@ Before we move on to the actual process of importing your cat/dog, we need to fi
 Step 3
 {{< /teaser >}}
 
-If you are importing your pet from a recognized rabies-free country, please keep reading. The pet needs to be at least 180-days in the rabies-free country. If you are importing from a rabies-infected country, please check "Rabies-Infected Country (Zone) Import{#rabies-free-dogs-only-kthx}" below.
+If you are importing your pet from a recognized rabies-free country, please keep reading. The pet needs to be at least 180-days in the rabies-free country. If you are importing from a rabies-infected country, please check "Rabies-Infected Country (Zone) Import" {#id-of-rabies-Infected-Country-(Zone)-Import} below.
 
 {{< teaser prefix="" >}}
 Rabies-Free Country (Zone) Import
@@ -70,7 +70,7 @@ Rabies-Free Country (Zone) Import
 * **The Taiwanese animal quarantine authority will issue the Import Veterinary Certificate, but only after all the above requirements are met, and the dog/cat gives no cause for suspicion of notifiable animal infectious diseases.**
 
 {{< teaser prefix="" >}}
-Rabies-Infected Country (Zone) Import"#rabies-free-dogs-only-kthx"
+[Rabies-Infected Country (Zone) Import](#id-of-rabies-Infected-Country-(Zone)-Import)
 {{< /teaser >}}
 
 {{< accordion title="Rabies-Titer-Test at your veterinarian." suffix="1." bottomless="true" >}}
