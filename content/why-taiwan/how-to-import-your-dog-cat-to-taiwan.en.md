@@ -10,6 +10,8 @@ topics:
   - Discover Taiwan
 style: right
 ---
+# How to import your Dog/Cat to Taiwan?
+
 When we decide to add a pet to the family, it's a life long decision. When moving to another country, of course, our furry friends need to come with us. Importing your cat or dog to Taiwan is not that difficult if you know how! We have created a step-to-step guide and linked it to all essential resources and information to make this as stress-free for owner and pet as possible. 
 
 **Note: We are only talking about standard household pets. If you have a working dog (e.g., Service Dog, Duty Dog, etc.), there might be special regulations. Please read [THIS](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/1-16409.pdf) document for more information.** 
@@ -45,3 +47,12 @@ If you are importing your pet from a recognized rabies-free country, please keep
 {{< teaser prefix="" >}}
 Rabies-Free Country (Zone) Import
 {{< /teaser >}}
+
+* Apply for an Import permit at least 20-days before entry at the port of entry (e.g., if you are flying in from Taoyuan, apply at the Taoyuan customs) 
+* There are two ways of applying for an import permit. Either apply online or fill out the application form they provide on their website (scroll to the bottom to find it) and send it via post, fax, or email.
+* List of documents you need for the import permit application: 
+
+  * Authentication document of the applicant (e.g., Taiwanese ID, ARC, passport) 
+  * Veterinarian signed certificate proof of rabies vaccination. This certificate needs to include the following information: dogs/cats breed, sex, age, microchip number, inoculation date (date of rabies shot, the rabies shot needs to be between 30-365 days before importation to Taiwan) 
+
+**Note: The import permit can be applied before a flight is booked. Choose a date first that you are most likely to import your pet to Taiwan. If the time frame changes after you have successfully applied for the import permit, you can just send them an email and change the date.**
