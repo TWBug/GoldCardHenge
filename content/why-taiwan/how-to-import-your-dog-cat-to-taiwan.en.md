@@ -4,6 +4,8 @@ date: 2021-04-12T06:57:04.293Z
 draft: false
 chatbot: false
 topic: whytaiwan
+topics:
+  - Discover Taiwan
 style: right
 ---
 When we decide to add a pet to the family, it's a life long decision. When moving to another country, of course, our furry friends need to come with us. Importing your cat or dog to Taiwan is not that difficult if you know how! We have created a step-to-step guide and linked it to all essential resources and information to make this as stress-free for owner and pet as possible. 

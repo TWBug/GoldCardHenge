@@ -4,6 +4,8 @@ date: 2021-04-12T06:57:04.293Z
 draft: false
 chatbot: false
 topic: whytaiwan
+topics:
+  - Discover Taiwan
 style: right
 ---
 養寵物是一輩子的決定，因此，當我們計劃移居其他國家時，也一定要帶上家中毛小孩。若您了解犬貓輸入台灣的相關程序，要帶毛小孩一起移居台灣就不再是夢了！以下提供逐步指南以及重要資源和資訊連結，讓飼主和寵物一起輕鬆移居台灣。
