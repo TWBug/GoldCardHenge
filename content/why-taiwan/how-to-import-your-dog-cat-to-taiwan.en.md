@@ -102,3 +102,12 @@ Rabies-Infected Country (Zone) Import
 * Some airlines don't allow certain types of pets at all (e.g., Emirates) 
 * Every airline's pricing and rules are different. Please make sure to check on their websites or call for any questions.
 {{< /accordion >}}
+
+
+
+{{< teaser prefix="Step 4" >}}
+Apply for a post-entry quarantine facility spot in Taiwan
+{{< /teaser >}}
+
+* After receiving your import permit and booking your flight, you will need to apply for the post-entry quarantine facility. 
+* Email your area's Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan branch office to arrange for a quarantine spot. Contacts can be found here.
