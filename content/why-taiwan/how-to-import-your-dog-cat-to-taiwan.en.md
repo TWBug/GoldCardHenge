@@ -105,9 +105,11 @@ Rabies-Infected Country (Zone) Import
 
 
 
-{{< teaser prefix="Step 4" >}}
-Apply for a post-entry quarantine facility spot in Taiwan
+{{< teaser prefix="" >}}
+Step 4
 {{< /teaser >}}
 
+Apply for a post-entry quarantine facility spot in Taiwan 
+
 * After receiving your import permit and booking your flight, you will need to apply for the post-entry quarantine facility. 
-* Email your area's Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan branch office to arrange for a quarantine spot. Contacts can be found here.
+* Email your area's Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan branch office to arrange for a quarantine spot. Contacts can be found [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261).
