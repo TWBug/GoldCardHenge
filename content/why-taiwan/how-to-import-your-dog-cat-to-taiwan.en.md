@@ -15,7 +15,7 @@ When we decide to add a pet to the family, it's a life long decision. When movin
 **Note: We are only talking about standard household pets. If you have a working dog (e.g., Service Dog, Duty Dog, etc.), there might be special regulations. Please read [THIS](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/1-16409.pdf) document for more information.** 
 
 {{< teaser prefix="" >}}
-Step 1:
+Step 1
 {{< /teaser >}}
 
 Before we can get started, we need to figure out what type of country you are importing your pet from. All countries are divided into either rabies-free or rabies-infected countries. **Australia, New Zealand, United Kingdom, Sweden, Iceland, Norway, Hawaii state, Territory of Guam, Singapore, Estonia, and Japan** are recognized as rabies-free countries. All other countries are rabies-infected.
@@ -23,7 +23,7 @@ Before we can get started, we need to figure out what type of country you are im
 Please call the Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan if you would like to confirm. TEL：(02)2343-1401
 
 {{< teaser prefix="" >}}
-Step 2:
+Step 2
 {{< /teaser >}}
 
 Are we meeting the requirements? 
@@ -33,3 +33,15 @@ Before we move on to the actual process of importing your cat/dog, we need to fi
 1. Implanted with a microchip (Please check with the vet even if you're sure the pet has a microchip. The chip can move or be destroyed by accident) 
 2. At least 3-months old and had a rabies shot after reaching the 3-months of age.
 3. Up-to-date rabies vaccine, meaning not older than 1-year before import
+
+
+
+{{< teaser prefix="" >}}
+Step 3
+{{< /teaser >}}
+
+If you are importing your pet from a recognized rabies-free country, please keep reading. The pet needs to be at least 180-days in the rabies-free country. If you are importing from a rabies-infected country, please CLICK HERE (anchor to below).
+
+{{< teaser prefix="" >}}
+Rabies-Free Country (Zone) Import
+{{< /teaser >}}
