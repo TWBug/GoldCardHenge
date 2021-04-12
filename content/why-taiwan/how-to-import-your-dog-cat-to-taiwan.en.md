@@ -132,7 +132,7 @@ Please make sure your pet arrives during specific times so the transport to the 
 
 
 {{< teaser prefix="" >}}
-Step 7
+Step ˙7
 {{< /teaser >}}
 
 **Quarantine**
