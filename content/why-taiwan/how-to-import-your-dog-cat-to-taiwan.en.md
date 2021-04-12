@@ -40,7 +40,7 @@ Before we move on to the actual process of importing your cat/dog, we need to fi
 Step 3
 {{< /teaser >}}
 
-If you are importing your pet from a recognized rabies-free country, please keep reading. The pet needs to be at least 180-days in the rabies-free country. If you are importing from a rabies-infected country, please CLICK HERE (anchor to below).
+If you are importing your pet from a recognized rabies-free country, please keep reading. The pet needs to be at least 180-days in the rabies-free country. If you are importing from a rabies-infected country, please check "Rabies-Infected Country (Zone) Import" below.
 
 {{< teaser prefix="" >}}
 Rabies-Free Country (Zone) Import
