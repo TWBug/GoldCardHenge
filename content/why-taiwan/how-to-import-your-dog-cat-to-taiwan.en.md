@@ -64,3 +64,7 @@ Rabies-Free Country (Zone) Import
   * Some airlines don't allow certain types of pets at all (e.g., Emirates) 
   * Every airline's pricing and rules are different. Please make sure to check on their websites or call for any questions. 
 * Get a veterinary certificate issued/stamped by the exporting country. Please use the [FORM](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/20103.pdf) provided by the Taiwanese government.
+
+{{< teaser prefix="" >}}
+Rabies-Infected Country (Zone) Import
+{{< /teaser >}}
