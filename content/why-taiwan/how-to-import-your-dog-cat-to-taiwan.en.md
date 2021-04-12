@@ -49,10 +49,18 @@ Rabies-Free Country (Zone) Import
 {{< /teaser >}}
 
 * Apply for an Import permit at least 20-days before entry at the port of entry (e.g., if you are flying in from Taoyuan, apply at the Taoyuan customs) 
-* There are two ways of applying for an import permit. Either apply online or fill out the application form they provide on their website (scroll to the bottom to find it) and send it via post, fax, or email.
+* There are two ways of applying for an import permit. Either [APPLY ONLINE](https://pet-epermit.baphiq.gov.tw/) or fill out the application form they provide on their [WEBSITE](https://www.baphiq.gov.tw/en/ws.php?id=14261) (scroll to the bottom to find it) and send it via post, fax, or email.
 * List of documents you need for the import permit application: 
 
   * Authentication document of the applicant (e.g., Taiwanese ID, ARC, passport) 
   * Veterinarian signed certificate proof of rabies vaccination. This certificate needs to include the following information: dogs/cats breed, sex, age, microchip number, inoculation date (date of rabies shot, the rabies shot needs to be between 30-365 days before importation to Taiwan) 
 
-**Note: The import permit can be applied before a flight is booked. Choose a date first that you are most likely to import your pet to Taiwan. If the time frame changes after you have successfully applied for the import permit, you can just send them an email and change the date.**
+**Note: The import permit can be applied before a flight is booked. Choose a date first that you are most likely to import your pet to Taiwan. If the time frame changes after you have successfully applied for the import permit, you can just send them an email and change the date.** 
+
+* Book a flight. Make sure to call or contact the airline directly. Different airlines have different rules & regulations. 
+
+  * Some airlines allow pets in the cabin when they are small enough (e.g. KLM, Lufthansa) 
+  * Some airlines only allow pets in cargo (e.g., Eva Air)
+  * Some airlines don't allow certain types of pets at all (e.g., Emirates) 
+  * Every airline's pricing and rules are different. Please make sure to check on their websites or call for any questions. 
+* Get a veterinary certificate issued/stamped by the exporting country. Please use the [FORM](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/20103.pdf) provided by the Taiwanese government.
