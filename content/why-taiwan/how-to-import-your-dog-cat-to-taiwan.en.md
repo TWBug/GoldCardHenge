@@ -74,3 +74,23 @@ Rabies-Free Country (Zone) Import
 {{< teaser prefix="" >}}
 Rabies-Infected Country (Zone) Import
 {{< /teaser >}}
+
+
+
+1. Rabies-Titer-Test at your veterinarian. 
+
+A Rabies-Titer-Test is a test that checks the rabies virus neutralizing antibody after vaccination. 
+
+Please make sure that the Rabies-Titer-Test is checked at one of the [LISTED](https://www.baphiq.gov.tw/en/ws.php?id=14261) laboratories. Click the link and scroll down to the bottom to find the up to date "List of Rabies Neutralization Antibody Testing Laboratories." 
+
+To pass, you will need a result greater or equal to 0.5 IU/ml 
+
+If you need to refresh your vaccine, wait a month after the vaccine at least for the best results of the Rabies-Titer-Test.
+
+A Rabies-Titer-Test will take up to 3-4 weeks to come back with results. Also, calculate that the costs can range between 40 USD to 150 USD. 
+
+1. Apply for an import permit after your Titer-Test results are out. You will need the following documents: 
+   a.	Veterinarian signed proof of rabies vaccination, it will need the following information on it: the dog/cat's breed, sex, age, microchip number, inoculation date, that inactivated vaccine was indeed used. The format doesn't really matter; important is that it's stamped by the veterinarian and signed. 
+   b.	Proof of passed Rabies-Titer-Test. The laboratory usually provides the report in English already with all the needed information. 
+   c.	Your personal identification documents, eg. Passport, ARC, Taiwanese ID etc. 
+   d.	There are two ways of applying for an import permit. Either apply online or fill out the application form they provide on their website and send it via post, fax, or email.
