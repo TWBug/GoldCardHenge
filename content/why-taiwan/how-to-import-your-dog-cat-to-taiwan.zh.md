@@ -4,6 +4,8 @@ date: 2021-04-12T06:57:04.293Z
 draft: false
 chatbot: false
 topic: whytaiwan
+cover_image: /cms-uploads/how-to-import-your-dogcat-to-taiwan.png
+media_image: /cms-uploads/how-to-import-your-dogcat-to-taiwan.png
 topics:
   - Discover Taiwan
 style: right
