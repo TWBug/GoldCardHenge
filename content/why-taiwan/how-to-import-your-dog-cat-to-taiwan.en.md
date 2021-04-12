@@ -64,6 +64,12 @@ Rabies-Free Country (Zone) Import
   * Some airlines don't allow certain types of pets at all (e.g., Emirates) 
   * Every airline's pricing and rules are different. Please make sure to check on their websites or call for any questions. 
 * Get a veterinary certificate issued/stamped by the exporting country. Please use the [FORM](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/20103.pdf) provided by the Taiwanese government.
+* When the pet arrives in Taiwan, you will need to submit the following documents to the animal quarantine authority: 
+
+  * Photocopy of the Import Permit
+  * Original Export Veterinary Certificate
+  * Photocopy of the bill of lading, airway bill, or customs declaration
+* **The Taiwanese animal quarantine authority will issue the Import Veterinary Certificate, but only after all the above requirements are met, and the dog/cat gives no cause for suspicion of notifiable animal infectious diseases.**
 
 {{< teaser prefix="" >}}
 Rabies-Infected Country (Zone) Import
