@@ -14,8 +14,6 @@ If you are asked to provide supplementary documents, but the validity period of 
 
 {{< /card >}}
 
-
-
 {{< card title="change passport info 2" link="" image="/cms-uploads/change-passport-info1.png" >}}
 
 {{< /card >}}

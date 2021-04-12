@@ -8,7 +8,7 @@ categories:
 ---
 In order to create a friendly educational environment for children of foreign professionals, the Ministry of Education has built a website that collects schools and programs for expat kids in Taiwan.
 
-Click the link for more information： [Ministry of Education](https://www.ibst.org.tw/US/home)
+Click the link for more information: [Ministry of Education](https://www.ibst.org.tw/US/home)
 
 If there are more questions, please contact customer service rep:
 
