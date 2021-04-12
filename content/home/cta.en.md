@@ -8,7 +8,7 @@ hidden: false
 headless: true
 links:
   - is_cta: true
-    label: Gold Card Office
+    label: Read More
     href: /en/gold-card-office/
     new_window: false
 items:
