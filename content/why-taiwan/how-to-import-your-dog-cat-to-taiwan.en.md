@@ -89,18 +89,10 @@ Rabies-Free Country (Zone) Import
   * Every airline's pricing and rules are different. Please make sure to check on their websites or call for any questions.
 {{< /note >}}
 
-{{< teaser prefix="" >}}
-Step 4
-{{< /teaser >}}
-
 **Apply for a post-entry quarantine facility spot in Taiwan** 
 
 * After receiving your import permit and booking your flight, you will need to apply for the post-entry quarantine facility. 
 * Email your area's Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan branch office to arrange for a quarantine spot. Contacts can be found [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261).
-
-{{< teaser prefix="" >}}
-Step 5
-{{< /teaser >}}
 
 **Finding the right carriage**
 
@@ -111,17 +103,9 @@ Whether you are transporting the pet in the cabin or in cargo, you will have to 
 
 **NOTE: If you decided to transport the pet in a soft bag, you would still need a transport cage for transport to the quarantine facilities. You can bring it to the Taiwan airport previous to your flight or have a friend drop it off. Please go to the quarantine office at the port of entry to organize the drop-off. Please check out the shipping fare for transportation from the airport to the quarantine facilities [HERE](https://www.baphiq.gov.tw/ws.php?id=20897).**
 
-{{< teaser prefix="" >}}
-Step 6
-{{< /teaser >}}
-
 **Arrival Time**
 
 Please make sure your pet arrives during specific times so the transport to the quarantine facility can run smoothly. If you arrive outside of the official arrival time, your pet might need to stay at the airport overnight. Find the updated times [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261). Scroll to the bottom and look for the "Arrival time for into the quarantine premise" document. 
-
-{{< teaser prefix="" >}}
-Step 7
-{{< /teaser >}}
 
 **Quarantine**
 
@@ -134,3 +118,7 @@ After a 7-days quarantine, you can pick up your pet. Be aware that the time your
 For more in-depth information about the whole quarantine process, please check out this [DOCUMENT](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/1-16409.pdf). The branch offices are very friendly, helpful, speak English and are reachable via telephone or email. Find their contact info [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261). Don't hesitate to confirm every step of the process with them! 
 
 Good luck, and see you in Taiwan soon!
+
+
+
+![](/cms-uploads/how-to-import-your-dogcat-to-taiwan5.png)
