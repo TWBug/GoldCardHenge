@@ -69,6 +69,18 @@ Rabies-Free Country (Zone) Import
   * Photocopy of the bill of lading, airway bill, or customs declaration
 * **The Taiwanese animal quarantine authority will issue the Import Veterinary Certificate, but only after all the above requirements are met, and the dog/cat gives no cause for suspicion of notifiable animal infectious diseases.**
 
+
+
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan4.png" >}}
+
+{{< /card >}}
+
+
+
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan2.png" >}}
+
+{{< /card >}}
+
 {{< note title="Rabies-Infected Country (Zone) Import" >}}
 
 {{< /note >}}
@@ -110,6 +122,18 @@ Whether you are transporting the pet in the cabin or in cargo, you will have to 
 * If you are transporting your pet in cargo, the transportation cage needs to fit the IATA-standards. Make sure your carrier has enough space for the pet to comfortably stand up and move around. 
 
 **NOTE: If you decided to transport the pet in a soft bag, you would still need a transport cage for transport to the quarantine facilities. You can bring it to the Taiwan airport previous to your flight or have a friend drop it off. Please go to the quarantine office at the port of entry to organize the drop-off. Please check out the shipping fare for transportation from the airport to the quarantine facilities [HERE](https://www.baphiq.gov.tw/ws.php?id=20897).**
+
+
+
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan1.png" >}}
+
+{{< /card >}}
+
+
+
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan3.png" >}}
+
+{{< /card >}}
 
 **Arrival Time**
 
