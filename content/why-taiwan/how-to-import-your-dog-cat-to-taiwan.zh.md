@@ -69,6 +69,18 @@ style: right
   * 提單、空運單或海關申報單影本
 * **如犬貓符合上述所有規定，且無任何動物傳染疫病象徵，台灣動物檢疫單位即簽發《犬貓輸入獸醫證書》。**
 
+
+
+{{< card title="undefined" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan4.png" >}}
+
+{{< /card >}}
+
+
+
+{{< card title="undefined" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan2.png" >}}
+
+{{< /card >}}
+
 {{< note title="自狂犬病疫區之國家或地區輸入犬貓" >}}
 * 犬貓由獸醫進行狂犬病中和力價抗體血檢測試
 
@@ -94,10 +106,6 @@ style: right
   * 各航空公司有關寵物運送的收費和規則都不盡相同。請務必事先查看航空公司網站或致電洽詢。
 {{< /note >}}
 
-{{< card title="undefined" link="" image="" >}}
-
-{{< /card >}}
-
 {{< teaser prefix="" >}}
 步驟四
 {{< /teaser >}}
@@ -120,6 +128,18 @@ style: right
 
 **注意：如果您將寵物裝於軟袋中，仍需要運輸籠將其運輸至隔離設施。您可以在航班抵達前將運輸籠寄達台灣機場，或請朋友協助準備運輸籠，相關事宜請洽詢入境港站之檢疫辦事處。點擊[此處](https://www.baphiq.gov.tw/ws.php?id=20897)查看從機場到隔離設施之運輸費用。**
 
+
+
+{{< card title="undefined" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan1.png" >}}
+
+{{< /card >}}
+
+
+
+{{< card title="undefined" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan3.png" >}}
+
+{{< /card >}}
+
 {{< teaser prefix="" >}}
 步驟六
 {{< /teaser >}}
@@ -141,3 +161,5 @@ style: right
 經過七天隔離後，您就可以接寵物回家了。請注意，您的寵物待在隔離設施期間可能相當焦慮，請給予數天時間適應恢復！
 
 欲了解隔離過程詳細資訊，請查閱此[文件](https://www.baphiq.gov.tw/ws.php?id=13028)。動物檢疫地方分局人員相當友善，具有服務熱忱，能以英語溝通，可透過電話或電子郵件與他們聯繫。點擊[此處](https://www.baphiq.gov.tw/ws.php?id=18)查詢服務人員的聯絡資訊。別猶豫，直接與他們確認步驟細節吧！祝您一切順利，台灣見！
+
+![](/cms-uploads/how-to-import-your-dogcat-to-taiwan5.png)
