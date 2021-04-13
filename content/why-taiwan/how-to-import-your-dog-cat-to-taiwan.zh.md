@@ -71,13 +71,13 @@ style: right
 
 
 
-{{< card title="undefined" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan4.png" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan4.png" >}}
 
 {{< /card >}}
 
 
 
-{{< card title="undefined" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan2.png" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan2.png" >}}
 
 {{< /card >}}
 
@@ -130,13 +130,13 @@ style: right
 
 
 
-{{< card title="undefined" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan1.png" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan1.png" >}}
 
 {{< /card >}}
 
 
 
-{{< card title="undefined" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan3.png" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan3.png" >}}
 
 {{< /card >}}
 
