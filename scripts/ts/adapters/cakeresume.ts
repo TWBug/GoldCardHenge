@@ -4,6 +4,8 @@ import assert from 'assert';
 import { __APP_INITIAL_REDUX_STATE__ } from '../types/cakeresume';
 import { IAdapter } from '../types/adapter';
 import { getHeaders } from './utils';
+import vm from 'vm';
+import { debug, trace } from 'console';
 
 type CakeAppState = typeof __APP_INITIAL_REDUX_STATE__;
 
@@ -35,9 +37,42 @@ export default class CakeResumeAdapter implements IAdapter {
         return $('title').text();
     }
 
+    getResultsFromData(data: typeof __APP_INITIAL_REDUX_STATE__) {
+        // @ts-ignore
+        const { content, rawResults } = data.jobSearch.jobResultsState;
+        let result;
+
+        // Explanation: Content is a nice aggregated stats object, however, it
+        // is not always present. What we get instead is an array of individual
+        // stats objects which we can then aggregate together on our own.
+        if (content) {
+            result = content;
+        } else if (rawResults) {
+            result = rawResults.reduce((agg, x) => {
+                for (const [k, v] of Object.entries(x)) {
+                    if (!(k in agg)) {
+                        agg[k] = v;
+                    } else if (Array.isArray(agg[k])) {
+                        agg[k] = agg[k].concat(v);
+                    } else if (typeof agg[k] === 'number') {
+                        agg[k] = agg[k] + v;
+                    } else {
+                        // No combination is the base case
+                        agg[k] = v;
+                    }
+                }
+                return agg;
+            }, {});
+        }
+
+        assert(result, 'Could not get result for url: ' + this.url);
+
+        return result;
+    }
+
     async getJobCount() {
         const data = await this.populateData();
-        const result = data.jobSearch.jobResultsState.content;
+        const result = this.getResultsFromData(data);
         const total = result.nbHits;
         return total;
     }
@@ -70,8 +105,14 @@ export default class CakeResumeAdapter implements IAdapter {
 
         assert(raw, 'No inline script source found');
 
-        const preJson = raw.slice(raw.indexOf('{')).replace(/undefined/g, 'null');
-        const data: CakeAppState = JSON.parse(preJson);
+        // This is a temporary context which we will use to grab the globals set in the script
+        const ctx = { window: {} };
+        vm.runInNewContext(raw, ctx);
+
+        // @ts-ignore
+        const data: CakeAppState | undefined = ctx.window.__APP_INITIAL_REDUX_STATE__;
+
+        assert(data, 'No app state detected on page: ' + this.url);
 
         // @note It's very important we assign here.
         // Get raw might be worth revisiting since it's quite ugly to have it
@@ -84,41 +125,16 @@ export default class CakeResumeAdapter implements IAdapter {
 
     async getJobs(options = {}) {
         console.info(`[FETCH] <- ${this.url}`);
-        const res = await got(this.url, {
-            headers: getHeaders(this.url),
-            ...options,
-        });
-        const $ = cheerio.load(res.body);
-        const script = $('script').filter(
-            (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
-        );
+        const data = await this.populateData();
 
-        assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
+        assert(data, 'No app state detected on page: ' + this.url);
 
-        const raw = script.html();
-
-        assert(raw, 'No inline script source found');
-
-        const preJson = raw.slice(raw.indexOf('{')).replace(/undefined/g, 'null');
-        const data: CakeAppState = JSON.parse(preJson);
-
-        // @note It's very important we assign here.
-        // Get raw might be worth revisiting since it's quite ugly to have it
-        // operate with such side effects.
-        this.raw = raw;
-        this.data = data;
-
-        const result = data.jobSearch.jobResultsState.content;
-        const total = result.nbHits;
-        const pageCount = result.nbPages;
-        const perPage = result.hitsPerPage;
-        const currentPage = result.page;
-
-        const hits = result.hits; // The meat
-        const x = hits[0];
-        x.location_list;
-        x.tag_list;
-
+        // NOTE: As of this commit the data format seems to have changed. We are
+        // no longer getting uniform objects. Not all returned objects include
+        // the full data set of a job listin. Using the presence of `title` as a
+        // heuristic.
+        const result = this.getResultsFromData(data);
+        const hits = result.hits.filter((x) => x.title); // The meat. See NOTE
         const baseUrl = 'https://www.cakeresume.com';
 
         return hits.map((x) => {
