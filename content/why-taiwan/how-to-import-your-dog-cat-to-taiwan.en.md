@@ -119,8 +119,6 @@ Whether you are transporting the pet in the cabin or in cargo, you will have to 
 
 **NOTE: If you decided to transport the pet in a soft bag, you would still need a transport cage for transport to the quarantine facilities. You can bring it to the Taiwan airport previous to your flight or have a friend drop it off. Please go to the quarantine office at the port of entry to organize the drop-off. Please check out the shipping fare for transportation from the airport to the quarantine facilities [HERE](https://www.baphiq.gov.tw/ws.php?id=20897).**
 
-
-
 {{< teaser prefix="" >}}
 Step 6
 {{< /teaser >}}
@@ -129,10 +127,8 @@ Step 6
 
 Please make sure your pet arrives during specific times so the transport to the quarantine facility can run smoothly. If you arrive outside of the official arrival time, your pet might need to stay at the airport overnight. Find the updated times [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261). Scroll to the bottom and look for the "Arrival time for into the quarantine premise" document. 
 
-
-
 {{< teaser prefix="" >}}
-Step ˙7
+Step 7
 {{< /teaser >}}
 
 **Quarantine**
