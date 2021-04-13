@@ -94,7 +94,9 @@ style: right
   * 各航空公司有關寵物運送的收費和規則都不盡相同。請務必事先查看航空公司網站或致電洽詢。
 {{< /note >}}
 
+{{< card title="undefined" link="" image="" >}}
 
+{{< /card >}}
 
 {{< teaser prefix="" >}}
 步驟四
