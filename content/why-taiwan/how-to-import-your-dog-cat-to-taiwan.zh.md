@@ -69,13 +69,9 @@ style: right
   * 提單、空運單或海關申報單影本
 * **如犬貓符合上述所有規定，且無任何動物傳染疫病象徵，台灣動物檢疫單位即簽發《犬貓輸入獸醫證書》。**
 
-
-
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan4.png" >}}
 
 {{< /card >}}
-
-
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan2.png" >}}
 
@@ -128,13 +124,9 @@ style: right
 
 **注意：如果您將寵物裝於軟袋中，仍需要運輸籠將其運輸至隔離設施。您可以在航班抵達前將運輸籠寄達台灣機場，或請朋友協助準備運輸籠，相關事宜請洽詢入境港站之檢疫辦事處。點擊[此處](https://www.baphiq.gov.tw/ws.php?id=20897)查看從機場到隔離設施之運輸費用。**
 
-
-
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan1.png" >}}
 
 {{< /card >}}
-
-
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan3.png" >}}
 
