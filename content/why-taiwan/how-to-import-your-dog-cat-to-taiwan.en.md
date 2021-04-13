@@ -69,13 +69,9 @@ Rabies-Free Country (Zone) Import
   * Photocopy of the bill of lading, airway bill, or customs declaration
 * **The Taiwanese animal quarantine authority will issue the Import Veterinary Certificate, but only after all the above requirements are met, and the dog/cat gives no cause for suspicion of notifiable animal infectious diseases.**
 
-
-
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan4.png" >}}
 
 {{< /card >}}
-
-
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan2.png" >}}
 
@@ -102,12 +98,12 @@ Rabies-Free Country (Zone) Import
 
 **NOTE: Choose an arbitrary date in the future, start counting 180 days after the drawing of the blood for the Rabies-Titer-Test. The dates of the successful import permit will be a timeframe around your chosen date. If you need to change the dates due to a different flight booking, it can be done via email!**
 
-* After you receive your import permit, you can start looking for flights. We recommend booking them via call, so the airline can check directly if you can take a pet on board for that specific flight.
+**After you receive your import permit, you can start looking for flights. We recommend booking them via call, so the airline can check directly if you can take a pet on board for that specific flight.**
 
-  * Some airlines allow pets in the cabin when they are small enough (e.g., KLM, Lufthansa) 
-  * Some airlines only allow pets in cargo (e.g., Eva Air)
-  * Some airlines don't allow certain types of pets at all (e.g., Emirates) 
-  * Every airline's pricing and rules are different. Please make sure to check on their websites or call for any questions.
+* Some airlines allow pets in the cabin when they are small enough (e.g., KLM, Lufthansa) 
+* Some airlines only allow pets in cargo (e.g., Eva Air)
+* Some airlines don't allow certain types of pets at all (e.g., Emirates) 
+* Every airline's pricing and rules are different. Please make sure to check on their websites or call for any questions.
 
 **Apply for a post-entry quarantine facility spot in Taiwan** 
 
@@ -123,13 +119,9 @@ Whether you are transporting the pet in the cabin or in cargo, you will have to 
 
 **NOTE: If you decided to transport the pet in a soft bag, you would still need a transport cage for transport to the quarantine facilities. You can bring it to the Taiwan airport previous to your flight or have a friend drop it off. Please go to the quarantine office at the port of entry to organize the drop-off. Please check out the shipping fare for transportation from the airport to the quarantine facilities [HERE](https://www.baphiq.gov.tw/ws.php?id=20897).**
 
-
-
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan1.png" >}}
 
 {{< /card >}}
-
-
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan3.png" >}}
 
