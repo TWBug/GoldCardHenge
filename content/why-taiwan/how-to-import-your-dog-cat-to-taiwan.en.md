@@ -20,6 +20,8 @@ When we decide to add a pet to the family, it's a life long decision. When movin
 Step 1
 {{< /teaser >}}
 
+## Step 1
+
 Before we can get started, we need to figure out what type of country you are importing your pet from. All countries are divided into either rabies-free or rabies-infected countries. **Australia, New Zealand, United Kingdom, Sweden, Iceland, Norway, Hawaii state, Territory of Guam, Singapore, Estonia, and Japan** are recognized as rabies-free countries. All other countries are rabies-infected.
 
 Please call the Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan if you would like to confirm. TEL：(02)2343-1401
@@ -27,6 +29,8 @@ Please call the Bureau of Animal and Plant Health Inspection and Quarantine, Cou
 {{< teaser prefix="" >}}
 Step 2
 {{< /teaser >}}
+
+## Step 2
 
 Are we meeting the requirements? 
 
@@ -39,6 +43,8 @@ Before we move on to the actual process of importing your cat/dog, we need to fi
 {{< teaser prefix="" >}}
 Step 3
 {{< /teaser >}}
+
+## Step 3
 
 If you are importing your pet from a recognized rabies-free country, please keep reading. The pet needs to be at least 180-days in the rabies-free country. If you are importing from a rabies-infected country, please check [Rabies-Infected Country (Zone) Import](#note-rabies-infected-country-zone-import).
 
@@ -81,7 +87,7 @@ Rabies-Free Country (Zone) Import
 
 {{< /note >}}
 
-**Rabies-Titer-Test at your veterinarian.**
+### Rabies-Titer-Test at your veterinarian.
 
 * A Rabies-Titer-Test is a test that checks the rabies virus neutralizing antibody after vaccination. 
 * Please make sure that the Rabies-Titer-Test is checked at one of the [LISTED](https://www.baphiq.gov.tw/en/ws.php?id=14261) laboratories. Click the link and scroll down to the bottom to find the up to date "List of Rabies Neutralization Antibody Testing Laboratories." 
@@ -89,7 +95,7 @@ Rabies-Free Country (Zone) Import
 * If you need to refresh your vaccine, wait a month after the vaccine at least for the best results of the Rabies-Titer-Test.
 * A Rabies-Titer-Test will take up to 3-4 weeks to come back with results. Also, calculate that the costs can range between 40 USD to 150 USD.
 
-**Apply for an import permit after your Titer-Test results are out. You will need the following documents:**
+### Apply for an import permit after your Titer-Test results are out. You will need the following documents:
 
 * Veterinarian signed proof of rabies vaccination, it will need the following information on it: the dog/cat's breed, sex, age, microchip number, inoculation date, that inactivated vaccine was indeed used. The format doesn't really matter; important is that it's stamped by the veterinarian and signed. 
 * Proof of passed Rabies-Titer-Test. The laboratory usually provides the report in English already with all the needed information. 
@@ -98,19 +104,19 @@ Rabies-Free Country (Zone) Import
 
 **NOTE: Choose an arbitrary date in the future, start counting 180 days after the drawing of the blood for the Rabies-Titer-Test. The dates of the successful import permit will be a timeframe around your chosen date. If you need to change the dates due to a different flight booking, it can be done via email!**
 
-**After you receive your import permit, you can start looking for flights. We recommend booking them via call, so the airline can check directly if you can take a pet on board for that specific flight.**
+### After you receive your import permit, you can start looking for flights. We recommend booking them via call, so the airline can check directly if you can take a pet on board for that specific flight.
 
 * Some airlines allow pets in the cabin when they are small enough (e.g., KLM, Lufthansa) 
 * Some airlines only allow pets in cargo (e.g., Eva Air)
 * Some airlines don't allow certain types of pets at all (e.g., Emirates) 
 * Every airline's pricing and rules are different. Please make sure to check on their websites or call for any questions.
 
-**Apply for a post-entry quarantine facility spot in Taiwan** 
+### **Apply for a post-entry quarantine facility spot in Taiwan** 
 
 * After receiving your import permit and booking your flight, you will need to apply for the post-entry quarantine facility. 
 * Email your area's Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan branch office to arrange for a quarantine spot. Contacts can be found [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261).
 
-**Finding the right carriage**
+### Finding the right carriage
 
 Whether you are transporting the pet in the cabin or in cargo, you will have to look for the right transport carriage. 
 
@@ -127,11 +133,11 @@ Whether you are transporting the pet in the cabin or in cargo, you will have to 
 
 {{< /card >}}
 
-**Arrival Time**
+### Arrival Time
 
 Please make sure your pet arrives during specific times so the transport to the quarantine facility can run smoothly. If you arrive outside of the official arrival time, your pet might need to stay at the airport overnight. Find the updated times [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261). Scroll to the bottom and look for the "Arrival time for into the quarantine premise" document. 
 
-**Quarantine**
+### Quarantine
 
 * Inquire at your Taiwan animal quarantine branch office which quarantine facilities your pet will be transported to
 * After successful quarantine spot application, you should've been sent some info sheets to fill out regarding your pet's detailed information; if not, inquire with your branch office
