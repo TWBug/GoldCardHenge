@@ -70,14 +70,23 @@ Rabies-Free Country (Zone) Import
 * **The Taiwanese animal quarantine authority will issue the Import Veterinary Certificate, but only after all the above requirements are met, and the dog/cat gives no cause for suspicion of notifiable animal infectious diseases.**
 
 {{< note title="Rabies-Infected Country (Zone) Import" >}}
-* Rabies-Titer-Test at your veterinarian.
 
-  * A Rabies-Titer-Test is a test that checks the rabies virus neutralizing antibody after vaccination. 
-  * Please make sure that the Rabies-Titer-Test is checked at one of the [LISTED](https://www.baphiq.gov.tw/en/ws.php?id=14261) laboratories. Click the link and scroll down to the bottom to find the up to date "List of Rabies Neutralization Antibody Testing Laboratories." 
-  * To pass, you will need a result greater or equal to 0.5 IU/ml 
-  * If you need to refresh your vaccine, wait a month after the vaccine at least for the best results of the Rabies-Titer-Test.
-  * A Rabies-Titer-Test will take up to 3-4 weeks to come back with results. Also, calculate that the costs can range between 40 USD to 150 USD.
-* Apply for an import permit after your Titer-Test results are out. You will need the following documents:
+{{< /note >}}
+
+**Rabies-Titer-Test at your veterinarian.**
+
+* A Rabies-Titer-Test is a test that checks the rabies virus neutralizing antibody after vaccination. 
+* Please make sure that the Rabies-Titer-Test is checked at one of the [LISTED](https://www.baphiq.gov.tw/en/ws.php?id=14261) laboratories. Click the link and scroll down to the bottom to find the up to date "List of Rabies Neutralization Antibody Testing Laboratories." 
+* To pass, you will need a result greater or equal to 0.5 IU/ml 
+* If you need to refresh your vaccine, wait a month after the vaccine at least for the best results of the Rabies-Titer-Test.
+* A Rabies-Titer-Test will take up to 3-4 weeks to come back with results. Also, calculate that the costs can range between 40 USD to 150 USD.
+
+**Apply for an import permit after your Titer-Test results are out. You will need the following documents:**
+
+* Veterinarian signed proof of rabies vaccination, it will need the following information on it: the dog/cat's breed, sex, age, microchip number, inoculation date, that inactivated vaccine was indeed used. The format doesn't really matter; important is that it's stamped by the veterinarian and signed. 
+* Proof of passed Rabies-Titer-Test. The laboratory usually provides the report in English already with all the needed information. 
+* Your personal identification documents, eg. Passport, ARC, Taiwanese ID etc. 
+* There are two ways of applying for an import permit. Either [APPLY ONLINE](https://pet-epermit.baphiq.gov.tw/) or fill out the application form they provide on their [WEBSITE](https://www.baphiq.gov.tw/en/ws.php?id=14261) and send it via post, fax, or email.
 
 **NOTE: Choose an arbitrary date in the future, start counting 180 days after the drawing of the blood for the Rabies-Titer-Test. The dates of the successful import permit will be a timeframe around your chosen date. If you need to change the dates due to a different flight booking, it can be done via email!**
 
@@ -87,7 +96,6 @@ Rabies-Free Country (Zone) Import
   * Some airlines only allow pets in cargo (e.g., Eva Air)
   * Some airlines don't allow certain types of pets at all (e.g., Emirates) 
   * Every airline's pricing and rules are different. Please make sure to check on their websites or call for any questions.
-{{< /note >}}
 
 **Apply for a post-entry quarantine facility spot in Taiwan** 
 
@@ -118,7 +126,5 @@ After a 7-days quarantine, you can pick up your pet. Be aware that the time your
 For more in-depth information about the whole quarantine process, please check out this [DOCUMENT](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/1-16409.pdf). The branch offices are very friendly, helpful, speak English and are reachable via telephone or email. Find their contact info [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261). Don't hesitate to confirm every step of the process with them! 
 
 Good luck, and see you in Taiwan soon!
-
-
 
 ![](/cms-uploads/how-to-import-your-dogcat-to-taiwan5.png)
