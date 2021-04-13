@@ -69,8 +69,12 @@ Rabies-Free Country (Zone) Import
   * Photocopy of the bill of lading, airway bill, or customs declaration
 * **The Taiwanese animal quarantine authority will issue the Import Veterinary Certificate, but only after all the above requirements are met, and the dog/cat gives no cause for suspicion of notifiable animal infectious diseases.**
 
+{{< note title="Rabies-Infected Country (Zone) Import" >}}
+
+{{< /note >}}
+
 {{< teaser prefix="" >}}
-[Rabies-Infected Country (Zone) Import](#id-of-rabies-Infected)
+Rabies-Infected Country (Zone) Import
 {{< /teaser >}}
 
 {{< accordion title="Rabies-Titer-Test at your veterinarian." suffix="1." bottomless="true" >}}
