@@ -29,7 +29,7 @@ style: right
 
 ![Cumulative Number of Employment Gold Card Issuance](/cms-uploads/cumulative-number-of-employment-gold-card-issuance.png)
 
-![Form of Cumulative Number of Employment Gold Card Issuance](/cms-uploads/cumulative-number-of-employment-gold-card-issuance1.png)
+![Number of Employment Gold Card Issued to the Top 10 Countries by Year](/cms-uploads/就業金卡歷年十大國別核發張數.png)
 
 {{< teaser prefix="二、" >}}
 領域別
@@ -38,3 +38,29 @@ style: right
 ![Employment Gold Card Field Statistics By Year](/cms-uploads/就業金卡歷年領域別統計.png)
 
 ![Employment Gold Card Percentage by Field](/cms-uploads/就業金卡領域別比例.png)
+
+{{< teaser prefix="三、" >}}
+國別
+{{< /teaser >}}
+
+![Employment Gold Card Top 10 Countries](/cms-uploads/by-country.png)
+
+
+
+![Number of Employment Gold Card Issued to the Top 10 Countries by Year](/cms-uploads/就業金卡歷年十大國別核發張數.png)
+
+
+
+![Cross-Analysis of the Employment Gold Card Fields and Nationalities](/cms-uploads/就業金卡領域別及國籍別交叉分析.png)
+
+{{< teaser prefix="四、" >}}
+性別及年齡
+{{< /teaser >}}
+
+
+
+![Cross-Analysis of Employment Gold Card Age and Gender](/cms-uploads/就業金卡性別及年齡交叉分析.png)
+
+
+
+![Bar graphic Cross-Analysis of Employment Gold Card Age and Gender](/cms-uploads/就業金卡年齡及性別.png)
