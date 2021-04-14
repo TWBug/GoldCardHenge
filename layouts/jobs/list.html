@@ -53,9 +53,7 @@
                     </section>
                     {{ end }}
 
-                    <div class="border-t-2 border-secondary border-dashed mt-8 px-4">
-                        {{ partial "pagination" . }}
-                    </div>
+                    {{ partial "pagination" . }}
 
                     {{ if .Content }}
                         {{ if eq $paginator.PageNumber 1 }}

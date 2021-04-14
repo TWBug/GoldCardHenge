@@ -422,6 +422,8 @@ en:
       translation: You should tell us more about it
     - id: form_fields_submit
       translation: Submit
+    - id: form_fields_required
+      translation: required
     - id: chat_title
       translation: Live Chat
     - id: chat_time_title
@@ -626,7 +628,7 @@ zh:
     - id: located
       translation: 居住地
     - id: timezone
-      translation: 英語 (+08:00)
+      translation: 台灣時間 (+08:00)
     - id: taipei_city_skyline
       translation: 台北市天際線
     - id: taiwan_mountains
@@ -849,6 +851,8 @@ zh:
       translation: 請填寫您的問題
     - id: form_fields_submit
       translation: 送出
+    - id: form_fields_required
+      translation: 必需的
     - id: chat_title
       translation: 即時諮詢
     - id: chat_time_title

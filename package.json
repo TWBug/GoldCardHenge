@@ -30,6 +30,7 @@
         "babel": "npm run babel:admin && npm run babel:js-misc",
         "prehugo": "npm run babel && npm run lunr:index && npm run build:i18n",
         "hugo": "hugo --gc -D --cleanDestinationDir --minify",
+        "hugo:server": "NODE_ENV=development && hugo server",
         "accessibility": "node ./src/accessibility/links > ./result-links.txt && node ./src/accessibility/images > ./result-images.txt && node ./src/accessibility/headlines > ./result-headlines.txt && node ./src/accessibility/buttons > ./result-buttons.txt && node ./src/accessibility/linktexts > ./result-linktexts.txt  && node ./src/accessibility/alt > ./result-alt.txt"
     },
     "author": "TEGO Team <it@taiwangoldcard.tw>",
