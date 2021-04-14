@@ -22,3 +22,11 @@ style: right
 * 體育：1件
 * 金融：165件
 * 建築設計：8件
+
+![Cumulative Number of Employment Gold Card Issuance](/cms-uploads/cumulative-number-of-employment-gold-card-issuance.png)
+
+![Form of Cumulative Number of Employment Gold Card Issuance](/cms-uploads/cumulative-number-of-employment-gold-card-issuance1.png)
+
+![就業金卡歷年領域別統計](/cms-uploads/就業金卡歷年領域別統計.png)
+
+![就業金卡領域別比例](/cms-uploads/就業金卡領域別比例.png)
