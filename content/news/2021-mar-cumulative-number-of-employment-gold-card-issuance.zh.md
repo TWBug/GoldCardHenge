@@ -23,9 +23,17 @@ style: right
 * 金融：165件
 * 建築設計：8件
 
+{{< teaser prefix="一、" >}}
+整體核發情形
+{{< /teaser >}}
+
 ![Cumulative Number of Employment Gold Card Issuance](/cms-uploads/cumulative-number-of-employment-gold-card-issuance.png)
 
 ![Form of Cumulative Number of Employment Gold Card Issuance](/cms-uploads/cumulative-number-of-employment-gold-card-issuance1.png)
+
+{{< teaser prefix="二、" >}}
+領域別
+{{< /teaser >}}
 
 ![就業金卡歷年領域別統計](/cms-uploads/就業金卡歷年領域別統計.png)
 
