@@ -17,7 +17,7 @@ cover_image_alt: null
 ---
 Applying for the Taiwan Employment Gold Card is not a difficult task.  Filling out and submitting the online form takes around **15-minutes**, if you have all the necessary documents prepared.  Therefore, before filling out the application form, read the qualification section carefully and prepare all your required documents. Once you are ready, follow with this step-by-step guide that will lead you through the process.
 
-![Gold Card Application Process](/cms-uploads/application-process.png)
+![Gold Card Application Process](/cms-uploads/流程圖英.jpg)
 
 ## STEP 1: Online Application
 
@@ -50,7 +50,7 @@ Fill in your information / Passport & Visa Status
 * Please select the industry that you want to apply under and attach all relevant supporting documents. Click save after double-checking and uploading the files.
 * After you submit your application, changing the industry will be difficult and it will take longer to process review your application.
 
-{{< accordion title="Application Details" suffix="" bottomless="false" >}}
+{{< accordion title="Application Details" suffix="" bottomless="true" >}}
 
 * After you have successfully registered, login and select "Employment Gold Card Application" in the "Online Application" menu. Then select your nationality and if you are applying from Taiwan or abroad.
 * You may apply for the Taiwan Employment Gold Card if you hold a foreign passport, or a ROC passport without household registration (NWHOR). ROC nationals with a household registration or National ID card are not eligible to apply. If you hold a Taiwan NWHOR passport, when applying domestically, you must have entered with your foreign passport and not Taiwan NWHOR passport or your application will be rejected.
@@ -112,7 +112,7 @@ For overseas applications, or if you have entered Taiwan but have a visa with a 
 
 After your application has been approved, you will receive an e-mail notifying you to collect your Gold Card. Please bring your original passport and relevant documents to your selected location for picking up your Gold Card. If you can not to pick it up in person, you can ask a friend or agent. In that case, you need to provide them with a power of attorney form.
 
-{{< accordion title="More Details" suffix="" bottomless="false" >}}
+{{< accordion title="More Details" suffix="" bottomless="true" >}}
 
 **Domestic Applicants**
 
@@ -138,7 +138,7 @@ The review process after you complete the online payment officially begins. As t
 Visa issuance is an act of sovereignty and related to the National security. The government reserves the right not to issue a visa and is under no obligation to disclose the reason.
 {{< /teaser >}}
 
-{{< accordion title="More Details" suffix="" bottomless="false" >}}
+{{< accordion title="More Details" suffix="" bottomless="true" >}}
 **If you submit incomplete or inaccurate information, or the authorities require more information about your qualifications, you will need to submit additional documents for review. Failing to do so can result in your application being rejected.**
 
 * Please take the time to check which visa you have entered the country with, and choose the right visa category as this cannot be changed later, e.g., Visa-free, Student visa, visitor visa, etc.
