@@ -83,12 +83,11 @@ a. Awards granted by major international arts organizations, or where the number
 ### Publishing
 
 {{< accordion title="Currently or previously serving as chief editor or senior manager of major international media or publishing house, or as copyright agent, with at least 10 years’ experience in publishing or mass communications." suffix="1." bottomless="true" >}}
-
 * Certificates of serving in the authoritative international media or the publishing houses, as chief editor, senior executive or certified copywriter agent , and certificates of work experience in publishing or mass communication for more than a decade.
 
-a. The authoritative international media: The international print news media or news agency of at least two pages in length and serving a national or global audience of readers. Examples include but not limit US News and World Report, The New York Times, The Washington Post, The Financial Times, Associated Press, Reuters, L’ Agence France-Press, Time, Life, National Geographic. Yazhou Zhoukan (Hong Kong), and other publications or news agencies acknowledged by the MOC.
+a. The authoritative international media: The international print news media or news agency of at least two pages in length and serving a national or global audience of readers. Examples include but not limit to US News and World Report, The New York Times, The Washington Post, The Financial Times, Associated Press, Reuters, L’ Agence France-Press, Time, Life, National Geographic. Yazhou Zhoukan (Hong Kong), and other publications or news agencies acknowledged by the MOC.
 
-b. The publishing houses include but not limit Penguin Random House, HarperCollins Publishers LLC, or other publishing houses acknowledged by the MOC.
+b. The publishing houses include but not limit to Penguin Random House, HarperCollins Publishers LLC, or other publishing houses acknowledged by the MOC.
 
 c. Senior managers of  the print media  indicate manager, assistant general manager, deputy general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, deputy director-general, director-general, vice president, president, responsible person, chief editor, deputy managing editor, managing editor, deputy general director, general director, other similar position, or other individuals reviewed and approved of by the MOC.
 {{< /accordion >}}
