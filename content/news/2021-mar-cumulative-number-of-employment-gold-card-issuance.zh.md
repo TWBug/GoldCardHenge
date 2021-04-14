@@ -35,6 +35,6 @@ style: right
 領域別
 {{< /teaser >}}
 
-![就業金卡歷年領域別統計](/cms-uploads/就業金卡歷年領域別統計.png)
+![Employment Gold Card Field Statistics By Year](/cms-uploads/就業金卡歷年領域別統計.png)
 
-![就業金卡領域別比例](/cms-uploads/就業金卡領域別比例.png)
+![Employment Gold Card Percentage by Field](/cms-uploads/就業金卡領域別比例.png)
