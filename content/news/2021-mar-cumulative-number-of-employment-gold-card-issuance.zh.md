@@ -55,6 +55,6 @@ style: right
 性別及年齡
 {{< /teaser >}}
 
-![Cross-Analysis of Employment Gold Card Age and Gender](/cms-uploads/就業金卡性別及年齡交叉分析.png)
+![Cross-Analysis of Employment Gold Card Age and Gender](/cms-uploads/就業金卡性別及年齡交叉分析.jpg)
 
-![Bar graphic Cross-Analysis of Employment Gold Card Age and Gender](/cms-uploads/就業金卡年齡及性別.png)
+![Bar graphic Cross-Analysis of Employment Gold Card Age and Gender](/cms-uploads/就業金卡年齡及性別.jpg)
