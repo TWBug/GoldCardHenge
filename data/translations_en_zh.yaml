@@ -415,7 +415,7 @@ zh:
     - id: chat_title
       translation: 即時諮詢
     - id: chat_time_title
-      translation: 台北市實際時間
+      translation: 台灣時間
     - id: chat_online
       translation: Online
     - id: chat_online_description
@@ -423,7 +423,7 @@ zh:
     - id: chat_offline
       translation: Offline
     - id: chat_offline_description
-      translation: 即時諮詢的服務時間為：台北當地 周一至周五 10:00-18:00
+      translation: 即時諮詢的服務時間為：台灣時間 周一至周五 10:00-18:00
     - id: test_translation
       translation: 這是測試翻譯
 en:
@@ -855,7 +855,7 @@ en:
     - id: chat_title
       translation: Live Chat
     - id: chat_time_title
-      translation: Actual time in Taipei
+      translation: Time in Taiwan
     - id: chat_online
       translation: Online
     - id: chat_online_description
