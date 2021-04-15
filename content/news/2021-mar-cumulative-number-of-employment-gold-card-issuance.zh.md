@@ -43,9 +43,11 @@ style: right
 國別
 {{< /teaser >}}
 
-![Employment Gold Card Top 10 Countries](/cms-uploads/by-country.png)
 
-![Number of Employment Gold Card Issued to the Top 10 Countries by Year](/cms-uploads/就業金卡歷年十大國別核發張數.png)
+
+![Number of Employment Gold Card Issued to the Top 10 Countries by Year](/cms-uploads/就業金卡歷年十大國別核發張數.jpg)
+
+![Employment Gold Card Top 10 Countries](/cms-uploads/就業金卡前十大國別.jpg)
 
 ![Cross-Analysis of the Employment Gold Card Fields and Nationalities](/cms-uploads/就業金卡領域別及國籍別交叉分析.png)
 
