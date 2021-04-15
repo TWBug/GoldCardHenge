@@ -851,7 +851,7 @@ en:
     - id: form_fields_submit
       translation: Submit
     - id: form_fields_required
-      translation: required
+      translation: Required
     - id: chat_title
       translation: Live Chat
     - id: chat_time_title
