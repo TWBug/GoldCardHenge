@@ -49,7 +49,7 @@ style: right
 
 ![Employment Gold Card Top 10 Countries](/cms-uploads/就業金卡前十大國別.jpg)
 
-![Cross-Analysis of the Employment Gold Card Fields and Nationalities](/cms-uploads/就業金卡領域別及國籍別交叉分析.png)
+![Cross-Analysis of the Employment Gold Card Fields and Nationalities](/cms-uploads/就業金卡領域別及國籍別交叉分析.jpg)
 
 {{< teaser prefix="四、" >}}
 性別及年齡
