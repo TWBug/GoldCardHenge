@@ -27,9 +27,9 @@ style: right
 整體核發情形
 {{< /teaser >}}
 
-![Cumulative Number of Employment Gold Card Issuance](/cms-uploads/cumulative-number-of-employment-gold-card-issuance.jpg)
+![Cumulative Number of Employment Gold Card Issuance](/cms-uploads/cumulative-number-of-employment-gold-card-issuance.png)
 
-![Number of Employment Gold Card Issued to the Top 10 Countries by Year](/cms-uploads/cumulative-number-of-employment-gold-card-issuance1.jpg)
+![Number of Employment Gold Card Issued to the Top 10 Countries by Year](/cms-uploads/cumulative-number-of-employment-gold-card-issuance1.png)
 
 {{< teaser prefix="二、" >}}
 領域別
