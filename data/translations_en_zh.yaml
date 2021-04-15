@@ -855,7 +855,7 @@ en:
     - id: chat_title
       translation: Live Chat
     - id: chat_time_title
-      translation: Time in Taiwan
+      translation: Taiwan Time
     - id: chat_online
       translation: Online
     - id: chat_online_description
