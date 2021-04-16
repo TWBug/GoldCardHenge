@@ -27,7 +27,6 @@ The applicant must be a ROC attorney or a ROC foreign legal affairs attorney
 
 {{< accordion title="Holding a law related executive position or above in a law firm or corporation." suffix="3." bottomless="true" >}}
 
-
 {{< /accordion >}}
 
 {{< accordion title="Having been recommended by the National Bar Association or the local bar association to which the attorney belongs." suffix="4." bottomless="true" >}}
