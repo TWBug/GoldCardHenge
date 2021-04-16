@@ -29,6 +29,14 @@ style: right
 
 ![test1](/cms-uploads/各類主流安全設備比較表1.jpg)
 
+{{< card title="undefined" link="" image="/cms-uploads/wcry.jpg" >}}
+
+{{< /card >}}
+
+{{< card title="undefined" link="" image="/cms-uploads/各類主流安全設備比較表1.jpg" >}}
+
+{{< /card >}}
+
 ## 一、整體核發情形
 
 ![Cumulative Number of Employment Gold Card Issuance](/cms-uploads/cumulative-number-of-employment-gold-card-issuance.jpg)
