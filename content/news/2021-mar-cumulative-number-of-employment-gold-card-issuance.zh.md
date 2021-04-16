@@ -25,6 +25,10 @@ style: right
 * 金融：165件
 * 建築設計：8件
 
+![test](/cms-uploads/wcry.jpg)
+
+![test1](/cms-uploads/各類主流安全設備比較表1.jpg)
+
 ## 一、整體核發情形
 
 ![Cumulative Number of Employment Gold Card Issuance](/cms-uploads/cumulative-number-of-employment-gold-card-issuance.jpg)
