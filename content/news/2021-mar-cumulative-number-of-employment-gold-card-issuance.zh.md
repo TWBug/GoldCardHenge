@@ -23,27 +23,19 @@ style: right
 * 金融：165件
 * 建築設計：8件
 
-{{< teaser prefix="一、" >}}
-整體核發情形
-{{< /teaser >}}
+## 一、整體核發情形
 
 ![Cumulative Number of Employment Gold Card Issuance](/cms-uploads/cumulative-number-of-employment-gold-card-issuance.jpg)
 
 ![Number of Employment Gold Card Issued to the Top 10 Countries by Year](/cms-uploads/就業金卡歷年核發張數.jpg)
 
-{{< teaser prefix="二、" >}}
-領域別
-{{< /teaser >}}
+## 二、領域別
 
 ![Employment Gold Card Field Statistics By Year](/cms-uploads/就業金卡歷年領域別統計.jpg)
 
 ![Employment Gold Card Percentage by Field](/cms-uploads/就業金卡領域別比例.jpg)
 
-{{< teaser prefix="三、" >}}
-國別
-{{< /teaser >}}
-
-
+## 三、國別
 
 ![Number of Employment Gold Card Issued to the Top 10 Countries by Year](/cms-uploads/就業金卡歷年十大國別核發張數.jpg)
 
@@ -51,9 +43,7 @@ style: right
 
 ![Cross-Analysis of the Employment Gold Card Fields and Nationalities](/cms-uploads/就業金卡領域別及國籍別交叉分析.jpg)
 
-{{< teaser prefix="四、" >}}
-性別及年齡
-{{< /teaser >}}
+四、性別及年齡
 
 ![Cross-Analysis of Employment Gold Card Age and Gender](/cms-uploads/就業金卡性別及年齡交叉分析.jpg)
 
