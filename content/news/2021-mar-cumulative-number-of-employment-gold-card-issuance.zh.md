@@ -31,6 +31,8 @@ style: right
 
 ![](/cms-uploads/test2.jpg)
 
+![](/cms-uploads/test3.jpg)
+
 ## 一、整體核發情形
 
 ![Cumulative Number of Employment Gold Card Issuance](/cms-uploads/cumulative-number-of-employment-gold-card-issuance.jpg)
