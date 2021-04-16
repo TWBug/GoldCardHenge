@@ -25,17 +25,11 @@ style: right
 * 金融：165件
 * 建築設計：8件
 
-![test](/cms-uploads/wcry.jpg)
-
 ![test1](/cms-uploads/各類主流安全設備比較表1.jpg)
 
-{{< card title="undefined" link="" image="/cms-uploads/wcry.jpg" >}}
+![](/cms-uploads/test.jpg)
 
-{{< /card >}}
-
-{{< card title="undefined" link="" image="/cms-uploads/各類主流安全設備比較表1.jpg" >}}
-
-{{< /card >}}
+![](/cms-uploads/test2.jpg)
 
 ## 一、整體核發情形
 
