@@ -1,8 +1,8 @@
 {{ $image := resources.Get (printf "%s" (.Destination | safeURL)) }}
 {{ if $image }}
-{{ $small := $image.Resize "480x" }}
-{{ $medium := $image.Resize "768x" }}
-{{ $big := $image.Resize "1024x" }}
+{{ $small := $image.Resize "480x q30" }}
+{{ $medium := $image.Resize "768x q30" }}
+{{ $big := $image.Resize "776x q60" }}
 {{ $alt := .PlainText | safeHTML }}
 {{ $caption := "" }}
 {{ with .Title }}
