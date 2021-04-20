@@ -1,5 +1,5 @@
 ---
-title: 2018 Employment Gold Card Issuance Status
+title: "2018 就業金卡核發情形 "
 date: 2019-01-02T07:55:05.333Z
 topic: eventsnews
 draft: false
