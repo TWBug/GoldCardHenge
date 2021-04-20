@@ -11,4 +11,6 @@ style: right
 ---
 # 2018 整體核發情形
 
+## 統計數據
+
 ![2018 Employment Gold Card Issuance Status](/cms-uploads/2018-employment-gold-card-issuance-status.png)
