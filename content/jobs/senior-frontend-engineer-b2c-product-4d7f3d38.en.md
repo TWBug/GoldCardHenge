@@ -26,4 +26,4 @@ badges:
 
 ---
 
-Responsibilities: Build user-facing features for insurance-related web applications. Optimize web applications to achieve high performance and good user experience. Write tests and constantly seek to improve code quality and reliability. Drive the quality standards within the development team by example, produce highly usable technical documentation as well as conduct code reviews.
+How to apply: Please apply this position through 👉 https://bit.ly/3gl6hFm It will help us process your applications faster! Responsibilities: Build user-facing features for insurance-related web applications. Optimize web applications to achieve high performance and good user experience. Write tests and constantly seek to improve code quality and reliability. Drive the quality standards within the development team by example, produce highly usable technical documentation as well as conduct code 
