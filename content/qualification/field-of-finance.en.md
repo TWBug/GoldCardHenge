@@ -14,6 +14,8 @@ topic: goldcard
 
 {{< accordion title="Previously or currently holding a position in a foreign state or in the R.O.C. with a most recent monthly salary of at least NT$160,000." suffix="1." bottomless="true" >}}
 * Based on proof of applicant’s salary in the financial industry. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+
+  * Applicants shall provide documents verifying their work experiences in the financial industry and supporting documents of the company’s registration in the financial sector from the country’s financial supervisory authority (e.g., Publicly available information on the authority’s website)
 {{< /accordion >}}
 
 {{< accordion title="Those who have served in a professional position in a financial institution, and have outstanding professional ability or cross-border experience much-needed by the country." suffix="2." bottomless="true" >}}
