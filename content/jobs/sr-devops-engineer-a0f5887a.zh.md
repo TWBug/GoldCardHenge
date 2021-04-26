@@ -11,7 +11,7 @@ date: 2021-04-15T10:49:00.271Z
 company_name: 肯力行網科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/swiper-xone-media'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--N2grFvU1--/c_pad,fl_png8,h_200,w_200/v1605524628/adgdelyqx305pl9wn3ld.png
+  https://media.cakeresume.com/image/upload/s--A5n5JmSa--/c_pad,fl_png8,h_200,w_200/v1619432245/ga92tyxn6f5zsmul4ofi.png
 salary_text: TWD700000 - TWD1200000
 salary_currency: TWD
 salary_type: per_year

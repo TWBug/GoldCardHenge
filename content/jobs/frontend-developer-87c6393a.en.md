@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '28158'
-title: Senior Frontend Developer - 資深前端工程師
+title: Frontend Developer - 前端工程師
 job_url: >-
   https://www.cakeresume.com/companies/beeinventor/jobs/senior-frontend-developer-961891
 date: 2021-03-29T08:17:43.239Z
@@ -12,10 +12,10 @@ company_name: BeeInventor 點子建有限公司
 company_page_url: 'https://www.cakeresume.com/companies/beeinventor'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--Hq6LtJS9--/c_pad,fl_png8,h_200,w_200/v1617001810/zwcozk4pcfpouwpubylt.png
-salary_text: TWD1000000 - TWD1300000
+salary_text: TWD800000 - TWD1300000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1000000
+salary_min: 800000
 salary_max: 1300000
 location_list:
   - 台北市中山區玉門街1號
