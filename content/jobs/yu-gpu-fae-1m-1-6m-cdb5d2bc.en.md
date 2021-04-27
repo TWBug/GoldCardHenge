@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=semiconductor&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '19736'
-title: YU- 美商半導體大廠 FAE 年薪1M-1.6M
+title: YU- 美商半導體大廠 GPU FAE 年薪1M-1.6M
 job_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan/jobs/c4b195'
 date: 2020-04-24T07:04:39.552Z
 company_name: 新加坡商立可人事顧問有限公司台灣分公司 Recruit Express (Taiwan)
@@ -18,7 +18,9 @@ salary_min: 1000000
 salary_max: 1600000
 location_list:
   - 台北
-  - 內湖
+  - 南港軟體園區
+  - 南港區
+  - 台灣
 job_tags: []
 badges:
   - Semiconductor
