@@ -6,7 +6,16 @@
 {{ else if eq $url.Scheme "http"  }}
 {{ $target = "_blank" }}
 {{ end }}
-<a {{ if eq $target "_blank" }} title="{{ i18n "open_in_new_window"}}" target="{{ $target }}" {{ end }} class="text-primary font-bold underline focus-primary" href="{{ .Destination }}">
+
+{{ $title := ""}}
+{{ with .Title }}
+{{ $title = . | plainify }}
+{{ end }}
+{{ if eq $target "_blank" }}
+{{ $title = print (i18n "open_in_new_window") " " $title }}
+{{ end }}
+
+<a {{ if eq $target "_blank" }} target="{{ $target }}" {{ end }} {{ if $title }}  title="{{ $title }}" {{ end }} class="text-primary font-bold underline focus-primary" href="{{ .Destination }}">
   {{ .Text | safeHTML }}
 </a>
 
