@@ -2,7 +2,7 @@
 title: Yushan Scholar Program
 link: https://yushan.moe.gov.tw/TopTalent/EN
 cover_image: /cms-uploads/未命名-1-01.jpg
-cover_image_alt: ""
+cover_image_alt: 教育部 Logo
 draft: false
 hidden: false
 layout: related
