@@ -16,13 +16,16 @@
         {{ if $date }}
           <div data-cy="date-string" class="flex items-center text-secondary mb-2">
               {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
+
               <p class="text-xs font-bold ml-2">
                   {{ i18n "last_changed" }}
-                  {{ if eq .Site.Language.Lang "zh" }}
-                  {{ dateFormat "2006年1月2日" $date }}
-                  {{ else }}
-                  {{ dateFormat "January 2th 2006" $date }}
-                  {{ end }}
+                <abbr class="" title="{{ .Lastmod }}">
+                    {{ if eq .Site.Language.Lang "zh" }}
+                    {{ dateFormat "2006年1月2日" .Lastmod }}
+                    {{ else }}
+                    {{ dateFormat "January 2th 2006" .Lastmod }}
+                    {{ end }}
+                </abbr>
               </p>
           </div>
         {{ end }}
@@ -31,7 +34,7 @@
             <p class="text-xs font-bold ml-2">{{ printf (i18n "reading_time") $reading_time }}</p>
         </div>
         {{ if ne .Page.Section "why-taiwan" }}
-        <p class="text-sm leading-relaxed font-medium">{{ .Summary | .Page.RenderString }}</p>
+            <p class="text-sm leading-relaxed font-medium">{{ .Summary | .Page.RenderString }}</p>
         {{ end}}
     </div>
 </div>

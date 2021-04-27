@@ -13,13 +13,13 @@
                 <div class="flex-shrink-0">
                     {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
                 </div>
-                <span class="ml-2">
-                    {{ if eq .Site.Language.Lang "zh" }}
+                <abbr class="ml-2" title="{{ .Lastmod }}">
+		            {{ if eq .Site.Language.Lang "zh" }}
                     {{ dateFormat "2006年1月2日" .Lastmod }}
                     {{ else }}
                     {{ dateFormat "January 2th 2006" .Lastmod }}
                     {{ end }}
-                </span>
+                </abbr>
             </div>
             <a href="{{.RelPermalink}}" class="flex items-center font-bold text-primary text-base leading-snug -ml-3 mb-1 focus-primary">
                 <div class="flex-shrink-0">
