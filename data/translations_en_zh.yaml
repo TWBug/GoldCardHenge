@@ -36,6 +36,8 @@ zh:
       translation: "閱讀時間: %d 分鍾"
     - id: read_more
       translation: 了解更多
+    - id: read_more_about
+      translation: "了解更多"
     - id: show_answer
       translation: 顯示答案
     - id: show_all_galleries
@@ -464,6 +466,8 @@ en:
       translation: "Reading time: %d minute(s)"
     - id: read_more
       translation: Read more
+    - id: read_more_about
+      translation: "Read more about:"
     - id: show_answer
       translation: Show answer
     - id: show_all_galleries

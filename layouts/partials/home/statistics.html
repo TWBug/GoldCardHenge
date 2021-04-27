@@ -1,6 +1,11 @@
 {{ $statistics := (.Site.GetPage "/home").Resources.GetMatch "statistics*" }}
 
 <div class="relative">
+    {{ if .Site.IsServer }}
+    <div class="text-center w-full text-xs font-bold uppercase p-2">
+        statistics
+    </div>
+    {{ end }}
     <div class="container replace pt-6 pb-24 px-12 lg:px-24">
         <div class="flex flex-wrap  justify-around items-center my-6 lg:my-12">
             {{ range $index, $value := $statistics.Params.items }}

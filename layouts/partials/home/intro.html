@@ -1,6 +1,12 @@
 {{ $headless := .Site.GetPage "/home" }}
 {{ $intro := $headless.Resources.GetMatch "intro*" }}
+
 <div class="relative">
+    {{ if .Site.IsServer }}
+    <div class="text-center w-full text-xs font-bold uppercase p-2">
+        intro
+    </div>
+    {{ end }}
     <div
         class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-white -z-1"
     ></div>
@@ -29,7 +35,7 @@
                     {{ else }}
                     <a
                     href="{{ .href }}"
-                    class="bg-white border-2 border-primary force-no-underline rounded-md text-primary font-bold leading-none shadow-xl px-6 py-3 focus-primary" {{ with $title }}title="{{ . }}"{{ end }}
+                    class="bg-white border-2 border-primary force-no-underline rounded-md text-primary font-bold leading-none shadow-xl px-6 py-3 focus-primary" {{ with $title }}title="{{ print (i18n "read_more_about") " " . }}"{{ end }}
                     >
                     {{ end}}
                     {{ .label }}

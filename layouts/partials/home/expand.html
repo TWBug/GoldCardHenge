@@ -2,6 +2,11 @@
 {{ $expand := $headless.Resources.GetMatch "expand*" }}
 
 <section help="expand">
+    {{ if .Site.IsServer }}
+    <div class="text-center w-full text-xs font-bold uppercase p-2">
+        expand
+    </div>
+    {{ end }}
     <div class="relative">
         <div
     class="absolute top-0 inset-x-0 h-full max-h-64 bg-white bg-gradient-to-b from-background to-white -z-1"

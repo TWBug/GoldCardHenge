@@ -1,5 +1,10 @@
 {{ $headless := .Site.GetPage "/home" }}
 {{ $cta := $headless.Resources.GetMatch "cta*" }}
+{{ if .Site.IsServer }}
+<div class="text-center w-full text-xs font-bold uppercase p-2">
+    cta
+</div>
+{{ end }}
 <div class="grid grid-cols-1 sm:grid-cols-5 bg-secondary-medium bg-gradient-to-b from-secondary-light to-secondary-medium shadow-xl">
     {{ $cta_image := index $cta.Params.items 0 }}
     {{ $cta_image_src := ""}}
@@ -24,10 +29,14 @@
             </p>
             <div class="flex justify-between mt-8">
                 {{ range $cta.Params.links }}
+                {{ $title := i18n "open_in_new_window" }}
+                {{ if ne .new_window true }}
+                {{ $title = print (i18n "read_more_about") " " (i18n "apply_now_text") }}
+                {{ end }}
                 <a
                     href="{{ .href }}"
-                    {{ if eq .new_window true }} target="_blank" title="{{ i18n "open_in_new_window"}}" {{ end }}
-                    class="bg-primary border-2 border-primary rounded-md text-white font-bold leading-none shadow-xl px-6 py-3 focus-white"
+                    {{ if eq .new_window true }} target="_blank" {{ end }} title="{{ $title }}"
+                    class="bg-primary border-2 border-primary rounded-md text-white font-bold leading-none shadow-xl px-6 py-3 focus-white nohighlight"
                     >
                     {{ .label }}
                 </a>
