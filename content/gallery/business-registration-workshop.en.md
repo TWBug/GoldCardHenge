@@ -1,5 +1,6 @@
 ---
 title: Business Registration Workshop
+summary: <!-- This text will never be seen -->
 date: 2021-01-28T10:00:59.249Z
 draft: false
 topic: resources
