@@ -134,7 +134,7 @@ Please make sure your pet arrives during specific times so the transport to the 
 
 After a 7-days quarantine, you can pick up your pet. Be aware that the time your pet spends at the quarantine facilities is very stressful, so give your pet a couple of days to recover! 
 
-For more in-depth information about the whole quarantine process, please check out this [DOCUMENT](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/1-16409.pdf). The branch offices are very friendly, helpful, speak English and are reachable via telephone or email. Find their contact info [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261 "to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan website"). Don't hesitate to confirm every step of the process with them! 
+For more in-depth information about the whole quarantine process, please check out this [DOCUMENT](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/1-16409.pdf "to Quarantine Requirements for the Importation of Dogs and Cats pdf document"). The branch offices are very friendly, helpful, speak English and are reachable via telephone or email. Find their contact info [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261 "to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan website"). Don't hesitate to confirm every step of the process with them! 
 
 Good luck, and see you in Taiwan soon!
 
