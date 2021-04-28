@@ -75,14 +75,14 @@
                         </div>
                         <div class="flex flex-wrap justify-center text-md pb-4 px-2">
                             <a href="{{ .Params.link }}" target="_blank" title="{{ i18n "open_in_new_window"}}" class="flex items-center font-bold text-primary focus-primary m-2" rel="noopener">
-                                {{ partial "icon" (dict "name" "external-link-alt" "size" "6" "ariahidden" "true") }}
+                                {{ partial "icon" (dict "name" "external-link-alt" "size" "6" "alt" (i18n "website") "ariahidden" "true") }}
                                 <span class="ml-2">
                                     {{ i18n "website" }}
                                 </span>
                             </a>
                             {{ if .Params.social_links.facebook }}
                             <a href="{{ .Params.social_links.facebook }}" target="_blank" title="{{ i18n "open_in_new_window"}}" class="flex items-center font-bold text-primary focus-primary p-2" rel="noopener">
-                                {{ partial "icon" (dict "name" "facebook-square" "size" "6" "ariahidden" "true") }}
+                                {{ partial "icon" (dict "name" "facebook-square" "size" "6" "alt" (i18n "facebook") "ariahidden" "true") }}
                                 <span class="ml-2">
                                     {{ i18n "facebook" }}
                                 </span>
@@ -90,7 +90,7 @@
                             {{ end }}
                             {{ if .Params.social_links.youtube }}
                             <a href="{{ .Params.social_links.youtube }}" target="_blank" title="{{ i18n "open_in_new_window"}}" class="flex items-center font-bold text-primary focus-primary p-2" rel="noopener">
-                                {{ partial "icon" (dict "name" "youtube" "size" "6" "ariahidden" "true") }}
+                                {{ partial "icon" (dict "name" "youtube" "size" "6" "alt" (i18n "youtube") "ariahidden" "true") }}
                                 <span class="ml-2">
                                     {{ i18n "youtube" }}
                                 </span>
@@ -98,7 +98,7 @@
                             {{ end }}
                             {{ if .Params.social_links.instagram }}
                             <a href="{{ .Params.social_links.instagram }}" target="_blank" title="{{ i18n "open_in_new_window"}}" class="flex items-center font-bold text-primary focus-primary p-2" rel="noopener">
-                                {{ partial "icon" (dict "name" "instagram" "size" "6" "ariahidden" "true") }}
+                                {{ partial "icon" (dict "name" "instagram" "size" "6" "alt" (i18n "instagram") "ariahidden" "true") }}
                                 <span class="ml-2">
                                     {{ i18n "instagram" }}
                                 </span>
@@ -106,7 +106,7 @@
                             {{ end }}
                             {{ if .Params.social_links.twitter }}
                             <a href="{{ .Params.social_links.twitter }}" target="_blank" title="{{ i18n "open_in_new_window"}}" class="flex items-center font-bold text-primary focus-primary p-2" rel="noopener">
-                                {{ partial "icon" (dict "name" "twitter" "size" "6" "ariahidden" "true") }}
+                                {{ partial "icon" (dict "name" "twitter" "size" "6" "alt" (i18n "twitter") "ariahidden" "true") }}
                                 <span class="ml-2">
                                     {{ i18n "twitter" }}
                                 </span>
@@ -114,7 +114,7 @@
                             {{ end }}
                             {{ if .Params.social_links.linkedin }}
                             <a href="{{ .Params.social_links.linkedin }}" target="_blank" title="{{ i18n "open_in_new_window"}}" class="flex items-center font-bold text-primary focus-primary p-2" rel="noopener">
-                                {{ partial "icon" (dict "name" "linkedin" "size" "6" "ariahidden" "true") }}
+                                {{ partial "icon" (dict "name" "linkedin" "size" "6" "alt" (i18n "linkedin") "ariahidden" "true") }}
                                 <span class="ml-2">
                                     {{ i18n "linkedin" }}
                                 </span>
