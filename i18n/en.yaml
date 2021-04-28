@@ -34,6 +34,8 @@
   translation: 'Reading time: %d minute(s)'
 - id: read_more
   translation: Read more
+- id: read_more_about
+  translation: 'Read more about:'
 - id: show_answer
   translation: Show answer
 - id: show_all_galleries
@@ -390,7 +392,7 @@
 - id: form_message_valid
   translation: Form sucessfully submitted!
 - id: form_fields_type_name
-  translation: Type
+  translation: Select a type
 - id: form_fields_type_select_none
   translation: Select a type
 - id: form_fields_type_select_gold_card_program
@@ -404,25 +406,25 @@
 - id: form_fields_type_error
   translation: Select your type
 - id: form_fields_name
-  translation: Name
+  translation: Your name
 - id: form_fields_name_placeholder
   translation: Your name
 - id: form_fields_name_error
   translation: Please enter your name
 - id: form_fields_email_name
-  translation: Email
+  translation: Your email address
 - id: form_fields_email_placeholder
   translation: Your email address
 - id: form_fields_email_error
   translation: Please enter a valid email address
 - id: form_fields_subject_name
-  translation: Subject
+  translation: What is it about...
 - id: form_fields_subject_placeholder
   translation: What is it about...
 - id: form_fields_subject_error
   translation: Fill out your subject
 - id: form_fields_description_name
-  translation: Description
+  translation: Tell us more...
 - id: form_fields_description_placeholder
   translation: Tell us more...
 - id: form_fields_description_error
@@ -430,11 +432,11 @@
 - id: form_fields_submit
   translation: Submit
 - id: form_fields_required
-  translation: required
+  translation: Required
 - id: chat_title
   translation: Live Chat
 - id: chat_time_title
-  translation: Actual time in Taipei
+  translation: Taiwan Time
 - id: chat_online
   translation: Online
 - id: chat_online_description

@@ -34,6 +34,8 @@
   translation: '閱讀時間: %d 分鍾'
 - id: read_more
   translation: 了解更多
+- id: read_more_about
+  translation: 了解更多
 - id: show_answer
   translation: 顯示答案
 - id: show_all_galleries
@@ -370,7 +372,7 @@
 - id: form_message_valid
   translation: Form sucessfully submitted!
 - id: form_fields_type_name
-  translation: 類別
+  translation: 選擇類別
 - id: form_fields_type_select_none
   translation: 選擇類別
 - id: form_fields_type_select_gold_card_program
@@ -384,25 +386,25 @@
 - id: form_fields_type_error
   translation: 請選擇類別
 - id: form_fields_name
-  translation: 姓名
+  translation: 你的名字
 - id: form_fields_name_placeholder
   translation: 你的名字
 - id: form_fields_name_error
   translation: 請輸入你的名字
 - id: form_fields_email_name
-  translation: 電子信箱
+  translation: 填寫電子信箱
 - id: form_fields_email_placeholder
   translation: 填寫電子信箱
 - id: form_fields_email_error
   translation: 請填寫有效電子信箱
 - id: form_fields_subject_name
-  translation: 主旨
+  translation: 請簡述您的問題
 - id: form_fields_subject_placeholder
   translation: 請簡述您的問題
 - id: form_fields_subject_error
   translation: 請填寫主旨
 - id: form_fields_description_name
-  translation: 詳細內容
+  translation: 請說明您的問題
 - id: form_fields_description_placeholder
   translation: 請說明您的問題
 - id: form_fields_description_error
@@ -410,11 +412,11 @@
 - id: form_fields_submit
   translation: 送出
 - id: form_fields_required
-  translation: 必需的
+  translation: 必填
 - id: chat_title
   translation: 即時諮詢
 - id: chat_time_title
-  translation: 台北市實際時間
+  translation: 台灣時間
 - id: chat_online
   translation: Online
 - id: chat_online_description
@@ -422,6 +424,6 @@
 - id: chat_offline
   translation: Offline
 - id: chat_offline_description
-  translation: '即時諮詢的服務時間為：台北當地 周一至周五 10:00-18:00'
+  translation: '即時諮詢的服務時間為：台灣時間 周一至周五 10:00-18:00'
 - id: test_translation
   translation: 這是測試翻譯

@@ -373,7 +373,7 @@ zh:
     - id: form_message_valid
       translation: Form sucessfully submitted!
     - id: form_fields_type_name
-      translation: 類別
+      translation: 選擇類別
     - id: form_fields_type_select_none
       translation: 選擇類別
     - id: form_fields_type_select_gold_card_program
@@ -387,25 +387,25 @@ zh:
     - id: form_fields_type_error
       translation: 請選擇類別
     - id: form_fields_name
-      translation: 姓名
+      translation: 你的名字
     - id: form_fields_name_placeholder
       translation: 你的名字
     - id: form_fields_name_error
       translation: 請輸入你的名字
     - id: form_fields_email_name
-      translation: 電子信箱
+      translation: 填寫電子信箱
     - id: form_fields_email_placeholder
       translation: 填寫電子信箱
     - id: form_fields_email_error
       translation: 請填寫有效電子信箱
     - id: form_fields_subject_name
-      translation: 主旨
+      translation: 請簡述您的問題
     - id: form_fields_subject_placeholder
       translation: 請簡述您的問題
     - id: form_fields_subject_error
       translation: 請填寫主旨
     - id: form_fields_description_name
-      translation: 詳細內容
+      translation: 請說明您的問題
     - id: form_fields_description_placeholder
       translation: 請說明您的問題
     - id: form_fields_description_error
@@ -815,7 +815,7 @@ en:
     - id: form_message_valid
       translation: Form sucessfully submitted!
     - id: form_fields_type_name
-      translation: Type
+      translation: Select a type
     - id: form_fields_type_select_none
       translation: Select a type
     - id: form_fields_type_select_gold_card_program
@@ -829,25 +829,25 @@ en:
     - id: form_fields_type_error
       translation: Select your type
     - id: form_fields_name
-      translation: Name
+      translation: Your name
     - id: form_fields_name_placeholder
       translation: Your name
     - id: form_fields_name_error
       translation: Please enter your name
     - id: form_fields_email_name
-      translation: Email
+      translation: Your email address
     - id: form_fields_email_placeholder
       translation: Your email address
     - id: form_fields_email_error
       translation: Please enter a valid email address
     - id: form_fields_subject_name
-      translation: Subject
+      translation: What is it about...
     - id: form_fields_subject_placeholder
       translation: What is it about...
     - id: form_fields_subject_error
       translation: Fill out your subject
     - id: form_fields_description_name
-      translation: Description
+      translation: Tell us more...
     - id: form_fields_description_placeholder
       translation: Tell us more...
     - id: form_fields_description_error
