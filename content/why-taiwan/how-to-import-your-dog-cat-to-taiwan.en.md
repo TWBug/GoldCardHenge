@@ -14,7 +14,7 @@ style: right
 
 When we decide to add a pet to the family, it's a life long decision. When moving to another country, of course, our furry friends need to come with us. Importing your cat or dog to Taiwan is not that difficult if you know how! We have created a step-to-step guide and linked it to all essential resources and information to make this as stress-free for owner and pet as possible. 
 
-**Note: We are only talking about standard household pets. If you have a working dog (e.g., Service Dog, Duty Dog, etc.), there might be special regulations. Please read [THIS](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/1-16409.pdf "to Quarantine Requirements for the Importation of Dogs and Cats") document for more information.** 
+**Note: We are only talking about standard household pets. If you have a working dog (e.g., Service Dog, Duty Dog, etc.), there might be special regulations. Please read [THIS](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/1-16409.pdf "to Quarantine Requirements for the Importation of Dogs and Cats pdf document") document for more information.** 
 
 ## Step 1
 
@@ -41,7 +41,7 @@ Rabies-Free Country (Zone) Import
 {{< /teaser >}}
 
 * Apply for an Import permit at least 20-days before entry at the port of entry (e.g., if you are flying in from Taoyuan, apply at the Taoyuan customs) 
-* There are two ways of applying for an import permit. Either [APPLY ONLINE](https://pet-epermit.baphiq.gov.tw/ "to Online Application System for Dog/Cat Import Permit") or fill out the application form they provide on their [WEBSITE](https://www.baphiq.gov.tw/en/ws.php?id=14261 "to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan") (scroll to the bottom to find it) and send it via post, fax, or email.
+* There are two ways of applying for an import permit. Either [APPLY ONLINE](https://pet-epermit.baphiq.gov.tw/ "to Online Application System for Dog/Cat Import Permit website") or fill out the application form they provide on their [WEBSITE](https://www.baphiq.gov.tw/en/ws.php?id=14261 "to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan website") (scroll to the bottom to find it) and send it via post, fax, or email.
 * List of documents you need for the import permit application: 
 
   * Authentication document of the applicant (e.g., Taiwanese ID, ARC, passport) 
@@ -56,7 +56,7 @@ Rabies-Free Country (Zone) Import
   * Some airlines don't allow certain types of pets at all (e.g., Emirates) 
   * Every airline's pricing and rules are different. Please make sure to check on their websites or call for any questions. 
 * Get a veterinary certificate issued/stamped by the exporting country. Please use the [FORM](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/20103.pdf "to Veterinary Certificate for the Export of Dogs/Cats
-  from Rabies-free Countries (Zones) to Taiwan") provided by the Taiwanese government.
+  from Rabies-free Countries (Zones) to Taiwan pdf form") provided by the Taiwanese government.
 * When the pet arrives in Taiwan, you will need to submit the following documents to the animal quarantine authority: 
 
   * Photocopy of the Import Permit
@@ -79,7 +79,7 @@ Rabies-Free Country (Zone) Import
 ### Rabies-Titer-Test at your veterinarian.
 
 * A Rabies-Titer-Test is a test that checks the rabies virus neutralizing antibody after vaccination. 
-* Please make sure that the Rabies-Titer-Test is checked at one of the [LISTED](https://www.baphiq.gov.tw/en/ws.php?id=14261 "to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan") laboratories. Click the link and scroll down to the bottom to find the up to date "List of Rabies Neutralization Antibody Testing Laboratories." 
+* Please make sure that the Rabies-Titer-Test is checked at one of the [LISTED](https://www.baphiq.gov.tw/en/ws.php?id=14261 "to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan website") laboratories. Click the link and scroll down to the bottom to find the up to date "List of Rabies Neutralization Antibody Testing Laboratories." 
 * To pass, you will need a result greater or equal to 0.5 IU/ml 
 * If you need to refresh your vaccine, wait a month after the vaccine at least for the best results of the Rabies-Titer-Test.
 * A Rabies-Titer-Test will take up to 3-4 weeks to come back with results. Also, calculate that the costs can range between 40 USD to 150 USD.
@@ -89,7 +89,7 @@ Rabies-Free Country (Zone) Import
 * Veterinarian signed proof of rabies vaccination, it will need the following information on it: the dog/cat's breed, sex, age, microchip number, inoculation date, that inactivated vaccine was indeed used. The format doesn't really matter; important is that it's stamped by the veterinarian and signed. 
 * Proof of passed Rabies-Titer-Test. The laboratory usually provides the report in English already with all the needed information. 
 * Your personal identification documents, eg. Passport, ARC, Taiwanese ID etc. 
-* There are two ways of applying for an import permit. Either [APPLY ONLINE](https://pet-epermit.baphiq.gov.tw/ "to Online Application System for Dog/Cat Import Permit") or fill out the application form they provide on their [WEBSITE](https://www.baphiq.gov.tw/en/ws.php?id=14261 "to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan") and send it via post, fax, or email.
+* There are two ways of applying for an import permit. Either [APPLY ONLINE](https://pet-epermit.baphiq.gov.tw/ "to Online Application System for Dog/Cat Import Permit website") or fill out the application form they provide on their [WEBSITE](https://www.baphiq.gov.tw/en/ws.php?id=14261 "to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan website") and send it via post, fax, or email.
 
 **NOTE: Choose an arbitrary date in the future, start counting 180 days after the drawing of the blood for the Rabies-Titer-Test. The dates of the successful import permit will be a timeframe around your chosen date. If you need to change the dates due to a different flight booking, it can be done via email!**
 
@@ -103,7 +103,7 @@ Rabies-Free Country (Zone) Import
 ### **Apply for a post-entry quarantine facility spot in Taiwan**
 
 * After receiving your import permit and booking your flight, you will need to apply for the post-entry quarantine facility. 
-* Email your area's Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan branch office to arrange for a quarantine spot. Contacts can be found [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261).
+* Email your area's Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan branch office to arrange for a quarantine spot. Contacts can be found [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261 "to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan website").
 
 ### Finding the right carriage
 
