@@ -1,5 +1,6 @@
 ---
 title: Gold Card Meet & Greet
+summary: <!-- This text will never be seen -->
 date: 2020-10-06T11:00:29.006Z
 draft: false
 topic: resources
