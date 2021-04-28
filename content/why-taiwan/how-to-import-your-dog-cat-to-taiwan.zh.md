@@ -56,7 +56,7 @@ style: right
   * 部分航空公司禁止攜帶某些類型的寵物（如：阿聯酋航空）。
   * 各航空公司有關寵物運送的收費和規則都不盡相同。請務必事先查看航空公司網站或致電洽詢。
 * 獸醫證明須由寵物輸出國簽發／核章。請使用台灣政府提供的[表格](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/20103.pdf "至Veterinary Certificate for the Export of Dogs/Cats
-from Rabies-free Countries (Zones) to Taiwan pdf 表格")。
+  from Rabies-free Countries (Zones) to Taiwan pdf 表格")。
 * 寵物抵達台灣後，您必須向動物檢疫單位提交以下文件：
 
   * 犬貓輸入許可證影本
@@ -134,6 +134,6 @@ from Rabies-free Countries (Zones) to Taiwan pdf 表格")。
 
 經過七天隔離後，您就可以接寵物回家了。請注意，您的寵物待在隔離設施期間可能相當焦慮，請給予數天時間適應恢復！
 
-欲了解隔離過程詳細資訊，請查閱此[文件](https://www.baphiq.gov.tw/ws.php?id=13028 "行政院農業委員會動植物防疫檢疫局網站")。動物檢疫地方分局人員相當友善，具有服務熱忱，能以英語溝通，可透過電話或電子郵件與他們聯繫。點擊[此處](https://www.baphiq.gov.tw/ws.php?id=18)查詢服務人員的聯絡資訊。別猶豫，直接與他們確認步驟細節吧！祝您一切順利，台灣見！
+欲了解隔離過程詳細資訊，請查閱此[文件](https://www.baphiq.gov.tw/ws.php?id=13028 "行政院農業委員會動植物防疫檢疫局網站")。動物檢疫地方分局人員相當友善，具有服務熱忱，能以英語溝通，可透過電話或電子郵件與他們聯繫。點擊[此處](https://www.baphiq.gov.tw/ws.php?id=18 "至行政院農業委員會動植物防疫檢疫局")查詢服務人員的聯絡資訊。別猶豫，直接與他們確認步驟細節吧！祝您一切順利，台灣見！
 
 ![](/cms-uploads/how-to-import-your-dogcat-to-taiwan5.png)
