@@ -16,7 +16,7 @@ media_image_alt: These pictures are photos of our “Navigation Taiwan’s Job
 {{< gallery-image src="/cms-uploads/event_2020-03-10_resources-job-market_03.jpg" >}}
 {{< gallery-image src="/cms-uploads/event_2020-03-10_resources-job-market_04.jpg" >}}
 {{< gallery-image src="/cms-uploads/event_2020-03-10_resources-job-market_05.jpg" >}}
-{{< gallery-image  >}}
+{{< gallery-image src="/cms-uploads/event_2020-03-10_resources-job-market_06.jpg" >}}
 {{< gallery-image src="/cms-uploads/event_2020-03-10_resources-job-market_07.jpg" >}}
 {{< gallery-image src="/cms-uploads/event_2020-03-10_resources-job-market_08.jpg" >}}
 {{< /gallery >}}
