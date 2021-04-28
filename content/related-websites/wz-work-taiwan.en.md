@@ -2,7 +2,7 @@
 title: EZ Work Taiwan
 link: https://ezworktaiwan.wda.gov.tw/en/
 cover_image: /cms-uploads/未命名-1-03.jpg
-cover_image_alt: 勞動力發展署全球資訊網 Logo
+cover_image_alt: EZ Work Taiwan Logo
 draft: false
 hidden: false
 layout: related
