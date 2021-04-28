@@ -1,5 +1,6 @@
 ---
 title: Christmas Mixer
+summary: <!-- This text will never be seen -->
 date: 2020-12-23T10:00:17.960Z
 draft: false
 topic: resources
