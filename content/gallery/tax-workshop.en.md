@@ -1,5 +1,6 @@
 ---
 title: Tax Workshop
+summary: <!-- This text will never be seen -->
 date: 2020-11-27T06:00:43.658Z
 draft: false
 topic: resources
