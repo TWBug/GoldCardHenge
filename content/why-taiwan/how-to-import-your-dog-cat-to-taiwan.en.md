@@ -14,7 +14,7 @@ style: right
 
 When we decide to add a pet to the family, it's a life long decision. When moving to another country, of course, our furry friends need to come with us. Importing your cat or dog to Taiwan is not that difficult if you know how! We have created a step-to-step guide and linked it to all essential resources and information to make this as stress-free for owner and pet as possible. 
 
-**Note: We are only talking about standard household pets. If you have a working dog (e.g., Service Dog, Duty Dog, etc.), there might be special regulations. Please read [THIS](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/1-16409.pdf "Open new window to Quarantine Requirements for the Importation of Dogs and Cats") document for more information.** 
+**Note: We are only talking about standard household pets. If you have a working dog (e.g., Service Dog, Duty Dog, etc.), there might be special regulations. Please read [THIS](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/1-16409.pdf "to Quarantine Requirements for the Importation of Dogs and Cats") document for more information.** 
 
 ## Step 1
 
@@ -41,7 +41,7 @@ Rabies-Free Country (Zone) Import
 {{< /teaser >}}
 
 * Apply for an Import permit at least 20-days before entry at the port of entry (e.g., if you are flying in from Taoyuan, apply at the Taoyuan customs) 
-* There are two ways of applying for an import permit. Either [APPLY ONLINE](https://pet-epermit.baphiq.gov.tw/ "Open new window to Online Application System for Dog/Cat Import Permit") or fill out the application form they provide on their [WEBSITE](https://www.baphiq.gov.tw/en/ws.php?id=14261 "Open new window to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan") (scroll to the bottom to find it) and send it via post, fax, or email.
+* There are two ways of applying for an import permit. Either [APPLY ONLINE](https://pet-epermit.baphiq.gov.tw/ "to Online Application System for Dog/Cat Import Permit") or fill out the application form they provide on their [WEBSITE](https://www.baphiq.gov.tw/en/ws.php?id=14261 "to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan") (scroll to the bottom to find it) and send it via post, fax, or email.
 * List of documents you need for the import permit application: 
 
   * Authentication document of the applicant (e.g., Taiwanese ID, ARC, passport) 
