@@ -1,5 +1,6 @@
 ---
 title: Global Talent Recruiting Summit
+summary: <!-- This text will never be seen -->
 date: 2021-03-24T06:14:13.160Z
 draft: false
 topic: resources
