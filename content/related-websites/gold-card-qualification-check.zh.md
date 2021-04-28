@@ -2,7 +2,7 @@
 title: 非官方就業金卡社群
 link: https://taiwangoldcard.com/
 cover_image: /cms-uploads/gold-card-qualification-check-01.jpg
-cover_image_alt: 非官方就業金卡社群 Logo
+cover_image_alt: Unofficial Gold Card Community Logo
 draft: false
 hidden: false
 layout: related
