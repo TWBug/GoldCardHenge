@@ -1,5 +1,6 @@
 ---
 title: All Hands Job Fair
+summary: <!-- This text will never be seen -->
 date: 2020-11-21T01:00:58.235Z
 draft: false
 topic: resources
