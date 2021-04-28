@@ -112,7 +112,7 @@ Whether you are transporting the pet in the cabin or in cargo, you will have to 
 * For in-cabin flights, we recommend going for soft bags as they tend to have more space for the pet to move around. They can also be a little bigger than the airline standards, which makes it even more comfortable for your furry friend! 
 * If you are transporting your pet in cargo, the transportation cage needs to fit the IATA-standards. Make sure your carrier has enough space for the pet to comfortably stand up and move around. 
 
-**NOTE: If you decided to transport the pet in a soft bag, you would still need a transport cage for transport to the quarantine facilities. You can bring it to the Taiwan airport previous to your flight or have a friend drop it off. Please go to the quarantine office at the port of entry to organize the drop-off. Please check out the shipping fare for transportation from the airport to the quarantine facilities [HERE](https://www.baphiq.gov.tw/ws.php?id=20897).**
+**NOTE: If you decided to transport the pet in a soft bag, you would still need a transport cage for transport to the quarantine facilities. You can bring it to the Taiwan airport previous to your flight or have a friend drop it off. Please go to the quarantine office at the port of entry to organize the drop-off. Please check out the shipping fare for transportation from the airport to the quarantine facilities [HERE](https://www.baphiq.gov.tw/ws.php?id=20897 "to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan website").**
 
 {{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan1.png" >}}
 
@@ -124,7 +124,7 @@ Whether you are transporting the pet in the cabin or in cargo, you will have to 
 
 ### Arrival Time
 
-Please make sure your pet arrives during specific times so the transport to the quarantine facility can run smoothly. If you arrive outside of the official arrival time, your pet might need to stay at the airport overnight. Find the updated times [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261). Scroll to the bottom and look for the "Arrival time for into the quarantine premise" document. 
+Please make sure your pet arrives during specific times so the transport to the quarantine facility can run smoothly. If you arrive outside of the official arrival time, your pet might need to stay at the airport overnight. Find the updated times [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261 "to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan website"). Scroll to the bottom and look for the "Arrival time for into the quarantine premise" document. 
 
 ### Quarantine
 
@@ -134,7 +134,7 @@ Please make sure your pet arrives during specific times so the transport to the 
 
 After a 7-days quarantine, you can pick up your pet. Be aware that the time your pet spends at the quarantine facilities is very stressful, so give your pet a couple of days to recover! 
 
-For more in-depth information about the whole quarantine process, please check out this [DOCUMENT](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/1-16409.pdf). The branch offices are very friendly, helpful, speak English and are reachable via telephone or email. Find their contact info [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261). Don't hesitate to confirm every step of the process with them! 
+For more in-depth information about the whole quarantine process, please check out this [DOCUMENT](https://www.baphiq.gov.tw/en/upload/baphiq/files/web_structure/14261/1-16409.pdf). The branch offices are very friendly, helpful, speak English and are reachable via telephone or email. Find their contact info [HERE](https://www.baphiq.gov.tw/en/ws.php?id=14261 "to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan website"). Don't hesitate to confirm every step of the process with them! 
 
 Good luck, and see you in Taiwan soon!
 
