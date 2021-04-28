@@ -1,5 +1,6 @@
 ---
 title: ACE Gold Card Meetup Red Room
+summary: <!-- This text will never be seen -->
 date: 2020-12-02T11:00:21.381Z
 draft: false
 topic: resources
