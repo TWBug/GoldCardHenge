@@ -12,11 +12,11 @@ company_name: 'Rosetta, Inc.'
 company_page_url: 'https://www.cakeresume.com/companies/rosetta-ai'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--F4zt38K4--/c_pad,fl_png8,h_200,w_200/v1563302566/ehtwt1w12dzd3p4hth9w.png
-salary_text: TWD840000 - TWD1000000
+salary_text: TWD840000 - TWD1020000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 840000
-salary_max: 1000000
+salary_max: 1020000
 location_list:
   - Taipei City
 job_tags:
