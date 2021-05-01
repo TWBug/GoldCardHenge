@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '28481'
-title: Senior Frontend Engineer -B2C Product
+title: Senior Frontend Engineer 資深前端工程師 （B2C Product）
 job_url: >-
   https://www.cakeresume.com/companies/onedegree/jobs/senior-frontend-engineer-b2c-product
 date: 2021-04-09T06:42:34.728Z

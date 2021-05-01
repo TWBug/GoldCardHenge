@@ -12,11 +12,11 @@ company_name: Xfers
 company_page_url: 'https://www.cakeresume.com/companies/xfers'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--eD5rzG1_--/c_pad,fl_png8,h_200,w_200/v1568825292/yum8l5bboicohblzy9dt.png
-salary_text: TWD900000 - TWD1400000
+salary_text: TWD900000 - TWD1500000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 900000
-salary_max: 1400000
+salary_max: 1500000
 location_list:
   - 台灣
 job_tags:
