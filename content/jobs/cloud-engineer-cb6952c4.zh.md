@@ -11,7 +11,7 @@ date: 2018-12-25T08:23:29.322Z
 company_name: 伊雲谷數位股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/ecloudvalley'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--PmE1rXrm--/c_pad,fl_png8,h_200,w_200/v1573020972/xwfdrgep6c3vtnxm1g2n.png
+  https://media.cakeresume.com/image/upload/s--f97vC5No--/c_pad,fl_png8,h_200,w_200/v1620025131/plasvlv0yqm9knu5hcyb.png
 salary_text: TWD600000 - TWD1200000
 salary_currency: TWD
 salary_type: per_year
