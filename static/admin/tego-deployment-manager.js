@@ -170,30 +170,36 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
     value: function componentDidMount() {
       var _this2 = this;
 
-      // User is a full github-user object, but most notable for our use is user.token
-      this.user = JSON.parse(localStorage.getItem('netlify-cms-user'));
-      console.log("[Deployment Manager] Authenciated as ".concat(this.user.email)); // Append styles
-
+      // Append styles
       document.head.appendChild(this.styleTag); // Display or hide the button based on route
 
       var fn = function fn() {
-        var headerControls = document.querySelector('[class*="AppHeaderActions"]');
+        try {
+          // User is a full github-user object, but most notable for our use is user.token
+          _this2.user = JSON.parse(localStorage.getItem('netlify-cms-user'));
+          console.log("[Deployment Manager] Authenciated as ".concat(_this2.user.email));
+          var headerControls = document.querySelector('[class*="AppHeaderActions"]');
 
-        if (headerControls) {
-          _this2.targetBox = headerControls.getBoundingClientRect(); // Call the handler once to determine whether or not to show these
-          // controls on the current route. Without this deep linking to a subpage
-          // will still show the controls.
+          if (headerControls) {
+            _this2.targetBox = headerControls.getBoundingClientRect(); // Call the handler once to determine whether or not to show these
+            // controls on the current route. Without this deep linking to a subpage
+            // will still show the controls.
 
-          _this2.handleRouteChange({
-            newURL: window.location.href
-          });
-        } else {
+            _this2.handleRouteChange({
+              newURL: window.location.href
+            });
+          } else {
+            _this2.timeout = setTimeout(fn, 1000);
+          }
+        } catch (err) {
+          console.warn('[Deployment Manager] Failed to authenticate. Will retry.');
           _this2.timeout = setTimeout(fn, 1000);
         }
       };
 
+      fn(); // Run once to get things started
+
       window.addEventListener('hashchange', this.handleRouteChange);
-      this.timeout = setTimeout(fn, 1000);
     }
   }, {
     key: "componentWillUnmount",

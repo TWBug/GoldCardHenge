@@ -109,30 +109,33 @@ class DeploymentManager extends React.Component {
     }
 
     componentDidMount() {
-        // User is a full github-user object, but most notable for our use is user.token
-        this.user = JSON.parse(localStorage.getItem('netlify-cms-user'));
-        console.log(`[Deployment Manager] Authenciated as ${this.user.email}`);
-
         // Append styles
         document.head.appendChild(this.styleTag);
 
         // Display or hide the button based on route
         const fn = () => {
-            const headerControls = document.querySelector('[class*="AppHeaderActions"]');
-            if (headerControls) {
-                this.targetBox = headerControls.getBoundingClientRect();
-                // Call the handler once to determine whether or not to show these
-                // controls on the current route. Without this deep linking to a subpage
-                // will still show the controls.
-                this.handleRouteChange({ newURL: window.location.href });
-            } else {
+            try {
+                // User is a full github-user object, but most notable for our use is user.token
+                this.user = JSON.parse(localStorage.getItem('netlify-cms-user'));
+                console.log(`[Deployment Manager] Authenciated as ${this.user.email}`);
+                const headerControls = document.querySelector('[class*="AppHeaderActions"]');
+                if (headerControls) {
+                    this.targetBox = headerControls.getBoundingClientRect();
+                    // Call the handler once to determine whether or not to show these
+                    // controls on the current route. Without this deep linking to a subpage
+                    // will still show the controls.
+                    this.handleRouteChange({ newURL: window.location.href });
+                } else {
+                    this.timeout = setTimeout(fn, 1000);
+                }
+            } catch (err) {
+                console.warn('[Deployment Manager] Failed to authenticate. Will retry.');
                 this.timeout = setTimeout(fn, 1000);
             }
         };
+        fn(); // Run once to get things started
 
         window.addEventListener('hashchange', this.handleRouteChange);
-
-        this.timeout = setTimeout(fn, 1000);
     }
 
     componentWillUnmount() {
