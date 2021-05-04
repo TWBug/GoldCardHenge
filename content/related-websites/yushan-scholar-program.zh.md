@@ -2,7 +2,7 @@
 title: 玉山學者計畫
 link: https://yushan.moe.gov.tw/TopTalent/
 cover_image: /cms-uploads/未命名-1-01.jpg
-cover_image_alt: Ministry of Education Logo
+cover_image_alt: 教育部 Logo
 draft: false
 hidden: false
 layout: related
