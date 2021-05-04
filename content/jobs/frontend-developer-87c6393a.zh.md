@@ -12,10 +12,10 @@ company_name: BeeInventor 點子建有限公司
 company_page_url: 'https://www.cakeresume.com/companies/beeinventor'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--Hq6LtJS9--/c_pad,fl_png8,h_200,w_200/v1617001810/zwcozk4pcfpouwpubylt.png
-salary_text: TWD800000 - TWD1300000
+salary_text: TWD900000 - TWD1300000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 800000
+salary_min: 900000
 salary_max: 1300000
 location_list:
   - 台北市中山區玉門街1號
