@@ -2,7 +2,7 @@
 title: 外國專業人才延攬及僱用法
 link: https://foreigntalentact.ndc.gov.tw/default.aspx
 cover_image: /cms-uploads/act-for-the-recruitment-and-employment-of-foreign-professionals-03.jpg
-cover_image_alt: National Development Council Logo
+cover_image_alt: 國家發展委員會 Logo
 draft: false
 hidden: false
 layout: related
