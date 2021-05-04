@@ -2,7 +2,7 @@
 title: 內政部移民署
 link: https://www.immigration.gov.tw/
 cover_image: /cms-uploads/nhi-04.jpg
-cover_image_alt: National Immigration Agency Logo
+cover_image_alt: 內政部移民署 Logo
 draft: false
 hidden: false
 layout: related
