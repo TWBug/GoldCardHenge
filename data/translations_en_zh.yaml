@@ -23,7 +23,7 @@ zh:
     - id: apply_now
       translation: 立即申請
     - id: apply_now_text
-      translation: Taiwan Gold Card is your right choice!
+      translation: 了解更多台灣就業金卡辦公室做甚麼
     - id: gold_card_members_map
       translation: 金卡社區地圖
     - id: home_image_alt
@@ -64,6 +64,8 @@ zh:
       translation: 聯繫
     - id: last_changed
       translation: 最後更新
+    - id: published
+      translation: 已發表
     - id: table_of_contents
       translation: 目錄
     - id: categories
@@ -279,7 +281,7 @@ zh:
     - id: goldcard
       translation: 就業金卡
     - id: website
-      translation: Website
+      translation: 網站
     - id: facebook
       translation: Facebook
     - id: youtube
@@ -494,6 +496,8 @@ en:
       translation: Contact
     - id: last_changed
       translation: Last changed
+    - id: published
+      translation: Published
     - id: table_of_contents
       translation: Table of contents
     - id: categories

@@ -62,6 +62,8 @@
   translation: Contact
 - id: last_changed
   translation: Last changed
+- id: published
+  translation: Published
 - id: table_of_contents
   translation: Table of contents
 - id: categories
