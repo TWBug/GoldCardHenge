@@ -11,6 +11,9 @@
         <div class="mb-6">
             <div class="flex items-center text-xs text-secondary font-bold mb-2">
                 <div class="flex-shrink-0">
+                    <span class="sr-only">
+                        {{ i18n "published" }}
+                    </span>
                     {{ partial "icon" (dict "name" "calendar-alt" "size" "4") }}
                 </div>
                 <abbr class="ml-2" title="{{ .Lastmod }}">
