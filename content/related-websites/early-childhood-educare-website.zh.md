@@ -2,7 +2,7 @@
 title: 全國教保資訊網
 link: https://www.ece.moe.edu.tw/ch/
 cover_image: /cms-uploads/全國教保資訊網logo.jpg
-cover_image_alt: Early Childhood Educare Website Logo
+cover_image_alt: 全國教保資訊網 Logo
 draft: false
 hidden: false
 layout: related
