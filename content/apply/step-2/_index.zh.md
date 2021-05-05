@@ -1,17 +1,17 @@
 ---
-title: 申請步驟二：線上申請
-date: 2021-01-18T03:14:03.141Z
 summary: 準備申請了嗎？請依照以下步驟！
 check: false
+title: 申請步驟二：線上申請
+date: 2021-01-18T03:14:03.141Z
+chatbot: true
 order: 0
 topic: goldcard
 cover_image: /cms-uploads/icon-checklist.svg
 cover_image_alt: Icon with checklist application process
 previous: /apply/step-1/
 next: /apply/step-2/registration/
-chatbot: true
 ---
-![就業金卡申請流程圖](/cms-uploads/流程圖-01.png)
+![就業金卡申請流程圖](/cms-uploads/流程圖中.jpg)
 
 {{< teaser prefix="" >}}
 從遞件、審核到領取金卡的整個作業時程**至少需要60個工作天**，若您已入境台灣，請注意所持簽證的停留時間是否足夠，若無法在期限內取得就業金卡，仍需要出境後再入境。
