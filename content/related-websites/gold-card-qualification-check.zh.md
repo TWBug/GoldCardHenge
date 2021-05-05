@@ -8,4 +8,4 @@ hidden: false
 layout: related
 weight: 4
 ---
-此為非官方就業金卡社羣網站。
+此為非官方就業金卡社群網站。
