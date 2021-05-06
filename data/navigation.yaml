@@ -18,7 +18,7 @@ zh:
           - name: 金卡辦公室
             link: /gold-card-office
         items:
-          - https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card
+          - apply
     - name: Why Taiwan
       topic: whytaiwan
       link: /why-taiwan/
@@ -76,7 +76,7 @@ en:
           - name: About the Gold Card Office
             link: /gold-card-office
         items:
-          - https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card
+          - apply
     - name: Why Taiwan
       topic: whytaiwan
       link: /why-taiwan/
