@@ -10,7 +10,7 @@ title: Application Guide
 cover_image_alt: Icon with checklist application process
 ---
 {{< teaser >}}
-We're excited to have you. The process to apply is not complicated, and we'll lead you through it. First, click/tap "Next" to determine how you may qualify.
+We're excited to have you. The process to apply is not complicated, and we'll lead you through it. First, click/tap "Next" to determine how you may qualify. Apply Website:  [Foreign Professionals Online Application Platform](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card)
 {{< /teaser >}}
 
 Regarding qualification, professionals from eight different industries are eligible to apply for the Gold Card program. However, note that you may only apply under one field.
