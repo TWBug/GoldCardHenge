@@ -8,7 +8,7 @@ title: Cloud Engineer/雲端工程師
 job_url: >-
   https://www.cakeresume.com/companies/ecloudvalley/jobs/ecloudvalley-msp-cloud-engineer
 date: 2018-12-25T08:23:29.322Z
-company_name: 伊雲谷數位股份有限公司
+company_name: eCloudvalley 伊雲谷數位股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/ecloudvalley'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--f97vC5No--/c_pad,fl_png8,h_200,w_200/v1620025131/plasvlv0yqm9knu5hcyb.png
