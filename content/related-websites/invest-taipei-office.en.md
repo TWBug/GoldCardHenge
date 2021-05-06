@@ -1,5 +1,6 @@
 ---
 title: Invest Taipei Office
+cover_image: /cms-uploads/ito-logo.jpg
 cover_image_alt: Invest Taipei Office logo
 draft: false
 hidden: false
