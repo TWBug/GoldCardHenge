@@ -1,6 +1,7 @@
 ---
 title: Invest Taipei Office
 link: https://invest.taipei/index.html
+cover_image_alt: 台北市投資服務辦公室 Logo
 draft: false
 hidden: false
 chatbot: false

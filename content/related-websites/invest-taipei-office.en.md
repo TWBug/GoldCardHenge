@@ -1,6 +1,6 @@
 ---
 title: Invest Taipei Office
-cover_image_alt: https://invest.taipei/index.html
+cover_image_alt: Invest Taipei Office logo
 draft: false
 hidden: false
 chatbot: false
