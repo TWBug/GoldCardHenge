@@ -6,6 +6,6 @@ cover_image_alt: Unofficial Gold Card Community Logo
 draft: false
 hidden: false
 layout: related
-weight: 4
+weight: 6
 ---
 This is an unofficial website run by the Gold Card Community. You may find some interesting information here.
