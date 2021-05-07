@@ -25,7 +25,7 @@ Applying for the Taiwan Employment Gold Card is not a difficult task.  Filling o
 Registration
 {{< /teaser >}}
 
-* Please visit the [Foreign Professionals Online Application Platform](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/) website and create an account. Use the login details to login into the portal. **Your English name needs to be consistent with the name on the passport you are using to enter Taiwan.**
+* Please visit the [Foreign Professionals Online Application Platform](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/main?lang=en) website and create an account. Use the login details to login into the portal. **Your English name needs to be consistent with the name on the passport you are using to enter Taiwan.**
 
 {{< teaser prefix="2." >}}
 Fill in your information / Passport & Visa Status
