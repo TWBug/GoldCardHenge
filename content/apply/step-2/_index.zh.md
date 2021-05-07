@@ -18,3 +18,5 @@ next: /apply/step-2/registration/
 {{< /teaser >}}
 
 就業金卡申請流程相當簡單，只需要提供申請者資訊、應附的證明文件、繳納申請費，整個申請過程可以在**15分鐘內**完成。
+
+線上申請網址： [外國專業人才申辦窗口平台 ](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/golden-card)
