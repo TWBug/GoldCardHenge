@@ -415,7 +415,7 @@ zh:
     - id: form_fields_submit
       translation: 送出
     - id: form_fields_required
-      translation: 必填
+      translation: "（必填）"
     - id: chat_title
       translation: 即時諮詢
     - id: chat_time_title
@@ -859,7 +859,7 @@ en:
     - id: form_fields_submit
       translation: Submit
     - id: form_fields_required
-      translation: Required
+      translation: "(required)"
     - id: chat_title
       translation: Live Chat
     - id: chat_time_title
