@@ -138,7 +138,7 @@ The review process after you complete the online payment officially begins. As t
 Visa issuance is an act of sovereignty and related to the National security. The government reserves the right not to issue a visa and is under no obligation to disclose the reason.
 {{< /teaser >}}
 
-{{< accordion title="More Details" suffix="" bottomless="true" >}}
+{{< accordion title="More Details" suffix="" bottomless="false" >}}
 **If you submit incomplete or inaccurate information, or the authorities require more information about your qualifications, you will need to submit additional documents for review. Failing to do so can result in your application being rejected.**
 
 * Please take the time to check which visa you have entered the country with, and choose the right visa category as this cannot be changed later, e.g., Visa-free, Student visa, visitor visa, etc.
@@ -159,7 +159,7 @@ If you need to change information or provide more supporting documents, you have
 
 ## In response to the COVID-19 pandemic
 
-During the COVID-19 pandemic, some overseas Taiwan missions may be temporarily closed and unavailable. If this happens, you can change the pickup location by contacting the Bureau of Consular Affairs (from overseas) or contacting the National Immigration Agency (from within Taiwan).
+Some overseas missions might be temporarily closed or working remotely. Please contact their office and see if passport inspections can be accepted via post.
 
 ## Note:
 
