@@ -5,6 +5,8 @@ topic: eventsnews
 draft: false
 hidden: false
 chatbot: false
+categories:
+  - Gold Card Issuance Status
 style: right
 ---
 # 2018 Employment Gold Card Issuance Status
