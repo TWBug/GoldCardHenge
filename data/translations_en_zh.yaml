@@ -320,8 +320,8 @@ en:
       translation: Discover Taiwan
     - id: industry-information
       translation: Industry information
-    - id: gold-card-issuance-status
-      translation: Gold Card Issuance Status
+    - id: Public-Statistics
+      translation: Public Statistics
     - id: other
       translation: Other
     - id: gold-card-policy
@@ -755,7 +755,7 @@ zh:
       translation: 探索台灣
     - id: industry-information
       translation: 產業資訊
-    - id: gold-card-issuance-status
+    - id: Public-Statistics
       translation: 公開統計資料
     - id: other
       translation: 其他
