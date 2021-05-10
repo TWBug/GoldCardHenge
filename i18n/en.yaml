@@ -327,6 +327,8 @@
   translation: Discover Taiwan
 - id: industry-information
   translation: Industry information
+- id: gold-card-issuance-status
+  translation: Gold Card Issuance Status
 - id: other
   translation: Other
 - id: gold-card-policy

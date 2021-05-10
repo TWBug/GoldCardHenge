@@ -307,6 +307,8 @@
   translation: 探索台灣
 - id: industry-information
   translation: 產業資訊
+- id: gold-card-issuance-status
+  translation: 就業金卡核發情形
 - id: other
   translation: 其他
 - id: gold-card-policy
