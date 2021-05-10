@@ -7,7 +7,7 @@ draft: false
 hidden: false
 chatbot: false
 categories:
-  - Gold Card Issuance Status
+  - Public Statistics
 style: right
 ---
 # 2018-2020 Employment Gold Card Overall Issuance Status
