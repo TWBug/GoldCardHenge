@@ -1,5 +1,6 @@
 ---
 title: 2018 就業金卡核發情形
+summary: 2018 就業金卡核發情形
 date: 2019-01-02T05:59:43.903Z
 topic: eventsnews
 draft: false

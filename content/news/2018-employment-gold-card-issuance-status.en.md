@@ -1,5 +1,6 @@
 ---
 title: 2018 Employment Gold Card Issuance Status
+summary: 2018 Employment Gold Card Issuance Status
 date: 2019-01-02T05:59:43.903Z
 topic: eventsnews
 draft: false
