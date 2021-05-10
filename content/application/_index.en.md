@@ -161,8 +161,6 @@ If you need to change information or provide more supporting documents, you have
 
 During the COVID-19 pandemic, some overseas Taiwan missions may be temporarily closed and unavailable. If this happens, you can change the pickup location by contacting the Bureau of Consular Affairs (from overseas) or contacting the National Immigration Agency (from within Taiwan).
 
-Some overseas missions might be temporarily closed or working remotely. Please contact their office and see if passport inspections can be accepted via post.
-
 ## Note:
 
 {{< note title="1" >}}
