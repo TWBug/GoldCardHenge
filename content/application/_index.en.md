@@ -188,6 +188,7 @@ Domestic applications require a resident address when applying. When entering th
 {{< /note >}}
 
 {{< note title="4" >}}
-* You can change the **passport inspection location or Gold Card pick-up location** anytime on the online platform before the application has finished the review process. You will not be able to make online changes after you receive the e-mail confirmation that your application has passed review. At this point, you can only change the location by contacting the Bureau of Consular Affairs (from overseas) or contacting the National Immigration Agency (from within Taiwan).
+* The passport inspection location can be changed on the online platform before the approval of the Workforce Development Agency. **After you have received an email notification of Passport Inspection Notification, you can no longer make changes online.** Please contact the Bureau of Consular Affairs (BOCA) at boca2107@boca.gov.tw to make any changes.
+  The pick-up location can be changed on the online platform before the Workforce Development Agency (WDA) finishes reviewing your application. **After you pass the WDA review, you can no longer change the pick-up location.**
 * If you send your passport via post to an overseas mission/office, please make sure you don’t have to use your passport within a month.
 {{< /note >}}
