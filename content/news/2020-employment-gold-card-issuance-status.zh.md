@@ -7,7 +7,7 @@ draft: false
 hidden: false
 chatbot: false
 categories:
-  - Gold Card Issuance Status
+  - Public Statistics
 style: right
 ---
 # 2020 就業金卡核發情形
