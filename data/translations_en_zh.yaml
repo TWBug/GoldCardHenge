@@ -232,6 +232,10 @@ en:
       translation: Languages
     - id: footer_legal_title
       translation: Legal
+    - id: footer_accessibility_link
+      translation: Barrier-free web
+    - id: footer_accessibility_logo
+      translation: Pass A accessibility detection
     - id: error_headline
       translation: Page was not found
     - id: error_description
@@ -667,6 +671,10 @@ zh:
       translation: 語言
     - id: footer_legal_title
       translation: 政策
+    - id: footer_accessibility_link
+      translation: 無障礙網
+    - id: footer_accessibility_logo
+      translation: 通過A無障礙網頁檢測
     - id: error_headline
       translation: 找不到頁面
     - id: error_description

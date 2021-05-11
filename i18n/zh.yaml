@@ -19,7 +19,7 @@
 - id: tego_logo
   translation: 商標 - 台灣就業金卡辦公室
 - id: apply_now
-  translation: 立即申請
+  translation: Start Here
 - id: apply_now_text
   translation: 台灣就業金卡辦公室做甚麼
 - id: gold_card_members_map
@@ -219,6 +219,10 @@
   translation: 語言
 - id: footer_legal_title
   translation: 政策
+- id: footer_accessibility_link
+  translation: 無障礙網
+- id: footer_accessibility_logo
+  translation: 通過A無障礙網頁檢測
 - id: error_headline
   translation: 找不到頁面
 - id: error_description
@@ -307,8 +311,8 @@
   translation: 探索台灣
 - id: industry-information
   translation: 產業資訊
-- id: gold-card-issuance-status
-  translation: 就業金卡核發情形
+- id: Public-Statistics
+  translation: 公開統計資料
 - id: other
   translation: 其他
 - id: gold-card-policy

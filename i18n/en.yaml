@@ -19,7 +19,7 @@
 - id: tego_logo
   translation: Logo Taiwan Employment Gold Card Office
 - id: apply_now
-  translation: Apply now
+  translation: Start Here
 - id: apply_now_text
   translation: Taiwan Gold Card is your right choice!
 - id: gold_card_members_map
@@ -237,6 +237,10 @@
   translation: Languages
 - id: footer_legal_title
   translation: Legal
+- id: footer_accessibility_link
+  translation: Barrier-free web
+- id: footer_accessibility_logo
+  translation: Pass A accessibility detection
 - id: error_headline
   translation: Page was not found
 - id: error_description
@@ -327,8 +331,8 @@
   translation: Discover Taiwan
 - id: industry-information
   translation: Industry information
-- id: gold-card-issuance-status
-  translation: Gold Card Issuance Status
+- id: Public-Statistics
+  translation: Public Statistics
 - id: other
   translation: Other
 - id: gold-card-policy
