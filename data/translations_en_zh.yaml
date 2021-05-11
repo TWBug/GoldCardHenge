@@ -21,7 +21,7 @@ en:
     - id: tego_logo
       translation: Logo Taiwan Employment Gold Card Office
     - id: apply_now
-      translation: Apply now
+      translation: Start Here
     - id: apply_now_text
       translation: Taiwan Gold Card is your right choice!
     - id: gold_card_members_map
@@ -468,7 +468,7 @@ zh:
     - id: tego_logo
       translation: 商標 - 台灣就業金卡辦公室
     - id: apply_now
-      translation: 立即申請
+      translation: Start Here
     - id: apply_now_text
       translation: 台灣就業金卡辦公室做甚麼
     - id: gold_card_members_map
