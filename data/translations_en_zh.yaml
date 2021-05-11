@@ -324,7 +324,7 @@ en:
       translation: Discover Taiwan
     - id: industry-information
       translation: Industry information
-    - id: Public-Statistics
+    - id: public-statistics
       translation: Public Statistics
     - id: other
       translation: Other
@@ -763,7 +763,7 @@ zh:
       translation: 探索台灣
     - id: industry-information
       translation: 產業資訊
-    - id: Public-Statistics
+    - id: public-statistics
       translation: 公開統計資料
     - id: other
       translation: 其他
