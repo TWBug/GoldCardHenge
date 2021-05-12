@@ -634,11 +634,11 @@ zh:
     - id: check_list_finished
       translation: 全部完成
     - id: check_info
-      translation: 您可以使個人檢查清單保持最新狀態，以便更輕鬆地記住完成了哪些步驟以及清單上還有哪些步驟。
+      translation: 您可以使用檢查清單保持最新狀態，能輕鬆地確認完成了哪些步驟以及未完成的步驟。
     - id: check_remove_info
-      translation: 要刪除您的“完成”，您可以點擊
+      translation: 要取消您的“完成”，您可以點擊
     - id: check_remove_button
-      translation: 刪除支票
+      translation: 取消勾選
     - id: located
       translation: 居住地
     - id: timezone
