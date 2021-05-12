@@ -43,6 +43,8 @@ a. Recognized award: Awards granted by an important international arts organizat
 * Proof of accomplishments in performing arts acknowledged by the MOC.
 {{< /accordion >}}
 
+{{< separate >}}
+
 ### 2. Visual Arts
 
 {{< accordion title="Previously serving as member of international arts organization, or assuming post of significant capacity in governmental agency or private organization related to culture and arts." suffix="1." bottomless="true" >}}
