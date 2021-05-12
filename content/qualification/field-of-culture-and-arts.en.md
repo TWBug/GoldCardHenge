@@ -11,7 +11,7 @@ topic: goldcard
 
 ## Must meet **ONE** of the following conditions:
 
-### Performing Arts
+### 1. Performing Arts
 
 {{< accordion title="Previously serving as member of international arts organization, or assuming post of significant capacity in governmental agency or private organization related to culture and arts." suffix="1." bottomless="true" >}}
 
@@ -43,7 +43,7 @@ a. Recognized award: Awards granted by an important international arts organizat
 * Proof of accomplishments in performing arts acknowledged by the MOC.
 {{< /accordion >}}
 
-### Visual Arts
+### 2. Visual Arts
 
 {{< accordion title="Previously serving as member of international arts organization, or assuming post of significant capacity in governmental agency or private organization related to culture and arts." suffix="1." bottomless="true" >}}
 
@@ -80,12 +80,12 @@ a. Awards granted by major international arts organizations, or where the number
 
 {{< /accordion >}}
 
-### Publishing
+### 3. Publishing
 
 {{< accordion title="Currently or previously serving as chief editor or senior manager of major international media or publishing house, or as copyright agent, with at least 10 years’ experience in publishing or mass communications." suffix="1." bottomless="true" >}}
-* Certificates of serving in the authoritative international media or the publishing houses, as chief editor, senior executive or certified copywriter agent , and certificates of work experience in publishing or mass communication for more than a decade.
+* Certificates of serving at an authoritative international media or publishing house as  as chief editor, senior executive or certified copywriter agent , and certificates of work experience in publishing or mass communication for more than a decade.
 
-a. The authoritative international media: The international print news media or news agency of at least two pages in length and serving a national or global audience of readers. Examples include but not limit to US News and World Report, The New York Times, The Washington Post, The Financial Times, Associated Press, Reuters, L’ Agence France-Press, Time, Life, National Geographic. Yazhou Zhoukan (Hong Kong), and other publications or news agencies acknowledged by the MOC.
+a. Authoritative international media: The international print news media or news agency of at least two pages in length and serving a national or global audience of readers. Examples include but not limit to US News and World Report, The New York Times, The Washington Post, The Financial Times, Associated Press, Reuters, L’ Agence France-Press, Time, Life, National Geographic. Yazhou Zhoukan (Hong Kong), and other publications or news agencies acknowledged by the MOC.
 
 b. The publishing houses include but not limit to Penguin Random House, HarperCollins Publishers LLC, or other publishing houses acknowledged by the MOC.
 
@@ -117,7 +117,7 @@ c. Senior managers of  the print media  indicate manager, assistant general mana
 * Proof of accomplishments in publishing business acknowledged by the MOC.
 {{< /accordion >}}
 
-### Film, Broadcast and Pop Music
+### 4. Film, Broadcast and Pop Music
 
 {{< accordion title="Previously received a major award for film, broadcast, or pop music from Taiwan or the recipient’s native country, or an international award." suffix="1." bottomless="true" >}}
 
@@ -145,24 +145,32 @@ b. Definition of top executive: An individual who has served as department head 
 * Copy of verification by the Ministry of Culture of documentation related to film, broadcast, or pop music.
 {{< /accordion >}}
 
-### Handicraft
+### 5. Handicraft
 
-{{< accordion title="Previously awarded in nationally or internationally recognized competition relevant to handicraft." suffix="1." bottomless="true" >}}
+{{< accordion title="Previously awarded in nationally or internationally recognized competition relevant handicraft." suffix="1." bottomless="true" >}}
 
 * Nationally or internationally recognized competitions: Talente Munich; ITAMI International Craft Exhibition; International Ceramics Competition Mino, Japan; Faenza Prize; Cheongju International Craft Biennale; and other competitions acknowledged of by the MOC.
 {{< /accordion >}}
 
-{{< accordion title="Previously recognized as preserver of handicraft techniques by nationally or internationally recognized organization or foreign government." suffix="2." bottomless="true" >}}
+{{< accordion title="Previously recognized as preserver handicraft techniques by nationally or internationally recognized organization or foreign government." suffix="2." bottomless="true" >}}
 
 * Nationally or internationally recognized organization: The World Crafts Council, UNESCO, or other international organizations, as well as organizations acknowledged of by the MOC.
 {{< /accordion >}}
 
-{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="3." bottomless="true" >}}
-
-* Proof of accomplishments in Handicraft acknowledged by the MOC.
+{{< accordion title="Have obtained an important handicraft patent (must be verified by the competent authority)." suffix="3." bottomless="true" >}}
+* Documentation concerning important handicraft patents obtained within the past 10 years must be appended.
 {{< /accordion >}}
 
-### Cultural Administration
+{{< accordion title="In addition to professional handicraft certification, experience working on corporate R&D on handicraft done with a grant from or in cooperation with the government of Taiwan or another country." suffix="4." bottomless="true" >}}
+* Certification of professional abilities in a handicraft.
+* Documentation or other information concerning involvement in corporate R&D projects done with a grant from or in cooperation with the government of Taiwan or other countries. (Note: “Domestic” in the aforementioned indicates participating in the Small Business Innovation Research Program or winning the Business Startup Award run by the Ministry of Economic Affairs, etc. Foreign awards will be approved of on a case-by-case basis.)
+{{< /accordion >}}
+
+{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="5." bottomless="true" >}}
+* Proof of accomplishments in a handicraft acknowledged by the MOC.
+{{< /accordion >}}
+
+### 6. Cultural Administration
 
 {{< accordion title="Previously serving in culture and arts department of domestic or foreign government, or culture and arts institutions established by law or as expert or researcher, having culture and arts portfolio with outstanding performance in addition." suffix="1." bottomless="true" >}}
 
@@ -178,4 +186,44 @@ b. Definition of top executive: An individual who has served as department head 
 {{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="3." bottomless="true" >}}
 
 * Proof of accomplishments in arts administration and cultural management acknowledged by the MOC.
+{{< /accordion >}}
+
+### 7. Those with experience in the “new” cultural industries
+
+{{< accordion title="Have experience as a manager or core member of an R&D team that has helped with an IPO of a company in a cultural and creative industry overseen by the Ministry of Culture (including visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content) in another country." suffix="1." bottomless="true" >}}
+Append all of the following:
+
+* News clippings or other supporting documentation concerning the IPO on a foreign exchange.
+* For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation. For core R&D team members, certification of related work on or resignation from this position.
+
+**Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.**
+{{< /accordion >}}
+
+{{< accordion title="Have experience as a high-level manager or core member of an R&D team that has been involved with a merger with a public company in a cultural and creative industry overseen by the Ministry of Culture  (including visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content) in another country." suffix="2." bottomless="true" >}}
+Append all of the following:
+
+* News clippings or other supporting documentation concerning the IPO of other companies on a foreign exchange.
+* News clippings or other documentation concerning the firm’s acquisition at or over US$3 million by a publicly traded company.
+* For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation. For core R&D team members, certification of related work on or resignation from this position.
+
+**Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.**
+{{< /accordion >}}
+
+{{< accordion title="Have experience as a manager of a venture capital company or fund that has invested overseas or has participated in a Taiwan government project in an industry overseen by the Ministry of Culture (including visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content) in another country." suffix="3." bottomless="true" >}}
+Append all of the following:
+
+* For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation, as well as one or all of the following:
+
+  * Managerial experience at a venture capital firm or fund that has invested in innovation or business overseas valued at over US$3 million.
+  * Experience as a high-level manager at a venture capital firm or fund investing at least US$600,000 in an innovation or business project in connection with a Taiwan government project.
+
+**Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.**
+{{< /accordion >}}
+
+{{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="4." bottomless="true" >}}
+Append all of the following:
+
+* Related documentation
+
+**Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.**
 {{< /accordion >}}
