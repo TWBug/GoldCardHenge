@@ -43,8 +43,6 @@ a. Recognized award: Awards granted by an important international arts organizat
 * Proof of accomplishments in performing arts acknowledged by the MOC.
 {{< /accordion >}}
 
-
-
 ### 2. Visual Arts
 
 {{< accordion title="Previously serving as member of international arts organization, or assuming post of significant capacity in governmental agency or private organization related to culture and arts." suffix="1." bottomless="true" >}}
@@ -85,7 +83,7 @@ a. Awards granted by major international arts organizations, or where the number
 ### 3. Publishing
 
 {{< accordion title="Currently or previously serving as chief editor or senior manager of major international media or publishing house, or as copyright agent, with at least 10 years’ experience in publishing or mass communications." suffix="1." bottomless="true" >}}
-* Certificates of serving at an authoritative international media or publishing house as  as chief editor, senior executive or certified copywriter agent , and certificates of work experience in publishing or mass communication for more than a decade.
+* Certificates of serving at an authoritative international media or publishing house as chief editor, senior executive or certified copywriter agent , and certificates of work experience in publishing or mass communication for more than a decade.
 
 a. Authoritative international media: The international print news media or news agency of at least two pages in length and serving a national or global audience of readers. Examples include but not limit to US News and World Report, The New York Times, The Washington Post, The Financial Times, Associated Press, Reuters, L’ Agence France-Press, Time, Life, National Geographic. Yazhou Zhoukan (Hong Kong), and other publications or news agencies acknowledged by the MOC.
 
