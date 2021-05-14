@@ -720,12 +720,12 @@ zh:
         * 證明對我國科技產業具貢獻潛力之相關文件。
     - ministry: MOC
       regulation_no: V3
-      weight: 14
+      weight: 15
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
       provide: "* 應檢附近十年與工藝類相關之重要專利權之證明文件。"
     - ministry: MOC
       regulation_no: V4
-      weight: 15
+      weight: 14
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
       provide: >-
         * 工藝專業能力證明文件。
@@ -734,7 +734,7 @@ zh:
     - link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
       ministry: MOC
       regulation_no: VII1
-      weight: 15
+      weight: 20
       provide: >-
         應全部檢附：
 
@@ -758,12 +758,12 @@ zh:
 
         **（註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。）**
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      weight: 18
+      weight: 19
       regulation_no: VII2
       ministry: MOC
     - ministry: MOC
       regulation_no: VII3
-      weight: 19
+      weight: 18
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
       provide: >-
         應全部檢附：
@@ -776,7 +776,7 @@ zh:
 
         **（註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。）**
     - notes: ⚠ 若要以此資格條件申請，申請前請先與金卡辦公室確認。
-      weight: 20
+      weight: 17
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
       ministry: MOC
       regulation_no: VII4
@@ -1600,11 +1600,11 @@ en:
         -  a statement on your potential contribution to Taiwan
     - ministry: MOC
       regulation_no: V3
-      weight: 14
+      weight: 15
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
       provide: "* Documentation concerning important handicraft patents obtained
         within the past 10 years must be appended."
-    - weight: 15
+    - weight: 14
       ministry: MOC
       regulation_no: V4
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
@@ -1615,7 +1615,7 @@ en:
     - regulation_no: VII1
       ministry: MOC
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
-      weight: 17
+      weight: 20
       provide: >-
         Append all of the following:
 
@@ -1641,9 +1641,9 @@ en:
       ministry: MOC
       regulation_no: VII2
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
-      weight: 18
-    - link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
       weight: 19
+    - link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
+      weight: 15
       regulation_no: VII3
       ministry: MOC
       provide: >-
@@ -1657,7 +1657,7 @@ en:
 
         **(Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.)**
     - link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
-      weight: 20
+      weight: 17
       ministry: MOC
       regulation_no: VII4
       provide: |-
