@@ -278,7 +278,7 @@ zh:
       qualifications:
         - MOC-V2
     - tree_id: 10
-      tree_order: 9
+      tree_order: 11
       question_text: 你有取得工藝類相關之重要專利權並經主管機關認定者或獲得國內外政府同意補助、合作等之企業研發計畫嗎？
       qualifications:
         - MOC-V3
@@ -791,7 +791,7 @@ en:
       qualifications:
         - MOC-VII2
     - tree_id: 10
-      tree_order: 9
+      tree_order: 11
       qualifications:
         - MOC-V3
         - MOC-V4
