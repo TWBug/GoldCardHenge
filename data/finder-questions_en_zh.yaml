@@ -1,369 +1,3 @@
-zh:
-  items:
-    - tree_id: 1
-      tree_order: 0
-      next_tree_id: null
-      question_text: 你是運動員、教練、或者裁判嗎？
-      qualifications: []
-    - tree_id: 1
-      tree_order: 1
-      next_tree_id: null
-      question_text: 你曾在奧運得過前三名，或者亞運、世界錦標賽的第一名呢？
-      qualifications:
-        - MOS-1
-    - tree_id: 1
-      tree_order: 2
-      next_tree_id: null
-      question_text: 你曾任國家代表隊教練並教導選手得到奧運前三名，或者亞運、世界錦標賽的第一名呢？
-      qualifications:
-        - MOS-2
-    - tree_id: 1
-      tree_order: 3
-      next_tree_id: 9
-      question_text: 你曾在奧運、亞運或同等級比賽上當過裁判嗎？
-      qualifications:
-        - MOS-3
-    - tree_id: 2
-      tree_order: 0
-      next_tree_id: null
-      question_text: 你是律師嗎？
-      qualifications: []
-    - tree_id: 2
-      tree_order: 1
-      next_tree_id: 9
-      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
-      qualifications:
-        - MOJ-1
-    - tree_id: 3
-      tree_order: 0
-      next_tree_id: null
-      question_text: 你是建築師嗎？
-      qualifications: []
-    - tree_id: 3
-      tree_order: 1
-      next_tree_id: 9
-      question_text: 你是否有建築師執照，或於建築師事務所、建築設計公司服務年資五年以上具設計或監造專案執行經驗，並且最近月薪達新臺幣十六萬元？
-      qualifications:
-        - MOA-1
-    - tree_id: 4
-      tree_order: 0
-      next_tree_id: null
-      question_text: 你是執行長或總經理嗎？
-      qualifications: []
-    - tree_id: 4
-      tree_order: 1
-      next_tree_id: null
-      question_text: 你經營一家金融機構嗎？
-      qualifications:
-        - MOF-4
-    - tree_id: 4
-      tree_order: 2
-      next_tree_id: null
-      question_text: 你在臺設立研發中心、營運總部、跨國公司嗎？
-      qualifications:
-        - MOEA-2
-    - tree_id: 4
-      tree_order: 3
-      next_tree_id: ""
-      question_text: 你有經營電影、廣播電視、流行音樂領域組織等相關領域五年以上嗎？
-      qualifications:
-        - MOC-IV2
-    - tree_id: 5
-      tree_order: 0
-      next_tree_id: null
-      question_text: 你任職於金融相關產業嗎？
-      qualifications: []
-    - tree_id: 5
-      tree_order: 1
-      next_tree_id: null
-      question_text: 你有CFA,CFP, FRM, CIIA, CIA, PRM, FSA, FCAS, FIA, FIAA,
-        SEI-KAIIN等相關重要國際性金融證照嗎？
-      qualifications:
-        - MOF-2
-    - tree_id: 5
-      tree_order: 2
-      next_tree_id: null
-      question_text: 你是金融監督管理委員會、所屬周邊單位及金融相關公(協)會的推薦者嗎？
-      qualifications:
-        - MOF-3
-    - tree_id: 5
-      tree_order: 3
-      next_tree_id: null
-      question_text: 你對台灣金融產業具貢獻潛力者？
-      qualifications:
-        - MOF-6
-    - tree_id: 5
-      tree_order: 4
-      next_tree_id: ""
-      question_text: 你在金融科技或或其他金融創新領域有5年的經驗嗎？
-      qualifications:
-        - MOF-5
-    - tree_id: 6
-      tree_order: 0
-      next_tree_id: null
-      question_text: 你有博士學位嗎？
-      qualifications: []
-    - tree_id: 6
-      tree_order: 1
-      next_tree_id: null
-      question_text: 你畢業於世界排名前兩百的大學嗎？
-      qualifications:
-        - MOE-1
-    - tree_id: 6
-      tree_order: 2
-      next_tree_id: null
-      question_text: 你是在科技領域產業？你有相關工作經驗4年以上？
-      qualifications:
-        - MOST-7
-    - tree_id: 6
-      tree_order: 3
-      next_tree_id: null
-      question_text: 你的專長是科技領域且為台灣國內所欠缺的？
-      qualifications:
-        - MOST-9
-    - tree_id: 6
-      tree_order: 4
-      next_tree_id: null
-      question_text: 你獲得過國際獎項，在其領域有4年以上工作經驗並發表了相關專利或期刊論文？
-      qualifications:
-        - MOEA-3
-    - tree_id: 6
-      tree_order: 5
-      next_tree_id: 7
-      question_text: 你的博士學位是與出版業相關並獲得國際間重要獎項？
-      qualifications:
-        - MOC-III3
-    - tree_id: 7
-      tree_order: 0
-      next_tree_id: null
-      question_text: 你是老師或者研究員嗎？
-      qualifications: []
-    - tree_id: 7
-      tree_order: 1
-      next_tree_id: null
-      question_text: 你過去五年內在排名前500的大學當教授或研究員並且有教學研究工作五年以上的工作經驗？
-      qualifications:
-        - MOE-2
-    - tree_id: 7
-      tree_order: 2
-      next_tree_id: null
-      question_text: 你是否曾經獲得台灣玉山(青年)學者補助嗎？
-      qualifications:
-        - MOE-3
-    - tree_id: 7
-      tree_order: 3
-      next_tree_id: null
-      question_text: 你在政府機關文化藝術部門擔任研究相關職務嗎？
-      qualifications:
-        - MOC-VI1
-    - tree_id: 7
-      tree_order: 4
-      next_tree_id: 8
-      question_text: 你是出版或相關大眾傳播科系的大學教授嗎？
-      qualifications:
-        - MOC-II2
-    - tree_id: 8
-      tree_order: 0
-      next_tree_id: null
-      question_text: 你在科技相關領域工作嗎？
-      qualifications: []
-    - tree_id: 8
-      tree_order: 1
-      next_tree_id: null
-      question_text: 你獲得諾貝爾獎或者其他國際獎項嗎？
-      qualifications:
-        - MOST-4
-    - tree_id: 8
-      tree_order: 2
-      next_tree_id: null
-      question_text: 你在職稱頭銜為國家科學院院士、國家院士級學者或同等職稱？
-      qualifications:
-        - MOST-5
-    - tree_id: 8
-      tree_order: 3
-      next_tree_id: null
-      question_text: 你近3年的研究在學術上有重要貢獻或重要專門著作並為國際所推崇？
-      qualifications:
-        - MOST-6
-    - tree_id: 8
-      tree_order: 4
-      next_tree_id: null
-      question_text: 你在在人工智慧、物聯網、擴增實境、區塊鏈、虛擬實境、機器人、積層製造等前瞻科技上具有獨到才能？
-      qualifications:
-        - MOST-3
-    - tree_id: 8
-      tree_order: 5
-      next_tree_id: null
-      question_text: 你在軟體技術、光電技術、材料應用技術、高精密感測技、生物科技、能源節約及尖端基礎研究、國防及軍事戰略具有獨到才能？
-      qualifications:
-        - MOST-2
-    - tree_id: 8
-      tree_order: 7
-      next_tree_id: 9
-      question_text: 你的專業領域為台灣所欠缺或少見的？
-      qualifications:
-        - MOST-8
-        - MOST-13
-    - tree_id: 9
-      tree_order: 0
-      next_tree_id: null
-      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
-      qualifications:
-        - MOEA-1
-    - tree_id: 9
-      tree_order: 2
-      next_tree_id: null
-      question_text: 你有超過5年以上的教學經驗嗎？
-      qualifications:
-        - MOE-4
-    - tree_id: 9
-      tree_order: 3
-      next_tree_id: null
-      question_text: 你在金融相關領域工作嗎？
-      qualifications:
-        - MOF-1
-    - tree_id: 9
-      tree_order: 4
-      next_tree_id: null
-      question_text: 你在科技相關領域工作嗎？
-      qualifications:
-        - MOST-1
-    - tree_id: 10
-      tree_order: 1
-      next_tree_id: null
-      question_text: 你在國際組織或政府組織中擔任重要職位嗎？
-      qualifications:
-        - MOC-I1
-        - MOC-II1
-        - MOC-VI1
-    - tree_id: 10
-      tree_order: 0
-      next_tree_id: null
-      question_text: 你是藝術家、出版商或文化行政人員嗎？
-      qualifications: []
-    - tree_id: 10
-      tree_order: 2
-      next_tree_id: null
-      question_text: 你為舉辦國際大型重要活動之主要或重要成員嗎？
-      qualifications:
-        - MOC-I2
-        - MOC-II2
-        - MOC-III5
-    - tree_id: 10
-      tree_order: 3
-      next_tree_id: null
-      question_text: 你獲得過重大的國家或國際獎項？
-      qualifications:
-        - MOC-I3
-        - MOC-II3
-        - MOC-III4
-        - MOC-IV1
-        - MOC-V1
-    - tree_id: 10
-      tree_order: 4
-      next_tree_id: null
-      question_text: 你為國際權威性媒體、出版社主編或高階主管、版權經紀人，並從事出版或大眾傳播工作經驗十年以上？
-      qualifications:
-        - MOC-III1
-    - tree_id: 10
-      tree_order: 5
-      next_tree_id: null
-      question_text: 你對電影、廣播電視及流行音樂領域具創見及特殊表現並有超過5年以上的相關工作經驗？
-      qualifications:
-        - MOC-IV3
-    - tree_id: 10
-      tree_order: 6
-      next_tree_id: null
-      question_text: 你是台灣/國際認可之工藝技術保存者嗎？
-      qualifications:
-        - MOC-V2
-    - tree_id: 10
-      tree_order: 7
-      next_tree_id: null
-      question_text: 你在國際藝文非政府組織任職過嗎？
-      qualifications:
-        - MOC-VI2
-    - tree_id: 10
-      tree_order: 8
-      next_tree_id: null
-      question_text: 你的技能為文化部認定的藝術家、出版商或文化行政人員嗎？
-      qualifications:
-        - MOC-I4
-        - MOC-II4
-        - MOC-III6
-        - MOC-IV4
-        - MOC-V3
-        - MOC-VI3
-    - tree_id: 11
-      tree_order: 0
-      next_tree_id: null
-      question_text: 你有超過8年以上的相關經驗？
-      qualifications: []
-    - tree_id: 11
-      tree_order: 1
-      next_tree_id: null
-      question_text: 你在半導體、電子電路設計、系統整合、生技醫材、精密機械、運輸工具、綠色能源或諮詢顧問有相關經驗？
-      qualifications:
-        - MOEA-4
-    - tree_id: 12
-      tree_order: 0
-      next_tree_id: null
-      question_text: 你的專業技能為台灣所欠缺的？
-      qualifications:
-        - MOEA-5
-        - MOST-13
-    - tree_id: 9
-      tree_order: 1
-      next_tree_id: null
-      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
-      qualifications:
-        - MOEA-1
-    - tree_id: 2
-      tree_order: 2
-      next_tree_id: null
-      question_text: 你目前是大學教授或研究員嗎？
-      qualifications:
-        - MOJ-2
-    - tree_id: 2
-      tree_order: 3
-      next_tree_id: null
-      question_text: 你是律師事務所的執行長或在公司擔任法務相關主管職務以上嗎？
-      qualifications:
-        - MOJ-3
-    - tree_id: 2
-      tree_order: 4
-      next_tree_id: null
-      question_text: 你經全國律師聯合會或其所屬地方律師公會推薦嗎？
-      qualifications:
-        - MOJ-4
-    - tree_id: 4
-      tree_order: 4
-      question_text: 你經營一家新創公司並並成功IPO嗎？
-      qualifications:
-        - MOST-10
-    - tree_id: 4
-      tree_order: 5
-      question_text: 你經營的新創公司是否以超過500萬美元的價格被收購？
-      qualifications:
-        - MOST-11
-    - tree_id: 4
-      tree_order: 6
-      next_tree_id: 9
-      question_text: 你是一位有實績之創投公司或基金之高階主管？
-      qualifications:
-        - MOST-12
-    - tree_id: 5
-      tree_order: 5
-      next_tree_id: 9
-      question_text: 你是一位有實績之創投公司或基金之高階主管？
-      qualifications:
-        - MOST-12
-    - tree_id: 8
-      tree_order: 6
-      question_text: 你是新創公司研發團隊核心技術人員，曾幫助IPO或者公司以超過500萬美元的價格被收購？
-      qualifications:
-        - MOST-10
-        - MOST-11
 en:
   items:
     - tree_id: 1
@@ -419,7 +53,7 @@ en:
     - tree_id: 4
       tree_order: 0
       next_tree_id: null
-      question_text: Are you an Executive or GM?
+      question_text: Are you an Executive, GM or VC?
       qualifications: []
     - tree_id: 4
       tree_order: 1
@@ -672,7 +306,7 @@ en:
       qualifications:
         - MOC-VI2
     - tree_id: 10
-      tree_order: 8
+      tree_order: 10
       next_tree_id: null
       question_text: Will the Ministry of Culture validate your skills as an artist,
         publisher or administrator?
@@ -683,6 +317,7 @@ en:
         - MOC-IV4
         - MOC-V3
         - MOC-VI3
+        - MOC-VII4
     - tree_id: 11
       tree_order: 0
       next_tree_id: null
@@ -737,12 +372,14 @@ en:
       question_text: Was a startup you ran acquired for more than USD 5 million?
       qualifications:
         - MOST-11
+        - MOCVII2
     - tree_id: 4
       tree_order: 6
       next_tree_id: 9
       question_text: Are you a VC or fund executive with a solid track record?
       qualifications:
         - MOST-12
+        - MOCVII3
     - tree_id: 5
       tree_order: 5
       next_tree_id: 9
@@ -756,3 +393,396 @@ en:
       qualifications:
         - MOST-10
         - MOST-11
+    - tree_order: 8
+      question_text: Were you a manager or core R&D team member of a startup that you
+        helped IPO?
+      tree_id: 10
+      qualifications:
+        - MOC-VII1
+    - question_text: Were you a manager or core R&D team member of a startup that was
+        acquired for >3M USD?
+      tree_id: 10
+      tree_order: 9
+      qualifications:
+        - MOC-VII2
+zh:
+  items:
+    - tree_id: 1
+      tree_order: 0
+      next_tree_id: null
+      question_text: 你是運動員、教練、或者裁判嗎？
+      qualifications: []
+    - tree_id: 1
+      tree_order: 1
+      next_tree_id: null
+      question_text: 你曾在奧運得過前三名，或者亞運、世界錦標賽的第一名呢？
+      qualifications:
+        - MOS-1
+    - tree_id: 1
+      tree_order: 2
+      next_tree_id: null
+      question_text: 你曾任國家代表隊教練並教導選手得到奧運前三名，或者亞運、世界錦標賽的第一名呢？
+      qualifications:
+        - MOS-2
+    - tree_id: 1
+      tree_order: 3
+      next_tree_id: 9
+      question_text: 你曾在奧運、亞運或同等級比賽上當過裁判嗎？
+      qualifications:
+        - MOS-3
+    - tree_id: 2
+      tree_order: 0
+      next_tree_id: null
+      question_text: 你是律師嗎？
+      qualifications: []
+    - tree_id: 2
+      tree_order: 1
+      next_tree_id: 9
+      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
+      qualifications:
+        - MOJ-1
+    - tree_id: 3
+      tree_order: 0
+      next_tree_id: null
+      question_text: 你是建築師嗎？
+      qualifications: []
+    - tree_id: 3
+      tree_order: 1
+      next_tree_id: 9
+      question_text: 你是否有建築師執照，或於建築師事務所、建築設計公司服務年資五年以上具設計或監造專案執行經驗，並且最近月薪達新臺幣十六萬元？
+      qualifications:
+        - MOA-1
+    - tree_id: 4
+      tree_order: 0
+      next_tree_id: null
+      question_text: 你是執行長或總經理或VC嗎？
+      qualifications: []
+    - tree_id: 4
+      tree_order: 1
+      next_tree_id: null
+      question_text: 你經營一家金融機構嗎？
+      qualifications:
+        - MOF-4
+    - tree_id: 4
+      tree_order: 2
+      next_tree_id: null
+      question_text: 你在臺設立研發中心、營運總部、跨國公司嗎？
+      qualifications:
+        - MOEA-2
+    - tree_id: 4
+      tree_order: 3
+      next_tree_id: ""
+      question_text: 你有經營電影、廣播電視、流行音樂領域組織等相關領域五年以上嗎？
+      qualifications:
+        - MOC-IV2
+    - tree_id: 5
+      tree_order: 0
+      next_tree_id: null
+      question_text: 你任職於金融相關產業嗎？
+      qualifications: []
+    - tree_id: 5
+      tree_order: 1
+      next_tree_id: null
+      question_text: 你有CFA,CFP, FRM, CIIA, CIA, PRM, FSA, FCAS, FIA, FIAA,
+        SEI-KAIIN等相關重要國際性金融證照嗎？
+      qualifications:
+        - MOF-2
+    - tree_id: 5
+      tree_order: 2
+      next_tree_id: null
+      question_text: 你是金融監督管理委員會、所屬周邊單位及金融相關公(協)會的推薦者嗎？
+      qualifications:
+        - MOF-3
+    - tree_id: 5
+      tree_order: 3
+      next_tree_id: null
+      question_text: 你對台灣金融產業具貢獻潛力者？
+      qualifications:
+        - MOF-6
+    - tree_id: 5
+      tree_order: 4
+      next_tree_id: ""
+      question_text: 你在金融科技或或其他金融創新領域有5年的經驗嗎？
+      qualifications:
+        - MOF-5
+    - tree_id: 6
+      tree_order: 0
+      next_tree_id: null
+      question_text: 你有博士學位嗎？
+      qualifications: []
+    - tree_id: 6
+      tree_order: 1
+      next_tree_id: null
+      question_text: 你畢業於世界排名前兩百的大學嗎？
+      qualifications:
+        - MOE-1
+    - tree_id: 6
+      tree_order: 2
+      next_tree_id: null
+      question_text: 你是在科技領域產業？你有相關工作經驗4年以上？
+      qualifications:
+        - MOST-7
+    - tree_id: 6
+      tree_order: 3
+      next_tree_id: null
+      question_text: 你的專長是科技領域且為台灣國內所欠缺的？
+      qualifications:
+        - MOST-9
+    - tree_id: 6
+      tree_order: 4
+      next_tree_id: null
+      question_text: 你獲得過國際獎項，在其領域有4年以上工作經驗並發表了相關專利或期刊論文？
+      qualifications:
+        - MOEA-3
+    - tree_id: 6
+      tree_order: 5
+      next_tree_id: 7
+      question_text: 你的博士學位是與出版業相關並獲得國際間重要獎項？
+      qualifications:
+        - MOC-III3
+    - tree_id: 7
+      tree_order: 0
+      next_tree_id: null
+      question_text: 你是老師或者研究員嗎？
+      qualifications: []
+    - tree_id: 7
+      tree_order: 1
+      next_tree_id: null
+      question_text: 你過去五年內在排名前500的大學當教授或研究員並且有教學研究工作五年以上的工作經驗？
+      qualifications:
+        - MOE-2
+    - tree_id: 7
+      tree_order: 2
+      next_tree_id: null
+      question_text: 你是否曾經獲得台灣玉山(青年)學者補助嗎？
+      qualifications:
+        - MOE-3
+    - tree_id: 7
+      tree_order: 3
+      next_tree_id: null
+      question_text: 你在政府機關文化藝術部門擔任研究相關職務嗎？
+      qualifications:
+        - MOC-VI1
+    - tree_id: 7
+      tree_order: 4
+      next_tree_id: 8
+      question_text: 你是出版或相關大眾傳播科系的大學教授嗎？
+      qualifications:
+        - MOC-II2
+    - tree_id: 8
+      tree_order: 0
+      next_tree_id: null
+      question_text: 你在科技相關領域工作嗎？
+      qualifications: []
+    - tree_id: 8
+      tree_order: 1
+      next_tree_id: null
+      question_text: 你獲得諾貝爾獎或者其他國際獎項嗎？
+      qualifications:
+        - MOST-4
+    - tree_id: 8
+      tree_order: 2
+      next_tree_id: null
+      question_text: 你在職稱頭銜為國家科學院院士、國家院士級學者或同等職稱？
+      qualifications:
+        - MOST-5
+    - tree_id: 8
+      tree_order: 3
+      next_tree_id: null
+      question_text: 你近3年的研究在學術上有重要貢獻或重要專門著作並為國際所推崇？
+      qualifications:
+        - MOST-6
+    - tree_id: 8
+      tree_order: 4
+      next_tree_id: null
+      question_text: 你在在人工智慧、物聯網、擴增實境、區塊鏈、虛擬實境、機器人、積層製造等前瞻科技上具有獨到才能？
+      qualifications:
+        - MOST-3
+    - tree_id: 8
+      tree_order: 5
+      next_tree_id: null
+      question_text: 你在軟體技術、光電技術、材料應用技術、高精密感測技、生物科技、能源節約及尖端基礎研究、國防及軍事戰略具有獨到才能？
+      qualifications:
+        - MOST-2
+    - tree_id: 8
+      tree_order: 7
+      next_tree_id: 9
+      question_text: 你的專業領域為台灣所欠缺或少見的？
+      qualifications:
+        - MOST-8
+        - MOST-13
+    - tree_id: 9
+      tree_order: 0
+      next_tree_id: null
+      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
+      qualifications:
+        - MOEA-1
+    - tree_id: 9
+      tree_order: 2
+      next_tree_id: null
+      question_text: 你有超過5年以上的教學經驗嗎？
+      qualifications:
+        - MOE-4
+    - tree_id: 9
+      tree_order: 3
+      next_tree_id: null
+      question_text: 你在金融相關領域工作嗎？
+      qualifications:
+        - MOF-1
+    - tree_id: 9
+      tree_order: 4
+      next_tree_id: null
+      question_text: 你在科技相關領域工作嗎？
+      qualifications:
+        - MOST-1
+    - tree_id: 10
+      tree_order: 1
+      next_tree_id: null
+      question_text: 你在國際組織或政府組織中擔任重要職位嗎？
+      qualifications:
+        - MOC-I1
+        - MOC-II1
+        - MOC-VI1
+    - tree_id: 10
+      tree_order: 0
+      next_tree_id: null
+      question_text: 你是藝術家、出版商或文化行政人員嗎？
+      qualifications: []
+    - tree_id: 10
+      tree_order: 2
+      next_tree_id: null
+      question_text: 你為舉辦國際大型重要活動之主要或重要成員嗎？
+      qualifications:
+        - MOC-I2
+        - MOC-II2
+        - MOC-III5
+    - tree_id: 10
+      tree_order: 3
+      next_tree_id: null
+      question_text: 你獲得過重大的國家或國際獎項？
+      qualifications:
+        - MOC-I3
+        - MOC-II3
+        - MOC-III4
+        - MOC-IV1
+        - MOC-V1
+    - tree_id: 10
+      tree_order: 4
+      next_tree_id: null
+      question_text: 你為國際權威性媒體、出版社主編或高階主管、版權經紀人，並從事出版或大眾傳播工作經驗十年以上？
+      qualifications:
+        - MOC-III1
+    - tree_id: 10
+      tree_order: 5
+      next_tree_id: null
+      question_text: 你對電影、廣播電視及流行音樂領域具創見及特殊表現並有超過5年以上的相關工作經驗？
+      qualifications:
+        - MOC-IV3
+    - tree_id: 10
+      tree_order: 6
+      next_tree_id: null
+      question_text: 你是台灣/國際認可之工藝技術保存者嗎？
+      qualifications:
+        - MOC-V2
+    - tree_id: 10
+      tree_order: 7
+      next_tree_id: null
+      question_text: 你在國際藝文非政府組織任職過嗎？
+      qualifications:
+        - MOC-VI2
+    - tree_id: 10
+      tree_order: 10
+      next_tree_id: null
+      question_text: 你的技能為文化部認定的藝術家、出版商或文化行政人員嗎？
+      qualifications:
+        - MOC-I4
+        - MOC-II4
+        - MOC-III6
+        - MOC-IV4
+        - MOC-V3
+        - MOC-VI3
+        - MOC-VII4
+    - tree_id: 11
+      tree_order: 0
+      next_tree_id: null
+      question_text: 你有超過8年以上的相關經驗？
+      qualifications: []
+    - tree_id: 11
+      tree_order: 1
+      next_tree_id: null
+      question_text: 你在半導體、電子電路設計、系統整合、生技醫材、精密機械、運輸工具、綠色能源或諮詢顧問有相關經驗？
+      qualifications:
+        - MOEA-4
+    - tree_id: 12
+      tree_order: 0
+      next_tree_id: null
+      question_text: 你的專業技能為台灣所欠缺的？
+      qualifications:
+        - MOEA-5
+        - MOST-13
+    - tree_id: 9
+      tree_order: 1
+      next_tree_id: null
+      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
+      qualifications:
+        - MOEA-1
+    - tree_id: 2
+      tree_order: 2
+      next_tree_id: null
+      question_text: 你目前是大學教授或研究員嗎？
+      qualifications:
+        - MOJ-2
+    - tree_id: 2
+      tree_order: 3
+      next_tree_id: null
+      question_text: 你是律師事務所的執行長或在公司擔任法務相關主管職務以上嗎？
+      qualifications:
+        - MOJ-3
+    - tree_id: 2
+      tree_order: 4
+      next_tree_id: null
+      question_text: 你經全國律師聯合會或其所屬地方律師公會推薦嗎？
+      qualifications:
+        - MOJ-4
+    - tree_id: 4
+      tree_order: 4
+      question_text: 你經營一家新創公司並並成功IPO嗎？
+      qualifications:
+        - MOST-10
+    - tree_id: 4
+      tree_order: 5
+      question_text: 你經營的新創公司是否以超過500萬美元的價格被收購？
+      qualifications:
+        - MOST-11
+        - MOCVII2
+    - tree_id: 4
+      tree_order: 6
+      next_tree_id: 9
+      question_text: 你是一位有實績之創投公司或基金之高階主管？
+      qualifications:
+        - MOST-12
+        - MOCVII3
+    - tree_id: 5
+      tree_order: 5
+      next_tree_id: 9
+      question_text: 你是一位有實績之創投公司或基金之高階主管？
+      qualifications:
+        - MOST-12
+    - tree_id: 8
+      tree_order: 6
+      question_text: 你是新創公司研發團隊核心技術人員，曾幫助IPO或者公司以超過500萬美元的價格被收購？
+      qualifications:
+        - MOST-10
+        - MOST-11
+    - question_text: Were you a manager or core R&D team member of a startup that you
+        helped IPO?
+      tree_id: 10
+      tree_order: 8
+      qualifications:
+        - MOC-VII1
+    - question_text: Were you a manager or core R&D team member of a startup that was
+        acquired for >3M USD?
+      tree_id: 10
+      tree_order: 9
+      qualifications:
+        - MOC-VII2
