@@ -8,6 +8,8 @@ topic: eventsnews
 draft: false
 hidden: false
 chatbot: false
+categories:
+  - Gold Card Policy
 style: right
 ---
 In order to attract foreign special professionals, the Ministry of Culture has amended its regulations for the “Foreign Special Professionals Possessing Special Expertise in Culture & Arts”.

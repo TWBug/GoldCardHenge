@@ -6,6 +6,8 @@ topic: eventsnews
 draft: false
 hidden: false
 chatbot: false
+categories:
+  - Gold Card Policy
 style: right
 ---
 為延攬優秀外國特定專業人才，文化部放寬外國特定專業人才具有文化藝術領域特殊專長，修正重點包括：
