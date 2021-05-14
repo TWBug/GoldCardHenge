@@ -278,13 +278,19 @@ zh:
       qualifications:
         - MOC-V2
     - tree_id: 10
+      tree_order: 9
+      question_text: 你有取得工藝類相關之重要專利權並經主管機關認定者或獲得國內外政府同意補助、合作等之企業研發計畫嗎？
+      qualifications:
+        - MOC-V3
+        - MOC-V4
+    - tree_id: 10
       tree_order: 7
       next_tree_id: null
       question_text: 你在國際藝文非政府組織任職過嗎？
       qualifications:
         - MOC-VI2
     - tree_id: 10
-      tree_order: 10
+      tree_order: 8
       next_tree_id: null
       question_text: 你的技能為文化部認定的藝術家、出版商或文化行政人員嗎？
       qualifications:
@@ -784,3 +790,10 @@ en:
       tree_order: 9
       qualifications:
         - MOC-VII2
+    - tree_id: 10
+      tree_order: 9
+      qualifications:
+        - MOC-V3
+        - MOC-V4
+      question_text: Have you obtained an important handicraft patent or have
+        cooperated with the government of Taiwan or another country?
