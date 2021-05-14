@@ -147,12 +147,12 @@ b. Definition of top executive: An individual who has served as department head 
 
 ### 5. Handicraft
 
-{{< accordion title="Previously awarded in nationally or internationally recognized competition relevant handicraft." suffix="1." bottomless="true" >}}
+{{< accordion title="Previously awarded in nationally or internationally recognized competition relevant to handicraft." suffix="1." bottomless="true" >}}
 
 * Nationally or internationally recognized competitions: Talente Munich; ITAMI International Craft Exhibition; International Ceramics Competition Mino, Japan; Faenza Prize; Cheongju International Craft Biennale; and other competitions acknowledged of by the MOC.
 {{< /accordion >}}
 
-{{< accordion title="Previously recognized as preserver handicraft techniques by nationally or internationally recognized organization or foreign government." suffix="2." bottomless="true" >}}
+{{< accordion title="Previously recognized as preserver of handicraft techniques by nationally or internationally recognized organization or foreign government" suffix="2." bottomless="true" >}}
 
 * Nationally or internationally recognized organization: The World Crafts Council, UNESCO, or other international organizations, as well as organizations acknowledged of by the MOC.
 {{< /accordion >}}
