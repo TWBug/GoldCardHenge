@@ -12,4 +12,4 @@ style: right
 ---
 # 2019 Employment Gold Card Issuance Status
 
-![2019 Employment Gold Card Data](/cms-uploads/2019-employment-gold-card-issuance-status.jpg)
+![2019 Employment Gold Card Data](/cms-uploads/2019-employment-gold-card-issuance-status-eng.jpg)
