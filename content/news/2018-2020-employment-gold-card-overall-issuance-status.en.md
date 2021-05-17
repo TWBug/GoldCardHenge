@@ -12,4 +12,4 @@ style: right
 ---
 # 2018-2020 Employment Gold Card Overall Issuance Status
 
-![2018-2020 Employment Gold Card Overall Issuance Status](/cms-uploads/2018-2020-employment-gold-card-overall-issuance-status.jpg)
+![2018-2020 Employment Gold Card Overall Issuance Status](/cms-uploads/2018-2020-employment-gold-card-overall-issuance-status-eng.jpg)
