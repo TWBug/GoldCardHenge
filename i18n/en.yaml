@@ -331,7 +331,7 @@
   translation: Discover Taiwan
 - id: industry-information
   translation: Industry information
-- id: Public-Statistics
+- id: public-statistics
   translation: Public Statistics
 - id: other
   translation: Other
@@ -339,6 +339,10 @@
   translation: Gold Card Policy
 - id: announcement
   translation: Announcement
+- id: familiy
+  translation: Familiy
+- id: hong-kong-macau-residents
+  translation: Hong Kong / Macau Residents
 - id: about
   translation: About
 - id: super
