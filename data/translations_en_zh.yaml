@@ -332,8 +332,8 @@ en:
       translation: Gold Card Policy
     - id: announcement
       translation: Announcement
-    - id: familiy
-      translation: Familiy
+    - id: family
+      translation: Family
     - id: hong-kong-macau-residents
       translation: Hong Kong / Macau Residents
     - id: about
@@ -775,7 +775,7 @@ zh:
       translation: 金卡政策相關
     - id: announcement
       translation: 公告
-    - id: familiy
+    - id: family
       translation: 家庭
     - id: hong-kong-macau-residents
       translation: 港澳專區
