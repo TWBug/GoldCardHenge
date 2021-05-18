@@ -1,5 +1,6 @@
 ---
 title: COVID-19 Announcement
+summary: COVID-19 Announcement
 date: 2021-05-18T08:47:34.396Z
 topic: eventsnews
 draft: false
