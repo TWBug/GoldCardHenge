@@ -227,8 +227,8 @@
                 © {{ now.Format "2006"}} - {{ i18n "footer_copyright" }}
                 {{ $accessibility := resources.Get "/img/accessibility-test-result-passed-certificate.png" }}
             </p>
-            <a href="https://accessibility.ncc.gov.tw/Applications/Detail?category=20210414105711" class="w-28 m-2" title="{{ print (i18n "open_in_new_window") ": " (i18n "footer_accessibility_link") }}" target="_blank">
-                <img src="{{ $accessibility.RelPermalink }}" class="w-full" alt="{{ i18n "footer_accessibility_logo" }}" />
+            <a href="https://accessibility.ncc.gov.tw/Applications/Detail?category=20210414105711" class="m-2" title="{{ print (i18n "open_in_new_window") ": " (i18n "footer_accessibility_link") }}" target="_blank">
+                <img src="{{ $accessibility.RelPermalink }}" alt="{{ i18n "footer_accessibility_logo" }}" />
             </a>
         </div>
     </div>
