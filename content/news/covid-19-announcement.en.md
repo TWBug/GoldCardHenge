@@ -18,4 +18,6 @@ The announcement of Bureau of Consular Affairs please refer to: <https://www.boc
 
 Gold Card holders (including those with the Resident Authorization Certificate) can still enter Taiwan. Entry will be suspended for individuals holding Visitor Visa's or Resident Visa's. Foreign nationals who must enter Taiwan for emergency situations (i.e. attending a funeral or visiting a critically ill family member) must receive special permission from the CECC before applying for a special entry permit visa from the Taiwan Overseas Office in their home country. Please note that the suspension of entry into Taiwan will begin from May 19 and last until June 18.
 
-[](https://www.immigration.gov.tw/5385/7445/211420/229781/211422/216338/)
+Please refer Restrictions of Entering Taiwan for more information: <https://www.immigration.gov.tw/5475/5478/6928/6940/212474/263530/>
+
+[](https://www.immigration.gov.tw/5475/5478/6928/6940/212474/263530/)[](https://www.immigration.gov.tw/5385/7445/211420/229781/211422/216338/)
