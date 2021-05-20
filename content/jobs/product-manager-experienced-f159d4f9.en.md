@@ -10,7 +10,7 @@ date: 2018-06-05T17:56:54.355Z
 company_name: PicCollage 拼貼趣
 company_page_url: 'https://www.cakeresume.com/companies/PicCollage'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--GXCe09RR--/c_pad,fl_png8,h_200,w_200/v1516267311/page__logo_1482125639.png
+  https://media.cakeresume.com/image/upload/s--eN_eANFY--/c_pad,fl_png8,h_200,w_200/v1621493162/xqrmjh6pbfnn4asectnl.png
 salary_text: TWD1000000 - TWD1800000
 salary_currency: TWD
 salary_type: per_year
