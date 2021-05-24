@@ -4,4 +4,4 @@ draft: false
 tags:
   - Application
 ---
-No, You can leave it blank and update it online once you confirm your address in Taiwan.
+If you do not have a Taiwanese address yet, you can leave this question blank and update it online once you confirm your address in Taiwan.
