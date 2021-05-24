@@ -14,6 +14,6 @@ publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
 ---
-In order to qualify for an Employment Gold Card your skills must be related to one of eight areas: Science and Technology, Economics, Education, Culture and Art, Sport, Finance, Law and Architecture. You must select which single ministry is most relevant, and in most cases also select a specific entry in the list of that qualifications in that particular area for your application.
+In order to qualify for an Employment Gold Card, your skills must be related to one of eight fields: Science and Technology, Economics, Education, Culture and Art, Sport, Finance, Law, or Architecture. You must select which ministry is most relevant, and in most cases, also select a specific qualification in that particular area for your application.
 
-You could use [Gold Card Qualification Check](/en/apply/step-1/) to check your qualification.
+Feel free to use our [Gold Card Qualification Check](/en/apply/step-1/) to check your qualification.
