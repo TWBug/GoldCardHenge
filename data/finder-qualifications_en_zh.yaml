@@ -724,42 +724,46 @@ en:
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-law/
       notes: ""
       weight: 90
+      provide: >-
+        **The applicant needs to provide the license of a ROC attorney or the
+        permit of a ROC foreign legal affairs attorney**
+
+
+        * Previously or currently holding a position in a foreign state or in ROC with a most recent monthly salary of at least NT$160,000.
     - ministry: MOJ
       regulation_no: 2
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-law/
       info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
+      provide: >-
+        **The applicant needs to provide the license of a ROC attorney or the
+        permit of a ROC foreign legal affairs attorney**
 
-        ☑ evidence of your past or current position outside Taiwan as a university professor, or as a research fellow of a research institution. Associate or assistant professor or fellow titles are acceptable.
 
-        -and-
-
-        ☑ a copy of your ROC foreign legal affairs attorney license
-
-        -or-
-
-        ☑ a copy of your ROC attorney license
+        * Previously or currently holding a position outside ROC as a chair professor, professor, associate professor or assistant professor of a university, or as a research fellow, associate research fellow or assistant research fellow of a research institution.
+      notes: ""
       weight: 30
     - ministry: MOJ
       regulation_no: 3
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-law/
       info: ""
-      provide: ""
-      notes: |-
-        Please prepare:
-        ☑ evidence of your law-related executive position
-        -and-
-        ☑ a copy of your ROC foreign legal affairs attorney license
-        -or-
-        ☑ a copy of your ROC attorney license
+      provide: >-
+        **The applicant needs to provide the license of a ROC attorney or the
+        permit of a ROC foreign legal affairs attorney**
+
+
+        * Holding a law related executive position or above in a law firm or corporation.
+      notes: ""
       weight: 30
     - ministry: MOJ
       regulation_no: 4
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-law/
       info: ""
-      provide: ""
+      provide: >-
+        **The applicant needs to provide the license of a ROC attorney or the
+        permit of a ROC foreign legal affairs attorney**
+
+
+        * Having been recommended by the National Bar Association or the local bar association to which the attorney belongs.
       notes: ""
       weight: 10
     - ministry: MOST
@@ -1509,42 +1513,38 @@ zh:
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-law/
       notes: ""
       weight: 90
+      provide: |-
+        **申請人需為我國律師或外國法事務律師**
+
+        * 薪資證明文件
     - ministry: MOJ
       regulation_no: 2
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-law/
       info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
+      provide: |-
+        **申請人需為我國律師或外國法事務律師**
 
-        ☑ evidence of your past or current position outside Taiwan as a university professor, or as a research fellow of a research institution. Associate or assistant professor or fellow titles are acceptable.
-
-        -and-
-
-        ☑ a copy of your ROC foreign legal affairs attorney license
-
-        -or-
-
-        ☑ a copy of your ROC attorney license
+        * 大學或研究機構出具之證明文件
+      notes: ""
       weight: 30
     - ministry: MOJ
       regulation_no: 3
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-law/
       info: ""
-      provide: ""
-      notes: |-
-        Please prepare:
-        ☑ evidence of your law-related executive position
-        -and-
-        ☑ a copy of your ROC foreign legal affairs attorney license
-        -or-
-        ☑ a copy of your ROC attorney license
+      provide: |-
+        **申請人需為我國律師或外國法事務律師**
+
+        * 律師事務所或公司出具之證明文件
+      notes: ""
       weight: 30
     - ministry: MOJ
       regulation_no: 4
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-law/
       info: ""
-      provide: ""
+      provide: |-
+        **申請人需為我國律師或外國法事務律師**
+
+        * 全國律師聯合會或其所屬地方律師公會出具之推 薦文件
       notes: ""
       weight: 10
     - link: https://goldcard.nat.gov.tw/zh/qualification/field-of-science-technology/
@@ -1653,7 +1653,7 @@ zh:
           * 投資我國政府相關計畫之新創或事業達60萬美元之創投公司或基金之高階主管。
 
         **（註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。）**
-    - notes: ⚠ 若要以此資格條件申請，申請前請先與金卡辦公室確認。
+    - notes: ""
       weight: 17
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
       ministry: MOC
@@ -1662,3 +1662,4 @@ zh:
         應全部檢附
 
         * 相關證明文件。
+      info: ⚠ 若要以此資格條件申請，申請前請先與金卡辦公室確認。
