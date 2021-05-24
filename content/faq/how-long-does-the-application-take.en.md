@@ -14,5 +14,6 @@ publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
 ---
+A perfect application takes at least 30 days, if your supporting documents are accepted the first time. If you are asked to provide additional supporting documents, expect 50-60 days.
 
-A perfect application takes 30 days, if your supporting documents are accepted the first time around. If you are asked for tweaks to your supporting documents, expect 50-60 days.
+\*Note: Due to the pandemic, expect your application process to take at minimum 60 days.
