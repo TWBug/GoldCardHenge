@@ -14,5 +14,4 @@ publishDate: 2020-11-04T06:52:19.195Z
 cover_image_alt: null
 category: null
 ---
-
-No. Some industries have a category where applicants with a salary greater than NT$160,000 qualify. However, this is only one category. To date, none of the categories other than the dedicated salary category have financial requirements. If you have skills, please consider applying regardless of salary!
+You do not need to have a high salary. Some fields have a criteria where applicants with a salary greater than NT$160,000 qualify, however, this is only one criteria. To date, other than the dedicated salary criteria, no other criteria has financial requirements.
