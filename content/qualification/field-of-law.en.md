@@ -26,7 +26,7 @@ The applicant needs to provide the license of a ROC attorney or the permit of a 
 {{< /accordion >}}
 
 {{< accordion title="Holding a law related executive position or above in a law firm or corporation." suffix="3." bottomless="true" >}}
-* Holding a law related executive position or above in a law firm or corporation
+* Holding a law related executive position or above in a law firm or corporation.
 {{< /accordion >}}
 
 {{< accordion title="Having been recommended by the National Bar Association or the local bar association to which the attorney belongs." suffix="4." bottomless="true" >}}
