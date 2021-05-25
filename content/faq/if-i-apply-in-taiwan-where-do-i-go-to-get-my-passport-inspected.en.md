@@ -4,6 +4,6 @@ draft: false
 tags:
   - Application
 ---
-如果您在台灣申請，您可以在外交部領事事務局(領務局)做護照查驗。請至外國專業人才申辦窗口平臺下載繳驗護照通知單並攜帶您的護照至所選取的領務局繳驗護照。
+If you apply in Taiwan, you need to get your passport inspected at the Bureau of Consular Affairs (BOCA). Please download a copy of the Passport Submission Notice from the Downloads area in the Application Portal and present that with your passport. 
 
-領務局上班時間為周一至周五8:30-17:00，領務局的地址與聯絡方式請參考以下連結: <https://www.boca.gov.tw/lp-105-1.html>
+BOCA is open Monday to Friday from 08:30 to 17:00, please refer to the link to find the BOCA office: <https://www.boca.gov.tw/lp-191-2.html>
