@@ -4,12 +4,6 @@ draft: false
 tags:
   - Application
 ---
-If you’re getting your passport inspected at Taipei’s Bureau of Consular Affairs (BOCA)/Ministry of Foreign Affairs (MOFA) Office, here is a quick how-to:
+如果您在台灣申請，您可以在外交部領事事務局(領務局)做護照查驗。請至外國專業人才申辦窗口平臺下載繳驗護照通知單並攜帶您的護照至所選取的領務局繳驗護照。
 
-BOCA is open Monday to Friday from 08:30 to 17:00. It is located a few blocks from Shandao Temple Station, Exit 2. Enter the big pink building and go directly up the escalators to level 3.
-
-On level 3, ignore the ticket machine immediately in front of you and turn right and right again to get to the “Authentication” area.
-
-In the middle of the area, around counter 30, grab a ticket (if there is a problem, ask for help at the end counter - counter 28).
-
-Go to the designated counter when your number is up, surrender your passport and online application document, provide any details on upcoming travel, and receive your receipt.
+領務局上班時間為周一至周五8:30-17:00，領務局的地址與聯絡方式請參考以下連結: <https://www.boca.gov.tw/lp-105-1.html>
