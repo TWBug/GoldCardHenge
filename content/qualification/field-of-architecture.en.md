@@ -12,7 +12,7 @@ topic: goldcard
 ## Must meet **ALL** the following requirements:
 
 {{< accordion title="With a foreign or ROC’s architect’s license, or possessing at least five years of design or supervise building construction matters experience in architectural firms or offices." suffix="1." bottomless="true" >}}
-* Documents verifying a foreign or ROC’s architect’s license, or documents verifying the salary or income tax payment relating to employment at design or supervise building construction matters experience in architectural firms or offices for 5 or more years. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+* Documents verifying a foreign or ROC’s architect’s license, or documents verifying the salary or income tax payment relating to employment at design or supervise building construction matters experience in architectural firms or offices for 5 or more years. **Proof of work experience is a Certificate of Employment with your full name, company's name, position, actual duration of employment, and company's stamp, seal, or signature.**
 {{< /accordion >}}
 
 {{< accordion title="Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000." suffix="2." bottomless="true" >}}
