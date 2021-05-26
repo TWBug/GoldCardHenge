@@ -440,6 +440,8 @@ zh:
       translation: 即時諮詢的服務時間為：台灣時間 周一至周五 10:00-18:00
     - id: test_translation
       translation: 這是測試翻譯
+    - id: app_developer
+      translation: App 開發
 en:
   items:
     - id: powered_by
@@ -895,3 +897,5 @@ en:
         6 PM local time."
     - id: test_translation
       translation: This is a test translation
+    - id: app_developer
+      translation: App Developer
