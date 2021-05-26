@@ -11,8 +11,7 @@ topic: goldcard
 ## 需符合下列條件**之一**：
 
 {{< accordion title="畢業於國際學術機構QS世界大學排名(QS World University Rankings)或泰晤士高等教育世界大學排名(Times Higher Education World University Rankings)發布最新一年之世界大學排行前二百名之大學校院，且持有該校博士學位之畢業證書。" suffix="1." bottomless="true" >}}
-
-* 國際學術機構QS世界大學排名(QS World University Rankings)或泰晤士高等教育世界大學排名(Times Higher Education World University Rankings)發布最 新一年之世界大學排行前二百名大學校院之博士學位證書
+* 國際學術機構QS世界大學排名(QS World University Rankings)或泰晤士高等教育世界大學排名(Times Higher Education World University Rankings)發布最新一年之世界大學排行前二百名大學校院之博士學位證書。
 {{< /accordion >}}
 
 {{< accordion title="近五年內曾服務於國際學術機構QS世界大學排名(QS World University Rankings)或泰晤士高等教育世界大學排名(Times Higher Education World University Rankings)發布最新一年之世界大學排行前五百名之大學校院，並從事教學研究工作五年以上。" suffix="2." bottomless="true" >}}
