@@ -355,7 +355,7 @@ zh:
     - id: designer
       translation: 設計師
     - id: devops
-      translation: DevOps
+      translation: 開發維運
     - id: frontend
       translation: Frontend developer
     - id: mechanical-engineer
@@ -811,7 +811,7 @@ en:
     - id: designer
       translation: Designer
     - id: devops
-      translation: DevOps
+      translation: Dev Ops
     - id: frontend
       translation: Frontend developer
     - id: mechanical-engineer
