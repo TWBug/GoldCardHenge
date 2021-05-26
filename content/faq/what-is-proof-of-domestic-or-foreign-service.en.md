@@ -5,3 +5,5 @@ tags:
   - Application
 ---
 If you are required to attach proof of domestic or foreign service, you will have to provide a Certificate of Employment with your full name, company's name, position, actual duration of employment, and company's stamp, seal, or signature. You may refer to the samples below.
+
+{{< file-download title="Proof of Service.pdf" path="/cms-uploads/proof-of-service.pdf.pdf" >}}
