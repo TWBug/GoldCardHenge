@@ -26,5 +26,5 @@ topic: goldcard
 {{< /accordion >}}
 
 {{< accordion title="經全國律師聯合會或其所屬地方律師公會推薦者。" suffix="4." bottomless="true" >}}
-* 全國律師聯合會或其所屬地方律師公會出具之推 薦文件
+* 全國律師聯合會或其所屬地方律師公會出具之推薦文件
 {{< /accordion >}}
