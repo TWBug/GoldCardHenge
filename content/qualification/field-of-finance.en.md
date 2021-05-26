@@ -13,7 +13,7 @@ topic: goldcard
 ## Must meet **ONE** of the following requirements:
 
 {{< accordion title="Previously or currently holding a position in a foreign state or in the R.O.C. with a most recent monthly salary of at least NT$160,000." suffix="1." bottomless="true" >}}
-* Based on proof of applicant’s salary in the financial industry. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+* Based on proof of applicant’s salary in the financial industry. **Proof of work experience is a Certificate of Employment with your full name, company's name, position, actual duration of employment, and company's stamp, seal, or signature.**
 
   * Applicants shall provide documents verifying their work experiences in the financial industry and supporting documents of the company’s registration in the financial sector from the country’s financial supervisory authority (e.g., Publicly available information on the authority’s website)
 {{< /accordion >}}
@@ -32,13 +32,11 @@ topic: goldcard
 {{< /accordion >}}
 
 {{< accordion title="A present or former chairman, general manager, director, supervisor, or important senior executive of a financial institution." suffix="4." bottomless="true" >}}
-
-* Applicants shall provide proof of employment; “important senior executive” refers to those who have held a position of manager level or above for a total of five years in financial institutions.
+* Applicants shall provide proof of employment; “important senior executive” refers to those who have held a position of manager level or above for a total of five years in financial institutions. **Proof of work experience is a Certificate of Employment with your full name, company's name, position, actual duration of employment, and company's stamp, seal, or signature.**
 {{< /accordion >}}
 
 {{< accordion title="A financial professional needed by the government to promote a key industry (such as financial technology, e-commerce, digital economy, technology management, and green energy technology, etc.)." suffix="5." bottomless="true" >}}
-
-* Applicants shall provide documentary proof of holding a financial position in a key industry for a total of three years, and describing concrete achievements beneficial to the development of the industry. 
+* Applicants shall provide documentary proof of holding a financial position in a key industry for a total of three years, and describing concrete achievements beneficial to the development of the industry. **Proof of work experience is a Certificate of Employment with your full name, company's name, position, actual duration of employment, and company's stamp, seal, or signature.**
 {{< /accordion >}}
 
 {{< accordion title="Other potential contributors to the country’s financial industry." suffix="6." bottomless="true" >}}
