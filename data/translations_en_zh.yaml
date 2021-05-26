@@ -442,6 +442,8 @@ zh:
       translation: 這是測試翻譯
     - id: enterprise_architecture
       translation: 企業架構
+    - id: app_developer
+      translation: App 開發
 en:
   items:
     - id: powered_by
@@ -899,3 +901,5 @@ en:
       translation: This is a test translation
     - id: enterprise_architecture
       translation: Enterprise Architecture
+    - id: app_developer
+      translation: App Developer
