@@ -13,14 +13,11 @@ topic: goldcard
 ## Must meet **ONE** of the following requirements:
 
 {{< accordion title="Previously or currently holding a position in a foreign state or in the R.O.C. with a most recent monthly salary of at least NT$160,000." suffix="1." bottomless="true" >}}
-* Based on proof of applicant’s salary in the financial industry. **Proof of work experience is a Certificate of Employment with your full name, company's name, position, actual duration of employment, and company's stamp, seal, or signature.**
-
-  * Applicants shall provide documents verifying their work experiences in the financial industry and supporting documents of the company’s registration in the financial sector from the country’s financial supervisory authority (e.g., Publicly available information on the authority’s website)
+* Based on proof of applicant’s salary in the financial industry. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.** Applicants shall provide documents verifying their work experiences in the financial industry and supporting documents of the company’s registration in the financial sector from the country’s financial supervisory authority (e.g., Publicly available information on the authority’s website)
 {{< /accordion >}}
 
 {{< accordion title="Those who have served in a professional position in a financial institution, and have outstanding professional ability or cross-border experience much-needed by the country." suffix="2." bottomless="true" >}}
-
-* Applicants shall provide documentary proof of holding a managerial position in domestic or foreign financial institutions for a total of three years, and holding relevant important international financial certificates, such as CFA(Chartered Financial Analyst)、CFP(Certified Financial Planner)、FRM(Financial Risk Manager)、CIIA(Certified International Investment Analysts)、CIA(Certified Internal Auditor)、PRM(Professional Risk Manager)、FSA (Fellow of the Society of Actuaries)、FCAS (Fellow of the Casualty Actuarial Society)、FIA (Fellow of the Institute and Faculty of Actuaries)、FIAA (Fellow of the Institute of Actuaries of Australia)、SEI-KAIIN (Fellow of the Institute of Actuaries of Japan), etc.
+* Applicants shall provide documentary proof of holding a managerial position in domestic or foreign financial institutions for a total of three years, and holding relevant important international financial certificates, such as CFA(Chartered Financial Analyst)、CFP(Certified Financial Planner)、FRM(Financial Risk Manager)、CIIA(Certified International Investment Analysts)、CIA(Certified Internal Auditor)、PRM(Professional Risk Manager)、FSA (Fellow of the Society of Actuaries)、FCAS (Fellow of the Casualty Actuarial Society)、FIA (Fellow of the Institute and Faculty of Actuaries)、FIAA (Fellow of the Institute of Actuaries of Australia)、SEI-KAIIN (Fellow of the Institute of Actuaries of Japan), etc. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Those who are recommended by the Financial Supervisory Commission (FSC), and a relevant financial peripheral institution or association." suffix="3." bottomless="true" >}}
@@ -32,11 +29,11 @@ topic: goldcard
 {{< /accordion >}}
 
 {{< accordion title="A present or former chairman, general manager, director, supervisor, or important senior executive of a financial institution." suffix="4." bottomless="true" >}}
-* Applicants shall provide proof of employment; “important senior executive” refers to those who have held a position of manager level or above for a total of five years in financial institutions. **Proof of work experience is a Certificate of Employment with your full name, company's name, position, actual duration of employment, and company's stamp, seal, or signature.**
+* Applicants shall provide proof of employment; “important senior executive” refers to those who have held a position of manager level or above for a total of five years in financial institutions. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="A financial professional needed by the government to promote a key industry (such as financial technology, e-commerce, digital economy, technology management, and green energy technology, etc.)." suffix="5." bottomless="true" >}}
-* Applicants shall provide documentary proof of holding a financial position in a key industry for a total of three years, and describing concrete achievements beneficial to the development of the industry. **Proof of work experience is a Certificate of Employment with your full name, company's name, position, actual duration of employment, and company's stamp, seal, or signature.**
+* Applicants shall provide documentary proof of holding a financial position in a key industry for a total of three years, and describing concrete achievements beneficial to the development of the industry. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Other potential contributors to the country’s financial industry." suffix="6." bottomless="true" >}}
