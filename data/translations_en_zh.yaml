@@ -363,19 +363,19 @@ zh:
     - id: project-manager
       translation: 專案經理
     - id: software-architecture
-      translation: 軟件架構
+      translation: 軟體架構
     - id: software
-      translation: 軟件
+      translation: 軟體
     - id: industrial-engineer
       translation: 工業工程師
     - id: cloud-computing
       translation: 雲計算
     - id: iot-solution
-      translation: IOT 解
+      translation: IOT
     - id: marketing-international
-      translation: 國際營銷
+      translation: 國際行銷
     - id: cyber-security
-      translation: 網絡安全
+      translation: 網路安全
     - id: semiconductor
       translation: 半導體
     - id: finance
