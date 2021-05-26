@@ -25,7 +25,7 @@ cover_image_alt: Test alt
 Please attach all of the following documents:
 
 * Documents verifying salary or income tax payment relating to employment at a technology company or in a technological field [Note 1](#note-1)
-* Personal curriculum vitae and document verifying domestic or foreign service relating to employment at a technology company or in a technological field. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+* Personal curriculum vitae and document verifying domestic or foreign service relating to employment at a technology company or in a technological field. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Those with unique talents or outstanding R&D ability or innovation performances…" suffix="2." bottomless="true" >}}
@@ -134,30 +134,32 @@ Please attach all of the following documents:
 
 {{< accordion title="Those who have been a senior executive or core research & development personnel that has led an overseas startup company to IPO." suffix="10." bottomless="true" >}}
 Please attach both of the following documents:
-- Media coverage or other supporting information of the startup company being listed as a public traded company in a foreign stock exchange.
-- Proof of employment or resignation of the senior executive being a unit supervisor in the startup company; or proof of employment of a core research & development personnel in the startup company.
+
+* Media coverage or other supporting information of the startup company being listed as a public traded company in a foreign stock exchange.
+* Proof of employment or resignation of the senior executive being a unit supervisor in the startup company; or proof of employment of a core research & development personnel in the startup company. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Those who have been a senior executive or core research & development personnel who has successfully led an overseas startup company to be merged or acquired by other company." suffix="11." bottomless="true" >}}
 Please attach both of the following documents:
-- Media coverage or other supporting information of the startup company being merged or acquired with USD 5,000,000.
-- Proof of employment or resignation of the senior executive serving as a unit supervisor or any higher hierarchy in the startup company; or proof of employment of the core research & development personnel in the startup company.
+
+* Media coverage or other supporting information of the startup company being merged or acquired with USD 5,000,000.
+* Proof of employment or resignation of the senior executive serving as a unit supervisor or any higher hierarchy in the startup company; or proof of employment of the core research & development personnel in the startup company. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Those who have been a senior executive of a venture capital firm or a fund, who has investment performance in an overseas startup company or a startup company that is supported by any of the Ministry of Science of Technology (MOST) programs." suffix="12." bottomless="true" >}}
 Please select either 12.1 or 12.2, and attach required for the selected item:
 
-- 12.1. Please attach either one or both of the following documents:
-    - Proof of employment or resignation of the senior executive of a venture capital firm or a fund that has USD 5,000,000 investment in a non-Taiwanese startup company/team.
-    - Proof of employment or resignation of the senior executive of a venture capital firm or a fund that has USD 1,000,000 investment in a startup company / team, affiliated to any program of MOST 
+* 12.1. Please attach either one or both of the following documents:
 
-- 12.2. Please attach the following document:
-    - Proof of employment or resignation of the senior executive serving as a unit supervisor or any higher hierarchy in the startup company.
+  * Proof of employment or resignation of the senior executive of a venture capital firm or a fund that has USD 5,000,000 investment in a non-Taiwanese startup company/team. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+  * Proof of employment or resignation of the senior executive of a venture capital firm or a fund that has USD 1,000,000 investment in a startup company / team, affiliated to any program of MOST. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.** 
+* 12.2. Please attach the following document:
 
+  * Proof of employment or resignation of the senior executive serving as a unit supervisor or any higher hierarchy in the startup company. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Other potential contributors to Taiwan’s science and technology fields." suffix="13." bottomless="true" >}}
-Document explaining the applicant's expertise or experience (such as a domestic or foreign certificate of academic attainment, or proof of work experience, academic research, technological expertise, technology transfer, or receipt of awards, etc.).
+* Document explaining the applicant's expertise or experience (such as a domestic or foreign certificate of academic attainment, or proof of work experience, academic research, technological expertise, technology transfer, or receipt of awards, etc.).
 {{< /accordion >}}
 
 ## Notes:
@@ -170,22 +172,22 @@ Document explaining the applicant's expertise or experience (such as a domestic 
 {{< /note >}}
 
 {{< note title="2.1a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="2.2a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="3.1a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="3.2a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
@@ -195,36 +197,36 @@ Document explaining the applicant's expertise or experience (such as a domestic 
 {{< /note >}}
 
 {{< note title="6.1a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="6.2a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="7.1a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least four years.
 {{< /note >}}
 
 {{< note title="7.2a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="8.1a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="8.2a" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
 
 {{< note title="9" >}}
-* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Documents should include the stamp, seal, or signature of (the representative of) the entity by which the paper was issued.**
+* Verifying documents must consist of proof of service or proof of resignation made out by the employing organization; an employment notice (offering letter) does not constitute formal proof of service. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 * When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least three years.
 {{< /note >}}
