@@ -147,15 +147,15 @@ Please attach both of the following documents:
 {{< /accordion >}}
 
 {{< accordion title="Those who have been a senior executive of a venture capital firm or a fund, who has investment performance in an overseas startup company or a startup company that is supported by any of the Ministry of Science of Technology (MOST) programs." suffix="12." bottomless="true" >}}
-Please select either 12.1 or 12.2, and attach required for the selected item:
+Please select either 12.1 or 12.2, and attach required for the selected item:**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 
 * 12.1. Please attach either one or both of the following documents:
 
-  * Proof of employment or resignation of the senior executive of a venture capital firm or a fund that has USD 5,000,000 investment in a non-Taiwanese startup company/team. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
-  * Proof of employment or resignation of the senior executive of a venture capital firm or a fund that has USD 1,000,000 investment in a startup company / team, affiliated to any program of MOST. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.** 
+  * Proof of employment or resignation of the senior executive of a venture capital firm or a fund that has USD 5,000,000 investment in a non-Taiwanese startup company/team. 
+  * Proof of employment or resignation of the senior executive of a venture capital firm or a fund that has USD 1,000,000 investment in a startup company / team, affiliated to any program of MOST. 
 * 12.2. Please attach the following document:
 
-  * Proof of employment or resignation of the senior executive serving as a unit supervisor or any higher hierarchy in the startup company. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+  * Proof of employment or resignation of the senior executive serving as a unit supervisor or any higher hierarchy in the startup company.
 {{< /accordion >}}
 
 {{< accordion title="Other potential contributors to Taiwan’s science and technology fields." suffix="13." bottomless="true" >}}
