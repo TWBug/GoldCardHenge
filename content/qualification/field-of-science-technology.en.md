@@ -22,9 +22,11 @@ cover_image_alt: Test alt
 ## Must meet **ONE** of the following requirements:
 
 {{< accordion title="Applicant previously or currently holding a position at a technology company or in technological fields...with a most recent monthly salary of at least NTD 160,000." suffix="1." bottomless="true" >}}
+**Applicant previously or currently holding a position at a technology company or in technological fields in a foreign state or in the Republic of China (hereafter referred to as“Taiwan”) with a most recent monthly salary of at least NTD 160,000.**
+
 Please attach all of the following documents:
 
-* Documents verifying salary or income tax payment relating to employment at a technology company or in a technological field [Note 1](#note-1)
+* Documents verifying salary or income tax payment relating to employment at a technology company or in a technological field. [Note 1](#note-1)
 * Personal curriculum vitae and document verifying domestic or foreign service relating to employment at a technology company or in a technological field. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
@@ -146,8 +148,10 @@ Please attach both of the following documents:
 * Proof of employment or resignation of the senior executive serving as a unit supervisor or any higher hierarchy in the startup company; or proof of employment of the core research & development personnel in the startup company. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
-{{< accordion title="Those who have been a senior executive of a venture capital firm or a fund, who has investment performance in an overseas startup company or a startup company that is supported by any of the Ministry of Science of Technology (MOST) programs." suffix="12." bottomless="true" >}}
-Please select either 12.1 or 12.2, and attach required for the selected item:**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+{{< accordion title="Those who have been a senior executive of a venture capital firm or a fund, who has investment performance in an overseas startup company or a startup company..." suffix="12." bottomless="true" >}}
+**Those who have been a senior executive of a venture capital firm or a fund, who has investment performance in an overseas startup company or a startup company that is supported by any of the Ministry of Science of Technology (MOST) programs.**
+
+Please select either 12.1 or 12.2, and attach required for the selected item: **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 
 * 12.1. Please attach either one or both of the following documents:
 
