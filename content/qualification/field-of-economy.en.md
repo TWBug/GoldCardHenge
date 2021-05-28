@@ -15,7 +15,7 @@ topic: goldcard
 ## Must meet **ONE** of the following conditions:
 
 {{< accordion title="Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000." suffix="1." bottomless="true" >}}
-* Documents verifying salary or income tax payment relating to employment at an economic company or in an economic field. (please provide ONE of the following).
+* Documents verifying salary or income tax payment relating to employment at an economic company or in an economic field. (Please provide ONE of the following).
 
   * A tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
   * The employment contract of intended future employment in the ROC.
