@@ -32,7 +32,7 @@ b. Important capacity or key member: Defined as a manager, assistant manager, as
 {{< accordion title="Previously receiving internationally or domestically recognized award, or serving in judge panel of abovementioned award." suffix="3." bottomless="true" >}}
 * Domestic and foreign recognition contest winning records or as domestic and foreign accredited competition review.
 
-a. Recognized award: Awards granted by an important international arts organization, wherein the number of competitors or nations competing reaches a threshold of significance, or where the award is one is of a sufficient caliber, or is otherwise a major international performing arts award. Examples include the Tony Award(US),  National Dance Award(UK), and International Tchaikovsky Competition award(RU), as well as any award that has been reviewed and approved of by the MOC.
+a. Recognized award: Awards granted by an important international arts organization, wherein the number of competitors or nations competing reaches a threshold of significance, or where the award is one is of a sufficient caliber, or is otherwise a major international performing arts award. Examples include the Tony Award(US), National Dance Award(UK), and International Tchaikovsky Competition award(RU), as well as any award that has been reviewed and approved of by the MOC.
 {{< /accordion >}}
 
 {{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="4." bottomless="true" >}}
@@ -43,7 +43,7 @@ a. Recognized award: Awards granted by an important international arts organizat
 ### 2. Visual Arts
 
 {{< accordion title="Previously serving as member of international arts organization, or assuming post of significant capacity in governmental agency or private organization related to culture and arts." suffix="1." bottomless="true" >}}
-* As a member of an international arts organization or as a member of a government agency or civil organizations related to culture and arts.**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* As a member of an international arts organization or as a member of a government agency or civil organizations related to culture and arts. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 
 a. International arts organization: This indicates a foundation, association, company, group, or unit whose mission concerns culture and the arts. Examples include the National Endowment for the Arts, European Fine Art Fair, Affordable Art Fair, MCH Swiss Exhibition (Basel) Ltd., and the Association of International Photography Art Dealers or other organization reviewed and approved of by the MOC.
 
@@ -56,7 +56,7 @@ b. Important capacity or key member: Defined as a manager, assistant manager, as
 a. International arts event:
 
 1. Expositions: Art Taipei; Art Basel Hong Kong; Art Stage Singapore; Art Basel Miami Beach; Art Basel and other exhibitions reviewed and approved of by the MOC.
-2. Biennial festivals: La Biennale di Venezia; Berlin Biennale for Contemporary Art;  European Biennial of Contemporary Art; Shanghai Biennial; Biennale of Sydney; Sao Paulo Art Biennial; Whitney Biennial; Costa Rica Biennale; Gwangju Biennale; International Istanbul Biennial; and other such festivals reviewed and approved of by the MOC.
+2. Biennial festivals: La Biennale di Venezia; Berlin Biennale for Contemporary Art; European Biennial of Contemporary Art; Shanghai Biennial; Biennale of Sydney; Sao Paulo Art Biennial; Whitney Biennial; Costa Rica Biennale; Gwangju Biennale; International Istanbul Biennial; and other such festivals reviewed and approved of by the MOC.
 
 b. Important capacity or key member: Defined as a manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director general, responsible person, deputy general director, general director, other similar position, or other individuals reviewed and approved of by the MOC.
 {{< /accordion >}}
@@ -77,13 +77,13 @@ a. Awards granted by major international arts organizations, or where the number
 ### 3. Publishing
 
 {{< accordion title="Currently or previously serving as chief editor or senior manager of major international media or publishing house, or as copyright agent, with at least 10 years’ experience in publishing or mass communications." suffix="1." bottomless="true" >}}
-* Certificates of serving at an authoritative international media or publishing house as chief editor, senior executive or certified copywriter agent , and certificates of work experience in publishing or mass communication for more than a decade.**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* Certificates of serving at an authoritative international media or publishing house as chief editor, senior executive or certified copywriter agent, and certificates of work experience in publishing or mass communication for more than a decade. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 
 a. Authoritative international media: The international print news media or news agency of at least two pages in length and serving a national or global audience of readers. Examples include but not limit to US News and World Report, The New York Times, The Washington Post, The Financial Times, Associated Press, Reuters, L’ Agence France-Press, Time, Life, National Geographic. Yazhou Zhoukan (Hong Kong), and other publications or news agencies acknowledged by the MOC.
 
 b. The publishing houses include but not limit to Penguin Random House, HarperCollins Publishers LLC, or other publishing houses acknowledged by the MOC.
 
-c. Senior managers of  the print media  indicate manager, assistant general manager, deputy general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, deputy director-general, director-general, vice president, president, responsible person, chief editor, deputy managing editor, managing editor, deputy general director, general director, other similar position, or other individuals reviewed and approved of by the MOC.
+c. Senior managers of the print media indicate manager, assistant general manager, deputy general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, deputy director-general, director-general, vice president, president, responsible person, chief editor, deputy managing editor, managing editor, deputy general director, general director, other similar position, or other individuals reviewed and approved of by the MOC.
 {{< /accordion >}}
 
 {{< accordion title="Currently or previously serving as professor at foreign university in publishing or related mass communications disciplines." suffix="2." bottomless="true" >}}
@@ -96,8 +96,7 @@ c. Senior managers of  the print media  indicate manager, assistant general mana
 {{< /accordion >}}
 
 {{< accordion title="Receiving the highest publishing-related honor in the country of origin or comparable international honor." suffix="4." bottomless="true" >}}
-
-* The most highly regarded awards in publishing-related fields in foreign countries or countries.(publishing award shall mean: Nobel Prize; Pulitzer Prize; Man Booker Prize; Prix Goncourt;  National Magazine Awards; Premio Miguel de Cervantes; Premio Planeta de Novela; Naoki Prize; Akutagawa Prize; other awards reviewed and approved of by the MOC.)
+* The most highly regarded awards in publishing-related fields in foreign countries or countries.(publishing award shall mean: Nobel Prize; Pulitzer Prize; Man Booker Prize; Prix Goncourt; National Magazine Awards; Premio Miguel de Cervantes; Premio Planeta de Novela; Naoki Prize; Akutagawa Prize; other awards reviewed and approved of by the MOC.)
 {{< /accordion >}}
 
 {{< accordion title="Serving as curator for major international publishing event." suffix="5." bottomless="true" >}}
