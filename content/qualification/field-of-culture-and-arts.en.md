@@ -118,7 +118,7 @@ c. Senior managers of the print media indicate manager, assistant general manage
 
 {{< accordion title="Previously served as top executive at a medium-sized or larger film, broadcast, or pop music juristic person or organization, and has at least five years’ relevant work experience." suffix="2." bottomless="true" >}}
 * Copy of proof of employment as a top executive at a medium-sized or larger film, broadcast, or pop music juristic person or organization.
-* Copy of proof of five years’ work experience in the fields of film, broadcast, or pop music.**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* Copy of proof of five years’ work experience in the fields of film, broadcast, or pop music. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 
 a. Definition of international medium-size enterprise: A company/organization having subsidiaries/branches in at least two countries, wherein the parent company has effective control or control over policy. The company/organization should engage in transnational production, and the scope of its efforts should include film, broadcast, or pop music. The film, broadcast, or pop music juristic person/ organization should also meet at least one of the following conditions: a) have 50 or more employees; b) regional annual net operating revenue equal to or higher than NT$350 million (includes registered public and private enterprises).
 
@@ -127,7 +127,7 @@ b. Definition of top executive: An individual who has served as department head 
 
 {{< accordion title="Has made special contributions to film, broadcast, or pop music, and has at least five years’ relevant work experience." suffix="3." bottomless="true" >}}
 * Copy of professional certificate, professional training certificate, copyright, thesis, patent or other certification of innovation or outstanding performance from the film, broadcast, or pop music industry; or copy of recommendation or verification from other official organizations such as the United Nations, public agencies of the person’s nation, or foreign representative offices in Taiwan.
-* Copy of proof of five years’ work experience in the fields of film, broadcast, or pop music.**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* Copy of proof of five years’ work experience in the fields of film, broadcast, or pop music. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="4." bottomless="true" >}}
