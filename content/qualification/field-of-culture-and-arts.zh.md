@@ -12,7 +12,7 @@ topic: goldcard
 ### 一、表演藝術類：
 
 {{< accordion title="曾擔任國際藝術組織會員或文化藝術相關之政府機關(構)、民間組織要職者。" suffix="1." bottomless="true" >}}
-* 擔任國際藝術組織會員證明或任職文化藝術相關之政府機關(構)、民間組織證明影本。**國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
+* 擔任國際藝術組織會員證明或任職文化藝術相關之政府機關（構）、民間組織證明影本。**國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
 
 1. 國際藝術組織：國際上以文化藝術為營運宗旨之相關基金會、公協會、公司、團體及單位等，例如：美國戲劇協會、OISTAT國際劇場組織、百老匯聯盟等，或其他經文化部審查認定者。
 2. 要職：經理、協理、副總經理、總經理、副董事長、董事長、副執行長、執行長、副社長、社長、副理事長、理事長、副會長、會長、負責人、副總監、總監等類似位階，或其他經文化部審查認定者。
@@ -39,19 +39,19 @@ topic: goldcard
 ### 二、視覺藝術類：
 
 {{< accordion title="曾擔任國際藝術組織會員或文化藝術相關之政府機關(構)、民間組織要職者。" suffix="1." bottomless="true" >}}
-* 擔任國際藝術組織會員或文化藝術相關政府機關(構)、民間組織要職之證明影本。**國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
+* 擔任國際藝術組織會員或文化藝術相關政府機關（構）、民間組織要職之證明影本。**國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
 
-1. 國際藝術組織：國際上以文化藝術為營運宗旨之基金會、公協會、公司、團體及單位等，例如：美國國家藝術基金會（National Endowment for the Arts，NEA）、歐洲藝術基金會(TEFAF)、比利時布魯塞爾藝術組織(Affordable Art Fair, AAF)、瑞士巴塞爾藝術展覽公司(MCH Swiss Exhibition (Basel)Ltd.)、國際攝影藝術經紀人協會(AIPAD) 等，或其他經文化部審查認定者。
+1. 國際藝術組織：國際上以文化藝術為營運宗旨之基金會、公協會、公司、團體及單位等，例如：美國國家藝術基金會(National Endowment for the Arts，NEA)、歐洲藝術基金會(TEFAF)、比利時布魯塞爾藝術組織(Affordable Art Fair, AAF)、瑞士巴塞爾藝術展覽公司(MCH Swiss Exhibition (Basel)Ltd.)、國際攝影藝術經紀人協會(AIPAD) 等，或其他經文化部審查認定者。
 2. 要職：經理、協理、副總經理、總經理、副董事長、董事長、副執行長、執行長、副社長、社長、副理事長、理事長、副會長、會長、負責人、副總監、總監等類似位階，或其他經文化部審查認定者。
 {{< /accordion >}}
 
 {{< accordion title="現任或曾任辦理國際藝術活動(指標性藝術博覽會、雙年展等藝文活動)之主要或重要成員。" suffix="2." bottomless="true" >}}
-* 擔任辦理國際藝術活動(指標性藝術博覽會、雙年展等藝文活動)成員之證明影本。**國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
+* 擔任辦理國際藝術活動（指標性藝術博覽會、雙年展等藝文活動）成員之證明影本。**國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
 
 a. 國際藝術活動：
 
-1. 博覽會：台北國際藝術博覽會(ART TAIPEI)、香港巴塞爾藝術展(Art Basel HK)、藝術登陸新加坡博覽會(Art Stage Singapore)、邁阿密巴塞爾藝術博覽會(Art Basel Miami Beach)、瑞士巴塞爾藝術博覽會(Art Basel)...等，或其他經文化部審查認定之國際藝術博覽會。
-2. 雙年展：威尼斯藝術雙年展(La Biennale di Venezia)、柏林當代藝術雙年展(Berlin Biennale for Contemporary Art)、歐洲當代藝術雙年展(The European Biennial of Contemporary Art)、上海雙年展(Shanghai Biennial)、雪梨雙年展(Biennale of Sydney)、巴西聖保羅雙年展(Sao Paulo Art Biennial)、惠特尼雙年展(Whitney Biennial)、哥斯大黎加視覺藝術雙年展(Costa Rica Biennale)、韓國光州雙年展(Gwangju Biennale)、土耳其伊斯坦堡雙年展(International Istanbul Biennial)...等，或其他經文化部審查認定之雙年展。
+1. 博覽會：台北國際藝術博覽會(ART TAIPEI)、香港巴塞爾藝術展(Art Basel HK)、藝術登陸新加坡博覽會(Art Stage Singapore)、邁阿密巴塞爾藝術博覽會(Art Basel Miami Beach)、瑞士巴塞爾藝術博覽會(Art Basel)…等，或其他經文化部審查認定之國際藝術博覽會。
+2. 雙年展：威尼斯藝術雙年展(La Biennale di Venezia)、柏林當代藝術雙年展(Berlin Biennale for Contemporary Art)、歐洲當代藝術雙年展(The European Biennial of Contemporary Art)、上海雙年展(Shanghai Biennial)、雪梨雙年展(Biennale of Sydney)、巴西聖保羅雙年展(Sao Paulo Art Biennial)、惠特尼雙年展(Whitney Biennial)、哥斯大黎加視覺藝術雙年展(Costa Rica Biennale)、韓國光州雙年展(Gwangju Biennale)、土耳其伊斯坦堡雙年展(International Istanbul Biennial)…等，或其他經文化部審查認定之雙年展。
 
 b. 主要或重要成員：經理、協理、副總經理、總經理、副董事長、董事長、副執行長、執行長、副社長、社長、副理事長、理事長、副會長、會長、負責人、副總監、總監等類似位階，或其他經文化部審查認定者。
 {{< /accordion >}}
@@ -88,8 +88,7 @@ b. 主要或重要成員：經理、協理、副總經理、總經理、副董�
 {{< /accordion >}}
 
 {{< accordion title="曾於其所屬國或國際獲得出版相關領域之最高獎項。" suffix="4." bottomless="true" >}}
-
-* 於外國人所屬國或國際獲得出版相關領域之最高獎項證明影本。（出版相關獎項：諾貝爾獎(Nobel Prize)、普利茲獎(Pulitzer Prize)、布克獎(Booker Prize)、龔古爾獎(Prix Goncourt)、美國國家雜誌獎（National Magazine Awards）、美國國家圖書獎（National Book Awards）、西班牙塞萬提斯文學獎（Premio Miguel de Cervantes）、行星小說獎(Premio Planeta de Novela)、直木三十五賞、芥川龍之介賞及其他經文化部審查認定具相當資格之獎項）
+* 於外國人所屬國或國際獲得出版相關領域之最高獎項證明影本。（出版相關獎項：諾貝爾獎(Nobel Prize)、普利茲獎(Pulitzer Prize)、布克獎(Booker Prize)、龔古爾獎(Prix Goncourt)、美國國家雜誌獎(National Magazine Awards)、美國國家圖書獎(National Book Awards)、西班牙塞萬提斯文學獎(Premio Miguel de Cervantes)、行星小說獎(Premio Planeta de Novela)、直木三十五賞、芥川龍之介賞及其他經文化部審查認定具相當資格之獎項）
 {{< /accordion >}}
 
 {{< accordion title="曾擔任國際重要出版相關領域之策展人。" suffix="5." bottomless="true" >}}
@@ -105,8 +104,7 @@ b. 主要或重要成員：經理、協理、副總經理、總經理、副董�
 ### 四、影視及流行音樂類：
 
 {{< accordion title="曾獲得我國、申請人所屬國或國際性之電影、廣播電視、流行音樂領域重要獎項。" suffix="1." bottomless="true" >}}
-
-* 曾獲得我國、申請人所屬國或國際性之電影、廣播電視、流行音樂領域重要獎項證明影本，相關獎項包括但不限於以下獎項：金馬獎（Golden Horse Awards）、金穗獎（Golden Harvest Awards for Outstanding Short Films）、臺北電影節（Taipei Film Festival）、高雄電影節（Kaohsiung Film Festival）及臺灣國際紀錄片影展（Taiwan International Documentary Festival）、艾美獎（Emmy Award）、英國電影和電視藝術學院電視獎（the BAFTAs）、韓國首爾國際電視劇獎（SDA）、金球獎（Golden Globe Awards）、金鐘獎（Golden Bell Awards）、紐約廣告節國際電視電影獎（New York Festivals International Television & Film Awards）、英國學術電視獎（British Academy Television Awards）、美國葛萊美獎（Grammy Awards）、英國全英音樂獎（BRIT Awards）、全美音樂獎（American Music Awards）、MTV歐洲音樂獎（MTV Europe Music Awards）、金曲獎（Golden Melody Awards）、NRJ音樂大獎（NRJ Music Awards）、告示牌音樂獎（Billboard Music Awards）、金音創作獎（Golden Indie Music Awards）、日本唱片大賞（日本レコード大賞，Japan Record Awards）、朱諾獎（Juno Awards）、水星音樂獎（Mercury Prize）、金唱片獎（골든디스크어워드，Golden Disc Awards）、本部影視及流行音樂產業局之「電影事業暨電影從業人員參加國際影展獎勵輔導執行要點」附表一所列影展競賽單元獎項及其他經文化部審查認定具相當資格之獎項。
+* 曾獲得我國、申請人所屬國或國際性之電影、廣播電視、流行音樂領域重要獎項證明影本，相關獎項包括但不限於以下獎項：金馬獎(Golden Horse Awards)、金穗獎(Golden Harvest Awards for Outstanding Short Films)、臺北電影節(Taipei Film Festival)、高雄電影節(Kaohsiung Film Festival)及臺灣國際紀錄片影展(Taiwan International Documentary Festival)、艾美獎(Emmy Award)、英國電影和電視藝術學院電視獎(the BAFTAs)、韓國首爾國際電視劇獎(SDA)、金球獎(Golden Globe Awards)、金鐘獎(Golden Bell Awards)、紐約廣告節國際電視電影獎(New York Festivals International Television & Film Awards)、英國學術電視獎(British Academy Television Awards)、美國葛萊美獎(Grammy Awards）、英國全英音樂獎(BRIT Awards)、全美音樂獎(American Music Awards)、MTV歐洲音樂獎(MTV Europe Music Awards)、金曲獎(Golden Melody Awards)、NRJ音樂大獎(NRJ Music Awards)、告示牌音樂獎(Billboard Music Awards）、金音創作獎(Golden Indie Music Awards)、日本唱片大賞(日本レコード大賞，Japan Record Awards)、朱諾獎（Juno Awards）、水星音樂獎(Mercury Prize)、金唱片獎(골든디스크어워드，Golden Disc Awards)、本部影視及流行音樂產業局之「電影事業暨電影從業人員參加國際影展獎勵輔導執行要點」附表一所列影展競賽單元獎項及其他經文化部審查認定具相當資格之獎項。
 {{< /accordion >}}
 
 {{< accordion title="曾任國際中型以上電影、廣播電視、流行音樂法人或機構之高階主管，並具相關領域五年以上工作經驗。" suffix="2." bottomless="true" >}}
@@ -130,8 +128,7 @@ b. 主要或重要成員：經理、協理、副總經理、總經理、副董�
 ### 五、工藝類：
 
 {{< accordion title="曾獲得國內或國際認可競賽之得獎者。" suffix="1." bottomless="true" >}}
-
-* 國內或國際認可競賽獲獎證明影本。（國內或國際認可競賽:德國慕尼黑Talente、日本伊丹國際工藝展 (ITAMI International Craft Exhibition)、日本美濃國際陶藝競賽( The International Ceramics Competition Mino, Japan)、義大利法恩札當代國際陶藝展( Faenza Prize, International Competition of Contemporary Ceramic Art)、韓國清洲國際工藝雙年展(Cheongju International Craft Biennale)等國際性獎項，或其他經主管機關認定者。）
+* 國內或國際認可競賽獲獎證明影本。（國內或國際認可競賽：德國慕尼黑Talente、日本伊丹國際工藝展(ITAMI International Craft Exhibition)、日本美濃國際陶藝競賽(The International Ceramics Competition Mino, Japan)、義大利法恩札當代國際陶藝展((Faenza Prize, International Competition of Contemporary Ceramic Art)、韓國清洲國際工藝雙年展(Cheongju International Craft Biennale)等國際性獎項，或其他經主管機關認定者。）
 {{< /accordion >}}
 
 {{< accordion title="曾受國內或國際認可之組織或其他國家政府認證為工藝技術保存者。" suffix="2." bottomless="true" >}}
@@ -183,7 +180,7 @@ b. 主要或重要成員：經理、協理、副總經理、總經理、副董�
 應全部檢附：
 
 * 其他上市於海外證券交易所之公司，需檢附公司上市之相關新聞或佐證文件。
-* 需檢附公司被上市公司購併交易金額達300萬美元以上之相關新聞或佐證文件。
+* 需檢附公司被上市公司購併交易金額達 300 萬美元以上之相關新聞或佐證文件。
 * 高階主管為該企業單位主管以上之職位，需檢附服務證明或離職證明相關文件。研發團隊核心技術人員需檢附在該公司研發單位任職相關證明。**國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
 
 **註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。**
@@ -194,8 +191,8 @@ b. 主要或重要成員：經理、協理、副總經理、總經理、副董�
 
 * 高階主管為單位主管以上之職位，需檢附服務證明或離職證明相關文件。**國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**應擇一或全部檢附：
 
-  * 投資海外新創或事業達300萬美元以上之創投公司或基金之高階主管。
-  * 投資我國政府相關計畫之新創或事業達60萬美元之創投公司或基金之高階主管。
+  * 投資海外新創或事業達 300 萬美元以上之創投公司或基金之高階主管。
+  * 投資我國政府相關計畫之新創或事業達 60 萬美元之創投公司或基金之高階主管。
 
 **註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。**
 {{< /accordion >}}
