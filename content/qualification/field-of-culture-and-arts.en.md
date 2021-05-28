@@ -30,10 +30,9 @@ b. Important capacity or key member: Defined as a manager, assistant manager, as
 {{< /accordion >}}
 
 {{< accordion title="Previously receiving internationally or domestically recognized award, or serving in judge panel of abovementioned award." suffix="3." bottomless="true" >}}
-
 * Domestic and foreign recognition contest winning records or as domestic and foreign accredited competition review.
 
-a. Recognized award: Awards granted by an important international arts organization, wherein the number of competitors or nations competing reaches a threshold of significance, or where the award is one is of a sufficient caliber, or is otherwise a major international performing arts award. Examples include the  Tony Award(US),  National Dance Award(UK), and  International Tchaikovsky Competition award(RU), as well as any award that has been reviewed and approved of by the MOC.
+a. Recognized award: Awards granted by an important international arts organization, wherein the number of competitors or nations competing reaches a threshold of significance, or where the award is one is of a sufficient caliber, or is otherwise a major international performing arts award. Examples include the Tony Award(US),  National Dance Award(UK), and International Tchaikovsky Competition award(RU), as well as any award that has been reviewed and approved of by the MOC.
 {{< /accordion >}}
 
 {{< accordion title="Other individuals reviewed and validated by the Ministry of Culture." suffix="4." bottomless="true" >}}
