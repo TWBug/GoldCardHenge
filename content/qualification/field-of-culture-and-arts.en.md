@@ -87,7 +87,7 @@ c. Senior managers of the print media indicate manager, assistant general manage
 {{< /accordion >}}
 
 {{< accordion title="Currently or previously serving as professor at foreign university in publishing or related mass communications disciplines." suffix="2." bottomless="true" >}}
-* As a foreign university professor in publishing or mass communications.**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* As a foreign university professor in publishing or mass communications. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Holding doctorate in publishing-related disciplines and receiving international academic prize." suffix="3." bottomless="true" >}}
