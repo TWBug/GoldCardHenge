@@ -163,7 +163,7 @@ b. Definition of top executive: An individual who has served as department head 
 ### 6. Cultural Administration
 
 {{< accordion title="Previously serving in culture and arts department of domestic or foreign government, or culture and arts institutions established by law or as expert or researcher, having culture and arts portfolio with outstanding performance in addition." suffix="1." bottomless="true" >}}
-* Proof of serving for cultural institutions or technological and research bodies related to arts and culture, which are lawfully established nationwide and abroad, together with copies of recommendation letters from the institution.**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* Proof of serving for cultural institutions or technological and research bodies related to arts and culture, which are lawfully established nationwide and abroad, together with copies of recommendation letters from the institution. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Currently or previously serving international non-governmental organization, having culture and arts portfolio with outstanding performance in addition." suffix="2." bottomless="true" >}}
@@ -185,7 +185,7 @@ b. Definition of top executive: An individual who has served as department head 
 Append all of the following:
 
 * News clippings or other supporting documentation concerning the IPO on a foreign exchange.
-* For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation. For core R&D team members, certification of related work on or resignation from this position.**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation. For core R&D team members, certification of related work on or resignation from this position. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 
 **Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.**
 {{< /accordion >}}
@@ -197,7 +197,7 @@ Append all of the following:
 
 * News clippings or other supporting documentation concerning the IPO of other companies on a foreign exchange.
 * News clippings or other documentation concerning the firm’s acquisition at or over US$3 million by a publicly traded company.
-* For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation. For core R&D team members, certification of related work on or resignation from this position.**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation. For core R&D team members, certification of related work on or resignation from this position. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 
 **Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.**
 {{< /accordion >}}
@@ -207,7 +207,7 @@ Append all of the following:
 
 Append all of the following:
 
-* For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation, as well as one or all of the following:**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation, as well as one or all of the following: **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 
   * Managerial experience at a venture capital firm or fund that has invested in innovation or business overseas valued at over US$3 million.
   * Experience as a high-level manager at a venture capital firm or fund investing at least US$600,000 in an innovation or business project in connection with a Taiwan government project.
