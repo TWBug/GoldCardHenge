@@ -62,7 +62,7 @@ a. International arts event:
 b. Important capacity or key member: Defined as a manager, assistant manager, assistant general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, vice president, president, deputy director-general, director general, responsible person, deputy general director, general director, other similar position, or other individuals reviewed and approved of by the MOC.
 {{< /accordion >}}
 
-{{< accordion title="Previously receiving internationally or domestically recognized award, or serving in judge panel of abovementioned awards" suffix="3." bottomless="true" >}}
+{{< accordion title="Previously receiving internationally or domestically recognized award, or serving in judge panel of abovementioned awards." suffix="3." bottomless="true" >}}
 
 * Domestic and foreign recognition contest winning records or as domestic and foreign accredited competition review.
 
@@ -87,11 +87,11 @@ b. The publishing houses include but not limit to Penguin Random House, HarperCo
 c. Senior managers of  the print media  indicate manager, assistant general manager, deputy general manager, general manager, deputy CEO, CEO, deputy executive director, executive director, deputy publisher, publisher, deputy director-general, director-general, vice president, president, responsible person, chief editor, deputy managing editor, managing editor, deputy general director, general director, other similar position, or other individuals reviewed and approved of by the MOC.
 {{< /accordion >}}
 
-{{< accordion title="Currently or previously serving as professor at foreign university in publishing or related mass communications disciplines" suffix="2." bottomless="true" >}}
+{{< accordion title="Currently or previously serving as professor at foreign university in publishing or related mass communications disciplines." suffix="2." bottomless="true" >}}
 * As a foreign university professor in publishing or mass communications.**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
-{{< accordion title="Holding doctorate in publishing-related disciplines and receiving international academic prize" suffix="3." bottomless="true" >}}
+{{< accordion title="Holding doctorate in publishing-related disciplines and receiving international academic prize." suffix="3." bottomless="true" >}}
 
 * Ph.D. in the related fields of publication and a certificate for international academic awards in list of International Academic Research Awards published by Academia Sinica shall.
 {{< /accordion >}}
@@ -144,7 +144,7 @@ b. Definition of top executive: An individual who has served as department head 
 * Nationally or internationally recognized competitions: Talente Munich; ITAMI International Craft Exhibition; International Ceramics Competition Mino, Japan; Faenza Prize; Cheongju International Craft Biennale; and other competitions acknowledged of by the MOC.
 {{< /accordion >}}
 
-{{< accordion title="Previously recognized as preserver of handicraft techniques by nationally or internationally recognized organization or foreign government" suffix="2." bottomless="true" >}}
+{{< accordion title="Previously recognized as preserver of handicraft techniques by nationally or internationally recognized organization or foreign government." suffix="2." bottomless="true" >}}
 
 * Nationally or internationally recognized organization: The World Crafts Council, UNESCO, or other international organizations, as well as organizations acknowledged of by the MOC.
 {{< /accordion >}}
@@ -181,7 +181,9 @@ b. Definition of top executive: An individual who has served as department head 
 
 ### 7. Those with experience in the “new” cultural industries
 
-{{< accordion title="Have experience as a manager or core member of an R&D team that has helped with an IPO of a company in a cultural and creative industry overseen by the Ministry of Culture (including visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content) in another country." suffix="1." bottomless="true" >}}
+{{< accordion title="Have experience as a manager or core member of an R&D team that has helped with an IPO of a company in a cultural and creative industry overseen by the Ministry of Culture … in another country." suffix="1." bottomless="true" >}}
+**Have experience as a manager or core member of an R&D team that has helped with an IPO of a company in a cultural and creative industry overseen by the Ministry of Culture (including visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content) in another country.**
+
 Append all of the following:
 
 * News clippings or other supporting documentation concerning the IPO on a foreign exchange.
@@ -190,7 +192,9 @@ Append all of the following:
 **Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.**
 {{< /accordion >}}
 
-{{< accordion title="Have experience as a high-level manager or core member of an R&D team that has been involved with a merger with a public company in a cultural and creative industry overseen by the Ministry of Culture  (including visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content) in another country." suffix="2." bottomless="true" >}}
+{{< accordion title="Have experience as a high-level manager or core member of an R&D team that has been involved with a merger with a public company in a cultural and creative industry overseen by the Ministry of Culture … in another country." suffix="2." bottomless="true" >}}
+**Have experience as a high-level manager or core member of an R&D team that has been involved with a merger with a public company in a cultural and creative industry overseen by the Ministry of Culture (including visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content) in another country.**
+
 Append all of the following:
 
 * News clippings or other supporting documentation concerning the IPO of other companies on a foreign exchange.
@@ -200,7 +204,9 @@ Append all of the following:
 **Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.**
 {{< /accordion >}}
 
-{{< accordion title="Have experience as a manager of a venture capital company or fund that has invested overseas or has participated in a Taiwan government project in an industry overseen by the Ministry of Culture (including visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content) in another country." suffix="3." bottomless="true" >}}
+{{< accordion title="Have experience as a manager of a venture capital company or fund that has invested overseas or has participated in a Taiwan government project in an industry overseen by the Ministry of Culture … in another country." suffix="3." bottomless="true" >}}
+**Have experience as a manager of a venture capital company or fund that has invested overseas or has participated in a Taiwan government project in an industry overseen by the Ministry of Culture (including visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content) in another country.**
+
 Append all of the following:
 
 * For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation, as well as one or all of the following:**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
