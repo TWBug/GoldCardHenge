@@ -2,8 +2,10 @@
 title: 退補件說明
 date: 2021-01-18T03:13:01.397Z
 summary: 退補件相關說明
-order: 1
 chatbot: true
+order: 1
+previous: /apply/step-3/
+next: /apply/step-3/passport-verification/
 ---
 # 退補件說明
 

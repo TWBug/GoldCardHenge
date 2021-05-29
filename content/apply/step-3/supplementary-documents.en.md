@@ -1,15 +1,15 @@
 ---
 draft: false
 start: false
+title: Supplementary Documents
 date: 2021-01-18T03:13:01.397Z
 summary: Submitting Additional Documents & Rejection
 check: true
-title: Supplementary Documents
+chatbot: true
 order: 1
 topic: goldcard
 previous: /apply/step-3/
 next: /apply/step-3/passport-verification/
-chatbot: true
 ---
 # Supplementary Documents
 
