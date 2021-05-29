@@ -737,6 +737,9 @@ en:
         * First place at the Asian Games in an official sport. 
 
         * First place in a world championships in a sport on the program of the Olympic Games or Asian Games.
+
+          * Supporting document(s) of achievement awarded by host organizer. 
+          * Other relevant supporting document(s).
     - ministry: MOS
       regulation_no: 2
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-sport/
@@ -747,6 +750,9 @@ en:
         * First place at the Asian Games in an official sport. 
 
         * First place in a world championships in a sport on the program of the Olympic Games or Asian Games.
+
+          * Supporting document(s) of achievement awarded by host organizer. 
+          * Other relevant supporting document(s).
       notes: ""
       weight: 90
     - ministry: MOS
@@ -1604,19 +1610,15 @@ zh:
           competitiveness of Taiwan
         - "of your: top 3 finish at the Olympics, 1st place in the Asian Games,
           and/or 1st place in a world championship"
-      notes: >-
-        Please prepare proof:
-
-        ☑ that you are a national team athlete
-
-        ☑ that you possess outstanding skills that will raise the competitiveness of Taiwan
-
-        ☑ of your: top 3 finish at the Olympics, 1st place in the Asian Games, and/or 1st place in a world championship
+      notes: ""
       weight: 90
       provide: |-
-        * 奧林匹克運動會(以下簡稱奧運)正式競賽項目前三名。
-        * 亞洲運動會(以下簡稱亞運)正式競賽項目第一名。
+        * 奧林匹克運動會（以下簡稱奧運）正式競賽項目前三名。
+        * 亞洲運動會（以下簡稱亞運）正式競賽項目第一名。
         * 奧運、亞運運動種類世界錦標賽第一名。
+
+          * 主辦單位頒發之成績證明文件。
+          * 其他相關佐證文件。
     - ministry: MOS
       regulation_no: 2
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-sport/
@@ -1625,20 +1627,18 @@ zh:
         * 奧運正式競賽項目前三名。
         * 亞運正式競賽項目第一名。
         * 奧運、亞運運動種類世界錦標賽第一名。
-      notes: >-
-        Please prepare proof:
 
-        ☑ that you have served as a national team coach
-
-        ☑ that your athletes achieved excellent results and you will help raise the competitiveness of Taiwan
-
-        ☑ of your athlete's accomplishments: top 3 finish at the Olympics, 1st place in the Asian Games, and/or 1st place in a world championship
+          * Supporting document(s) of achievement awarded by host organizer. 
+          * Other relevant supporting document(s).
+      notes: ""
       weight: 90
     - ministry: MOS
       regulation_no: 3
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-sport/
       info: ""
-      provide: ""
+      provide: |-
+        * 主辦單位頒發之成績證明文件。
+        * 其他相關佐證文件。
       notes: ""
       weight: 90
     - ministry: MOF
