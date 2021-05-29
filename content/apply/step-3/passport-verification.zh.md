@@ -11,7 +11,7 @@ topic: goldcard
 previous: /apply/step-3/supplementary-documents/
 next: /apply/step-3/card-collection/
 ---
-# 護照
+# 護照查驗
 
 {{< teaser prefix="" >}}
 境外申請，或是已入境台灣但所持有的簽證有限制停留時間且無法延期或是免簽，需要進行護照查驗。
