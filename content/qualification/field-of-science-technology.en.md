@@ -151,7 +151,7 @@ Please attach both of the following documents:
 {{< accordion title="Those who have been a senior executive of a venture capital firm or a fund, who has investment performance in an overseas startup company or a startup company..." suffix="12." bottomless="true" >}}
 **Those who have been a senior executive of a venture capital firm or a fund, who has investment performance in an overseas startup company or a startup company that is supported by any of the Ministry of Science of Technology (MOST) programs.**
 
-Please select either 12.1 or 12.2, and attach required for the selected item: **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+Please select either 12.1 or 12.2, and attach required for the selected item: 
 
 * 12.1. Please attach either one or both of the following documents:
 
@@ -160,6 +160,8 @@ Please select either 12.1 or 12.2, and attach required for the selected item: **
 * 12.2. Please attach the following document:
 
   * Proof of employment or resignation of the senior executive serving as a unit supervisor or any higher hierarchy in the startup company.
+
+**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Other potential contributors to Taiwan’s science and technology fields." suffix="13." bottomless="true" >}}
