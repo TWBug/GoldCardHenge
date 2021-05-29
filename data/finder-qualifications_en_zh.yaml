@@ -6,11 +6,9 @@ en:
       info: Ministry of Science and Technology does not allow applicants purely based
         on salary, you must also prove your technical skill.
       provide: >-
-        * A tax statement and/or salary statements from your employer to prove
-        your salary was above 160,000NT (eg Australia PAYG payment summary,
-        Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US
-        W-2)
+        * A tax statement and/or salary statements
 
+          * A tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
         * A copy of your CV
 
         * Formal proof of employment, showing experience working at a technology company or in a technological field
@@ -832,15 +830,25 @@ en:
       regulation_no: 1
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-architecture/
       info: ""
-      provide: ""
-      notes: >-
-        Please prepare:
+      provide: >-
+        * Documents verifying a foreign or ROC’s architect’s license, or
+        documents verifying the salary or income tax payment relating to
+        employment at design or supervise building construction matters
+        experience in architectural firms or offices for 5 or more years. 
 
-        ☑ A copy of your architects license
 
-        ☑ Formal proof of employment showing at least 5 years experience designing or supervising construction, or in an architectural firm
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 
-        ☑  a tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
+
+        A tax statement and/or salary statements
+
+
+        * A tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
+
+        * A copy of your CV
+
+        * Basic information about your company
+      notes: ""
       weight: 90
     - ministry: MOE
       regulation_no: 1
@@ -856,12 +864,13 @@ en:
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-education/
       info: ""
       provide: >-
-        Please attach all of the following documents:
+        **Please attach all of the following documents:**
 
 
-        * Evidence of having engaged in teaching and research for five years or more.
+        * A certificate of service as a full-time faculty member or researcher, such service length of which is 5 years or more, shall be presented by the person who has been engaged in teaching and research for more than five years and in the past five years has worked at one of the top 500 universities in the most recent QS World University Rankings or Times Higher Education World University Rankings. 
 
-        * Evidence of having work experience in one of the top 500 universities in the most recent QS World University Rankings or Times Higher Education World University Rankings in the past five years.
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
       notes: ""
       weight: 40
     - ministry: MOE
@@ -879,7 +888,20 @@ en:
       provide: >-
         * Documentary evidence of salary or income tax paid
 
-        * Evidence of having engaged for five years or more in teaching or research or providing professional services based on individual knowledge and expertise.
+        * A  certificate of service as a full-time faculty member, researcher, or administrator, such service length of which is 5 years or more, shall be presented by the person who has held or is currently holding a position at any schools, colleges, universities, or their affiliated units, educational institutions, or research institutions, whether public or private, or engaged in any work listed in the Education Services sector in the Central Product Classification published by the Public Construction Commission of the Executive Yuan. 
+
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+
+
+        A tax statement and/or salary statements
+
+
+        * A tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
+
+        * A copy of your CV
+
+        * Basic information about your company
       notes: ""
       weight: 40
     - ministry: MOJ
@@ -1666,9 +1688,23 @@ zh:
       regulation_no: 1
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-architecture/
       info: ""
-      provide: "*
-        具我國建築師資格、外國建築師資格或於外國建築師事務所(建築設計公司)服務年資五年以上具設計或監造專案執行經驗之建築師證書，或於外國建築師事務所\
-        (建築設計公司)服務具設計或監造專案執行經驗年資5年以上薪資證明或繳稅證明文件"
+      provide: >-
+        *
+        具我國建築師資格、外國建築師資格或於外國建築師事務所（建築設計公司）服務年資五年以上具設計或監造專案執行經驗之建築師證書，或於外國建築師事務所（建築設計公司）服務具設計或監造專案執行經驗年資
+        5 年以上薪資證明或繳稅證明文件。
+
+
+        **國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
+
+
+        薪資證明或繳稅證明文件
+
+
+        * 請提供納稅證明或薪資單，證明平均月薪超過160,000萬（如：澳洲PAYG payment summary、加拿大T4、以色列106表格、俄羅斯2-NDFL、波蘭PIT-11、英國P60、美國W-2）
+
+        * 未來擬於我國受聘僱之聘僱契約書
+
+        * 供完整的履歷、任職證明
       notes: ""
       weight: 90
     - ministry: MOE
@@ -1676,35 +1712,30 @@ zh:
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-education/
       info: ""
       provide: "* 國際學術機構QS世界大學排名(QS World University Rankings)或泰晤士高等教育世界大學排名(Times
-        Higher Education World University Rankings)發布最
-        新一年之世界大學排行前二百名大學校院之博士學位證書"
-      notes: ☑ Please prepare a copy of your doctoral degree, issued by a university
-        in the top 200 of the most recent Times Higher Education World
-        University Rankings or QS World University Rankings.
+        Higher Education World University
+        Rankings)發布最新一年之世界大學排行前二百名大學校院之博士學位證書。"
+      notes: ""
       weight: 70
     - ministry: MOE
       regulation_no: 2
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-education/
       info: ""
       provide: >-
-        請檢附以下資料：
+        **請檢附以下資料：**
 
 
-        * 從事教學研究工作五年以上之服務證明。
+        * 近五年曾服務於國際學術機構QS世界大學排名(QS World University Rankings)或泰晤士高等教育世界大學排名(Times Higher Education World University Rankings)發布最新一年之世界大學排行前五百名大學校院，且從事專任教職或研究員工作年資累計達五年以上之服務證明。
 
-        * 近五年曾服務於國際學術機構QS世界大學排名(QS World University Rankings)或泰晤士高等教育世界大學排名(Times Higher Education World University Rankings)發布最新一年之世界大學排行前五百名大學校院之服務證明。
-      notes: >-
-        ☑ Please prepare evidence of having been engaged in teaching and
-        research for five years or more
 
-        ☑ Please ask your university (from the top 500 of the most recent Times Higher Education World University Rankings or QS World University Rankings) to produce a document proving you worked there in the last five years
+        **國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
+      notes: ""
       weight: 40
     - ministry: MOE
       regulation_no: 3
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-education/
       info: ""
-      provide: "* 教育部核定獲玉山(青年)學者補助之證明文件"
-      notes: ☑ Please prepare proof that you received a Yushan Young Scholar Award
+      provide: "* 教育部核定獲玉山（青年）學者補助之證明文件"
+      notes: ""
       weight: 90
     - ministry: MOE
       regulation_no: 4
@@ -1713,9 +1744,20 @@ zh:
       provide: >-
         * 薪資證明或繳稅證明文件
 
-          * 請提供納稅證明或薪資單，證明平均月薪超過160,000萬（如：澳洲PAYG payment summary、加拿大T4、以色列106表格、俄羅斯2-NDFL、波蘭PIT-11、英國P60、美國W-2）
-          * 未來擬於我國受聘僱之聘僱契約書
-        * 教學、研究或個人專業知能服務五年以上之服務證明
+        * 曾經或現任職於其他國家或我國之公私立學校及附屬單位、教育機關（構）、研究機構或從事符合行政院公共工程委員會公布之中央貨品號列(Central Product Classification)教育服務(Education Services)類工作，且從事專任教職、研究員或行政主管工作年資累計達五年以上之服務證明。
+
+
+        **國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
+
+
+        薪資證明或繳稅證明文件
+
+
+        * 請提供納稅證明或薪資單，證明平均月薪超過160,000萬（如：澳洲PAYG payment summary、加拿大T4、以色列106表格、俄羅斯2-NDFL、波蘭PIT-11、英國P60、美國W-2）
+
+        * 未來擬於我國受聘僱之聘僱契約書
+
+        * 供完整的履歷、任職證明
       notes: ""
       weight: 40
     - ministry: MOJ
