@@ -4,7 +4,7 @@ en:
       regulation_no: 1
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
       info: Ministry of Science and Technology does not allow applicants purely based
-        on salary, you must also prove your technical skill
+        on salary, you must also prove your technical skill.
       provide: >-
         * A tax statement and/or salary statements from your employer to prove
         your salary was above 160,000NT (eg Australia PAYG payment summary,
@@ -14,6 +14,9 @@ en:
         * A copy of your CV
 
         * Formal proof of employment, showing experience working at a technology company or in a technological field
+
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
       notes: ""
       weight: 20
     - ministry: MOST
@@ -34,13 +37,13 @@ en:
 
         * Related academic research during the most recent three years
 
-
-        2.2. Please attach all of the following documents:
-
-
+          2.2. Please attach all of the following documents:
         * Verification of domestic or foreign work experience in a relevant field for three or more years
 
         * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
+
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
       notes: ""
       weight: 30
     - ministry: MOST
@@ -68,6 +71,9 @@ en:
         * Verification of domestic or foreign work experience in a relevant field for three or more years
 
         * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
+
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
       notes: ""
       weight: 30
     - ministry: MOST
@@ -117,6 +123,9 @@ en:
         * Verification of domestic or foreign work experience in a relevant field for three or more years
 
         * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
+
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
       notes: ""
       weight: 30
     - ministry: MOST
@@ -146,6 +155,9 @@ en:
         * Documents verifying domestic or foreign work experience in a relevant field for four or more years
 
         * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
+
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
       notes: ""
       weight: 30
     - ministry: MOST
@@ -173,6 +185,9 @@ en:
         * Verification of domestic or foreign work experience in a relevant field for three or more years
 
         * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
+
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
       notes: ""
       weight: 10
     - ministry: MOST
@@ -188,8 +203,67 @@ en:
         * Verification of domestic or foreign work experience in a relevant field for three or more years
 
         * Documents verifying technology (such as a domestic or foreign patent certificate, etc.), proof of technology transfer (such as a technology transfer contract, etc.) or other proof of expertise (such as academic works, licenses, and documents verifying receipt of awards, etc.).
+
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
       notes: ""
       weight: 30
+    - ministry: MOST
+      regulation_no: 10
+      weight: 25
+      link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
+      provide: >-
+        * Media coverage or other supporting information of the startup company
+        being listed as a public traded company in a foreign stock exchange.
+
+        * Proof of employment or resignation of the senior executive being a unit supervisor in the startup company; or proof of employment of a core research & development personnel in the startup company.
+
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+    - ministry: MOST
+      regulation_no: 11
+      weight: 25
+      link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
+      provide: >-
+        * Media coverage or other supporting information of the startup company
+        being merged or acquired with USD 5,000,000.
+
+        * Proof of employment or resignation of the senior executive serving as a unit supervisor or any higher hierarchy in the startup company; or proof of employment of the core research & development personnel in the startup company.
+
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+    - ministry: MOST
+      regulation_no: 12
+      weight: 10
+      link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
+      info: This criteria was introduced in December 2020. You should consider
+        providing additional documents in the spirit of the qualification
+        criteria due to its recency.
+      notes: ""
+      provide: >-
+        Please select either 12.1 or 12.2, and attach required for the selected
+        item:
+
+
+        * 12.1. Please attach either one or both of the following documents:
+
+          * Proof of employment or resignation of the senior executive of a venture capital firm or a fund that has USD 5,000,000 investment in a non-Taiwanese startup company/team. 
+          * Proof of employment or resignation of the senior executive of a venture capital firm or a fund that has USD 1,000,000 investment in a startup company / team, affiliated to any program of MOST. 
+        * 12.2. Please attach the following document:
+
+          * Proof of employment or resignation of the senior executive serving as a unit supervisor or any higher hierarchy in the startup company.
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+    - ministry: MOST
+      regulation_no: 13
+      weight: 10
+      link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
+      info: ⚠ Contact Gold Card Office for advice before applying under this
+        regulation.
+      provide: "* Document explaining the applicant's expertise or experience (such as
+        a domestic or foreign certificate of academic attainment, or proof of
+        work experience, academic research, technological expertise, technology
+        transfer, or receipt of awards, etc.)."
     - ministry: MOEA
       regulation_no: 1
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-economy/
@@ -766,51 +840,6 @@ en:
         * Having been recommended by the National Bar Association or the local bar association to which the attorney belongs.
       notes: ""
       weight: 10
-    - ministry: MOST
-      regulation_no: 10
-      weight: 25
-      link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
-      provide: >-
-        -  media coverage and other formal documents proving the startup was
-        listed as a public traded company on a stock exchange outside of Taiwan
-
-        - formal proof of employment, showing that you were a senor executive or core technical/research & development personnel of the startup company
-    - ministry: MOST
-      regulation_no: 11
-      weight: 25
-      link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
-      provide: >-
-        -  media coverage and other formal documents proving the startup was
-        merged or acquired for a value greater than 5 million USD
-
-        - formal proof of employment, showing that you were a senior executive (unit supervisor or higher) or core technical/research & development personnel of the startup company
-    - ministry: MOST
-      regulation_no: 12
-      weight: 10
-      link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
-      info: This criteria was introduced in December 2020. You should consider
-        providing additional documents in the spirit of the qualification
-        criteria due to its recency.
-      notes: "Please prepare one or both of the following: ☑  media coverage and other
-        formal documents proving the VC firm or fund has an investment of
-        greater than 5 million USD in a non-Taiwanese company ☑  media coverage
-        and other formal documents proving the VC firm or fund has an investment
-        of greater than 1 million USD in a startup affiliated with a program of
-        the Ministry of Science and Technology  and:  ☑ formal proof of
-        employment, showing that you were a senior executive of the relevant VC
-        firm or fund"
-    - ministry: MOST
-      regulation_no: 13
-      weight: 10
-      link: https://goldcard.nat.gov.tw/en/qualification/field-of-science-technology/
-      info: ⚠ Contact Gold Card Office for advice before applying under this
-        regulation.
-      provide: >-
-        -  several documents detailing your expertise and achievements (eg
-        awards, academic research papers, patent certificates, technology
-        licensing contracts or other proof of technical skill)
-
-        -  a statement on your potential contribution to Taiwan
     - ministry: MOC
       regulation_no: V3
       weight: 15
