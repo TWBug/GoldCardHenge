@@ -1,15 +1,15 @@
 ---
 draft: false
 start: false
-summary: Receiving your Gold Card
-check: true
 title: Card Collection
 date: 2021-01-18T03:13:01.397Z
+summary: Receiving your Gold Card
+check: true
+chatbot: true
 order: 3
 topic: goldcard
 previous: /apply/step-3/passport-verification/
 next: /apply/step-3/welcome-to-the-community/
-chatbot: true
 ---
 
 # Card Collection
