@@ -64,13 +64,16 @@ When the candidate has both domestic and foreign proof of service, either one ma
 {{< accordion title="Those who have held a specialized or interdisciplinary positions at a semiconductors, optoelectronics, information and communication, electronic circuit design, biotechnology/medical materials, precision machinery, transportation, systems integration, consultancy, or green energy company in the manufacturing sector or related technology services sectors, and have more than eight years of work experience in related fields." suffix="4." bottomless="true" >}}
 * Proof of work experience of for at least eight years in relevant fields. Please attach all of the following documents:
 
-  * Verification of domestic or foreign work experience in a relevant field for eight or more years. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+  * Verification of domestic or foreign work experience in a relevant field for eight or more years. 
 
-    Notes:
+**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 
-    1. Verifying documents must consist of proof of service, or proof of resignation made out by the employing organization.
-    2. When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least eight years.
-  * Corporation information during employment, job description (such as project experience, service experience, effectiveness after customer's introduction of solutions, etc.), documents verifying technology or other proof of expertise (such as domestic or foreign patent certificate, a technology transfer contract, academic works, licenses, documents verifying receipt of awards, etc.)
+Notes:
+
+1. Verifying documents must consist of proof of service, or proof of resignation made out by the employing organization.
+2. When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least eight years.
+
+* Corporation information during employment, job description (such as project experience, service experience, effectiveness after customer's introduction of solutions, etc.), documents verifying technology or other proof of expertise (such as domestic or foreign patent certificate, a technology transfer contract, academic works, licenses, documents verifying receipt of awards, etc.)
 {{< /accordion >}}
 
 {{< accordion title="Those who have been certified by the relevant central competent authority as specialized talents possessing professional capacity or transnational experience needed in Taiwan." suffix="5." bottomless="true" >}}
