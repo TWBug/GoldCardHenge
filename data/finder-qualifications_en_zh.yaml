@@ -766,8 +766,10 @@ en:
         * Based on proof of applicant’s salary in the financial industry.
 
           * A tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
-          * The employment contract of intended future employment in the ROC.
-        * Formal proof of employment, showing experience working at a financial company or in the financial industry field.
+          * A copy of your CV
+          * Basic information about your company
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
       notes: ""
       weight: 40
     - ministry: MOF
@@ -780,6 +782,9 @@ en:
         three years
 
         * A copy of your CFA(Chartered Financial Analyst)、CFP(Certified Financial Planner)、FRM(Financial Risk Manager)、CIIA(Certified International Investment Analysts)、CIA(Certified Internal Auditor)、PRM(Professional Risk Manager)、FSA (Fellow of the Society of Actuaries)、FCAS (Fellow of the Casualty Actuarial Society)、FIA (Fellow of the Institute and Faculty of Actuaries)、FIAA (Fellow of the Institute of Actuaries of Australia)、SEI-KAIIN (Fellow of the Institute of Actuaries of Japan), etc.
+
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
       notes: ""
       weight: 50
     - ministry: MOF
@@ -789,17 +794,24 @@ en:
       provide: >-
         * The peripheral institutions or associations are as follows:
 
-          1. Peripheral institutions: Taiwan Academy of Banking and Finance, Joint Credit Information Center, Financial Information Service Co., Ltd., Security and Future Institute, Taiwan Insurance Institute, etc.
-          2. Associations: The Bankers Association of the Republic of China, R.O.C. Bills Finance Association, Trust Association of R.O.C., Taiwan Financial Services Roundtable, The National Federation of Credit Co-operatives R.O.C., Taiwan Securities Association, Chinese National Futures Association, Securities Investments Trust and Consulting Association of the R.O.C., The National Federation of Certified Public Accountants Association of the Republic of China, The Life Insurance Association of the Republic of China, The Non-Life Insurance Association of the R.O.C., Insurance Agency Association of the Republic of China, National Taiwan Association of Insurance Brokering Companies, etc.
+
+        1. Peripheral institutions: Taiwan Academy of Banking and Finance, Joint Credit Information Center, Financial Information Service Co., Ltd., Security and Future Institute, Taiwan Insurance Institute, etc.
+
+        2. Associations: The Bankers Association of the Republic of China, R.O.C. Bills Finance Association, Trust Association of R.O.C., Taiwan
+           Financial Services Roundtable, The National Federation of Credit Co-operatives R.O.C., Taiwan Securities Association, Chinese National Futures Association, Securities Investments Trust and Consulting Association of the R.O.C., The National Federation of Certified Public Accountants Association of the Republic of China, The Life Insurance Association of the Republic of China, The Non-Life Insurance Association of the R.O.C., Insurance Agency Association of the Republic of China, National Taiwan Association of Insurance Brokering Companies, etc.
       notes: ""
       weight: 50
     - ministry: MOF
       regulation_no: 4
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-finance/
       info: ""
-      provide: "* Applicants shall provide proof of employment; “important senior
+      provide: >-
+        * Applicants shall provide proof of employment; “important senior
         executive” refers to those who have held a position of manager level or
-        above for a total of five years in financial institutions."
+        above for a total of five years in financial institutions. 
+
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
       notes: ""
       weight: 50
     - ministry: MOF
@@ -1638,6 +1650,9 @@ zh:
 
           * 請提供納稅證明或薪資單，證明平均月薪超過160,000萬（如：澳洲PAYG payment summary、加拿大T4、以色列106表格、俄羅斯2-NDFL、波蘭PIT-11、英國P60、美國W-2）
           * 未來擬於我國受聘僱之聘僱契約書
+          * 供完整的履歷、任職證明
+
+        **國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
       notes: ""
       weight: 40
     - ministry: MOF
@@ -1648,6 +1663,9 @@ zh:
         * 申請人提供於國內外金融機構擔任經理級職務累計達三年之證明文件
 
         * 相關重要國際性金融證照，如CFA(Chartered Financial Analyst)、CFP(Certified Financial Planner)、FRM(Financial Risk Manager)、CIIA(Certified International Investment Analysts)、CIA(Certified Internal Auditor)、PRM(Professional Risk Manager)、FSA (Fellow of the Society of Actuaries)、FCAS (Fellow of the Casualty Actuarial Society)、FIA (Fellow of the Institute and Faculty of Actuaries)、FIAA (Fellow of the Institute of Actuaries of Australia)、SEI-KAIIN (Fellow of the Institute of Actuaries of Japan)等。
+
+
+        **國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
       notes: ""
       weight: 50
     - ministry: MOF
@@ -1655,17 +1673,22 @@ zh:
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-finance/
       info: ""
       provide: >-
-        * 金融監督管理委員會所屬周邊單位及金融相關公(協)會包括：
+        * 金融監督管理委員會所屬周邊單位及金融相關公（協）會包括：
 
-          1. 周邊單位：台灣金融研訓院、財團法人金融聯合徵信中心、財金資訊股份有限公司、中華民國證券暨期貨市場發展基金會、保險事業發展中心等。
-          2. 公(協)會：中華民國銀行商業同業公會全國聯合會、中華民國票券金融商業同業公會、中華民國信託業商業同業公會、台灣金融服務業聯合總會、中華民國信用合作社聯合社、中華民國證券商業同業公會、中華民國期貨業商業同業公會、中華民國證券投資信託暨顧問商業同業公會、中華民國會計師公會全國聯合會、中華民國人壽保險商業同業公會、中華民國產物保險商業同業公會、中華民國保險代理人商業公會、中華民國保險經紀人商業同業公會等。
+
+        1. 周邊單位：台灣金融研訓院、財團法人金融聯合徵信中心、財金資訊股份有限公司、中華民國證券暨期貨市場發展基金會、保險事業發展中心等。
+
+        2. 公（協）會：中華民國銀行商業同業公會全國聯合會、中華民國票券金融商業同業公會、中華民國信託業商業同業公會、台灣金融服務業聯合總會、中華民國信用合作社聯合社、中華民國證券商業同業公會、中華民國期貨業商業同業公會、中華民國證券投資信託暨顧問商業同業公會、中華民國會計師公會全國聯合會、中華民國人壽保險商業同業公會、中華民國產物保險商業同業公會、中華民國保險代理人商業公會、中華民國保險經紀人商業同業公會等。
       notes: ""
       weight: 50
     - ministry: MOF
       regulation_no: 4
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-finance/
       info: ""
-      provide: "* 由申請人提供相關任職證明，其中重要資深主管指於金融機構擔任經理級以上之主管職務累計達五年者。"
+      provide: |-
+        * 由申請人提供相關任職證明，其中重要資深主管指於金融機構擔任經理級以上之主管職務累計達五年者。
+
+        **國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
       notes: ""
       weight: 50
     - ministry: MOF
