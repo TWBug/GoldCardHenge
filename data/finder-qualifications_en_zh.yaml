@@ -560,22 +560,23 @@ en:
       regulation_no: IV1
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
       info: ""
-      provide: Copy of award certificate for a major award for film, broadcast, or pop
-        music from Taiwan or the recipient’s native country, or international
-        award. Acceptable awards include, but are not limited to, the Golden
-        Horse Awards, Golden Harvest Awards for Outstanding Short Films, Taipei
-        Film Festival, Kaohsiung Film Festival, Taiwan International Documentary
-        Festival, Emmy Awards, BAFTA, Seoul International Drama Awards, Golden
-        Globe Awards, Golden Bell Awards, New York Festivals International
-        Television & Film Awards, British Academy Television Awards, Grammy
-        Awards, BRIT Awards, American Music Awards, MTV Europe Music Awards,
-        Golden Melody Awards, NRJ Music Awards, Billboard Music Awards, Golden
-        Indie Music Awards, Japan Record Awards, Juno Awards, Mercury Prize,
-        Golden Disc Awards, and film festival awards listed in Table 1 of the
-        Regulations for Funding Film Industry and Film Professionals’
-        Participation in International Film Festivals established by the MOC’s
-        Bureau of Audiovisual and Music Industry Development, as well as other
-        awards whose qualifications have been reviewed and verified by the MOC.
+      provide: "* Copy of award certificate for a major award for film, broadcast, or
+        pop music from Taiwan or the recipient’s native country, or
+        international award. Acceptable awards include, but are not limited to,
+        the Golden Horse Awards, Golden Harvest Awards for Outstanding Short
+        Films, Taipei Film Festival, Kaohsiung Film Festival, Taiwan
+        International Documentary Festival, Emmy Awards, BAFTA, Seoul
+        International Drama Awards, Golden Globe Awards, Golden Bell Awards, New
+        York Festivals International Television & Film Awards, British Academy
+        Television Awards, Grammy Awards, BRIT Awards, American Music Awards,
+        MTV Europe Music Awards, Golden Melody Awards, NRJ Music Awards,
+        Billboard Music Awards, Golden Indie Music Awards, Japan Record Awards,
+        Juno Awards, Mercury Prize, Golden Disc Awards, and film festival awards
+        listed in Table 1 of the Regulations for Funding Film Industry and Film
+        Professionals’ Participation in International Film Festivals established
+        by the MOC’s Bureau of Audiovisual and Music Industry Development, as
+        well as other awards whose qualifications have been reviewed and
+        verified by the MOC."
       notes: ""
       weight: 40
     - ministry: MOC
@@ -585,11 +586,17 @@ en:
       provide: >-
         * Copy of proof of employment as a top executive at a medium-sized or
         larger film, broadcast, or pop music juristic person or organization.
-          Copy of proof of five years’ work experience in the fields of film, broadcast, or pop music.
 
-        1. Definition of international medium-size enterprise: A company/organization having subsidiaries/branches in at least two countries, wherein the parent company has effective control or control over policy. The company/organization should engage in transnational production, and the scope of its efforts should include film, broadcast, or pop music. The film, broadcast, or pop music juristic person/ organization should also meet at least one of the following conditions: a) have 50 or more employees; b) regional annual net operating revenue equal to or higher than NT$350 million (includes registered public and private enterprises).
+        * Copy of proof of five years’ work experience in the fields of film, broadcast, or pop music. 
 
-        2. Definition of top executive: An individual who has served as department head or higher at a juristic person or organization, such as a CEO, general manager, assistant manager, director-general, or other similar position.
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+
+
+        a. Definition of international medium-size enterprise: A company/organization having subsidiaries/branches in at least two countries, wherein the parent company has effective control or control over policy. The company/organization should engage in transnational production, and the scope of its efforts should include film, broadcast, or pop music. The film, broadcast, or pop music juristic person/ organization should also meet at least one of the following conditions: a) have 50 or more employees; b) regional annual net operating revenue equal to or higher than NT$350 million (includes registered public and private enterprises).
+
+
+        b. Definition of top executive: An individual who has served as department head or higher at a juristic person or organization, such as a CEO, general manager, assistant manager, director-general, or other similar position.
       notes: ""
       weight: 50
     - ministry: MOC
@@ -604,7 +611,10 @@ en:
         organizations such as the United Nations, public agencies of the
         person’s nation, or foreign representative offices in Taiwan.
 
-        * Copy of proof of five years’ work experience in the fields of film, broadcast, or pop music.
+        * Copy of proof of five years’ work experience in the fields of film, broadcast, or pop music. 
+
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
       notes: ""
       weight: 30
     - ministry: MOC
@@ -654,7 +664,7 @@ en:
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
       info: ⚠ Contact Gold Card Office for advice before applying under this
         regulation.
-      provide: "* Proof of accomplishments in Handicraft acknowledged by the MOC."
+      provide: "* Proof of accomplishments in a handicraft acknowledged by the MOC."
       notes: ""
       weight: 15
     - ministry: MOC
@@ -664,9 +674,11 @@ en:
       provide: >-
         * Proof of serving for cultural institutions or technological and
         research bodies related to arts and culture, which are lawfully
-        established nationwide and abroad
+        established nationwide and abroad, together with copies of
+        recommendation letters from the institution. 
 
-        * Copies of recommendation letters from the institution.
+
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
       notes: ""
       weight: 30
     - ministry: MOC
@@ -675,12 +687,11 @@ en:
       info: ""
       provide: >-
         * Proof of serving in arts and cultural sections of an international
-        arts NGO
+        arts NGO, together with copies of recommendation letters from the
+        NGO.(Please refer to the 
+          [UNESCO website for examples of arts NGOs](https://en.unesco.org/partnerships/non-governmental-organizations/list?title=&field_acronym_value=&field_interest_value=All&field_postal_address_country=All))
 
-        * Copies of recommendation letters from the NGO
-
-
-        (Please refer to the UNESCO website for examples of arts NGOs)
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
       notes: ""
       weight: 30
     - ministry: MOC
@@ -702,10 +713,13 @@ en:
 
         * News clippings or other supporting documentation concerning the IPO on a foreign exchange.
 
-        * For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation. For core R&D team members, certification of related work on or resignation from this position.
+        * For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation. For core R&D team members, certification of related work on or resignation from this position. 
 
 
-        **(Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.)**
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+
+
+        **Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.**
     - provide: >-
         Append all of the following:
 
@@ -714,10 +728,13 @@ en:
 
         * News clippings or other documentation concerning the firm’s acquisition at or over US$3 million by a publicly traded company.
 
-        * For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation. For core R&D team members, certification of related work on or resignation from this position.
+        * For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation. For core R&D team members, certification of related work on or resignation from this position. 
 
 
-        **(Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.)**
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+
+
+        **Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.**
       ministry: MOC
       regulation_no: VII2
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
@@ -730,12 +747,15 @@ en:
         Append all of the following:
 
 
-        * For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation, as well as one or all of the following:
+        * For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation, as well as one or all of the following: 
 
           * Managerial experience at a venture capital firm or fund that has invested in innovation or business overseas valued at over US$3 million.
           * Experience as a high-level manager at a venture capital firm or fund investing at least US$600,000 in an innovation or business project in connection with a Taiwan government project.
 
-        **(Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.)**
+        **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+
+
+        **Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.**
     - link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
       weight: 17
       ministry: MOC
@@ -1466,20 +1486,20 @@ zh:
       regulation_no: IV1
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
       info: ""
-      provide: "> 曾獲得我國、申請人所屬國或國際性之電影、廣播電視、流行音樂領域重要獎項證明影本，相關獎項包括但不限於以下獎項：金馬獎（Golden
-        Horse Awards）、金穗獎（Golden Harvest Awards for Outstanding Short
-        Films）、臺北電影節（Taipei Film Festival）、高雄電影節（Kaohsiung Film
-        Festival）及臺灣國際紀錄片影展（Taiwan International Documentary Festival）、艾美獎（Emmy
-        Award）、英國電影和電視藝術學院電視獎（the BAFTAs）、韓國首爾國際電視劇獎（SDA）、金球獎（Golden Globe
-        Awards）、金鐘獎（Golden Bell Awards）、紐約廣告節國際電視電影獎（New York Festivals
-        International Television & Film Awards）、英國學術電視獎（British Academy
-        Television Awards）、美國葛萊美獎（Grammy Awards）、英國全英音樂獎（BRIT
-        Awards）、全美音樂獎（American Music Awards）、MTV歐洲音樂獎（MTV Europe Music
-        Awards）、金曲獎（Golden Melody Awards）、NRJ音樂大獎（NRJ Music
-        Awards）、告示牌音樂獎（Billboard Music Awards）、金音創作獎（Golden Indie Music
-        Awards）、日本唱片大賞（日本レコード大賞，Japan Record Awards）、朱諾獎（Juno
-        Awards）、水星音樂獎（Mercury Prize）、金唱片獎（골든디스크어워드，Golden Disc
-        Awards）、本部影視及流行音樂產業局之「電影事業暨電影從業人員參加國際影展獎勵輔導執行要點」附表一所列影展競賽單元獎項及其他經文化部審查認\
+      provide: "* 曾獲得我國、申請人所屬國或國際性之電影、廣播電視、流行音樂領域重要獎項證明影本，相關獎項包括但不限於以下獎項：金馬獎(Golden
+        Horse Awards)、金穗獎(Golden Harvest Awards for Outstanding Short
+        Films)、臺北電影節(Taipei Film Festival)、高雄電影節(Kaohsiung Film
+        Festival)及臺灣國際紀錄片影展(Taiwan International Documentary Festival)、艾美獎(Emmy
+        Award)、英國電影和電視藝術學院電視獎(the BAFTAs)、韓國首爾國際電視劇獎(SDA)、金球獎(Golden Globe
+        Awards)、金鐘獎(Golden Bell Awards)、紐約廣告節國際電視電影獎(New York Festivals
+        International Television & Film Awards)、英國學術電視獎(British Academy
+        Television Awards)、美國葛萊美獎(Grammy Awards）、英國全英音樂獎(BRIT
+        Awards)、全美音樂獎(American Music Awards)、MTV歐洲音樂獎(MTV Europe Music
+        Awards)、金曲獎(Golden Melody Awards)、NRJ音樂大獎(NRJ Music
+        Awards)、告示牌音樂獎(Billboard Music Awards）、金音創作獎(Golden Indie Music
+        Awards)、日本唱片大賞(日本レコード大賞，Japan Record Awards)、朱諾獎（Juno
+        Awards）、水星音樂獎(Mercury Prize)、金唱片獎(골든디스크어워드，Golden Disc
+        Awards)、本部影視及流行音樂產業局之「電影事業暨電影從業人員參加國際影展獎勵輔導執行要點」附表一所列影展競賽單元獎項及其他經文化部審查認\
         定具相當資格之獎項。"
       notes: ""
       weight: 40
@@ -1491,6 +1511,9 @@ zh:
         * 曾任國際中型以上電影、廣播電視、流行音樂類法人或機構之高階主管證明影本。
 
         * 在電影、廣播電視、流行音樂領域五年以上工作經驗之證明影本。
+
+
+        **國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
 
 
         1. 國際中型：在二個以上國家建立子公司（組織）或分公司（組織），由母公司或本公司進行有效之控制及統籌決策，以從事跨越國界生產經營行為，其公司（組織）經營項目或業務範圍包括電影、廣播電視或流行音樂，並具有下列各款條件之一者：（1）經常僱用員工數達五十人。（2）區域年營業收入淨額達新臺幣三.五億元以上電影、廣播電視、流行音樂法人或機構（於該國登記有案之公、民營組織）。
@@ -1507,16 +1530,10 @@ zh:
         取得在電影、廣播電視、流行音樂領域之專業證書、專業受訓證明、著作、論文、專利發明等具有創見及特殊表現之證明影本，或領有聯合國、所屬國官方機構、駐華外國機構等官方機構出具之推薦或證明。
 
         * 在電影、廣播電視、流行音樂領域工作經驗五年以上之證明影本。
-      notes: >-
-        Please prepare:
 
-        ☑ formal proof of employment, showing at least five years of work experience in film, broadcast or pop music
 
-        and at least one of:
-
-        ☑ proof of special contributions to film, broadcast or pop music (eg copy of professional certificate, professional training certificate, copyright, thesis, patent or other certification of innovation or outstanding performance), or
-
-        ☑ letter of recommendation from official organisations such as the United Nations, government agencies in your home country or foreign representative offices in Taiwan
+        **國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
+      notes: ""
       weight: 30
     - ministry: MOC
       regulation_no: IV4
@@ -1529,9 +1546,9 @@ zh:
       regulation_no: V1
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
       info: ""
-      provide: "* 國內或國際認可競賽獲獎證明影本。（國內或國際認可競賽:德國慕尼黑Talente、日本伊丹國際工藝展 (ITAMI
-        International Craft Exhibition)、日本美濃國際陶藝競賽( The International Ceramics
-        Competition Mino, Japan)、義大利法恩札當代國際陶藝展( Faenza Prize, International
+      provide: "* 國內或國際認可競賽獲獎證明影本。（國內或國際認可競賽：德國慕尼黑Talente、日本伊丹國際工藝展(ITAMI
+        International Craft Exhibition)、日本美濃國際陶藝競賽(The International Ceramics
+        Competition Mino, Japan)、義大利法恩札當代國際陶藝展((Faenza Prize, International
         Competition of Contemporary Ceramic Art)、韓國清洲國際工藝雙年展(Cheongju
         International Craft Biennale)等國際性獎項，或其他經主管機關認定者。）"
       notes: ""
@@ -1556,7 +1573,7 @@ zh:
       provide: >-
         * 工藝專業能力證明文件。
 
-        * 國內外政府核發之補助或合作等之企業研發計畫之相關證明文件與案例資料。（註：前述資格條件所提及之「獲得國內外政府同意補助或合作等之企業研發計畫之案例」，國內部分如獲得經濟部小型企業創新研發計畫、新創事業獎等；國際部分則視實際狀況認定之。）
+        * 國內外政府核發之補助或合作等之企業研發計畫之相關證明文件與案例資料。**（註：前述資格條件所提及之「獲得國內外政府同意補助或合作等之企業研發計畫之案例」，國內部分如獲得經濟部小型企業創新研發計畫、新創事業獎等；國際部分則視實際狀況認定之。）**
     - ministry: MOC
       regulation_no: V5
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
@@ -1569,26 +1586,23 @@ zh:
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
       info: ""
       provide: >-
-        * 擔任國際藝術組織會員證明或任職文化藝術相關之政府機關（構）、民間組織證明影本。
+        *
+        擔任我國或他國政府機關文化藝術部門或依法設置之文化藝術機構專業或專門技術、研究部門之證明影本，及任職期間從事文化藝術相關業務表現優秀之推薦函影本。
 
 
         **國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
-
-
-        1. 國際藝術組織：國際上以文化藝術為營運宗旨之相關基金會、公協會、公司、團體及單位等，例如：美國戲劇協會、OISTAT國際劇場組織、百老匯聯盟等，或其他經文化部審查認定者。
-
-        2. 要職：經理、協理、副總經理、總經理、副董事長、董事長、副執行長、執行長、副社長、社長、副理事長、理事長、副會長、會長、負責人、副總監、總監等類似位階，或其他經文化部審查認定者。
       notes: ""
       weight: 30
     - ministry: MOC
       regulation_no: VI2
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
       info: ""
-      provide: |-
-        * 擔任國際藝文非政府組織之文化藝術相關業務證明影本
-        * 任職期間從事文化藝術相關業務表現優秀之推薦函影本
+      provide: >-
+        *
+        擔任國際藝文非政府組織之文化藝術相關業務證明影本，及任職期間從事文化藝術相關業務表現優秀之推薦函影本。（國際藝文非政府組織名單，可參考[聯合國教科文組織UNESCO「非政府組織」(NGOs)官網](https://en.unesco.org/partnerships/non-governmental-organizations/list?title=&field_acronym_value=&field_interest_value=All&field_postal_address_country=All)，選列涉藝術或文化領域之非政府組織查詢。）
 
-        （國際藝文非政府組織名單，可參考聯合國教科文組織UNESCO「非政府組織」(NGOs)官網，選列涉藝術或文化領域之非政府組織查詢。）
+
+        **國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
       notes: ""
       weight: 30
     - ministry: MOC
@@ -1611,19 +1625,25 @@ zh:
         * 高階主管為該企業單位主管以上之職位，需檢附服務證明或離職證明相關文件。研發團隊核心技術人員需檢附在該公司研發單位任職相關證明。
 
 
-        **（註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。）**
+        **國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
+
+
+        **註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。**
     - provide: >-
         應全部檢附：
 
 
         * 其他上市於海外證券交易所之公司，需檢附公司上市之相關新聞或佐證文件。
 
-        * 需檢附公司被上市公司購併交易金額達300萬美元以上之相關新聞或佐證文件。
+        * 需檢附公司被上市公司購併交易金額達 300 萬美元以上之相關新聞或佐證文件。
 
         * 高階主管為該企業單位主管以上之職位，需檢附服務證明或離職證明相關文件。研發團隊核心技術人員需檢附在該公司研發單位任職相關證明。
 
 
-        **（註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。）**
+        **國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
+
+
+        **註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。**
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
       weight: 19
       regulation_no: VII2
@@ -1638,10 +1658,13 @@ zh:
 
         * 高階主管為單位主管以上之職位，需檢附服務證明或離職證明相關文件。應擇一或全部檢附：
 
-          * 投資海外新創或事業達300萬美元以上之創投公司或基金之高階主管。
-          * 投資我國政府相關計畫之新創或事業達60萬美元之創投公司或基金之高階主管。
+          * 投資海外新創或事業達 300 萬美元以上之創投公司或基金之高階主管。
+          * 投資我國政府相關計畫之新創或事業達 60 萬美元之創投公司或基金之高階主管。
 
-        **（註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。）**
+        **國內外服務證明應有開立單位之相關標章及簽署與實際任職起迄日。**
+
+
+        **註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等 8 項產業。**
     - notes: ""
       weight: 17
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
