@@ -610,6 +610,20 @@ en:
       notes: ""
       weight: 40
     - ministry: MOC
+      regulation_no: V3
+      weight: 15
+      link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
+      provide: "* Documentation concerning important handicraft patents obtained
+        within the past 10 years must be appended."
+    - weight: 14
+      ministry: MOC
+      regulation_no: V4
+      link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
+      provide: >-
+        * Certification of professional abilities in a handicraft.
+
+        * Documentation or other information concerning involvement in corporate R&D projects done with a grant from or in cooperation with the government of Taiwan or other countries. (Note: “Domestic” in the aforementioned indicates participating in the Small Business Innovation Research Program or winning the Business Startup Award run by the Ministry of Economic Affairs, etc. Foreign awards will be approved of on a case-by-case basis.)
+    - ministry: MOC
       regulation_no: V5
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
       info: ⚠ Contact Gold Card Office for advice before applying under this
@@ -652,6 +666,61 @@ en:
         management acknowledged by the MOC."
       notes: ""
       weight: 15
+    - regulation_no: VII1
+      ministry: MOC
+      link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
+      weight: 20
+      provide: >-
+        Append all of the following:
+
+
+        * News clippings or other supporting documentation concerning the IPO on a foreign exchange.
+
+        * For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation. For core R&D team members, certification of related work on or resignation from this position.
+
+
+        **(Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.)**
+    - provide: >-
+        Append all of the following:
+
+
+        * News clippings or other supporting documentation concerning the IPO of other companies on a foreign exchange.
+
+        * News clippings or other documentation concerning the firm’s acquisition at or over US$3 million by a publicly traded company.
+
+        * For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation. For core R&D team members, certification of related work on or resignation from this position.
+
+
+        **(Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.)**
+      ministry: MOC
+      regulation_no: VII2
+      link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
+      weight: 19
+    - link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
+      weight: 15
+      regulation_no: VII3
+      ministry: MOC
+      provide: >-
+        Append all of the following:
+
+
+        * For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation, as well as one or all of the following:
+
+          * Managerial experience at a venture capital firm or fund that has invested in innovation or business overseas valued at over US$3 million.
+          * Experience as a high-level manager at a venture capital firm or fund investing at least US$600,000 in an innovation or business project in connection with a Taiwan government project.
+
+        **(Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.)**
+    - link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
+      weight: 17
+      ministry: MOC
+      regulation_no: VII4
+      provide: |-
+        Append all of the following: 
+
+        * Related documentation.
+      notes: ""
+      info: ⚠ Contact Gold Card Office for advice before applying under this
+        regulation.
     - ministry: MOS
       regulation_no: 1
       link: https://goldcard.nat.gov.tw/en/qualification/field-of-sport/
@@ -860,75 +929,6 @@ en:
         * Having been recommended by the National Bar Association or the local bar association to which the attorney belongs.
       notes: ""
       weight: 10
-    - ministry: MOC
-      regulation_no: V3
-      weight: 15
-      link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
-      provide: "* Documentation concerning important handicraft patents obtained
-        within the past 10 years must be appended."
-    - weight: 14
-      ministry: MOC
-      regulation_no: V4
-      link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
-      provide: >-
-        * Certification of professional abilities in a handicraft.
-
-        * Documentation or other information concerning involvement in corporate R&D projects done with a grant from or in cooperation with the government of Taiwan or other countries. (Note: “Domestic” in the aforementioned indicates participating in the Small Business Innovation Research Program or winning the Business Startup Award run by the Ministry of Economic Affairs, etc. Foreign awards will be approved of on a case-by-case basis.)
-    - regulation_no: VII1
-      ministry: MOC
-      link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
-      weight: 20
-      provide: >-
-        Append all of the following:
-
-
-        * News clippings or other supporting documentation concerning the IPO on a foreign exchange.
-
-        * For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation. For core R&D team members, certification of related work on or resignation from this position.
-
-
-        **(Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.)**
-    - provide: >-
-        Append all of the following:
-
-
-        * News clippings or other supporting documentation concerning the IPO of other companies on a foreign exchange.
-
-        * News clippings or other documentation concerning the firm’s acquisition at or over US$3 million by a publicly traded company.
-
-        * For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation. For core R&D team members, certification of related work on or resignation from this position.
-
-
-        **(Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.)**
-      ministry: MOC
-      regulation_no: VII2
-      link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
-      weight: 19
-    - link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
-      weight: 15
-      regulation_no: VII3
-      ministry: MOC
-      provide: >-
-        Append all of the following:
-
-
-        * For high-level managers working in a managerial capacity at the aforementioned enterprise, certification of related work or resignation, as well as one or all of the following:
-
-          * Managerial experience at a venture capital firm or fund that has invested in innovation or business overseas valued at over US$3 million.
-          * Experience as a high-level manager at a venture capital firm or fund investing at least US$600,000 in an innovation or business project in connection with a Taiwan government project.
-
-        **(Note: Industries overseen by the MOC are those listed in Paragraph 1 to Paragraph 7 and Paragraph 15 of Article 3 of the Development of the Cultural and Creative Industries Act, and include the visual arts, music and performance art, cultural assets application and exhibition and performance facility, handicraft, film, radio and television broadcast, publication, pop music, and cultural content.)**
-    - link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
-      weight: 17
-      ministry: MOC
-      regulation_no: VII4
-      provide: |-
-        Append all of the following: 
-
-        * Related documentation.
-      notes: ""
-      info: ⚠ Contact Gold Card Office for advice before applying under this
-        regulation.
 zh:
   items:
     - ministry: MOST
@@ -1448,6 +1448,19 @@ zh:
       notes: ""
       weight: 40
     - ministry: MOC
+      regulation_no: V3
+      weight: 15
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      provide: "* 應檢附近十年與工藝類相關之重要專利權之證明文件。"
+    - ministry: MOC
+      regulation_no: V4
+      weight: 14
+      link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
+      provide: >-
+        * 工藝專業能力證明文件。
+
+        * 國內外政府核發之補助或合作等之企業研發計畫之相關證明文件與案例資料。（註：前述資格條件所提及之「獲得國內外政府同意補助或合作等之企業研發計畫之案例」，國內部分如獲得經濟部小型企業創新研發計畫、新創事業獎等；國際部分則視實際狀況認定之。）
+    - ministry: MOC
       regulation_no: V5
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
       info: ⚠ 若要以此資格條件申請，申請前請先與金卡辦公室確認。
@@ -1481,6 +1494,60 @@ zh:
       provide: "* 相關文化行政證明經文化部審認核可之證明影本。"
       notes: ""
       weight: 15
+    - link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      ministry: MOC
+      regulation_no: VII1
+      weight: 20
+      provide: >-
+        應全部檢附：
+
+
+        * 成功上市於海外證券交易所，需檢附公司上市之相關新聞或佐證文件。
+
+        * 高階主管為該企業單位主管以上之職位，需檢附服務證明或離職證明相關文件。研發團隊核心技術人員需檢附在該公司研發單位任職相關證明。
+
+
+        **（註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。）**
+    - provide: >-
+        應全部檢附：
+
+
+        * 其他上市於海外證券交易所之公司，需檢附公司上市之相關新聞或佐證文件。
+
+        * 需檢附公司被上市公司購併交易金額達300萬美元以上之相關新聞或佐證文件。
+
+        * 高階主管為該企業單位主管以上之職位，需檢附服務證明或離職證明相關文件。研發團隊核心技術人員需檢附在該公司研發單位任職相關證明。
+
+
+        **（註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。）**
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      weight: 19
+      regulation_no: VII2
+      ministry: MOC
+    - ministry: MOC
+      regulation_no: VII3
+      weight: 18
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      provide: >-
+        應全部檢附：
+
+
+        * 高階主管為單位主管以上之職位，需檢附服務證明或離職證明相關文件。應擇一或全部檢附：
+
+          * 投資海外新創或事業達300萬美元以上之創投公司或基金之高階主管。
+          * 投資我國政府相關計畫之新創或事業達60萬美元之創投公司或基金之高階主管。
+
+        **（註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。）**
+    - notes: ""
+      weight: 17
+      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
+      ministry: MOC
+      regulation_no: VII4
+      provide: |-
+        應全部檢附
+
+        * 相關證明文件。
+      info: ⚠ 若要以此資格條件申請，申請前請先與金卡辦公室確認。
     - ministry: MOS
       regulation_no: 1
       link: https://goldcard.nat.gov.tw/zh/qualification/field-of-sport/
@@ -1678,70 +1745,3 @@ zh:
         * 全國律師聯合會或其所屬地方律師公會出具之推 薦文件
       notes: ""
       weight: 10
-    - ministry: MOC
-      regulation_no: V3
-      weight: 15
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      provide: "* 應檢附近十年與工藝類相關之重要專利權之證明文件。"
-    - ministry: MOC
-      regulation_no: V4
-      weight: 14
-      link: https://goldcard.nat.gov.tw/en/qualification/field-of-culture-and-arts/
-      provide: >-
-        * 工藝專業能力證明文件。
-
-        * 國內外政府核發之補助或合作等之企業研發計畫之相關證明文件與案例資料。（註：前述資格條件所提及之「獲得國內外政府同意補助或合作等之企業研發計畫之案例」，國內部分如獲得經濟部小型企業創新研發計畫、新創事業獎等；國際部分則視實際狀況認定之。）
-    - link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      ministry: MOC
-      regulation_no: VII1
-      weight: 20
-      provide: >-
-        應全部檢附：
-
-
-        * 成功上市於海外證券交易所，需檢附公司上市之相關新聞或佐證文件。
-
-        * 高階主管為該企業單位主管以上之職位，需檢附服務證明或離職證明相關文件。研發團隊核心技術人員需檢附在該公司研發單位任職相關證明。
-
-
-        **（註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。）**
-    - provide: >-
-        應全部檢附：
-
-
-        * 其他上市於海外證券交易所之公司，需檢附公司上市之相關新聞或佐證文件。
-
-        * 需檢附公司被上市公司購併交易金額達300萬美元以上之相關新聞或佐證文件。
-
-        * 高階主管為該企業單位主管以上之職位，需檢附服務證明或離職證明相關文件。研發團隊核心技術人員需檢附在該公司研發單位任職相關證明。
-
-
-        **（註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。）**
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      weight: 19
-      regulation_no: VII2
-      ministry: MOC
-    - ministry: MOC
-      regulation_no: VII3
-      weight: 18
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      provide: >-
-        應全部檢附：
-
-
-        * 高階主管為單位主管以上之職位，需檢附服務證明或離職證明相關文件。應擇一或全部檢附：
-
-          * 投資海外新創或事業達300萬美元以上之創投公司或基金之高階主管。
-          * 投資我國政府相關計畫之新創或事業達60萬美元之創投公司或基金之高階主管。
-
-        **（註：本部主管之產業，係指文化創意產業發展法第三條第一款至第七款及第十五款規定之產業，包含視覺藝術、音樂及表演藝術、文化資產應用及展演設施、工藝、電影、廣播電視、出版、流行音樂及文化內容等8項產業。）**
-    - notes: ""
-      weight: 17
-      link: https://goldcard.nat.gov.tw/zh/qualification/field-of-culture-and-arts/
-      ministry: MOC
-      regulation_no: VII4
-      provide: |-
-        應全部檢附
-
-        * 相關證明文件。
-      info: ⚠ 若要以此資格條件申請，申請前請先與金卡辦公室確認。
