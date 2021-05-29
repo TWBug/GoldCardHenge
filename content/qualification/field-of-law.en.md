@@ -22,11 +22,15 @@ The applicant needs to provide the license of a ROC attorney or the permit of a 
 {{< /accordion >}}
 
 {{< accordion title="Previously or currently holding a position outside ROC as a chair professor, professor, associate professor or assistant professor of a university, or as a research fellow, associate research fellow or assistant research fellow of a research institution." suffix="2." bottomless="true" >}}
-* Previously or currently holding a position outside ROC as a chair professor, professor, associate professor or assistant professor of a university, or as a research fellow, associate research fellow or assistant research fellow of a research institution. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* Previously or currently holding a position outside ROC as a chair professor, professor, associate professor or assistant professor of a university, or as a research fellow, associate research fellow or assistant research fellow of a research institution. 
+
+**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Holding a law related executive position or above in a law firm or corporation." suffix="3." bottomless="true" >}}
-* Holding a law related executive position or above in a law firm or corporation. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* Holding a law related executive position or above in a law firm or corporation. 
+
+**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Having been recommended by the National Bar Association or the local bar association to which the attorney belongs." suffix="4." bottomless="true" >}}
