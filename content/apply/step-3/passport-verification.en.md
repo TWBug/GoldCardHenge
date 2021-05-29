@@ -1,18 +1,18 @@
 ---
 draft: false
 start: false
+title: Passport Verification
 date: 2021-01-18T03:13:01.397Z
 summary: For overseas applications, or if you have entered Taiwan but have a
   visa with a limited stay period and cannot be extended or visa-free, your
   passport will have to be inspected by the Bureau of Consular Affairs or an ROC
   mission/office.
 check: true
-title: Passport Verification
+chatbot: true
 order: 2
 topic: goldcard
 previous: /apply/step-3/supplementary-documents/
 next: /apply/step-3/card-collection/
-chatbot: true
 ---
 # Passport verification
 
