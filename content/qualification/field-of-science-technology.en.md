@@ -22,12 +22,14 @@ cover_image_alt: Test alt
 ## Must meet **ONE** of the following requirements:
 
 {{< accordion title="Applicant previously or currently holding a position at a technology company or in technological fields...with a most recent monthly salary of at least NTD 160,000." suffix="1." bottomless="true" >}}
-**Applicant previously or currently holding a position at a technology company or in technological fields in a foreign state or in the Republic of China (hereafter referred to as“Taiwan”) with a most recent monthly salary of at least NTD 160,000.**
+**Applicant previously or currently holding a position at a technology company or in technological fields in a foreign state or in the Republic of China (hereafter referred to as “Taiwan”) with a most recent monthly salary of at least NTD 160,000.**
 
 Please attach all of the following documents:
 
 * Documents verifying salary or income tax payment relating to employment at a technology company or in a technological field. [Note 1](#note-1)
-* Personal curriculum vitae and document verifying domestic or foreign service relating to employment at a technology company or in a technological field. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* Personal curriculum vitae and document verifying domestic or foreign service relating to employment at a technology company or in a technological field. 
+
+**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Those with unique talents or outstanding R&D ability or innovation performances…" suffix="2." bottomless="true" >}}
