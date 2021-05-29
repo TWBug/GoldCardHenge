@@ -13,7 +13,9 @@ topic: goldcard
 ## Must meet **ONE** of the following requirements:
 
 {{< accordion title="Previously or currently holding a position in a foreign state or in the R.O.C. with a most recent monthly salary of at least NT$160,000." suffix="1." bottomless="true" >}}
-* Based on proof of applicant’s salary in the financial industry. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* Based on proof of applicant’s salary in the financial industry. 
+
+**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="Those who have served in a professional position in a financial institution, and have outstanding professional ability or cross-border experience much-needed by the country." suffix="2." bottomless="true" >}}
