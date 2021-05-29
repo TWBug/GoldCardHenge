@@ -21,7 +21,9 @@ topic: goldcard
 {{< accordion title="The person has been engaged in teaching and research for more than five years and in the past five years has worked at one of the top 500 universities in the most recent QS World University Rankings or Times Higher Education World University Rankings." suffix="2." bottomless="true" >}}
 **Please attach all of the following documents:**
 
-* A certificate of service as a full-time faculty member or researcher, such service length of which is 5 years or more, shall be presented by the person who has been engaged in teaching and research for more than five years and in the past five years has worked at one of the top 500 universities in the most recent QS World University Rankings or Times Higher Education World University Rankings. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* A certificate of service as a full-time faculty member or researcher, such service length of which is 5 years or more, shall be presented by the person who has been engaged in teaching and research for more than five years and in the past five years has worked at one of the top 500 universities in the most recent QS World University Rankings or Times Higher Education World University Rankings. 
+
+**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
 {{< accordion title="The person has won a Yushan (Young) Scholar award in Taiwan." suffix="3." bottomless="true" >}}
@@ -33,5 +35,7 @@ topic: goldcard
 Please attach all of the following documents:
 
 * Documentary evidence of salary or income tax paid.
-* A  certificate of service as a full-time faculty member, researcher, or administrator, such service length of which is 5 years or more, shall be presented by the person who has held or is currently holding a position at any schools, colleges, universities, or their affiliated units, educational institutions, or research institutions, whether public or private, or engaged in any work listed in the Education Services sector in the Central Product Classification published by the Public Construction Commission of the Executive Yuan. **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+* A  certificate of service as a full-time faculty member, researcher, or administrator, such service length of which is 5 years or more, shall be presented by the person who has held or is currently holding a position at any schools, colleges, universities, or their affiliated units, educational institutions, or research institutions, whether public or private, or engaged in any work listed in the Education Services sector in the Central Product Classification published by the Public Construction Commission of the Executive Yuan. 
+
+**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
