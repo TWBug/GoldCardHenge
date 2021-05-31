@@ -1,0 +1,8 @@
+---
+title: What happens if I need to leave Taiwan after applying for the Gold Card
+  domestically?
+draft: false
+---
+當您的就業金卡審核通過，您可以於入境時攜帶於「外國專業人才申辦窗口平臺」＜下載專區＞列印之「就業金卡境外核准證明」持憑入境。並持此證明、收據（同於＜下載專區＞列印，及護照正本，親臨＜您所選擇的移民署服務站＞領取就業金卡。
+
+移民署上班時間為周一至周五8:00-17:00（櫃檯中午受理案件不休息），欲查詢您所選擇的移民署地址與聯絡方式請參考以下連結: <https://www.immigration.gov.tw/5385/5388/7181/7184/7193/>
