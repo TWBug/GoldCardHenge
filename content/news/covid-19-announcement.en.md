@@ -1,7 +1,7 @@
 ---
 title: COVID-19 Announcement
 summary: COVID-19 Announcement
-date: 2021-05-18T08:47:34.396Z
+date: 2021-05-31T08:47:34.396Z
 topic: eventsnews
 draft: false
 hidden: false
@@ -20,4 +20,4 @@ Gold Card holders (including those with the Resident Authorization Certificate) 
 
 Please refer Restrictions of Entering Taiwan for more information: <https://www.immigration.gov.tw/5475/5478/6928/6940/212474/263530/>
 
-[](https://www.immigration.gov.tw/5475/5478/6928/6940/212474/263530/)[](https://www.immigration.gov.tw/5385/7445/211420/229781/211422/216338/)
+**If you have just applied or your application is currently under review, your application will continue to proceed until it gets to the Passport Inspection Stage. If you have applied for the Gold Card while on an ARC, you will not be affected by this change.**
