@@ -1,0 +1,16 @@
+---
+title: How does my spouse apply for residency in Taiwan?
+draft: false
+tags:
+  - Hong Kong & Macau Residents
+---
+根據[《香港澳門居民進入臺灣地區及居留定居許可辦法》](https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=Q0020008)第17條規定，香港或澳門居民申請在臺灣地區居留，應備下列文件，向移民署申請：
+
+1. 居留申請書。
+2. 香港或澳門永久居留資格證件。
+3. 保證書。
+4. 最近五年內警察紀錄證明書。但經移民署許可免附者，免附之。
+5. 健康檢查合格證明。
+6. 其他相關證明文件。
+
+辦理方式請參考移民署香港澳門居民申請在臺灣地區居留送件須知：<https://www.immigration.gov.tw/5385/7244/7250/7296/%E5%B1%85%E7%95%99/148063/>
