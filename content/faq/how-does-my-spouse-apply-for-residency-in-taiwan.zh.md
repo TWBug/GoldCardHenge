@@ -1,5 +1,5 @@
 ---
-title: How does my spouse apply for residency in Taiwan?
+title: 我的配偶要如何在台灣申請居留？
 draft: false
 tags:
   - Hong Kong & Macau Residents
