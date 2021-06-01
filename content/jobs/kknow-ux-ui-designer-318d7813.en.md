@@ -11,11 +11,11 @@ company_name: KKBOX Group
 company_page_url: 'https://www.cakeresume.com/companies/kkboxgroup'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--RqaQjEF4--/c_pad,fl_png8,h_200,w_200/v1604375754/f9qlpok430hwd4k1zx95.png
-salary_text: TWD560000 - TWD0
+salary_text: TWD800000 - TWD1000000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 560000
-salary_max: 0
+salary_min: 800000
+salary_max: 1000000
 location_list:
   - 南港軟體園區
   - 南港區
@@ -32,4 +32,4 @@ badges:
 
 ---
 
-Please submit your application via Group Career Website , as we will prioritize the applicants on Group Career Website. We believe talent deserves discovery. We aim to build overseas Chinese’s largest talent competition-marketplace. In KKNow, every creative idea is possible and encouraged. We dare to challenge ourselves with a growth mindset. Join us to build a real-time interactive online competition platform. To participate in the journey of talent discovery and the process of star incubation.
+Please submit your application via KKBOX Group Careers , only online application will be considered. We believe talent deserves discovery. We aim to build overseas Chinese’s largest talent competition-marketplace. In KKNow, every creative idea is possible and encouraged. We dare to challenge ourselves with a growth mindset. Join us to build a real-time interactive online competition platform. To participate in the journey of talent discovery and the process of star incubation. As a UX/UI designe
