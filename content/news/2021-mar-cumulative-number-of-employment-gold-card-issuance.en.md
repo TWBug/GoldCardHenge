@@ -11,7 +11,7 @@ style: right
 ---
 # 2,447 Gold Cards issued to date!
 
-From February 8, 2018 to March. 31, 2021, "2,447" cards were approved.
+From February 8, 2018 to March 31, 2021, "2,447" cards were approved.
 
 Application field of cardholders:
 
