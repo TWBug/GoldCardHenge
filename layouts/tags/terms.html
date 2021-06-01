@@ -55,10 +55,10 @@
                 </nav>
                 <h1 class="text-5xl leading-tight font-semibold mb-2">
                     {{ $whytaiwan.Title }}:
-                    {{ if i18n .Title }}
-                        {{ i18n .Title }}
+                    {{ if i18n (.Title | anchorize) }}
+                        {{ i18n (.Title | anchorize) }}
                     {{ else }}
-                        {{ .Title | humanize }}
+                        {{ .Title }}
                     {{ end }}
                 </h1>
                 <h2 class="text-lg font-medium leading-relaxed">{{ $whytaiwan.Summary | truncate 200 }}</h2>
@@ -79,10 +79,10 @@
                     class="inline-block bg-white border-2 border-primary rounded-md text-lg font-semibold text-primary px-3 py-1 m-2"
                     href="{{ .Page.RelPermalink }}"
                 >
-                    {{ if i18n .Page.Title }}
-                    {{ i18n .Page.Title }} ({{ .Count }})
+                    {{ if i18n (.Page.Title | anchorize) }}
+                        {{ i18n (.Page.Title | anchorize) }} ({{ .Count }})
                     {{ else }}
-                    {{ .Page.Title | humanize }} ({{ .Count }})
+                        {{ .Page.Title | humanize }} ({{ .Count }})
                     {{ end }}
                 </a>
                 {{ end }}
