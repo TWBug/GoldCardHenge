@@ -12,4 +12,4 @@ cms_omit: true
 
 \*In response to the Covid-19 Level 3 alert, in-person tax filing is suspended in Taipei, New Taipei, Keelung, Taoyuan, and Yilan National tax offices until 6/14.
 
-\*The deadline for filing individual and corporate income tax for 2020 has been extended from May 31 to June 30.
+\*The deadline for filing individual and corporate income tax for 2020 has been extended from 5/31 to 6/30.
