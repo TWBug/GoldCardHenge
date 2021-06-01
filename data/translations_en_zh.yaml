@@ -457,8 +457,6 @@ en:
       translation: Enterprise Architecture
     - id: app_developer
       translation: App Developer
-    - id: hong kong--macau_residents
-      translation: Hong Kong & Macau Residents
 zh:
   items:
     - id: powered_by
@@ -905,5 +903,3 @@ zh:
       translation: 企業架構
     - id: app_developer
       translation: App 開發
-    - id: hong kong--macau_residents
-      translation: 港澳專區
