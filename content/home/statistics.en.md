@@ -7,12 +7,12 @@ headless: true
 links: null
 items:
   - preview: null
-    label: "2607"
+    label: "2757"
     href: Gold Card Holders
   - preview: null
     label: "62"
     href: Different Countries
   - preview: null
-    label: "16224"
+    label: "17804"
     href: Number of Consultations
 ---
