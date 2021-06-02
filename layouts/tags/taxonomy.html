@@ -59,9 +59,9 @@
                 </nav>
                 <h1 class="text-5xl leading-tight font-semibold mb-2">
                     {{ if i18n (.Title | anchorize) }}
-                    {{ i18n (.Title | anchorize) }}
+                        {{ i18n (.Title | anchorize) }}
                     {{ else }}
-                    {{ .Title | humanize }}
+                        {{ .Title }}
                     {{ end }}
                 </h1>
                 <h2 class="text-2xl leading-tight font-semibold mb-2">

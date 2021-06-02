@@ -78,6 +78,7 @@
                 <a
                     class="inline-block bg-white border-2 border-primary rounded-md text-lg font-semibold text-primary px-3 py-1 m-2"
                     href="{{ .Page.RelPermalink }}"
+                    rel="{{ .Page.Title | anchorize }}"
                 >
                     {{ if i18n (.Page.Title | anchorize) }}
                         {{ i18n (.Page.Title | anchorize) }} ({{ .Count }})
