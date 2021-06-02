@@ -453,9 +453,9 @@ en:
         6 PM local time."
     - id: test_translation
       translation: This is a test translation
-    - id: enterprise_architecture
+    - id: enterprise-architecture
       translation: Enterprise Architecture
-    - id: app_developer
+    - id: app-developer
       translation: App Developer
 zh:
   items:
@@ -899,7 +899,7 @@ zh:
       translation: 即時諮詢的服務時間為：台灣時間 周一至周五 10:00-18:00
     - id: test_translation
       translation: 這是測試翻譯
-    - id: enterprise_architecture
+    - id: enterprise-architecture
       translation: 企業架構
-    - id: app_developer
+    - id: app-developer
       translation: App 開發
