@@ -72,9 +72,9 @@
                             <div class="text-center p-4">
                                 <h2 class="text-lg leading-snug font-bold text-primary">
                                     {{ if i18n (.Page.Title | anchorize ) }}
-                                    {{ i18n (.Page.Title | anchorize) }}
+                                        {{ i18n (.Page.Title | anchorize) }}
                                     {{ else }}
-                                    {{ .Page.Title | humanize }}
+                                        {{ .Page.Title }}
                                     {{ end }}
                                     ({{ .Count }})
                                 </h2>
