@@ -50,7 +50,7 @@ Fill in your information / Passport & Visa Status
 * Please select the industry that you want to apply under and attach all relevant supporting documents. Click save after double-checking and uploading the files.
 * After you submit your application, changing the industry will be difficult and it will take longer to process review your application.
 
-{{< accordion title="Application Details" suffix="" bottomless="false" >}}
+{{< accordion title="Application Details" suffix="" bottomless="true" >}}
 
 * After you have successfully registered, login and select "Employment Gold Card Application" in the "Online Application" menu. Then select your nationality and if you are applying from Taiwan or abroad.
 * You may apply for the Taiwan Employment Gold Card if you hold a foreign passport, or a ROC passport without household registration (NWHOR). ROC nationals with a household registration or National ID card are not eligible to apply. If you hold a Taiwan NWHOR passport, when applying domestically, you must have entered with your foreign passport and not Taiwan NWHOR passport or your application will be rejected.
@@ -112,7 +112,7 @@ For overseas applications, or if you have entered Taiwan but have a visa with a 
 
 After your application has been approved, you will receive an e-mail notifying you to collect your Gold Card. Please bring your original passport and relevant documents to your selected location for picking up your Gold Card. If you can not to pick it up in person, you can ask a friend or agent. In that case, you need to provide them with a power of attorney form.
 
-{{< accordion title="More Details" suffix="" bottomless="false" >}}
+{{< accordion title="More Details" suffix="" bottomless="true" >}}
 
 **Domestic Applicants**
 
@@ -138,7 +138,7 @@ The review process after you complete the online payment officially begins. As t
 Visa issuance is an act of sovereignty and related to the National security. The government reserves the right not to issue a visa and is under no obligation to disclose the reason.
 {{< /teaser >}}
 
-{{< accordion title="More Details" suffix="" bottomless="false" >}}
+{{< accordion title="More Details" suffix="" bottomless="true" >}}
 **If you submit incomplete or inaccurate information, or the authorities require more information about your qualifications, you will need to submit additional documents for review. Failing to do so can result in your application being rejected.**
 
 * Please take the time to check which visa you have entered the country with, and choose the right visa category as this cannot be changed later, e.g., Visa-free, Student visa, visitor visa, etc.
@@ -180,6 +180,11 @@ Domestic applications require a resident address when applying. When entering th
 
 * If you choose to apply as a Hong Kong citizen, you will be required to give up your other citizenship. You must give up your foreign citizenship according to Article 4 of Laws and Regulations Regarding Hong Kong & Macao Affairs, the "Hong Kong Residents" as used herein refers to persons who qualify for permanent residency in Hong Kong and who do not hold a travel document other than a British (Overseas) passport or a Hong Kong passport. However, if you apply as a foreign citizen, you would only have to sign an affidavit stating that you will only use the designated passport you chose to enter Taiwan.
 * Hong Kong and Macao applicants must download the "Hong Kong or Macao Resident Confirmation Document" and the "Residence Declaration Form for Hong Kong and Macao Residents". Signatures must be in Chinese. Please refer to the links to download the necessary documents: [](https://www.immigration.gov.tw/media/51515/%E9%A6%99%E6%B8%AF%E6%88%96%E6%BE%B3%E9%96%80%E5%B1%85%E6%B0%91%E8%BA%AB%E5%88%86%E7%A2%BA%E8%AA%8D%E6%9B%B8.pdf)[香港或澳門居民身分確認書.pdf](https://www.immigration.gov.tw/media/51515/%E9%A6%99%E6%B8%AF%E6%88%96%E6%BE%B3%E9%96%80%E5%B1%85%E6%B0%91%E8%BA%AB%E5%88%86%E7%A2%BA%E8%AA%8D%E6%9B%B8.pdf)、[](https://www.immigration.gov.tw/media/62232/%E9%A6%99%E6%B8%AF%E6%BE%B3%E9%96%80%E5%B1%85%E6%B0%91%E7%94%B3%E8%AB%8B%E5%B1%85%E7%95%99%E5%AE%9A%E5%B1%85%E7%94%B3%E5%A0%B1%E6%9B%B8.pdf)[香港澳門居民申請居留定居申報書.pdf](https://www.immigration.gov.tw/media/62232/%E9%A6%99%E6%B8%AF%E6%BE%B3%E9%96%80%E5%B1%85%E6%B0%91%E7%94%B3%E8%AB%8B%E5%B1%85%E7%95%99%E5%AE%9A%E5%B1%85%E7%94%B3%E5%A0%B1%E6%9B%B8.pdf)
+* Hong Kong and Macao applicants who were born in Mainland China must upload one of the following documents:
+
+  1. A certificate of non-household registration in Mainland China verified by the Straits Exchange Foundation (SEF).
+  2. Mainland Travel Permit for Hong Kong and Macau Residents (Home Return Permit)
+  3. The notarized certificate of cancellation of Mainland China household registration verified by the SEF.
 {{< /note >}}
 
 {{< note title="3" >}}
