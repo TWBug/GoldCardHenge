@@ -161,7 +161,7 @@ zh:
       next_tree_id: 8
       question_text: 你是出版或相關大眾傳播科系的大學教授嗎？
       qualifications:
-        - MOC-II2
+        - MOC-III2
     - tree_id: 8
       tree_order: 0
       next_tree_id: null
@@ -559,7 +559,7 @@ en:
       next_tree_id: 8
       question_text: Are you a professor of publishing or mass communication?
       qualifications:
-        - MOC-II2
+        - MOC-III2
     - tree_id: 8
       tree_order: 0
       next_tree_id: null
