@@ -21,15 +21,9 @@ location_list:
   - 中和區
 job_tags:
   - Git
-  - Golang
-  - C
-  - C++
-  - Java
-  - Scala
   - MySQL
   - NoSQL
   - PostgreSQL
-  - RDBMS
   - Hadoop
   - Rust
   - Haskell
@@ -41,6 +35,8 @@ job_tags:
   - Redis
   - gRPC
   - GraphQL
+  - Kubernetes
+  - RDBMS
 badges:
   - Software
 
