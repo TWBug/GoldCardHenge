@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=semiconductor&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
+  https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '19736'
 title: YU- 美商半導體大廠 GPU FAE 年薪1M-1.6M
 job_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan/jobs/c4b195'
@@ -23,7 +23,7 @@ location_list:
   - 台灣
 job_tags: []
 badges:
-  - Semiconductor
+  - Software architecture
 
 ---
 
