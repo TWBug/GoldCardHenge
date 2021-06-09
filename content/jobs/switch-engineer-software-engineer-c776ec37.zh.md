@@ -8,7 +8,7 @@ title: 'Switch engineer/ Software engineer '
 job_url: >-
   https://www.cakeresume.com/companies/insearch/jobs/switch-engineer-software-engineer
 date: 2021-04-28T09:44:50.492Z
-company_name: iN Search Management Consultants 卓恩管理顧問有限公司
+company_name: iN Search 卓恩管理顧問有限公司
 company_page_url: 'https://www.cakeresume.com/companies/insearch'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--9dhdcOiu--/c_pad,fl_png8,h_200,w_200/v1610522688/ppnzb1veba43cha2rznf.png
