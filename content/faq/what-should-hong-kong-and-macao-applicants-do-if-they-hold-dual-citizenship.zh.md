@@ -1,5 +1,5 @@
 ---
-title: What should Hong Kong and Macao applicants do if they hold dual citizenship?
+title: 港澳籍就業金卡申請人如果持有雙重國籍怎麼辦？
 draft: false
 tags:
   - Hong Kong & Macau Residents
