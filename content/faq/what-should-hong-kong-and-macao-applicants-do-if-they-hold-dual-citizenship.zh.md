@@ -1,0 +1,9 @@
+---
+title: What should Hong Kong and Macao applicants do if they hold dual citizenship?
+draft: false
+tags:
+  - Hong Kong & Macau Residents
+---
+如果您欲以港澳身分申請，您需要放棄另一國籍，根據港澳條例第四條，以港澳居民身分繼續辦理申請案，須檢附經外館驗證之放棄外國國籍證明書，並檢附經駐外館處或國內公證人認證之中譯本。
+
+若您填寫其他國籍而非港澳籍，則需填寫切結書說明只使用其他國籍護照（非港澳護照）入台。
