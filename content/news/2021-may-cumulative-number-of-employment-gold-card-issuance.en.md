@@ -22,3 +22,5 @@ Application field of cardholders:
 * Sport: 1
 * Finance: 211
 * Architectural Design: 10
+
+![2021年台灣就業金卡每月核發數](/cms-uploads/2021年台灣就業金卡每月核發數-5.jpg "2021年台灣就業金卡每月核發數")
