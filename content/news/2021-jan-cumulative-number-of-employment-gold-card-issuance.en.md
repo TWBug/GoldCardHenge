@@ -5,7 +5,7 @@ topic: eventsnews
 draft: false
 hidden: false
 categories:
-  - Announcement
+  - Monthly Data Report
 style: right
 ---
 # 2,127 Gold Cards issued to date!
