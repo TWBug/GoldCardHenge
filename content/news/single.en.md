@@ -8,11 +8,11 @@ cover_image: ""
 cover_image_alt: ""
 media_image: ""
 media_image_alt: ""
-tags: null
-style: hero
-image: img/uploads/dummy-image.jpg
 categories:
-  - Announcement
+  - Monthly Data Report
+style: hero
+tags: null
+image: img/uploads/dummy-image.jpg
 publishDate: 2020-11-05T07:09:20.617Z
 ---
 # 1,367 Gold Cards issued to date!
