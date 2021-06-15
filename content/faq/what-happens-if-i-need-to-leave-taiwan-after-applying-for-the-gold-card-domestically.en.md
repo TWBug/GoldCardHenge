@@ -2,6 +2,8 @@
 title: What happens if I need to leave Taiwan after applying for the Gold Card
   domestically?
 draft: false
+tags:
+  - Application
 ---
 If your Gold Card application is approved, you can print out your Resident Authorization for Overseas Applicants (found under the download section of the application portal) and present it upon entering Taiwan. After entering Taiwan, please bring your Resident Authorization for Overseas Applicants, electronic payment receipt (also found under the download section of the application portal), and your passport to your selected National Immigration Agency (NIA) service center to pick up your Gold Card.
 
