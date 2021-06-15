@@ -8,8 +8,6 @@ links: null
 items: null
 cms_omit: true
 ---
-\*The Gold Card Office will be closed on 6/14 due to the Dragon Boat Festival Holiday.
-
 \*Due to the pandemic, Office Hours will be closed until further notice.
 
 \*In response to the Covid-19 Level 3 alert, in-person tax filing is suspended in Taipei, New Taipei, Keelung, Taoyuan, and Yilan National tax offices until 6/28.
