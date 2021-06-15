@@ -457,6 +457,8 @@ en:
       translation: Enterprise Architecture
     - id: app-developer
       translation: App Developer
+    - id: monthly-data-report
+      translation: Monthly Data Report
 zh:
   items:
     - id: powered_by
@@ -903,3 +905,5 @@ zh:
       translation: 企業架構
     - id: app-developer
       translation: App 開發
+    - id: monthly-data-report
+      translation: 每月數據報告
