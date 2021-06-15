@@ -1,7 +1,7 @@
 ---
 title: COVID-19 Announcement
 summary: COVID-19 Announcement
-date: 2021-05-31T08:47:34.396Z
+date: 2021-06-15T05:45:34.396Z
 topic: eventsnews
 draft: false
 hidden: false
@@ -11,6 +11,16 @@ categories:
 style: right
 ---
 # COVID-19 Announcement
+
+6/15
+
+**R.O.C. (Taiwan) overseas missions will halt the processing of all visa applications during Taiwan’s nationwide Level 3 epidemic alert.**
+
+All R.O.C. (Taiwan) overseas missions are halting the processing of all visa applications during the nationwide Level 3 epidemic alert (including the Passport Inspection Stage of the Gold Card). Entry has also been suspended for persons holding a valid Visitor Visa or Resident Visa. Foreign nationals requiring entry to Taiwan for emergencies or on humanitarian grounds, such as attending a funeral or visiting a critically ill family member, must receive special permission from the CECC before applying for a special entry permit visa from an R.O.C. (Taiwan) mission.
+
+The announcement of Bureau of Consular Affairs please refer to: <https://www.boca.gov.tw/cp-220-5081-c06dc-2.html>
+
+5/31
 
 In accordance with the CECC’s regulations, the Ministry of Foreign Affairs will halt the processing of all visa applications (including the passport inspection stage of the Gold Card).
 
