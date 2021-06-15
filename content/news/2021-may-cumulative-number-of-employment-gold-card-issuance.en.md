@@ -6,7 +6,7 @@ draft: false
 hidden: false
 chatbot: false
 categories:
-  - Announcement
+  - Monthly Data Report
 style: right
 ---
 # 2,757 Gold Cards issued to date!
@@ -23,4 +23,4 @@ Application field of cardholders:
 * Finance: 211
 * Architectural Design: 10
 
-![2021年台灣就業金卡每月核發數](/cms-uploads/2021年台灣就業金卡每月核發數-5.jpg "2021年台灣就業金卡每月核發數")
+![2021年台灣就業金卡每月核發數-5](/cms-uploads/2021年台灣就業金卡每月核發數-5-英.jpg "2021年台灣就業金卡每月核發數-5")

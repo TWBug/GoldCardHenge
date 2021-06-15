@@ -6,7 +6,7 @@ draft: false
 hidden: false
 chatbot: false
 categories:
-  - Announcement
+  - Monthly Data Report
 style: right
 ---
 # 就業金卡最新核發數字: 2,757!
@@ -23,4 +23,4 @@ style: right
 * 金融：211件
 * 建築設計：10件
 
-![2021年台灣就業金卡每月核發數](/cms-uploads/2021年台灣就業金卡每月核發數-5.jpg "2021年台灣就業金卡每月核發數")
+![Number of Employment Gold Cards Issued by Month-5](/cms-uploads/2021年台灣就業金卡每月核發數-5-中.jpg "Number of Employment Gold Cards Issued by Month-5")
