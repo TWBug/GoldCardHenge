@@ -6,7 +6,7 @@ draft: false
 hidden: false
 chatbot: false
 categories:
-  - Announcement
+  - Monthly Data Report
 style: right
 ---
 # 2,447 Gold Cards issued to date!
