@@ -6,7 +6,7 @@ draft: false
 hidden: false
 chatbot: false
 categories:
-  - Announcement
+  - Monthly Data Report
 style: right
 ---
 # 就業金卡最新核發數字: 2,607!
