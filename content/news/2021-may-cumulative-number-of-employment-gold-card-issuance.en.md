@@ -23,4 +23,4 @@ Application field of cardholders:
 * Finance: 211
 * Architectural Design: 10
 
-![2021年台灣就業金卡每月核發數-5](/cms-uploads/2021年台灣就業金卡每月核發數-5-英.jpg "2021年台灣就業金卡每月核發數-5")
+![Number of Employment Gold Cards Issued by Month-5](/cms-uploads/2021年台灣就業金卡每月核發數-5-英.jpg "Number of Employment Gold Cards Issued by Month-5")

@@ -23,4 +23,4 @@ style: right
 * 金融：211件
 * 建築設計：10件
 
-![Number of Employment Gold Cards Issued by Month-5](/cms-uploads/2021年台灣就業金卡每月核發數-5-中.jpg "Number of Employment Gold Cards Issued by Month-5")
+![2021年台灣就業金卡每月核發數-5](/cms-uploads/2021年台灣就業金卡每月核發數-5-中.jpg "2021年台灣就業金卡每月核發數-5")
