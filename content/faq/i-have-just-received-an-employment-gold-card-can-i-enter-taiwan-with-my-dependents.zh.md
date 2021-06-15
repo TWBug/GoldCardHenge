@@ -1,6 +1,5 @@
 ---
-title: I have just received an Employment Gold Card, can I enter Taiwan with my
-  dependents?
+title: 我剛拿到就業金卡，我可以和眷屬一同入境臺灣嗎？
 draft: false
 tags:
   - Hong Kong & Macau Residents
