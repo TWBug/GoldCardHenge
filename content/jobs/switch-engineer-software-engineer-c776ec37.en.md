@@ -34,6 +34,13 @@ job_tags:
   - TCP/IP
   - UI
   - firmware
+  - 網通
+  - 網通產品
+  - 外商公司
+  - 薪資優渥
+  - 穩定發展
+  - 福利優渥
+  - 研發設計
 badges:
   - Industrial Engineer
 
