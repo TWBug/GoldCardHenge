@@ -1,5 +1,7 @@
 ---
-title: 如果我的就業金卡核准了，等了一個月卻還未收到外交部駐外館處通知領取信該怎麼辦？
+title: What should I do if my Employment Gold Card has been approved, but it has
+  been over a month and I haven't received any notice from the overseas mission
+  of the Ministry of Foreign Affairs?
 draft: false
 tags:
   - Application
