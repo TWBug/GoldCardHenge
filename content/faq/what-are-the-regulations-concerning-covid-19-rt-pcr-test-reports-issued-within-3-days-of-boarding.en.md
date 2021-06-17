@@ -1,8 +1,6 @@
 ---
-title: What are the regulations concerning COVID-19 RT-PCR test reports issued
-  within 3 days of boarding?
-draft: false
+title: Do I have a chance to get vaccinated?
 tags:
   - COVID 19
 ---
-Please refer to the CDC’s Border quarantine <https://www.cdc.gov.tw/En/Category/MPage/IykZ1kL-0bxjZG7XazL9Dw>
+Currently, only government-funded vaccines are available, please refer to the COVID-19 vaccine priority list in Taiwan: <https://focustaiwan.tw/politics/202106130007>
