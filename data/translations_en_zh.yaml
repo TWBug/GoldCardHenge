@@ -459,6 +459,8 @@ en:
       translation: App Developer
     - id: monthly-data-report
       translation: Monthly Data Report
+    - id: covid-19
+      translation: COVID 19
 zh:
   items:
     - id: powered_by
@@ -907,3 +909,5 @@ zh:
       translation: App 開發
     - id: monthly-data-report
       translation: 每月數據報告
+    - id: covid-19
+      translation: COVID 19 專區
