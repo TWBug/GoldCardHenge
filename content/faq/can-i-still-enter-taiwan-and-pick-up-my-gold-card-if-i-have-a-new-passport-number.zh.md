@@ -1,6 +1,5 @@
 ---
-title: Can I still enter Taiwan and pick up my Gold Card if I have a new
-  passport number?
+title: 如果我換了新的護照號碼，我可以入境台灣領取就業金卡嗎？
 draft: false
 tags:
   - Application
