@@ -12,10 +12,10 @@ company_name: OpenNet 開網有限公司
 company_page_url: 'https://www.cakeresume.com/companies/opennet-limited'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s---KIdOoH---/c_pad,fl_png8,h_200,w_200/v1574663536/bzaybcelyff1kqaqhhmr.png
-salary_text: TWD700000 - TWD1500000
+salary_text: TWD650000 - TWD1500000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 700000
+salary_min: 650000
 salary_max: 1500000
 location_list:
   - 台北
