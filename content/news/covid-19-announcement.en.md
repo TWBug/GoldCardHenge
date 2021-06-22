@@ -18,6 +18,8 @@ style: right
 
 All R.O.C. (Taiwan) overseas missions are halting the processing of all visa applications during the nationwide Level 3 epidemic alert (including the Passport Inspection Stage of the Gold Card). Entry has also been suspended for persons holding a valid Visitor Visa or Resident Visa. Foreign nationals requiring entry to Taiwan for emergencies or on humanitarian grounds, such as attending a funeral or visiting a critically ill family member, must receive special permission from the CECC before applying for a special entry permit visa from an R.O.C. (Taiwan) mission.
 
+**If you have just applied or your application is currently under review, your application will continue to proceed until it gets to the Passport Inspection Stage. If you have applied for the Gold Card while on an ARC, you will not be affected by this change.**
+
 The announcement of Bureau of Consular Affairs please refer to: <https://www.boca.gov.tw/cp-220-5081-c06dc-2.html>
 
 5/31
