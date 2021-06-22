@@ -1,7 +1,5 @@
 ---
-title: Can I apply for the Employment Gold Card if I hold both a Hong Kong
-  Special Administrative Region (HKSAR) Passport and a British National Overseas
-  (BNO) Passport?
+title: 我同時持有香港特區護照及英國國民海外護照，可否申請就業金卡？
 draft: false
 tags:
   - Hong Kong & Macau Residents
