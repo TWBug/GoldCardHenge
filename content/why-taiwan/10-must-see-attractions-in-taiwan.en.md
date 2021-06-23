@@ -103,3 +103,11 @@ Taroko National Park was named after the Taroko Gorge, the landmark gorge of the
 Nantou County, Taiwan 
 
 Yushan National Park was named after the summit Yushan (Jade Mountain), the highest peak of the park. The Park contains over thirty peaks more than 3,000 meters in elevation, encompasses a variety of habitats, and is home to a large variety of birds, mammals, reptiles, butterflies and more. Many people who visit Taiwan train specifically, and make it their goal to conquer the main peak of Yushan, as is it considered the tallest mountain in Taiwan.
+
+{{< card title="Taroko National Park" link="" image="/cms-uploads/dragon-and-tiger-pagodas.jpg" >}}
+
+{{< /card >}}
+
+{{< card title="YuShan National Park" link="" image="/cms-uploads/yushan-national-park.jpg" >}}
+
+{{< /card >}}
