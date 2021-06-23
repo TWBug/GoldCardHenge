@@ -4,6 +4,10 @@ date: 2021-06-23T11:39:18.872Z
 draft: false
 chatbot: false
 topic: whytaiwan
+cover_image: /cms-uploads/10-must-see-attractions-in-taiwan.jpg
+cover_image_alt: 10 Must See Attractions in Taiwan
+media_image: /cms-uploads/10-must-see-attractions-in-taiwan.jpg
+media_image_alt: 10 Must See Attractions in Taiwan
 topics:
   - Discover Taiwan
 style: right
