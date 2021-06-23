@@ -3,6 +3,7 @@ title: How to apply?
 draft: false
 tags:
   - Application
+weight: 100
 ---
 Application is done online. 
 
