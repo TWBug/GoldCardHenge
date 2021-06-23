@@ -44,6 +44,14 @@ Taipei City, Taiwan
 
 Yangmingshan National Park is one of nine national parks in Taiwan, and is known for its beautiful cherry blossoms, hot springs, hiking trails, and is the home of Taiwan's tallest dormant volcano, Seven Star Mountain. The Park is characterized by a large clock formed with flowers with water running around the clock and music played every hour. In the spring, visitors can enjoy the parks famed cherry blossoms and when the time is right, even pick fresh calla lilies from the fields. 
 
+{{< card title="National Palace Museum" link="" image="/cms-uploads/national-palace-museum.jpg" >}}
+
+{{< /card >}}
+
+{{< card title="Yangmingshan National Park" link="" image="/cms-uploads/yangmingshan-national-park.png" >}}
+
+{{< /card >}}
+
 ## Jiufen
 
 New Taipei City, Taiwan
@@ -56,6 +64,14 @@ Nantou County, Taiwan
 
 Sun Moon Lake is the largest body of water and only natural lake in Taiwan that surrounds Lalu Island. The area around the lake is home to one of the aboriginal tribes of Taiwan, the Thao tribe. The southern part of Lalu Island is shaped like a new moon, and the northern part like a sun, thus the name Sun Moon Lake. Some famous attractions include the Ita Thao, the Wenwu and Xuanzang Temple, Ci-en Pagoda, and experiencing local aboriginal culture. 
 
+{{< card title="Jiufen" link="" image="/cms-uploads/jiufen.jpg" >}}
+
+{{< /card >}}
+
+{{< card title="Sun Moon Lake" link="" image="/cms-uploads/sun-moon-lake.jpg" >}}
+
+{{< /card >}}
+
 ## Fo Guang Shan Buddha Museum
 
 Tainan City, Taiwan
@@ -67,6 +83,14 @@ The Fo Guang Shan Buddha Museum is the largest Buddhist monastery and educationa
 Kaohsiung City, Taiwan
 
 Built in 1976, the Dragon and Tiger Pagodas is a temple located on Lotus Lake, and is the representation of traditional Kaohsiung culture. The temple connects to the shore with a bridge, with the dragon's throat as the entrance and the tiger's mouth the exit. Entering the dragon's throat and coming out of the tiger's mouth is said to symbolize turning bad luck into good fortune. Inside the temple, there are paintings of the Jade Emperor's thirty palaces, paintings of Confucius, as well as scenes of heaven and hell to inspire people to do good deeds.
+
+{{< card title="Fo Guang Shan Buddha Museum" link="" image="/cms-uploads/fo-guang-shan-buddha-museum.jpg" >}}
+
+{{< /card >}}
+
+{{< card title="Dragon and Tiger Pagodas" link="" image="/cms-uploads/dragon-and-tiger-pagodas.jpg" >}}
+
+{{< /card >}}
 
 ## Taroko National Park
 
