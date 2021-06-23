@@ -8,46 +8,66 @@ topics:
   - Discover Taiwan
 style: right
 ---
-# 不可錯過的十大台灣景點
+# 10 Must See Attractions in Taiwan
 
-在有些人眼中台灣或許只是座小島，但這個獨特的地方卻充滿了令人驚嘆的風景和引人入勝的景點。就讓我們一起看看不可錯過的十大台灣景點吧！
+Taiwan may be a small island, but this unique place is filled with a plethora of amazing attractions and beautiful sites to experience. Here are 10 attractions that you must visit when in Taiwan. 
 
-## 台北101，台北市
+## Taipei 101
 
-從 2004 年到 2010 年，這棟有著 101 層的宏偉摩天大樓是世界上最高的建築，從第 5 層到第 89 層電梯只需要 37秒。遊客可以一路直達到 89樓的觀景台，環視台北城的百變風光。欣賞完美麗的風景後，還可前往位於低樓層的台北 101 購物中心，這裡擁有眾多的國際時尚品牌和多元美食，滿足遊客的購物體驗與享樂需求。
+Taipei City, Taiwan
 
-## 中正紀念堂，台北市
+Deemed the world’s tallest building from 2004-2010, this beautiful skyscraper boasts 101 floors and an elevator that can transport passengers from the 5th to 89th floor in a matter of 37 seconds. Visitors can ride all the way up to the 89F Observatory and enjoy a breathtaking view of the city.  After enjoying the view, they can make their way down to the Taipei 101 Mall, a premier shopping destination, featuring international luxury fashion brands and fine dining.
 
-國立中正紀念堂是國家紀念碑和地標，為紀念中華民國前總統蔣介石而建立，具有歷史與政治意義。紀念堂的南北兩側是國家戲劇院和國家音樂廳，是大型國際藝術展演的重要場地，有許多知名音樂家、樂團、表演團體在此演出，而每日的三軍儀隊換崗儀式也可以讓你一睹中華民國國軍的風采。
+## National Chiang Kai-Shek Memorial Hall
 
-## 故宮博物院，台北市
+Taipei City, Taiwan
 
-國立故宮博物院是以中國北方宮殿式的四層樓宇風格建造而成，館藏超過 600,000 件物品，涵蓋了從新石器到明清時代共8,000年的中國藝術史，許多古物都是世上無價之寶，為現今僅存的中國古代皇家文物和藝術品，藏品有青銅器、玉器、水墨畫、瓷器、檔案文書等，遊客可以在此盡情欣賞中國古典之美。
+The National Chiang Kai-Shek Memorial Hall is a national monument and landmark, erected in memory of Chiang Kai-shek, former President of the Republic of China. The monument is flanked on the north and south by the National Theater and National Concert Hall, which have hosted many international art performances and famous musicians. Visitors can also watch the changing of the guard ceremony that occurs every day. 
 
-## 陽明山國家公園，台北市
+## National Palace Museum
 
-陽明山國家公園是台灣九個國家公園之一，以美麗的櫻花、溫泉、登山步道而聞名，更是台灣最高的休眠火山——七星山的所在地。此國家公園的著名景點是一座由鮮花組成的大鐘，圍繞著潺潺流水，整點時還會播放音樂。遊客可以在春天花季到公園裡賞花，甚至可以從田間採摘新鮮的海芋呢！
+Taipei City, Taiwan
 
-## 九份，新北市
+The National Palace Museum houses the world's largest collection of priceless ancient Chinese imperial artifacts and art. The museum, designed in the style of a Northern Chinese palace, hosts over 600,000 objects and the collection encompasses 8,000 years of history of Chinese art from the Neolithic age to the modern. Visitors can enjoy and appreciate ritual bronzes, ceramics, jade, books, calligraphy, archival documents, and more.
 
-九份經常被視為宮崎駿電影《神隱少女》的靈感來源，距離台北市不遠，車程約一個多小時。九份得名於清朝時期，當時還是座小小的村落，只有9戶人家，每一次採買都要求備齊9份，久而久之便以此命名。二十世紀初期，九份成為金礦開採中心，許多淘金者來此定居，這座偏遠的山城也逐漸發展成現今的樣貌。遊客來到九份必須以步行穿過蜿蜒的老街，可以一邊購物、一邊品嚐當地美食，若待晚一點還可從遠處眺望這美麗的山城夜景。
+## Yangmingshan National Park
 
-## 日月潭，南投縣
+Taipei City, Taiwan
 
-日月潭是台灣最大的半天然湖泊，海拔高度760公尺，湖周圍地區是台灣原住民——邵族的家園。整座湖泊以拉魯島為界分成南北兩半，北邊呈太陽狀、南邊呈新月狀，有日又有月故名日月潭。湖區內還有一些著名的景點，包括伊達邵、文武和玄奘寺、慈恩塔，遊客來此地可以體驗當地原住民文化。
+Yangmingshan National Park is one of nine national parks in Taiwan, and is known for its beautiful cherry blossoms, hot springs, hiking trails, and is the home of Taiwan's tallest dormant volcano, Seven Star Mountain. The Park is characterized by a large clock formed with flowers with water running around the clock and music played every hour. In the spring, visitors can enjoy the parks famed cherry blossoms and when the time is right, even pick fresh calla lilies from the fields. 
 
-## 佛光山佛陀紀念館，台南市 
+## Jiufen
 
-佛光山佛陀紀念館是台灣最大的佛教寺院和教育博物館，整座園區呈長條狀，在中軸線底端有一座高達48公尺的大佛，為世界上最高的青銅坐佛像。園區另一個著名的景點為成佛大道，大道兩旁豎立著八座中國樓閣式塔，各高38公尺。據說博物館收藏了佛教創始人釋迦牟尼佛的牙齒遺物等，藝術畫廊展示了一系列歷史和文化瑰寶，包括詩歌、書法、宗教樂器和古董等。
+New Taipei City, Taiwan
 
-## 龍虎塔，高雄市
+Often seen as the inspiration for Hayao Miyazaki’s Spirited Away, Jiufen is located not too far from Taipei City. During the Qing Dynasty, this small village housed only 9 families, and the village would request 9 portions every time shipments arrived, hence the name Jiufen. Later, Jiufen would become the center of gold mining, attracting many prospectors to settle in this small, isolated village. Visitors must walk through Jiufen Old Street, which winds through most of the village. On Old Street, they can shop and taste various local dishes and enjoy the nighttime scenery.
 
-龍虎塔建於1976年，是一座位於蓮花湖上的寺廟，為高雄傳統文化的代表。廟以橋接岸，以龍喉為入口、虎口為出口，入龍喉、出虎口，寓意化禍為福。殿內有玉皇大帝三十宮圖、孔子圖，以及天堂地獄的景象，以激勵人們做好事。
+## Sun Moon Lake
 
-## 太魯閣國家公園，花蓮縣
+Nantou County, Taiwan
 
-太魯閣國家公園得名於太魯閣峽谷，此峽谷由立霧溪切割、沖刷而成，峽谷兩旁聳立著陡峭狹窄幾近垂直的山脈，行走在其中可看見大理岩變化萬千的紋理。公園內最著名的瀑布有白楊瀑布、銀帶瀑布、長春瀑布、綠水瀑布，更有燕子洞和九曲洞隧道等令人印象深刻的自然景觀。遊客可以一邊欣賞自然美景，一邊沿著小徑健行，同時聆聽來自四面八方的燕子鳴叫聲。
+Sun Moon Lake is the largest body of water and only natural lake in Taiwan that surrounds Lalu Island. The area around the lake is home to one of the aboriginal tribes of Taiwan, the Thao tribe. The southern part of Lalu Island is shaped like a new moon, and the northern part like a sun, thus the name Sun Moon Lake. Some famous attractions include the Ita Thao, the Wenwu and Xuanzang Temple, Ci-en Pagoda, and experiencing local aboriginal culture. 
 
-## 玉山國家公園，南投縣
+## Fo Guang Shan Buddha Museum
 
-玉山國家公園座落在臺灣中央地帶，因最高峰玉山而得名。其主峰海拔3,952公尺，為東亞第一高峰，園區內還包含 30 多座超過 3,000 米的山峰，最高與最低海拔差距達 3,600 公尺，造就出如此多變的地形景緻與豐富多樣化的植物林相，使其成為各種鳥類、哺乳動物、爬行動物、蝴蝶等的家園，吸引許多熱愛戶外活動、生態探險的遊客慕名而來。若您想要在來訪時登上這座台灣第一高峰，請務必在啟程前先加強體能訓練。
+Tainan City, Taiwan
+
+The Fo Guang Shan Buddha Museum is the largest Buddhist monastery and educational museum in Taiwan. Above the museum sits the world’s tallest bronze sitting Buddha statue, and in front of the statue is the Way to Buddhahood path flanked by Eight Pagodas on both sides. The museum houses what is said to be one of the tooth relics of Shakyamuni Buddha, the founder of the Buddhist faith. The art gallery inside displays an array of historical and cultural treasures, including poetry, calligraphy, religious instruments, and antiques. 
+
+## Dragon and Tiger Pagodas
+
+Kaohsiung City, Taiwan
+
+Built in 1976, the Dragon and Tiger Pagodas is a temple located on Lotus Lake, and is the representation of traditional Kaohsiung culture. The temple connects to the shore with a bridge, with the dragon's throat as the entrance and the tiger's mouth the exit. Entering the dragon's throat and coming out of the tiger's mouth is said to symbolize turning bad luck into good fortune. Inside the temple, there are paintings of the Jade Emperor's thirty palaces, paintings of Confucius, as well as scenes of heaven and hell to inspire people to do good deeds.
+
+## Taroko National Park
+
+Hualien County, Taiwan
+
+Taroko National Park was named after the Taroko Gorge, the landmark gorge of the park carved by the Liwu River, and is famous for its spectacular mountains and marble canyons. The most famous waterfalls in the park include Baiyang Waterfall, Yindai Waterfall, Changchun Waterfall, and Lushui Waterfall. The Swallow Grotto and the Tunnel of Nine Turns are the most impressive natural scenes in Taroko. Visitors can appreciate the natural beauty of the park and enjoy the sounds of swallows chirping while hiking along the trail. 
+
+## YuShan National Park
+
+Nantou County, Taiwan 
+
+Yushan National Park was named after the summit Yushan (Jade Mountain), the highest peak of the park. The Park contains over thirty peaks more than 3,000 meters in elevation, encompasses a variety of habitats, and is home to a large variety of birds, mammals, reptiles, butterflies and more. Many people who visit Taiwan train specifically, and make it their goal to conquer the main peak of Yushan, as is it considered the tallest mountain in Taiwan.
