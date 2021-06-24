@@ -28,6 +28,8 @@ Taipei City, Taiwan
 
 The National Chiang Kai-Shek Memorial Hall is a national monument and landmark, erected in memory of Chiang Kai-shek, former President of the Republic of China. The monument is flanked on the north and south by the National Theater and National Concert Hall, which have hosted many international art performances and famous musicians. Visitors can also watch the changing of the guard ceremony that occurs every day. 
 
+![Taipei 101](/cms-uploads/taipei-101.jpg "Taipei 101")
+
 {{< card title="Taipei 101" link="" image="/cms-uploads/taipei-101.jpg" >}}
 
 {{< /card >}}
