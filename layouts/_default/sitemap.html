@@ -21,9 +21,9 @@
             <h2 class="font-medium text-xl leading-relaxed">{{ .Summary }}</h2>
             <ul class="mt-6">
                 {{ range .Site.Sections }}
-                {{ if eq (.RelPermalink | strings.Count "/apply/")  0 }}
-                {{ template "sitemap" (dict "p" . ) }}
-                {{ end }}
+                    {{ if eq (.RelPermalink | strings.Count "/apply/")  0 }}
+                        {{ template "sitemap" (dict "p" . ) }}
+                    {{ end }}
                 {{ end }}
             </ul>
         </div>
@@ -43,7 +43,9 @@
                 </span>
                 <span class="font-bold text-base ">{{ .p.Title}}</span>
             </a>
-            {{ template "sitemap2" (dict "p" .p )  }}
+            {{ if not (in (slice "jobs" "faq") .p.Section) }}
+                {{ template "sitemap2" (dict "p" .p )  }}
+            {{ end }}
         </li>
     </ul>
     {{ else }}
