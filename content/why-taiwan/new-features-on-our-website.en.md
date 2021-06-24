@@ -9,7 +9,7 @@ media_image: /cms-uploads/new-features-on-our-website.jpg
 media_image_alt: ""
 topics:
   - Other
-style: right
+style: title
 ---
 # New Features on our Website
 

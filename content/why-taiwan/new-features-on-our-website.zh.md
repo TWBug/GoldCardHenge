@@ -9,7 +9,7 @@ media_image: /cms-uploads/new-features-on-our-website.jpg
 media_image_alt: ""
 topics:
   - Other
-style: right
+style: title
 ---
 # 網站上的新功能
 
