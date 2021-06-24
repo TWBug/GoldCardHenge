@@ -4,9 +4,9 @@ date: 2020-12-10T07:41:05.093Z
 draft: false
 topic: whytaiwan
 cover_image: /cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
-media_image:
+media_image: /cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
 topics:
-    - Discover Taiwan
+  - Discover Taiwan
 style: title
 ---
 
