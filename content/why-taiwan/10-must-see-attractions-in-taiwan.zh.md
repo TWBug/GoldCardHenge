@@ -10,7 +10,7 @@ media_image: /cms-uploads/10-must-see-attractions-in-taiwan-1.jpg
 media_image_alt: 10 Must See Attractions in Taiwan
 topics:
   - Discover Taiwan
-style: right
+style: title
 ---
 # 不可錯過的十大台灣景點
 
