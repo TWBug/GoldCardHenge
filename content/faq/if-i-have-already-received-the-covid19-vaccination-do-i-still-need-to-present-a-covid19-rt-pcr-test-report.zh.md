@@ -1,6 +1,5 @@
 ---
-title: If I have already received the COVID19 vaccination, do I still need to
-  present a COVID19 RT-PCR test report?
+title: 若我曾接種過COVID-19疫苗，我需要出示核酸檢驗報告嗎?
 draft: false
 tags:
   - COVID 19
