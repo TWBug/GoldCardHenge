@@ -1,8 +1,7 @@
 ---
-title: " Amendments to the Act for the Recruitment and Employment of Foreign
-  Professionals Approved by the Legislative Yuan"
+title: 「外國專業人才延攬及僱用法」修正草案 經立法院三讀通過
 summary: 「外國專業人才延攬及僱用法」修正草案
-date: 2021-06-25T03:26:07.595Z
+date: 2021-06-18T03:26:07.595Z
 topic: eventsnews
 draft: false
 hidden: false
