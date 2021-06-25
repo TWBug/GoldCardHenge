@@ -10,13 +10,10 @@ weight: 4
 1. CDC疫苗施打點地圖
 
    <https://antiflu.cdc.gov.tw/Covid19>
-2. [](<1. https://antiflu.cdc.gov.tw/Covid19
-   2.>)COVID-19 台灣疫苗施打站清單
+2. COVID-19 台灣疫苗施打站清單
 
-   [https://docs.google.com/spreadsheets/d/e/2PACX-1vRFXBUq6oDWNlqTHUdTKBaTUQDnDczxmxeBDrcfFHfJhQ7H7BDKGJ4jzkprIsf2wrlD4B24dOFpdI9-/pubhtml](<https://docs.google.com/spreadsheets/d/e/2PACX-1vRFXBUq6oDWNlqTHUdTKBaTUQDnDczxmxeBDrcfFHfJhQ7H7BDKGJ4jzkprIsf2wrlD4B24dOFpdI9-/pubhtml
-   2.>)
-3. [](<https://docs.google.com/spreadsheets/d/e/2PACX-1vRFXBUq6oDWNlqTHUdTKBaTUQDnDczxmxeBDrcfFHfJhQ7H7BDKGJ4jzkprIsf2wrlD4B24dOFpdI9-/pubhtml
-   2.>)COVID-19疫苗對象接種所需證件及費用
+   <https://docs.google.com/spreadsheets/d/e/2PACX-1vRFXBUq6oDWNlqTHUdTKBaTUQDnDczxmxeBDrcfFHfJhQ7H7BDKGJ4jzkprIsf2wrlD4B24dOFpdI9-/pubhtml>
+3. COVID-19疫苗對象接種所需證件及費用
 
    <https://www.cdc.gov.tw/File/Get/4LQ90HpZAkjWGDcxB-Exrw>
 4. COVID-19 台灣快篩站清單
