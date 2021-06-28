@@ -5,7 +5,11 @@ tags:
   - COVID 19
 weight: 4
 ---
-台北市觀傳局臺北市防疫旅館相關FAQ：
+預訂防疫旅館：
+
+<http://taiwan.taiwanstay.net.tw/covhotel/>
+
+[](http://taiwan.taiwanstay.net.tw/covhotel/)台北市觀傳局臺北市防疫旅館相關FAQ：
 
 <https://www.tpedoit.gov.taipei/News_Content.aspx?n=2512DE93E0C88F50&s=4D1A133CA1360666>
 

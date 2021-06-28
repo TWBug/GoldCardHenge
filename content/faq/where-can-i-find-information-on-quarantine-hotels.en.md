@@ -5,7 +5,11 @@ tags:
   - COVID 19
 weight: 4
 ---
-Taipei City Government Quarantine Hotels FAQ:
+Quarantine Hotel Reservation: 
+
+<http://taiwan.taiwanstay.net.tw/covhotel/>
+
+[](http://taiwan.taiwanstay.net.tw/covhotel/)Taipei City Government Quarantine Hotels FAQ:
 
 <https://english.gov.taipei/News_Content.aspx?n=A0EDC3930FBE7EFC&sms=5B794C46F3CDE718&s=6CBBBD4737D9391D>
 
