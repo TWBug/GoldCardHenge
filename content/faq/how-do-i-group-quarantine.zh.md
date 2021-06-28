@@ -1,5 +1,5 @@
 ---
-title: How do I group quarantine?
+title: 我要如何集中檢疫？
 draft: false
 tags:
   - COVID 19
