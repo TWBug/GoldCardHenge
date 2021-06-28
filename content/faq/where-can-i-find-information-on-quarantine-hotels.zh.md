@@ -1,5 +1,5 @@
 ---
-title: Where can I find information on quarantine hotels?
+title: 我在哪裡可以找到防疫旅館的資訊？
 draft: false
 tags:
   - COVID 19
