@@ -1,7 +1,7 @@
 ---
 title: COVID-19 Announcement
 summary: COVID-19 Announcement
-date: 2021-06-15T05:45:34.396Z
+date: 2021-06-28T05:45:34.396Z
 topic: eventsnews
 draft: false
 hidden: false
@@ -11,6 +11,25 @@ categories:
 style: right
 ---
 # COVID-19 Announcement
+
+6/28
+
+**Group quarantine facilities available for self-paid stay. Individuals arriving in Taiwan must take a quarantine vehicle from the airport to their quarantine facility.**
+
+Starting June 27, individuals arriving in Taiwan from countries other than the seven high-risk COVID-19 variant countries (Brazil, India, UK, Peru, Israel, Indonesia, and Bangladesh), including those who have visited these countries in the past 14 days and those who have transferred through these countries, will be allowed to stay in group quarantine facilities at their own expense. Individuals can book a group quarantine facility beginning at 20:00 on June 26.
+
+The cost for the facilities is NT$ 2,000 per night per person, while children under the age of 12 can stay in the same room with one of their parents free of charge. Please note, that the CECC will assign the location of the group quarantine facility where the individual will stay.
+
+Members of the public who wish to quarantine at a group quarantine facility can make a reservation on the Quarantine System for Entry: https://hdhq.mohw.gov.tw/Default1?openExternalBrowser=1. 
+Reservations should be made and paid for on the Quarantine System for Entry 48 hours prior to the individuals scheduled flight arrival time to have a Reservation Code that should be provided for entry.
+
+Individuals arriving in Taiwan from one of the seven high-risk countries (Brazil, India, UK, Peru, Israel, Indonesia, and Bangladesh), are required to take quarantine vehicles arranged by the Ministry of Transportation and Communications from the airport to their group quarantine facility. Individuals arriving in Taiwan from countries other than the seven high-risk countries should take a quarantine vehicle (self-paid) or drive themselves to the quarantine hotel or group quarantine facility where they plan to stay. Friends and relatives of the individual should refrain from meeting them at the airport or driving them to their quarantine facility to reduce virus transmission.
+
+For more information, please refer to the CECC’s press releases:[](https://www.cdc.gov.tw/En/Bulletin/Detail/Sz-xhhsYnFP85zua7fEVLQ?typeid=158)
+
+<https://www.cdc.gov.tw/En/Bulletin/Detail/Sz-xhhsYnFP85zua7fEVLQ?typeid=158>
+
+<https://www.cdc.gov.tw/En/Bulletin/Detail/z5jLbqfeiVRbY3ECrhmhEg?typeid=158>
 
 6/24
 
