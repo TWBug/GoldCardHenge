@@ -5,6 +5,8 @@ topic: eventsnews
 draft: false
 hidden: false
 chatbot: false
+categories:
+  - Announcement
 style: right
 ---
 # Beginning June 30, Gold Card pick up location restricted to Taiwan

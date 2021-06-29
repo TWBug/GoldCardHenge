@@ -5,6 +5,8 @@ topic: eventsnews
 draft: false
 hidden: false
 chatbot: false
+categories:
+  - Announcement
 style: right
 ---
 # 自6/30起無論境外或境內就業金卡申請均改為境內移民署各服務站自取
