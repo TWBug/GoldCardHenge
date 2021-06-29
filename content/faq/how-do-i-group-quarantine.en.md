@@ -37,7 +37,7 @@ A5. People who apply to stay in a group quarantine facility at their own expense
 
 Q6. I hear that group quarantine facilities are open for reservations. When and how do I book one? 
 
-A6. Those who wish to book a group quarantine facility must make an appointment and pay for it at the Quarantine System for Entry Portal (https://hdhq.mohw.gov.tw) 48 hours before their flight is expected to arrive in Taiwan in order to acquire a Reservation Identification Code.
+A6. Those who wish to book a group quarantine facility must make an appointment and pay for it at the [Quarantine System for Entry Portal](https://hdhq.mohw.gov.tw " to Quarantine System for Entry Portal") 48 hours before their flight is expected to arrive in Taiwan in order to acquire a Reservation Identification Code.
 
 {{< separate >}}
 
@@ -66,4 +66,4 @@ Q10. Can a family live together? What if there are young children in need of car
 
 A10. The quarantine room is based on the principle of one person per room. If there are those who need care, such as infants or the elderly, there should be at most one caregiver, and masks must be worn in the quarantine room. The quarantined individual must stay within their own quarantine room, may not leave their room or enter another quarantined individual’s room without permission, and must eat in their own room. If any quarantined individuals leave their quarantine room without permission, they shall be fined according to law.
 
-For more information related to group quarantine, please refer to the Ministry of Health and Welfare’s website <https://sp1.hso.mohw.gov.tw/ccqs/index.php>
+For more information related to group quarantine, please refer to the [Ministry of Health and Welfare’s website](https://sp1.hso.mohw.gov.tw/ccqs/index.php " to Ministry of Health and Welfare’s website").
