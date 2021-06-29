@@ -1,5 +1,5 @@
 ---
-title: Can Employment Gold Card holders apply for any compensation during pandemic?
+title: 疫情期間就業金卡持卡人可否申請紓困補助？
 draft: false
 tags:
   - COVID 19
