@@ -1,6 +1,5 @@
 ---
-title: Am I eligible for the leftover vaccine dose if I do not have a National
-  Health Insurance (NHI) Card?
+title: 我沒有健保卡可以施打疫苗殘劑嗎？
 draft: false
 tags:
   - COVID 19
