@@ -1,5 +1,5 @@
 ---
-title: "Gold Card Special Announcement "
+title: 金卡特殊公告
 date: 2021-06-24T00:31:47.880Z
 topic: eventsnews
 draft: false
