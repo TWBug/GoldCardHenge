@@ -10,4 +10,4 @@ tags:
 
 您可以於[衛服部網頁](https://swis.mohw.gov.tw/covidweb/home/index.jsp "至衛服部網頁")線上申請防疫補助或可用郵寄或臨櫃方式，向受隔離或檢疫結束時之所在地之區公所申請。如有防疫補償相關疑問，可於每日上午8時至下午10時撥打免付費的1957福利諮詢專線洽詢。
 
-請注意，非必要赴三級警告國家或地區，及填寫檢疫通知書不實者，不可領取防疫補償並加徵必要之費用。請參考[衛服部網頁](https://www.cdc.gov.tw/Bulletin/Detail/3ERZMGlf0sGAhwZgIGE-oA?typeid=9 "至衛服部網頁")
+請注意，非必要赴三級警告國家或地區，及填寫檢疫通知書不實者，不可領取防疫補償並加徵必要之費用，相關資訊請參考[衛服部網頁](https://www.cdc.gov.tw/Bulletin/Detail/3ERZMGlf0sGAhwZgIGE-oA?typeid=9 "至衛服部網頁")
