@@ -66,7 +66,7 @@ Sun Moon Lake is the largest body of water and only natural lake in Taiwan that 
 
 ## Fo Guang Shan Buddha Museum
 
-Tainan City, Taiwan
+Kaohsiung City, Taiwan
 
 ![Fo Guang Shan Buddha Museum](/cms-uploads/fo-guang-shan-buddha-museum.jpg)
 
