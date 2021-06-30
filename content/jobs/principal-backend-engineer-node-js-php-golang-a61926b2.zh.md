@@ -4,18 +4,18 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '9173'
-title: 'Sr. Backend Engineer (Node.js, PHP, Golang)'
+title: 'Principal Backend Engineer (Node.js, PHP, Golang)'
 job_url: 'https://www.cakeresume.com/companies/langlive_/jobs/backend-engineer-0a1de2'
 date: 2019-03-08T07:50:32.325Z
 company_name: 浪LIVE_旭瑞文化傳媒股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/langlive_'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--1e-I-y12--/c_pad,fl_png8,h_200,w_200/v1616385344/wfhtghb7s7kodzblbav1.png
-salary_text: TWD1200000 - TWD1500000
+salary_text: TWD1400000 - TWD1700000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1200000
-salary_max: 1500000
+salary_min: 1400000
+salary_max: 1700000
 location_list:
   - 台北
   - 台灣
