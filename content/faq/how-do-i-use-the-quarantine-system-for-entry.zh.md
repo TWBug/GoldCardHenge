@@ -1,5 +1,5 @@
 ---
-title: How do I use the Quarantine System for Entry?
+title: 我要如何使用入境檢疫系統？
 draft: false
 tags:
   - COVID 19
