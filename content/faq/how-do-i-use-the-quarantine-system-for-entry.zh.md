@@ -3,7 +3,7 @@ title: 我要如何使用入境檢疫系統？
 draft: false
 tags:
   - COVID 19
-weight: 17
+weight: 1
 ---
 Q1. 什麼是「入境檢疫系統」？
 

@@ -3,7 +3,7 @@ title: How do I use the Quarantine System for Entry?
 draft: false
 tags:
   - COVID 19
-weight: 17
+weight: 1
 ---
 Q1. What is the Quarantine System for Entry?
 
