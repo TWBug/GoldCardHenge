@@ -1,5 +1,6 @@
 ---
 title: 2021/APR Cumulative Number of Employment Gold Card Issuance
+summary: 2,447 Gold Cards issued to date!
 date: 2021-05-04T07:12:28.287Z
 topic: eventsnews
 draft: false

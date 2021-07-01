@@ -1,5 +1,6 @@
 ---
 title: 2021年4月就業金卡最新核發數字
+summary: "就業金卡最新核發數字: 2,607！"
 date: 2021-05-04T07:12:28.287Z
 topic: eventsnews
 draft: false
@@ -9,7 +10,7 @@ categories:
   - Monthly Data Report
 style: right
 ---
-# 就業金卡最新核發數字: 2,607!
+# 就業金卡最新核發數字: 2,607！
 
 就業金卡自107年2月8日起至110年4月30日止，累計核准2,607件。 
 
