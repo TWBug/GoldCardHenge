@@ -1,5 +1,6 @@
 ---
 title: "Gold Card Special Announcement "
+summary: "Gold Card Special Announcement "
 date: 2021-07-01T03:08:36.984Z
 topic: eventsnews
 draft: false
