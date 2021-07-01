@@ -1,6 +1,6 @@
 ---
 title: "2020年9月就業金卡最新核發數字\t"
-summary: ""
+summary: "就業金卡最新核發數字: 1,367！"
 date: 2020-09-30T05:00:20.617Z
 topic: eventsnews
 draft: false
@@ -13,7 +13,7 @@ categories:
 publishDate: 2020-11-05T07:09:20.617Z
 cover_image_alt: ""
 ---
-# 就業金卡最新核發數字: 1,367!
+# 就業金卡最新核發數字: 1,367！
 
 自107年2月8日起至109年9月30日止，總核准1367件。
 

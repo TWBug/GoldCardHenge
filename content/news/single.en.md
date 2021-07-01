@@ -1,6 +1,6 @@
 ---
 title: 2020/SEP Cumulative Number of Employment Gold Card Issuance
-summary: ""
+summary: 1,367 Gold Cards issued to date!
 date: 2020-09-30T05:00:20.617Z
 topic: eventsnews
 draft: false
