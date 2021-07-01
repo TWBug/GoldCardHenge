@@ -1,5 +1,5 @@
 ---
-title: 2021/JUN Cumulative Number of Employment Gold Card Issuance
+title: 2021年6月就業金卡最新核發數字
 date: 2021-07-01T01:30:57.644Z
 topic: eventsnews
 draft: false
