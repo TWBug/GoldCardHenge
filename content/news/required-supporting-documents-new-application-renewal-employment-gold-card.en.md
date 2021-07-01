@@ -1,6 +1,8 @@
 ---
 title: The required supporting documents for the new application or renewal of
   Employment Gold Card
+summary: The required supporting documents for the new application or renewal of
+  Employment Gold Card
 date: 2021-02-08T05:00:31.524Z
 topic: eventsnews
 draft: false
