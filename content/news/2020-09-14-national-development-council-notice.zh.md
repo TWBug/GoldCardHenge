@@ -1,5 +1,6 @@
 ---
 title: 預告「外國專業人才延攬及僱用法」修正草案
+summary: 預告「外國專業人才延攬及僱用法」修正草案
 date: 2020-09-14T08:22:14.768Z
 draft: false
 hidden: false

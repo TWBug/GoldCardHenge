@@ -1,6 +1,9 @@
 ---
 title: "National Development Council Notice: Advance notice of draft amendments
   to the Act for the Recruitment and Employment of Foreign Professionals"
+summary: "National Development Council Notice: Advance notice of draft
+  amendments to the Act for the Recruitment and Employment of Foreign
+  Professionals"
 date: 2020-09-14T08:22:14.768Z
 draft: false
 hidden: false
