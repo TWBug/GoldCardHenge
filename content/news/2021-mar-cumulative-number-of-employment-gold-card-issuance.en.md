@@ -1,5 +1,6 @@
 ---
 title: 2021/MAR Cumulative Number of Employment Gold Card Issuance
+summary: 2,447 Gold Cards issued to date!
 date: 2021-04-01T01:53:14.500Z
 topic: eventsnews
 draft: false
