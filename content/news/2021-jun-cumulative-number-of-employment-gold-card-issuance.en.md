@@ -1,5 +1,6 @@
 ---
 title: 2021/JUN Cumulative Number of Employment Gold Card Issuance
+summary: 2,878 Gold Cards issued to date!
 date: 2021-07-01T01:30:57.644Z
 topic: eventsnews
 draft: false

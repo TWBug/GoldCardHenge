@@ -1,5 +1,6 @@
 ---
 title: 2021年6月就業金卡最新核發數字
+summary: "就業金卡最新核發數字: 2,878！"
 date: 2021-07-01T01:30:57.644Z
 topic: eventsnews
 draft: false
