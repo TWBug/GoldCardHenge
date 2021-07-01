@@ -2,6 +2,9 @@
 title: 20201215 Financial Supervisory Commission amended the " Required
   Qualifications for 'Foreign Special Professionals with Specific Financial
   Expertise' and Principles for Recognition of Qualifications”.
+summary: 20201215 Financial Supervisory Commission amended the " Required
+  Qualifications for 'Foreign Special Professionals with Specific Financial
+  Expertise' and Principles for Recognition of Qualifications”.
 date: 2020-12-22T06:00:06.930Z
 draft: false
 hidden: false
