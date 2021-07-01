@@ -1,5 +1,5 @@
 ---
-title: 2021/Jan Cumulative Number of Employment Gold Card Issuance
+title: 2021/JAN Cumulative Number of Employment Gold Card Issuance
 date: 2021-02-05T06:00:59.937Z
 topic: eventsnews
 draft: false
