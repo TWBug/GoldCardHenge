@@ -1,5 +1,6 @@
 ---
 title: "2020/DEC Cumulative Number of Employment Gold Card Issuance\t"
+summary: 1,945 Gold Cards issued to date!
 date: 2021-01-04T06:41:01.549Z
 draft: false
 hidden: false

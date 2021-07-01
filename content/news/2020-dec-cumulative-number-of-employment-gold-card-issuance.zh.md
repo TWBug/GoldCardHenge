@@ -1,5 +1,6 @@
 ---
 title: "2020年12月就業金卡最新核發數字\t"
+summary: "就業金卡最新核發數字: 1,945!"
 date: 2021-01-04T06:41:01.549Z
 draft: false
 hidden: false
