@@ -1,6 +1,6 @@
 ---
 title: 2020/OCT Cumulative Number of Employment Gold Card Issuance
-summary: ""
+summary: 1,532 Gold Cards issued to date!
 date: 2020-11-05T05:00:12.922Z
 draft: false
 hidden: false
