@@ -14,7 +14,7 @@ topic: goldcard
 
 ## Must meet **ONE** of the following conditions:
 
-{{< accordion title="Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000." suffix="1." bottomless="true" >}}
+{{< accordion title="Previously or currently holding a position at an economic company or in an economic field in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000." suffix="1." bottomless="true" >}}
 * Documents verifying salary or income tax payment relating to employment at an economic company or in an economic field. (Please provide ONE of the following).
 
   * A tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
@@ -24,12 +24,13 @@ topic: goldcard
 **Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
 {{< /accordion >}}
 
-{{< accordion title="Those who have held the position of operations, technical or marketing executive at an R&D center, operations headquarters or transnational corporation established in Taiwan." suffix="2." bottomless="true" >}}
-* One of the following documents to indicate the applicant’ current and former employer’s status in Taiwan such as the enterprise operational headquarter, research & development centers, transnational enterprise:
+{{< accordion title="Those who have held the position of operations, technical or marketing executive at high-tech R&D hubs, operations headquarters or transnational corporation established in Taiwan." suffix="2." bottomless="true" >}}
+* One of the following documents to indicate the applicant’ current and former employer’s status in Taiwan such as the enterprise operational headquarter, high-tech R&D hubs, transnational enterprise:
 
 1. Certificate of the range of the enterprise operational headquarters.
-2. Authorization letter of domestic and foreign enterprises’ plan to establish research & development centers in Taiwan.
-3. Any other documents which verify it as a transnational enterprise*(interpreted by the Ministry of Labor per Order Lao-Zhi-Guan-Tzu No. 1010504602 on April 9th, 2012).*
+2. Subsidy approval letter of MOEA’s “Global Innovation Partnership Initiatives” Program.
+3. Subsidy approval letter of MOEA’s “Pioneers for Innovation Leadership On Technology Program”
+4. Any other documents which verify it as a transnational enterprise*(interpreted by the Ministry of Labor per Order Lao-Dong-Fa-Guan-Tzu No. 1070508252 on July 2nd, 2018).*
 
 * Verification of service, or  verification of resignation made out by the employing organization to indicate the applicant who have held the position of operations, technical or marketing executive. 
 
@@ -76,7 +77,24 @@ Notes:
 * Corporation information during employment, job description (such as project experience, service experience, effectiveness after customer's introduction of solutions, etc.), documents verifying technology or other proof of expertise (such as domestic or foreign patent certificate, a technology transfer contract, academic works, licenses, documents verifying receipt of awards, etc.)
 {{< /accordion >}}
 
-{{< accordion title="Those who have been certified by the relevant central competent authority as specialized talents possessing professional capacity or transnational experience needed in Taiwan." suffix="5." bottomless="true" >}}
+
+
+{{< accordion title="Those who have held a specialized or interdisciplinary positions at Advertisement, Product design, Visual communication design, Designer fashion and Digital content  in the Cultural and Creative sectors, and have more than eight years of work experience in related fields." suffix="5." bottomless="true" >}}
+* Proof of work experience of for at least eight years in relevant fields. Please attach all of the following documents:
+
+  * Verification of domestic or foreign work experience in a relevant field for eight or more years.
+
+**Proof of work experience is a Certificate of Employment with your full name, company name, position, actual duration of employment, company stamp/seal, or signature of the entity by which the paper was issued.**
+
+Notes:
+
+1. Verifying documents must consist of proof of service, or proof of resignation made out by the employing organization. 
+2. When the candidate has both domestic and foreign proof of service, either one may be provided, but domestic and foreign work experience in relevant fields must total at least eight years.
+
+* Corporation information during employment, job description (such as original works, project experience, service experience, effectiveness after customer's introduction of solutions, etc.), documents verifying technology or other proof of expertise in Cultural and Creative Industries (such as documents verifying receipt of awards, academic works, licenses, professional certificate , domestic or foreign patent certificate, a technology transfer contract, etc.)
+{{< /accordion >}}
+
+{{< accordion title="Those who have been certified by the relevant central competent authority as specialized talents possessing professional capacity or transnational experience needed in Taiwan." suffix="6." bottomless="true" >}}
 
 -   Evidence proving applicant’s professional ability or transnational experience.
 
