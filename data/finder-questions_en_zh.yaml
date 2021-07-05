@@ -211,6 +211,12 @@ zh:
       qualifications:
         - MOEA-1
     - tree_id: 9
+      tree_order: 1
+      next_tree_id: null
+      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
+      qualifications:
+        - MOEA-1
+    - tree_id: 9
       tree_order: 2
       next_tree_id: null
       question_text: 你有超過5年以上的教學經驗嗎？
@@ -278,12 +284,6 @@ zh:
       qualifications:
         - MOC-V2
     - tree_id: 10
-      tree_order: 11
-      question_text: 你有取得工藝類相關之重要專利權並經主管機關認定者或獲得國內外政府同意補助、合作等之企業研發計畫嗎？
-      qualifications:
-        - MOC-V3
-        - MOC-V4
-    - tree_id: 10
       tree_order: 7
       next_tree_id: null
       question_text: 你在國際藝文非政府組織任職過嗎？
@@ -301,6 +301,12 @@ zh:
         - MOC-V3
         - MOC-VI3
         - MOC-VII4
+    - tree_id: 10
+      tree_order: 11
+      question_text: 你有取得工藝類相關之重要專利權並經主管機關認定者或獲得國內外政府同意補助、合作等之企業研發計畫嗎？
+      qualifications:
+        - MOC-V3
+        - MOC-V4
     - tree_id: 11
       tree_order: 0
       next_tree_id: null
@@ -319,12 +325,6 @@ zh:
       qualifications:
         - MOEA-5
         - MOST-13
-    - tree_id: 9
-      tree_order: 1
-      next_tree_id: null
-      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
-      qualifications:
-        - MOEA-1
     - tree_id: 2
       tree_order: 2
       next_tree_id: null
