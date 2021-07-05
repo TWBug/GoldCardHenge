@@ -211,12 +211,6 @@ zh:
       qualifications:
         - MOEA-1
     - tree_id: 9
-      tree_order: 1
-      next_tree_id: null
-      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
-      qualifications:
-        - MOEA-1
-    - tree_id: 9
       tree_order: 2
       next_tree_id: null
       question_text: 你有超過5年以上的教學經驗嗎？
@@ -290,7 +284,7 @@ zh:
       qualifications:
         - MOC-VI2
     - tree_id: 10
-      tree_order: 8
+      tree_order: 10
       next_tree_id: null
       question_text: 你的技能為文化部認定的藝術家、出版商或文化行政人員嗎？
       qualifications:
@@ -301,12 +295,6 @@ zh:
         - MOC-V3
         - MOC-VI3
         - MOC-VII4
-    - tree_id: 10
-      tree_order: 11
-      question_text: 你有取得工藝類相關之重要專利權並經主管機關認定者或獲得國內外政府同意補助、合作等之企業研發計畫嗎？
-      qualifications:
-        - MOC-V3
-        - MOC-V4
     - tree_id: 11
       tree_order: 0
       next_tree_id: null
@@ -330,6 +318,12 @@ zh:
       qualifications:
         - MOEA-5
         - MOST-13
+    - tree_id: 9
+      tree_order: 1
+      next_tree_id: null
+      question_text: 你最近（三年內）平均月薪（一整年度）達新臺幣十六萬元嗎？
+      qualifications:
+        - MOEA-1
     - tree_id: 2
       tree_order: 2
       next_tree_id: null
@@ -354,18 +348,18 @@ zh:
       qualifications:
         - MOST-10
     - tree_id: 4
-      tree_order: 5
-      question_text: 你經營的新創公司是否以超過500萬美元的價格被收購？
-      qualifications:
-        - MOST-11
-        - MOCVII2
-    - tree_id: 4
       tree_order: 6
       next_tree_id: 9
       question_text: 你是一位有實績之創投公司或基金之高階主管？
       qualifications:
         - MOST-12
         - MOCVII3
+    - tree_id: 4
+      tree_order: 5
+      question_text: 你經營的新創公司是否以超過500萬美元的價格被收購？
+      qualifications:
+        - MOST-11
+        - MOCVII2
     - tree_id: 5
       tree_order: 5
       next_tree_id: 9
@@ -388,6 +382,12 @@ zh:
       tree_order: 9
       qualifications:
         - MOC-VII2
+    - tree_id: 10
+      tree_order: 11
+      question_text: 你有取得工藝類相關之重要專利權並經主管機關認定者或獲得國內外政府同意補助、合作等之企業研發計畫嗎？
+      qualifications:
+        - MOC-V3
+        - MOC-V4
 en:
   items:
     - tree_id: 1
