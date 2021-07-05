@@ -318,6 +318,11 @@ zh:
       question_text: 你在半導體、電子電路設計、系統整合、生技醫材、精密機械、運輸工具、綠色能源或諮詢顧問有相關經驗？
       qualifications:
         - MOEA-4
+    - tree_id: 11
+      tree_order: 2
+      question_text: 你在文化創意產業擔任專業或跨領域整合職務？
+      qualifications:
+        - MOEA-5
     - tree_id: 12
       tree_order: 0
       next_tree_id: null
@@ -383,11 +388,6 @@ zh:
       tree_order: 9
       qualifications:
         - MOC-VII2
-    - tree_id: 11
-      tree_order: 2
-      question_text: 你在文化創意產業擔任專業或跨領域整合職務？
-      qualifications:
-        - MOEA-5
 en:
   items:
     - tree_id: 1
@@ -720,6 +720,12 @@ en:
         machinery, transportation, green energy, or consulting?
       qualifications:
         - MOEA-4
+    - tree_id: 11
+      tree_order: 2
+      qualifications:
+        - MOEA-5
+      question_text: Have you held specialized or interdisciplinary positions in the
+        Cultural and Creative sectors?
     - tree_id: 12
       tree_order: 0
       next_tree_id: null
@@ -802,9 +808,3 @@ en:
         - MOC-V4
       question_text: Have you obtained an important handicraft patent or have
         cooperated with the government of Taiwan or another country?
-    - tree_id: 11
-      tree_order: 2
-      qualifications:
-        - MOEA-5
-      question_text: Have you held specialized or interdisciplinary positions in the
-        Cultural and Creative sectors?
