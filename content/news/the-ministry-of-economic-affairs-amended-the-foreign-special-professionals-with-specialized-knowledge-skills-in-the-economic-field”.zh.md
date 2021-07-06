@@ -2,7 +2,7 @@
 title: 經濟部修正「外國特定專業人才具有經濟領域特殊專長」
 summary: The Ministry of Economic Affairs amended the "Foreign Special
   Professionals with specialized knowledge/skills in the Economic Field”.
-date: 2021-07-05T11:46:29.060Z
+date: 2021-07-06T01:00:29.060Z
 topic: eventsnews
 draft: false
 hidden: false
