@@ -215,7 +215,7 @@ en:
     - id: search_no_results
       translation: No results
     - id: footer_copyright
-      translation: Taiwan Employment Gold Card Office - All rights reserved
+      translation: National Development Council - All rights reserved
     - id: footer_description
       translation: The Taiwan Employment Gold Card is a combined open work permit,
         residence permit and visa for skilled professionals.
@@ -236,6 +236,10 @@ en:
       translation: Barrier-free web
     - id: footer_accessibility_logo
       translation: Pass A accessibility detection
+    - id: footer_ndc_link
+      translation: NDC website in english
+    - id: footer_ndc_logo
+      translation: NDC logo
     - id: error_headline
       translation: Page was not found
     - id: error_description
@@ -670,7 +674,7 @@ zh:
     - id: search_no_results
       translation: 沒結果
     - id: footer_copyright
-      translation: 台灣就業金卡辦公室 - 版權所有
+      translation: 國家發展委員會 - 版權所有
     - id: footer_description
       translation: 台灣就業金卡是一張結合工作許可、居留簽證、外僑居留證及重入國許可等四證合一的個人工作許可證，在有效期間內提供符合資格的外國人才可自由尋職、就職及轉換工作的便利性。
     - id: footer_help_headline
@@ -687,6 +691,10 @@ zh:
       translation: 無障礙網
     - id: footer_accessibility_logo
       translation: 通過A無障礙網頁檢測
+    - id: footer_ndc_link
+      translation: 國家發展委員會官方網站
+    - id: footer_ndc_logo
+      translation: 國家發展委員會LOGO
     - id: error_headline
       translation: 找不到頁面
     - id: error_description

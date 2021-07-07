@@ -216,6 +216,16 @@
                                 </a>
                             </li>
                         </ul>
+                        <div class="mt-2">
+                            {{ $accessibility := resources.Get "/img/accessibility-test-result-passed-certificate.png" }}
+                            <a href="https://accessibility.ncc.gov.tw/Applications/Detail?category=20210414105711" class="block m-2" title="{{ print (i18n "open_in_new_window") ": " (i18n "footer_accessibility_link") }}" target="_blank">
+                                <img src="{{ $accessibility.RelPermalink }}" alt="{{ i18n "footer_accessibility_logo" }}" />
+                            </a>
+                            {{ $ndc_logo := resources.Get "/img/ndc-national-development-council-logo.png" }}
+                            <a href="{{ .Site.Params.ndc_website }}" class="block m-2" title="{{ print (i18n "open_in_new_window") ": " (i18n "footer_ndc_link") }}" target="_blank">
+                                <img src="{{ $ndc_logo.RelPermalink }}" alt="{{ i18n "footer_ndc_logo" }}" />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -225,11 +235,7 @@
         <div class="container flex flex-col sm:flex-row items-center justify-center text-center pt-8 pb-16 sm:py-6 px-12 lg:px-24">
             <p class="text-white print:text-black text-xs font-semibold m-2">
                 © {{ now.Format "2006"}} - {{ i18n "footer_copyright" }}
-                {{ $accessibility := resources.Get "/img/accessibility-test-result-passed-certificate.png" }}
             </p>
-            <a href="https://accessibility.ncc.gov.tw/Applications/Detail?category=20210414105711" class="m-2" title="{{ print (i18n "open_in_new_window") ": " (i18n "footer_accessibility_link") }}" target="_blank">
-                <img src="{{ $accessibility.RelPermalink }}" alt="{{ i18n "footer_accessibility_logo" }}" />
-            </a>
         </div>
     </div>
 </footer>

@@ -218,7 +218,7 @@
 - id: search_no_results
   translation: No results
 - id: footer_copyright
-  translation: Taiwan Employment Gold Card Office - All rights reserved
+  translation: National Development Council - All rights reserved
 - id: footer_description
   translation: >-
     The Taiwan Employment Gold Card is a combined open work permit, residence
@@ -241,6 +241,10 @@
   translation: Barrier-free web
 - id: footer_accessibility_logo
   translation: Pass A accessibility detection
+- id: footer_ndc_link
+  translation: NDC website in english
+- id: footer_ndc_logo
+  translation: NDC logo
 - id: error_headline
   translation: Page was not found
 - id: error_description
@@ -339,10 +343,10 @@
   translation: Gold Card Policy
 - id: announcement
   translation: Announcement
-- id: familiy
-  translation: Familiy
-- id: hong-kong-macau-residents
-  translation: Hong Kong / Macau Residents
+- id: family
+  translation: Family
+- id: hong-kong--macau-residents
+  translation: Hong Kong & Macau Residents
 - id: about
   translation: About
 - id: super
@@ -374,7 +378,7 @@
 - id: designer
   translation: Designer
 - id: devops
-  translation: DevOps
+  translation: Dev Ops
 - id: frontend
   translation: Frontend developer
 - id: mechanical-engineer
@@ -461,3 +465,11 @@
     time.
 - id: test_translation
   translation: This is a test translation
+- id: enterprise-architecture
+  translation: Enterprise Architecture
+- id: app-developer
+  translation: App Developer
+- id: monthly-data-report
+  translation: Monthly Data Report
+- id: covid-19
+  translation: COVID 19

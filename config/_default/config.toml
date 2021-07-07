@@ -33,6 +33,7 @@ title = "Taiwan Gold Card"
 weight = 1
 [languages.en.params]
 linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
+ndc_website = "https://www.ndc.gov.tw/en/"
 apply = "/en/apply/"
 phone = "+886 2-7733-7660"
 email = "help@taiwangoldcard.tw"
@@ -43,6 +44,7 @@ title = "台灣就業金卡"
 weight = 2
 [languages.zh.params]
 linkedin = "https://www.linkedin.com/company/taiwangoldcard/"
+ndc_website = "https://www.ndc.gov.tw/default.aspx"
 apply = "/zh/apply/"
 phone = "+886 2-7733-7660"
 email = "help@taiwangoldcard.tw"

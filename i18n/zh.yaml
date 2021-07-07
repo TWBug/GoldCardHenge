@@ -83,9 +83,9 @@
 - id: job_listing_title
   translation: 工作清單
 - id: job_listing_description
-  translation: 金卡網站結合併向您展示了幾個台灣工作門戶網站上的工作機會，以舉例說明台灣需要哪些職業。
+  translation: 工作職缺將詳細列出幾個台灣目前需要的人才。
 - id: job_listing_info
-  translation: 單擊鏈接將打開一個新窗口，其中包含外部網站上的工作詳細信息。
+  translation: 點選想要的工作職缺將會另外開啟新視窗，外部網站上將會列出此項工作職缺的詳細信息。
 - id: news_category
   translation: 最新消息分類
 - id: job_category
@@ -205,7 +205,7 @@
 - id: search_no_results
   translation: 沒結果
 - id: footer_copyright
-  translation: 台灣就業金卡辦公室 - 版權所有
+  translation: 國家發展委員會 - 版權所有
 - id: footer_description
   translation: >-
     台灣就業金卡是一張結合工作許可、居留簽證、外僑居留證及重入國許可等四證合一的個人工作許可證，在有效期間內提供符合資格的外國人才可自由尋職、就職及轉換工作的便利性。
@@ -223,6 +223,10 @@
   translation: 無障礙網
 - id: footer_accessibility_logo
   translation: 通過A無障礙網頁檢測
+- id: footer_ndc_link
+  translation: 國家發展委員會官方網站
+- id: footer_ndc_logo
+  translation: 國家發展委員會LOGO
 - id: error_headline
   translation: 找不到頁面
 - id: error_description
@@ -319,9 +323,9 @@
   translation: 金卡政策相關
 - id: announcement
   translation: 公告
-- id: familiy
+- id: family
   translation: 家庭
-- id: hong-kong-macau-residents
+- id: hong-kong--macau-residents
   translation: 港澳專區
 - id: about
   translation: 關於
@@ -354,7 +358,7 @@
 - id: designer
   translation: 設計師
 - id: devops
-  translation: DevOps
+  translation: 開發維運
 - id: frontend
   translation: Frontend developer
 - id: mechanical-engineer
@@ -362,19 +366,19 @@
 - id: project-manager
   translation: 專案經理
 - id: software-architecture
-  translation: 軟件架構
+  translation: 軟體架構
 - id: software
-  translation: 軟件
+  translation: 軟體
 - id: industrial-engineer
   translation: 工業工程師
 - id: cloud-computing
   translation: 雲計算
 - id: iot-solution
-  translation: IOT 解
+  translation: IOT
 - id: marketing-international
-  translation: 國際營銷
+  translation: 國際行銷
 - id: cyber-security
-  translation: 網絡安全
+  translation: 網路安全
 - id: semiconductor
   translation: 半導體
 - id: finance
@@ -439,3 +443,11 @@
   translation: '即時諮詢的服務時間為：台灣時間 周一至周五 10:00-18:00'
 - id: test_translation
   translation: 這是測試翻譯
+- id: enterprise-architecture
+  translation: 企業架構
+- id: app-developer
+  translation: App 開發
+- id: monthly-data-report
+  translation: 每月數據報告
+- id: covid-19
+  translation: COVID 19
