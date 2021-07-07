@@ -12,10 +12,10 @@ company_name: 簡結科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/simpos'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--9c6MbMZf--/c_pad,fl_png8,h_200,w_200/v1601997774/z3aqiwl4ovfnbyyiti0h.png
-salary_text: TWD1400000 - TWD2500000
+salary_text: TWD1700000 - TWD2500000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1400000
+salary_min: 1700000
 salary_max: 2500000
 location_list:
   - 台北
