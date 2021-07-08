@@ -1,6 +1,5 @@
 ---
-title: Do I need to update my NHI IC Card after my Gold Card is updated to the
-  new UI number？
+title: 我的就業金卡換新式證號後，我需要更換健保卡嗎？
 draft: false
 tags:
   - National Health Insurance
