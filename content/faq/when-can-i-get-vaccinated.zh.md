@@ -1,5 +1,5 @@
 ---
-title: When can I get vaccinated?
+title: 我什麼時候可以打疫苗？
 draft: false
 tags:
   - COVID 19
