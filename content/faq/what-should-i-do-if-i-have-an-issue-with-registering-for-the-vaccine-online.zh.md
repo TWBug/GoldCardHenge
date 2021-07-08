@@ -1,5 +1,5 @@
 ---
-title: What should I do if I have an issue with registering for the vaccine online?
+title: 如果我在線上登記疫苗時遇到問題時該怎麼辦？
 draft: false
 tags:
   - COVID 19
