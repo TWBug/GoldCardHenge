@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
+  https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '27058'
 title: KH-美商半導體大廠 Program Manager (1.3M~1.7M/南港科學園區/技術背景/精通英文)
 job_url: 'https://www.cakeresume.com/companies/recruit-express-taiwan/jobs/cbfd65'
@@ -19,7 +19,7 @@ salary_max: 1700000
 location_list: []
 job_tags: []
 badges:
-  - Project Manager
+  - Mechanical engineer
 
 ---
 
