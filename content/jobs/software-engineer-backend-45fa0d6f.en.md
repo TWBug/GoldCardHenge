@@ -8,7 +8,7 @@ title: 'Software Engineer, Backend'
 job_url: >-
   https://www.cakeresume.com/companies/rosetta-ai/jobs/software-engineer-backend-a02k7
 date: 2020-12-11T04:12:26.780Z
-company_name: 'Rosetta, Inc.'
+company_name: Rosetta.ai
 company_page_url: 'https://www.cakeresume.com/companies/rosetta-ai'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--F4zt38K4--/c_pad,fl_png8,h_200,w_200/v1563302566/ehtwt1w12dzd3p4hth9w.png

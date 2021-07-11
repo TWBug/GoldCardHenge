@@ -7,7 +7,7 @@ data_source_internal_id: '29059'
 title: Product Manager
 job_url: 'https://www.cakeresume.com/companies/rosetta-ai/jobs/product-manager-66458a'
 date: 2021-04-29T05:05:24.665Z
-company_name: 'Rosetta, Inc.'
+company_name: Rosetta.ai
 company_page_url: 'https://www.cakeresume.com/companies/rosetta-ai'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--F4zt38K4--/c_pad,fl_png8,h_200,w_200/v1563302566/ehtwt1w12dzd3p4hth9w.png
@@ -32,4 +32,4 @@ badges:
 
 ---
 
-Rosetta.ai helps fashion e-commerce uncover consumer's shopping preferences and provide personalized shopping experiences to consumers. We're making e-commerce merchants have enterprise-level AI backup on day 1. Rosetta.ai Product Manager works with cross-functional teams of engineers, designers, data scientists, and researchers to build products. We are looking for an extremely entrepreneurial Product Manager who values moving quickly and can help innovate and coherently drive product initiativ
+Rosetta.ai helps fashion e-commerce uncover consumer's shopping preferences and provide personalized shopping experiences to consumers. We're making e-commerce merchants have enterprise-level AI backup on day 1. We are looking for a Product Manager working with cross-functional teams of engineers, designers, data scientists, and researchers to build products. We are looking for an extremely entrepreneurial Product Manager who values moving quickly and can help innovate and coherently drive produ
