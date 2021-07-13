@@ -4,6 +4,10 @@ date: 2021-07-13T05:37:38.493Z
 draft: false
 chatbot: false
 topic: whytaiwan
+cover_image: /cms-uploads/public-transportation-getting-around-taiwan-01.jpg
+cover_image_alt: Public Transportation - Getting Around Taiwan
+media_image: /cms-uploads/public-transportation-getting-around-taiwan-01.jpg
+media_image_alt: Public Transportation - Getting Around Taiwan
 topics:
   - Discover Taiwan
 style: title

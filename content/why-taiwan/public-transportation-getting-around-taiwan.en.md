@@ -4,6 +4,10 @@ date: 2021-07-13T05:37:38.493Z
 draft: false
 chatbot: false
 topic: whytaiwan
+cover_image: /cms-uploads/public-transportation-getting-around-taiwan-01.jpg
+cover_image_alt: Public Transportation - Getting Around Taiwan
+media_image: /cms-uploads/public-transportation-getting-around-taiwan-01.jpg
+media_image_alt: Public Transportation - Getting Around Taiwan
 topics:
   - Discover Taiwan
 style: title
@@ -64,8 +68,6 @@ style: title
 
 ## 公車
 
-
-
 公車為各城市最普遍和不可或缺的的大眾運輸工具，其多班次、多站點及便利等特性都是許多人選擇為代步工具的原因。台灣各縣市都有公車系統，其中又以台北、台中、台南、高雄的公車路線最為發達與密集，而為了鼓勵大眾多搭乘公車，各縣市也不定期推出優惠方案，例如台中一日遊 10 公里免費、北北基好玩卡等活動，讓你不需要自行開車也可以玩遊整座城市。
 
 {{< teaser prefix="" >}}
@@ -87,7 +89,7 @@ style: title
 公共自行車又可稱作交通的最後一哩運輸，於 2008 年起，台北及各大城市開始推廣公共自行車並廣設站點，不僅將節能減碳的生活方式與運動習慣結合在一起，因騎乘人數的增加，自行車路權的興起也逐漸改變都市的交通樣貌，例如台北市就縮減原有的車道來設置自行車車道。目前各縣市主要的公共自行車大多由台灣第一自行車品牌「捷安特」所代工生產，有些地區也是委託捷安特來營運，其車子的設計非常具人性化，寬大的座椅和三段變速，再加上可以使用通用票證付費，非常便利，也獲得很高的評價。
 目前全台有多個城市設有公共自行車：台北市、新北、桃園、新竹、苗栗、彰化、高雄、嘉義 、台中、台南、屏東。
 
-![公共自行車](/cms-uploads/ubike.jpg "圖：YouBike大台北粉絲團")
+![公共自行車](/cms-uploads/ubike.jpg "圖：取自YouBike大台北粉絲團")
 
 [公共自行車站點查詢App](https://play.google.com/store/apps/details?id=tw.skystar.publicbike&hl=zh_TW&gl=US)
 
