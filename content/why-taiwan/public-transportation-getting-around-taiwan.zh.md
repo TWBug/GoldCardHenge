@@ -17,7 +17,7 @@ Taiwan is known for its amazing public transportation system, garnering praises 
 Since its official opening in 2007, the High-Speed Rail has become the fastest means of transportation in Taiwan, with stations located in 11 major cities, including Taipei, Taoyuan, Hsinchu, Taichung, Tainan and Kaohsiung. Reaching high speeds of 300 kilometers per hour, it only takes 95 minutes to travel between Taipei and Kaohsiung.
 Tourists can wake up early, take the HSR from Taipei and arrive in Kaohsiung before noon, then take the Kaohsiung MRT and ferry to Qijin Fishing Port to enjoy some fresh seafood. If there’s time, on the way back through Taichung take a stroll through the famous Feng Chia Night Market for some more tasty delicacies. After eating and drinking your fill, you are ready to head home with a full belly and great memories.
 
-![Taiwan High-Speed Rail (HSR)](/cms-uploads/taiwan-high-speed-rail-hsr-.jpg)
+![Taiwan High-Speed Rail (HSR)](/cms-uploads/taiwan-high-speed-rail-hsr-.jpg "From Taiwan High-Speed Rail (HSR) Fan Page")
 
 [Ticketing Info](https://en.thsrc.com.tw/)
 
@@ -40,7 +40,7 @@ Taiwan's Charter Bus System is also very well-developed, with prices cheaper tha
 Currently, there are many charter bus companies in Taiwan, such as Kuo-Kuang eBus, United Highway Bus (Ubus), Ho-Hsin eBus, Kamalan Bus, Hsinchu Bus, etc. It may be daunting at first for foreigners to determine which bus company best fits their need, but just remember that aside from Kuo-Kuang eBus, each bus company has specific cities in which they operate, so the easiest way to decide is to choose from the departure and arrival cities.
 In order to promote tourism and remedy the insufficiencies of the existing highway charter bus system, the Tourism Bureau of the Ministry of Transportation and Communications of Taiwan launched the Taiwan Tourist Shuttle bus service in 2010 to shuttle passengers to and from nearby major Taiwan Railway and HSR stations. As long as you time it right, you can almost always catch a ride, making it one of the most popular means of transportation for backpackers.
 
-![Charter Bus System](/cms-uploads/charter-bus-system.jpg)
+![Charter Bus System](/cms-uploads/charter-bus-system.jpg "From Tourism Bureau")
 
 [List of Charter Bus Companies](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%B1%BD%E8%BB%8A%E5%AE%A2%E9%81%8B%E6%A5%AD%E8%80%85%E5%88%97%E8%A1%A8)
 
@@ -97,6 +97,8 @@ Public bicycles have frequently been seen as a way to solve the “last mile” 
 
 Due to the increase of cyclists, the city has gradually begun to change its traffic system to ensure cyclists’ safety and right-of-way. For example, Taipei City has reduced car lanes just to make room for more bike lanes.
 Currently, most of the major public bicycles in the country are manufactured by Giant, Taiwan's number one bicycle brand. Some regions even entrust Giant to operate their bicycles. The design of the bike is very user-friendly, complete with wide seats and 3-speed gear shift. The ability to pay with an EasyCard (or other similar cards), makes it very convenient and highly praised.
+
+![From YouBike Fan Page](/cms-uploads/ubike.jpg)
 
 [Public Bicycle Station App](https://play.google.com/store/apps/details?id=tw.skystar.publicbike&hl=zh_TW&gl=US)
 
