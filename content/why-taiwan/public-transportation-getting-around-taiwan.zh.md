@@ -14,14 +14,12 @@ Taiwan is known for its amazing public transportation system, garnering praises 
 
 ## Taiwan High-Speed Rail (HSR)
 
-![Taiwan High-Speed Rail (HSR)  LOGO](/cms-uploads/taiwan-high-speed-rail-hsr-logo.png)
-
 Since its official opening in 2007, the High-Speed Rail has become the fastest means of transportation in Taiwan, with stations located in 11 major cities, including Taipei, Taoyuan, Hsinchu, Taichung, Tainan and Kaohsiung. Reaching high speeds of 300 kilometers per hour, it only takes 95 minutes to travel between Taipei and Kaohsiung.
 Tourists can wake up early, take the HSR from Taipei and arrive in Kaohsiung before noon, then take the Kaohsiung MRT and ferry to Qijin Fishing Port to enjoy some fresh seafood. If there’s time, on the way back through Taichung take a stroll through the famous Feng Chia Night Market for some more tasty delicacies. After eating and drinking your fill, you are ready to head home with a full belly and great memories.
 
 ![Taiwan High-Speed Rail (HSR)](/cms-uploads/taiwan-high-speed-rail-hsr-.jpg)
 
-Ticketing Info: https://en.thsrc.com.tw/
+[Ticketing Info](https://en.thsrc.com.tw/)
 
 ## Taiwan Railway
 
@@ -31,18 +29,22 @@ The Taiwan Railways' train ride around the island is a very popular attraction. 
 
 on the Taiwan Railway during long holidays, especially the Eastern Route trains, please remember to book your tickets in advance as tickets sell out fast!
 
-Ticketing Info: https://www.railway.gov.tw/tra-tip-web/tip
+![Taiwan Railway](/cms-uploads/taiwan-railway.jpg)
+
+[Ticketing Info](https://www.railway.gov.tw/tra-tip-web/tip)
 
 ## Charter Bus System
 
 Taiwan's Charter Bus System is also very well-developed, with prices cheaper than the Taiwan Railway. However, unlike the Taiwan Railway, aside from a few major metropolitan areas, most stops are located near highway interchanges, far from the city. Therefore, if you decide to take a charter bus, it is likely that you will need to arrange for another ride later.
 
 Currently, there are many charter bus companies in Taiwan, such as Kuo-Kuang eBus, United Highway Bus (Ubus), Ho-Hsin eBus, Kamalan Bus, Hsinchu Bus, etc. It may be daunting at first for foreigners to determine which bus company best fits their need, but just remember that aside from Kuo-Kuang eBus, each bus company has specific cities in which they operate, so the easiest way to decide is to choose from the departure and arrival cities.
-In order to promote tourism and remedy the insufficiencies of the existing highway charter bus system, the Tourism Bureau of the Ministry of Transportation and Communications of Taiwan launched the Taiwan Tourist Shuttle bus service in 2010 to shuttle passengers to and from nearby major Taiwan Railway and HSR stations. As long as you time it right, you can almost always catch a ride, making it one of the most popular means of transportation for backpackers
+In order to promote tourism and remedy the insufficiencies of the existing highway charter bus system, the Tourism Bureau of the Ministry of Transportation and Communications of Taiwan launched the Taiwan Tourist Shuttle bus service in 2010 to shuttle passengers to and from nearby major Taiwan Railway and HSR stations. As long as you time it right, you can almost always catch a ride, making it one of the most popular means of transportation for backpackers.
 
-List of Charter Bus Companies:  https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%B1%BD%E8%BB%8A%E5%AE%A2%E9%81%8B%E6%A5%AD%E8%80%85%E5%88%97%E8%A1%A8
+![Charter Bus System](/cms-uploads/charter-bus-system.jpg)
 
-Taiwan Tourist Shuttle: https://www.taiwantrip.com.tw/
+[List of Charter Bus Companies](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%B1%BD%E8%BB%8A%E5%AE%A2%E9%81%8B%E6%A5%AD%E8%80%85%E5%88%97%E8%A1%A8)
+
+[Taiwan Tourist Shuttle](https://www.taiwantrip.com.tw/)
 
 ## Mass Rapid Transit (MRT)
 
@@ -55,15 +57,19 @@ network that covers three cities: Taipei City, New Taipei City and Taoyuan City.
 
 Taipei Metro Corporation, and consists of the Danhai Light Rail, Ankeng Light Rail, and Sanying Line. Currently, only the Danhai Light Rail is in operation. The Taichung MRT consists of the Green, Blue, and Orange Line, with only the Green Line (Wurih-Wunsin-Beitun line) currently being in operation, and connects the Taichung HSR station with City Hall.
 
-Taipei Metro Info: https://www.metro.taipei.tw
+![Mass Rapid Transit (MRT)](/cms-uploads/mrt.jpg)
 
-Taichung Metro Info: https://www.tmrt.com.tw/
+[Taipei Metro Info](https://www.metro.taipei.tw)
 
-Kaohsiung Metro Info: https://www.krtc.com.tw/
+[Taichung Metro Info](https://www.tmrt.com.tw/)
 
-New Taipei City Metro Info: https://www.ntmetro.com.tw/
+[Kaohsiung Metro Info](https://www.krtc.com.tw/)
 
-Taoyuan Airport Metro Info: https://www.taoyuan-airport.com
+[New Taipei City Metro Info](https://www.ntmetro.com.tw/)
+
+[Taoyuan Airport Metro Info](<https://www.taoyuan-airport.com
+
+## City Bus>)
 
 ## City Bus
 
@@ -75,13 +81,15 @@ All counties and cities in Taiwan have a city bus system, with Taipei, Taichung,
 Your EasyCard is accepted on the city bus so you don't need to pay with change.
 {{< /teaser >}}
 
-Taipei City Bus Info: https://ebus.gov.taipei/
+![City Bus](/cms-uploads/bus.jpg)
 
-Taichung City Bus Info: https://citybus.taichung.gov.tw/ebus
+[Taipei City Bus Info](https://ebus.gov.taipei/)
 
-Tainan City Bus Info: https://tourguide.tainan.gov.tw/newtnbusweb/
+[Taichung City Bus Info](https://citybus.taichung.gov.tw/ebus)
 
-Kaohsiung City Bus Info: https://ibus.tbkc.gov.tw/ibus/
+[Tainan City Bus Info](https://tourguide.tainan.gov.tw/newtnbusweb/)
+
+[Kaohsiung City Bus Info](https://ibus.tbkc.gov.tw/ibus/)
 
 ## Public Bicycles (You-Bike/E-Bike/City Bike/ iBike/ T-Bike)
 
@@ -90,8 +98,10 @@ Public bicycles have frequently been seen as a way to solve the “last mile” 
 Due to the increase of cyclists, the city has gradually begun to change its traffic system to ensure cyclists’ safety and right-of-way. For example, Taipei City has reduced car lanes just to make room for more bike lanes.
 Currently, most of the major public bicycles in the country are manufactured by Giant, Taiwan's number one bicycle brand. Some regions even entrust Giant to operate their bicycles. The design of the bike is very user-friendly, complete with wide seats and 3-speed gear shift. The ability to pay with an EasyCard (or other similar cards), makes it very convenient and highly praised.
 
-Public Bicycle Station App: https://play.google.com/store/apps/details?id=tw.skystar.publicbike&hl=zh_TW&gl=US
+[Public Bicycle Station App](https://play.google.com/store/apps/details?id=tw.skystar.publicbike&hl=zh_TW&gl=US)
 
-## Taxi            	
+## Taxi
 
 Taxis in Taiwan are mostly yellow in color, hence their nickname, “Xiao Huang”, which directly translates to Little Yellow. There are many ways to hail a taxi, such as phoning for one, using an app, or just stopping one on the street. In addition to the common taxi companies such as Taiwan Taxi and Metro Taxi, in recent years, technological innovation and advancements have led to the rise of new era taxis, such as Uber, Line Taxi, and Yoxi, diversifying the options for riders. Taxi companies will also offer special discount fares from time to time, and riders can pay by cash or credit, something that is convenient for both locals and foreigners.
+
+![Taxi](/cms-uploads/taxi.jpg)
