@@ -72,9 +72,7 @@ City buses are the most common yet indispensable means of public transportation 
 
 All counties and cities in Taiwan have a city bus system, with Taipei, Taichung, Tainan and Kaohsiung having the most developed and concentrated bus routes. In order to encourage the public to take the bus more often, each county and city offers special discount programs from time to time, such as Taichung’s Double 10 Bus Fare Scheme, and the Taipei Fun Pass, so you can travel the entire city without having to drive yourself.
 
-{{< teaser prefix="" >}}
-Your EasyCard is accepted on the city bus so you don't need to pay with change.
-{{< /teaser >}}
+**Your EasyCard is accepted on the city bus so you don't need to pay with change.**
 
 ![City Bus](/cms-uploads/bus.jpg)
 
