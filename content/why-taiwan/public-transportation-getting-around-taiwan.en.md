@@ -23,7 +23,7 @@ Tourists can wake up early, take the HSR from Taipei and arrive in Kaohsiung bef
 
 ![Taiwan High-Speed Rail (HSR)](/cms-uploads/taiwan-high-speed-rail-hsr-.jpg "From Taiwan High-Speed Rail (HSR) Fan Page")
 
-* [Ticketing Info](https://en.thsrc.com.tw/)
+* [Ticketing Info](https://en.thsrc.com.tw/ "to Taiwan High-Speed Rail Website")
 
 ## Taiwan Railway
 
@@ -33,7 +33,7 @@ The Taiwan Railways' train ride around the island is a very popular attraction. 
 
 ![Taiwan Railway](/cms-uploads/taiwan-railway.jpg)
 
-* [Ticketing Info](https://www.railway.gov.tw/tra-tip-web/tip)
+* [Ticketing Info](https://www.railway.gov.tw/tra-tip-web/tip " to Taiwan Railway Website")
 
 ## Charter Bus System
 
@@ -44,8 +44,8 @@ In order to promote tourism and remedy the insufficiencies of the existing highw
 
 ![Charter Bus System](/cms-uploads/charter-bus-system.jpg "From Tourism Bureau")
 
-* [List of Charter Bus Companies](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%B1%BD%E8%BB%8A%E5%AE%A2%E9%81%8B%E6%A5%AD%E8%80%85%E5%88%97%E8%A1%A8)
-* [Taiwan Tourist Shuttle](https://www.taiwantrip.com.tw/)
+* [List of Charter Bus Companies](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%B1%BD%E8%BB%8A%E5%AE%A2%E9%81%8B%E6%A5%AD%E8%80%85%E5%88%97%E8%A1%A8  " to List of Charter Bus Companies Website")
+* [Taiwan Tourist Shuttle](https://www.taiwantrip.com.tw/   " to Taiwan Trip Website")
 
 ## Mass Rapid Transit (MRT)
 
@@ -60,11 +60,11 @@ Taipei Metro Corporation, and consists of the Danhai Light Rail, Ankeng Light Ra
 
 ![Mass Rapid Transit (MRT)](/cms-uploads/mrt.jpg)
 
-* [Taipei Metro Info](https://www.metro.taipei.tw)
-* [Taichung Metro Info](https://www.tmrt.com.tw/)
-* [Kaohsiung Metro Info](https://www.krtc.com.tw/)
-* [New Taipei City Metro Info](https://www.ntmetro.com.tw/)
-* [Taoyuan Airport Metro Info](https://www.taoyuan-airport.com)
+* [Taipei Metro Info](https://www.metro.taipei.tw " to Taipei Metro Website")
+* [Taichung Metro Info](https://www.tmrt.com.tw/ " to Taichung Metro Website")
+* [Kaohsiung Metro Info](https://www.krtc.com.tw/ " to Kaohsiung Metro Website")
+* [New Taipei City Metro Info](https://www.ntmetro.com.tw/ " to New Taipei City Metro Website")
+* [Taoyuan Airport Metro Info](https://www.taoyuan-airport.com " to Taoyuan Airport Metro Website")
 
 ## City Bus
 
@@ -76,10 +76,10 @@ All counties and cities in Taiwan have a city bus system, with Taipei, Taichung,
 
 ![City Bus](/cms-uploads/bus.jpg)
 
-* [Taipei City Bus Info](https://ebus.gov.taipei/)
-* [Taichung City Bus Info](https://citybus.taichung.gov.tw/ebus)
-* [Tainan City Bus Info](https://tourguide.tainan.gov.tw/newtnbusweb/)
-* [Kaohsiung City Bus Info](https://ibus.tbkc.gov.tw/ibus/)
+* [Taipei City Bus Info](https://ebus.gov.taipei/ "to Taipei City Bus Website")
+* [Taichung City Bus Info](https://citybus.taichung.gov.tw/ebus "to Taichung City Bus Website")
+* [Tainan City Bus Info](https://tourguide.tainan.gov.tw/newtnbusweb/ "to Tainan City Bus Website")
+* [Kaohsiung City Bus Info](https://ibus.tbkc.gov.tw/ibus/ "to Kaohsiung City Bus Website")
 
 ## Public Bicycles (You-Bike/E-Bike/City Bike/ iBike/ T-Bike)
 
@@ -90,7 +90,7 @@ Currently, most of the major public bicycles in the country are manufactured by 
 
 ![From YouBike Fan Page](/cms-uploads/ubike.jpg)
 
-* [Public Bicycle Station App](https://play.google.com/store/apps/details?id=tw.skystar.publicbike&hl=zh_TW&gl=US)
+* [Public Bicycle Station App](https://play.google.com/store/apps/details?id=tw.skystar.publicbike&hl=zh_TW&gl=US " to Public Bicycle Station App Website")
 
 ## Taxi
 

@@ -24,7 +24,7 @@ style: title
 
 ![高鐵](/cms-uploads/taiwan-high-speed-rail-hsr-.jpg "圖：取自台灣高鐵臉書粉絲團")
 
-* [訂票資訊](https://en.thsrc.com.tw/)
+* [訂票資訊](https://en.thsrc.com.tw/ "至高鐵網站")
 
 ## 台鐵
 
@@ -32,7 +32,7 @@ style: title
 
 ![台鐵](/cms-uploads/taiwan-railway.jpg)
 
-* [訂票資訊](https://www.railway.gov.tw/tra-tip-web/tip)
+* [訂票資訊](https://www.railway.gov.tw/tra-tip-web/tip "至台鐵網站")
 
 ## 客運系統
 
@@ -40,8 +40,8 @@ style: title
 
 ![客運系統](/cms-uploads/charter-bus-system.jpg "圖：取自中華民國交通部觀光局")
 
-* [客運營運公司列表](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%B1%BD%E8%BB%8A%E5%AE%A2%E9%81%8B%E6%A5%AD%E8%80%85%E5%88%97%E8%A1%A8)
-* [台灣好行](https://www.taiwantrip.com.tw/)
+* [客運營運公司列表](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%B1%BD%E8%BB%8A%E5%AE%A2%E9%81%8B%E6%A5%AD%E8%80%85%E5%88%97%E8%A1%A8 "至客運營運公司列表網站")
+* [台灣好行](https://www.taiwantrip.com.tw/ "至台灣好行網站")
 
 ## 捷運
 
@@ -55,11 +55,11 @@ style: title
 
 ![捷運](/cms-uploads/mrt.jpg)
 
-* [台北捷運資訊](https://www.metro.taipei.tw)
-* [台中捷運資訊](https://www.tmrt.com.tw/)
-* [高雄捷運資訊](https://www.krtc.com.tw/)
-* [新北捷運資訊](https://www.ntmetro.com.tw/)
-* [桃園機捷資訊](https://www.taoyuan-airport.com)
+* [台北捷運資訊](https://www.metro.taipei.tw "至台北捷運網站")
+* [台中捷運資訊](https://www.tmrt.com.tw/ "至台中捷運網站")
+* [高雄捷運資訊](https://www.krtc.com.tw/ "至高雄捷運網站")
+* [新北捷運資訊](https://www.ntmetro.com.tw/ "至新北捷運網站")
+* [桃園機捷資訊](https://www.taoyuan-airport.com "至桃園機捷網站")
 
 ## 公車
 
@@ -69,10 +69,10 @@ style: title
 
 ![公車](/cms-uploads/bus.jpg)
 
-* [台北公車](https://ebus.gov.taipei/)
-* [台中公車](https://citybus.taichung.gov.tw/ebus)
-* [台南公車](https://tourguide.tainan.gov.tw/newtnbusweb/)
-* [高雄高車](https://ibus.tbkc.gov.tw/ibus/)
+* [台北公車](https://ebus.gov.taipei/ "至台北公車網站")
+* [台中公車](https://citybus.taichung.gov.tw/ebus "至台中公車網站")
+* [台南公車](https://tourguide.tainan.gov.tw/newtnbusweb/ "至台南公車網站")
+* [高雄公車](https://ibus.tbkc.gov.tw/ibus/ "至高雄公車網站")
 
 ## 公共自行車（You-Bike/ E- Bike/ City Bike/ iBike/ T-Bike）
 
@@ -81,7 +81,7 @@ style: title
 
 ![公共自行車](/cms-uploads/ubike.jpg "圖：取自YouBike大台北粉絲團")
 
-* [公共自行車站點查詢App](https://play.google.com/store/apps/details?id=tw.skystar.publicbike&hl=zh_TW&gl=US)
+* [公共自行車站點查詢App](https://play.google.com/store/apps/details?id=tw.skystar.publicbike&hl=zh_TW&gl=US) "至公共自行車站點查詢App網站"
 
 ## 計程車
 
