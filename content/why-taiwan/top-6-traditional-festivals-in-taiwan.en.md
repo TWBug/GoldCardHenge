@@ -66,7 +66,11 @@ On this day, it is customary for Taiwanese families to pay respects and commemor
 
 It is said that Dragon Boat Festival is held to commemorate the death of the poet and minister Qu Yuan of the ancient state of Chu during the Warring States period of the Zhou dynasty. According to legend, Qu Yuan opposed the emperor’s decision to ally with the state of Qin and was banished. While in exile, Qu Yuan fell into despair and eventually committed suicide by throwing himself into the river on the fifth day of the fifth month of the lunar calendar. After his death, the people built boats and raced out onto the river to retrieve his body. His body was never found, so the people dropped zongzi into the river in order to protect it from being eaten by fish and shrimp. 
 
+![Dragon Boat Festival](/cms-uploads/dragon-boat-festival-rice-dumplings.jpg)
+
 Nowadays, in celebration of Dragon Boat Festival, people will eat zongzi and race dragon boats to honor and commemorate the great Qu Yuan. Other customs also include: hanging mug wort and calamus to ward off evil spirits and cleanse the environment, balancing an egg for good luck, drinking realgar wine and wearing incense sachets to ward off evil and sickness.
+
+![Dragon Boat Festival](/cms-uploads/dragon-boat-festival.jpg "From Department of Information and Tourism, Taipei City Government")
 
 ## Qixi Festival (Chinese Valentine’s Day)
 
