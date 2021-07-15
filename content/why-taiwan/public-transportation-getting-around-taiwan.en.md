@@ -21,7 +21,7 @@ Taiwan is known for its amazing public transportation system, garnering praises 
 Since its official opening in 2007, the High-Speed Rail has become the fastest means of transportation in Taiwan, with stations located in 11 major cities, including Taipei, Taoyuan, Hsinchu, Taichung, Tainan and Kaohsiung. Reaching high speeds of 300 kilometers per hour, it only takes 95 minutes to travel between Taipei and Kaohsiung.
 Tourists can wake up early, take the HSR from Taipei and arrive in Kaohsiung before noon, then take the Kaohsiung MRT and ferry to Qijin Fishing Port to enjoy some fresh seafood. If there’s time, on the way back through Taichung take a stroll through the famous Feng Chia Night Market for some more tasty delicacies. After eating and drinking your fill, you are ready to head home with a full belly and great memories.
 
-![Taiwan High-Speed Rail (HSR)](/cms-uploads/taiwan-high-speed-rail-hsr-.jpg "From Taiwan High-Speed Rail (HSR) Fan Page")
+![Taiwan High-Speed Rail (HSR)](/cms-uploads/taiwan-highspeedrail-700t-testrun-2006-0624.jpg "From Wikipedia")
 
 * [Ticketing Info](https://en.thsrc.com.tw/ "to Taiwan High-Speed Rail Website")
 
@@ -44,8 +44,8 @@ In order to promote tourism and remedy the insufficiencies of the existing highw
 
 ![Charter Bus System](/cms-uploads/charter-bus-system.jpg "From Tourism Bureau")
 
-* [List of Charter Bus Companies](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%B1%BD%E8%BB%8A%E5%AE%A2%E9%81%8B%E6%A5%AD%E8%80%85%E5%88%97%E8%A1%A8  " to List of Charter Bus Companies Website")
-* [Taiwan Tourist Shuttle](https://www.taiwantrip.com.tw/   " to Taiwan Trip Website")
+* [List of Charter Bus Companies](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%B1%BD%E8%BB%8A%E5%AE%A2%E9%81%8B%E6%A5%AD%E8%80%85%E5%88%97%E8%A1%A8 " to List of Charter Bus Companies Website")
+* [Taiwan Tourist Shuttle](https://www.taiwantrip.com.tw/ " to Taiwan Trip Website")
 
 ## Mass Rapid Transit (MRT)
 
