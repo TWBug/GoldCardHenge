@@ -52,6 +52,8 @@ The Lantern Festival happens on the first full moon of the Lunar New Year. Tradi
 
 * Taitung Bombing Lord Handan Culture Festival: Legend has it that Lord Handan was the God of Wealth, responsible for managing heaven’s treasury and brings good luck and fortune to those he visits. Lord Handan despised the cold, so whenever he would frequent the villages, the people would throw firecrackers on him to keep him warm. People generally believe that the louder the firecrackers explode, the more prosperous the coming year will be, so wherever Lord Handan goes, a symphony of explosions will follow. 
 
+![Taitung Bombing Lord Handan Culture Festival](/cms-uploads/taitung-bombing-lord-handan-culture-festival.jpg "From Taitung County Government")
+
 ## Qingming Festival (Tomb-Sweeping Day)
 
 Qingming Festival is celebrated on April 5th or 6th of every year, and is one of the few festivals that roughly coincide with the Western calendar. As the festival is close to the Children's Day holiday on April 4th, it is the second longest national holiday in Taiwan, causing many locals to take a continuous holiday of up to five days.
