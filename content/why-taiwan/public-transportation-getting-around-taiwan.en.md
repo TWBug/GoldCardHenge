@@ -21,7 +21,7 @@ Taiwan is known for its amazing public transportation system, garnering praises 
 Since its official opening in 2007, the High-Speed Rail has become the fastest means of transportation in Taiwan, with stations located in 11 major cities, including Taipei, Taoyuan, Hsinchu, Taichung, Tainan and Kaohsiung. Reaching high speeds of 300 kilometers per hour, it only takes 95 minutes to travel between Taipei and Kaohsiung.
 Tourists can wake up early, take the HSR from Taipei and arrive in Kaohsiung before noon, then take the Kaohsiung MRT and ferry to Qijin Fishing Port to enjoy some fresh seafood. If there’s time, on the way back through Taichung take a stroll through the famous Feng Chia Night Market for some more tasty delicacies. After eating and drinking your fill, you are ready to head home with a full belly and great memories.
 
-![Taiwan High-Speed Rail (HSR)](/cms-uploads/taiwan-highspeedrail-700t-testrun-2006-0624.jpg "From Wikipedia")
+![Taiwan High-Speed Rail (HSR)](/cms-uploads/taiwan-highspeedrail-700t-testrun-2006-0624.jpg "Encino from zhwiki, Public domain, via Wikimedia Commons")
 
 * [Ticketing Info](https://en.thsrc.com.tw/ "to Taiwan High-Speed Rail Website")
 
