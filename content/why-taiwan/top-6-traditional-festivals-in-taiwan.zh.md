@@ -1,9 +1,13 @@
 ---
-title: Top 6 Traditional Festivals in Taiwan
+title: 台灣的六大傳統節慶
 date: 2021-07-15T00:51:55.882Z
 draft: false
 chatbot: false
 topic: whytaiwan
+cover_image: /cms-uploads/top-6-traditional-festivals-in-taiwan.jpg
+cover_image_alt: Top 6 Traditional Festivals In Taiwan
+media_image: /cms-uploads/top-6-traditional-festivals-in-taiwan.jpg
+media_image_alt: Top 6 Traditional Festivals In Taiwan
 topics:
   - Discover Taiwan
 style: title
