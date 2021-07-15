@@ -15,4 +15,4 @@ If you want to check what vaccine programs there are for the elderly in differen
 
 **(Please note that these websites are in Chinese)**
 
-Instructions of Vaccination Registration and Booking System, please refer to [THIS](https://www.immigration.gov.tw/media/66179/%E7%96%AB%E8%8B%97%E6%96%BD%E6%89%93%E6%84%8F%E9%A1%98%E7%99%BB%E8%A8%98%E8%88%87%E9%A0%90%E7%B4%84%E7%B3%BB%E7%B5%B1%E6%93%8D%E4%BD%9C%E8%AA%AA%E6%98%8Eplus-howplustoplususeplustheplusvaccinationplusregistrationplusandplusbookingplussystem-%E8%8B%B1%E6%96%87.pdf).
+Instructions of Vaccination Registration and Booking System, please refer to [THIS](https://www.immigration.gov.tw/media/66179/%E7%96%AB%E8%8B%97%E6%96%BD%E6%89%93%E6%84%8F%E9%A1%98%E7%99%BB%E8%A8%98%E8%88%87%E9%A0%90%E7%B4%84%E7%B3%BB%E7%B5%B1%E6%93%8D%E4%BD%9C%E8%AA%AA%E6%98%8Eplus-howplustoplususeplustheplusvaccinationplusregistrationplusandplusbookingplussystem-%E8%8B%B1%E6%96%87.pdf " to Instructions of Vaccination Registration PDF File").
