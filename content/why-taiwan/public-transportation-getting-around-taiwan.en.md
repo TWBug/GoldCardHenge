@@ -88,7 +88,7 @@ Public bicycles have frequently been seen as a way to solve the “last mile” 
 Due to the increase of cyclists, the city has gradually begun to change its traffic system to ensure cyclists’ safety and right-of-way. For example, Taipei City has reduced car lanes just to make room for more bike lanes.
 Currently, most of the major public bicycles in the country are manufactured by Giant, Taiwan's number one bicycle brand. Some regions even entrust Giant to operate their bicycles. The design of the bike is very user-friendly, complete with wide seats and 3-speed gear shift. The ability to pay with an EasyCard (or other similar cards), makes it very convenient and highly praised.
 
-![From YouBike Fan Page](/cms-uploads/ubike.jpg)
+![Public Bicycles](/cms-uploads/youbike_station_in_changhua_01.jpg "From Wikipedia")
 
 * [Public Bicycle Station App](https://play.google.com/store/apps/details?id=tw.skystar.publicbike&hl=zh_TW&gl=US " to Public Bicycle Station App Website")
 
