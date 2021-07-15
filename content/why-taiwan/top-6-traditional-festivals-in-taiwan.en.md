@@ -47,6 +47,9 @@ The Lantern Festival happens on the first full moon of the Lunar New Year. Tradi
 ![Pingxi Sky Lantern Festival](/cms-uploads/pingxi-sky-lantern-festival.jpg "From New Taipei City Government")
 
 * Tainan Yanshui Beehive Fireworks Festival: According to tradition, the people of Yanshui would pray to Guan Di (Guan Gong), the God of War, for peace and protection. Every year, tourists flock to Tainan to experience the thrill of the beehive firecrackers, which consists of thousands of rockets that ignite at the same time with sparks flying everywhere, creating a loud, bee-like sound. Locals believe that being "baptized” by fireworks will ward off calamity and bad luck, and bring good fortune in the new year. Participants are advised to wear several layers of clothing, thick pants, and helmets for their safety and protection.
+
+![Tainan Yanshui Beehive Fireworks Festival:](/cms-uploads/tainan-yanshui-beehive-fireworks-festival.jpg "From Tainan City Government")
+
 * Taitung Bombing Lord Handan Culture Festival: Legend has it that Lord Handan was the God of Wealth, responsible for managing heaven’s treasury and brings good luck and fortune to those he visits. Lord Handan despised the cold, so whenever he would frequent the villages, the people would throw firecrackers on him to keep him warm. People generally believe that the louder the firecrackers explode, the more prosperous the coming year will be, so wherever Lord Handan goes, a symphony of explosions will follow. 
 
 ## Qingming Festival (Tomb-Sweeping Day)
