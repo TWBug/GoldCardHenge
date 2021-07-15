@@ -60,6 +60,8 @@ Qingming Festival is celebrated on April 5th or 6th of every year, and is one of
 
 On this day, it is customary for Taiwanese families to pay respects and commemorate their ancestors by visiting and cleaning their gravesites. Some families also pray and make ritual offerings by placing traditional food dishes on their ancestor’s grave and burning joss sticks and joss paper to honor them. This festival is also a chance for families to reunite and bond with their living relatives. Some larger family clans even hold special ceremonies of worship for thousands of people on this festival; a magnificent spectacle to behold and portrays the spirit of filial piety and family unity.
 
+![Tomb-Sweeping Day](/cms-uploads/five_coloured_papers_on_a_grave_mound-_bukit_brown_cemetery-_singapore_-_20110326-02.jpg "Jacklee., CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons")
+
 ## Dragon Boat Festival
 
 It is said that Dragon Boat Festival is held to commemorate the death of the poet and minister Qu Yuan of the ancient state of Chu during the Warring States period of the Zhou dynasty. According to legend, Qu Yuan opposed the emperor’s decision to ally with the state of Qin and was banished. While in exile, Qu Yuan fell into despair and eventually committed suicide by throwing himself into the river on the fifth day of the fifth month of the lunar calendar. After his death, the people built boats and raced out onto the river to retrieve his body. His body was never found, so the people dropped zongzi into the river in order to protect it from being eaten by fish and shrimp. 
