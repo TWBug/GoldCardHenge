@@ -20,9 +20,15 @@ Wondering what common traditions and customs there are on this beautiful island?
 
 Spring Festival is the most important festival and the longest national holiday in Taiwan, beginning on December 30th (New Year's Eve) and ending on the fourth day of the first month of the lunar calendar. On the Western calendar, the dates fall around mid-January to mid-February.  
 
+![Spring Festival  Street View](/cms-uploads/spring-festival.jpg)
+
 There are many traditional customs that must be observed during Spring Festival, and each custom has its own symbolic meaning. One custom that almost every family observes is setting off firecrackers to drive away Nian. According to ancient Chinese folklore, every New Year's Eve, the beast, Nian, would come out of hiding and wreak havoc in the villages looking for food. The villagers knew that the beast feared the color red and loud noises, so everyone would put red lanterns and spring couplets on their doors and set off firecrackers to deter the beast and scare it away.
 
+![Spring couplets](/cms-uploads/spring-couplets.jpg)
+
 On New Year's Eve, the entire family will clean the house together to welcome in the new year; as the saying goes, “Out with the old, in with the new!” After the cleaning is done, the family will put spring couplets on the door for good luck. At night, the entire family will gather and enjoy New Year's Eve dinner. The most common dishes that must be eaten are: fish, special vegetables, dumplings, turnip cake, Buddha jumps over the wall, etc. Each dish is very elaborate and has a special meaning, for example, the Chinese pronunciation for the word “fish” sounds exactly like the word for “abundance”, thus, eating fish symbolizes that you will have a year of abundance. Traditionally, families must not finish the fish entirely, as some must be left for next year. Turnip cakes are also a very popular dish because the word “cake” sounds like the word for “high”, symbolizing good luck and a promotion. Lastly, dumplings are shaped like ancient Chinese currency (yuanbao), so eating them signifies attracting wealth and treasure. 
+
+![dumplings](/cms-uploads/dumplings.jpg)
 
 On the first day of the Lunar New Year, you must get up early to set off firecrackers, then pay your respects to your friends and relatives by visiting them at home. You are not allowed to sweep the floor or take out the trash because you risk sweeping away your good fortune. If you accidently break something, you must say suì suì píng ān, which means, may you have peace all year round.
 
