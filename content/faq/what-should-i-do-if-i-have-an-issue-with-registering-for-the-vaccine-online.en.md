@@ -5,4 +5,4 @@ tags:
   - COVID 19
 weight: 1
 ---
-[The online vaccine registration platform](https://1922.gov.tw/vas/ " to Online Vaccine Registration Platform"), if you have any technical issues, please call (02)7745-3171.
+[The online vaccine registration platform](https://1922.gov.tw/vas/ " to Online Vaccine Registration Platform"), if you have any technical issues, please call (02)7745-3171 or email cdc1922@cdc.gov.tw
