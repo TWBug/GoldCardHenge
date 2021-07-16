@@ -218,11 +218,11 @@
                         </ul>
                         <div class="mt-2">
                             {{ $accessibility := resources.Get "/img/accessibility-test-result-passed-certificate.png" }}
-                            <a href="https://accessibility.ncc.gov.tw/Applications/Detail?category=20210414105711" class="block m-2" title="{{ print (i18n "open_in_new_window") ": " (i18n "footer_accessibility_link") }}" target="_blank">
+                            <a href="https://accessibility.ncc.gov.tw/Applications/Detail?category=20210414105711" class="block m-2" title="{{ print (i18n "open_in_new_window") ": " (i18n "footer_accessibility_link") }}" target="_blank" rel="noopener">
                                 <img src="{{ $accessibility.RelPermalink }}" alt="{{ i18n "footer_accessibility_logo" }}" />
                             </a>
                             {{ $ndc_logo := resources.Get "/img/ndc-national-development-council-logo.png" }}
-                            <a href="{{ .Site.Params.ndc_website }}" class="block m-2" title="{{ print (i18n "open_in_new_window") ": " (i18n "footer_ndc_link") }}" target="_blank">
+                            <a href="{{ .Site.Params.ndc_website }}" class="block m-2" title="{{ print (i18n "open_in_new_window") ": " (i18n "footer_ndc_link") }}" target="_blank" rel="noopener">
                                 <img src="{{ $ndc_logo.RelPermalink }}" alt="{{ i18n "footer_ndc_logo" }}" />
                             </a>
                         </div>
