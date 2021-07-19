@@ -1,6 +1,5 @@
 ---
-title: How do I know if I qualify as holding a position at an Economic Company
-  or in an Economic Field?
+title: 我要如何符合經濟產業或領域之規定？
 draft: false
 tags:
   - Application
