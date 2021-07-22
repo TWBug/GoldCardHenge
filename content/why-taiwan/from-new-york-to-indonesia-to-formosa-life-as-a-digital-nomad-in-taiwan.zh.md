@@ -18,7 +18,7 @@ style: right
 
 Jong自紐約長大，是一位第三文化兒童(Third-Culture Kid, TCK)，深受臺灣、印尼與中國文化的三方影響。她目前的職業是一位餐旅策略規劃顧問(Hospitality Strategist)，客戶包括國際級飯店、旅遊景點與餐廳。這些客戶有不少都是私人會員制的俱樂部，Jong協助他們依其商業需求建立策略。2020年，Jong偕同丈夫和女兒來臺，我們很期待聽她分享在這塊美麗的寶島上的生活經歷。
 
-查看[Yvette Jong | Craft House Consulting](https://www.crafthouseconsulting.com/)"至關於Yvette Jong網頁"
+查看[Yvette Jong | Craft House Consulting](https://www.crafthouseconsulting.com/ "至關於Yvette Jong網頁")
 
 ## 聊聊您的工作和您最喜歡的事情吧？
 
@@ -42,7 +42,7 @@ Vinc來自德國，曾在巴伐利亞邦受過很完整的木匠訓練。他17�
 
 ![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-2](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-3.jpg)
 
-[關於Vinc Math](http://www.vincmath.com/)"至關於Vinc Math網頁"
+[關於Vinc Math](http://www.vincmath.com/ "至關於Vinc Math網頁")
 
 ## 去年您決定來到臺灣，請多說一說這方面的事吧。
 
@@ -56,7 +56,7 @@ Vinc來自德國，曾在巴伐利亞邦受過很完整的木匠訓練。他17�
 
 對我來說，這裡有很強的歸屬感。我們家族每四年都會在臺灣辦聚會，這加深了我和臺灣的連結。另外，我在16歲的時候參加過「Love Boat」（臺灣一個學習中文的夏令營），那次的經歷讓我第一次擁有獨立的感覺，是我的成人禮，是那種一生一次的青春體驗，我們一起搗蛋，我現在有很多朋友都是當時認識的。
 
-[關於Love Boat](https://www.loveboat-taiwan.com/about)"至關於Love Boat網頁"
+[關於Love Boat](https://www.loveboat-taiwan.com/about "至關於Love Boat網頁")
 
 對我來說很重要的就是能給先生和女兒一個機會讓他們自己愛上臺灣，能聽見女兒第一次說出、唱出中文字也是很重大的時刻，因為我是在紐約第三文化成長的小孩，卻直到長大以後才想過要講中文。
 
