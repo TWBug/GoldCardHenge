@@ -36,7 +36,11 @@ Jong自紐約長大，是一位第三文化兒童(Third-Culture Kid, TCK)，深�
 
 ## 您的先生是位竹藝家，請您介紹一下他的工作？
 
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-1](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-2.jpg)
+
 Vinc來自德國，曾在巴伐利亞邦受過很完整的木匠訓練。他17歲的時候，得到一個在非洲的工作機會，他在那裡先是和德國國際合作機構(German Technical Cooperation)合作，然後遇到了另一位德國竹藝師Jörg Stamm，他是全世界最具影響力的前瞻竹藝家之一，Vinc看到他的作品第一個反應是「這是什麼？」。他看到的並不是常見於中國山水畫裡的那種竹子，而是又大又粗的枝幹，一般的樹要花上三年才長得出來可以當建材的那種。Vinc後來的的顧問工作，就是協助訓練當地團隊將建築師畫的概念圖變成實際的三到六層樓房、住宅或大型建築，使它們不會倒塌（笑）。
+
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-2](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-3.jpg)
 
 http://www.vincmath.com/
 
@@ -61,6 +65,10 @@ Love Boat: https://www.loveboat-taiwan.com/about
 ## 您先生對臺灣有什麼看法？
 
 他覺得臺灣很棒。雖然他花了一點時間尋找同行，但幸好終究是找到了一群致力於永續建築的人。每次介紹讓他能更認識一些人，他與這些人的關係越密切、越深入瞭解他們的熱情並分享業界秘密（通常都需要翻譯協助），他就發現自己不再只是一個在別的國家生活的外國人而已。
+
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-3](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-4.jpg)
+
+
 \
 他還發現只要有即時翻譯App的協助，到處走走其實很安全也很容易。現在他可以自己帶著女兒在城市裡四處跑，去他們最喜歡的地方玩，像是南港的溜冰場之類的。我們很驚訝臺灣有這麼多小孩會玩直排輪。他們一下就打成一片了！
 
@@ -68,19 +76,33 @@ Love Boat: https://www.loveboat-taiwan.com/about
 
 這真的要看我待在臺灣有多久。如果是短期旅行的話，重點就是這裡的早餐、夜市，還有我最喜歡的小文具店。我總是會買一些我不需要、永遠不會用到的文具，因為這些東西真的太有趣了。舉例來說，你看這些麻將的便利貼，還有這些有德國主題的德國香腸和扭結餅便利貼，還有這個毛豆鑰匙圈，有個笑臉毛豆可以擠出來（笑）。
 
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-4](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-5.jpg)
+
 這次我們有機會可以待這麼久，因此有辦法做更多的事情。我一開始每天都想找些事情做、探索整座島，但這次我們可以慢慢來，和朋友一起出去野餐或是在海灘上耍廢等。
+
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-5](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-6.jpg)
 
 ## 您認為您在臺灣有工作機會嗎？
 
 是，我希望能在臺灣找到工作，因為我可以適應本地的市場需求，然後替不同的企業提供策略，從小規模的非營利機構到大型國際級連鎖飯店。即使是在疫情影響下，飯店與管理服務業還是有需要評估他們的商務模型，因此都有工作可做，隨時都有工作可找！而在還沒接到台灣客戶的需求時，我喜歡去當地或國際學校，與國中、高中生聊人生、事業、風險、旅行還有各種事情。我和Vinc都曾在臺北歐洲學校演講過，我還去過桃園當地的一處國中演講。這樣的經驗有時會比工作更有成就感。
 
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-6](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-7.jpg)
+
 ## 有沒有什麼事情，是您在臺灣長期居住之前沒有想過的？
 
 我們知道會在這裡看到其他以全球創新為業的同行，甚至應該說如果我們做這行的過程中沒有遇到帶來改變的人，我們反而會很意外。但如果要列出我們覺得驚訝的事情，這樣會講上好幾個小時。
 
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-7](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-8.jpg)
+
 我們一家人沒有預期到會在這邊找到擁有共同興趣的社群。我們碰巧發現了一個兒童登山課程，是賣二手汽車座椅給我們的人介紹的。我們很快就在課程中結交朋友，這堂課也成了我們在臺灣經驗中十分重要的一環。教練很棒，他只想教4-6歲的小朋友怎麼當負責任的人。然後我們又發現家裡附近的公園旁有一個小規模、以遊戲為基礎的「學校」，他們把重點放在個人成長與社區互動。兩個團體和我們的教育理念都很符合，我們都很喜歡。
 
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-8](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-9.jpg)
+
 還有一件事我們沒有預期到，就是我們居然會在國父紀念館看我父親的個展，裡面有66幅他從疫情開始以來所畫的畫！
+
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-9](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-10.jpg)
+
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-10](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-11.jpg)
 
 ## 您未來有什麼打算呢？
 
@@ -95,3 +117,5 @@ Yvette：「他很喜歡和我父母在一起！」
 Vinc：「呃（兩人笑），我是說從家長的角度而言這裡很棒。到處都有遊樂場、人們都很開放，還有我們遇到的小團體，像是登山課之類的。我不太確定沒有小朋友的生活是什麼樣子，所以我很難判斷，但臺北是個非常棒的地方，這個國家很美，食物也很好吃。」
 
 Yvette：「我們還想說可能搬去臺東一陣子，或是在花蓮待久一點。我們想待在臺東6個月，希望未來有一天能實現。」
+
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-11](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-12.jpg)

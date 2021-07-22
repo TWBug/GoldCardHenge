@@ -24,6 +24,8 @@ Jong grew up in New York as a third-culture kid, influenced by Taiwanese, Indone
 
 In hospitality, I can live vicariously through my work. It's constantly about the customer's journey, so it almost feels like virtual travel. Of course, I also focus on the business aspects to ensure financial and operational viability, but at the end of the day, we have to make sure there's a reason customers come (and come again). In some ways, it can be torturous because I am constantly looking at pictures of the blue waters in the Caribbean, the lush jungles in Asia, or historical destinations in Europe. But, of course, I do get to travel a lot. 
 
+![Beautiful tropical beach sea and ocean](/cms-uploads/beautiful-tropical-beach-sea-ocean-with-coconut-palm-tree-umbrella-chair-blue-sky.jpg)
+
 ## Do you always travel and live a nomadic lifestyle, or are you usually based in one location? 
 
 Pre-COVID? *laughs* After growing up in New York, I never thought I would live in a big city again. I thought I would live on a farm somewhere like Montana because I wanted to escape the urban life. But then I studied hospitality and realized I could live and work anywhere in the world.
@@ -34,7 +36,11 @@ When I founded my consulting firm in 2011, I decided Craft House would be free o
 
 ## Your husband works with bamboo, right? Can you elaborate on what he does? 
 
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-1](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-2.jpg)
+
 Vinc is a German carpenter, which is something he trained for intensely in his Bavarian village Germany. When he was 17, someone gave him the opportunity to move to Africa for work, and he took it. He worked with GTZ then met Jörg Stamm, a fellow German carpenter but also one of the world's most influential bamboo visionaries, and Vinc was like, "What's this?" It isn't the bamboo that we picture in Chinese paintings. It's this huge, fat bamboo the size of trees that take 3 years to grow and is then used to build with architecturally. Vinc's consulting work helps train local teams to transform the conceptual drawings made by architects into physical 3 to 6-story pavilions, homes, and megastructures - so they don't fall down *laughs*.
+
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-2](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-3.jpg)
 
 http://www.vincmath.com/
 
@@ -60,25 +66,41 @@ Then there's the variety. Food is always a celebration – whether we have our d
 
 He thinks it's amazing. It took him some time to find his own tribe of people working in sustainable architecture, but luckily he found them. Each introduction led him to another and the more he connected with them to learn about passion and share industry secrets (often with a translator), he realized that he wasn't just a foreigner in another country. 
 
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-3](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-4.jpg)
+
 He also found it safe and easy to get around with the help of instant translation apps. Now, he could take our daughter around town on his own to their favorite hangouts like the skate park in Nangang ;) We were blown away by how many kids in Taiwan are on inline skates. They fit right in!
 
 ## What is your favorite thing to do in Taiwan? 
 
 It really depends on how long I am spending in Taiwan. If it's a short trip, it's all about the local breakfasts, night markets, and my favorite, those little stationery stores. I always buy stationery items that I don't need and will never use because they're just so precious. For example, look at these Mahjong post-its notes *shows post-it notes* or these German-themed ones with Wurst and pretzels. And this edamame keychain that has smiling edamame you squeeze out *laughs*. 
 
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-4](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-5.jpg)
+
 This time we had the opportunity to stay such a long time, and it gave us the freedom to just do more than we had hoped for. In the beginning, I wanted to do something every day, explore the whole island, but then we could slow down and picnic or laze by the beach with friends. 
+
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-5](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-6.jpg)
 
 ## Do you think there are work opportunities for you in Taiwan? 
 
 Yes, I was hoping to do some work in Taiwan since I can adapt to local market needs and provide strategies to small non-profits and large international hotel chains alike. Even with COVID, there is work for hotels and hospitality businesses to assess their business models. For me, there's always work to find! In the absence of Taiwan-based clients, I loved the opportunity to speak to junior high and high school students at both local and international schools about life, careers, risks, travel, and much more. Vinc and I both spoke at the Taipei European School, and I had a separate presentation at a local Junior High School in Taoyuan. It's experiences like this that are sometimes more rewarding than work.
 
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-6](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-7.jpg)
+
 ## What is something that you didn't expect from Taiwan before living here for an extended period of time? 
 
 We knew we'd find peers working in global innovation professionally – in fact, we would have been surprised if we didn't meet changemakers along the way. But to list the things that did surprise us along the way would take hours to talk about.
 
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-7](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-8.jpg)
+
 As a family, we didn't expect to find micro-communities that shared our personal family interests. By chance, we found a children's hiking class thanks to someone who was selling his used car seat. Our families became fast friends, and the hiking class became instrumental in our experience in Taiwan. The instructor is an amazing individual who wants nothing more than to teach our tiny 4-6 years old how to be responsible human beings. Then we found a small play-based "school" beside our local park that focuses on personal growth and community. Both groups aligned with our style of parenting, and we loved it. 
 
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-8](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-9.jpg)
+
 We also didn't expect to attend my father's solo exhibit at Sun Yat-Sen Memorial Hall, which featured 66 paintings he painted since COVID started! 
+
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-9](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-10.jpg)
+
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-10](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-11.jpg)
 
 ## What are your future plans? 
 
@@ -92,4 +114,6 @@ Yvette: "He loved spending time with my parents!"
 
 Vince: "Uh, *both laugh* What I am saying is from a parent's perspective, it was amazing. All these playgrounds everywhere, how open people are, and those little groups we've bumped into, like the hiking class. I don't really know what it would be like without having kids, so I can't judge. But Taipei is a super place, the country is beautiful, and the food is great.
 
-Yvette: "What we also wanted to do was move down to maybe Taitung for a little bit. Or spend more time in Hualien. We had this vision of going down to Taitung for 6 months, so hopefully, in the future, this will work out."
+Yvette: "What we also wanted to do was move down to maybe Taitung for a little bit. Or spend more time in Hualien. We had this vision of going down to Taitung for 6 months, so hopefully, in the future, this will work out." 
+
+![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-11](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-12.jpg)
