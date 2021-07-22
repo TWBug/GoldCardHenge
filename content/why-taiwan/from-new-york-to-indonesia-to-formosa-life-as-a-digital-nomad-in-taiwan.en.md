@@ -14,7 +14,7 @@ style: right
 ---
 # From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan
 
-The Taiwan Employment Gold Card Office had the honor of sitting down with Gold Card Holder Yvette Jong for a Zoom interview. 
+*The Taiwan Employment Gold Card Office had the honor of sitting down with Gold Card Holder Yvette Jong for a Zoom interview.* 
 
 Jong grew up in New York as a third-culture kid, influenced by Taiwanese, Indonesian, and Chinese heritage. She currently works as a Hospitality Strategist; her clientele includes international hotels, destinations, and restaurants. Many are private member clubs, and Jong helps them build strategies around their business needs. In 2020, Jong traveled to Taiwan with her husband and daughter, and we are excited to hear about her experiences on our beautiful island.
 

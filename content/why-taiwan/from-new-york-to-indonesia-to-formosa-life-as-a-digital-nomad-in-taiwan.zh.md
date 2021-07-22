@@ -14,9 +14,9 @@ style: right
 ---
 # 從紐約到印尼，再來到福爾摩沙 - 數位游牧民族在臺灣的生活
 
-台灣就業金卡辦公室很榮幸能和金卡持卡人Yvette Jong，透過線上會議軟體進行訪談。
+*台灣就業金卡辦公室很榮幸能和金卡持卡人Yvette Jong，透過線上會議軟體進行訪談。*
 
-Jong自紐約長大，是一位第三文化兒童(Third-Culture Kid, TCK)，深受臺灣、印尼與中國文化的三方影響。她目前的職業是一位餐旅策略規劃顧問(Hospitality Strategist)，客戶包括國際級飯店、旅遊景點與餐廳。這些客戶有不少都是私人會員制的俱樂部，Jong協助他們依其商業需求建立策略。2020年，Jong偕同丈夫和女兒來臺，我們很期待聽她分享在這塊美麗的寶島上的生活經歷。
+Jong自紐約長大，是一位第三文化兒童（Third-Culture Kid, TCK），深受臺灣、印尼與中國文化的三方影響。她目前的職業是一位餐旅策略規劃顧問（Hospitality Strategist），客戶包括國際級飯店、旅遊景點與餐廳。這些客戶有不少都是私人會員制的俱樂部，Jong協助他們依其商業需求建立策略。2020年，Jong偕同丈夫和女兒來臺，我們很期待聽她分享在這塊美麗的寶島上的生活經歷。
 
 查看[Yvette Jong | Craft House Consulting](https://www.crafthouseconsulting.com/ "至關於Yvette Jong網頁")
 
