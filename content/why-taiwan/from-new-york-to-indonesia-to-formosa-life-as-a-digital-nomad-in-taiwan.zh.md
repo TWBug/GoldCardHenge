@@ -38,11 +38,11 @@ Jong自紐約長大，是一位第三文化兒童(Third-Culture Kid, TCK)，深�
 
 ![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-1](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-2.jpg)
 
-Vinc來自德國，曾在巴伐利亞邦受過很完整的木匠訓練。他17歲的時候，得到一個在非洲的工作機會，他在那裡先是和德國國際合作機構(German Technical Cooperation)合作，然後遇到了另一位德國竹藝師Jörg Stamm，他是全世界最具影響力的前瞻竹藝家之一，Vinc看到他的作品第一個反應是「這是什麼？」。他看到的並不是常見於中國山水畫裡的那種竹子，而是又大又粗的枝幹，一般的樹要花上三年才長得出來可以當建材的那種。Vinc後來的的顧問工作，就是協助訓練當地團隊將建築師畫的概念圖變成實際的三到六層樓房、住宅或大型建築，使它們不會倒塌（笑）。
+Vinc來自德國，曾在巴伐利亞邦受過很完整的木匠訓練。他17歲的時候，得到一個在非洲的工作機會，他在那裡先是和德國國際合作機構（German Technical Cooperation）合作，然後遇到了另一位德國竹藝師Jörg Stamm，他是全世界最具影響力的前瞻竹藝家之一，Vinc看到他的作品第一個反應是「這是什麼？」。他看到的並不是常見於中國山水畫裡的那種竹子，而是又大又粗的枝幹，一般的樹要花上三年才長得出來可以當建材的那種。Vinc後來的的顧問工作，就是協助訓練當地團隊將建築師畫的概念圖變成實際的三到六層樓房、住宅或大型建築，使它們不會倒塌（笑）。
 
 ![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-2](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-3.jpg)
 
-http://www.vincmath.com/
+[關於Vinc Math](http://www.vincmath.com/)
 
 ## 去年您決定來到臺灣，請多說一說這方面的事吧。
 
@@ -56,7 +56,7 @@ http://www.vincmath.com/
 
 對我來說，這裡有很強的歸屬感。我們家族每四年都會在臺灣辦聚會，這加深了我和臺灣的連結。另外，我在16歲的時候參加過「Love Boat」（臺灣一個學習中文的夏令營），那次的經歷讓我第一次擁有獨立的感覺，是我的成人禮，是那種一生一次的青春體驗，我們一起搗蛋，我現在有很多朋友都是當時認識的。
 
-Love Boat: https://www.loveboat-taiwan.com/about 
+[關於Love Boat](https://www.loveboat-taiwan.com/about)
 
 對我來說很重要的就是能給先生和女兒一個機會讓他們自己愛上臺灣，能聽見女兒第一次說出、唱出中文字也是很重大的時刻，因為我是在紐約第三文化成長的小孩，卻直到長大以後才想過要講中文。
 
@@ -67,7 +67,6 @@ Love Boat: https://www.loveboat-taiwan.com/about
 他覺得臺灣很棒。雖然他花了一點時間尋找同行，但幸好終究是找到了一群致力於永續建築的人。每次介紹讓他能更認識一些人，他與這些人的關係越密切、越深入瞭解他們的熱情並分享業界秘密（通常都需要翻譯協助），他就發現自己不再只是一個在別的國家生活的外國人而已。
 
 ![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-3](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-4.jpg)
-
 
 \
 他還發現只要有即時翻譯App的協助，到處走走其實很安全也很容易。現在他可以自己帶著女兒在城市裡四處跑，去他們最喜歡的地方玩，像是南港的溜冰場之類的。我們很驚訝臺灣有這麼多小孩會玩直排輪。他們一下就打成一片了！

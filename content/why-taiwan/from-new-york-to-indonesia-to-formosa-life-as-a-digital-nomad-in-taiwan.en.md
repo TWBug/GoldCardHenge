@@ -26,7 +26,7 @@ In hospitality, I can live vicariously through my work. It's constantly about th
 
 ![Beautiful tropical beach sea and ocean](/cms-uploads/beautiful-tropical-beach-sea-ocean-with-coconut-palm-tree-umbrella-chair-blue-sky.jpg)
 
-## Do you always travel and live a nomadic lifestyle, or are you usually based in one location? 
+## Do you always travel and live a nomadic lifestyle, or are you usually based in one location?
 
 Pre-COVID? *laughs* After growing up in New York, I never thought I would live in a big city again. I thought I would live on a farm somewhere like Montana because I wanted to escape the urban life. But then I studied hospitality and realized I could live and work anywhere in the world.
 
@@ -34,7 +34,7 @@ By the time I was 23, I had lived and worked in Taiwan, Thailand, Shanghai, and 
 
 When I founded my consulting firm in 2011, I decided Craft House would be free of a physical location, allowing my strategists and me to work from any place they please so long as we were near an airport and had strong wifi. Since our clients are everywhere in the world - from Manila to Mauritius, Costa Rica to California - it doesn't matter where we sleep at night. At present, my strategists are based everywhere from Monaco to Minneapolis, Siem Reap to Seattle. And since my husband Vinc's work requires us to travel around the world, my business arrangement works particularly well for us. 
 
-## Your husband works with bamboo, right? Can you elaborate on what he does? 
+## Your husband works with bamboo, right? Can you elaborate on what he does?
 
 ![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-1](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-2.jpg)
 
@@ -42,9 +42,9 @@ Vinc is a German carpenter, which is something he trained for intensely in his B
 
 ![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-2](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-3.jpg)
 
-http://www.vincmath.com/
+[About Vinc Math](http://www.vincmath.com/)
 
-## You decided to come to Taiwan last year, tell us more about that. 
+## You decided to come to Taiwan last year, tell us more about that.
 
 We originally planned to visit Taiwan in February 2020 to celebrate my dad's 80th birthday and just to be in Taiwan to eat, cause, *laughs* that's what you do! But, when COVID hit, we canceled the trip and quarantined early. In November, we decided we were ready to head back to Asia for 2-3 months since Taiwan was doing well. We were like, "Let's go!" Since we both work remotely and our daughter wasn't in school, we took this opportunity to see 阿嬤 (ā mā, Grandma), 阿公 (ā gōng, Grandpa), have her learn Chinese, and explore the country as a family. It would also allow us to touch base with Asia-based clients. In truth, Vinc and I had spoken previously about living in Taiwan, but we didn't have the opportunity. When we heard about the Gold Card, we realized this was our chance. 
 
@@ -52,11 +52,11 @@ We originally planned to visit Taiwan in February 2020 to celebrate my dad's 80t
 
 My cousins have been in Taiwan for 10 years and we've lived in both New York and Hong Kong at the same time in the past. Since they know I'm the type to "go on vacation" but not return for 10 years, they said, "You might wanna consider it ;)." And I was like, "Okay!"
 
-## You have lived and worked in places all over the world; what makes Taiwan different and special for you? 
+## You have lived and worked in places all over the world; what makes Taiwan different and special for you?
 
 For me, there's a strong sense of belonging. We have family reunions in Taiwan every 4 years or so, which have reinforced my connection to Taiwan. That, and I also did "Love Boat" ("Love Boat" is a summer camp to learn Chinese in Taiwan) when I was 16! It was my first experience of independence, going to this country to learn Chinese and having the time of my life. It was a rite of passage into adulthood, and we got up to all sorts of mischief. Some of my friends now are still friends from back then.
 
-Love Boat: https://www.loveboat-taiwan.com/about 
+[About Love Boat](https://www.loveboat-taiwan.com/about)
 
 The opportunity for my husband and daughter to fall in love with Taiwan for themselves was important for me. And hearing our daughter speak and sing her first Mandarin words was almost monumental because I grew up as a third culture kid in New York who never wanted to speak Chinese (until I was much older). 
 
@@ -70,7 +70,7 @@ He thinks it's amazing. It took him some time to find his own tribe of people wo
 
 He also found it safe and easy to get around with the help of instant translation apps. Now, he could take our daughter around town on his own to their favorite hangouts like the skate park in Nangang ;) We were blown away by how many kids in Taiwan are on inline skates. They fit right in!
 
-## What is your favorite thing to do in Taiwan? 
+## What is your favorite thing to do in Taiwan?
 
 It really depends on how long I am spending in Taiwan. If it's a short trip, it's all about the local breakfasts, night markets, and my favorite, those little stationery stores. I always buy stationery items that I don't need and will never use because they're just so precious. For example, look at these Mahjong post-its notes *shows post-it notes* or these German-themed ones with Wurst and pretzels. And this edamame keychain that has smiling edamame you squeeze out *laughs*. 
 
@@ -80,13 +80,13 @@ This time we had the opportunity to stay such a long time, and it gave us the fr
 
 ![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-5](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-6.jpg)
 
-## Do you think there are work opportunities for you in Taiwan? 
+## Do you think there are work opportunities for you in Taiwan?
 
 Yes, I was hoping to do some work in Taiwan since I can adapt to local market needs and provide strategies to small non-profits and large international hotel chains alike. Even with COVID, there is work for hotels and hospitality businesses to assess their business models. For me, there's always work to find! In the absence of Taiwan-based clients, I loved the opportunity to speak to junior high and high school students at both local and international schools about life, careers, risks, travel, and much more. Vinc and I both spoke at the Taipei European School, and I had a separate presentation at a local Junior High School in Taoyuan. It's experiences like this that are sometimes more rewarding than work.
 
 ![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-6](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-7.jpg)
 
-## What is something that you didn't expect from Taiwan before living here for an extended period of time? 
+## What is something that you didn't expect from Taiwan before living here for an extended period of time?
 
 We knew we'd find peers working in global innovation professionally – in fact, we would have been surprised if we didn't meet changemakers along the way. But to list the things that did surprise us along the way would take hours to talk about.
 
@@ -102,7 +102,7 @@ We also didn't expect to attend my father's solo exhibit at Sun Yat-Sen Memorial
 
 ![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-10](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-11.jpg)
 
-## What are your future plans? 
+## What are your future plans?
 
 We would love to go back to Taiwan. My Gold Card is valid for another 3 years or so, and we are definitely open to going back and working there. And now that my daughter can speak Chinese, we definitely want to return so she can keep it up. The last thing we tried to do before leaving was getting my husband his own Gold Card.
 
