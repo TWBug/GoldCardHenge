@@ -4,6 +4,10 @@ date: 2021-07-22T06:39:04.141Z
 draft: false
 chatbot: false
 topic: whytaiwan
+cover_image: /cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-1.jpg
+cover_image_alt: From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan
+media_image: /cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-1.jpg
+media_image_alt: From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan
 topics:
   - Humans of Taiwan
 style: right
