@@ -18,7 +18,7 @@ The Taiwan Employment Gold Card Office had the honor of sitting down with Gold C
 
 Jong grew up in New York as a third-culture kid, influenced by Taiwanese, Indonesian, and Chinese heritage. She currently works as a Hospitality Strategist; her clientele includes international hotels, destinations, and restaurants. Many are private member clubs, and Jong helps them build strategies around their business needs. In 2020, Jong traveled to Taiwan with her husband and daughter, and we are excited to hear about her experiences on our beautiful island.
 
-[Check out Yvette Jong | Craft House Consulting](https://www.crafthouseconsulting.com/)
+[Check out Yvette Jong | Craft House Consulting](https://www.crafthouseconsulting.com/ " to Yvette Jong Website")
 
 ## Tell us about your job and what you enjoy most?
 
@@ -42,7 +42,7 @@ Vinc is a German carpenter, which is something he trained for intensely in his B
 
 ![From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan-2](/cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digital-nomad-in-taiwan-3.jpg)
 
-[About Vinc Math](http://www.vincmath.com/)
+[About Vinc Math](http://www.vincmath.com/ " to Vinc Math Website")
 
 ## You decided to come to Taiwan last year, tell us more about that.
 
@@ -56,7 +56,7 @@ My cousins have been in Taiwan for 10 years and we've lived in both New York and
 
 For me, there's a strong sense of belonging. We have family reunions in Taiwan every 4 years or so, which have reinforced my connection to Taiwan. That, and I also did "Love Boat" ("Love Boat" is a summer camp to learn Chinese in Taiwan) when I was 16! It was my first experience of independence, going to this country to learn Chinese and having the time of my life. It was a rite of passage into adulthood, and we got up to all sorts of mischief. Some of my friends now are still friends from back then.
 
-[About Love Boat](https://www.loveboat-taiwan.com/about)
+[About Love Boat](https://www.loveboat-taiwan.com/about " to Love Boat Website")
 
 The opportunity for my husband and daughter to fall in love with Taiwan for themselves was important for me. And hearing our daughter speak and sing her first Mandarin words was almost monumental because I grew up as a third culture kid in New York who never wanted to speak Chinese (until I was much older). 
 
