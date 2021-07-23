@@ -4,8 +4,8 @@ date: 2021-04-12T06:57:04.293Z
 draft: false
 chatbot: false
 topic: whytaiwan
-cover_image: /cms-uploads/how-to-import-your-dogcat-to-taiwan.png
-media_image: /cms-uploads/how-to-import-your-dogcat-to-taiwan.png
+cover_image: /cms-uploads/how-to-import-your-dogcat-to-taiwan.jpg
+media_image: /cms-uploads/how-to-import-your-dogcat-to-taiwan.jpg
 topics:
   - Discover Taiwan
 style: right
@@ -64,11 +64,11 @@ style: right
   * 提單、空運單或海關申報單影本
 * **如犬貓符合上述所有規定，且無任何動物傳染疫病象徵，台灣動物檢疫單位即簽發《犬貓輸入獸醫證書》。**
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan4.png" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan4.jpg" >}}
 
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan2.png" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan2.jpg" >}}
 
 {{< /card >}}
 
@@ -114,11 +114,11 @@ style: right
 
 **注意：如果您將寵物裝於軟袋中，仍需要運輸籠將其運輸至隔離設施。您可以在航班抵達前將運輸籠寄達台灣機場，或請朋友協助準備運輸籠，相關事宜請洽詢入境港站之檢疫辦事處。點擊[此處](https://www.baphiq.gov.tw/ws.php?id=20897 "至行政院農業委員會動植物防疫檢疫局網站")查看從機場到隔離設施之運輸費用。**
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan1.png" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan1.jpg" >}}
 
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan3.png" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan3.jpg" >}}
 
 {{< /card >}}
 
@@ -136,4 +136,4 @@ style: right
 
 欲了解隔離過程詳細資訊，請查閱此[文件](https://www.baphiq.gov.tw/ws.php?id=13028 "行政院農業委員會動植物防疫檢疫局網站")。動物檢疫地方分局人員相當友善，具有服務熱忱，能以英語溝通，可透過電話或電子郵件與他們聯繫。點擊[此處](https://www.baphiq.gov.tw/ws.php?id=18 "至行政院農業委員會動植物防疫檢疫局網站")查詢服務人員的聯絡資訊。別猶豫，直接與他們確認步驟細節吧！祝您一切順利，台灣見！
 
-![](/cms-uploads/how-to-import-your-dogcat-to-taiwan5.png)
+![](/cms-uploads/how-to-import-your-dogcat-to-taiwan5.jpg)

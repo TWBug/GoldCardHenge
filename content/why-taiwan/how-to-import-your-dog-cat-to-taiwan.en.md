@@ -4,8 +4,8 @@ date: 2021-04-12T06:57:04.293Z
 draft: false
 chatbot: false
 topic: whytaiwan
-cover_image: /cms-uploads/how-to-import-your-dogcat-to-taiwan.png
-media_image: /cms-uploads/how-to-import-your-dogcat-to-taiwan.png
+cover_image: /cms-uploads/how-to-import-your-dogcat-to-taiwan.jpg
+media_image: /cms-uploads/how-to-import-your-dogcat-to-taiwan.jpg
 topics:
   - Discover Taiwan
 style: right
@@ -64,11 +64,11 @@ Rabies-Free Country (Zone) Import
   * Photocopy of the bill of lading, airway bill, or customs declaration
 * **The Taiwanese animal quarantine authority will issue the Import Veterinary Certificate, but only after all the above requirements are met, and the dog/cat gives no cause for suspicion of notifiable animal infectious diseases.**
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan4.png" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan4.jpg" >}}
 
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan2.png" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan2.jpg" >}}
 
 {{< /card >}}
 
@@ -114,11 +114,11 @@ Whether you are transporting the pet in the cabin or in cargo, you will have to 
 
 **NOTE: If you decided to transport the pet in a soft bag, you would still need a transport cage for transport to the quarantine facilities. You can bring it to the Taiwan airport previous to your flight or have a friend drop it off. Please go to the quarantine office at the port of entry to organize the drop-off. Please check out the shipping fare for transportation from the airport to the quarantine facilities [HERE](https://www.baphiq.gov.tw/ws.php?id=20897 "to Bureau of Animal and Plant Health Inspection and Quarantine, Council of Agriculture, Executive Yuan website").**
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan1.png" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan1.jpg" >}}
 
 {{< /card >}}
 
-{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan3.png" >}}
+{{< card title="<!-- This text will never be seen -->" link="" image="/cms-uploads/how-to-import-your-dogcat-to-taiwan3.jpg" >}}
 
 {{< /card >}}
 
@@ -138,4 +138,4 @@ For more in-depth information about the whole quarantine process, please check o
 
 Good luck, and see you in Taiwan soon!
 
-![](/cms-uploads/how-to-import-your-dogcat-to-taiwan5.png)
+![](/cms-uploads/how-to-import-your-dogcat-to-taiwan5.jpg)
