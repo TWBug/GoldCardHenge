@@ -1,6 +1,6 @@
 ---
 title: "From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan "
-date: 2021-07-22T06:39:04.141Z
+date: 2021-07-23T06:39:04.141Z
 draft: false
 chatbot: false
 topic: whytaiwan
