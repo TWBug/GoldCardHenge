@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
+  https://www.cakeresume.com/jobs?q=finance&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '27574'
 title: Visual Designer 視覺設計師
 job_url: 'https://www.cakeresume.com/companies/wootrade/jobs/visual-designer-22fbaf'
@@ -22,7 +22,7 @@ job_tags:
   - illustrator
   - photoshop
 badges:
-  - Designer
+  - Finance
 
 ---
 
