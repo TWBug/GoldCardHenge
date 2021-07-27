@@ -12,11 +12,11 @@ company_name: RentHop
 company_page_url: 'https://www.cakeresume.com/companies/renthop'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--Z8Sc-Wrb--/c_pad,fl_png8,h_200,w_200/v1616647295/n86t9vy0grsenqtt0uzq.png
-salary_text: TWD550000 - TWD700000
+salary_text: TWD600000 - TWD750000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 550000
-salary_max: 700000
+salary_min: 600000
+salary_max: 750000
 location_list:
   - 台北
   - 台灣
