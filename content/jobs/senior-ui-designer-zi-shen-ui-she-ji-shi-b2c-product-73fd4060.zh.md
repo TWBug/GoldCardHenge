@@ -29,4 +29,4 @@ badges:
 
 ---
 
-How to apply: Please apply this position through 👉 https://pse.is/3e7hlt It will help us process your applications faster! Responsibility: Able to think critically and strategically while translating them visually Manage and contribute to design libraries and design systems Lead design and oversee the development and delivery of effective user interfaces for client facing products Collaborating with PM, designers and developers to create and design innovative, user-friendly platform Able to arti
+How to apply Please apply this position through 👉 https://pse.is/3e7hlt It will help us process your applications faster! Responsibilities Able to think critically and strategically while translating them visually Manage and contribute to design libraries and design systems Lead design and oversee the development and delivery of effective user interfaces for client facing products Collaborating with PM, designers and developers to create and design innovative, user-friendly platform Able to arti
