@@ -12,11 +12,11 @@ company_name: Lucid
 company_page_url: 'https://www.cakeresume.com/companies/lucid'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--ake4niWz--/c_pad,fl_png8,h_200,w_200/v1542089540/b91rckgzwvlnqsnlp1d9.png
-salary_text: TWD700000 - TWD1300000
+salary_text: TWD700000 - TWD1500000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 700000
-salary_max: 1300000
+salary_max: 1500000
 location_list:
   - 台北
   - 信義區
