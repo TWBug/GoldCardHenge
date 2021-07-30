@@ -12,11 +12,11 @@ company_name: 9 Count
 company_page_url: 'https://www.cakeresume.com/companies/9count'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--InX6ALtP--/c_pad,fl_png8,h_200,w_200/v1626204462/ybxlow1ne65bunxfeqcn.png
-salary_text: TWD800000 - TWD12000000
+salary_text: TWD600000 - TWD1200000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 800000
-salary_max: 12000000
+salary_min: 600000
+salary_max: 1200000
 location_list:
   - Taiwan
   - 'New Taipei City, Taiwan'
