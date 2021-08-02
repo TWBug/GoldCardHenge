@@ -1,5 +1,5 @@
 ---
-title: 2021/JUL Cumulative Number of Employment Gold Card Issuance
+title: 2021年6月就業金卡最新核發數字
 date: 2021-08-02T03:03:13.013Z
 topic: eventsnews
 draft: false
@@ -9,7 +9,7 @@ categories:
   - Monthly Data Report
 style: right
 ---
-就業金卡自107年2月8日起至110年7月31日止，累計核准3,084件。
+# 就業金卡自107年2月8日起至110年7月31日止，累計核准3,084件。
 
 領域別：
 

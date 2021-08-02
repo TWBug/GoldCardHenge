@@ -9,7 +9,7 @@ categories:
   - Monthly Data Report
 style: right
 ---
-From February 8, 2018 to July. 31, 2021, "3,084" cards were approved.
+# From February 8, 2018 to July. 31, 2021, "3,084" cards were approved.
 
 Application field of cardholders:
 
