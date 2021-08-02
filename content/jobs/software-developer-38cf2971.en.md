@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '31046'
-title: 'Software Developer, Testing'
+title: Software Developer
 job_url: >-
   https://www.cakeresume.com/companies/oracle-3b2b7b/jobs/software-developer-testing
 date: 2021-07-29T02:45:37.328Z
