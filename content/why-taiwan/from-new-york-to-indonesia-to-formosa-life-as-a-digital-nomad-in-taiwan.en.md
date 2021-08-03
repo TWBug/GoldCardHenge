@@ -106,7 +106,7 @@ We also didn't expect to attend my father's solo exhibit at Sun Yat-Sen Memorial
 
 We would love to go back to Taiwan. My Gold Card is valid for another 3 years or so, and we are definitely open to going back and working there. And now that my daughter can speak Chinese, we definitely want to return so she can keep it up. The last thing we tried to do before leaving was getting my husband his own Gold Card.
 
-## Do you have anything else you would like to add or say? *Husband Vinc appears in the Zoom call*
+## Do you have anything else you would like to add or say? *Husband Vinc appears in the call*
 
 Vinc: "My time in Taiwan was very special. I mean, from a parent's perspective."
 
