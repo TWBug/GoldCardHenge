@@ -89,17 +89,20 @@
 {{ end }}
 <link rel="canonical" href="{{ .Page.Permalink }}" />
 <title>{{ .Page.Title | truncate 60 }} | {{ .Site.Title }}</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
 {{ if eq .Site.Language.Lang "zh" }}
     {{ if eq .Site.Params.loadFromCDN "true" }}
-    <link
+        <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&Krub:wght@300;400;500;600;700&display=swap">
+            {{/* <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&Krub:wght@300;400;500;600;700&display=swap"
         rel="stylesheet"
         async
-    />
+    />*/}}
     {{ end }}
 {{ else }}
     {{ if eq .Site.Params.loadFromCDN "true" }}
-    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap" rel="stylesheet" async>
+        <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap">
+        {{/*<link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap" rel="stylesheet" async>*/}}
     {{ end }}
 {{ end }}
 {{ if  and .Site.IsServer (eq hugo.Environment "development") }}
