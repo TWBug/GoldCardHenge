@@ -94,11 +94,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&Krub:wght@300;400;500;600;700&display=swap"
         rel="stylesheet"
+        async
     />
     {{ end }}
 {{ else }}
     {{ if eq .Site.Params.loadFromCDN "true" }}
-    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&display=swap" rel="stylesheet" async>
     {{ end }}
 {{ end }}
 {{ if  and .Site.IsServer (eq hugo.Environment "development") }}
