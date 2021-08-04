@@ -24,10 +24,13 @@ location_list:
   - 台灣
   - ', 台灣'
   - 台灣新竹市新竹
-job_tags: []
+job_tags:
+  - Product Management
+  - Networking
+  - networking product
 badges:
   - Project Manager
 
 ---
 
-此職缺參加 2021 夏季 Trend Micro 快速徵才 ，於 8/2-8/13 透過此頁面投遞將優先審核！ 活動期間密集隨到隨審，三週內 Offer Get！ 快透過下方按鈕立即應徵吧 🔥 Join Trend ‧ Join New Generation 趨勢科技 - 全球雲端資安領航者 / 全亞洲最大軟體公司 / 企業版圖橫跨五大洲 / 趨勢全球研發基地在台灣 =============================================================== Overview TXOne Networks is looking for an experienced networking Product Manager. You will work with engineering, marketing, customer and internal support organizations to create and define networking solutions . This position is ideal for an experie
+此職缺參加 2021 夏季 Trend Micro 快速徵才 ，於 8/2-8/13 透過此頁面投遞將優先審核！ 活動期間密集隨到隨審，三週內 Offer Get！ 快透過下方按鈕立即應徵吧 🔥 Join Trend ‧ Join New Generation 趨勢科技 - 全球雲端資安領航者 / 全亞洲最大軟體公司 / 企業版圖橫跨五大洲 / 趨勢全球研發基地在台灣 =============================================================== Overview TXOne Networks is looking for an experienced networking Product Manager . You will work with engineering, marketing, customer, and internal support organizations to create and define networking solutions. This position is ideal for an experi
