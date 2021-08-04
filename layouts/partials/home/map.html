@@ -27,32 +27,32 @@
                         </span>
                     </button>
                 </div>
-                {{/*  <span x-text="test" class="absolute inset-x-0 text-center"></span>  */}}
                 <div class="wrapper">
                     {{range $index, $element := (shuffle $data.items)}}
-                    {{ $member_image := resources.Get (printf "img/map/%s" $element.image) | fingerprint }}
-                    <button
-                        type="button"
-                        class="member border-4 border-secondary-dark rounded-full overflow-hidden"
-                        :class="{ 'running' : play[{{ $index }}], 'paused' : !play[{{ $index }}] || paused[{{ $index }}] }"
-                        data-name="{{ $element.name }}"
-                        data-origin="{{ $element.origin }}"
-                        data-local="{{ $element.local }}"
-                        data-description="{{ $element.description }}"
-                        data-image="{{ $member_image.RelPermalink }}"
-                        data-title-show="{{ i18n "click_to_see_more_details" }} {{ $element.name }}"
-                        data-title-hide="{{ i18n "click_to_hide_more_details" }} {{ $element.name }}"
-                        style="--left:{{ $element.left }}%;--top:{{ $element.top }}%;--delay:{{ mul $index 1000 }}ms"
-                        @click.stop="toggle({{ $index }})"
-                        :aria-expanded="paused[{{ $index }}] === true ? 'true' : 'false'"
-                        aria-controls="map-modal"
-                        :title="titleButton[{{ $index }}]"
-                    >
-                        <img src="{{ $member_image.RelPermalink }}" alt="{{ printf "Portrait %s" $element.name }}"
-                        class="absolute inset-0 w-full h-full" />
-                    </button>
+                        {{ $member_image := resources.Get (printf "img/map/%s" $element.image) | fingerprint }}
+                        <button
+                            type="button"
+                            class="member border-4 border-secondary-dark rounded-full overflow-hidden"
+                            :class="{ 'running' : play[{{ $index }}], 'paused' : !play[{{ $index }}] || paused[{{ $index }}] }"
+                            data-name="{{ $element.name }}"
+                            data-origin="{{ $element.origin }}"
+                            data-local="{{ $element.local }}"
+                            data-description="{{ $element.description }}"
+                            data-image="{{ $member_image.RelPermalink }}"
+                            data-title-show="{{ i18n "click_to_see_more_details" }} {{ $element.name }}"
+                            data-title-hide="{{ i18n "click_to_hide_more_details" }} {{ $element.name }}"
+                            style="--left:{{ $element.left }}%;--top:{{ $element.top }}%;--delay:{{ mul $index 1000 }}ms"
+                            @click.stop="toggle({{ $index }})"
+                            :aria-expanded="paused[{{ $index }}] === true ? 'true' : 'false'"
+                            aria-controls="map-modal"
+                            :title="titleButton[{{ $index }}]"
+                        >
+                            <img src="{{ $member_image.RelPermalink }}" alt="{{ printf "Portrait %s" $element.name }}"
+                            loading="lazy"
+                            class="absolute inset-0 w-full h-full" />
+                        </button>
                     {{ end }}
-                    <img src="{{ $map_image.RelPermalink }}" alt="{{ i18n "gold_card_members_map" }}" class="block w-full -z-1" x-ref="file" />
+                    <img src="{{ $map_image.RelPermalink }}" alt="{{ i18n "gold_card_members_map" }}" loading="lazy" class="block w-full -z-1" x-ref="file" />
                 </div>
             </div>
             <div
@@ -74,6 +74,7 @@
                     :src="data.image"
                     alt="{{ i18n "gold_card_community_member" }}"
                     :alt="data.name"
+                    loading="lazy"
                     class="absolute block left-0 top-0 w-16 h-16 rounded-full border-4 border-secondary shadow-lg -ml-8 -mt-2"
                 />
                 <p class="text-xs font-bold" x-text="data.origin"></p>
