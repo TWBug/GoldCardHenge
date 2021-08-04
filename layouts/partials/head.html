@@ -62,6 +62,7 @@
 <meta name="twitter:title" content="{{ .Page.Title | markdownify | plainify | truncate 60 }}">
 <meta name="twitter:description" content="{{ .Summary | truncate 200 }}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1d7ecb"/>
 {{ if .IsTranslated }}
     {{ range .Translations }}
         <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
