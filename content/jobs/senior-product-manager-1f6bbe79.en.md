@@ -11,7 +11,7 @@ date: 2019-05-14T15:42:08.318Z
 company_name: AlleyPin 翔評互動
 company_page_url: 'https://www.cakeresume.com/companies/alleypin'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--MBgpTtIs--/c_pad,fl_png8,h_200,w_200/v1562515043/bhctq5xaot0byfjhepul.png
+  https://media.cakeresume.com/image/upload/s--iDG7IdY---/c_pad,fl_png8,h_200,w_200/v1628137973/piegduaccxmdwlhn2vzy.png
 salary_text: TWD800000 - TWD1500000
 salary_currency: TWD
 salary_type: per_year
