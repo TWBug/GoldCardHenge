@@ -1,5 +1,6 @@
 ---
-title: ""
+title: If I cannot personally pick up my Gold Card, can I ask someone to pick it
+  up for me?
 draft: false
 tags:
   - Application

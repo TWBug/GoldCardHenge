@@ -1,6 +1,5 @@
 ---
-title: If I cannot personally pick up my Gold Card, can I ask someone to pick it
-  up for me?
+title: 如果我無法親自領取就業金卡，我可以請人代領嗎？
 draft: false
 tags:
   - Application
