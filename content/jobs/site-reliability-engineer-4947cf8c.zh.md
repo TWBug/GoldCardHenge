@@ -12,11 +12,11 @@ company_name: OneDegree香港商甯寶管理科技有限公司
 company_page_url: 'https://www.cakeresume.com/companies/onedegree'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--xqiEHvO1--/c_pad,fl_png8,h_200,w_200/v1578296147/zhabcskfo2ifv72dmwtx.png
-salary_text: TWD840000 - TWD1400000
+salary_text: TWD840000 - TWD1680000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 840000
-salary_max: 1400000
+salary_max: 1680000
 location_list:
   - Taiwan
   - ', Taiwan'
