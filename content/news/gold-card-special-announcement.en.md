@@ -18,7 +18,7 @@ style: right
 
 Beginning from noon July 28, the pick up location for the Employment Gold Card will be set in Taiwan, and there will no longer be an option for picking up the card at an overseas mission. Applicants can download the Resident Authorization Certificate on the Application Portal to enter Taiwan. The Gold Card must be collected within 30 days of entering Taiwan at one of the National Immigration Agency's Service Centers.
 
-For applicants who have applied before July 28, your Gold Card pick up location will remain the same (the location that you have already chosen).
+For applicants who have applied before July 28, your Gold Card pick up location will remain the same (the location that you have already chosen). However, if you are asked to provide supplementary documents, even if your initial application date was before July 28, your pick up location for the Gold Card will be changed to Taiwan.
 
 7/1
 
