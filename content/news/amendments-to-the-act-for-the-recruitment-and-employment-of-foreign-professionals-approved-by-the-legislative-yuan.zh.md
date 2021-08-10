@@ -20,6 +20,4 @@ style: right
 
 除了完成本法之修法作業外，為發揮本次修法之綜效，國發會後續將賡續針對5+2及六大核心戰略產業人才需求，精準推動全球攬才行動，並建置政策協調機制，啟動「強化海外人才深耕臺灣」專案諮詢及工作小組會議，解決就業金卡申請、生活問題、就業媒合、鏈結產業/設立公司等面向之問題，期透過完善的攬才法規架構及積極的配套措施落實推動，以延攬更多全球關鍵人才、國際優秀青年來臺發展，為我國人才庫注入活水，帶來產業的質變、轉型及升級。
 
-詳細修法及前後比較重點請參考
-
-<https://ws.ndc.gov.tw/Download.ashx?u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL3JlbGZpbGUvNjIwMi8zNTA2OC80YWI0MDZlYS1mYjRjLTRiMjctYjVhYy1jODc4ODNkMTczNzUucGRm&n=5ZyL55m85pyDMTEwMDYxOOaWsOiBnueovy3lpJblnIvkurrmiY3lsIjms5XkuInoroDpgJrpgY4ucGRm&icon=..pdf>
+詳細修法及前後比較重點請參考[此網頁](https://ws.ndc.gov.tw/Download.ashx?u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL3JlbGZpbGUvNjIwMi8zNTA2OC80YWI0MDZlYS1mYjRjLTRiMjctYjVhYy1jODc4ODNkMTczNzUucGRm&n=5ZyL55m85pyDMTEwMDYxOOaWsOiBnueovy3lpJblnIvkurrmiY3lsIjms5XkuInoroDpgJrpgY4ucGRm&icon=..pdf "至國發會新聞稿")
