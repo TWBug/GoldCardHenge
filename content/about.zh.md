@@ -1,14 +1,14 @@
 ---
 media_image: null
 summary: 台灣就業金卡是針對外國特定專業人才的工作許可、居留簽證、外僑居留證及重入國許可4證合一的個人工作許可，提供外國人才自由尋職、就職及轉換工作的便利性。
-date: 2020-11-05T07:09:20.617Z
 draft: false
 media_image_alt: null
 layout: null
+date: 2020-11-05T07:09:20.617Z
 topic: goldcard
-title: 台灣就業金卡是什麼？
 style: title
 cover_image: null
+title: 台灣就業金卡是什麼？
 tags: null
 categories: null
 publishDate: 2020-11-05T07:09:20.617Z
