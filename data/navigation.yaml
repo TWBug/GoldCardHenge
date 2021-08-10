@@ -53,6 +53,8 @@ zh:
             link: /help-desk
           - name: 相關網站
             link: /related-websites
+          - link: assets/cms-uploads/the-gold-card-community-guide-to-taiwan.pdf
+            name: Guide to Taiwan
         items:
           - apply
 en:
