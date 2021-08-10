@@ -1,62 +1,3 @@
-zh:
-  items:
-    - name: 就業金卡
-      topic: goldcard
-      link: /about/
-      dropdown:
-        image: cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
-        text: 台灣就業金卡是針對外國特定專業人才的工作許可、居留簽證、外僑居留證及重入國許可4證合一的個人工作許可，提供外國人才自由尋職、就職及轉換工作的便利性。
-        links:
-          - name: 關於就業金卡
-            link: /about
-          - name: 步驟式申請流程
-            link: /apply
-          - name: 一頁式申請流程
-            link: /application
-          - name: 申請資格
-            link: /qualification
-          - name: 金卡辦公室
-            link: /gold-card-office
-        items:
-          - apply
-    - name: Why Taiwan
-      topic: whytaiwan
-      link: /why-taiwan/
-    - name: 活動與最新消息
-      topic: eventsnews
-      link: /news/
-      dropdown:
-        image: /cms-uploads/waiting-room-with-monitors.jpg
-        text: 擁有就業金卡的第一手消息，或參加社群活動？來看看這裡。
-        links:
-          - name: 最新消息
-            link: /news
-          - name: 活動
-            link: /events
-        items:
-          - apply
-    - name: 常見問題
-      topic: faq
-      link: /faq
-    - name: 相關資源
-      topic: resources
-      link: /about
-      dropdown:
-        image: cms-uploads/navigation-resources-header.jpg
-        text: 提供專人聯繫方式、更多關於就業金卡的可用資源。
-        links:
-          - name: 工作職缺
-            link: /jobs
-          - name: 活動照片
-            link: /gallery/
-          - name: 聯繫我們
-            link: /help-desk
-          - name: 相關網站
-            link: /related-websites
-          - link: ../cms-uploads/the-gold-card-community-guide-to-taiwan.pdf
-            name: Guide to Taiwan
-        items:
-          - apply
 en:
   items:
     - name: Gold Card
@@ -114,5 +55,64 @@ en:
             link: /help-desk/
           - name: Related Websites
             link: /related-websites/
+        items:
+          - apply
+zh:
+  items:
+    - name: 就業金卡
+      topic: goldcard
+      link: /about/
+      dropdown:
+        image: cms-uploads/taiwan-beautiful-cityscape-taipei-dusk.jpg
+        text: 台灣就業金卡是針對外國特定專業人才的工作許可、居留簽證、外僑居留證及重入國許可4證合一的個人工作許可，提供外國人才自由尋職、就職及轉換工作的便利性。
+        links:
+          - name: 關於就業金卡
+            link: /about
+          - name: 步驟式申請流程
+            link: /apply
+          - name: 一頁式申請流程
+            link: /application
+          - name: 申請資格
+            link: /qualification
+          - name: 金卡辦公室
+            link: /gold-card-office
+        items:
+          - apply
+    - name: Why Taiwan
+      topic: whytaiwan
+      link: /why-taiwan/
+    - name: 活動與最新消息
+      topic: eventsnews
+      link: /news/
+      dropdown:
+        image: /cms-uploads/waiting-room-with-monitors.jpg
+        text: 擁有就業金卡的第一手消息，或參加社群活動？來看看這裡。
+        links:
+          - name: 最新消息
+            link: /news
+          - name: 活動
+            link: /events
+        items:
+          - apply
+    - name: 常見問題
+      topic: faq
+      link: /faq
+    - name: 相關資源
+      topic: resources
+      link: /about
+      dropdown:
+        image: cms-uploads/navigation-resources-header.jpg
+        text: 提供專人聯繫方式、更多關於就業金卡的可用資源。
+        links:
+          - name: 工作職缺
+            link: /jobs
+          - name: 活動照片
+            link: /gallery/
+          - name: 聯繫我們
+            link: /help-desk
+          - name: 相關網站
+            link: /related-websites
+          - link: /../cms-uploads/the-gold-card-community-guide-to-taiwan.pdf
+            name: Guide to Taiwan
         items:
           - apply
