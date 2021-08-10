@@ -1,10 +1,10 @@
 ---
 draft: false
 start: false
-title: 歡迎加入金卡社團
-date: 2021-01-18T03:13:01.397Z
 summary: 加入金卡社團與好好享受在台灣的生活吧！
 check: true
+title: 歡迎加入金卡社團
+date: 2021-01-18T03:13:01.397Z
 chatbot: true
 order: 4
 topic: goldcard
