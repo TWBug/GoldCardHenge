@@ -17,6 +17,6 @@ next: null
 
 您可以透過連結加入社團： [Facebook Gold Card Group](https://www.facebook.com/groups/goldcard)
 
+想要了解在台灣生活的細節請參考文件
 
-
-{{< file-download title="test" path="/cms-uploads/the-gold-card-community-guide-to-taiwan.pdf" >}}
+{{< file-download title="Guide to Taiwan.pdf" path="/cms-uploads/the-gold-card-community-guide-to-taiwan.pdf" >}}

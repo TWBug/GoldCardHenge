@@ -17,6 +17,6 @@ This group is for Gold Card holders only. You will be asked to provide your name
 
 You can join through this link: [Facebook Gold Card Group](https://www.facebook.com/groups/goldcard)
 
+Check file below for more about Guide to Taiwan
 
-
-{{< file-download title="test" path="/cms-uploads/the-gold-card-community-guide-to-taiwan.pdf" >}}
+{{< file-download title="Guide to Taiwan.pdf" path="/cms-uploads/the-gold-card-community-guide-to-taiwan.pdf" >}}
