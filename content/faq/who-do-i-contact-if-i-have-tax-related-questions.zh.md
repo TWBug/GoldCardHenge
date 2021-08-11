@@ -1,8 +1,8 @@
 ---
-title: 我如何得知今年要繳多少稅？
+title: 如果我有稅務上的問題可以諮詢誰？
 draft: false
 tags:
   - Tax
 weight: 1
 ---
-您可以透過[財政部稅務入口網](https://www.etax.nat.gov.tw/etwmain/front/ETW158W1 "至財政部稅務入口網")試算綜合所得稅。
+請聯繫[財政部臺北國稅局](https://www.ntbt.gov.tw/singlehtml/2e355f46119c4bbea512447b299c4d59?cntId=84c23c1909be40ee81b160063a052c33 "至財政部臺北國稅局")。
