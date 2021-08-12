@@ -20,3 +20,5 @@ Application field of cardholders:
 * Sport:1
 * Finance: 244
 * Architectural Design: 13
+
+![Number of Employment Gold Cards Issued by Month-July](/cms-uploads/2021年台灣就業金卡每月核發數-7英.jpg "Number of Employment Gold Cards Issued by Month-July")
