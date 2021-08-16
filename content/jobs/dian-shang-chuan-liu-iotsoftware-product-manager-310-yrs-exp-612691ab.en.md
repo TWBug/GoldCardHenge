@@ -11,11 +11,11 @@ company_name: Robert Walters
 company_page_url: 'https://www.cakeresume.com/companies/robert-walters'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--EW7Edb1u--/c_pad,fl_png8,h_200,w_200/v1600053194/xc6aglyvacjd8nwbof70.png
-salary_text: TWD1000000 - TWD1700000
+salary_text: TWD1000000 - TWD1800000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 1000000
-salary_max: 1700000
+salary_max: 1800000
 location_list:
   - 台北
 job_tags:
@@ -33,4 +33,4 @@ badges:
 
 ---
 
-近期我們正在積極協助多家客戶招募Software Product Manager，要求的資歷介於4~10年，產業包含： 電商及新零售整合服務 IOT軟硬整合服務 高流量串流平台 若你具有上述的產業經驗，會有興趣多了解並且想知道第一手團隊及面試流程資訊， 歡迎投遞此職缺或是Email/Linkedin聯繫，我們會盡速與你聯繫，推薦最合適的機會給你!
+近期我們正在積極協助多家客戶招募Software Product Manager，要求的資歷介於4~10年以下其一產業/服務經驗， 若您具有以下的產業/服務經驗，會有興趣多了解並且想知道第一手團隊及面試流程資訊，歡迎投遞此職缺或是Email/Linkedin聯繫，我們會盡速與適合的人選聯繫並且和您討論合適的機會!

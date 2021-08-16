@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=iot%20solutions&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '30313'
-title: Software UIUX Designer/Product Designer (3-10 yrs experience)
+title: 'Software UIUX Designer/Product Designer (5-10 yrs, Remote jobs)'
 job_url: >-
   https://www.cakeresume.com/companies/robert-walters/jobs/uiux-designer-3-10-yrs-experience
 date: 2021-06-30T02:36:37.357Z
@@ -12,11 +12,11 @@ company_name: Robert Walters
 company_page_url: 'https://www.cakeresume.com/companies/robert-walters'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--EW7Edb1u--/c_pad,fl_png8,h_200,w_200/v1600053194/xc6aglyvacjd8nwbof70.png
-salary_text: TWD800000 - TWD1600000
+salary_text: TWD800000 - TWD1800000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 800000
-salary_max: 1600000
+salary_max: 1800000
 location_list:
   - 台灣
 job_tags:
@@ -33,4 +33,4 @@ badges:
 
 ---
 
-近期我們正在積極協助客戶招募UIUX designer，要求的資歷介於3~10年，產業包含： 全球知名上市網通服務公司 VSaaS 公司 FinTech 服務 外商電競&遊戲軟體服務 若你對以上產業經驗，會有興趣多了解並且想知道第一手團隊及面試流程資訊， 歡迎投遞此職缺或是Email/Linkedin聯繫，我們會盡速與你聯繫，推薦最合適的機會給你!
+近期我們正在積極協助客戶招募能獨立作業的UIUX designer，要求的資歷介於5~10年，產業包含： Wearing & Clothing Online Marketplace- UI+UX designer, 完全遠端 VSaaS 公司-UI+UX designer, 部分遠端 FinTech 服務-UI designer/ UX designer 外商電競&遊戲軟體服務-UI+UX designer 若您對上述機會有興趣多了解並且想知道第一手團隊及面試流程資訊，歡迎投遞此職缺或是Email/Linkedin聯繫，我們會盡速與適合的人選聯繫並且和您討論合適的機會!
