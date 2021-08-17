@@ -130,7 +130,7 @@ const main = async (contentDir = DEFAULT_CONTENT_DIR) => {
             }
 
             try {
-                frontmatter = yaml.safeLoad(yamlFrontmatter);
+                frontmatter = yaml.safeLoad(yamlFrontmatter, { json: true });
             } catch (err) {
                 warn('Error detected while parsing frontmatter for:', absPath, err.message);
                 error = err;

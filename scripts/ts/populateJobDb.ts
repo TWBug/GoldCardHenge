@@ -136,7 +136,7 @@ const toMarkdownString = (x: IDBRowJob) => {
     // YAML. Since it changes every fetch it causes a data change on every
     // single job file even if the job has not changed.
     const { description, fetched_at, ...frontmatter } = x;
-    const fm = yaml.dump(frontmatter);
+    const fm = yaml.dump(frontmatter); // @note This is where jobs get serialized to markdown
     return `---\n${fm}\n---\n\n${description}`;
 };
 

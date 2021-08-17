@@ -4,6 +4,23 @@ assert(window.lunr, 'Lunr.js not found. Search cannot be supported without Lunr.
 
 const isChineseUI = window.location.pathname.startsWith('/zh/');
 
+function escapeJSONSpecialChars(str) {
+    return String(str).replace(/[\b\f\n\r\t]/g, function (char) {
+        switch (char) {
+            case '\b': // backspace
+                return '\\b';
+            case '\f': // formfeed
+                return '\\f';
+            case '\n': // newline
+                return '\\n';
+            case '\r': // carriage return
+                return '\\r';
+            case '\t': // tab
+                return '\\t';
+        }
+    });
+}
+
 // This lovely regex initially came from here: https://github.com/stkevintan/hugo-lunr-zh#readme
 const hasChineseCharacters = (str) => /[\u4E00-\u9FA5\uF900-\uFA2D]/.test(str);
 
@@ -158,7 +175,15 @@ const initLunr = () => {
     console.log('[INFO] 啟動Lunr搜尋引擎');
     // First retrieve the index file
     fetch('/lunr_index.json')
-        .then((x) => x.json())
+        .then((x) => x.text())
+        .then((s) => {
+            try {
+                return JSON.parse(s);
+            } catch (err) {
+                console.warn('JSON appears malformed. Trying again with escaping.');
+                return JSON.parse(escapeJSONSpecialChars(s));
+            }
+        })
         .then((index) => {
             pagesIndex = index;
 
