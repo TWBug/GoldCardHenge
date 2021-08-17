@@ -8,7 +8,7 @@ title: 'Senior UI Designer 資深 UI 設計師, B2C Product'
 job_url: >-
   https://www.cakeresume.com/companies/onedegree/jobs/senior-ui-designer-senior-ui-designer-900ec1
 date: 2021-05-05T08:30:29.760Z
-company_name: OneDegree香港商甯寶管理科技有限公司
+company_name: OneDegree
 company_page_url: 'https://www.cakeresume.com/companies/onedegree'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--xqiEHvO1--/c_pad,fl_png8,h_200,w_200/v1578296147/zhabcskfo2ifv72dmwtx.png
