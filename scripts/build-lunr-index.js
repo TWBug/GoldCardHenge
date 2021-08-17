@@ -109,7 +109,7 @@ const main = async (contentDir = DEFAULT_CONTENT_DIR) => {
             }
 
             const raw = await fs.promises.readFile(absPath, { encoding: 'utf-8' });
-            const frontmatterRe = /^---\n([\s\S]+)^---/m;
+            const frontmatterRe = /^---\n([\s\S]+?)^---/m;
             const [_, yamlFrontmatter] = raw.match(frontmatterRe);
             const collection = absPath.replace(contentDir, '').replace(fileName, '');
             const body = raw.replace(frontmatterRe, '').trim();
