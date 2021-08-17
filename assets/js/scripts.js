@@ -1645,6 +1645,36 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 
 var __shouldDebug = false;
 
+function escapeJSONSpecialChars(str) {
+  return String(str).replace(/[\b\f\n\r\t]/g, function (_char) {
+    switch (_char) {
+      case '\b':
+        // backspace
+        return '\\b';
+
+      case '\f':
+        // formfeed
+        return '\\f';
+
+      case '\n':
+        // newline
+        return '\\n';
+
+      case '\r':
+        // carriage return
+        return '\\r';
+
+      case '\t':
+        // tab
+        return '\\t';
+
+      default:
+        console.warn('Unhandled special character', _char);
+        return _char;
+    }
+  });
+}
+
 window.taSearchDebug = function () {
   var activated = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : true;
   __shouldDebug = activated;
@@ -1906,7 +1936,14 @@ window.taSearch = function () {
       dbg('Lunr index loading:', this.$el.dataset.file); // First retrieve the index file
 
       fetch(this.options.file).then(function (x) {
-        return x.json();
+        return x.text();
+      }).then(function (s) {
+        try {
+          return JSON.parse(s);
+        } catch (err) {
+          console.warn('JSON appears malformed. Trying again with escaping.');
+          return JSON.parse(escapeJSONSpecialChars(s));
+        }
       }).then(function (index) {
         window.lunrPages = index; // Set up lunrjs by declaring the fields we use
         // Also provide their boost level for the ranking
@@ -1948,7 +1985,7 @@ window.taSearch = function () {
         });
         _this4.initialized = true;
       })["catch"](function (err) {
-        console.error('Error getting Hugo index file.');
+        console.error('Error getting Hugo index file.', err);
       });
     },
     search: function search(query) {
