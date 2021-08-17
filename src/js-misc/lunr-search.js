@@ -17,6 +17,9 @@ function escapeJSONSpecialChars(str) {
                 return '\\r';
             case '\t': // tab
                 return '\\t';
+            default:
+                console.warn('Unhandled special character', char);
+                return char;
         }
     });
 }
@@ -218,7 +221,7 @@ const initLunr = () => {
             window.lunrIndex = lunrIndex;
         })
         .catch((err) => {
-            console.error('Error getting Hugo index file:');
+            console.error('Error getting Hugo index file:', err);
         });
 };
 

@@ -1,5 +1,25 @@
 let __shouldDebug = false;
 
+function escapeJSONSpecialChars(str) {
+    return String(str).replace(/[\b\f\n\r\t]/g, function (char) {
+        switch (char) {
+            case '\b': // backspace
+                return '\\b';
+            case '\f': // formfeed
+                return '\\f';
+            case '\n': // newline
+                return '\\n';
+            case '\r': // carriage return
+                return '\\r';
+            case '\t': // tab
+                return '\\t';
+            default:
+                console.warn('Unhandled special character', char);
+                return char;
+        }
+    });
+}
+
 window.taSearchDebug = (activated = true) => {
     __shouldDebug = activated;
     localStorage.setItem('@@TEGO_DBG', activated);
@@ -234,7 +254,15 @@ window.taSearch = function () {
 
             // First retrieve the index file
             fetch(this.options.file)
-                .then((x) => x.json())
+                .then((x) => x.text())
+                .then((s) => {
+                    try {
+                        return JSON.parse(s);
+                    } catch (err) {
+                        console.warn('JSON appears malformed. Trying again with escaping.');
+                        return JSON.parse(escapeJSONSpecialChars(s));
+                    }
+                })
                 .then((index) => {
                     window.lunrPages = index;
                     // Set up lunrjs by declaring the fields we use
@@ -267,7 +295,7 @@ window.taSearch = function () {
                     this.initialized = true;
                 })
                 .catch((err) => {
-                    console.error('Error getting Hugo index file.');
+                    console.error('Error getting Hugo index file.', err);
                 });
         },
         search(query) {
