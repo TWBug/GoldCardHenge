@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '16501'
-title: 【日商樂天】Senior iOS App Developer (DEV)
+title: 【日商樂天】Senior iOS Engineer (DEV)
 job_url: 'https://www.cakeresume.com/companies/rakuten/jobs/senior-ios-app-engineer-dev'
 date: 2019-12-17T08:01:14.690Z
 company_name: Rakuten 台灣樂天市場股份有限公司
