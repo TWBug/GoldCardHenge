@@ -14,3 +14,7 @@ The following information can be updated through the online application platform
 6. Email (Free; Please contact NIA for assistance)
 
 If you need to update any personal information or if your card is stolen, lost or damaged, please file a report using the Foreign Professionals Online Application Platform **within 30 days** from its occurrence.
+
+Please follow the instruction to update information on your Gold Card.
+
+![change information_eng](/cms-uploads/change-information.png)
