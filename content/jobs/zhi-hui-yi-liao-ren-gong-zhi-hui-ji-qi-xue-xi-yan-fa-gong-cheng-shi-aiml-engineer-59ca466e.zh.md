@@ -11,7 +11,7 @@ date: 2020-12-28T03:57:05.963Z
 company_name: 神經元科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/neurobittech'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s---Xz_AH7c--/c_pad,fl_png8,h_200,w_200/v1564480898/lh6oos5iqspttyqjbazz.png
+  https://media.cakeresume.com/image/upload/s--M2CRUTOt--/c_pad,fl_png8,h_200,w_200/v1629450417/xllbss6xhjiy06njzsom.png
 salary_text: TWD560000 - TWD1120000
 salary_currency: TWD
 salary_type: per_year

@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '31280'
-title: Senior Product Manager (Fintech Product)
+title: Lead Product Manager (Fintech Product)
 job_url: >-
   https://www.cakeresume.com/companies/gogolook/jobs/senior-product-manager-fintech-product
 date: 2021-08-05T03:22:29.883Z
@@ -23,14 +23,13 @@ job_tags:
   - Product Management
   - FinTech
   - Financial Services
-  - B2B
   - B2B2C
-  - B2B平台
   - B2C
   - Data Analysis
+  - App
 badges:
   - Project Manager
 
 ---
 
-We want to use technology and data to rethink how financial services are offered. We are seeking an experienced member to join the Product team for our new loan service/product. We need you to: - Plan and manage the new loan service and be responsible for the revenue goal - Make the decision based on quantitative and qualitative data in product development - Support B2B data product development - Drive product launches, partnering with business stakeholders to improve the product quality
+We want to use technology and data to rethink how the financial services are offered. We are seeking an experienced member to join the Product team for our new loan service/product. You will Define the product strategy and roadmap Creating buy-in for the product vision both internally and with key external partners Plan and manage the new loan service from scratch and be responsible for the revenue goal Translate product strategy into detailed requirements and prototypes Run beta and pilot progr
