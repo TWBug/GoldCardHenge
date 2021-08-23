@@ -43,8 +43,9 @@
                 {{ trim .Title " " }}
             </a>
         </h2>
-        <div class="text-base font-medium">
-            {{ .Content | truncate 180 | plainify }}
+        <div class="text-base font-medium break-all">
+            {{/* .Content | truncate 180 | plainify */}}
+            {{ replace (.Content | plainify ) "===" "" | truncate 180 | plainify }}
         </div>
         {{ if and .Params.salary_currency .Params.salary_min .Params.salary_max .Params.salary_type }}
             {{ $min := float .Params.salary_min }}
