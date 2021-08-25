@@ -17,7 +17,7 @@ topic: goldcard
 {{< accordion title="Previously or currently holding a position at an economic company or in an economic field in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000." suffix="1." bottomless="true" >}}
 * Documents verifying salary or income tax payment relating to employment at an economic company or in an economic field. (Please provide ONE of the following).
 
-  * A tax statement and/or salary statements from your employer to prove your salary was above 160,000NT (eg Australia PAYG payment summary, Canada T4, Israel 106 form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2)
+  * A tax statement 3 years preceding the month of application (e.g., Australia PAYG Payment Summary, Canada T4, Israel 106 Form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2) to prove that your monthly salary was at average above NTD$160,000. If such certification cannot be presented owing to provisions of tax law, it may, after explanation of the tax law provisions preventing its presentation, be replaced by employer’s certification. (The Certificate of Employment should specify the period of employment, job content/position, and the actual salary received. If the Certificate of Employment does not specify the salary, it should be accompanied by a salary slip to support it). 
   * The employment contract of intended future employment in the ROC.
 * Personal curriculum vitae and document verifying domestic or foreign service relating to employment at an economic company or in an economic field. 
 
@@ -76,8 +76,6 @@ Notes:
 
 * Corporation information during employment, job description (such as project experience, service experience, effectiveness after customer's introduction of solutions, etc.), documents verifying technology or other proof of expertise (such as domestic or foreign patent certificate, a technology transfer contract, academic works, licenses, documents verifying receipt of awards, etc.)
 {{< /accordion >}}
-
-
 
 {{< accordion title="Those who have held a specialized or interdisciplinary positions at Advertisement, Product design, Visual communication design, Designer fashion and Digital content  in the Cultural and Creative sectors, and have more than eight years of work experience in related fields." suffix="5." bottomless="true" >}}
 * Proof of work experience of for at least eight years in relevant fields. Please attach all of the following documents:
