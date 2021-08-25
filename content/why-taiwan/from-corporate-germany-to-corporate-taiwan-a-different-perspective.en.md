@@ -16,23 +16,25 @@ style: right
 
 This time around, the Taiwan Employment Gold Card Office sits down with Muhammed Özcan, Director of Global Quality at the international Taiwanese company Excellence Opto, Inc. (EOI). We were super excited to hear about his experiences working in corporate and the automotive industry in Germany and Taiwan. 
 
-## Introduce yourself! 
+## Introduce yourself!
 
 My name is Muhammed Özcan. I am German; I was born in Germany as the son of Turkish immigrants and will soon be 45 years old. My wife also has a similar background. We have two children, one is 16, and the other is 3 years old. My family and I moved to Taiwan from Lippstadt, Germany, in April 2020; my family arrived 2 months later. Since then, we have been living in Zhubei, Hsinchu County. 
 
 I work for Excellence Opto, Inc. (EOI), an international Taiwanese company in the automotive industry. EOI manufactures and develops LEDs and printed circuit boards. EOI's customers include Tesla, Ford, Audi, BMW, Mercedes Benz, GM, Volkswagen, Toyota, Nissan, Skoda, BAIC Group, etc. The headquarters is in Taiwan. I am currently Director of Global Quality & Member of the Management Board. 
 
-## Was Taiwan your first experience living abroad and getting introduced to Asian culture? 
+![From Corporate Germany to Corporate Taiwan5](/cms-uploads/from-corporate-germany-to-corporate-taiwan5.jpg)
+
+## Was Taiwan your first experience living abroad and getting introduced to Asian culture?
 
 I grew up with Japanese culture because I have a black belt in karate. I started this martial art when I was 8 years old. Later at university, I worked in a Chinese restaurant. All my coworkers were Chinese, and I also picked up a little Chinese. That was a lot of fun.
 
 10 years ago, I had the opportunity to go to Beijing for 2 years with my employer at the time, HELLA. That was my first experience going abroad, and it was a big culture shock. At that time, I was doing similar work to what I am doing now. Before I moved here, I traveled around Asia a lot and had seen Taiwan before COVID. 
 
-## How does your experience in Beijing differ from Taiwan? 
+## How does your experience in Beijing differ from Taiwan?
 
 At that time, I was a classic expat with a contract of 2 years. I also did not bring my family with me. Every 6 weeks, I would fly to Germany to spend time with them. This time my employment is a bit different. I was hired locally, and I am in for the long haul. 
 
-## What brought you to Taiwan? 
+## What brought you to Taiwan?
 
 I came because EOI offered me the opportunity to work for them as Director of Global Quality. The whole package was great. Salary, opportunities... But most importantly, with the role I've been given, I have the decision-making power to make a difference. I can use all my knowledge and experience to influence the company's future and hopefully create a better future. That is one of the main reasons why I was hired and why I accepted the offer. 
 
@@ -42,11 +44,13 @@ Before I accepted this position, I brought my family to visit and check out my p
 
 We decided pretty quickly that this was the right choice because the living conditions were not very different from what we were used to in Germany. 
 
-## Why the Taiwan Employment Gold Card? 
+![From Corporate Germany to Corporate Taiwan1](/cms-uploads/from-corporate-germany-to-corporate-taiwan1.jpg)
+
+## Why the Taiwan Employment Gold Card?
 
 The HR team at my company did a great job researching all the visa options for me in advance. They presented the Gold Card as the best possible option for me, and I agreed. The fact that it is an all-in-one visa and that it offered me tax benefits was amazing. Afterward, my HR team helped me with the whole application process; I just had to give them all the necessary paperwork. 
 
-## How's the work environment compared to Germany? 
+## How's the work environment compared to Germany?
 
 Well, I used to have a 35-hour workweek (laughs). I definitely work a lot more here, which puts a lot more housework on my wife. People here work much harder and much longer. 
 
@@ -56,7 +60,7 @@ Specifically for my work, the processes in Germany take much longer. That's beca
 
 One of the things that struck me was the respect for work hierarchies. It is important for companies here, whereas people usually don't care that much about it in Germany. My position allows me a lot of decision-making power, but I often have to discuss a lot with my superiors to come to a conclusion.
 
-## What are your biggest challenges? 
+## What are your biggest challenges?
 
 Something I wasn't really prepared for was also the different mentalities I have to deal with, mainly because of my position. My job is to bring improvements to the company and find solutions to problems. Since I'm based at headquarters, I have to deal with employees in China and the U.S., which can be quite a challenge at times. 
 
@@ -66,7 +70,7 @@ Our CEO is amazing. She spent a long time in the States, so she speaks perfect E
 
 But the language barrier is a big challenge, I must say. I would like to change this situation. My family and I plan to stay here for a while, so I plan to take Chinese lessons and improve my communication skills. Unfortunately, I don't have that much time right now because I'm doing an MBA in Leadership & Management on the side. However, my HR department has offered me to take Chinese lessons every day. I am planning to take them up on their offer soon.
 
-## How is your family adapting? 
+## How is your family adapting?
 
 My family is currently on vacation in Germany visiting our family. Depending on the local situation with Covid, they should return in August/September when school starts again. I hope they lift the mandatory hotel quarantine soon...*laughs*. I think, in general, everyone is adjusting pretty well. 
 
@@ -77,13 +81,11 @@ I have to spend a lot of time at work, so my wife needs to have the opportunity 
 
 My oldest son goes to the local American school. He really likes the school and has some friends there. My youngest already went to kindergarten and will also go to kindergarten full time when he returns from Germany. This will be great for my wife, so she will have much more time for other things. She plans to take Chinese classes and eventually get a job as well. Right now, she has made cooking her hobby and has also started an Instagram blog. Otherwise, she spends a lot of time meeting up with her girlfriends, for example. 
 
-(Wife IG handle) 
+On the weekends, we get together with other families and go on trips to go sightseeing, the beach, the mountains, etc. It is certainly easy to find something to do here. 
 
-On the weekends, we get together with other families and go on trips to go sightseeing, the beach, the mountains, etc. 
+![From Corporate Germany to Corporate Taiwan4](/cms-uploads/from-corporate-germany-to-corporate-taiwan4.jpg)
 
-It is certainly easy to find something to do here. 
-
-## What surprised you the most about Taiwan? 
+## What surprised you the most about Taiwan?
 
 I don't think anything really surprised me too much. I've already had the opportunity to come here before, and I don't think we've had any type of cultural shock. We've already had the chance to get to know different cultures due to our Turkish background, so it was easy to adapt. 
 
@@ -91,7 +93,7 @@ One thing, though, is the traffic *laughs*. I have a car here and drive myself. 
 
 Also, every time I go into nature, I realize how beautiful it is. It doesn't matter how often I go; it's still wonderful over and over again. 
 
-## What's the biggest difference between Germany and Taiwan for you? 
+## What's the biggest difference between Germany and Taiwan for you?
 
 I think for us personally, the big difference is that we don't have a family here. When you have a toddler, it's especially noticeable. We used to be able to just leave the kids with family, and of course, we can't do that here. 
 
@@ -99,19 +101,21 @@ There are many differences, but I wouldn't say that anything has really affected
 
 Sure the weather is hotter and more humid, the traffic is a little crazy, and you change your summer outdoor activities a little bit because of the heat. But it's nothing crazy. After a while, you don't even notice it that much.
 
-## Would you recommend friends coming to live and work in Taiwan? 
+## Would you recommend friends coming to live and work in Taiwan?
 
 I would definitely recommend Taiwan to friends. However, I would suggest that you visit first and get to know your potential employer. Then, make sure you make an informed decision and that you may encounter some differences and challenges. In general, though, it's a great place to live. If you have a stay-at-home partner, just make sure there are enough people nearby to connect with and have something to keep them busy. 
 
-## What are your favorite spots so far in Taiwan? 
+## What are your favorite spots so far in Taiwan?
 
 We have been to many places: Kenting, Kaohsiung, Taitung, Taipei, Keelung, etc. We've looked at so many mountains and beaches, it's really hard for us to decide which is our favorite place. I think the whole island is just our favorite place *laughs*. We love going to a different place every weekend, especially the beaches. We also love to go hiking, though with our toddler, that's a little limited right now. 
 
-## How long are you looking to stay here? 
+![From Corporate Germany to Corporate Taiwan2](/cms-uploads/from-corporate-germany-to-corporate-taiwan2.jpg)
+
+## How long are you looking to stay here?
 
 My family and I plan to stay at least 3-5 years. It depends on the future of my company. One of the reasons I am here is that the company plans to grow in Europe (including Germany) in the next 3-5 years. And that would be the time when I would go back and continue to work for the company in Europe. That would be the plan for now. 
 
-## Any last thoughts? 
+## Any last thoughts?
 
 In retrospect, it was the right decision to come to Taiwan. It's a lot of fun to work for my company. Of course, it's a bit of a challenge, but I knew it would be. One of the reasons we also decided to take on this challenge was that we wanted to get out of our comfort zone in Germany. We felt like we weren't getting anywhere with our jobs and our personal lives. So we wanted to get out and experience something new and exciting. And we made the right decision. 
 
