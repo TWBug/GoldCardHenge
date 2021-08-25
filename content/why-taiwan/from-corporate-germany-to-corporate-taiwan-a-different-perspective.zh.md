@@ -4,9 +4,9 @@ date: 2021-08-25T02:21:02.917Z
 draft: false
 chatbot: false
 topic: whytaiwan
-cover_image: /cms-uploads/from-corporate-germany-to-corporate-taiwan1.jpg
+cover_image: /cms-uploads/from-corporate-germany-to-corporate-taiwan3.jpg
 cover_image_alt: From Corporate Germany to Corporate Taiwan
-media_image: /cms-uploads/from-corporate-germany-to-corporate-taiwan1.jpg
+media_image: /cms-uploads/from-corporate-germany-to-corporate-taiwan3.jpg
 media_image_alt: From Corporate Germany to Corporate Taiwan
 topics:
   - Humans of Taiwan
