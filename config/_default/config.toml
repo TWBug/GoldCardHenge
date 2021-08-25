@@ -49,6 +49,8 @@ apply = "/zh/apply/"
 phone = "+886 2-7733-7660"
 email = "help@taiwangoldcard.tw"
 
+[imaging]
+anchor = "center"
 
 # [languages.de]
 # disableKinds = ["404", "taxonomy", "sitemap"]
