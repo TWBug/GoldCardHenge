@@ -18,7 +18,7 @@ topic: goldcard
 {{< /accordion >}}
 
 {{< accordion title="Previously or currently holding a position in a foreign state or in the ROC with a most recent monthly salary of at least NT$160,000." suffix="2." bottomless="true" >}}
-* Documents verifying monthly salary 160,000 NT dollars or above income tax payment relating to present or past employment.
+* Documents verifying monthly salary 160,000 NT dollars or above income tax payment relating to present or past employment. **Documentary proof of salary or tax payment means one of the following:**
 
   * A tax statement 3 years preceding the month of application (e.g., Australia PAYG Payment Summary, Canada T4, Israel 106 Form, Russia 2-NDFL, Poland PIT-11, UK P60, US W-2) to prove that your monthly salary was at average above NTD$160,000. If such certification cannot be presented owing to provisions of tax law, it may, after explanation of the tax law provisions preventing its presentation, be replaced by employer’s certification. (The Certificate of Employment should specify the period of employment, job content/position, and the actual salary received. If the Certificate of Employment does not specify the salary, it should be accompanied by a salary slip to support it).
   * The employment contract of intended future employment in the ROC.
