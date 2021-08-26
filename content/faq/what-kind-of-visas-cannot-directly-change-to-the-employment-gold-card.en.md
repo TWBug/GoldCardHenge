@@ -11,7 +11,7 @@ If you enter Taiwan with any of the following visas, you will not be allowed to 
 * Trade Exhibition or other Events Visa (IM)
 * Emergency Relief (ER)
 * Medical Visa (M)
-* Working Holiday Visa (WH/YM) except for France Working Holiday
+* Working Holiday Visa (WH/YM) **except for France Working Holiday**
 * Studying Mandarin Chinese Visa (FR)
 
 Please remember to double check your passport to confirm your visa. If you choose the wrong identity, you will be asked to reapply and will not be refunded.
