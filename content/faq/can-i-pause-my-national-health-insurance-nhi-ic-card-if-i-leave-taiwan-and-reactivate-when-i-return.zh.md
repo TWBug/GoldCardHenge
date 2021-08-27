@@ -1,6 +1,5 @@
 ---
-title: Can I pause my National Health Insurance (NHI) IC Card if I leave Taiwan
-  and reactivate when I return?
+title: 我出國後可以暫停我的健保卡嗎？返台後我的健保可以復保嗎？
 draft: false
 tags:
   - National Health Insurance
