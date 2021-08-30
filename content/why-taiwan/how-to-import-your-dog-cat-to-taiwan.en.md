@@ -8,7 +8,7 @@ cover_image: /cms-uploads/how-to-import-your-dogcat-to-taiwan.jpg
 media_image: /cms-uploads/how-to-import-your-dogcat-to-taiwan.jpg
 topics:
   - Discover Taiwan
-style: right
+style: title
 ---
 # How to import your Dog/Cat to Taiwan?
 
