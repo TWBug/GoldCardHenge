@@ -10,7 +10,7 @@ media_image: /cms-uploads/from-corporate-germany-to-corporate-taiwan3.jpg
 media_image_alt: From Corporate Germany to Corporate Taiwan
 topics:
   - Humans of Taiwan
-style: right
+style: title
 ---
 # From Corporate Germany to Corporate Taiwan - A Different Perspective
 

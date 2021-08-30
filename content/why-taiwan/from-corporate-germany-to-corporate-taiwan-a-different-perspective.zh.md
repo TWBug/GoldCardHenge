@@ -10,7 +10,7 @@ media_image: /cms-uploads/from-corporate-germany-to-corporate-taiwan3.jpg
 media_image_alt: From Corporate Germany to Corporate Taiwan
 topics:
   - Humans of Taiwan
-style: right
+style: title
 ---
 # 從德國到台灣——跳出舒適圈、開啟嶄新的人生旅程
 
