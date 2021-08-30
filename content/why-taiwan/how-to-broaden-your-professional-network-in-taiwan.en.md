@@ -9,7 +9,7 @@ cover_image_alt: How to Broaden Your Professional Network in Taiwan
 media_image: /cms-uploads/how-to-broaden-your-professional-network-in-taiwan-1.jpg
 media_image_alt: How to Broaden Your Professional Network in Taiwan
 topics:
-  - Other
+  - Discover Taiwan
 style: title
 ---
 # How to Broaden Your Professional Network in Taiwan?
