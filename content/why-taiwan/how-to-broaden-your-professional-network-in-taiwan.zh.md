@@ -1,5 +1,5 @@
 ---
-title: How to Broaden Your Professional Network in Taiwan?
+title: 如何拓展在台灣的專業人脈網路？
 date: 2021-08-30T03:10:06.839Z
 draft: false
 chatbot: false
@@ -12,8 +12,8 @@ topics:
   - Other
 style: right
 ---
-# How to Broaden Your Professional Network in Taiwan
+# 如何拓展在台灣的專業人脈網路
 
-Finding work or starting a business in Taiwan is challenging, and to succeed you need all the guanxi (關係) that you can get. You need access to people who have done it before, can highlight pitfalls and obstacles, and are willing to offer a little friendly advice. This is what creating good connections, or guanxi, is all about.  
+如果您是個外籍人士，要在台灣找到一份好工作或創立一個事業都很有挑戰性。為了要成功，您必須動用所有可能找到的關係，接觸那些有相關產業經驗的人，他們可以提點需要注意以及避免的事情，並且樂於提供友善的忠告，這就是所謂建立良好人際「關係」的意義所在，也將是您在台灣職涯發展的重點。
 
-Below is a culmination of tips on how to take the first steps toward building a network of connections, both international and local, that will impact you professionally and personally. Finding the right network is crucial for your career in Taiwan, and we hope that this article will aid you on your journey to broadening your professional network.
+以下是有關如何邁出第一步，以建立國際和本地人際網路的秘訣，這將對您的職涯和個人產生影響，希望本文能幫助您有效拓廣在台專業網路人脈。
