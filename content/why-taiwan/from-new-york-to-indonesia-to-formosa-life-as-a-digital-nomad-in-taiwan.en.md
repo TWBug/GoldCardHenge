@@ -10,7 +10,7 @@ media_image: /cms-uploads/from-new-york-to-indonesia-to-formosa-life-as-a-digita
 media_image_alt: From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan
 topics:
   - Humans of Taiwan
-style: right
+style: title
 ---
 # From New York to Indonesia to Formosa - Life as a Digital Nomad in Taiwan
 
