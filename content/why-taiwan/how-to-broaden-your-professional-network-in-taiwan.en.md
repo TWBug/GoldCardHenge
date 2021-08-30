@@ -12,7 +12,7 @@ topics:
   - Other
 style: title
 ---
-# How to Broaden Your Professional Network in Taiwan
+# How to Broaden Your Professional Network in Taiwan?
 
 Finding work or starting a business in Taiwan is challenging, and to succeed you need all the guanxi (關係) that you can get. You need access to people who have done it before, can highlight pitfalls and obstacles, and are willing to offer a little friendly advice. This is what creating good connections, or guanxi, is all about.  
 
@@ -38,7 +38,7 @@ For instance, as a job seeker, identify the companies that you would like to wor
 
 ![How to Broaden Your Professional Network in Taiwan-4](/cms-uploads/how-to-broaden-your-professional-network-in-taiwan-4.jpg)
 
-## TIP 3: UTILIZE LINKEDIN 
+## TIP 3: UTILIZE LINKEDIN
 
 LinkedIn is one of the most important social media platforms for professionals in Taiwan, especially for those new to Taiwan. In addition, although professional communities and networks thrive on Facebook, it is not recommended to approach contacts of interest on Facebook. Conversely, on LinkedIn, adding connections of interest who you have had no previous contact with is permissible.
 
