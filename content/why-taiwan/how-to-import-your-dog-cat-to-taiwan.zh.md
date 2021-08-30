@@ -5,7 +5,9 @@ draft: false
 chatbot: false
 topic: whytaiwan
 cover_image: /cms-uploads/how-to-import-your-dogcat-to-taiwan.jpg
+cover_image_alt: How to import your Dog/Cat to Taiwan?
 media_image: /cms-uploads/how-to-import-your-dogcat-to-taiwan.jpg
+media_image_alt: How to import your Dog/Cat to Taiwan?
 topics:
   - Discover Taiwan
 style: title
