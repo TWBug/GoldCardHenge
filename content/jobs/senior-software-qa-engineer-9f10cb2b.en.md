@@ -12,11 +12,11 @@ company_name: 'Nogle Taiwan '
 company_page_url: 'https://www.cakeresume.com/companies/nogle-taiwan'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--2uYlGMZX--/c_pad,fl_png8,h_200,w_200/v1629429929/ook3hkmzy8pkxcgelb7t.png
-salary_text: TWD800000 - TWD1600000
+salary_text: TWD800000 - TWD1500000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 800000
-salary_max: 1600000
+salary_max: 1500000
 location_list:
   - 台北市信義區
 job_tags:
