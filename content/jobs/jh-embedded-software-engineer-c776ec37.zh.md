@@ -2,9 +2,9 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
+  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '29042'
-title: 'JH- Switch software engineer '
+title: 'JH- Embedded software engineer '
 job_url: >-
   https://www.cakeresume.com/companies/insearch/jobs/switch-engineer-software-engineer
 date: 2021-04-28T09:44:50.492Z
@@ -18,7 +18,12 @@ salary_type: per_year
 salary_min: 800000
 salary_max: 1500000
 location_list:
-  - 新北市新店區
+  - Taiwan
+  - 'New Taipei City, Taiwan'
+  - 'Xindian District, New Taipei City, Taiwan'
+  - 台灣
+  - '新北市, 台灣'
+  - 台灣新北市新店區
 job_tags:
   - Switch
   - embedded system
@@ -42,7 +47,7 @@ job_tags:
   - 福利優渥
   - 研發設計
 badges:
-  - Industrial Engineer
+  - Software
 
 ---
 
