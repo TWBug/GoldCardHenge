@@ -1,5 +1,5 @@
 ---
-title: 就業金卡的生效日期為何？
+title: When is the start date for my Employment Gold Card?
 draft: false
 tags:
   - Application
