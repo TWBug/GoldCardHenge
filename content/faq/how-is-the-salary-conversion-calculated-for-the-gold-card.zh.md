@@ -1,5 +1,5 @@
 ---
-title: How is the salary conversion calculated for the Gold Card?
+title: 就業金卡申請的薪資證明之匯率是如何計算？
 draft: false
 tags:
   - Application
