@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '28179'
-title: '[KKStream] Sr. Software QA Engineer (Enterprise Solution)'
+title: '[KKStream] Sr. Software QA Engineer'
 job_url: 'https://www.cakeresume.com/companies/kkboxgroup/jobs/e12245'
 date: 2021-03-30T02:17:53.425Z
 company_name: KKBOX Group
