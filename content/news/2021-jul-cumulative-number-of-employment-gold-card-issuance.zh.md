@@ -1,5 +1,5 @@
 ---
-title: 2021年6月就業金卡最新核發數字
+title: 2021年7月就業金卡最新核發數字
 date: 2021-08-02T03:03:13.013Z
 topic: eventsnews
 draft: false
