@@ -1,6 +1,6 @@
 ---
 title: 2021/AUG Cumulative Number of Employment Gold Card Issuance
-date: 2021-09-03T03:57:53.507Z
+date: 2019-12-31T03:57:53.507Z
 topic: eventsnews
 draft: false
 hidden: false
