@@ -72,4 +72,24 @@ Taiwan Startup Stadium - Taiwan's leading ecosystem builder aiming to cultivate 
 
 Startboard - Hosts regular bilingual events regarding immigration issues, starting up as a foreign company and how to enter local incubators.  Provides visa, legal, patent, and other services to entrepreneurs focused on ASEAN, India, and Taiwan.
 
-Women Who Code Taipei - Events centered around promoting women are proportionally represented as technical leaders, executives, founders, VCs, board members, and software engineers. Regular events in both English and Chinese
+Women Who Code Taipei - Events centered around promoting women are proportionally represented as technical leaders, executives, founders, VCs, board members, and software engineers. Regular events in both English and Chinese.
+
+## Chambers of Commerce
+
+Taipei has a variety of foreign Chambers of Commerce that are extremely active in terms of events - ranging from workshops to seminars to networking happy hours. Keep up to date with their annual schedules. Please note that some events may be members only. These are the most active chambers:
+
+American
+
+Australia and New Zealand
+
+British
+
+Canadian
+
+European
+
+French (CCIFT)
+
+German (AHK)
+
+Hopefully connecting with these groups and organizations will get you on your way to networking with the people you want to meet in Taiwan!
