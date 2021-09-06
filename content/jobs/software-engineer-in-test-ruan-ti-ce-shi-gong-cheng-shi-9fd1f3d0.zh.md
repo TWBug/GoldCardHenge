@@ -12,11 +12,11 @@ company_name: Tomofun 寵物AI科技新創
 company_page_url: 'https://www.cakeresume.com/companies/tomofun'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--Lnjf32Kn--/c_pad,fl_png8,h_200,w_200/v1594890273/ztfrcn5jli33qaw9bpsz.png
-salary_text: TWD600000 - TWD1000000
+salary_text: TWD850000 - TWD1200000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 600000
-salary_max: 1000000
+salary_min: 850000
+salary_max: 1200000
 location_list:
   - 台北
 job_tags:

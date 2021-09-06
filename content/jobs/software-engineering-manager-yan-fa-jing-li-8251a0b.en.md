@@ -17,7 +17,12 @@ salary_type: per_year
 salary_min: 2400000
 salary_max: 5000000
 location_list:
-  - 台北市松高路1號7樓
+  - Taiwan
+  - 'Taipei City, Taiwan'
+  - 'Neihu District, Taipei City, Taiwan 114'
+  - 台灣
+  - '台北市, 台灣'
+  - 114台灣台北市內湖區
 job_tags:
   - C++
   - C

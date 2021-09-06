@@ -11,7 +11,7 @@ date: 2021-09-01T02:41:03.464Z
 company_name: JB-Headhunter 傑報中高階獵才
 company_page_url: 'https://www.cakeresume.com/companies/jb-headhunter'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s---o0xZ7J5--/c_pad,fl_png8,h_200,w_200/v1630391293/j624xuasp2ma3ktp5tcy.png
+  https://media.cakeresume.com/image/upload/s--jocfOSS8--/c_pad,fl_png8,h_200,w_200/v1630906417/hqcxk5i6a2qg8zw7w4n4.png
 salary_text: TWD1500000 - TWD1800000
 salary_currency: TWD
 salary_type: per_year
@@ -24,7 +24,10 @@ location_list:
   - 台灣
   - ', 台灣'
   - 300台灣新竹市東區
-job_tags: []
+job_tags:
+  - C
+  - ARM Cortex-M
+  - 32 BIT
 badges:
   - Semiconductor
 

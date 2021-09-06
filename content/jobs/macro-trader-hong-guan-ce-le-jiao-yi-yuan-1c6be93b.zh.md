@@ -17,7 +17,12 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 2000000
 location_list:
-  - 台北市中山區樂群二路189號6樓之一
+  - Taiwan
+  - 'Taipei City, Taiwan'
+  - 'Zhongshan District, Taipei City, Taiwan 10491'
+  - 台灣
+  - '台北市, 台灣'
+  - 10491台灣台北市中山區
 job_tags:
   - SQL
   - Python
