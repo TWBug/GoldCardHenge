@@ -30,7 +30,7 @@ Unless noted, most of these events are in English or bilingual. Please contact o
 
 ## General Directories to Get Started
 
-From general purposed to specific-function website, there are some website you could find events and activities in Taiwan.
+Whether you're looking for leisure activities or professional networking events, there are several websites you can visit to get involved and stay connected with your local community.
 
 * General:
 
