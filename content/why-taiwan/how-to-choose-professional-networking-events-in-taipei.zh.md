@@ -70,7 +70,7 @@ style: right
 
 [Taiwan Startup Stadium (TSS)](https://www.startupstadium.tw/) - 在台灣領先的新創生態系統創建者，旨在培養具有世界公民意識的企業家，並向世界展示最具創新性的台灣新創公司。TSS有一個定期活動的清單，其中Startup Lineup X Membership是為想要從台灣起步的新創公司提供的免費計劃，會員可以進入一個由具世界公民意識的創辦人、導師、投資者、媒體和合作夥伴組成的社群，是專門為那些即將走向世界的新創公司量身訂做的豐富資源！
 
-[Startboard](https://startboard.co/team/) - 定期舉辦有關移民問題、外國公司創業以及如何進入當地孵化器的雙語活動。並提供給準備進入東南亞國協與印度的台灣創業者，有關簽證、法律、專利和其他服務等資訊。
+[STARTBOARD](https://startboard.co/team/) - 定期舉辦有關移民問題、外國公司創業以及如何進入當地孵化器的雙語活動。並提供給準備進入東南亞國協與印度的台灣創業者，有關簽證、法律、專利和其他服務等資訊。
 
 [Women who code Taipei](https://www.womenwhocode.com/taipei) - 定期舉辦中英文活動，以提升科技女力為宗旨的組織，其中有技術領導者、高階主管、創辦人、風險投資、董事會成員和軟體工程師等不同的女性做為代表發起行動。
 

@@ -70,7 +70,7 @@ Whether you're looking for leisure activities or professional networking events,
 
 [Taiwan Startup Stadium](https://www.startupstadium.tw/) - Taiwan's leading ecosystem builder aiming to cultivate global-minded entrepreneurs and showcase the most innovative Taiwanese startups to the world. TSS has a roster of regular events. Starting Lineup X Membership is a free program for startups who want to start from Taiwan. Members get access to a community of globally-minded founders, mentors, investors, media and partners along with a host of resources specifically tailored to startups going global!
 
-[Startboard](https://startboard.co/team/) - Hosts regular bilingual events regarding immigration issues, starting up as a foreign company and how to enter local incubators.  Provides visa, legal, patent, and other services to entrepreneurs focused on ASEAN, India, and Taiwan.
+[STARTBOARD](https://startboard.co/team/) - Hosts regular bilingual events regarding immigration issues, starting up as a foreign company and how to enter local incubators.  Provides visa, legal, patent, and other services to entrepreneurs focused on ASEAN, India, and Taiwan.
 
 [Women Who Code Taipei](https://www.womenwhocode.com/taipei) - Events centered around promoting women are proportionally represented as technical leaders, executives, founders, VCs, board members, and software engineers. Regular events in both English and Chinese.
 
