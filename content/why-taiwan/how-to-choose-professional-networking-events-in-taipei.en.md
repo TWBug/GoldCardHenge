@@ -74,6 +74,8 @@ Startboard - Hosts regular bilingual events regarding immigration issues, starti
 
 Women Who Code Taipei - Events centered around promoting women are proportionally represented as technical leaders, executives, founders, VCs, board members, and software engineers. Regular events in both English and Chinese.
 
+![How to Choose Professional Networking Events in Taipei-2](/cms-uploads/how-to-choose-professional-networking-events-in-taipei-2.jpg)
+
 ## Chambers of Commerce
 
 Taipei has a variety of foreign Chambers of Commerce that are extremely active in terms of events - ranging from workshops to seminars to networking happy hours. Keep up to date with their annual schedules. Please note that some events may be members only. These are the most active chambers:
@@ -93,3 +95,7 @@ French (CCIFT)
 German (AHK)
 
 Hopefully connecting with these groups and organizations will get you on your way to networking with the people you want to meet in Taiwan!
+
+
+
+*Written by Daniel Miller, co-founder of All Hands Taiwan and Taiwan Manager for Pagoda Projects.*

@@ -74,6 +74,8 @@ Startboard - 定期舉辦有關移民問題、外國公司創業以及如何進�
 
 Women who code Taipei - 定期舉辦中英文活動，以提升科技女力為宗旨的組織，其中有技術領導者、高階主管、創辦人、風險投資、董事會成員和軟體工程師等不同的女性做為代表發起行動。
 
+![How to Choose Professional Networking Events in Taipei-2](/cms-uploads/how-to-choose-professional-networking-events-in-taipei-2.jpg)
+
 ## 商會
 
 台北有各式各樣的海外商會，全年舉辦的活動從講座、研討會到社交happy hour。您可以隨時與他們日曆同步，了解他們的年度活動行程。請注意，某些活動可能僅限會員參加。以下為最活躍的幾個商會：
@@ -93,3 +95,9 @@ French (CCIFT)
 German (AHK)
 
 希望在與這些團體和組織交流後，能夠讓您抓住想在台灣獲得的人脈！
+
+
+
+
+
+*此篇文章由All Hands Taiwan共同創辦人、Pagoda Projects台灣經理Daniel Miller撰寫。*
