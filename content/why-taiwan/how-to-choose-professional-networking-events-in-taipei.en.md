@@ -34,19 +34,19 @@ From general purposed to specific-function website, there are some website you c
 
 * General:
 
-Eventbrite - A useful platform to check what in-person and online professional and social events are out there in Taipei, or any other city in Taiwan.
+[Eventbrite](https://www.eventbrite.com/d/taiwan--taipei/business--events/) - A useful platform to check what in-person and online professional and social events are out there in Taipei, or any other city in Taiwan.
 
-Meetup - Another useful platform to survey general professional and social networking events in Taipei. 
+[Meetup](https://www.meetup.com/topics/professional-networking/tw/) - Another useful platform to survey general professional and social networking events in Taipei. 
 
 * Professional Networking:
 
-Linkedin Groups - You will find a wide array of Taiwan-focused groups on LinkedIn (some more active than others). Take your pick and find some interesting connections!
+[Linkedin Groups](https://www.linkedin.com/search/results/groups/?keywords=taiwan&origin=SWITCH_SEARCH_VERTICAL&sid=v_s) - You will find a wide array of Taiwan-focused groups on LinkedIn (some more active than others). Take your pick and find some interesting connections!
 
 * Local Communities:
 
-InterNations - A community platform that promotes more informal and fun events to get to know the local professional community.
+[InterNations](https://www.internations.org/taipei-expats#events) - A community platform that promotes more informal and fun events to get to know the local professional community.
 
-All Hands Taiwan - Each month All Hands will share a post of events from around Taiwan, events such as networking, professional learning, community gatherings, hiring, seminars, happy hours, and more.
+[All Hands Taiwan](https://allhandstaiwan.com/) - Each month All Hands will share a post of events from around Taiwan, events such as networking, professional learning, community gatherings, hiring, seminars, happy hours, and more.
 
 ## Start-Ups and Entrepreneurship
 

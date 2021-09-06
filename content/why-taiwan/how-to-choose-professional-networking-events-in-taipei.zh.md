@@ -34,19 +34,19 @@ style: right
 
 * 一般活動型網站
 
-Eventbrite - 一個相當便利的平台，可查看在台北或台灣其他城市舉辦的實體或線上活動，一般社交型活動或是專業型的活動都有包含進去。
+[Eventbrite](https://www.eventbrite.com/d/taiwan--taipei/business--events/) - 一個相當便利的平台，可查看在台北或台灣其他城市舉辦的實體或線上活動，一般社交型活動或是專業型的活動都有包含進去。
 
-Meetup - 另一個實用的平台網站，可以尋找在台北的專業交流活動或一般社交活動。許多團體也會在 Meetup 平台上刊登活動。
+[Meetup](https://www.meetup.com/topics/professional-networking/tw/) - 另一個實用的平台網站，可以尋找在台北的專業交流活動或一般社交活動。許多團體也會在 Meetup 平台上刊登活動。
 
 * 專業社交
 
-Linkedin Groups - 您能從 LinkedIn 上找到各種以台灣為主題的社群組織（甚至一個比一個更活躍），請大方地選擇並加入，從中找到您所需要的人脈資源！ 
+[Linkedin Groups](https://www.linkedin.com/search/results/groups/?keywords=taiwan&origin=SWITCH_SEARCH_VERTICAL&sid=v_s) - 您能從 LinkedIn 上找到各種以台灣為主題的社群組織（甚至一個比一個更活躍），請大方地選擇並加入，從中找到您所需要的人脈資源！ 
 
 * 在地社群
 
-InterNations – 成立的宗旨為透過更多非正式、有趣的社交活動，來了解當地的專業社群。
+[InterNations](https://www.internations.org/taipei-expats#events) – 成立的宗旨為透過更多非正式、有趣的社交活動，來了解當地的專業社群。
 
-All Hands Taiwan - All Hands每個月會分享台灣各地的活動，包含一般社交聚會、專業學習、社群聚會、招聘、研討會、happy hours等等。
+[All Hands Taiwan](https://allhandstaiwan.com/) - All Hands每個月會分享台灣各地的活動，包含一般社交聚會、專業學習、社群聚會、招聘、研討會、happy hours等等。
 
 ## 新創及創業
 
