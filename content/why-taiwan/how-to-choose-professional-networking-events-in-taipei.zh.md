@@ -80,19 +80,19 @@ style: right
 
 台北有各式各樣的海外商會，全年舉辦的活動從講座、研討會到社交happy hour。您可以隨時與他們日曆同步，了解他們的年度活動行程。請注意，某些活動可能僅限會員參加。以下為最活躍的幾個商會：
 
-American
+[American](https://amcham.com.tw/events/)
 
-Australia and New Zealand
+[Australia and New Zealand](https://www.anzcham.org.tw/upcoming-events)
 
-British
+[British](https://www.bcctaipei.com/events)
 
-Canadian
+[Canadian](https://canchamtw.com/events/)
 
-European
+[European](https://www.ecct.com.tw/events/list?event-upcoming)
 
-French (CCIFT)
+[French (CCIFT)](https://www.ccift.org.tw/event.html)
 
-German (AHK)
+[German (AHK)](https://taiwan.ahk.de/events)
 
 希望在與這些團體和組織交流後，能夠讓您抓住想在台灣獲得的人脈！
 
