@@ -81,3 +81,7 @@ Don’t just collect connections and then look them up when you really need some
 Remember, whoever you meet out there professionally, don’t forget to ask their advice on what connections may be useful, what events are out there, etc.
 
 The next step is to get yourself out there.
+
+
+
+*Written by Daniel Miller, co-founder of All Hands Taiwan and Taiwan Manager for Pagoda Projects.*

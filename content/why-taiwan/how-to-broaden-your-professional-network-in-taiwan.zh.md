@@ -79,3 +79,7 @@ LinkedIn是台灣專業人士的重要社交媒體平台之一，儘管Facebook�
 記住，無論您在外面遇到了什麼樣的專業人士，別忘了徵求他們的建議，了解哪些人脈是有用的或是最近有舉辦哪些相關活動等等。
 
 下一步則是讓自己走出去。
+
+
+
+*此篇文章由All Hands Taiwan共同創辦人、Pagoda Projects台灣經理Daniel Miller撰寫。*
