@@ -32,17 +32,17 @@ Unless noted, most of these events are in English or bilingual. Please contact o
 
 From general purposed to specific-function website, there are some website you could find events and activities in Taiwan.
 
-* General one:
+* General:
 
 Eventbrite - A useful platform to check what in-person and online professional and social events are out there in Taipei, or any other city in Taiwan.
 
 Meetup - Another useful platform to survey general professional and social networking events in Taipei. 
 
-* Profession networking: 
+* Professional Networking:
 
 Linkedin Groups - You will find a wide array of Taiwan-focused groups on LinkedIn (some more active than others). Take your pick and find some interesting connections!
 
-* Local communities:
+* Local Communities:
 
 InterNations - A community platform that promotes more informal and fun events to get to know the local professional community.
 
