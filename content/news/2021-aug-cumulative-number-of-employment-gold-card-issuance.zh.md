@@ -1,12 +1,11 @@
 ---
 title: 2021年8月就業金卡最新核發數字
-date: 2019-12-31T03:57:53.507Z
+date: 2018-12-31T03:57:53.507Z
 topic: eventsnews
 draft: false
 hidden: false
 chatbot: false
-categories:
-  - Monthly Data Report
+categories: []
 style: right
 ---
 # 就業金卡自107年2月8日起至110年8月31日止，累計核准3,084件。

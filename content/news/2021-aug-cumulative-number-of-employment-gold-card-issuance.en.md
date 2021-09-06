@@ -1,12 +1,11 @@
 ---
 title: 2021/AUG Cumulative Number of Employment Gold Card Issuance
-date: 2019-12-31T03:57:53.507Z
+date: 2018-12-31T03:57:53.507Z
 topic: eventsnews
 draft: false
 hidden: false
 chatbot: false
-categories:
-  - Monthly Data Report
+categories: []
 style: right
 ---
 # From February 8, 2018 to August. 31, 2021, "3,084" cards were approved.
