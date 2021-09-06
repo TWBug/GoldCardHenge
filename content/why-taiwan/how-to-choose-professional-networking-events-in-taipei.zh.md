@@ -96,4 +96,6 @@ style: right
 
 希望在與這些團體和組織交流後，能夠讓您抓住想在台灣獲得的人脈！
 
+
+
 *此篇文章由All Hands Taiwan共同創辦人、Pagoda Projects台灣經理Daniel Miller撰寫。*

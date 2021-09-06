@@ -96,4 +96,6 @@ Taipei has a variety of foreign Chambers of Commerce that are extremely active i
 
 Hopefully connecting with these groups and organizations will get you on your way to networking with the people you want to meet in Taiwan!
 
+
+
 *Written by Daniel Miller, co-founder of All Hands Taiwan and Taiwan Manager for Pagoda Projects.*
