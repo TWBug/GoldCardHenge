@@ -34,7 +34,7 @@ style: right
 
 * 一般活動型網站
 
-[Eventbrite](https://www.eventbrite.com/d/taiwan--taipei/business--events/)"" - 一個相當便利的平台，可查看在台北或台灣其他城市舉辦的實體或線上活動，一般社交型活動或是專業型的活動都有包含進去。
+[Eventbrite](https://www.eventbrite.com/d/taiwan--taipei/business--events/)"至Eventbrite網頁" - 一個相當便利的平台，可查看在台北或台灣其他城市舉辦的實體或線上活動，一般社交型活動或是專業型的活動都有包含進去。
 
 [Meetup](https://www.meetup.com/topics/professional-networking/tw/) - 另一個實用的平台網站，可以尋找在台北的專業交流活動或一般社交活動。許多團體也會在 Meetup 平台上刊登活動。
 
