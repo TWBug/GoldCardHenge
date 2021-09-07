@@ -80,19 +80,19 @@ Whether you're looking for leisure activities or professional networking events,
 
 Taipei has a variety of foreign Chambers of Commerce that are extremely active in terms of events - ranging from workshops to seminars to networking happy hours. Keep up to date with their annual schedules. Please note that some events may be members only. These are the most active chambers:
 
-[American](https://amcham.com.tw/events/)
+[American](https://amcham.com.tw/events/ " to American page")
 
-[Australia and New Zealand](https://www.anzcham.org.tw/upcoming-events)
+[Australia and New Zealand](https://www.anzcham.org.tw/upcoming-events " to Australia and New Zealand page")
 
-[British](https://www.bcctaipei.com/events)
+[British](https://www.bcctaipei.com/events " to British page")
 
-[Canadian](https://canchamtw.com/events/)
+[Canadian](https://canchamtw.com/events/ " to Canadian page")
 
-[European](https://www.ecct.com.tw/events/list?event-upcoming)
+[European](https://www.ecct.com.tw/events/list?event-upcoming " to European page")
 
-[French (CCIFT)](https://www.ccift.org.tw/event.html)
+[French (CCIFT)](https://www.ccift.org.tw/event.html " to French (CCIFT) page")
 
-[German (AHK)](https://taiwan.ahk.de/events)
+[German (AHK)](https://taiwan.ahk.de/events " to German (AHK) page")
 
 Hopefully connecting with these groups and organizations will get you on your way to networking with the people you want to meet in Taiwan!
 
