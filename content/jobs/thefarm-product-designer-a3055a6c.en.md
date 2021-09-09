@@ -25,4 +25,4 @@ badges:
 
 ---
 
-Please submit your application via KKBOX Group Website , as we will only accept applications on our website. Powering independent artists along their journey: Create, grow and monetize. Check out https://thefarm.tw/ . Join our team to grow! We have Soundscape and are trying other new ideas. Responsibilities: Design, develop, implement and maintain both new and existing web-based applications. Collaborate with us, product team, to discover what to build and deliver solutions that users want and a
+Please submit your application via KKBOX Group Website , as we will only accept applications on our website. We are the No. 1 music distribution platform in TW. Empowering independent artists along their journey : create, grow and monetize. We have Soundscape and are preparing other new ideas. Check out https://thefarm.tw/ . Indie artists raise fast in 32% YoY. Join our team to grow! As a UX/UI designer in KKFARM, you will be part of the product-trio to continuous discovery users' problems, prod
