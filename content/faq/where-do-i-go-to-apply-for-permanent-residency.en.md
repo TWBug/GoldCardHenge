@@ -5,10 +5,10 @@ tags:
   - APRC
 weight: 1
 ---
-移民署，請參考移民署申請永久居留送件須知。
+The National Immigration Agency.
 
-[（中）](https://bit.ly/3iBu3xo)
+Please refer to the National Immigration Agency’s guide to the Application for Permanent Residency. 
 
-[（英）](https://bit.ly/3s5dLA0)
+[(English)](https://bit.ly/3s5dLA0)
 
-[](https://bit.ly/3s5dLA0)
+[(Chinese)](https://bit.ly/3iBu3xo)[](https://bit.ly/3s5dLA0)
