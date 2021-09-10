@@ -1,5 +1,6 @@
 ---
-title: "Can my spouse and children also apply for permanent residency? "
+title: Can my spouse and children also apply for permanent residency? What are
+  the qualifications?
 draft: false
 tags:
   - APRC
