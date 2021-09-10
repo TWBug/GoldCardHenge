@@ -8,4 +8,4 @@ tags:
 
 請留意，您的在職證明或離職證明上的公司名稱必須和繳稅證明文件上的公司名稱相同。
 
-{{< file-download title="服務證明書.pdf" path="/cms-uploads/服務證明書.pdf.pdf" >}}
+{{< file-download title="服務證明書.pdf" path="/cms-uploads/服務證明書.pdf" >}}
