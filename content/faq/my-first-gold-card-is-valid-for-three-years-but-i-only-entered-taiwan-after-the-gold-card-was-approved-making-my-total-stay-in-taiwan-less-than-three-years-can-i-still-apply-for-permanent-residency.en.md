@@ -5,6 +5,6 @@ title: My first Gold Card is valid for three years, but I only entered Taiwan
 draft: false
 tags:
   - APRC
-weight: 1
+weight: 11
 ---
 The start date for calculating permanent residency is the Date of Issue indicated on your Gold Card. As long as your Gold Card is valid for 3 years, you have resided in Taiwan for an average of more than 183 days per year, and you meet the other application requirements, you can apply for permanent residency.
