@@ -3,7 +3,7 @@ title: Where do I go to apply for permanent residency?
 draft: false
 tags:
   - APRC
-weight: 1
+weight: 16
 ---
 The National Immigration Agency.
 
