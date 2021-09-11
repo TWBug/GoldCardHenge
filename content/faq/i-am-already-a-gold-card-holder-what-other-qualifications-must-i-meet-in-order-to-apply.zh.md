@@ -3,7 +3,7 @@ title: 我已經持有金卡了，請問我需要甚麼資格才可以提出申�
 draft: false
 tags:
   - APRC
-weight: 1
+weight: 15
 ---
 你必須符合下列所有條件：
 

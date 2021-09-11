@@ -4,7 +4,7 @@ title: I am already a Gold Card holder, what other qualifications must I meet in
 draft: false
 tags:
   - APRC
-weight: 1
+weight: 15
 ---
 In order to apply, you must meet ALL of the following requirements: 
 
