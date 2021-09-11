@@ -1,5 +1,5 @@
 ---
-title: How do I calculate the start and end dates of the average 183 days per
+title: How do I calculate the start and end date of the average 183 days per
   year? Does it start from the day my Gold Card is approved? Or the day I
   entered Taiwan? Or is it the day that I officially receive the physical card?
 draft: false
