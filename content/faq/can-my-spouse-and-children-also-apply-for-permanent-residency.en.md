@@ -4,7 +4,7 @@ title: Can my spouse and children also apply for permanent residency? What are
 draft: false
 tags:
   - APRC
-weight: 1
+weight: 8
 ---
 The spouse and children of Gold Card holders may also apply for permanent residency under the same requirements as Gold Card holders. However, having a Doctorate Degree Certificate issued by Taiwanese institution will not count towards their residency for the spouse and children. 
 

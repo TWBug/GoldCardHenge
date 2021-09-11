@@ -3,7 +3,7 @@ title: 我的配偶和小孩可以申請永居嗎？條件是甚麼？
 draft: false
 tags:
   - APRC
-weight: 1
+weight: 8
 ---
 符合下面其中一項條件（擇優）可申請： 
 
