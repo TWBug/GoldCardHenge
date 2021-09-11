@@ -1,6 +1,6 @@
 ---
-title: If my Gold Card has expired, but I want to stay in Taiwan for a short
-  period of time, aside from the Gold Card, what are my other options?
+title: If my Gold Card is expiring soon, but I want to stay in Taiwan for a
+  short period of time, aside from the Gold Card, what are my other options?
 draft: false
 tags:
   - APRC
