@@ -4,7 +4,7 @@ title: What benefits do I get when my status changes from the Gold Card to
 draft: false
 tags:
   - APRC
-weight: 1
+weight: 6
 ---
 These original benefits will not be affected:
 

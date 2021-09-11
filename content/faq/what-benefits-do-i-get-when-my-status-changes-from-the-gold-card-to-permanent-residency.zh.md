@@ -3,7 +3,7 @@ title: 當我的身分從金卡轉到永久居留，可取得甚麼權益？
 draft: false
 tags:
   - APRC
-weight: 1
+weight: 6
 ---
 * 原有權益不受影響：
 
