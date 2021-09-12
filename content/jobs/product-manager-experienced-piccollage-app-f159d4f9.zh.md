@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '5763'
-title: "\U0001F4CCProduct Manager (Experienced) "
+title: "\U0001F4CC Product Manager (Experienced) - PicCollage App"
 job_url: 'https://www.cakeresume.com/companies/PicCollage/jobs/product-manager-f040c9'
 date: 2018-06-05T17:56:54.355Z
 company_name: PicCollage 拼貼趣

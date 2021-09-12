@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '28957'
-title: Product Manager - Explore (New Apps)
+title: Product Manager - New Products
 job_url: >-
   https://www.cakeresume.com/companies/PicCollage/jobs/product-manager-explore-newapps
 date: 2021-04-26T06:47:52.081Z
@@ -18,7 +18,18 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 1800000
 location_list:
-  - 台北
+  - Taiwan
+  - ', Taiwan'
+  - 'Taipei, Taiwan'
+  - 台灣
+  - ', 台灣'
+  - 台灣台北
+  - Canada
+  - 'British Columbia, Canada'
+  - 'Vancouver, BC, Canada'
+  - 加拿大
+  - '英屬哥倫比亞, 加拿大'
+  - 加拿大英屬哥倫比亞溫哥華
 job_tags:
   - PM
   - Product Management
