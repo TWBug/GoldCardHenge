@@ -15,6 +15,6 @@ To apply, individuals must meet ONE of the following requirements (choose the re
 
 Application for Permanent Residence Information: 
 
-[(English)](https://bit.ly/3s5dLA0)
+[(English)](https://bit.ly/3s5dLA0 " to English Version of Article 25 of the Immigration Act")
 
-[(Chinese)](https://bit.ly/3iBu3xo)
+[(Chinese)](https://bit.ly/3iBu3xo " to Chinese Version of Article 25 of the Immigration Act")
