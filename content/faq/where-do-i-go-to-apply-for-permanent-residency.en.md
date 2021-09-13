@@ -9,6 +9,6 @@ The National Immigration Agency.
 
 Please refer to the National Immigration Agency’s guide to the Application for Permanent Residency. 
 
-[(English)](https://bit.ly/3s5dLA0)
+[(English)](https://bit.ly/3s5dLA0 " to English Version of Permanent ResidencyImmigration Act")
 
-[(Chinese)](https://bit.ly/3iBu3xo)[](https://bit.ly/3s5dLA0)
+[(Chinese)](https://bit.ly/3iBu3xo " to Chinese Version of Permanent ResidencyImmigration Act")
