@@ -16,6 +16,6 @@ In order to apply, you must meet ALL of the following requirements:
 
 Please refer to the National Immigration Agency’s guide to the Application for Permanent Residency. 
 
-[(English)](https://bit.ly/3s5dLA0)
+[(English)](https://bit.ly/3s5dLA0 " to English Version of Permanent ResidencyImmigration Act")
 
-[(Chinese)](https://bit.ly/3iBu3xo)
+[(Chinese)](https://bit.ly/3iBu3xo " to Chinese Version of Permanent ResidencyImmigration Act")
