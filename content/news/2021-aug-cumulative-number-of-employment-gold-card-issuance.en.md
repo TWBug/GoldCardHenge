@@ -5,7 +5,8 @@ topic: eventsnews
 draft: false
 hidden: false
 chatbot: false
-categories: []
+categories:
+  - Monthly Data Report
 style: right
 ---
 # At August 31, 2021, "3,111" cards are valid. From February 8, 2018 to August 31, 2021, "3,278" cards were approved.

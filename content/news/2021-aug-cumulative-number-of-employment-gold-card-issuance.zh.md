@@ -5,7 +5,8 @@ topic: eventsnews
 draft: false
 hidden: false
 chatbot: false
-categories: []
+categories:
+  - Monthly Data Report
 style: right
 ---
 # 110年8月31日之有效就業金卡為3,111人次，累計許可為3,278人次。
