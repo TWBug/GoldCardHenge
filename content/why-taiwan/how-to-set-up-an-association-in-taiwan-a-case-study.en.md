@@ -52,7 +52,7 @@ Another key issue is that after its initial founding, a Taipei association needs
 
 In addition to compiling the association membership, the organization must select a group of board members and a group of audit committee members. The board is meant to be an advisory committee that can offer guidance and decision-making support to the organization and its initiatives, while the audit committee supervises the board and ensures the organization and its finances are in good standing.
 
-If all of this sounds a bit complicated, you can peruse the [relevant documentation in Chinese](https://dosw.gov.taipei/Content_List.aspx?n=374E98F9969BD165), or ask your accountant to help you get set up. 
+If all of this sounds a bit complicated, you can peruse the [relevant documentation in Chinese](https://dosw.gov.taipei/Content_List.aspx?n=374E98F9969BD165 " to Department of Social Welfare, Taipei City Government page"), or ask your accountant to help you get set up. 
 
 ![How to Set up an Association in Taiwan- A Case Study5](/cms-uploads/how-to-set-up-an-association-in-taiwan-a-case-study5.jpg)
 
@@ -76,6 +76,6 @@ The next logical step entails opening a bank account. There’s no legal require
 
 ## Welcome to the Goody Room
 
-Now that your association is legally established, you can apply for deals that are only available to non-profit organizations. A lot of deals with foreign tech companies can be found via [TechSoup Taiwan](https://www.techsoup-taiwan.org.tw/cloud_services). Create a profile, upload your association founding documents, and after verification by TechSoup Taiwan, you can register to get Slack Pro, Google Workspace, and other services for free for your org, while also gaining access to discount offers from Zoom and other services. While this should not be a motivation for setting up the association, it is certainly nice to get some goodies back for all the effort.
+Now that your association is legally established, you can apply for deals that are only available to non-profit organizations. A lot of deals with foreign tech companies can be found via [TechSoup Taiwan](https://www.techsoup-taiwan.org.tw/cloud_services " to TechSoup Taiwan"). Create a profile, upload your association founding documents, and after verification by TechSoup Taiwan, you can register to get Slack Pro, Google Workspace, and other services for free for your org, while also gaining access to discount offers from Zoom and other services. While this should not be a motivation for setting up the association, it is certainly nice to get some goodies back for all the effort.
 
 This article was reviewed by the accountants at Del Sol CPA & Associates 德碩會計師事務所.

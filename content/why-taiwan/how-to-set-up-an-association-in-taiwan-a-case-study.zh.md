@@ -50,7 +50,7 @@ style: title
 
 除了編制協會成員之外，組織還必須選出理事會成員和審計委員會成員。理事會提供組織與執行的計劃諮詢、指導和決策，而審計委員會則監督理事會並確保組織及其財務狀況良好。
 
-如果這一切聽起來有點複雜，你可以細讀[中文的相關文件](https://dosw.gov.taipei/Content_List.aspx?n=374E98F9969BD165)，或請你的會計師幫忙。
+如果這一切聽起來有點複雜，你可以細讀[中文的相關文件](https://dosw.gov.taipei/Content_List.aspx?n=374E98F9969BD165 "至臺北市政府社會局網頁")，或請你的會計師幫忙。
 
 ![How to Set up an Association in Taiwan- A Case Study6](/cms-uploads/how-to-set-up-an-association-in-taiwan-a-case-study6.jpg)
 
@@ -74,6 +74,6 @@ style: title
 
 ## 領取你的百寶箱
 
-當協會已依法成立，你可以申請只限非營利組織使用的優惠。你可以在[TechSoup Taiwan](https://www.techsoup-taiwan.org.tw/cloud_services)找到很多外國科技公司的優惠。只要建立個人資料、上傳你的協會設立文件，經TechSoup Taiwan驗證之後，你可以免費註冊獲得Slack Pro、Google Workspace和其他服務，同時還可以得到Zoom和其他服務的折扣優惠。雖然以上優惠不該成為建立協會的動機，但能藉由協會成立的努力得到一些好處，也是好事一樁。
+當協會已依法成立，你可以申請只限非營利組織使用的優惠。你可以在[TechSoup Taiwan](https://www.techsoup-taiwan.org.tw/cloud_services "至TechSoup Taiwan網頁")找到很多外國科技公司的優惠。只要建立個人資料、上傳你的協會設立文件，經TechSoup Taiwan驗證之後，你可以免費註冊獲得Slack Pro、Google Workspace和其他服務，同時還可以得到Zoom和其他服務的折扣優惠。雖然以上優惠不該成為建立協會的動機，但能藉由協會成立的努力得到一些好處，也是好事一樁。
 
 本文已由德碩會計師事務所審閱。
