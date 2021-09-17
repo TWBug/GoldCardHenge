@@ -4,18 +4,18 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '27505'
-title: Senior Software Engineer
+title: Senior Full-stack Software Engineer
 job_url: >-
-  https://www.cakeresume.com/companies/cakeresume/jobs/senior-software-engineer-b7b72e
+  https://www.cakeresume.com/companies/cakeresume/jobs/senior-full-stack-software-engineer-cakeresume
 date: 2021-03-09T15:01:25.848Z
 company_name: CakeResume
 company_page_url: 'https://www.cakeresume.com/companies/cakeresume'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--P01xJaKZ--/c_pad,fl_png8,h_200,w_200/v1586508643/page_2_logo_1468389599.png
-salary_text: TWD1000000 - TWD1500000
+salary_text: TWD1200000 - TWD1500000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1000000
+salary_min: 1200000
 salary_max: 1500000
 location_list:
   - 台北市
