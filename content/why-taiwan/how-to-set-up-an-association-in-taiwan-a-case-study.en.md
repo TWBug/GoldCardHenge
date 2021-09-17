@@ -8,6 +8,8 @@ cover_image: /cms-uploads/how-to-set-up-an-association-in-taiwan-a-case-study1.j
 cover_image_alt: How to Set up an Association in Taiwan - A Case Study
 media_image: /cms-uploads/how-to-set-up-an-association-in-taiwan-a-case-study1.jpg
 media_image_alt: How to Set up an Association in Taiwan - A Case Study
+topics:
+  - Discover Taiwan
 style: title
 ---
 # How to Set up an Association in Taiwan - A Case Study
