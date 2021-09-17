@@ -71,3 +71,13 @@ All in all, expenses should be around NTD$120,000 + NTD$36,000 = NTD$156,000 for
 ## Adventures in Taiwanese Banking
 
 The next logical step entails opening a bank account. There’s no legal requirement regulating which bank an association must choose, but E. Sun Bank has an English-friendly website, and is the only bank that Paypal funds can be transferred to in Taiwan. With newly-minted association documents and chop seals in hand, you can go to your bank of choice and open the association bank account. The bank account MUST be opened at the bank branch closest to your association office address. Please note that this is a fairly minor consideration, as later you can bank at any branch, but when setting up your accounts, be prepared to visit the branch nearest your registered address.
+
+![How to Set up an Association in Taiwan- A Case Study8](/cms-uploads/how-to-set-up-an-association-in-taiwan-a-case-study8.jpg)
+
+## 領取你的百寶箱
+
+當協會已依法成立，你可以申請只限非營利組織使用的優惠。你可以在TechSoup Taiwan找到很多外國科技公司的優惠。只要建立個人資料、上傳你的協會設立文件，經TechSoup Taiwan驗證之後，你可以免費註冊獲得Slack Pro、Google Workspace和其他服務，同時還可以得到Zoom和其他服務的折扣優惠。雖然以上優惠不該成為建立協會的動機，但能藉由協會成立的努力得到一些好處，也是好事一樁。
+
+
+
+本文已由德碩會計師事務所審閱。

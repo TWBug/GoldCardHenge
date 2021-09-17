@@ -65,3 +65,17 @@ style: title
 總而言之，第一年的管理費用應該在新台幣12萬+3.6萬=新台幣15.6萬左右，當然，費用會根據每個組織的情況有所不同。
 
 ![How to Set up an Association in Taiwan- A Case Study7](/cms-uploads/how-to-set-up-an-association-in-taiwan-a-case-study7.jpg)
+
+## 台灣的銀行冒險之旅
+
+下一步驟就是開立銀行帳戶。法律沒有規定協會必須選擇哪家銀行，但玉山銀行的英文網站介面相當友善，而且是台灣唯一一個可以轉入Paypal資金的銀行。要記得帶上協會文件與印章，去所選擇的銀行開立屬於協會的銀行帳戶。銀行帳戶必須在離你的協會辦公地址最近的銀行分行開立。請注意，這個要求相對次要，因為以後你可以在任何分行辦理銀行業務，但在設立帳戶時，最好要去離你的登記地址最近的分行（地緣關係），否則可能會被拒絕。
+
+![How to Set up an Association in Taiwan- A Case Study8](/cms-uploads/how-to-set-up-an-association-in-taiwan-a-case-study8.jpg)
+
+## Welcome to the Goody Room
+
+Now that your association is legally established, you can apply for deals that are only available to non-profit organizations. A lot of deals with foreign tech companies can be found via TechSoup Taiwan. Create a profile, upload your association founding documents, and after verification by TechSoup Taiwan, you can register to get Slack Pro, Google Workspace, and other services for free for your org, while also gaining access to discount offers from Zoom and other services. While this should not be a motivation for setting up the association, it is certainly nice to get some goodies back for all the effort.
+
+
+
+This article was reviewed by the accountants at Del Sol CPA & Associates 德碩會計師事務所.
