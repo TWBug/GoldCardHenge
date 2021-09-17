@@ -72,10 +72,8 @@ style: title
 
 ![How to Set up an Association in Taiwan- A Case Study8](/cms-uploads/how-to-set-up-an-association-in-taiwan-a-case-study8.jpg)
 
-## Welcome to the Goody Room
+## 領取你的百寶箱
 
-Now that your association is legally established, you can apply for deals that are only available to non-profit organizations. A lot of deals with foreign tech companies can be found via [TechSoup Taiwan](https://www.techsoup-taiwan.org.tw/cloud_services). Create a profile, upload your association founding documents, and after verification by TechSoup Taiwan, you can register to get Slack Pro, Google Workspace, and other services for free for your org, while also gaining access to discount offers from Zoom and other services. While this should not be a motivation for setting up the association, it is certainly nice to get some goodies back for all the effort.
+當協會已依法成立，你可以申請只限非營利組織使用的優惠。你可以在[TechSoup Taiwan](https://www.techsoup-taiwan.org.tw/cloud_services)找到很多外國科技公司的優惠。只要建立個人資料、上傳你的協會設立文件，經TechSoup Taiwan驗證之後，你可以免費註冊獲得Slack Pro、Google Workspace和其他服務，同時還可以得到Zoom和其他服務的折扣優惠。雖然以上優惠不該成為建立協會的動機，但能藉由協會成立的努力得到一些好處，也是好事一樁。
 
-
-
-This article was reviewed by the accountants at Del Sol CPA & Associates 德碩會計師事務所.
+本文已由德碩會計師事務所審閱。
