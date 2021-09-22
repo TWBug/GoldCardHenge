@@ -10,7 +10,7 @@ media_image: /cms-uploads/how-to-choose-professional-networking-events-in-taipei
 media_image_alt: How to Choose Professional Networking Events in Taipei
 topics:
   - Discover Taiwan
-style: right
+style: title
 ---
 # How to Choose Professional Networking Events in Taipei?
 
