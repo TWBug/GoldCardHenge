@@ -12,11 +12,11 @@ company_name: OneDegree
 company_page_url: 'https://www.cakeresume.com/companies/onedegree'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--xqiEHvO1--/c_pad,fl_png8,h_200,w_200/v1578296147/zhabcskfo2ifv72dmwtx.png
-salary_text: TWD910000 - TWD1600000
+salary_text: TWD1300000 - TWD1800000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 910000
-salary_max: 1600000
+salary_min: 1300000
+salary_max: 1800000
 location_list:
   - Taiwan
   - ', Taiwan'

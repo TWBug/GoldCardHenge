@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
+  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '29042'
 title: 'JH- Embedded software engineer '
 job_url: >-
@@ -19,11 +19,11 @@ salary_min: 800000
 salary_max: 1500000
 location_list:
   - Taiwan
-  - 'New Taipei City, Taiwan'
-  - 'Xindian District, New Taipei City, Taiwan'
+  - ', Taiwan'
+  - 'Taipei, Taiwan'
   - 台灣
-  - '新北市, 台灣'
-  - 台灣新北市新店區
+  - ', 台灣'
+  - 台灣台北
 job_tags:
   - Switch
   - embedded system
@@ -47,8 +47,8 @@ job_tags:
   - 福利優渥
   - 研發設計
 badges:
-  - Industrial Engineer
+  - Software
 
 ---
 
-【公司特點】 工業級網通廠，致力於提供市場穩定且耐用的無線技術、軟體技術及硬體設備。 -給予員工穩定發展、職業訓練及多元溝通管道。 -彈性工時/旅遊假期-國內外培訓課程/集團內職務輪調及外派機會 -公司特約商店優惠-免費健康檢查/免費星巴克咖啡 【職務內容】 1. 開發工業規格乙太網路交換器產品 2. 開發Layer 2/Layer 3通訊協定 3. 開發與設計嵌入式系統 【Company Features】 -This is a MNC company focusing on providing global leading industrial ethernet communication and wireless networking solutions. -Provide employees with stable development, vocational training and multiple communication channels. -Flexible working hours/travel holidays-domestic and foreign tr
+穩定發展外商公司，致力提供領先工業網通 【職務內容】 1. 開發工業規格乙太網路交換器產品 2. 開發Layer 2/Layer 3通訊協定 3. 開發與設計嵌入式系統 【Responsibilities】 1. Developing the industrial Ethernet Switch product 2. Developing L2/L3 protocol 3. Embedded Linux firmware development and design
