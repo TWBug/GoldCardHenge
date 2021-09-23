@@ -22,7 +22,7 @@ style: title
 
 在開始前的幾點提示：
 
-1. 先閱讀前一篇文章〈如何拓展你在台灣的專業人脈網路〉。
+1. 先閱讀前一篇文章[〈如何拓展你在台灣的專業人脈網路〉](https://goldcard.nat.gov.tw/zh/why-taiwan/how-to-broaden-your-professional-network-in-taiwan/ "至如何拓展你在台灣的專業人脈網路")。
 2. 交叉參考以下組織和不同平台上的主要聯繫人，他們通常在不同的平台（例如 Facebook 和 LinkedIn）上宣傳他們的活動和研討會。
 3. 提前計劃。一般情況下，大部分的組織在每季開始前都會確定接下來的活動，請在每個月初先預留一點時間給自己，檢查這個月接下來的活動。如有需要，請提前幾個月計劃安排，以免到時候手忙腳亂。
 
@@ -50,7 +50,7 @@ style: title
 
 ## 新創及創業
 
-[Anchor Taiwan](https://www.anchortaiwan.com/ "至Anchor Taiwan網頁") - 為身處台灣新創生態體系之企業、新創公司和投資者提供的平台。您可以在Facebook和LinkedIn上追蹤他們以獲得最新活動資訊。每月的第一個星期五，Anchor Taiwan 都會舉辦「Meet the Anchors」活動，意在匯集交流各個創業家的智慧與創見。
+[Anchor Taiwan](https://www.anchortaiwan.com/ "至Anchor Taiwan網頁") - 為身處台灣新創生態體系之企業、新創公司和投資者提供的平台。您可以在[Facebook](https://www.facebook.com/anchortaiwan.group "至Anchor Taiwan臉書社團")和[LinkedIn](https://www.linkedin.com/company/anchortaiwan/ "至Anchor Taiwan LinkedIn")上追蹤他們以獲得最新活動資訊。每月的第一個星期五，Anchor Taiwan 都會舉辦「Meet the Anchors」活動，意在匯集交流各個創業家的智慧與創見。
 
 [Elevate Taiwan](https://www.facebook.com/ElevateTaiwan "至Elevate Taiwan網頁") - 一個以提升台灣新創生態系與創業社群能量為目標的社群團體。您可以在Facebook上追蹤他們，留意co-working和happy hour資訊。
 
@@ -95,7 +95,5 @@ style: title
 [German (AHK)](https://taiwan.ahk.de/events "至German (AHK)網頁")
 
 希望在與這些團體和組織交流後，能夠讓您抓住想在台灣獲得的人脈！
-
-
 
 *此篇文章由All Hands Taiwan共同創辦人、Pagoda Projects台灣經理Daniel Miller撰寫。*

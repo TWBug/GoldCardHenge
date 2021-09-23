@@ -22,7 +22,7 @@ Below is a list of organizations that regularly hold quality events. This list i
 
 A few tips before you continue:
 
-1. Read our previous article, [How to Broaden Your Professional Network in Taiwan](https://goldcard.nat.gov.tw/en/why-taiwan/how-to-broaden-your-professional-network-in-taiwan/)
+1. Read our previous article, [How to Broaden Your Professional Network in Taiwan](https://goldcard.nat.gov.tw/en/why-taiwan/how-to-broaden-your-professional-network-in-taiwan/ " to How to Broaden Your Professional Network in Taiwan")
 2. Cross-reference the organizations below and the key contacts on different platforms. They usually market their events and workshops on different channels, such as Facebook and LinkedIn.
 3. Plan ahead. Typically, groups settle on a roster of events every quarter. Give yourself a set time at the beginning of every month to check what is coming up. You really want to plan a few months ahead to not feel overwhelmed! 
 
@@ -50,7 +50,7 @@ Whether you're looking for leisure activities or professional networking events,
 
 ## Start-Ups and Entrepreneurship
 
-[Anchor Taiwan](https://www.anchortaiwan.com/ " to Anchor Taiwan page") - A platform for corporates, startups and investors at the forefront of harnessing Taiwan’s start-up Ecosystem. Follow on [Facebook](https://www.facebook.com/anchortaiwan.group) and [Linkedin](https://www.linkedin.com/company/anchortaiwan/) to keep up to date with events. The 1st Friday of every month, Anchor hosts ‘Meet the Anchors’ aiming to bring together entrepreneurial minds.
+[Anchor Taiwan](https://www.anchortaiwan.com/ " to Anchor Taiwan page") - A platform for corporates, startups and investors at the forefront of harnessing Taiwan’s start-up Ecosystem. Follow on [Facebook](https://www.facebook.com/anchortaiwan.group " to Anchor Taiwan Facebook Page") and [Linkedin](https://www.linkedin.com/company/anchortaiwan/ " to Anchor Taiwan Linkedin Page") to keep up to date with events. The 1st Friday of every month, Anchor hosts ‘Meet the Anchors’ aiming to bring together entrepreneurial minds.
 
 [Elevate Taiwan](https://www.facebook.com/ElevateTaiwan " to Elevate Taiwan page") - A community group that was born with the ambition to truly level up the entire Taiwanese ecosystem and startup community. Keep an eye out for their co-working and happy hours by following their Facebook page.
 
