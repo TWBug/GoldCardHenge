@@ -41,7 +41,7 @@ Once you have established a location for your organization, the next step is to 
 In order to legally establish an association in Taipei, you need to have at least 30 members willing to sign membership forms and who are in one of the following situations:
 
 1. Taiwanese with their household registration in Taipei,
-2. Foreigners with an ARC that shows that they live in Taipei, or
+2. Foreigners with an ARC (Alien Resident Certificate) that shows that they live in Taipei, or
 3. Taiwanese or Foreigners who don’t live in Taipei but work there (which can be proven with a letter from their employer).
 
 If a member lives in Taipei or has their household registration in Taipei, things are pretty easy; their address is printed on their Taiwanese ID, so that can be shown as proof of residence. However, if a member only works in Taipei, then they need to ask their employer to sign a letter affirming their employment within Taipei. Each member also has to sign a membership form and provide photos of their ID cards.
@@ -79,7 +79,5 @@ The next logical step entails opening a bank account. There’s no legal require
 ## Welcome to the Goody Room
 
 Now that your association is legally established, you can apply for deals that are only available to non-profit organizations. A lot of deals with foreign tech companies can be found via [TechSoup Taiwan](https://www.techsoup-taiwan.org.tw/cloud_services " to TechSoup Taiwan"). Create a profile, upload your association founding documents, and after verification by TechSoup Taiwan, you can register to get Slack Pro, Google Workspace, and other services for free for your org, while also gaining access to discount offers from Zoom and other services. While this should not be a motivation for setting up the association, it is certainly nice to get some goodies back for all the effort.
-
-
 
 This article was reviewed by the accountants at Del Sol CPA & Associates 德碩會計師事務所.
