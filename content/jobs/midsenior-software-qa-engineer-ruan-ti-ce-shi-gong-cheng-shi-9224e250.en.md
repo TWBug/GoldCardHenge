@@ -28,4 +28,4 @@ badges:
 
 ---
 
-How to apply Please apply this position through 👉 https://bit.ly/3st9Pb7 It will help us process your applications faster! Responsibilities Work directly with local and remote teams. Analyze business requirements and formulate testing plans. Create & document detailed and well-structured overall product quality plans based on specifications. Create and implement software quality assurance plans. Execute test cases manually. Document, reproduce, prioritize issues on issue tracking system (e.g. Ji
+How to apply Please apply this position through 👉 https://boards.greenhouse.io/onedegree/jobs/4096603004 It will help us process your applications faster! Responsibilities Work directly with local and remote teams. Analyze business requirements and formulate testing plans. Create & document detailed and well-structured overall product quality plans based on specifications. Create and implement software quality assurance plans. Execute test cases manually. Document, reproduce, prioritize issues o

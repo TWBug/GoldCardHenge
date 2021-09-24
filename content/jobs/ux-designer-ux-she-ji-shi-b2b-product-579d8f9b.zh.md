@@ -31,4 +31,4 @@ badges:
 
 ---
 
-How to apply: Please apply this position through 👉 https://onedegree.teamdoor.io/s/ManEY2xW It will help us process your applications faster! Responsibilities Exploring different interaction models, user requirements, usability issues and solutions. Developing wireframes and task flows based on user needs. Collaborating with PM, designers, and developers to create innovative, user-friendly platform.
+How to apply: Please apply this position through 👉 https://boards.greenhouse.io/onedegree/jobs/4096641004 It will help us process your applications faster! Responsibilities Exploring different interaction models, user requirements, usability issues and solutions. Developing wireframes and task flows based on user needs. Collaborating with PM, designers, and developers to create innovative, user-friendly platform.

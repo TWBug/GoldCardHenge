@@ -18,7 +18,9 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 2000000
 location_list:
-  - 台北市中山區樂群二路189號6樓之一
+  - Taiwan
+  - ', Taiwan'
+  - 'Taipei, Taiwan'
 job_tags: []
 badges:
   - Designer
