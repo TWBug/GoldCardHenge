@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '27505'
-title: Senior Software Software Engineer (Web Full-Stack Developer)
+title: 'Senior Software Engineer  資深全端網頁工程師 (Web Full-Stack Developer) '
 job_url: >-
   https://www.cakeresume.com/companies/cakeresume/jobs/senior-full-stack-software-engineer-cakeresume
 date: 2021-03-09T15:01:25.848Z

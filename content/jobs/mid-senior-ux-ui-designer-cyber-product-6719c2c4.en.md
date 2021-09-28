@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '32732'
-title: 'Mid~Senior UX/UI Designer, Cyber Product'
+title: 'Mid-Senior UX/UI Designer, Cyber Product'
 job_url: >-
   https://www.cakeresume.com/companies/onedegree/jobs/mid-senior-ux-ui-designer-cyber-product
 date: 2021-09-27T01:34:42.684Z
