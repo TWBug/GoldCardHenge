@@ -24,7 +24,7 @@ After the online application is complete, the system will send an e-mail with a 
 
 ### Domestic Applicants
 
-![Fees for Domestic Applicants](/cms-uploads/goldcardfee-04.jpg)
+![Fees for Domestic Applicants](/cms-uploads/goldcardfee-04.png)
 
 ### Overseas Applicants
 
