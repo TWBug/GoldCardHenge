@@ -1,15 +1,15 @@
 ---
 draft: false
 start: false
+title: 繳費與郵件通知
 date: 2021-01-18T03:11:02.768Z
 summary: 繳交就業金卡費用與確認信通知
 check: true
-title: 繳費與郵件通知
+chatbot: true
 order: 7
 topic: goldcard
 previous: /apply/step-2/resident/
 next: /apply/step-3/
-chatbot: true
 ---
 # 繳費與郵件通知
 
