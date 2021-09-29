@@ -24,10 +24,10 @@ After the online application is complete, the system will send an e-mail with a 
 
 ### Domestic Applicants
 
-![Fees for Domestic Applicants](/cms-uploads/goldcardfee-04.png)
+![Fees for Domestic Applicants](/cms-uploads/goldcardfee-04.jpg)
 
 ### Overseas Applicants
 
-![Fees for Overseas Applicants](/cms-uploads/goldcardfee-03.png)
+![Fees for Overseas Applicants](/cms-uploads/goldcardfee-03.jpg)
 
 * After completing the application, you will get a system confirmation via e-mail. Your application has now entered the review process.
