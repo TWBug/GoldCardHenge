@@ -7,7 +7,7 @@ data_source_internal_id: '32663'
 title: Front-end Engineer
 job_url: 'https://www.cakeresume.com/companies/atayalan/jobs/front-end-engineer-943b9f'
 date: 2021-09-23T10:52:02.473Z
-company_name: 泰雅科技股份有限公司
+company_name: '泰雅科技股份有限公司 Atayalan Taiwan, Ltd. '
 company_page_url: 'https://www.cakeresume.com/companies/atayalan'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--C1wj3V8N--/c_pad,fl_png8,h_200,w_200/v1632397978/hu1opvt0fp6dcwpcd6fi.png
