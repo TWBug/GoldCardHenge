@@ -24,10 +24,11 @@ location_list:
   - 台灣
   - ', 台灣'
   - 300台灣新竹市東區
-job_tags: []
+job_tags:
+  - 類比IC設計
 badges:
   - Semiconductor
 
 ---
 
-產業 : 半導體製造業 / 半導體 IC 設計產業 (1) 負責HV LDO, DC/DC Converter(Buck/Boost), AC to DC Converter IC/IP設計。 (2) 負責高電壓大電流 Power Regulator線路架構模擬和電路設計。 (3) 負責Motor Driver, 多節鋰電池保護AFE, 智能照明IC 設計開發。 P.S: 如需應徵此職缺，請將履歷E-MAIL至 ( joycehuang@jbjob.com.tw ) ，如有任何問題，歡迎詢問。謝謝
+產業 : 半導體製造業 / 半導體 IC 設計產業 (1) 負責HV LDO, DC/DC Converter(Buck/Boost), AC to DC Converter IC/IP設計。 (2) 負責高電壓大電流 Power Regulator線路架構模擬和電路設計。 (3) 負責Motor Driver, 多節鋰電池保護AFE, 智能照明IC 設計開發。

@@ -17,9 +17,9 @@ salary_type: per_year
 salary_min: 720000
 salary_max: 2000000
 location_list:
-  - 台北
-  - 台灣
-  - 中正區
+  - Taiwan
+  - ', Taiwan'
+  - 'Taipei, Taiwan'
 job_tags:
   - scala
   - Java
@@ -31,6 +31,8 @@ job_tags:
   - SQL
   - hive
   - Hadoop
+  - Engineering
+  - Software Development
 badges:
   - Software
 
