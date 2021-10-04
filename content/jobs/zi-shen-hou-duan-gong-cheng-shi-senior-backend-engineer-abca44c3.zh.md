@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=finance&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
+  https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '22892'
 title: 資深後端工程師 Senior Backend Engineer
 job_url: >-
@@ -23,7 +23,7 @@ location_list:
   - 'Taichung, North District, Taichung City, Taiwan'
 job_tags: []
 badges:
-  - Finance
+  - AI Engineer
 
 ---
 

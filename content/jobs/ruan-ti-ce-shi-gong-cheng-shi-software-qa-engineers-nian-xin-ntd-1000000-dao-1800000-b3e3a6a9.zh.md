@@ -24,4 +24,4 @@ badges:
 
 ---
 
-Appaegis Inc. is a Silicon Valley VC backed, cyber security start-up based in Silicon Valley USA, founded by seasoned entrepreneurs with successful track records. We are looking for a QA/SRE Engineer to join our product development team in Taipei. The ideal candidate will have a strong background in software quality and testing automation, with experience in public cloud environment such as AWS, Azure, or Google Cloud. The candidate will automate software testing and validation, and monitor the 
+Appaegis Inc. is a cyber security start-up based in Silicon Valley USA, founded by seasoned entrepreneurs with successful track records. We are looking for a QA/SRE Engineer to join our new research and development team in Taipei. The ideal candidate will have a strong background in software quality assurance, and be familiar with AWS, Azure, or GCP operation. Appaegis provides competitive salary and benefit. As the tradition of Silicon Valley start-ups, all our employee are in our stock option 
