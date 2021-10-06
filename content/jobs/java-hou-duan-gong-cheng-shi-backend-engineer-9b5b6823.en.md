@@ -4,18 +4,18 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '23566'
-title: JAVA 後端工程師 Backend Engineer (Omnichannel Chat Technology)
+title: JAVA 後端工程師 Backend Engineer
 job_url: 'https://www.cakeresume.com/companies/omnichat.ai/jobs/backend-engineer-b5f65a'
 date: 2020-10-03T12:56:46.537Z
 company_name: Omnichat
 company_page_url: 'https://www.cakeresume.com/companies/omnichat.ai'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--_ihYC5Ft--/c_pad,fl_png8,h_200,w_200/v1592209998/wuzuxdoyzlszamtquimb.png
-salary_text: TWD800000 - TWD1300000
+salary_text: TWD600000 - TWD1000000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 800000
-salary_max: 1300000
+salary_min: 600000
+salary_max: 1000000
 location_list:
   - 台北
   - 信義區
