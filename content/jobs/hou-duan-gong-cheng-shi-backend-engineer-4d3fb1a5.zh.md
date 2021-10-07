@@ -17,19 +17,16 @@ salary_type: per_year
 salary_min: 700000
 salary_max: 1500000
 location_list:
-  - 信義區
+  - Taiwan
+  - 'Taipei City, Taiwan'
+  - 'Xinyi District, Taipei City, Taiwan 110'
 job_tags:
-  - JavaScript
   - Python
   - golang
-  - git
-  - AWS
-  - Azure
-  - Google Cloud Platform
-  - Database
+  - Node.js
 badges:
   - AI Engineer
 
 ---
 
-工作內容: ● 依據設計開發 web applications 並根據產品需求運用各類 cloud services 連接各類服務 ● 進行 web applications 的各項測試確認功能完整無誤 ● 技術支援並維護所開發的 web applications ● 與前端工程師及資料科學家合作
+工作內容(Principal Duties) 建立微服務以實現特定的商業邏輯及開發需求 自動化流程的開發與優化，提高開發及運營的效率 與前端協同合作定義與開發 RESTful API 撰寫單元測試、整合測試案例以提高軟體品質 研究與導入新的技術框架，提高開發效率與可維護性

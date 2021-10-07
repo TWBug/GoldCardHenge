@@ -12,11 +12,11 @@ company_name: ThunderCore 閃電核心科技
 company_page_url: 'https://www.cakeresume.com/companies/thundercore'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--QuGudLlp--/c_pad,fl_png8,h_200,w_200/v1620205878/iiqayo78nua8fujvthbx.png
-salary_text: TWD1400000 - TWD1800000
+salary_text: TWD1400000 - TWD2500000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 1400000
-salary_max: 1800000
+salary_max: 2500000
 location_list:
   - 台灣
   - 台北

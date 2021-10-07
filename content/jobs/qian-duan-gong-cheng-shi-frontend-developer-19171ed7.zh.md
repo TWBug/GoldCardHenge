@@ -17,14 +17,18 @@ salary_type: per_year
 salary_min: 700000
 salary_max: 1300000
 location_list:
-  - 信義區
-  - 捷運象山站
-  - 捷運市政府站
-  - 台北
-job_tags: []
+  - Taiwan
+  - 'Taipei City, Taiwan'
+  - 'Xinyi District, Taipei City, Taiwan 110'
+job_tags:
+  - React
+  - html
+  - CSS
+  - javascript
+  - Node.js
 badges:
   - AI Engineer
 
 ---
 
-工作內容: 依據設計開發 web application 人機互動介面，並根據產品需求運用連接各類雲端服務 優化 frontend 功能設計，解決各種 web client 的相容問題 進行 web applications 的各項測試確認功能完整無誤，並協助 backend 配合完成產品開發
+工作內容(Principal Duties) 使用 React 設計及開發以使用者為本的人機互動網站 建立與整合 React 元件庫，提高易用性與可用性 與 UX/UI 設計師合作，將設計進行概念驗證與落實 研究與導入新的前端技術框架，提高開發效率與可維護性 優化前端功能設計，解決各種客戶端的相容問題 撰寫單元測試、整合測試案例以提高軟體品質

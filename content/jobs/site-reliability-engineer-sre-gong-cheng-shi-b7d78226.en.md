@@ -3,10 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
-data_source_internal_id: '19849'
-title: 前端工程師 Front-end Developer
-job_url: 'https://www.cakeresume.com/companies/icard-ai/jobs/front-end-developer-8aa7ac'
-date: 2020-04-29T06:14:50.530Z
+data_source_internal_id: '33099'
+title: Site Reliability Engineer SRE工程師
+job_url: >-
+  https://www.cakeresume.com/companies/icard-ai/jobs/site-reliability-engineer-sre-engineer
+date: 2021-10-07T09:41:52.875Z
 company_name: 'iCard.AI '
 company_page_url: 'https://www.cakeresume.com/companies/icard-ai'
 company_logo_url: >-
@@ -21,14 +22,15 @@ location_list:
   - 'Taipei City, Taiwan'
   - 'Xinyi District, Taipei City, Taiwan 110'
 job_tags:
-  - React
-  - html
-  - CSS
-  - javascript
-  - Node.js
+  - GIT
+  - LINUX
+  - gcp
+  - aws
+  - azure
+  - DevOps
 badges:
   - AI Engineer
 
 ---
 
-工作內容(Principal Duties) 使用 React 設計及開發以使用者為本的人機互動網站 建立與整合 React 元件庫，提高易用性與可用性 與 UX/UI 設計師合作，將設計進行概念驗證與落實 研究與導入新的前端技術框架，提高開發效率與可維護性 優化前端功能設計，解決各種客戶端的相容問題 撰寫單元測試、整合測試案例以提高軟體品質
+工作內容 持續優化開發及生產環境的 CI/CD 流程 即時監控與提升服務品質，確保服務的高可用性與可擴充性 異常事件的響應與處理，進行事後分析與持續優化 設計與收集指標、處理數據及改進服務的基礎設施 參與解決方案架構設計，確保設計具有可擴展性、可維護性及性能指標
