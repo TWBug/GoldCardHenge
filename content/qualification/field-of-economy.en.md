@@ -34,7 +34,7 @@ Please attach all of the following documents:
 1. Certificate of the range of the enterprise operational headquarters.
 2. Subsidy approval letter of MOEA’s “Global Innovation Partnership Initiatives” Program.
 3. Subsidy approval letter of MOEA’s “Pioneers for Innovation Leadership On Technology Program”
-4. Any other documents which verify it as a transnational enterprise*(interpreted by the Ministry of Labor per Order Lao-Dong-Fa-Guan-Tzu No. 1070508252 on July 2nd, 2018).*
+4. Any other documents which verify it as a transnational enterprise*([interpreted by the Ministry of Labor per Order Lao-Dong-Fa-Guan-Tzu No. 1070508252 on July 2nd, 2018](https://gazette.nat.gov.tw/egFront/detail.do?metaid=99846&log=detailLog " to The Executive Yuan Gazette Online")).*
 
 * Verification of service, or  verification of resignation made out by the employing organization to indicate the applicant who have held the position of operations, technical or marketing executive. 
 
