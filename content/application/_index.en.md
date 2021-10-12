@@ -134,7 +134,7 @@ After your application has been approved, you will receive an e-mail notifying y
 The review process after you complete the online payment officially begins. As the Taiwan Employment Gold Card is a combination of four different certificates, authorities from different departments will review your application. The National Immigration Agency conducts the first step of the review process then passes it to the Ministry of Labor. Here they will consult with your relevant Ministry and check your qualifications. The final stop is the Bureau of Consular Affairs for the last visa review.
 
 {{< teaser prefix="" >}}
-Visa issuance is an act of sovereignty and related to the National security. The government reserves the right not to issue a visa and is under no obligation to disclose the reason.
+Visa issuance is an act of sovereignty and is related to the National security. The government reserves the right not to issue a visa and is under no obligation to disclose the reason.
 {{< /teaser >}}
 
 {{< accordion title="More Details" suffix="" bottomless="true" >}}
@@ -163,7 +163,7 @@ Some overseas missions might be temporarily closed or working remotely. Please c
 ## Note:
 
 {{< note title="1" >}}
-Domestic applications require a resident address when applying. When entering the Taiwanese address in Chinese, only Chinese symbols and Arabic numerals can be used, no English letters allowed.
+Domestic applications require a residential address when applying. When entering the Taiwanese address in Chinese, only Chinese symbols and Arabic numerals can be used, no English letters allowed.
 
 * Incorrect：台北市中正區寶慶路No. 3, 2F
 * Correct：台北市中正區寶慶路3號2樓
