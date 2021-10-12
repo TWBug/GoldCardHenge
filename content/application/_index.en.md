@@ -109,7 +109,7 @@ For overseas applications, or if you have entered Taiwan but have a visa with a 
 
 ## STEP 3: Receiving your Gold Card
 
-After your application has been approved, you will receive an e-mail notifying you to collect your Gold Card. Please bring your original passport and relevant documents to your selected location for picking up your Gold Card. If you can not to pick it up in person, you can ask a friend or agent. In that case, you need to provide them with a power of attorney form.
+After your application has been approved, you will receive an e-mail notifying you to collect your Gold Card. Please bring your original passport and relevant documents to your selected location for picking up your Gold Card. If you can not pick it up in person, you can ask a friend or agent. In that case, you need to provide them with a power of attorney form.
 
 {{< accordion title="More Details" suffix="" bottomless="true" >}}
 
