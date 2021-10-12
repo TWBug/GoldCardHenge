@@ -5,7 +5,7 @@ tags:
   - Application
 weight: 1
 ---
-When applying for the gold card from within Taiwan, some visa types are not transferrable to the gold card, such as:
+When applying for the gold card from within Taiwan, some visa types are not transferable to the gold card, such as:
 
 * International Conference Visa (IM)
 * Trade Exhibition or other Events Visa (IM)
