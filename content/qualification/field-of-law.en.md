@@ -12,7 +12,7 @@ topic: goldcard
 # Field of Law
 
 {{< base >}}
-The applicant needs to provide the license of a ROC attorney or the permit of a ROC foreign legal affairs attorney
+The applicant needs to provide the license of a ROC attorney or the permit of a ROC foreign legal affairs attorney.  Application for Foreign Legal Affairs Attorney's Practice Permit, please refer [HERE](https://www.moj.gov.tw/2832/2833/2982/2990/26571/ " to Information category on the involving foreign business of the Attorney Regulation Act").
 {{< /base >}}
 
 ## Must meet **ONE** of the following requirements:
