@@ -1,5 +1,5 @@
 ---
-title: What do I do if I can’t submit the Gold Card application?
+title: 如果我無法送出就業金卡申請資料怎麼辦？
 draft: false
 tags:
   - Application
