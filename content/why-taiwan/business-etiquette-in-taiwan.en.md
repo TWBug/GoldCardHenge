@@ -1,5 +1,5 @@
 ---
-title: Business Etiquette in Taiwan
+title: Social Etiquette in Taiwan
 date: 2020-12-10T07:41:05.093Z
 draft: false
 topic: whytaiwan
