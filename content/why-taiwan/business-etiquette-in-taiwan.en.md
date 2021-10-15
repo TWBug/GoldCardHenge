@@ -9,7 +9,7 @@ topics:
   - Discover Taiwan
 style: title
 ---
-# Business Etiquette in Taiwan
+# Social Etiquette in Taiwan
 
 Social etiquette is very important for people in Taiwan. They pay special attention to be respectful in social interaction whether it be their words or deeds. Here are some basic business etiquette to guarantee you smooth sailing in business settings or with friends and family.
 
