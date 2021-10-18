@@ -20,3 +20,5 @@ Please refer to attached instructions to download your application receipt and r
 ![receipt download](/cms-uploads/receipt-download_eng2.png)
 
 ![download resident authorization for overseas applicants](/cms-uploads/download-resident-authorization-for-overseas-applicants.png)
+
+Should you have any concerns about pickup process, please contact your local [National Immigration Agency’s service center](https://www.immigration.gov.tw/5475/5478/141386/127061/127076/ " to National Immigration Agency’s service center").

@@ -18,3 +18,5 @@ weight: 1
 ![receipt download](/cms-uploads/receipt-download_eng2.png)
 
 ![download resident authorization for overseas applicants](/cms-uploads/download-resident-authorization-for-overseas-applicants.png)
+
+如您對於代領方式有所疑慮，請洽詢[移民署服務站]。(https://www.immigration.gov.tw/5385/5388/7181/7184/7193/ "至移民署服務站")
