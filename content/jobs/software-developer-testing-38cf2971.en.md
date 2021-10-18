@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
+  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '31046'
 title: 'Software Developer, Testing'
 job_url: >-
@@ -19,11 +19,11 @@ salary_min: 1000000
 salary_max: 2000000
 location_list:
   - Taiwan
-  - ', Taiwan'
-  - 'Taipei, Taiwan'
+  - 'Taipei City, Taiwan'
+  - 'Xinyi District, Taipei City, Taiwan 110'
   - 台灣
-  - ', 台灣'
-  - 台灣台北
+  - '台北市, 台灣'
+  - 110台灣台北市信義區
 job_tags:
   - Linux
   - Python
@@ -31,8 +31,8 @@ job_tags:
   - SQL
   - Oracle
 badges:
-  - Mechanical engineer
+  - Software
 
 ---
 
-Job Requirements Design, develop, troubleshoot and debug software programs for databases, applications, tools, networks etc. As a member of the software engineering division, you will assist in defining and developing software for tasks associated with the developing, debugging or designing of software applications or operating systems. Provide technical leadership to other software developers. Specify, design and implement modest changes to existing software architecture to meet changing needs.
+Welcoming talents for "Junior" or "Under 2 years of working experience" who are interested in this role and Oracle. Oracle Autonomous Database Cloud Services (ADBCS), powered by the next-generation Oracle Database , enables complete end-to-end automated Cloud DB Service. Thereby it helps eliminate complexity, human error, manual management & tuning consequentially ensuring unprecedented Availability, Reliability, Scalability and Security at much lower operational costs. Oracle ADBCS eliminates h
