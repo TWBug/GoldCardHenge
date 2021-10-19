@@ -11,11 +11,11 @@ company_name: Omnichat
 company_page_url: 'https://www.cakeresume.com/companies/omnichat.ai'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--_ihYC5Ft--/c_pad,fl_png8,h_200,w_200/v1592209998/wuzuxdoyzlszamtquimb.png
-salary_text: TWD600000 - TWD1000000
+salary_text: TWD700000 - TWD1100000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 600000
-salary_max: 1000000
+salary_min: 700000
+salary_max: 1100000
 location_list:
   - 台北
   - 信義區
