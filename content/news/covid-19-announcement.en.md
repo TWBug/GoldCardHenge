@@ -18,9 +18,9 @@ From 7/27 to 11/1, R.O.C. (Taiwan) Overseas Missions will halt the processing of
 
 If you have just applied or your application is currently under review, your application will continue to proceed until it gets to the Passport Inspection Stage. If you have applied for the Gold Card while on an ARC, you will not be affected by this change.
 
-Please refer to BOCA's News ＆ Events <https://www.boca.gov.tw/cp-220-5081-c06dc-2.html>
+Please refer to [BOCA's News ＆ Events](https://www.boca.gov.tw/cp-220-5081-c06dc-2.html " to BOCA's News ＆ Events")
 
-CDC’s Press Releases <https://www.cdc.gov.tw/En/Bulletin/Detail/5ZsxT1aq_51sBtxTCdwp8w?typeid=158>
+[CDC’s Press Releases](https://www.cdc.gov.tw/En/Bulletin/Detail/5ZsxT1aq_51sBtxTCdwp8w?typeid=158 " to CDC’s Press Releases")
 
 6/28
 
@@ -35,11 +35,7 @@ Reservations should be made and paid for on the Quarantine System for Entry 48 h
 
 Individuals arriving in Taiwan from one of the seven high-risk countries (Brazil, India, UK, Peru, Israel, Indonesia, and Bangladesh), are required to take quarantine vehicles arranged by the Ministry of Transportation and Communications from the airport to their group quarantine facility. Individuals arriving in Taiwan from countries other than the seven high-risk countries should take a quarantine vehicle (self-paid) or drive themselves to the quarantine hotel or group quarantine facility where they plan to stay. Friends and relatives of the individual should refrain from meeting them at the airport or driving them to their quarantine facility to reduce virus transmission.
 
-For more information, please refer to the CECC’s press releases:[](https://www.cdc.gov.tw/En/Bulletin/Detail/Sz-xhhsYnFP85zua7fEVLQ?typeid=158)
-
-<https://www.cdc.gov.tw/En/Bulletin/Detail/Sz-xhhsYnFP85zua7fEVLQ?typeid=158>
-
-<https://www.cdc.gov.tw/En/Bulletin/Detail/z5jLbqfeiVRbY3ECrhmhEg?typeid=158>
+For more information, please refer to the [CECC’s press releases](https://www.cdc.gov.tw/En/Bulletin/Detail/Sz-xhhsYnFP85zua7fEVLQ?typeid=158 " to CECC’s press releases").
 
 6/15
 
@@ -49,16 +45,16 @@ All R.O.C. (Taiwan) overseas missions are halting the processing of all visa app
 
 **If you have just applied or your application is currently under review, your application will continue to proceed until it gets to the Passport Inspection Stage. If you have applied for the Gold Card while on an ARC, you will not be affected by this change.**
 
-The announcement of Bureau of Consular Affairs please refer to: <https://www.boca.gov.tw/cp-220-5081-c06dc-2.html>
+The announcement of Bureau of Consular Affairs please refer [HERE](https://www.boca.gov.tw/cp-220-5081-c06dc-2.html " to The announcement of Bureau of Consular Affairs").
 
 5/31
 
 In accordance with the CECC’s regulations, the Ministry of Foreign Affairs will halt the processing of all visa applications (including the passport inspection stage of the Gold Card).
 
-The announcement of Bureau of Consular Affairs please refer to: <https://www.boca.gov.tw/cp-220-6517-9b761-2.html>
+The announcement of Bureau of Consular Affairs please refer [HERE](https://www.boca.gov.tw/cp-220-6517-9b761-2.html " to BOCA News").
 
 Gold Card holders (including those with the Resident Authorization Certificate) can still enter Taiwan. Entry will be suspended for individuals holding Visitor Visa's or Resident Visa's. Foreign nationals who must enter Taiwan for emergency situations (i.e. attending a funeral or visiting a critically ill family member) must receive special permission from the CECC before applying for a special entry permit visa from the Taiwan Overseas Office in their home country. Please note that the suspension of entry into Taiwan will begin from May 19 and last until June 18.
 
-Please refer Restrictions of Entering Taiwan for more information: <https://www.immigration.gov.tw/5475/5478/6928/6940/212474/263530/>
+Please refer [Restrictions of Entering Taiwan](https://www.immigration.gov.tw/5475/5478/6928/6940/212474/263530/ " to Restrictions of Entering Taiwan page") for more information.
 
 **If you have just applied or your application is currently under review, your application will continue to proceed until it gets to the Passport Inspection Stage. If you have applied for the Gold Card while on an ARC, you will not be affected by this change.**
