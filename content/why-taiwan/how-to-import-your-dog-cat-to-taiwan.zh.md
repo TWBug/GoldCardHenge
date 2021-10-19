@@ -138,4 +138,4 @@ style: title
 
 欲了解隔離過程詳細資訊，請查閱此[文件](https://www.baphiq.gov.tw/ws.php?id=13028 "行政院農業委員會動植物防疫檢疫局網站")。動物檢疫地方分局人員相當友善，具有服務熱忱，能以英語溝通，可透過電話或電子郵件與他們聯繫。點擊[此處](https://www.baphiq.gov.tw/ws.php?id=18 "至行政院農業委員會動植物防疫檢疫局網站")查詢服務人員的聯絡資訊。別猶豫，直接與他們確認步驟細節吧！祝您一切順利，台灣見！
 
-![](/cms-uploads/how-to-import-your-dogcat-to-taiwan5.jpg)
+![How to import your Dog/Cat to Taiwan5](/cms-uploads/how-to-import-your-dogcat-to-taiwan5.jpg)

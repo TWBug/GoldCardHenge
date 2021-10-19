@@ -140,4 +140,4 @@ For more in-depth information about the whole quarantine process, please check o
 
 Good luck, and see you in Taiwan soon!
 
-![](/cms-uploads/how-to-import-your-dogcat-to-taiwan5.jpg)
+![How to import your Dog/Cat to Taiwan5](/cms-uploads/how-to-import-your-dogcat-to-taiwan5.jpg)
