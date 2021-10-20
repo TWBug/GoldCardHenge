@@ -1,16 +1,7 @@
 ---
-title: 若要申請租稅優惠，需要準備什麼文件？
-draft: false
+title: 我要如何幫小孩找托嬰中心或保母？
 tags:
-  - Tax
+  - Family
 weight: 1
 ---
-Employment Gold Card Holders----- Employment Gold Card and Employment Contract.
-
-Foreign Special Professionals----- Alien Resident Certificate, Work Permit Letter issued by the Ministry of Labor, and Employment Contract.
-
-**If you switch from a General Work Permit to an Employment Gold Card or a Foreign Special Professional Work Permit, you need to change your status during the first General Work Permit before you can apply.**
-
-Please refer to the Application Form for Exemption from Income Tax for Foreign Special Professionals.
-
-{{< file-download title="Application Form for Exemption from Income Tax for Foreign Special Professionals.pdf" path="/cms-uploads/外國特定專業人才減免所得稅申請書.pdf.pdf" >}}
+請參考臺北市政府社會局[嬰幼兒照顧服務](https://dosw.gov.taipei/Content_List.aspx?n=E7F1297C3E905941 "至臺北市政府社會局嬰幼兒照顧服務")以及[衛福部社會及家庭署托育媒合平臺](https://ncwisweb.sfaa.gov.tw/home/index "至衛福部社會及家庭署托育媒合平臺")。
