@@ -7,9 +7,9 @@ weight: 1
 ---
 需準備以下文件：
 
-1. 請領[健保卡申請表](https://www.nhi.gov.tw/Content_List.aspx?n=E094D4DF4AC892AD&topn=1E1039BE19C4DCAC)
-2. [全民健康保險保險對象投保申報表](https://www.nhi.gov.tw/Content_List.aspx?n=9BC48536CE1E978C&topn=1E1039BE19C4DCAC)
-3. [全民健康保險投保單位成立申報表](https://www.nhi.gov.tw/Content_List.aspx?n=9BC48536CE1E978C&topn=1E1039BE19C4DCAC)
+1. 請領[健保卡申請表](https://www.nhi.gov.tw/Content_List.aspx?n=E094D4DF4AC892AD&topn=1E1039BE19C4DCAC "至衛福部健保卡相關表單")
+2. [全民健康保險保險對象投保申報表](https://www.nhi.gov.tw/Content_List.aspx?n=9BC48536CE1E978C&topn=1E1039BE19C4DCAC "至衛福部健保承保專用表格")
+3. [全民健康保險投保單位成立申報表](https://www.nhi.gov.tw/Content_List.aspx?n=9BC48536CE1E978C&topn=1E1039BE19C4DCAC "至衛福部健保承保專用表格")
 4. 就業金卡影本
 5. 經濟部公司登記核准函
 
