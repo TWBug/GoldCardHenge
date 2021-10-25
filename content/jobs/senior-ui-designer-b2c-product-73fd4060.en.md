@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '29175'
-title: 'Senior UI Designer 資深 UI 設計師, B2C Product'
+title: 'Senior UI Designer, B2C Product'
 job_url: >-
   https://www.cakeresume.com/companies/onedegree/jobs/senior-ui-designer-senior-ui-designer-900ec1
 date: 2021-05-05T08:30:29.760Z
