@@ -8,7 +8,7 @@ links: null
 items:
   - preview: null
     label: "3225"
-    href: Gold Card Holders
+    href: Number of Valid Gold Cards
   - preview: null
     label: "62"
     href: Different Countries
