@@ -23,9 +23,6 @@ location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
   - 'Songshan District, Taipei City, Taiwan 105'
-  - 台灣
-  - '台北市, 台灣'
-  - 105台灣台北市松山區
 job_tags:
   - System Architecture
   - engineering manager
