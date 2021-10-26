@@ -7,4 +7,4 @@ tags:
   - APRC
 weight: 17
 ---
-Although the new laws have been officially announced, the respective ministries are still working on the relevant sub-laws and implementation practices. The new laws will be in affect earliest October 2021.
+The new laws have been officially implemented on October 25, 2021.
