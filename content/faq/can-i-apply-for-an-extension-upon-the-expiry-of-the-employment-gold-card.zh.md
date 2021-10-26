@@ -3,7 +3,7 @@ title: 就業金卡屆期前，我可以延期申請嗎？我需要提供甚麼�
 draft: false
 categories: null
 tags:
-  - Renewal & Validity
+  - Validity & Extension
 ---
 金卡即將到期的前4個月可至申請平台延期申請，基本資料須重新填寫，平台將自動帶入前次申請提供的文件（不提供檢視或下載），各類別詳細情形請參考以下。
 
