@@ -1,6 +1,5 @@
 ---
-title: " The amended Act for the Recruitment and Employment of Foreign
-  Professionals is approved by the Executive Yuan to take effect from today!"
+title: 行政院核定新修正之「外國專業人才延攬及僱用法」自即日正式施行！
 date: 2021-10-25T01:41:14.484Z
 topic: eventsnews
 draft: false
