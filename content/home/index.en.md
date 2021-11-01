@@ -8,6 +8,4 @@ links: null
 items: null
 cms_omit: true
 ---
-\*Due to the pandemic, Office Hours will be online until further notice.
-
-\*From 7/27 to 11/1, R.O.C. (Taiwan) Overseas Missions will halt the processing of visa applications (including the Passport Inspection Stage of the Gold Cards).
+\*From 7/27 to 11/15, R.O.C. (Taiwan) Overseas Missions will halt the processing of visa applications (including the Passport Inspection Stage of the Gold Cards).
