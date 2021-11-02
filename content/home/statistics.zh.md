@@ -10,7 +10,7 @@ items:
     label: "3225"
     href: 有效就業金卡數
   - preview: null
-    label: "62"
+    label: "66"
     href: 金卡國籍數
   - preview: null
     label: "23538"
