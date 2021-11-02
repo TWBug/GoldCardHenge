@@ -12,11 +12,11 @@ company_name: KKBOX Group
 company_page_url: 'https://www.cakeresume.com/companies/kkboxgroup'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--RqaQjEF4--/c_pad,fl_png8,h_200,w_200/v1604375754/f9qlpok430hwd4k1zx95.png
-salary_text: TWD890000 - TWD1430000
+salary_text: TWD1250000 - TWD1750000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 890000
-salary_max: 1430000
+salary_min: 1250000
+salary_max: 1750000
 location_list:
   - Taiwan
   - ', Taiwan'
