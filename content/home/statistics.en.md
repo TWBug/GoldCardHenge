@@ -7,7 +7,7 @@ headless: true
 links: null
 items:
   - preview: null
-    label: "3225"
+    label: "3319"
     href: Number of Valid Gold Cards
   - preview: null
     label: "66"
