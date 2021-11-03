@@ -42,6 +42,8 @@ TNAM Building 1 by 臺南市美術館 © 2021
 
 ![Tainan Art Museum](/cms-uploads/1tainan-art-museum.jpg)
 
+TNAM Building 2 by 臺南市美術館 © 2021
+
 The Tainan Art Museum consists of two buildings. The smaller Building 1 was originally constructed in 1931 as the Tainan Police Department, the oldest police station in Taiwan. It was renovated and later re-opened as TNAM in 2018. One year later and one block away, the construction of Building 2 was completed under the direction of award-winning Japanese architect Ban Shigeru. Given its location in Tainan, the historical capital and cultural heart of Taiwan, the TNAM’s foremost objective is to uncover, construct, and activate Taiwan’s local art history and consolidate it into a contemporary cultural identity. The museum’s mission to cultivate art appreciation and cultural value is reflected in its exhibitions, which often explore themes like Taiwanese folk religions and beliefs. 
 
 Please visit the official [TNAM website](https://www.tnam.museum/exhibition/current " to Tainan Art Museum Website") to see their current exhibitions.
