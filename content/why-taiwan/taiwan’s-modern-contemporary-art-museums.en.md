@@ -30,7 +30,7 @@ Established in 1983, the Taipei Fine Arts Museum (TFAM) was the first public mus
 
 On October 4th, 2021, TFAM announced its plan for expansion, which will include the construction of a second museum building that is scheduled to open in 2026.
 
-Please visit the official [TFAM website](https://www.tfam.museum/Exhibition/Exhibition.aspx?ddlLang=en-us) to see their current exhibitions.
+Please visit the official [TFAM website](https://www.tfam.museum/Exhibition/Exhibition.aspx?ddlLang=en-us " to Taipei Fine Arts Museum Website") to see their current exhibitions.
 
 ## Tainan Art Museum
 
@@ -44,7 +44,7 @@ TNAM Building 1 by 臺南市美術館 © 2021
 
 The Tainan Art Museum consists of two buildings. The smaller Building 1 was originally constructed in 1931 as the Tainan Police Department, the oldest police station in Taiwan. It was renovated and later re-opened as TNAM in 2018. One year later and one block away, the construction of Building 2 was completed under the direction of award-winning Japanese architect Ban Shigeru. Given its location in Tainan, the historical capital and cultural heart of Taiwan, the TNAM’s foremost objective is to uncover, construct, and activate Taiwan’s local art history and consolidate it into a contemporary cultural identity. The museum’s mission to cultivate art appreciation and cultural value is reflected in its exhibitions, which often explore themes like Taiwanese folk religions and beliefs. 
 
-Please visit the official [TNAM website](https://www.tnam.museum/exhibition/current) to see their current exhibitions.
+Please visit the official [TNAM website](https://www.tnam.museum/exhibition/current " to Tainan Art Museum Website") to see their current exhibitions.
 
 ## 國立台灣美術館
 
@@ -58,7 +58,7 @@ The National Taiwan Museum of Fine Arts (NTMoFA) is located in the West District
 
 Along the perimeter of the building, visitors will find 45 different sculptures located throughout the NTMoFA Sculpture and Calligraphy Steles Park. The sculptures take on a wide range of styles, from traditional calligraphy to contemporary installation art, ultimately reflecting the rich diversity of the Taiwanese art world. Including the sculpture park, NTMoFA spans a total area of 10 hectares, making it one of the largest art museums in Asia.
 
-Please visit the official [NTMoFA website](https://www.ntmofa.gov.tw/en/activitysoonlist_107.html) to see their current exhibitions.
+Please visit the official [NTMoFA website](https://www.ntmofa.gov.tw/en/activitysoonlist_107.html " to National Taiwan Museum of Fine Arts Website") to see their current exhibitions.
 
 ## Kaohsiung Museum of Fine Arts
 
@@ -70,7 +70,7 @@ Established in 1994, the Kaohsiung Museum of Fine Arts (KMFA) specializes in com
 
 As part of the city’s 40-hectare Neiweipi Cultural Park, the KMFA also includes the Sculpture Garden, Ecological Park, and the Kaohsiung Children’s Art Museum, the first and only independent art museum for children in Taiwan.
 
-Please visit the official [KMFA website](https://www.kmfa.gov.tw/English/ExhibitionListE001100.aspx?appname=ExhibitionListE001100) to see their current exhibitions.
+Please visit the official [KMFA website](https://www.kmfa.gov.tw/English/ExhibitionListE001100.aspx?appname=ExhibitionListE001100 " to Kaohsiung Museum of Fine Arts Website") to see their current exhibitions.
 
 ## Taoyuan Museum of Fine Arts
 
@@ -80,6 +80,6 @@ Please visit the official [KMFA website](https://www.kmfa.gov.tw/English/Exhibit
 
 The construction of the Taoyuan Museum of Fine Arts began in 2019, and it is scheduled to open in 2023. In addition to the main museum, the TMoFA will also include three auxiliary institutions: the Taoyuan Children's Art Center, the Hengshan Calligraphy Art Center, and the Chunglu Art Center.
 
-Please visit the official [TMoFA website](https://tmofa.tycg.gov.tw/en/exhibitions/current-exhibitions) for updates.
+Please visit the official [TMoFA website](https://tmofa.tycg.gov.tw/en/exhibitions/current-exhibitions " to Taoyuan Museum of Fine Arts Website") for updates.
 
 With a major museum in each of Taiwan’s biggest cities, the infinitely inspiring realm of modern and contemporary Taiwanese art is accessible to all those who seek it.
