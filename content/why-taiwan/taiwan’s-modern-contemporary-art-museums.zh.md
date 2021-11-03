@@ -44,11 +44,11 @@ TNAM Building 2 by 臺南市美術館 © 2021
 
 您可以前往[南美館官方網站](https://www.tnam.museum/exhibition/current)查看他們當前的展覽。
 
-## National Taiwan Museum of Fine Arts 
+## 國立台灣美術館
 
-*Taichung*
+*台中*
 
-![National Taiwan Museum of Fine Arts ](/cms-uploads/national-taiwan-museum-of-fine-arts.jpg)
+![國立台灣美術館](/cms-uploads/national-taiwan-museum-of-fine-arts.jpg)
 
 Photo by Yachuen / CC
 
@@ -57,3 +57,31 @@ Photo by Yachuen / CC
 沿著建築的周圍，遊客可在國美館雕塑公園和碑林廣場內找到45座不同的雕塑品。雕塑品的風格多樣，從傳統書法到當代裝置藝術，最終反映了台灣藝術界的豐富多樣性。包括雕塑公園在內，國美館總面積達10公頃，是亞洲最大的藝術博物館之一。
 
 您可以前往[國美館官方網站](https://www.ntmofa.gov.tw/)查看他們當前的展覽。
+
+## 高雄市立美術館
+
+*高雄*
+
+![高雄市立美術館](/cms-uploads/kaohsiung-museum-of-fine-arts.jpg)
+
+《泛‧南‧島》 by 高雄市立美術館藝術認證
+
+高雄市立美術館（高美館）成立於1994年，專注於藝術與生態的結合。高美館以在地視角為中心組織展覽，經常展出台灣本土藝術家、南台灣藝術家和南島藝術家的作品。除了作為保護和發展當地文化的重要創意機構外，高美館也是主要國際藝術家的重要展出聖地。高美館曾與倫敦的泰德美術館及巴黎的國家凱布朗利博物館合作舉辦大型國際藝術展覽，也舉辦過奈良美智、東尼．奧斯勒等主要藝術家的回顧展。
+
+作為高雄占地40公頃的內惟埤文化園區的一部分，高美館還包含了雕塑公園、生態公園以及兒童美術館——為國內公立博物館中首座且唯一一座專為兒童所設置的美術館。
+
+您可以前往[高美館官方網站](https://www.kmfa.gov.tw/)查看他們當前的展覽。
+
+## 桃園市立美術館
+
+*桃園*
+
+![桃園市立美術館](/cms-uploads/taoyuan-museum-of-fine-arts.jpg)
+
+TMoFA by 桃園市立美術館 © 2021
+
+桃園市立美術館於2019年開始動工，預計於2023年開館。除了母館外，桃園市立美術館也將包含三個附屬機構：桃園市兒童美術館、橫山書法藝術館和中路美術館。
+
+您可以前往[桃園市立美術館官方網站](https://tmofa.tycg.gov.tw/ch/exhibitions/current-exhibitions)查看他們最新消息。
+
+在台灣，對於所有尋求台灣藝術文化的人而言，這些美術館的存在，使得我們與藝術、文化培養的距離不再如此遙遠，短短的車程我們就能獲得思想、人生視野的啟發。

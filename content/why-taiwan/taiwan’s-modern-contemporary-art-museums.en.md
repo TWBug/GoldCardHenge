@@ -55,3 +55,27 @@ The National Taiwan Museum of Fine Arts (NTMoFA) is located in the West District
 Along the perimeter of the building, visitors will find 45 different sculptures located throughout the NTMoFA Sculpture and Calligraphy Steles Park. The sculptures take on a wide range of styles, from traditional calligraphy to contemporary installation art, ultimately reflecting the rich diversity of the Taiwanese art world. Including the sculpture park, NTMoFA spans a total area of 10 hectares, making it one of the largest art museums in Asia.
 
 Please visit the official [NTMoFA website](https://www.ntmofa.gov.tw/en/activitysoonlist_107.html) to see their current exhibitions.
+
+## Kaohsiung Museum of Fine Arts
+
+*Kaohsiung*
+
+![Kaohsiung Museum of Fine Arts](/cms-uploads/kaohsiung-museum-of-fine-arts.jpg)
+
+Established in 1994, the Kaohsiung Museum of Fine Arts (KMFA) specializes in combining art and ecology. The KMFA organizes exhibitions centered around local perspectives, often featuring works by indigenous Taiwanese artists, artists from Southern Taiwan, and artists across Austronesia. In addition to serving as an important creative institution for the preservation and development of local culture, the KMFA is an important destination for major international artists as well. The KMFA has collaborated with the Tate in London and the Musée du quai Branly in Paris to organize large-scale international art exhibitions, and has held retrospective exhibitions of major artists such as Yoshimoto Nara and Tony Oursler. 
+
+As part of the city’s 40-hectare Neiweipi Cultural Park, the KMFA also includes the Sculpture Garden, Ecological Park, and the Kaohsiung Children’s Art Museum, the first and only independent art museum for children in Taiwan.
+
+Please visit the official [KMFA website](https://www.kmfa.gov.tw/English/ExhibitionListE001100.aspx?appname=ExhibitionListE001100) to see their current exhibitions.
+
+## Taoyuan Museum of Fine Arts
+
+*Taoyuan*
+
+![Taoyuan Museum of Fine Arts](/cms-uploads/taoyuan-museum-of-fine-arts.jpg)
+
+The construction of the Taoyuan Museum of Fine Arts began in 2019, and it is scheduled to open in 2023. In addition to the main museum, the TMoFA will also include three auxiliary institutions: the Taoyuan Children's Art Center, the Hengshan Calligraphy Art Center, and the Chunglu Art Center.
+
+Please visit the official [TMoFA website](https://tmofa.tycg.gov.tw/en/exhibitions/current-exhibitions) for updates.
+
+With a major museum in each of Taiwan’s biggest cities, the infinitely inspiring realm of modern and contemporary Taiwanese art is accessible to all those who seek it.
