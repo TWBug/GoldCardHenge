@@ -31,4 +31,4 @@ One who cannot be placed in a qualifying field as a result of consultation under
 
 [NDC Direction for Conducting the Recognition of Foreign Special Professionals with Special Expertise.pdf](https://ws.ndc.gov.tw/Download.ashx?u=LzAwMS9hZG1pbmlzdHJhdG9yLzI5L3JlbGZpbGUvMC8xNDYyOC8yZWMzNzkxOC01MjcxLTRlNmMtOTQ0Zi05OWQzNDg3YTkwOTQucGRm&n=MjAyMTEwMjXmnIPllYboqo3lrpropoHpu54o6Iux5paH54mIKS5wZGY%3d&icon=..pdf "to NDC Direction for Conducting the Recognition of Foreign Special Professionals with Special Expertise Document")
 
-[NDC Flowchart.pdf](https://ws.ndc.gov.tw/Download.ashx?u=LzAwMS9hZG1pbmlzdHJhdG9yLzI5L3JlbGZpbGUvMC8xNDYyOC8xNzkxYTExYi03NzViLTQzZDQtYmMzZC00M2YyZjdmZWU5MGUucGRm&n=TkRDIEZsb3djaGFydC5wZGY%3d&icon=..pdf)
+[NDC Flowchart.pdf](https://ws.ndc.gov.tw/Download.ashx?u=LzAwMS9hZG1pbmlzdHJhdG9yLzI5L3JlbGZpbGUvMC8xNDYyOC8xNzkxYTExYi03NzViLTQzZDQtYmMzZC00M2YyZjdmZWU5MGUucGRm&n=TkRDIEZsb3djaGFydC5wZGY%3d&icon=..pdf " to NDC Flowchart")
