@@ -1,6 +1,6 @@
 ---
 title: Taiwan’s Modern & Contemporary Art Museums
-date: 2021-11-02T06:02:56.237Z
+date: 2021-11-01T06:02:56.237Z
 draft: false
 chatbot: false
 topic: whytaiwan
