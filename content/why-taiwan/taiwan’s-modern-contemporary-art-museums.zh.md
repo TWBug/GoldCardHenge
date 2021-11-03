@@ -4,6 +4,10 @@ date: 2021-11-02T06:02:56.237Z
 draft: false
 chatbot: false
 topic: whytaiwan
+cover_image: /cms-uploads/taiwan’s-modern-contemporary-art-museums.jpg
+cover_image_alt: Taiwan’s Modern & Contemporary Art Museums
+media_image: /cms-uploads/taiwan’s-modern-contemporary-art-museums.jpg
+media_image_alt: Taiwan’s Modern & Contemporary Art Museums
 topics:
   - Discover Taiwan
 style: right
