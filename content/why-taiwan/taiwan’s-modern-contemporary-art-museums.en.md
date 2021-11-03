@@ -41,3 +41,17 @@ TNAM Building 1 by 臺南市美術館 © 2021
 The Tainan Art Museum consists of two buildings. The smaller Building 1 was originally constructed in 1931 as the Tainan Police Department, the oldest police station in Taiwan. It was renovated and later re-opened as TNAM in 2018. One year later and one block away, the construction of Building 2 was completed under the direction of award-winning Japanese architect Ban Shigeru. Given its location in Tainan, the historical capital and cultural heart of Taiwan, the TNAM’s foremost objective is to uncover, construct, and activate Taiwan’s local art history and consolidate it into a contemporary cultural identity. The museum’s mission to cultivate art appreciation and cultural value is reflected in its exhibitions, which often explore themes like Taiwanese folk religions and beliefs. 
 
 Please visit the official [TNAM website](https://www.tnam.museum/exhibition/current) to see their current exhibitions.
+
+## 國立台灣美術館
+
+*台中*
+
+![National Taiwan Museum of Fine Arts ](/cms-uploads/national-taiwan-museum-of-fine-arts.jpg)
+
+Photo by Yachuen / CC
+
+The National Taiwan Museum of Fine Arts (NTMoFA) is located in the West District of Taichung. Established in 1988, it is the first and only national fine arts museum in Taiwan. Its collections and exhibitions are primarily devoted to showcasing works by modern and contemporary Taiwanese artists. In particular, every two years NTMoFA holds the Taiwan Biennial, a special exhibition that not only gives the visitors access to a compendium of Taiwan’s most innovative contemporary art, but also provides a platform for Taiwanese artists to exchange their knowledge and views on art.
+
+Along the perimeter of the building, visitors will find 45 different sculptures located throughout the NTMoFA Sculpture and Calligraphy Steles Park. The sculptures take on a wide range of styles, from traditional calligraphy to contemporary installation art, ultimately reflecting the rich diversity of the Taiwanese art world. Including the sculpture park, NTMoFA spans a total area of 10 hectares, making it one of the largest art museums in Asia.
+
+Please visit the official [NTMoFA website](https://www.ntmofa.gov.tw/en/activitysoonlist_107.html) to see their current exhibitions.

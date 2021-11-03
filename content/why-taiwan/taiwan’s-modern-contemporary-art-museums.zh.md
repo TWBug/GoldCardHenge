@@ -18,7 +18,7 @@ style: right
 
 *台北*
 
-![台北市立美術館](/cms-uploads/tainan-art-museum.jpg)
+![台北市立美術館](/cms-uploads/taipei-fine-arts-museum.jpg)
 
 Photo by Wei-Te Wong / CC
 
@@ -32,7 +32,7 @@ Photo by Wei-Te Wong / CC
 
 *台南*
 
-![台南市美術館](/cms-uploads/1tainan-art-museum.jpg)
+![台南市美術館](/cms-uploads/tainan-art-museum.jpg)
 
 TNAM Building 1 by 臺南市美術館 © 2021
 
@@ -43,3 +43,17 @@ TNAM Building 2 by 臺南市美術館 © 2021
 台南美術館（南美館）由1館和2館兩大建築體建築組成。較小的1館最初建於1931年，前身為台灣最古老的警察局——台南市警察局。2018年進行了翻新，後來作為南美館重新開放。2019年，在距1館一個街區之外，由普立茲克獎、日本建築大師坂茂操刀設計的2館竣工。鑑於其位於台灣的歷史首都和文化中心，南美館的首要目標是挖掘、構建和激化台灣本土藝術史，並將其鞏固為當代文化身份。南美館將培養藝術鑑賞力和文化價值的使命體現在其展覽中，展覽經常探索台灣民間宗教和信仰等主題。
 
 您可以前往[南美館官方網站](https://www.tnam.museum/exhibition/current)查看他們當前的展覽。
+
+## National Taiwan Museum of Fine Arts 
+
+*Taichung*
+
+![National Taiwan Museum of Fine Arts ](/cms-uploads/national-taiwan-museum-of-fine-arts.jpg)
+
+Photo by Yachuen / CC
+
+國立台灣美術館（國美館）位於台中市西區。成立於1988年，是台灣第一間也是唯一一間國立美術館。其收藏和展覽主要致力於展示現代和當代台灣藝術家的作品。值得一提的是國美館每兩年舉辦一次的台灣美術雙年展，這是一個特別的展覽，不僅讓參觀者有機會接觸到台灣最具創新性的當代藝術，也為台灣藝術家提供了一個交流藝術知識和觀點的平台。
+
+沿著建築的周圍，遊客可在國美館雕塑公園和碑林廣場內找到45座不同的雕塑品。雕塑品的風格多樣，從傳統書法到當代裝置藝術，最終反映了台灣藝術界的豐富多樣性。包括雕塑公園在內，國美館總面積達10公頃，是亞洲最大的藝術博物館之一。
+
+您可以前往[國美館官方網站](https://www.ntmofa.gov.tw/)查看他們當前的展覽。
