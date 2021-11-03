@@ -4,13 +4,19 @@ date: 2021-11-03T05:20:26.005Z
 draft: false
 chatbot: false
 topic: whytaiwan
-style: right
+cover_image: /cms-uploads/taiwanese-work-culture-four-key-cultural-differences-to-look-out-for.jpg
+cover_image_alt: Taiwanese Work Culture Four Key Cultural Differences to Look Out For
+media_image: /cms-uploads/taiwanese-work-culture-four-key-cultural-differences-to-look-out-for.jpg
+media_image_alt: Taiwanese Work Culture Four Key Cultural Differences to Look Out For
+style: title
 ---
 # Taiwanese Work Culture: Four Key Cultural Differences to Look Out For
 
 It is common for foreign professionals to face some obstacles when adjusting to local workplace culture. Whether you are beginning a new job in a Taiwanese company, starting your own company, or simply engaging with businesses in Taiwan on a professional level, this article aims to explain four of the most common cultural distinctions that define a Taiwanese workplace.
 
 1. ## Giving Feedback
+
+![Giving Feedback](/cms-uploads/giving-feedback.jpg)
 
 Workplaces in different cultures are uniquely nuanced in the ways they communicate feedback—positive or negative. What stands out in a Taiwanese workplace? Non-confrontation. 
 
@@ -22,6 +28,8 @@ You will more often experience criticism or feedback being expressed via text or
 
 2. ## Handling Hierarchy
 
+![Handling Hierarchy](/cms-uploads/handling-hierarchy.jpg)
+
 Intimately related to the above concept of “face” is the notion of hierarchy within a workplace—your position and the relative position of the individual you are communicating with determines how a message is received.
 
 If you are part of a local team, it is important to understand that if someone senior to you gives you a task, you are expected to carry out the task exactly as instructed. Another common misstep that foreign professionals in Taiwan are prone to is sharing an opinion or suggestion for improvement to a line manager. If you do this too early in your relationship, it could be interpreted as criticism or even arrogance. 
@@ -32,6 +40,8 @@ On the other hand, if you are doing business with a Taiwanese company, it is in 
 
 3. ## Guanxi
 
+![Guanxi](/cms-uploads/guanxi.jpg)
+
 Echoing the point made above about being liked by your boss, establishing deeper connections will contribute to longer-term professional success. Guanxi loosely translates as personal connections, relationships, or social networks. Having good, bad, or no guanxi impacts one’s influence and ability to get things done.
 
 Being liked by all levels of a hierarchy will help you succeed. Although this point can be applied universally, in Taiwan it is especially true that a feel-good personal relationship can blossom into a fruitful professional relationship. This is not to say that you have to become close friends with all of your colleagues, but showing interest in their personal lives and building rapport is an excellent way to cultivate trust.
@@ -39,6 +49,8 @@ Being liked by all levels of a hierarchy will help you succeed. Although this po
 Take some time to get to know your colleagues around you—you may notice quite personal questions being asked of you, but this is an indication that someone wants to establish deeper guanxi. Try to avoid gossip and controversial topics when you can, as impressions and reputations travel far and especially fast. Offering gifts is a common part of showing appreciation and respect to your colleagues, so prepare to bring something back if you go on a trip or a vacation.
 
 4. ## Structure over Flexibility
+
+![Structure over Flexibility](/cms-uploads/structure-over-flexibility.jpg)
 
 During the pandemic, it has become increasingly apparent that some established practices in Taiwanese work culture have been slow to change and are quite conservative compared to many companies globally. One such aspect is a lack of flexibility in work culture, and managers are often unable to trust their employees to work effectively from home, or according to their own patterns and methods. Seen another way, Taiwanese work culture can be seen as being entrenched in a culture of presenteeism, which means that employees must show up for 8 hours in the office (or more!) in order to be recognized for their efforts. This is one major adjustment that foreign professionals in Taiwan must adapt to. Productivity is measured in hours that one is present and supervised, and the prevalence of KPIs as a common performance metric is a reflection of this. As such, employee output and capability can sometimes be skewed by physical attendance. Consequently, such work practices can seem outdated, and one should not expect an open space in which your suggestions for better work-life balance will be welcomed. 
 
