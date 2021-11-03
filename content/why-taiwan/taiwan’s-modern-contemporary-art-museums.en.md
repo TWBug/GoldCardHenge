@@ -10,7 +10,7 @@ media_image: /cms-uploads/taiwan’s-modern-contemporary-art-museums.jpg
 media_image_alt: Taiwan’s Modern & Contemporary Art Museums
 topics:
   - Discover Taiwan
-style: right
+style: title
 ---
 # Taiwan’s Modern & Contemporary Art Museums
 
