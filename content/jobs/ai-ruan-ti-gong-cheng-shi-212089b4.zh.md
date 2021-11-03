@@ -11,11 +11,11 @@ company_name: Chimes AI
 company_page_url: 'https://www.cakeresume.com/companies/chimes-ai'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--8ubZe78q--/c_pad,fl_png8,h_200,w_200/v1633489225/z26hb1xsvma5tjj9rmx8.png
-salary_text: TWD1500000 - TWD1500000
+salary_text: TWD1200000 - TWD1800000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1500000
-salary_max: 1500000
+salary_min: 1200000
+salary_max: 1800000
 location_list:
   - Taiwan
   - ', Taiwan'
@@ -23,10 +23,13 @@ location_list:
   - 台灣
   - ', 台灣'
   - 台灣台北
-job_tags: []
+job_tags:
+  - Machine Learning
+  - R
+  - algorithm development
 badges:
   - AI Engineer
 
 ---
 
-工作待遇 年薪 1,500,000+ NTD 工作內容 以安全，經過良好測試和高性能的方式開發 Chimes AI 產品的演算法與功能 撰寫、測試、維護並紀錄可複用的程式碼，以確保交付有品質的程式碼 與其他團隊成員以及利害關係人合作，維護及開發既有的產品 Chimes AI 產品演算法優化設計 執行資料科學分析專案，協助製作產品展示操作 條件要求 計算機科學基礎知識，包含：資料結構、演算法 5 年以上使用 R 開發經驗，包含：R 套件開發、環境版本管理 熟悉關聯式資料庫資料庫 (如: PostgreSQL, MySQL) 軟體開發基礎知識，包含：測試、故障排除與版本管理（Git, Github flow） 出色的分析與解決問題的能力 有能力清晰、簡潔地溝通複雜的技術、架構或組織問題，以及提出對應的解決方案 投遞履歷時，請檢附以下文件： 不使用公開套件，以下演算法擇一實作：glmnet、SVM、Naive Bayes classifier 與上述要求同等級之論文、作品 公開專案，包含專案簡報、有版本管理的程式碼，有 shiny App 呈現佳 加分條件 熟悉各種 R 語言運算效能優化技術
+工作待遇 年薪 1,200,000 – 1,800,00 NTD 工作內容 維護與開發機器學習與統計模型演算法 撰寫、測試、維護並紀錄可複用的程式碼，以確保交付有品質的程式碼 與團隊成員合作，完成 Chimes AI 產品上線作業 執行資料科學分析專案，協助製作產品展示操作 條件要求 有能力清晰、簡潔地溝通複雜的技術、架構或組織問題，以及提出對應的解決方案 不使用公開套件，能夠實現機器學習演算法 (e.g. glmnet、SVM、Naive Bayes classifier) 具備軟體開發經驗 加分條件 熟悉各種 R 語言運算效能優化技術 有使用過 Docker 建置、開發經驗 有與 Python 環境整合開發經驗 熟悉或曾經有敏捷開發工作經驗
