@@ -8,6 +8,8 @@ cover_image: /cms-uploads/taiwanese-work-culture-four-key-cultural-differences-t
 cover_image_alt: Taiwanese Work Culture Four Key Cultural Differences to Look Out For
 media_image: /cms-uploads/taiwanese-work-culture-four-key-cultural-differences-to-look-out-for.jpg
 media_image_alt: Taiwanese Work Culture Four Key Cultural Differences to Look Out For
+topics:
+  - Discover Taiwan
 style: title
 ---
 # 台灣職場生存術：你需要知道的四大文化差異
