@@ -18,7 +18,7 @@ style: right
 
 *台北*
 
-![台北市立美術館](/cms-uploads/taipei-fine-arts-museum.jpg)
+![台北市立美術館](/cms-uploads/tainan-art-museum.jpg)
 
 Photo by Wei-Te Wong / CC
 
@@ -32,7 +32,7 @@ Photo by Wei-Te Wong / CC
 
 *台南*
 
-![台南市美術館](/cms-uploads/tainan-art-museum.jpg)
+![台南市美術館](/cms-uploads/1tainan-art-museum.jpg)
 
 TNAM Building 1 by 臺南市美術館 © 2021
 
