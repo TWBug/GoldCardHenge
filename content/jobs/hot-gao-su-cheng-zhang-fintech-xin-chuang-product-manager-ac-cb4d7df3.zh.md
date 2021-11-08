@@ -12,11 +12,11 @@ company_name: CakeResume Headhunting Service 獵才顧問
 company_page_url: 'https://www.cakeresume.com/companies/cakeresume-recruitment-consulting'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--mLEE21uB--/c_pad,fl_png8,h_200,w_200/v1620881212/vdbipassrdfr8omwzeq6.png
-salary_text: TWD1200000 - TWD1500000
+salary_text: TWD1200000 - TWD2000000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 1200000
-salary_max: 1500000
+salary_max: 2000000
 location_list:
   - Taiwan
   - ', Taiwan'
