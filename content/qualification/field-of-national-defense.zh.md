@@ -3,25 +3,54 @@ title: 國防領域
 draft: false
 chatbot: false
 style: right
-icon: /cms-uploads/icon-national-defense.svg
-topic: goldcard
 ---
 # 外國特定專業人才具有國防領域特殊專長者
 
 ## 需符合下列條件之一：
 
-{{< accordion title="Previously or currently holding a position in the field of defense aerospace or military shipbuilding in a foreign state or in Taiwan, possessing key professional knowhow, having obtained a doctoral degree or above in related fields from a university in Taiwan or another country, and having more than five (5) years of work experience in related fields." suffix="1." bottomless="true" >}}
+{{< accordion title="曾經或現任於其他國家或於我國國防航空、船艦產業領域，具有關鍵專業技術，並除取得國內外大學相關系所之博士以上學位，且具有五年以上相關工作經驗。" suffix="1." bottomless="true" >}}
+* 於國防航空、船艦產業領域，具有關鍵專業技術請檢附下列文件之一：
 
+  1. 已提出申請專利之任何佐證文件。
+  2. 任職期間之公司簡介、負責工作項目說明（如：專案經驗、服務經驗、客戶導入解決方案後的成效）、技術或其他專業證明（如：國內外專利證書、技術移轉合約書、證照、獲獎證明等）。
+* 國內外大學相關系所之博士學位證書影本。
+* 相關工作經驗達5年以上之證明文件。請全部檢附：
+
+  * 具5年以上相關領域工作經驗之國內外服務證明：
+
+    註：
+
+    1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。
+    2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具5年以上。
+  * 技術證明（如國內外專利證書等)、技術移轉證明（如技術移轉合約書等)或其他專業證明(如證照、獲獎證明等）
 {{< /accordion >}}
 
-{{< accordion title="Having more than five (5) years of work experience in machinery, electrical engineering, project management, R&D or process engineering associated with defense aerospace industry that is uncommon in Taiwan." suffix="2." bottomless="true" >}}
+{{< accordion title="從事國防航空產業之機械、電機、專案管理、研發、製程工程等具五年以上工作經驗，為國內所少見。" suffix="2." bottomless="true" >}}
+請全部檢附：
 
+* 具5年以上相關領域工作經驗之國內外服務證明：
+
+  註：
+
+1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。
+2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具5年以上。
+
+* 技術證明（如國內外專利證書等)、技術移轉證明（如技術移轉合約書等)或其他專業證明(如證照、獲獎證明等）
 {{< /accordion >}}
 
-{{< accordion title="Having more than five (5) years of work experience in the design (including functions, structural, propulsion, power, command and control, auxiliaries, and outfitting systems), construction supervision, development, construction or project management of shipborne weaponry and platforms that is uncommon in Taiwan." suffix="3." bottomless="true" >}}
+{{< accordion title="從事國防船艦產業之特殊艦載武器裝備及載台設計(包含性能、結構、推進、電力、指管、輔機、艤裝等系統)、監造、研製、建造及專案管理工程等具五年以上工作經驗，為國內所少見。" suffix="3." bottomless="true" >}}
+請全部檢附：
 
+* 具5年以上相關領域工作經驗之國內外服務證明：
+
+註：
+
+1. 證明文件須以任職機構開立之服務證明或離職證明為憑，聘僱通知（Offering Letter）非屬正式服務證明文件。
+2. 國內及國外服務證明，得擇一提供，惟國內外相關領域工作經驗年資合計須具5年以上。
+
+* 技術證明（如國內外專利證書等)、技術移轉證明（如技術移轉合約書等)或其他專業證明(如證照、獲獎證明等）
 {{< /accordion >}}
 
-{{< accordion title="Having been certified by the Ministry of National Defense as a talent with professional knowhow or transnational experience needed in Taiwan." suffix="4." bottomless="true" >}}
-
+{{< accordion title="國防部認定其專業技術或有跨國經驗為我國亟需之人才。" suffix="4." bottomless="true" >}}
+說明申請人從事國防航空及國防船艦產業相關專業或能跨國工作經驗之文件（如：國內外學歷證書、服務證明、學術研究、技術證明、技術移轉、獲獎證明等）。
 {{< /accordion >}}
