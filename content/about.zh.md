@@ -46,6 +46,7 @@ cover_image_alt: null
 * [法律領域](/zh/qualification/field-of-law/)（法務部）
 * [建築設計領域](/zh/qualification/field-of-architecture/)（內政部）
 * [國防領域](/zh/qualification/field-of-national-defense/)
+* 國發會專案會商認定
 
 ## 持有就業金卡者享有五大權益：
 

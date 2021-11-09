@@ -50,6 +50,7 @@ A perfect application takes 30-days, however, if additional supporting documents
 * [Law](/en/qualification/field-of-law/) (Ministry of Justice)
 * [Architecture](/en/qualification/field-of-architecture/) (Ministry of the Interior)
 * [National Defense](/en/qualification/field-of-national-defense/)
+* Special cases that, with consultation, are recognized by the NDC
 
 ## Benefits
 
