@@ -1,12 +1,12 @@
 ---
-title: Qualifications
 summary: The Act for the Recruitment & Employment of Foreign Professional Talent
-  identifies eight different professional fields in which individuals can apply
+  identifies nine different professional fields in which individuals can apply
   for the Taiwan Employment Gold Card.
 draft: false
 media_image_alt: null
 date: 2020-11-10T07:14:10.815Z
 topic: goldcard
+title: Qualifications
 cover_image: null
 tags: null
 categories: null

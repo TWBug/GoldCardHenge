@@ -1,12 +1,12 @@
 ---
-media_image: null
-summary: 《外國專業人才延攬及僱用法》明確列出個人可申請台灣就業金卡的八個不同領域，每個領域的資格詳細說明如下。
+summary: 《外國專業人才延攬及僱用法》明確列出個人可申請台灣就業金卡的九個不同領域，每個領域的資格詳細說明如下。
 draft: false
+media_image: null
 media_image_alt: null
 date: 2020-11-10T07:14:10.815Z
 topic: goldcard
-cover_image: null
 title: 申請資格
+cover_image: null
 tags: null
 categories: null
 publishDate: 2020-11-10T07:14:10.815Z
