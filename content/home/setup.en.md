@@ -32,6 +32,9 @@ items:
   - preview: /cms-uploads/icon-sports.svg
     label: Sports
     href: /qualification/field-of-sport
+  - preview: /cms-uploads/icon-national-defense.svg
+    label: National Defense
+    href: /qualification/field-of-national-defense
 ---
 {{< base >}}
 You may also try the [Gold Card Qualification Check](/en/apply/step-1/) to see which criteria you can consider in your application.

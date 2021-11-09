@@ -30,6 +30,9 @@ items:
   - preview: /cms-uploads/icon-sports.svg
     label: 體育
     href: /qualification/field-of-sport
+  - preview: /cms-uploads/icon-national-defense.svg
+    label: 國防
+    href: /qualification/field-of-national-defense
 ---
 {{< base >}}
 在提出申請前，您可以先前往 [Gold Card Qualification Check](/zh/apply/step-1/) 進行申請資格評估，此網站會依據您所提供的資訊，建議可申請的領域與應備文件。
