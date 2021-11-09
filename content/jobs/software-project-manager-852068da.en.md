@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
+  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '33607'
 title: ' Software Project Manager'
 job_url: >-
@@ -26,8 +26,8 @@ location_list:
   - 台灣台北
 job_tags: []
 badges:
-  - Project Manager
+  - Software
 
 ---
 
-【Application Channel】 Please apply via: https://grnh.se/38db4cd13us 【 About the role 】 Imagine giving your pet a belly rub on your lap at work! Tomofun is a passionate startup full of dreamers and builders who truly believe in making a difference in our pets'lives through innovation. We are seeking a Product Manager who will deliver our next breakthrough product from defining product feature requirements, managing beta program, delivering product features to finally optimizing products by measur
+【Application Channel】 Please apply via: https://grnh.se/38db4cd13us 【About the role】 We are looking for experienced, highly motivated & results orientated Project Manager to join our team. The ideal candidate is a professional who is capable of coordinating complex projects and who has the drive to make things happen. The right person is not only a project manager, but has the soft skills to help busy stakeholders willingly meet all their deadlines. You will work in a cross-functional team, and 
