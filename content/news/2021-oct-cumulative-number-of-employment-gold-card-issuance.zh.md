@@ -1,0 +1,23 @@
+---
+title: 2021/OCT Cumulative Number of Employment Gold Card Issuance
+date: 2021-11-09T05:59:27.258Z
+topic: eventsnews
+draft: false
+hidden: false
+chatbot: false
+style: right
+---
+# 110年10月31日之有效就業金卡為3,225人次，累計許可為3,319人次。
+
+領域別：
+
+* 科技 527件
+* 經濟 2,037件
+* 教育 219件
+* 文化、藝術 248件
+* 體育 1件
+* 金融 267件
+* 法律 3件
+* 建築設計 17件
+
+![2021年台灣就業金卡每月底有效張數-十月](/cms-uploads/2021年台灣就業金卡每月底有效張數-10中.jpg "2021年台灣就業金卡每月底有效張數- 十月")
