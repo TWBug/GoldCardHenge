@@ -1,5 +1,6 @@
 ---
-summary: 2021/OCT Cumulative Number of Employment Gold Card Issuance
+title: 2021/OCT Cumulative Number of Employment Gold Card Issuance
+summary: ""
 date: 2021-11-09T05:59:27.258Z
 topic: eventsnews
 draft: false

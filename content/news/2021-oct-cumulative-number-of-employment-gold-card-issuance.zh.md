@@ -1,5 +1,5 @@
 ---
-title: 2021/OCT Cumulative Number of Employment Gold Card Issuance
+title: 2021年10月就業金卡最新核發數字
 date: 2021-11-09T05:59:27.258Z
 topic: eventsnews
 draft: false
