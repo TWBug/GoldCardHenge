@@ -426,6 +426,11 @@ en:
         - MOND-2
         - MOND-3
         - MOND-4
+    - tree_id: 6
+      tree_order: 6
+      question_text: Is your PhD related to the national defense field?
+      qualifications:
+        - MOND-1
 zh:
   items:
     - tree_id: 1
@@ -820,7 +825,11 @@ zh:
       tree_order: 0
       question_text: 你在國防相關領域是否有超過5年以上的相關工作經驗？
       qualifications:
-        - MOND-1
         - MOND-2
         - MOND-3
         - MOND-4
+    - tree_id: 6
+      tree_order: 6
+      question_text: 你的博士學位是與國防領域相關？
+      qualifications:
+        - MOND-1
