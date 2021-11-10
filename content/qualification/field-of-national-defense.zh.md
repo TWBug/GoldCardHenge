@@ -3,6 +3,8 @@ title: 國防領域
 draft: false
 chatbot: false
 style: right
+icon: /cms-uploads/icon-national-defense.svg
+topic: goldcard
 ---
 # 外國特定專業人才具有國防領域特殊專長者
 
