@@ -5,6 +5,7 @@ chatbot: false
 style: right
 icon: /cms-uploads/icon-national-defense.svg
 topic: goldcard
+summary: Those with 5 years experience in national defense related fields.
 ---
 # Foreign special professionals possessing special expertise in the field of national defense
 

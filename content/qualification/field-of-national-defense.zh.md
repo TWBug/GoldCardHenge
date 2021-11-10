@@ -5,6 +5,7 @@ chatbot: false
 style: right
 icon: /cms-uploads/icon-national-defense.svg
 topic: goldcard
+summary: 於國防領域有五年以上相關工作經驗。
 ---
 # 外國特定專業人才具有國防領域特殊專長者
 
