@@ -25,4 +25,4 @@ badges:
 
 ---
 
-The Database Administrator implements and maintains various database platforms for the enterprise. Performance and reliability must be ensured at the database level to run business software. Senior Database Administrators must understand the physical and logical database concepts. They are responsible to perform database analysis, tune performance, design database schemas, and ensure the reliability of the database Key Responsibilities Work with technical/development leads to design/review datab
+Want to help develop a world-class tech workplace, right here in Taiwan? Want to work with some of the world's best growth PMs, designers, and developers? Come change the world with us! Join this fast-growing startup founded by software veterans and funded by top VCs, public companies, banks, and the Taiwanese government (NDF)! We are looking for Database Administrators to help us operate and optimize our production. Key Responsibilities: Work with technical/development leads to design/review da
