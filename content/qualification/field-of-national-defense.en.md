@@ -3,6 +3,8 @@ title: Field of National Defense
 draft: false
 chatbot: false
 style: right
+icon: /cms-uploads/icon-national-defense.svg
+topic: goldcard
 ---
 # Foreign special professionals possessing special expertise in the field of national defense
 
