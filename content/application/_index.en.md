@@ -192,8 +192,6 @@ Domestic applications require a residential address when applying. When entering
 {{< /note >}}
 
 {{< note title="4" >}}
-* The passport inspection location can be changed on the online platform before the approval of the Workforce Development Agency. **After you have received an email notification of Passport Inspection Notification, you can no longer make changes online.** Please contact the Bureau of Consular Affairs (BOCA) at boca2107@boca.gov.tw to make any changes.
-  The pick-up location can be changed on the online platform before the Workforce Development Agency (WDA) finishes reviewing your application. **After you pass the WDA review, you can no longer change the pick-up location.**
 * If you send your passport via post to an overseas mission/office, please make sure you don’t have to use your passport within a month.
 * If you have applied for the Gold Card domestically, you must get your passport inspected at Bureau of Consular Affairs (BOCA) in Taiwan and collect your Gold Card at National Immigration Agency. You cannot change the passport inspection location and pick up location to overseas.
 * **If you need to leave Taiwan before you get your passport inspected, you must apply for another visa to enter Taiwan and have your passport inspected at BOCA in Taiwan.**
