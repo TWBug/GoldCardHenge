@@ -117,6 +117,8 @@ en:
         the many other visas. "
     - key: info_no_selection
       translation: Choose at least one point to go to the next step.
+    - key: qualifications_MOND
+      translation: National Defense
 zh:
   items:
     - key: language
@@ -233,3 +235,5 @@ zh:
       translation: "請查看完整的資格列表，並考慮其他種類簽證。 "
     - key: info_no_selection
       translation: 選擇至少一個選項再進行下一步。
+    - key: qualifications_MOND
+      translation: 國防領域
