@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
-data_source_internal_id: '29044'
-title: 'Mid-Senior Software Engineer, B2B Product (Backend) '
+data_source_internal_id: '33148'
+title: '[Remote] Mid-Senior Software Engineer, B2B Product (Backend)'
 job_url: >-
-  https://www.cakeresume.com/companies/onedegree/jobs/senior-backend-engineer-b2b-product
-date: 2021-04-28T09:57:02.428Z
+  https://www.cakeresume.com/companies/onedegree/jobs/remote-mid-senior-backend-engineer-b2b-product
+date: 2021-10-11T04:14:56.950Z
 company_name: OneDegree
 company_page_url: 'https://www.cakeresume.com/companies/onedegree'
 company_logo_url: >-
@@ -27,9 +27,11 @@ location_list:
 job_tags:
   - Python
   - backend
+  - Remote
+  - Remote Working
 badges:
   - Software
 
 ---
 
-How to apply Please apply this position through 👉 https://boards.greenhouse.io/onedegree/jobs/4096561004 It will help us process your applications faster! Landing Page of B2B Product 👉 https://www.onedegree.global/zh-hk/about-us Location Taipei, Taiwan Summary The Backend Developer will take ownership of the development of scalable, readable and extensible backend architecture. Responsibilities Build customer service engine and internal platform which includes data mining, statistical calculatio
+Job Overview OneDegree is seeking a Software Engineer to help us build the future of online insurance. We love technology and are looking for people who share our passion. We are committed to investing in people and tools. You must want to work in a fast-moving, agile environment and with cutting-edge technologies at scale. We are seeking candidates with a good understanding of today's technologies and engineering practices who is seeking a position to realize their full potential. Help us to bu
