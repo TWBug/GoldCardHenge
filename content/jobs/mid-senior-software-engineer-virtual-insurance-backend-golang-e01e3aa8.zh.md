@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '31260'
-title: 'Mid-Senior Software Engineer, B2C Product (Backend, Golang)'
+title: 'Mid-Senior Software Engineer, Virtual insurance (Backend, Golang)'
 job_url: 'https://www.cakeresume.com/companies/onedegree/jobs/4d5e1e'
 date: 2021-08-04T10:39:55.237Z
 company_name: OneDegree

@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '30531'
-title: 'UX Designer, B2C Product'
+title: 'UX Designer, Virtual insurance'
 job_url: >-
   https://www.cakeresume.com/companies/onedegree/jobs/ux-designer-ux-designer-b2b-product
 date: 2021-07-08T07:57:22.288Z
