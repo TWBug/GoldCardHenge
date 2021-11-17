@@ -11,7 +11,7 @@ cover_image_alt: Icon with checklist application process
 previous: /apply/step-1/
 next: /apply/step-2/registration/
 ---
-![就業金卡申請流程圖](/cms-uploads/application-process-chi.jpg)
+![就業金卡申請流程圖](/cms-uploads/application-process-new-01.png)
 
 {{< teaser prefix="" >}}
 從遞件、審核到領取金卡的整個作業時程**至少需要60個工作天**，若您已入境台灣，請注意所持簽證的停留時間是否足夠，若無法在期限內取得就業金卡，仍需要出境後再入境。
