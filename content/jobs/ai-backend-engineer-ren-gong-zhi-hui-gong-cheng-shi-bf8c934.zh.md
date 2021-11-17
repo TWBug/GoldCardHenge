@@ -34,4 +34,4 @@ badges:
 
 ---
 
-The Role At Umbo Computer Vision, the AI Team is responsible for: developing and maintaining internal and customer-facing computer vision services, and building machine learning pipelines to improve and expand our products. As a backend engineer, you will own core backend services that support our computer vision applications, including the design and implementation of our machine learning pipelines. Be ready for novel challenges—issues and concerns you encounter may differ from your previous wo
+The Role At Circle, the AI Team is responsible for: Developing and maintaining internal and customer-facing computer vision services, and building machine learning pipelines to improve and expand our products. As a backend engineer, you will own core backend services that support our computer vision applications, including the design and implementation of our machine learning pipelines. Be ready for novel challenges—issues and concerns you encounter may differ from your previous work experience 
