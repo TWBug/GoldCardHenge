@@ -1,7 +1,5 @@
 ---
-title: I have applied for the Employment Gold Card and chosen to inspect my
-  passport outside of Taiwan, but I have since entered Taiwan during the review
-  period. How do I verify my passport in this scenario?
+title: 我在國外時已申請就業金卡且選擇在國外繳驗護照，但在審核期間先入境臺灣，不知後續如何繳驗護照？
 draft: false
 tags:
   - Application
