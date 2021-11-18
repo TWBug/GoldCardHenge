@@ -20,6 +20,12 @@ The application fees vary depending on if you have applied domestically or abroa
 
 There are currently 6 online payment methods, including international credit cards, domestic credit cards, E-government payment platform, virtual account payment, 4 major convenience store payments, and Web ATM (card reader payment). The government will pay for the remittance fee if the payment is made by credit card, but the applicant will be responsible for the remittance fee if the payment is made by E-government payment platform, virtual account payment, 4 convenience store payment, or Web ATM. Please note that it will take 2-3 working days to receive a payment success notification after paying through a virtual account or through the 4 major convenience stores. If you wish to use a Debit Card, you must choose the Web ATM payment option.
 
+If you are unable to make your application payment with an international credit card, it may be due to the following reasons:
+
+1. 3D Secure failed (you have not applied or entered incorrectly, and you need to apply for a verification code from your bank, and enter the verification number)
+2. Credit card loss report
+3. Your credit card company is not in cooperation with the Bank of Taiwan
+
 Please follow the instruction to pay your application fees online.
 
 ![step1_payment_eng](/cms-uploads/step1_payment.jpg)
