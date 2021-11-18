@@ -6,4 +6,4 @@ tags:
   - Application
 weight: 1
 ---
-Please apply online via the "[Foreign Professionals Online Application Platform (Employment Gold Card)](https://coa.immigration.gov.tw/coa-frontend/four-in)". The application is reviewed by the National Immigration Agency of the Ministry of the Interior, Ministry of Labor, Ministry of Foreign Affairs, and other specialized authorities.
+Please apply online via the "[Foreign Professionals Online Application Platform (Employment Gold Card)](https://coa.immigration.gov.tw/coa-frontend/four-in " to Foreign Professionals Online Application Platform")". The application is reviewed by the National Immigration Agency of the Ministry of the Interior, Ministry of Labor, Ministry of Foreign Affairs, and other specialized authorities.
