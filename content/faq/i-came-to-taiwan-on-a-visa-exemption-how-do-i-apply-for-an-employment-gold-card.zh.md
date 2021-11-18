@@ -1,6 +1,5 @@
 ---
-title: I came to Taiwan on a visa exemption, how do I apply for an Employment
-  Gold Card?
+title: 我以免簽證來臺，如何申請就業金卡？
 draft: false
 tags:
   - Application
