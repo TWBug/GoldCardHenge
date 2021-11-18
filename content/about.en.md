@@ -59,3 +59,5 @@ A perfect application takes 30-days, however, if additional supporting documents
 3. Lineal relatives can apply for visitor visas with a maximum stay of up to one year. 
 4. Spouses and children can apply for residency in Taiwan as well. 
 5. Employment Gold Card Holders are eligible for National Health Insurance. Cardholders who are not employed in Taiwan professionally are subjected to a 6-month waiting period. Cardholders' spouse, children under the age of 20, and adult children who cannot live independently due to physical or mental disability are subjected to the same rules.
+
+{{< file-download title="Introductionto the Employment Gold Card.pdf" path="/cms-uploads/introductionto.the.employment.gold.card-en-.pdf" >}}
