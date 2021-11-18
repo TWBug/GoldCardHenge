@@ -6,4 +6,4 @@ tags:
   - Validity & Extension
 weight: 1
 ---
-Please apply online via the "[Foreign Professionals Online Application Platform (Employment Gold Card)](https://coa.immigration.gov.tw/coa-frontend/four-in)".
+Please apply online via the "[Foreign Professionals Online Application Platform (Employment Gold Card)](https://coa.immigration.gov.tw/coa-frontend/four-in " to Foreign Professionals Online Application Platform")".
