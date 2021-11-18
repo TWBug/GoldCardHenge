@@ -1,7 +1,0 @@
----
-title: 我的父母要如何申請探親簽證？
-draft: false
-tags:
-  - Family
----
-您的父母須檢具各項應備文件及簽證規費向中華民國駐外館處申請停留簽證入境，詳細申請流程請參考<https://www.boca.gov.tw/cp-8-161-7ab90-1.html>。
