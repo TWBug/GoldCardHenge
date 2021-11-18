@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
-data_source_internal_id: '34234'
-title: Platform DE-Digital IC Designer
+data_source_internal_id: '34237'
+title: 類比IC設計經理(台北/新竹)
 job_url: >-
-  https://www.cakeresume.com/companies/ali-tech/jobs/platform-de-digital-ic-designer
-date: 2021-11-15T03:31:29.836Z
+  https://www.cakeresume.com/companies/ali-tech/jobs/analog-ic-design-manager-taipei-hsinchu
+date: 2021-11-15T03:37:26.613Z
 company_name: Ali Tech
 company_page_url: 'https://www.cakeresume.com/companies/ali-tech'
 company_logo_url: >-
@@ -28,12 +28,13 @@ location_list:
   - 台灣新竹市新竹
 job_tags:
   - C++
-  - Verilog
   - FPGA
-  - ASIC
+  - PLL
+  - DDR
+  - serdes
 badges:
   - Software architecture
 
 ---
 
-1. uP/DSP system Architecture and digital circuit design. 2. Digital SOC design/integration, includes - Floorplan, pinmux, and test mode - RTL, SDC integration and relative checks including CDC, CCD, nLint and CLP - Physical-aware clock/reset/mixed-mode/DFT architecture, design and verification - Chip-level synthesis, DFT(SCAN/MBIST) insertion, LEC and STA
+1.高速介面(SerDes)類比電路設計 2.Circuit design of CTLE/CDR/DFE/PLL/TX 3.Familiar with SerDes and DDR PHY architecture (ex: PCIe3 / USB3 / HDMI2 / DDR4 / LPDDR4/4x ...etc)
