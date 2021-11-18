@@ -6,7 +6,7 @@ tags:
   - Family
 weight: 1
 ---
-Your family can enter Taiwan with a Visa-Exempt Entry or the Visitor or Resident Visa for the reason of family reunion, issued by the ROC (Taiwan) overseas mission. (Please contact the [Ministry of Foreign Affairs](http://www.boca.gov.tw/cp-9-183-05f05-1.html))Your family can acquire the right to reside after having been inspected by National Immigration Agency. The required documents are:
+Your family can enter Taiwan with a Visa-Exempt Entry or the Visitor or Resident Visa for the reason of family reunion, issued by the ROC (Taiwan) overseas mission. (Please contact the [Ministry of Foreign Affairs](http://www.boca.gov.tw/cp-9-183-05f05-1.html " to Ministry of Foreign Affairs Website"))Your family can acquire the right to reside after having been inspected by National Immigration Agency. The required documents are:
 
 1. Original and photocopy of your passport 
 2. Proof of dependent relative relationship authenticated by the ROC(Taiwan) overseas mission. (Not required for applicants with a Resident Visa)
