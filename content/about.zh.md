@@ -1,14 +1,14 @@
 ---
 media_image: null
 summary: 台灣就業金卡是針對外國特定專業人才的工作許可、居留簽證、外僑居留證及重入國許可4證合一的個人工作許可，提供外國人才自由尋職、就職及轉換工作的便利性。
-date: 2020-11-05T07:09:20.617Z
 draft: false
 media_image_alt: null
 layout: null
+date: 2020-11-05T07:09:20.617Z
 topic: goldcard
-title: 台灣就業金卡是什麼？
 style: title
 cover_image: null
+title: 台灣就業金卡是什麼？
 tags: null
 categories: null
 publishDate: 2020-11-05T07:09:20.617Z
@@ -44,8 +44,8 @@ cover_image_alt: null
 * [體育領域](/zh/qualification/field-of-sport/)（教育部）
 * [金融領域](/zh/qualification/field-of-finance/)（金融監督管理委員會）
 * [法律領域](/zh/qualification/field-of-law/)（法務部）
-* [建築設計領域](/zh/qualification/field-of-architecture/)（內政部）
-* [國防領域](/zh/qualification/field-of-national-defense/)
+* [建築設計領域](/zh/qualification/field-of-architecture/)（內政部營建署）
+* [國防領域](/zh/qualification/field-of-national-defense/)（國防部）
 * 國發會專案會商認定
 
 ## 持有就業金卡者享有五大權益：

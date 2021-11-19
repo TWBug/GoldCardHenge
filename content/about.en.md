@@ -5,14 +5,14 @@ summary: Launched in 2018, The Taiwan Employment Gold Card is a combined visa,
   work in Taiwan for 1 to 3 years, and you can apply online without sponsorship.
   It comes with open-work rights, so you can work for any (or multiple)
   companies in Taiwan or start your own business.
-date: 2020-11-05T07:09:20.617Z
 draft: false
 media_image_alt: null
 layout: null
+date: 2020-11-05T07:09:20.617Z
 topic: goldcard
-title: What is the Taiwan Employment Gold Card?
 style: title
 cover_image: null
+title: What is the Taiwan Employment Gold Card?
 tags: null
 categories: null
 publishDate: 2020-11-05T07:09:20.617Z
@@ -48,8 +48,8 @@ A perfect application takes 30-days, however, if additional supporting documents
 * [Sport](/en/qualification/field-of-sport/) (Ministry of Education)
 * [Finance](/en/qualification/field-of-finance/) (Financial Supervisory Commission)
 * [Law](/en/qualification/field-of-law/) (Ministry of Justice)
-* [Architecture](/en/qualification/field-of-architecture/) (Ministry of the Interior)
-* [National Defense](/en/qualification/field-of-national-defense/)
+* [Architecture](/en/qualification/field-of-architecture/) (The Construction and Planning Agency, Ministry of the Interior)
+* [National Defense ](/en/qualification/field-of-national-defense/) (Ministry of National Defense)
 * Special cases that, with consultation, are recognized by the NDC
 
 ## Benefits
