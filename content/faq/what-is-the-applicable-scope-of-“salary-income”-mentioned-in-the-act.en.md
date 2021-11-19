@@ -12,4 +12,4 @@ Example of engaging in professional work in the R.O.C. for the first time in 202
 
 David, obtaining the foreign special professional employment permit in 2021 and meeting the requirements, stays in the R.O.C. for 183 days or more and has an annual salary income over NT$3,000,000 derived from his special professional work during the years 2021 ~ 2025. Year 2021 is the first applicable year and David can apply for the tax incentives from 2021 to 2025.
 
-![Tax Example](/cms-uploads/tax-example.jpg)
+![Tax Example](/cms-uploads/tax-example.png)
