@@ -1,13 +1,10 @@
 ---
-title: Who is eligible to apply for the tax incentives for foreign special
-  professionals?
-draft: false
+title: "What is the legal basis of enacting tax incentives for foreign special
+  professionals? When were they put into practice? And what do they include? "
 tags:
   - Tax
 weight: 1
 ---
-A foreign special professional, who has been recognized to have the special expertise announced by the central competent authority, has obtained the foreign special professional employment (work) permit document issued by the Ministry of Labor or by the Ministry of Education (if he/she has met the requirements of Article 7 of the Act and is exempted from applying for a work permit, the work permit can be replaced by the certificate of special expertise issued by the central competent authority), or has obtained the Employment Gold Card issued by the National Immigration Agency, Ministry of the Interior, and has met all of the following requirements is eligible to apply for the tax incentives:
-
-1. He/she has been approved for the first time to reside in the R.O.C. for the purpose of work.
-2. He/she has engaged in professional work related to the recognized special expertise in the R.O.C.
-3. During the last 5 years prior to the day of his/her employment engaged in the professional work or the day of obtaining his/her Employment Gold Card, he/she did not have household registration in the R.O.C. and was not an resident individual of the R.O.C. in accordance with the Income Tax Act.
+1. The tax incentives regulated in the “Act for the Recruitment and Employment of Foreign Professionals” (hereinafter referred to as “the Act”) came into force on February 8, 2018. A qualified foreign special professional can apply for this tax relief from 2018. In order to strengthen the incentives for recruiting foreign special professionals, full text of the Act was amended and promulgated on July 7, 2021, and the Act was executed on October 25, 2021 by the Executive Yuan. Among the amendments include the extension of the applicable period of tax incentives from 3 years to 5 years as specified in Article 20 (formerly Article 9).
+2. From 2018, if a foreigner engages in professional work and meets certain requirements, then within 5 years starting from the tax year in which the foreign special professional for the first time meets the conditions of residing in the R.O.C. for 183 days or more, and having a salary income of more than NT$3,000,000, only the NT$3,000,000 salary income and half of the amount above the NT$3,000,000 in each such tax year shall be included in the gross income for the assessment of individual income tax liability. If the foreigner obtains overseas income set forth in the provisions of Subparagraph 1, Paragraph 1, Article 12 of the Income Basic Tax Act in such tax year, such income shall be excluded from the basic income. 
+3. A foreign special professional who applied for the tax incentives of the Act before July 7, 2021 may apply for the tax benefits for a period of 5 years. For example, if he/she applied for the tax incentives from 2018 to 2020 and meets the regulations in the years of 2021 and 2022, he/she can also apply for the tax incentives.
