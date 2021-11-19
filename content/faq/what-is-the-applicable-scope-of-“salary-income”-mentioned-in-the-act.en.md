@@ -1,9 +1,15 @@
 ---
-title: What is the applicable scope of “salary income” mentioned in the Act?
-draft: false
+title: How do we define the specific point of time for counting the “first 5
+  years” when a foreign special professional's salary income exceeds
+  NT$3,000,000 and is eligible for the tax incentives?
 tags:
   - Tax
 weight: 1
 ---
-1. The term "salary income" in the Act shall refer to the number of aggregate salaries which may be calculated in the gross amount of income paid by domestic and offshore employers for the foreign special professional's engagement of professional work. However, other salary unrelated to the foreign special professional’s special expertise shall not be applicable to the tax incentives.
-2. The above-mentioned salary income shall be applied to the tax incentives in the taxable year. For instance, according to Article 19-1 of the Statute for Industrial Innovation, where an individual who acquires stocks as an employee’s bonus, he/she may opt to include the salary income in the gross income and declare their income tax in the year of transfer or book-entry transfer. Therefore, if a foreign special professional receive the salary income of stocks acquired as stock-based employee compensation according to Article 19-1 of the Statute for Industrial Innovation and opts to declare their income tax in the year of transfer, such income shall be calculated in salary income and applied to the tax incentives in the year of transfer.
+The term "first 5 years" in the tax incentives shall start from the year when the foreign special professional has resided in the R.O.C. for 183 days or more for the first time, and has an annual salary income over NT$3,000,000. The taxpayer cannot choose the starting year and applicable years as he/she wishes.
+
+Example of engaging in professional work in the R.O.C. for the first time in 2021:
+
+David, obtaining the foreign special professional employment permit in 2021 and meeting the requirements, stays in the R.O.C. for 183 days or more and has an annual salary income over NT$3,000,000 derived from his special professional work during the years 2021 ~ 2025. Year 2021 is the first applicable year and David can apply for the tax incentives from 2021 to 2025.
+
+![Tax Example](/cms-uploads/tax-example.jpg)
