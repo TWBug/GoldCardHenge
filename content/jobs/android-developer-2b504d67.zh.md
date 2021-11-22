@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '33124'
-title: Android Developer
+title: 'Android Developer '
 job_url: 'https://www.cakeresume.com/companies/tomofun/jobs/android-developer-76b733'
 date: 2021-10-08T06:22:15.185Z
 company_name: Tomofun 寵物AI科技新創
@@ -23,7 +23,9 @@ location_list:
   - 台灣
   - ', 台灣'
   - 台灣台北
-job_tags: []
+job_tags:
+  - Kotlin
+  - Android UI components
 badges:
   - AI Engineer
 
