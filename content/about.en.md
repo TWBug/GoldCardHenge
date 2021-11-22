@@ -24,7 +24,7 @@ cover_image_alt: null
 The Taiwan Employment Gold Card is part of the 〈Act for the Recruitment and Employment of Foreign Professional Talent〉 , implemented in October 2017. It is part of a more comprehensive government initiative to attract highly-skilled foreign talent to Taiwan.
 {{< /base >}}
 
-Launched in 2018, the Taiwan Employment Gold Card is a 4-in-1 card, that includes a resident visa, work permit, Alien Resident Certificate (ARC), and re-entry permit, which allows you to leave and re-enter Taiwan multiples times over the course of 1-3 years. Applicants can apply online without sponsorship. 
+Launched in 2018, the Taiwan Employment Gold Card is a 4-in-1 card, that includes a resident visa, work permit, Alien Resident Certificate (ARC), and re-entry permit, which allows you to leave and re-enter Taiwan multiple times over the course of 1-3 years. Applicants can apply online without sponsorship. 
 
 ## Four-in-One
 
