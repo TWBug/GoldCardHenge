@@ -30,4 +30,4 @@ badges:
 
 ---
 
-Please submit your application via KKCompany Career , only online application will be considered. KKBOX Group is Asia’s leading music entertainment company. Started by a group of music loving Internet software developers, we built and launched one of the world’s first music streaming services in 2005. Based in Taipei, the heart of Chinese pop music, we gradually grew our business from Taiwan out to Hong Kong, Singapore, Malaysia and Japan. Ever curious towards reinvention and discovering new bus
+Please submit your application via KKCompany Career , only online application will be considered. KKCompany is Asia’s leading music entertainment company. Started by a group of music loving Internet software developers, we built and launched one of the world’s first music streaming services in 2005. Based in Taipei, the heart of Chinese pop music, we gradually grew our business from Taiwan out to Hong Kong, Singapore, Malaysia and Japan. Ever curious towards reinvention and discovering new busin
