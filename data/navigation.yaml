@@ -35,6 +35,8 @@ en:
             link: /news
           - name: Events
             link: /events
+          - link: /gallery/
+            name: Gallery
         items:
           - apply
     - name: FAQ
@@ -49,8 +51,6 @@ en:
         links:
           - name: Job Board
             link: /jobs
-          - name: Gallery
-            link: /gallery/
           - name: Help-Desk
             link: /help-desk/
           - name: Related Websites
@@ -94,6 +94,8 @@ zh:
             link: /news
           - name: 活動
             link: /events
+          - name: 活動照片
+            link: /gallery/
         items:
           - apply
     - name: 常見問題
@@ -108,8 +110,6 @@ zh:
         links:
           - name: 工作職缺
             link: /jobs
-          - name: 活動照片
-            link: /gallery/
           - name: 聯繫我們
             link: /help-desk
           - name: 相關網站
