@@ -1,5 +1,5 @@
 ---
-title: 從僅剩一個月的金流到300%的業務成長 - Han Jin和LUCID的美國/台灣創業故事
+title: 從僅剩一個月的金流到三倍的業務成長 - Han Jin和LUCID的美國/台灣創業故事
 date: 2021-11-22T02:19:03.273Z
 draft: false
 chatbot: false
@@ -14,7 +14,7 @@ topics:
   - Humans of Taiwan
 style: title
 ---
-# 從僅剩一個月的金流到300%的業務成長 - Han Jin和LUCID的美國/台灣創業故事
+# 從僅剩一個月的金流到三倍的業務成長 - Han Jin和LUCID的美國/台灣創業故事
 
 Han Jin（以下簡稱Han），6歲隨家人從中國移民德國並在漢堡長大，於卡爾斯魯爾理工學院獲得管理科學與一般工程學士學位，2012年在加州大學柏克萊分校完成了工程學碩士學位。
 
