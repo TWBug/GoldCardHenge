@@ -39,13 +39,13 @@ I heard about the Gold Card through a friend, and received my card in July 2018.
 
 I’ve since met my Taiwanese fiancé here, bought a house in Xindian, and besides business trips to manage the team in the US, I will be based here. 
 
-## How has it been running a startup? Especially during Covid? 
+## How has it been running a startup? Especially during Covid?
 
 It’s extremely difficult!  Lucid almost died three times over the past years, the worst was when we only had one month of cash left.  But somehow, and always during Christmas, I’ve been able to either find an investor, land a large corporate contract, or somehow manage to find customer growth.  That’s the nature of startups, one winter I’m having to let people go, and then all of a sudden, we are experiencing 300% month on month growth! We call it the “Christmas wonders.” 
 
 During Covid, we have had to pivot into more software-based services focusing on video content. Taiwan has been crucial for this, as it was safe enough for me to meet with my team in the office and hire more talents here, when the US was on lockdown. 
 
-## How has it been setting up and managing teams in two countries? How are the two teams different? 
+## How has it been setting up and managing teams in two countries? How are the two teams different?
 
 I started the Taiwan team with just 2 people, growing it to 10 and now have about 20 people in total.  We are now also hiring! 
 
@@ -55,7 +55,7 @@ In general, the culture in Taiwan focuses on linear execution, delivering produc
 
 ![With the team launching LucidCam at Best Buy, Mountain View, CA](/cms-uploads/han-jin3.jpg)
 
-## How has it been hiring in Taiwan compared to the US? 
+## How has it been hiring in Taiwan compared to the US?
 
 The interview process is really different.  In the US, Silicon Valley encourages big thinking, but also deep dive very quickly on a specific use case.  Interviews usually include creative questions that challenges your abilities to solve a unknown problem on the spot.  In Taiwan, the interviews are more generic, there is a lot of focus on standardized testing and technical abilities.  
 
@@ -73,4 +73,4 @@ We are currently looking to expand and need to hire a lot of engineers. There ar
 
 If you are interested in working for Lucid, please contact: hr@lucidinside.com
 
-[CakeResume details](https://www.cakeresume.com/companies/lucid/jobs “ to CakeResume website”)
+[CakeResume details](https://www.cakeresume.com/companies/lucid/jobs)
