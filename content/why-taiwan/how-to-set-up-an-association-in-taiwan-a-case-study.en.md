@@ -81,3 +81,5 @@ The next logical step entails opening a bank account. There’s no legal require
 Now that your association is legally established, you can apply for deals that are only available to non-profit organizations. A lot of deals with foreign tech companies can be found via [TechSoup Taiwan](https://www.techsoup-taiwan.org.tw/cloud_services " to TechSoup Taiwan"). Create a profile, upload your association founding documents, and after verification by TechSoup Taiwan, you can register to get Slack Pro, Google Workspace, and other services for free for your org, while also gaining access to discount offers from Zoom and other services. While this should not be a motivation for setting up the association, it is certainly nice to get some goodies back for all the effort.
 
 This article was reviewed by the accountants at Del Sol CPA & Associates 德碩會計師事務所.
+
+*Written by Daniel Miller, co-founder of All Hands Taiwan and Taiwan Manager for Pagoda Projects.*

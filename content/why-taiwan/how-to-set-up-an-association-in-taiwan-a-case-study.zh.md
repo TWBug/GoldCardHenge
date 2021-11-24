@@ -79,3 +79,5 @@ style: title
 當協會已依法成立，你可以申請只限非營利組織使用的優惠。你可以在[TechSoup Taiwan](https://www.techsoup-taiwan.org.tw/cloud_services "至TechSoup Taiwan網頁")找到很多外國科技公司的優惠。只要建立個人資料、上傳你的協會設立文件，經TechSoup Taiwan驗證之後，你可以免費註冊獲得Slack Pro、Google Workspace和其他服務，同時還可以得到Zoom和其他服務的折扣優惠。雖然以上優惠不該成為建立協會的動機，但能藉由協會成立的努力得到一些好處，也是好事一樁。
 
 本文已由德碩會計師事務所審閱。
+
+*此篇文章由All Hands Taiwan共同創辦人、Pagoda Projects台灣經理Daniel Miller撰寫。*
