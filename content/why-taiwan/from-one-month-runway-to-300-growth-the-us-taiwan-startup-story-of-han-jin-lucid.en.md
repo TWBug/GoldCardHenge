@@ -31,7 +31,7 @@ At the time, I was still spending most of my time with the team in San Jose, but
 
 But over time I figured out how to work within the system.  I enjoyed the lifestyle here, transportation was so convenient, the people were friendly, and with the company’s needs for a strong hardware partner, I decided to set up a subsidiary of the US Lucid here. The low cost of living in addition to the excellent standard of living is key to the success of startup teams without much funding. 
 
-![The Lucid Cam](/cms-uploads/han-jin2.jpg)
+![Lucid Taiwan at Sparklabs Taipei in Taiwan Tech Arena](/cms-uploads/lucid-taiwan-at-sparklabs-taipei-in-taiwan-tech-arena.jpg)
 
 ## When did you hear about the gold card?
 
@@ -44,6 +44,8 @@ I’ve since met my Taiwanese fiancé here, bought a house in Xindian, and besid
 It’s extremely difficult!  Lucid almost died three times over the past years, the worst was when we only had one month of cash left.  But somehow, and always during Christmas, I’ve been able to either find an investor, land a large corporate contract, or somehow manage to find customer growth.  That’s the nature of startups, one winter I’m having to let people go, and then all of a sudden, we are experiencing 300% month on month growth! We call it the “Christmas wonders.” 
 
 During Covid, we have had to pivot into more software-based services focusing on video content. Taiwan has been crucial for this, as it was safe enough for me to meet with my team in the office and hire more talents here, when the US was on lockdown. 
+
+![Computex Taipei 2017 – CPX Conference](/cms-uploads/computex-taipei-2017-–-cpx-conference.jpg)
 
 ## How has it been setting up and managing teams in two countries? How are the two teams different?
 
@@ -68,8 +70,6 @@ Finding talent in Taiwan is very different than in the US, as people follow a so
 In a startup, I had to try so many things that failed, and to this day I still fail every day. However, I never regret quitting my well-paid stable corporate job to jump into this adventure. At the end of the day, you will realize that a big salary does not define happiness, but what you do with your limited amount of time in life. Even though to most people, quitting my well-paid corporate job was the most stupid decision and yet, I feel it was the best decision, because sometimes you have to just take a risk on yourself as life is too short.  
 
 We are currently looking to expand and need to hire a lot of engineers. There are some exciting news coming for Lucid soon that I can’t announce yet. So, if there are any engineers and developers looking to join our adventure, please contact me!
-
-
 
 If you are interested in working for Lucid, please contact: hr@lucidinside.com
 
