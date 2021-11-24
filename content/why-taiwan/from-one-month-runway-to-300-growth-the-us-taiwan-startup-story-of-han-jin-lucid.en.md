@@ -73,4 +73,4 @@ We are currently looking to expand and need to hire a lot of engineers. There ar
 
 If you are interested in working for Lucid, please contact: hr@lucidinside.com
 
-[CakeResume details](https://www.cakeresume.com/companies/lucid/jobs)
+[CakeResume details](https://www.cakeresume.com/companies/lucid/jobs " to CakeResume Page")

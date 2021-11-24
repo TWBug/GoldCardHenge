@@ -70,4 +70,4 @@ Han第一次來台灣是因為參與Garage+計劃，也成為該組織第一批�
 
 如果你有興趣為Lucid工作，請聯繫：hr@lucidinside.com
 
-[CakeResume詳情](https://www.cakeresume.com/companies/lucid/jobs)
+[CakeResume詳情](https://www.cakeresume.com/companies/lucid/jobs "至CakeResume工作職缺頁面")
