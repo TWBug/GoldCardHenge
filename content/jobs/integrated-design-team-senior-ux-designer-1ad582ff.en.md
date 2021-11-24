@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '34103'
-title: Creative Labs - Senior UX Designer
+title: Integrated Design Team - Senior UX Designer
 job_url: 'https://www.cakeresume.com/companies/htc/jobs/creative-labs-sr-ux-designer'
 date: 2021-11-11T06:43:59.230Z
 company_name: HTC 宏達國際電子股份有限公司
