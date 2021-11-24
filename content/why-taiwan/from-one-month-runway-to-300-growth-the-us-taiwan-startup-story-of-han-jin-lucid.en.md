@@ -1,7 +1,7 @@
 ---
 title: From one month runway to 300% growth - the US/Taiwan startup story of Han
   Jin & Lucid
-date: 2021-11-24T02:19:03.273Z
+date: 2021-11-22T02:19:03.273Z
 draft: false
 chatbot: false
 topic: whytaiwan

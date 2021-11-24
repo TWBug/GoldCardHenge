@@ -1,6 +1,6 @@
 ---
 title: "# 從僅剩一個月的金流到300%的業務成長 - Han Jin和LUCID的美國/台灣創業故事"
-date: 2021-11-24T02:19:03.273Z
+date: 2021-11-22T02:19:03.273Z
 draft: false
 chatbot: false
 topic: whytaiwan
