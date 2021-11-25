@@ -10,7 +10,7 @@ date: 2021-11-24T03:12:36.475Z
 company_name: VIVEPORT 宏願數位股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/viveport'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--9Ax7bsrw--/c_pad,fl_png8,h_200,w_200/v1637139477/wtxyyfyuoowyoe8q31l0.png
+  https://media.cakeresume.com/image/upload/s--8LuCjImZ--/c_pad,fl_png8,h_200,w_200/v1637825568/aostckw79vbnhebqmj6u.png
 salary_text: TWD700000 - TWD1600000
 salary_currency: TWD
 salary_type: per_year
