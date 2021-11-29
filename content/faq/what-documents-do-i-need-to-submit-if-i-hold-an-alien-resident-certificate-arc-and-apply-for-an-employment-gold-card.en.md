@@ -6,4 +6,4 @@ tags:
   - Application
 weight: 1
 ---
-One person cannot simultaneously hold two resident certificates, so you must provide a statement of revocation for your ARC during the second review of the National Immigration Agency. The statement revoking your ARC must state that you want to revoke your current ARC due to a Gold Card application, and you must sign and date the statement.
+When you apply for the Gold Card, please fill in the UI number printed on your ARC. If the National Immigration Agency approves your Gold Card application, the system will automatically cancel your ARC.
