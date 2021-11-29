@@ -5,6 +5,6 @@ draft: false
 tags:
   - Application
 ---
-Changing the passport inspection location or Gold Card pick-up location: Login to the Foreign Professionals Online Application Platform → Application → Application for the change of passport inspection location (or certificate collection location).
+Login to the Foreign Professionals Online Application Platform → Application → Apply to Change Passport Inspection or Card Collection Location.
 
-The pick-up location can be changed on the online platform before the Workforce Development Agency (WDA) finishes reviewing your application. After you pass the WDA review, you can no longer change the pick-up location.
+The passport inspection and pick-up location can be changed on the online platform before the Ministry of Foreign Affairs (MOFA) finishes reviewing your application. After you pass the MOFA’s review, you can no longer change the passport inspection or pick-up location.
