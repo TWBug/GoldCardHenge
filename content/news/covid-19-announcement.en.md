@@ -12,9 +12,9 @@ style: right
 ---
 # COVID-19 Announcement
 
-11/12
+11/29
 
-From 7/27 to 11/29, R.O.C. (Taiwan) Overseas Missions will halt the processing of visa applications (including the Passport Inspection Stage of the Gold Cards).
+From 7/27 to 12/13, R.O.C. (Taiwan) Overseas Missions will halt the processing of visa applications (including the Passport Inspection Stage of the Gold Cards).
 
 If you have just applied or your application is currently under review, your application will continue to proceed until it gets to the Passport Inspection Stage. If you have applied for the Gold Card while on an ARC, you will not be affected by this change.
 
