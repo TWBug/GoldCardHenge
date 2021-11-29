@@ -5,6 +5,6 @@ tags:
   - Application
 weight: 1
 ---
-The validity of your Gold Card begins on the date your card is issued, which will be printed on your actual card.
+For those who apply for a Gold Card for the first time, the card issuance date is the start date. For those who extend their Gold Card, the period of validity will be extended from the original period of stay.
 
 ![Gold Card_Expire Date](/cms-uploads/gold-card_expire-date.jpg)

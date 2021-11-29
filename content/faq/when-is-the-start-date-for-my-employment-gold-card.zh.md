@@ -5,6 +5,6 @@ tags:
   - Application
 weight: 1
 ---
-發卡日期起始計算一至三年，就業金卡上也印有發卡日期與居留期限。
+初次申請金卡者，發卡日期為居留起日；如為金卡延期居留者，自原居留期限延長期效期。
 
 ![Gold Card_Expire Date](/cms-uploads/gold-card_expire-date.jpg)
