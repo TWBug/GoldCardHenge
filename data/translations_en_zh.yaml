@@ -469,6 +469,8 @@ en:
       translation: Game Production
     - id: aprc
       translation: APRC
+    - id: qa-engineer
+      translation: QA Engineer
 zh:
   items:
     - id: powered_by
@@ -927,3 +929,5 @@ zh:
       translation: 遊戲類
     - id: aprc
       translation: 永居
+    - id: qa-engineer
+      translation: 測試工程師
