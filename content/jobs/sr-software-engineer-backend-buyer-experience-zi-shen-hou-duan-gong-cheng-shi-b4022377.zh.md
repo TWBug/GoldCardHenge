@@ -3,10 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
-data_source_internal_id: '31103'
-title: 'Sr. Software Engineer, Backend (Search & Recommendation) 資深後端工程師'
-job_url: 'https://www.cakeresume.com/companies/carousell/jobs/eb1191'
-date: 2021-07-30T12:08:50.126Z
+data_source_internal_id: '31100'
+title: 'Sr. Software Engineer, Backend (Buyer Experience) 資深後端工程師'
+job_url: >-
+  https://www.cakeresume.com/companies/carousell/jobs/senior-software-engineer-backend-buyer-experience
+date: 2021-07-30T11:39:16.090Z
 company_name: Carousell 旋轉拍賣
 company_page_url: 'https://www.cakeresume.com/companies/carousell'
 company_logo_url: >-

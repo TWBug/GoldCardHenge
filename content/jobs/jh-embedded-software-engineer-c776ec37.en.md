@@ -12,11 +12,11 @@ company_name: iN Search 卓恩管理顧問有限公司
 company_page_url: 'https://www.cakeresume.com/companies/insearch'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--9dhdcOiu--/c_pad,fl_png8,h_200,w_200/v1610522688/ppnzb1veba43cha2rznf.png
-salary_text: TWD800000 - TWD1500000
+salary_text: TWD0 - TWD0
 salary_currency: TWD
 salary_type: per_year
-salary_min: 800000
-salary_max: 1500000
+salary_min: 0
+salary_max: 0
 location_list:
   - Taiwan
   - ', Taiwan'
