@@ -1,7 +1,7 @@
 ---
 title: COVID-19 Announcement
 summary: COVID-19 Announcement
-date: 2021-10-27T01:45:34.396Z
+date: 2021-11-29T01:45:34.396Z
 topic: eventsnews
 draft: false
 hidden: false
