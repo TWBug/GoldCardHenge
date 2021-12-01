@@ -12,11 +12,11 @@ company_name: Aviatrix
 company_page_url: 'https://www.cakeresume.com/companies/aviatrix'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--ShhrkiTa--/c_pad,fl_png8,h_200,w_200/v1637095519/une9m0vgbwwd61bbyicp.png
-salary_text: TWD1300000 - TWD1500000
+salary_text: TWD1500000 - TWD2500000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1300000
-salary_max: 1500000
+salary_min: 1500000
+salary_max: 2500000
 location_list: []
 job_tags: []
 badges:
