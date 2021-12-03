@@ -5,9 +5,10 @@ tags:
   - Application
 ---
 1. Mainland Chinese citizens
-2. R.O.C. Nationals living in Taiwan with a household registration
-3. R.O.C. Nationals who entered Taiwan with a foreign passport and have not yet applied for Household De-Registration
-4. Men who have not fulfilled their military service obligations or are close to service age who fall under any of the following categories:
+2. Individuals who entered Taiwan with an R.O.C. passport
+3. R.O.C. Nationals living in Taiwan with a household registration
+4. R.O.C. Nationals who entered Taiwan with a foreign passport and have not yet applied for Household De-Registration
+5. Men who have not fulfilled their military service obligations or are close to service age who fall under any of the following categories:
 
 * Does not hold an [Overseas Compatriot Identity Certificate for Military Service Purpose](https://www.gov.tw/(A(0rigKqNTygEkAAAAYjE2OTIyNGQtZTc4MS00YTA3LTliMTktZTA4MzQ4NGNiZThm0))/News3_Content_EN.aspx?n=18&s=393677 " to Overseas Compatriot Identity Certificate for Military Service Purpose")
 * Does not hold an R.O.C. passport with the endorsement of the Overseas Chinese residence status
