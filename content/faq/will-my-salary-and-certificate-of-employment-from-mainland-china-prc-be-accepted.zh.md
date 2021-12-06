@@ -21,4 +21,5 @@ weight: 1
 * 傳真：02-21757070
 * E-mail：service@sef.org.tw
 * 地址：臺北市中山區北安路536號
-* [海基會網址](www.sef.org.tw "至海基會網址")
+* [海基會網址](https://www.sef.org.tw/masterpage-1
+ "至海基會網址")

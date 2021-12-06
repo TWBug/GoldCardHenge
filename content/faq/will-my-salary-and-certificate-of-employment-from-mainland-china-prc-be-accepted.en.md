@@ -17,4 +17,5 @@ Please contact the Straits Exchange Foundation for more information.
 * Phone Number：02-21757000
 * Fax：02-21757070
 * E-mail：service@sef.org.tw
-* [Straits Exchange Foundation Website](www.sef.org.tw " to Straits Exchange Foundation Website")
+* [Straits Exchange Foundation Website](https://www.sef.org.tw/masterpage-1
+ " to Straits Exchange Foundation Website")
