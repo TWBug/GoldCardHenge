@@ -471,6 +471,8 @@ en:
       translation: APRC
     - id: qa-engineer
       translation: QA Engineer
+    - id: work
+      translation: Work
 zh:
   items:
     - id: powered_by
@@ -931,3 +933,5 @@ zh:
       translation: 永居
     - id: qa-engineer
       translation: 測試工程師
+    - id: work
+      translation: 工作
