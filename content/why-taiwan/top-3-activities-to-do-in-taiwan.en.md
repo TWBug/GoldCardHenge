@@ -12,11 +12,17 @@ style: title
 
 What is the first thing that comes to mind when you think of Taiwan? Is it the variety of fresh, tropical fruits or the drool-inducing night market food? Aside from being a food paradise, Taiwan also offers an abundance of spectacular landscapes and scenery. Despite its size, many know Taiwan for its magnificent landscapes; surrounded by crystal blue ocean waters and luscious green mountains. Many locals believe that the top three must-do activities while you are in Taiwan are swimming across Sun Moon Lake, summiting Jade Mountain, and touring the entire island. Wondering where to start? Let us point you in the right direction!
 
-## Swimming across Sun Moon Lake 
+## Swimming across Sun Moon Lake
+
+![Swimming across Sun Moon Lake](/cms-uploads/sun-moon-lake.jpg)
 
 Sun Moon Lake is a beautiful freshwater alpine lake located in Nantou County. Lalu land, situated in the middle of the lake, separates the lake into two parts: one shaped like a crescent moon and the other shaped like a round sun - hence the name Sun Moon Lake. Since 1983, Taiwan has held the Sun Moon Lake Swimming Carnival, where participants gather at the Chaowu Wharf to swim across the 3km long 0.1 km wide lake, and finish at the Yidashao Wharf. Every year, the carnival attracts thousands of swimming enthusiasts and courageous adventurers across the island to participate. In 2006, a record number of 20,000 swimmers joined the event and spots were filled the moment sign-up sheets were released. The event is open to those above the age of 10 and does require a certain level of agility and endurance to complete. If you want to experience this exciting event be sure to sign-up fast or you may be left watching from the sidelines!
 
+![Swimming across Sun Moon Lake-2](/cms-uploads/泳渡日月潭-01.jpg)
+
 ## Summiting Jade Mountain
+
+![Summiting Jade Mountain](/cms-uploads/yushan-national-park.jpg)
 
 Yushan, or Jade Mountain, is located in Chiayi County at the highest peak of the Baiyue Mountains in Taiwan. The whole trail is approximately 61.2 km at an altitude of 3 km and up. Those who have trekked up Jade Mountain say that the hike itself is not particularly hard, but the real challenge is reserving a spot at Paiyun Lodge. Good news is that if you are a foreigner visiting Taiwan you have an advantage as during the weekdays they reserve 24 spots for those who hold foreign passports. Keep in mind that applications must be submitted 35 days prior to the scheduled entry date or 4 months in advance. Hiking Jade Mountain can be exhausting, but is definitely worth it when you stand on the peak and witness the impeccable views.
 
