@@ -24,6 +24,8 @@ category: null
 2. 信用卡掛失
 3. 信用卡未與臺灣銀行合作
 
+**請您使用JCB、VISA、MasterCard信用卡，請勿使用中國銀聯卡、美國運通卡。**
+
 請依下圖指示線上繳費。
 
 ![step1_payment_chi](/cms-uploads/step1_payment中.png)

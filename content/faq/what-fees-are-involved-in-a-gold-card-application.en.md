@@ -26,6 +26,8 @@ If you are unable to make your application payment with an international credit 
 2. Credit card loss report
 3. Your credit card company is not in cooperation with the Bank of Taiwan
 
+**Please try using JCB, VISA, or MasterCard. Do NOT use AMEX or China UnionPay**
+
 Please follow the instruction to pay your application fees online.
 
 ![step1_payment_eng](/cms-uploads/step1_payment.jpg)
