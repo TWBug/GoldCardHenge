@@ -4,6 +4,10 @@ date: 2021-12-06T06:16:13.792Z
 draft: false
 chatbot: false
 topic: whytaiwan
+cover_image: /cms-uploads/top-3-activities-to-do-in-taiwan.jpg
+cover_image_alt: Top 3 Activities to do in Taiwan
+media_image: /cms-uploads/top-3-activities-to-do-in-taiwan.jpg
+media_image_alt: Top 3 Activities to do in Taiwan
 topics:
   - Discover Taiwan
 style: title
