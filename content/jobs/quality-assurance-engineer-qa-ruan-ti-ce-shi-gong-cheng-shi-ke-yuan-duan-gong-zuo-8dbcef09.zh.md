@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
 data_source_internal_id: '32769'
-title: Quality Assurance Engineer (QA)可遠端
+title: Quality Assurance Engineer (QA)軟體測試工程師 (可遠端工作)
 job_url: >-
   https://www.cakeresume.com/companies/asiayo/jobs/quality-assurance-engineer-qa-can-be-remote
 date: 2021-09-27T09:57:01.600Z
@@ -24,7 +24,14 @@ location_list:
   - 台灣
   - ', 台灣'
   - 台灣台北
-job_tags: []
+job_tags:
+  - 功能測試
+  - 使用者測試
+  - 壓力測試
+  - 軟體整合測試
+  - QA
+  - QA Engineer
+  - QA testing軟體測試
 badges:
   - QA Engineer
 

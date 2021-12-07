@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '29042'
-title: 'JH- Embedded software engineer '
+title: JH- Embedded software engineer 【網通|交換器|專注研發|重視長期發展|具發展性|工作與生活平衡】
 job_url: >-
   https://www.cakeresume.com/companies/insearch/jobs/switch-engineer-software-engineer
 date: 2021-04-28T09:44:50.492Z
@@ -17,13 +17,7 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 0
 salary_max: 0
-location_list:
-  - Taiwan
-  - ', Taiwan'
-  - 'Taipei, Taiwan'
-  - 台灣
-  - ', 台灣'
-  - 台灣台北
+location_list: []
 job_tags:
   - Switch
   - embedded system
@@ -42,10 +36,10 @@ job_tags:
   - 網通
   - 網通產品
   - 外商公司
-  - 薪資優渥
   - 穩定發展
   - 福利優渥
   - 研發設計
+  - industrial ethernet switch
 badges:
   - Industrial Engineer
 
