@@ -24,67 +24,49 @@ But there are several sides of history that don’t fit into those categories an
 
 *Taipei*
 
-![Teng Feng Fish Ball Museum](/cms-uploads/taiwan’s-most-eccentric-museums1.jpg)
-
-Photo by Adam Jones
+![Teng Feng Fish Ball Museum](/cms-uploads/taiwan’s-most-eccentric-museums1.jpg "Photo by Adam Jones")
 
 Most of Taiwan’s quirkiest museums originally served a different purpose. While the Teng Feng Fish Ball Museum was established in 2004, its lineage can be traced back to 1940, when it first opened its doors as the Weixiang Fish Ball Shop. It was the first shop of its kind in Tamsui, selling fish balls, fish crisps, and other fish-based snacks that are now widely recognized as staples of Taiwanese cuisine. At this museum, visitors will not only learn about various snack production processes, they’ll also discover the fascinating history and ecology behind the delectable treats. Visitors will also be given the opportunity to participate in factory tours and DIY fish ball-making workshops. Located in the heart of Tamsui Old Street along Fisherman’s Wharf, it’s the perfect appetizer for a relaxed afternoon of strolling and snacking along the boardwalk.
 
-![Teng Feng Fish Ball Museum](/cms-uploads/taiwan’s-most-eccentric-museums2.jpg)
-
-Photo by Round Taiwan Round
+![Teng Feng Fish Ball Museum](/cms-uploads/taiwan’s-most-eccentric-museums2.jpg "Photo by Round Taiwan Round")
 
 ## Suho Paper Memorial Museum
 
 *Taipei*
 
-![Suho Paper Memorial Museum](/cms-uploads/taiwan’s-most-eccentric-museums3.jpg)
-
-Photo by 張小綱 Xiao Gang
+![Suho Paper Memorial Museum](/cms-uploads/taiwan’s-most-eccentric-museums3.jpg "Photo by 張小綱 Xiao Gang")
 
 Given its ubiquity in everyday life, it is easy to forget that paper has its own extensive and fascinating history that stretches back to its invention in 1st century CE China. Shortly after the death of Chen Su-ho in 1990, the founder of Changchun Paper Co., the Suho Paper Memorial Museum was established in his honor. The purpose of this museum is to bring light to traditional Chinese paper-making processes and to promote the cultural heritage of paper. The four-story museum contains a functioning paper mill on the ground floor, three floors of hand-crafted paper displays, and a rooftop where visitors may attend classes and DIY workshops on paper-making.
 
-![Suho Paper Memorial Museum](/cms-uploads/taiwan’s-most-eccentric-museums4.jpg)
-
-Photo by Open House Taipei
+![Suho Paper Memorial Museum](/cms-uploads/taiwan’s-most-eccentric-museums4.jpg "Photo by Open House Taipei")
 
 ## Taiyuan Asian Puppet Theatre Museum
 
 *Taipei*
 
-![Taiyuan Asian Puppet Theatre Museum](/cms-uploads/taiwan’s-most-eccentric-museums5.jpg)
-
-Photo by Jessica Chu
+![Taiyuan Asian Puppet Theatre Museum](/cms-uploads/taiwan’s-most-eccentric-museums5.jpg "Photo by Jessica Chu")
 
 This museum is dedicated to the preservation, promotion, and performance of budaixi, or the art of traditional Taiwanese glove puppetry. It was founded in 2000 by Dr. Paul Lin, and though it was initially focused on local puppetry, the museum soon began expanding its scope to puppet arts beyond Taiwanese borders. Today, the collection contains over 5,200 puppets from across Asia. In addition to its exhibition halls, the museum also contains classrooms, workshops, and a multi-purpose theater where the Taiyuan Puppet Theatre Company holds performances to promote this celebrated mainstay of Taiwanese Culture.
 
 In 2019, the museum announced that it would be closing for a two-year renovation period. As 2021 draws to a close, the re-opening of the museum is eagerly anticipated. Keep your eye out for the grand re-opening!
 
-![Taiyuan Asian Puppet Theatre Museum](/cms-uploads/taiwan’s-most-eccentric-museums6.jpg)
-
-Photo by @pppetit01
+![Taiyuan Asian Puppet Theatre Museum](/cms-uploads/taiwan’s-most-eccentric-museums6.jpg "Photo by @pppetit01")
 
 ## Taiwan Balloon Museum
 
 *Taichung*
 
-![Taiwan Balloon Museum](/cms-uploads/taiwan’s-most-eccentric-museums7.jpg)
-
-Photo by 台灣氣球博物館
+![Taiwan Balloon Museum](/cms-uploads/taiwan’s-most-eccentric-museums7.jpg "Photo by 台灣氣球博物館")
 
 Taiwan Balloon Museum is another factory-turned-museum, but it is unique in the fact that it was established by a balloon manufacturing company that is still active today. The company, Prolloon, which has been producing balloons since 1960, converted one of its old factories into a museum to not only educate visitors on the history and process of balloon-making, but also to stimulate creativity and spread brand awareness. The museum offers three types of guided tours, children’s activities, and DIY workshops for balloon-making and balloon-shaping.
 
-![Taiwan Balloon Museum](/cms-uploads/taiwan’s-most-eccentric-museums8.jpg)
-
-Photo by Kelly Chen
+![Taiwan Balloon Museum](/cms-uploads/taiwan’s-most-eccentric-museums8.jpg "Photo by Kelly Chen")
 
 ## Museum of Old Taiwan Tiles
 
 *Chiayi*
 
-![Museum of Old Taiwan Tiles](/cms-uploads/taiwan’s-most-eccentric-museums9.jpg)
-
-Photo by @hiroshiken
+![Museum of Old Taiwan Tiles](/cms-uploads/taiwan’s-most-eccentric-museums9.jpg "Photo by @hiroshiken")
 
 This museum was founded in 2015 by James Hsu, a tile enthusiast who has been recovering, collecting, and restoring old patterned tiles since his youth. While the tradition of producing decorative tiles originates in the West, it was later adopted by the Japanese, who then brought them to Taiwan during the colonial period. Over time, Japanese craftsmen began tailoring their styles to local tastes, with patterns often depicting symbolic flora and auspicious fauna that are unique to Eastern beliefs and traditions. Such tiles once adorned the doors and facades of houses belonging to the wealthy Taiwanese elite.
 
