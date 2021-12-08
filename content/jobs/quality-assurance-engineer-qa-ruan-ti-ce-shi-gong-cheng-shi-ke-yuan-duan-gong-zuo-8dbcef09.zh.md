@@ -37,4 +37,4 @@ badges:
 
 ---
 
-【工作內容】​ - 系統效能及壓力測試​ - 測試自動化開發​ - Spec 驗證規劃​ - 前/後端及 End-to-end 測試​
+【工作內容】 - 與產品團隊(PM/RD/Design)協作，讓產品更貼近使用者需求 - 你想得到的軟體QA該做的事都會遇到(Test-Plan&Execution&Report/WEB/APP/API/B2B/UI/UX/E2E/Automation/Performance/CI/CD/Online-Monitor...) - 與產品團隊腦力激盪，以創造高效的開發流程與穩定的產品品質 - 最重要最重要的事是，不停地提出疑問，且要先自身了解並接受，才能堅定地走在品保這條路上

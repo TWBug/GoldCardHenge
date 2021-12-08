@@ -17,7 +17,13 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 0
 salary_max: 0
-location_list: []
+location_list:
+  - Taiwan
+  - ', Taiwan'
+  - 'Taipei, Taiwan'
+  - 台灣
+  - ', 台灣'
+  - 台灣台北
 job_tags:
   - Switch
   - embedded system
