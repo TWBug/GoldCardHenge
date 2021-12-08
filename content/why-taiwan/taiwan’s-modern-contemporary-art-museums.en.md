@@ -22,9 +22,7 @@ In addition to the myriad institutions that highlight the island’s rich and ex
 
 *Taipei*
 
-![Taipei Fine Arts Museum](/cms-uploads/taipei-fine-arts-museum.jpg)
-
-Photo by Wei-Te Wong / CC
+![Taipei Fine Arts Museum](/cms-uploads/taipei-fine-arts-museum.jpg "Photo by Wei-Te Wong / CC")
 
 Established in 1983, the Taipei Fine Arts Museum (TFAM) was the first public museum in Taiwan dedicated to modern and contemporary art. Since its inception, it has pioneered the development of fine art on the island and has played a significant role in cultivating public awareness, understanding, and appreciation of art. In addition to organizing exhibitions of both established and rising local artists, TFAM is known for holding large-scale international art exhibitions where visitors can see works by renowned international artists like Andy Warhol, Anish Kapoor, Yayoi Kusama, and more. With the annual Taipei Art Awards, TFAM nurtures and promotes up-and-coming Taiwanese artists, while with the Taipei Biennial, TFAM provides a platform for showcasing the latest and greatest in the global contemporary art scene.
 
@@ -36,13 +34,9 @@ Please visit the official [TFAM website](https://www.tfam.museum/Exhibition/Exhi
 
 *Tainan*
 
-![Tainan Art Museum](/cms-uploads/tainan-art-museum.jpg)
+![Tainan Art Museum](/cms-uploads/tainan-art-museum.jpg "TNAM Building 1 by 臺南市美術館 © 2021")
 
-TNAM Building 1 by 臺南市美術館 © 2021
-
-![Tainan Art Museum](/cms-uploads/1tainan-art-museum.jpg)
-
-TNAM Building 2 by 臺南市美術館 © 2021
+![Tainan Art Museum](/cms-uploads/1tainan-art-museum.jpg "TNAM Building 2 by 臺南市美術館 © 2021")
 
 The Tainan Art Museum consists of two buildings. The smaller Building 1 was originally constructed in 1931 as the Tainan Police Department, the oldest police station in Taiwan. It was renovated and later re-opened as TNAM in 2018. One year later and one block away, the construction of Building 2 was completed under the direction of award-winning Japanese architect Ban Shigeru. Given its location in Tainan, the historical capital and cultural heart of Taiwan, the TNAM’s foremost objective is to uncover, construct, and activate Taiwan’s local art history and consolidate it into a contemporary cultural identity. The museum’s mission to cultivate art appreciation and cultural value is reflected in its exhibitions, which often explore themes like Taiwanese folk religions and beliefs. 
 
@@ -52,9 +46,7 @@ Please visit the official [TNAM website](https://www.tnam.museum/exhibition/curr
 
 *台中*
 
-![National Taiwan Museum of Fine Arts ](/cms-uploads/national-taiwan-museum-of-fine-arts.jpg)
-
-Photo by Yachuen / CC
+![National Taiwan Museum of Fine Arts ](/cms-uploads/national-taiwan-museum-of-fine-arts.jpg "Photo by Yachuen / CC")
 
 The National Taiwan Museum of Fine Arts (NTMoFA) is located in the West District of Taichung. Established in 1988, it is the first and only national fine arts museum in Taiwan. Its collections and exhibitions are primarily devoted to showcasing works by modern and contemporary Taiwanese artists. In particular, every two years NTMoFA holds the Taiwan Biennial, a special exhibition that not only gives the visitors access to a compendium of Taiwan’s most innovative contemporary art, but also provides a platform for Taiwanese artists to exchange their knowledge and views on art.
 
@@ -66,7 +58,7 @@ Please visit the official [NTMoFA website](https://www.ntmofa.gov.tw/en/activity
 
 *Kaohsiung*
 
-![Kaohsiung Museum of Fine Arts](/cms-uploads/kaohsiung-museum-of-fine-arts.jpg)
+![Kaohsiung Museum of Fine Arts](/cms-uploads/kaohsiung-museum-of-fine-arts.jpg "《泛‧南‧島》 by 高雄市立美術館藝術認證")
 
 Established in 1994, the Kaohsiung Museum of Fine Arts (KMFA) specializes in combining art and ecology. The KMFA organizes exhibitions centered around local perspectives, often featuring works by indigenous Taiwanese artists, artists from Southern Taiwan, and artists across Austronesia. In addition to serving as an important creative institution for the preservation and development of local culture, the KMFA is an important destination for major international artists as well. The KMFA has collaborated with the Tate in London and the Musée du quai Branly in Paris to organize large-scale international art exhibitions, and has held retrospective exhibitions of major artists such as Yoshimoto Nara and Tony Oursler. 
 
@@ -78,7 +70,7 @@ Please visit the official [KMFA website](https://www.kmfa.gov.tw/English/Exhibit
 
 *Taoyuan*
 
-![Taoyuan Museum of Fine Arts](/cms-uploads/taoyuan-museum-of-fine-arts.jpg)
+![Taoyuan Museum of Fine Arts](/cms-uploads/taoyuan-museum-of-fine-arts.jpg "TMoFA by 桃園市立美術館 © 2021")
 
 The construction of the Taoyuan Museum of Fine Arts began in 2019, and it is scheduled to open in 2023. In addition to the main museum, the TMoFA will also include three auxiliary institutions: the Taoyuan Children's Art Center, the Hengshan Calligraphy Art Center, and the Chunglu Art Center.
 

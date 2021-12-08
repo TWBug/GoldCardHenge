@@ -22,9 +22,7 @@ style: title
 
 *台北*
 
-![台北市立美術館](/cms-uploads/taipei-fine-arts-museum.jpg)
-
-Photo by Wei-Te Wong / CC
+![台北市立美術館](/cms-uploads/taipei-fine-arts-museum.jpg "Photo by Wei-Te Wong / CC")
 
 台北市立美術館（北美館）成立於1983年，是台灣第一間以當代藝術為主的公立美術館。自成立以來，它推動台灣藝術的保存、研究與發展，在培養大眾對藝術的認識、理解和欣賞方面發揮了重要作用。除了舉辦本地知名藝術家和新興藝術家的展覽外，北美館還以舉辦大型國際藝術展而聞名，參觀者可以在這裡看到安迪．沃荷、安尼施‧卡普爾、草間彌生等國際知名藝術家的作品。北美館舉辦一年一度的台北美術獎，培育和推廣台灣的新銳藝術家；而在台北雙年展上，北美館提供了一個展示全球當代藝術領域最新和最大的平台。
 
@@ -36,13 +34,9 @@ Photo by Wei-Te Wong / CC
 
 *台南*
 
-![台南市美術館](/cms-uploads/tainan-art-museum.jpg)
+![台南市美術館](/cms-uploads/tainan-art-museum.jpg "TNAM Building 1 by 臺南市美術館 © 2021")
 
-TNAM Building 1 by 臺南市美術館 © 2021
-
-![台南市美術館](/cms-uploads/1tainan-art-museum.jpg)
-
-TNAM Building 2 by 臺南市美術館 © 2021
+![台南市美術館](/cms-uploads/1tainan-art-museum.jpg "TNAM Building 2 by 臺南市美術館 © 2021")
 
 台南美術館（南美館）由1館和2館兩大建築體建築組成。較小的1館最初建於1931年，前身為台灣最古老的警察局——台南市警察局。2018年進行了翻新，後來作為南美館重新開放。2019年，在距1館一個街區之外，由普立茲克獎、日本建築大師坂茂操刀設計的2館竣工。鑑於其位於台灣的歷史首都和文化中心，南美館的首要目標是挖掘、構建和激化台灣本土藝術史，並將其鞏固為當代文化身份。南美館將培養藝術鑑賞力和文化價值的使命體現在其展覽中，展覽經常探索台灣民間宗教和信仰等主題。
 
@@ -52,9 +46,7 @@ TNAM Building 2 by 臺南市美術館 © 2021
 
 *台中*
 
-![國立台灣美術館](/cms-uploads/national-taiwan-museum-of-fine-arts.jpg)
-
-Photo by Yachuen / CC
+![國立台灣美術館](/cms-uploads/national-taiwan-museum-of-fine-arts.jpg "Photo by Yachuen / CC")
 
 國立台灣美術館（國美館）位於台中市西區。成立於1988年，是台灣第一間也是唯一一間國立美術館。其收藏和展覽主要致力於展示現代和當代台灣藝術家的作品。值得一提的是國美館每兩年舉辦一次的台灣美術雙年展，這是一個特別的展覽，不僅讓參觀者有機會接觸到台灣最具創新性的當代藝術，也為台灣藝術家提供了一個交流藝術知識和觀點的平台。
 
@@ -66,9 +58,7 @@ Photo by Yachuen / CC
 
 *高雄*
 
-![高雄市立美術館](/cms-uploads/kaohsiung-museum-of-fine-arts.jpg)
-
-《泛‧南‧島》 by 高雄市立美術館藝術認證
+![高雄市立美術館](/cms-uploads/kaohsiung-museum-of-fine-arts.jpg "《泛‧南‧島》 by 高雄市立美術館藝術認證")
 
 高雄市立美術館（高美館）成立於1994年，專注於藝術與生態的結合。高美館以在地視角為中心組織展覽，經常展出台灣本土藝術家、南台灣藝術家和南島藝術家的作品。除了作為保護和發展當地文化的重要創意機構外，高美館也是主要國際藝術家的重要展出聖地。高美館曾與倫敦的泰德美術館及巴黎的國家凱布朗利博物館合作舉辦大型國際藝術展覽，也舉辦過奈良美智、東尼．奧斯勒等主要藝術家的回顧展。
 
@@ -80,9 +70,7 @@ Photo by Yachuen / CC
 
 *桃園*
 
-![桃園市立美術館](/cms-uploads/taoyuan-museum-of-fine-arts.jpg)
-
-TMoFA by 桃園市立美術館 © 2021
+![桃園市立美術館](/cms-uploads/taoyuan-museum-of-fine-arts.jpg "TMoFA by 桃園市立美術館 © 2021")
 
 桃園市立美術館於2019年開始動工，預計於2023年開館。除了母館外，桃園市立美術館也將包含三個附屬機構：桃園市兒童美術館、橫山書法藝術館和中路美術館。
 
