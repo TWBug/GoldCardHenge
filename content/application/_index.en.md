@@ -122,10 +122,6 @@ After your application has been approved, you will receive an e-mail notifying y
 
   * Please go to the "Download" area on ​​the application platform to print out the "Republic of China Employment Gold Card Overseas Approval Certificate." You can enter Taiwan with this certificate. Within 30 days of the day after you enter Taiwan, you must bring this certificate and the original passport to the previously designated National Immigration Agency Service Center to pick up the Gold Card.
   * There is no time limit for you to download the resident authorization certificate, you can enter Taiwan anytime with the certificate before your Gold Card expires.
-* Receiving your Gold Card abroad
-
-  * Please go to the "download" area on ​​the application platform to print out the "Republic of China Employment Gold Card Overseas Approval Certificate." Take the receipt and your passport to the previously designated ROC mission/office.
-  * It can take over 21 working days to deliver a Gold Card to an overseas ROC mission/office. The mission/office will notify you to pick up your Gold Card. If the Gold Card is not collected within three months, the mission/office will send it back to the National Immigration Agency in Taiwan.
 {{< /accordion >}}
 
 ## Submitting Additional Documents & Rejection
@@ -177,7 +173,7 @@ Domestic applications require a residential address when applying. When entering
    Please refer to [article 7 of Enforcement Rules for the Act Governing Relations Between the People of the Taiwan Area and the Mainland Area ](https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=Q0010002)
 
 * If you choose to apply as a Hong Kong citizen, you will be required to give up your other citizenship. You must give up your foreign citizenship according to Article 4 of Laws and Regulations Regarding Hong Kong & Macau Affairs, the "Hong Kong Residents" as used herein refers to persons who qualify for permanent residency in Hong Kong and who do not hold a travel document other than a British (Overseas) passport or a Hong Kong passport. However, if you apply as a foreign citizen, you would only have to sign an affidavit stating that you will only use the designated passport you chose to enter Taiwan.
-* Hong Kong and Macau applicants must download the "Hong Kong or Macau Resident Confirmation Document" and the "Residence Declaration Form for Hong Kong and Macau Residents". Signatures must be in Chinese. Please refer to the links to download the necessary documents: [](https://www.immigration.gov.tw/media/51515/%E9%A6%99%E6%B8%AF%E6%88%96%E6%BE%B3%E9%96%80%E5%B1%85%E6%B0%91%E8%BA%AB%E5%88%86%E7%A2%BA%E8%AA%8D%E6%9B%B8.pdf)[香港或澳門居民身分確認書.pdf](https://www.immigration.gov.tw/media/51515/%E9%A6%99%E6%B8%AF%E6%88%96%E6%BE%B3%E9%96%80%E5%B1%85%E6%B0%91%E8%BA%AB%E5%88%86%E7%A2%BA%E8%AA%8D%E6%9B%B8.pdf)、[](https://www.immigration.gov.tw/media/62232/%E9%A6%99%E6%B8%AF%E6%BE%B3%E9%96%80%E5%B1%85%E6%B0%91%E7%94%B3%E8%AB%8B%E5%B1%85%E7%95%99%E5%AE%9A%E5%B1%85%E7%94%B3%E5%A0%B1%E6%9B%B8.pdf)[香港澳門居民申請居留定居申報書.pdf](https://www.immigration.gov.tw/media/62232/%E9%A6%99%E6%B8%AF%E6%BE%B3%E9%96%80%E5%B1%85%E6%B0%91%E7%94%B3%E8%AB%8B%E5%B1%85%E7%95%99%E5%AE%9A%E5%B1%85%E7%94%B3%E5%A0%B1%E6%9B%B8.pdf)
+* Hong Kong and Macau applicants must download the "Hong Kong or Macau Resident Confirmation Document" and the "Residence Declaration Form for Hong Kong and Macau Residents". Signatures must be in Chinese. Please refer to the links to download the necessary documents:[香港或澳門居民身分確認書.pdf](https://www.immigration.gov.tw/5385/7244/7250/7296/%E5%B1%85%E7%95%99/148063/)、[香港澳門居民申請居留定居申報書.pdf](https://www.immigration.gov.tw/5385/7244/7250/7296/%E5%B1%85%E7%95%99/148063/)
 * Hong Kong and Macau applicants who were born in Mainland China must upload one of the following documents:
 
   1. A certificate of non-household registration in Mainland China verified by the Straits Exchange Foundation (SEF).
