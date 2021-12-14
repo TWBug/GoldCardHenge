@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Users_ian_dev_tego_tech_www_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _Users_ian_dev_goldcard_nat_gov_tw_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
 /* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
 
 //
@@ -79,7 +79,7 @@ __webpack_require__.r(__webpack_exports__);
       return this.$t('select_question');
     }
   },
-  methods: Object(_Users_ian_dev_tego_tech_www_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({}, Object(vuex__WEBPACK_IMPORTED_MODULE_1__["mapActions"])(['toggleActive']))
+  methods: Object(_Users_ian_dev_goldcard_nat_gov_tw_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({}, Object(vuex__WEBPACK_IMPORTED_MODULE_1__["mapActions"])(['toggleActive']))
 });
 
 /***/ }),
@@ -93,7 +93,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Users_ian_dev_tego_tech_www_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _Users_ian_dev_goldcard_nat_gov_tw_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
 /* harmony import */ var _components_BaseButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/BaseButton */ "./src/components/BaseButton.vue");
 /* harmony import */ var _components_BaseQuestion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/BaseQuestion */ "./src/components/BaseQuestion.vue");
 /* harmony import */ var _components_BaseHeadline__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/BaseHeadline */ "./src/components/BaseHeadline.vue");
@@ -140,7 +140,7 @@ __webpack_require__.r(__webpack_exports__);
       return this.$store.getters.getByTree(parseInt(this.id));
     }
   },
-  methods: Object(_Users_ian_dev_tego_tech_www_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(_Users_ian_dev_tego_tech_www_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({}, Object(vuex__WEBPACK_IMPORTED_MODULE_4__["mapActions"])(['setTree'])), {}, {
+  methods: Object(_Users_ian_dev_goldcard_nat_gov_tw_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(_Users_ian_dev_goldcard_nat_gov_tw_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({}, Object(vuex__WEBPACK_IMPORTED_MODULE_4__["mapActions"])(['setTree'])), {}, {
     next: function next() {
       var next_tree = this.$store.getters.getNextTree;
 

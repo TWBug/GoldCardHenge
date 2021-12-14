@@ -196,7 +196,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es_string_match__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_match__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var core_js_modules_es_string_replace__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es.string.replace */ "./node_modules/core-js/modules/es.string.replace.js");
 /* harmony import */ var core_js_modules_es_string_replace__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _Users_ian_dev_tego_tech_www_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var _Users_ian_dev_goldcard_nat_gov_tw_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
 /* harmony import */ var _components_BaseHeadline__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/BaseHeadline */ "./src/components/BaseHeadline.vue");
 /* harmony import */ var _components_BaseAccordion__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/BaseAccordion */ "./src/components/BaseAccordion.vue");
 /* harmony import */ var _components_BaseButton__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/BaseButton */ "./src/components/BaseButton.vue");
@@ -269,7 +269,7 @@ __webpack_require__.r(__webpack_exports__);
       init: false
     };
   },
-  computed: Object(_Users_ian_dev_tego_tech_www_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_5__["default"])(Object(_Users_ian_dev_tego_tech_www_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_5__["default"])({}, Object(vuex__WEBPACK_IMPORTED_MODULE_9__["mapState"])(['questions', 'tree_list'])), {}, {
+  computed: Object(_Users_ian_dev_goldcard_nat_gov_tw_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_5__["default"])(Object(_Users_ian_dev_goldcard_nat_gov_tw_src_finder_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_5__["default"])({}, Object(vuex__WEBPACK_IMPORTED_MODULE_9__["mapState"])(['questions', 'tree_list'])), {}, {
     has_result: function has_result() {
       return this.result.length > 0 ? true : false;
     },

@@ -325,8 +325,8 @@
   translation: General
 - id: qualification
   translation: Qualification
-- id: renewal--validity
-  translation: Renewal & Validity
+- id: validity--extension
+  translation: Validity & Extension
 - id: tax
   translation: Tax
 - id: national-health-insurance
@@ -475,3 +475,9 @@
   translation: COVID 19
 - id: game-production
   translation: Game Production
+- id: aprc
+  translation: APRC
+- id: qa-engineer
+  translation: QA Engineer
+- id: work
+  translation: Work

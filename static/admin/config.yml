@@ -21,7 +21,11 @@ site_url: https://staging.taiwangoldcard.tw
 # Whether or not ot interact directly with the local git repo rather than the
 # remote repo on github. Requires `npx netlify-cms-proxy-server` running.
 # These settings only apply on localhost.
-# local_backend: true
+# ---------------------------------------------------------------------------------------
+
+# local_backend: true # @note Use this for local debugging
+
+# ---------------------------------------------------------------------------------------
 
 # Customize the logo that displays on the sign-in page (just found this logo via web search)
 logo_url: 'https://images.squarespace-cdn.com/content/v1/54fda45ae4b056e88666306d/1522048397733-V0ID9KLHK9KPYBQQQMV1/ke17ZwdGBToddI8pDm48kLu6I4ew71KXDwr0TupZA2UUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc_EzImbYIQh6Bf_ScjyA5THHFXQ368Ng-_1uc2knSgWnGpDWSCaGBnv7W-TNEDThe/taiwan-national-development-council.jpg'
@@ -833,9 +837,9 @@ collections:
             i18n: duplicate
           - label: 'Weight'
             name: 'weight'
-            widget: "number"
+            widget: 'number'
             default: 0
-            value_type: "int"
+            value_type: 'int'
             min: 1
             max: 100
             step: 1

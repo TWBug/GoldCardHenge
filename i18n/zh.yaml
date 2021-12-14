@@ -305,8 +305,8 @@
   translation: 一般
 - id: qualification
   translation: 申請資格
-- id: renewal--validity
-  translation: 效期與更新
+- id: validity--extension
+  translation: 效期與延期
 - id: tax
   translation: 租稅
 - id: national-health-insurance
@@ -453,3 +453,9 @@
   translation: COVID 19
 - id: game-production
   translation: 遊戲類
+- id: aprc
+  translation: 永居
+- id: qa-engineer
+  translation: 測試工程師
+- id: work
+  translation: 工作
