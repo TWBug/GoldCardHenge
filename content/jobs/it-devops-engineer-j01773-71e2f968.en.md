@@ -11,10 +11,10 @@ company_name: HTC 宏達國際電子股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/htc'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--hvnf3ZDp--/c_pad,fl_png8,h_200,w_200/v1569659591/gwf2hetj4bvzypwfrkvj.png
-salary_text: TWD600000 - TWD1500000
+salary_text: TWD700000 - TWD1500000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 600000
+salary_min: 700000
 salary_max: 1500000
 location_list:
   - Taiwan

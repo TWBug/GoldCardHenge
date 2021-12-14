@@ -7,7 +7,7 @@ data_source_internal_id: '33533'
 title: Sr. UX Designer
 job_url: 'https://www.cakeresume.com/companies/tomofun/jobs/sr-ux-designer-ca8f98'
 date: 2021-10-25T10:23:46.212Z
-company_name: Tomofun 寵物AI科技新創
+company_name: Tomofun 寵物AIoT科技新創
 company_page_url: 'https://www.cakeresume.com/companies/tomofun'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--Lnjf32Kn--/c_pad,fl_png8,h_200,w_200/v1594890273/ztfrcn5jli33qaw9bpsz.png
