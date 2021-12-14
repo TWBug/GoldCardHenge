@@ -10,3 +10,5 @@ If you are employed by a Taiwanese organization, they will enroll you in the pro
 Once you are enrolled, your spouse and your minor children and adult children who are unable to live independently will be covered under your enrollment as 'dependents'.
 
 To enroll your dependents in NHI, please bring your Gold Card, their ARCs, and your stamps to the [National Health Insurance Administration](https://www.nhi.gov.tw/English/ " to National Health Insurance Administration").
+
+Please refer to [article 21 of the Act for the Recruitment and Employment of Foreign Professionals](https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=A0030295 " to Act for the Recruitment and Employment of Foreign Professionals page").
