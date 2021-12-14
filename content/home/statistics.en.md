@@ -7,12 +7,12 @@ headless: true
 links: null
 items:
   - preview: null
-    label: "3319"
+    label: "3549"
     href: Number of Valid Gold Cards
   - preview: null
-    label: "66"
+    label: "67"
     href: Different Countries
   - preview: null
-    label: "25337"
+    label: "27971"
     href: Number of Consultations
 ---
