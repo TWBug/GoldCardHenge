@@ -6,7 +6,7 @@ media_image: null
 summary: 有任何關於金卡的問題或者來台生活遇到困難都可以透過Email聯絡我們！
 media_image_alt: null
 layout: null
-title: 線上表單
+title: 聯繫我們
 date: 2020-11-05T07:09:20.617Z
 chatbot: true
 tags: null
