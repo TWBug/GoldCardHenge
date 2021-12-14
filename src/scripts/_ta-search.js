@@ -1,23 +1,25 @@
 let __shouldDebug = false;
 
 function escapeJSONSpecialChars(str) {
-    return String(str).replace(/[\b\f\n\r\t]/g, function (char) {
-        switch (char) {
-            case '\b': // backspace
-                return '\\b';
-            case '\f': // formfeed
-                return '\\f';
-            case '\n': // newline
-                return '\\n';
-            case '\r': // carriage return
-                return '\\r';
-            case '\t': // tab
-                return '\\t';
-            default:
-                console.warn('Unhandled special character', char);
-                return char;
-        }
-    });
+    return String(str)
+        .replace(/\\+&/gim, '') // Replace malformed ampersand escape sequences. See https://github.com/tego-tech/www/blob/9ce5e41a68db437d883aa47d43ece14633a0ef8e/content/why-taiwan/taiwan%E2%80%99s-offshore-islands-tourist-attractions.en.md#L22-L23
+        .replace(/[\b\f\n\r\t]/g, function (char) {
+            switch (char) {
+                case '\b': // backspace
+                    return '\\b';
+                case '\f': // formfeed
+                    return '\\f';
+                case '\n': // newline
+                    return '\\n';
+                case '\r': // carriage return
+                    return '\\r';
+                case '\t': // tab
+                    return '\\t';
+                default:
+                    console.warn('Unhandled special character', char);
+                    return char;
+            }
+        });
 }
 
 window.taSearchDebug = (activated = true) => {
