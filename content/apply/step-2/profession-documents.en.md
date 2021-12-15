@@ -22,12 +22,6 @@ After the online application is complete, the system will send an e-mail with a 
 
 ## Fees for Employment Gold Card
 
-### Domestic Applicants
-
-![Fees for Domestic Applicants](/cms-uploads/goldcardfee-04.jpg)
-
-### Overseas Applicants
-
-![Fees for Overseas Applicants](/cms-uploads/goldcardfee-03.jpg)
+![Fees for Applicants](/cms-uploads/goldcardfee-en.png "Holders of foreign passports other than U.S.: one-year validity, NT$3,700; two-year validity, NT$4,700; three-year validity, NT$5,700. Holders of U.S. passports applying domestically: one-year validity, NT$3,700; two-year validity, NT$4,700; three-year validity, NT$5,700. Holders of U.S. passports applying abroad: one-year validity, NT$6,460; two-year validity, NT$7,460; three-year validity, NT$8,460. Residents of Hong Kong or Macau: one-year to three-year validity: NT$3,100. Holders of valid Alien Resident Certificates (ARC) or other Certificates functioning as an ARC: one-year validity, NT$1,500; two-year validity, NT$2,500; three-year validity, NT$3,500. Holders of foreign passports applying for Gold Card extension: one-year validity, NT$1,500; two-year validity, NT$2,500; three-year validity, NT$3,500. Residents of Hong Kong or Macau applying for Gold Card extension: one-year to three-year validity: NT$800.")
 
 * After completing the application, you will get a system confirmation via e-mail. Your application has now entered the review process.
