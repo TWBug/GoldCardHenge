@@ -84,15 +84,8 @@ Payment and E-Mail Confirmation
 
 **Application Fees:**
 
-* Domestic Applicants
+![Fees for Applicants](/cms-uploads/goldcardfee-en.png "Holders of U.S. passports applying abroad: one-year validity, NT$6,460; two-year validity, NT$7,460; three-year validity, NT$8,460. Holders of foreign passports other than U.S. applying abroad: one-year validity, NT$3,700; two-year validity, NT$4,700; three-year validity, NT$5,700. Resident of Hong Kong or Macau: one-year to three-year validity, NT$3,100.")
 
-![Fees for Domestic Applicants Holders](/cms-uploads/goldcardfee-04.jpg "Fees of U.S. passports who entered R.O.C. (Taiwan) visa-free, or with a visa for a stay of less than 60 days, or with a visa for a stay of 60 days or longer and with annotation by the visa-issuing authority of a restriction disallowing extension or other limitation applying domestically: one-year validity, NT$7,260; two-year validity, NT$8,260 ; three-year validity, NT$9,260 . Holders of U.S. passports who entered R.O.C. (Taiwan) with a visa for a stay of 60 days or longer and without annotation by the visa-issuing authority of a restriction disallowing extension or other limitation applying domestically: one-year validity, NT$3,700; two-year validity, NT$4,700; three-year validity, NT$5,700. Holders of foreign passports other than U.S. who entered R.O.C. (Taiwan) visa-free, or with a visa for a stay of less than 60 days, or with a visa for a stay of 60 days or longer and with annotation by the visa-issuing authority of a restriction disallowing extension or other limitation applying domestically: one-year validity, NT$4,500; two-year validity, NT$5,500; three-year validity, NT$6,500. Holders of foreign passports other than U.S. who entered R.O.C. (Taiwan) with a visa for a stay of 60 days or longer and without annotation by the visa-issuing authority of a restriction disallowing extension or other limitation applying domestically: one-year validity, NT$3,700; two-year validity, NT$4,700; three-year validity NT$5,700.  Resident of Hong Kong or Macau: one-year to three-year validity, NT$3,100.")
-
-* Overseas Applicants
-
-![Fees for Overseas Applicants](/cms-uploads/goldcardfee-03.jpg "Holders of U.S. passports applying abroad: one-year validity, NT$6,460; two-year validity, NT$7,460; three-year validity, NT$8,460. Holders of foreign passports other than U.S. applying abroad: one-year validity, NT$3,700; two-year validity, NT$4,700; three-year validity, NT$5,700. Resident of Hong Kong or Macau: one-year to three-year validity, NT$3,100.")
-
-* Holders of valid Alien Resident Certificates or other Certificates functioning as alien resident certificates can apply for an Employment Gold Card: one-year validity, NT$1,500; two-year validity, NT$2,500;three-year validity, NT$3,500.
 * After completing the application, you will get a confirmation via e-mail from the platform. Your application has now entered the review process.
 * To check your application, log in to the portal, click "Application Progress Inquiry", and fill in your 12-digit application number. **The application fee is nonrefundable regardless of the results of your application.**
 
