@@ -8,10 +8,14 @@
 # localhost without this, but not on staging.taiwangoldcard.tw.
 backend:
     name: github
-    repo: tego-tech/www
-    site_domain: staging.taiwangoldcard.tw # See NOTE
+    repo: TWBug/GoldcardHenge
+    site_domain: hengetech.com.tw # See NOTE
+    #base_url: https://hengetech.com.tw
+    #auth_endpoint: api/auth
 
-site_url: https://staging.taiwangoldcard.tw
+
+#site_url:  https://hengetech.com.tw
+    
 
 # The language of the admin UI
 # Set to 'zh_Hant' for 繁體中文

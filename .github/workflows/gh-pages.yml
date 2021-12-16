@@ -3,7 +3,7 @@ name: Deploy Github Pages
 on:
     push:
         branches:
-            - prod
+            - main
 
 jobs:
     deploy:
@@ -47,4 +47,4 @@ jobs:
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   publish_dir: './public'
-                  cname: goldcard.nat.gov.tw
+                  cname: hengetech.com.tw
