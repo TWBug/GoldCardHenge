@@ -7,15 +7,13 @@ timeout = 80000
 
 # If skip_processing = true, all other settings are ignored
 [build.processing]
-skip_processing = true
+skip_processing = false
 
 [build.environment]
 HUGO_VERSION = "0.79.1"
 
 [context.production.environment]
 # HUGO_ENABLEGITINFO = "true"
-HUGO_ENV = "staging"
-TZ = "Asia/Taipei"
 
 # [context.split1]
 # command = "hugo --gc --minify --enableGitInfo"
