@@ -31,7 +31,7 @@ main() {
     # NOTE: In the netlify env we _have to build_ hugo, otherwise the
     # git-ignored ./public directory--the directory to be deployed--will not
     # exist in netlify.
-    npm run build:staging
+    npm run build:production
 }
 
 main
