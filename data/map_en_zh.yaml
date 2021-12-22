@@ -90,7 +90,7 @@ en:
           origin: 'Singapore'
           local: 'Taipei, Taiwan'
           description: 'Digital Transformation Consulting'
-          image: 'member-lh-liu.jpg'
+          image: 'dinosaur.jpg'
         - name: 'S. Khan'
           left: 25.13
           top: 50
@@ -232,7 +232,7 @@ zh:
           origin: '新加坡'
           local: '台灣, 台北'
           description: '數位化轉型諮詢'
-          image: 'member-lh-liu.jpg'
+          image: 'dinosaur.jpg'
         - name: 'S. Khan'
           left: 25.13
           top: 50
