@@ -134,7 +134,7 @@ en:
           description: 'User Experience Design'
           image: 'member-diana-n.jpg'
         - name: 'Wilson Huang.'
-          left: 50.45
+          left: 34.78
           top: 50.06
           origin: 'Taipei'
           local: 'Taipei, Taiwan'
@@ -276,7 +276,7 @@ zh:
           description: '用戶體驗設計'
           image: 'member-diana-n.jpg'
         - name: 'Wilson Huang.'
-          left: 50.45
+          left: 34.78
           top: 50.06
           origin: '台北'
           local: '台灣, 台北'
