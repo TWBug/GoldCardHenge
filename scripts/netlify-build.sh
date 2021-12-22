@@ -2,8 +2,10 @@
 # netlify environment. Initially created to alleviate long build-times in the
 # front-end codebase which were unrelated to content changes.
 main() {
-    local non_content_changelist="$(git diff --name-only HEAD^ HEAD -- . ':!content/')"
-    local content_changelist="$(git diff --name-only HEAD^ HEAD -- content/)"
+    #local non_content_changelist="$(git diff --name-only HEAD^ HEAD -- . ':!content/')"
+    #local content_changelist="$(git diff --name-only HEAD^ HEAD -- content/)"
+    local non_content_changelist="$(git diff )"
+    local content_changelist="$(git diff )"
 
     if [[ -n "${non_content_changelist}" ]]
     then
@@ -31,7 +33,7 @@ main() {
     # NOTE: In the netlify env we _have to build_ hugo, otherwise the
     # git-ignored ./public directory--the directory to be deployed--will not
     # exist in netlify.
-    npm run build:production
+    npm run build:staging
 }
 
 main
