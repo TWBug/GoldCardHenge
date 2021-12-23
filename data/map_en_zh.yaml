@@ -139,7 +139,7 @@ en:
           origin: 'Taipei'
           local: 'Taipei, Taiwan'
           description: 'TEST'
-          image: 'member-diana-n.jpg'
+          image: 'member-dinosuar.jpg'
 zh:
     items:
         - name: 'Trent P.'
@@ -281,4 +281,4 @@ zh:
           origin: '台北'
           local: '台灣, 台北'
           description: '測試'
-          image: 'member-diana-n.jpg'
+          image: 'member-dinosuar.jpg'
