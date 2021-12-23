@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
+  https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '35124'
 title: >-
   Technical Product Manager (3rd party integration and open API product
@@ -13,15 +13,15 @@ company_name: SHOPLINE 商線科技
 company_page_url: 'https://www.cakeresume.com/companies/shopline'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--LCTuSXKA--/c_pad,fl_png8,h_200,w_200/v1568863313/elpclzqvs12aoi2gvswo.png
-salary_text: TWD1100000 - TWD1500000
+salary_text: TWD1100000 - TWD1600000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 1100000
-salary_max: 1500000
+salary_max: 1600000
 location_list: []
 job_tags: []
 badges:
-  - Mechanical engineer
+  - Project Manager
 
 ---
 

@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '35126'
-title: Designer
+title: Digital Product Designer
 job_url: 'https://www.cakeresume.com/companies/splashtop/jobs/designer-cf7055'
 date: 2021-12-16T09:36:11.489Z
 company_name: Splashtop Inc.
@@ -23,7 +23,10 @@ location_list:
   - 台灣
   - ', 台灣'
   - 台灣台北
-job_tags: []
+job_tags:
+  - Figma
+  - UI/UXDesign
+  - Project Management
 badges:
   - Designer
 
