@@ -126,20 +126,20 @@ en:
           local: 'Taipei, Taiwan'
           description: 'MBA Candidate in Sustainable Solutions at Presidio Graduate School exploring sustainability and food systems in Taiwan'
           image: 'member-christopher-wong.jpg'
-        #- name: 'Diana N.'
-        #  left: 73.45
-        #  top: 47.06
-        #  origin: 'Los Angeles, California, USA'
-        #  local: 'Taipei, Taiwan'
-        #  description: 'User Experience Design'
-        #  image: 'member-diana-n.jpg'
+       # - name: 'Diana N.'
+       #   left: 73.45
+       #   top: 47.06
+       #   origin: 'Los Angeles, California, USA'
+       #   local: 'Taipei, Taiwan'
+       #   description: 'User Experience Design'
+       #   image: 'member-diana-n.jpg'
         - name: 'Wilson Huang.'
           left: 73.45
           top: 47.06
           origin: 'Taipei'
           local: 'Taipei, Taiwan'
           description: 'TEST'
-          image: 'member-dinosuar.jpg'
+          image: 'member-dinosaur.jpg'
 zh:
     items:
         - name: 'Trent P.'
@@ -268,17 +268,17 @@ zh:
           local: '台灣, 台北'
           description: 'Presidio Graduate School永續解決方案的MBA候選人，探索台灣的永續發展性和食品系統'
           image: 'member-christopher-wong.jpg'
-        #- name: 'Diana N.'
-        #  left: 73.45
-        #  top: 47.06
-        #  origin: '美國加州, 洛杉磯'
-        #  local: '台灣, 台北'
-        #  description: '用戶體驗設計'
-        #  image: 'member-diana-n.jpg'
+       # - name: 'Diana N.'
+       #   left: 73.45
+       #   top: 47.06
+       #   origin: '美國加州, 洛杉磯'
+       #   local: '台灣, 台北'
+       #   description: '用戶體驗設計'
+       #   image: 'member-diana-n.jpg'
         - name: 'Wilson Huang.'
           left: 73.45
           top: 47.06
           origin: '台北'
           local: '台灣, 台北'
           description: '測試'
-          image: 'member-dinosuar.jpg'
+          image: 'member-dinosaur.jpg'
