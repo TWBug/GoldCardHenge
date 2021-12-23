@@ -29,4 +29,4 @@ badges:
 
 ---
 
-Chip , a Scalable brand, is a fast-growing global e-commerce platform that lets sellers create and sell print-on-demand items without having to worry about manufacturing, warehousing, payments, fulfillment, or customer support. Sellers create stores on the TeeChip platform, design products by uploading their own artwork and designs, and market products via paid and organic posts on a variety of platforms including Facebook, Google, and Pinterest. As a part of our global expansion in Asia, Chip i
+Chip , a Scalable brand, is a fast-growing global e-commerce platform that lets sellers create and sell print-on-demand items without having to worry about manufacturing, warehousing, payments, fulfillment, or customer support. Sellers create stores on the Chip platform, design products by uploading their own artwork and designs, and market products via paid and organic posts on a variety of platforms including Facebook, Google, and Pinterest. As a part of our global expansion in Asia, Chip is b
