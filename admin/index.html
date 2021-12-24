@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css" />
+        <title>Content Manager</title>
+        <style>
+            /* 隱藏Netlify的徽標 */
+            [class*='NetlifyCreditIcon'] {
+                display: none !important;
+            }
+            [class*='cardTopDescription'] {
+                white-space: pre-wrap;
+            }
+
+            /* More such codes can be generated from: https://fontawesome.com/icons?d=listing&q=event&s=solid&m=free */
+            aside a span {
+                display: inline-flex !important;
+                justify-content: center;
+                align-items: center;
+            }
+
+            aside a span svg {
+                display: none !important;
+            }
+
+            aside a span::before {
+                font-family: 'Font Awesome 5 Free';
+                font-weight: 900;
+                /* font-size: 1rem;*/
+            }
+
+            aside a[href='#/collections/blog'] span::before {
+                content: '\f5a1';
+            }
+
+            aside a[href='#/collections/pages'] span::before {
+                content: '\f15c';
+            }
+
+            aside a[href='#/collections/home_page'] span::before {
+                content: '\f024';
+            }
+
+            aside a[href='#/collections/legal'] span::before {
+                content: '\f0b1';
+            }
+
+            aside a[href='#/collections/apply-start'] span::before {
+                content: '\f560';
+            }
+            aside a[href='#/collections/apply-step-1'] span::before {
+                content: '\f560';
+            }
+            aside a[href='#/collections/apply-step-2'] span::before {
+                content: '\f560';
+            }
+            aside a[href='#/collections/apply-step-3'] span::before {
+                content: '\f560';
+            }
+
+            aside a[href='#/collections/events'] span::before {
+                content: '\f783';
+            }
+
+            aside a[href='#/collections/taxonomies'] span::before {
+                content: '\f02c';
+            }
+
+            aside a[href='#/collections/config'] span::before {
+                content: '\f013';
+            }
+
+            aside a[href='#/collections/faq'] span::before {
+                content: '\f128';
+            }
+            aside a[href='#/collections/help-desk'] span::before {
+                content: '\f128';
+            }
+            aside a[href='#/collections/related-websites'] span::before {
+                content: '\f0c1';
+            }
+            aside a[href='#/collections/why-taiwan'] span::before {
+                content: '\f4c4';
+            }
+            aside a[href='#/collections/qualification'] span::before {
+                content: '格';
+            }
+            aside a[href='#/collections/application'] span::before {
+                content: '申';
+            }
+            aside a[href='#/collections/news'] span::before {
+                content: '\f1ea';
+            }
+            aside a[href='#/collections/jobs'] span::before {
+                content: '\f4c0';
+            }
+            aside a[href='#/collections/jobs_config'] span::before {
+                content: '\f4c0';
+            }
+            aside a[href='#/collections/gallery'] span::before {
+                content: '\f302';
+            }
+            aside a[href='#/collections/translations'] span::before {
+                content: '\f1ab';
+            }
+
+            aside a[href='#/collections/finder'] span::before {
+                content: '\f002';
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            // 注意: 為了動態配置CMS語言，手動啟動
+            window.CMS_MANUAL_INIT = true;
+        </script>
+        <!-- Include the script that builds the page and powers Netlify CMS -->
+        <script src="netlify-cms.min.js"></script>
+        <script src="js-yaml.min.js"></script>
+        <script src="react.production.min.js"></script>
+        <script src="react-dom.production.min.js"></script>
+        <script src="tego-cms.js"></script>
+        <script src="tego-deployment-manager.js"></script>
+    </body>
+</html>

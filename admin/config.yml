@@ -1,0 +1,1567 @@
+# backend:
+#     name: git-gateway
+#     branch: master # Branch to update (optional; defaults to master)
+
+# Auth directly with github
+# SEE https://www.netlifycms.org/docs/backends-overview/
+# NOTE I'm not sure exactly what site_domain is required for. It works fine on
+# localhost without this, but not on staging.taiwangoldcard.tw.
+backend:
+    name: github
+    repo: TWBug/GoldcardHenge
+    site_domain: hengetech.com.tw # See NOTE
+    #base_url: https://hengetech.com.tw
+    #auth_endpoint: api/auth
+
+
+#site_url:  https://hengetech.com.tw
+    
+
+# The language of the admin UI
+# Set to 'zh_Hant' for 繁體中文
+# NOTE: We set this in the JS config file so that it can be set dynamically.
+# locale: 'en'
+
+# Whether or not ot interact directly with the local git repo rather than the
+# remote repo on github. Requires `npx netlify-cms-proxy-server` running.
+# These settings only apply on localhost.
+# ---------------------------------------------------------------------------------------
+
+# local_backend: true # @note Use this for local debugging
+
+# ---------------------------------------------------------------------------------------
+
+# Customize the logo that displays on the sign-in page (just found this logo via web search)
+logo_url: 'https://images.squarespace-cdn.com/content/v1/54fda45ae4b056e88666306d/1522048397733-V0ID9KLHK9KPYBQQQMV1/ke17ZwdGBToddI8pDm48kLu6I4ew71KXDwr0TupZA2UUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc_EzImbYIQh6Bf_ScjyA5THHFXQ368Ng-_1uc2knSgWnGpDWSCaGBnv7W-TNEDThe/taiwan-national-development-council.jpg'
+
+i18n:
+    # Required and can be one of multiple_folders, multiple_files or single_file
+    # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
+    # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
+    # single_file - persists a single file in `<folder>/<slug>.<extension>`
+    structure: multiple_files
+
+    # Required - a list of locales to show in the editor UI
+    locales: [en, zh]
+
+    # Optional, defaults to the first item in locales.
+    # The locale to be used for fields validation and as a baseline for the entry.
+    default_locale: en
+
+# Require posts to be "ready" before finally publishing them
+# NOTE: Disabling for now. Re-enable this line in order to bring back the editorial workflow.
+# publish_mode: editorial_workflow
+
+# Media files will be stored in the repo under here
+media_folder: 'assets/cms-uploads'
+
+# The src attribute for uploaded media will begin with this
+public_folder: '/cms-uploads'
+
+# The various collections we use for the site. They correspond to directories of content
+collections:
+    # Top-level pages. NOTE: The home page is configured separately because it is so customized.
+    - name: 'pages'
+      label: 'Pages 網頁'
+      label_singular: Page
+      description: >
+          Top-level pages for the site.
+      folder: 'content'
+      create: true
+      slug: '{{slug}}'
+      i18n: true
+      preview_path: en/{{slug}}
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
+          - {
+                label: 'Draft?',
+                name: 'draft',
+                widget: 'hidden',
+                default: false,
+                i18n: duplicate,
+                required: false,
+            }
+          - {
+                label: 'Hidden?',
+                name: 'hidden',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Style',
+                name: 'style',
+                widget: 'select',
+                options: ['right', 'title', 'hero'],
+                default: 'right',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true, required: false }
+
+    # Home page
+    - name: 'home_page'
+      label: 'Home Page 首頁'
+      description: >
+          Content on the Home page. The items listed here are sections of the home page rather than individual pages.
+
+          NOTE: The unique nature of the Home page means we need to configure the language separately for now. There is an open issue to address this: https://github.com/netlify/netlify-cms/issues/4483
+      slug: '{{slug}}'
+      folder: 'content/home'
+      create: false
+      i18n: true
+      preview_path: en/
+      # filter: { field: 'cms_omit', value: null } ## NOTE: This doesn't work. Filtering seems to be broken
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - {
+                label: 'Draft?',
+                name: 'draft',
+                widget: 'hidden',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Hidden?',
+                name: 'hidden',
+                widget: 'hidden',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Headless?',
+                name: 'headless',
+                widget: 'hidden',
+                default: true,
+                i18n: duplicate,
+            }
+          - label: 'Links'
+            name: 'links'
+            widget: 'list'
+            i18n: true
+            fields:
+                - { label: Label, name: label, widget: string }
+                - { label: Link, name: href, description: 'Link to where?', widget: string }
+                - { label: CTA?, name: is_cta, widget: boolean, default: false }
+                - { label: Open in new window?, name: new_window, widget: boolean, default: false }
+          - label: 'Items'
+            name: 'items'
+            widget: 'list'
+            i18n: true
+            fields:
+                - {
+                      label: Image,
+                      name: preview,
+                      description: 'Image or icon',
+                      widget: image,
+                      required: false,
+                  }
+                - { label: Label, name: label, widget: string }
+                - {
+                      label: Link,
+                      name: href,
+                      description: 'Link to where?',
+                      widget: string,
+                      required: false,
+                  }
+          - { label: 'Body', name: 'body', required: false, widget: 'markdown', i18n: true }
+
+    - name: 'legal'
+      label: 'Legal 法律'
+      label_singular: Legal Page
+      folder: 'content/legal'
+      create: true
+      slug: '{{slug}}'
+      i18n: true
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - {
+                label: 'Publish Date',
+                name: 'date',
+                widget: 'datetime',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Style',
+                name: 'style',
+                widget: 'select',
+                options: ['right', 'title', 'hero'],
+                default: 'right',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'apply-start'
+      label: 'Apply / Start'
+      label_singular: Apply Start
+      folder: 'content/apply'
+      create: false
+      slug: '{{slug}}'
+      i18n: true
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - {
+                label: 'Publish Date',
+                name: 'date',
+                widget: 'datetime',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Topic',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'goldcard',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Next page',
+                name: 'next',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'apply-step-1'
+      label: 'Apply / Step-1'
+      label_singular: Apply Step-1
+      folder: 'content/apply/step-1'
+      create: false
+      delete: false
+      slug: '{{slug}}'
+      i18n: true
+      sortable_fields: ['title', 'order', 'date']
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - {
+                label: 'Publish Date',
+                name: 'date',
+                widget: 'datetime',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Layout',
+                name: 'layout',
+                widget: 'hidden',
+                default: 'finder',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Topic',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'goldcard',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Previous page',
+                name: 'previous',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Next page',
+                name: 'next',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'apply-step-2'
+      label: 'Apply / Step-2'
+      label_singular: Apply Step-2
+      folder: 'content/apply/step-2'
+      create: true
+      slug: '{{slug}}'
+      i18n: true
+      summary: '{{title}} | Order: {{order}}'
+      sortable_fields: ['title', 'order', 'date']
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - {
+                label: 'Publish Date',
+                name: 'date',
+                widget: 'datetime',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Order', name: 'order', widget: 'number', default: 1, i18n: duplicate }
+          - {
+                label: 'Topic',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'goldcard',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Previous page',
+                name: 'previous',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Next page',
+                name: 'next',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'apply-step-3'
+      label: 'Apply / Step-3'
+      label_singular: Apply Step-3
+      folder: 'content/apply/step-3'
+      create: true
+      slug: '{{slug}}'
+      i18n: true
+      summary: '{{title}} | Order: {{order}}'
+      sortable_fields: ['title', 'order', 'date']
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - {
+                label: 'Publish Date',
+                name: 'date',
+                widget: 'datetime',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Hidden', name: 'hidden', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Order', name: 'order', widget: 'number', default: 1, i18n: duplicate }
+          - {
+                label: 'Topic',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'goldcard',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          - {
+                label: 'Previous page',
+                name: 'previous',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Next page',
+                name: 'next',
+                widget: 'string',
+                default: '',
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'related-websites'
+      label: 'Relatd Websites 相關資料'
+      label_singular: Related Website
+      folder: 'content/related-websites'
+      create: true
+      slug: '{{slug}}'
+      i18n: true
+      preview_path: en/related-websites/{{slug}}
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Link', name: 'link', widget: 'string', i18n: true }
+          - label: 'Social Links'
+            name: 'social_links'
+            widget: 'object'
+            collapsed: true
+            summary: 'FB, LinkedIn, Insta, YouTube, Twitter'
+            i18n: true
+            fields:
+                - { label: Facebook, name: facebook, widget: string, required: false }
+                - { label: LinkedIn, name: linkedin, widget: string, required: false }
+                - { label: Instagram, name: instagram, widget: string, required: false }
+                - { label: YouTube, name: youtube, widget: string, required: false }
+                - { label: Twitter, name: twitter, widget: string, required: false }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: true,
+            }
+          #   - label: 'Tags'
+          #     name: 'tags'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'tag_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          #   - label: 'Categories'
+          #     name: 'categories'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'category_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          - {
+                label: 'Draft?',
+                name: 'draft',
+                widget: 'hidden',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Hidden',
+                name: 'hidden',
+                widget: 'hidden',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Layout',
+                name: 'layout',
+                widget: 'hidden',
+                default: 'related',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Weight',
+                name: 'weight',
+                widget: 'number',
+                default: 10,
+                min: 1,
+                step: 1,
+                required: true,
+                i18n: duplicate,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true, required: false }
+
+    - name: 'events'
+      label: 'Events 活動'
+      label_singular: Event
+      folder: 'content/events'
+      create: true
+      slug: '{{slug}}'
+      i18n: true
+      preview_path: en/events/{{slug}}
+      fields:
+          - { label: 'Event Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Event Link', name: 'link', widget: 'string', i18n: duplicate }
+          - { label: 'Start Date', name: 'start', widget: 'datetime', i18n: duplicate }
+          - {
+                label: 'Goldcard Only 限持卡人',
+                name: 'only_gold_card',
+                widget: 'boolean',
+                i18n: duplicate,
+                default: false,
+            }
+          - {
+                label: 'End Date',
+                name: 'end',
+                widget: 'datetime',
+                i18n: duplicate,
+                required: false,
+                default: '',
+            }
+          - {
+                label: 'Location',
+                name: 'location',
+                widget: 'string',
+                i18n: duplicate,
+                required: false,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          #   - label: 'Tags'
+          #     name: 'tags'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'tag_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          #   - label: 'Categories'
+          #     name: 'categories'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'category_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          - {
+                label: 'Draft?',
+                name: 'draft',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Hidden',
+                name: 'hidden',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true, required: false }
+
+    - name: 'jobs'
+      label: 'Jobs 求職'
+      label_singular: Job
+      folder: 'content/jobs'
+      create: false # Jobs are scraped, not created in the CMS
+      delete: false
+      editor:
+          preview: false
+      slug: '{{slug}}'
+      preview_path: en/jobs/{{slug}}
+      i18n:
+          true
+          # @note The CMS simply does not respect this filter
+      filter: { field: 'title', value: 'Jobs' }
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+          #   - label: 'Tags'
+          #     name: 'tags'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'tag_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          #   - label: 'Categories'
+          #     name: 'categories'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'category_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+
+    # NOTE: Netlify CMS internally tries to infer which field should represent
+    # the title of a collection item in the UI. This was fine until we changed
+    # the widget of the title field. Basically, the changed widget type caused
+    # that inference to infer... nothing. So the display title ended up being
+    # undefined and the whole thing just failed silently, displaying blank list
+    # items in the UI. Adding a `summary` field fixes this, as does adding
+    # `identifier_field: title`. I've kept summary here since it's more
+    # flexible.
+    # SEE https://github.com/netlify/netlify-cms/blob/master/packages/netlify-cms-core/src/reducers/collections.ts#L373
+    - name: 'faq'
+      label: 'FAQ 常見問題'
+      label_singular: FAQ Item
+      folder: 'content/faq'
+      create: true
+      slug: '{{slug}}'
+      preview_path: en/faq/{{slug}}
+      summary: '{{title}}' # IMPORTANT! See NOTE
+      # summary: '{{title}} # {{tags}}'
+      sortable_fields: ['title', 'tags', 'summary']
+      # This allows the group by functionality in the UI, but it is not on by default.
+      # NOTE: Tags are immutable lists, so when serialized they appear as 'List [ "a", "b" ]'.
+      # Therefore this regex is meant to group by tags.
+      view_groups:
+          - label: Tags 標籤
+            field: tags
+            pattern: '\[.+?\]' # See NOTE
+      i18n: true
+      fields:
+          - {
+                label: 'Title',
+                name: 'title',
+                widget: 'max-length-string',
+                maxLength: 248,
+                i18n: true,
+            }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - {
+                label: 'Question (if different from above 若不同上)',
+                name: 'question',
+                widget: 'string',
+                i18n: true,
+                required: false,
+            }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - label: 'Tags'
+            name: 'tags'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'tag_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
+          - label: 'Weight'
+            name: 'weight'
+            widget: 'number'
+            default: 0
+            value_type: 'int'
+            min: 1
+            max: 100
+            step: 1
+            required: false
+            i18n: duplicate
+          # - label: 'Categories'
+          #   name: 'categories'
+          #   widget: 'relation'
+          #   collection: 'taxonomies'
+          #   file: 'category_data'
+          #   value_field: 'items.*'
+          #   search_fields: ['items.*']
+          #   multiple: true
+          #   required: false
+          #   i18n: duplicate
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'gallery'
+      label: 'Gallery 畫廊'
+      label_singular: Gallery
+      folder: 'content/gallery'
+      create: true
+      slug: '{{slug}}'
+      preview_path: en/gallery/{{slug}}
+      i18n: true
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Topic',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'resources',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          #   - label: 'Tags'
+          #     name: 'tags'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'tag_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          #   - label: 'Categories'
+          #     name: 'categories'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'category_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'help-desk'
+      label: 'Help Desk 洽詢平台'
+      label_singular: Help Desk Item
+      folder: 'content/help-desk'
+      create: true
+      slug: '{{slug}}'
+      preview_path: en/help-desk/{{slug}}
+      i18n: true
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Navigation',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'whytaiwan',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'why-taiwan'
+      label: 'Why Taiwan 為何台灣'
+      label_singular: Why Taiwan Page
+      folder: 'content/why-taiwan'
+      create: true
+      slug: '{{slug}}'
+      preview_path: en/why-taiwan/{{slug}}
+      i18n: true
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Navigation',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'whytaiwan',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          # - label: 'Tags'
+          #   name: 'tags'
+          #   widget: 'relation'
+          #   collection: 'taxonomies'
+          #   file: 'tag_data'
+          #   value_field: 'items.*'
+          #   search_fields: ['items.*']
+          #   multiple: true
+          #   required: false
+          #   i18n: duplicate
+          - label: 'Topics'
+            name: 'topics'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'topic_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
+          - {
+                label: 'Style',
+                name: 'style',
+                widget: 'select',
+                options: ['right', 'title', 'hero'],
+                default: 'right',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'qualification'
+      label: 'Qualification 資格'
+      label_singular: Qualification Page
+      folder: 'content/qualification'
+      create: true
+      slug: '{{slug}}'
+      preview_path: en/qualification/{{slug}}
+      i18n: true
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          #   - { label: 'Icon 徽標', name: 'icon', widget: 'image', required: false, i18n: duplicate }
+          #   - label: 'Tags'
+          #     name: 'tags'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'tag_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          #   - label: 'Categories'
+          #     name: 'categories'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'category_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          - {
+                label: 'Style',
+                name: 'style',
+                widget: 'select',
+                options: ['right', 'title', 'hero'],
+                default: 'right',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'application'
+      label: 'Application 申請'
+      label_singular: Application Page
+      folder: 'content/application'
+      create: true
+      slug: '{{slug}}'
+      preview_path: en/application/{{slug}}
+      i18n: true
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Navigation',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'goldcard',
+                i18n: duplicate,
+            }
+          #   - label: 'Tags'
+          #     name: 'tags'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'tag_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          #   - label: 'Categories'
+          #     name: 'categories'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'category_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          - {
+                label: 'Style',
+                name: 'style',
+                widget: 'select',
+                options: ['right', 'title', 'hero'],
+                default: 'right',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    ### Just a testing collection!
+    # - name: 'text_xxx'
+    #   label: '[TEST]'
+    #   description: >
+    #       This is just a testing collection. It is not meant to be rendered to the
+    #       final site.
+    #   folder: 'content/tmp'
+    #   create: true
+    #   slug: '{{slug}}'
+    #   preview_path: en/test/{{slug}}
+    #   i18n: true
+    #   fields:
+    #       - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+    #       - { label: 'Draft?', name: 'draft', widget: 'hidden', default: false, i18n: duplicate }
+    #       - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+    #       - name: categories
+    #         label: Categories
+    #         widget: categories
+    #         separator: ','
+
+    - name: 'news' # Used in routes, e.g., /admin/collections/news
+      label: 'News 最新新聞' # Used in the UI
+      label_singular: News Post
+      folder: 'content/news' # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      slug: '{{slug}}' # Filename template, e.g., my-title.md
+      preview_path: en/news/{{slug}}
+
+      # Same as the top level i18n config, but all fields are optional and
+      # defaults to the top level can also be a boolean to accept the top level
+      # defaults
+      i18n: true
+
+      # SEE https://www.netlifycms.org/docs/widgets#boolean
+      # For notes on the i18n support:
+      # SEE # https://www.netlifycms.org/docs/beta-features/#i18n-support
+      # The field-level i18n config shoudl be true|duplicate or omitted.
+      # Omitting it will cause the field not to be copied over., so that's
+      # probably not wnat is desired.
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+          - { label: 'Summary', name: 'summary', widget: 'string', i18n: true, required: false }
+          - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
+          - {
+                label: 'Navigation',
+                name: 'topic',
+                widget: 'hidden',
+                default: 'eventsnews',
+                i18n: duplicate,
+            }
+          - {
+                label: 'Draft?',
+                name: 'draft',
+                widget: 'hidden',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Hidden?',
+                name: 'hidden',
+                widget: 'hidden',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Chatbot?',
+                name: 'chatbot',
+                widget: 'boolean',
+                default: false,
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image',
+                name: 'cover_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Cover Image Alt Text',
+                name: 'cover_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image',
+                name: 'media_image',
+                widget: 'image',
+                required: false,
+                i18n: duplicate,
+            }
+          - {
+                label: 'Media Image Alt Text',
+                name: 'media_image_alt',
+                widget: 'string',
+                required: false,
+                i18n: duplicate,
+            }
+          #   - label: 'Tags'
+          #     name: 'tags'
+          #     widget: 'relation'
+          #     collection: 'taxonomies'
+          #     file: 'tag_data'
+          #     value_field: 'items.*'
+          #     search_fields: ['items.*']
+          #     multiple: true
+          #     required: false
+          #     i18n: duplicate
+          - label: 'Categories'
+            name: 'categories'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'category_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
+          - {
+                label: 'Style',
+                name: 'style',
+                widget: 'select',
+                options: ['right', 'title', 'hero'],
+                default: 'right',
+                i18n: duplicate,
+                required: false,
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
+
+    - name: 'taxonomies'
+      label: 'Taxonomies 類別與標籤'
+      editor:
+          preview: false
+      description: >
+          All the tags and categories used throughtout the site.
+      files:
+          - label: 'Tags 標籤'
+            name: 'tag_data'
+            file: 'data/tags.yaml'
+            i18n: false
+            fields:
+                - label: 'Tags 標籤'
+                  name: 'items'
+                  widget: 'list'
+                  summary: '{{fields.name}}'
+                  i18n: false
+                  field: { label: Tag 標籤, name: name, widget: string, i18n: false }
+          - label: 'Categories 類別'
+            name: 'category_data'
+            file: 'data/categories.yaml'
+            i18n: false
+            fields:
+                - label: 'Categories'
+                  name: 'items'
+                  widget: 'list'
+                  summary: '{{fields.name}}'
+                  i18n: false
+                  field: { label: Category 類別, name: name, widget: string, i18n: false }
+          - label: 'Topics 主題'
+            name: 'topic_data'
+            file: 'data/topics.yaml'
+            i18n: false
+            fields:
+                - label: 'Topics'
+                  name: 'items'
+                  widget: 'list'
+                  summary: '{{fields.name}}'
+                  i18n: false
+                  field: { label: Topic 主題, name: name, widget: string, i18n: false }
+
+    # Configure the site. Menus for example
+    - name: 'finder'
+      label: 'Visa Finder 選單'
+      description: 'Content file for the visa finder application'
+      i18n:
+          structure: single_file
+      editor:
+          preview: false
+      files:
+          - label: 'Finder Translation'
+            name: 'finder_translation_data'
+            file: 'data/finder-translation_en_zh.yaml'
+            i18n: true
+            fields:
+                - label: 'Items 選項'
+                  name: 'items'
+                  widget: 'list'
+                  i18n: true
+                  fields:
+                      - { label: Key, name: key, widget: string, i18n: duplicate }
+                      - { label: Translation, name: translation, widget: string, i18n: true }
+          - label: 'Finder Questions'
+            name: 'finder_questions_data'
+            file: 'data/finder-questions_en_zh.yaml'
+            i18n: true
+            fields:
+                - label: 'Items 選項'
+                  name: 'items'
+                  widget: 'list'
+                  i18n: true
+                  sortable_fields: ['tree_id', 'tree_order', 'question_text']
+                  summary: '{{tree_id}} / {{tree_order}} - {{question_text}} - {{qualifications}}'
+                  fields:
+                      - { label: Tree ID, name: tree_id, widget: number, i18n: duplicate }
+                      - { label: Tree order, name: tree_order, widget: number, i18n: duplicate }
+                      - {
+                            label: Next tree ID,
+                            name: next_tree_id,
+                            required: false,
+                            widget: number,
+                            i18n: duplicate,
+                        }
+                      - { label: Question, name: question_text, widget: string, i18n: true }
+                      - {
+                            label: Qualifications,
+                            name: qualifications,
+                            required: false,
+                            widget: list,
+                            allow_add: true,
+                            i18n: true,
+                        }
+          - label: 'Finder Qualifications'
+            name: 'finder_qualifications_data'
+            file: 'data/finder-qualifications_en_zh.yaml'
+            i18n: true
+            fields:
+                - label: 'Items 選項'
+                  name: 'items'
+                  widget: 'list'
+                  i18n: true
+                  sortable_fields: ['ministry', 'regulation_no', 'weight']
+                  summary: '{{ministry}} / Regulation No.: {{regulation_no}} '
+                  fields:
+                      - { label: Ministry, name: ministry, widget: string, i18n: duplicate }
+                      - {
+                            label: Regulation No,
+                            name: regulation_no,
+                            widget: string,
+                            i18n: duplicate,
+                        }
+                      - { label: Weight, name: weight, widget: number, i18n: duplicate }
+                      - { label: Link, name: link, widget: string, i18n: true }
+                      - { label: Info, name: info, widget: string, required: false, i18n: true }
+                      - {
+                            label: Provide,
+                            name: provide,
+                            widget: markdown,
+                            required: false,
+                            i18n: true,
+                        }
+                      - { label: Notes, name: notes, widget: string, required: false, i18n: true }
+
+    - name: 'jobs_config'
+      label: 'Job Lists 求職列表'
+      editor:
+          preview: false
+      files:
+          - label: 'Lists 網址'
+            name: 'job_lists'
+            file: 'data/job_lists.yaml'
+            fields:
+                - label: 'Items 選項'
+                  name: 'items'
+                  widget: 'list'
+                  fields:
+                      - { label: Label, name: label, widget: string }
+                      - { label: URL, name: url, widget: string }
+
+    # Configure the site. Menus for example
+    - name: 'translations'
+      label: 'Translations 翻譯'
+      description: >
+          Translation strings for the site.
+      i18n:
+          structure: single_file
+      editor:
+          preview: false
+      files:
+          - label: 'Translation'
+            name: 'translation_en_zh'
+            file: 'data/translations_en_zh.yaml'
+            i18n: true
+            fields:
+                - label: 'Labels 選項'
+                  name: 'items'
+                  widget: 'list'
+                  i18n: true
+                  fields:
+                      - { label: Identifier, name: id, widget: string, i18n: duplicate }
+                      - { label: Translation, name: translation, widget: string, i18n: true }
+
+    # Configure the site. Menus for example
+    - name: 'config'
+      label: 'Menus 選單'
+      description: >
+          Menu configuration for the site. This is where you will find things
+          like menus and their ordering in the UI.
+      i18n:
+          structure: single_file
+      editor:
+          preview: false
+      files:
+          - label: 'Navigation'
+            name: 'navigation_en_zh'
+            file: 'data/navigation.yaml'
+            i18n: true
+            fields:
+                - label: 'Items 選項'
+                  name: 'items'
+                  widget: 'list'
+                  i18n: true
+                  fields:
+                      - { label: Name, name: name, widget: string, i18n: true }
+                      - { label: Topic, name: topic, widget: string, i18n: true }
+                      - { label: Link, name: link, widget: string, i18n: duplicate }
+                      - label: Dropdown
+                        name: dropdown
+                        widget: object
+                        default: null
+                        required: false
+                        i18n: true
+                        fields:
+                            - {
+                                  label: Image,
+                                  name: image,
+                                  widget: image,
+                                  required: false,
+                                  i18n: duplicate,
+                              }
+                            - {
+                                  label: Text,
+                                  name: text,
+                                  widget: string,
+                                  required: false,
+                                  i18n: true,
+                              }
+                            - label: Links
+                              name: links
+                              widget: list
+                              i18n: true
+                              fields:
+                                  - { label: Name, name: name, widget: string, i18n: true }
+                                  - { label: Link, name: link, widget: string, i18n: duplicate }
+                            - label: Items
+                              name: items
+                              summary: '{{fields.name}}'
+                              widget: list
+                              i18n: true
+                              field: { label: Name, name: name, widget: string, i18n: true }
