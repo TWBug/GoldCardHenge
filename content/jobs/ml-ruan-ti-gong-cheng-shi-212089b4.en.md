@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '33175'
-title: AI 軟體工程師
+title: ML 軟體工程師
 job_url: 'https://www.cakeresume.com/companies/chimes-ai/jobs/ai-software-engineer'
 date: 2021-10-13T02:36:44.030Z
 company_name: Chimes AI
@@ -20,9 +20,6 @@ location_list:
   - Taiwan
   - ', Taiwan'
   - 'Taipei, Taiwan'
-  - 台灣
-  - ', 台灣'
-  - 台灣台北
 job_tags:
   - Machine Learning
   - R
