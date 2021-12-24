@@ -1,7 +1,7 @@
 # For reference, see:
 # https://github.com/gohugoio/hugoDocs/blob/master/netlify.toml
 [build]
-command = "npm run build:finder && npm run build:staging"
+command = "chmod a+x ./scripts/netlify-build.sh"
 publish = "public"
 timeout = 80000
 

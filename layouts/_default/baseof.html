@@ -8,11 +8,23 @@
         {{ partial "head" . }}
         {{ block "head" . }}
         {{ partial "head/alpine" ( dict "spruce" "false" "cdn" .Site.Params.loadFromCDN "fetch" "true" ) }}
-        {{ end }}       
+        {{ end }}
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KWN2QRW');</script>
+        <!-- End Google Tag Manager -->
     </head>
     {{ if eq .Site.Language.Lang "zh" }}
     <body
-    class="bg-white font-chinese leading-relaxed tracking-wide text-base text-gray-800 print:text-black font-light hyphens antialiased">        
+    class="bg-white font-chinese leading-relaxed tracking-wide text-base text-gray-800 print:text-black font-light hyphens antialiased">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWN2QRW"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
     {{ else }}
     <body
     class="bg-white font-sans leading-relaxed tracking-wide text-base text-gray-800 print:text-black font-light hyphens antialiased">
