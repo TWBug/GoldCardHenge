@@ -37,14 +37,14 @@ window.languageDetection = {
      */
     cleanURL(str) {
         const u = new URL(str);
-        const whitelist = ['staging.taiwangoldcard.tw', 'goldcard.nat.gov.tw'];
+        const whitelist = ['hengetech.com.tw'];
         if (process.env.NODE_ENV !== 'production') {
             console.warn('%cDev URLs enabled', 'color:red;background:yellow;');
             whitelist.push('localhost:1313');
         }
         if (!whitelist.includes(u.host)) {
             console.warn(`%cNon whitelisted URL: ${str}!`, 'color:red;background:yellow;');
-            u.host = 'goldcard.nat.gov.tw';
+            u.host = 'hengetech.com.tw';
         }
 
         // NOTE: The string is automatically URI encoded, so no need for manual
