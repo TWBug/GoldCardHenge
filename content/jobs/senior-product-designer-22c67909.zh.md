@@ -8,7 +8,7 @@ title: Senior Product Designer
 job_url: >-
   https://www.cakeresume.com/companies/oursong/jobs/senior-product-designer-840ca1
 date: 2021-10-05T02:04:59.953Z
-company_name: OURSONG
+company_name: OurSong
 company_page_url: 'https://www.cakeresume.com/companies/oursong'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--krt4DuSZ--/c_pad,fl_png8,h_200,w_200/v1619145737/cwfrpvyc2rvmpdwzhoug.png
