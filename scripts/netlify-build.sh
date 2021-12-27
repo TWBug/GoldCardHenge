@@ -1,6 +1,8 @@
 # This script is responsible for conditionally building parts of the app in our
 # netlify environment. Initially created to alleviate long build-times in the
 # front-end codebase which were unrelated to content changes.
+
+set -x  # output result of this script
 main() {
     local non_content_changelist="$(git diff --name-only HEAD^ HEAD -- . ':!content/')"
     local content_changelist="$(git diff --name-only HEAD^ HEAD -- content/)"
