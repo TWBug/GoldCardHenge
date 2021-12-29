@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '25735'
-title: 智慧醫療_人工智慧/機器學習研發工程師 (AI/ML Engineer)
+title: 智慧醫療_人工智慧/機器學習研發工程師 (AI/ML Engineer)；同步開放學期實習、暑期實習申請
 job_url: >-
   https://www.cakeresume.com/companies/neurobittech/jobs/smart-medical_algorithm-engineer-biomedical-signal
 date: 2020-12-28T03:57:05.963Z
