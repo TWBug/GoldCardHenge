@@ -11,11 +11,11 @@ company_name: '泰雅科技股份有限公司 '
 company_page_url: 'https://www.cakeresume.com/companies/atayalan'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--kL2b25mg--/c_pad,fl_png8,h_200,w_200/v1636437378/ycdd56x7chu49pqyjrpm.png
-salary_text: TWD1000000 - TWD1800000
+salary_text: TWD1 - TWD1
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1000000
-salary_max: 1800000
+salary_min: 1
+salary_max: 1
 location_list: []
 job_tags: []
 badges:
@@ -23,4 +23,4 @@ badges:
 
 ---
 
-Must Have Bachelor with 5 years of industrial experience in front-end design, or Master in Electrical Engineering, Computer Science with 3-years of experience in the relevant areas. hands-on experience in building web applications using jQuery, BootstrapReact, JavaScript, CSS, HTML, AJAX, JSON, webpack, etc. Optional/Plus Experience in “Responsive Design” implementations. Experience with modern frontend frameworks, including but not limited to ReactJS / Vue.js / Angular. Knowledge and experience
+* Salary will be commensurate with experience * Must Have Bachelor with 5 years of industrial experience in front-end design, or Master in Electrical Engineering, Computer Science with 3-years of experience in the relevant areas. hands-on experience in building web applications using jQuery, BootstrapReact, JavaScript, CSS, HTML, AJAX, JSON, webpack, etc. Optional/Plus Experience in “Responsive Design” implementations. Experience with modern frontend frameworks, including but not limited to Reac
