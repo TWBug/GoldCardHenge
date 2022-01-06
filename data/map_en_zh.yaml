@@ -133,7 +133,7 @@ en:
           local: 'Taipei, Taiwan'
           description: 'User Experience Design'
           image: 'member-diana-n.jpg'
-        - name: 'Wilson Huang.'
+        - name: 'Wilson Huang'
           left: 34.78
           top: 50.58
           origin: 'Taipei'
