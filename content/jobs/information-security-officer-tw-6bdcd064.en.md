@@ -21,6 +21,9 @@ location_list:
   - Taiwan
   - ', Taiwan'
   - 'Taipei, Taiwan'
+  - 台灣
+  - ', 台灣'
+  - 台灣台北
 job_tags:
   - Information Security
   - 資訊安全
