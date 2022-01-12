@@ -19,10 +19,8 @@ salary_min: 1500000
 salary_max: 2000000
 location_list:
   - Taiwan
-  - ', Taiwan'
   - 'Taipei, Taiwan'
   - 台灣
-  - ', 台灣'
   - 台灣台北
 job_tags:
   - IOS

@@ -19,10 +19,8 @@ salary_min: 800000
 salary_max: 1800000
 location_list:
   - Taiwan
-  - ', Taiwan'
   - 'Taipei, Taiwan'
   - 台灣
-  - ', 台灣'
   - 台灣台北
 job_tags:
   - Java

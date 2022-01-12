@@ -19,7 +19,6 @@ salary_min: 1300000
 salary_max: 1800000
 location_list:
   - Taiwan
-  - ', Taiwan'
   - 'Taipei, Taiwan'
 job_tags:
   - Security

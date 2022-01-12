@@ -18,7 +18,6 @@ salary_min: 10000000
 salary_max: 1500000
 location_list:
   - Taiwan
-  - ', Taiwan'
   - 'Hsinchu, Hsinchu City, Taiwan'
 job_tags: []
 badges:

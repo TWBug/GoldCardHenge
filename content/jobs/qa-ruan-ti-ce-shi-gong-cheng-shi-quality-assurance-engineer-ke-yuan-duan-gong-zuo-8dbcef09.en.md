@@ -19,10 +19,8 @@ salary_min: 700000
 salary_max: 1400000
 location_list:
   - Taiwan
-  - ', Taiwan'
   - 'Taipei, Taiwan'
   - 台灣
-  - ', 台灣'
   - 台灣台北
 job_tags:
   - 功能測試

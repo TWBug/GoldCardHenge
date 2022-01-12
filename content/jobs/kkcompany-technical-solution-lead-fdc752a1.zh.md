@@ -19,10 +19,8 @@ salary_min: 1000000
 salary_max: 1400000
 location_list:
   - Taiwan
-  - ', Taiwan'
   - 'Taipei, Taiwan'
   - 台灣
-  - ', 台灣'
   - 台灣台北
   - 'Taipei City, Taiwan'
   - 'Nangang District, Taipei City, Taiwan 115'

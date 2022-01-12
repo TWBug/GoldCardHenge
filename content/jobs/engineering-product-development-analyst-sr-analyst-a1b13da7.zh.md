@@ -19,7 +19,6 @@ salary_min: 800000
 salary_max: 2500000
 location_list:
   - Taiwan
-  - ', Taiwan'
   - 'Taipei, Taiwan'
 job_tags: []
 badges:

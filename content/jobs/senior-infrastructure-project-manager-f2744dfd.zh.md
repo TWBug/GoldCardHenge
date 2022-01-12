@@ -19,7 +19,6 @@ salary_min: 1700000
 salary_max: 0
 location_list:
   - Taiwan
-  - ', Taiwan'
   - 'Taipei, Taiwan'
 job_tags:
   - Infrastructure

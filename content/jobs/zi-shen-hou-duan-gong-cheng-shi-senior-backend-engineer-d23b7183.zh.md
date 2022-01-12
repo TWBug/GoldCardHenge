@@ -19,7 +19,6 @@ salary_min: 800000
 salary_max: 2000000
 location_list:
   - Taiwan
-  - ', Taiwan'
   - 'Zhubei City, Hsinchu County, Taiwan 302'
   - 'Taipei, Taiwan'
 job_tags:

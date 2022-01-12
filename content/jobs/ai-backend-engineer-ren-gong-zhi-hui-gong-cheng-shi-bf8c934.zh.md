@@ -18,10 +18,8 @@ salary_min: 1000000
 salary_max: 1600000
 location_list:
   - Taiwan
-  - ', Taiwan'
   - 'Taipei, Taiwan'
   - 台灣
-  - ', 台灣'
   - 台灣台北
 job_tags:
   - +python

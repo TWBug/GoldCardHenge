@@ -18,7 +18,6 @@ salary_min: 1200000
 salary_max: 1800000
 location_list:
   - Taiwan
-  - ', Taiwan'
   - 'Taipei, Taiwan'
 job_tags:
   - Machine Learning

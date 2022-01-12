@@ -19,10 +19,8 @@ salary_min: 900000
 salary_max: 1500000
 location_list:
   - Taiwan
-  - ', Taiwan'
   - 'East District, Hsinchu City, Taiwan 300'
   - 台灣
-  - ', 台灣'
   - 300台灣新竹市東區
 job_tags:
   - QA Engineer
