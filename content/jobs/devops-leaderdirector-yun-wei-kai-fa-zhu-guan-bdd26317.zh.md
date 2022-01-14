@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
+  https://www.cakeresume.com/jobs?q=enterprise%20architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '34092'
 title: DevOps Leader/Director 運維開發主管
 job_url: 'https://www.cakeresume.com/companies/opennet-limited/jobs/416142'
@@ -30,7 +30,7 @@ job_tags:
   - Kubernetes
   - AWS
 badges:
-  - Software architecture
+  - Enterprise Architecture
 
 ---
 
