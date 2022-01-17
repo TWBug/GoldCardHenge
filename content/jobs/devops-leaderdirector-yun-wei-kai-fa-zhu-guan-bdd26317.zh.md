@@ -29,6 +29,12 @@ job_tags:
   - Docker
   - Kubernetes
   - AWS
+  - Jenkins
+  - Kibana
+  - Grafana
+  - Terraform
+  - Prometheus
+  - Python
 badges:
   - Enterprise Architecture
 

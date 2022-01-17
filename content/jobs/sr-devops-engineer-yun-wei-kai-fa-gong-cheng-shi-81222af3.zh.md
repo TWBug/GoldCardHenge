@@ -23,10 +23,17 @@ location_list:
   - 台灣
   - 台灣台北
 job_tags:
-  - Java
-  - MySQL
   - DevOps
-  - aws
+  - Kubernetes (k8s)
+  - AWS
+  - Docker
+  - CICD
+  - Ansible
+  - Terraform
+  - Jenkins
+  - Kibana
+  - Grafana
+  - Prometheus
 badges:
   - Cloud Computing
 
