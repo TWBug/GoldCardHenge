@@ -11,7 +11,7 @@ date: 2022-01-18T07:55:30.376Z
 company_name: 百睿達有限公司
 company_page_url: 'https://www.cakeresume.com/companies/botrista-technology-taiwan-co-ltd'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--b-Gco6m---/c_pad,fl_png8,h_200,w_200/v1642487071/g3jwi0yp8lovt3xqmasq.png
+  https://media.cakeresume.com/image/upload/s--UNsbF8Ho--/c_pad,fl_png8,h_200,w_200/v1642554750/sximqusrhxwezdxffdzq.png
 salary_text: TWD1000000 - TWD1600000
 salary_currency: TWD
 salary_type: per_year
