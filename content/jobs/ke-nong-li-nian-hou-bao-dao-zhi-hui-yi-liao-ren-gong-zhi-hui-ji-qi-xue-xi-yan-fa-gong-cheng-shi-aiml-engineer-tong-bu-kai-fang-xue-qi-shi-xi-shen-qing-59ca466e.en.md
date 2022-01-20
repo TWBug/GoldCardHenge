@@ -38,4 +38,4 @@ badges:
 
 ---
 
-AI模型建立、即時影像分析與優化、瞳孔定位技術優化、自動校正技術優化、生理數據量化分析、臨床報表設計與優化 # Job description: 1. Use artificial intelligence/machine learning and analytical techniques to build prediction model for medical solutions. 2. Experience in analyzing and extracting valuable information from large amounts of medical data 3. Design, develop and test advanced models for predictive medical applicaiton 4. Co-operate with software and hardware engineering teams to drive real-time model implementations and new feature creations 5
+AI模型建立、即時影像分析與優化、瞳孔定位技術優化、自動校正技術優化、生理數據量化分析、臨床報表設計與優化 # Job description: 1. Use artificial intelligence/machine learning and analytical techniques to build prediction model for medical solutions. 2. Experience in analyzing and extracting valuable information from large amounts of big data 3. Design, develop and test advanced models for predictive medical applicaiton 4. Co-operate with software and hardware engineering teams to drive real-time model implementations and new feature creations 5. De
