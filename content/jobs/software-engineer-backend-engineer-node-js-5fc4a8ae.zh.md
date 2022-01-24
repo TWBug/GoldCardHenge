@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
-data_source_internal_id: '35945'
-title: 'Software Engineer (Backend Engineer- Python) '
+data_source_internal_id: '35948'
+title: Software Engineer (Backend Engineer- Node.js)
 job_url: >-
-  https://www.cakeresume.com/companies/botrista-technology-taiwan-co-ltd/jobs/software-engineer-backend-engineer-python
-date: 2022-01-18T07:35:56.113Z
+  https://www.cakeresume.com/companies/botrista-technology-taiwan-co-ltd/jobs/software-engineer-backend-engineer-node-js
+date: 2022-01-18T07:55:30.376Z
 company_name: 百睿達有限公司
 company_page_url: 'https://www.cakeresume.com/companies/botrista-technology-taiwan-co-ltd'
 company_logo_url: >-
@@ -25,11 +25,14 @@ location_list:
   - '台北市, 台灣'
   - 100台灣台北市中正區
 job_tags:
-  - Python
-  - UNIX
   - Git
+  - Node.js
+  - MongoDB
+  - NoSQL
+  - Express.js
   - Software
-  - IoT
+  - Software Development
+  - Backend Development
 badges:
   - Software
 
