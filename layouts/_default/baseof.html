@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html lang="{{ $language }}">
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         {{ partial "head" . }}
         {{ block "head" . }}
         {{ partial "head/alpine" ( dict "spruce" "false" "cdn" .Site.Params.loadFromCDN "fetch" "true" ) }}
@@ -12,7 +13,15 @@
     </head>
     {{ if eq .Site.Language.Lang "zh" }}
     <body
-    class="bg-white font-chinese leading-relaxed tracking-wide text-base text-gray-800 print:text-black font-light hyphens antialiased">      
+    class="bg-white font-chinese leading-relaxed tracking-wide text-base text-gray-800 print:text-black font-light hyphens antialiased">  
+   <script type="text/javascript">
+  jQuery(function() {
+    jQuery(‘a[href$="/../cms-uploads/the-gold-card-community-guide-to-taiwan.pdf"]’).click(function(){
+      var pdf=jQuery(this).attr(‘href’);
+      gtag(‘event’, ‘download’, { event_category: ‘download’, event_action: ‘pdf’, event_label: pdf});
+    });  
+  });
+</script>
     {{ else }}
     <body
     class="bg-white font-sans leading-relaxed tracking-wide text-base text-gray-800 print:text-black font-light hyphens antialiased">
