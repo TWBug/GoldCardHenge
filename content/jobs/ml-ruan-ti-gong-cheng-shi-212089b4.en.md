@@ -10,7 +10,7 @@ date: 2021-10-13T02:36:44.030Z
 company_name: Chimes AI
 company_page_url: 'https://www.cakeresume.com/companies/chimes-ai'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--8ubZe78q--/c_pad,fl_png8,h_200,w_200/v1633489225/z26hb1xsvma5tjj9rmx8.png
+  https://media.cakeresume.com/image/upload/s--Wh1kOR99--/c_pad,fl_png8,h_200,w_200/v1643077964/vpujzyemou28sdd38ed5.png
 salary_text: TWD1200000 - TWD1800000
 salary_currency: TWD
 salary_type: per_year
