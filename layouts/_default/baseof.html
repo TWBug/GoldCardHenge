@@ -14,11 +14,18 @@
     {{ if eq .Site.Language.Lang "zh" }}
     <body
     class="bg-white font-chinese leading-relaxed tracking-wide text-base text-gray-800 print:text-black font-light hyphens antialiased">   
+    <script type="text/javascript">
+        jQuery(function($){
+        // pdf function
+        $('a[href$="/zh/../cms-uploads/the-gold-card-community-guide-to-taiwan.pdf"]').click(function(){
+        var pdf=jQuery(this).attr('href');
+        window.alert(pdf);
+        return true;
+            }); });
+    </script>
     {{ else }}
     <body
     class="bg-white font-sans leading-relaxed tracking-wide text-base text-gray-800 print:text-black font-light hyphens antialiased">
-    {{ end }}
-
     <script type="text/javascript">
         jQuery(function($){
         // pdf function
@@ -26,9 +33,10 @@
         var pdf=jQuery(this).attr('href');
         window.alert(pdf);
         return true;
-    }); 
-});
-</script>
+            }); });
+    </script>
+    {{ end }}
+   
         <div class="flex flex-col justify-center min-h-screen">
             {{ block "main" . }}
             {{ end }}
