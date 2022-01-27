@@ -211,10 +211,10 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
     }
   }, {
     key: "render",
-    value: function render() {
+    value: async function render() {
       var _this3 = this;
 
-      if (!this.state.show) return null;
+      if (!this.state.show) await return null;
 
       var handleDeploy = function handleDeploy(e) {
         e.preventDefault();
@@ -224,7 +224,7 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
             loading: true
           });
 
-          return fetch('https://api.github.com/repos/tego-tech/www/merges', {
+          await return fetch('https://api.github.com/repos/tego-tech/www/merges', {
             method: 'POST',
             headers: {
               Accept: 'application/vnd.github.v3+json',
@@ -237,27 +237,27 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
               // Merge this branch into the base branch
               commit_message: 'Merged via CMS'
             })
-          }).then(function (res) {
+          }).then(async function (res) {
             if (res.status >= 300) {
-              return Promise.reject(res.text());
+              await return Promise.reject(res.text());
             }
 
             if (res.status === 204) {
-              return Promise.resolve(window.alert('No changes to deploy. Everything is up to date.'));
+              await return Promise.resolve(window.alert('No changes to deploy. Everything is up to date.'));
             }
 
             if (res.status === 209) {
-              return Promise.resolve(window.alert('Conflicting changes. See: https://github.com/tego-tech/www/compare/prod...master'));
+              await return Promise.resolve(window.alert('Conflicting changes. See: https://github.com/tego-tech/www/compare/prod...master'));
             }
 
-            return res.json().then(function (json) {
+            await return res.json().then(async function (json) {
               window.alert('Success!');
             });
-          }).then(function () {
+          }).then(async function () {
             _this3.setState({
               loading: false
             });
-          })["catch"](function (err) {
+          })["catch"](async function (err) {
             _this3.setState({
               loading: false
             });
