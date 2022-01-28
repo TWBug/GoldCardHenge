@@ -16,7 +16,9 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 1
 salary_max: 1
-location_list: []
+location_list:
+  - Taiwan
+  - 'Taipei, Taiwan'
 job_tags: []
 badges:
   - Industrial Engineer

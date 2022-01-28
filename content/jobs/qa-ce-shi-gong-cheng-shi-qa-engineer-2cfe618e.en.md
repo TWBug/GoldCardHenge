@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_type%5D=per_month&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmax%5D=600000
 data_source_internal_id: '36204'
-title: QA 測試工程師 | Q Engineer
+title: QA 測試工程師 | QA Engineer
 job_url: >-
   https://www.cakeresume.com/companies/moment-pet-wellness/jobs/qa-test-engineer-q-engineer
 date: 2022-01-27T12:39:53.793Z
@@ -17,7 +17,9 @@ salary_currency: TWD
 salary_type: per_month
 salary_min: 50000
 salary_max: 70000
-location_list: []
+location_list:
+  - Taiwan
+  - 'Taipei, Taiwan'
 job_tags: []
 badges:
   - QA Engineer
