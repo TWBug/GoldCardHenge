@@ -7,7 +7,7 @@
 // @note Use the test-prod branch when developing this component to avoid
 // unwanted changes to the prod branch.
 // const PROD_BRANCH = 'test-prod';
-const PROD_BRANCH = 'gh-pages(BK)';
+const PROD_BRANCH = 'master';
 
 const TextSpinner = (props) => {
     const [dots, setDots] = React.useState('');
@@ -178,7 +178,7 @@ class DeploymentManager extends React.Component {
                         if (res.status === 209) {
                             return Promise.resolve(
                                 window.alert(
-                                    'Conflicting changes. See: https://github.com/TWBug/GoldCardHenge/compare/gh-pages(BK)...master'
+                                    'Conflicting changes. See: https://github.com/TWBug/GoldCardHenge/compare/master...main'
                                 )
                             );
                         }
