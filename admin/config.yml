@@ -840,12 +840,12 @@ collections:
             required: false
             i18n: duplicate
           - label: 'SubTags'
-            name: 'Subtags'
+            name: 'subtags'
             widget: 'relation'
             collection: 'taxonomies'
             file: 'subtag_data'
-            value_field: 'items.*'
-            search_fields: ['items.*']
+            value_field: 'subtags.*'
+            search_fields: ['subtags.*']
             multiple: true
             required: false
             i18n: duplicate
