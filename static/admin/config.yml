@@ -844,8 +844,8 @@ collections:
             widget: 'relation'
             collection: 'taxonomies'
             file: 'subtag_data'
-            value_field: 'subtags.*'
-            search_fields: ['subtags.*']
+            value_field: 'items.*'
+            search_fields: ['items.*']
             multiple: true
             required: false
             i18n: duplicate
