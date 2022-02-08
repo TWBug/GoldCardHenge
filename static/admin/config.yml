@@ -839,6 +839,16 @@ collections:
             multiple: true
             required: false
             i18n: duplicate
+          - label: 'SubTags'
+            name: 'Subtags'
+            widget: 'relation'
+            collection: 'taxonomies'
+            file: 'subtag_data'
+            value_field: 'items.*'
+            search_fields: ['items.*']
+            multiple: true
+            required: false
+            i18n: duplicate
           - label: 'Weight'
             name: 'weight'
             widget: 'number'
@@ -1363,6 +1373,17 @@ collections:
                   summary: '{{fields.name}}'
                   i18n: false
                   field: { label: Tag 標籤, name: name, widget: string, i18n: false }
+          - label: 'SubTags 次標籤'
+            name: 'subtag_data'
+            file: 'data/subtags.yaml'
+            i18n: false
+            fields:
+                - label: 'SubTags 次標籤'
+                  name: 'items'
+                  widget: 'list'
+                  summary: '{{fields.name}}'
+                  i18n: false
+                  field: { label: SubTag 次標籤, name: name, widget: string, i18n: false }
           - label: 'Categories 類別'
             name: 'category_data'
             file: 'data/categories.yaml'
