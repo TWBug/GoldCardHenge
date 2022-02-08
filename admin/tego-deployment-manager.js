@@ -54,7 +54,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 // @note Use the test-prod branch when developing this component to avoid
 // unwanted changes to the prod branch.
 // const PROD_BRANCH = 'test-prod';
-var PROD_BRANCH = 'prod';
+var PROD_BRANCH = 'gh-pages(BK)';
 
 var TextSpinner = function TextSpinner(props) {
   var _React$useState = React.useState(''),
@@ -217,12 +217,12 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
       var handleDeploy = function handleDeploy(e) {
         e.preventDefault();
 
-        if (window.confirm('Are you sure? If you confirm then the site will be deployed to goldcard.nat.gov.tw.')) {
+        if (window.confirm('Are you sure? If you confirm then the site will be deployed to hengetech.com.tw.')) {
           _this3.setState({
             loading: true
           });
 
-          return fetch('https://api.github.com/repos/tego-tech/www/merges', {
+          return fetch('https://api.github.com/repos/TWBug/GoldCardHenge/merges', {
             method: 'POST',
             headers: {
               Accept: 'application/vnd.github.v3+json',
@@ -245,7 +245,7 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
             }
 
             if (res.status === 209) {
-              return Promise.resolve(window.alert('Conflicting changes. See: https://github.com/tego-tech/www/compare/prod...master'));
+              return Promise.resolve(window.alert('Conflicting changes. See: https://github.com/TWBug/GoldCardHenge/compare/gh-pages(BK)...master'));
             }
 
             return res.json().then(function (json) {
