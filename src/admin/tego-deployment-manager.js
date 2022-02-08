@@ -7,7 +7,7 @@
 // @note Use the test-prod branch when developing this component to avoid
 // unwanted changes to the prod branch.
 // const PROD_BRANCH = 'test-prod';
-const PROD_BRANCH = 'prod';
+const PROD_BRANCH = 'gh-pages(BK)';
 
 const TextSpinner = (props) => {
     const [dots, setDots] = React.useState('');
@@ -149,11 +149,11 @@ class DeploymentManager extends React.Component {
             e.preventDefault();
             if (
                 window.confirm(
-                    'Are you sure? If you confirm then the site will be deployed to goldcard.nat.gov.tw.'
+                    'Are you sure? If you confirm then the site will be deployed to hengetech.com.tw.'
                 )
             ) {
                 this.setState({ loading: true });
-                return fetch('https://api.github.com/repos/tego-tech/www/merges', {
+                return fetch('https://api.github.com/repos/TWBug/GoldCardHenge/merges', {
                     method: 'POST',
                     headers: {
                         Accept: 'application/vnd.github.v3+json',
@@ -178,7 +178,7 @@ class DeploymentManager extends React.Component {
                         if (res.status === 209) {
                             return Promise.resolve(
                                 window.alert(
-                                    'Conflicting changes. See: https://github.com/tego-tech/www/compare/prod...master'
+                                    'Conflicting changes. See: https://github.com/TWBug/GoldCardHenge/compare/gh-pages(BK)...master'
                                 )
                             );
                         }
