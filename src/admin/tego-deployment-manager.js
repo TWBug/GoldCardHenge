@@ -162,7 +162,7 @@ class DeploymentManager extends React.Component {
                     },
                     body: JSON.stringify({
                         base: PROD_BRANCH,
-                        head: 'master', // Merge this branch into the base branch
+                        head: 'main', // Merge this branch into the base branch
                         commit_message: 'Merged via CMS',
                     }),
                 })
