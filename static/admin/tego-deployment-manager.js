@@ -56,7 +56,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 // @note Use the test-prod branch when developing this component to avoid
 // unwanted changes to the prod branch.
 // const PROD_BRANCH = 'test-prod';
-var PROD_BRANCH = 'prod';
+var PROD_BRANCH = 'master';
 
 var TextSpinner = function TextSpinner(props) {
   var _React$useState = React.useState(''),
