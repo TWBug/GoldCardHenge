@@ -231,7 +231,7 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
             },
             body: JSON.stringify({
               base: PROD_BRANCH,
-              head: 'master',
+              head: 'main',
               // Merge this branch into the base branch
               commit_message: 'Merged via CMS'
             })
