@@ -849,7 +849,7 @@ collections:
             search_fields: ['items.*']
             multiple: true
             required: false
-            i18n: duplicate
+            i18n: duplicate            
           - label: 'Weight'
             name: 'weight'
             widget: 'number'
@@ -1366,18 +1366,21 @@ collections:
           - label: 'Tags 標籤'
             name: 'tag_data'
             file: 'data/tags.yaml'
-            i18n: false
+            i18n: false            
             fields:
                 - label: 'Tags 標籤'
                   name: 'items'
                   widget: 'list'
                   summary: '{{fields.name}}'
                   i18n: false
-                  field: { label: Tag 標籤, name: name, widget: string, i18n: false }
+                  field: { label: Tag 標籤, name: name, widget: string, i18n: false }            
           - label: 'SubTags 次標籤'
             name: 'subtag_data'
             file: 'data/subtags.yaml'
             i18n: false
+            nested:
+                  depth: 100 # max depth to show in the collection tree
+                  summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
             fields:
                 - label: 'SubTags 次標籤'
                   name: 'items'
@@ -1385,6 +1388,9 @@ collections:
                   summary: '{{fields.name}}'
                   i18n: false
                   field: { label: SubTag 次標籤, name: name, widget: string, i18n: false }
+            # adding a meta object with a path property allows editing the path of entries
+            # moving an existing entry will move the entire sub tree of the entry to the new location
+            meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
           - label: 'Categories 類別'
             name: 'category_data'
             file: 'data/categories.yaml'
