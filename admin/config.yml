@@ -9,6 +9,7 @@
 backend:
     name: github
     repo: TWBug/GoldcardHenge
+    branch: main
     site_domain: hengetech.com.tw # See NOTE
     #base_url: https://hengetech.com.tw
     #auth_endpoint: api/auth
