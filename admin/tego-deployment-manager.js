@@ -54,7 +54,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 // @note Use the test-prod branch when developing this component to avoid
 // unwanted changes to the prod branch.
 // const PROD_BRANCH = 'test-prod';
-var PROD_BRANCH = 'gh-pages(BK)';
+var PROD_BRANCH = 'master';
 
 var TextSpinner = function TextSpinner(props) {
   var _React$useState = React.useState(''),
@@ -245,7 +245,7 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
             }
 
             if (res.status === 209) {
-              return Promise.resolve(window.alert('Conflicting changes. See: https://github.com/TWBug/GoldCardHenge/compare/gh-pages(BK)...master'));
+              return Promise.resolve(window.alert('Conflicting changes. See: https://github.com/TWBug/GoldCardHenge/compare/master...main'));
             }
 
             return res.json().then(function (json) {
