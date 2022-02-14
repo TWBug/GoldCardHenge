@@ -5,7 +5,7 @@ tags:
   - Test Tag2
   - Application
 subtags:
-  - Test Subtag
+  - SubTag-Application
 weight: 1
 ---
 English FAQ
