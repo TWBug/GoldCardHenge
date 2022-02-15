@@ -11,7 +11,7 @@ date: 2021-11-11T03:57:08.482Z
 company_name: 'BlueX Trade Co., Ltd.'
 company_page_url: 'https://www.cakeresume.com/companies/bluex-trade-co-ltd'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--Q4eBdLNb--/c_pad,fl_png8,h_200,w_200/v1635987138/e0xqbv9ogy4aymxjphiu.png
+  https://media.cakeresume.com/image/upload/s--8nM3zKmx--/c_pad,fl_png8,h_200,w_200/v1644891844/lwqpqxokshocvwzmaes7.png
 salary_text: TWD80000 - TWD150000
 salary_currency: TWD
 salary_type: per_month
