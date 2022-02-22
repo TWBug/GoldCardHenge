@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '36332'
-title: "\U0001F525 2022 快速徵才｜人工智慧圖像技術工程師 (歡迎畢業生)"
+title: "\U0001F525 2022 快速徵才｜人工智慧圖像技術工程師"
 job_url: >-
   https://www.cakeresume.com/companies/perfectcorp/jobs/2022-perfect-artificial-intelligence-image-technology-engineer
 date: 2022-02-07T07:20:14.832Z
