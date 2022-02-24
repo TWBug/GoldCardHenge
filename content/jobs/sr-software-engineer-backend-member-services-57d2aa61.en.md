@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
-data_source_internal_id: '34274'
-title: Sr. Software Engineer - Fullstack (Member Services)
+data_source_internal_id: '34273'
+title: Sr. Software Engineer - Backend (Member Services)
 job_url: >-
-  https://www.cakeresume.com/companies/shopback/jobs/sr-software-engineer-fullstack-member-services
-date: 2021-11-15T15:41:03.220Z
+  https://www.cakeresume.com/companies/shopback/jobs/sr-software-engineer-backend-member-services
+date: 2021-11-15T15:39:21.636Z
 company_name: ShopBack 回饋網股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/shopback'
 company_logo_url: >-
@@ -24,4 +24,4 @@ badges:
 
 ---
 
-[Responsibilities] Architect and build the ShopBack's Web platform. Code with the ability to scale with large data set Drive continuous improvement in the efficiency and flexibility of the platform and services Build and maintain highly scalable and reliable architecture on both front-end and back-end
+[Responsibilities] Design, develop, implement, and maintain new and existing web-based applications Coordinate with engineering to define and prioritize engineering projects. Able to work in a dynamic and diverse engineering culture - every day, we learn from each other, brainstorm and execute ideas, and play ping pong to unwind... Build a great product that impacts consumer online behavior - we’re proud that our product is changing the way people shop online Interest in exploring and learning t
