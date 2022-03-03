@@ -28,7 +28,8 @@ job_tags:
   - AWS
   - DevOps
   - golang
-  - Python
+  - Node.js
+  - Kubernetes (k8s)
 badges:
   - Cyber Security
 

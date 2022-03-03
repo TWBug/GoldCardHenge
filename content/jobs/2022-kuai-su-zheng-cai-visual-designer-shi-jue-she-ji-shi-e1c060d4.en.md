@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '32221'
-title: "\U0001F525 2022 快速徵才｜視覺設計師 (Visual Designer) "
+title: "\U0001F525 2022 快速徵才｜ Visual Designer 視覺設計師"
 job_url: >-
   https://www.cakeresume.com/companies/perfectcorp/jobs/2022-perfect-visual-designer
 date: 2021-09-07T09:29:10.402Z
