@@ -16,7 +16,11 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 1
 salary_max: 1
-location_list: []
+location_list:
+  - Taiwan
+  - 'Taipei, Taiwan'
+  - 台灣
+  - 台灣台北
 job_tags:
   - +Adobe
   - +photoshop
