@@ -11,14 +11,16 @@ company_name: 'Atayalan Taiwan 泰雅科技股份有限公司 '
 company_page_url: 'https://www.cakeresume.com/companies/atayalan'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--WuwMdugd--/c_pad,fl_png8,h_200,w_200/v1642146921/rwrgmsjwfqdnfyzzjnkc.png
-salary_text: TWD1 - TWD1
+salary_text: TWD1500000 - TWD1
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1
+salary_min: 1500000
 salary_max: 1
 location_list:
   - Taiwan
   - 'Taipei, Taiwan'
+  - 台灣
+  - 台灣台北
 job_tags: []
 badges:
   - Industrial Engineer
