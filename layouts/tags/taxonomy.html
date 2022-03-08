@@ -108,7 +108,7 @@
                            {{ $subtag := .Site.GetPage "/subtags" }}                           
                                <li>{{ $subtag.Title }}</li>
                                {{ range .Site.Data.subtags }}
-                               <li>{{.items}}</li>
+                               <li>{{.}}</li>
                                {{end}}
                                
                                                      
