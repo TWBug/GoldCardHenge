@@ -107,8 +107,8 @@
                             <h1>SubTag position </h1>                              
                                {{ range .Site.Data.subtags }}
                                {{$subtag := . }}
-                               {{string.hasSuffix $subtag "Application"}}
-                               <li>{{.}}</li>
+                               {{if (string.hasSuffix $subtag "Application")}}
+                                 <li>{{.}}</li>
                                {{end}}
                                
                                                      
