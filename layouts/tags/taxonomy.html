@@ -105,11 +105,13 @@
                         </form>
                         <div>
                             <h1>SubTag position </h1>                              
-                               {{ range .Site.Data.subtags }}
-                               {{$subtag := . }}
-                               {{if (string.hasSuffix $subtag "Application")}}
+                               {{ range .Site.Data.subtags }}           
+                               <h1><ul>                  
                                  <li>{{.}}</li>
-                                                        
+                             </ul> 
+                             </h1>                            
+                               {{end}}
+
                                                      
                         </div>
                         <div>
