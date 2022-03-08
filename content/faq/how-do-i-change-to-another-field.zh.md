@@ -3,6 +3,8 @@ title: 我要如何轉換領域？
 draft: false
 tags:
   - Application
+subtags:
+  - Application-SubTag2
 weight: 4
 ---
 進度查詢 → 補正(件)列表 → 檢視 → 修改→ 領域專長
