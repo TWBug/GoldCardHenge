@@ -105,13 +105,9 @@
                         </form>
                         <div>
                             <h1>SubTag position </h1>   
-                            {{ range.Pages }} 
-                                <h1>
-                                   <ul>
-                                    <li><a href="/../subtags/subTag-application">Subtag Link</li>
-                                </ul>
-                            </h1>                            
-                            {{end}}
+                           {{ $subtag := .Site.GetPage "/subtags" }}                           
+                               <li>{{ $subtag.title }}</li>
+                               {{ end }}
                                                      
                         </div>
                         <div>
