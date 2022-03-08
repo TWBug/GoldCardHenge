@@ -110,9 +110,18 @@
                                  <li>{{.}}</li>
                              </ul> 
                              </h1>                            
-                               {{end}}
-
-                                                     
+                               {{end}}                                                     
+                        </div>
+                        <div>
+                            {{$subtag := .Site.GetPage "/subtags"}}
+                            <h1>
+                                <ul>
+                                <li>
+                                    {{ .Data}}
+                                </li>
+                            </ul>
+                        </h1>
+                            
                         </div>
                         <div>
                             <h1>
