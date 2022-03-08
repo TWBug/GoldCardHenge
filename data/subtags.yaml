@@ -1,4 +1,6 @@
 items:
-  - SubTag-Application
-  - Subtag-Tax
-  - SubTag2-Tax
+  - Application-SubTag1
+  - Tax-SubTag1
+  - Application-SubTag2
+  - Family-SubTag1
+  - Application-SubTag3
