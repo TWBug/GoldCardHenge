@@ -3,7 +3,9 @@ title: 如何申請？
 draft: false
 tags:
   - Application
-weight: 100
+subtags:
+  - Application-SubTag3
+weight: 1
 ---
 線上即可申請。請點選申請平台： [外國專業人才申辦窗口平台](https://coa.immigration.gov.tw/coa-frontend/four-in-one/entry/)
 
