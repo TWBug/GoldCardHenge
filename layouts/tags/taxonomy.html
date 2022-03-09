@@ -107,7 +107,7 @@
                         </div>
                     <div >
                         <div class="lg:col-span-2">
-                        <div class="grid lg:grid-cols-5 auto-rows-fr ">
+                        <div class="grid lg:grid-cols-3 auto-rows-fr ">
                         {{ range .Site.Taxonomies.subtags }}                                                
                         {{if strings.HasPrefix .Page.Title $Tag }}                          
                         <a href="{{ .Page.RelPermalink }}" class="flex flex-col border-2 border-gray-200 bg-gradient-to-b from-white to-gray-100 rounded focus-primary" help="{{ .Page.Title | anchorize }}">                          
