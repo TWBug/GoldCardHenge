@@ -1,0 +1,194 @@
+{{ define "head" }}
+{{ partial "head/alpine" ( dict "clipboard" "true" "cdn" .Site.Params.loadFromCDN ) }}
+{{ end }}
+
+{{ define "main" }}
+
+{{ $cover_image := resources.Get "cms-uploads/icon-question.svg" }}
+{{ if .Params.cover_image }}
+{{ $cover_image = resources.Get (printf "%s" (.Params.cover_image | safeURL)) }}
+{{ end }}
+
+<div class="relative bg-blue-500 shadow-xl" rel="taxonomy" type="{{ .Data.Plural }}">
+    {{ partial "navigation" . }}
+    {{ partial "alert" .  }}
+</div>
+
+<div class="relative flex items-center bg-background-light z-0 shadow-xl py-16">
+    <div
+    class="absolute top-0 inset-x-0 h-full bg-gradient-to-b from-gradient to-transparent opacity-25 -z-1"
+    ></div>
+    {{ if .Site.IsServer }}
+    <div class="absolute right-0 top-0 text-xs font-bold bg-black text-white p-2">TAGS TAXONOMY TEMPLATE</div>
+    {{ end }}
+    <div class="absolute bottom-0 right-0 w-2/3 lg:w-1/2 -z-1">
+        <img src="/img/list-mountains-light.svg" alt="" class="block w-full" aria-hidden="true">
+    </div>
+    <div class="container px-12 lg:px-24">
+        <div class="flex flex-col md:flex-row justify-between md:items-center lg:px-24">
+            {{ if $cover_image }}
+            <div class="flex-center w-1/3 md:w-1/4 mb-6">
+                <img src="{{ $cover_image.RelPermalink }}" class="w-full max-h-48 drop-shadow-white" loading="lazy" alt="" />
+            </div>
+            {{ end }}
+            <div class="replace w-full md:w-2/3">
+                {{ $faq := .Site.GetPage "/faq" }}
+                <nav aria-label="breadcrumb">
+                    <div class="text-xs font-semibold mb-4">
+                        <ol class="flex items-center font-bold">
+                            <li class="pr-2">
+                                <a href="{{ .Site.Home.RelPermalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">
+                                    {{ partial "icon" (dict "name" "home" "size" "4") }}
+                                    <span class="ml-2">Home</span>
+                                </a>
+                            </li>
+                            <li class="border-l-2 border-gray-500 border-dashed px-2">
+                                <a href="{{ $faq.RelPermalink }}" class="flex items-center text-primary bg-white rounded focus-primary px-2 py-1">{{ $faq.Title }}</a>
+                            </li>
+                            <li class="border-l-2 border-gray-500 border-dashed px-2">
+                                <span class="flex items-center bg-white rounded px-2 py-1">
+                                    {{ if i18n (.Page.Title | anchorize) }}
+                                    {{ i18n (.Page.Title | anchorize) }}
+                                    {{ else }}
+                                    {{ .Page.Title | humanize }}
+                                    {{ end }}
+                                </span>
+                            </li>
+                        </ol>
+                    </div>
+                </nav>
+                <h1 class="text-5xl leading-tight font-semibold mb-2">
+                    {{ if i18n (.Title | anchorize) }}
+                        {{ i18n (.Title | anchorize) }}
+                    {{ else }}
+                        {{ .Title }}
+                    {{ end }}
+                </h1>
+                {{$Tag := .Title}}
+                <h2 class="text-2xl leading-tight font-semibold mb-2">
+                    {{ $faq.Title }}
+                </h2>
+                <p class="text-lg font-medium leading-relaxed">{{ $faq.Summary | truncate 200 }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="scroll" class="relative flex-grow pt-24">
+    <div
+        class="absolute top-0 inset-x-0 h-full max-h-48 bg-gradient-to-b from-background-light to-white -z-1"
+    ></div>
+    <section>
+        <div class="container pb-12 sm:pb-24 px-8 lg:px-16">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 xl:gap-24">
+                <div class="lg:col-span-2">
+
+                    <div x-data="taFilter()" x-init="init()">
+                        <form>
+                            <div class="flex justify-between items-center border-2 border-gray-800 rounded-lg bg-gradient-to-b from-white to-gray-100 overflow-hidden focus-primary mx-4">
+                                <label for="filter" class="text-secondary pl-4">
+                                    <span class="sr-only">
+                                        {{ i18n "placeholder_filter_faq_list" }}
+                                    </span>
+                                    {{ partial "icon" (dict "name" "filter" "size" "4" "alt" false ) }}
+                                </label>
+                                <input type="text" id="filter" x-ref="input" title="{{ i18n "placeholder_filter_faq_list" }}" class="flex-grow placeholder-gray-400 text-lg font-medium px-4 py-4" placeholder="{{ i18n "placeholder_filter_faq_list" }}" x-model.debounce.250="filter" x-show="initialized" aria-controls="faqs">
+                                <div class="flex-grow text-gray-700 text-lg font-medium px-4 py-4" x-show="!initialized" x-cloak>
+                                    {{ i18n "loading_filter" }}
+                                </div>
+                                <button type="button" class="text-primary px-2 py-1 mr-2 focus-primary" x-show="!is_empty" @click.prevent="resetFilter()">
+                                    <span class="sr-only">
+                                        {{ i18n "reset_filter" }}
+                                    </span>
+                                    {{ partial "icon" (dict "name" "times" "size" "6" "alt" (i18n "reset_filter")) }}
+                                </button>
+                            </div>
+                        </form>   
+                        </div>
+                    <div >                          
+                        <div id="faqs" role="region" aria-live="polite" class="border-b-2 border-secondary border-dashed mt-8">
+                            <div class="text-center font-bold text-xl text-red-800 border-t-2 border-secondary border-dashed p-8" x-show="isNoResult()" x-cloak>
+                                <div class="inline-flex">
+                                    {{ partial "icon" (dict "name" "exclamation" "size" "6") }}
+                                    <span class="ml-2">
+                                        {{ i18n "no_filtered_faq_found" }}
+                                    </span>
+                                </div>
+                            </div>
+                            {{ range $index, $value := (.Pages.ByTitle.Reverse.ByParam "weight").Reverse }}
+
+                            <div x-show="isInResult({{ $index }})"
+                                x-transition:enter="transition transform ease-out duration-200"
+                                x-transition:enter-start="opacity-0 -translate-y-5"
+                                x-transition:enter-end="opacity-100"
+                                x-transition:leave="transition transform ease-in duration-100"
+                                x-transition:leave-start="opacity-100"
+                                x-transition:leave-end="opacity-0 -translate-y-5"
+                            >
+                                <div class="border-t-2 border-secondary border-dashed p-4" x-data="taAccordion()" x-init="init()" data-clipboard="true" data-title-show="{{ i18n "show_answer" }}" data-title-hide="{{ i18n "hide_answer" }}">
+                                    <button
+                                        id="{{ printf "faq-button-%d" $index }}"
+                                        type="button"
+                                        x-ref="button"
+                                        :title="title"
+                                        aria-controls="{{ printf "faq-answer-%d" $index }}"
+                                        @click.prevent="toggle()"
+                                        class="w-full text-left flex items-center justify-between text-primary px-2 -ml-2 focus-primary"
+                                    >
+                                        <span class="text-gray-800 text-lg font-bold py-2 pr-4">{{ .Title }}</span>
+                                        <span x-show="!show"> {{ partial "icon" (dict "name" "plus" "size" "6" "alt" (i18n "show_answer") ) }} </span>
+                                        <span x-show="show" x-cloak> {{ partial "icon" (dict "name" "minus" "size" "6" "alt"  (i18n "hide_answer") ) }} </span>
+                                    </button>
+                                    <noscript>
+                                        <div class="copy">
+                                            {{ .Content }}
+                                        </div>
+                                    </noscript>
+                                    <div
+                                        id="{{ printf "faq-answer-%d" $index }}"
+                                        class="pt-6 pb-2"
+                                        aria-labelledby="{{ printf "faq-button-%d" $index }}"
+                                        :aria-expanded="show"
+                                        x-show="show"
+                                        x-transition:enter="transition transform ease-out duration-200"
+                                        x-transition:enter-start="opacity-0 -translate-y-5"
+                                        x-transition:enter-end="opacity-100"
+                                        x-transition:leave="transition transform ease-in duration-100"
+                                        x-transition:leave-start="opacity-100"
+                                        x-transition:leave-end="opacity-0 -translate-y-5"
+                                        x-cloak
+                                    >
+                                        <div class="copy">
+                                            {{ .Content }}
+                                        </div>
+                                        <template x-if="shortcut">
+                                            <div class="w-full text-right">
+                                                <a href="{{ .RelPermalink }}" class="inline-flex items-center font-bold text-primary text-sm leading-snug mb-1 focus-primary" target="_blank" title="{{ i18n "open_in_new_window" }}"
+                                                >
+                                                {{ i18n "open_in_new_window" }}
+                                                </a>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </div>
+                            </div>
+                            {{ end }}
+                            {{ if .Content }}
+                            <div class="copy">{{ .Content }}</div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+                <div class="-mt-12">
+                    {{ partial "aside/all-tags" . }}
+                    {{ partial "aside/latest-article" . }}
+                    {{ if eq .Params.chatbot true }}
+                    {{ partial "aside/timezone" . }}
+                    {{ end }}
+                    {{ partial "aside/apply-now" . }}
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{{end}}
