@@ -26,10 +26,15 @@ location_list:
   - '台北市, 台灣'
   - 110台灣台北市信義區
 job_tags:
-  - Photoshop
-  - Illustrator
   - UI/UX Designer
   - 設計
+  - User Research
+  - User Experience Design
+  - User Interface Design
+  - 用戶體驗
+  - 使用者研究
+  - 使用者經驗設計
+  - 使用者介面
 badges:
   - Designer
 

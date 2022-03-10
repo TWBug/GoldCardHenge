@@ -18,13 +18,25 @@ salary_type: per_year
 salary_min: 1150000
 salary_max: 1700000
 location_list:
-  - 台北
-  - 信義區
+  - Taiwan
+  - 'Taipei City, Taiwan'
+  - 'Xinyi District, Taipei City, Taiwan 110'
+  - 台灣
+  - '台北市, 台灣'
+  - 110台灣台北市信義區
+  - 'Taipei, Taiwan'
+  - 台灣台北
 job_tags:
-  - photoshop
-  - illustrator
   - UI/UXDesign
   - 設計
+  - 用戶體驗
+  - User Research
+  - User Experience Design
+  - User Interface Design
+  - 使用者經驗設計
+  - 使用者介面
+  - 使用者研究
+  - 使用者訪談
 badges:
   - Designer
 

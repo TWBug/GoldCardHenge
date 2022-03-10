@@ -4,17 +4,17 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '32663'
-title: Front-end Engineer
+title: Frontend Engineer
 job_url: 'https://www.cakeresume.com/companies/atayalan/jobs/front-end-engineer-943b9f'
 date: 2021-09-23T10:52:02.473Z
 company_name: 'Atayalan Taiwan 泰雅科技股份有限公司 '
 company_page_url: 'https://www.cakeresume.com/companies/atayalan'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--WuwMdugd--/c_pad,fl_png8,h_200,w_200/v1642146921/rwrgmsjwfqdnfyzzjnkc.png
-salary_text: TWD1500000 - TWD1
+salary_text: TWD1 - TWD1
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1500000
+salary_min: 1
 salary_max: 1
 location_list:
   - Taiwan
