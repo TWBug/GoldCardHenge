@@ -136,8 +136,7 @@
                                         aria-controls="{{ printf "faq-answer-%d" $index }}"
                                         @click.prevent="toggle()"
                                         class="w-full text-left flex items-center justify-between text-primary px-2 -ml-2 focus-primary"
-                                    >
-                                    
+                                    >                                    
                                         <span class="text-gray-800 text-lg font-bold py-2 pr-4">{{ print $Number "." .Title }}</span>                                        
                                         <span x-show="!show"> {{ partial "icon" (dict "name" "plus" "size" "6" "alt" (i18n "show_answer") ) }} </span>
                                         <span x-show="show" x-cloak> {{ partial "icon" (dict "name" "minus" "size" "6" "alt"  (i18n "hide_answer") ) }} </span>
