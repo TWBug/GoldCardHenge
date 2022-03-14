@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
-data_source_internal_id: '32505'
-title: Software Engineer - Frontend
+data_source_internal_id: '31035'
+title: Software Engineer - Backend
 job_url: >-
-  https://www.cakeresume.com/companies/keego-mobility/jobs/software-engineer-frontend-bffe6f
-date: 2021-09-15T08:57:28.837Z
+  https://www.cakeresume.com/companies/keego-mobility/jobs/software-engineer-backend-bffe6f
+date: 2021-07-28T07:55:23.667Z
 company_name: Keego Mobility
 company_page_url: 'https://www.cakeresume.com/companies/keego-mobility'
 company_logo_url: >-
@@ -23,8 +23,10 @@ location_list:
   - 台灣
   - 台灣台北
 job_tags:
-  - React.js
-  - HTML/CSS
+  - AWS
+  - Node.js
+  - SQL
+  - NoSQL
 badges:
   - Software
 
