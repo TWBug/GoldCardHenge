@@ -19,8 +19,6 @@ salary_max: 1500000
 location_list:
   - Taiwan
   - 'Taipei, Taiwan'
-  - 台灣
-  - 台灣台北
 job_tags:
   - fullstack
   - Node.js

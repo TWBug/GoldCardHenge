@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
-data_source_internal_id: '36542'
-title: SR IT SOFTWARE ENGINEER 軟體工程師
+data_source_internal_id: '31377'
+title: Software Development Engineer 軟體工程師
 job_url: >-
-  https://www.cakeresume.com/companies/micron-technology-taiwan/jobs/sr-it-software-engineer-software-engineer
-date: 2022-02-11T06:44:25.929Z
+  https://www.cakeresume.com/companies/micron-technology-taiwan/jobs/software-development-engineer-taoyuan
+date: 2021-08-09T10:04:12.821Z
 company_name: Micron Technology 台灣美光
 company_page_url: 'https://www.cakeresume.com/companies/micron-technology-taiwan'
 company_logo_url: >-
@@ -25,12 +25,13 @@ location_list:
   - '桃園市, 台灣'
   - 333台灣桃園市龜山區
 job_tags:
-  - perl
+  - C#
+  - C
+  - C++
+  - Java
   - Database
-  - c/c++
-  - c#
-  - unix
-  - Semiconductor
+  - SQL
+  - Perl
 badges:
   - Software
 
