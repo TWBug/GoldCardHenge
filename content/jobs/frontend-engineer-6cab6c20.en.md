@@ -27,4 +27,4 @@ badges:
 
 ---
 
-* Salary will be commensurate with experience * Must Have Bachelor with 5 years of industrial experience in front-end design, or Master in Electrical Engineering, Computer Science with 3-years of experience in the relevant areas. hands-on experience in building web applications using jQuery, BootstrapReact, JavaScript, CSS, HTML, AJAX, JSON, webpack, etc. Optional/Plus Experience in “Responsive Design” implementations. Experience with modern frontend frameworks, including but not limited to Reac
+* Salary will be commensurate with experience * Must Have Bachelor with 3 years of industrial experience in front-end design, or Master in Electrical Engineering, Computer Science with 3-years of experience in the relevant areas. hands-on experience in building web applications using jQuery, BootstrapReact, JavaScript, CSS, HTML, AJAX, JSON, webpack, etc. Optional/Plus Experience in “Responsive Design” implementations. Experience with modern frontend frameworks, including but not limited to Reac
