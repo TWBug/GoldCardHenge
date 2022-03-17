@@ -38,4 +38,4 @@ badges:
 
 ---
 
-【About Botrista】 Have you ever wanted to work in a start-up; experiencing the fast pace of hyper-growth, build a business & learn all about fundamentals, and have the opportunity to learn about a wide range of functions and roles? Then join us at Botrista! Botrista is the first high deployment, light asset, robot-as-a-service company serving commercial customers. We are introducing a fully integrated & turnkey solution to enable food service operators to capture more value through automation. Bo
+About Botrista Have you ever wanted to work in a start-up; experiencing the fast pace of hyper-growth, build a business & learn all about fundamentals, and have the opportunity to learn about a wide range of functions and roles? Then join us at Botrista! Botrista is the first high deployment, light asset, robot-as-a-service company serving commercial customers. We are introducing a fully integrated & turnkey solution to enable food service operators to capture more value through automation. Botr
