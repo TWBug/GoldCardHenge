@@ -16,5 +16,5 @@ steps:
     git checkout main
     git add .
     git commit -m "autoSync"
-    git push https://dev.azure.com/TWBug/goldcardBK/_git/GoldCardHenge
+    git push https://dev.azure.com/hengetech/SyncTest/_git/GoldCardHenge
   displayName: 'Run a sync script'
