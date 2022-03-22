@@ -31,6 +31,7 @@ job_tags:
   - Frontend
   - functional programming
   - Backend
+  - Ako
 badges:
   - Software
 

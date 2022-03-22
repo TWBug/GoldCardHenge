@@ -17,7 +17,12 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 1800000
 location_list:
-  - 台北
+  - Taiwan
+  - 'Taipei City, Taiwan'
+  - 'Zhongzheng District, Taipei City, Taiwan 100'
+  - 台灣
+  - '台北市, 台灣'
+  - 100台灣台北市中正區
 job_tags: []
 badges:
   - Cyber Security

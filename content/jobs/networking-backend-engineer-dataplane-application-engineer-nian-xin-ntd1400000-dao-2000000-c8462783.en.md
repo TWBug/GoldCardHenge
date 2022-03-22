@@ -4,7 +4,9 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '28796'
-title: 'Network Dataplane 工程師 dataplane engineer (年薪NTD1,400,000到2,000,000)'
+title: >-
+  Networking backend engineer / Dataplane application engineer
+  (年薪NTD1,400,000到2,000,000)
 job_url: 'https://www.cakeresume.com/companies/appaegis/jobs/039a65'
 date: 2021-04-20T16:47:02.781Z
 company_name: Appaegis Inc. 美商安佩科技股份有限公司
@@ -17,8 +19,17 @@ salary_type: per_year
 salary_min: 1400000
 salary_max: 2000000
 location_list:
-  - 台北
-job_tags: []
+  - Taiwan
+  - 'Taipei City, Taiwan'
+  - 'Zhongzheng District, Taipei City, Taiwan 100'
+  - 台灣
+  - '台北市, 台灣'
+  - 100台灣台北市中正區
+job_tags:
+  - Kubernetes (k8s)
+  - Networking
+  - Linux
+  - proxy
 badges:
   - Software architecture
 

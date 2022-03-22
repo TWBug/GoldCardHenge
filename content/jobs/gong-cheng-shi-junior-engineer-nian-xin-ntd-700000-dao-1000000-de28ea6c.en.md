@@ -18,9 +18,11 @@ salary_min: 700000
 salary_max: 1000000
 location_list:
   - Taiwan
-  - 'Taipei, Taiwan'
+  - 'Taipei City, Taiwan'
+  - 'Zhongzheng District, Taipei City, Taiwan 100'
   - 台灣
-  - 台灣台北
+  - '台北市, 台灣'
+  - 100台灣台北市中正區
 job_tags:
   - node.js
   - Kubernetes (k8s)
