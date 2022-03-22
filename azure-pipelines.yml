@@ -10,6 +10,8 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+- checkout: self
+  persistCredentials: true
 - script: |
     git clone https://github.com/TWBug/GoldCardHenge.git
     git config --global user.name "TWBug"
