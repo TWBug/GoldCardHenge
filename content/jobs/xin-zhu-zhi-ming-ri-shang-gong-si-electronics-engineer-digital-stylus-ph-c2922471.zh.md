@@ -8,7 +8,7 @@ title: 新竹知名日商公司 - Electronics Engineer (Digital Stylus) - PH
 job_url: >-
   https://www.cakeresume.com/companies/cakeresume-recruitment-consulting/jobs/f0eec0
 date: 2022-03-10T04:14:44.387Z
-company_name: CakeResume Headhunting Service 獵才顧問
+company_name: CakeResume Headhunting Recruitment Service
 company_page_url: 'https://www.cakeresume.com/companies/cakeresume-recruitment-consulting'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--mLEE21uB--/c_pad,fl_png8,h_200,w_200/v1620881212/vdbipassrdfr8omwzeq6.png

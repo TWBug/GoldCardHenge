@@ -8,7 +8,7 @@ title: 半導體設備外商 - Software Test Engineer - 新竹市 - PH
 job_url: >-
   https://www.cakeresume.com/companies/cakeresume-recruitment-consulting/jobs/cd1820
 date: 2022-02-22T08:54:16.762Z
-company_name: CakeResume Headhunting Service 獵才顧問
+company_name: CakeResume Headhunting Recruitment Service
 company_page_url: 'https://www.cakeresume.com/companies/cakeresume-recruitment-consulting'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--mLEE21uB--/c_pad,fl_png8,h_200,w_200/v1620881212/vdbipassrdfr8omwzeq6.png

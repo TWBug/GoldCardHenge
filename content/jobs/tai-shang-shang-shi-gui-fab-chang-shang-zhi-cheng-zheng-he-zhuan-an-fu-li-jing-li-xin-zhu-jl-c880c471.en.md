@@ -8,7 +8,7 @@ title: 台商上市櫃Fab廠商 - 製程整合專案 副理/經理 - 新竹 - JL
 job_url: >-
   https://www.cakeresume.com/companies/cakeresume-recruitment-consulting/jobs/d3b893
 date: 2022-01-28T06:52:32.690Z
-company_name: CakeResume Headhunting Service 獵才顧問
+company_name: CakeResume Headhunting Recruitment Service
 company_page_url: 'https://www.cakeresume.com/companies/cakeresume-recruitment-consulting'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--mLEE21uB--/c_pad,fl_png8,h_200,w_200/v1620881212/vdbipassrdfr8omwzeq6.png

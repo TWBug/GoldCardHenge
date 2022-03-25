@@ -8,7 +8,7 @@ title: "Hot\U0001F525 – 優質外商 Fintech Company 首批台灣團隊 look f
 job_url: >-
   https://www.cakeresume.com/companies/cakeresume-recruitment-consulting/jobs/fefe34
 date: 2021-08-01T10:15:28.996Z
-company_name: CakeResume Headhunting Service 獵才顧問
+company_name: CakeResume Headhunting Recruitment Service
 company_page_url: 'https://www.cakeresume.com/companies/cakeresume-recruitment-consulting'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--mLEE21uB--/c_pad,fl_png8,h_200,w_200/v1620881212/vdbipassrdfr8omwzeq6.png
