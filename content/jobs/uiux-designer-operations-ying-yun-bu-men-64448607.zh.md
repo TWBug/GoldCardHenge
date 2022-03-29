@@ -32,4 +32,4 @@ badges:
 
 ---
 
-- Provide the professional quality of design in terms of image format, and other design elements. - Present design outcomes based on the overall design roadmap as well as design rationales and fundamental principles. - Execute all UI design stages from wireframe to final hand-off to engineering and ensure its consistent quality. - Establish and promote design guidelines and libraries, best practices, and standards. - Create Sprite Sheet Animation.
+- Provide the professional quality of design in terms of image format, and other design elements. - Present design outcomes based on the overall design roadmap as well as design rationales and fundamental principles. - Execute all UI design stages from wireframe to final hand-off to engineering and ensure its consistent quality. - Establish and promote design guidelines and libraries, best practices, and standards. - Create Sprite Sheet Animation. ※ Product line: Game
