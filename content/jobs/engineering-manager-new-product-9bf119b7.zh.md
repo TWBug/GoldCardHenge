@@ -12,10 +12,10 @@ company_name: Splashtop Inc.
 company_page_url: 'https://www.cakeresume.com/companies/splashtop'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--2gHRMc4p--/c_pad,fl_png8,h_200,w_200/v1577246016/q3dazcv6tw7gx2xygu4y.png
-salary_text: TWD1000000 - TWD2500000
+salary_text: TWD2000000 - TWD2500000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1000000
+salary_min: 2000000
 salary_max: 2500000
 location_list:
   - Taiwan
