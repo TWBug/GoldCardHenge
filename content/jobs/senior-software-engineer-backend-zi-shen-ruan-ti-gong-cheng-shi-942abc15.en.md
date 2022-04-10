@@ -7,7 +7,7 @@ data_source_internal_id: '38839'
 title: Senior Software Engineer - Backend 資深軟體工程師
 job_url: 'https://www.cakeresume.com/companies/tech-sudoresearch/jobs/076254'
 date: 2022-04-03T18:19:55.673Z
-company_name: 蘇度科技有限公司
+company_name: SuDo Research Labs（蘇度科技有限公司）
 company_page_url: 'https://www.cakeresume.com/companies/tech-sudoresearch'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--FpVB0dfM--/c_pad,fl_png8,h_200,w_200/v1648031400/ep8qaonfyphbzcctkyr8.png
