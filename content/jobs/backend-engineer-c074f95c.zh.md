@@ -11,11 +11,11 @@ company_name: Firstory
 company_page_url: 'https://www.cakeresume.com/companies/firstory'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--WUJB0nzq--/c_pad,fl_png8,h_200,w_200/v1574077940/x8bcfesui7raz2nehikm.png
-salary_text: TWD800000 - TWD1100000
+salary_text: TWD800000 - TWD1200000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 800000
-salary_max: 1100000
+salary_max: 1200000
 location_list: []
 job_tags: []
 badges:
