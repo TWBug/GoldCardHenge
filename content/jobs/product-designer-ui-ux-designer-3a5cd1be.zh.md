@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '39129'
-title: 'Product (UI/UX) Designer '
+title: Product Designer ∥ UI/UX Designer
 job_url: >-
   https://www.cakeresume.com/companies/wi-fi-org/jobs/product-ui-ux-designer-df26c5
 date: 2022-04-12T11:16:53.746Z
@@ -24,9 +24,12 @@ location_list:
   - 台灣台北
 job_tags:
   - Figma
+  - User Interface Design
+  - User Experience Design
+  - Web Design
   - CSS
-  - HTML
-  - Javascript
+  - html
+  - JavaScript
 badges:
   - Designer
 
