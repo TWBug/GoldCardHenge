@@ -30,4 +30,4 @@ badges:
 
 ---
 
-As one of the key engineering teams in the Core Experience Family: We write our code once and deploy it to 9 countries for serving over 30 million users. We make the sign-up/in, authentication, and account management experience seamless and scalable -- peak at 560,000 TPM / 18,000 CCU in the year 2021. We develop analytical systems to minimize fraud to ShopBack and prevent account takeover to protect our users. We build the KYC (Know Your Customer) service that combines with the user identity as
+【Core Identity Service】 As one of the key engineering teams in the Core Experience Family: We write our code once and deploy it to 9 countries for serving over 30 million users. We make the sign-up/in, authentication, and account management experience seamless and scalable -- peak at 560,000 TPM / 18,000 CCU in the year 2021. We develop analytical systems to minimize fraud to ShopBack and prevent account takeover to protect our users. We build the KYC (Know Your Customer) service that combines w
