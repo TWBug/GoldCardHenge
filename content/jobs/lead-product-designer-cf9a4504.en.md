@@ -4,9 +4,9 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '34793'
-title: Product Designer || Senior UI/UX Designer
+title: Lead Product Designer
 job_url: >-
-  https://www.cakeresume.com/companies/down-dating-social-apps/jobs/product-designer-senior-ui-ux-designer
+  https://www.cakeresume.com/companies/down-dating-social-apps/jobs/Lead-Product-Designer
 date: 2021-12-02T23:32:38.421Z
 company_name: DOWN Dating & Social Apps
 company_page_url: 'https://www.cakeresume.com/companies/down-dating-social-apps'
