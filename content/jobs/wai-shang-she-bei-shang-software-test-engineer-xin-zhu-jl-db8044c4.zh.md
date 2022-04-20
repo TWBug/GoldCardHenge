@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=semiconductor&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
-data_source_internal_id: '37700'
-title: 外商設備商 - Customer Service Engineer - 新竹 - JL
+data_source_internal_id: '37697'
+title: 外商設備商 - Software Test Engineer - 新竹 - JL
 job_url: >-
-  https://www.cakeresume.com/companies/cakeresume-recruitment-consulting/jobs/8f2651
-date: 2022-03-08T07:00:27.736Z
+  https://www.cakeresume.com/companies/cakeresume-recruitment-consulting/jobs/d12e22
+date: 2022-03-08T06:47:12.851Z
 company_name: CakeResume Headhunting Recruitment Service
 company_page_url: 'https://www.cakeresume.com/companies/cakeresume-recruitment-consulting'
 company_logo_url: >-
