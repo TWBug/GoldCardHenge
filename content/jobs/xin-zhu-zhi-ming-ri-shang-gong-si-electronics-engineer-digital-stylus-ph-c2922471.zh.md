@@ -20,8 +20,6 @@ salary_max: 1500000
 location_list:
   - Taiwan
   - 'Zhubei City, Hsinchu County, Taiwan 302'
-  - 台灣
-  - 302台灣新竹縣竹北市
 job_tags:
   - HW
   - EE
@@ -31,4 +29,4 @@ badges:
 
 ---
 
-Company Highlight A world's leading provider of innovative digital ink technologies that support all aspects of human creativity. Our tools are widely used and beloved by industry leaders in film and 3D animation, industrial design, digital art, game development and remote education. We're always innovating and always striving to help make the world a more creative place. Responsibilities • Conduct drafting or PCB layout work per requirement of the project. Confirm to the drafting or layout rule
+Company Highlight A world's leading provider of innovative digital ink technologies that support all aspects of human creativity. Our tools are widely used and beloved by industry leaders in film and 3D animation, industrial design, digital art, game development and remote education. We're always innovating and always striving to help make the world a more creative place. Job Purpose Performing circuit board functionality design for Active Electro-Static stylus development; including production 

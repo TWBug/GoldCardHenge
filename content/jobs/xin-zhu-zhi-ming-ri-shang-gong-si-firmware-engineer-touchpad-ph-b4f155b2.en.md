@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
-data_source_internal_id: '37831'
-title: 新竹知名日商公司 - Electronics Engineer (Digital Stylus) - PH
+data_source_internal_id: '39536'
+title: 新竹知名日商公司 - Firmware Engineer (TouchPad) - PH
 job_url: >-
-  https://www.cakeresume.com/companies/cakeresume-recruitment-consulting/jobs/f0eec0
-date: 2022-03-10T04:14:44.387Z
+  https://www.cakeresume.com/companies/cakeresume-recruitment-consulting/jobs/4dc0e5
+date: 2022-04-22T10:39:02.576Z
 company_name: CakeResume Headhunting Recruitment Service
 company_page_url: 'https://www.cakeresume.com/companies/cakeresume-recruitment-consulting'
 company_logo_url: >-
@@ -21,9 +21,11 @@ location_list:
   - Taiwan
   - 'Zhubei City, Hsinchu County, Taiwan 302'
 job_tags:
-  - HW
-  - EE
-  - Digital Stylus
+  - Touchpad
+  - FW
+  - C
+  - ARM
+  - MCU
 badges:
   - Industrial Engineer
 
