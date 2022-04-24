@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=iot%20solutions&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '37940'
-title: Associate Solution Reliability Engineer
+title: Associate DevOps Software Engineer
 job_url: >-
   https://www.cakeresume.com/companies/west-pharmaceutical-services-asia-ltd_/jobs/associate-solution-reliability-engineer
 date: 2022-03-14T02:12:57.969Z
