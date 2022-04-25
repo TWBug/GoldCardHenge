@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=finance&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '39126'
-title: Blockchain Researcher 區塊鏈研究員
+title: 'Blockchain Researcher 區塊鏈研究員 '
 job_url: >-
   https://www.cakeresume.com/companies/tech-sudoresearch/jobs/blockchain-researcher-blockchain-researcher
 date: 2022-04-12T09:53:04.047Z

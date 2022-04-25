@@ -32,4 +32,4 @@ badges:
 
 ---
 
-As a software development engineer in test (SDET) in BlueX Trade, you will design and develop automated tests for both web applications and backend services to speed up the development process and maintain product quality. Moreover, you will collaborate closely with product team, designers and engineers, and become a valued member of an autonomous, cross-functional team. You will help the team to deliver great products and and delight our consumers. Responsibilities - Develop and maintain automa
+Role Summary As a senior software development engineer in test (SDET) in BlueX Trade, you will design and develop automated tests for both web applications and backend services to speed up the development process and maintain product quality. Moreover, you will collaborate closely with product team, designers and engineers, and become a valued member of an autonomous, cross-functional team. You will help the team to deliver great products and delight our consumers. Responsibilities Design, imple

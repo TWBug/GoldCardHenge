@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '38839'
-title: Senior Software Engineer - Backend 資深軟體工程師
+title: 'Senior Software Engineer - Backend 資深軟體工程師 '
 job_url: 'https://www.cakeresume.com/companies/tech-sudoresearch/jobs/076254'
 date: 2022-04-03T18:19:55.673Z
 company_name: SuDo Research Labs（蘇度科技有限公司）
