@@ -8,7 +8,7 @@ title: Software Engineer (Flutter & APP)
 job_url: >-
   https://www.cakeresume.com/companies/bybit-taiwan/jobs/software-engineer-flutter-app
 date: 2022-04-15T07:48:56.728Z
-company_name: bybit Taiwan 維塵有限公司
+company_name: Bybit Taiwan 維塵有限公司
 company_page_url: 'https://www.cakeresume.com/companies/bybit-taiwan'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--oA-e14VO--/c_pad,fl_png8,h_200,w_200/v1649301444/h8g3b381jzu7chk62ya4.png
