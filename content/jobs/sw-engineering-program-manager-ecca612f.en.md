@@ -6,12 +6,12 @@ data_source_url: >-
 data_source_internal_id: '34819'
 title: SW Engineering Program Manager
 job_url: >-
-  https://www.cakeresume.com/companies/plume-fb701f/jobs/sw-engineering-program-manager
+  https://www.cakeresume.com/companies/plume-wifi/jobs/sw-engineering-program-manager
 date: 2021-12-03T15:15:03.306Z
-company_name: Plume 美商野火設計股份有限公司
-company_page_url: 'https://www.cakeresume.com/companies/plume-fb701f'
+company_name: Plume 美商野火設計
+company_page_url: 'https://www.cakeresume.com/companies/plume-wifi'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--to0mH-Tv--/c_pad,fl_png8,h_200,w_200/v1636092517/awebrmj2juxg13tjk9wz.png
+  https://media.cakeresume.com/image/upload/s--Aex4hJNw--/c_pad,fl_png8,h_200,w_200/v1651575028/ll5mohuzjlcovixjpgpp.png
 salary_text: TWD800000 - TWD2000000
 salary_currency: TWD
 salary_type: per_year
