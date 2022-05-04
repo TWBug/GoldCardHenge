@@ -12,11 +12,11 @@ company_name: foodpanda
 company_page_url: 'https://www.cakeresume.com/companies/foodpanda'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--lDWxBcNb--/c_pad,fl_png8,h_200,w_200/v1571369066/au7vxybehtibmj1uedt2.png
-salary_text: TWD2500000 - TWD4000000
+salary_text: TWD2500000 - TWD4500000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 2500000
-salary_max: 4000000
+salary_max: 4500000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
