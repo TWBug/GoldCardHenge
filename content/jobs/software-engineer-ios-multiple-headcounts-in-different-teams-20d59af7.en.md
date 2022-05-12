@@ -3,10 +3,10 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
-data_source_internal_id: '34271'
-title: Software Engineer - Frontend (Multiple headcounts in different teams)
-job_url: 'https://www.cakeresume.com/companies/shopback/jobs/307e89'
-date: 2021-11-15T15:37:14.607Z
+data_source_internal_id: '34272'
+title: Software Engineer - iOS (Multiple headcounts in different teams)
+job_url: 'https://www.cakeresume.com/companies/shopback/jobs/af6d10'
+date: 2021-11-15T15:38:07.287Z
 company_name: ShopBack 回饋網股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/shopback'
 company_logo_url: >-
@@ -23,4 +23,4 @@ badges:
 
 ---
 
-Responsibilities Work closely with our product and design teams to build top-notch user experiences for the ShopBack products Implement the features and user interfaces Build reusable front-end components that drives complex browser applications Optimize, identify and resolve performance and scalability issues with modern browsers Provide technical guidance and mentorship to peers or junior team members for best practices
+Responsibilities Work closely with our product and design teams to build top-notch user experiences for the ShopBack iOS mobile app Build reusable iOS software components for interfacing with our back-end platforms Produce high-quality UI and infrastructure application code, optimize for mobile efficiency and performance Provide technical guidance and mentorship to peers or junior team members for best practices
