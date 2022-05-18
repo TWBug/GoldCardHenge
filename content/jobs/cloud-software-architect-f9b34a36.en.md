@@ -11,7 +11,7 @@ date: 2021-03-17T08:21:35.552Z
 company_name: 'Ubiquiti Inc. '
 company_page_url: 'https://www.cakeresume.com/companies/ubiquiti-inc'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--22WISjUO--/c_pad,fl_png8,h_200,w_200/v1611740283/vlptxxdzviqn01kmpmuy.png
+  https://media.cakeresume.com/image/upload/s--8_tOvfMl--/c_pad,fl_png8,h_200,w_200/v1652866387/xtiubzqy3eub93zondpx.png
 salary_text: TWD1800000 - TWD0
 salary_currency: TWD
 salary_type: per_year
