@@ -12,11 +12,11 @@ company_name: Trunk Studio 創科資訊 - 台北
 company_page_url: 'https://www.cakeresume.com/companies/Trunk-Studio-Taipei'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--hZM8v4zz--/c_pad,fl_png8,h_200,w_200/v1594206731/ukjeqarihchyd6yjmwi5.png
-salary_text: TWD40000 - TWD45000
+salary_text: TWD45000 - TWD75000
 salary_currency: TWD
 salary_type: per_month
-salary_min: 40000
-salary_max: 45000
+salary_min: 45000
+salary_max: 75000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
