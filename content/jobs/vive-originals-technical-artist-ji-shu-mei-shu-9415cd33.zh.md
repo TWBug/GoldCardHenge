@@ -10,7 +10,7 @@ date: 2022-05-11T12:27:37.637Z
 company_name: HTC 宏達國際電子股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/htc'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--7A5fGuZi--/c_pad,fl_png8,h_200,w_200/yogdqowu49ejouq8izp6.png
+  https://media.cakeresume.com/image/upload/s--7A5fGuZi--/c_pad,fl_png8,h_200,w_200/v1653018937/yogdqowu49ejouq8izp6.png
 salary_text: TWD560000 - TWD1000000
 salary_currency: TWD
 salary_type: per_year
