@@ -26,4 +26,4 @@ badges:
 
 ---
 
-Job Summary: The Associate Solution Reliability Engineer, Digital and Transformation requires knowledge and expertise to participate in the enhancement, hosting and maintenance of West IoT solutions. He will work with an international team to bring the power of IoT in the Pharmaceutical space, contributing to a more efficient and effective production flow as well as instrumentally contribute to West Pharma IoT internal and customer facing capabilities. Essential Duties and Responsibilities: Setu
+Job Summary: The Associate DevOps Engineer, Digital and Transformation participates in the enhancement, hosting and maintenance of West IoT solutions. He will work with an international team to bring the power of IoT in the Pharmaceutical space, contributing to a more efficient and effective production flow as well as instrumentally contribute to West Pharma IoT internal and customer facing capabilities. Essential Duties and Responsibilities: Support the installation, configuration, and maintena

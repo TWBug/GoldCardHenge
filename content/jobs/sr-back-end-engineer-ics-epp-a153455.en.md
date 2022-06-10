@@ -12,11 +12,11 @@ company_name: TXOne Networks Inc. 睿控網安股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/txone-networks'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--W-z0Tfrl--/c_pad,fl_png8,h_200,w_200/v1649919248/vgo3bwumqqiblbb1kwwz.png
-salary_text: TWD1100000 - TWD1800000
+salary_text: TWD1000000 - TWD2000000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1100000
-salary_max: 1800000
+salary_min: 1000000
+salary_max: 2000000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'

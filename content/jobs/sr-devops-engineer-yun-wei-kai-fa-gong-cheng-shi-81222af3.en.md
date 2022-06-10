@@ -39,4 +39,4 @@ badges:
 
 ---
 
-Candidate Profile ● The successful candidate will be a self-driven DevOps Engineer with proven experience in large-scale microservice systems hosted on AWS. ● The candidate will have a deep understanding of cloud architecture, AWS technologies, and cloud security best practices. ● The candidate will be following the latest industry trends and be passionate about cloud computing for large-scale systems. Key Responsibilities ● Work in a team of DevOps and DBA professionals – initially 3 people, al
+If you ● Are a self-driven DevOps Engineer with proven experience in large-scale micro-service systems hosted on AWS ● Have a deep understanding of cloud architecture, AWS technologies and cloud security best practices ● Are following the latest industry trends and are passionate about cloud computing for large-scale systems Key Responsibilities ● Work in a team of DevOps and DBA professionals – initially 3 people, although this will expand throughout the country expansion ● Improve existing inf

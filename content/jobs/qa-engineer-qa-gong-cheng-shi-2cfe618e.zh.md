@@ -12,11 +12,11 @@ company_name: Moment Pet Wellness 有牠的生活股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/moment-pet-wellness'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--p473DBV3--/c_pad,fl_png8,h_200,w_200/v1618804080/vjwmvjex3lzurxcfvf7w.png
-salary_text: TWD50000 - TWD60000
+salary_text: TWD50000 - TWD70000
 salary_currency: TWD
 salary_type: per_month
 salary_min: 50000
-salary_max: 60000
+salary_max: 70000
 location_list:
   - Taiwan
   - 'Taipei, Taiwan'
