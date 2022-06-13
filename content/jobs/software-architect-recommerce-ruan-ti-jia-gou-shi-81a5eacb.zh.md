@@ -28,4 +28,4 @@ badges:
 
 ---
 
-About the Carousell company Carousell is the leading classifieds group in Greater Southeast Asia on a mission to inspire the world to start selling, and to make secondhand the first choice. Founded in August 2012 in Singapore, the group has a leading presence in eight markets under the brands Carousell, Mudah.my, Cho Tot, OneKyat and Ox Street, serving tens of millions of monthly active users. We have three technology development centres in Singapore, Taiwan and India, as well as offices in Hong
+About Carousell Carousell is the leading classifieds group in Greater Southeast Asia on a mission to inspire the world to start buying and selling, and to make secondhand the first choice. Founded in August 2012 in Singapore, the group has a leading presence in eight markets under the brands Carousell, Mudah.my, Cho Tot, OneKyat, Ox Street and Refash, serving tens of millions of monthly active users. We have three technology development centers in Singapore, Taiwan, and India, as well as offices
