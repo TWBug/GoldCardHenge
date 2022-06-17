@@ -11,7 +11,7 @@ date: 2022-05-25T03:57:35.947Z
 company_name: ViewSonic International Corporation
 company_page_url: 'https://www.cakeresume.com/companies/viewsonic-international-corporation'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--htiMZUzv--/c_pad,fl_png8,h_200,w_200/tbpy1o9a5dyoftd0j1kc.png
+  https://media.cakeresume.com/image/upload/s--htiMZUzv--/c_pad,fl_png8,h_200,w_200/v1655364380/tbpy1o9a5dyoftd0j1kc.png
 salary_text: TWD620000 - TWD1200000
 salary_currency: TWD
 salary_type: per_year
