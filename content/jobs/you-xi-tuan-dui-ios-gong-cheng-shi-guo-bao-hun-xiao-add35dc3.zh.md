@@ -17,10 +17,7 @@ salary_currency: TWD
 salary_type: per_month
 salary_min: 780000
 salary_max: 1090000
-location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Neihu District, Taipei City, Taiwan 114'
+location_list: []
 job_tags:
   - IOS Development
   - 資安工程師
