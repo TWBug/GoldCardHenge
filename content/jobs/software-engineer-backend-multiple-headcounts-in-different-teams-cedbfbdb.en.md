@@ -3,10 +3,10 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
-data_source_internal_id: '34271'
-title: Software Engineer - Frontend (Multiple headcounts in different teams)
-job_url: 'https://www.cakeresume.com/companies/shopback/jobs/307e89'
-date: 2021-11-15T15:37:14.607Z
+data_source_internal_id: '34270'
+title: Software Engineer - Backend (Multiple headcounts in different teams)
+job_url: 'https://www.cakeresume.com/companies/shopback/jobs/754361'
+date: 2021-11-15T15:36:13.606Z
 company_name: ShopBack 回饋網股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/shopback'
 company_logo_url: >-
@@ -23,4 +23,4 @@ badges:
 
 ---
 
-Responsibilities Work closely with our product and design teams to build top-notch user experiences for the ShopBack products Implement the features and user interfaces Build reusable front-end components that drives complex browser applications Optimize, identify and resolve performance and scalability issues with modern browsers Provide technical guidance and mentorship to peers or junior team members for best practices
+[Responsibilities] Be a leader and project owner, design, develop, implement, and maintain both new and existing web-based applications Design, develop, implement, and maintain both new and existing web-based applications Coordinate with engineering to define and prioritize engineering projects. Able to work in a dynamic and diverse engineering culture - every day, we learn from each other, brainstorm and execute ideas, and play ping pong to unwind... Build a great product that impacts consumer 
