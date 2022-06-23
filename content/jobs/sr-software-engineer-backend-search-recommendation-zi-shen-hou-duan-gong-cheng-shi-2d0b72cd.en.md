@@ -27,4 +27,4 @@ badges:
 
 ---
 
-About Carousell Carousell is the leading classifieds group in Greater Southeast Asia on a mission to inspire the world to start buying and selling, and to make secondhand the first choice. Founded in August 2012 in Singapore, the group has a leading presence in eight markets under the brands Carousell, Mudah.my, Cho Tot, OneKyat, Ox Street and Refash, serving tens of millions of monthly active users. We have three technology development centers in Singapore, Taiwan, and India, as well as offices
+[透過官網申請的人選我們會優先審查] - https://careers.carousell.com/job-posting/?gh_jid=3291262 Overview Carousell Group旋轉拍賣集團是大東南亞區領先的分類買賣集團，使命是鼓勵全球開始銷售，使二手產品成為首選。該集團 於2012年8月在新加坡成立，以Carousell、Mudah.my、Cho Tot、OneKyat、 Ox Street 和 Refash 品牌在八大市場中處於領先地位， 每月為數千萬活躍用戶提供服務。我們有在新加坡、台灣和印度設有三個技術開發中心，並在香港、馬來西亞、菲律賓、印度尼西亞、緬甸和越南設有辦公室Carousell旋轉拍賣獲得了主要投資者的支持，包括Telenor Group、Rakuten Ventures、Naver、STIC Investments和Sequoia Capital India。 旋轉拍賣是由一群充滿熱忱並共同努力解決有意義問題的團隊所組成。在這裡，您會發現職涯有更多的機會。我們重視、培養能夠體現旋轉拍賣價值觀並持續為用戶解決問題的人才：使命第一的心態、足
