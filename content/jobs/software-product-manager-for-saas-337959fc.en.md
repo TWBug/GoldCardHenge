@@ -8,7 +8,7 @@ title: Software Product Manager for SaaS
 job_url: >-
   https://www.cakeresume.com/companies/advantech/jobs/software-product-manager-for-saas
 date: 2022-05-25T07:42:34.545Z
-company_name: Advantech 研華科技
+company_name: Advantech 研華
 company_page_url: 'https://www.cakeresume.com/companies/advantech'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--3qTWnGnO--/c_pad,fl_png8,h_200,w_200/v1643360279/yupj58zxpza7gabhhfyz.png
