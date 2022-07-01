@@ -103,8 +103,7 @@
                                     {{ partial "icon" (dict "name" "times" "size" "6" "alt" (i18n "reset_filter")) }}
                                 </button>
                             </div>
-                        </form>   
-                        </div>
+                        </form>                           
                     <div >
                         <div class="lg:col-span-2">
                         <div class="grid lg:grid-cols-5 auto-rows-fr ">
@@ -124,8 +123,7 @@
                         </a>
                         {{end}}
                         {{ end }}
-                    </div>
-                </div>                        
+                    </div>                
                         <div id="faqs" role="region" aria-live="polite" class="border-b-2 border-secondary border-dashed mt-8">
                             <div class="text-center font-bold text-xl text-red-800 border-t-2 border-secondary border-dashed p-8" x-show="isNoResult()" x-cloak>
                                 <div class="inline-flex">
@@ -196,9 +194,10 @@
                             {{ if .Content }}
                             <div class="copy">{{ .Content }}</div>
                             {{ end }}
-                        </div>
+                        </div>                    
                     </div>
                 </div>
+            </div>
                 <div class="-mt-12">
                     {{ partial "aside/all-tags" . }}
                     {{ partial "aside/latest-article" . }}
@@ -208,7 +207,6 @@
                     {{ partial "aside/apply-now" . }}
                 </div>
             </div>
-        </div>
     </section>
 </div>
 {{end}}
