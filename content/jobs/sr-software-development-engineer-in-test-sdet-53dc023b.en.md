@@ -11,7 +11,7 @@ date: 2021-11-11T03:57:08.482Z
 company_name: 'BlueX Trade Co., Ltd.'
 company_page_url: 'https://www.cakeresume.com/companies/bluex-trade-co-ltd'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--Q4eBdLNb--/c_pad,fl_png8,h_200,w_200/v1635987138/e0xqbv9ogy4aymxjphiu.png
+  https://media.cakeresume.com/image/upload/s--8nM3zKmx--/c_pad,fl_png8,h_200,w_200/v1644891844/lwqpqxokshocvwzmaes7.png
 salary_text: TWD80000 - TWD150000
 salary_currency: TWD
 salary_type: per_month
@@ -32,4 +32,4 @@ badges:
 
 ---
 
-As a software development engineer in test (SDET) in BlueX Trade, you will design and develop automated tests for both web applications and backend services to speed up the development process and maintain product quality. Moreover, you will collaborate closely with product team, designers and engineers, and become a valued member of an autonomous, cross-functional team. You will help the team to deliver great products and and delight our consumers. Responsibilities - Develop and maintain automa
+Role Summary As a senior software development engineer in test (SDET) in BlueX Trade, you will design and develop automated tests for both web applications and backend services to speed up the development process and maintain product quality. Moreover, you will collaborate closely with product team, designers and engineers, and become a valued member of an autonomous, cross-functional team. You will help the team to deliver great products and delight our consumers. Responsibilities Design, imple

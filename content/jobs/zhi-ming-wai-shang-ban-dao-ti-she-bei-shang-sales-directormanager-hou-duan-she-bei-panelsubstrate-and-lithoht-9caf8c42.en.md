@@ -8,7 +8,7 @@ title: "知名外商半導體設備商\U0001F525Sales Director/Manager - 後段�
 job_url: >-
   https://www.cakeresume.com/companies/cakeresume-recruitment-consulting/jobs/5d519a
 date: 2022-01-17T06:46:47.831Z
-company_name: CakeResume Headhunting Service 獵才顧問
+company_name: CakeResume Headhunting Recruitment Service
 company_page_url: 'https://www.cakeresume.com/companies/cakeresume-recruitment-consulting'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--mLEE21uB--/c_pad,fl_png8,h_200,w_200/v1620881212/vdbipassrdfr8omwzeq6.png

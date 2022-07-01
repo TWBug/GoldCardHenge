@@ -52,7 +52,7 @@
                 {{ if i18n .Title }}
                     {{ $title = print $title ": " i18n .Title }}
                 {{ else }}
-                    {{ $title = print  $title ": " (.Title | humanize) }}
+                    {{ $title = print  $title ": " .Title }}
                 {{ end }}
                 <h1 id="{{ $title | humanize | anchorize }}" class="text-5xl leading-tight font-semibold mb-2">
                     {{ $title }}

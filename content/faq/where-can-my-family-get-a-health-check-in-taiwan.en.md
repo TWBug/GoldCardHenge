@@ -3,6 +3,8 @@ title: Where can my family get a health check in Taiwan?
 draft: false
 tags:
   - Family
+subtags:
+  - Family-SubTag1
 weight: 3
 ---
 Please refer to the CDC’s list of designated hospitals in Taiwan

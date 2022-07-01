@@ -3,7 +3,9 @@ title: How to apply?
 draft: false
 tags:
   - Application
-weight: 100
+subtags:
+  - Application-SubTag3
+weight: 90
 ---
 Application is done online. 
 

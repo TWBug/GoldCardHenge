@@ -21,9 +21,6 @@ location_list:
   - Taiwan
   - 'New Taipei City, Taiwan'
   - 'Xindian District, New Taipei City, Taiwan'
-  - 台灣
-  - '新北市, 台灣'
-  - 台灣新北市新店區
 job_tags: []
 badges:
   - QA Engineer

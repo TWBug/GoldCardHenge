@@ -11,7 +11,7 @@ date: 2021-10-28T04:43:08.279Z
 company_name: XREX Inc.
 company_page_url: 'https://www.cakeresume.com/companies/XREX'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--F-wrB_IQ--/c_pad,fl_png8,h_200,w_200/v1577753848/tuw4wffo97drgklzeouz.png
+  https://media.cakeresume.com/image/upload/s--qTcHIo_2--/c_pad,fl_png8,h_200,w_200/v1645695747/z4gavek3c9rsgphbrywd.png
 salary_text: TWD900000 - TWD1500000
 salary_currency: TWD
 salary_type: per_year

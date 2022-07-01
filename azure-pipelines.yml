@@ -1,0 +1,22 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- checkout: self
+  persistCredentials: true
+- script: |
+    git clone https://github.com/TWBug/GoldCardHenge.git
+    git config --global user.name "TWBug"
+    git checkout main
+    git add .
+    git commit -m "autoSync"
+    git push https://dev.azure.com/hengetech/SyncTest/_git/GoldCardHenge
+  displayName: 'Run a sync script'

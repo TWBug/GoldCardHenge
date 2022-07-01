@@ -3,6 +3,8 @@ title: 我的家人可以到哪裡做健康檢查？
 draft: false
 tags:
   - Family
+subtags:
+  - Family-SubTag1
 weight: 3
 ---
 請參考衛服部疾管署外國人健檢指定醫院名單

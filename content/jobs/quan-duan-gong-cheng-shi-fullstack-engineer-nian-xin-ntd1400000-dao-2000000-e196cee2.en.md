@@ -17,18 +17,21 @@ salary_type: per_year
 salary_min: 1400000
 salary_max: 2000000
 location_list:
-  - 台北
-  - 大安區
+  - Taiwan
+  - 'Taipei City, Taiwan'
+  - 'Zhongzheng District, Taipei City, Taiwan 100'
+  - 台灣
+  - '台北市, 台灣'
+  - 100台灣台北市中正區
 job_tags:
   - javascript
-  - 台北
   - full-stack
   - Vue.js
   - React.js
   - AWS
-  - DevOps
   - golang
-  - Python
+  - Node.js
+  - Kubernetes (k8s)
 badges:
   - Cyber Security
 
