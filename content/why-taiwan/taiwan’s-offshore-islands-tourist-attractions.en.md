@@ -97,7 +97,7 @@ The Matsu Islands are comprised of two main islands, Beigan and Nangan, as well 
 
 The culture in Matsu is quite different from that of the main island. It has a strong Mindong （閩東）cultural style. Because the land on Matsu is limited, Mindong-style houses are built along the mountains. These houses are exquisitely constructed and carved using local granite, and the rooftops are carved into the shape of a crucian carp（鯽魚嘴） for better drainage and decorated with a stone lion that wards off evil spirits.
 
-![Taiwan’s Offshore Islands: Tourist Attractions10](/cms-uploads/taiwan’s-tourist-attractions_offshore-islands10.jpg "<a href=\\"https://commons.wikimedia.org/wiki/File:%E8%8A%B9%E5%A3%81%E8%81%9A%E8%90%BD%E5%BB%BA%E7%AF%89%E7%BE%A401.jpg\\">MW2019</a>, <a href=\\"https://creativecommons.org/licenses/by-sa/4.0\\">CC BY-SA 4.0</a>, via Wikimedia Commons")
+![Taiwan’s Offshore Islands: Tourist Attractions10](/cms-uploads/taiwan’s-tourist-attractions_offshore-islands10.jpg)
 
 *<a href="https://commons.wikimedia.org/wiki/File:%E8%8A%B9%E5%A3%81%E8%81%9A%E8%90%BD%E5%BB%BA%E7%AF%89%E7%BE%A401.jpg">MW2019</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons*
 
