@@ -6,7 +6,7 @@ data_source_url: >-
 data_source_internal_id: '42647'
 title: Product UX/UI & Brand Designer (remote; Taiwan)
 job_url: >-
-  https://www.cakeresume.com/companies/taelor/jobs/copy-product-ux-ui-brand-designer-remote-taiwan
+  https://www.cakeresume.com/companies/taelor/jobs/product-ux-ui-brand-designer-remote-taiwan
 date: 2022-06-28T06:23:37.273Z
 company_name: Taelor
 company_page_url: 'https://www.cakeresume.com/companies/taelor'

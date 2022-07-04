@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '41441'
-title: '(Senior) Product Designer, Virtual Insurance'
+title: 'Senior Product Designer, Virtual Insurance'
 job_url: >-
   https://www.cakeresume.com/companies/onedegree/jobs/senior-product-designer-virtual-insurance
 date: 2022-06-01T09:54:04.181Z

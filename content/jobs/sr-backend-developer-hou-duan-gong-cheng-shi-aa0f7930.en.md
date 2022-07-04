@@ -35,4 +35,4 @@ badges:
 
 ---
 
-Key Responsibilities ● Work with product owners and other development team members to determine new features and user stories needed in new/revised applications or large/complex development projects. ● Participate in code reviews with peers and managers to ensure that each increment adheres to original vision as described in the user story and all standard resource libraries and architecture patterns as appropriate. ● Respond to trouble/support calls for applications in production in order to ma
+Key Responsibilities ● Work with product owners and other development team members to determine new features and user stories needed in new/revised applications or large/complex development projects ● Participate in code reviews with peers and managers to ensure that each increment adheres to original vision as described in the user story and all standard resource libraries and architecture patterns as appropriate ● Respond to trouble/support calls for applications in production in order to make
