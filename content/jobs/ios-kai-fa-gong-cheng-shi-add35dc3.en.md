@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '40718'
-title: 遊戲團隊 iOS 工程師(過包混淆)
+title: ' iOS 開發工程師'
 job_url: >-
   https://www.cakeresume.com/companies/104-company-1a2x6blnnf-jobsource-checkc/jobs/ios-engineer-over-package-obfuscation
 date: 2022-05-16T08:32:51.271Z
@@ -17,10 +17,7 @@ salary_currency: TWD
 salary_type: per_month
 salary_min: 780000
 salary_max: 1090000
-location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Neihu District, Taipei City, Taiwan 114'
+location_list: []
 job_tags:
   - IOS Development
   - 資安工程師
