@@ -8,7 +8,7 @@ title: QA 軟體測試工程師
 job_url: >-
   https://www.cakeresume.com/companies/9count/jobs/qa-software-test-engineer-03b4a4
 date: 2021-07-29T16:44:28.885Z
-company_name: 9 Count
+company_name: 9count
 company_page_url: 'https://www.cakeresume.com/companies/9count'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--InX6ALtP--/c_pad,fl_png8,h_200,w_200/v1626204462/ybxlow1ne65bunxfeqcn.png
