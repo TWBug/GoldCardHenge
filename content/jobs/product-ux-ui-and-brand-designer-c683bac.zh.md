@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
-data_source_internal_id: '42647'
-title: Product UX/UI & Brand Designer (remote; Taiwan)
+data_source_internal_id: '42649'
+title: Product UX/UI & Brand Designer
 job_url: >-
-  https://www.cakeresume.com/companies/taelor/jobs/product-ux-ui-brand-designer-remote-taiwan
-date: 2022-06-28T06:23:37.273Z
+  https://www.cakeresume.com/companies/taelor/jobs/copy1-product-ux-ui-brand-designer
+date: 2022-06-28T06:24:34.164Z
 company_name: Taelor
 company_page_url: 'https://www.cakeresume.com/companies/taelor'
 company_logo_url: >-
