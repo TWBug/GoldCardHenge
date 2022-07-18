@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
-data_source_internal_id: '40840'
-title: 'Software Engineer, Virtual Platform'
+data_source_internal_id: '43388'
+title: 'Software Engineer, Simulation'
 job_url: >-
-  https://www.cakeresume.com/companies/skymizer-taiwan-inc/jobs/software-engineer-virtual-platform
-date: 2022-05-18T09:33:18.821Z
+  https://www.cakeresume.com/companies/skymizer-taiwan-inc/jobs/software-engineer-simulation
+date: 2022-07-18T09:40:23.979Z
 company_name: 'Skymizer '
 company_page_url: 'https://www.cakeresume.com/companies/skymizer-taiwan-inc'
 company_logo_url: >-

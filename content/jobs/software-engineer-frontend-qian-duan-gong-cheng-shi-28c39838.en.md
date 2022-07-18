@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
-data_source_internal_id: '38145'
-title: Software Test Automation Engineer 軟體自動化測試工程師
+data_source_internal_id: '35949'
+title: Software Engineer - Frontend 前端工程師
 job_url: >-
-  https://www.cakeresume.com/companies/botrista-technology-taiwan-co-ltd/jobs/software-qa-engineer-9a0c89
-date: 2022-03-17T02:39:24.723Z
+  https://www.cakeresume.com/companies/botrista-technology-taiwan-co-ltd/jobs/front-end-engineer-dff6dd
+date: 2022-01-18T08:02:58.281Z
 company_name: Botrista 百睿達有限公司
 company_page_url: 'https://www.cakeresume.com/companies/botrista-technology-taiwan-co-ltd'
 company_logo_url: >-
@@ -17,15 +17,25 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 700000
 salary_max: 2100000
-location_list: []
+location_list:
+  - Taiwan
+  - 'Taipei City, Taiwan'
+  - 'Zhongzheng District, Taipei City, Taiwan 100'
+  - 台灣
+  - '台北市, 台灣'
+  - 100台灣台北市中正區
 job_tags:
-  - Unix
-  - QA testing軟體測試
-  - Unit Test
-  - Python
-  - selenium
-  - Mocha
+  - Vue.js
+  - Vuex
+  - AJAX
+  - JavaScript
+  - REST API
+  - Socket
   - Git
+  - Figma
+  - UI
+  - Front-end
+  - Software Development
 badges:
   - Software
 

@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '39533'
-title: 新竹知名日商公司 - Mechanical Engineer (Digital Stylus)- PH
+title: ✨新竹知名外商公司 - Mechanical Engineer (Digital Stylus)- PH
 job_url: >-
   https://www.cakeresume.com/companies/cakeresume-recruitment-consulting/jobs/88561b
 date: 2022-04-22T10:17:57.781Z
