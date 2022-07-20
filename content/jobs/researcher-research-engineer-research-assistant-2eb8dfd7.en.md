@@ -10,7 +10,7 @@ date: 2022-01-24T19:34:37.912Z
 company_name: BTQ
 company_page_url: 'https://www.cakeresume.com/companies/btq'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--ZC2Lj7t---/c_pad,fl_png8,h_200,w_200/v1655706732/kbjnsvmhwm2nis6dmwbu.png
+  https://media.cakeresume.com/image/upload/s--F01GgnFw--/c_pad,fl_png8,h_200,w_200/v1658287388/rapn3ckrqcrceqnr6vns.png
 salary_text: TWD1000000 - TWD45000000
 salary_currency: TWD
 salary_type: per_year
