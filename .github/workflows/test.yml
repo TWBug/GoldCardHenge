@@ -1,0 +1,44 @@
+name: Build Job Listings
+
+# Trigger whneever the job list file changes
+on:
+    schedule:
+        - cron: '51 7 * * *' # At 10 (minute 0 of hour 22)
+    push:
+        paths:
+            - 'data/job_lists.yaml'
+
+jobs:
+    scrape:
+        runs-on: ubuntu-18.04
+        steps:
+            - uses: actions/checkout@v2
+            - name: Setup Node
+              uses: actions/setup-node@v2.1.2
+              with:
+                  node-version: '12'
+            - name: Cache dependencies
+              uses: actions/cache@v2
+              with:
+                  path: ~/.npm
+                  key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+                  restore-keys: |
+                      ${{ runner.os }}-node-
+            - name: Install dependencies
+              run: yarn --frozen-lockfile
+
+            # The meat. The rest is just boilerplate. This is where the job scraping happens
+            - name: Scrape all URLs specified in data/job_lists.yaml
+              run: 'yarn build:jobs'
+
+            # Commit the new jobs, which should trigger a build (assuming job files changed)
+            - uses: stefanzweifel/git-auto-commit-action@v4
+              with:
+                  commit_message: Update job listings
+
+                  # Optional options appended to `git-push`
+                  # See git-push documentation for details: https://git-scm.com/docs/git-push#_options
+                  # NOTE: This should not be necessary, since we will be running
+                  # during off hours and it's unlikely there will be conflicts
+                  # to be rebased. But just in case, the option is available.
+                  # push_options: '--force'
