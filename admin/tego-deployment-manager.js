@@ -217,7 +217,7 @@ var DeploymentManager = /*#__PURE__*/function (_React$Component) {
       var handleDeploy = function handleDeploy(e) {
         e.preventDefault();
 
-        if (window.confirm('Are you sure? If you confirm then the site will be deployed to hengetech.com.tw.')) {
+        if (window.confirm('Are you sure? If you confirm then the site will be deployed to hengetech.website')) {
           _this3.setState({
             loading: true
           });
