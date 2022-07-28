@@ -1860,6 +1860,9 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                           hits: (
                               | {
                                     title: string;
+									flat_location_list: string[];
+									year_of_seniority: string;
+									min_work_exp_year?: number;
                                     requirements: string;
                                     path: string;
                                     tag_list: string[];
@@ -1894,6 +1897,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     noindex: boolean;
                                     page: {
                                         name: string;
+										vertical_list?: any;
+										funding_round_list?: any;
+										amount_of_capital?: number;
+										id: number;
+										tech_labels: string[];
                                         path: string;
                                         address: string;
                                         country: string;
@@ -2003,6 +2011,7 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                 }
                               | {
                                     title: string;
+									flat_location_list: string[];
                                     requirements: string;
                                     path: string;
                                     tag_list: string[];
@@ -2037,6 +2046,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     noindex: boolean;
                                     page: {
                                         name: string;
+										vertical_list?: any;
+										funding_round_list?: any;
+										amount_of_capital?: number;
+										id: number;
+										tech_labels: string[];
                                         path: string;
                                         address: string;
                                         country: string;
@@ -2155,6 +2169,7 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                 }
                               | {
                                     title: string;
+									flat_location_list: string[];
                                     requirements: string;
                                     path: string;
                                     tag_list: string[];
@@ -2189,6 +2204,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     noindex: boolean;
                                     page: {
                                         name: string;
+										vertical_list?: any;
+										funding_round_list?: any;
+										amount_of_capital?: number;
+										id: number;
+										tech_labels: string[];
                                         path: string;
                                         address: string;
                                         country: string;
@@ -2298,6 +2318,7 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                 }
                               | {
                                     title: string;
+									flat_location_list: string[];
                                     requirements: string;
                                     path: string;
                                     tag_list: string[];
@@ -2332,6 +2353,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     noindex: boolean;
                                     page: {
                                         name: string;
+										vertical_list?: any;
+										funding_round_list?: any;
+										amount_of_capital?: number;
+										id: number;
+										tech_labels: string[];
                                         path: string;
                                         address: string;
                                         country: string;
@@ -2450,6 +2476,7 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                 }
                               | {
                                     title: string;
+									flat_location_list: string[];
                                     requirements: string;
                                     path: string;
                                     tag_list: string[];
@@ -2484,6 +2511,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     noindex: boolean;
                                     page: {
                                         name: string;
+										vertical_list?: any;
+										funding_round_list?: any;
+										amount_of_capital?: number;
+										id: number;
+										tech_labels: string[];
                                         path: string;
                                         address: string;
                                         country: string;
@@ -2602,6 +2634,7 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                 }
                               | {
                                     title: string;
+									flat_location_list: string[];
                                     requirements: string;
                                     path: string;
                                     tag_list: string[];
@@ -2636,6 +2669,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     noindex: boolean;
                                     page: {
                                         name: string;
+										vertical_list?: any;
+										funding_round_list?: any;
+										amount_of_capital?: number;
+										id: number;
+										tech_labels: string[];
                                         path: string;
                                         address: string;
                                         country: string;
@@ -3098,6 +3136,9 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                 export const hits: (
                     | {
                           title: string;
+						  flat_location_list: string[];
+						  year_of_seniority: string;
+						  min_work_exp_year?: number;
                           requirements: string;
                           path: string;
                           tag_list: string[];
@@ -3132,6 +3173,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                           noindex: boolean;
                           page: {
                               name: string;
+							  vertical_list?: any;
+							  funding_round_list?: any;
+							  amount_of_capital?: number;
+							  id: number;
+							  tech_labels: string[];
                               path: string;
                               address: string;
                               country: string;
@@ -3275,6 +3321,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                           noindex: boolean;
                           page: {
                               name: string;
+							  vertical_list?: any;
+							  funding_round_list?: any;
+							  amount_of_capital?: number;
+							  id: number;
+							  tech_labels: string[];
                               path: string;
                               address: string;
                               country: string;
@@ -3427,6 +3478,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                           noindex: boolean;
                           page: {
                               name: string;
+							  vertical_list?: any;
+							  funding_round_list?: any;
+							  amount_of_capital?: number;
+							  id: number;
+							  tech_labels: string[];
                               path: string;
                               address: string;
                               country: string;
@@ -3570,6 +3626,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                           noindex: boolean;
                           page: {
                               name: string;
+							  vertical_list?: any;
+							  funding_round_list?: any;
+							  amount_of_capital?: number;
+							  id: number;
+							  tech_labels: string[];
                               path: string;
                               address: string;
                               country: string;
@@ -3722,6 +3783,16 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                           noindex: boolean;
                           page: {
                               name: string;
+							  vertical_list?: any;
+							  funding_round_list?: any;
+							  amount_of_capital?: number;
+							  id: number;
+							  tech_labels: string[];
+							  vertical_list?: any;
+							  funding_round_list?: any;
+							  amount_of_capital?: number;
+							  id: number;
+							  tech_labels: string[];
                               path: string;
                               address: string;
                               country: string;
@@ -3874,6 +3945,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                           noindex: boolean;
                           page: {
                               name: string;
+							  vertical_list?: any;
+							  funding_round_list?: any;
+							  amount_of_capital?: number;
+							  id: number;
+							  tech_labels: string[];
                               path: string;
                               address: string;
                               country: string;
@@ -5876,6 +5952,9 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                           hits: (
                               | {
                                     title: string;
+									flat_location_list: string[];
+									year_of_seniority: string;
+									min_work_exp_year?: number;
                                     requirements: string;
                                     path: string;
                                     tag_list: string[];
@@ -5910,6 +5989,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     noindex: boolean;
                                     page: {
                                         name: string;
+										vertical_list?: any;
+										funding_round_list?: any;
+										amount_of_capital?: number;
+										id: number;
+										tech_labels: string[];
                                         path: string;
                                         address: string;
                                         country: string;
@@ -6053,6 +6137,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     noindex: boolean;
                                     page: {
                                         name: string;
+										vertical_list?: any;
+										funding_round_list?: any;
+										amount_of_capital?: number;
+										id: number;
+										tech_labels: string[];
                                         path: string;
                                         address: string;
                                         country: string;
@@ -6205,6 +6294,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     noindex: boolean;
                                     page: {
                                         name: string;
+										vertical_list?: any;
+										funding_round_list?: any;
+										amount_of_capital?: number;
+										id: number;
+										tech_labels: string[];
                                         path: string;
                                         address: string;
                                         country: string;
@@ -6348,6 +6442,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     noindex: boolean;
                                     page: {
                                         name: string;
+										vertical_list?: any;
+										funding_round_list?: any;
+										amount_of_capital?: number;
+										id: number;
+										tech_labels: string[];
                                         path: string;
                                         address: string;
                                         country: string;
@@ -6500,6 +6599,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     noindex: boolean;
                                     page: {
                                         name: string;
+										vertical_list?: any;
+										funding_round_list?: any;
+										amount_of_capital?: number;
+										id: number;
+										tech_labels: string[];
                                         path: string;
                                         address: string;
                                         country: string;
@@ -6652,6 +6756,11 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     noindex: boolean;
                                     page: {
                                         name: string;
+										vertical_list?: any;
+										funding_round_list?: any;
+										amount_of_capital?: number;
+										id: number;
+										tech_labels: string[];
                                         path: string;
                                         address: string;
                                         country: string;
