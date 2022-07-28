@@ -1,7910 +1,2165 @@
 export namespace __APP_INITIAL_REDUX_STATE__ {
-    export namespace kickoff {
-        export namespace assetsPath {
-            export const contentarea_css: string;
-        }
-        export namespace algolia {
-            export const id: string;
-            export const key: string;
-            export const key_query_suggestions: string;
-            export const key_jobs_and_pages: string;
-            export const key_featured_pages: string;
-            export const key_featured_jobs: string;
-        }
-        export const flash: {};
-        export const tracking_traits: {};
-        export const jwt: any;
-        export const imp: boolean;
-        export namespace oneSignal {
-            export const error: any;
-            export const isPushEnabled: any;
-            export const isOptedOut: boolean;
-            export const isPushNotificationsSupported: any;
-            export const showSubscribeCampaign: boolean;
-        }
+
+    export interface HierarchicalFacet {
+        name: string;
+        attributes: string[];
     }
-    export namespace alert {
-        export const alerts: any[];
-        export const pagination: {};
-        export const cacheById: {};
-        export const query: any;
+
+    export interface FacetsRefinements {
     }
-    export namespace article {
-        export namespace currentUserArticles {
-            export const articles: any[];
-            const pagination_1: {};
-            export { pagination_1 as pagination };
-        }
+
+    export interface FacetsExcludes {
     }
-    export namespace error_1 {
-        export const serverSideRenderErr: any;
+
+    export interface DisjunctiveFacetsRefinements {
+        location_list: any[];
+        profession: any[];
+        job_type: any[];
+        seniority_level: string[];
+        year_of_seniority: any[];
+        number_of_management: any[];
+        remote: any[];
+        page.number_of_employees: any[];
+        page.sector: any[];
+        page.tech_labels: any[];
+        lang_name: any[];
     }
-    export { error_1 as error };
-    export namespace dashboard {
-        export const admin_pages_count: any;
-        export const articles_count: any;
-        export const folders_count: any;
-        export const following_pages_count: any;
-        export const items_count: any;
-        export const job_applications_count: any;
-        export const liked_items_count: any;
-        export const liked_jobs_count: any;
-        export const liked_posts_count: any;
-        export const posts_count: any;
-        export const finished_tests_count: any;
-        export const private_reviews_count: any;
-        export const profile_completion_ratio: any;
-        export const recommended_articles: any;
-        export const recommended_jobs: any;
-        export const requested_followees_count: any;
-        export const requested_followers_count: any;
-        export const should_confirm_email: any;
-        export const should_verify_email: any;
+
+    export interface SalaryRange {
+        >=: number[];
     }
-    export namespace feed {
-        export const feeds: any[];
-        export namespace pagination_2 {
-            export const current_page: number;
-            export const total_pages: number;
-            export const total_entries: number;
-            export const per_page: number;
-        }
-        export { pagination_2 as pagination };
-        export const comments: {};
-        export const meta: {};
+
+    export interface NumericRefinements {
+        salary_range: SalaryRange;
     }
-    export namespace folder {
-        export const folders: any[];
-        export const publicPath: string;
-        export namespace folderItems {
-            export const items: any[];
-            const pagination_3: {};
-            export { pagination_3 as pagination };
-        }
-        const key_1: any;
-        export { key_1 as key };
+
+    export interface HierarchicalFacetsRefinements {
+        salary_type: string[];
+        salary_currency: any[];
     }
-    export namespace i18n {
-        export const locale: string;
-        export namespace localeData {
-            export const en: {
-                'activityFeedsCommentList.post': string;
-                'activityFeedsCommentList.writeAComment': string;
-                'activityFeedsInput.lookingFor': string;
-                'activityFeedsInputModal.contentError': string;
-                'activityFeedsInputModal.emojiError': string;
-                'activityFeedsInputModal.freelanceJobs': string;
-                'activityFeedsInputModal.freelancers': string;
-                'activityFeedsInputModal.hint': string;
-                'activityFeedsInputModal.lookingFor': string;
-                'activityFeedsInputModal.opportunities': string;
-                'activityFeedsInputModal.opportunitiesPlaceholder': string;
-                'activityFeedsInputModal.post': string;
-                'activityFeedsInputModal.talent': string;
-                'activityFeedsInputModal.talentPlaceholder': string;
-                'activityFeedsInputModal.update': string;
-                'activityFeedsList.delete': string;
-                'activityFeedsList.edit': string;
-                'activityFeedsList.freelance_jobs': string;
-                'activityFeedsList.freelancers': string;
-                'activityFeedsList.isLookingFor': string;
-                'activityFeedsList.message': string;
-                'activityFeedsList.opportunities': string;
-                'activityFeedsList.talent': string;
-                'alert.nextMatch': string;
-                'alert.noItem': string;
-                'alert.noMatchRecord': string;
-                'app.browseAllResults': string;
-                'app.cancel': string;
-                'app.cancelAnytime': string;
-                'app.caution': string;
-                'app.close': string;
-                'app.comma': string;
-                'app.confirm': string;
-                'app.copy': string;
-                'app.create': string;
-                'app.createPage': string;
-                'app.criteria': string;
-                'app.edit': string;
-                'app.email': string;
-                'app.en': string;
-                'app.fileSizeExceed': string;
-                'app.folders': string;
-                'app.fr': string;
-                'app.ja': string;
-                'app.learnMore': string;
-                'app.logIn': string;
-                'app.logInBtn': string;
-                'app.manageFolders': string;
-                'app.maxlength': string;
-                'app.minlength': string;
-                'app.moneyBack': string;
-                'app.noMatchItem': string;
-                'app.notSupportFileType': string;
-                'app.pleaseLogIn': string;
-                'app.pleaseLogInToContinute': string;
-                'app.premiumSnippets': string;
-                'app.print': string;
-                'app.register': string;
-                'app.removePowerBy': string;
-                'app.reset': string;
-                'app.save': string;
-                'app.search': string;
-                'app.searchAllResumes': string;
-                'app.searchAllResumesTooltip': string;
-                'app.separator': string;
-                'app.serverErrMsg': string;
-                'app.settings': string;
-                'app.signIn': string;
-                'app.signUp': string;
-                'app.talentMatch': string;
-                'app.unauthorized': string;
-                'app.unlimitedConversations': string;
-                'app.unlimitedResumes': string;
-                'app.unspecified': string;
-                'app.upgradeNow': string;
-                'app.uploadImage': string;
-                'app.vi': string;
-                'app.viewCompanies': string;
-                'app.viewEmailPhone': string;
-                'app.viewJobs': string;
-                'app.viewResumeTemplate': string;
-                'app.viewWorkCollection': string;
-                'app.zh-CN': string;
-                'app.zh-TW': string;
-                'appLanding.downloadSlogan': string;
-                'appLanding.feature1Desc': string;
-                'appLanding.feature1Title': string;
-                'appLanding.feature2Desc': string;
-                'appLanding.feature2Title': string;
-                'appLanding.feature3Desc': string;
-                'appLanding.feature3Title': string;
-                'appLanding.featuresTitle': string;
-                'appLanding.heroDesc': string;
-                'appLanding.heroTitle': string;
-                'appLanding.intro1Desc': string;
-                'appLanding.intro1Title': string;
-                'appLanding.intro2Desc': string;
-                'appLanding.intro2Title': string;
-                'appLanding.metaDesc': string;
-                'appLanding.metaTitle': string;
-                'appLanding.title': string;
-                'auth.accountInfo': string;
-                'auth.confirmToPolicy': string;
-                'auth.forgotPassword': string;
-                'auth.password': string;
-                'auth.remember': string;
-                'auth.signIn': string;
-                'auth.signUp': string;
-                'auth.slogan': string;
-                'auth.submit': string;
-                'auth.submitMessages': string;
-                'auth.termOfUse': string;
-                'auth.yourName': string;
-                'chatBox.contactListHeading': string;
-                'chatrooms.acceptButton': string;
-                'chatrooms.adminPagesTitle': string;
-                'chatrooms.chatInputPlaceholder': string;
-                'chatrooms.chatRoomTitle': string;
-                'chatrooms.deniedMessage': string;
-                'chatrooms.denyButton': string;
-                'chatrooms.documentTitle': string;
-                'chatrooms.dropUploadHint': string;
-                'chatrooms.emptyFeedTitle': string;
-                'chatrooms.emptyFeedtextUpgrade1': string;
-                'chatrooms.emptyFeedtextUpgrade2': string;
-                'chatrooms.invitedHint': string;
-                'chatrooms.lastContactTime': string;
-                'chatrooms.messageHint': string;
-                'chatrooms.metaDesc': string;
-                'chatrooms.metaSite': string;
-                'chatrooms.metaTitle': string;
-                'chatrooms.noMoreMessages': string;
-                'chatrooms.pressEnterSubmit': string;
-                'chatrooms.read': string;
-                'chatrooms.reconnectButton': string;
-                'chatrooms.retry': string;
-                'chatrooms.sayHello': string;
-                'chatrooms.sendAttachment': string;
-                'chatrooms.signUpButton': string;
-                'chatrooms.startMessageButton': string;
-                'chatrooms.submitMessageBtn': string;
-                'chatrooms.thisArticle': string;
-                'chatrooms.upgradePlanButton': string;
-                'chatrooms.you': string;
-                'coding_test_modal.cancel': string;
-                'coding_test_modal.modalContentParagraph1': string;
-                'coding_test_modal.modalContentParagraph2': string;
-                'coding_test_modal.modalSubTitle': string;
-                'coding_test_modal.modalTitle': string;
-                'confirm-modal.hint': string;
-                'dashboard.metaTitle': string;
-                'dashboard.toProfile': string;
-                'dashboard_articles.createdAbout': string;
-                'dashboard_confirm-email-alert.confirmDesc': string;
-                'dashboard_confirm-email-alert.notRemind': string;
-                'dashboard_confirm-email-alert.resendConfirmEmail': string;
-                'dashboard_editor-version-modal.article': string;
-                'dashboard_editor-version-modal.chooseVersion': string;
-                'dashboard_editor-version-modal.classicResumeEditor': string;
-                'dashboard_editor-version-modal.classicResumeEditorDesc': string;
-                'dashboard_editor-version-modal.createResume': string;
-                'dashboard_editor-version-modal.newEditorIntro1': string;
-                'dashboard_editor-version-modal.newEditorIntro2': string;
-                'dashboard_editor-version-modal.newResumeEditor': string;
-                'dashboard_editor-version-modal.newResumeEditorDesc': string;
-                'dashboard_following-companies.follow': string;
-                'dashboard_following-companies.following': string;
-                'dashboard_job-applications.appliedWith': string;
-                'dashboard_job-applications.pdfResume': string;
-                'dashboard_job-applications.readByEmployer': string;
-                'dashboard_job-applications.unreadByEmployer': string;
-                'dashboard_nav-content.articles': string;
-                'dashboard_nav-content.codingTest': string;
-                'dashboard_nav-content.companies': string;
-                'dashboard_nav-content.followingCompanies': string;
-                'dashboard_nav-content.jobApplications': string;
-                'dashboard_nav-content.likedPortfolio': string;
-                'dashboard_nav-content.likedResumes': string;
-                'dashboard_nav-content.myPortfolio': string;
-                'dashboard_nav-content.myProfile': string;
-                'dashboard_nav-content.myResumes': string;
-                'dashboard_nav-content.requestedFollowees': string;
-                'dashboard_nav-content.requestedFollowers': string;
-                'dashboard_nav-content.resumeReviews': string;
-                'dashboard_nav-content.savedJobs': string;
-                'dashboard_profile-progress.basicInfo': string;
-                'dashboard_profile-progress.city': string;
-                'dashboard_profile-progress.company': string;
-                'dashboard_profile-progress.country': string;
-                'dashboard_profile-progress.currentEmploymentStatus': string;
-                'dashboard_profile-progress.description': string;
-                'dashboard_profile-progress.desiredJobType': string;
-                'dashboard_profile-progress.desiredLocations': string;
-                'dashboard_profile-progress.desiredPosition': string;
-                'dashboard_profile-progress.education': string;
-                'dashboard_profile-progress.expectedSalary': string;
-                'dashboard_profile-progress.freelance': string;
-                'dashboard_profile-progress.fullName': string;
-                'dashboard_profile-progress.graduatedForm': string;
-                'dashboard_profile-progress.hideDetails': string;
-                'dashboard_profile-progress.industry': string;
-                'dashboard_profile-progress.jobSearchProgress': string;
-                'dashboard_profile-progress.jobSearchStatus': string;
-                'dashboard_profile-progress.jobTitle': string;
-                'dashboard_profile-progress.languageProficiency': string;
-                'dashboard_profile-progress.major': string;
-                'dashboard_profile-progress.management': string;
-                'dashboard_profile-progress.phone': string;
-                'dashboard_profile-progress.profession': string;
-                'dashboard_profile-progress.relevantWorkExperience': string;
-                'dashboard_profile-progress.remote': string;
-                'dashboard_profile-progress.showDetails': string;
-                'dashboard_profile-progress.skillList': string;
-                'dashboard_profile-progress.userName': string;
-                'dashboard_profile-progress.workExperience': string;
-                'dashboard_profile-progress.workExperienceTitle': string;
-                'dashboard_profile-progress_campaign.campaignDesc': string;
-                'dashboard_profile-progress_campaign.campaignDescSecond': string;
-                'dashboard_profile-progress_campaign.campaignTitle': string;
-                'dashboard_profile-progress_campaign.completedDesc': string;
-                'dashboard_profile-progress_campaign.completedTitle': string;
-                'dashboard_resumes.backToTest': string;
-                'dashboard_resumes.canOnlyEditFirstResume': string;
-                'dashboard_resumes.cannotExportProfile': string;
-                'dashboard_resumes.classicEditor': string;
-                'dashboard_resumes.classicEditorDesc': string;
-                'dashboard_resumes.copy': string;
-                'dashboard_resumes.copyHint': string;
-                'dashboard_resumes.copyToClipboard': string;
-                'dashboard_resumes.createBlankResume': string;
-                'dashboard_resumes.createBlankResumeDesc': string;
-                'dashboard_resumes.createFirstResume': string;
-                'dashboard_resumes.createFirstResumeDesc': string;
-                'dashboard_resumes.createdAt': string;
-                'dashboard_resumes.delete': string;
-                'dashboard_resumes.deleteDesc': string;
-                'dashboard_resumes.emptyImpressions': string;
-                'dashboard_resumes.findJobsEasier': string;
-                'dashboard_resumes.gotIt': string;
-                'dashboard_resumes.headerText': string;
-                'dashboard_resumes.hint': string;
-                'dashboard_resumes.impressionsClientDevice': string;
-                'dashboard_resumes.impressionsCompany': string;
-                'dashboard_resumes.impressionsWhen': string;
-                'dashboard_resumes.impressionsWhere': string;
-                'dashboard_resumes.linkWithPortfolio': string;
-                'dashboard_resumes.minutes': string;
-                'dashboard_resumes.moreNotes': string;
-                'dashboard_resumes.pageView': string;
-                'dashboard_resumes.profileToResume': string;
-                'dashboard_resumes.profileToResumeDesc': string;
-                'dashboard_resumes.publishYourResume': string;
-                'dashboard_resumes.removeResumeHint': string;
-                'dashboard_resumes.saveAsPDF': string;
-                'dashboard_resumes.settingHint': string;
-                'dashboard_resumes.startTest': string;
-                'dashboard_resumes.statics': string;
-                'dashboard_resumes.takeChallenge': string;
-                'dashboard_resumes.talentSearch': string;
-                'dashboard_resumes.unPublishDesc': string;
-                'dashboard_resumes.unPublishHint': string;
-                'dashboard_resumes.updatedAt': string;
-                'dashboard_resumes.upgradeFirst': string;
-                'dashboard_resumes.view': string;
-                'dashboard_resumes.viewReport': string;
-                'dashboard_resumes.viewResumeSamples': string;
-                'dashboard_resumes.viewResumeSamplesDesc': string;
-                'dashboard_resumes.visitors': string;
-                'dashboard_snippet.snippetText': string;
-                'dashboard_verify-reminder-alert.changeEmail': string;
-                'dashboard_verify-reminder-alert.verifyDesc': string;
-                'dashboard_verify-reminder-alert.yes': string;
-                'defaultMeta.description': string;
-                'defaultMeta.site': string;
-                'editor.configSaved': string;
-                'editor.education': string;
-                'editor.projects': string;
-                'editor.recommendations': string;
-                'editor.skills': string;
-                'editor.workExperience': string;
-                'editor_delete-snippet-modal.cancel': string;
-                'editor_delete-snippet-modal.delete': string;
-                'editor_delete-snippet-modal.question': string;
-                'editor_header.autosaveFailed': string;
-                'editor_header.autosaveIsOn': string;
-                'editor_header.cancel': string;
-                'editor_header.confirm': string;
-                'editor_header.dashboard': string;
-                'editor_header.downloadPdf': string;
-                'editor_header.helpCenter': string;
-                'editor_header.myPortfolio': string;
-                'editor_header.myProfile': string;
-                'editor_header.myResume': string;
-                'editor_header.pleaseTryAgain': string;
-                'editor_header.preview': string;
-                'editor_header.publish': string;
-                'editor_header.publishConfirm': string;
-                'editor_header.save': string;
-                'editor_header.saved': string;
-                'editor_header.saving': string;
-                'editor_header.style': string;
-                'editor_header.upgrade': string;
-                'editor_history-modal.noHistory': string;
-                'editor_pdf-modal.converting': string;
-                'editor_pdf-modal.copyToClipboard': string;
-                'editor_pdf-modal.downloadNow': string;
-                'editor_pdf-modal.exportPdf': string;
-                'editor_pdf-modal.failed': string;
-                'editor_pdf-modal.failedDesc': string;
-                'editor_pdf-modal.orShare': string;
-                'editor_pdf-modal.pdfIsReady': string;
-                'editor_pdf-modal.takeTimes': string;
-                'editor_resume-editor.background': string;
-                'editor_resume-editor.moveDown': string;
-                'editor_resume-editor.moveUp': string;
-                'editor_snippet-column.extend': string;
-                'editor_snippet-column.leftColumn': string;
-                'editor_snippet-column.moveLeft': string;
-                'editor_snippet-column.moveRight': string;
-                'editor_snippet-column.narrow': string;
-                'editor_snippet-column.rightColumn': string;
-                'editor_style-side-panel.blocksSpacing': string;
-                'editor_style-side-panel.frameStyle': string;
-                'editor_style-side-panel.heading': string;
-                'editor_style-side-panel.letter': string;
-                'editor_style-side-panel.paragraph': string;
-                'editor_style-side-panel.themes': string;
-                'editor_style-side-panel.web': string;
-                'emptyChannels.emptyListDesc': string;
-                'emptyChannels.emptyListTitle': string;
-                'emptyChannels.searchCompanies': string;
-                'emptyChannels.searchTalent': string;
-                'error-pages_internal-server-error.message': string;
-                'error-pages_internal-server-error.status': string;
-                'error-pages_not-authorized.message': string;
-                'error-pages_not-authorized.status': string;
-                'error-pages_not-found.message': string;
-                'error-pages_not-found.status': string;
-                'error-pages_related-links.browseJobs': string;
-                'error-pages_related-links.createYourResume': string;
-                'error-pages_related-links.linksDescription': string;
-                'error-pages_related-links.searchTalent': string;
-                'error-pages_related-links.viewResumeTemplates': string;
-                'folderModal.addNResumesToFolder': string;
-                'folderModal.addSomeonesResumeToFolder': string;
-                'folderModal.createFolder': string;
-                'folderModal.createNewFolder': string;
-                'folderModal.folderName': string;
-                'folderModal.formDesc': string;
-                'folders.deleteFolder': string;
-                'folders.downloadCSV': string;
-                'folders.folderItems': string;
-                'folders.folders': string;
-                'folders.metaTitle': string;
-                'folders.noFolders': string;
-                'folders.noResumes': string;
-                'folders.searchResume': string;
-                'folders.shareFolder': string;
-                'folders.shareFolderTitle': string;
-                'folders.toSearchResume': string;
-                'follow-button.accept': string;
-                'follow-button.acceptFollowRequest': string;
-                'follow-button.cancelRequest': string;
-                'follow-button.follow': string;
-                'follow-button.followHint': string;
-                'follow-button.followUserYouLike': string;
-                'follow-button.following': string;
-                'follow-button.followingHint': string;
-                'follow-button.isFollowingToYou': string;
-                'follow-button.pending': string;
-                'follow-button.pendingHint': string;
-                'follow-button.reject': string;
-                'follow-button.rejectFollowRequest': string;
-                'follow-button.rejectFollowerRequest': string;
-                'follow-button.unfollow': string;
-                'follow-button.viewProfile': string;
-                'follow-button.wantToFollowYou': string;
-                'footer.about': string;
-                'footer.articles': string;
-                'footer.company': string;
-                'footer.contact': string;
-                'footer.enterprisePricing': string;
-                'footer.freeeBook': string;
-                'footer.helpCenter': string;
-                'footer.hiring': string;
-                'footer.internship': string;
-                'footer.jobListing': string;
-                'footer.jobPostingPricing': string;
-                'footer.language': string;
-                'footer.pageBuilder': string;
-                'footer.partTime': string;
-                'footer.pressKit': string;
-                'footer.privacy': string;
-                'footer.remote': string;
-                'footer.resources': string;
-                'footer.resumeBuilder': string;
-                'footer.resumePricing': string;
-                'footer.resumeSamples': string;
-                'footer.solutions': string;
-                'footer.subscribe': string;
-                'footer.subscribeDescription': string;
-                'footer.talentSearch': string;
-                'footer.termsOfService': string;
-                'globalAlerts.copied': string;
-                'globalAlerts.fileSizeExceed': string;
-                'globalAlerts.followSuccess': string;
-                'globalAlerts.gotPremiumListSnippet': string;
-                'globalAlerts.loading': string;
-                'globalAlerts.pageNotFound': string;
-                'globalAlerts.payWithCreditCardChargeFail': string;
-                'globalAlerts.payWithCreditCardChargeFailTwo': string;
-                'globalAlerts.payWithCreditCardProcessing': string;
-                'globalAlerts.payWithCreditCardRedirecting': string;
-                'globalAlerts.resendEmailSuccess': string;
-                'globalAlerts.resumeNotFound': string;
-                'globalAlerts.settingSuccess': string;
-                'globalAlerts.upgrade': string;
-                'globalAlerts.upgradeToUnlockFeature': string;
-                'globalAlerts.verifyEmailSuccess': string;
-                'header.accountBilling': string;
-                'header.administrative': string;
-                'header.allArticles': string;
-                'header.allResumeSamples': string;
-                'header.articles': string;
-                'header.businessSolutions': string;
-                'header.callForDevelopers': string;
-                'header.career': string;
-                'header.categoryResumeExamples': string;
-                'header.community': string;
-                'header.companyInterview': string;
-                'header.dashboard': string;
-                'header.design': string;
-                'header.engineering': string;
-                'header.enterprisePricing': string;
-                'header.finance': string;
-                'header.findJobs': string;
-                'header.forCompanies': string;
-                'header.freeResumeEbook': string;
-                'header.freeUpgrade': string;
-                'header.helpCenter': string;
-                'header.hireViaJobEspresso': string;
-                'header.jeDesc': string;
-                'header.jobInterview': string;
-                'header.jobPostingPricing': string;
-                'header.jobSearch': string;
-                'header.jobSearchDesc': string;
-                'header.jobSearchingGuide': string;
-                'header.jobSearchingResource': string;
-                'header.jobs': string;
-                'header.learnMore': string;
-                'header.management': string;
-                'header.markAllAsRead': string;
-                'header.media': string;
-                'header.messages': string;
-                'header.more': string;
-                'header.noMessageTitle': string;
-                'header.notificationSettings': string;
-                'header.notifications': string;
-                'header.portfolio': string;
-                'header.postJobs': string;
-                'header.profileSetting': string;
-                'header.recruit': string;
-                'header.recruitmentGuides': string;
-                'header.recruitmentPartnership': string;
-                'header.referralProgram': string;
-                'header.register': string;
-                'header.resume': string;
-                'header.resumePricing': string;
-                'header.resumeResources': string;
-                'header.resumeSamples': string;
-                'header.sales': string;
-                'header.samples': string;
-                'header.seeAllMessages': string;
-                'header.seeAllNotifications': string;
-                'header.service': string;
-                'header.signIn': string;
-                'header.signOut': string;
-                'header.talentSearch': string;
-                'header.technology': string;
-                'header.upgrade': string;
-                'header.workCollection': string;
-                'imageUploader.addImage': string;
-                'imageUploader.done': string;
-                'imageUploader.dropZoneDes1': string;
-                'imageUploader.dropZoneDes2': string;
-                'imageUploader.upload': string;
-                'imageUploader.uploadFirst': string;
-                'invoices.amount': string;
-                'invoices.date': string;
-                'invoices.invoiceCreated': string;
-                'invoices.invoices': string;
-                'invoices.paid': string;
-                'invoices.reference': string;
-                'invoices.refunded': string;
-                'invoices.status': string;
-                'job-application.addSkills': string;
-                'job-application.back': string;
-                'job-application.browserNotificationHint': string;
-                'job-application.browserNotificationHintLink': string;
-                'job-application.continueApplyJob': string;
-                'job-application.coverLetter': string;
-                'job-application.coverLetterHint': string;
-                'job-application.coverLetterHintLink': string;
-                'job-application.coverLetterPlaceholder': string;
-                'job-application.coverLetterType': string;
-                'job-application.goToDashboard': string;
-                'job-application.jobApplicationSuccessMessage': string;
-                'job-application.jobApplicationSuccessTitle': string;
-                'job-application.nowYouCan': string;
-                'job-application.phone': string;
-                'job-application.phoneType': string;
-                'job-application.resumeType': string;
-                'job-application.skillsTitle': string;
-                'job-application.skillsType': string;
-                'job-application.submitApplication': string;
-                'job-application.submitFailMessage': string;
-                'job-application.submitYourApplication': string;
-                'job-application.textInputFailMessage': string;
-                'job-application.textInputTooLongMessage': string;
-                'job-application.workExperienceTitle': string;
-                'job-application.workExperienceType': string;
-                'job-application_resume-selector.attachPDF': string;
-                'job-application_resume-selector.attachPDFFailed': string;
-                'job-application_resume-selector.choose': string;
-                'job-application_resume-selector.createHint': string;
-                'job-application_resume-selector.createHintLink': string;
-                'job-application_resume-selector.dropHint': string;
-                'job-application_resume-selector.fileTooBig': string;
-                'job-application_resume-selector.fileTooSmall': string;
-                'job-application_resume-selector.noResumeYet': string;
-                'job-application_resume-selector.resumeSelectorTitle': string;
-                'job-application_resume-selector.selectorPlaceholder': string;
-                'job-application_resume-selector.useCakeResume': string;
-                'job-espresso.applyNow': string;
-                'job-espresso.bdDesc': string;
-                'job-espresso.businessDevelopment': string;
-                'job-espresso.companiesReliabilityTitle': string;
-                'job-espresso.companiesReliabilityTitleCdd': string;
-                'job-espresso.done': string;
-                'job-espresso.exAppleTalentSpecialist': string;
-                'job-espresso.faqAnswerFive': string;
-                'job-espresso.faqAnswerFour': string;
-                'job-espresso.faqAnswerOne': string;
-                'job-espresso.faqAnswerSix': string;
-                'job-espresso.faqAnswerThree': string;
-                'job-espresso.faqAnswerTwo': string;
-                'job-espresso.faqQuestionFive': string;
-                'job-espresso.faqQuestionFour': string;
-                'job-espresso.faqQuestionOne': string;
-                'job-espresso.faqQuestionSix': string;
-                'job-espresso.faqQuestionThree': string;
-                'job-espresso.faqQuestionTwo': string;
-                'job-espresso.getCertificate': string;
-                'job-espresso.howJeWorks': string;
-                'job-espresso.jeCddIndexCertificationDesc': string;
-                'job-espresso.jeCddIndexCertificationPopover': string;
-                'job-espresso.jeCddIndexCertificationTitle': string;
-                'job-espresso.jeCddIndexFeatureDesc': string;
-                'job-espresso.jeCddIndexFeaturePopover': string;
-                'job-espresso.jeCddIndexFeatureTitle': string;
-                'job-espresso.jeCddIndexHeadingSubtitle': string;
-                'job-espresso.jeCddIndexHeadingTitle': string;
-                'job-espresso.jeCddIndexHowWorkFour': string;
-                'job-espresso.jeCddIndexHowWorkOne': string;
-                'job-espresso.jeCddIndexHowWorkThree': string;
-                'job-espresso.jeCddIndexHowWorkTwo': string;
-                'job-espresso.jeCddTestimonialsContentOne': string;
-                'job-espresso.jeCddTestimonialsContentTwo': string;
-                'job-espresso.jeCompanyIndexCheckOne': string;
-                'job-espresso.jeCompanyIndexCheckThree': string;
-                'job-espresso.jeCompanyIndexCheckTwo': string;
-                'job-espresso.jeCompanyIndexFeatureTitle': string;
-                'job-espresso.jeCompanyIndexFooterDesc': string;
-                'job-espresso.jeCompanyIndexFooterPopover': string;
-                'job-espresso.jeCompanyIndexFooterTitle': string;
-                'job-espresso.jeCompanyIndexHeadingSubtitle': string;
-                'job-espresso.jeCompanyIndexHeadingTitle': string;
-                'job-espresso.jeCompanyIndexHiringNeeds': string;
-                'job-espresso.jeCompanyIndexHowWorkFour': string;
-                'job-espresso.jeCompanyIndexHowWorkOne': string;
-                'job-espresso.jeCompanyIndexHowWorkThree': string;
-                'job-espresso.jeCompanyIndexHowWorkTwo': string;
-                'job-espresso.jeCompanyIndexOptionOne': string;
-                'job-espresso.jeCompanyIndexOptionTwo': string;
-                'job-espresso.jeCompanyIndexRecommendationDesc': string;
-                'job-espresso.jeCompanyIndexRecommendationTitle': string;
-                'job-espresso.jeCompanyTestimonialsContentOne': string;
-                'job-espresso.jeCompanyTestimonialsContentTwo': string;
-                'job-espresso.jeLandingHeadingProvided': string;
-                'job-espresso.metaDesc': string;
-                'job-espresso.ourTeamOutline': string;
-                'job-espresso.ourTeamOutlineCdd': string;
-                'job-espresso.ourTeamTitle': string;
-                'job-espresso.ourTeamTitleCdd': string;
-                'job-espresso.podcastHost': string;
-                'job-espresso.recruitmentConsultant': string;
-                'job-espresso.seniorConsultant': string;
-                'job-espresso.step': string;
-                'job-espresso.talentSupport': string;
-                'job-espresso_cdd-onboarding.finish': string;
-                'job-espresso_cdd-onboarding.goBack': string;
-                'job-espresso_cdd-onboarding.next': string;
-                'job-espresso_cdd-onboarding.step0Desc0': string;
-                'job-espresso_cdd-onboarding.step0Desc1': string;
-                'job-espresso_cdd-onboarding.step0Desc2': string;
-                'job-espresso_cdd-onboarding.step0Desc3': string;
-                'job-espresso_cdd-onboarding.step0Hint': string;
-                'job-espresso_cdd-onboarding.step0Title0': string;
-                'job-espresso_cdd-onboarding.step0Title1': string;
-                'job-espresso_cdd-onboarding.step0Title2': string;
-                'job-espresso_cdd-onboarding.step0Title3': string;
-                'job-espresso_cdd-onboarding.step1Desc0': string;
-                'job-espresso_cdd-onboarding.step1Desc1': string;
-                'job-espresso_cdd-onboarding.step1Hint': string;
-                'job-espresso_cdd-onboarding.step1Title0': string;
-                'job-espresso_cdd-onboarding.step1Title1': string;
-                'job-espresso_cdd-onboarding.step2Desc00': string;
-                'job-espresso_cdd-onboarding.step2Popover00': string;
-                'job-espresso_cdd-onboarding.step2Title0': string;
-                'job-espresso_cdd-onboarding.step3ApplyWithProfile': string;
-                'job-espresso_cdd-onboarding.step3DataProcessing': string;
-                'job-espresso_cdd-onboarding.step3Desc00': string;
-                'job-espresso_cdd-onboarding.step3Desc01': string;
-                'job-espresso_cdd-onboarding.step3EditProfile': string;
-                'job-espresso_cdd-onboarding.step3HelpBlock': string;
-                'job-espresso_cdd-onboarding.step3PleaseEditProfile': string;
-                'job-espresso_cdd-onboarding.step3ProfileIncomplete': string;
-                'job-espresso_cdd-onboarding.step4Desc0': string;
-                'job-espresso_cdd-onboarding.step4Desc1': string;
-                'job-espresso_cdd-onboarding.step4Desc2': string;
-                'job-espresso_cdd-onboarding.step4Title0': string;
-                'job-espresso_cdd-onboarding.step4Title1': string;
-                'job-espresso_cdd-onboarding.step4Title2': string;
-                'job-espresso_cdd-onboarding.subTitleJECddOnboardingStep0': string;
-                'job-espresso_cdd-onboarding.subTitleJECddOnboardingStep1': string;
-                'job-espresso_cdd-onboarding.subTitleJECddOnboardingStep2': string;
-                'job-espresso_cdd-onboarding.subTitleJECddOnboardingStep3': string;
-                'job-espresso_cdd-onboarding.subTitleJECddOnboardingStep4': string;
-                'job-espresso_cdd-onboarding.titleJECddOnboardingStep0': string;
-                'job-espresso_cdd-onboarding.titleJECddOnboardingStep1': string;
-                'job-espresso_cdd-onboarding.titleJECddOnboardingStep2': string;
-                'job-espresso_cdd-onboarding.titleJECddOnboardingStep3': string;
-                'job-espresso_cdd-onboarding.titleJECddOnboardingStep4': string;
-                'job-espresso_cdd-profile.advanced': string;
-                'job-espresso_cdd-profile.background': string;
-                'job-espresso_cdd-profile.basic': string;
-                'job-espresso_cdd-profile.desired_locations': string;
-                'job-espresso_cdd-profile.entryLevel': string;
-                'job-espresso_cdd-profile.experience': string;
-                'job-espresso_cdd-profile.experience_by_role': string;
-                'job-espresso_cdd-profile.experience_by_technology': string;
-                'job-espresso_cdd-profile.intermediate': string;
-                'job-espresso_cdd-profile.je_score': string;
-                'job-espresso_cdd-profile.languages': string;
-                'job-espresso_cdd-profile.lessThan2Years': string;
-                'job-espresso_cdd-profile.moreThan2Years': string;
-                'job-espresso_cdd-profile.projects': string;
-                'job-espresso_cdd-profile.salary_expection': string;
-                'job-espresso_cdd-profile.summary': string;
-                'job-espresso_cdd-profile.technology_experience': string;
-                'job-espresso_cdd-profile.whyMatched': string;
-                'job-espresso_company-dashboard.actions': string;
-                'job-espresso_company-dashboard.alertDemo': string;
-                'job-espresso_company-dashboard.applyForJe': string;
-                'job-espresso_company-dashboard.back': string;
-                'job-espresso_company-dashboard.companyName': string;
-                'job-espresso_company-dashboard.experience': string;
-                'job-espresso_company-dashboard.hide': string;
-                'job-espresso_company-dashboard.hideHint': string;
-                'job-espresso_company-dashboard.jobTitles': string;
-                'job-espresso_company-dashboard.modalPlaceholder': string;
-                'job-espresso_company-dashboard.modalTitle': string;
-                'job-espresso_company-dashboard.name': string;
-                'job-espresso_company-dashboard.overview': string;
-                'job-espresso_company-dashboard.requestACall': string;
-                'job-espresso_company-dashboard.score': string;
-                'job-espresso_company-dashboard.sendMessage': string;
-                'job-espresso_company-dashboard.skills': string;
-                'job-espresso_company-dashboard.view': string;
-                'job-espresso_company-dashboard.years': string;
-                'job-espresso_company-onboarding.finish': string;
-                'job-espresso_company-onboarding.goBack': string;
-                'job-espresso_company-onboarding.next': string;
-                'job-espresso_company-onboarding.step0Desc0': string;
-                'job-espresso_company-onboarding.step0Desc1': string;
-                'job-espresso_company-onboarding.step0Desc2': string;
-                'job-espresso_company-onboarding.step0Desc3': string;
-                'job-espresso_company-onboarding.step0Title0': string;
-                'job-espresso_company-onboarding.step0Title1': string;
-                'job-espresso_company-onboarding.step0Title2': string;
-                'job-espresso_company-onboarding.step0Title3': string;
-                'job-espresso_company-onboarding.step1Desc0': string;
-                'job-espresso_company-onboarding.step1Desc1': string;
-                'job-espresso_company-onboarding.step1Hint': string;
-                'job-espresso_company-onboarding.step1Title0': string;
-                'job-espresso_company-onboarding.step1Title1': string;
-                'job-espresso_company-onboarding.step2Desc0': string;
-                'job-espresso_company-onboarding.step2Desc1': string;
-                'job-espresso_company-onboarding.step2OfferRate': string;
-                'job-espresso_company-onboarding.step2PassRate': string;
-                'job-espresso_company-onboarding.step2Title0': string;
-                'job-espresso_company-onboarding.step2Title1': string;
-                'job-espresso_company-onboarding.step3Desc00': string;
-                'job-espresso_company-onboarding.step3Title0': string;
-                'job-espresso_company-onboarding.step4Desc0': string;
-                'job-espresso_company-onboarding.step4Desc0Popover': string;
-                'job-espresso_company-onboarding.step4TimeToPay': string;
-                'job-espresso_company-onboarding.step4Title0': string;
-                'job-espresso_company-onboarding.step5Desc0': string;
-                'job-espresso_company-onboarding.step5Schedule': string;
-                'job-espresso_company-onboarding.step5Title0': string;
-                'job-espresso_company-onboarding.step6Desc0': string;
-                'job-espresso_company-onboarding.step6Desc1': string;
-                'job-espresso_company-onboarding.step6Desc2': string;
-                'job-espresso_company-onboarding.step6Title0': string;
-                'job-espresso_company-onboarding.step6Title1': string;
-                'job-espresso_company-onboarding.step6Title2': string;
-                'job-espresso_company-onboarding.subTitleJECompanyOnboardingStep0': string;
-                'job-espresso_company-onboarding.subTitleJECompanyOnboardingStep1': string;
-                'job-espresso_company-onboarding.subTitleJECompanyOnboardingStep2': string;
-                'job-espresso_company-onboarding.subTitleJECompanyOnboardingStep3': string;
-                'job-espresso_company-onboarding.subTitleJECompanyOnboardingStep4': string;
-                'job-espresso_company-onboarding.subTitleJECompanyOnboardingStep5': string;
-                'job-espresso_company-onboarding.subTitleJECompanyOnboardingStep6': string;
-                'job-espresso_company-onboarding.titleJECompanyOnboardingStep0': string;
-                'job-espresso_company-onboarding.titleJECompanyOnboardingStep1': string;
-                'job-espresso_company-onboarding.titleJECompanyOnboardingStep2': string;
-                'job-espresso_company-onboarding.titleJECompanyOnboardingStep3': string;
-                'job-espresso_company-onboarding.titleJECompanyOnboardingStep4': string;
-                'job-espresso_company-onboarding.titleJECompanyOnboardingStep5': string;
-                'job-espresso_company-onboarding.titleJECompanyOnboardingStep6': string;
-                'job-espresso_je-footer.employers': string;
-                'job-espresso_je-footer.forCompanies': string;
-                'job-espresso_je-footer.forEngineers': string;
-                'job-espresso_je-footer.jobSeeker': string;
-                'job-espresso_je-footer.language': string;
-                'job-espresso_je-header.backToCakeResume': string;
-                'job-espresso_je-header.forCompanies': string;
-                'job-espresso_je-header.forEngineers': string;
-                'job-espresso_je-header.logout': string;
-                'job-or-company-list.browseJob': string;
-                'job-or-company-list.follow': string;
-                'job-or-company-list.followCompanyMessage': string;
-                'job-or-company-list.following': string;
-                'job-or-company-list.impressions': string;
-                'job-or-company-list.isFollowingCompany': string;
-                'job-or-company-list.jobSalary': string;
-                'job-or-company-list.noDescription': string;
-                'job-or-company-list.numberForHire': string;
-                'job-or-company-list.perDay': string;
-                'job-or-company-list.perHour': string;
-                'job-or-company-list.perMonth': string;
-                'job-or-company-list.perYear': string;
-                'job-or-company-list.pieceRatePay': string;
-                'job-or-company-list.popular': string;
-                'job-or-company-list.read': string;
-                'job-or-company-list.referralProgram': string;
-                'job-or-company-list.save': string;
-                'job-or-company-list.saved': string;
-                'job-or-company-list.signingBonus': string;
-                'job-or-company-list.unread': string;
-                'job-or-company-list.updated': string;
-                'job-search-filter.category': string;
-                'job-search-filter.contentLang': string;
-                'job-search-filter.jobType': string;
-                'job-search-filter.location': string;
-                'job-search-filter.management': string;
-                'job-search-filter.numberOfEmployees': string;
-                'job-search-filter.pleaseSelect': string;
-                'job-search-filter.remote': string;
-                'job-search-filter.salary': string;
-                'job-search-filter.salaryCurrency': string;
-                'job-search-filter.salaryType': string;
-                'job-search-filter.seniorityLevel': string;
-                'job-search-status-form.createLanguage': string;
-                'job-search-status-form.currentEmploymentStatus': string;
-                'job-search-status-form.desiredLocations': string;
-                'job-search-status-form.desiredLocationsPlaceholder': string;
-                'job-search-status-form.desiredPosition': string;
-                'job-search-status-form.expectedSalary': string;
-                'job-search-status-form.experience': string;
-                'job-search-status-form.freelance': string;
-                'job-search-status-form.from': string;
-                'job-search-status-form.fullTime': string;
-                'job-search-status-form.industry': string;
-                'job-search-status-form.interested': string;
-                'job-search-status-form.intern': string;
-                'job-search-status-form.jobSearchProgress': string;
-                'job-search-status-form.jobType': string;
-                'job-search-status-form.language': string;
-                'job-search-status-form.languageProficiency': string;
-                'job-search-status-form.languageProficiency0': string;
-                'job-search-status-form.languageProficiency1': string;
-                'job-search-status-form.languageProficiency2': string;
-                'job-search-status-form.languageProficiency3': string;
-                'job-search-status-form.languageProficiency4': string;
-                'job-search-status-form.management': string;
-                'job-search-status-form.managementFifteenPlus': string;
-                'job-search-status-form.managementFive2ten': string;
-                'job-search-status-form.managementNone': string;
-                'job-search-status-form.managementOne2five': string;
-                'job-search-status-form.managementTen2fifteen': string;
-                'job-search-status-form.noInterested': string;
-                'job-search-status-form.partTime': string;
-                'job-search-status-form.profession': string;
-                'job-search-status-form.proficiency': string;
-                'job-search-status-form.relevantWorkExperience': string;
-                'job-search-status-form.relevantWorkExperienceDesc': string;
-                'job-search-status-form.remote': string;
-                'job-search-status-form.remoteOnly': string;
-                'job-search-status-form.salaryConfirmAlert': string;
-                'job-search-status-form.salaryRangeTooLarge': string;
-                'job-search-status-form.skillList': string;
-                'job-search-status-form.skillListPlaceholder': string;
-                'job-search-status-form.to': string;
-                'job-search-status-form.yes': string;
-                'jobRefinementList.associate': string;
-                'jobRefinementList.contract': string;
-                'jobRefinementList.director': string;
-                'jobRefinementList.entryLevel': string;
-                'jobRefinementList.executive': string;
-                'jobRefinementList.freelance': string;
-                'jobRefinementList.fullRemoteWork': string;
-                'jobRefinementList.internship': string;
-                'jobRefinementList.internshipLevel': string;
-                'jobRefinementList.managementFifteenPlus': string;
-                'jobRefinementList.managementFive2ten': string;
-                'jobRefinementList.managementNone': string;
-                'jobRefinementList.managementNotSpecified': string;
-                'jobRefinementList.managementOne2five': string;
-                'jobRefinementList.managementTen2fifteen': string;
-                'jobRefinementList.midSeniorLevel': string;
-                'jobRefinementList.noRemoteWork': string;
-                'jobRefinementList.numberOfEmployees1001To5000': string;
-                'jobRefinementList.numberOfEmployees11To50': string;
-                'jobRefinementList.numberOfEmployees1To10': string;
-                'jobRefinementList.numberOfEmployees201To500': string;
-                'jobRefinementList.numberOfEmployees5001Up': string;
-                'jobRefinementList.numberOfEmployees501To1000': string;
-                'jobRefinementList.numberOfEmployees51To200': string;
-                'jobRefinementList.optionalRemoteWork': string;
-                'jobRefinementList.partialRemoteWork': string;
-                'jobRefinementList.temporary': string;
-                'jobRefinementList.volunteer': string;
-                'jobs-and-companies.browseCompanies': string;
-                'jobs-and-companies.browseJobs': string;
-                'jobs-and-companies.browserHistory': string;
-                'jobs-and-companies.cakeResumeJobSearch': string;
-                'jobs-and-companies.companies': string;
-                'jobs-and-companies.companyUniquePageviews': string;
-                'jobs-and-companies.currentStatus': string;
-                'jobs-and-companies.editProfile': string;
-                'jobs-and-companies.guestUserCardDesc': string;
-                'jobs-and-companies.guestUserCardTitle': string;
-                'jobs-and-companies.jobAdjNoun': string;
-                'jobs-and-companies.jobAdjNounTitleCase': string;
-                'jobs-and-companies.jobDescCompanySize': string;
-                'jobs-and-companies.jobDescMeta': string;
-                'jobs-and-companies.jobDescMetaInLocation': string;
-                'jobs-and-companies.jobDescMetaWithAdj': string;
-                'jobs-and-companies.jobDescMetaWithAdjInLocation': string;
-                'jobs-and-companies.jobRecommendationsForYou': string;
-                'jobs-and-companies.jobSearch': string;
-                'jobs-and-companies.jobSearchPlaceholder': string;
-                'jobs-and-companies.jobSearchProgress': string;
-                'jobs-and-companies.jobTitleMetaInLocation': string;
-                'jobs-and-companies.jobTitleMetaWithAdj': string;
-                'jobs-and-companies.jobTitleMetaWithAdjInLocation': string;
-                'jobs-and-companies.manageAllCompanies': string;
-                'jobs-and-companies.manageJobListings': string;
-                'jobs-and-companies.newCompany': string;
-                'jobs-and-companies.pageDescMeta': string;
-                'jobs-and-companies.pageTitleMeta': string;
-                'jobs-and-companies.peopleViewPages': string;
-                'jobs-and-companies.peopleViewResumes': string;
-                'jobs-and-companies.popularArticles': string;
-                'jobs-and-companies.popularJobs': string;
-                'jobs-and-companies.postJobs': string;
-                'jobs-and-companies.resumeUniquePageviews': string;
-                'jobs-and-companies.savedJobs': string;
-                'jobs-and-companies.share': string;
-                'jobs-and-companies.signUp': string;
-                'jobs-and-companies.siteMeta': string;
-                'jobs-and-companies.siteMetaWithDesc': string;
-                'jobs-and-companies.viewAllArticles': string;
-                'jobs-and-companies.viewAllCompanies': string;
-                'jobs-and-companies.viewAllJobs': string;
-                'jobs-and-companies.viewYourProfile': string;
-                'jobs-and-companies_job-subscriptions.getAlert': string;
-                'jobs-and-companies_job-subscriptions.manage': string;
-                'jobs-and-companies_job-subscriptions.manageSubscriptions': string;
-                'jobs-and-companies_job-subscriptions.noSubscriptionHint': string;
-                'jobs-and-companies_job-subscriptions.placeholder': string;
-                'jobs-and-companies_job-subscriptions.savedSearches': string;
-                'jobs-and-companies_job-subscriptions.subscriptionHint': string;
-                'jobs-and-companies_order-controller.popular': string;
-                'jobs-and-companies_order-controller.recent': string;
-                'jobs-and-companies_profession-selector.marketingCommunications': string;
-                'jobs-and-companies_profession-selector.popularJobCategories': string;
-                'jobs-and-companies_profession-selector.supportRoles': string;
-                'jobs-and-companies_recommended-articles.moreArticles': string;
-                'jobs-and-companies_recommended-articles.recommendedArticles': string;
-                'jobs-and-companies_recommended-articles.tips': string;
-                'jobs-and-companies_recommended-companies.companySize': string;
-                'jobs-and-companies_recommended-companies.hiring': string;
-                'jobs-and-companies_recommended-companies.jobCount': string;
-                'jobs-and-companies_recommended-companies.popularCompanies': string;
-                'new-feature.content': string;
-                'new-feature.learnMore': string;
-                'new-feature.newService': string;
-                'notification.hasImportantMessage': string;
-                'notification.noMoreNotifications': string;
-                'notification.noNotificationsYet': string;
-                'notification.openBrowserNotification': string;
-                'notification.willKeepYouPosted': string;
-                'oneSignal.dialogBlockedMessage': string;
-                'oneSignal.dialogBlockedTitle': string;
-                'oneSignal.dialogMainButtonSubscribe': string;
-                'oneSignal.dialogMainButtonUnsubscribe': string;
-                'oneSignal.dialogMainTitle': string;
-                'oneSignal.messageActionResubscribed': string;
-                'oneSignal.messageActionSubscribed': string;
-                'oneSignal.messageActionUnsubscribed': string;
-                'oneSignal.messagePreNotify': string;
-                'oneSignal.tipStateBlocked': string;
-                'oneSignal.tipStateSubscribed': string;
-                'oneSignal.tipStateUnsubscribed': string;
-                'personal-site.toDashboard': string;
-                'personal-site_nav.mainResume': string;
-                'personal-site_nav.messageMe': string;
-                'personal-site_nav.portfolio': string;
-                'personal-site_top-bar.goBack': string;
-                'personal-site_top-bar.loggedInUserCanView': string;
-                'personal-site_top-bar.privacySettings': string;
-                'personal-site_top-bar.public': string;
-                'personal-site_top-bar.viewingAsVisitor': string;
-                'pricing-modal.agreeHint': string;
-                'pricing-modal.annually': string;
-                'pricing-modal.cardNumber': string;
-                'pricing-modal.companyName': string;
-                'pricing-modal.encryptedPayment': string;
-                'pricing-modal.invalidCardExpiry': string;
-                'pricing-modal.invalidCardNumber': string;
-                'pricing-modal.invalidCode': string;
-                'pricing-modal.monthly': string;
-                'pricing-modal.nameOnCard': string;
-                'pricing-modal.notStoreDetails': string;
-                'pricing-modal.notStoreDetailsPopover': string;
-                'pricing-modal.purchase': string;
-                'pricing-modal.quarterly': string;
-                'pricing-modal.serviceTerm': string;
-                'pricing-modal.taxId': string;
-                'pricing-modal.taxIdWarning': string;
-                'pricing-modal.total': string;
-                'pricing.billedAnnually': string;
-                'pricing.billedAnnuallyVerbose': string;
-                'pricing.billedMonthly': string;
-                'pricing.billedMonthlyVerbose': string;
-                'pricing.billedQuarterly': string;
-                'pricing.billedQuarterlyVerbose': string;
-                'pricing.cancelAnytime': string;
-                'pricing.customPlan': string;
-                'pricing.firstSubscriptionOnly': string;
-                'pricing.free': string;
-                'pricing.moneyBack': string;
-                'pricing.perMonth': string;
-                'pricing_faq.accountAndBilling': string;
-                'pricing_faq.answer10': string;
-                'pricing_faq.answer11': string;
-                'pricing_faq.answer2': string;
-                'pricing_faq.answer30': string;
-                'pricing_faq.answer31': string;
-                'pricing_faq.answer40': string;
-                'pricing_faq.answer41': string;
-                'pricing_faq.answer5': string;
-                'pricing_faq.answer6': string;
-                'pricing_faq.b2bAnswer1': string;
-                'pricing_faq.b2bAnswer2': string;
-                'pricing_faq.b2bAnswer3': string;
-                'pricing_faq.b2bQuestion1': string;
-                'pricing_faq.b2bQuestion2': string;
-                'pricing_faq.b2bQuestion3': string;
-                'pricing_faq.cakeresumeBlog': string;
-                'pricing_faq.forMoreDetails': string;
-                'pricing_faq.jobListingAnswer1': string;
-                'pricing_faq.jobListingAnswer2': string;
-                'pricing_faq.jobListingAnswer3': string;
-                'pricing_faq.jobListingAnswer4': string;
-                'pricing_faq.jobListingAnswer5': string;
-                'pricing_faq.jobListingAnswer6': string;
-                'pricing_faq.jobListingQuestion1': string;
-                'pricing_faq.jobListingQuestion2': string;
-                'pricing_faq.jobListingQuestion3': string;
-                'pricing_faq.jobListingQuestion4': string;
-                'pricing_faq.jobListingQuestion5': string;
-                'pricing_faq.jobListingQuestion6': string;
-                'pricing_faq.question1': string;
-                'pricing_faq.question2': string;
-                'pricing_faq.question3': string;
-                'pricing_faq.question4': string;
-                'pricing_faq.question5': string;
-                'pricing_faq.question6': string;
-                'pricing_faq.talentSearchAnswer1': string;
-                'pricing_faq.talentSearchQuestion1': string;
-                'pricing_faq.techCareer': string;
-                'pricing_job-listing-pricing.annually': string;
-                'pricing_job-listing-pricing.annuallyDesc': string;
-                'pricing_job-listing-pricing.article': string;
-                'pricing_job-listing-pricing.browseAll': string;
-                'pricing_job-listing-pricing.browseApplicants': string;
-                'pricing_job-listing-pricing.browseLastMonth': string;
-                'pricing_job-listing-pricing.buildPowerfulBrand': string;
-                'pricing_job-listing-pricing.buildPowerfulBrandContentFive': string;
-                'pricing_job-listing-pricing.buildPowerfulBrandContentFour': string;
-                'pricing_job-listing-pricing.buildPowerfulBrandContentOne': string;
-                'pricing_job-listing-pricing.buildPowerfulBrandContentThree': string;
-                'pricing_job-listing-pricing.buildPowerfulBrandContentTwo': string;
-                'pricing_job-listing-pricing.buildPowerfulBrandDesc': string;
-                'pricing_job-listing-pricing.bundle': string;
-                'pricing_job-listing-pricing.bundleDesc': string;
-                'pricing_job-listing-pricing.bundlePlan': string;
-                'pricing_job-listing-pricing.cakeresumeTalentSearch': string;
-                'pricing_job-listing-pricing.companyInterview': string;
-                'pricing_job-listing-pricing.companyInterviewDesc': string;
-                'pricing_job-listing-pricing.companyPage': string;
-                'pricing_job-listing-pricing.contactUs': string;
-                'pricing_job-listing-pricing.contactUsTitle': string;
-                'pricing_job-listing-pricing.employerBranding': string;
-                'pricing_job-listing-pricing.enterprise': string;
-                'pricing_job-listing-pricing.enterpriseDesc': string;
-                'pricing_job-listing-pricing.event': string;
-                'pricing_job-listing-pricing.giveUsCall': string;
-                'pricing_job-listing-pricing.jobPosting': string;
-                'pricing_job-listing-pricing.metaDesc': string;
-                'pricing_job-listing-pricing.metaSite': string;
-                'pricing_job-listing-pricing.metaTitle': string;
-                'pricing_job-listing-pricing.monthly': string;
-                'pricing_job-listing-pricing.moreApplicants': string;
-                'pricing_job-listing-pricing.moreApplicantsDesc': string;
-                'pricing_job-listing-pricing.multipleAccounts': string;
-                'pricing_job-listing-pricing.numberUp': string;
-                'pricing_job-listing-pricing.oneAccount': string;
-                'pricing_job-listing-pricing.podcast': string;
-                'pricing_job-listing-pricing.prime': string;
-                'pricing_job-listing-pricing.primeDesc': string;
-                'pricing_job-listing-pricing.quarterly': string;
-                'pricing_job-listing-pricing.quarterlyDesc': string;
-                'pricing_job-listing-pricing.recruitmentEvent': string;
-                'pricing_job-listing-pricing.recruitmentEventDesc': string;
-                'pricing_job-listing-pricing.serviceTime': string;
-                'pricing_job-listing-pricing.starter': string;
-                'pricing_job-listing-pricing.starterDesc': string;
-                'pricing_job-listing-pricing.subtitle': string;
-                'pricing_job-listing-pricing.talentSearch': string;
-                'pricing_job-listing-pricing.testimonialsTitle': string;
-                'pricing_job-listing-pricing.title': string;
-                'pricing_job-listing-pricing.trackViaGA': string;
-                'pricing_job-listing-pricing.unlimitedJobPostings': string;
-                'pricing_job-listing-pricing.upToNJobPostings': string;
-                'pricing_logos.title': string;
-                'pricing_period-plan-selector.annually': string;
-                'pricing_period-plan-selector.monthly': string;
-                'pricing_period-plan-selector.quarterly': string;
-                'pricing_phone.contactUs': string;
-                'pricing_phone.title': string;
-                'pricing_plan-content.advancedContentFour': string;
-                'pricing_plan-content.advancedContentFourPopover': string;
-                'pricing_plan-content.advancedContentOne': string;
-                'pricing_plan-content.advancedContentOneResumeSnippets': string;
-                'pricing_plan-content.advancedContentThree': string;
-                'pricing_plan-content.advancedContentThreePopover': string;
-                'pricing_plan-content.advancedContentTitle': string;
-                'pricing_plan-content.advancedContentTwo': string;
-                'pricing_plan-content.advancedContentTwoPopover': string;
-                'pricing_plan-content.basicContentFour': string;
-                'pricing_plan-content.basicContentFourPopover': string;
-                'pricing_plan-content.basicContentOne': string;
-                'pricing_plan-content.basicContentThree': string;
-                'pricing_plan-content.basicContentTitle': string;
-                'pricing_plan-content.basicContentTwo': string;
-                'pricing_plan-content.jobPosting': string;
-                'pricing_plan-content.jobPostingEnterpriseBundleContentTitle': string;
-                'pricing_plan-content.jobPostingEnterpriseContentTitle': string;
-                'pricing_plan-content.proContentOne': string;
-                'pricing_plan-content.proContentThree': string;
-                'pricing_plan-content.proContentThreePopover': string;
-                'pricing_plan-content.proContentTitle': string;
-                'pricing_plan-content.proContentTwo': string;
-                'pricing_plan-content.recruitmentEvent': string;
-                'pricing_plan-content.talentSearchBundleContentOne': string;
-                'pricing_plan-content.talentSearchBundleContentTitle': string;
-                'pricing_plan-content.talentSearchContentFive': string;
-                'pricing_plan-content.talentSearchContentFour': string;
-                'pricing_plan-content.talentSearchContentOne': string;
-                'pricing_plan-content.talentSearchContentOnePopover': string;
-                'pricing_plan-content.talentSearchContentThree': string;
-                'pricing_plan-content.talentSearchContentThreePopover': string;
-                'pricing_plan-content.talentSearchContentTitle': string;
-                'pricing_plan-content.talentSearchContentTwo': string;
-                'pricing_plan-content.talentSearchProPlan': string;
-                'pricing_pricing-plans.currentPlan': string;
-                'pricing_pricing-plans.mostPopularOption': string;
-                'pricing_pricing-plans.purchase': string;
-                'pricing_pricing-plans.signUp': string;
-                'pricing_pricing-plans.startAfterSigningUp': string;
-                'pricing_resume-pricing.advanced': string;
-                'pricing_resume-pricing.advancedDesc': string;
-                'pricing_resume-pricing.basic': string;
-                'pricing_resume-pricing.basicDesc': string;
-                'pricing_resume-pricing.bestPlan': string;
-                'pricing_resume-pricing.metaDesc': string;
-                'pricing_resume-pricing.metaTitle': string;
-                'pricing_resume-pricing.pro': string;
-                'pricing_resume-pricing.proDesc': string;
-                'pricing_resume-pricing.saveMoney': string;
-                'pricing_resume-pricing.snippetSamplesCtaDesc': string;
-                'pricing_resume-pricing.snippetSamplesQuotesDesc': string;
-                'pricing_resume-pricing.snippetSamplesTitle': string;
-                'pricing_resume-pricing.snippetSamplesVideosDesc': string;
-                'pricing_resume-pricing.subtitle': string;
-                'pricing_resume-pricing.testimonialsTitle': string;
-                'pricing_resume-pricing.testimonialsTitleEndUsers': string;
-                'pricing_resume-pricing.title': string;
-                'pricing_resume-pricing.upgradeMyPlan': string;
-                'pricing_talent-search-pricing.annually': string;
-                'pricing_talent-search-pricing.annuallyPlanDesc': string;
-                'pricing_talent-search-pricing.bundle': string;
-                'pricing_talent-search-pricing.bundleDesc': string;
-                'pricing_talent-search-pricing.metaDesc': string;
-                'pricing_talent-search-pricing.metaSite': string;
-                'pricing_talent-search-pricing.metaTitle': string;
-                'pricing_talent-search-pricing.monthly': string;
-                'pricing_talent-search-pricing.pro': string;
-                'pricing_talent-search-pricing.proDesc': string;
-                'pricing_talent-search-pricing.quarterly': string;
-                'pricing_talent-search-pricing.quarterlyPlanDesc': string;
-                'pricing_talent-search-pricing.subtitle': string;
-                'pricing_talent-search-pricing.testimonialsTitle': string;
-                'pricing_talent-search-pricing.title': string;
-                'pricing_testimonials.benjamin_attia': string;
-                'pricing_testimonials.carlie': string;
-                'pricing_testimonials.catherine': string;
-                'pricing_testimonials.chiara_de_caro': string;
-                'pricing_testimonials.chloe': string;
-                'pricing_testimonials.christy_lee': string;
-                'pricing_testimonials.layra': string;
-                'pricing_testimonials.patrick_dobson': string;
-                'pricing_testimonials.ryan': string;
-                'pricing_testimonials.sunny': string;
-                'pricing_testimonials.vivi': string;
-                'pricing_testimonials.wei_fan_chen': string;
-                'private-profile.logIn': string;
-                'private-profile.logInBtn': string;
-                'private-profile.pleaseLogIn': string;
-                'private-profile.signUp': string;
-                'profile_basic-info.noDescription': string;
-                'profile_educations.activities': string;
-                'profile_educations.addEducation': string;
-                'profile_educations.description': string;
-                'profile_educations.emptyEducation': string;
-                'profile_educations.noEducation': string;
-                'profile_educations.noEducationLabel': string;
-                'profile_experiences.addExperience': string;
-                'profile_experiences.emptyExperience': string;
-                'profile_experiences.n_month': string;
-                'profile_experiences.n_year': string;
-                'profile_experiences.noExperience': string;
-                'profile_experiences.noExperienceLabel': string;
-                'profile_experiences.present': string;
-                'profile_job-search-status.currentStatus': string;
-                'profile_job-search-status.desiredLocations': string;
-                'profile_job-search-status.languages': string;
-                'profile_job-search-status.lookingFor': string;
-                'profile_job-search-status.relevant': string;
-                'profile_job-search-status.skills': string;
-                'profile_job-search-status.workExperience': string;
-                'profile_read-more.seeMore': string;
-                'profile_read-more.showLess': string;
-                'profile_section-header.addEducation': string;
-                'profile_section-header.addExperience': string;
-                'profile_section-header.education': string;
-                'profile_section-header.experience': string;
-                'profile_section-header.jobSearchStatus': string;
-                'profile_section-header.profile': string;
-                'profile_section-header.publicProfile': string;
-                'profile_toolbar.exportResume': string;
-                'profile_toolbar.settings': string;
-                'profile_toolbar.share': string;
-                'profile_toolbar.viewAsGuest': string;
-                'recommended-jobs.perDay': string;
-                'recommended-jobs.perHour': string;
-                'recommended-jobs.perMonth': string;
-                'recommended-jobs.perYear': string;
-                'recommended-jobs.pieceRatePay': string;
-                'recommended-jobs.recommendedJobs': string;
-                'redux-form.add': string;
-                'redux-form.company': string;
-                'redux-form.delete': string;
-                'redux-form.description': string;
-                'redux-form.pleaseUploadLogo': string;
-                'redux-form.school': string;
-                'redux-form.submit': string;
-                'redux-form_basic-info-form.basics': string;
-                'redux-form_basic-info-form.confirmChangeEmail': string;
-                'redux-form_basic-info-form.intro': string;
-                'redux-form_basic-info-form.links': string;
-                'redux-form_basic-info-form.name': string;
-                'redux-form_basic-info-form.phone': string;
-                'redux-form_basic-info-form.phoneHelpBlock': string;
-                'redux-form_basic-info-form.role': string;
-                'redux-form_basic-info-form.salaryHelpBlock': string;
-                'redux-form_basic-info-form.username': string;
-                'redux-form_education-form.activities': string;
-                'redux-form_education-form.degree': string;
-                'redux-form_education-form.fromYear': string;
-                'redux-form_education-form.gpa': string;
-                'redux-form_education-form.gpaMax': string;
-                'redux-form_education-form.toYear': string;
-                'redux-form_experience-form.company': string;
-                'redux-form_experience-form.currentlyWork': string;
-                'redux-form_experience-form.endYear': string;
-                'redux-form_experience-form.jobDescription': string;
-                'redux-form_experience-form.startYear': string;
-                'redux-form_experience-form.title': string;
-                'redux-form_helper.validateDegree': string;
-                'redux-form_helper.validateEmailPresence': string;
-                'redux-form_helper.validateEndDateBeforeNow': string;
-                'redux-form_helper.validateGPAExceedMaxGPA': string;
-                'redux-form_helper.validateGPAOverLimit': string;
-                'redux-form_helper.validateInvalidEmail': string;
-                'redux-form_helper.validateMonthPresence': string;
-                'redux-form_helper.validateNegativeGPA': string;
-                'redux-form_helper.validateOrganizationNamePresence': string;
-                'redux-form_helper.validatePresence': string;
-                'redux-form_helper.validateSchoolPeriod': string;
-                'redux-form_helper.validateSchoolPeriodEnd': string;
-                'redux-form_helper.validateSchoolPeriodStart': string;
-                'redux-form_helper.validateStartDateBeforeEndDate': string;
-                'redux-form_helper.validateStartDateBeforeNow': string;
-                'redux-form_helper.validateTitle': string;
-                'redux-form_helper.validateURL': string;
-                'redux-form_helper.validateYearPresence': string;
-                'redux-form_render-field.april': string;
-                'redux-form_render-field.associateSDegree': string;
-                'redux-form_render-field.august': string;
-                'redux-form_render-field.bachelorOfArtsBa': string;
-                'redux-form_render-field.bachelorOfBusinessAdministrationBba': string;
-                'redux-form_render-field.bachelorOfEngineeringBeng': string;
-                'redux-form_render-field.bachelorOfFineArtsBfa': string;
-                'redux-form_render-field.bachelorOfScienceBs': string;
-                'redux-form_render-field.bachelorSDegree': string;
-                'redux-form_render-field.city': string;
-                'redux-form_render-field.december': string;
-                'redux-form_render-field.degree': string;
-                'redux-form_render-field.doctorOfMedicineMd': string;
-                'redux-form_render-field.doctorOfPhilosophyPhd': string;
-                'redux-form_render-field.employed': string;
-                'redux-form_render-field.engineerSDegree': string;
-                'redux-form_render-field.february': string;
-                'redux-form_render-field.fullTimeFreelancer': string;
-                'redux-form_render-field.highSchoolDiploma': string;
-                'redux-form_render-field.inMilitaryService': string;
-                'redux-form_render-field.january': string;
-                'redux-form_render-field.july': string;
-                'redux-form_render-field.june': string;
-                'redux-form_render-field.jurisDoctorJd': string;
-                'redux-form_render-field.location': string;
-                'redux-form_render-field.march': string;
-                'redux-form_render-field.masterOfArtsMa': string;
-                'redux-form_render-field.masterOfBusinessAdministrationMba': string;
-                'redux-form_render-field.masterOfFineArtsMfa': string;
-                'redux-form_render-field.masterOfScienceMs': string;
-                'redux-form_render-field.masterSDegree': string;
-                'redux-form_render-field.may': string;
-                'redux-form_render-field.month': string;
-                'redux-form_render-field.nonDegreeProgramEGCourseraCertificate': string;
-                'redux-form_render-field.notFreelancer': string;
-                'redux-form_render-field.notOpenToOpportunities': string;
-                'redux-form_render-field.november': string;
-                'redux-form_render-field.october': string;
-                'redux-form_render-field.openToOpportunities': string;
-                'redux-form_render-field.other': string;
-                'redux-form_render-field.partTimeFreelancer': string;
-                'redux-form_render-field.readyToInterview': string;
-                'redux-form_render-field.resume': string;
-                'redux-form_render-field.selectOne': string;
-                'redux-form_render-field.september': string;
-                'redux-form_render-field.studying': string;
-                'redux-form_render-field.unemployed': string;
-                'redux-form_render-field.year': string;
-                'redux-form_render-majors-field.addMajor': string;
-                'redux-form_render-majors-field.major': string;
-                'refinementList.2020_tech_career_fair': string;
-                'refinementList.bodyUpdatedAt180': string;
-                'refinementList.bodyUpdatedAt30': string;
-                'refinementList.bodyUpdatedAt365': string;
-                'refinementList.bodyUpdatedAt366': string;
-                'refinementList.bodyUpdatedAt60': string;
-                'refinementList.bodyUpdatedAt90': string;
-                'refinementList.employed': string;
-                'refinementList.fifteenPlus': string;
-                'refinementList.four2six': string;
-                'refinementList.fullTime': string;
-                'refinementList.fullTimeFreelancer': string;
-                'refinementList.haveOffers': string;
-                'refinementList.inMilitaryService': string;
-                'refinementList.interested': string;
-                'refinementList.intern': string;
-                'refinementList.interviewingEarlyStages': string;
-                'refinementList.interviewingFinalStages': string;
-                'refinementList.languageProficiency0': string;
-                'refinementList.languageProficiency1': string;
-                'refinementList.languageProficiency2': string;
-                'refinementList.languageProficiency3': string;
-                'refinementList.languageProficiency4': string;
-                'refinementList.lessThanOne': string;
-                'refinementList.notFreelancer': string;
-                'refinementList.notInterested': string;
-                'refinementList.notOpen2Opportunities': string;
-                'refinementList.one2two': string;
-                'refinementList.open2Opportunities': string;
-                'refinementList.partTime': string;
-                'refinementList.partTimeFreelancer': string;
-                'refinementList.perDay': string;
-                'refinementList.perHour': string;
-                'refinementList.perMonth': string;
-                'refinementList.perYear': string;
-                'refinementList.pieceRatePay': string;
-                'refinementList.profession-audit-finance-insurance': string;
-                'refinementList.profession-audit-finance-insurance_actuarial': string;
-                'refinementList.profession-audit-finance-insurance_audit-consolidation-transaction-services': string;
-                'refinementList.profession-audit-finance-insurance_corporate-finance': string;
-                'refinementList.profession-audit-finance-insurance_investment-funds': string;
-                'refinementList.profession-audit-finance-insurance_market-finance': string;
-                'refinementList.profession-audit-finance-insurance_other': string;
-                'refinementList.profession-business': string;
-                'refinementList.profession-business_account-management': string;
-                'refinementList.profession-business_business-development': string;
-                'refinementList.profession-business_other': string;
-                'refinementList.profession-business_purchasing': string;
-                'refinementList.profession-business_sales': string;
-                'refinementList.profession-consulting': string;
-                'refinementList.profession-consulting_digital': string;
-                'refinementList.profession-consulting_innovation': string;
-                'refinementList.profession-consulting_it-project-management': string;
-                'refinementList.profession-consulting_management-organization': string;
-                'refinementList.profession-consulting_other': string;
-                'refinementList.profession-consulting_strategy': string;
-                'refinementList.profession-customer-service': string;
-                'refinementList.profession-customer-service_customer-service-support': string;
-                'refinementList.profession-customer-service_customer-success': string;
-                'refinementList.profession-customer-service_other': string;
-                'refinementList.profession-design': string;
-                'refinementList.profession-design_creative-direction': string;
-                'refinementList.profession-design_film-and-tv-production': string;
-                'refinementList.profession-design_graphic-design-illustration': string;
-                'refinementList.profession-design_motion-design': string;
-                'refinementList.profession-design_other': string;
-                'refinementList.profession-design_ui-design': string;
-                'refinementList.profession-design_ux-design': string;
-                'refinementList.profession-fashion': string;
-                'refinementList.profession-fashion_clothing-maker': string;
-                'refinementList.profession-fashion_fashion-designer': string;
-                'refinementList.profession-fashion_model-maker': string;
-                'refinementList.profession-fashion_other': string;
-                'refinementList.profession-fashion_product-manager': string;
-                'refinementList.profession-fashion_purchases': string;
-                'refinementList.profession-health-medical-social': string;
-                'refinementList.profession-health-medical-social_medical-doctor': string;
-                'refinementList.profession-health-medical-social_nurse': string;
-                'refinementList.profession-health-medical-social_other': string;
-                'refinementList.profession-health-medical-social_personal-carer': string;
-                'refinementList.profession-hospitality-restaurant-services': string;
-                'refinementList.profession-hospitality-restaurant-services_hotel-cleaning-services': string;
-                'refinementList.profession-hospitality-restaurant-services_hotel-reception': string;
-                'refinementList.profession-hospitality-restaurant-services_kitchen-staff': string;
-                'refinementList.profession-hospitality-restaurant-services_pastry': string;
-                'refinementList.profession-hospitality-restaurant-services_waitstaff': string;
-                'refinementList.profession-industry': string;
-                'refinementList.profession-industry_factory-worker': string;
-                'refinementList.profession-industry_maintenance-technician': string;
-                'refinementList.profession-industry_manufacturing-director': string;
-                'refinementList.profession-industry_manufacturing-manager': string;
-                'refinementList.profession-industry_manufacturing-operator': string;
-                'refinementList.profession-industry_manufacturing-technician': string;
-                'refinementList.profession-industry_other': string;
-                'refinementList.profession-industry_quality-manager': string;
-                'refinementList.profession-industry_regulatory-officer': string;
-                'refinementList.profession-marketing-communications': string;
-                'refinementList.profession-marketing-communications_communications': string;
-                'refinementList.profession-marketing-communications_community-management-social-media': string;
-                'refinementList.profession-marketing-communications_event-management': string;
-                'refinementList.profession-marketing-communications_marketing': string;
-                'refinementList.profession-marketing-communications_marketing-development': string;
-                'refinementList.profession-marketing-communications_marketing-operations': string;
-                'refinementList.profession-marketing-communications_other': string;
-                'refinementList.profession-marketing-communications_seo-sem': string;
-                'refinementList.profession-marketing-communications_strategic-marketing': string;
-                'refinementList.profession-marketing-communications_traffic-management': string;
-                'refinementList.profession-media': string;
-                'refinementList.profession-media_editor': string;
-                'refinementList.profession-media_journalist': string;
-                'refinementList.profession-media_media-planning': string;
-                'refinementList.profession-media_other': string;
-                'refinementList.profession-media_project-management': string;
-                'refinementList.profession-media_strategic-planning': string;
-                'refinementList.profession-other': string;
-                'refinementList.profession-other_other': string;
-                'refinementList.profession-real-estate': string;
-                'refinementList.profession-real-estate_construction-manager': string;
-                'refinementList.profession-real-estate_financial-advisor': string;
-                'refinementList.profession-real-estate_goods-manager': string;
-                'refinementList.profession-real-estate_negotiator': string;
-                'refinementList.profession-real-estate_other': string;
-                'refinementList.profession-retail': string;
-                'refinementList.profession-retail_logistics-purchasing': string;
-                'refinementList.profession-retail_other': string;
-                'refinementList.profession-retail_sales-advisor': string;
-                'refinementList.profession-retail_sales-clerk-stock-manager': string;
-                'refinementList.profession-retail_sales-manager': string;
-                'refinementList.profession-retail_store-management': string;
-                'refinementList.profession-retail_visual-merchandising': string;
-                'refinementList.profession-support-roles': string;
-                'refinementList.profession-support-roles_accounting': string;
-                'refinementList.profession-support-roles_administrative-support': string;
-                'refinementList.profession-support-roles_facility-management-office-management': string;
-                'refinementList.profession-support-roles_financial-management': string;
-                'refinementList.profession-support-roles_hr-development-training': string;
-                'refinementList.profession-support-roles_legal': string;
-                'refinementList.profession-support-roles_management-control': string;
-                'refinementList.profession-support-roles_operations': string;
-                'refinementList.profession-support-roles_other': string;
-                'refinementList.profession-support-roles_recruitment': string;
-                'refinementList.profession-tech': string;
-                'refinementList.profession-tech_android-development': string;
-                'refinementList.profession-tech_app-development': string;
-                'refinementList.profession-tech_assistant-engineer': string;
-                'refinementList.profession-tech_back-end-development': string;
-                'refinementList.profession-tech_data-engineering': string;
-                'refinementList.profession-tech_data-science': string;
-                'refinementList.profession-tech_database': string;
-                'refinementList.profession-tech_devops': string;
-                'refinementList.profession-tech_electrical-engineering': string;
-                'refinementList.profession-tech_electronic-engineering': string;
-                'refinementList.profession-tech_embedded-system-engineering': string;
-                'refinementList.profession-tech_firmware-engineering': string;
-                'refinementList.profession-tech_front-end-development': string;
-                'refinementList.profession-tech_full-stack-development': string;
-                'refinementList.profession-tech_hardware-engineering': string;
-                'refinementList.profession-tech_ios-development': string;
-                'refinementList.profession-tech_mechanical-engineering': string;
-                'refinementList.profession-tech_mechanism-engineering': string;
-                'refinementList.profession-tech_mems-microelectromechanical-systems-engineering': string;
-                'refinementList.profession-tech_optical-engineering': string;
-                'refinementList.profession-tech_opto-electronic-engineering': string;
-                'refinementList.profession-tech_other': string;
-                'refinementList.profession-tech_project-product-management': string;
-                'refinementList.profession-tech_quality-assurance-testing': string;
-                'refinementList.profession-tech_research-r-d': string;
-                'refinementList.profession-tech_security-engineering': string;
-                'refinementList.profession-tech_semiconductor-engineering': string;
-                'refinementList.profession-tech_system-architecture': string;
-                'refinementList.profession-tech_telecom-networking': string;
-                'refinementList.profession-tech_unity-game-development': string;
-                'refinementList.profession-tourism': string;
-                'refinementList.profession-tourism_production': string;
-                'refinementList.profession-tourism_transports': string;
-                'refinementList.profession-tourism_travel-consultant': string;
-                'refinementList.ready2Interview': string;
-                'refinementList.remoteOnly': string;
-                'refinementList.salaryRange': string;
-                'refinementList.six2ten': string;
-                'refinementList.studying': string;
-                'refinementList.ten2fifteen': string;
-                'refinementList.two2four': string;
-                'refinementList.unemployed': string;
-                'refinementListech_analog-ic-designt.': string;
-                'refinementListech_bios-engineeringt.': string;
-                'refinementListtech_digital-ic-design.': string;
-                'refinetech_ic-layoutmentList.': string;
-                'resume-comment-modal.modalTitle': string;
-                'resume-review_tags.moreTags': string;
-                'resume-scan.analyze': string;
-                'resume-scan.analyzeMyResumes': string;
-                'resume-scan.beta': string;
-                'resume-scan.desc1': string;
-                'resume-scan.desc2': string;
-                'resume-scan.jd': string;
-                'resume-scan.keyword': string;
-                'resume-scan.keywordImportance': string;
-                'resume-scan.lessWords': string;
-                'resume-scan.matchRate': string;
-                'resume-scan.matchRateDesc': string;
-                'resume-scan.moreWords': string;
-                'resume-scan.pasteJd': string;
-                'resume-scan.pasteResume': string;
-                'resume-scan.pasteTheJd': string;
-                'resume-scan.pasteYourResume': string;
-                'resume-scan.pleaseSignUp': string;
-                'resume-scan.relevantArticle': string;
-                'resume-scan.resume': string;
-                'resume-scan.synonyms': string;
-                'resume-scan.tab1': string;
-                'resume-scan.tab2': string;
-                'resume-scan.takesTime': string;
-                'resume-scan.title': string;
-                'resume-tags-modal.modalTitle': string;
-                'resume-template-selector.cancel': string;
-                'resume-template-selector.chooseTemplates': string;
-                'resume-template-selector.getStarted': string;
-                'resume-template-selector.newResume': string;
-                'resume-template-selector.startTemplate': string;
-                'resume-template-selector.upgradeToUse': string;
-                'resumeItem.bodyUpdatedAt14': string;
-                'resumeItem.bodyUpdatedAt180': string;
-                'resumeItem.bodyUpdatedAt30': string;
-                'resumeItem.bodyUpdatedAt365': string;
-                'resumeItem.bodyUpdatedAt366': string;
-                'resumeItem.bodyUpdatedAt60': string;
-                'resumeItem.bodyUpdatedAt7': string;
-                'resumeItem.bodyUpdatedAt90': string;
-                'resumeItem.featuredResume': string;
-                'resumeItem.impressions': string;
-                'resumeItem.noDescription': string;
-                'resumeItem.openToPaidCompanies': string;
-                'resumeItem.popular': string;
-                'resumeItem.premium': string;
-                'resumeItem.present': string;
-                'resumeItem.privateResume': string;
-                'resumeItem.read': string;
-                'resumeItem.recentlyUpdated': string;
-                'resumeItem.testPassed': string;
-                'resumeItem.unread': string;
-                'resumeItem.updatedAt': string;
-                'resumeItem.upgradeToView': string;
-                'resumeItem.viewResume': string;
-                'resumeItem.workExp': string;
-                'resumeItem.workExpAndRelevant': string;
-                'resumeList.talentSearch': string;
-                'resumeList.upgradeCta': string;
-                'resumeList.upgradeToViewMore': string;
-                'resumeModal.currentEmploymentStatus': string;
-                'resumeModal.desiredJobType': string;
-                'resumeModal.desiredLocations': string;
-                'resumeModal.desiredPosition': string;
-                'resumeModal.education': string;
-                'resumeModal.experience': string;
-                'resumeModal.graduatedFromField': string;
-                'resumeModal.graduatedFromSchool': string;
-                'resumeModal.jobSearchProgress': string;
-                'resumeModal.jobSearchStatus': string;
-                'resumeModal.languageProficiency0': string;
-                'resumeModal.languageProficiency1': string;
-                'resumeModal.languageProficiency2': string;
-                'resumeModal.languageProficiency3': string;
-                'resumeModal.languageProficiency4': string;
-                'resumeModal.languages': string;
-                'resumeModal.location': string;
-                'resumeModal.lookingFor': string;
-                'resumeModal.relevant': string;
-                'resumeModal.remote': string;
-                'resumeModal.similarResumes': string;
-                'resumeModal.skillList': string;
-                'resumeModal.skills': string;
-                'resumeModal.workExperience': string;
-                'resumeReview.customTags': string;
-                'resumeReview.folder': string;
-                'resumeReview.notes': string;
-                'resumeReview.print': string;
-                'resumeReview.printResume': string;
-                'resumeReview.privateNotes': string;
-                'resumeReview.ratingTip': string;
-                'resumeReview.yourRating': string;
-                'resumeToolbar.viewResume': string;
-                'scroll-to-top.scrollToTop': string;
-                'search-filter.showLess': string;
-                'search-filter.showMore': string;
-                'search-jobs-section.placeholder': string;
-                'search-jobs-section.submitBtnText': string;
-                'search-jobs-section.subtitle': string;
-                'search-jobs-section.title': string;
-                'searchForm.inputPlaceholder': string;
-                'searchTag.popularSearch': string;
-                'searchTag.relatedSearch': string;
-                'setting-dropdown.enableCondensedJob': string;
-                'setting-dropdown.enableInfiniteScroll': string;
-                'setting-dropdown.excludeResultsRead': string;
-                'setting-dropdown.settings': string;
-                'settings_notification-settings.askToCompleteProfile': string;
-                'settings_notification-settings.askToUpdateJobSearchProgress': string;
-                'settings_notification-settings.browserNotifications': string;
-                'settings_notification-settings.browserNotificationsDesc': string;
-                'settings_notification-settings.enableNotifications': string;
-                'settings_notification-settings.follow': string;
-                'settings_notification-settings.invitations': string;
-                'settings_notification-settings.itemStats': string;
-                'settings_notification-settings.jobCreated': string;
-                'settings_notification-settings.jobRecommendations': string;
-                'settings_notification-settings.jobSubscriptions': string;
-                'settings_notification-settings.jobSubscriptionsHint': string;
-                'settings_notification-settings.jobs': string;
-                'settings_notification-settings.jobsManagement': string;
-                'settings_notification-settings.messages': string;
-                'settings_notification-settings.newJobVote': string;
-                'settings_notification-settings.newPageFollower': string;
-                'settings_notification-settings.newReferredUser': string;
-                'settings_notification-settings.newUserFollower': string;
-                'settings_notification-settings.newletters': string;
-                'settings_notification-settings.notifyExpired': string;
-                'settings_notification-settings.notifyGoingToExpired': string;
-                'settings_notification-settings.notifyItemOrPdfHasBeenRead': string;
-                'settings_notification-settings.notifyPageAdminCreated': string;
-                'settings_notification-settings.notifyRecipient': string;
-                'settings_notification-settings.notifyUser': string;
-                'settings_notification-settings.notifyUserAlert': string;
-                'settings_notification-settings.pagesManagement': string;
-                'settings_notification-settings.pleaseSelectJobs': string;
-                'settings_notification-settings.profiles': string;
-                'settings_notification-settings.receivingEmail': string;
-                'settings_notification-settings.remindAdminToViewApplications': string;
-                'settings_notification-settings.resumes': string;
-                'settings_notification-settings.saveChanges': string;
-                'settings_notification-settings.searchByJobName': string;
-                'settings_notification-settings.settingsNotifications': string;
-                'settings_notification-settings.subscribedNewletters': string;
-                'settings_notification-settings.talentSubscriptions': string;
-                'settings_notification-settings.thanksForEnabling': string;
-                'settings_notification-settings.topSearchHits': string;
-                'settings_notification-settings.turnOffAllNotifications': string;
-                'settings_notification-settings.turnThemBackOn': string;
-                'settings_notification-settings.turnedOffEmail': string;
-                'settings_notification-settings.userAcceptFollow': string;
-                'shareFolderModal.formDesc': string;
-                'shareFolderModal.go2Link': string;
-                'shareFolderModal.modalHeader': string;
-                'sharePageModal.resumeSubtitle': string;
-                'sharePageModal.resumeTitle': string;
-                'sharePageModal.shareLink': string;
-                'sharePageModal.shareTo': string;
-                'sharePageModal.talentSearchSubtitle': string;
-                'sharePageModal.talentSearchTitle': string;
-                'slick.classyEditor': string;
-                'slick.classyEditorDesc': string;
-                'slick.currentlyAvailableOnCakeResume': string;
-                'slick.downloadOrShare': string;
-                'slick.downloadPDF': string;
-                'slick.downloadPDFSubTitle': string;
-                'slick.elegantDesign': string;
-                'slick.elegantDesignDesc': string;
-                'slick.gainFirstHand': string;
-                'slick.highlyCustomizable': string;
-                'slick.highlyCustomizableDesc': string;
-                'slick.language': string;
-                'slick.privacy': string;
-                'slick.richElements': string;
-                'slick.richElementsDesc': string;
-                'slick.shareOnline': string;
-                'slick.shareOnlineDesc': string;
-                'slick.shareOnlineSubTitle': string;
-                'slick.slickMetaDesc': string;
-                'slick.slickMetaTitle': string;
-                'slick.speedyFormatting': string;
-                'slick.speedyFormattingDesc': string;
-                'slick.termsOfUse': string;
-                'subscribeCampaign.desc': string;
-                'subscribeCampaign.title': string;
-                'subscription.createSubscription': string;
-                'subscription.createdAt': string;
-                'subscription.desc': string;
-                'subscription.retireContent': string;
-                'subscription.retireTitle': string;
-                'subscription.subject': string;
-                'subscriptionBanner.subtitle': string;
-                'subscriptionBanner.title': string;
-                'talent-search-filter.contentLang': string;
-                'talent-search-filter.currentLocation': string;
-                'talent-search-filter.desiredJobType': string;
-                'talent-search-filter.desiredPosition': string;
-                'talent-search-filter.experience': string;
-                'talent-search-filter.field': string;
-                'talent-search-filter.freelancer': string;
-                'talent-search-filter.jobSearchProgress': string;
-                'talent-search-filter.languageProficiency': string;
-                'talent-search-filter.remote': string;
-                'talent-search-filter.school': string;
-                'talent-search-filter.updatedAt': string;
-                'talent-search-filter.workLocation': string;
-                'talentSearch.aboutResumePrivacy': string;
-                'talentSearch.advancedSearch': string;
-                'talentSearch.desc0': string;
-                'talentSearch.desc1': string;
-                'talentSearch.desc2': string;
-                'talentSearch.descTitle0': string;
-                'talentSearch.descTitle1': string;
-                'talentSearch.descTitle2': string;
-                'talentSearch.description': string;
-                'talentSearch.gotIt': string;
-                'talentSearch.junior': string;
-                'talentSearch.metaDesc': string;
-                'talentSearch.metaDescInLocation': string;
-                'talentSearch.metaDescWithDesc': string;
-                'talentSearch.metaDescWithDescInLocation': string;
-                'talentSearch.metaSite': string;
-                'talentSearch.metaSiteWithDesc': string;
-                'talentSearch.metaTitleInLocation': string;
-                'talentSearch.metaTitleWithDesc': string;
-                'talentSearch.metaTitleWithDescInLocation': string;
-                'talentSearch.midToSenior': string;
-                'talentSearch.searchTipCombineKeywords': string;
-                'talentSearch.searchTipMinus': string;
-                'talentSearch.searchTipOtherKeywords': string;
-                'talentSearch.searchTipQuote': string;
-                'talentSearch.structuredDataTitleInLocation': string;
-                'talentSearch.structuredDataTitleWithDesc': string;
-                'talentSearch.structuredDataTitleWithDescInLocation': string;
-                'talentSearch.talentSearch': string;
-                'talentSearch.talentSearchPlaceholder': string;
-                'talentSearch.title': string;
-                'talentSearch.upgradeDescription': string;
-                'talentSearch.upgradeToBusiness': string;
-                'talentSearch_freelancer-promotion.desc': string;
-                'talentSearch_freelancer-promotion.title': string;
-                'tech-stack.title': string;
-                'user.active': string;
-                'user.offline': string;
-                'user.online': string;
-                'withModal.copy': string;
-            };
-        }
+
+    export interface State {
+        facets: any[];
+        disjunctiveFacets: string[];
+        hierarchicalFacets: HierarchicalFacet[];
+        facetsRefinements: FacetsRefinements;
+        facetsExcludes: FacetsExcludes;
+        disjunctiveFacetsRefinements: DisjunctiveFacetsRefinements;
+        numericRefinements: NumericRefinements;
+        tagRefinements: any[];
+        hierarchicalFacetsRefinements: HierarchicalFacetsRefinements;
+        index: string;
+        clickAnalytics: boolean;
+        distinct: boolean;
+        query: string;
+        maxValuesPerFacet: number;
+        page: number;
     }
-    export namespace job {
-        export namespace favoriteJobs {
-            export const jobs: any[];
-            const pagination_4: {};
-            export { pagination_4 as pagination };
-        }
-        export namespace jobApplications {
-            const jobs_1: any[];
-            export { jobs_1 as jobs };
-            const pagination_5: {};
-            export { pagination_5 as pagination };
-        }
-        export const recommendedJobs: any[];
-        export const jobsPopularTags: any[];
-        export const jobsMeta: {};
-        export const jobLandingMetaByLocale: {};
-        export const favoriteJobsInMeta: any[];
-        export const browserHistory: any[];
-        export const currentApplyJob: {};
+
+    export interface Logo {
+        tiny: string;
+        thumb: string;
+        medium: string;
+        large: string;
     }
-    export namespace jobSearch {
-        export namespace searchState {
-            const query_1: string;
-            export { query_1 as query };
-            export const page: string;
-            export namespace range {
-                export namespace salary_range {
-                    export const min: string;
-                }
-            }
-            export namespace refinementList {
-                export const lang_name: string[];
-                export const salary_type: string;
-            }
-        }
-        export namespace jobResultsState {
-            export namespace content {
-                export const _rawResults: (
-                    | {
-                          hits: (
-                              | {
-                                    title: string;
-									flat_location_list: string[];
-									year_of_seniority: string;
-									min_work_exp_year?: number;
-                                    requirements: string;
-                                    path: string;
-                                    tag_list: string[];
-                                    location_list: string[];
-                                    unique_impressions_count: number;
-                                    search_rank: number;
-                                    created_at: string;
-                                    expired_at: string;
-                                    work_experience_list: any[];
-                                    job_function_list: any[];
-                                    category: string;
-                                    job_type: string;
-                                    seniority_level: string;
-                                    aasm_state: string;
-                                    sponsored: any;
-                                    signing_bonus: number;
-                                    salary_type: string;
-                                    salary_currency: string;
-                                    number_of_openings: number;
-                                    lang: string;
-                                    profession: string;
-                                    remote: any;
-                                    number_of_management: any;
-                                    description_plain_text: string;
-                                    requirements_plain_text: string;
-                                    salary_min: number;
-                                    salary_max: number;
-                                    salary_range: number[];
-                                    salary_score: number;
-                                    lang_name: string;
-                                    content_updated_at: number;
-                                    noindex: boolean;
-                                    page: {
-                                        name: string;
-										vertical_list?: any;
-										funding_round_list?: any;
-										amount_of_capital?: number;
-										id: number;
-										tech_labels: string[];
-                                        path: string;
-                                        address: string;
-                                        country: string;
-                                        unique_impressions_count: number;
-                                        search_rank: number;
-                                        created_at: string;
-                                        number_of_employees: string;
-                                        aasm_state: string;
-                                        featured: boolean;
-                                        geo_street_address: string;
-                                        geo_city: string;
-                                        geo_state_name: string;
-                                        geo_state_code: string;
-                                        geo_zip: string;
-                                        noindex: boolean;
-                                        sector: any;
-                                        labels: any[];
-                                        last_active_at_by_week: number;
-                                        content_updated_at: number;
-                                        geo_region_l: string;
-                                        logo: {
-                                            tiny: string;
-                                            thumb: string;
-                                            medium: string;
-                                            large: string;
-                                        };
-                                        cover_image: {
-                                            small_3_1: string;
-                                            medium_3_1: string;
-                                            large: string;
-                                        };
-                                    };
-                                    fresh_score: number;
-                                    unique_impressions_count_score: number;
-                                    up_votes_score: number;
-                                    job_applications_count_score: number;
-                                    objectID: string;
-                                    _snippetResult: {
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                        };
-                                    };
-                                    _highlightResult: {
-                                        title: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        path: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                            fullyHighlighted?: undefined;
-                                        };
-                                        tag_list: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        }[];
-                                        category: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        job_type: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        seniority_level: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        profession: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        page: {
-                                            name: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            path: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            address: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                        };
-                                    };
-                                }
-                              | {
-                                    title: string;
-									flat_location_list: string[];
-                                    requirements: string;
-                                    path: string;
-                                    tag_list: string[];
-                                    location_list: string[];
-                                    unique_impressions_count: number;
-                                    search_rank: number;
-                                    created_at: string;
-                                    expired_at: string;
-                                    work_experience_list: any[];
-                                    job_function_list: any[];
-                                    category: string;
-                                    job_type: string;
-                                    seniority_level: string;
-                                    aasm_state: string;
-                                    sponsored: any;
-                                    signing_bonus: number;
-                                    salary_type: string;
-                                    salary_currency: string;
-                                    number_of_openings: number;
-                                    lang: string;
-                                    profession: string;
-                                    remote: any;
-                                    number_of_management: any;
-                                    description_plain_text: string;
-                                    requirements_plain_text: string;
-                                    salary_min: number;
-                                    salary_max: number;
-                                    salary_range: number[];
-                                    salary_score: number;
-                                    lang_name: string;
-                                    content_updated_at: number;
-                                    noindex: boolean;
-                                    page: {
-                                        name: string;
-										vertical_list?: any;
-										funding_round_list?: any;
-										amount_of_capital?: number;
-										id: number;
-										tech_labels: string[];
-                                        path: string;
-                                        address: string;
-                                        country: string;
-                                        unique_impressions_count: number;
-                                        search_rank: number;
-                                        created_at: string;
-                                        number_of_employees: string;
-                                        aasm_state: string;
-                                        featured: boolean;
-                                        geo_street_address: string;
-                                        geo_city: string;
-                                        geo_state_name: string;
-                                        geo_state_code: string;
-                                        geo_zip: string;
-                                        noindex: boolean;
-                                        sector: string;
-                                        labels: any[];
-                                        last_active_at_by_week: number;
-                                        content_updated_at: number;
-                                        geo_region_l: string;
-                                        logo: {
-                                            tiny: string;
-                                            thumb: string;
-                                            medium: string;
-                                            large: string;
-                                        };
-                                        cover_image: {
-                                            small_3_1: string;
-                                            medium_3_1: string;
-                                            large: string;
-                                        };
-                                    };
-                                    fresh_score: number;
-                                    unique_impressions_count_score: number;
-                                    up_votes_score: number;
-                                    job_applications_count_score: number;
-                                    objectID: string;
-                                    _snippetResult: {
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                        };
-                                    };
-                                    _highlightResult: {
-                                        title: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        path: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        tag_list: (
-                                            | {
-                                                  value: string;
-                                                  matchLevel: string;
-                                                  matchedWords: any[];
-                                                  fullyHighlighted?: undefined;
-                                              }
-                                            | {
-                                                  value: string;
-                                                  matchLevel: string;
-                                                  fullyHighlighted: boolean;
-                                                  matchedWords: string[];
-                                              }
-                                        )[];
-                                        category: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        job_type: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        seniority_level: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        profession: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                            fullyHighlighted?: undefined;
-                                        };
-                                        page: {
-                                            name: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            path: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            address: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                        };
-                                    };
-                                }
-                              | {
-                                    title: string;
-									flat_location_list: string[];
-                                    requirements: string;
-                                    path: string;
-                                    tag_list: string[];
-                                    location_list: string[];
-                                    unique_impressions_count: number;
-                                    search_rank: number;
-                                    created_at: string;
-                                    expired_at: string;
-                                    work_experience_list: any[];
-                                    job_function_list: any[];
-                                    category: string;
-                                    job_type: string;
-                                    seniority_level: string;
-                                    aasm_state: string;
-                                    sponsored: any;
-                                    signing_bonus: number;
-                                    salary_type: string;
-                                    salary_currency: string;
-                                    number_of_openings: number;
-                                    lang: string;
-                                    profession: string;
-                                    remote: any;
-                                    number_of_management: any;
-                                    description_plain_text: string;
-                                    requirements_plain_text: string;
-                                    salary_min: number;
-                                    salary_max: number;
-                                    salary_range: number[];
-                                    salary_score: number;
-                                    lang_name: string;
-                                    content_updated_at: number;
-                                    noindex: boolean;
-                                    page: {
-                                        name: string;
-										vertical_list?: any;
-										funding_round_list?: any;
-										amount_of_capital?: number;
-										id: number;
-										tech_labels: string[];
-                                        path: string;
-                                        address: string;
-                                        country: string;
-                                        unique_impressions_count: number;
-                                        search_rank: number;
-                                        created_at: string;
-                                        number_of_employees: string;
-                                        aasm_state: string;
-                                        featured: boolean;
-                                        geo_street_address: string;
-                                        geo_city: string;
-                                        geo_state_name: string;
-                                        geo_state_code: string;
-                                        geo_zip: string;
-                                        noindex: boolean;
-                                        sector: string;
-                                        labels: any[];
-                                        last_active_at_by_week: number;
-                                        content_updated_at: number;
-                                        geo_region_l: string;
-                                        logo: {
-                                            tiny: string;
-                                            thumb: string;
-                                            medium: string;
-                                            large: string;
-                                        };
-                                        cover_image: {
-                                            small_3_1: string;
-                                            medium_3_1: string;
-                                            large: string;
-                                        };
-                                    };
-                                    fresh_score: number;
-                                    unique_impressions_count_score: number;
-                                    up_votes_score: number;
-                                    job_applications_count_score: number;
-                                    objectID: string;
-                                    _snippetResult: {
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                        };
-                                    };
-                                    _highlightResult: {
-                                        title: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        path: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                            fullyHighlighted?: undefined;
-                                        };
-                                        tag_list: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        }[];
-                                        category: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        job_type: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        seniority_level: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        profession: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                            fullyHighlighted?: undefined;
-                                        };
-                                        page: {
-                                            name: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            path: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            address: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                        };
-                                    };
-                                }
-                              | {
-                                    title: string;
-									flat_location_list: string[];
-                                    requirements: string;
-                                    path: string;
-                                    tag_list: string[];
-                                    location_list: string[];
-                                    unique_impressions_count: number;
-                                    search_rank: number;
-                                    created_at: string;
-                                    expired_at: string;
-                                    work_experience_list: string[];
-                                    job_function_list: string[];
-                                    category: string;
-                                    job_type: string;
-                                    seniority_level: string;
-                                    aasm_state: string;
-                                    sponsored: any;
-                                    signing_bonus: number;
-                                    salary_type: string;
-                                    salary_currency: string;
-                                    number_of_openings: number;
-                                    lang: string;
-                                    profession: string;
-                                    remote: string;
-                                    number_of_management: string;
-                                    description_plain_text: string;
-                                    requirements_plain_text: string;
-                                    salary_min: number;
-                                    salary_max: number;
-                                    salary_range: number[];
-                                    salary_score: number;
-                                    lang_name: string;
-                                    content_updated_at: number;
-                                    noindex: boolean;
-                                    page: {
-                                        name: string;
-										vertical_list?: any;
-										funding_round_list?: any;
-										amount_of_capital?: number;
-										id: number;
-										tech_labels: string[];
-                                        path: string;
-                                        address: string;
-                                        country: string;
-                                        unique_impressions_count: number;
-                                        search_rank: number;
-                                        created_at: string;
-                                        number_of_employees: string;
-                                        aasm_state: string;
-                                        featured: boolean;
-                                        geo_street_address: string;
-                                        geo_city: string;
-                                        geo_state_name: string;
-                                        geo_state_code: string;
-                                        geo_zip: string;
-                                        noindex: boolean;
-                                        sector: string;
-                                        labels: string[];
-                                        last_active_at_by_week: number;
-                                        content_updated_at: number;
-                                        geo_region_l: string;
-                                        logo: {
-                                            tiny: string;
-                                            thumb: string;
-                                            medium: string;
-                                            large: string;
-                                        };
-                                        cover_image: {
-                                            small_3_1: string;
-                                            medium_3_1: string;
-                                            large: string;
-                                        };
-                                    };
-                                    fresh_score: number;
-                                    unique_impressions_count_score: number;
-                                    up_votes_score: number;
-                                    job_applications_count_score: number;
-                                    objectID: string;
-                                    _snippetResult: {
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                        };
-                                    };
-                                    _highlightResult: {
-                                        title: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        path: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        tag_list: (
-                                            | {
-                                                  value: string;
-                                                  matchLevel: string;
-                                                  matchedWords: any[];
-                                                  fullyHighlighted?: undefined;
-                                              }
-                                            | {
-                                                  value: string;
-                                                  matchLevel: string;
-                                                  fullyHighlighted: boolean;
-                                                  matchedWords: string[];
-                                              }
-                                        )[];
-                                        category: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        job_type: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        seniority_level: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        profession: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        page: {
-                                            name: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            path: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            address: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                        };
-                                    };
-                                }
-                              | {
-                                    title: string;
-									flat_location_list: string[];
-                                    requirements: string;
-                                    path: string;
-                                    tag_list: string[];
-                                    location_list: string[];
-                                    unique_impressions_count: number;
-                                    search_rank: number;
-                                    created_at: string;
-                                    expired_at: string;
-                                    work_experience_list: any[];
-                                    job_function_list: any[];
-                                    category: string;
-                                    job_type: string;
-                                    seniority_level: string;
-                                    aasm_state: string;
-                                    sponsored: any;
-                                    signing_bonus: number;
-                                    salary_type: string;
-                                    salary_currency: string;
-                                    number_of_openings: number;
-                                    lang: string;
-                                    profession: string;
-                                    remote: string;
-                                    number_of_management: string;
-                                    description_plain_text: string;
-                                    requirements_plain_text: string;
-                                    salary_min: number;
-                                    salary_max: number;
-                                    salary_range: number[];
-                                    salary_score: number;
-                                    lang_name: string;
-                                    content_updated_at: number;
-                                    noindex: boolean;
-                                    page: {
-                                        name: string;
-										vertical_list?: any;
-										funding_round_list?: any;
-										amount_of_capital?: number;
-										id: number;
-										tech_labels: string[];
-                                        path: string;
-                                        address: string;
-                                        country: string;
-                                        unique_impressions_count: number;
-                                        search_rank: number;
-                                        created_at: string;
-                                        number_of_employees: string;
-                                        aasm_state: string;
-                                        featured: boolean;
-                                        geo_street_address: any;
-                                        geo_city: any;
-                                        geo_state_name: any;
-                                        geo_state_code: any;
-                                        geo_zip: any;
-                                        noindex: boolean;
-                                        sector: string;
-                                        labels: any[];
-                                        last_active_at_by_week: number;
-                                        content_updated_at: number;
-                                        geo_region_l: string;
-                                        logo: {
-                                            tiny: string;
-                                            thumb: string;
-                                            medium: string;
-                                            large: string;
-                                        };
-                                        cover_image: {
-                                            small_3_1: string;
-                                            medium_3_1: string;
-                                            large: string;
-                                        };
-                                    };
-                                    fresh_score: number;
-                                    unique_impressions_count_score: number;
-                                    up_votes_score: number;
-                                    job_applications_count_score: number;
-                                    objectID: string;
-                                    _snippetResult: {
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                        };
-                                    };
-                                    _highlightResult: {
-                                        title: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        path: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        tag_list: (
-                                            | {
-                                                  value: string;
-                                                  matchLevel: string;
-                                                  matchedWords: any[];
-                                                  fullyHighlighted?: undefined;
-                                              }
-                                            | {
-                                                  value: string;
-                                                  matchLevel: string;
-                                                  fullyHighlighted: boolean;
-                                                  matchedWords: string[];
-                                              }
-                                        )[];
-                                        category: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        job_type: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        seniority_level: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        profession: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                            fullyHighlighted?: undefined;
-                                        };
-                                        page: {
-                                            name: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            path: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            address: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                        };
-                                    };
-                                }
-                              | {
-                                    title: string;
-									flat_location_list: string[];
-                                    requirements: string;
-                                    path: string;
-                                    tag_list: string[];
-                                    location_list: string[];
-                                    unique_impressions_count: number;
-                                    search_rank: number;
-                                    created_at: string;
-                                    expired_at: string;
-                                    work_experience_list: any[];
-                                    job_function_list: any[];
-                                    category: string;
-                                    job_type: string;
-                                    seniority_level: string;
-                                    aasm_state: string;
-                                    sponsored: any;
-                                    signing_bonus: number;
-                                    salary_type: string;
-                                    salary_currency: string;
-                                    number_of_openings: number;
-                                    lang: string;
-                                    profession: string;
-                                    remote: string;
-                                    number_of_management: string;
-                                    description_plain_text: string;
-                                    requirements_plain_text: string;
-                                    salary_min: number;
-                                    salary_max: number;
-                                    salary_range: number[];
-                                    salary_score: number;
-                                    lang_name: string;
-                                    content_updated_at: number;
-                                    noindex: boolean;
-                                    page: {
-                                        name: string;
-										vertical_list?: any;
-										funding_round_list?: any;
-										amount_of_capital?: number;
-										id: number;
-										tech_labels: string[];
-                                        path: string;
-                                        address: string;
-                                        country: string;
-                                        unique_impressions_count: number;
-                                        search_rank: number;
-                                        created_at: string;
-                                        number_of_employees: string;
-                                        aasm_state: string;
-                                        featured: boolean;
-                                        geo_street_address: string;
-                                        geo_city: string;
-                                        geo_state_name: string;
-                                        geo_state_code: string;
-                                        geo_zip: string;
-                                        noindex: boolean;
-                                        sector: any;
-                                        labels: any[];
-                                        last_active_at_by_week: number;
-                                        content_updated_at: number;
-                                        geo_region_l: string;
-                                        logo: {
-                                            tiny: string;
-                                            thumb: string;
-                                            medium: string;
-                                            large: string;
-                                        };
-                                        cover_image: {
-                                            small_3_1: string;
-                                            medium_3_1: string;
-                                            large: string;
-                                        };
-                                    };
-                                    fresh_score: number;
-                                    unique_impressions_count_score: number;
-                                    up_votes_score: number;
-                                    job_applications_count_score: number;
-                                    objectID: string;
-                                    _snippetResult: {
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                        };
-                                    };
-                                    _highlightResult: {
-                                        title: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        path: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        tag_list: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        }[];
-                                        category: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        job_type: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        seniority_level: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        profession: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                            fullyHighlighted?: undefined;
-                                        };
-                                        page: {
-                                            name: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            path: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            address: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                        };
-                                    };
-                                }
-                          )[];
-                          nbHits: number;
-                          page: number;
-                          nbPages: number;
-                          hitsPerPage: number;
-                          facets: {
-                              remote: {
-                                  no_remote_work: number;
-                                  optional_remote_work: number;
-                                  partial_remote_work: number;
-                                  full_remote_work: number;
-                              };
-                              job_type: {
-                                  full_time: number;
-                                  contract: number;
-                              };
-                              lang_name: {
-                                  English: number;
-                                  Chinese?: undefined;
-                              };
-                              profession: {
-                                  'tech_project-product-management': number;
-                                  'marketing-communications_marketing': number;
-                                  'tech_data-engineering': number;
-                                  'tech_front-end-development': number;
-                                  'tech_full-stack-development': number;
-                                  tech_other: number;
-                                  'business_business-development': number;
-                                  'tech_android-development': number;
-                                  'tech_back-end-development': number;
-                                  'tech_quality-assurance-testing': number;
-                                  'tech_research-r-d': number;
-                                  business_sales: number;
-                                  'consulting_it-project-management': number;
-                                  'customer-service_customer-service-support': number;
-                                  'customer-service_customer-success': number;
-                                  design_other: number;
-                                  'industry_manufacturing-technician': number;
-                                  'marketing-communications_marketing-development': number;
-                                  'tech_data-science': number;
-                              };
-                              'page.labels': {
-                                  '2020_tech_career_fair': number;
-                              };
-                              salary_type: {
-                                  per_year: number;
-                                  per_month?: undefined;
-                              };
-                              salary_range: {
-                                  0: number;
-                                  420000: number;
-                                  540000: number;
-                                  600000: number;
-                                  650000: number;
-                                  700000: number;
-                                  800000: number;
-                                  850000: number;
-                                  900000: number;
-                                  1000000: number;
-                                  1100000: number;
-                                  1200000: number;
-                                  1300000: number;
-                                  1379000: number;
-                                  1400000: number;
-                                  1500000: number;
-                                  1600000: number;
-                                  1700000: number;
-                                  1800000: number;
-                                  2000000: number;
-                                  2200000: number;
-                                  2500000: number;
-                                  3000000: number;
-                                  1?: undefined;
-                                  100?: undefined;
-                                  150?: undefined;
-                                  14000?: undefined;
-                                  60000?: undefined;
-                                  62000?: undefined;
-                                  65000?: undefined;
-                                  75000?: undefined;
-                                  120000?: undefined;
-                                  130000?: undefined;
-                                  330000?: undefined;
-                                  360000?: undefined;
-                                  480000?: undefined;
-                                  500000?: undefined;
-                                  560000?: undefined;
-                                  640000?: undefined;
-                                  770000?: undefined;
-                                  798000?: undefined;
-                                  832000?: undefined;
-                                  840000?: undefined;
-                                  952000?: undefined;
-                              };
-                              location_list: {
-                                  台北: number;
-                                  台灣: number;
-                                  信義區: number;
-                                  台北市: number;
-                                  松山區: number;
-                                  Taiwan: number;
-                                  中正區: number;
-                                  南港軟體園區: number;
-                                  Taipei: number;
-                                  捷運南港展覽館站: number;
-                                  France: number;
-                                  'Taipei City': number;
-                                  內湖科技園區: number;
-                                  台北市中山區樂群二路189號6樓之一: number;
-                                  台北市南港區: number;
-                                  新北市: number;
-                                  新台五路一段: number;
-                                  汐科火車站: number;
-                                  法國: number;
-                                  '97\u865F': number;
-                                  UTOWN: number;
-                                  中華路: number;
-                                  信義安和站: number;
-                                  內湖區: number;
-                                  內湖區瑞光路: number;
-                                  南港區: number;
-                                  古亭站: number;
-                                  台北市信義區: number;
-                                  台北市大安區: number;
-                                  台北市松高路1號7樓: number;
-                                  台南市: number;
-                                  台南市新市區: number;
-                                  大安區: number;
-                                  小巨蛋: number;
-                                  捷運中山國中站: number;
-                                  新竹: number;
-                                  桃園市中壢區: number;
-                                  汐止: number;
-                                  汐止區: number;
-                                  汐止科學園區: number;
-                                  泰國: number;
-                                  遠雄: number;
-                              };
-                              salary_currency: {
-                                  TWD: number;
-                              };
-                              seniority_level: {
-                                  mid_senior_level: number;
-                                  entry_level: number;
-                                  director: number;
-                                  associate: number;
-                              };
-                              number_of_management: {
-                                  none: number;
-                                  one_five: number;
-                                  five_ten: number;
-                                  not_specified: number;
-                              };
-                              'page.number_of_employees': {
-                                  '51_200': number;
-                                  '11_50': number;
-                                  '501_1000': number;
-                                  '201_500': number;
-                                  '1001_5000': number;
-                                  '5001_': number;
-                                  '1_10': number;
-                              };
-                          };
-                          facets_stats: {
-                              salary_range: {
-                                  min: number;
-                                  max: number;
-                                  avg: number;
-                                  sum: number;
-                              };
-                          };
-                          exhaustiveFacetsCount: boolean;
-                          exhaustiveNbHits: boolean;
-                          query: string;
-                          params: string;
-                          index: string;
-                          queryID: string;
-                          processingTimeMS: number;
-                      }
-                    | {
-                          hits: {
-                              objectID: string;
-                              _snippetResult: {
-                                  description_plain_text: {
-                                      value: string;
-                                      matchLevel: string;
-                                  };
-                              };
-                          }[];
-                          nbHits: number;
-                          page: number;
-                          nbPages: number;
-                          hitsPerPage: number;
-                          facets: {
-                              lang_name: {
-                                  Chinese: number;
-                                  English: number;
-                              };
-                              remote?: undefined;
-                              job_type?: undefined;
-                              profession?: undefined;
-                              'page.labels'?: undefined;
-                              salary_type?: undefined;
-                              salary_range?: undefined;
-                              location_list?: undefined;
-                              salary_currency?: undefined;
-                              seniority_level?: undefined;
-                              number_of_management?: undefined;
-                              'page.number_of_employees'?: undefined;
-                          };
-                          exhaustiveFacetsCount: boolean;
-                          exhaustiveNbHits: boolean;
-                          query: string;
-                          params: string;
-                          index: string;
-                          processingTimeMS: number;
-                          facets_stats?: undefined;
-                          queryID?: undefined;
-                      }
-                    | {
-                          hits: {
-                              objectID: string;
-                              _snippetResult: {
-                                  description_plain_text: {
-                                      value: string;
-                                      matchLevel: string;
-                                  };
-                              };
-                          }[];
-                          nbHits: number;
-                          page: number;
-                          nbPages: number;
-                          hitsPerPage: number;
-                          facets: {
-                              salary_type: {
-                                  per_year: number;
-                                  per_month: number;
-                              };
-                              remote?: undefined;
-                              job_type?: undefined;
-                              lang_name?: undefined;
-                              profession?: undefined;
-                              'page.labels'?: undefined;
-                              salary_range?: undefined;
-                              location_list?: undefined;
-                              salary_currency?: undefined;
-                              seniority_level?: undefined;
-                              number_of_management?: undefined;
-                              'page.number_of_employees'?: undefined;
-                          };
-                          exhaustiveFacetsCount: boolean;
-                          exhaustiveNbHits: boolean;
-                          query: string;
-                          params: string;
-                          index: string;
-                          processingTimeMS: number;
-                          facets_stats?: undefined;
-                          queryID?: undefined;
-                      }
-                    | {
-                          hits: {
-                              objectID: string;
-                              _snippetResult: {
-                                  description_plain_text: {
-                                      value: string;
-                                      matchLevel: string;
-                                  };
-                              };
-                          }[];
-                          nbHits: number;
-                          page: number;
-                          nbPages: number;
-                          hitsPerPage: number;
-                          facets: {
-                              salary_range: {
-                                  0: number;
-                                  1: number;
-                                  100: number;
-                                  150: number;
-                                  14000: number;
-                                  60000: number;
-                                  62000: number;
-                                  65000: number;
-                                  75000: number;
-                                  120000: number;
-                                  130000: number;
-                                  330000: number;
-                                  360000: number;
-                                  420000: number;
-                                  480000: number;
-                                  500000: number;
-                                  540000: number;
-                                  560000: number;
-                                  600000: number;
-                                  640000: number;
-                                  650000: number;
-                                  700000: number;
-                                  770000: number;
-                                  798000: number;
-                                  800000: number;
-                                  832000: number;
-                                  840000: number;
-                                  850000: number;
-                                  900000: number;
-                                  952000: number;
-                                  1000000: number;
-                                  1100000: number;
-                                  1200000: number;
-                                  1300000: number;
-                                  1379000: number;
-                                  1400000: number;
-                                  1500000: number;
-                                  1600000: number;
-                                  1700000: number;
-                                  1800000: number;
-                                  2000000: number;
-                                  2200000: number;
-                                  2500000: number;
-                                  3000000: number;
-                              };
-                              remote?: undefined;
-                              job_type?: undefined;
-                              lang_name?: undefined;
-                              profession?: undefined;
-                              'page.labels'?: undefined;
-                              salary_type?: undefined;
-                              location_list?: undefined;
-                              salary_currency?: undefined;
-                              seniority_level?: undefined;
-                              number_of_management?: undefined;
-                              'page.number_of_employees'?: undefined;
-                          };
-                          facets_stats: {
-                              salary_range: {
-                                  min: number;
-                                  max: number;
-                                  avg: number;
-                                  sum: number;
-                              };
-                          };
-                          exhaustiveFacetsCount: boolean;
-                          exhaustiveNbHits: boolean;
-                          query: string;
-                          params: string;
-                          index: string;
-                          processingTimeMS: number;
-                          queryID?: undefined;
-                      }
-                )[];
-                const query_2: string;
-                export { query_2 as query };
-                export const parsedQuery: any;
-                export const hits: (
-                    | {
-                          title: string;
-						  flat_location_list: string[];
-						  year_of_seniority: string;
-						  min_work_exp_year?: number;
-                          requirements: string;
-                          path: string;
-                          tag_list: string[];
-                          location_list: string[];
-                          unique_impressions_count: number;
-                          search_rank: number;
-                          created_at: string;
-                          expired_at: string;
-                          work_experience_list: any[];
-                          job_function_list: any[];
-                          category: string;
-                          job_type: string;
-                          seniority_level: string;
-                          aasm_state: string;
-                          sponsored: any;
-                          signing_bonus: number;
-                          salary_type: string;
-                          salary_currency: string;
-                          number_of_openings: number;
-                          lang: string;
-                          profession: string;
-                          remote: any;
-                          number_of_management: any;
-                          description_plain_text: string;
-                          requirements_plain_text: string;
-                          salary_min: number;
-                          salary_max: number;
-                          salary_range: number[];
-                          salary_score: number;
-                          lang_name: string;
-                          content_updated_at: number;
-                          noindex: boolean;
-                          page: {
-                              name: string;
-							  vertical_list?: any;
-							  funding_round_list?: any;
-							  amount_of_capital?: number;
-							  id: number;
-							  tech_labels: string[];
-                              path: string;
-                              address: string;
-                              country: string;
-                              unique_impressions_count: number;
-                              search_rank: number;
-                              created_at: string;
-                              number_of_employees: string;
-                              aasm_state: string;
-                              featured: boolean;
-                              geo_street_address: string;
-                              geo_city: string;
-                              geo_state_name: string;
-                              geo_state_code: string;
-                              geo_zip: string;
-                              noindex: boolean;
-                              sector: any;
-                              labels: any[];
-                              last_active_at_by_week: number;
-                              content_updated_at: number;
-                              geo_region_l: string;
-                              logo: {
-                                  tiny: string;
-                                  thumb: string;
-                                  medium: string;
-                                  large: string;
-                              };
-                              cover_image: {
-                                  small_3_1: string;
-                                  medium_3_1: string;
-                                  large: string;
-                              };
-                          };
-                          fresh_score: number;
-                          unique_impressions_count_score: number;
-                          up_votes_score: number;
-                          job_applications_count_score: number;
-                          objectID: string;
-                          _snippetResult: {
-                              description_plain_text: {
-                                  value: string;
-                                  matchLevel: string;
-                              };
-                          };
-                          _highlightResult: {
-                              title: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              path: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                                  fullyHighlighted?: undefined;
-                              };
-                              tag_list: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              }[];
-                              category: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              job_type: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              seniority_level: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              profession: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              description_plain_text: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              page: {
-                                  name: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                                  path: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                                  address: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                              };
-                          };
-                      }
-                    | {
-                          title: string;
-                          requirements: string;
-                          path: string;
-                          tag_list: string[];
-                          location_list: string[];
-                          unique_impressions_count: number;
-                          search_rank: number;
-                          created_at: string;
-                          expired_at: string;
-                          work_experience_list: any[];
-                          job_function_list: any[];
-                          category: string;
-                          job_type: string;
-                          seniority_level: string;
-                          aasm_state: string;
-                          sponsored: any;
-                          signing_bonus: number;
-                          salary_type: string;
-                          salary_currency: string;
-                          number_of_openings: number;
-                          lang: string;
-                          profession: string;
-                          remote: any;
-                          number_of_management: any;
-                          description_plain_text: string;
-                          requirements_plain_text: string;
-                          salary_min: number;
-                          salary_max: number;
-                          salary_range: number[];
-                          salary_score: number;
-                          lang_name: string;
-                          content_updated_at: number;
-                          noindex: boolean;
-                          page: {
-                              name: string;
-							  vertical_list?: any;
-							  funding_round_list?: any;
-							  amount_of_capital?: number;
-							  id: number;
-							  tech_labels: string[];
-                              path: string;
-                              address: string;
-                              country: string;
-                              unique_impressions_count: number;
-                              search_rank: number;
-                              created_at: string;
-                              number_of_employees: string;
-                              aasm_state: string;
-                              featured: boolean;
-                              geo_street_address: string;
-                              geo_city: string;
-                              geo_state_name: string;
-                              geo_state_code: string;
-                              geo_zip: string;
-                              noindex: boolean;
-                              sector: string;
-                              labels: any[];
-                              last_active_at_by_week: number;
-                              content_updated_at: number;
-                              geo_region_l: string;
-                              logo: {
-                                  tiny: string;
-                                  thumb: string;
-                                  medium: string;
-                                  large: string;
-                              };
-                              cover_image: {
-                                  small_3_1: string;
-                                  medium_3_1: string;
-                                  large: string;
-                              };
-                          };
-                          fresh_score: number;
-                          unique_impressions_count_score: number;
-                          up_votes_score: number;
-                          job_applications_count_score: number;
-                          objectID: string;
-                          _snippetResult: {
-                              description_plain_text: {
-                                  value: string;
-                                  matchLevel: string;
-                              };
-                          };
-                          _highlightResult: {
-                              title: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              path: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              tag_list: (
-                                  | {
-                                        value: string;
-                                        matchLevel: string;
-                                        matchedWords: any[];
-                                        fullyHighlighted?: undefined;
-                                    }
-                                  | {
-                                        value: string;
-                                        matchLevel: string;
-                                        fullyHighlighted: boolean;
-                                        matchedWords: string[];
-                                    }
-                              )[];
-                              category: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              job_type: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              seniority_level: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              profession: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              description_plain_text: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                                  fullyHighlighted?: undefined;
-                              };
-                              page: {
-                                  name: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                                  path: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                                  address: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                              };
-                          };
-                      }
-                    | {
-                          title: string;
-                          requirements: string;
-                          path: string;
-                          tag_list: string[];
-                          location_list: string[];
-                          unique_impressions_count: number;
-                          search_rank: number;
-                          created_at: string;
-                          expired_at: string;
-                          work_experience_list: any[];
-                          job_function_list: any[];
-                          category: string;
-                          job_type: string;
-                          seniority_level: string;
-                          aasm_state: string;
-                          sponsored: any;
-                          signing_bonus: number;
-                          salary_type: string;
-                          salary_currency: string;
-                          number_of_openings: number;
-                          lang: string;
-                          profession: string;
-                          remote: any;
-                          number_of_management: any;
-                          description_plain_text: string;
-                          requirements_plain_text: string;
-                          salary_min: number;
-                          salary_max: number;
-                          salary_range: number[];
-                          salary_score: number;
-                          lang_name: string;
-                          content_updated_at: number;
-                          noindex: boolean;
-                          page: {
-                              name: string;
-							  vertical_list?: any;
-							  funding_round_list?: any;
-							  amount_of_capital?: number;
-							  id: number;
-							  tech_labels: string[];
-                              path: string;
-                              address: string;
-                              country: string;
-                              unique_impressions_count: number;
-                              search_rank: number;
-                              created_at: string;
-                              number_of_employees: string;
-                              aasm_state: string;
-                              featured: boolean;
-                              geo_street_address: string;
-                              geo_city: string;
-                              geo_state_name: string;
-                              geo_state_code: string;
-                              geo_zip: string;
-                              noindex: boolean;
-                              sector: string;
-                              labels: any[];
-                              last_active_at_by_week: number;
-                              content_updated_at: number;
-                              geo_region_l: string;
-                              logo: {
-                                  tiny: string;
-                                  thumb: string;
-                                  medium: string;
-                                  large: string;
-                              };
-                              cover_image: {
-                                  small_3_1: string;
-                                  medium_3_1: string;
-                                  large: string;
-                              };
-                          };
-                          fresh_score: number;
-                          unique_impressions_count_score: number;
-                          up_votes_score: number;
-                          job_applications_count_score: number;
-                          objectID: string;
-                          _snippetResult: {
-                              description_plain_text: {
-                                  value: string;
-                                  matchLevel: string;
-                              };
-                          };
-                          _highlightResult: {
-                              title: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              path: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                                  fullyHighlighted?: undefined;
-                              };
-                              tag_list: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              }[];
-                              category: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              job_type: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              seniority_level: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              profession: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              description_plain_text: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                                  fullyHighlighted?: undefined;
-                              };
-                              page: {
-                                  name: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                                  path: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                                  address: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                              };
-                          };
-                      }
-                    | {
-                          title: string;
-                          requirements: string;
-                          path: string;
-                          tag_list: string[];
-                          location_list: string[];
-                          unique_impressions_count: number;
-                          search_rank: number;
-                          created_at: string;
-                          expired_at: string;
-                          work_experience_list: string[];
-                          job_function_list: string[];
-                          category: string;
-                          job_type: string;
-                          seniority_level: string;
-                          aasm_state: string;
-                          sponsored: any;
-                          signing_bonus: number;
-                          salary_type: string;
-                          salary_currency: string;
-                          number_of_openings: number;
-                          lang: string;
-                          profession: string;
-                          remote: string;
-                          number_of_management: string;
-                          description_plain_text: string;
-                          requirements_plain_text: string;
-                          salary_min: number;
-                          salary_max: number;
-                          salary_range: number[];
-                          salary_score: number;
-                          lang_name: string;
-                          content_updated_at: number;
-                          noindex: boolean;
-                          page: {
-                              name: string;
-							  vertical_list?: any;
-							  funding_round_list?: any;
-							  amount_of_capital?: number;
-							  id: number;
-							  tech_labels: string[];
-                              path: string;
-                              address: string;
-                              country: string;
-                              unique_impressions_count: number;
-                              search_rank: number;
-                              created_at: string;
-                              number_of_employees: string;
-                              aasm_state: string;
-                              featured: boolean;
-                              geo_street_address: string;
-                              geo_city: string;
-                              geo_state_name: string;
-                              geo_state_code: string;
-                              geo_zip: string;
-                              noindex: boolean;
-                              sector: string;
-                              labels: string[];
-                              last_active_at_by_week: number;
-                              content_updated_at: number;
-                              geo_region_l: string;
-                              logo: {
-                                  tiny: string;
-                                  thumb: string;
-                                  medium: string;
-                                  large: string;
-                              };
-                              cover_image: {
-                                  small_3_1: string;
-                                  medium_3_1: string;
-                                  large: string;
-                              };
-                          };
-                          fresh_score: number;
-                          unique_impressions_count_score: number;
-                          up_votes_score: number;
-                          job_applications_count_score: number;
-                          objectID: string;
-                          _snippetResult: {
-                              description_plain_text: {
-                                  value: string;
-                                  matchLevel: string;
-                              };
-                          };
-                          _highlightResult: {
-                              title: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              path: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              tag_list: (
-                                  | {
-                                        value: string;
-                                        matchLevel: string;
-                                        matchedWords: any[];
-                                        fullyHighlighted?: undefined;
-                                    }
-                                  | {
-                                        value: string;
-                                        matchLevel: string;
-                                        fullyHighlighted: boolean;
-                                        matchedWords: string[];
-                                    }
-                              )[];
-                              category: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              job_type: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              seniority_level: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              profession: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              description_plain_text: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              page: {
-                                  name: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                                  path: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                                  address: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                              };
-                          };
-                      }
-                    | {
-                          title: string;
-                          requirements: string;
-                          path: string;
-                          tag_list: string[];
-                          location_list: string[];
-                          unique_impressions_count: number;
-                          search_rank: number;
-                          created_at: string;
-                          expired_at: string;
-                          work_experience_list: any[];
-                          job_function_list: any[];
-                          category: string;
-                          job_type: string;
-                          seniority_level: string;
-                          aasm_state: string;
-                          sponsored: any;
-                          signing_bonus: number;
-                          salary_type: string;
-                          salary_currency: string;
-                          number_of_openings: number;
-                          lang: string;
-                          profession: string;
-                          remote: string;
-                          number_of_management: string;
-                          description_plain_text: string;
-                          requirements_plain_text: string;
-                          salary_min: number;
-                          salary_max: number;
-                          salary_range: number[];
-                          salary_score: number;
-                          lang_name: string;
-                          content_updated_at: number;
-                          noindex: boolean;
-                          page: {
-                              name: string;
-							  vertical_list?: any;
-							  funding_round_list?: any;
-							  amount_of_capital?: number;
-							  id: number;
-							  tech_labels: string[];
-							  vertical_list?: any;
-							  funding_round_list?: any;
-							  amount_of_capital?: number;
-							  id: number;
-							  tech_labels: string[];
-                              path: string;
-                              address: string;
-                              country: string;
-                              unique_impressions_count: number;
-                              search_rank: number;
-                              created_at: string;
-                              number_of_employees: string;
-                              aasm_state: string;
-                              featured: boolean;
-                              geo_street_address: any;
-                              geo_city: any;
-                              geo_state_name: any;
-                              geo_state_code: any;
-                              geo_zip: any;
-                              noindex: boolean;
-                              sector: string;
-                              labels: any[];
-                              last_active_at_by_week: number;
-                              content_updated_at: number;
-                              geo_region_l: string;
-                              logo: {
-                                  tiny: string;
-                                  thumb: string;
-                                  medium: string;
-                                  large: string;
-                              };
-                              cover_image: {
-                                  small_3_1: string;
-                                  medium_3_1: string;
-                                  large: string;
-                              };
-                          };
-                          fresh_score: number;
-                          unique_impressions_count_score: number;
-                          up_votes_score: number;
-                          job_applications_count_score: number;
-                          objectID: string;
-                          _snippetResult: {
-                              description_plain_text: {
-                                  value: string;
-                                  matchLevel: string;
-                              };
-                          };
-                          _highlightResult: {
-                              title: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              path: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              tag_list: (
-                                  | {
-                                        value: string;
-                                        matchLevel: string;
-                                        matchedWords: any[];
-                                        fullyHighlighted?: undefined;
-                                    }
-                                  | {
-                                        value: string;
-                                        matchLevel: string;
-                                        fullyHighlighted: boolean;
-                                        matchedWords: string[];
-                                    }
-                              )[];
-                              category: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              job_type: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              seniority_level: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              profession: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              description_plain_text: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                                  fullyHighlighted?: undefined;
-                              };
-                              page: {
-                                  name: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                                  path: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                                  address: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                              };
-                          };
-                      }
-                    | {
-                          title: string;
-                          requirements: string;
-                          path: string;
-                          tag_list: string[];
-                          location_list: string[];
-                          unique_impressions_count: number;
-                          search_rank: number;
-                          created_at: string;
-                          expired_at: string;
-                          work_experience_list: any[];
-                          job_function_list: any[];
-                          category: string;
-                          job_type: string;
-                          seniority_level: string;
-                          aasm_state: string;
-                          sponsored: any;
-                          signing_bonus: number;
-                          salary_type: string;
-                          salary_currency: string;
-                          number_of_openings: number;
-                          lang: string;
-                          profession: string;
-                          remote: string;
-                          number_of_management: string;
-                          description_plain_text: string;
-                          requirements_plain_text: string;
-                          salary_min: number;
-                          salary_max: number;
-                          salary_range: number[];
-                          salary_score: number;
-                          lang_name: string;
-                          content_updated_at: number;
-                          noindex: boolean;
-                          page: {
-                              name: string;
-							  vertical_list?: any;
-							  funding_round_list?: any;
-							  amount_of_capital?: number;
-							  id: number;
-							  tech_labels: string[];
-                              path: string;
-                              address: string;
-                              country: string;
-                              unique_impressions_count: number;
-                              search_rank: number;
-                              created_at: string;
-                              number_of_employees: string;
-                              aasm_state: string;
-                              featured: boolean;
-                              geo_street_address: string;
-                              geo_city: string;
-                              geo_state_name: string;
-                              geo_state_code: string;
-                              geo_zip: string;
-                              noindex: boolean;
-                              sector: any;
-                              labels: any[];
-                              last_active_at_by_week: number;
-                              content_updated_at: number;
-                              geo_region_l: string;
-                              logo: {
-                                  tiny: string;
-                                  thumb: string;
-                                  medium: string;
-                                  large: string;
-                              };
-                              cover_image: {
-                                  small_3_1: string;
-                                  medium_3_1: string;
-                                  large: string;
-                              };
-                          };
-                          fresh_score: number;
-                          unique_impressions_count_score: number;
-                          up_votes_score: number;
-                          job_applications_count_score: number;
-                          objectID: string;
-                          _snippetResult: {
-                              description_plain_text: {
-                                  value: string;
-                                  matchLevel: string;
-                              };
-                          };
-                          _highlightResult: {
-                              title: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              path: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              tag_list: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              }[];
-                              category: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              job_type: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              seniority_level: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                              };
-                              profession: {
-                                  value: string;
-                                  matchLevel: string;
-                                  fullyHighlighted: boolean;
-                                  matchedWords: string[];
-                              };
-                              description_plain_text: {
-                                  value: string;
-                                  matchLevel: string;
-                                  matchedWords: any[];
-                                  fullyHighlighted?: undefined;
-                              };
-                              page: {
-                                  name: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                                  path: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                                  address: {
-                                      value: string;
-                                      matchLevel: string;
-                                      matchedWords: any[];
-                                  };
-                              };
-                          };
-                      }
-                )[];
-                export const index: string;
-                export const hitsPerPage: number;
-                export const nbHits: number;
-                export const nbPages: number;
-                const page_1: number;
-                export { page_1 as page };
-                export const processingTimeMS: number;
-                export const aroundLatLng: any;
-                export const automaticRadius: any;
-                export const serverUsed: any;
-                export const timeoutCounts: any;
-                export const timeoutHits: any;
-                export const exhaustiveFacetsCount: boolean;
-                export const exhaustiveNbHits: boolean;
-                export const userData: any;
-                export const queryID: string;
-                export const disjunctiveFacets: (
-                    | {
-                          name: string;
-                          data: {
-                              台北: number;
-                              台灣: number;
-                              信義區: number;
-                              台北市: number;
-                              松山區: number;
-                              Taiwan: number;
-                              中正區: number;
-                              南港軟體園區: number;
-                              Taipei: number;
-                              捷運南港展覽館站: number;
-                              France: number;
-                              'Taipei City': number;
-                              內湖科技園區: number;
-                              台北市中山區樂群二路189號6樓之一: number;
-                              台北市南港區: number;
-                              新北市: number;
-                              新台五路一段: number;
-                              汐科火車站: number;
-                              法國: number;
-                              '97\u865F': number;
-                              UTOWN: number;
-                              中華路: number;
-                              信義安和站: number;
-                              內湖區: number;
-                              內湖區瑞光路: number;
-                              南港區: number;
-                              古亭站: number;
-                              台北市信義區: number;
-                              台北市大安區: number;
-                              台北市松高路1號7樓: number;
-                              台南市: number;
-                              台南市新市區: number;
-                              大安區: number;
-                              小巨蛋: number;
-                              捷運中山國中站: number;
-                              新竹: number;
-                              桃園市中壢區: number;
-                              汐止: number;
-                              汐止區: number;
-                              汐止科學園區: number;
-                              泰國: number;
-                              遠雄: number;
-                              'tech_project-product-management'?: undefined;
-                              'marketing-communications_marketing'?: undefined;
-                              'tech_data-engineering'?: undefined;
-                              'tech_front-end-development'?: undefined;
-                              'tech_full-stack-development'?: undefined;
-                              tech_other?: undefined;
-                              'business_business-development'?: undefined;
-                              'tech_android-development'?: undefined;
-                              'tech_back-end-development'?: undefined;
-                              'tech_quality-assurance-testing'?: undefined;
-                              'tech_research-r-d'?: undefined;
-                              business_sales?: undefined;
-                              'consulting_it-project-management'?: undefined;
-                              'customer-service_customer-service-support'?: undefined;
-                              'customer-service_customer-success'?: undefined;
-                              design_other?: undefined;
-                              'industry_manufacturing-technician'?: undefined;
-                              'marketing-communications_marketing-development'?: undefined;
-                              'tech_data-science'?: undefined;
-                              full_time?: undefined;
-                              contract?: undefined;
-                              mid_senior_level?: undefined;
-                              entry_level?: undefined;
-                              director?: undefined;
-                              associate?: undefined;
-                              per_year?: undefined;
-                              per_month?: undefined;
-                              TWD?: undefined;
-                              0?: undefined;
-                              1?: undefined;
-                              100?: undefined;
-                              150?: undefined;
-                              14000?: undefined;
-                              60000?: undefined;
-                              62000?: undefined;
-                              65000?: undefined;
-                              75000?: undefined;
-                              120000?: undefined;
-                              130000?: undefined;
-                              330000?: undefined;
-                              360000?: undefined;
-                              420000?: undefined;
-                              480000?: undefined;
-                              500000?: undefined;
-                              540000?: undefined;
-                              560000?: undefined;
-                              600000?: undefined;
-                              640000?: undefined;
-                              650000?: undefined;
-                              700000?: undefined;
-                              770000?: undefined;
-                              798000?: undefined;
-                              800000?: undefined;
-                              832000?: undefined;
-                              840000?: undefined;
-                              850000?: undefined;
-                              900000?: undefined;
-                              952000?: undefined;
-                              1000000?: undefined;
-                              1100000?: undefined;
-                              1200000?: undefined;
-                              1300000?: undefined;
-                              1379000?: undefined;
-                              1400000?: undefined;
-                              1500000?: undefined;
-                              1600000?: undefined;
-                              1700000?: undefined;
-                              1800000?: undefined;
-                              2000000?: undefined;
-                              2200000?: undefined;
-                              2500000?: undefined;
-                              3000000?: undefined;
-                              none?: undefined;
-                              one_five?: undefined;
-                              five_ten?: undefined;
-                              not_specified?: undefined;
-                              no_remote_work?: undefined;
-                              optional_remote_work?: undefined;
-                              partial_remote_work?: undefined;
-                              full_remote_work?: undefined;
-                              '51_200'?: undefined;
-                              '11_50'?: undefined;
-                              '501_1000'?: undefined;
-                              '201_500'?: undefined;
-                              '1001_5000'?: undefined;
-                              '5001_'?: undefined;
-                              '1_10'?: undefined;
-                              Chinese?: undefined;
-                              English?: undefined;
-                              '2020_tech_career_fair'?: undefined;
-                          };
-                          exhaustive: boolean;
-                          stats?: undefined;
-                      }
-                    | {
-                          name: string;
-                          data: {
-                              'tech_project-product-management': number;
-                              'marketing-communications_marketing': number;
-                              'tech_data-engineering': number;
-                              'tech_front-end-development': number;
-                              'tech_full-stack-development': number;
-                              tech_other: number;
-                              'business_business-development': number;
-                              'tech_android-development': number;
-                              'tech_back-end-development': number;
-                              'tech_quality-assurance-testing': number;
-                              'tech_research-r-d': number;
-                              business_sales: number;
-                              'consulting_it-project-management': number;
-                              'customer-service_customer-service-support': number;
-                              'customer-service_customer-success': number;
-                              design_other: number;
-                              'industry_manufacturing-technician': number;
-                              'marketing-communications_marketing-development': number;
-                              'tech_data-science': number;
-                              台北?: undefined;
-                              台灣?: undefined;
-                              信義區?: undefined;
-                              台北市?: undefined;
-                              松山區?: undefined;
-                              Taiwan?: undefined;
-                              中正區?: undefined;
-                              南港軟體園區?: undefined;
-                              Taipei?: undefined;
-                              捷運南港展覽館站?: undefined;
-                              France?: undefined;
-                              'Taipei City'?: undefined;
-                              內湖科技園區?: undefined;
-                              台北市中山區樂群二路189號6樓之一?: undefined;
-                              台北市南港區?: undefined;
-                              新北市?: undefined;
-                              新台五路一段?: undefined;
-                              汐科火車站?: undefined;
-                              法國?: undefined;
-                              '97\u865F'?: undefined;
-                              UTOWN?: undefined;
-                              中華路?: undefined;
-                              信義安和站?: undefined;
-                              內湖區?: undefined;
-                              內湖區瑞光路?: undefined;
-                              南港區?: undefined;
-                              古亭站?: undefined;
-                              台北市信義區?: undefined;
-                              台北市大安區?: undefined;
-                              台北市松高路1號7樓?: undefined;
-                              台南市?: undefined;
-                              台南市新市區?: undefined;
-                              大安區?: undefined;
-                              小巨蛋?: undefined;
-                              捷運中山國中站?: undefined;
-                              新竹?: undefined;
-                              桃園市中壢區?: undefined;
-                              汐止?: undefined;
-                              汐止區?: undefined;
-                              汐止科學園區?: undefined;
-                              泰國?: undefined;
-                              遠雄?: undefined;
-                              full_time?: undefined;
-                              contract?: undefined;
-                              mid_senior_level?: undefined;
-                              entry_level?: undefined;
-                              director?: undefined;
-                              associate?: undefined;
-                              per_year?: undefined;
-                              per_month?: undefined;
-                              TWD?: undefined;
-                              0?: undefined;
-                              1?: undefined;
-                              100?: undefined;
-                              150?: undefined;
-                              14000?: undefined;
-                              60000?: undefined;
-                              62000?: undefined;
-                              65000?: undefined;
-                              75000?: undefined;
-                              120000?: undefined;
-                              130000?: undefined;
-                              330000?: undefined;
-                              360000?: undefined;
-                              420000?: undefined;
-                              480000?: undefined;
-                              500000?: undefined;
-                              540000?: undefined;
-                              560000?: undefined;
-                              600000?: undefined;
-                              640000?: undefined;
-                              650000?: undefined;
-                              700000?: undefined;
-                              770000?: undefined;
-                              798000?: undefined;
-                              800000?: undefined;
-                              832000?: undefined;
-                              840000?: undefined;
-                              850000?: undefined;
-                              900000?: undefined;
-                              952000?: undefined;
-                              1000000?: undefined;
-                              1100000?: undefined;
-                              1200000?: undefined;
-                              1300000?: undefined;
-                              1379000?: undefined;
-                              1400000?: undefined;
-                              1500000?: undefined;
-                              1600000?: undefined;
-                              1700000?: undefined;
-                              1800000?: undefined;
-                              2000000?: undefined;
-                              2200000?: undefined;
-                              2500000?: undefined;
-                              3000000?: undefined;
-                              none?: undefined;
-                              one_five?: undefined;
-                              five_ten?: undefined;
-                              not_specified?: undefined;
-                              no_remote_work?: undefined;
-                              optional_remote_work?: undefined;
-                              partial_remote_work?: undefined;
-                              full_remote_work?: undefined;
-                              '51_200'?: undefined;
-                              '11_50'?: undefined;
-                              '501_1000'?: undefined;
-                              '201_500'?: undefined;
-                              '1001_5000'?: undefined;
-                              '5001_'?: undefined;
-                              '1_10'?: undefined;
-                              Chinese?: undefined;
-                              English?: undefined;
-                              '2020_tech_career_fair'?: undefined;
-                          };
-                          exhaustive: boolean;
-                          stats?: undefined;
-                      }
-                    | {
-                          name: string;
-                          data: {
-                              full_time: number;
-                              contract: number;
-                              台北?: undefined;
-                              台灣?: undefined;
-                              信義區?: undefined;
-                              台北市?: undefined;
-                              松山區?: undefined;
-                              Taiwan?: undefined;
-                              中正區?: undefined;
-                              南港軟體園區?: undefined;
-                              Taipei?: undefined;
-                              捷運南港展覽館站?: undefined;
-                              France?: undefined;
-                              'Taipei City'?: undefined;
-                              內湖科技園區?: undefined;
-                              台北市中山區樂群二路189號6樓之一?: undefined;
-                              台北市南港區?: undefined;
-                              新北市?: undefined;
-                              新台五路一段?: undefined;
-                              汐科火車站?: undefined;
-                              法國?: undefined;
-                              '97\u865F'?: undefined;
-                              UTOWN?: undefined;
-                              中華路?: undefined;
-                              信義安和站?: undefined;
-                              內湖區?: undefined;
-                              內湖區瑞光路?: undefined;
-                              南港區?: undefined;
-                              古亭站?: undefined;
-                              台北市信義區?: undefined;
-                              台北市大安區?: undefined;
-                              台北市松高路1號7樓?: undefined;
-                              台南市?: undefined;
-                              台南市新市區?: undefined;
-                              大安區?: undefined;
-                              小巨蛋?: undefined;
-                              捷運中山國中站?: undefined;
-                              新竹?: undefined;
-                              桃園市中壢區?: undefined;
-                              汐止?: undefined;
-                              汐止區?: undefined;
-                              汐止科學園區?: undefined;
-                              泰國?: undefined;
-                              遠雄?: undefined;
-                              'tech_project-product-management'?: undefined;
-                              'marketing-communications_marketing'?: undefined;
-                              'tech_data-engineering'?: undefined;
-                              'tech_front-end-development'?: undefined;
-                              'tech_full-stack-development'?: undefined;
-                              tech_other?: undefined;
-                              'business_business-development'?: undefined;
-                              'tech_android-development'?: undefined;
-                              'tech_back-end-development'?: undefined;
-                              'tech_quality-assurance-testing'?: undefined;
-                              'tech_research-r-d'?: undefined;
-                              business_sales?: undefined;
-                              'consulting_it-project-management'?: undefined;
-                              'customer-service_customer-service-support'?: undefined;
-                              'customer-service_customer-success'?: undefined;
-                              design_other?: undefined;
-                              'industry_manufacturing-technician'?: undefined;
-                              'marketing-communications_marketing-development'?: undefined;
-                              'tech_data-science'?: undefined;
-                              mid_senior_level?: undefined;
-                              entry_level?: undefined;
-                              director?: undefined;
-                              associate?: undefined;
-                              per_year?: undefined;
-                              per_month?: undefined;
-                              TWD?: undefined;
-                              0?: undefined;
-                              1?: undefined;
-                              100?: undefined;
-                              150?: undefined;
-                              14000?: undefined;
-                              60000?: undefined;
-                              62000?: undefined;
-                              65000?: undefined;
-                              75000?: undefined;
-                              120000?: undefined;
-                              130000?: undefined;
-                              330000?: undefined;
-                              360000?: undefined;
-                              420000?: undefined;
-                              480000?: undefined;
-                              500000?: undefined;
-                              540000?: undefined;
-                              560000?: undefined;
-                              600000?: undefined;
-                              640000?: undefined;
-                              650000?: undefined;
-                              700000?: undefined;
-                              770000?: undefined;
-                              798000?: undefined;
-                              800000?: undefined;
-                              832000?: undefined;
-                              840000?: undefined;
-                              850000?: undefined;
-                              900000?: undefined;
-                              952000?: undefined;
-                              1000000?: undefined;
-                              1100000?: undefined;
-                              1200000?: undefined;
-                              1300000?: undefined;
-                              1379000?: undefined;
-                              1400000?: undefined;
-                              1500000?: undefined;
-                              1600000?: undefined;
-                              1700000?: undefined;
-                              1800000?: undefined;
-                              2000000?: undefined;
-                              2200000?: undefined;
-                              2500000?: undefined;
-                              3000000?: undefined;
-                              none?: undefined;
-                              one_five?: undefined;
-                              five_ten?: undefined;
-                              not_specified?: undefined;
-                              no_remote_work?: undefined;
-                              optional_remote_work?: undefined;
-                              partial_remote_work?: undefined;
-                              full_remote_work?: undefined;
-                              '51_200'?: undefined;
-                              '11_50'?: undefined;
-                              '501_1000'?: undefined;
-                              '201_500'?: undefined;
-                              '1001_5000'?: undefined;
-                              '5001_'?: undefined;
-                              '1_10'?: undefined;
-                              Chinese?: undefined;
-                              English?: undefined;
-                              '2020_tech_career_fair'?: undefined;
-                          };
-                          exhaustive: boolean;
-                          stats?: undefined;
-                      }
-                    | {
-                          name: string;
-                          data: {
-                              mid_senior_level: number;
-                              entry_level: number;
-                              director: number;
-                              associate: number;
-                              台北?: undefined;
-                              台灣?: undefined;
-                              信義區?: undefined;
-                              台北市?: undefined;
-                              松山區?: undefined;
-                              Taiwan?: undefined;
-                              中正區?: undefined;
-                              南港軟體園區?: undefined;
-                              Taipei?: undefined;
-                              捷運南港展覽館站?: undefined;
-                              France?: undefined;
-                              'Taipei City'?: undefined;
-                              內湖科技園區?: undefined;
-                              台北市中山區樂群二路189號6樓之一?: undefined;
-                              台北市南港區?: undefined;
-                              新北市?: undefined;
-                              新台五路一段?: undefined;
-                              汐科火車站?: undefined;
-                              法國?: undefined;
-                              '97\u865F'?: undefined;
-                              UTOWN?: undefined;
-                              中華路?: undefined;
-                              信義安和站?: undefined;
-                              內湖區?: undefined;
-                              內湖區瑞光路?: undefined;
-                              南港區?: undefined;
-                              古亭站?: undefined;
-                              台北市信義區?: undefined;
-                              台北市大安區?: undefined;
-                              台北市松高路1號7樓?: undefined;
-                              台南市?: undefined;
-                              台南市新市區?: undefined;
-                              大安區?: undefined;
-                              小巨蛋?: undefined;
-                              捷運中山國中站?: undefined;
-                              新竹?: undefined;
-                              桃園市中壢區?: undefined;
-                              汐止?: undefined;
-                              汐止區?: undefined;
-                              汐止科學園區?: undefined;
-                              泰國?: undefined;
-                              遠雄?: undefined;
-                              'tech_project-product-management'?: undefined;
-                              'marketing-communications_marketing'?: undefined;
-                              'tech_data-engineering'?: undefined;
-                              'tech_front-end-development'?: undefined;
-                              'tech_full-stack-development'?: undefined;
-                              tech_other?: undefined;
-                              'business_business-development'?: undefined;
-                              'tech_android-development'?: undefined;
-                              'tech_back-end-development'?: undefined;
-                              'tech_quality-assurance-testing'?: undefined;
-                              'tech_research-r-d'?: undefined;
-                              business_sales?: undefined;
-                              'consulting_it-project-management'?: undefined;
-                              'customer-service_customer-service-support'?: undefined;
-                              'customer-service_customer-success'?: undefined;
-                              design_other?: undefined;
-                              'industry_manufacturing-technician'?: undefined;
-                              'marketing-communications_marketing-development'?: undefined;
-                              'tech_data-science'?: undefined;
-                              full_time?: undefined;
-                              contract?: undefined;
-                              per_year?: undefined;
-                              per_month?: undefined;
-                              TWD?: undefined;
-                              0?: undefined;
-                              1?: undefined;
-                              100?: undefined;
-                              150?: undefined;
-                              14000?: undefined;
-                              60000?: undefined;
-                              62000?: undefined;
-                              65000?: undefined;
-                              75000?: undefined;
-                              120000?: undefined;
-                              130000?: undefined;
-                              330000?: undefined;
-                              360000?: undefined;
-                              420000?: undefined;
-                              480000?: undefined;
-                              500000?: undefined;
-                              540000?: undefined;
-                              560000?: undefined;
-                              600000?: undefined;
-                              640000?: undefined;
-                              650000?: undefined;
-                              700000?: undefined;
-                              770000?: undefined;
-                              798000?: undefined;
-                              800000?: undefined;
-                              832000?: undefined;
-                              840000?: undefined;
-                              850000?: undefined;
-                              900000?: undefined;
-                              952000?: undefined;
-                              1000000?: undefined;
-                              1100000?: undefined;
-                              1200000?: undefined;
-                              1300000?: undefined;
-                              1379000?: undefined;
-                              1400000?: undefined;
-                              1500000?: undefined;
-                              1600000?: undefined;
-                              1700000?: undefined;
-                              1800000?: undefined;
-                              2000000?: undefined;
-                              2200000?: undefined;
-                              2500000?: undefined;
-                              3000000?: undefined;
-                              none?: undefined;
-                              one_five?: undefined;
-                              five_ten?: undefined;
-                              not_specified?: undefined;
-                              no_remote_work?: undefined;
-                              optional_remote_work?: undefined;
-                              partial_remote_work?: undefined;
-                              full_remote_work?: undefined;
-                              '51_200'?: undefined;
-                              '11_50'?: undefined;
-                              '501_1000'?: undefined;
-                              '201_500'?: undefined;
-                              '1001_5000'?: undefined;
-                              '5001_'?: undefined;
-                              '1_10'?: undefined;
-                              Chinese?: undefined;
-                              English?: undefined;
-                              '2020_tech_career_fair'?: undefined;
-                          };
-                          exhaustive: boolean;
-                          stats?: undefined;
-                      }
-                    | {
-                          name: string;
-                          data: {
-                              per_year: number;
-                              per_month: number;
-                              台北?: undefined;
-                              台灣?: undefined;
-                              信義區?: undefined;
-                              台北市?: undefined;
-                              松山區?: undefined;
-                              Taiwan?: undefined;
-                              中正區?: undefined;
-                              南港軟體園區?: undefined;
-                              Taipei?: undefined;
-                              捷運南港展覽館站?: undefined;
-                              France?: undefined;
-                              'Taipei City'?: undefined;
-                              內湖科技園區?: undefined;
-                              台北市中山區樂群二路189號6樓之一?: undefined;
-                              台北市南港區?: undefined;
-                              新北市?: undefined;
-                              新台五路一段?: undefined;
-                              汐科火車站?: undefined;
-                              法國?: undefined;
-                              '97\u865F'?: undefined;
-                              UTOWN?: undefined;
-                              中華路?: undefined;
-                              信義安和站?: undefined;
-                              內湖區?: undefined;
-                              內湖區瑞光路?: undefined;
-                              南港區?: undefined;
-                              古亭站?: undefined;
-                              台北市信義區?: undefined;
-                              台北市大安區?: undefined;
-                              台北市松高路1號7樓?: undefined;
-                              台南市?: undefined;
-                              台南市新市區?: undefined;
-                              大安區?: undefined;
-                              小巨蛋?: undefined;
-                              捷運中山國中站?: undefined;
-                              新竹?: undefined;
-                              桃園市中壢區?: undefined;
-                              汐止?: undefined;
-                              汐止區?: undefined;
-                              汐止科學園區?: undefined;
-                              泰國?: undefined;
-                              遠雄?: undefined;
-                              'tech_project-product-management'?: undefined;
-                              'marketing-communications_marketing'?: undefined;
-                              'tech_data-engineering'?: undefined;
-                              'tech_front-end-development'?: undefined;
-                              'tech_full-stack-development'?: undefined;
-                              tech_other?: undefined;
-                              'business_business-development'?: undefined;
-                              'tech_android-development'?: undefined;
-                              'tech_back-end-development'?: undefined;
-                              'tech_quality-assurance-testing'?: undefined;
-                              'tech_research-r-d'?: undefined;
-                              business_sales?: undefined;
-                              'consulting_it-project-management'?: undefined;
-                              'customer-service_customer-service-support'?: undefined;
-                              'customer-service_customer-success'?: undefined;
-                              design_other?: undefined;
-                              'industry_manufacturing-technician'?: undefined;
-                              'marketing-communications_marketing-development'?: undefined;
-                              'tech_data-science'?: undefined;
-                              full_time?: undefined;
-                              contract?: undefined;
-                              mid_senior_level?: undefined;
-                              entry_level?: undefined;
-                              director?: undefined;
-                              associate?: undefined;
-                              TWD?: undefined;
-                              0?: undefined;
-                              1?: undefined;
-                              100?: undefined;
-                              150?: undefined;
-                              14000?: undefined;
-                              60000?: undefined;
-                              62000?: undefined;
-                              65000?: undefined;
-                              75000?: undefined;
-                              120000?: undefined;
-                              130000?: undefined;
-                              330000?: undefined;
-                              360000?: undefined;
-                              420000?: undefined;
-                              480000?: undefined;
-                              500000?: undefined;
-                              540000?: undefined;
-                              560000?: undefined;
-                              600000?: undefined;
-                              640000?: undefined;
-                              650000?: undefined;
-                              700000?: undefined;
-                              770000?: undefined;
-                              798000?: undefined;
-                              800000?: undefined;
-                              832000?: undefined;
-                              840000?: undefined;
-                              850000?: undefined;
-                              900000?: undefined;
-                              952000?: undefined;
-                              1000000?: undefined;
-                              1100000?: undefined;
-                              1200000?: undefined;
-                              1300000?: undefined;
-                              1379000?: undefined;
-                              1400000?: undefined;
-                              1500000?: undefined;
-                              1600000?: undefined;
-                              1700000?: undefined;
-                              1800000?: undefined;
-                              2000000?: undefined;
-                              2200000?: undefined;
-                              2500000?: undefined;
-                              3000000?: undefined;
-                              none?: undefined;
-                              one_five?: undefined;
-                              five_ten?: undefined;
-                              not_specified?: undefined;
-                              no_remote_work?: undefined;
-                              optional_remote_work?: undefined;
-                              partial_remote_work?: undefined;
-                              full_remote_work?: undefined;
-                              '51_200'?: undefined;
-                              '11_50'?: undefined;
-                              '501_1000'?: undefined;
-                              '201_500'?: undefined;
-                              '1001_5000'?: undefined;
-                              '5001_'?: undefined;
-                              '1_10'?: undefined;
-                              Chinese?: undefined;
-                              English?: undefined;
-                              '2020_tech_career_fair'?: undefined;
-                          };
-                          exhaustive: boolean;
-                          stats?: undefined;
-                      }
-                    | {
-                          name: string;
-                          data: {
-                              TWD: number;
-                              台北?: undefined;
-                              台灣?: undefined;
-                              信義區?: undefined;
-                              台北市?: undefined;
-                              松山區?: undefined;
-                              Taiwan?: undefined;
-                              中正區?: undefined;
-                              南港軟體園區?: undefined;
-                              Taipei?: undefined;
-                              捷運南港展覽館站?: undefined;
-                              France?: undefined;
-                              'Taipei City'?: undefined;
-                              內湖科技園區?: undefined;
-                              台北市中山區樂群二路189號6樓之一?: undefined;
-                              台北市南港區?: undefined;
-                              新北市?: undefined;
-                              新台五路一段?: undefined;
-                              汐科火車站?: undefined;
-                              法國?: undefined;
-                              '97\u865F'?: undefined;
-                              UTOWN?: undefined;
-                              中華路?: undefined;
-                              信義安和站?: undefined;
-                              內湖區?: undefined;
-                              內湖區瑞光路?: undefined;
-                              南港區?: undefined;
-                              古亭站?: undefined;
-                              台北市信義區?: undefined;
-                              台北市大安區?: undefined;
-                              台北市松高路1號7樓?: undefined;
-                              台南市?: undefined;
-                              台南市新市區?: undefined;
-                              大安區?: undefined;
-                              小巨蛋?: undefined;
-                              捷運中山國中站?: undefined;
-                              新竹?: undefined;
-                              桃園市中壢區?: undefined;
-                              汐止?: undefined;
-                              汐止區?: undefined;
-                              汐止科學園區?: undefined;
-                              泰國?: undefined;
-                              遠雄?: undefined;
-                              'tech_project-product-management'?: undefined;
-                              'marketing-communications_marketing'?: undefined;
-                              'tech_data-engineering'?: undefined;
-                              'tech_front-end-development'?: undefined;
-                              'tech_full-stack-development'?: undefined;
-                              tech_other?: undefined;
-                              'business_business-development'?: undefined;
-                              'tech_android-development'?: undefined;
-                              'tech_back-end-development'?: undefined;
-                              'tech_quality-assurance-testing'?: undefined;
-                              'tech_research-r-d'?: undefined;
-                              business_sales?: undefined;
-                              'consulting_it-project-management'?: undefined;
-                              'customer-service_customer-service-support'?: undefined;
-                              'customer-service_customer-success'?: undefined;
-                              design_other?: undefined;
-                              'industry_manufacturing-technician'?: undefined;
-                              'marketing-communications_marketing-development'?: undefined;
-                              'tech_data-science'?: undefined;
-                              full_time?: undefined;
-                              contract?: undefined;
-                              mid_senior_level?: undefined;
-                              entry_level?: undefined;
-                              director?: undefined;
-                              associate?: undefined;
-                              per_year?: undefined;
-                              per_month?: undefined;
-                              0?: undefined;
-                              1?: undefined;
-                              100?: undefined;
-                              150?: undefined;
-                              14000?: undefined;
-                              60000?: undefined;
-                              62000?: undefined;
-                              65000?: undefined;
-                              75000?: undefined;
-                              120000?: undefined;
-                              130000?: undefined;
-                              330000?: undefined;
-                              360000?: undefined;
-                              420000?: undefined;
-                              480000?: undefined;
-                              500000?: undefined;
-                              540000?: undefined;
-                              560000?: undefined;
-                              600000?: undefined;
-                              640000?: undefined;
-                              650000?: undefined;
-                              700000?: undefined;
-                              770000?: undefined;
-                              798000?: undefined;
-                              800000?: undefined;
-                              832000?: undefined;
-                              840000?: undefined;
-                              850000?: undefined;
-                              900000?: undefined;
-                              952000?: undefined;
-                              1000000?: undefined;
-                              1100000?: undefined;
-                              1200000?: undefined;
-                              1300000?: undefined;
-                              1379000?: undefined;
-                              1400000?: undefined;
-                              1500000?: undefined;
-                              1600000?: undefined;
-                              1700000?: undefined;
-                              1800000?: undefined;
-                              2000000?: undefined;
-                              2200000?: undefined;
-                              2500000?: undefined;
-                              3000000?: undefined;
-                              none?: undefined;
-                              one_five?: undefined;
-                              five_ten?: undefined;
-                              not_specified?: undefined;
-                              no_remote_work?: undefined;
-                              optional_remote_work?: undefined;
-                              partial_remote_work?: undefined;
-                              full_remote_work?: undefined;
-                              '51_200'?: undefined;
-                              '11_50'?: undefined;
-                              '501_1000'?: undefined;
-                              '201_500'?: undefined;
-                              '1001_5000'?: undefined;
-                              '5001_'?: undefined;
-                              '1_10'?: undefined;
-                              Chinese?: undefined;
-                              English?: undefined;
-                              '2020_tech_career_fair'?: undefined;
-                          };
-                          exhaustive: boolean;
-                          stats?: undefined;
-                      }
-                    | {
-                          name: string;
-                          data: {
-                              0: number;
-                              1: number;
-                              100: number;
-                              150: number;
-                              14000: number;
-                              60000: number;
-                              62000: number;
-                              65000: number;
-                              75000: number;
-                              120000: number;
-                              130000: number;
-                              330000: number;
-                              360000: number;
-                              420000: number;
-                              480000: number;
-                              500000: number;
-                              540000: number;
-                              560000: number;
-                              600000: number;
-                              640000: number;
-                              650000: number;
-                              700000: number;
-                              770000: number;
-                              798000: number;
-                              800000: number;
-                              832000: number;
-                              840000: number;
-                              850000: number;
-                              900000: number;
-                              952000: number;
-                              1000000: number;
-                              1100000: number;
-                              1200000: number;
-                              1300000: number;
-                              1379000: number;
-                              1400000: number;
-                              1500000: number;
-                              1600000: number;
-                              1700000: number;
-                              1800000: number;
-                              2000000: number;
-                              2200000: number;
-                              2500000: number;
-                              3000000: number;
-                              台北?: undefined;
-                              台灣?: undefined;
-                              信義區?: undefined;
-                              台北市?: undefined;
-                              松山區?: undefined;
-                              Taiwan?: undefined;
-                              中正區?: undefined;
-                              南港軟體園區?: undefined;
-                              Taipei?: undefined;
-                              捷運南港展覽館站?: undefined;
-                              France?: undefined;
-                              'Taipei City'?: undefined;
-                              內湖科技園區?: undefined;
-                              台北市中山區樂群二路189號6樓之一?: undefined;
-                              台北市南港區?: undefined;
-                              新北市?: undefined;
-                              新台五路一段?: undefined;
-                              汐科火車站?: undefined;
-                              法國?: undefined;
-                              '97\u865F'?: undefined;
-                              UTOWN?: undefined;
-                              中華路?: undefined;
-                              信義安和站?: undefined;
-                              內湖區?: undefined;
-                              內湖區瑞光路?: undefined;
-                              南港區?: undefined;
-                              古亭站?: undefined;
-                              台北市信義區?: undefined;
-                              台北市大安區?: undefined;
-                              台北市松高路1號7樓?: undefined;
-                              台南市?: undefined;
-                              台南市新市區?: undefined;
-                              大安區?: undefined;
-                              小巨蛋?: undefined;
-                              捷運中山國中站?: undefined;
-                              新竹?: undefined;
-                              桃園市中壢區?: undefined;
-                              汐止?: undefined;
-                              汐止區?: undefined;
-                              汐止科學園區?: undefined;
-                              泰國?: undefined;
-                              遠雄?: undefined;
-                              'tech_project-product-management'?: undefined;
-                              'marketing-communications_marketing'?: undefined;
-                              'tech_data-engineering'?: undefined;
-                              'tech_front-end-development'?: undefined;
-                              'tech_full-stack-development'?: undefined;
-                              tech_other?: undefined;
-                              'business_business-development'?: undefined;
-                              'tech_android-development'?: undefined;
-                              'tech_back-end-development'?: undefined;
-                              'tech_quality-assurance-testing'?: undefined;
-                              'tech_research-r-d'?: undefined;
-                              business_sales?: undefined;
-                              'consulting_it-project-management'?: undefined;
-                              'customer-service_customer-service-support'?: undefined;
-                              'customer-service_customer-success'?: undefined;
-                              design_other?: undefined;
-                              'industry_manufacturing-technician'?: undefined;
-                              'marketing-communications_marketing-development'?: undefined;
-                              'tech_data-science'?: undefined;
-                              full_time?: undefined;
-                              contract?: undefined;
-                              mid_senior_level?: undefined;
-                              entry_level?: undefined;
-                              director?: undefined;
-                              associate?: undefined;
-                              per_year?: undefined;
-                              per_month?: undefined;
-                              TWD?: undefined;
-                              none?: undefined;
-                              one_five?: undefined;
-                              five_ten?: undefined;
-                              not_specified?: undefined;
-                              no_remote_work?: undefined;
-                              optional_remote_work?: undefined;
-                              partial_remote_work?: undefined;
-                              full_remote_work?: undefined;
-                              '51_200'?: undefined;
-                              '11_50'?: undefined;
-                              '501_1000'?: undefined;
-                              '201_500'?: undefined;
-                              '1001_5000'?: undefined;
-                              '5001_'?: undefined;
-                              '1_10'?: undefined;
-                              Chinese?: undefined;
-                              English?: undefined;
-                              '2020_tech_career_fair'?: undefined;
-                          };
-                          exhaustive: boolean;
-                          stats: {
-                              min: number;
-                              max: number;
-                              avg: number;
-                              sum: number;
-                          };
-                      }
-                    | {
-                          name: string;
-                          data: {
-                              none: number;
-                              one_five: number;
-                              five_ten: number;
-                              not_specified: number;
-                              台北?: undefined;
-                              台灣?: undefined;
-                              信義區?: undefined;
-                              台北市?: undefined;
-                              松山區?: undefined;
-                              Taiwan?: undefined;
-                              中正區?: undefined;
-                              南港軟體園區?: undefined;
-                              Taipei?: undefined;
-                              捷運南港展覽館站?: undefined;
-                              France?: undefined;
-                              'Taipei City'?: undefined;
-                              內湖科技園區?: undefined;
-                              台北市中山區樂群二路189號6樓之一?: undefined;
-                              台北市南港區?: undefined;
-                              新北市?: undefined;
-                              新台五路一段?: undefined;
-                              汐科火車站?: undefined;
-                              法國?: undefined;
-                              '97\u865F'?: undefined;
-                              UTOWN?: undefined;
-                              中華路?: undefined;
-                              信義安和站?: undefined;
-                              內湖區?: undefined;
-                              內湖區瑞光路?: undefined;
-                              南港區?: undefined;
-                              古亭站?: undefined;
-                              台北市信義區?: undefined;
-                              台北市大安區?: undefined;
-                              台北市松高路1號7樓?: undefined;
-                              台南市?: undefined;
-                              台南市新市區?: undefined;
-                              大安區?: undefined;
-                              小巨蛋?: undefined;
-                              捷運中山國中站?: undefined;
-                              新竹?: undefined;
-                              桃園市中壢區?: undefined;
-                              汐止?: undefined;
-                              汐止區?: undefined;
-                              汐止科學園區?: undefined;
-                              泰國?: undefined;
-                              遠雄?: undefined;
-                              'tech_project-product-management'?: undefined;
-                              'marketing-communications_marketing'?: undefined;
-                              'tech_data-engineering'?: undefined;
-                              'tech_front-end-development'?: undefined;
-                              'tech_full-stack-development'?: undefined;
-                              tech_other?: undefined;
-                              'business_business-development'?: undefined;
-                              'tech_android-development'?: undefined;
-                              'tech_back-end-development'?: undefined;
-                              'tech_quality-assurance-testing'?: undefined;
-                              'tech_research-r-d'?: undefined;
-                              business_sales?: undefined;
-                              'consulting_it-project-management'?: undefined;
-                              'customer-service_customer-service-support'?: undefined;
-                              'customer-service_customer-success'?: undefined;
-                              design_other?: undefined;
-                              'industry_manufacturing-technician'?: undefined;
-                              'marketing-communications_marketing-development'?: undefined;
-                              'tech_data-science'?: undefined;
-                              full_time?: undefined;
-                              contract?: undefined;
-                              mid_senior_level?: undefined;
-                              entry_level?: undefined;
-                              director?: undefined;
-                              associate?: undefined;
-                              per_year?: undefined;
-                              per_month?: undefined;
-                              TWD?: undefined;
-                              0?: undefined;
-                              1?: undefined;
-                              100?: undefined;
-                              150?: undefined;
-                              14000?: undefined;
-                              60000?: undefined;
-                              62000?: undefined;
-                              65000?: undefined;
-                              75000?: undefined;
-                              120000?: undefined;
-                              130000?: undefined;
-                              330000?: undefined;
-                              360000?: undefined;
-                              420000?: undefined;
-                              480000?: undefined;
-                              500000?: undefined;
-                              540000?: undefined;
-                              560000?: undefined;
-                              600000?: undefined;
-                              640000?: undefined;
-                              650000?: undefined;
-                              700000?: undefined;
-                              770000?: undefined;
-                              798000?: undefined;
-                              800000?: undefined;
-                              832000?: undefined;
-                              840000?: undefined;
-                              850000?: undefined;
-                              900000?: undefined;
-                              952000?: undefined;
-                              1000000?: undefined;
-                              1100000?: undefined;
-                              1200000?: undefined;
-                              1300000?: undefined;
-                              1379000?: undefined;
-                              1400000?: undefined;
-                              1500000?: undefined;
-                              1600000?: undefined;
-                              1700000?: undefined;
-                              1800000?: undefined;
-                              2000000?: undefined;
-                              2200000?: undefined;
-                              2500000?: undefined;
-                              3000000?: undefined;
-                              no_remote_work?: undefined;
-                              optional_remote_work?: undefined;
-                              partial_remote_work?: undefined;
-                              full_remote_work?: undefined;
-                              '51_200'?: undefined;
-                              '11_50'?: undefined;
-                              '501_1000'?: undefined;
-                              '201_500'?: undefined;
-                              '1001_5000'?: undefined;
-                              '5001_'?: undefined;
-                              '1_10'?: undefined;
-                              Chinese?: undefined;
-                              English?: undefined;
-                              '2020_tech_career_fair'?: undefined;
-                          };
-                          exhaustive: boolean;
-                          stats?: undefined;
-                      }
-                    | {
-                          name: string;
-                          data: {
-                              no_remote_work: number;
-                              optional_remote_work: number;
-                              partial_remote_work: number;
-                              full_remote_work: number;
-                              台北?: undefined;
-                              台灣?: undefined;
-                              信義區?: undefined;
-                              台北市?: undefined;
-                              松山區?: undefined;
-                              Taiwan?: undefined;
-                              中正區?: undefined;
-                              南港軟體園區?: undefined;
-                              Taipei?: undefined;
-                              捷運南港展覽館站?: undefined;
-                              France?: undefined;
-                              'Taipei City'?: undefined;
-                              內湖科技園區?: undefined;
-                              台北市中山區樂群二路189號6樓之一?: undefined;
-                              台北市南港區?: undefined;
-                              新北市?: undefined;
-                              新台五路一段?: undefined;
-                              汐科火車站?: undefined;
-                              法國?: undefined;
-                              '97\u865F'?: undefined;
-                              UTOWN?: undefined;
-                              中華路?: undefined;
-                              信義安和站?: undefined;
-                              內湖區?: undefined;
-                              內湖區瑞光路?: undefined;
-                              南港區?: undefined;
-                              古亭站?: undefined;
-                              台北市信義區?: undefined;
-                              台北市大安區?: undefined;
-                              台北市松高路1號7樓?: undefined;
-                              台南市?: undefined;
-                              台南市新市區?: undefined;
-                              大安區?: undefined;
-                              小巨蛋?: undefined;
-                              捷運中山國中站?: undefined;
-                              新竹?: undefined;
-                              桃園市中壢區?: undefined;
-                              汐止?: undefined;
-                              汐止區?: undefined;
-                              汐止科學園區?: undefined;
-                              泰國?: undefined;
-                              遠雄?: undefined;
-                              'tech_project-product-management'?: undefined;
-                              'marketing-communications_marketing'?: undefined;
-                              'tech_data-engineering'?: undefined;
-                              'tech_front-end-development'?: undefined;
-                              'tech_full-stack-development'?: undefined;
-                              tech_other?: undefined;
-                              'business_business-development'?: undefined;
-                              'tech_android-development'?: undefined;
-                              'tech_back-end-development'?: undefined;
-                              'tech_quality-assurance-testing'?: undefined;
-                              'tech_research-r-d'?: undefined;
-                              business_sales?: undefined;
-                              'consulting_it-project-management'?: undefined;
-                              'customer-service_customer-service-support'?: undefined;
-                              'customer-service_customer-success'?: undefined;
-                              design_other?: undefined;
-                              'industry_manufacturing-technician'?: undefined;
-                              'marketing-communications_marketing-development'?: undefined;
-                              'tech_data-science'?: undefined;
-                              full_time?: undefined;
-                              contract?: undefined;
-                              mid_senior_level?: undefined;
-                              entry_level?: undefined;
-                              director?: undefined;
-                              associate?: undefined;
-                              per_year?: undefined;
-                              per_month?: undefined;
-                              TWD?: undefined;
-                              0?: undefined;
-                              1?: undefined;
-                              100?: undefined;
-                              150?: undefined;
-                              14000?: undefined;
-                              60000?: undefined;
-                              62000?: undefined;
-                              65000?: undefined;
-                              75000?: undefined;
-                              120000?: undefined;
-                              130000?: undefined;
-                              330000?: undefined;
-                              360000?: undefined;
-                              420000?: undefined;
-                              480000?: undefined;
-                              500000?: undefined;
-                              540000?: undefined;
-                              560000?: undefined;
-                              600000?: undefined;
-                              640000?: undefined;
-                              650000?: undefined;
-                              700000?: undefined;
-                              770000?: undefined;
-                              798000?: undefined;
-                              800000?: undefined;
-                              832000?: undefined;
-                              840000?: undefined;
-                              850000?: undefined;
-                              900000?: undefined;
-                              952000?: undefined;
-                              1000000?: undefined;
-                              1100000?: undefined;
-                              1200000?: undefined;
-                              1300000?: undefined;
-                              1379000?: undefined;
-                              1400000?: undefined;
-                              1500000?: undefined;
-                              1600000?: undefined;
-                              1700000?: undefined;
-                              1800000?: undefined;
-                              2000000?: undefined;
-                              2200000?: undefined;
-                              2500000?: undefined;
-                              3000000?: undefined;
-                              none?: undefined;
-                              one_five?: undefined;
-                              five_ten?: undefined;
-                              not_specified?: undefined;
-                              '51_200'?: undefined;
-                              '11_50'?: undefined;
-                              '501_1000'?: undefined;
-                              '201_500'?: undefined;
-                              '1001_5000'?: undefined;
-                              '5001_'?: undefined;
-                              '1_10'?: undefined;
-                              Chinese?: undefined;
-                              English?: undefined;
-                              '2020_tech_career_fair'?: undefined;
-                          };
-                          exhaustive: boolean;
-                          stats?: undefined;
-                      }
-                    | {
-                          name: string;
-                          data: {
-                              '51_200': number;
-                              '11_50': number;
-                              '501_1000': number;
-                              '201_500': number;
-                              '1001_5000': number;
-                              '5001_': number;
-                              '1_10': number;
-                              台北?: undefined;
-                              台灣?: undefined;
-                              信義區?: undefined;
-                              台北市?: undefined;
-                              松山區?: undefined;
-                              Taiwan?: undefined;
-                              中正區?: undefined;
-                              南港軟體園區?: undefined;
-                              Taipei?: undefined;
-                              捷運南港展覽館站?: undefined;
-                              France?: undefined;
-                              'Taipei City'?: undefined;
-                              內湖科技園區?: undefined;
-                              台北市中山區樂群二路189號6樓之一?: undefined;
-                              台北市南港區?: undefined;
-                              新北市?: undefined;
-                              新台五路一段?: undefined;
-                              汐科火車站?: undefined;
-                              法國?: undefined;
-                              '97\u865F'?: undefined;
-                              UTOWN?: undefined;
-                              中華路?: undefined;
-                              信義安和站?: undefined;
-                              內湖區?: undefined;
-                              內湖區瑞光路?: undefined;
-                              南港區?: undefined;
-                              古亭站?: undefined;
-                              台北市信義區?: undefined;
-                              台北市大安區?: undefined;
-                              台北市松高路1號7樓?: undefined;
-                              台南市?: undefined;
-                              台南市新市區?: undefined;
-                              大安區?: undefined;
-                              小巨蛋?: undefined;
-                              捷運中山國中站?: undefined;
-                              新竹?: undefined;
-                              桃園市中壢區?: undefined;
-                              汐止?: undefined;
-                              汐止區?: undefined;
-                              汐止科學園區?: undefined;
-                              泰國?: undefined;
-                              遠雄?: undefined;
-                              'tech_project-product-management'?: undefined;
-                              'marketing-communications_marketing'?: undefined;
-                              'tech_data-engineering'?: undefined;
-                              'tech_front-end-development'?: undefined;
-                              'tech_full-stack-development'?: undefined;
-                              tech_other?: undefined;
-                              'business_business-development'?: undefined;
-                              'tech_android-development'?: undefined;
-                              'tech_back-end-development'?: undefined;
-                              'tech_quality-assurance-testing'?: undefined;
-                              'tech_research-r-d'?: undefined;
-                              business_sales?: undefined;
-                              'consulting_it-project-management'?: undefined;
-                              'customer-service_customer-service-support'?: undefined;
-                              'customer-service_customer-success'?: undefined;
-                              design_other?: undefined;
-                              'industry_manufacturing-technician'?: undefined;
-                              'marketing-communications_marketing-development'?: undefined;
-                              'tech_data-science'?: undefined;
-                              full_time?: undefined;
-                              contract?: undefined;
-                              mid_senior_level?: undefined;
-                              entry_level?: undefined;
-                              director?: undefined;
-                              associate?: undefined;
-                              per_year?: undefined;
-                              per_month?: undefined;
-                              TWD?: undefined;
-                              0?: undefined;
-                              1?: undefined;
-                              100?: undefined;
-                              150?: undefined;
-                              14000?: undefined;
-                              60000?: undefined;
-                              62000?: undefined;
-                              65000?: undefined;
-                              75000?: undefined;
-                              120000?: undefined;
-                              130000?: undefined;
-                              330000?: undefined;
-                              360000?: undefined;
-                              420000?: undefined;
-                              480000?: undefined;
-                              500000?: undefined;
-                              540000?: undefined;
-                              560000?: undefined;
-                              600000?: undefined;
-                              640000?: undefined;
-                              650000?: undefined;
-                              700000?: undefined;
-                              770000?: undefined;
-                              798000?: undefined;
-                              800000?: undefined;
-                              832000?: undefined;
-                              840000?: undefined;
-                              850000?: undefined;
-                              900000?: undefined;
-                              952000?: undefined;
-                              1000000?: undefined;
-                              1100000?: undefined;
-                              1200000?: undefined;
-                              1300000?: undefined;
-                              1379000?: undefined;
-                              1400000?: undefined;
-                              1500000?: undefined;
-                              1600000?: undefined;
-                              1700000?: undefined;
-                              1800000?: undefined;
-                              2000000?: undefined;
-                              2200000?: undefined;
-                              2500000?: undefined;
-                              3000000?: undefined;
-                              none?: undefined;
-                              one_five?: undefined;
-                              five_ten?: undefined;
-                              not_specified?: undefined;
-                              no_remote_work?: undefined;
-                              optional_remote_work?: undefined;
-                              partial_remote_work?: undefined;
-                              full_remote_work?: undefined;
-                              Chinese?: undefined;
-                              English?: undefined;
-                              '2020_tech_career_fair'?: undefined;
-                          };
-                          exhaustive: boolean;
-                          stats?: undefined;
-                      }
-                    | {
-                          name: string;
-                          data: {
-                              Chinese: number;
-                              English: number;
-                              台北?: undefined;
-                              台灣?: undefined;
-                              信義區?: undefined;
-                              台北市?: undefined;
-                              松山區?: undefined;
-                              Taiwan?: undefined;
-                              中正區?: undefined;
-                              南港軟體園區?: undefined;
-                              Taipei?: undefined;
-                              捷運南港展覽館站?: undefined;
-                              France?: undefined;
-                              'Taipei City'?: undefined;
-                              內湖科技園區?: undefined;
-                              台北市中山區樂群二路189號6樓之一?: undefined;
-                              台北市南港區?: undefined;
-                              新北市?: undefined;
-                              新台五路一段?: undefined;
-                              汐科火車站?: undefined;
-                              法國?: undefined;
-                              '97\u865F'?: undefined;
-                              UTOWN?: undefined;
-                              中華路?: undefined;
-                              信義安和站?: undefined;
-                              內湖區?: undefined;
-                              內湖區瑞光路?: undefined;
-                              南港區?: undefined;
-                              古亭站?: undefined;
-                              台北市信義區?: undefined;
-                              台北市大安區?: undefined;
-                              台北市松高路1號7樓?: undefined;
-                              台南市?: undefined;
-                              台南市新市區?: undefined;
-                              大安區?: undefined;
-                              小巨蛋?: undefined;
-                              捷運中山國中站?: undefined;
-                              新竹?: undefined;
-                              桃園市中壢區?: undefined;
-                              汐止?: undefined;
-                              汐止區?: undefined;
-                              汐止科學園區?: undefined;
-                              泰國?: undefined;
-                              遠雄?: undefined;
-                              'tech_project-product-management'?: undefined;
-                              'marketing-communications_marketing'?: undefined;
-                              'tech_data-engineering'?: undefined;
-                              'tech_front-end-development'?: undefined;
-                              'tech_full-stack-development'?: undefined;
-                              tech_other?: undefined;
-                              'business_business-development'?: undefined;
-                              'tech_android-development'?: undefined;
-                              'tech_back-end-development'?: undefined;
-                              'tech_quality-assurance-testing'?: undefined;
-                              'tech_research-r-d'?: undefined;
-                              business_sales?: undefined;
-                              'consulting_it-project-management'?: undefined;
-                              'customer-service_customer-service-support'?: undefined;
-                              'customer-service_customer-success'?: undefined;
-                              design_other?: undefined;
-                              'industry_manufacturing-technician'?: undefined;
-                              'marketing-communications_marketing-development'?: undefined;
-                              'tech_data-science'?: undefined;
-                              full_time?: undefined;
-                              contract?: undefined;
-                              mid_senior_level?: undefined;
-                              entry_level?: undefined;
-                              director?: undefined;
-                              associate?: undefined;
-                              per_year?: undefined;
-                              per_month?: undefined;
-                              TWD?: undefined;
-                              0?: undefined;
-                              1?: undefined;
-                              100?: undefined;
-                              150?: undefined;
-                              14000?: undefined;
-                              60000?: undefined;
-                              62000?: undefined;
-                              65000?: undefined;
-                              75000?: undefined;
-                              120000?: undefined;
-                              130000?: undefined;
-                              330000?: undefined;
-                              360000?: undefined;
-                              420000?: undefined;
-                              480000?: undefined;
-                              500000?: undefined;
-                              540000?: undefined;
-                              560000?: undefined;
-                              600000?: undefined;
-                              640000?: undefined;
-                              650000?: undefined;
-                              700000?: undefined;
-                              770000?: undefined;
-                              798000?: undefined;
-                              800000?: undefined;
-                              832000?: undefined;
-                              840000?: undefined;
-                              850000?: undefined;
-                              900000?: undefined;
-                              952000?: undefined;
-                              1000000?: undefined;
-                              1100000?: undefined;
-                              1200000?: undefined;
-                              1300000?: undefined;
-                              1379000?: undefined;
-                              1400000?: undefined;
-                              1500000?: undefined;
-                              1600000?: undefined;
-                              1700000?: undefined;
-                              1800000?: undefined;
-                              2000000?: undefined;
-                              2200000?: undefined;
-                              2500000?: undefined;
-                              3000000?: undefined;
-                              none?: undefined;
-                              one_five?: undefined;
-                              five_ten?: undefined;
-                              not_specified?: undefined;
-                              no_remote_work?: undefined;
-                              optional_remote_work?: undefined;
-                              partial_remote_work?: undefined;
-                              full_remote_work?: undefined;
-                              '51_200'?: undefined;
-                              '11_50'?: undefined;
-                              '501_1000'?: undefined;
-                              '201_500'?: undefined;
-                              '1001_5000'?: undefined;
-                              '5001_'?: undefined;
-                              '1_10'?: undefined;
-                              '2020_tech_career_fair'?: undefined;
-                          };
-                          exhaustive: boolean;
-                          stats?: undefined;
-                      }
-                    | {
-                          name: string;
-                          data: {
-                              '2020_tech_career_fair': number;
-                              台北?: undefined;
-                              台灣?: undefined;
-                              信義區?: undefined;
-                              台北市?: undefined;
-                              松山區?: undefined;
-                              Taiwan?: undefined;
-                              中正區?: undefined;
-                              南港軟體園區?: undefined;
-                              Taipei?: undefined;
-                              捷運南港展覽館站?: undefined;
-                              France?: undefined;
-                              'Taipei City'?: undefined;
-                              內湖科技園區?: undefined;
-                              台北市中山區樂群二路189號6樓之一?: undefined;
-                              台北市南港區?: undefined;
-                              新北市?: undefined;
-                              新台五路一段?: undefined;
-                              汐科火車站?: undefined;
-                              法國?: undefined;
-                              '97\u865F'?: undefined;
-                              UTOWN?: undefined;
-                              中華路?: undefined;
-                              信義安和站?: undefined;
-                              內湖區?: undefined;
-                              內湖區瑞光路?: undefined;
-                              南港區?: undefined;
-                              古亭站?: undefined;
-                              台北市信義區?: undefined;
-                              台北市大安區?: undefined;
-                              台北市松高路1號7樓?: undefined;
-                              台南市?: undefined;
-                              台南市新市區?: undefined;
-                              大安區?: undefined;
-                              小巨蛋?: undefined;
-                              捷運中山國中站?: undefined;
-                              新竹?: undefined;
-                              桃園市中壢區?: undefined;
-                              汐止?: undefined;
-                              汐止區?: undefined;
-                              汐止科學園區?: undefined;
-                              泰國?: undefined;
-                              遠雄?: undefined;
-                              'tech_project-product-management'?: undefined;
-                              'marketing-communications_marketing'?: undefined;
-                              'tech_data-engineering'?: undefined;
-                              'tech_front-end-development'?: undefined;
-                              'tech_full-stack-development'?: undefined;
-                              tech_other?: undefined;
-                              'business_business-development'?: undefined;
-                              'tech_android-development'?: undefined;
-                              'tech_back-end-development'?: undefined;
-                              'tech_quality-assurance-testing'?: undefined;
-                              'tech_research-r-d'?: undefined;
-                              business_sales?: undefined;
-                              'consulting_it-project-management'?: undefined;
-                              'customer-service_customer-service-support'?: undefined;
-                              'customer-service_customer-success'?: undefined;
-                              design_other?: undefined;
-                              'industry_manufacturing-technician'?: undefined;
-                              'marketing-communications_marketing-development'?: undefined;
-                              'tech_data-science'?: undefined;
-                              full_time?: undefined;
-                              contract?: undefined;
-                              mid_senior_level?: undefined;
-                              entry_level?: undefined;
-                              director?: undefined;
-                              associate?: undefined;
-                              per_year?: undefined;
-                              per_month?: undefined;
-                              TWD?: undefined;
-                              0?: undefined;
-                              1?: undefined;
-                              100?: undefined;
-                              150?: undefined;
-                              14000?: undefined;
-                              60000?: undefined;
-                              62000?: undefined;
-                              65000?: undefined;
-                              75000?: undefined;
-                              120000?: undefined;
-                              130000?: undefined;
-                              330000?: undefined;
-                              360000?: undefined;
-                              420000?: undefined;
-                              480000?: undefined;
-                              500000?: undefined;
-                              540000?: undefined;
-                              560000?: undefined;
-                              600000?: undefined;
-                              640000?: undefined;
-                              650000?: undefined;
-                              700000?: undefined;
-                              770000?: undefined;
-                              798000?: undefined;
-                              800000?: undefined;
-                              832000?: undefined;
-                              840000?: undefined;
-                              850000?: undefined;
-                              900000?: undefined;
-                              952000?: undefined;
-                              1000000?: undefined;
-                              1100000?: undefined;
-                              1200000?: undefined;
-                              1300000?: undefined;
-                              1379000?: undefined;
-                              1400000?: undefined;
-                              1500000?: undefined;
-                              1600000?: undefined;
-                              1700000?: undefined;
-                              1800000?: undefined;
-                              2000000?: undefined;
-                              2200000?: undefined;
-                              2500000?: undefined;
-                              3000000?: undefined;
-                              none?: undefined;
-                              one_five?: undefined;
-                              five_ten?: undefined;
-                              not_specified?: undefined;
-                              no_remote_work?: undefined;
-                              optional_remote_work?: undefined;
-                              partial_remote_work?: undefined;
-                              full_remote_work?: undefined;
-                              '51_200'?: undefined;
-                              '11_50'?: undefined;
-                              '501_1000'?: undefined;
-                              '201_500'?: undefined;
-                              '1001_5000'?: undefined;
-                              '5001_'?: undefined;
-                              '1_10'?: undefined;
-                              Chinese?: undefined;
-                              English?: undefined;
-                          };
-                          exhaustive: boolean;
-                          stats?: undefined;
-                      }
-                )[];
-                export const hierarchicalFacets: any[];
-                export const facets: any[];
-                export namespace _state {
-                    const index_1: string;
-                    export { index_1 as index };
-                    const query_3: string;
-                    export { query_3 as query };
-                    const facets_1: any[];
-                    export { facets_1 as facets };
-                    const disjunctiveFacets_1: string[];
-                    export { disjunctiveFacets_1 as disjunctiveFacets };
-                    const hierarchicalFacets_1: any[];
-                    export { hierarchicalFacets_1 as hierarchicalFacets };
-                    export const facetsRefinements: {};
-                    export const facetsExcludes: {};
-                    export namespace disjunctiveFacetsRefinements {
-                        const lang_name_1: string[];
-                        export { lang_name_1 as lang_name };
-                        const salary_type_1: string[];
-                        export { salary_type_1 as salary_type };
-                    }
-                    export namespace numericRefinements {
-                        const salary_range_1: {
-                            '>=': number[];
-                        };
-                        export { salary_range_1 as salary_range };
-                    }
-                    export const tagRefinements: any[];
-                    export const hierarchicalFacetsRefinements: {};
-                    export const numericFilters: any;
-                    export const tagFilters: any;
-                    export const optionalTagFilters: any;
-                    export const optionalFacetFilters: any;
-                    const hitsPerPage_1: any;
-                    export { hitsPerPage_1 as hitsPerPage };
-                    export const maxValuesPerFacet: number;
-                    const page_2: number;
-                    export { page_2 as page };
-                    export const queryType: any;
-                    export const typoTolerance: any;
-                    export const minWordSizefor1Typo: any;
-                    export const minWordSizefor2Typos: any;
-                    export const minProximity: any;
-                    export const allowTyposOnNumericTokens: any;
-                    export const ignorePlurals: any;
-                    export const restrictSearchableAttributes: any;
-                    export const advancedSyntax: any;
-                    export const analytics: any;
-                    export const analyticsTags: any;
-                    export const synonyms: any;
-                    export const replaceSynonymsInHighlight: any;
-                    export const optionalWords: any;
-                    export const removeWordsIfNoResults: any;
-                    export const attributesToRetrieve: any;
-                    export const attributesToHighlight: any;
-                    export const highlightPreTag: string;
-                    export const highlightPostTag: string;
-                    export const attributesToSnippet: any;
-                    export const getRankingInfo: any;
-                    export const distinct: boolean;
-                    const aroundLatLng_1: any;
-                    export { aroundLatLng_1 as aroundLatLng };
-                    export const aroundLatLngViaIP: any;
-                    export const aroundRadius: any;
-                    export const minimumAroundRadius: any;
-                    export const aroundPrecision: any;
-                    export const insideBoundingBox: any;
-                    export const insidePolygon: any;
-                    export const snippetEllipsisText: any;
-                    export const disableExactOnAttributes: any;
-                    export const enableExactOnSingleWordQuery: any;
-                    export const offset: any;
-                    export const length: any;
-                    export const ruleContexts: any[];
-                    export const clickAnalytics: boolean;
-                }
-            }
-            export namespace state {
-                const index_2: string;
-                export { index_2 as index };
-                const query_4: string;
-                export { query_4 as query };
-                const facets_2: any[];
-                export { facets_2 as facets };
-                const disjunctiveFacets_2: string[];
-                export { disjunctiveFacets_2 as disjunctiveFacets };
-                const hierarchicalFacets_2: any[];
-                export { hierarchicalFacets_2 as hierarchicalFacets };
-                const facetsRefinements_1: {};
-                export { facetsRefinements_1 as facetsRefinements };
-                const facetsExcludes_1: {};
-                export { facetsExcludes_1 as facetsExcludes };
-                export namespace disjunctiveFacetsRefinements_1 {
-                    const lang_name_2: string[];
-                    export { lang_name_2 as lang_name };
-                    const salary_type_2: string[];
-                    export { salary_type_2 as salary_type };
-                }
-                export { disjunctiveFacetsRefinements_1 as disjunctiveFacetsRefinements };
-                export namespace numericRefinements_1 {
-                    const salary_range_2: {
-                        '>=': number[];
-                    };
-                    export { salary_range_2 as salary_range };
-                }
-                export { numericRefinements_1 as numericRefinements };
-                const tagRefinements_1: any[];
-                export { tagRefinements_1 as tagRefinements };
-                const hierarchicalFacetsRefinements_1: {};
-                export { hierarchicalFacetsRefinements_1 as hierarchicalFacetsRefinements };
-                const numericFilters_1: any;
-                export { numericFilters_1 as numericFilters };
-                const tagFilters_1: any;
-                export { tagFilters_1 as tagFilters };
-                const optionalTagFilters_1: any;
-                export { optionalTagFilters_1 as optionalTagFilters };
-                const optionalFacetFilters_1: any;
-                export { optionalFacetFilters_1 as optionalFacetFilters };
-                const hitsPerPage_2: any;
-                export { hitsPerPage_2 as hitsPerPage };
-                const maxValuesPerFacet_1: number;
-                export { maxValuesPerFacet_1 as maxValuesPerFacet };
-                const page_3: number;
-                export { page_3 as page };
-                const queryType_1: any;
-                export { queryType_1 as queryType };
-                const typoTolerance_1: any;
-                export { typoTolerance_1 as typoTolerance };
-                const minWordSizefor1Typo_1: any;
-                export { minWordSizefor1Typo_1 as minWordSizefor1Typo };
-                const minWordSizefor2Typos_1: any;
-                export { minWordSizefor2Typos_1 as minWordSizefor2Typos };
-                const minProximity_1: any;
-                export { minProximity_1 as minProximity };
-                const allowTyposOnNumericTokens_1: any;
-                export { allowTyposOnNumericTokens_1 as allowTyposOnNumericTokens };
-                const ignorePlurals_1: any;
-                export { ignorePlurals_1 as ignorePlurals };
-                const restrictSearchableAttributes_1: any;
-                export { restrictSearchableAttributes_1 as restrictSearchableAttributes };
-                const advancedSyntax_1: any;
-                export { advancedSyntax_1 as advancedSyntax };
-                const analytics_1: any;
-                export { analytics_1 as analytics };
-                const analyticsTags_1: any;
-                export { analyticsTags_1 as analyticsTags };
-                const synonyms_1: any;
-                export { synonyms_1 as synonyms };
-                const replaceSynonymsInHighlight_1: any;
-                export { replaceSynonymsInHighlight_1 as replaceSynonymsInHighlight };
-                const optionalWords_1: any;
-                export { optionalWords_1 as optionalWords };
-                const removeWordsIfNoResults_1: any;
-                export { removeWordsIfNoResults_1 as removeWordsIfNoResults };
-                const attributesToRetrieve_1: any;
-                export { attributesToRetrieve_1 as attributesToRetrieve };
-                const attributesToHighlight_1: any;
-                export { attributesToHighlight_1 as attributesToHighlight };
-                const highlightPreTag_1: string;
-                export { highlightPreTag_1 as highlightPreTag };
-                const highlightPostTag_1: string;
-                export { highlightPostTag_1 as highlightPostTag };
-                const attributesToSnippet_1: any;
-                export { attributesToSnippet_1 as attributesToSnippet };
-                const getRankingInfo_1: any;
-                export { getRankingInfo_1 as getRankingInfo };
-                const distinct_1: boolean;
-                export { distinct_1 as distinct };
-                const aroundLatLng_2: any;
-                export { aroundLatLng_2 as aroundLatLng };
-                const aroundLatLngViaIP_1: any;
-                export { aroundLatLngViaIP_1 as aroundLatLngViaIP };
-                const aroundRadius_1: any;
-                export { aroundRadius_1 as aroundRadius };
-                const minimumAroundRadius_1: any;
-                export { minimumAroundRadius_1 as minimumAroundRadius };
-                const aroundPrecision_1: any;
-                export { aroundPrecision_1 as aroundPrecision };
-                const insideBoundingBox_1: any;
-                export { insideBoundingBox_1 as insideBoundingBox };
-                const insidePolygon_1: any;
-                export { insidePolygon_1 as insidePolygon };
-                const snippetEllipsisText_1: any;
-                export { snippetEllipsisText_1 as snippetEllipsisText };
-                const disableExactOnAttributes_1: any;
-                export { disableExactOnAttributes_1 as disableExactOnAttributes };
-                const enableExactOnSingleWordQuery_1: any;
-                export { enableExactOnSingleWordQuery_1 as enableExactOnSingleWordQuery };
-                const offset_1: any;
-                export { offset_1 as offset };
-                const length_1: any;
-                export { length_1 as length };
-                const ruleContexts_1: any[];
-                export { ruleContexts_1 as ruleContexts };
-                const clickAnalytics_1: boolean;
-                export { clickAnalytics_1 as clickAnalytics };
-            }
-            export namespace _originalResponse {
-                export const results: (
-                    | {
-                          hits: (
-                              | {
-                                    title: string;
-									flat_location_list: string[];
-									year_of_seniority: string;
-									min_work_exp_year?: number;
-                                    requirements: string;
-                                    path: string;
-                                    tag_list: string[];
-                                    location_list: string[];
-                                    unique_impressions_count: number;
-                                    search_rank: number;
-                                    created_at: string;
-                                    expired_at: string;
-                                    work_experience_list: any[];
-                                    job_function_list: any[];
-                                    category: string;
-                                    job_type: string;
-                                    seniority_level: string;
-                                    aasm_state: string;
-                                    sponsored: any;
-                                    signing_bonus: number;
-                                    salary_type: string;
-                                    salary_currency: string;
-                                    number_of_openings: number;
-                                    lang: string;
-                                    profession: string;
-                                    remote: any;
-                                    number_of_management: any;
-                                    description_plain_text: string;
-                                    requirements_plain_text: string;
-                                    salary_min: number;
-                                    salary_max: number;
-                                    salary_range: number[];
-                                    salary_score: number;
-                                    lang_name: string;
-                                    content_updated_at: number;
-                                    noindex: boolean;
-                                    page: {
-                                        name: string;
-										vertical_list?: any;
-										funding_round_list?: any;
-										amount_of_capital?: number;
-										id: number;
-										tech_labels: string[];
-                                        path: string;
-                                        address: string;
-                                        country: string;
-                                        unique_impressions_count: number;
-                                        search_rank: number;
-                                        created_at: string;
-                                        number_of_employees: string;
-                                        aasm_state: string;
-                                        featured: boolean;
-                                        geo_street_address: string;
-                                        geo_city: string;
-                                        geo_state_name: string;
-                                        geo_state_code: string;
-                                        geo_zip: string;
-                                        noindex: boolean;
-                                        sector: any;
-                                        labels: any[];
-                                        last_active_at_by_week: number;
-                                        content_updated_at: number;
-                                        geo_region_l: string;
-                                        logo: {
-                                            tiny: string;
-                                            thumb: string;
-                                            medium: string;
-                                            large: string;
-                                        };
-                                        cover_image: {
-                                            small_3_1: string;
-                                            medium_3_1: string;
-                                            large: string;
-                                        };
-                                    };
-                                    fresh_score: number;
-                                    unique_impressions_count_score: number;
-                                    up_votes_score: number;
-                                    job_applications_count_score: number;
-                                    objectID: string;
-                                    _snippetResult: {
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                        };
-                                    };
-                                    _highlightResult: {
-                                        title: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        path: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                            fullyHighlighted?: undefined;
-                                        };
-                                        tag_list: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        }[];
-                                        category: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        job_type: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        seniority_level: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        profession: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        page: {
-                                            name: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            path: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            address: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                        };
-                                    };
-                                }
-                              | {
-                                    title: string;
-                                    requirements: string;
-                                    path: string;
-                                    tag_list: string[];
-                                    location_list: string[];
-                                    unique_impressions_count: number;
-                                    search_rank: number;
-                                    created_at: string;
-                                    expired_at: string;
-                                    work_experience_list: any[];
-                                    job_function_list: any[];
-                                    category: string;
-                                    job_type: string;
-                                    seniority_level: string;
-                                    aasm_state: string;
-                                    sponsored: any;
-                                    signing_bonus: number;
-                                    salary_type: string;
-                                    salary_currency: string;
-                                    number_of_openings: number;
-                                    lang: string;
-                                    profession: string;
-                                    remote: any;
-                                    number_of_management: any;
-                                    description_plain_text: string;
-                                    requirements_plain_text: string;
-                                    salary_min: number;
-                                    salary_max: number;
-                                    salary_range: number[];
-                                    salary_score: number;
-                                    lang_name: string;
-                                    content_updated_at: number;
-                                    noindex: boolean;
-                                    page: {
-                                        name: string;
-										vertical_list?: any;
-										funding_round_list?: any;
-										amount_of_capital?: number;
-										id: number;
-										tech_labels: string[];
-                                        path: string;
-                                        address: string;
-                                        country: string;
-                                        unique_impressions_count: number;
-                                        search_rank: number;
-                                        created_at: string;
-                                        number_of_employees: string;
-                                        aasm_state: string;
-                                        featured: boolean;
-                                        geo_street_address: string;
-                                        geo_city: string;
-                                        geo_state_name: string;
-                                        geo_state_code: string;
-                                        geo_zip: string;
-                                        noindex: boolean;
-                                        sector: string;
-                                        labels: any[];
-                                        last_active_at_by_week: number;
-                                        content_updated_at: number;
-                                        geo_region_l: string;
-                                        logo: {
-                                            tiny: string;
-                                            thumb: string;
-                                            medium: string;
-                                            large: string;
-                                        };
-                                        cover_image: {
-                                            small_3_1: string;
-                                            medium_3_1: string;
-                                            large: string;
-                                        };
-                                    };
-                                    fresh_score: number;
-                                    unique_impressions_count_score: number;
-                                    up_votes_score: number;
-                                    job_applications_count_score: number;
-                                    objectID: string;
-                                    _snippetResult: {
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                        };
-                                    };
-                                    _highlightResult: {
-                                        title: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        path: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        tag_list: (
-                                            | {
-                                                  value: string;
-                                                  matchLevel: string;
-                                                  matchedWords: any[];
-                                                  fullyHighlighted?: undefined;
-                                              }
-                                            | {
-                                                  value: string;
-                                                  matchLevel: string;
-                                                  fullyHighlighted: boolean;
-                                                  matchedWords: string[];
-                                              }
-                                        )[];
-                                        category: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        job_type: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        seniority_level: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        profession: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                            fullyHighlighted?: undefined;
-                                        };
-                                        page: {
-                                            name: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            path: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            address: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                        };
-                                    };
-                                }
-                              | {
-                                    title: string;
-                                    requirements: string;
-                                    path: string;
-                                    tag_list: string[];
-                                    location_list: string[];
-                                    unique_impressions_count: number;
-                                    search_rank: number;
-                                    created_at: string;
-                                    expired_at: string;
-                                    work_experience_list: any[];
-                                    job_function_list: any[];
-                                    category: string;
-                                    job_type: string;
-                                    seniority_level: string;
-                                    aasm_state: string;
-                                    sponsored: any;
-                                    signing_bonus: number;
-                                    salary_type: string;
-                                    salary_currency: string;
-                                    number_of_openings: number;
-                                    lang: string;
-                                    profession: string;
-                                    remote: any;
-                                    number_of_management: any;
-                                    description_plain_text: string;
-                                    requirements_plain_text: string;
-                                    salary_min: number;
-                                    salary_max: number;
-                                    salary_range: number[];
-                                    salary_score: number;
-                                    lang_name: string;
-                                    content_updated_at: number;
-                                    noindex: boolean;
-                                    page: {
-                                        name: string;
-										vertical_list?: any;
-										funding_round_list?: any;
-										amount_of_capital?: number;
-										id: number;
-										tech_labels: string[];
-                                        path: string;
-                                        address: string;
-                                        country: string;
-                                        unique_impressions_count: number;
-                                        search_rank: number;
-                                        created_at: string;
-                                        number_of_employees: string;
-                                        aasm_state: string;
-                                        featured: boolean;
-                                        geo_street_address: string;
-                                        geo_city: string;
-                                        geo_state_name: string;
-                                        geo_state_code: string;
-                                        geo_zip: string;
-                                        noindex: boolean;
-                                        sector: string;
-                                        labels: any[];
-                                        last_active_at_by_week: number;
-                                        content_updated_at: number;
-                                        geo_region_l: string;
-                                        logo: {
-                                            tiny: string;
-                                            thumb: string;
-                                            medium: string;
-                                            large: string;
-                                        };
-                                        cover_image: {
-                                            small_3_1: string;
-                                            medium_3_1: string;
-                                            large: string;
-                                        };
-                                    };
-                                    fresh_score: number;
-                                    unique_impressions_count_score: number;
-                                    up_votes_score: number;
-                                    job_applications_count_score: number;
-                                    objectID: string;
-                                    _snippetResult: {
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                        };
-                                    };
-                                    _highlightResult: {
-                                        title: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        path: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                            fullyHighlighted?: undefined;
-                                        };
-                                        tag_list: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        }[];
-                                        category: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        job_type: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        seniority_level: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        profession: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                            fullyHighlighted?: undefined;
-                                        };
-                                        page: {
-                                            name: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            path: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            address: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                        };
-                                    };
-                                }
-                              | {
-                                    title: string;
-                                    requirements: string;
-                                    path: string;
-                                    tag_list: string[];
-                                    location_list: string[];
-                                    unique_impressions_count: number;
-                                    search_rank: number;
-                                    created_at: string;
-                                    expired_at: string;
-                                    work_experience_list: string[];
-                                    job_function_list: string[];
-                                    category: string;
-                                    job_type: string;
-                                    seniority_level: string;
-                                    aasm_state: string;
-                                    sponsored: any;
-                                    signing_bonus: number;
-                                    salary_type: string;
-                                    salary_currency: string;
-                                    number_of_openings: number;
-                                    lang: string;
-                                    profession: string;
-                                    remote: string;
-                                    number_of_management: string;
-                                    description_plain_text: string;
-                                    requirements_plain_text: string;
-                                    salary_min: number;
-                                    salary_max: number;
-                                    salary_range: number[];
-                                    salary_score: number;
-                                    lang_name: string;
-                                    content_updated_at: number;
-                                    noindex: boolean;
-                                    page: {
-                                        name: string;
-										vertical_list?: any;
-										funding_round_list?: any;
-										amount_of_capital?: number;
-										id: number;
-										tech_labels: string[];
-                                        path: string;
-                                        address: string;
-                                        country: string;
-                                        unique_impressions_count: number;
-                                        search_rank: number;
-                                        created_at: string;
-                                        number_of_employees: string;
-                                        aasm_state: string;
-                                        featured: boolean;
-                                        geo_street_address: string;
-                                        geo_city: string;
-                                        geo_state_name: string;
-                                        geo_state_code: string;
-                                        geo_zip: string;
-                                        noindex: boolean;
-                                        sector: string;
-                                        labels: string[];
-                                        last_active_at_by_week: number;
-                                        content_updated_at: number;
-                                        geo_region_l: string;
-                                        logo: {
-                                            tiny: string;
-                                            thumb: string;
-                                            medium: string;
-                                            large: string;
-                                        };
-                                        cover_image: {
-                                            small_3_1: string;
-                                            medium_3_1: string;
-                                            large: string;
-                                        };
-                                    };
-                                    fresh_score: number;
-                                    unique_impressions_count_score: number;
-                                    up_votes_score: number;
-                                    job_applications_count_score: number;
-                                    objectID: string;
-                                    _snippetResult: {
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                        };
-                                    };
-                                    _highlightResult: {
-                                        title: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        path: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        tag_list: (
-                                            | {
-                                                  value: string;
-                                                  matchLevel: string;
-                                                  matchedWords: any[];
-                                                  fullyHighlighted?: undefined;
-                                              }
-                                            | {
-                                                  value: string;
-                                                  matchLevel: string;
-                                                  fullyHighlighted: boolean;
-                                                  matchedWords: string[];
-                                              }
-                                        )[];
-                                        category: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        job_type: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        seniority_level: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        profession: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        page: {
-                                            name: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            path: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            address: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                        };
-                                    };
-                                }
-                              | {
-                                    title: string;
-                                    requirements: string;
-                                    path: string;
-                                    tag_list: string[];
-                                    location_list: string[];
-                                    unique_impressions_count: number;
-                                    search_rank: number;
-                                    created_at: string;
-                                    expired_at: string;
-                                    work_experience_list: any[];
-                                    job_function_list: any[];
-                                    category: string;
-                                    job_type: string;
-                                    seniority_level: string;
-                                    aasm_state: string;
-                                    sponsored: any;
-                                    signing_bonus: number;
-                                    salary_type: string;
-                                    salary_currency: string;
-                                    number_of_openings: number;
-                                    lang: string;
-                                    profession: string;
-                                    remote: string;
-                                    number_of_management: string;
-                                    description_plain_text: string;
-                                    requirements_plain_text: string;
-                                    salary_min: number;
-                                    salary_max: number;
-                                    salary_range: number[];
-                                    salary_score: number;
-                                    lang_name: string;
-                                    content_updated_at: number;
-                                    noindex: boolean;
-                                    page: {
-                                        name: string;
-										vertical_list?: any;
-										funding_round_list?: any;
-										amount_of_capital?: number;
-										id: number;
-										tech_labels: string[];
-                                        path: string;
-                                        address: string;
-                                        country: string;
-                                        unique_impressions_count: number;
-                                        search_rank: number;
-                                        created_at: string;
-                                        number_of_employees: string;
-                                        aasm_state: string;
-                                        featured: boolean;
-                                        geo_street_address: any;
-                                        geo_city: any;
-                                        geo_state_name: any;
-                                        geo_state_code: any;
-                                        geo_zip: any;
-                                        noindex: boolean;
-                                        sector: string;
-                                        labels: any[];
-                                        last_active_at_by_week: number;
-                                        content_updated_at: number;
-                                        geo_region_l: string;
-                                        logo: {
-                                            tiny: string;
-                                            thumb: string;
-                                            medium: string;
-                                            large: string;
-                                        };
-                                        cover_image: {
-                                            small_3_1: string;
-                                            medium_3_1: string;
-                                            large: string;
-                                        };
-                                    };
-                                    fresh_score: number;
-                                    unique_impressions_count_score: number;
-                                    up_votes_score: number;
-                                    job_applications_count_score: number;
-                                    objectID: string;
-                                    _snippetResult: {
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                        };
-                                    };
-                                    _highlightResult: {
-                                        title: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        path: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        tag_list: (
-                                            | {
-                                                  value: string;
-                                                  matchLevel: string;
-                                                  matchedWords: any[];
-                                                  fullyHighlighted?: undefined;
-                                              }
-                                            | {
-                                                  value: string;
-                                                  matchLevel: string;
-                                                  fullyHighlighted: boolean;
-                                                  matchedWords: string[];
-                                              }
-                                        )[];
-                                        category: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        job_type: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        seniority_level: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        profession: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                            fullyHighlighted?: undefined;
-                                        };
-                                        page: {
-                                            name: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            path: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            address: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                        };
-                                    };
-                                }
-                              | {
-                                    title: string;
-                                    requirements: string;
-                                    path: string;
-                                    tag_list: string[];
-                                    location_list: string[];
-                                    unique_impressions_count: number;
-                                    search_rank: number;
-                                    created_at: string;
-                                    expired_at: string;
-                                    work_experience_list: any[];
-                                    job_function_list: any[];
-                                    category: string;
-                                    job_type: string;
-                                    seniority_level: string;
-                                    aasm_state: string;
-                                    sponsored: any;
-                                    signing_bonus: number;
-                                    salary_type: string;
-                                    salary_currency: string;
-                                    number_of_openings: number;
-                                    lang: string;
-                                    profession: string;
-                                    remote: string;
-                                    number_of_management: string;
-                                    description_plain_text: string;
-                                    requirements_plain_text: string;
-                                    salary_min: number;
-                                    salary_max: number;
-                                    salary_range: number[];
-                                    salary_score: number;
-                                    lang_name: string;
-                                    content_updated_at: number;
-                                    noindex: boolean;
-                                    page: {
-                                        name: string;
-										vertical_list?: any;
-										funding_round_list?: any;
-										amount_of_capital?: number;
-										id: number;
-										tech_labels: string[];
-                                        path: string;
-                                        address: string;
-                                        country: string;
-                                        unique_impressions_count: number;
-                                        search_rank: number;
-                                        created_at: string;
-                                        number_of_employees: string;
-                                        aasm_state: string;
-                                        featured: boolean;
-                                        geo_street_address: string;
-                                        geo_city: string;
-                                        geo_state_name: string;
-                                        geo_state_code: string;
-                                        geo_zip: string;
-                                        noindex: boolean;
-                                        sector: any;
-                                        labels: any[];
-                                        last_active_at_by_week: number;
-                                        content_updated_at: number;
-                                        geo_region_l: string;
-                                        logo: {
-                                            tiny: string;
-                                            thumb: string;
-                                            medium: string;
-                                            large: string;
-                                        };
-                                        cover_image: {
-                                            small_3_1: string;
-                                            medium_3_1: string;
-                                            large: string;
-                                        };
-                                    };
-                                    fresh_score: number;
-                                    unique_impressions_count_score: number;
-                                    up_votes_score: number;
-                                    job_applications_count_score: number;
-                                    objectID: string;
-                                    _snippetResult: {
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                        };
-                                    };
-                                    _highlightResult: {
-                                        title: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        path: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        tag_list: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        }[];
-                                        category: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        job_type: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        seniority_level: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                        };
-                                        profession: {
-                                            value: string;
-                                            matchLevel: string;
-                                            fullyHighlighted: boolean;
-                                            matchedWords: string[];
-                                        };
-                                        description_plain_text: {
-                                            value: string;
-                                            matchLevel: string;
-                                            matchedWords: any[];
-                                            fullyHighlighted?: undefined;
-                                        };
-                                        page: {
-                                            name: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            path: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                            address: {
-                                                value: string;
-                                                matchLevel: string;
-                                                matchedWords: any[];
-                                            };
-                                        };
-                                    };
-                                }
-                          )[];
-                          nbHits: number;
-                          page: number;
-                          nbPages: number;
-                          hitsPerPage: number;
-                          facets: {
-                              remote: {
-                                  no_remote_work: number;
-                                  optional_remote_work: number;
-                                  partial_remote_work: number;
-                                  full_remote_work: number;
-                              };
-                              job_type: {
-                                  full_time: number;
-                                  contract: number;
-                              };
-                              lang_name: {
-                                  English: number;
-                                  Chinese?: undefined;
-                              };
-                              profession: {
-                                  'tech_project-product-management': number;
-                                  'marketing-communications_marketing': number;
-                                  'tech_data-engineering': number;
-                                  'tech_front-end-development': number;
-                                  'tech_full-stack-development': number;
-                                  tech_other: number;
-                                  'business_business-development': number;
-                                  'tech_android-development': number;
-                                  'tech_back-end-development': number;
-                                  'tech_quality-assurance-testing': number;
-                                  'tech_research-r-d': number;
-                                  business_sales: number;
-                                  'consulting_it-project-management': number;
-                                  'customer-service_customer-service-support': number;
-                                  'customer-service_customer-success': number;
-                                  design_other: number;
-                                  'industry_manufacturing-technician': number;
-                                  'marketing-communications_marketing-development': number;
-                                  'tech_data-science': number;
-                              };
-                              'page.labels': {
-                                  '2020_tech_career_fair': number;
-                              };
-                              salary_type: {
-                                  per_year: number;
-                                  per_month?: undefined;
-                              };
-                              salary_range: {
-                                  0: number;
-                                  420000: number;
-                                  540000: number;
-                                  600000: number;
-                                  650000: number;
-                                  700000: number;
-                                  800000: number;
-                                  850000: number;
-                                  900000: number;
-                                  1000000: number;
-                                  1100000: number;
-                                  1200000: number;
-                                  1300000: number;
-                                  1379000: number;
-                                  1400000: number;
-                                  1500000: number;
-                                  1600000: number;
-                                  1700000: number;
-                                  1800000: number;
-                                  2000000: number;
-                                  2200000: number;
-                                  2500000: number;
-                                  3000000: number;
-                                  1?: undefined;
-                                  100?: undefined;
-                                  150?: undefined;
-                                  14000?: undefined;
-                                  60000?: undefined;
-                                  62000?: undefined;
-                                  65000?: undefined;
-                                  75000?: undefined;
-                                  120000?: undefined;
-                                  130000?: undefined;
-                                  330000?: undefined;
-                                  360000?: undefined;
-                                  480000?: undefined;
-                                  500000?: undefined;
-                                  560000?: undefined;
-                                  640000?: undefined;
-                                  770000?: undefined;
-                                  798000?: undefined;
-                                  832000?: undefined;
-                                  840000?: undefined;
-                                  952000?: undefined;
-                              };
-                              location_list: {
-                                  台北: number;
-                                  台灣: number;
-                                  信義區: number;
-                                  台北市: number;
-                                  松山區: number;
-                                  Taiwan: number;
-                                  中正區: number;
-                                  南港軟體園區: number;
-                                  Taipei: number;
-                                  捷運南港展覽館站: number;
-                                  France: number;
-                                  'Taipei City': number;
-                                  內湖科技園區: number;
-                                  台北市中山區樂群二路189號6樓之一: number;
-                                  台北市南港區: number;
-                                  新北市: number;
-                                  新台五路一段: number;
-                                  汐科火車站: number;
-                                  法國: number;
-                                  '97\u865F': number;
-                                  UTOWN: number;
-                                  中華路: number;
-                                  信義安和站: number;
-                                  內湖區: number;
-                                  內湖區瑞光路: number;
-                                  南港區: number;
-                                  古亭站: number;
-                                  台北市信義區: number;
-                                  台北市大安區: number;
-                                  台北市松高路1號7樓: number;
-                                  台南市: number;
-                                  台南市新市區: number;
-                                  大安區: number;
-                                  小巨蛋: number;
-                                  捷運中山國中站: number;
-                                  新竹: number;
-                                  桃園市中壢區: number;
-                                  汐止: number;
-                                  汐止區: number;
-                                  汐止科學園區: number;
-                                  泰國: number;
-                                  遠雄: number;
-                              };
-                              salary_currency: {
-                                  TWD: number;
-                              };
-                              seniority_level: {
-                                  mid_senior_level: number;
-                                  entry_level: number;
-                                  director: number;
-                                  associate: number;
-                              };
-                              number_of_management: {
-                                  none: number;
-                                  one_five: number;
-                                  five_ten: number;
-                                  not_specified: number;
-                              };
-                              'page.number_of_employees': {
-                                  '51_200': number;
-                                  '11_50': number;
-                                  '501_1000': number;
-                                  '201_500': number;
-                                  '1001_5000': number;
-                                  '5001_': number;
-                                  '1_10': number;
-                              };
-                          };
-                          facets_stats: {
-                              salary_range: {
-                                  min: number;
-                                  max: number;
-                                  avg: number;
-                                  sum: number;
-                              };
-                          };
-                          exhaustiveFacetsCount: boolean;
-                          exhaustiveNbHits: boolean;
-                          query: string;
-                          params: string;
-                          index: string;
-                          queryID: string;
-                          processingTimeMS: number;
-                      }
-                    | {
-                          hits: {
-                              objectID: string;
-                              _snippetResult: {
-                                  description_plain_text: {
-                                      value: string;
-                                      matchLevel: string;
-                                  };
-                              };
-                          }[];
-                          nbHits: number;
-                          page: number;
-                          nbPages: number;
-                          hitsPerPage: number;
-                          facets: {
-                              lang_name: {
-                                  Chinese: number;
-                                  English: number;
-                              };
-                              remote?: undefined;
-                              job_type?: undefined;
-                              profession?: undefined;
-                              'page.labels'?: undefined;
-                              salary_type?: undefined;
-                              salary_range?: undefined;
-                              location_list?: undefined;
-                              salary_currency?: undefined;
-                              seniority_level?: undefined;
-                              number_of_management?: undefined;
-                              'page.number_of_employees'?: undefined;
-                          };
-                          exhaustiveFacetsCount: boolean;
-                          exhaustiveNbHits: boolean;
-                          query: string;
-                          params: string;
-                          index: string;
-                          processingTimeMS: number;
-                          facets_stats?: undefined;
-                          queryID?: undefined;
-                      }
-                    | {
-                          hits: {
-                              objectID: string;
-                              _snippetResult: {
-                                  description_plain_text: {
-                                      value: string;
-                                      matchLevel: string;
-                                  };
-                              };
-                          }[];
-                          nbHits: number;
-                          page: number;
-                          nbPages: number;
-                          hitsPerPage: number;
-                          facets: {
-                              salary_type: {
-                                  per_year: number;
-                                  per_month: number;
-                              };
-                              remote?: undefined;
-                              job_type?: undefined;
-                              lang_name?: undefined;
-                              profession?: undefined;
-                              'page.labels'?: undefined;
-                              salary_range?: undefined;
-                              location_list?: undefined;
-                              salary_currency?: undefined;
-                              seniority_level?: undefined;
-                              number_of_management?: undefined;
-                              'page.number_of_employees'?: undefined;
-                          };
-                          exhaustiveFacetsCount: boolean;
-                          exhaustiveNbHits: boolean;
-                          query: string;
-                          params: string;
-                          index: string;
-                          processingTimeMS: number;
-                          facets_stats?: undefined;
-                          queryID?: undefined;
-                      }
-                    | {
-                          hits: {
-                              objectID: string;
-                              _snippetResult: {
-                                  description_plain_text: {
-                                      value: string;
-                                      matchLevel: string;
-                                  };
-                              };
-                          }[];
-                          nbHits: number;
-                          page: number;
-                          nbPages: number;
-                          hitsPerPage: number;
-                          facets: {
-                              salary_range: {
-                                  0: number;
-                                  1: number;
-                                  100: number;
-                                  150: number;
-                                  14000: number;
-                                  60000: number;
-                                  62000: number;
-                                  65000: number;
-                                  75000: number;
-                                  120000: number;
-                                  130000: number;
-                                  330000: number;
-                                  360000: number;
-                                  420000: number;
-                                  480000: number;
-                                  500000: number;
-                                  540000: number;
-                                  560000: number;
-                                  600000: number;
-                                  640000: number;
-                                  650000: number;
-                                  700000: number;
-                                  770000: number;
-                                  798000: number;
-                                  800000: number;
-                                  832000: number;
-                                  840000: number;
-                                  850000: number;
-                                  900000: number;
-                                  952000: number;
-                                  1000000: number;
-                                  1100000: number;
-                                  1200000: number;
-                                  1300000: number;
-                                  1379000: number;
-                                  1400000: number;
-                                  1500000: number;
-                                  1600000: number;
-                                  1700000: number;
-                                  1800000: number;
-                                  2000000: number;
-                                  2200000: number;
-                                  2500000: number;
-                                  3000000: number;
-                              };
-                              remote?: undefined;
-                              job_type?: undefined;
-                              lang_name?: undefined;
-                              profession?: undefined;
-                              'page.labels'?: undefined;
-                              salary_type?: undefined;
-                              location_list?: undefined;
-                              salary_currency?: undefined;
-                              seniority_level?: undefined;
-                              number_of_management?: undefined;
-                              'page.number_of_employees'?: undefined;
-                          };
-                          facets_stats: {
-                              salary_range: {
-                                  min: number;
-                                  max: number;
-                                  avg: number;
-                                  sum: number;
-                              };
-                          };
-                          exhaustiveFacetsCount: boolean;
-                          exhaustiveNbHits: boolean;
-                          query: string;
-                          params: string;
-                          index: string;
-                          processingTimeMS: number;
-                          queryID?: undefined;
-                      }
-                )[];
-            }
-        }
-        export const companyResultsState: {};
-        export const hasSSRFirstResultsState: boolean;
+
+    export interface CoverImage {
+        small_3_1: string;
+        medium_3_1: string;
+        large: string;
     }
-    export const match: {};
-    export namespace routing {
-        export namespace location {
-            export const pathname: string;
-            export const search: string;
-            export const hash: string;
-        }
+
+    export interface Page {
+        name: string;
+        path: string;
+        address: string;
+        country: string;
+        vertical_list?: any;
+        funding_round_list?: any;
+        unique_impressions_count: number;
+        search_rank: number;
+        created_at: Date;
+        number_of_employees: string;
+        aasm_state: string;
+        featured: boolean;
+        geo_street_address: string;
+        geo_city: string;
+        geo_state_name: string;
+        geo_state_code: string;
+        geo_zip: string;
+        noindex: boolean;
+        sector: string[];
+        labels: any[];
+        amount_of_capital?: number;
+        id: number;
+        last_active_at_by_week: number;
+        content_updated_at: any;
+        geo_region_l: string;
+        logo: Logo;
+        cover_image: CoverImage;
+        tech_labels: string[];
     }
-    export namespace message {
-        const query_5: string;
-        export { query_5 as query };
-        export const channels: any[];
-        export const channelsKeyFromQuery: any[];
-        export const channelsData: {};
-        export const remainedNewConversationsNum: number;
-        export const unreadCount: number;
-        export const activeChannelKey: any;
-        export const messageChannelSearchInputFocus: boolean;
-        export namespace pagination_6 {
-            export const totalChannels: number;
-            export const currentPage: number;
-            export const perPage: number;
-            export const totalPages: number;
-            export const hasNextPage: boolean;
-        }
-        export { pagination_6 as pagination };
-        export namespace chatBoxInfo {
-            export const currentUserId: any;
-            export const docClientWidth: number;
-            export const channelsHidedChunk: any[];
-            export const channelsNotHidedChunk: any[];
-        }
-        export const inputCache: {};
-        export const needRefetchChannels: boolean;
-        export const getChannelsError: any;
-        export const channelsSyncWithWithBoxApi: boolean;
+
+    export interface DescriptionPlainText {
+        value: string;
+        matchLevel: string;
     }
-    export namespace resumeScan {
-        export const resumeScans: any[];
-        export const getResumeScansError: any;
+
+    export interface SnippetResult {
+        description_plain_text: DescriptionPlainText;
     }
-    export namespace jeCdd {
-        export const currentJeCdd: any;
+
+    export interface Title {
+        value: string;
+        matchLevel: string;
+        fullyHighlighted: boolean;
+        matchedWords: string[];
     }
-    export namespace page_4 {
-        export namespace careerPage {
-            export const pages: any[];
-            const pagination_7: {};
-            export { pagination_7 as pagination };
-        }
-        export const pageMeta: {};
-        export const recommendedCompanies: any[];
-        export namespace followingCompanies {
-            const pages_1: any[];
-            export { pages_1 as pages };
-            const pagination_8: {};
-            export { pagination_8 as pagination };
-        }
+
+    export interface Path {
+        value: string;
+        matchLevel: string;
+        fullyHighlighted: boolean;
+        matchedWords: string[];
     }
-    export { page_4 as page };
-    export namespace testSession {
-        export namespace testSessions {
-            export const coding_tests: {};
-            export const test_sessions: any[];
-            const pagination_9: {};
-            export { pagination_9 as pagination };
-        }
+
+    export interface Category {
+        value: string;
+        matchLevel: string;
+        matchedWords: any[];
     }
-    export namespace post {
-        export namespace favoritePosts {
-            export const posts: any[];
-            const pagination_10: {};
-            export { pagination_10 as pagination };
-        }
+
+    export interface JobType {
+        value: string;
+        matchLevel: string;
+        matchedWords: any[];
     }
-    export namespace resume {
-        export const cacheList: any[];
-        export const resumeCache: {};
-        export namespace currentView {
-            export const path: string;
-            export namespace user {
-                export const name: string;
-            }
-        }
-        export namespace resumeDisplayPaths {
-            export const previous: string;
-            export const current: string;
-            export const next: string;
-        }
-        export const similarResumes: any[];
-        export const resumeMeta: {};
-        export namespace currentUserResumes {
-            const items_1: any[];
-            export { items_1 as items };
-            const pagination_11: {};
-            export { pagination_11 as pagination };
-        }
-        export namespace currentUserResumeReviews {
-            export const reviews: any[];
-            const pagination_12: {};
-            export { pagination_12 as pagination };
-        }
-        export namespace favoriteResumes {
-            const items_2: any[];
-            export { items_2 as items };
-            const pagination_13: {};
-            export { pagination_13 as pagination };
-        }
-        export const currentUserPublishedResumes: any[];
-        export const resumeImpressions: {};
-        export namespace loading {
-            const resumeImpressions_1: boolean;
-            export { resumeImpressions_1 as resumeImpressions };
-        }
+
+    export interface SeniorityLevel {
+        value: string;
+        matchLevel: string;
+        matchedWords: any[];
     }
-    export namespace search_1 {
-        const searchState_1: {};
-        export { searchState_1 as searchState };
-        export const resultsState: {};
-        export const currentHits: any[];
-        const hasSSRFirstResultsState_1: boolean;
-        export { hasSSRFirstResultsState_1 as hasSSRFirstResultsState };
+
+    export interface DescriptionPlainText2 {
+        value: string;
+        matchLevel: string;
+        fullyHighlighted: boolean;
+        matchedWords: string[];
     }
-    export { search_1 as search };
-    export namespace skill {
-        export const skillsCacheKeys: any[];
-        export const skills: {};
-        export const recommendSkills: any[];
-        export const skillsAutoComplete: any[];
-        export const duplicatedSkillVal: any;
+
+    export interface Profession {
+        value: string;
+        matchLevel: string;
+        matchedWords: any[];
     }
-    export namespace subscription {
-        export const isIndex: boolean;
-        export const isEditing: boolean;
-        export const subscriptions: any[];
-        export const currentSubscription: {};
-        export const subscriptionId: any;
-        export const jobSubscriptions: any[];
+
+    export interface Name {
+        value: string;
+        matchLevel: string;
+        matchedWords: any[];
     }
-    export namespace pricing {
-        export const resumePricing: {};
-        export const talentSearchPricing: {};
-        export const jobListingPricing: {};
-        export const bundlePricing: {};
+
+    export interface Path2 {
+        value: string;
+        matchLevel: string;
+        matchedWords: any[];
     }
-    export namespace ui {
-        export const activeView: string;
-        export const isMobile: boolean;
-        export const showAuth: boolean;
-        export const showResumeModal: boolean;
-        export const showFolderModal: boolean;
-        export const showCreateFolderForm: boolean;
-        export const showShareFolderModal: boolean;
-        export const showConfirmModal: boolean;
-        export const showImageUploadModal: boolean;
-        export const showPageShareModal: boolean;
-        export const showUpgradeModal: boolean;
-        export const showResumeCommentModal: boolean;
-        export const showResumeTagsModal: boolean;
-        export const showPricingModal: boolean;
-        export namespace modalOption {
-            export namespace folder_1 {
-                export const resumeUserName: string;
-                export const resumePath: string;
-            }
-            export { folder_1 as folder };
-            export namespace auth {
-                export const showRegisterForm: boolean;
-            }
-            export const shareFolder: {};
-            export const confirm: {};
-            export namespace imageUploader {
-                export const isProcessing: boolean;
-            }
-            const pricing_1: {};
-            export { pricing_1 as pricing };
-            export const codingTest: {};
-        }
-        export const globalAlerts: any[];
-        export namespace form {
-            export namespace basicInfo {
-                export const status: string;
-            }
-            export namespace work_experiences {
-                export const isCreating: boolean;
-            }
-            export namespace educations {
-                const isCreating_1: boolean;
-                export { isCreating_1 as isCreating };
-            }
-            export namespace jobSearchStatus {
-                const status_1: string;
-                export { status_1 as status };
-            }
-            export const isSubmitting: boolean;
-        }
-        export namespace formInitialState {
-            export namespace basicInfo_1 {
-                const status_2: string;
-                export { status_2 as status };
-            }
-            export { basicInfo_1 as basicInfo };
-            export namespace work_experiences_1 {
-                const isCreating_2: boolean;
-                export { isCreating_2 as isCreating };
-            }
-            export { work_experiences_1 as work_experiences };
-            export namespace educations_1 {
-                const isCreating_3: boolean;
-                export { isCreating_3 as isCreating };
-            }
-            export { educations_1 as educations };
-            export namespace jobSearchStatus_1 {
-                const status_3: string;
-                export { status_3 as status };
-            }
-            export { jobSearchStatus_1 as jobSearchStatus };
-            const isSubmitting_1: boolean;
-            export { isSubmitting_1 as isSubmitting };
-        }
-        export const buttonWithHint: any[];
-        export const basePath: string;
-        export const resumePathPrefix: string;
-        export const countries: any[];
-        export const cities: any[];
-        export const industry: any[];
-        export const profession: any[];
-        export namespace location_1 {
-            const current_1: any[];
-            export { current_1 as current };
-            export const cached: {};
-        }
-        export { location_1 as location };
-        export const desiredPosition: any[];
+
+    export interface Address {
+        value: string;
+        matchLevel: string;
+        matchedWords: any[];
     }
-    export namespace user_1 {
-        export namespace currentUser {
-            const name_1: string;
-            export { name_1 as name };
-            export const username: string;
-            const id_1: any;
-            export { id_1 as id };
-            export const first_name: any;
-            export const last_name: any;
-            export const email: any;
-            export const description: string;
-            export namespace cover_image {
-                export namespace small {
-                    export const url: any;
-                }
-                export namespace small_3_1 {
-                    const url_1: any;
-                    export { url_1 as url };
-                }
-                export namespace medium {
-                    const url_2: any;
-                    export { url_2 as url };
-                }
-                export namespace medium_3_1 {
-                    const url_3: any;
-                    export { url_3 as url };
-                }
-                const url_4: any;
-                export { url_4 as url };
-            }
-            export namespace avatar {
-                export namespace tiny {
-                    const url_5: any;
-                    export { url_5 as url };
-                }
-                export namespace small_1 {
-                    const url_6: any;
-                    export { url_6 as url };
-                }
-                export { small_1 as small };
-                export namespace medium_1 {
-                    const url_7: any;
-                    export { url_7 as url };
-                }
-                export { medium_1 as medium };
-                export namespace large {
-                    const url_8: any;
-                    export { url_8 as url };
-                }
-                export namespace xlarge {
-                    const url_9: any;
-                    export { url_9 as url };
-                }
-                const url_10: any;
-                export { url_10 as url };
-            }
-            export const avatar_tiny_url: any;
-            export const avatar_small_url: any;
-            export const avatar_medium_url: any;
-            export const has_phone: any;
-            export const has_email: any;
-            export const main_public_item_path: any;
-            const posts_count_1: any;
-            export { posts_count_1 as posts_count };
-            export const profile_privacy_level: any;
-            export const unconfirmed_email: any;
-            export const signed_up_for: any;
-            export const sign_in_count: number;
-            export const plan: any;
-            export const plan_path: string;
-            export const online_status: any;
-            export const aasm_state: string;
-            export const created_at: string;
-            export const updated_at: string;
-            export const is_just_signed_up: boolean;
-            export const items_unique_impressions_sum: number;
-            export const pages_unique_impressions_sum: number;
-            export const one_signal_player_id: string;
-            export const fresh_chat_restore_id: any;
-            export const permission: any;
-            const locale_1: any;
-            export { locale_1 as locale };
-            export const country: any;
-            const user_2: boolean;
-            export { user_2 as user };
-        }
-        export namespace profile {
-            const name_2: string;
-            export { name_2 as name };
-            const username_1: string;
-            export { username_1 as username };
-            const id_2: any;
-            export { id_2 as id };
-            const first_name_1: any;
-            export { first_name_1 as first_name };
-            const last_name_1: any;
-            export { last_name_1 as last_name };
-            const email_1: any;
-            export { email_1 as email };
-            const description_1: string;
-            export { description_1 as description };
-            export namespace avatar_1 {
-                export namespace tiny_1 {
-                    const url_11: any;
-                    export { url_11 as url };
-                }
-                export { tiny_1 as tiny };
-                export namespace small_2 {
-                    const url_12: any;
-                    export { url_12 as url };
-                }
-                export { small_2 as small };
-                export namespace medium_2 {
-                    const url_13: any;
-                    export { url_13 as url };
-                }
-                export { medium_2 as medium };
-                export namespace large_1 {
-                    const url_14: any;
-                    export { url_14 as url };
-                }
-                export { large_1 as large };
-                export namespace xlarge_1 {
-                    const url_15: any;
-                    export { url_15 as url };
-                }
-                export { xlarge_1 as xlarge };
-                const url_16: any;
-                export { url_16 as url };
-            }
-            export { avatar_1 as avatar };
-            export namespace cover_image_1 {
-                export namespace small_3 {
-                    const url_17: any;
-                    export { url_17 as url };
-                }
-                export { small_3 as small };
-                export namespace small_3_1_1 {
-                    const url_18: any;
-                    export { url_18 as url };
-                }
-                export { small_3_1_1 as small_3_1 };
-                export namespace medium_3 {
-                    const url_19: any;
-                    export { url_19 as url };
-                }
-                export { medium_3 as medium };
-                export namespace medium_3_1_1 {
-                    const url_20: any;
-                    export { url_20 as url };
-                }
-                export { medium_3_1_1 as medium_3_1 };
-                const url_21: any;
-                export { url_21 as url };
-            }
-            export { cover_image_1 as cover_image };
-            const avatar_tiny_url_1: any;
-            export { avatar_tiny_url_1 as avatar_tiny_url };
-            const avatar_small_url_1: any;
-            export { avatar_small_url_1 as avatar_small_url };
-            const avatar_medium_url_1: any;
-            export { avatar_medium_url_1 as avatar_medium_url };
-            const has_phone_1: any;
-            export { has_phone_1 as has_phone };
-            const has_email_1: any;
-            export { has_email_1 as has_email };
-            const main_public_item_path_1: any;
-            export { main_public_item_path_1 as main_public_item_path };
-            const posts_count_2: any;
-            export { posts_count_2 as posts_count };
-            const profile_privacy_level_1: any;
-            export { profile_privacy_level_1 as profile_privacy_level };
-            export const desired_job_type: any;
-            export const job_search_progress: any;
-            export const work_experience: any;
-            export const current_employment_status: any;
-            export const relevant_work_experience: any;
-            export const desired_position: any;
-            export const remote: any;
-            const country_1: any;
-            export { country_1 as country };
-            export const city: any;
-            export const city_name: any;
-            export const city_name_en: any;
-            export const google_place_id: any;
-            export const google_place_name: any;
-            export const google_place_name_en: any;
-            export const google_place_country_name_en: any;
-            export const google_place_region_name_en: any;
-            export const graduated_from_school: any;
-            export const graduated_from_field: any;
-            const online_status_1: any;
-            export { online_status_1 as online_status };
-            export const facebook_url: any;
-            export const twitter_url: any;
-            export const linkedin_url: any;
-            export const github_url: any;
-            export const stackoverflow_url: any;
-            export const dribbble_url: any;
-            export const behance_url: any;
-            export const blog_url: any;
-            export const website_url: any;
-            export const role: any;
-            const industry_1: any;
-            export { industry_1 as industry };
-            export const is_freelancer: any;
-            const profession_1: any;
-            export { profession_1 as profession };
-            export const no_work_experience: any;
-            export const no_education: any;
-            export const number_of_management: any;
-            const educations_2: any[];
-            export { educations_2 as educations };
-            const work_experiences_2: any[];
-            export { work_experiences_2 as work_experiences };
-            const unconfirmed_email_1: any;
-            export { unconfirmed_email_1 as unconfirmed_email };
-            export const skill_list: any[];
-            export const phone: any;
-            export const expected_salary_min: any;
-            export const expected_salary_max: any;
-            export const expected_salary_currency: any;
-            export const desired_location_google_place_ids: any[];
-            export const desired_location_names: any[];
-            export const desired_location_names_en: any[];
-            export const desired_location_country_names_en: any[];
-            export const desired_location_region_names_en: any[];
-            export const languages: any[];
-            export const most_recent_work_experience: any;
-            export const most_recent_education: any;
-        }
-        export namespace othersProfile {
-            const name_3: string;
-            export { name_3 as name };
-            const username_2: string;
-            export { username_2 as username };
-            const id_3: any;
-            export { id_3 as id };
-            const first_name_2: any;
-            export { first_name_2 as first_name };
-            const last_name_2: any;
-            export { last_name_2 as last_name };
-            const email_2: any;
-            export { email_2 as email };
-            const description_2: string;
-            export { description_2 as description };
-            export namespace avatar_2 {
-                export namespace tiny_2 {
-                    const url_22: any;
-                    export { url_22 as url };
-                }
-                export { tiny_2 as tiny };
-                export namespace small_4 {
-                    const url_23: any;
-                    export { url_23 as url };
-                }
-                export { small_4 as small };
-                export namespace medium_4 {
-                    const url_24: any;
-                    export { url_24 as url };
-                }
-                export { medium_4 as medium };
-                export namespace large_2 {
-                    const url_25: any;
-                    export { url_25 as url };
-                }
-                export { large_2 as large };
-                export namespace xlarge_2 {
-                    const url_26: any;
-                    export { url_26 as url };
-                }
-                export { xlarge_2 as xlarge };
-                const url_27: any;
-                export { url_27 as url };
-            }
-            export { avatar_2 as avatar };
-            export namespace cover_image_2 {
-                export namespace small_5 {
-                    const url_28: any;
-                    export { url_28 as url };
-                }
-                export { small_5 as small };
-                export namespace small_3_1_2 {
-                    const url_29: any;
-                    export { url_29 as url };
-                }
-                export { small_3_1_2 as small_3_1 };
-                export namespace medium_5 {
-                    const url_30: any;
-                    export { url_30 as url };
-                }
-                export { medium_5 as medium };
-                export namespace medium_3_1_2 {
-                    const url_31: any;
-                    export { url_31 as url };
-                }
-                export { medium_3_1_2 as medium_3_1 };
-                const url_32: any;
-                export { url_32 as url };
-            }
-            export { cover_image_2 as cover_image };
-            const avatar_tiny_url_2: any;
-            export { avatar_tiny_url_2 as avatar_tiny_url };
-            const avatar_small_url_2: any;
-            export { avatar_small_url_2 as avatar_small_url };
-            const avatar_medium_url_2: any;
-            export { avatar_medium_url_2 as avatar_medium_url };
-            const has_phone_2: any;
-            export { has_phone_2 as has_phone };
-            const has_email_2: any;
-            export { has_email_2 as has_email };
-            const main_public_item_path_2: any;
-            export { main_public_item_path_2 as main_public_item_path };
-            const posts_count_3: any;
-            export { posts_count_3 as posts_count };
-            const profile_privacy_level_2: any;
-            export { profile_privacy_level_2 as profile_privacy_level };
-            const desired_job_type_1: any;
-            export { desired_job_type_1 as desired_job_type };
-            const job_search_progress_1: any;
-            export { job_search_progress_1 as job_search_progress };
-            const work_experience_1: any;
-            export { work_experience_1 as work_experience };
-            const current_employment_status_1: any;
-            export { current_employment_status_1 as current_employment_status };
-            const relevant_work_experience_1: any;
-            export { relevant_work_experience_1 as relevant_work_experience };
-            const desired_position_1: any;
-            export { desired_position_1 as desired_position };
-            const remote_1: any;
-            export { remote_1 as remote };
-            const country_2: any;
-            export { country_2 as country };
-            const city_1: any;
-            export { city_1 as city };
-            const city_name_1: any;
-            export { city_name_1 as city_name };
-            const city_name_en_1: any;
-            export { city_name_en_1 as city_name_en };
-            const google_place_id_1: any;
-            export { google_place_id_1 as google_place_id };
-            const google_place_name_1: any;
-            export { google_place_name_1 as google_place_name };
-            const google_place_name_en_1: any;
-            export { google_place_name_en_1 as google_place_name_en };
-            const google_place_country_name_en_1: any;
-            export { google_place_country_name_en_1 as google_place_country_name_en };
-            const google_place_region_name_en_1: any;
-            export { google_place_region_name_en_1 as google_place_region_name_en };
-            const graduated_from_school_1: any;
-            export { graduated_from_school_1 as graduated_from_school };
-            const graduated_from_field_1: any;
-            export { graduated_from_field_1 as graduated_from_field };
-            const online_status_2: any;
-            export { online_status_2 as online_status };
-            const facebook_url_1: any;
-            export { facebook_url_1 as facebook_url };
-            const twitter_url_1: any;
-            export { twitter_url_1 as twitter_url };
-            const linkedin_url_1: any;
-            export { linkedin_url_1 as linkedin_url };
-            const github_url_1: any;
-            export { github_url_1 as github_url };
-            const stackoverflow_url_1: any;
-            export { stackoverflow_url_1 as stackoverflow_url };
-            const dribbble_url_1: any;
-            export { dribbble_url_1 as dribbble_url };
-            const behance_url_1: any;
-            export { behance_url_1 as behance_url };
-            const blog_url_1: any;
-            export { blog_url_1 as blog_url };
-            const website_url_1: any;
-            export { website_url_1 as website_url };
-            const role_1: any;
-            export { role_1 as role };
-            const industry_2: any;
-            export { industry_2 as industry };
-            const is_freelancer_1: any;
-            export { is_freelancer_1 as is_freelancer };
-            const profession_2: any;
-            export { profession_2 as profession };
-            const no_work_experience_1: any;
-            export { no_work_experience_1 as no_work_experience };
-            const no_education_1: any;
-            export { no_education_1 as no_education };
-            const number_of_management_1: any;
-            export { number_of_management_1 as number_of_management };
-            const educations_3: any[];
-            export { educations_3 as educations };
-            const work_experiences_3: any[];
-            export { work_experiences_3 as work_experiences };
-            const unconfirmed_email_2: any;
-            export { unconfirmed_email_2 as unconfirmed_email };
-            const skill_list_1: any[];
-            export { skill_list_1 as skill_list };
-            const phone_1: any;
-            export { phone_1 as phone };
-            const expected_salary_min_1: any;
-            export { expected_salary_min_1 as expected_salary_min };
-            const expected_salary_max_1: any;
-            export { expected_salary_max_1 as expected_salary_max };
-            const expected_salary_currency_1: any;
-            export { expected_salary_currency_1 as expected_salary_currency };
-            const desired_location_google_place_ids_1: any[];
-            export { desired_location_google_place_ids_1 as desired_location_google_place_ids };
-            const desired_location_names_1: any[];
-            export { desired_location_names_1 as desired_location_names };
-            const desired_location_names_en_1: any[];
-            export { desired_location_names_en_1 as desired_location_names_en };
-            const desired_location_country_names_en_1: any[];
-            export { desired_location_country_names_en_1 as desired_location_country_names_en };
-            const desired_location_region_names_en_1: any[];
-            export { desired_location_region_names_en_1 as desired_location_region_names_en };
-            const languages_1: any[];
-            export { languages_1 as languages };
-            const most_recent_work_experience_1: any;
-            export { most_recent_work_experience_1 as most_recent_work_experience };
-            const most_recent_education_1: any;
-            export { most_recent_education_1 as most_recent_education };
-        }
-        export const hasTalentSearchPermission: boolean;
-        export const hasPremiumSnippetsPermission: boolean;
-        export const isLogin: boolean;
-        export const isViewAsGuest: boolean;
-        export const progress: number;
-        export const publishedResumes: any[];
-        export const resumes: any[];
-        export const userMeta: {};
-        export const ownPages: any[];
-        export namespace txns {
-            const txns_1: any[];
-            export { txns_1 as txns };
-            const pagination_14: {};
-            export { pagination_14 as pagination };
-        }
-        export namespace requestedFollowers {
-            export const requested_followers: any[];
-            const pagination_15: {};
-            export { pagination_15 as pagination };
-        }
-        export namespace requestedFollowees {
-            export const requested_followees: any[];
-            const pagination_16: {};
-            export { pagination_16 as pagination };
-        }
-        export namespace settings {
-            export const notifications: any;
-        }
+
+    export interface Page2 {
+        name: Name;
+        path: Path2;
+        address: Address;
     }
-    export { user_1 as user };
+
+    export interface TagList {
+        value: string;
+        matchLevel: string;
+        matchedWords: string[];
+        fullyHighlighted?: boolean;
+    }
+
+    export interface HighlightResult {
+        title: Title;
+        path: Path;
+        category: Category;
+        job_type: JobType;
+        seniority_level: SeniorityLevel;
+        description_plain_text: DescriptionPlainText2;
+        profession: Profession[];
+        page: Page2;
+        tag_list: TagList[];
+    }
+
+    export interface Hit {
+        title: string;
+        path: string;
+        tag_list: string[];
+        unique_impressions_count: number;
+        search_rank: number;
+        created_at: Date;
+        expired_at: Date;
+        work_experience_list: any[];
+        job_function_list: any[];
+        category: string;
+        job_type: string;
+        seniority_level: string;
+        aasm_state: string;
+        sponsored?: any;
+        signing_bonus: number;
+        salary_type: string;
+        salary_currency: string;
+        number_of_openings: number;
+        lang: string;
+        remote: string;
+        number_of_management: string;
+        year_of_seniority: string;
+        min_work_exp_year?: number;
+        description_plain_text: string;
+        requirements_plain_text: string;
+        salary_min: number;
+        salary_max: number;
+        salary_range: number[];
+        salary_score: number;
+        lang_name: string;
+        content_updated_at: any;
+        noindex: boolean;
+        location_list: string[];
+        flat_location_list: string[];
+        profession: string[];
+        page: Page;
+        fresh_score: number;
+        unique_impressions_count_score: number;
+        up_votes_score: number;
+        job_applications_count_score: number;
+        objectID: string;
+        _snippetResult: SnippetResult;
+        _highlightResult: HighlightResult;
+    }
+
+    export interface Remote {
+        optional_remote_work: number;
+    }
+
+    export interface JobType2 {
+        full_time: number;
+    }
+
+    export interface LangName {
+        English: number;
+    }
+
+    export interface Profession2 {
+        it: number;
+        it_devops-system-admin: number;
+    }
+
+    export interface PageSector {
+        tech: number;
+        tech_consumer-electronics: number;
+    }
+
+    export interface SalaryType {
+        per_year: number;
+        per_month?: number;
+    }
+
+    export interface SalaryRange2 {
+        0: number;
+        800000: number;
+        1800000: number;
+    }
+
+    export interface LocationList {
+        Taipei, Taiwan: number;
+        Taiwan: number;
+        台北: number;
+        台灣: number;
+        台灣台北: number;
+    }
+
+    export interface SalaryCurrency {
+        TWD: number;
+    }
+
+    export interface SeniorityLevel2 {
+        mid_senior_level: number;
+        associate?: number;
+        director?: number;
+        entry_level?: number;
+    }
+
+    export interface PageTechLabels {
+        Amazon Web Services: number;
+        Android: number;
+        C: number;
+        C++: number;
+        GitHub: number;
+        Go: number;
+        MongoDB: number;
+        Node.js: number;
+        Python: number;
+        React: number;
+        Terraform: number;
+    }
+
+    export interface YearOfSeniority {
+        3_5: number;
+    }
+
+    export interface NumberOfManagement {
+        none: number;
+    }
+
+    export interface PageNumberOfEmployees {
+        1001_5000: number;
+        51_200: number;
+    }
+
+    export interface Facets {
+        remote: Remote;
+        job_type: JobType2;
+        lang_name: LangName;
+        profession: Profession2;
+        page.sector: PageSector;
+        salary_type: SalaryType;
+        salary_range: SalaryRange2;
+        location_list: LocationList;
+        salary_currency: SalaryCurrency;
+        seniority_level: SeniorityLevel2;
+        page.tech_labels: PageTechLabels;
+        year_of_seniority: YearOfSeniority;
+        number_of_management: NumberOfManagement;
+        page.number_of_employees: PageNumberOfEmployees;
+    }
+
+    export interface SalaryRange3 {
+        min: number;
+        max: number;
+        avg: number;
+        sum: number;
+    }
+
+    export interface FacetsStats {
+        salary_range: SalaryRange3;
+    }
+
+    export interface RenderingContent {
+    }
+
+    export interface Result {
+        hits: Hit[];
+        nbHits: number;
+        page: number;
+        nbPages: number;
+        hitsPerPage: number;
+        facets: Facets;
+        facets_stats: FacetsStats;
+        exhaustiveFacetsCount: boolean;
+        exhaustiveNbHits: boolean;
+        exhaustiveTypo: boolean;
+        query: string;
+        params: string;
+        index: string;
+        queryID: string;
+        renderingContent: RenderingContent;
+        processingTimeMS: number;
+    }
+
+    export interface Job {
+        state: State;
+        results: Result[];
+    }
+
+    export interface InitialResults {
+        Job: Job;
+    }
+
+    export interface ServerState {
+        initialResults: InitialResults;
+    }
+
+    export interface Common {
+        language.en: string;
+        language.es: string;
+        language.fr: string;
+        language.id: string;
+        language.ja: string;
+        language.ko: string;
+        language.vi: string;
+        language.zh-CN: string;
+        language.zh-TW: string;
+        symbol.separator: string;
+        symbol.comma: string;
+        symbol.hyphen: string;
+        time_format.time: string;
+        time_format.weekday_time: string;
+        time_format.weekday: string;
+        time_format.month_day_time: string;
+        time_format.month_day: string;
+        time_format.year_day_time: string;
+        time_format.year_day: string;
+        time_format.year_month: string;
+        time_format.present: string;
+        time_format.n_year: string;
+        time_format.n_year@one: string;
+        time_format.n_year@other: string;
+        time_format.n_month: string;
+        time_format.n_month@one: string;
+        time_format.n_month@other: string;
+        terminology.job: string;
+        terminology.company: string;
+        terminology.resume_builder: string;
+        terminology.resume_builder_plans: string;
+        terminology.job_posting: string;
+        terminology.job_posting_plans: string;
+        terminology.talent_search: string;
+        terminology.talent_search_plans: string;
+        terminology.help_center: string;
+        terminology.press_kit: string;
+        terminology.terms_of_service: string;
+        terminology.privacy_policy: string;
+        terminology.app_job_search: string;
+        terminology.employer_branding: string;
+        status.following: string;
+        status.saved: string;
+        action.download_app_store: string;
+        action.download_google_play: string;
+        action.sign_in: string;
+        action.sign_out: string;
+        action.sign_up: string;
+        action.add: string;
+        action.create: string;
+        action.update: string;
+        action.save: string;
+        action.delete: string;
+        action.cancel: string;
+        action.edit: string;
+        action.confirm: string;
+        action.previous: string;
+        action.next: string;
+        action.more: string;
+        action.follow: string;
+        action.unfollow: string;
+        action.select: string;
+        action.select_all: string;
+        action.done: string;
+        action.skip: string;
+        action.close: string;
+        action.search: string;
+        action.share: string;
+        action.publish: string;
+        action.view_on_dashboard: string;
+        action.back_to_dashboard: string;
+        action.talk_to_our_consultants: string;
+        action.reset: string;
+        message.info: string;
+        message.success: string;
+        message.error: string;
+        message.copied: string;
+        message.updated: string;
+        message.updating: string;
+        message.no_results: string;
+        header.find_jobs.title: string;
+        header.find_jobs.job_search.title: string;
+        header.find_jobs.job_search.subtitle: string;
+        header.find_jobs.jobespresso_2c.title: string;
+        header.find_jobs.jobespresso_2c.subtitle: string;
+        header.find_jobs.app_job_search.title: string;
+        header.find_jobs.app_job_search.subtitle: string;
+        header.resume.title: string;
+        header.resume.resume_all_examples: string;
+        header.resume.resume_builder.title: string;
+        header.resume.resume_builder.subtitle: string;
+        header.resume.resume_ideas.title: string;
+        header.resume.resume_ideas.subtitle: string;
+        header.resume.resume_templates.title: string;
+        header.resume.resume_templates.subtitle: string;
+        header.resume.resume_examples.title: string;
+        header.resume.resume_examples.subtitle: string;
+        header.resume.resume_format.title: string;
+        header.resume.resume_format.subtitle: string;
+        header.resume.resume_how_to.title: string;
+        header.resume.resume_how_to.subtitle: string;
+        header.resume.resume_help.title: string;
+        header.resume.resume_help.subtitle: string;
+        header.resume.resume_builder_plans: string;
+        header.cv.title: string;
+        header.cv.cv_all_examples: string;
+        header.cv.cv_builder.title: string;
+        header.cv.cv_builder.subtitle: string;
+        header.cv.cv_ideas.title: string;
+        header.cv.cv_ideas.subtitle: string;
+        header.cv.cv_templates.title: string;
+        header.cv.cv_templates.subtitle: string;
+        header.cv.cv_examples.title: string;
+        header.cv.cv_examples.subtitle: string;
+        header.cv.cv_format.title: string;
+        header.cv.cv_format.subtitle: string;
+        header.cv.cv_how_to.title: string;
+        header.cv.cv_how_to.subtitle: string;
+        header.cv.cv_help.title: string;
+        header.cv.cv_help.subtitle: string;
+        header.cv.cv_builder_plans: string;
+        header.portfolio.title: string;
+        header.portfolio.portfolio.title: string;
+        header.portfolio.portfolio.subtitle: string;
+        header.portfolio.portfolio_ideas.title: string;
+        header.portfolio.portfolio_ideas.subtitle: string;
+        header.articles.title: string;
+        header.articles.talent_connect.title: string;
+        header.articles.talent_connect.subtitle: string;
+        header.articles.podcast_apple: string;
+        header.articles.podcast_google: string;
+        header.articles.podcast_spotify: string;
+        header.articles.for_job_seekers: string;
+        header.articles.for_recruiters: string;
+        header.articles.article_all_categories: string;
+        header.hire.title: string;
+        header.hire.talent_search.title: string;
+        header.hire.talent_search.subtitle: string;
+        header.hire.job_posting.title: string;
+        header.hire.job_posting.subtitle: string;
+        header.hire.recruitment_service.title: string;
+        header.hire.recruitment_service.subtitle: string;
+        header.hire.employer_branding.title: string;
+        header.hire.employer_branding.subtitle: string;
+        header.hire.jobespresso_2b.title: string;
+        header.hire.jobespresso_2b.subtitle: string;
+        header.hire.job_posting_plans: string;
+        header.hire.talent_search_plans: string;
+        header.community.title: string;
+        header.user.dashboard: string;
+        header.user.my_resumes: string;
+        header.user.my_portfolio: string;
+        header.user.settings: string;
+        header.user.plan_and_billing: string;
+        header.user.free_upgrade: string;
+        header.user.referral: string;
+        header.user.account_and_billing: string;
+        header.user.notification_settings: string;
+        header.user.help_center: string;
+        header.user.upgrade: string;
+        header.user.page.applications: string;
+        footer.company.title: string;
+        footer.company.about: string;
+        footer.company.resume_builder_plans: string;
+        footer.company.job_posting_plans: string;
+        footer.company.talent_search_plans: string;
+        footer.company.press_kit: string;
+        footer.company.hiring: string;
+        footer.company.contact_us: string;
+        footer.company.terms_of_service: string;
+        footer.company.privacy_policy: string;
+        footer.solutions.title: string;
+        footer.solutions.resume_builder: string;
+        footer.solutions.portfolio: string;
+        footer.solutions.job_search: string;
+        footer.solutions.job_posting: string;
+        footer.solutions.talent_search: string;
+        footer.solutions.recruitment_service: string;
+        footer.solutions.employer_branding: string;
+        footer.job_search.title: string;
+        footer.job_search.categories: string;
+        footer.job_search.remote: string;
+        footer.job_search.internship: string;
+        footer.job_search.part_time: string;
+        footer.resources.title: string;
+        footer.resources.articles: string;
+        footer.resources.ebooks: string;
+        footer.resources.resume_examples: string;
+        footer.resources.resume_templates: string;
+        footer.resources.help_center: string;
+        footer.languages.title: string;
+        footer.follow_us.title: string;
+        footer.follow_us.description: string;
+        footer.app_job_search.title: string;
+        category.target_reader.job_seekers: string;
+        category.target_reader.recruiters: string;
+        category.article.all: string;
+        category.article.resume: string;
+        category.article.job_searching_guide: string;
+        category.article.job_interview: string;
+        category.article.career: string;
+        category.article.job_searching_resource: string;
+        category.article.company_interview: string;
+        category.article.recruitment_guides: string;
+        category.article.recruitment_partnership: string;
+        category.resume_example.administrative: string;
+        category.resume_example.design: string;
+        category.resume_example.engineering: string;
+        category.resume_example.finance: string;
+        category.resume_example.management: string;
+        category.resume_example.media: string;
+        category.resume_example.sales: string;
+        category.resume_example.service: string;
+        category.resume_example.technology: string;
+        flash_message.job_saved.follow_company_hint: string;
+    }
+
+    export interface Widget {
+        messenger.title: string;
+        messenger.message.new_message_document_title: string;
+        messenger.message.my_message: string;
+        messenger.message.new_message: string;
+        messenger.message.attachment: string;
+        messenger.message.empty: string;
+        messenger.message.empty_description: string;
+        messenger.message.job_preview_title: string;
+        messenger.message.conversation_invited: string;
+        messenger.message.conversation_declined: string;
+        messenger.message.new_conversation_title: string;
+        messenger.message.new_conversation_description: string;
+        messenger.message.new_conversation_description_article: string;
+        messenger.message.upgrade_hint_1: string;
+        messenger.message.upgrade_hint_2: string;
+        messenger.message.press_enter_to_send: string;
+        messenger.message.search_hint: string;
+        messenger.placeholder: string;
+        messenger.action.search_companies: string;
+        messenger.action.search_talents: string;
+        messenger.action.send: string;
+        messenger.action.accept_conversation: string;
+        messenger.action.decline_conversation: string;
+        messenger.action.resume_conversation: string;
+        messenger.action.start_conversation: string;
+        messenger.action.upgrade: string;
+        message_channel_list.title: string;
+        message_channel_list.action.view_all: string;
+        notification.title: string;
+        notification.message.empty: string;
+        notification.message.empty_description: string;
+        notification.action.view_all: string;
+        notification.action.mark_all_as_read: string;
+        connection.action.connect: string;
+        connection.action.pending: string;
+        connection.action.received: string;
+        connection.action.connected: string;
+        connection.action.accept: string;
+        connection.action.reject: string;
+        connection.action.cancel: string;
+        connection.action.remove: string;
+        recommendations.title: string;
+        recommendations.action.view_all: string;
+        network_import.title: string;
+        network_import.description: string;
+        profile_sidebar.current_job_progress: string;
+        profile_sidebar.tooltip.completion_ratio: string;
+        profile_sidebar.link.profile: string;
+        profile_sidebar.link.resume: string;
+        profile_sidebar.link.portfolio: string;
+        profile_sidebar.link.recommendations: string;
+        profile_sidebar.link.posts: string;
+        profile_sidebar.link.profile_views: string;
+        profile_sidebar.link.profile_views@one: string;
+        profile_sidebar.link.profile_views@other: string;
+        profile_sidebar.link.connections: string;
+        profile_sidebar.link.connections@one: string;
+        profile_sidebar.link.connections@other: string;
+        profile_sidebar.link.mutual_connections: string;
+        profile_sidebar.link.mutual_connections@one: string;
+        profile_sidebar.link.mutual_connections@other: string;
+        company_sidebar.link.applicants: string;
+        company_sidebar.link.applicants@one: string;
+        company_sidebar.link.applicants@other: string;
+        company_sidebar.link.jobs: string;
+        company_sidebar.link.jobs@one: string;
+        company_sidebar.link.jobs@other: string;
+        company_sidebar.link.page_views: string;
+        company_sidebar.link.page_views@one: string;
+        company_sidebar.link.page_views@other: string;
+        hashtag_info.message.posts: string;
+        hashtag_info.message.posts@one: string;
+        hashtag_info.message.posts@other: string;
+        hashtag_info.action.follow: string;
+        hashtag_info.action.following: string;
+        popular_hashtags.title: string;
+        popular_hashtags.message.posts: string;
+        popular_hashtags.message.posts@one: string;
+        popular_hashtags.message.posts@other: string;
+        dialog.action.cancel: string;
+        dialog.action.proceed: string;
+        recent_search.title: string;
+        recent_search.action.clear_all: string;
+        global_search.placeholder: string;
+        user_card.message.present: string;
+        user_card.message.high_completion_ratio: string;
+        user_card.message.past_experience: string;
+        user_card.message.past_experience_at: string;
+        user_card.message.past_education: string;
+        company_card.message.jobs: string;
+        company_card.message.jobs@one: string;
+        company_card.message.jobs@other: string;
+        useful_links.title: string;
+        useful_links.link.build_resume: string;
+        useful_links.link.resume_examples: string;
+        useful_links.link.job_search: string;
+        useful_links.link.talent_search: string;
+        confirm_email.title.verify_email: string;
+        confirm_email.title.update_email: string;
+        confirm_email.title.check_code: string;
+        confirm_email.description.verify_email: string;
+        confirm_email.description.check_code: string;
+        confirm_email.field.code.label: string;
+        confirm_email.field.code.placeholder: string;
+        confirm_email.action.send_confirmation: string;
+        confirm_email.action.resend_confirmation: string;
+        confirm_email.action.update_email: string;
+        confirm_email.footnote.not_your_email: string;
+        confirm_email.footnote.did_not_get_email: string;
+        promote_resume_builder.title: string;
+        promote_resume_builder.description: string;
+        promote_resume_builder.action.create_resume: string;
+        popular_companies.title: string;
+        popular_companies.description: string;
+        popular_companies.jobs: string;
+        popular_companies.jobs@one: string;
+        popular_companies.jobs@other: string;
+        popular_companies.action.browse: string;
+        interview_invitation.title: string;
+        interview_invitation.tooltip: string;
+        interview_invitation.message.preview: string;
+        interview_invitation.message.message_default: string;
+        interview_invitation.message.message_description: string;
+        interview_invitation.message.remaining_invitations: string;
+        interview_invitation.message.remaining_invitations@one: string;
+        interview_invitation.message.remaining_invitations@other: string;
+        interview_invitation.message.hint_max_invitations: string;
+        interview_invitation.message.hint_upgrade: string;
+        interview_invitation.message.no_companies: string;
+        interview_invitation.message.no_jobs: string;
+        interview_invitation.message.success: string;
+        interview_invitation.field.company: string;
+        interview_invitation.field.job: string;
+        interview_invitation.field.message: string;
+        interview_invitation.placeholder.company: string;
+        interview_invitation.placeholder.job: string;
+        interview_invitation.action.post_jobs: string;
+        interview_invitation.action.submit: string;
+        auth_modal.title: string;
+        auth_modal.message.or: string;
+        auth_modal.message.forgot_password: string;
+        auth_modal.message.already_signed_up: string;
+        auth_modal.message.not_yet_signed_up: string;
+        auth_modal.message.accept: string;
+        auth_modal.message.accept_terms: string;
+        auth_modal.message.accept_privacy: string;
+        auth_modal.field.remember: string;
+        auth_modal.placeholder.name: string;
+        auth_modal.placeholder.email: string;
+        auth_modal.placeholder.password: string;
+        viewed_and_saved_jobs.viewed_jobs: string;
+        viewed_and_saved_jobs.saved_jobs: string;
+        image_upload_modal.title: string;
+        image_upload_modal.dropzone_hint: string;
+        image_edit_modal.title: string;
+        image_edit_modal.cropping_option.original: string;
+        image_edit_modal.cropping_option.wide: string;
+        image_edit_modal.cropping_option.square: string;
+        job_search_guest_hint.title: string;
+        job_search_guest_hint.description: string;
+        job_search_guest_hint.action.sign_up: string;
+        job_search_guest_hint.action.post_jobs: string;
+        tech_stack_list.title: string;
+    }
+
+    export interface Attribute {
+        language_proficiency.0: string;
+        language_proficiency.1: string;
+        language_proficiency.2: string;
+        language_proficiency.3: string;
+        language_proficiency.4: string;
+        salary_type.per_day: string;
+        salary_type.per_hour: string;
+        salary_type.per_month: string;
+        salary_type.per_year: string;
+        salary_type.piece_rate_pay: string;
+        job_type.full_time: string;
+        job_type.part_time: string;
+        job_type.intern: string;
+        job_type.internship: string;
+        job_type.contract: string;
+        job_type.freelance: string;
+        job_type.temporary: string;
+        job_type.volunteer: string;
+        seniority_level.entry_level: string;
+        seniority_level.mid_senior_level: string;
+        seniority_level.internship_level: string;
+        seniority_level.associate: string;
+        seniority_level.director: string;
+        seniority_level.executive: string;
+        online_status.online: string;
+        online_status.active: string;
+        online_status.offline: string;
+        folder_user_role.owner: string;
+        folder_user_role.collaborator: string;
+        folder_user_role.viewer: string;
+        update_days_ago_level.7: string;
+        update_days_ago_level.14: string;
+        update_days_ago_level.30: string;
+        update_days_ago_level.60: string;
+        update_days_ago_level.90: string;
+        update_days_ago_level.180: string;
+        update_days_ago_level.365: string;
+        update_days_ago_level.366: string;
+        employment_status.employed: string;
+        employment_status.unemployed: string;
+        employment_status.studying: string;
+        employment_status.in_military_service: string;
+        job_search_progress.not_open_to_opportunities: string;
+        job_search_progress.open_to_opportunities: string;
+        job_search_progress.ready_to_interview: string;
+        remote.not_interested: string;
+        remote.interested: string;
+        remote.remote_only: string;
+        work_experience._one: string;
+        work_experience.one_two: string;
+        work_experience.two_four: string;
+        work_experience.four_six: string;
+        work_experience.six_ten: string;
+        work_experience.ten_fifteen: string;
+        work_experience.fifteen_: string;
+        freelance.full_time_freelancer: string;
+        freelance.part_time_freelancer: string;
+        freelance.not_freelancer: string;
+        degree_type.associate_s_degree: string;
+        degree_type.bachelor_of_arts_ba: string;
+        degree_type.bachelor_of_business_administration_bba: string;
+        degree_type.bachelor_of_engineering_beng: string;
+        degree_type.bachelor_of_fine_arts_bfa: string;
+        degree_type.bachelor_of_science_bs: string;
+        degree_type.bachelor_s_degree: string;
+        degree_type.engineer_s_degree: string;
+        degree_type.master_of_arts_ma: string;
+        degree_type.master_of_business_administration_mba: string;
+        degree_type.master_of_fine_arts_mfa: string;
+        degree_type.master_of_science_ms: string;
+        degree_type.master_s_degree: string;
+        degree_type.doctor_of_philosophy_phd: string;
+        degree_type.doctor_of_medicine_md: string;
+        degree_type.juris_doctor_jd: string;
+        degree_type.high_school_diploma: string;
+        degree_type.non_degree_program_e_g_coursera_certificate: string;
+        degree_type.other: string;
+        read_status.read: string;
+        read_status.unread: string;
+        management.description: string;
+        management.none: string;
+        management.one_five: string;
+        management.five_ten: string;
+        management.ten_fifteen: string;
+        management.fifteen_: string;
+        work_exp_year.no_requirement: string;
+        work_exp_year.n_years_required: string;
+        year_of_seniority.0_1: string;
+        year_of_seniority.1_3: string;
+        year_of_seniority.3_5: string;
+        year_of_seniority.5_10: string;
+        year_of_seniority.10_: string;
+        number_of_employees.1_10: string;
+        number_of_employees.11_50: string;
+        number_of_employees.51_200: string;
+        number_of_employees.201_500: string;
+        number_of_employees.501_1000: string;
+        number_of_employees.1001_5000: string;
+        number_of_employees.5001_: string;
+    }
+
+    export interface Sector {
+        sector_groups.advertising-marketing-agency: string;
+        sector_groups.agriculture: string;
+        sector_groups.architecture: string;
+        sector_groups.banking-insurance-finance: string;
+        sector_groups.consulting-audit: string;
+        sector_groups.corporate-services: string;
+        sector_groups.culture-media-entertainment: string;
+        sector_groups.design-art: string;
+        sector_groups.distribution: string;
+        sector_groups.education-training-recruitment: string;
+        sector_groups.fashion-luxury-beauty-lifestyle: string;
+        sector_groups.food-and-beverage: string;
+        sector_groups.health-social-environment: string;
+        sector_groups.hotel-tourism-leisure: string;
+        sector_groups.industry: string;
+        sector_groups.legal-law: string;
+        sector_groups.medical: string;
+        sector_groups.mobility-transport: string;
+        sector_groups.non-profit-association: string;
+        sector_groups.public-administration: string;
+        sector_groups.real-estate: string;
+        sector_groups.tech: string;
+        sector_groups.service-industry: string;
+        sector_groups.corporate-solutions: string;
+        sectors.advertising-marketing-agency_adtech-martech: string;
+        sectors.advertising-marketing-agency_advertising: string;
+        sectors.advertising-marketing-agency_design: string;
+        sectors.advertising-marketing-agency_digital: string;
+        sectors.advertising-marketing-agency_event-management: string;
+        sectors.advertising-marketing-agency_marketing-communications: string;
+        sectors.advertising-marketing-agency_public-relations: string;
+        sectors.agriculture_dairy: string;
+        sectors.agriculture_farming: string;
+        sectors.agriculture_fishery: string;
+        sectors.architecture_architecture: string;
+        sectors.architecture_interior-design: string;
+        sectors.banking-insurance-finance_banking: string;
+        sectors.banking-insurance-finance_finance: string;
+        sectors.banking-insurance-finance_fintech-insurtech: string;
+        sectors.banking-insurance-finance_insurance: string;
+        sectors.banking-insurance-finance_investment-banking: string;
+        sectors.banking-insurance-finance_investment-management: string;
+        sectors.banking-insurance-finance_venture-capital-private-equity: string;
+        sectors.consulting-audit_accounting: string;
+        sectors.consulting-audit_audit: string;
+        sectors.consulting-audit_change-management: string;
+        sectors.consulting-audit_design-engineering-office: string;
+        sectors.consulting-audit_digital-marketing-data-marketing: string;
+        sectors.consulting-audit_events-services: string;
+        sectors.consulting-audit_it-digital: string;
+        sectors.consulting-audit_organization-management: string;
+        sectors.consulting-audit_strategy: string;
+        sectors.consulting-audit_supply-chain: string;
+        sectors.consulting-audit_transaction-services: string;
+        sectors.corporate-services_corporate-concierge-services: string;
+        sectors.corporate-services_corporate-support: string;
+        sectors.corporate-services_coworking: string;
+        sectors.corporate-services_incubator-accelerator: string;
+        sectors.culture-media-entertainment_film: string;
+        sectors.culture-media-entertainment_media: string;
+        sectors.culture-media-entertainment_museums-cultural-institutions: string;
+        sectors.culture-media-entertainment_music: string;
+        sectors.culture-media-entertainment_print-media: string;
+        sectors.culture-media-entertainment_publishing: string;
+        sectors.culture-media-entertainment_sports: string;
+        sectors.culture-media-entertainment_television-film-production: string;
+        sectors.culture-media-entertainment_theater: string;
+        sectors.culture-media-entertainment_video-games: string;
+        sectors.design-art_design: string;
+        sectors.design-art_fine-art: string;
+        sectors.design-art_graphic-design: string;
+        sectors.design-art_performing-arts: string;
+        sectors.design-art_photography: string;
+        sectors.distribution_e-commerce: string;
+        sectors.distribution_mass-distribution: string;
+        sectors.distribution_selective-distribution: string;
+        sectors.distribution_wholesale: string;
+        sectors.distribution_retail: string;
+        sectors.education-training-recruitment_edtech: string;
+        sectors.education-training-recruitment_education: string;
+        sectors.education-training-recruitment_human-resources: string;
+        sectors.education-training-recruitment_job-training: string;
+        sectors.education-training-recruitment_recruitment: string;
+        sectors.fashion-luxury-beauty-lifestyle_cosmetics: string;
+        sectors.fashion-luxury-beauty-lifestyle_fashion: string;
+        sectors.fashion-luxury-beauty-lifestyle_jewelry: string;
+        sectors.fashion-luxury-beauty-lifestyle_lifestyle: string;
+        sectors.fashion-luxury-beauty-lifestyle_luxury: string;
+        sectors.food-and-beverage_beverage: string;
+        sectors.food-and-beverage_consumer-goods: string;
+        sectors.food-and-beverage_food-craft: string;
+        sectors.food-and-beverage_food-production: string;
+        sectors.food-and-beverage_foodservice: string;
+        sectors.food-and-beverage_foodtech: string;
+        sectors.food-and-beverage_gourmet-grocery: string;
+        sectors.health-social-environment_collaborative-economy: string;
+        sectors.health-social-environment_environment-sustainable-development: string;
+        sectors.health-social-environment_health: string;
+        sectors.health-social-environment_home-care-services: string;
+        sectors.health-social-environment_socialtech-greentech: string;
+        sectors.hotel-tourism-leisure_hotel: string;
+        sectors.hotel-tourism-leisure_leisure: string;
+        sectors.hotel-tourism-leisure_tourism: string;
+        sectors.industry_aeronautics-space: string;
+        sectors.industry_agri-food-animal-nutrition: string;
+        sectors.industry_automotive: string;
+        sectors.industry_building-public-works: string;
+        sectors.industry_chemicals: string;
+        sectors.industry_electronics-telecommunications: string;
+        sectors.industry_energy: string;
+        sectors.industry_furniture: string;
+        sectors.industry_manufacturing: string;
+        sectors.industry_material-science: string;
+        sectors.industry_mechanical-or-industrial-engineering: string;
+        sectors.industry_metallurg: string;
+        sectors.industry_mining-metals: string;
+        sectors.industry_nanotechnology: string;
+        sectors.industry_pharmaceutical-biotech: string;
+        sectors.industry_rail: string;
+        sectors.legal-law_law: string;
+        sectors.legal-law_legal-department: string;
+        sectors.medical_medical-devices: string;
+        sectors.medical_medical-practice: string;
+        sectors.medical_mental-health-care: string;
+        sectors.mobility-transport_logistics: string;
+        sectors.mobility-transport_mobility: string;
+        sectors.mobility-transport_shipping-and-ground-transport: string;
+        sectors.non-profit-association_foundation: string;
+        sectors.non-profit-association_ngo: string;
+        sectors.non-profit-association_nonprofit: string;
+        sectors.public-administration_public-administration: string;
+        sectors.public-administration_public-and-local-agencies: string;
+        sectors.public-administration_unions-and-labor-organisation: string;
+        sectors.real-estate_commercial-real-estate: string;
+        sectors.real-estate_residential-real-estate: string;
+        sectors.tech_artificial-intelligence-machine-learning: string;
+        sectors.tech_automatic-control: string;
+        sectors.tech_big-data: string;
+        sectors.tech_blockchain: string;
+        sectors.tech_computer-networking: string;
+        sectors.tech_connected-objects: string;
+        sectors.tech_consumer-electronics: string;
+        sectors.tech_cyber-security: string;
+        sectors.tech_gambling-casinos: string;
+        sectors.tech_games: string;
+        sectors.tech_hardware: string;
+        sectors.tech_information-services: string;
+        sectors.tech_ar-vr: string;
+        sectors.tech_ecommerce: string;
+        sectors.tech_internet: string;
+        sectors.tech_mobile-apps: string;
+        sectors.tech_robotics: string;
+        sectors.tech_saas-cloud-services: string;
+        sectors.tech_semiconductor: string;
+        sectors.tech_software: string;
+        sectors.service-industry_rental-and-leasing-services: string;
+        sectors.service-industry_hairdressing-and-beauty-services: string;
+        sectors.service-industry_housekeeping-services: string;
+        sectors.service-industry_pet-care-services: string;
+        sectors.service-industry_security-services: string;
+        sectors.service-industry_private-detective-services: string;
+        sectors.service-industry_car-maintenance-services-scooter-and-motorcycle-maintenance-services: string;
+        sectors.corporate-solutions_recruitment-services-worker-dispatch: string;
+    }
+
+    export interface Profession3 {
+        profession_groups.bio-medical: string;
+        profession_groups.construction: string;
+        profession_groups.customer-service: string;
+        profession_groups.design: string;
+        profession_groups.education: string;
+        profession_groups.engineering: string;
+        profession_groups.finance: string;
+        profession_groups.food-beverage: string;
+        profession_groups.game-production: string;
+        profession_groups.hr: string;
+        profession_groups.it: string;
+        profession_groups.law: string;
+        profession_groups.logistics-trade: string;
+        profession_groups.management-business: string;
+        profession_groups.manufacturing: string;
+        profession_groups.marketing-advertising: string;
+        profession_groups.marketing-communications: string;
+        profession_groups.media-communication: string;
+        profession_groups.other: string;
+        profession_groups.public-social-work: string;
+        profession_groups.sales: string;
+        professions.bio-medical_aide: string;
+        professions.bio-medical_bio-medical-other: string;
+        professions.bio-medical_biotechnology-researcher: string;
+        professions.bio-medical_caregiver: string;
+        professions.bio-medical_case-manager: string;
+        professions.bio-medical_clinical-psychologist: string;
+        professions.bio-medical_clinical-trial-nurse: string;
+        professions.bio-medical_clinical-trial-researcher: string;
+        professions.bio-medical_dental-hygienist: string;
+        professions.bio-medical_dentist: string;
+        professions.bio-medical_doctor: string;
+        professions.bio-medical_geneticist: string;
+        professions.bio-medical_hospital-coordinator: string;
+        professions.bio-medical_laboratory-technician: string;
+        professions.bio-medical_medical-records-technician: string;
+        professions.bio-medical_medical-technologist: string;
+        professions.bio-medical_microbiologist: string;
+        professions.bio-medical_nurse: string;
+        professions.bio-medical_nurse-s-aide: string;
+        professions.bio-medical_occupational-therapist: string;
+        professions.bio-medical_optometrist: string;
+        professions.bio-medical_oriental-medical-doctor: string;
+        professions.bio-medical_personal-carer: string;
+        professions.bio-medical_pharmaceutical-analytical-chemist: string;
+        professions.bio-medical_pharmacist: string;
+        professions.bio-medical_pharmacist-assistant: string;
+        professions.bio-medical_physical-therapist: string;
+        professions.bio-medical_radiology: string;
+        professions.bio-medical_researcher: string;
+        professions.bio-medical_respiratory-disorders-therapist: string;
+        professions.bio-medical_veterinarian: string;
+        professions.bio-medical_veterinary-specialist: string;
+        professions.construction_architect: string;
+        professions.construction_carpenter: string;
+        professions.construction_construction-inspector: string;
+        professions.construction_construction-manager: string;
+        professions.construction_construction-other: string;
+        professions.construction_electrician: string;
+        professions.construction_estimation-engineer: string;
+        professions.construction_heavy-equipment-technician: string;
+        professions.construction_installer: string;
+        professions.construction_interior-architecture: string;
+        professions.construction_maintenance-manager: string;
+        professions.construction_maintenance-technician: string;
+        professions.construction_manager: string;
+        professions.construction_mechanic: string;
+        professions.construction_painter: string;
+        professions.construction_plant-manager: string;
+        professions.construction_plumber: string;
+        professions.construction_sanitary-engineer: string;
+        professions.construction_site-manager: string;
+        professions.construction_surveying-engineer: string;
+        professions.construction_welder: string;
+        professions.customer-service_crm-specialist: string;
+        professions.customer-service_cs-advisor: string;
+        professions.customer-service_customer-service-manager: string;
+        professions.customer-service_customer-service-other: string;
+        professions.customer-service_customer-service-representative: string;
+        professions.customer-service_customer-service-support: string;
+        professions.customer-service_esthetician: string;
+        professions.customer-service_event-planner: string;
+        professions.customer-service_fashion-merchandiser: string;
+        professions.customer-service_flight-attendant: string;
+        professions.customer-service_florist: string;
+        professions.customer-service_franchise-manager: string;
+        professions.customer-service_goods-manager: string;
+        professions.customer-service_hair-designer: string;
+        professions.customer-service_hairdresser: string;
+        professions.customer-service_healthcare-manager: string;
+        professions.customer-service_hotel-cleaning-services: string;
+        professions.customer-service_hotel-reception: string;
+        professions.customer-service_inbound-telemarketer: string;
+        professions.customer-service_merchandiser: string;
+        professions.customer-service_outbound-telemarketer: string;
+        professions.customer-service_pet-stylist: string;
+        professions.customer-service_production: string;
+        professions.customer-service_receptionist: string;
+        professions.customer-service_retail-merchandiser: string;
+        professions.customer-service_retail-salesperson: string;
+        professions.customer-service_sales-clerk: string;
+        professions.customer-service_sales-manager: string;
+        professions.customer-service_service-technician: string;
+        professions.customer-service_stock-management: string;
+        professions.customer-service_store-manager-management: string;
+        professions.customer-service_technical-customer-service-engineering: string;
+        professions.customer-service_travel-agent: string;
+        professions.customer-service_travel-consultant: string;
+        professions.customer-service_visual-merchandiser: string;
+        professions.customer-service_waitstaff: string;
+        professions.design_2d-designer: string;
+        professions.design_3d-designer: string;
+        professions.design_ad-designer: string;
+        professions.design_art-director: string;
+        professions.design_bi-bx-designer: string;
+        professions.design_character-designer: string;
+        professions.design_creative-director: string;
+        professions.design_design-other: string;
+        professions.design_editorial-designer: string;
+        professions.design_exhibition-designer: string;
+        professions.design_fashion-design: string;
+        professions.design_furniture-designer: string;
+        professions.design_graph-design-illustration: string;
+        professions.design_illustrator: string;
+        professions.design_industrial-designer: string;
+        professions.design_interior-designer: string;
+        professions.design_landscape-designer: string;
+        professions.design_mobile-designer: string;
+        professions.design_model-maker: string;
+        professions.design_motion-design-video: string;
+        professions.design_packaging-designer: string;
+        professions.design_product-designer: string;
+        professions.design_product-manager: string;
+        professions.design_purchases: string;
+        professions.design_space-designer: string;
+        professions.design_textile-designer: string;
+        professions.design_ui-design-gui-design: string;
+        professions.design_ui-ux-design: string;
+        professions.design_ux-design: string;
+        professions.design_vmd-designer: string;
+        professions.design_web-designer: string;
+        professions.education_certification-and-technical-training: string;
+        professions.education_educational-instructor: string;
+        professions.education_educational-publisher: string;
+        professions.education_elementary-middle-high-school-teacher: string;
+        professions.education_faculty-staff: string;
+        professions.education_foreign-language-educator: string;
+        professions.education_kindergarten-and-childcare-teacher: string;
+        professions.education_private-tutor: string;
+        professions.engineering_aerospace-engineer: string;
+        professions.engineering_agricultural-engineer: string;
+        professions.engineering_automotive-engineer: string;
+        professions.engineering_biological-scientist: string;
+        professions.engineering_boiler-engineer: string;
+        professions.engineering_cad-3d-engineer: string;
+        professions.engineering_ceramic-engineer: string;
+        professions.engineering_chemical-engineer: string;
+        professions.engineering_civil-engineer: string;
+        professions.engineering_construction-engineer: string;
+        professions.engineering_contracts-engineer: string;
+        professions.engineering_control-engineer: string;
+        professions.engineering_drafter: string;
+        professions.engineering_drilling-engineer: string;
+        professions.engineering_electrical-engineer: string;
+        professions.engineering_electro-mechanical-engineer: string;
+        professions.engineering_electronic-relay-engineer: string;
+        professions.engineering_electronics-engineer: string;
+        professions.engineering_engineering-other: string;
+        professions.engineering_environmental-engineer: string;
+        professions.engineering_environmental-safety-engineer: string;
+        professions.engineering_equipment-engineer: string;
+        professions.engineering_facility-engineering: string;
+        professions.engineering_fae-engineering: string;
+        professions.engineering_fire-protection-engineer: string;
+        professions.engineering_floor-plan-creator: string;
+        professions.engineering_geographer: string;
+        professions.engineering_geographic-information-systems-specialist: string;
+        professions.engineering_geological-engineer: string;
+        professions.engineering_health-and-safety-engineer: string;
+        professions.engineering_high-voltage-design-engineer: string;
+        professions.engineering_i-c-engineer: string;
+        professions.engineering_industrial-engineer: string;
+        professions.engineering_licensing-engineer: string;
+        professions.engineering_marine-engineer: string;
+        professions.engineering_materials-engineer: string;
+        professions.engineering_mechanical-engineer: string;
+        professions.engineering_metal-engineer: string;
+        professions.engineering_microelectromechanical-systems-engineering: string;
+        professions.engineering_mine-engineer: string;
+        professions.engineering_mine-safety-engineer: string;
+        professions.engineering_nuclear-engineer: string;
+        professions.engineering_packaging-engineering: string;
+        professions.engineering_petroleum-engineer: string;
+        professions.engineering_pipe-design-engineer: string;
+        professions.engineering_plant-engineer: string;
+        professions.engineering_plastic-engineer: string;
+        professions.engineering_process-engineer: string;
+        professions.engineering_product-engineer: string;
+        professions.engineering_production-engineer: string;
+        professions.engineering_project-engineer: string;
+        professions.engineering_qa-engineer: string;
+        professions.engineering_qc-engineer: string;
+        professions.engineering_rfic-engineering: string;
+        professions.engineering_robot-ai: string;
+        professions.engineering_rotary-machine-engineer: string;
+        professions.engineering_rt-engineer: string;
+        professions.engineering_structural-engineer: string;
+        professions.engineering_test-and-trials-engineer: string;
+        professions.engineering_turbine-engineer: string;
+        professions.engineering_water-treatment-process-engineer: string;
+        professions.engineering_radio-frequency-engineer: string;
+        professions.finance_accountant-treasurer: string;
+        professions.finance_actuary: string;
+        professions.finance_analyst: string;
+        professions.finance_appraiser: string;
+        professions.finance_asset-manager: string;
+        professions.finance_auditor: string;
+        professions.finance_claims-manager: string;
+        professions.finance_compliance-manager: string;
+        professions.finance_corporate-finance: string;
+        professions.finance_cpa: string;
+        professions.finance_damage-appraiser: string;
+        professions.finance_finance-other: string;
+        professions.finance_financial-advisor: string;
+        professions.finance_financial-analyst: string;
+        professions.finance_financial-engineer: string;
+        professions.finance_funds-manager: string;
+        professions.finance_insurance-agent: string;
+        professions.finance_investment-banker: string;
+        professions.finance_investment-stock-manager: string;
+        professions.finance_ir: string;
+        professions.finance_management-accounting: string;
+        professions.finance_market-finance: string;
+        professions.finance_property-manager: string;
+        professions.finance_realtor: string;
+        professions.finance_tax-accountant: string;
+        professions.finance_trader: string;
+        professions.finance_underwriter: string;
+        professions.food-beverage_baker-pastry: string;
+        professions.food-beverage_barista: string;
+        professions.food-beverage_bartender: string;
+        professions.food-beverage_chef: string;
+        professions.food-beverage_food-md: string;
+        professions.food-beverage_food-processing-development: string;
+        professions.food-beverage_food-stylist: string;
+        professions.food-beverage_kitchen-staff: string;
+        professions.food-beverage_nutritionist: string;
+        professions.food-beverage_restaurant-management: string;
+        professions.food-beverage_restaurant-manager: string;
+        professions.food-beverage_restaurant-worker: string;
+        professions.food-beverage_sommelier: string;
+        professions.game-production_game-artist: string;
+        professions.game-production_game-client-developer: string;
+        professions.game-production_game-graphic-designer: string;
+        professions.game-production_game-master: string;
+        professions.game-production_game-planner: string;
+        professions.game-production_game-server-developer: string;
+        professions.game-production_mobile-game-developer: string;
+        professions.game-production_unity-game-developer: string;
+        professions.game-production_unreal-developer: string;
+        professions.hr_e-learning: string;
+        professions.hr_headhunter: string;
+        professions.hr_hr-business-partner: string;
+        professions.hr_hr-consultant: string;
+        professions.hr_hr-development-training: string;
+        professions.hr_hr-manager: string;
+        professions.hr_labor-and-management: string;
+        professions.hr_lecturer: string;
+        professions.hr_performance-evaluation: string;
+        professions.hr_professor: string;
+        professions.hr_recruiter: string;
+        professions.hr_salary-compensation: string;
+        professions.hr_teacher: string;
+        professions.hr_technology-educator: string;
+        professions.it_analog-ic-design: string;
+        professions.it_android-developer: string;
+        professions.it_app-developer: string;
+        professions.it_assistant-engineer: string;
+        professions.it_back-end-engineer: string;
+        professions.it_bi-engineer: string;
+        professions.it_big-data-engineer: string;
+        professions.it_bios-engineering: string;
+        professions.it_blockchain-platform-engineer: string;
+        professions.it_c-c-developer: string;
+        professions.it_chief-information-officer: string;
+        professions.it_chief-technology-officer: string;
+        professions.it_data-engineer: string;
+        professions.it_data-scientist: string;
+        professions.it_database: string;
+        professions.it_development-manager: string;
+        professions.it_devops-system-admin: string;
+        professions.it_digital-ic-design: string;
+        professions.it_embedded-developer: string;
+        professions.it_firmware-engineering: string;
+        professions.it_front-end-engineer: string;
+        professions.it_full-stack-development: string;
+        professions.it_graphics-engineer: string;
+        professions.it_hardware-engineer: string;
+        professions.it_ic-layout: string;
+        professions.it_ios-developer: string;
+        professions.it_it-other: string;
+        professions.it_java-developer: string;
+        professions.it_machine-learning-engineer: string;
+        professions.it_net-developer: string;
+        professions.it_node-js-developer: string;
+        professions.it_optical-engineering: string;
+        professions.it_opto-electronic-engineering: string;
+        professions.it_php-developer: string;
+        professions.it_project-product-management: string;
+        professions.it_python-developer: string;
+        professions.it_qa-test-engineer: string;
+        professions.it_research-r-d: string;
+        professions.it_ruby-on-rails-developer: string;
+        professions.it_security-engineer: string;
+        professions.it_semiconductor-engineering: string;
+        professions.it_software-engineer: string;
+        professions.it_system-architecture: string;
+        professions.it_system-network-administrator: string;
+        professions.it_technical-manager: string;
+        professions.it_technical-support: string;
+        professions.it_video-voice-engineer: string;
+        professions.it_vr-engineer: string;
+        professions.it_web-developer: string;
+        professions.it_web-publisher: string;
+        professions.law_legal-representative: string;
+        professions.law_patent-administrator: string;
+        professions.logistics-trade_air-transportation-specialist: string;
+        professions.logistics-trade_bonded-transportation-specialist: string;
+        professions.logistics-trade_cargo-truck-drivers: string;
+        professions.logistics-trade_diesel-mechanic: string;
+        professions.logistics-trade_dispatcher: string;
+        professions.logistics-trade_distribution-manager: string;
+        professions.logistics-trade_driver: string;
+        professions.logistics-trade_forklift-driver: string;
+        professions.logistics-trade_import-export-specialist: string;
+        professions.logistics-trade_logistics-analyst: string;
+        professions.logistics-trade_logistics-coordinator: string;
+        professions.logistics-trade_logistics-customs-officer: string;
+        professions.logistics-trade_logistics-manager: string;
+        professions.logistics-trade_logistics-trade-other: string;
+        professions.logistics-trade_marine-transportation-specialist: string;
+        professions.logistics-trade_shipment-mailing-clerk: string;
+        professions.logistics-trade_shipping-receiving-clerk: string;
+        professions.logistics-trade_supply-chain-manager: string;
+        professions.logistics-trade_trade-administration: string;
+        professions.logistics-trade_transportation-manager: string;
+        professions.logistics-trade_transports: string;
+        professions.logistics-trade_warehouse-specialist: string;
+        professions.management-business_accountant: string;
+        professions.management-business_administrative-assistant: string;
+        professions.management-business_agile-coach: string;
+        professions.management-business_branch-manager: string;
+        professions.management-business_business-development: string;
+        professions.management-business_business-support-manager: string;
+        professions.management-business_chief-executive-officer: string;
+        professions.management-business_chief-financial-officer: string;
+        professions.management-business_chief-operation-officer: string;
+        professions.management-business_chief-strategy-officer: string;
+        professions.management-business_communications: string;
+        professions.management-business_consultant: string;
+        professions.management-business_data-analyst: string;
+        professions.management-business_eap-counselor: string;
+        professions.management-business_event-management: string;
+        professions.management-business_exhibition-planner: string;
+        professions.management-business_finance-manager: string;
+        professions.management-business_general-affairs: string;
+        professions.management-business_global-business-development-manager: string;
+        professions.management-business_guide: string;
+        professions.management-business_innovation: string;
+        professions.management-business_local-manager: string;
+        professions.management-business_management-business-other: string;
+        professions.management-business_management-control: string;
+        professions.management-business_office-manager: string;
+        professions.management-business_operations-manager: string;
+        professions.management-business_organization-management: string;
+        professions.management-business_project-manager: string;
+        professions.management-business_purchasing: string;
+        professions.management-business_purchasing-manager: string;
+        professions.management-business_regulatory-officer: string;
+        professions.management-business_risk-management-specialist: string;
+        professions.management-business_sales: string;
+        professions.management-business_secretary: string;
+        professions.management-business_service-planner: string;
+        professions.management-business_stage-producer: string;
+        professions.management-business_strategic-planner: string;
+        professions.manufacturing_assembly-technician: string;
+        professions.manufacturing_chemist: string;
+        professions.manufacturing_factory-manager-director: string;
+        professions.manufacturing_machinery-equipment-operation: string;
+        professions.manufacturing_manufacturing-director: string;
+        professions.manufacturing_manufacturing-manager: string;
+        professions.manufacturing_manufacturing-operator: string;
+        professions.manufacturing_manufacturing-other: string;
+        professions.manufacturing_manufacturing-technician: string;
+        professions.manufacturing_materials-manager: string;
+        professions.manufacturing_mechanical-production-technician: string;
+        professions.manufacturing_mechanism-engineering: string;
+        professions.manufacturing_process-manager: string;
+        professions.manufacturing_production-manager: string;
+        professions.manufacturing_production-worker: string;
+        professions.manufacturing_quality-manager: string;
+        professions.manufacturing_safety-manager: string;
+        professions.manufacturing_test-engineer: string;
+        professions.manufacturing_textile-clothing-maker: string;
+        professions.marketing-advertising_account-executive: string;
+        professions.marketing-advertising_atl-marketer: string;
+        professions.marketing-advertising_brand-marketer: string;
+        professions.marketing-advertising_btl-marketer: string;
+        professions.marketing-advertising_chief-brand-officer: string;
+        professions.marketing-advertising_chief-marketing-officer: string;
+        professions.marketing-advertising_community-social-media: string;
+        professions.marketing-advertising_content-marketer: string;
+        professions.marketing-advertising_copywriter: string;
+        professions.marketing-advertising_digital-marketer: string;
+        professions.marketing-advertising_global-marketing-mgr: string;
+        professions.marketing-advertising_growth-hacker: string;
+        professions.marketing-advertising_market-researcher: string;
+        professions.marketing-advertising_marketer: string;
+        professions.marketing-advertising_marketing-advertising-other: string;
+        professions.marketing-advertising_marketing-development: string;
+        professions.marketing-advertising_marketing-director: string;
+        professions.marketing-advertising_marketing-operations: string;
+        professions.marketing-advertising_marketing-strategy-planner: string;
+        professions.marketing-advertising_mobile-marketing-specialist: string;
+        professions.marketing-advertising_partnership-specialist: string;
+        professions.marketing-advertising_performance-marketing-manager: string;
+        professions.marketing-advertising_pr-specialist: string;
+        professions.marketing-advertising_seo-sem: string;
+        professions.marketing-advertising_sports-specialist: string;
+        professions.marketing-advertising_traffic-management: string;
+        professions.media-communication_book-publisher: string;
+        professions.media-communication_content-creator: string;
+        professions.media-communication_curator: string;
+        professions.media-communication_editor: string;
+        professions.media-communication_film-tv-video-production: string;
+        professions.media-communication_journalist: string;
+        professions.media-communication_licence-manager: string;
+        professions.media-communication_media-communication-other: string;
+        professions.media-communication_photographer: string;
+        professions.media-communication_producer: string;
+        professions.media-communication_project-management: string;
+        professions.media-communication_reporter: string;
+        professions.media-communication_sound-engineer: string;
+        professions.media-communication_strategic-planning: string;
+        professions.media-communication_translator: string;
+        professions.media-communication_video-editing-specialist: string;
+        professions.media-communication_writer: string;
+        professions.other_other-other: string;
+        professions.public-social-work_caretaker: string;
+        professions.public-social-work_counselor: string;
+        professions.public-social-work_emergency-responders-emts: string;
+        professions.public-social-work_environmental-specialist: string;
+        professions.public-social-work_firefighter: string;
+        professions.public-social-work_information-analyst: string;
+        professions.public-social-work_lifeguard: string;
+        professions.public-social-work_local-specialist: string;
+        professions.public-social-work_professional-soldier: string;
+        professions.public-social-work_public-officer: string;
+        professions.public-social-work_social-worker: string;
+        professions.public-social-work_volunteer: string;
+        professions.sales_account-manager: string;
+        professions.sales_customer-success-manager: string;
+        professions.sales_enterprise-sales: string;
+        professions.sales_inside-sales-specialist: string;
+        professions.sales_international-sales-mgr: string;
+        professions.sales_media-sales-manager: string;
+        professions.sales_medical-device-sales-specialist: string;
+        professions.sales_pharmaceutical-sales-specialist: string;
+        professions.sales_sales-advisor: string;
+        professions.sales_sales-engineer: string;
+        professions.sales_sales-engineering: string;
+        professions.sales_sales-specialist: string;
+        professions.sales_sales-team-lead: string;
+        professions.sales_solutions-consultant: string;
+        professions.sales_technical-sales-specialist: string;
+    }
+
+    export interface Job2 {
+        common.cakeresume_job_search: string;
+        breadcrumbs.cakeresume_job_search: string;
+        breadcrumbs.company_jobs: string;
+        breadcrumbs.all_jobs: string;
+        breadcrumbs.profession_jobs: string;
+        admin_tool.saved: string;
+        admin_tool.applied: string;
+        admin_tool.label.hidden: string;
+        admin_tool.label.paused: string;
+        admin_tool.saved_modal.title: string;
+        admin_tool.saved_modal.no_content: string;
+        admin_tool.icon_tooltips.no_sufficient_permissions: string;
+        admin_tool.icon_tooltips.suspended_tip: string;
+        admin_tool.icon_tooltips.unsuspend: string;
+        admin_tool.icon_tooltips.edit: string;
+        admin_tool.icon_tooltips.copy: string;
+        admin_tool.icon_tooltips.hide: string;
+        admin_tool.icon_tooltips.unhide: string;
+        admin_tool.icon_tooltips.pause: string;
+        admin_tool.icon_tooltips.unpause: string;
+        admin_tool.icon_tooltips.delete: string;
+        admin_tool.delete_confirmation.title: string;
+        admin_tool.delete_confirmation.body: string;
+        admin_tool.flash_message.success.hide: string;
+        admin_tool.flash_message.success.unhide: string;
+        admin_tool.flash_message.success.pause: string;
+        admin_tool.flash_message.success.unpause: string;
+        admin_tool.flash_message.success.refresh: string;
+        description.section_message.ask_expired_to_refresh: string;
+        description.section_message.why_keep_updated: string;
+        description.section_message.update_now: string;
+        description.section_message.temporarily_close: string;
+        description.section_message.need_to_reopen: string;
+        description.section_message.paused_job_description: string;
+        description.section_message.have_applied: string;
+        description.section_message.cannot_reapply: string;
+        description.section_message.reapply: string;
+        description.updated_ago: string;
+        description.expired_date: string;
+        description.job_description: string;
+        description.requirements: string;
+        description.interview_process: string;
+        description.view_all_jobs: string;
+        description.regular_salary_4k: string;
+        description.regular_salary_4k_description: string;
+        description.number_of_management.not_specified: string;
+        description.number_of_management.none: string;
+        description.number_of_management.one_five: string;
+        description.number_of_management.five_ten: string;
+        description.number_of_management.ten_fifteen: string;
+        description.number_of_management.fifteen_: string;
+        description.personal_invitation_link: string;
+        description.copy_invitation_link: string;
+        description.referral_description: string;
+        description.share_this_job: string;
+        description.icon_tooltips.work_location: string;
+        description.icon_tooltips.number_to_hire: string;
+        description.icon_tooltips.experience_requirements: string;
+        description.icon_tooltips.salary_range: string;
+        description.icon_tooltips.accept_remote_work_or_not: string;
+        description.icon_tooltips.number_of_management: string;
+        404page.title: string;
+        404page.description: string;
+        404page.back_to_company: string;
+        404page.jobs: string;
+        404page.links_section.hint: string;
+        404page.links_section.create_resume: string;
+        404page.links_section.view_resume_examples: string;
+        404page.links_section.search_jobs: string;
+        404page.links_section.search_resumes: string;
+        job_created_modal.congratulations: string;
+        job_created_modal.successfully_posted_job: string;
+        job_created_modal.description: string;
+        job_created_modal.section_message: string;
+        job_created_modal.share_this_job_post: string;
+        apply_button.apply_now: string;
+        apply_button.cannot_apply: string;
+        apply_button.cannot_reapply_message: string;
+        apply_button.have_applied_on: string;
+        about_block.number_of_people: string;
+        about_block.about_us: string;
+        about_block.learn_more: string;
+        about_block.team: string;
+        other_popular_jobs_block.other_popular_jobs_at: string;
+        other_popular_jobs_block.view_all_n_profession_jobs: string;
+        recommendation_block.recommended_items_profession: string;
+        recommendation_block.search_more_items: string;
+        recommendation_block.view_resume: string;
+        similar_jobs_block.similar_jobs: string;
+        similar_jobs_block.job_search_block.title: string;
+        similar_jobs_block.job_search_block.subtitle: string;
+        similar_jobs_block.job_search_block.input_placeholder: string;
+        similar_jobs_block.job_search_block.submit_button_text: string;
+        similar_jobs_block.app_promotion_block.title: string;
+        similar_jobs_block.app_promotion_block.subtitle: string;
+        job_quota_hint_block.title: string;
+        job_quota_hint_block.subtitle: string;
+        job_quota_hint_block.button_text: string;
+        remote.full_remote_work: string;
+        remote.no_remote_work: string;
+        remote.optional_remote_work: string;
+        remote.partial_remote_work: string;
+    }
+
+    export interface JobSearch {
+        page.title_location: string;
+        page.title_adj: string;
+        page.title_adj_location: string;
+        page.description: string;
+        page.description_location: string;
+        page.description_adj: string;
+        page.description_adj_location: string;
+        page.site: string;
+        page.site_with_description: string;
+        page.meta.breadcrumb_title: string;
+        page.meta.managerial: string;
+        page.meta.non_managerial: string;
+        page.meta.company_size: string;
+        page.meta.noun: string;
+        page.meta.noun@title: string;
+        title: string;
+        placeholder.query: string;
+        result_empty.title: string;
+        result_empty.description: string;
+        filter.location_list: string;
+        filter.profession: string;
+        filter.job_type: string;
+        filter.seniority_level: string;
+        filter.year_of_seniority: string;
+        filter.number_of_management: string;
+        filter.remote: string;
+        filter.salary: string;
+        filter.salary_currency: string;
+        filter.salary_type: string;
+        filter.salary_range: string;
+        filter.page_number_of_employees: string;
+        filter.page_sector: string;
+        filter.page_tech_labels: string;
+        filter.lang_name: string;
+        sort_by.popular: string;
+        sort_by.latest: string;
+        sort_by_description.popular: string;
+        sort_by_description.latest: string;
+        option.popular_professions: string;
+        option.popular_keywords: string;
+        option.related_keywords: string;
+        option.advanced_filters: string;
+        option.infinite_scroll: string;
+        option.condensed_layout: string;
+        option.hide_read_items: string;
+        tooltip.popular: string;
+        tooltip.impressions: string;
+        tooltip.number_of_openings: string;
+        tooltip.location_list: string;
+        tooltip.salary_range: string;
+        tooltip.year_of_seniority: string;
+        tooltip.number_of_management: string;
+        search_subscription.title: string;
+        search_subscription.action.save_search: string;
+        search_subscription.empty_title: string;
+        search_subscription.form.title.create: string;
+        search_subscription.form.title.update: string;
+        search_subscription.form.description: string;
+        search_subscription.form.notification_hint: string;
+        search_subscription.form.field.name: string;
+        search_subscription.form.field.enabled: string;
+        search_subscription.list.saved_ago: string;
+        search_share.title: string;
+        search_share.action: string;
+        search_share.social_description: string;
+        category.page_sector.tech_semiconductor: string;
+        category.profession.it: string;
+        category.profession.marketing-advertising: string;
+        category.profession.design: string;
+        category.profession.sales: string;
+        category.profession.hr: string;
+        category.profession.engineering: string;
+        category.profession.finance: string;
+        category.profession.food-beverage: string;
+        category.profession.manufacturing: string;
+        category.profession.law: string;
+        category.profession.bio-medical: string;
+    }
+
+    export interface En {
+        common: Common;
+        widget: Widget;
+        attribute: Attribute;
+        sector: Sector;
+        profession: Profession3;
+        job: Job2;
+        job-search: JobSearch;
+    }
+
+    export interface InitialI18nStore {
+        en: En;
+    }
+
+    export interface I18n {
+        defaultLocale: string;
+        locales: string[];
+        localeDetection: boolean;
+    }
+
+    export interface I18n2 {
+        defaultLocale: string;
+        locales: string[];
+        localeDetection: boolean;
+    }
+
+    export interface Default {
+        i18n: I18n2;
+        localePath: string;
+        keySeparator: boolean;
+        pluralSeparator: string;
+        contextSeparator: string;
+        simplifyPluralSuffix: boolean;
+        saveMissingPlurals: boolean;
+        reloadOnPrerender: boolean;
+    }
+
+    export interface UserConfig {
+        i18n: I18n;
+        localePath: string;
+        keySeparator: boolean;
+        pluralSeparator: string;
+        contextSeparator: string;
+        simplifyPluralSuffix: boolean;
+        saveMissingPlurals: boolean;
+        reloadOnPrerender: boolean;
+        default: Default;
+    }
+
+    export interface NextI18Next {
+        initialI18nStore: InitialI18nStore;
+        initialLocale: string;
+        userConfig: UserConfig;
+    }
+
+    export interface Api {
+    }
+
+    export interface AssetsPath {
+        contentarea_css: string;
+    }
+
+    export interface Flash {
+    }
+
+    export interface Algolia {
+        id: string;
+        key: string;
+        key_global_search: string;
+        key_query_suggestions: string;
+        key_users: string;
+        key_jobs_and_pages: string;
+        key_featured_pages: string;
+        key_featured_jobs: string;
+        key_published_posts: string;
+        key_organizations: string;
+        key_activities: string;
+        key_articles: string;
+    }
+
+    export interface TrackingTraits {
+    }
+
+    export interface Kickoff {
+        assets_path: AssetsPath;
+        flash: Flash;
+        algolia: Algolia;
+        user?: any;
+        tracking_traits: TrackingTraits;
+        imp: boolean;
+        google_client_id: string;
+        is_premium: boolean;
+    }
+
+    export interface Auth {
+        kickoff: Kickoff;
+        pending: boolean;
+        jwt: string;
+        ip: string;
+    }
+
+    export interface Can {
+        hover?: any;
+    }
+
+    export interface Lte {
+        xs?: any;
+        sm?: any;
+        md?: any;
+        lg?: any;
+        xl?: any;
+    }
+
+    export interface Gte {
+        xs?: any;
+        sm?: any;
+        md?: any;
+        lg?: any;
+        xl?: any;
+    }
+
+    export interface Eq {
+        xs?: any;
+        sm?: any;
+        md?: any;
+        lg?: any;
+        xl?: any;
+    }
+
+    export interface Size {
+        lte: Lte;
+        gte: Gte;
+        eq: Eq;
+    }
+
+    export interface Browser {
+        currentTime: number;
+        locale: string;
+        ipCountry: string;
+        isBot?: any;
+        can: Can;
+        size: Size;
+    }
+
+    export interface Editor {
+        entity?: any;
+        processingImages: any[];
+        deletingDraftImages: any[];
+        deletingProcessingImages: any[];
+    }
+
+    export interface Query {
+    }
+
+    export interface Mention {
+        current?: any;
+        query: Query;
+    }
+
+    export interface Query2 {
+    }
+
+    export interface Hashtag {
+        current?: any;
+        query: Query2;
+    }
+
+    export interface Suggestions {
+        mention: Mention;
+        hashtag: Hashtag;
+    }
+
+    export interface Hashtags {
+    }
+
+    export interface ActivityFeeds {
+    }
+
+    export interface TimelineFeeds {
+    }
+
+    export interface Comments {
+    }
+
+    export interface Meta {
+    }
+
+    export interface NetworkImport {
+        lastInvitedCount?: any;
+    }
+
+    export interface Community {
+        editor: Editor;
+        viewSingle?: any;
+        suggestions: Suggestions;
+        hashtags: Hashtags;
+        popularHashtags?: any;
+        activityFeeds: ActivityFeeds;
+        timelineFeeds: TimelineFeeds;
+        comments: Comments;
+        meta: Meta;
+        networkImport: NetworkImport;
+    }
+
+    export interface Meta2 {
+    }
+
+    export interface OtherPage {
+    }
+
+    export interface Company {
+        meta: Meta2;
+        otherPage: OtherPage;
+        popularCompanies?: any;
+    }
+
+    export interface Status {
+    }
+
+    export interface Connection {
+        recommendations?: any;
+        status: Status;
+    }
+
+    export interface Condition {
+        filter?: any;
+        sort?: any;
+    }
+
+    export interface Entities {
+    }
+
+    export interface Collection {
+        condition: Condition;
+        list: any[];
+        entities: Entities;
+        pagination?: any;
+    }
+
+    export interface AuditLogs {
+    }
+
+    export interface Comments2 {
+    }
+
+    export interface Folder {
+        collection: Collection;
+        viewSingle?: any;
+        auditLogs: AuditLogs;
+        comments: Comments2;
+    }
+
+    export interface JobData {
+    }
+
+    export interface JobMetaData {
+    }
+
+    export interface UserJobMetaData {
+    }
+
+    export interface PreviewList {
+        viewedJobs?: any;
+        savedJobs?: any;
+    }
+
+    export interface Job3 {
+        jobData: JobData;
+        jobMetaData: JobMetaData;
+        userJobMetaData: UserJobMetaData;
+        previewList: PreviewList;
+        subscriptions?: any;
+        canRestoreSearch: boolean;
+    }
+
+    export interface Entities2 {
+    }
+
+    export interface Queries {
+    }
+
+    export interface Channels {
+        list: any[];
+        entities: Entities2;
+        pagination?: any;
+        remainingNewConversationCount?: any;
+        queries: Queries;
+    }
+
+    export interface Messages {
+    }
+
+    export interface Entities3 {
+    }
+
+    export interface TemporaryChannels {
+        list: any[];
+        entities: Entities3;
+    }
+
+    export interface Message {
+        unreadCount: number;
+        activeChannelKey?: any;
+        channels: Channels;
+        messages: Messages;
+        temporaryChannels: TemporaryChannels;
+    }
+
+    export interface Entities4 {
+    }
+
+    export interface Collection2 {
+        list: any[];
+        entities: Entities4;
+        pagination?: any;
+    }
+
+    export interface Notification {
+        unreadCount: number;
+        collection: Collection2;
+    }
+
+    export interface Meta3 {
+    }
+
+    export interface Portfolio {
+        meta: Meta3;
+    }
+
+    export interface Index {
+    }
+
+    export interface Entities5 {
+    }
+
+    export interface Popular {
+    }
+
+    export interface Latest {
+    }
+
+    export interface Editors {
+    }
+
+    export interface Resource {
+        index: Index;
+        entities: Entities5;
+        popular: Popular;
+        latest: Latest;
+        editors: Editors;
+    }
+
+    export interface Entities6 {
+    }
+
+    export interface Meta4 {
+    }
+
+    export interface DisplayedEntities {
+    }
+
+    export interface Download {
+    }
+
+    export interface DraftEntities {
+    }
+
+    export interface Resume {
+        entities: Entities6;
+        meta: Meta4;
+        displayedEntities: DisplayedEntities;
+        download: Download;
+        draftEntities: DraftEntities;
+    }
+
+    export interface Route {
+        isDirectRequest: boolean;
+        isStaticGeneratedRoute: boolean;
+        url: string;
+    }
+
+    export interface RecentSearch {
+        records?: any;
+        impressions?: any;
+    }
+
+    export interface Search {
+        recentSearch: RecentSearch;
+    }
+
+    export interface Menu {
+        pages: any[];
+    }
+
+    export interface Dashboard {
+        insightsOverview?: any;
+    }
+
+    export interface ProfileCompletionRatio {
+    }
+
+    export interface User {
+        menu: Menu;
+        profile?: any;
+        dashboard: Dashboard;
+        profileCompletionRatio: ProfileCompletionRatio;
+    }
+
+    export interface InitialState {
+        api: Api;
+        auth: Auth;
+        browser: Browser;
+        community: Community;
+        company: Company;
+        connection: Connection;
+        folder: Folder;
+        job: Job3;
+        message: Message;
+        notification: Notification;
+        portfolio: Portfolio;
+        resource: Resource;
+        resume: Resume;
+        route: Route;
+        search: Search;
+        user: User;
+    }
+
+    export interface PageProps {
+        serverState: ServerState;
+        serverInfiniteScroll: boolean;
+        _nextI18Next: NextI18Next;
+        initialState: InitialState;
+    }
+
+    export interface Props {
+        pageProps: PageProps;
+        __N_SSP: boolean;
+    }
+
+    export interface Query3 {
+        q: string;
+        locale: string;
+        refinementList[seniority_level][0]: string;
+        refinementList[salary_type]: string;
+        range[salary_range][min]: string;
+    }
+
+    export interface RootObject {
+        props: Props;
+        page: string;
+        query: Query3;
+        buildId: string;
+        isFallback: boolean;
+        dynamicIds: number[];
+        gssp: boolean;
+        customServer: boolean;
+        locale: string;
+        locales: string[];
+        defaultLocale: string;
+        scriptLoader: any[];
+    }
+
 }
