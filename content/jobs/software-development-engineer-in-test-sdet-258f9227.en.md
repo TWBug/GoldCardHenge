@@ -1,16 +1,13 @@
 ---
 data_source_name: Cake Resume
-data_source_hostname: web.archive.org
-data_source_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/jobs/Test+case?locale=en
+data_source_hostname: 114.32.58.99
+data_source_url: 'http://114.32.58.99:8088/index.html'
 data_source_internal_id: '9360'
 title: Software Development Engineer in Test (SDET)
-job_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/companies/jkopay/jobs/3c0bde
+job_url: 'http://114.32.58.99:8088/companies/jkopay/jobs/3c0bde'
 date: 2019-03-20T05:41:26.843Z
 company_name: 街口電子支付股份有限公司
-company_page_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/companies/jkopay
+company_page_url: 'http://114.32.58.99:8088/companies/jkopay'
 company_logo_url: >-
   https://web.archive.org/web/20220310122200/https://media.cakeresume.com/image/upload/s--8SjzW5OA--/c_pad,fl_png8,h_200,w_200/v1627550721/oekx7czyjznjimizhtuc.png
 salary_text: TWD0 - TWD0

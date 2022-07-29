@@ -1,16 +1,14 @@
 ---
 data_source_name: Cake Resume
-data_source_hostname: web.archive.org
-data_source_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/jobs/Test+case?locale=en
+data_source_hostname: 114.32.58.99
+data_source_url: 'http://114.32.58.99:8088/index.html'
 data_source_internal_id: '18170'
 title: QA Engineer 軟體測試工程師
 job_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/companies/funpodium/jobs/qa-engineer-software-test-engineer-a3d078
+  http://114.32.58.99:8088/companies/funpodium/jobs/qa-engineer-software-test-engineer-a3d078
 date: 2020-02-20T05:58:43.451Z
 company_name: FUNPODIUM
-company_page_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/companies/funpodium
+company_page_url: 'http://114.32.58.99:8088/companies/funpodium'
 company_logo_url: >-
   https://web.archive.org/web/20220310122200/https://media.cakeresume.com/image/upload/s--XDwgLsWs--/c_pad,fl_png8,h_200,w_200/v1612855082/wrdgbfglgykxcbxkdmkf.png
 salary_text: TWD40000 - TWD0

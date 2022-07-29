@@ -1,16 +1,13 @@
 ---
 data_source_name: Cake Resume
-data_source_hostname: web.archive.org
-data_source_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/jobs/Test+case?locale=en
+data_source_hostname: 114.32.58.99
+data_source_url: 'http://114.32.58.99:8088/index.html'
 data_source_internal_id: '11198'
 title: 自動化測試工程師
-job_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/companies/TPIsoftware/jobs/automated-test-engineer
+job_url: 'http://114.32.58.99:8088/companies/TPIsoftware/jobs/automated-test-engineer'
 date: 2019-06-17T07:23:18.163Z
 company_name: 昕力資訊 TPIsoftware
-company_page_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/companies/TPIsoftware
+company_page_url: 'http://114.32.58.99:8088/companies/TPIsoftware'
 company_logo_url: >-
   https://web.archive.org/web/20220310122200/https://media.cakeresume.com/image/upload/s--VKk3h41G--/c_pad,fl_png8,h_200,w_200/v1595313567/woodynnr8joqev1barfy.png
 salary_text: TWD30000 - TWD60000

@@ -1,16 +1,13 @@
 ---
 data_source_name: Cake Resume
-data_source_hostname: web.archive.org
-data_source_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/jobs/Test+case?locale=en
+data_source_hostname: 114.32.58.99
+data_source_url: 'http://114.32.58.99:8088/index.html'
 data_source_internal_id: '11018'
 title: 'SHOPEE APP - Software Automation Test (Dev. Team) 自動化軟體測試工程師 #擴大徵才'
-job_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/companies/ShopeeTW/jobs/b6dc8b
+job_url: 'http://114.32.58.99:8088/companies/ShopeeTW/jobs/b6dc8b'
 date: 2019-06-10T07:58:06.781Z
 company_name: Shopee 新加坡商蝦皮娛樂電商有限公司台灣分公司
-company_page_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/companies/ShopeeTW
+company_page_url: 'http://114.32.58.99:8088/companies/ShopeeTW'
 company_logo_url: >-
   https://web.archive.org/web/20220310122200/https://media.cakeresume.com/image/upload/s--HPkXNLP---/c_pad,fl_png8,h_200,w_200/v1560152414/i8d1cqdzwxq2jtvovavr.png
 salary_text: TWD600000 - TWD1100000

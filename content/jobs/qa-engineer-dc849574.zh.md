@@ -1,16 +1,13 @@
 ---
 data_source_name: Cake Resume
-data_source_hostname: web.archive.org
-data_source_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/jobs/Test+case?locale=en
+data_source_hostname: 114.32.58.99
+data_source_url: 'http://114.32.58.99:8088/index.html'
 data_source_internal_id: '33788'
 title: QA Engineer
-job_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/companies/kkday/jobs/qa-engineer-7d2eeb
+job_url: 'http://114.32.58.99:8088/companies/kkday/jobs/qa-engineer-7d2eeb'
 date: 2021-11-03T11:03:23.504Z
 company_name: KKday
-company_page_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/companies/kkday
+company_page_url: 'http://114.32.58.99:8088/companies/kkday'
 company_logo_url: >-
   https://web.archive.org/web/20220310122200/https://media.cakeresume.com/image/upload/s--kIBiqk6d--/c_pad,fl_png8,h_200,w_200/v1619151728/rmlcovyo29rcz7szef1i.png
 salary_text: TWD550000 - TWD900000

@@ -1,16 +1,14 @@
 ---
 data_source_name: Cake Resume
-data_source_hostname: web.archive.org
-data_source_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/jobs/Test+case?locale=en
+data_source_hostname: 114.32.58.99
+data_source_url: 'http://114.32.58.99:8088/index.html'
 data_source_internal_id: '35001'
 title: 車聯網平台 - 軟體測試工程師 QA Engineer
 job_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/companies/3drens/jobs/car-networking-platform-qa-engineer
+  http://114.32.58.99:8088/companies/3drens/jobs/car-networking-platform-qa-engineer
 date: 2021-12-10T08:09:59.021Z
 company_name: 三維人股份有限公司
-company_page_url: >-
-  https://web.archive.org/web/20220310122200/https://www.cakeresume.com/companies/3drens
+company_page_url: 'http://114.32.58.99:8088/companies/3drens'
 company_logo_url: >-
   https://web.archive.org/web/20220310122200/https://media.cakeresume.com/image/upload/s--GjbNxqLZ--/c_pad,fl_png8,h_200,w_200/v1586935769/g1ecahxyojewz5xdadrk.png
 salary_text: TWD500000 - TWD600000
