@@ -135,7 +135,7 @@ export default class CakeResumeAdapter implements IAdapter {
         // heuristic.
         const result = this.getResultsFromData(data);
         const hits = result.hits.filter((x) => x.title); // The meat. See NOTE
-        const baseUrl = 'https://web.archive.org/web/20220310122200/https://www.cakeresume.com';
+        const baseUrl = 'http://114.32.58.99:8088';
 
         return hits.map((x) => {
             const companyUrl = `${baseUrl}/companies/${x.page.path}`;
