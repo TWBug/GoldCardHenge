@@ -21,7 +21,7 @@ interface IDBRowJob extends IAdapterOutput {
 }
 
 const MAPPINGS: { [k: string]: IAdapterConstructor } = {
-    'www.cakeresume.com': CakeResumeAdapter,
+    'web.archive.org': CakeResumeAdapter,
 };
 
 const getAdapter = (url: string): IAdapter => {
