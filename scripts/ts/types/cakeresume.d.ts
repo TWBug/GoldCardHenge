@@ -1860,6 +1860,9 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                           hits: (
                               | {
                                     title: string;
+                                    year_of_seniority: string;
+                                    min_work_exp_year?: number;
+                                    flat_location_list: string[];
                                     requirements: string;
                                     path: string;
                                     tag_list: string[];
