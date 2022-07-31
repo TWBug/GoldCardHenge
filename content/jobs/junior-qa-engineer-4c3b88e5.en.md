@@ -34,7 +34,7 @@ job_tags:
   - 測試工程師
   - Testing Engineer
 badges:
-  - Cloud ComputingTest0730A2
+  - Cloud index01
 
 ---
 

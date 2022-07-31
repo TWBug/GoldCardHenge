@@ -29,7 +29,7 @@ job_tags:
   - QA Engineer
   - QA testing軟體測試
 badges:
-  - Cloud ComputingTest0730A2
+  - Cloud index01
 
 ---
 

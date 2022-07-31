@@ -37,7 +37,7 @@ job_tags:
   - +SQA
   - +擴大徵才
 badges:
-  - Cloud ComputingTest0730A2
+  - Cloud index01
 
 ---
 

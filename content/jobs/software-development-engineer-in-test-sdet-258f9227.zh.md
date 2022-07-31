@@ -19,7 +19,7 @@ location_list:
   - 台北
 job_tags: []
 badges:
-  - Cloud ComputingTest0730A2
+  - Cloud index01
 
 ---
 

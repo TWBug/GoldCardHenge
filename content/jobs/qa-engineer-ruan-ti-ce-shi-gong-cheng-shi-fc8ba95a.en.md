@@ -28,7 +28,7 @@ job_tags:
   - Software Interation Testing
   - Stress Test
 badges:
-  - Cloud ComputingTest0730A2
+  - Cloud index01
 
 ---
 
