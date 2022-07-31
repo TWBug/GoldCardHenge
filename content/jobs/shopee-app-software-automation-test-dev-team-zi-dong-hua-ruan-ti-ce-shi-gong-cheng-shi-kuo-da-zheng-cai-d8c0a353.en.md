@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/index01.html'
+data_source_url: 'http://114.32.58.99:8088/index02.html'
 data_source_internal_id: '11018'
 title: 'SHOPEE APP - Software Automation Test (Dev. Team) 自動化軟體測試工程師 #擴大徵才'
 job_url: 'http://114.32.58.99:8088/companies/ShopeeTW/jobs/b6dc8b'
@@ -39,7 +39,7 @@ job_tags:
   - +SQA
   - +擴大徵才
 badges:
-  - Cloud index01
+  - Cloud index03
 
 ---
 

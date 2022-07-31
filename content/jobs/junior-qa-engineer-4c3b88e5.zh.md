@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/index01.html'
+data_source_url: 'http://114.32.58.99:8088/index02.html'
 data_source_internal_id: '33787'
 title: Junior QA Engineer
 job_url: 'http://114.32.58.99:8088/companies/kkday/jobs/rd-junior-qa-engineer'
@@ -34,7 +34,7 @@ job_tags:
   - 測試工程師
   - Testing Engineer
 badges:
-  - Cloud index01
+  - Cloud index03
 
 ---
 
