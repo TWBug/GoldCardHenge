@@ -27,7 +27,7 @@ job_tags:
   - Appium
   - Test case
 badges:
-  - Cloud index03
+  - Cloud index02
 
 ---
 
