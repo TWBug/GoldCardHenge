@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/index02.html'
+data_source_url: 'http://114.32.58.99:8088/index03.html'
 data_source_internal_id: '18170'
 title: QA Engineer 軟體測試工程師
 job_url: >-
@@ -28,7 +28,7 @@ job_tags:
   - Software Interation Testing
   - Stress Test
 badges:
-  - Cloud index02
+  - Cloud index03t1627
 
 ---
 
