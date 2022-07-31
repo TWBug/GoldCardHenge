@@ -1,5 +1,7 @@
 items:
   - label: Cloud ComputingTest0730A
     url: http://114.32.58.99:8088/index.html
-  - label: Cloud ComputingTest0730A2
+  - label: Cloud index01
     url: http://114.32.58.99:8088/index01.html
+  - label: Cloud index02
+    url: http://114.32.58.99:8088/index02.html
