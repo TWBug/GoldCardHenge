@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/index.html'
+data_source_url: 'http://114.32.58.99:8088/index01.html'
 data_source_internal_id: '11019'
 title: 'Software Manual Test - QA (Dev. Team) 手動軟體測試工程師 #擴大徵才'
 job_url: 'http://114.32.58.99:8088/companies/ShopeeTW/jobs/7ee932'
@@ -37,7 +37,7 @@ job_tags:
   - +SQA
   - +擴大徵才
 badges:
-  - Cloud ComputingTest0730A
+  - Cloud ComputingTest0730A2
 
 ---
 
