@@ -23,7 +23,7 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                 export const salary_type: string;
                             }
                         }
-                        export namespace results {
+                        export namespace jobResultsState {
                             export namespace content {
                                 export const _rawResults: (
                                     | {
@@ -3921,7 +3921,8 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                 }
                             }
                         }
-
+                        export const companyResultsState: {};
+                        export const hasSSRFirstResultsState: boolean;
                     }
 
                 }
