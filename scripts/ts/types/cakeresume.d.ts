@@ -3,6 +3,10 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
     
     
  export namespace props {
+     
+             export namespace pageProps {
+            export namespace serverState {
+                export namespace initialResults {
     
     export namespace jobSearch {
         export namespace searchState {
@@ -5281,4 +5285,9 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
     }
 
   }
+                
+            }
+        }
+    }
+                
 }
