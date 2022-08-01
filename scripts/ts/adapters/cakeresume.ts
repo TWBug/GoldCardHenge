@@ -39,7 +39,7 @@ export default class CakeResumeAdapter implements IAdapter {
 
     getResultsFromData(data: typeof __APP_INITIAL_REDUX_STATE__) {
         // @ts-ignore
-        const { content, rawResults } = data.jobSearch.jobResultsState;
+        const { content, rawResults } = data.props.jobSearch.jobResultsState;
         let result;
 
         // Explanation: Content is a nice aggregated stats object, however, it
