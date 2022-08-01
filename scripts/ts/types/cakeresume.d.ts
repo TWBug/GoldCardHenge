@@ -1,5 +1,9 @@
 export namespace __APP_INITIAL_REDUX_STATE__ {
 
+    
+    
+ export namespace props {
+    
     export namespace jobSearch {
         export namespace searchState {
             const query_1: string;
@@ -5276,4 +5280,5 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
         export const hasSSRFirstResultsState: boolean;
     }
 
+  }
 }
