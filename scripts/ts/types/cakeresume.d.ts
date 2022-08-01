@@ -23,8 +23,9 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                 export const salary_type: string;
                             }
                         }
-                        export const results: (
-
+                        export namespace results {
+                            export namespace content {
+                                export const _rawResults: (
                                     | {
                                         hits: (
                                             | {
@@ -3918,7 +3919,8 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     export const ruleContexts: any[];
                                     export const clickAnalytics: boolean;
                                 }
-
+                            }
+                        }
 
                     }
 
