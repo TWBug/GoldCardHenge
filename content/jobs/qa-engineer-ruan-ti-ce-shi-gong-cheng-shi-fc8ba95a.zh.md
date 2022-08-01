@@ -28,7 +28,7 @@ job_tags:
   - Software Interation Testing
   - Stress Test
 badges:
-  - Cloud index03t1407
+  - Cloud index03t1412
 
 ---
 
