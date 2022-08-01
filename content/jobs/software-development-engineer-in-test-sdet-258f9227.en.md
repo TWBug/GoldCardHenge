@@ -19,7 +19,7 @@ location_list:
   - 台北
 job_tags: []
 badges:
-  - Cloud index03t1429
+  - Cloud index03t1434
 
 ---
 
