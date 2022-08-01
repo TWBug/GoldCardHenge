@@ -8,7 +8,7 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
             export namespace serverState {
                 export namespace initialResults {
     
-    export namespace jobSearch {
+    export namespace Job {
         export namespace searchState {
             const query_1: string;
             export { query_1 as query };
