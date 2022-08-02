@@ -47,9 +47,7 @@ export default class CakeResumeAdapter implements IAdapter {
         // Explanation: Content is a nice aggregated stats object, however, it
         // is not always present. What we get instead is an array of individual
         // stats objects which we can then aggregate together on our own.
-        if (content) {
-            result = content;
-        } else if (rawResults) {
+        if (rawResults) {
             result = rawResults.reduce((agg, x) => {
                 for (const [k, v] of Object.entries(x)) {
                     if (!(k in agg)) {
