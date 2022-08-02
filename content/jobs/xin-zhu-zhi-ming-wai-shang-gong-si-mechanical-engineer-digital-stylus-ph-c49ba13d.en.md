@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/new 9.html'
+data_source_url: 'http://114.32.58.99:8088/newq6.html'
 data_source_internal_id: '39533'
 title: ✨新竹知名外商公司 - Mechanical Engineer (Digital Stylus)- PH
 job_url: >-
@@ -24,7 +24,7 @@ job_tags:
   - Digital Stylus
   - AUTOCAD
 badges:
-  - Cloud index03t1419g
+  - Cloud index03t1419dq
 
 ---
 

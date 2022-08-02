@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/new 11.html'
+data_source_url: 'http://114.32.58.99:8088/newq5.html'
 data_source_internal_id: '35091'
 title: '[大型軟體開發商] React Front End Developer 前端工程師、薪資優渥、工作環境好 '
 job_url: 'http://114.32.58.99:8088/companies/conbiz-consulting-firm/jobs/01c537'
@@ -31,7 +31,7 @@ job_tags:
   - Github
   - API串接
 badges:
-  - Cloud index03t1419i
+  - Cloud index03t1419cq
 
 ---
 

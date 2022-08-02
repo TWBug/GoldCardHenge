@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/new 5.html'
+data_source_url: 'http://114.32.58.99:8088/newq6.html'
 data_source_internal_id: '39521'
 title: 半導體外商設備商 - Technical Support Engineer(SW) - 新竹 - JL
 job_url: >-
@@ -32,7 +32,7 @@ job_tags:
   - LabVIEW
   - Halcon
 badges:
-  - Cloud index03t1419c
+  - Cloud index03t1419dq
 
 ---
 

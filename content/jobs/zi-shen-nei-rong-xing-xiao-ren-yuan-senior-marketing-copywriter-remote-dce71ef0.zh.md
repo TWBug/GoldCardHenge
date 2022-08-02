@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/new 8.html'
+data_source_url: 'http://114.32.58.99:8088/newq11.html'
 data_source_internal_id: '39699'
 title: "\U0001F525[資深] 內容行銷人員 Senior Marketing Copywriter (Remote)\U0001F680"
 job_url: >-
@@ -27,7 +27,7 @@ job_tags:
   - English
   - 遠端工作
 badges:
-  - Cloud index03t1419f
+  - Cloud index03t1419iq
 
 ---
 

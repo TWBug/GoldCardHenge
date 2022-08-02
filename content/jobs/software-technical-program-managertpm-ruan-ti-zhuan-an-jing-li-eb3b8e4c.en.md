@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/new 11.html'
+data_source_url: 'http://114.32.58.99:8088/newq8.html'
 data_source_internal_id: '39303'
 title: Software Technical Program Manager(TPM) 軟體專案經理
 job_url: >-
@@ -23,7 +23,7 @@ job_tags:
   - Software
   - Project Manager
 badges:
-  - Cloud index03t1419i
+  - Cloud index03t1419fq
 
 ---
 

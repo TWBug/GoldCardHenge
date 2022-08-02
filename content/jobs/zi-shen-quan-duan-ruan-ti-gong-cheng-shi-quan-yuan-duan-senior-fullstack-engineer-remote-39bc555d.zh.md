@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/new 11.html'
+data_source_url: 'http://114.32.58.99:8088/newq11.html'
 data_source_internal_id: '10593'
 title: "\U0001F525 [資深] 全端軟體工程師 (全遠端) \U0001F6E0 Senior Full-Stack Engineer (Remote) \U0001F680"
 job_url: 'http://114.32.58.99:8088/companies/aha/jobs/full-stack-engineer-e3e8e1'
@@ -43,7 +43,7 @@ job_tags:
   - 全端工程師
   - 遠端工作
 badges:
-  - Cloud index03t1419i
+  - Cloud index03t1419iq
 
 ---
 

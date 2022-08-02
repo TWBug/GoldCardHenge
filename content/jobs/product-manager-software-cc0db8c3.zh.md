@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/new 11.html'
+data_source_url: 'http://114.32.58.99:8088/newq8.html'
 data_source_internal_id: '36457'
 title: Product Manager (Software)
 job_url: 'http://114.32.58.99:8088/companies/viverse/jobs/product-manager-software'
@@ -29,7 +29,7 @@ job_tags:
   - go-to-market
   - VIVEPORT
 badges:
-  - Cloud index03t1419i
+  - Cloud index03t1419fq
 
 ---
 

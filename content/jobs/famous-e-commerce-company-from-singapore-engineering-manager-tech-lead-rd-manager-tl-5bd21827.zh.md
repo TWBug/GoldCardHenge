@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/new 6.html'
+data_source_url: 'http://114.32.58.99:8088/newq6.html'
 data_source_internal_id: '32143'
 title: >-
   Famous E-Commerce company from Singapore-Engineering Manager/Tech Lead/RD
@@ -31,7 +31,7 @@ job_tags:
   - Tech Lead
   - tech lead
 badges:
-  - Cloud index03t1419d
+  - Cloud index03t1419dq
 
 ---
 

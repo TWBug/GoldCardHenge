@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/new 8.html'
+data_source_url: 'http://114.32.58.99:8088/newq11.html'
 data_source_internal_id: '20684'
 title: 資深前端工程師 Sr. Frontend Engineer (React)(可遠端工作)
 job_url: >-
@@ -34,7 +34,7 @@ job_tags:
   - ES6+
   - Webpack
 badges:
-  - Cloud index03t1419f
+  - Cloud index03t1419iq
 
 ---
 

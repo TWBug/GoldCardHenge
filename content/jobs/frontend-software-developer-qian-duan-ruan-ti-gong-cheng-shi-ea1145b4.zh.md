@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/new 8.html'
+data_source_url: 'http://114.32.58.99:8088/newq10.html'
 data_source_internal_id: '38261'
 title: Frontend Software Developer (前端軟體工程師)
 job_url: 'http://114.32.58.99:8088/companies/akohub/jobs/frontend-web-developer-shopify'
@@ -24,7 +24,7 @@ job_tags:
   - 前端工程師
   - Ako
 badges:
-  - Cloud index03t1419f
+  - Cloud index03t1419hq
 
 ---
 

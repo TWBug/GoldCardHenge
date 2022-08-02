@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/new 11.html'
+data_source_url: 'http://114.32.58.99:8088/newq6.html'
 data_source_internal_id: '36616'
 title: Software Engineering Manager - Tech Hub
 job_url: >-
@@ -28,7 +28,7 @@ job_tags:
   - Software Engineering
   - Software Development
 badges:
-  - Cloud index03t1419i
+  - Cloud index03t1419dq
 
 ---
 

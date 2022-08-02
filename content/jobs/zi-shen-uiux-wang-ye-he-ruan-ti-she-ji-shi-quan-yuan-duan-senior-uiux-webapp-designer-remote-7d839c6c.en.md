@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/new 11.html'
+data_source_url: 'http://114.32.58.99:8088/newq7.html'
 data_source_internal_id: '14713'
 title: "\U0001F525 [資深] UI/UX 網頁和軟體設計師\U0001F3A8  (全遠端) Senior UI/UX Web/App Designer (Remote)"
 job_url: 'http://114.32.58.99:8088/companies/aha/jobs/uiux-web-design'
@@ -31,7 +31,7 @@ job_tags:
   - 使用者介面
   - 遠端工作
 badges:
-  - Cloud index03t1419i
+  - Cloud index03t1419eq
 
 ---
 

@@ -1,0 +1,31 @@
+---
+data_source_name: Cake Resume
+data_source_hostname: 114.32.58.99
+data_source_url: 'http://114.32.58.99:8088/newq8.html'
+data_source_internal_id: '41939'
+title: >-
+  Technical Product Manager (3rd party integration and open API product
+  organized)
+job_url: 'http://114.32.58.99:8088/companies/shopline/jobs/80c3b2'
+date: 2022-06-14T09:59:23.371Z
+company_name: SHOPLINE 商線科技
+company_page_url: 'http://114.32.58.99:8088/companies/shopline'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--LCTuSXKA--/c_pad,fl_png8,h_200,w_200/v1568863313/elpclzqvs12aoi2gvswo.png
+salary_text: TWD1100000 - TWD1600000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 1100000
+salary_max: 1600000
+location_list:
+  - Taiwan
+  - 'Taipei, Taiwan'
+  - 台灣
+  - 台灣台北
+job_tags: []
+badges:
+  - Cloud index03t1419fq
+
+---
+
+【What you’ll be doing】 - Product owner of our 3rd party integraiton service and Open API service for requirement clarification, prioritization and execution - Work with cross-functional stakeholders to gather and translate the business needs into product requirements - Establish work flow to manage different 3rd party service integration and Open API service and reduce the impact on integration - Work closely with EC engineers to define implementation plan and fulfill request by building the ser
