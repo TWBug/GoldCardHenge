@@ -28,7 +28,7 @@ export default class CakeResumeAdapter implements IAdapter {
 
         const res = await got(url, { headers: getHeaders(url) });
         const $ = cheerio.load(res.body);
-        console.log(res.body);
+        //console.log(res.body);
         this.$ = $;
         return $;
     }
@@ -98,8 +98,8 @@ export default class CakeResumeAdapter implements IAdapter {
         const $ = await this.getMarkup();
         //console.log($);
         
-        const scriptA = $('script');
-        //console.log(`[INFOfor] <- ${scriptA}`);
+        const scriptA = $("#NEXT_DATA");
+        console.log(`[INFOfor] <- ${scriptA}`);
         
         const script = $('script').filter(
             (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
