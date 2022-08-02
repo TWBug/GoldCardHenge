@@ -1,41 +1,5 @@
 items:
+  - label: Cloud index03t1454
+    url: http://114.32.58.99:8088/index02b.html
   - label: Cloud index03t1437a
-    url: http://114.32.58.99:8088/new 3.html
-  - label: Cloud index03t1419b
-    url: http://114.32.58.99:8088/new 4.html
-  - label: Cloud index03t1419c
-    url: http://114.32.58.99:8088/new 5.html
-  - label: Cloud index03t1419d
-    url: http://114.32.58.99:8088/new 6.html
-  - label: Cloud index03t1419e
-    url: http://114.32.58.99:8088/new 7.html
-  - label: Cloud index03t1419f
-    url: http://114.32.58.99:8088/new 8.html
-  - label: Cloud index03t1419g
-    url: http://114.32.58.99:8088/new 9.html
-  - label: Cloud index03t1419h
-    url: http://114.32.58.99:8088/new 10.html
-  - label: Cloud index03t1419i
-    url: http://114.32.58.99:8088/new 11.html
-  - label: Cloud index03t1419j
-    url: http://114.32.58.99:8088/new 12.html
-  - label: Cloud index03t1424aq
-    url: http://114.32.58.99:8088/newq3.html
-  - label: Cloud index03t1419bq
-    url: http://114.32.58.99:8088/newq4.html
-  - label: Cloud index03t1419cq
-    url: http://114.32.58.99:8088/newq5.html
-  - label: Cloud index03t1419dq
-    url: http://114.32.58.99:8088/newq6.html
-  - label: Cloud index03t1419eq
-    url: http://114.32.58.99:8088/newq7.html
-  - label: Cloud index03t1419fq
-    url: http://114.32.58.99:8088/newq8.html
-  - label: Cloud index03t1419gq
-    url: http://114.32.58.99:8088/newq9.html
-  - label: Cloud index03t1419hq
-    url: http://114.32.58.99:8088/newq10.html
-  - label: Cloud index03t1419iq
-    url: http://114.32.58.99:8088/newq11.html
-  - label: Cloud index03t1419jq
-    url: http://114.32.58.99:8088/newq12.html
+    url: http://114.32.58.99:8088/index03.html
