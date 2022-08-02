@@ -101,13 +101,15 @@ export default class CakeResumeAdapter implements IAdapter {
         const scriptA = $('#__NEXT_DATA__');
         //console.log(`[INFOfor] <- ${scriptA}`);
         
-        const script = $('script').filter(
-            (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
-        );
+        //const script = $('script').filter(
+        //    (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
+        //);
         //console.log(script);
-        assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
+        //assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
 
         const raw = scriptA.html();
+        var str2 = "window.__APP_INITIAL_REDUX_STATE__ =";
+        const raw = str1.concat(raw);
         //console.log(`[raw111] script.html <- ${script.html()}`);
         //console.log(`[raw112] scriptA.html <- ${scriptA.html()}`);
         assert(raw, 'No inline script source found');
