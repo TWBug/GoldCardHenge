@@ -116,7 +116,7 @@ export default class CakeResumeAdapter implements IAdapter {
         const ctx = { window: {} };
         //console.log(ctx);
         vm.runInNewContext(raw, ctx);
-        console.log(`[ctx119] <- ${ctx}`);
+        console.log(`[ctx119] <- ${JSON.stringify(ctx)}`);
         // @ts-ignore
         const data: CakeAppState | undefined = ctx.window.__APP_INITIAL_REDUX_STATE__;
         //console.log(`[data121] <- ${data}`);
