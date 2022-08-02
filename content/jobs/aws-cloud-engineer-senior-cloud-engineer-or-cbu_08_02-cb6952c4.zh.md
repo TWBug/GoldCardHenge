@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/index03k.html'
+data_source_url: 'http://114.32.58.99:8088/index02k.html'
 data_source_internal_id: '8300'
 title: AWS Cloud Engineer / Senior Cloud Engineer | CBU_08_02
 job_url: >-
