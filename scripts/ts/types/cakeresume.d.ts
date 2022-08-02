@@ -24,7 +24,7 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                             }
                         }
                         export namespace jobResultsState {
-                            export namespace content {
+                            
                                 export const _rawResults: (
                                     | {
                                         hits: (
@@ -3919,7 +3919,7 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     export const ruleContexts: any[];
                                     export const clickAnalytics: boolean;
                                 }
-                            }
+                            
                         }
 
                     }
