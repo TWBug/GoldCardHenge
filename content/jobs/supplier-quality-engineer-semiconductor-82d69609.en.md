@@ -24,7 +24,7 @@ location_list:
   - 台灣新北市新店區
 job_tags: []
 badges:
-  - Cloud index03t1645
+  - Cloud index03t1650
 
 ---
 
