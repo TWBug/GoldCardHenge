@@ -27,8 +27,8 @@ export default class CakeResumeAdapter implements IAdapter {
         if (this.$) return this.$;
 
         const res = await got(url, { headers: getHeaders(url) });
-        console.log(res);
         const $ = cheerio.load(res.body);
+        console.log(res.body);
         this.$ = $;
         return $;
     }
