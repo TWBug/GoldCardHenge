@@ -32,7 +32,7 @@ job_tags:
   - LabVIEW
   - Halcon
 badges:
-  - Cloud index03t1708
+  - Cloud index03t1711
 
 ---
 
