@@ -3921,8 +3921,7 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                 }
                             }
                         }
-                        export const companyResultsState: {};
-                        export const hasSSRFirstResultsState: boolean;
+
                     }
 
                 }
