@@ -23,7 +23,7 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                 export const salary_type: string;
                             }
                         }
-                        export namespace jobResultsState {
+                        
                             
                                 export const _rawResults: (
                                     | {
@@ -3920,7 +3920,7 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                                     export const clickAnalytics: boolean;
                                 }
                             
-                        }
+                        
 
                     }
 
