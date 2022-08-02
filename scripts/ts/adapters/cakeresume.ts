@@ -103,7 +103,7 @@ export default class CakeResumeAdapter implements IAdapter {
         assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
 
         const raw = script.html();
-
+        console.log(raw);
         assert(raw, 'No inline script source found');
 
         // This is a temporary context which we will use to grab the globals set in the script
