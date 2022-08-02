@@ -101,27 +101,25 @@ export default class CakeResumeAdapter implements IAdapter {
         const scriptA = $('#__NEXT_DATA__');
         //console.log(`[INFOfor] <- ${scriptA}`);
         
-        //const script = $('script').filter(
-        //    (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
-        //);
+        const script = $('script').filter(
+            (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
+        );
         //console.log(script);
-        //assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
+        assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
 
-        const raw = scriptA.html();
-        var rawVar = JSON.stringify(raw);
-        console.log(`[rawVar]  <- ${rawVar}`);
+        const raw = script.html();
+        //console.log(`[raw111] script.html <- ${script.html()}`);
         //console.log(`[raw112] scriptA.html <- ${scriptA.html()}`);
-        //assert(raw, 'No inline script source found');
-        var objRaw = JSON.parse(rawVar);
-        console.log(`[objRaw115] <- ${objRaw}`);
+        assert(raw, 'No inline script source found');
+
         // This is a temporary context which we will use to grab the globals set in the script
-        //const ctx = { };
+        const ctx = { window: {} };
         //console.log(ctx);
-        //vm.runInNewContext(raw, ctx);
-        //console.log(`[ctx119] <- ${JSON.stringify(ctx)}`);
+        vm.runInNewContext(raw, ctx);
+        console.log(`[ctx119] <- ${JSON.stringify(ctx)}`);
         // @ts-ignore
-        const data: CakeAppState | undefined = objRaw;
-        //console.log(`[data122] <- ${data}`);
+        const data: CakeAppState | undefined = ctx.window.__APP_INITIAL_REDUX_STATE__;
+        //console.log(`[data121] <- ${data}`);
         assert(data, 'No app state detected on page: ' + this.url);
 
         // @note It's very important we assign here.
