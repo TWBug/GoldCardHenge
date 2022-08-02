@@ -21,7 +21,7 @@ job_tags:
   - SRE
   - SRE manager
 badges:
-  - Cloud index03t1537
+  - Cloud index03t1542
 
 ---
 

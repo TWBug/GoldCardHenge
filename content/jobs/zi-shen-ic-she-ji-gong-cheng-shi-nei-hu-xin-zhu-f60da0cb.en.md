@@ -19,7 +19,7 @@ salary_max: 3000000
 location_list: []
 job_tags: []
 badges:
-  - Cloud index03t1537
+  - Cloud index03t1542
 
 ---
 
