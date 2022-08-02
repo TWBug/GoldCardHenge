@@ -1,14 +1,15 @@
 ---
 data_source_name: Cake Resume
-data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/index02k.html'
+data_source_hostname: www.cakeresume.com
+data_source_url: >-
+  https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '41993'
 title: Sr.Backend Engineer 資深後端工程師(Wave)
 job_url: >-
-  http://114.32.58.99:8088/companies/17LIVE/jobs/sr-backend-engineer-senior-backend-engineer-wave
+  https://www.cakeresume.com/companies/17LIVE/jobs/sr-backend-engineer-senior-backend-engineer-wave
 date: 2022-06-15T06:31:54.183Z
 company_name: 17LIVE
-company_page_url: 'http://114.32.58.99:8088/companies/17LIVE'
+company_page_url: 'https://www.cakeresume.com/companies/17LIVE'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--gOfgfDas--/c_pad,fl_png8,h_200,w_200/v1631242029/bepr2auigdsmabtbodig.png
 salary_text: TWD1200000 - TWD0
@@ -31,7 +32,7 @@ job_tags:
   - Linux
   - distributed systems
 badges:
-  - Cloud index03t2244
+  - Software architecture
 
 ---
 

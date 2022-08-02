@@ -1,13 +1,14 @@
 ---
 data_source_name: Cake Resume
-data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/index02k.html'
+data_source_hostname: www.cakeresume.com
+data_source_url: >-
+  https://www.cakeresume.com/jobs?q=cloud%20computing&locale=en&refinementList%5Bseniority_level%5D%5B0%5D=mid_senior_level&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '27764'
 title: 'Cloud Software Architect '
-job_url: 'http://114.32.58.99:8088/companies/UI-Limited/jobs/cloud-software-architect'
+job_url: 'https://www.cakeresume.com/companies/UI-Limited/jobs/cloud-software-architect'
 date: 2021-03-17T08:21:35.552Z
 company_name: UI Limited 優比快股份有限公司
-company_page_url: 'http://114.32.58.99:8088/companies/UI-Limited'
+company_page_url: 'https://www.cakeresume.com/companies/UI-Limited'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--8_tOvfMl--/c_pad,fl_png8,h_200,w_200/v1652866387/xtiubzqy3eub93zondpx.png
 salary_text: TWD1800000 - TWD0
@@ -19,7 +20,7 @@ location_list:
   - 台北
 job_tags: []
 badges:
-  - Cloud index03t2244
+  - Cloud Computing
 
 ---
 

@@ -1,14 +1,15 @@
 ---
 data_source_name: Cake Resume
-data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/index02k.html'
+data_source_hostname: www.cakeresume.com
+data_source_url: >-
+  https://www.cakeresume.com/jobs?q=cloud%20computing&locale=en&refinementList%5Bseniority_level%5D%5B0%5D=mid_senior_level&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '8300'
 title: AWS Cloud Engineer / Senior Cloud Engineer | CBU_08_02
 job_url: >-
-  http://114.32.58.99:8088/companies/ecloudvalley/jobs/ecloudvalley-msp-cloud-engineer
+  https://www.cakeresume.com/companies/ecloudvalley/jobs/ecloudvalley-msp-cloud-engineer
 date: 2018-12-25T08:23:29.322Z
 company_name: eCloudvalley 伊雲谷數位股份有限公司
-company_page_url: 'http://114.32.58.99:8088/companies/ecloudvalley'
+company_page_url: 'https://www.cakeresume.com/companies/ecloudvalley'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--f97vC5No--/c_pad,fl_png8,h_200,w_200/v1620025131/plasvlv0yqm9knu5hcyb.png
 salary_text: TWD600000 - TWD1200000
@@ -27,7 +28,7 @@ job_tags:
   - CloudFlare
   - Cloud
 badges:
-  - Cloud index03t2244
+  - Cloud Computing
 
 ---
 
