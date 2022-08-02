@@ -26,7 +26,7 @@ job_tags:
   - ARM Cortex-M
   - 32 BIT
 badges:
-  - Cloud index03t1206
+  - Cloud index03t1211
 
 ---
 
