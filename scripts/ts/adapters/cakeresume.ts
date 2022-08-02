@@ -114,9 +114,9 @@ export default class CakeResumeAdapter implements IAdapter {
 
         // This is a temporary context which we will use to grab the globals set in the script
         const ctx = { window: {} };
-        //console.log(ctx);
+        console.log(raw);
         vm.runInNewContext(raw, ctx);
-        console.log(`[ctx119] <- ${JSON.stringify(ctx)}`);
+        //console.log(`[ctx119] <- ${JSON.stringify(ctx)}`);
         // @ts-ignore
         const data: CakeAppState | undefined = ctx.window.__APP_INITIAL_REDUX_STATE__;
         //console.log(`[data121] <- ${data}`);
