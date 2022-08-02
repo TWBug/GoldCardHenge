@@ -39,16 +39,16 @@ export default class CakeResumeAdapter implements IAdapter {
 
     getResultsFromData(data: typeof __APP_INITIAL_REDUX_STATE__) {
         // @ts-ignore
-        const { rawResults } = data.props.pageProps.serverState.initialResults.Job;
+        const { results } = data.props.pageProps.serverState.initialResults.Job;
         let result;
         
-        console.log(rawResults);
+        console.log(results);
 
         // Explanation: Content is a nice aggregated stats object, however, it
         // is not always present. What we get instead is an array of individual
         // stats objects which we can then aggregate together on our own.
-        if (rawResults) {
-            result = rawResults.reduce((agg, x) => {
+        if (results) {
+            result = results.reduce((agg, x) => {
                 for (const [k, v] of Object.entries(x)) {
                     if (!(k in agg)) {
                         agg[k] = v;
