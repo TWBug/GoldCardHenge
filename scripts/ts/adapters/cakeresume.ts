@@ -95,6 +95,7 @@ export default class CakeResumeAdapter implements IAdapter {
         if (this.data) return this.data;
 
         const $ = await this.getMarkup();
+        console.log($);
         const script = $('script').filter(
             (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
         );
