@@ -104,11 +104,11 @@ export default class CakeResumeAdapter implements IAdapter {
         const script = $('script').filter(
             (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
         );
-        console.log(script);
+        //console.log(script);
         assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
 
         const raw = script.html();
-        
+        console.log(script.html());
         assert(raw, 'No inline script source found');
 
         // This is a temporary context which we will use to grab the globals set in the script
