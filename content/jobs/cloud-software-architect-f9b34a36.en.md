@@ -1,7 +1,7 @@
 ---
 data_source_name: Cake Resume
 data_source_hostname: 114.32.58.99
-data_source_url: 'http://114.32.58.99:8088/index03.html'
+data_source_url: 'http://114.32.58.99:8088/new 3.html'
 data_source_internal_id: '27764'
 title: 'Cloud Software Architect '
 job_url: 'http://114.32.58.99:8088/companies/UI-Limited/jobs/cloud-software-architect'
