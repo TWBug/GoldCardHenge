@@ -1,0 +1,51 @@
+---
+data_source_name: Cake Resume
+data_source_hostname: 114.32.58.99
+data_source_url: 'http://114.32.58.99:8088/new 9.html'
+data_source_internal_id: '29042'
+title: JH- Embedded software engineer 【ethernet switch | MNC company】
+job_url: >-
+  http://114.32.58.99:8088/companies/insearch/jobs/switch-engineer-software-engineer
+date: 2021-04-28T09:44:50.492Z
+company_name: iN Search 卓恩管理顧問有限公司
+company_page_url: 'http://114.32.58.99:8088/companies/insearch'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--9dhdcOiu--/c_pad,fl_png8,h_200,w_200/v1610522688/ppnzb1veba43cha2rznf.png
+salary_text: TWD0 - TWD0
+salary_currency: TWD
+salary_type: per_year
+salary_min: 0
+salary_max: 0
+location_list:
+  - Taiwan
+  - 'Taipei, Taiwan'
+  - 台灣
+  - 台灣台北
+job_tags:
+  - Switch
+  - embedded system
+  - L2
+  - L3
+  - Protocol
+  - Ethernet
+  - embedded linux
+  - C
+  - software
+  - Software Engineering
+  - Software Development
+  - TCP/IP
+  - UI
+  - firmware
+  - 網通
+  - 網通產品
+  - 外商公司
+  - 穩定發展
+  - 福利優渥
+  - 研發設計
+  - industrial ethernet switch
+badges:
+  - Cloud index03t1419g
+
+---
+
+穩定發展外商公司，致力提供領先工業網通 【職務內容】 1. 開發工業規格乙太網路交換器產品 2. 開發Layer 2/Layer 3通訊協定 3. 開發與設計嵌入式系統 【Responsibilities】 1. Developing the industrial Ethernet Switch product 2. Developing L2/L3 protocol 3. Embedded Linux firmware development and design
