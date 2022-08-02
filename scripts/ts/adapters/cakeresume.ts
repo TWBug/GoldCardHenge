@@ -105,7 +105,7 @@ export default class CakeResumeAdapter implements IAdapter {
         //    (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
         //);
         //console.log(script);
-        //assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
+        assert(scriptA.length > 0, 'Could not locate app data script in request body. Exiting.');
 
         const raw = "window.__APP_INITIAL_REDUX_STATE__ =" + scriptA.html();
         //console.log(`[raw111] script.html <- ${script.html()}`);
@@ -114,7 +114,7 @@ export default class CakeResumeAdapter implements IAdapter {
 
         // This is a temporary context which we will use to grab the globals set in the script
         const ctx = { window: {} };
-        console.log(raw);
+        //console.log(raw);
         vm.runInNewContext(raw, ctx);
         //console.log(`[ctx119] <- ${JSON.stringify(ctx)}`);
         // @ts-ignore
