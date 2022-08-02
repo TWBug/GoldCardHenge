@@ -42,7 +42,7 @@ export default class CakeResumeAdapter implements IAdapter {
         const { results } = data.props.pageProps.serverState.initialResults.Job;
         let result;
         
-        console.log(results);
+        //console.log(results);
 
         // Explanation: Content is a nice aggregated stats object, however, it
         // is not always present. What we get instead is an array of individual
