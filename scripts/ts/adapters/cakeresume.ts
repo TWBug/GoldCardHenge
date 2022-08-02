@@ -111,15 +111,16 @@ export default class CakeResumeAdapter implements IAdapter {
         //console.log(`[raw111] script.html <- ${script.html()}`);
         //console.log(`[raw112] scriptA.html <- ${scriptA.html()}`);
         //assert(raw, 'No inline script source found');
-
+        const objRaw = JSON.parse(raw);
+        console.log(`[objRaw115] <- ${objRaw}`);
         // This is a temporary context which we will use to grab the globals set in the script
         //const ctx = { };
         //console.log(ctx);
         //vm.runInNewContext(raw, ctx);
         //console.log(`[ctx119] <- ${JSON.stringify(ctx)}`);
         // @ts-ignore
-        const data: CakeAppState | undefined = raw;
-        //console.log(`[data121] <- ${data}`);
+        const data: CakeAppState | undefined = objRaw;
+        //console.log(`[data122] <- ${data}`);
         assert(data, 'No app state detected on page: ' + this.url);
 
         // @note It's very important we assign here.
