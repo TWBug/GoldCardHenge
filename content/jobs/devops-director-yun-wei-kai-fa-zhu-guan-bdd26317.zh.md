@@ -35,7 +35,7 @@ job_tags:
   - Prometheus
   - Python
 badges:
-  - Cloud index03t2003
+  - Cloud index03t2010
 
 ---
 

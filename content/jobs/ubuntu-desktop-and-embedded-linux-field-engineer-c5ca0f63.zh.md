@@ -24,7 +24,7 @@ job_tags:
   - python3
   - UEFI
 badges:
-  - Cloud index03t2003
+  - Cloud index03t2010
 
 ---
 
