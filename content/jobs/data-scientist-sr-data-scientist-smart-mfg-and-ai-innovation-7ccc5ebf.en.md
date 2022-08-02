@@ -36,7 +36,7 @@ job_tags:
   - SQL
   - Deep Learning
 badges:
-  - Cloud index03t1152
+  - Cloud index03t1206
 
 ---
 
