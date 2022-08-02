@@ -97,7 +97,7 @@ export default class CakeResumeAdapter implements IAdapter {
         const $ = await this.getMarkup();
         console.log($);
         const script = $('script').filter(
-            (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
+            (_, x) => !!$(x).html()?.includes('__APP2_INITIAL_REDUX_STATE__')
         );
 
         assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
@@ -111,7 +111,7 @@ export default class CakeResumeAdapter implements IAdapter {
         vm.runInNewContext(raw, ctx);
 
         // @ts-ignore
-        const data: CakeAppState | undefined = ctx.window.__APP_INITIAL_REDUX_STATE__;
+        const data: CakeAppState | undefined = ctx.window.__APP2_INITIAL_REDUX_STATE__;
 
         assert(data, 'No app state detected on page: ' + this.url);
 
