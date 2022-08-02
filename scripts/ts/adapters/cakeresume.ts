@@ -108,7 +108,8 @@ export default class CakeResumeAdapter implements IAdapter {
         assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
 
         const raw = script.html();
-        console.log(`[data111] <- ${script.html()}`);
+        console.log(`[raw111] script.html <- ${script.html()}`);
+        console.log(`[raw112] scriptA.html <- ${scriptA.html()}`);
         assert(raw, 'No inline script source found');
 
         // This is a temporary context which we will use to grab the globals set in the script
@@ -118,7 +119,7 @@ export default class CakeResumeAdapter implements IAdapter {
 
         // @ts-ignore
         const data: CakeAppState | undefined = ctx.window.__APP_INITIAL_REDUX_STATE__;
-        console.log(`[data121] <- ${data}`);
+        //console.log(`[data121] <- ${data}`);
         assert(data, 'No app state detected on page: ' + this.url);
 
         // @note It's very important we assign here.
