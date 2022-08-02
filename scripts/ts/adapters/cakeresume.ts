@@ -95,7 +95,7 @@ export default class CakeResumeAdapter implements IAdapter {
         if (this.data) return this.data;
 
         const $ = await this.getMarkup();
-        console.log($);
+        //console.log($);
         const script = $('script').filter(
             (_, x) => !!$(x).html()?.includes('__APP2_INITIAL_REDUX_STATE__')
         );
@@ -108,11 +108,12 @@ export default class CakeResumeAdapter implements IAdapter {
 
         // This is a temporary context which we will use to grab the globals set in the script
         const ctx = { window: {} };
+        console.log(ctx);
         vm.runInNewContext(raw, ctx);
 
         // @ts-ignore
         const data: CakeAppState | undefined = ctx.window.__APP2_INITIAL_REDUX_STATE__;
-        console.log(data);
+        //console.log(data);
         assert(data, 'No app state detected on page: ' + this.url);
 
         // @note It's very important we assign here.
