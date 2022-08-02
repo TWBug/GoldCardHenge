@@ -25,7 +25,7 @@ export namespace __APP_INITIAL_REDUX_STATE__ {
                         }
                         
                             
-                                export const _rawResults: (
+                                export const results: (
                                     | {
                                         hits: (
                                             | {
