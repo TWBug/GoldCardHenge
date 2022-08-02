@@ -24,7 +24,7 @@ location_list:
 job_tags:
   - 類比IC設計
 badges:
-  - Cloud index03t1346
+  - Cloud index03t1350
 
 ---
 
