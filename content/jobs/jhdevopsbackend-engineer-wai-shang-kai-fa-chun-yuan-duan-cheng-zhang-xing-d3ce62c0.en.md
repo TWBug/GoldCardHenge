@@ -25,7 +25,7 @@ job_tags:
   - backend
   - DevOps
 badges:
-  - Cloud index03t2019
+  - Cloud index03t2024
 
 ---
 

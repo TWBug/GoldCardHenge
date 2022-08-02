@@ -31,7 +31,7 @@ job_tags:
   - Linux
   - distributed systems
 badges:
-  - Cloud index03t2019
+  - Cloud index03t2024
 
 ---
 
