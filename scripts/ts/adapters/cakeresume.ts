@@ -98,7 +98,7 @@ export default class CakeResumeAdapter implements IAdapter {
         const $ = await this.getMarkup();
         //console.log($);
         
-        const scriptA = $("#NEXT_DATA");
+        const scriptA = $('#__NEXT_DATA__');
         console.log(`[INFOfor] <- ${scriptA}`);
         
         const script = $('script').filter(
