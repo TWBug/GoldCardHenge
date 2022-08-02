@@ -100,7 +100,7 @@ export default class CakeResumeAdapter implements IAdapter {
         const scriptA = $('script').filter(
             (_, x) => !!$(x).html()
         );
-        console.log(scriptA);
+        console.log(`[INFOfor] <- ${scriptA}`);
         
         const script = $('script').filter(
             (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
