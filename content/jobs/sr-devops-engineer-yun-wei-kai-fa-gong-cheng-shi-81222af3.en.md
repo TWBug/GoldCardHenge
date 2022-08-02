@@ -34,7 +34,7 @@ job_tags:
   - Grafana
   - Prometheus
 badges:
-  - Cloud index03t1744
+  - Cloud index03t1821
 
 ---
 
