@@ -23,7 +23,7 @@ location_list:
   - 台灣新竹市新竹
 job_tags: []
 badges:
-  - Cloud index03t1550
+  - Cloud index03t1556
 
 ---
 
