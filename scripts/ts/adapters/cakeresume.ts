@@ -42,8 +42,8 @@ export default class CakeResumeAdapter implements IAdapter {
         const { content, rawResults } = data.props.pageProps.serverState.initialResults.Job.jobResultsState;
         let result;
         
-        console.info(`[INFO] Reading content <- ${content}`);
-        console.info(`[INFO] Reading rawResults <- ${rawResults}`);
+        console.info(`[INFO] Reading content <- ${content.toString()}`);
+        console.info(`[INFO] Reading rawResults <- ${rawResults.toString()}`);
 
         // Explanation: Content is a nice aggregated stats object, however, it
         // is not always present. What we get instead is an array of individual
