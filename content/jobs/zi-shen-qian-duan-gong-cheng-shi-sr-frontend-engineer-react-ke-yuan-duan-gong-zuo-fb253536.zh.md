@@ -35,7 +35,7 @@ job_tags:
   - ES6+
   - Webpack
 badges:
-  - QA Engineer
+  - QA Engineerr
 
 ---
 

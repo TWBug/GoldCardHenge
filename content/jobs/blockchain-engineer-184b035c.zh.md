@@ -23,7 +23,7 @@ job_tags:
   - Blockchain
   - 區塊鏈
 badges:
-  - QA Engineer
+  - QA Engineerr
 
 ---
 

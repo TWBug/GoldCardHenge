@@ -26,7 +26,7 @@ location_list:
   - 103台灣台北市大同區
 job_tags: []
 badges:
-  - QA Engineer
+  - QA Engineerr
 
 ---
 

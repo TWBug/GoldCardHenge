@@ -28,7 +28,7 @@ job_tags:
   - Function Test
   - Usability Test
 badges:
-  - QA Engineer
+  - QA Engineerr
 
 ---
 

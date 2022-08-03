@@ -32,7 +32,7 @@ job_tags:
   - Product Marketing
   - UI Design
 badges:
-  - QA Engineer
+  - QA Engineerr
 
 ---
 

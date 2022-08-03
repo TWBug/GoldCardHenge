@@ -47,7 +47,7 @@ job_tags:
   - CSRF
   - cookies
 badges:
-  - QA Engineer
+  - QA Engineerr
 
 ---
 

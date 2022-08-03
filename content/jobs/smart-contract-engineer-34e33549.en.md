@@ -23,7 +23,7 @@ job_tags:
   - smart contract
   - Blockchain
 badges:
-  - QA Engineer
+  - QA Engineerr
 
 ---
 

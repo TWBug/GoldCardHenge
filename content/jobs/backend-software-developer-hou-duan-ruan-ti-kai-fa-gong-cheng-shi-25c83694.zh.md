@@ -33,7 +33,7 @@ job_tags:
   - SaaS
   - Shopify
 badges:
-  - QA Engineer
+  - QA Engineerr
 
 ---
 
