@@ -22,7 +22,7 @@ location_list:
   - 'Zhubei, Zhubei City, Hsinchu County, Taiwan 302'
 job_tags: []
 badges:
-  - QA Engineerr
+  - QA Engineer
 
 ---
 

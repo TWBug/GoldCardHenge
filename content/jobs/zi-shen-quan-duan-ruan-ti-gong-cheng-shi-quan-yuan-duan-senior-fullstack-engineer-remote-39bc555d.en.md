@@ -44,7 +44,7 @@ job_tags:
   - 全端工程師
   - 遠端工作
 badges:
-  - QA Engineerr
+  - QA Engineer
 
 ---
 

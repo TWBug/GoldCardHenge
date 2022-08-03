@@ -23,7 +23,7 @@ location_list:
   - 台灣台北
 job_tags: []
 badges:
-  - QA Engineerr
+  - QA Engineer
 
 ---
 

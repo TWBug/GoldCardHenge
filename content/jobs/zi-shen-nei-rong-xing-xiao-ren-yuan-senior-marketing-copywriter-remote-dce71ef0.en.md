@@ -28,7 +28,7 @@ job_tags:
   - English
   - 遠端工作
 badges:
-  - QA Engineerr
+  - QA Engineer
 
 ---
 
