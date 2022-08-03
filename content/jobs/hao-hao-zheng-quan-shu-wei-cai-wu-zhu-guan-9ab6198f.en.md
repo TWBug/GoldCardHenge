@@ -11,7 +11,7 @@ date: 2022-07-12T16:08:29.154Z
 company_name: 好好證券股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/fundswap'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--oPsgWmFw--/c_pad,fl_png8,h_200,w_200/bs1fatagsgxa5tu1yv9f.png
+  https://media.cakeresume.com/image/upload/s--oPsgWmFw--/c_pad,fl_png8,h_200,w_200/v1657643054/bs1fatagsgxa5tu1yv9f.png
 salary_text: TWD1000000 - TWD2000000
 salary_currency: TWD
 salary_type: per_year
