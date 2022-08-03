@@ -28,7 +28,6 @@ export default class CakeResumeAdapter implements IAdapter {
 
         const res = await got(url, { headers: getHeaders(url) });
         const $ = cheerio.load(res.body);
-        //console.log(res.body);
         this.$ = $;
         return $;
     }
@@ -42,12 +41,12 @@ export default class CakeResumeAdapter implements IAdapter {
         // @ts-ignore
         const { results } = data.props.pageProps.serverState.initialResults.Job;
         let result;
-        
-        //console.log(results);
 
         // Explanation: Content is a nice aggregated stats object, however, it
         // is not always present. What we get instead is an array of individual
         // stats objects which we can then aggregate together on our own.
+        
+        
         if (results) {
             result = results.reduce((agg, x) => {
                 for (const [k, v] of Object.entries(x)) {
@@ -94,32 +93,25 @@ export default class CakeResumeAdapter implements IAdapter {
 
     async populateData() {
         if (this.data) return this.data;
-
         const $ = await this.getMarkup();
-        //console.log($);
-        
-        const scriptA = $('#__NEXT_DATA__');
-        //console.log(`[INFOfor] <- ${scriptA}`);
-        
+        const script = $('#__NEXT_DATA__');
         //const script = $('script').filter(
         //    (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
         //);
-        //console.log(script);
-        assert(scriptA.length > 0, 'Could not locate app data script in request body. Exiting.');
+        
+        assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
 
-        const raw = "window.__APP_INITIAL_REDUX_STATE__ =" + scriptA.html();
-        //console.log(`[raw111] script.html <- ${script.html()}`);
-        //console.log(`[raw112] scriptA.html <- ${scriptA.html()}`);
+        const raw = "window.__APP_INITIAL_REDUX_STATE__ =" + script.html();
+
         assert(raw, 'No inline script source found');
 
         // This is a temporary context which we will use to grab the globals set in the script
         const ctx = { window: {} };
-        //console.log(raw);
         vm.runInNewContext(raw, ctx);
-        //console.log(`[ctx119] <- ${JSON.stringify(ctx)}`);
+
         // @ts-ignore
         const data: CakeAppState | undefined = ctx.window.__APP_INITIAL_REDUX_STATE__;
-        //console.log(`[data121] <- ${data}`);
+
         assert(data, 'No app state detected on page: ' + this.url);
 
         // @note It's very important we assign here.
