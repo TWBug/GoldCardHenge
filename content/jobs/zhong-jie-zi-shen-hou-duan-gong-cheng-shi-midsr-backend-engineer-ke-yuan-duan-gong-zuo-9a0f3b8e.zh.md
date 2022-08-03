@@ -25,7 +25,7 @@ job_tags:
   - backend engineer
   - Software Engineering
 badges:
-  - QA Engineer
+  - QA Engineerr
 
 ---
 

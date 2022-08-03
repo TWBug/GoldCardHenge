@@ -2,11 +2,11 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
-data_source_internal_id: '34120'
-title: Frontend QA Engineer
-job_url: 'https://www.cakeresume.com/companies/imbee-limited/jobs/frontend-qa-engineer'
-date: 2021-11-11T08:28:03.159Z
+  https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
+data_source_internal_id: '34127'
+title: DevOps Engineer (Taiwan)
+job_url: 'https://www.cakeresume.com/companies/imbee-limited/jobs/devops-engineer-taiwan'
+date: 2021-11-11T09:15:24.489Z
 company_name: imBee Limited
 company_page_url: 'https://www.cakeresume.com/companies/imbee-limited'
 company_logo_url: >-
@@ -23,7 +23,7 @@ location_list:
   - 台灣台北
 job_tags: []
 badges:
-  - QA Engineerr
+  - Industrial Engineer
 
 ---
 

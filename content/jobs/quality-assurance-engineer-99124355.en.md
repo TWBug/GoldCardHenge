@@ -26,7 +26,7 @@ job_tags:
   - QA Testing
   - QA Engineer
 badges:
-  - QA Engineer
+  - QA Engineerr
 
 ---
 

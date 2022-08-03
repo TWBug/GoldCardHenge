@@ -26,7 +26,7 @@ location_list:
   - 105台灣台北市松山區
 job_tags: []
 badges:
-  - QA Engineer
+  - QA Engineerr
 
 ---
 
