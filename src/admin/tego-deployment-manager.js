@@ -149,7 +149,7 @@ class DeploymentManager extends React.Component {
             e.preventDefault();
             if (
                 window.confirm(
-                    'Are you sure? If you confirm then the site will be deployed to hengetech.website'
+                    'Are you sure? If you confirm then the site will be deployed to hengetech.com.tw.'
                 )
             ) {
                 this.setState({ loading: true });
