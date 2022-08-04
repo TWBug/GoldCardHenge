@@ -19,7 +19,10 @@ salary_min: 26000
 salary_max: 80000
 location_list:
   - Taiwan
+  - 'Taipei City, Taiwan'
   - 'Taipei, Taiwan'
+  - 台灣
+  - '台北市, 台灣'
 job_tags:
   - TensorFlow
   - PyTorch

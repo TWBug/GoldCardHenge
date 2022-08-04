@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
+  https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '41939'
 title: >-
   Technical Product Manager (3rd party integration and open API product
@@ -20,12 +20,14 @@ salary_min: 1100000
 salary_max: 1600000
 location_list:
   - Taiwan
+  - 'Taipei City, Taiwan'
   - 'Taipei, Taiwan'
   - 台灣
+  - '台北市, 台灣'
   - 台灣台北
 job_tags: []
 badges:
-  - Project Manager
+  - Mechanical engineer
 
 ---
 

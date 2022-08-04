@@ -18,8 +18,10 @@ salary_min: 890000
 salary_max: 1430000
 location_list:
   - Taiwan
+  - 'Taipei City, Taiwan'
   - 'Taipei, Taiwan'
   - 台灣
+  - '台北市, 台灣'
   - 台灣台北
 job_tags:
   - IOS Development

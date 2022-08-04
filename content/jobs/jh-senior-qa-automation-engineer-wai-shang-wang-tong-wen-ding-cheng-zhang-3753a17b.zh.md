@@ -18,8 +18,10 @@ salary_min: 0
 salary_max: 0
 location_list:
   - Taiwan
+  - 'Taipei City, Taiwan'
   - 'Taipei, Taiwan'
   - 台灣
+  - '台北市, 台灣'
   - 台灣台北
 job_tags:
   - Automation Testing

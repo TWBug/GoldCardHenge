@@ -19,12 +19,12 @@ salary_min: 1000000
 salary_max: 1400000
 location_list:
   - Taiwan
+  - 'Taipei City, Taiwan'
   - 'Taipei, Taiwan'
   - 台灣
-  - 台灣台北
-  - 'Taipei City, Taiwan'
-  - 'Nangang District, Taipei City, Taiwan 115'
   - '台北市, 台灣'
+  - 台灣台北
+  - 'Nangang District, Taipei City, Taiwan 115'
   - 115台灣台北市南港區
 job_tags: []
 badges:

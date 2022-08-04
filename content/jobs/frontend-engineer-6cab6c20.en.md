@@ -18,7 +18,10 @@ salary_min: 1500000
 salary_max: 1
 location_list:
   - Taiwan
+  - 'Taipei City, Taiwan'
   - 'Taipei, Taiwan'
+  - 台灣
+  - '台北市, 台灣'
 job_tags: []
 badges:
   - Industrial Engineer

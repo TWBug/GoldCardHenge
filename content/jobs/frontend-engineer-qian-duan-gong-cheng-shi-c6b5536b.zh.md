@@ -19,12 +19,12 @@ salary_min: 1000000
 salary_max: 1400000
 location_list:
   - Taiwan
+  - 'Taipei City, Taiwan'
   - 'Taipei, Taiwan'
   - 台灣
-  - 台灣台北
-  - 'Taipei City, Taiwan'
-  - 'Xinyi District, Taipei City, Taiwan 110'
   - '台北市, 台灣'
+  - 台灣台北
+  - 'Xinyi District, Taipei City, Taiwan 110'
   - 110台灣台北市信義區
 job_tags: []
 badges:
