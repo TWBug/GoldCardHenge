@@ -18,11 +18,8 @@ salary_type: per_month
 salary_min: 0
 salary_max: 0
 location_list:
-  - ''
-  - 'Banqiao District, New Taipei City, Taiwan 220'
-  - 台灣
   - '新北市, 台灣'
-  - 220台灣新北市板橋區
+  - 台灣
 job_tags: []
 badges:
   - Industrial Engineer

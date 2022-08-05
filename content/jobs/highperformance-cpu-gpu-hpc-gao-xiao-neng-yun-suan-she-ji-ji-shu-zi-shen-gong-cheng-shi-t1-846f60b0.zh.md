@@ -17,10 +17,8 @@ salary_type: per_month
 salary_min: 60000
 salary_max: 90000
 location_list:
-  - Taiwan
-  - 'Hsinchu, Hsinchu City, Taiwan'
   - 台灣
-  - 台灣新竹市新竹
+  - Taiwan
 job_tags:
   - ARM Architecture
   - CPU

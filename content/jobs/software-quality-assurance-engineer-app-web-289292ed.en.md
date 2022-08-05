@@ -18,7 +18,10 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 1600000
 location_list:
-  - 台北
+  - Taiwan
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
 job_tags:
   - testing
   - Quality Assurance

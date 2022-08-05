@@ -17,7 +17,10 @@ salary_type: per_year
 salary_min: 1800000
 salary_max: 0
 location_list:
-  - 台北
+  - Taiwan
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
 job_tags: []
 badges:
   - Cloud Computing

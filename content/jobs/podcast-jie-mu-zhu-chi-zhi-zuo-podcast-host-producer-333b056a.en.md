@@ -17,9 +17,8 @@ salary_type: per_month
 salary_min: 40000
 salary_max: 60000
 location_list:
-  - Taiwan
   - 'Taipei City, Taiwan'
-  - 'Songshan District, Taipei City, Taiwan 105'
+  - Taiwan
 job_tags:
   - 行銷
   - Podcast

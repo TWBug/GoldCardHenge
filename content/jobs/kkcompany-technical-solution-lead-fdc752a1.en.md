@@ -18,14 +18,10 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 1400000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Taipei, Taiwan'
-  - 台灣
   - '台北市, 台灣'
-  - 台灣台北
-  - 'Nangang District, Taipei City, Taiwan 115'
-  - 115台灣台北市南港區
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags: []
 badges:
   - Mechanical engineer

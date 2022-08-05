@@ -18,12 +18,10 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 1600000
 location_list:
-  - Taiwan
-  - 'Taoyuan City, Taiwan'
-  - 'Guishan District, Taoyuan City, Taiwan 333'
-  - 台灣
   - '桃園市, 台灣'
-  - 333台灣桃園市龜山區
+  - 台灣
+  - 'Taoyuan City, Taiwan'
+  - Taiwan
 job_tags: []
 badges:
   - Project Manager

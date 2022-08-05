@@ -18,12 +18,10 @@ salary_type: per_month
 salary_min: 50000
 salary_max: 100000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Shilin District, Taipei City, Taiwan 111'
-  - 台灣
   - '台北市, 台灣'
-  - 111台灣台北市士林區
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags: []
 badges:
   - AI Engineer

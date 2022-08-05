@@ -17,7 +17,10 @@ salary_type: per_year
 salary_min: 420000
 salary_max: 564000
 location_list:
-  - 松山區
+  - Taiwan
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
 job_tags:
   - Account Management
   - client relationship management

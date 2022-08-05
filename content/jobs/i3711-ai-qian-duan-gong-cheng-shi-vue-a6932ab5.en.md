@@ -18,12 +18,10 @@ salary_type: per_month
 salary_min: 40000
 salary_max: 55000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Neihu District, Taipei City, Taiwan 114'
-  - 台灣
   - '台北市, 台灣'
-  - 114台灣台北市內湖區
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags:
   - JavaScript
 badges:

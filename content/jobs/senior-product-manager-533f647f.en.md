@@ -19,7 +19,6 @@ salary_min: 1200000
 salary_max: 1500000
 location_list:
   - Taiwan
-  - 'Taipei, Taiwan'
 job_tags:
   - Product Management
 badges:

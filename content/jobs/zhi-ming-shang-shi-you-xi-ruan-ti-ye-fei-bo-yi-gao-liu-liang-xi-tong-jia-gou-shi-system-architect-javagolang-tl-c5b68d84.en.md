@@ -19,11 +19,9 @@ salary_min: 1300000
 salary_max: 1800000
 location_list:
   - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Neihu District, Taipei City, Taiwan 114'
   - 台灣
+  - 'Taipei City, Taiwan'
   - '台北市, 台灣'
-  - 114台灣台北市內湖區
 job_tags:
   - System Architecture
   - 架構師

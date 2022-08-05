@@ -17,12 +17,10 @@ salary_type: per_year
 salary_min: 840000
 salary_max: 1500000
 location_list:
-  - Taiwan
-  - 'New Taipei City, Taiwan'
-  - 'Banqiao District, New Taipei City, Taiwan 220'
-  - 台灣
   - '新北市, 台灣'
-  - 220台灣新北市板橋區
+  - 台灣
+  - 'New Taipei City, Taiwan'
+  - Taiwan
 job_tags:
   - Python
   - AWS

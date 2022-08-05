@@ -18,12 +18,10 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 2000000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Taipei, Taiwan'
-  - 台灣
   - '台北市, 台灣'
-  - 台灣台北
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags:
   - System Design
   - Information Security

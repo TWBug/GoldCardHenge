@@ -17,10 +17,10 @@ salary_type: per_month
 salary_min: 80000
 salary_max: 150000
 location_list:
-  - 台北
-  - 中正區
-  - 東門捷運站
-  - 忠孝新生捷運站
+  - Taiwan
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
 job_tags:
   - Algorithm
   - Architecture

@@ -19,11 +19,9 @@ salary_min: 700000
 salary_max: 1000000
 location_list:
   - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Datong District, Taipei City, Taiwan 103'
   - 台灣
+  - 'Taipei City, Taiwan'
   - '台北市, 台灣'
-  - 103台灣台北市大同區
 job_tags: []
 badges:
   - QA Engineerr

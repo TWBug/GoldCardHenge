@@ -18,12 +18,10 @@ salary_type: per_year
 salary_min: 1915000
 salary_max: 2250000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Xinyi District, Taipei City, Taiwan 110'
-  - 台灣
   - '台北市, 台灣'
-  - 110台灣台北市信義區
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags:
   - blockchain
 badges:

@@ -17,12 +17,10 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 1200000
 location_list:
-  - Taiwan
-  - 'Taoyuan City, Taiwan'
-  - 'Xinwu District, Taoyuan City, Taiwan 327'
-  - 台灣
   - '桃園市, 台灣'
-  - 327台灣桃園市新屋區
+  - 台灣
+  - 'Taoyuan City, Taiwan'
+  - Taiwan
 job_tags:
   - 財務主管
   - 財務報表分析

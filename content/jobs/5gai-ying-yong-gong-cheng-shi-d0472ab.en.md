@@ -17,16 +17,12 @@ salary_type: per_year
 salary_min: 500000
 salary_max: 1000000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Da’an District, Taipei City, Taiwan'
-  - 台灣
   - '台北市, 台灣'
-  - 台灣台北市大安區
-  - 'Kaohsiung City, Taiwan'
-  - 'Lingya District, Kaohsiung City, Taiwan 802'
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
   - '高雄市, 台灣'
-  - 802台灣高雄市苓雅區
+  - 'Kaohsiung City, Taiwan'
 job_tags: []
 badges:
   - AI Engineer

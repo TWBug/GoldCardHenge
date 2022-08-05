@@ -19,11 +19,9 @@ salary_min: 750000
 salary_max: 1300000
 location_list:
   - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Da’an District, Taipei City, Taiwan'
   - 台灣
+  - 'Taipei City, Taiwan'
   - '台北市, 台灣'
-  - 台灣台北市大安區
 job_tags:
   - UI/UXDesign
   - Asana

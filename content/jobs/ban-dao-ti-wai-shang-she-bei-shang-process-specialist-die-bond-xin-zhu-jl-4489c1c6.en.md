@@ -19,7 +19,6 @@ salary_min: 1000000
 salary_max: 2000000
 location_list:
   - Taiwan
-  - 'East District, Hsinchu City, Taiwan 300'
 job_tags:
   - Semiconductor
   - assembly

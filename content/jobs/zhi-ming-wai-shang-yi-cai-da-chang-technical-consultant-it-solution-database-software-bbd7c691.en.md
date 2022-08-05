@@ -18,11 +18,9 @@ salary_min: 1000000
 salary_max: 2000000
 location_list:
   - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Nangang District, Taipei City, Taiwan 115'
   - 台灣
+  - 'Taipei City, Taiwan'
   - '台北市, 台灣'
-  - 115台灣台北市南港區
 job_tags:
   - database management
   - MSSQL

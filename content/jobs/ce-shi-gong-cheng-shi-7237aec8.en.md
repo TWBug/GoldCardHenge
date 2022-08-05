@@ -17,12 +17,10 @@ salary_type: per_month
 salary_min: 40000
 salary_max: 60000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Zhongshan District, Taipei City, Taiwan 104'
-  - 台灣
   - '台北市, 台灣'
-  - 104台灣台北市中山區
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags:
   - 測試
   - 測試工程師

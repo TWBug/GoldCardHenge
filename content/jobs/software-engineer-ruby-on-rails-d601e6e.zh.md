@@ -18,12 +18,10 @@ salary_type: per_year
 salary_min: 800000
 salary_max: 1700000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Neihu District, Taipei City, Taiwan 114'
-  - 台灣
   - '台北市, 台灣'
-  - 114台灣台北市內湖區
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags: []
 badges:
   - Software

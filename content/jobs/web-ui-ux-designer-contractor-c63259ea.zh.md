@@ -19,11 +19,9 @@ salary_min: 400
 salary_max: 600
 location_list:
   - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Taipei, Taiwan'
   - 台灣
+  - 'Taipei City, Taiwan'
   - '台北市, 台灣'
-  - 台灣台北
 job_tags:
   - adobe creative cloud
   - indesign

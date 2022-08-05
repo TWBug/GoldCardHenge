@@ -16,8 +16,7 @@ salary_currency: JPY
 salary_type: per_year
 salary_min: 3000000
 salary_max: 6000000
-location_list:
-  - 日本
+location_list: []
 job_tags:
   - Python
   - C++

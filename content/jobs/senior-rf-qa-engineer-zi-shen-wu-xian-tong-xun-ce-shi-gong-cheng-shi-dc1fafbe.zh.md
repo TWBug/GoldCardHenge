@@ -18,7 +18,6 @@ salary_min: 50000
 salary_max: 200000
 location_list:
   - Taiwan
-  - 'Hsinchu, Hsinchu City, Taiwan'
 job_tags:
   - TCP/IP
   - QA

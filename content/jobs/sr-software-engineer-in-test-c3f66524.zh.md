@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
+  https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '39537'
 title: (Sr.) Software Engineer in Test
 job_url: >-
@@ -18,13 +18,11 @@ salary_type: per_year
 salary_min: 800000
 salary_max: 2000000
 location_list:
-  - Taiwan
-  - 'Hsinchu, Hsinchu City, Taiwan'
   - 台灣
-  - 台灣新竹市新竹
+  - Taiwan
 job_tags: []
 badges:
-  - Software
+  - Industrial Engineer
 
 ---
 

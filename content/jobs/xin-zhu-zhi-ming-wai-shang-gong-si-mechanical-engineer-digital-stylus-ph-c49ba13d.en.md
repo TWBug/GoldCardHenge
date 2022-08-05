@@ -19,7 +19,6 @@ salary_min: 1000000
 salary_max: 1300000
 location_list:
   - Taiwan
-  - 'Zhubei City, Hsinchu County, Taiwan 302'
 job_tags:
   - ME
   - Digital Stylus

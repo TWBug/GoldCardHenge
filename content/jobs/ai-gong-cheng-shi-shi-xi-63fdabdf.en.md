@@ -18,12 +18,10 @@ salary_type: per_hour
 salary_min: 170
 salary_max: 200
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Wenshan District, Taipei City, Taiwan 116'
-  - 台灣
   - '台北市, 台灣'
-  - 116台灣台北市文山區
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags:
   - word
   - illustrator

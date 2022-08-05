@@ -18,7 +18,10 @@ salary_type: per_year
 salary_min: 1400000
 salary_max: 1680000
 location_list:
-  - 台北市士林區德行西路40號
+  - Taiwan
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
 job_tags:
   - energy
   - renewable

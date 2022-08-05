@@ -17,9 +17,8 @@ salary_type: per_year
 salary_min: 520000
 salary_max: 715000
 location_list:
-  - Taiwan
   - 'Taipei City, Taiwan'
-  - 'Songshan District, Taipei City, Taiwan 105'
+  - Taiwan
 job_tags:
   - 新創教育
   - 品牌行銷

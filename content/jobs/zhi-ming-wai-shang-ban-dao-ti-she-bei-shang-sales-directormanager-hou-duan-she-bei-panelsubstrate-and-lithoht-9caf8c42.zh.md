@@ -18,10 +18,8 @@ salary_type: per_year
 salary_min: 2000000
 salary_max: 5000000
 location_list:
-  - Taiwan
-  - 'Zhubei City, Hsinchu County, Taiwan 302'
   - 台灣
-  - 302台灣新竹縣竹北市
+  - Taiwan
 job_tags:
   - Semiconductor
   - Equipment

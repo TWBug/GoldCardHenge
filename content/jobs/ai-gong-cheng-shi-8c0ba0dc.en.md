@@ -17,18 +17,12 @@ salary_type: per_month
 salary_min: 40000
 salary_max: 0
 location_list:
-  - Taiwan
-  - 'Hsinchu, Hsinchu City, Taiwan'
   - 台灣
-  - 台灣新竹市新竹
-  - 'Taichung City, Taiwan'
-  - 'North District, Taichung City, Taiwan 404'
+  - Taiwan
   - '台中市, 台灣'
-  - 404台灣台中市北區
-  - 'Tainan City, Taiwan'
-  - 'Annan District, Tainan City, Taiwan 709'
+  - 'Taichung City, Taiwan'
   - '台南市, 台灣'
-  - 709台灣台南市安南區
+  - 'Tainan City, Taiwan'
 job_tags: []
 badges:
   - AI Engineer

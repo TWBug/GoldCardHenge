@@ -19,7 +19,6 @@ salary_min: 600000
 salary_max: 1000000
 location_list:
   - Taiwan
-  - 'Taipei, Taiwan'
 job_tags:
   - Account Management
   - web3

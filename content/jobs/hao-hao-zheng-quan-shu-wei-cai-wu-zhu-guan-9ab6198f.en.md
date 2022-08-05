@@ -18,12 +18,10 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 2000000
 location_list:
-  - Taiwan
-  - 'New Taipei City, Taiwan'
-  - 'New Taipei, Banqiao District, New Taipei City, Taiwan'
-  - 台灣
   - '新北市, 台灣'
-  - 台灣新北市板橋區新北
+  - 台灣
+  - 'New Taipei City, Taiwan'
+  - Taiwan
 job_tags:
   - 會計師
   - 證券商業務員

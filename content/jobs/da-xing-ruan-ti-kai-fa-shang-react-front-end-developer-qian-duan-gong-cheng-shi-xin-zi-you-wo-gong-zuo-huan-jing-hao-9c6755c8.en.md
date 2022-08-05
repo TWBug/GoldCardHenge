@@ -17,12 +17,10 @@ salary_type: per_year
 salary_min: 1200000
 salary_max: 1600000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Da’an District, Taipei City, Taiwan'
-  - 台灣
   - '台北市, 台灣'
-  - 台灣台北市大安區
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags:
   - React.js
   - Scrum

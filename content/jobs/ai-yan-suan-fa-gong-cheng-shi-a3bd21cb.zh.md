@@ -18,10 +18,8 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 1300000
 location_list:
-  - Taiwan
-  - 'Hsinchu, Hsinchu City, Taiwan'
   - 台灣
-  - 台灣新竹市新竹
+  - Taiwan
 job_tags:
   - Python
   - C++

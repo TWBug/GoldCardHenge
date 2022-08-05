@@ -18,12 +18,10 @@ salary_type: per_year
 salary_min: 1120000
 salary_max: 1820000
 location_list:
-  - Taiwan
-  - 'New Taipei City, Taiwan'
-  - 'Xinzhuang District, New Taipei City, Taiwan 242'
-  - 台灣
   - '新北市, 台灣'
-  - 242台灣新北市新莊區
+  - 台灣
+  - 'New Taipei City, Taiwan'
+  - Taiwan
 job_tags:
   - Vue.js
   - Front-end

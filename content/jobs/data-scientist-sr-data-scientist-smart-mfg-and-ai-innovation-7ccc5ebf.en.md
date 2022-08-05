@@ -17,16 +17,12 @@ salary_type: per_year
 salary_min: 900000
 salary_max: 1800000
 location_list:
-  - Taiwan
-  - 'Taoyuan City, Taiwan'
-  - 'Guishan District, Taoyuan City, Taiwan 333'
-  - 台灣
   - '桃園市, 台灣'
-  - 333台灣桃園市龜山區
-  - 'Taichung City, Taiwan'
-  - 'Houli District, Taichung City, Taiwan 421'
+  - 台灣
+  - 'Taoyuan City, Taiwan'
+  - Taiwan
   - '台中市, 台灣'
-  - 421台灣台中市后里區
+  - 'Taichung City, Taiwan'
 job_tags:
   - Python
   - Machine Learning

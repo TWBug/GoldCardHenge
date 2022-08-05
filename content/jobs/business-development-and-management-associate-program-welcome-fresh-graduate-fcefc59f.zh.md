@@ -18,11 +18,10 @@ salary_type: per_month
 salary_min: 40000
 salary_max: 60000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Taipei, Taiwan'
-  - 台灣
   - '台北市, 台灣'
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags: []
 badges:
   - QA Engineer

@@ -18,12 +18,10 @@ salary_type: per_year
 salary_min: 900000
 salary_max: 1100000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Songshan District, Taipei City, Taiwan 105'
-  - 台灣
   - '台北市, 台灣'
-  - 105台灣台北市松山區
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags: []
 badges:
   - QA Engineerr

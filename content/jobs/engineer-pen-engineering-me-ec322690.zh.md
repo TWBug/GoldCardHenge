@@ -19,7 +19,6 @@ salary_min: 800000
 salary_max: 1400000
 location_list:
   - Taiwan
-  - 'Zhubei, Zhubei City, Hsinchu County, Taiwan 302'
 job_tags: []
 badges:
   - Mechanical engineer

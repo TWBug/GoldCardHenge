@@ -20,9 +20,8 @@ salary_type: per_year
 salary_min: 2000000
 salary_max: 3000000
 location_list:
-  - Taiwan
   - 'Taipei City, Taiwan'
-  - 'Songshan District, Taipei City, Taiwan 105'
+  - Taiwan
 job_tags:
   - System Architecture
   - engineering manager

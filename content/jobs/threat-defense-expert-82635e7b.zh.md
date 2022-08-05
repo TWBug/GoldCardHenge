@@ -17,12 +17,10 @@ salary_type: per_year
 salary_min: 850000
 salary_max: 1500000
 location_list:
+  - Taiwan
   - 台灣
-  - 台北
-  - 大安區
-  - 六張犁站
-  - 科技大樓站
-  - 敦化南路二段
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
 job_tags:
   - security
 badges:

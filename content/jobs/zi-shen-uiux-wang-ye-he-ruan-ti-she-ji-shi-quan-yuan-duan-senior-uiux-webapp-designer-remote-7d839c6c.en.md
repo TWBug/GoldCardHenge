@@ -16,8 +16,7 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 1000000
 salary_max: 3000000
-location_list:
-  - Remote
+location_list: []
 job_tags:
   - Figma
   - Design

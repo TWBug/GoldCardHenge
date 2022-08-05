@@ -18,9 +18,8 @@ salary_type: per_year
 salary_min: 780000
 salary_max: 1090000
 location_list:
-  - Taiwan
   - 'Taipei City, Taiwan'
-  - 'Neihu District, Taipei City, Taiwan 114'
+  - Taiwan
 job_tags:
   - Python
   - Linux

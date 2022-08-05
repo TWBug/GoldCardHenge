@@ -18,8 +18,8 @@ salary_type: per_year
 salary_min: 2000000
 salary_max: 6000000
 location_list:
-  - Vietnam
   - 'Ho Chi Minh City, Vietnam'
+  - Vietnam
 job_tags: []
 badges:
   - Finance

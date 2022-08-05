@@ -18,11 +18,8 @@ salary_type: per_month
 salary_min: 0
 salary_max: 0
 location_list:
-  - ''
-  - 'Xindian District, New Taipei City, Taiwan'
-  - 台灣
   - '新北市, 台灣'
-  - 台灣新北市新店區
+  - 台灣
 job_tags: []
 badges:
   - Industrial Engineer

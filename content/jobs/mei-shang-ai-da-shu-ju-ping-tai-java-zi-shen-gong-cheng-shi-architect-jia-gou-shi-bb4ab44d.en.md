@@ -19,11 +19,9 @@ salary_min: 1500000
 salary_max: 2300000
 location_list:
   - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Zhongzheng District, Taipei City, Taiwan 100'
   - 台灣
+  - 'Taipei City, Taiwan'
   - '台北市, 台灣'
-  - 100台灣台北市中正區
 job_tags:
   - java
   - Architecture

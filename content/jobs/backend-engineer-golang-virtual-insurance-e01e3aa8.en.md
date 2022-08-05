@@ -18,11 +18,9 @@ salary_min: 1300000
 salary_max: 1800000
 location_list:
   - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Taipei, Taiwan'
   - 台灣
+  - 'Taipei City, Taiwan'
   - '台北市, 台灣'
-  - 台灣台北
 job_tags:
   - Golang
   - backend

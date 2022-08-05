@@ -18,9 +18,8 @@ salary_type: per_month
 salary_min: 30000
 salary_max: 50000
 location_list:
-  - Taiwan
   - 'New Taipei City, Taiwan'
-  - 'New Taipei, Banqiao District, New Taipei City, Taiwan'
+  - Taiwan
 job_tags: []
 badges:
   - QA Engineer

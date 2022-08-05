@@ -18,12 +18,10 @@ salary_type: per_year
 salary_min: 150
 salary_max: 200
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Taipei, Taiwan'
-  - 台灣
   - '台北市, 台灣'
-  - 台灣台北
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags:
   - Machine Learning
   - Quantitative Finance

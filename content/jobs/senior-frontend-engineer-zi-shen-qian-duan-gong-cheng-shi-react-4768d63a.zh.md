@@ -18,9 +18,8 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 1800000
 location_list:
-  - Taiwan
   - 'Taipei City, Taiwan'
-  - 'Songshan District, Taipei City, Taiwan 105'
+  - Taiwan
 job_tags:
   - Front-end
   - 前端

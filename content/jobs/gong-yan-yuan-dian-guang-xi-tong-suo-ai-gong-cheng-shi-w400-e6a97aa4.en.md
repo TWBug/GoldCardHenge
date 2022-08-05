@@ -18,12 +18,7 @@ salary_type: per_month
 salary_min: 40000
 salary_max: 100000
 location_list:
-  - ''
-  - >-
-    No. 195號, Section 4, Zhongxing Rd, Zhudong Township, Hsinchu County, Taiwan
-    310
   - 台灣
-  - 310台灣新竹縣竹東鎮中興路四段195號
 job_tags: []
 badges:
   - AI Engineer

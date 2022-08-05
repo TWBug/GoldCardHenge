@@ -18,11 +18,10 @@ salary_type: per_year
 salary_min: 1100000
 salary_max: 1500000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Taipei, Taiwan'
-  - 台灣
   - '台北市, 台灣'
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags:
   - AI & Machine Learning
   - Algorithm Engineer

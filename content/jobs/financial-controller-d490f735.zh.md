@@ -17,12 +17,10 @@ salary_type: per_year
 salary_min: 1500000
 salary_max: 2000000
 location_list:
-  - Taiwan
-  - 'New Taipei City, Taiwan'
-  - 'Zhonghe District, New Taipei City, Taiwan'
-  - 台灣
   - '新北市, 台灣'
-  - 台灣新北市中和區
+  - 台灣
+  - 'New Taipei City, Taiwan'
+  - Taiwan
 job_tags:
   - excel
   - Financial

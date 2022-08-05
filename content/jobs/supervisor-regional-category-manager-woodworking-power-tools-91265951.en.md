@@ -17,12 +17,10 @@ salary_type: per_year
 salary_min: 90
 salary_max: 150
 location_list:
-  - Taiwan
-  - 'Taichung City, Taiwan'
-  - 'Xitun District, Taichung City, Taiwan 407'
-  - 台灣
   - '台中市, 台灣'
-  - 407台灣台中市西屯區
+  - 台灣
+  - 'Taichung City, Taiwan'
+  - Taiwan
 job_tags:
   - word
   - AutoCAD

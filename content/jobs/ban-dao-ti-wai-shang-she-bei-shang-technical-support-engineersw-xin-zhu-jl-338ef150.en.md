@@ -18,9 +18,8 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 3000000
 location_list:
-  - Taiwan
   - 'New Taipei City, Taiwan'
-  - 'Banqiao District, New Taipei City, Taiwan 220'
+  - Taiwan
 job_tags:
   - Semiconductor
   - AOI

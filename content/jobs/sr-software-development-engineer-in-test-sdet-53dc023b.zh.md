@@ -18,11 +18,10 @@ salary_type: per_month
 salary_min: 80000
 salary_max: 150000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Taipei, Taiwan'
-  - 台灣
   - '台北市, 台灣'
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags:
   - java
   - javascript

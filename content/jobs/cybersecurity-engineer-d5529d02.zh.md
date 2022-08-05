@@ -18,11 +18,9 @@ salary_min: 1000000
 salary_max: 1400000
 location_list:
   - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Songshan District, Taipei City, Taiwan 105'
   - 台灣
+  - 'Taipei City, Taiwan'
   - '台北市, 台灣'
-  - 105台灣台北市松山區
 job_tags:
   - BurpSuite
   - cybersecurity

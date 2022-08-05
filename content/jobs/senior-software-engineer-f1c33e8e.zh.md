@@ -18,11 +18,10 @@ salary_type: per_year
 salary_min: 1500000
 salary_max: 1800000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Taipei, Taiwan'
-  - 台灣
   - '台北市, 台灣'
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags: []
 badges:
   - IoT Solution

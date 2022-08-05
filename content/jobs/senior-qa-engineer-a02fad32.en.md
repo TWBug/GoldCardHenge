@@ -17,9 +17,8 @@ salary_type: per_month
 salary_min: 65000
 salary_max: 100000
 location_list:
-  - Taiwan
   - 'Taipei City, Taiwan'
-  - 'Neihu District, Taipei City, Taiwan 114'
+  - Taiwan
 job_tags:
   - QA Engineer
   - Networking

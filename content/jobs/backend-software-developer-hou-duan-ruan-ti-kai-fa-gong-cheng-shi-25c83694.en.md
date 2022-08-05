@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '38857'
 title: Backend Software Developer (後端軟體開發工程師)
 job_url: 'https://www.cakeresume.com/companies/akohub/jobs/backend-software-developer'
@@ -17,12 +17,10 @@ salary_type: per_year
 salary_min: 900000
 salary_max: 1600000
 location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - 'Songshan District, Taipei City, Taiwan 105'
-  - 台灣
   - '台北市, 台灣'
-  - 105台灣台北市松山區
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - Taiwan
 job_tags:
   - Backend Development
   - 後端
@@ -33,7 +31,7 @@ job_tags:
   - SaaS
   - Shopify
 badges:
-  - QA Engineerr
+  - Game Production
 
 ---
 

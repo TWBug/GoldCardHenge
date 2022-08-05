@@ -18,9 +18,10 @@ salary_type: per_year
 salary_min: 1300000
 salary_max: 2000000
 location_list:
-  - 台北市信義區
-  - Taipei city
   - Taiwan
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
 job_tags: []
 badges:
   - Finance
