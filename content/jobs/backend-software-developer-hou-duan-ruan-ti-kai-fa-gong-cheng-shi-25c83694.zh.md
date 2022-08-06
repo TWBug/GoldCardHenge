@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
+  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '38857'
 title: Backend Software Developer (後端軟體開發工程師)
 job_url: 'https://www.cakeresume.com/companies/akohub/jobs/backend-software-developer'
@@ -17,10 +17,10 @@ salary_type: per_year
 salary_min: 900000
 salary_max: 1600000
 location_list:
-  - '台北市, 台灣'
+  - Taiwan
   - 台灣
   - 'Taipei City, Taiwan'
-  - Taiwan
+  - '台北市, 台灣'
 job_tags:
   - Backend Development
   - 後端
@@ -31,7 +31,7 @@ job_tags:
   - SaaS
   - Shopify
 badges:
-  - Game Production
+  - Software
 
 ---
 
