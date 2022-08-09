@@ -18,10 +18,10 @@ salary_type: per_year
 salary_min: 700000
 salary_max: 850000
 location_list:
-  - '台北市, 台灣'
+  - Taiwan
   - 台灣
   - 'Taipei City, Taiwan'
-  - Taiwan
+  - '台北市, 台灣'
 job_tags:
   - OSX
   - iOS

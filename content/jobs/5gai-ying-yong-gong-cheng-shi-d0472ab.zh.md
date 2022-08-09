@@ -17,10 +17,10 @@ salary_type: per_year
 salary_min: 500000
 salary_max: 1000000
 location_list:
-  - '台北市, 台灣'
+  - Taiwan
   - 台灣
   - 'Taipei City, Taiwan'
-  - Taiwan
+  - '台北市, 台灣'
   - '高雄市, 台灣'
   - 'Kaohsiung City, Taiwan'
 job_tags: []
