@@ -18,10 +18,10 @@ salary_type: per_year
 salary_min: 1250000
 salary_max: 1750000
 location_list:
-  - '台北市, 台灣'
+  - Taiwan
   - 台灣
   - 'Taipei City, Taiwan'
-  - Taiwan
+  - '台北市, 台灣'
 job_tags: []
 badges:
   - Cyber Security

@@ -18,10 +18,10 @@ salary_type: per_month
 salary_min: 130000
 salary_max: 1
 location_list:
-  - '台北市, 台灣'
+  - Taiwan
   - 台灣
   - 'Taipei City, Taiwan'
-  - Taiwan
+  - '台北市, 台灣'
 job_tags:
   - Golang
   - Python
