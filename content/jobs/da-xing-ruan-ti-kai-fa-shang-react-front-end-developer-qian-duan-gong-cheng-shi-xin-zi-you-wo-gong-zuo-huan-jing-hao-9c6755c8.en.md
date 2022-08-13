@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '35091'
 title: '[大型軟體開發商] React Front End Developer 前端工程師、薪資優渥、工作環境好 '
 job_url: 'https://www.cakeresume.com/companies/conbiz-consulting-firm/jobs/01c537'
@@ -30,7 +30,7 @@ job_tags:
   - Github
   - API串接
 badges:
-  - QA Engineerr
+  - Game Production
 
 ---
 
