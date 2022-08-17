@@ -18,7 +18,7 @@ salary_type: per_month
 salary_min: 30000
 salary_max: 50000
 location_list:
-  - 'New Taipei City, Taiwan'
+  - 'Taoyuan City, Taiwan'
   - Taiwan
 job_tags: []
 badges:
