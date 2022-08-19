@@ -7,7 +7,7 @@ data_source_internal_id: '41077'
 title: Cryptocurrency analyst
 job_url: 'https://www.cakeresume.com/companies/tkspring/jobs/cryptocurrency-analyst'
 date: 2022-05-24T07:11:20.216Z
-company_name: 湧泉數位科技股份有限公司
+company_name: 湧泉數位科技股份有限公司(TKSpring)
 company_page_url: 'https://www.cakeresume.com/companies/tkspring'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--nxIEut_r--/c_pad,fl_png8,h_200,w_200/v1652261028/tevpq9zuojwszr3u0svj.png
