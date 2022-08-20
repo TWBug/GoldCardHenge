@@ -12,10 +12,10 @@ company_name: Taelor
 company_page_url: 'https://www.cakeresume.com/companies/taelor'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s---P-QfxUw--/c_pad,fl_png8,h_200,w_200/v1654080607/yjikdzpohybizsgdl052.png
-salary_text: TWD500000 - TWD1200000
+salary_text: TWD800000 - TWD1200000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 500000
+salary_min: 800000
 salary_max: 1200000
 location_list: []
 job_tags:
