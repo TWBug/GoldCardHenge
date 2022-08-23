@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
+  https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '42646'
 title: Product UX/UI & Brand Designer (remote; Taiwan)
 job_url: >-
@@ -29,7 +29,7 @@ job_tags:
   - illustrator
   - Figma
 badges:
-  - Game Production
+  - Designer
 
 ---
 

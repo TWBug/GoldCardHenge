@@ -5,17 +5,17 @@ data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '44420'
 title: '[AICS] UI/UX Designer UI/UX設計師'
-job_url: 'https://www.cakeresume.com/companies/asus-tw/jobs/ui-ux-designerui-ux-designer'
+job_url: 'https://www.cakeresume.com/companies/asus/jobs/ui-ux-designerui-ux-designer'
 date: 2022-08-11T10:17:24.467Z
 company_name: Asus 華碩電腦股份有限公司
-company_page_url: 'https://www.cakeresume.com/companies/asus-tw'
+company_page_url: 'https://www.cakeresume.com/companies/asus'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--X_HJKZtp--/c_pad,fl_png8,h_200,w_200/v1560337039/gnuruihvfxav7zbxegmf.png
-salary_text: TWD0 - TWD40000
+salary_text: TWD40000 - TWD0
 salary_currency: TWD
 salary_type: per_month
-salary_min: 0
-salary_max: 40000
+salary_min: 40000
+salary_max: 0
 location_list:
   - Taiwan
   - 台灣

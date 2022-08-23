@@ -6,10 +6,10 @@ data_source_url: >-
 data_source_internal_id: '44389'
 title: '[AICS] Director/Head of Engineering 技術總監'
 job_url: >-
-  https://www.cakeresume.com/companies/asus-tw/jobs/director-head-of-engineering-technical-director
+  https://www.cakeresume.com/companies/asus/jobs/director-head-of-engineering-technical-director
 date: 2022-08-11T09:09:49.062Z
 company_name: Asus 華碩電腦股份有限公司
-company_page_url: 'https://www.cakeresume.com/companies/asus-tw'
+company_page_url: 'https://www.cakeresume.com/companies/asus'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--X_HJKZtp--/c_pad,fl_png8,h_200,w_200/v1560337039/gnuruihvfxav7zbxegmf.png
 salary_text: TWD2000000 - TWD0

@@ -6,10 +6,10 @@ data_source_url: >-
 data_source_internal_id: '44390'
 title: '[AICS] Engineer Manager 技術主管'
 job_url: >-
-  https://www.cakeresume.com/companies/asus-tw/jobs/technical-director-engineer-manager
+  https://www.cakeresume.com/companies/asus/jobs/technical-director-engineer-manager
 date: 2022-08-11T09:13:20.869Z
 company_name: Asus 華碩電腦股份有限公司
-company_page_url: 'https://www.cakeresume.com/companies/asus-tw'
+company_page_url: 'https://www.cakeresume.com/companies/asus'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--X_HJKZtp--/c_pad,fl_png8,h_200,w_200/v1560337039/gnuruihvfxav7zbxegmf.png
 salary_text: TWD2000000 - TWD0
