@@ -14,7 +14,7 @@ company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--gOfgfDas--/c_pad,fl_png8,h_200,w_200/v1631242029/bepr2auigdsmabtbodig.png
 salary_text: TWD1200000 - TWD0
 salary_currency: TWD
-salary_type: per_month
+salary_type: per_year
 salary_min: 1200000
 salary_max: 0
 location_list:
