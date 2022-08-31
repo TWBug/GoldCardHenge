@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
+  https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '32771'
 title: Mid/Senior 中階/資深介面設計師 UI/UX Designer (可遠端工作)
 job_url: 'https://www.cakeresume.com/companies/asiayo/jobs/43cae9'
@@ -23,7 +23,7 @@ location_list:
   - '台北市, 台灣'
 job_tags: []
 badges:
-  - QA Engineerr
+  - Designer
 
 ---
 

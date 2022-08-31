@@ -12,15 +12,12 @@ company_name: DEVCORE 戴夫寇爾
 company_page_url: 'https://www.cakeresume.com/companies/devcore'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--eJaJqHPj--/c_pad,fl_png8,h_200,w_200/v1650984586/uafnic3fu3mhogjoaf7g.png
-salary_text: TWD840000 - TWD1260000
+salary_text: TWD1000000 - TWD1300000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 840000
-salary_max: 1260000
+salary_min: 1000000
+salary_max: 1300000
 location_list:
-  - '台北市, 台灣'
-  - 台灣
-  - 'Taipei City, Taiwan'
   - Taiwan
 job_tags:
   - Pages
