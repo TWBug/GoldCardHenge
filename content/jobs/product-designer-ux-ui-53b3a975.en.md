@@ -2,24 +2,25 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
-data_source_internal_id: '45429'
-title: Technical Program Manager
-job_url: 'https://www.cakeresume.com/companies/paypay/jobs/technical-program-manager'
-date: 2022-08-30T09:16:29.771Z
+  https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
+data_source_internal_id: '45422'
+title: 'Product Designer(UX/UI) '
+job_url: >-
+  https://www.cakeresume.com/companies/paypay/jobs/product-designer-ux-ui-product-designer-ux-ui
+date: 2022-08-30T09:05:04.704Z
 company_name: PayPay Corporation
 company_page_url: 'https://www.cakeresume.com/companies/paypay'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--5SpAvAQb--/c_pad,fl_png8,h_200,w_200/v1661308360/nohqurbf1obsegimuveh.png
-salary_text: JPY10000000 - JPY20000000
+salary_text: JPY7000000 - JPY10000000
 salary_currency: JPY
 salary_type: per_year
-salary_min: 10000000
-salary_max: 20000000
+salary_min: 7000000
+salary_max: 10000000
 location_list: []
 job_tags: []
 badges:
-  - Project Manager
+  - Designer
 
 ---
 
