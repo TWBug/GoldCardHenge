@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '45403'
-title: 'Fullstack Software Engineer | $2,000,000 NTD / year | Silicon Valley Startup'
+title: "\U0001F525 Fullstack Software Engineer | $2,000,000 NTD / year | Silicon Valley Startup"
 job_url: 'https://www.cakeresume.com/companies/web3-platforms-inc/jobs/9b6ee4'
 date: 2022-08-30T07:28:23.246Z
 company_name: Web3 Platforms Inc
