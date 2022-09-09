@@ -17,10 +17,10 @@ salary_type: per_month
 salary_min: 30000
 salary_max: 40000
 location_list:
-  - '台北市, 台灣'
+  - Taiwan
   - 台灣
   - 'Taipei City, Taiwan'
-  - Taiwan
+  - '台北市, 台灣'
 job_tags:
   - word
   - excel
