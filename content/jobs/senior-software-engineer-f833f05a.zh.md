@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '33253'
 title: Senior Software Engineer
 job_url: 'https://www.cakeresume.com/companies/kklab/jobs/software-data-engineer'
@@ -30,9 +30,10 @@ job_tags:
   - Spark Framework
   - Scala
   - DevOps
+  - Kubernetes
 badges:
-  - Software
+  - Game Production
 
 ---
 
-KKLab is seeking a talented senior data engineer to build systems that collect and convert raw data into usable information for our AI systems, including recommendation engines, data analytics platforms, as well as systems that manage the data workflows among different components. KKLab has two complex AI products in the market, KKRaaS and Lyricist.ai. KKRaaS is a generic recommendation platform and Lyricist.ai is a lyrics generator. KKLab also incubates several AI projects. Our systems handle l
+KKLab is seeking a talented senior software engineer to build various cloud based AI systems. Being a technology venture, KKLab collaborates with our partners to turn ideas into products using leading edge technologies. KKLab so far has two AI products to offer: KKRaaS and Lyricist.ai . KKRaaS is a B2B generic recommendation platform while Lyricist.ai is a lyrics generator. This role will be working with our software architects and machine learning engineers to either build new AI systems from t
