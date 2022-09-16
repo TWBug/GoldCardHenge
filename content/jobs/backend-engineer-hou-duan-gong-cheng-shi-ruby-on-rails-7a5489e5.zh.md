@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_type%5D=per_month&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmax%5D=600000
 data_source_internal_id: '44374'
-title: 'Backend Engineer / 後端工程師 '
+title: Backend Engineer / 後端工程師 (Ruby on Rails)
 job_url: 'https://www.cakeresume.com/companies/cakeresume/jobs/jr-mid-backend-engineer'
 date: 2022-08-11T08:08:43.778Z
 company_name: CakeResume

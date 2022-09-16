@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=iot%20solutions&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '43398'
-title: VP of Hardware Engineering
+title: Hardware Engineering manager
 job_url: >-
   https://www.cakeresume.com/companies/wynd/jobs/director-vp-of-hardware-engineering
 date: 2022-07-19T03:21:31.410Z
