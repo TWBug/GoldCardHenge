@@ -11,7 +11,7 @@ date: 2022-08-11T14:12:10.034Z
 company_name: 多方科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/augentix-augentix-tw'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--gpnErr3E--/c_pad,fl_png8,h_200,w_200/v1634629521/puyzzxv8enwlsck8y3sh.png
+  https://media.cakeresume.com/image/upload/s---m7BdPAD--/c_pad,fl_png8,h_200,w_200/v1663326524/gwjr4l5eqziyvkvystjg.png
 salary_text: TWD800000 - TWD1000000
 salary_currency: TWD
 salary_type: per_year
