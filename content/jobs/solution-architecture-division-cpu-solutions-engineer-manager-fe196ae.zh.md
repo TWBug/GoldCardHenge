@@ -11,11 +11,11 @@ company_name: Andes Technology 晶心科技
 company_page_url: 'https://www.cakeresume.com/companies/andes-technology'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--DZ__v5xW--/c_pad,fl_png8,h_200,w_200/v1662349969/iqb0owanivsth9kwyzib.png
-salary_text: TWD40000 - TWD0
+salary_text: TWD50000 - TWD150000
 salary_currency: TWD
 salary_type: per_month
-salary_min: 40000
-salary_max: 0
+salary_min: 50000
+salary_max: 150000
 location_list: []
 job_tags:
   - +c#
