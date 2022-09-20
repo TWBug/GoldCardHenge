@@ -22,7 +22,9 @@ location_list:
   - 台灣
   - 'Taipei City, Taiwan'
   - '台北市, 台灣'
-job_tags: []
+job_tags:
+  - Python
+  - Linux
 badges:
   - QA Engineerr
 
