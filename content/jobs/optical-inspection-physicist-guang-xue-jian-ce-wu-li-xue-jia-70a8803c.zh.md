@@ -17,6 +17,7 @@ salary_type: per_year
 salary_min: 1400000
 salary_max: 2400000
 location_list:
+  - 'Hsinchu City, Taiwan'
   - Taiwan
 job_tags:
   - physics

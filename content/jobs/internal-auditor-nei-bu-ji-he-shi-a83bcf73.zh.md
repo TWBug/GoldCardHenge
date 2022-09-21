@@ -6,10 +6,10 @@ data_source_url: >-
 data_source_internal_id: '45738'
 title: Internal Auditor 內部稽核師
 job_url: >-
-  https://www.cakeresume.com/companies/amt/jobs/internal-auditor-internal-auditor
+  https://www.cakeresume.com/companies/amat/jobs/internal-auditor-internal-auditor
 date: 2022-09-07T01:49:15.771Z
 company_name: 台灣應用材料 Applied Materials Taiwan
-company_page_url: 'https://www.cakeresume.com/companies/amt'
+company_page_url: 'https://www.cakeresume.com/companies/amat'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--2k5n8oU4--/c_pad,fl_png8,h_200,w_200/v1660726541/smmejxun3qvfz9mozepa.png
 salary_text: TWD1200000 - TWD1800000
@@ -18,6 +18,7 @@ salary_type: per_year
 salary_min: 1200000
 salary_max: 1800000
 location_list:
+  - 'Hsinchu City, Taiwan'
   - Taiwan
 job_tags:
   - internal auditor

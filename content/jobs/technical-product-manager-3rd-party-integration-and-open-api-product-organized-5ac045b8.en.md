@@ -20,9 +20,6 @@ salary_min: 1100000
 salary_max: 1600000
 location_list:
   - Taiwan
-  - 台灣
-  - 'Taipei City, Taiwan'
-  - '台北市, 台灣'
 job_tags: []
 badges:
   - Project Manager
