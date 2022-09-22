@@ -5,10 +5,10 @@ data_source_url: >-
   https://www.cakeresume.com/jobs?q=semiconductor&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '45613'
 title: Customer Engineer 客戶支援設備工程師
-job_url: 'https://www.cakeresume.com/companies/amt/jobs/570075'
+job_url: 'https://www.cakeresume.com/companies/amat/jobs/570075'
 date: 2022-09-05T01:48:16.284Z
 company_name: 台灣應用材料 Applied Materials Taiwan
-company_page_url: 'https://www.cakeresume.com/companies/amt'
+company_page_url: 'https://www.cakeresume.com/companies/amat'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--2k5n8oU4--/c_pad,fl_png8,h_200,w_200/v1660726541/smmejxun3qvfz9mozepa.png
 salary_text: TWD1000000 - TWD1500000

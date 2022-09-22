@@ -17,7 +17,8 @@ salary_currency: TWD
 salary_type: per_month
 salary_min: 80000
 salary_max: 100000
-location_list: []
+location_list:
+  - Taiwan
 job_tags:
   - HTML5
   - CSS

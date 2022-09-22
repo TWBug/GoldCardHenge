@@ -3,10 +3,10 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
-data_source_internal_id: '46524'
-title: 'Solution Architecture Division - CPU Solutions and Debug Engineer '
-job_url: 'https://www.cakeresume.com/companies/andes-technology/jobs/ecabc6'
-date: 2022-09-20T03:07:52.053Z
+data_source_internal_id: '46523'
+title: 'Solution Architecture Division - CPU Solutions and Debug Manager '
+job_url: 'https://www.cakeresume.com/companies/andes-technology/jobs/e57866'
+date: 2022-09-20T03:04:20.863Z
 company_name: Andes Technology 晶心科技
 company_page_url: 'https://www.cakeresume.com/companies/andes-technology'
 company_logo_url: >-

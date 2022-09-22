@@ -17,8 +17,7 @@ salary_currency: TWD
 salary_type: per_month
 salary_min: 100000
 salary_max: 150000
-location_list:
-  - Taiwan
+location_list: []
 job_tags:
   - Machine Learning
 badges:

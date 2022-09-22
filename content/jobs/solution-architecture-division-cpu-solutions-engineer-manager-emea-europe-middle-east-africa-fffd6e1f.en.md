@@ -3,10 +3,12 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
-data_source_internal_id: '46524'
-title: 'Solution Architecture Division - CPU Solutions and Debug Engineer '
-job_url: 'https://www.cakeresume.com/companies/andes-technology/jobs/ecabc6'
-date: 2022-09-20T03:07:52.053Z
+data_source_internal_id: '46544'
+title: >-
+  Solution Architecture Division - CPU Solutions Engineer/Manager - EMEA
+  (Europe, Middle East, Africa)
+job_url: 'https://www.cakeresume.com/companies/andes-technology/jobs/5485ac'
+date: 2022-09-20T03:50:22.271Z
 company_name: Andes Technology 晶心科技
 company_page_url: 'https://www.cakeresume.com/companies/andes-technology'
 company_logo_url: >-
@@ -22,9 +24,9 @@ location_list:
   - 'Hsinchu City, Taiwan'
   - Taiwan
 job_tags:
+  - Perl
   - C
   - C++
-  - Perl
   - Python
   - Verilog
 badges:
@@ -32,4 +34,4 @@ badges:
 
 ---
 
-1. Act as a trusted CPU hardware consultant to customers 2. Offer appealing solutions to customers 3. Give Andes processor training courses to customers 4. Resolve customers' technical issues 5. Power user of Andes processor and SoC platform IP products 6. Enhance Verilog simulation, logic synthesis, and FPGA prototype flows in product packages 7. Write technical tutorials 8. Generate PPA (Power, Performance, and Area) on 7 ~ 130 nm process nodes 9. Improve product feature offerings by providing
+Collaborate with Sales teams in promoting Andes CPU IPs and be a CPU hardware consultant. Act as a trusted advisor to the EMEA customers. Identify potential customers' needs and provide support. Give CPU hardware training courses to customers. Improve product feature offerings by providing customer feedback to internal cross-functional teams. Write technical tutorials. 需出差，一年累積時間約六個月以下。
