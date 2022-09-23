@@ -11,10 +11,10 @@ company_name: Cathay United Bank 國泰世華商業銀行
 company_page_url: 'https://www.cakeresume.com/companies/cathay-united-bank'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--Lvtrbp-9--/c_pad,fl_png8,h_200,w_200/v1640855317/bwlajq8fxb5jk3rwrhyp.png
-salary_text: TWD40000 - TWD39000
+salary_text: TWD45000 - TWD39000
 salary_currency: TWD
 salary_type: per_month
-salary_min: 40000
+salary_min: 45000
 salary_max: 39000
 location_list:
   - Taiwan

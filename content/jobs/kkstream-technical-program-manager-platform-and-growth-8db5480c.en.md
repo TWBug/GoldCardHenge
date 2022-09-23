@@ -3,10 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
-data_source_internal_id: '44978'
-title: '[KKStream] Technical Project Manager (Enterprise Solution)'
-job_url: 'https://www.cakeresume.com/companies/kkcompany/jobs/c6e34b'
-date: 2022-08-24T02:51:13.300Z
+data_source_internal_id: '46245'
+title: '[KKStream] Technical Program Manager (Platform & Growth)'
+job_url: >-
+  https://www.cakeresume.com/companies/kkcompany/jobs/kkstream-technical-program-manager-platform-growth
+date: 2022-09-12T10:44:40.083Z
 company_name: KKCompany
 company_page_url: 'https://www.cakeresume.com/companies/kkcompany'
 company_logo_url: >-
@@ -27,4 +28,4 @@ badges:
 
 ---
 
-KKStream is a video streaming service consultant and technology company that combines cutting-edge technology with robust knowledge of the industry to deliver comprehensive video streaming solutions. We’re a team of streaming technology experts, content aggregation specialists and growth hackers who combine technological prowess and business acumen to drive technological breakthroughs in the streaming industry. Responsibility: Project feature planning and service reliability management - be able
+KKStream is a video streaming service consultant and technology company that combines cutting-edge technology with robust knowledge of the industry to deliver comprehensive video streaming solutions. We’re a team of streaming technology experts, content aggregation specialists and growth hackers who combine technological prowess and business acumen to drive technological breakthroughs in the streaming industry. Responsibility: Project/product planning - be able to take business requirements from
