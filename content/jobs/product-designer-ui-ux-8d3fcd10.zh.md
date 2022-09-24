@@ -1,0 +1,30 @@
+---
+data_source_name: Cake Resume
+data_source_hostname: www.cakeresume.com
+data_source_url: >-
+  https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
+data_source_internal_id: '46810'
+title: Product Designer (UI/UX)
+job_url: >-
+  https://www.cakeresume.com/companies/mexctaiwan/jobs/product-designer-ui-ux-c4c4a4
+date: 2022-09-23T09:56:31.318Z
+company_name: MEXC Taiwan
+company_page_url: 'https://www.cakeresume.com/companies/mexctaiwan'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--H23cosY_--/c_pad,fl_png8,h_200,w_200/v1660289506/fmmveipbts2oue0re0bd.png
+salary_text: TWD800000 - TWD2000000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 800000
+salary_max: 2000000
+location_list: []
+job_tags:
+  - UI/UXDesign
+  - ux/ui
+  - Designer
+badges:
+  - Designer
+
+---
+
+Responsibilities Support web and app product experience design, be responsible for the interaction, UI and visual Strong product thinking ability and logic ability; Assist product landing, cultivate a better experience for the platform products and user experience. Participate in user and market research, conduct product analysis, find user needs and provide solutions. - Requirements 1~3 years (junior) or 3~5+ years (senior) in designing web / mobile products, can independently undertake and pro
