@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
-data_source_internal_id: '44554'
-title: 'Software Engineer, AI Deployment Framework'
+data_source_internal_id: '34756'
+title: 'Software Engineer, AI Software'
 job_url: >-
-  https://www.cakeresume.com/companies/skymizer-taiwan-inc/jobs/software-engineer-ai-deployment-framework
-date: 2022-08-15T08:53:08.319Z
+  https://www.cakeresume.com/companies/skymizer-taiwan-inc/jobs/software-engineer-ai-software
+date: 2021-12-02T04:01:46.914Z
 company_name: 'Skymizer '
 company_page_url: 'https://www.cakeresume.com/companies/skymizer-taiwan-inc'
 company_logo_url: >-
@@ -18,6 +18,9 @@ salary_type: per_year
 salary_min: 1110000
 salary_max: 1300000
 location_list:
+  - '台北市, 台灣'
+  - 台灣
+  - 'Taipei City, Taiwan'
   - Taiwan
 job_tags: []
 badges:

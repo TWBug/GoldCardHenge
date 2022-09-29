@@ -11,11 +11,11 @@ company_name: 印正有限公司 Yins Corp
 company_page_url: 'https://www.cakeresume.com/companies/yins'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--64cT0LZt--/c_pad,fl_png8,h_200,w_200/v1660628896/ko14owv2xye7mbuzfgu3.png
-salary_text: TWD40000 - TWD70000
+salary_text: TWD40000 - TWD200000
 salary_currency: TWD
 salary_type: per_month
 salary_min: 40000
-salary_max: 70000
+salary_max: 200000
 location_list:
   - 'Hsinchu City, Taiwan'
   - Taiwan
