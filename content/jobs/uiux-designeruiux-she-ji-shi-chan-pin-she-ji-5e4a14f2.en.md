@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '16308'
-title: 'UI/UX Designer UI/UX設計師 '
+title: UI/UX Designer/UI/UX設計師 / 產品設計
 job_url: 'https://www.cakeresume.com/companies/playsee/jobs/ui-ux-designer-e70ff1'
 date: 2019-12-11T07:46:54.318Z
 company_name: Playsee
@@ -16,7 +16,11 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 450000
 salary_max: 800000
-location_list: []
+location_list:
+  - Taiwan
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
 job_tags:
   - UIUX
   - Photoshop
