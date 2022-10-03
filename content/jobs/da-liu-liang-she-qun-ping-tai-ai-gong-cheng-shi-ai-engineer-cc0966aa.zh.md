@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '46464'
-title: 大流量社群平台AI Engineer/AI工程師
+title: 大流量社群平台AI工程師/ AI Engineer
 job_url: 'https://www.cakeresume.com/companies/playsee/jobs/ai-engineer-ai-engineer'
 date: 2022-09-17T06:10:18.866Z
 company_name: Playsee
