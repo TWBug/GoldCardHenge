@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
 data_source_internal_id: '44555'
-title: Lead Quality Assurance Engineer
+title: 【TENG0802】Lead Quality Assurance Engineer
 job_url: >-
   https://www.cakeresume.com/companies/shopline/jobs/lead-quality-assurance-engineer
 date: 2022-08-15T08:53:48.017Z
@@ -17,7 +17,11 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 1000000
 salary_max: 1700000
-location_list: []
+location_list:
+  - Taiwan
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
 job_tags: []
 badges:
   - QA Engineerr
