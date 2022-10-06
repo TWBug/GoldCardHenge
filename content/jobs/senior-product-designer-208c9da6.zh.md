@@ -23,10 +23,9 @@ job_tags:
   - Figma
   - Illustrator
   - Mixpanel
-  - Abstract
-  - Git
   - photoshop
   - powerpoint
+  - English
 badges:
   - Designer
 
