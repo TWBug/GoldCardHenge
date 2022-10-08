@@ -11,8 +11,8 @@ company_name: MediaTek 聯發科技
 company_page_url: 'https://www.cakeresume.com/companies/mediatek'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--UiTDRUDJ--/c_pad,fl_png8,h_200,w_200/v1628839429/l2kc5cahpfrd0qmuybsb.png
-salary_text: 35000 - 200000
-salary_currency: null
+salary_text: TWD35000 - TWD200000
+salary_currency: TWD
 salary_type: per_month
 salary_min: 35000
 salary_max: 200000
