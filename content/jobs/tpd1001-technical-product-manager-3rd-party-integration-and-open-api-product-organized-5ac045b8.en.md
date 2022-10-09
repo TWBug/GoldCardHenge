@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
+  https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '41939'
 title: ' 【TPD1001】Technical Product Manager (3rd party integration and open API product organized)'
 job_url: 'https://www.cakeresume.com/companies/shopline/jobs/80c3b2'
@@ -23,7 +23,7 @@ location_list:
   - '台北市, 台灣'
 job_tags: []
 badges:
-  - Project Manager
+  - Mechanical engineer
 
 ---
 
