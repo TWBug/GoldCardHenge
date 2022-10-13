@@ -11,11 +11,11 @@ company_name: inline 樂排股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/inline'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--mjU0oPnJ--/c_pad,fl_png8,h_200,w_200/v1650254451/gcobtiotkqtm1zpix6h0.png
-salary_text: TWD45000 - TWD90000
+salary_text: TWD45000 - TWD60000
 salary_currency: TWD
 salary_type: per_month
 salary_min: 45000
-salary_max: 90000
+salary_max: 60000
 location_list:
   - Taiwan
 job_tags: []
