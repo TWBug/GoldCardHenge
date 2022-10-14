@@ -11,16 +11,12 @@ company_name: 日本NEC集團_統智科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/nec-_'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--OXCvmIfr--/c_pad,fl_png8,h_200,w_200/v1665627220/ywfmcpnrkat43orrqlp5.png
-salary_text: TWD600000 - TWD1100000
+salary_text: TWD660000 - TWD1100000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 600000
+salary_min: 660000
 salary_max: 1100000
-location_list:
-  - Taiwan
-  - 台灣
-  - 'Taipei City, Taiwan'
-  - '台北市, 台灣'
+location_list: []
 job_tags: []
 badges:
   - Project Manager
