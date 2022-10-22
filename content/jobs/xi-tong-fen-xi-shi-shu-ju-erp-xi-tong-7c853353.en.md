@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_type%5D=per_month&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmax%5D=600000
-data_source_internal_id: '45571'
-title: 系統分析師(O2O系統)
+data_source_internal_id: '46906'
+title: 系統分析師(數據/ERP系統)
 job_url: >-
-  https://www.cakeresume.com/companies/familymart/jobs/systems-analyst-o2o-systems
-date: 2022-09-02T08:43:23.819Z
+  https://www.cakeresume.com/companies/familymart/jobs/systems-analyst-data-erp-systems
+date: 2022-09-27T06:22:38.380Z
 company_name: 全家便利商店股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/familymart'
 company_logo_url: >-
@@ -22,10 +22,11 @@ location_list:
   - 台灣
   - 'Taipei City, Taiwan'
   - '台北市, 台灣'
-job_tags: []
+job_tags:
+  - SQL
 badges:
   - QA Engineer
 
 ---
 
-1.便利商店APP創新需求規劃及數位系統分析設計 2.數位O2O系統平台建置及維護(寄杯、點數、支付、電商平台等) 3.跨部門需求連動及委外專案管理 4.系統驗收、教育訓練及系統上線 5.既有系統日常維護及問題排除
+1.情報系統機能維護 2.情報系系統相關專案的執行(需求蒐集整理規劃、對廠商說明需求與時程管理、驗收測試、導入程序) 3.Tableau工具推廣

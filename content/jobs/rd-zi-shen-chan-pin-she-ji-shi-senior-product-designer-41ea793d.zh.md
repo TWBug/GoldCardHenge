@@ -10,7 +10,7 @@ date: 2022-03-02T06:41:04.801Z
 company_name: KKday
 company_page_url: 'https://www.cakeresume.com/companies/kkday'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--kIBiqk6d--/c_pad,fl_png8,h_200,w_200/v1619151728/rmlcovyo29rcz7szef1i.png
+  https://media.cakeresume.com/image/upload/s--qb9ge49h--/c_pad,fl_png8,h_200,w_200/v1666342333/cmu3q58jezs7zkvpeprv.png
 salary_text: TWD780000 - TWD1300000
 salary_currency: TWD
 salary_type: per_year
