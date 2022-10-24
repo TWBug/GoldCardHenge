@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '33222'
 title: Product Manager 產品經理 (Mid-Senior Level)
 job_url: 'https://www.cakeresume.com/companies/cakeresume/jobs/product-manager-8e5dc0'
@@ -27,7 +27,7 @@ job_tags:
   - SCRUM
   - Project Management
 badges:
-  - QA Engineerr
+  - Game Production
 
 ---
 
