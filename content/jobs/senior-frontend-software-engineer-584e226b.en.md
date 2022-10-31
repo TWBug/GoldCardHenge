@@ -1,0 +1,32 @@
+---
+data_source_name: Cake Resume
+data_source_hostname: www.cakeresume.com
+data_source_url: >-
+  https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList[lang_name][0]=E[…]tech_front-end-development&range[salary_range][min]=1000000
+data_source_internal_id: '41231'
+title: Senior Frontend Software Engineer
+job_url: >-
+  https://www.cakeresume.com/companies/sunbirddcim/jobs/senior-frontend-software-engineer
+date: 2022-05-27T02:33:01.951Z
+company_name: 美商太陽鳥軟體股份有限公司台灣分公司
+company_page_url: 'https://www.cakeresume.com/companies/sunbirddcim'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--OmKEeXWa--/c_pad,fl_png8,h_200,w_200/v1652938056/ypxk1g1ru8txarn9arly.png
+salary_text: TWD1000000 - TWD1700000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 1000000
+salary_max: 1700000
+location_list:
+  - 'New Taipei City, Taiwan'
+  - Taiwan
+job_tags:
+  - AngularJS
+  - Angular
+  - JavaScript
+badges:
+  - Frontend
+
+---
+
+• Follow Sunbird's software development process to participate in full software development life cycle • Analyze and clarify the requirements of software enhancements • Design and implement software enhancements using AngularJS, Angular, HTML and CSS • Assist in the maintenance and migration of AngularJS to Angular • Produce efficient, reusable, and maintainable software code • Write unit tests and perform unit testing and integration testing • Deliver high-quality software code on time and on s
