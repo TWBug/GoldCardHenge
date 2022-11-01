@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '48035'
-title: F0047-Software Project Manager (Android Product)
+title: F0047 - Software Project Manager (Android Product)
 job_url: >-
   https://www.cakeresume.com/companies/UI-Limited/jobs/f0047-software-project-manager-android-product
 date: 2022-10-20T14:00:51.539Z
