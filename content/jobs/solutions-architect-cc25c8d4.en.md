@@ -7,7 +7,7 @@ data_source_internal_id: '48237'
 title: Solutions Architect
 job_url: 'https://www.cakeresume.com/companies/aws-taiwan/jobs/solutions-architect'
 date: 2022-10-26T06:51:14.881Z
-company_name: 'Amazon Web Services Taiwan Limited_台灣亞馬遜網路服務有限公司 '
+company_name: Amazon Web Services Taiwan (AWS)_台灣亞馬遜網路服務有限公司
 company_page_url: 'https://www.cakeresume.com/companies/aws-taiwan'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--w5gqx0bC--/c_pad,fl_png8,h_200,w_200/v1666236367/yngx0yw139ve6fl3twwf.png
