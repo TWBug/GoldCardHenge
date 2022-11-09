@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
+  https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList[lang_name][0]=E[…]tech_front-end-development&range[salary_range][min]=1000000
 data_source_internal_id: '35949'
 title: Software Engineer - Frontend 前端工程師
 job_url: >-
@@ -35,7 +35,7 @@ job_tags:
   - Front-end
   - Software Development
 badges:
-  - Game Production
+  - Frontend
 
 ---
 
