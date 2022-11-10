@@ -25,6 +25,7 @@ job_tags:
   - API testing
   - Web testing
   - API Automation
+  - QA Engineer
 badges:
   - QA Engineer
 

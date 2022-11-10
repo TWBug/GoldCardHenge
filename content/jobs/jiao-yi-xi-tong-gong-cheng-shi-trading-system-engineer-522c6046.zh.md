@@ -10,7 +10,7 @@ date: 2022-11-07T06:15:03.723Z
 company_name: 領先創新科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/abatw'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--Q_C3Ghio--/c_pad,fl_png8,h_200,w_200/v1598853236/nprn9q0hkxjtv3xhsp5r.png
+  https://media.cakeresume.com/image/upload/s---uxGGhj5--/c_pad,fl_png8,h_200,w_200/v1667985305/exh3hejbqucdyd5hvxtt.png
 salary_text: TWD800000 - TWD1500000
 salary_currency: TWD
 salary_type: per_year
