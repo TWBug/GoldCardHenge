@@ -18,7 +18,8 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 2000000
 salary_max: 3500000
-location_list: []
+location_list:
+  - Taiwan
 job_tags:
   - engineering manager
   - Tech Lead
