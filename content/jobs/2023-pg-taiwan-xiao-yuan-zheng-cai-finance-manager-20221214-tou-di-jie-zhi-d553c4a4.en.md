@@ -6,7 +6,7 @@ data_source_url: >-
 data_source_internal_id: '48895'
 title: 2023 P&G Taiwan 校園徵才 Finance Manager (2022.12.14 投遞截止)
 job_url: >-
-  https://www.cakeresume.com/companies/procter-and-gamble/jobs/2023-campus-recruitment-finance-accounting-manager
+  https://www.cakeresume.com/companies/procter-and-gamble/jobs/2023-campus-recruitment-finance-manager
 date: 2022-11-07T07:30:47.700Z
 company_name: P&G 寶僑家品 2023 校園徵才
 company_page_url: 'https://www.cakeresume.com/companies/procter-and-gamble'
