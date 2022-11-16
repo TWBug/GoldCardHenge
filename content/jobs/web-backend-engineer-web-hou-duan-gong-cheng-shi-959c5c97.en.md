@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
+  https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '34245'
 title: Web Backend Engineer (Web 後端工程師)
 job_url: >-
@@ -29,7 +29,7 @@ job_tags:
   - +AWS
   - +docker
 badges:
-  - Game Production
+  - Software architecture
 
 ---
 

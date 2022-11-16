@@ -1,0 +1,39 @@
+---
+data_source_name: Cake Resume
+data_source_hostname: www.cakeresume.com
+data_source_url: >-
+  https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList[lang_name][0]=E[…]tech_front-end-development&range[salary_range][min]=1000000
+data_source_internal_id: '43087'
+title: Sr. Frontend Engineer - Product UI 資深前端工程師
+job_url: >-
+  https://www.cakeresume.com/companies/cybavo-d82e91/jobs/frontend-engineer-product-ui
+date: 2022-07-11T10:42:51.694Z
+company_name: CYBAVO 博歐科技有限公司
+company_page_url: 'https://www.cakeresume.com/companies/cybavo-d82e91'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--c1cAgc6j--/c_pad,fl_png8,h_200,w_200/v1640145205/kbe3vxfxlt7nzzncem70.png
+salary_text: TWD2130000 - TWD2500000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 2130000
+salary_max: 2500000
+location_list:
+  - Taiwan
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
+job_tags:
+  - HTML
+  - JavaScript
+  - CSS
+  - React.js
+  - Vue.js
+  - Blockchain
+  - Startup
+  - '#2022優質新創職缺'
+badges:
+  - Frontend
+
+---
+
+Who we are CYBAVO is a blockchain security solution provider that helps institutions secure digital assets. On the blockchain, where loss of data means real loss of value, organizations need a comprehensive solution to manage and protect the most crucial part of the puzzle – their private keys. This is exactly what CYBAVO offers: a platform that delivers advanced tools and features to help developers, crypto exchanges, or TradFi institutions harness the power of blockchain technology, and build 
