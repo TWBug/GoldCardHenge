@@ -11,11 +11,11 @@ company_name: 台灣應用材料 Applied Materials Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/amat'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--2k5n8oU4--/c_pad,fl_png8,h_200,w_200/v1660726541/smmejxun3qvfz9mozepa.png
-salary_text: TWD1000000 - TWD1700000
+salary_text: TWD0 - TWD0
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1000000
-salary_max: 1700000
+salary_min: 0
+salary_max: 0
 location_list:
   - 'Hsinchu City, Taiwan'
   - Taiwan
