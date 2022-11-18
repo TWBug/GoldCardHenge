@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=finance&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '49341'
-title: (獵才) 國泰投顧｜投資研究部門主管｜信義區
+title: (獵才) 國泰證券投顧｜投資研究企劃部門主管｜信義區
 job_url: 'https://www.cakeresume.com/companies/seawardcard-ad4b2f/jobs/264402'
 date: 2022-11-16T08:06:27.125Z
 company_name: 華卡企業股份有限公司

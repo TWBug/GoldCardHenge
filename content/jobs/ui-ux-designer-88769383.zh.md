@@ -5,11 +5,10 @@ data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '47123'
 title: UI/UX Designer
-job_url: >-
-  https://www.cakeresume.com/companies/gamma-interactive-inc/jobs/ui-ux-designer-1742f7
+job_url: 'https://www.cakeresume.com/companies/gii/jobs/ui-ux-designer-1742f7'
 date: 2022-09-30T10:40:54.389Z
 company_name: GAMMA INTERACTIVE INC.
-company_page_url: 'https://www.cakeresume.com/companies/gamma-interactive-inc'
+company_page_url: 'https://www.cakeresume.com/companies/gii'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--rXAgy-lJ--/c_pad,fl_png8,h_200,w_200/v1660641370/ctl3fsfrjcqe0dqkh87x.png
 salary_text: TWD55000 - TWD70000

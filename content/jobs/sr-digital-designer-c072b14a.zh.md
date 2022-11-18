@@ -11,14 +11,16 @@ company_name: ALPHA Camp
 company_page_url: 'https://www.cakeresume.com/companies/alpha-camp'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--yvVYN9sa--/c_pad,fl_png8,h_200,w_200/v1548316744/ribjsyna9cm9tm4pkv63.png
-salary_text: TWD520000 - TWD715000
+salary_text: TWD520000 - TWD754000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 520000
-salary_max: 715000
+salary_max: 754000
 location_list:
-  - 'Taipei City, Taiwan'
   - Taiwan
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
 job_tags:
   - 新創教育
   - 品牌行銷
