@@ -6,12 +6,12 @@ data_source_url: >-
 data_source_internal_id: '37549'
 title: Senior React Frontend Engineer
 job_url: >-
-  https://www.cakeresume.com/companies/mexctaiwan/jobs/junior-senior-react-engineer
+  https://www.cakeresume.com/companies/mexcglobal/jobs/junior-senior-react-engineer
 date: 2022-03-04T02:37:16.686Z
-company_name: MEXC Taiwan
-company_page_url: 'https://www.cakeresume.com/companies/mexctaiwan'
+company_name: MEXC Global
+company_page_url: 'https://www.cakeresume.com/companies/mexcglobal'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--H23cosY_--/c_pad,fl_png8,h_200,w_200/v1660289506/fmmveipbts2oue0re0bd.png
+  https://media.cakeresume.com/image/upload/s--phO_FH4k--/c_pad,fl_png8,h_200,w_200/v1668742609/jyjfheirf31lydylj0xw.png
 salary_text: TWD900000 - TWD2000000
 salary_currency: TWD
 salary_type: per_year

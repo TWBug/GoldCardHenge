@@ -6,12 +6,12 @@ data_source_url: >-
 data_source_internal_id: '46810'
 title: Product Designer (UI/UX)
 job_url: >-
-  https://www.cakeresume.com/companies/mexctaiwan/jobs/product-designer-ui-ux-c4c4a4
+  https://www.cakeresume.com/companies/mexcglobal/jobs/product-designer-ui-ux-c4c4a4
 date: 2022-09-23T09:56:31.318Z
-company_name: MEXC Taiwan
-company_page_url: 'https://www.cakeresume.com/companies/mexctaiwan'
+company_name: MEXC Global
+company_page_url: 'https://www.cakeresume.com/companies/mexcglobal'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--H23cosY_--/c_pad,fl_png8,h_200,w_200/v1660289506/fmmveipbts2oue0re0bd.png
+  https://media.cakeresume.com/image/upload/s--phO_FH4k--/c_pad,fl_png8,h_200,w_200/v1668742609/jyjfheirf31lydylj0xw.png
 salary_text: TWD800000 - TWD2000000
 salary_currency: TWD
 salary_type: per_year

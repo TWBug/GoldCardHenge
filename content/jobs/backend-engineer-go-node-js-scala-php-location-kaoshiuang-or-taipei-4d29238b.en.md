@@ -18,7 +18,13 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 700000
 salary_max: 1500000
-location_list: []
+location_list:
+  - '新北市, 台灣'
+  - 台灣
+  - 'New Taipei City, Taiwan'
+  - Taiwan
+  - '高雄市, 台灣'
+  - 'Kaohsiung City, Taiwan'
 job_tags:
   - 後端工程師
   - Micro-Service
