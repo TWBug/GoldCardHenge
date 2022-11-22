@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_type%5D=per_month&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmax%5D=600000
-data_source_internal_id: '47978'
-title: Digital/Graphic Designer 視覺設計師
+data_source_internal_id: '47980'
+title: Digital Marketing Associate (數位行銷SEO/SEM)
 job_url: >-
-  https://www.cakeresume.com/companies/botrista-technology-taiwan-co-ltd/jobs/digital-graphic-designer-c88c4c
-date: 2022-10-20T02:14:55.449Z
+  https://www.cakeresume.com/companies/botrista-technology-taiwan-co-ltd/jobs/digital-marketing-associate
+date: 2022-10-20T02:27:14.692Z
 company_name: Botrista 百睿達有限公司
 company_page_url: 'https://www.cakeresume.com/companies/botrista-technology-taiwan-co-ltd'
 company_logo_url: >-
@@ -24,13 +24,12 @@ location_list:
   - '台北市, 台灣'
 job_tags:
   - Marketing
-  - UI/UX Designer
   - Digital Marketing
-  - Digital
-  - Designer
-  - photoshop
-  - illustrator
-  - Figma
+  - Google Ads
+  - Google Analytics
+  - SEO/SEM
+  - SEO
+  - SEM
 badges:
   - QA Engineer
 
