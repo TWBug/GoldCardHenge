@@ -5,10 +5,10 @@ data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_type%5D=per_month&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmax%5D=600000
 data_source_internal_id: '43620'
 title: Engineer Intern (QA Team) 產品測試實習生
-job_url: 'https://www.cakeresume.com/companies/shopback/jobs/c879fb'
+job_url: 'https://www.cakeresume.com/companies/shopback-taiwan/jobs/c879fb'
 date: 2022-07-22T06:38:18.179Z
 company_name: ShopBack 回饋網股份有限公司
-company_page_url: 'https://www.cakeresume.com/companies/shopback'
+company_page_url: 'https://www.cakeresume.com/companies/shopback-taiwan'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--RiMxTzWd--/c_pad,fl_png8,h_200,w_200/v1657599645/hma3pimzrdw1b4eq527q.png
 salary_text: TWD175 - TWD175
