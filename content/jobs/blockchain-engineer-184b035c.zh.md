@@ -17,9 +17,6 @@ salary_type: per_year
 salary_min: 1120000
 salary_max: 1400000
 location_list:
-  - '台北市, 台灣'
-  - 台灣
-  - 'Taipei City, Taiwan'
   - Taiwan
 job_tags:
   - Blockchain

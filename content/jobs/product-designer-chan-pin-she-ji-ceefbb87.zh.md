@@ -32,4 +32,4 @@ badges:
 
 ---
 
-As part of a product-driven and design-led company, you will play a key role in a squad — a small cross-functional team owning core product development for each product lines. You will be designing delightful experiences that make it as simple as possible for people working in a small to a mid-size company to adopt, use, and benefit from our product that contributing towards our mission to help businesses grow by empowering people. We're looking for a talented Product Designer who's passionate a
+Please apply with English resume. As part of a product-driven and design-led company, you will play a key role in a squad — a small cross-functional team owning core product development for each product lines. You will be designing delightful experiences that make it as simple as possible for people working in a small to a mid-size company to adopt, use, and benefit from our product that contributing towards our mission to help businesses grow by empowering people. We're looking for a talented P
