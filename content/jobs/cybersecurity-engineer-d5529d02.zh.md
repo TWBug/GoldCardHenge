@@ -24,6 +24,8 @@ location_list:
 job_tags:
   - BurpSuite
   - cybersecurity
+  - pentest
+  - security testing
 badges:
   - Cyber Security
 
