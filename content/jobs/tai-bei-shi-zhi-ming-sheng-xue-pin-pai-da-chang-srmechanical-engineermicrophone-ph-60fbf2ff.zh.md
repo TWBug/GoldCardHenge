@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
 data_source_internal_id: '49676'
-title: 台北市知名聲學品牌大廠 - Sr.Mechanical Engineer【Microphone】 - PH
+title: "\U0001F31F台北市知名聲學品牌大廠 - Sr.Mechanical Engineer【\U0001F399️Microphone】 - PH"
 job_url: >-
   https://www.cakeresume.com/companies/cakeresume-recruitment-consulting/jobs/29fbb5
 date: 2022-11-23T07:13:32.225Z

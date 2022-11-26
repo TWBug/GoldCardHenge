@@ -12,11 +12,11 @@ company_name: 今展科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/arlitech-index-php'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--H2XnT5G5--/c_pad,fl_png8,h_200,w_200/v1653881060/angqecd6joxxhknl1tvh.png
-salary_text: TWD800000 - TWD1200000
+salary_text: TWD800000 - TWD1300000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 800000
-salary_max: 1200000
+salary_max: 1300000
 location_list:
   - '新北市, 台灣'
   - 台灣
