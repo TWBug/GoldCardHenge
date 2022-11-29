@@ -11,7 +11,7 @@ date: 2021-03-29T03:07:44.272Z
 company_name: TaiNai Technologies | 泰奈科技
 company_page_url: 'https://www.cakeresume.com/companies/tainaitech'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--j4uu7cu7--/c_pad,fl_png8,h_200,w_200/v1660980728/oequkwtjy3bgtvscvm2z.png
+  https://media.cakeresume.com/image/upload/s--K8B3hTSU--/c_pad,fl_png8,h_200,w_200/v1669614414/koevl284suswdlrnq4db.png
 salary_text: TWD850000 - TWD1300000
 salary_currency: TWD
 salary_type: per_year

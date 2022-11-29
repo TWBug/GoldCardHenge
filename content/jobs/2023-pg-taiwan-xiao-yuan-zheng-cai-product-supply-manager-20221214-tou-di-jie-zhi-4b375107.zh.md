@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?range%5Bsalary_range%5D%5Bmin%5D=1000000&refinementList%5Bprofession%5D%5B0%5D=tech_android-development&refinementList%5Bprofession%5D%5B1%5D=tech_ios-development
+  https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '48892'
 title: 2023 P&G Taiwan 校園徵才 Product Supply Manager (2022.12.14 投遞截止)
 job_url: >-
@@ -21,7 +21,7 @@ location_list:
   - Taiwan
 job_tags: []
 badges:
-  - App Developer
+  - Industrial Engineer
 
 ---
 
