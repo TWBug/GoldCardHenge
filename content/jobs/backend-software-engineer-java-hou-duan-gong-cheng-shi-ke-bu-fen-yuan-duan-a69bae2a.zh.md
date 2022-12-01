@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '28139'
-title: 'Backend Software Engineer (Java) [可部分遠端]'
+title: 'Backend Software Engineer (Java) 後端工程師 [可部分遠端]'
 job_url: >-
   https://www.cakeresume.com/companies/tainaitech/jobs/backend-software-engineer-java-be8ad1
 date: 2021-03-29T03:07:44.272Z
