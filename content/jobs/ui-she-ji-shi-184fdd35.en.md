@@ -4,18 +4,18 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_type%5D=per_month&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmax%5D=600000
 data_source_internal_id: '48540'
-title: 'UI 設計師 '
+title: UI 設計師
 job_url: 'https://www.cakeresume.com/companies/streetvoice/jobs/streetvoice-ui-designer'
 date: 2022-11-03T05:11:08.771Z
 company_name: StreetVoice 街聲
 company_page_url: 'https://www.cakeresume.com/companies/streetvoice'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--CVB5kHLa--/c_pad,fl_png8,h_200,w_200/v1570079491/usk1morkgo3c5dgqbtnq.png
-salary_text: TWD40000 - TWD70000
+salary_text: TWD50000 - TWD60000
 salary_currency: TWD
 salary_type: per_month
-salary_min: 40000
-salary_max: 70000
+salary_min: 50000
+salary_max: 60000
 location_list:
   - Taiwan
   - 台灣
@@ -26,6 +26,7 @@ job_tags:
   - Figma
   - Adobe Photoshop
   - Adobe Illustrator
+  - Mac OS
 badges:
   - QA Engineer
 
