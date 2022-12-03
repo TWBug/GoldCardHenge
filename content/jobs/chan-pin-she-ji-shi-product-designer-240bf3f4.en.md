@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?range%5Bsalary_range%5D%5Bmin%5D=1000000&refinementList%5Bprofession%5D%5B0%5D=tech_android-development&refinementList%5Bprofession%5D%5B1%5D=tech_ios-development
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
 data_source_internal_id: '33271'
 title: 產品設計師 Product Designer
 job_url: 'https://www.cakeresume.com/companies/funnow/jobs/sr-product-designer-c5e6b3'
@@ -26,7 +26,7 @@ job_tags:
   - Sketch
   - Axure RP
 badges:
-  - App Developer
+  - QA Engineerr
 
 ---
 

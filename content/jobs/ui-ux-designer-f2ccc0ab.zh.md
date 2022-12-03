@@ -29,4 +29,4 @@ badges:
 
 ---
 
-【 Responsibilities 】 Work with product and content team to create wireframes and develop mockups for web/mobile education platform. Create highly functional interface layouts and designs. Proficiency in design tools such as Figma, Photoshop, Illustrator, or similar.
+【 Responsibilities 】 Work with product and content team to create wireframes. Develop web & mobile app mockups for education product, including the web platform for instructors & institutes(B2B) and web & app platforms for students(B2C). Create highly functional interface layouts and designs. Proficiency in design tools such as Figma, Photoshop, Illustrator, or similar.
