@@ -12,10 +12,10 @@ company_name: 'Gogolook '
 company_page_url: 'https://www.cakeresume.com/companies/gogolook'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--Y99hvpQ5--/c_pad,fl_png8,h_200,w_200/v1618254473/gi3vnzovbkfiqffe6fu7.png
-salary_text: TWD750000 - TWD1100000
+salary_text: TWD850000 - TWD1100000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 750000
+salary_min: 850000
 salary_max: 1100000
 location_list:
   - Taiwan
