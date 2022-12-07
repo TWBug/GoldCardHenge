@@ -10,7 +10,7 @@ date: 2022-10-28T04:54:46.399Z
 company_name: 91APP
 company_page_url: 'https://www.cakeresume.com/companies/91app'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--xyGwAvU5--/c_pad,fl_png8,h_200,w_200/v1501666180/page__logo_1482125717.png
+  https://media.cakeresume.com/image/upload/s--urVauCNn--/c_pad,fl_png8,h_200,w_200/v1670309290/mzedxonz6en15stbpyb9.png
 salary_text: TWD0 - TWD0
 salary_currency: TWD
 salary_type: per_month

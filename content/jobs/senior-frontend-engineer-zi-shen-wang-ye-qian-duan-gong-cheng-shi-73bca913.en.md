@@ -6,12 +6,12 @@ data_source_url: >-
 data_source_internal_id: '47064'
 title: Senior Frontend Engineer 資深網頁前端工程師
 job_url: >-
-  https://www.cakeresume.com/companies/metaform/jobs/senior-frontend-engineer-f5cec8
+  https://www.cakeresume.com/companies/metacrm/jobs/senior-frontend-engineer-f5cec8
 date: 2022-09-29T05:08:25.858Z
-company_name: MetaForm
-company_page_url: 'https://www.cakeresume.com/companies/metaform'
+company_name: MetaCRM
+company_page_url: 'https://www.cakeresume.com/companies/metacrm'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--uoljmjqX--/c_pad,fl_png8,h_200,w_200/v1670163075/iptst995hm7rjokyltcr.png
+  https://media.cakeresume.com/image/upload/s--DiMBamOe--/c_pad,fl_png8,h_200,w_200/v1670351686/tfewhnkmqld11n4ga0fs.png
 salary_text: TWD750000 - TWD1100000
 salary_currency: TWD
 salary_type: per_year

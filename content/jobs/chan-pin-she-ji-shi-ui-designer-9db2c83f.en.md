@@ -5,13 +5,12 @@ data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '47066'
 title: 產品設計師 (UI Designer)
-job_url: >-
-  https://www.cakeresume.com/companies/metaform/jobs/product-designer-ui-designer
+job_url: 'https://www.cakeresume.com/companies/metacrm/jobs/product-designer-ui-designer'
 date: 2022-09-29T05:22:57.768Z
-company_name: MetaForm
-company_page_url: 'https://www.cakeresume.com/companies/metaform'
+company_name: MetaCRM
+company_page_url: 'https://www.cakeresume.com/companies/metacrm'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--uoljmjqX--/c_pad,fl_png8,h_200,w_200/v1670163075/iptst995hm7rjokyltcr.png
+  https://media.cakeresume.com/image/upload/s--DiMBamOe--/c_pad,fl_png8,h_200,w_200/v1670351686/tfewhnkmqld11n4ga0fs.png
 salary_text: TWD500000 - TWD700000
 salary_currency: TWD
 salary_type: per_year
