@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=semiconductor&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '49543'
-title: 資深半導體Team Leader (AI/AR相關專案)
+title: AI產品應用工程主管(半導體領域專長)
 job_url: 'https://www.cakeresume.com/companies/adat-technology/jobs/7dd67a'
 date: 2022-11-21T06:26:33.596Z
 company_name: 亞達科技股份有限公司ADAT Technology
@@ -16,7 +16,11 @@ salary_currency: TWD
 salary_type: per_month
 salary_min: 55000
 salary_max: 190000
-location_list: []
+location_list:
+  - '台南市, 台灣'
+  - 台灣
+  - 'Tainan City, Taiwan'
+  - Taiwan
 job_tags:
   - Semiconductor
   - equipment
