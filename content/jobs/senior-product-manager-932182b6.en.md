@@ -29,4 +29,4 @@ badges:
 
 ---
 
-Mission We are seeking an experienced member to join the Product team for our fact-checking product line. We need you to handle: Be the expert of the product and customers Set the right position the product to develop and maintain the roadmap Develop the business case for the product Advocate for funding and manage the budget
+Mission We are seeking an experienced member to join the Product team for our message-checking product line. We need you to handle: Be the expert of the product and customers Set the right position the product to develop and maintain the roadmap Develop the business case for the product Advocate for funding and manage the budget

@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList[lang_name][0]=E[…]tech_front-end-development&range[salary_range][min]=1000000
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
 data_source_internal_id: '28701'
 title: 前端工程師 Frontend Engineer
 job_url: >-
@@ -12,11 +12,11 @@ company_name: AmazingTalker
 company_page_url: 'https://www.cakeresume.com/companies/amazingtalker'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--J2SIR5qR--/c_pad,fl_png8,h_200,w_200/v1631641971/kifa19wruvkuxf8qm37i.png
-salary_text: TWD980000 - TWD1400000
+salary_text: TWD980000 - TWD1260000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 980000
-salary_max: 1400000
+salary_max: 1260000
 location_list:
   - '新北市, 台灣'
   - 台灣
@@ -29,7 +29,7 @@ job_tags:
   - React.js
   - 前端工程師
 badges:
-  - Frontend
+  - QA Engineerr
 
 ---
 
