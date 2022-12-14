@@ -16,7 +16,8 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 1000000
 salary_max: 1600000
-location_list: []
+location_list:
+  - Taiwan
 job_tags:
   - UX Design
   - UI/UXDesign

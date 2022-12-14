@@ -17,7 +17,11 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 868000
 salary_max: 1176000
-location_list: []
+location_list:
+  - Taiwan
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
 job_tags:
   - Information Security
 badges:
