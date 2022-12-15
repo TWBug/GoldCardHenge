@@ -41,4 +41,4 @@ badges:
 
 ---
 
-PLEASE TAKE A LOOK AT OUR WEBSITE HTTPS://WWW.EMATICSOLUTIONS.COM/TW/ YOUR DAY MIGHT INCLUDE On-boarding and partnering with our customers, to ensure that they’re up and running with their services of choice and setup for success. Coordinate with Account Manager and Consultant team to gather the requirements of client’s marketing campaigns (including EDM, Ads campaigns etc.). Setup the campaign based on the brief, and schedule once it has been approved. Maintaining a consistent response and comm
+PLEASE TAKE A LOOK AT OUR WEBSITE HTTPS://WWW.EMATICSOLUTIONS.COM/TW/ #WHAT'S THE GIG You'll team up with our Digital Gurus and be exposed to all our verticals, including Data Analytics, Content Marketing, CRM, CRO, Ecommerce, Performance Marketing, and SEO. You'll discover how our Account Managers are rocking their project management and how our consultant's brain juice develops kick-ass strategies. You'll be supporting them with basic fundamentals to ensure our existing client's campaigns are 

@@ -11,7 +11,7 @@ date: 2022-09-21T09:36:36.985Z
 company_name: 幣錸有限公司
 company_page_url: 'https://www.cakeresume.com/companies/picol-95711a'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--nBqD4I9r--/c_pad,fl_png8,h_200,w_200/v1663747831/t2zjdf6ou1ctpipfjqtn.png
+  https://media.cakeresume.com/image/upload/s--lmtyqwJ5--/c_pad,fl_png8,h_200,w_200/v1670988741/xeavvxfnis2smia0vhse.png
 salary_text: TWD1000000 - TWD1500000
 salary_currency: TWD
 salary_type: per_year
