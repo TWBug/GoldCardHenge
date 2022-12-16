@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
+  https://www.cakeresume.com/jobs?q=enterprise%20architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '49494'
 title: 科技金融_高級企業架構師(應用系統)
 job_url: 'https://www.cakeresume.com/companies/ctbc-holding/jobs/ba3bf2'
@@ -35,7 +35,7 @@ job_tags:
   - SRE
   - 架構師
 badges:
-  - Software architecture
+  - Enterprise Architecture
 
 ---
 
