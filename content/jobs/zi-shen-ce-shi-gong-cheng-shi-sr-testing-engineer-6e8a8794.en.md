@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_type%5D=per_month&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmax%5D=600000
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
 data_source_internal_id: '48441'
 title: 資深測試工程師 Sr. Testing Engineer
 job_url: 'https://www.cakeresume.com/companies/omnieyes/jobs/sr-testing-engineer'
@@ -11,11 +11,11 @@ company_name: 動見科技 OmniEyes
 company_page_url: 'https://www.cakeresume.com/companies/omnieyes'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--XWynPM1q--/c_pad,fl_png8,h_200,w_200/v1615194351/cnooukbovmmzkplynmzg.png
-salary_text: TWD0 - TWD0
+salary_text: TWD800000 - TWD1000000
 salary_currency: TWD
-salary_type: per_month
-salary_min: 0
-salary_max: 0
+salary_type: per_year
+salary_min: 800000
+salary_max: 1000000
 location_list:
   - Taiwan
   - 台灣
@@ -24,7 +24,7 @@ location_list:
 job_tags:
   - Python
 badges:
-  - QA Engineer
+  - QA Engineerr
 
 ---
 
