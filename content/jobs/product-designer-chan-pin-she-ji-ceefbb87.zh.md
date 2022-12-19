@@ -12,11 +12,11 @@ company_name: Swingvy Ltd.
 company_page_url: 'https://www.cakeresume.com/companies/swingvy'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--mGfkMX33--/c_pad,fl_png8,h_200,w_200/v1659418857/hlrfahyv2vzczghwlumf.png
-salary_text: TWD600000 - TWD900000
+salary_text: TWD600000 - TWD0
 salary_currency: TWD
 salary_type: per_year
 salary_min: 600000
-salary_max: 900000
+salary_max: 0
 location_list:
   - Taiwan
   - 台灣
