@@ -10,7 +10,7 @@ date: 2022-05-28T01:31:08.786Z
 company_name: portto 門戶科技 | Blocto
 company_page_url: 'https://www.cakeresume.com/companies/portto'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--Xnm3nQrn--/c_pad,fl_png8,h_200,w_200/v1570006047/sq9mgfdvsvmprrzeakz2.png
+  https://media.cakeresume.com/image/upload/s--JLB_PcKc--/c_pad,fl_png8,h_200,w_200/v1671585712/whc1srb2o0bd5asmlqnz.png
 salary_text: TWD1400000 - TWD2800000
 salary_currency: TWD
 salary_type: per_year
