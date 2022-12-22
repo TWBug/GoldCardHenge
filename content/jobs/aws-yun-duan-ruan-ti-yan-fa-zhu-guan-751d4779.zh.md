@@ -8,7 +8,7 @@ title: AWS雲端軟體研發主管
 job_url: >-
   https://www.cakeresume.com/companies/conbiz-consulting-firm/jobs/director-of-aws-cloud-software-r-amp-d
 date: 2022-04-13T06:27:14.296Z
-company_name: Conbiz Consulting Firm
+company_name: Conbiz Consulting Firm康彼斯顧問股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/conbiz-consulting-firm'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--tPUqP0kn--/c_pad,fl_png8,h_200,w_200/v1634116095/vsgsbfwlsg1lcvof5ven.png
