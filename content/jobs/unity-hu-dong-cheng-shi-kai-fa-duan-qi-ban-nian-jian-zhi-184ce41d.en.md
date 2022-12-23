@@ -16,14 +16,18 @@ salary_currency: TWD
 salary_type: per_month
 salary_min: 40000
 salary_max: 43000
-location_list: []
+location_list:
+  - Taiwan
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
 job_tags:
-  - Unity
-  - Engineering
   - C#
+  - Engineering
+  - Unity
 badges:
   - Game Production
 
 ---
 
-我們是有日互動，公司製作領域主要為 AR / VR / 互動展覽規劃 / 3D美術外包 等領域，同時公司也有研發虛擬攝影棚和虛擬人等技術，工作期間有機會遇到各式不同有趣的專案項目，合作及製作客戶包含工研院、資策會、各大博物館及校園、ASUS、上銀科技等... 我們目前徵求企劃實習生/互動程式開發實習生，若對公司方向及發展內容有興趣可以投履歷到信箱（到6月底截止歐，7月會陸續通知大家面試時間） 公司網站： https://www.expectstudio.com/ 公司信箱 : yuri2020@expectstudio.com →請附上作品集或是作品連結網址，信件主旨請標註【Unity 程式開發｜ＸＸＸ（姓名）】。
+我們是有日互動，公司製作領域主要為 AR / VR / 互動展覽規劃 / 3D美術外包 等領域，同時公司也有研發虛擬攝影棚和虛擬人等技術，工作期間有機會遇到各式不同有趣的專案項目，合作及製作客戶包含工研院、資策會、各大博物館及校園、ASUS、上銀科技等... 我們目前徵求企劃實習生/互動程式開發實習生，若對公司方向及發展內容有興趣可以投履歷到信箱 公司網站： https://www.expectstudio.com/ 公司信箱 : yuri2020@expectstudio.com →請附上作品集或是作品連結網址，信件主旨請標註【Unity 程式開發｜ＸＸＸ（姓名）】。

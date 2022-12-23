@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=semiconductor&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '50871'
-title: 頂尖半導體設備外商 - Infrastructure Developer - SL
+title: 頂尖半導體設備荷蘭商 - Infrastructure Developer - SL
 job_url: >-
   https://www.cakeresume.com/companies/cakeresume-recruitment-consulting/jobs/542200
 date: 2022-12-19T10:11:08.668Z
