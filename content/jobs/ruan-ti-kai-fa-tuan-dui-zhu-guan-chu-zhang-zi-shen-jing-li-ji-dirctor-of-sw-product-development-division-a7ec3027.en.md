@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
+  https://www.cakeresume.com/jobs?q=iot%20solutions&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '50661'
 title: ' 軟體開發團隊主管(處長/資深經理級) Dirctor of SW Product Development Division'
 job_url: 'https://www.cakeresume.com/companies/optoma-tw/jobs/369833'
@@ -23,7 +23,7 @@ location_list:
   - Taiwan
 job_tags: []
 badges:
-  - Software
+  - IoT Solution
 
 ---
 
