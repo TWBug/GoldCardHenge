@@ -3,11 +3,10 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
-data_source_internal_id: '49745'
-title: Sr. UI/UX Designer
-job_url: >-
-  https://www.cakeresume.com/companies/viverse/jobs/liveport-sr-ui-ux-designer-j01951
-date: 2022-11-24T09:33:23.136Z
+data_source_internal_id: '49558'
+title: PHP Developer
+job_url: 'https://www.cakeresume.com/companies/viverse/jobs/php-developer-c9df7b'
+date: 2022-11-21T08:30:17.085Z
 company_name: VIVERSE 宏願數位股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/viverse'
 company_logo_url: >-
@@ -23,11 +22,15 @@ location_list:
   - 'New Taipei City, Taiwan'
   - Taiwan
 job_tags:
-  - Figma
-  - Sketch
+  - PHP
+  - SQL
+  - NoSQL
+  - MySQL
+  - Mongo
+  - Magento
 badges:
   - Game Production
 
 ---
 
-Opportunity: We're looking for a UI/UX Designer with 3+ years of experience to help conceive and create the outstanding end-to-end design. This role is under the Product design team working closely with product managers and engineers to deliver simple and intuitive products to our users & customers. Job description: • Work closely with product management, engineering, business strategy, and other teams to move the design forward. • Ask questions and resolve open issues that may prevent progress.
+# Responsibilities - Design technical specifications and define RESTful API to meet business requirements - Define and implement feature test cases to prove the quality of deliverables - Co-work with frontend/backend engineers to build up a worldwide content platform - Rapidly iterate and release products to react to the change in business - Implementation of security and data protection - Building reusable code and libraries - Optimization of the service for performance and scalability

@@ -23,13 +23,13 @@ location_list:
   - 'Taipei City, Taiwan'
   - '台北市, 台灣'
 job_tags:
-  - UIUX
-  - Google Analytics
-  - Figma
-  - API
-  - SDK
-  - Trello
   - Data Analysis
+  - Trello
+  - SDK
+  - API
+  - Figma
+  - Google Analytics
+  - UIUX
 badges:
   - QA Engineerr
 

@@ -12,10 +12,10 @@ company_name: Dent&Co牙醫小幫手
 company_page_url: 'https://www.cakeresume.com/companies/dent-co'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--UqP73rMk--/c_pad,fl_png8,h_200,w_200/v1634458833/d9yx44r3dppkueg8ibqz.png
-salary_text: TWD50000 - TWD50000
+salary_text: TWD45000 - TWD50000
 salary_currency: TWD
 salary_type: per_month
-salary_min: 50000
+salary_min: 45000
 salary_max: 50000
 location_list:
   - Taiwan
