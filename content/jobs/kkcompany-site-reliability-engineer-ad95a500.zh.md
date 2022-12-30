@@ -12,11 +12,11 @@ company_name: KKCompany
 company_page_url: 'https://www.cakeresume.com/companies/kkcompany'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--yJQmCAhs--/c_pad,fl_png8,h_200,w_200/v1637561973/kxxyllrqxnxut3jg0vup.png
-salary_text: TWD750000 - TWD1310000
+salary_text: TWD750000 - TWD1300000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 750000
-salary_max: 1310000
+salary_max: 1300000
 location_list:
   - Taiwan
   - 台灣
