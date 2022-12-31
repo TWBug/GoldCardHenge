@@ -23,11 +23,11 @@ location_list:
   - 'Taipei City, Taiwan'
   - '台北市, 台灣'
 job_tags:
-  - UI Design
-  - Product Design
-  - UX Design
-  - Figma
   - Sketch
+  - Figma
+  - UX Design
+  - Product Design
+  - UI Design
 badges:
   - Designer
 
