@@ -11,11 +11,11 @@ company_name: ShopBack 回饋網股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/shopback-taiwan'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--RiMxTzWd--/c_pad,fl_png8,h_200,w_200/v1657599645/hma3pimzrdw1b4eq527q.png
-salary_text: TWD175 - TWD175
+salary_text: TWD182 - TWD182
 salary_currency: TWD
 salary_type: per_hour
-salary_min: 175
-salary_max: 175
+salary_min: 182
+salary_max: 182
 location_list:
   - Taiwan
 job_tags: []

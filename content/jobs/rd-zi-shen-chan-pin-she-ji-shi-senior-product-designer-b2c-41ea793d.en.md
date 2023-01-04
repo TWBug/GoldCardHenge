@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
 data_source_internal_id: '37473'
 title: '[RD] 資深產品設計師 Senior Product Designer (B2C)'
 job_url: 'https://www.cakeresume.com/companies/kkday/jobs/senior-product-designer-54551a'
@@ -23,8 +23,8 @@ location_list:
   - '台北市, 台灣'
 job_tags: []
 badges:
-  - Designer
+  - QA Engineerr
 
 ---
 
-[About KKday] KKday's vision is to allow every traveler to embark on a journey as they like and travel all over the world. With lockdowns around the world, the COVID-19 pandemic has hit the travel industry especially hard, however, KKday try its best to face the challenge, by deeping into domestic tourism, KKday successfully won the recognition of investors, and raised $75 million in Series C. [About User Experience Design Team] Our team operates in an open and fast-paced environment, with flat 
+[About KKday] KKday is accelerating the world’s transition to the brand new travel experience. As the largest travel-experience platform in Asia, KKday is committed to integrating a one-stop platform to meet all travelers’ needs. KKday has curated more than 300K unique experiences and activities in over 92 countries and 550 cities around the world. Moreover, KKday also stepped into the field of SaaS service(Rezio) and new OMO system(KKday Marketplace) to build up the business ecosystem. Through 

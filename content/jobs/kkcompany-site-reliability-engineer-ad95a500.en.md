@@ -17,7 +17,11 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 750000
 salary_max: 1310000
-location_list: []
+location_list:
+  - Taiwan
+  - 台灣
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
 job_tags: []
 badges:
   - Industrial Engineer
