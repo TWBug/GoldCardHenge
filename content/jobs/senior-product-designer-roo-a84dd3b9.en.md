@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '38244'
-title: Senior Product Designer (ROO)
+title: Senior Product Designer (Roo)
 job_url: 'https://www.cakeresume.com/companies/gogolook/jobs/senior-product-designer-roo'
 date: 2022-03-18T09:46:42.187Z
 company_name: 'Gogolook '
@@ -22,11 +22,11 @@ location_list:
   - 'Taipei City, Taiwan'
   - '台北市, 台灣'
 job_tags:
-  - UI/UX Designer
-  - Product Design
-  - App
-  - Gamification
   - Flutter
+  - Gamification
+  - App
+  - Product Design
+  - UI/UX Designer
 badges:
   - Designer
 
