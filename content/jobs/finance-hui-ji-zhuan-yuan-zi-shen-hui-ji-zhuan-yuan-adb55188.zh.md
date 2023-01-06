@@ -17,10 +17,10 @@ salary_type: per_year
 salary_min: 650000
 salary_max: 900000
 location_list:
+  - Taiwan
+  - 'New Taipei City, Taiwan'
   - '新北市, 台灣'
   - 台灣
-  - 'New Taipei City, Taiwan'
-  - Taiwan
 job_tags: []
 badges:
   - Finance

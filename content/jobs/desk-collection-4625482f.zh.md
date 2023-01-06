@@ -18,8 +18,8 @@ salary_type: per_month
 salary_min: 4400000
 salary_max: 5000000
 location_list:
-  - 'Banten, Indonesia'
   - Indonesia
+  - 'Banten, Indonesia'
 job_tags: []
 badges:
   - Finance

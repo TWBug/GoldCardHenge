@@ -18,8 +18,10 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 1200000
 location_list:
-  - 'Tainan City, Taiwan'
   - Taiwan
+  - 'Tainan City, Taiwan'
+  - '台南市, 台灣'
+  - 台灣
 job_tags:
   - microsoft office
   - JIRA

@@ -18,8 +18,10 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 1600000
 location_list:
-  - 'New Taipei City, Taiwan'
   - Taiwan
+  - 'New Taipei City, Taiwan'
+  - '新北市, 台灣'
+  - 台灣
 job_tags: []
 badges:
   - QA Engineerr

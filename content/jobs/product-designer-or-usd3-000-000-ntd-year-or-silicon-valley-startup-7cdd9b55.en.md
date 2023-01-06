@@ -18,6 +18,7 @@ salary_min: 3000000
 salary_max: 4000000
 location_list:
   - Taiwan
+  - 台灣
 job_tags: []
 badges:
   - Designer

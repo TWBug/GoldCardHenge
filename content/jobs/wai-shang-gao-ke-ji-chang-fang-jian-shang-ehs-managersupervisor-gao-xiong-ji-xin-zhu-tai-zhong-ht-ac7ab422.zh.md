@@ -18,12 +18,12 @@ salary_type: per_year
 salary_min: 800000
 salary_max: 1800000
 location_list:
+  - Taiwan
+  - 'Kaohsiung City, Taiwan'
   - '高雄市, 台灣'
   - 台灣
-  - 'Kaohsiung City, Taiwan'
-  - Taiwan
-  - '台中市, 台灣'
   - 'Taichung City, Taiwan'
+  - '台中市, 台灣'
 job_tags:
   - Semiconductor
   - Technology

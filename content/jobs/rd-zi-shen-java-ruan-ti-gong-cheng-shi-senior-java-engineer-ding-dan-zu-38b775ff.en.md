@@ -18,8 +18,8 @@ salary_min: 1200000
 salary_max: 2000000
 location_list:
   - Taiwan
-  - 台灣
   - 'Taipei City, Taiwan'
+  - 台灣
   - '台北市, 台灣'
 job_tags:
   - 114台灣台北市內湖區

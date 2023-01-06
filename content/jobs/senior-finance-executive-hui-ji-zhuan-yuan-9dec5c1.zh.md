@@ -18,8 +18,10 @@ salary_type: per_year
 salary_min: 750000
 salary_max: 1000000
 location_list:
-  - 'Taipei City, Taiwan'
   - Taiwan
+  - 'Taipei City, Taiwan'
+  - 台灣
+  - '台北市, 台灣'
 job_tags: []
 badges:
   - Finance

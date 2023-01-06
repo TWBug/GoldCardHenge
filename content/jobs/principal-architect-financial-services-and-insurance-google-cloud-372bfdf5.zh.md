@@ -17,11 +17,7 @@ salary_currency: null
 salary_type: per_month
 salary_min: 0
 salary_max: 0
-location_list:
-  - Taiwan
-  - 台灣
-  - 'Taipei City, Taiwan'
-  - '台北市, 台灣'
+location_list: []
 job_tags: []
 badges:
   - Enterprise Architecture

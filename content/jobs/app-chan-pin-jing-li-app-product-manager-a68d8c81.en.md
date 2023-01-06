@@ -18,10 +18,10 @@ salary_type: per_year
 salary_min: 1500000
 salary_max: 0
 location_list:
+  - Taiwan
+  - 'New Taipei City, Taiwan'
   - '新北市, 台灣'
   - 台灣
-  - 'New Taipei City, Taiwan'
-  - Taiwan
 job_tags:
   - Product Management
   - Product Design

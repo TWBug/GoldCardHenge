@@ -19,8 +19,8 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 1500000
 location_list:
-  - 台灣
   - Taiwan
+  - 台灣
 job_tags:
   - Machine Learning
 badges:

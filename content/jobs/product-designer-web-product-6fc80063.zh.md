@@ -18,6 +18,7 @@ salary_min: 1000000
 salary_max: 1600000
 location_list:
   - Taiwan
+  - 台灣
 job_tags:
   - UX Design
   - UI/UXDesign

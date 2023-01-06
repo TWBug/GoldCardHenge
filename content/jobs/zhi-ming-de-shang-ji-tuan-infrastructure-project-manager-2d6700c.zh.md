@@ -17,8 +17,10 @@ salary_type: per_year
 salary_min: 1800000
 salary_max: 2500000
 location_list:
-  - 'Kaohsiung City, Taiwan'
   - Taiwan
+  - 'Kaohsiung City, Taiwan'
+  - '高雄市, 台灣'
+  - 台灣
 job_tags: []
 badges:
   - Project Manager

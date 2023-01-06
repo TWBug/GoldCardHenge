@@ -17,12 +17,12 @@ salary_type: per_month
 salary_min: 40000
 salary_max: 0
 location_list:
-  - 台灣
   - Taiwan
-  - '台中市, 台灣'
+  - 台灣
   - 'Taichung City, Taiwan'
-  - '台南市, 台灣'
+  - '台中市, 台灣'
   - 'Tainan City, Taiwan'
+  - '台南市, 台灣'
 job_tags: []
 badges:
   - AI Engineer

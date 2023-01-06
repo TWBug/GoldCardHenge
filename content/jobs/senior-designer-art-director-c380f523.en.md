@@ -19,12 +19,13 @@ salary_min: 45000
 salary_max: 55000
 location_list:
   - Taiwan
+  - 台灣
 job_tags:
-  - photoshop
-  - illustrator
-  - procreate
-  - After Effects
   - google drive
+  - After Effects
+  - procreate
+  - illustrator
+  - photoshop
 badges:
   - Designer
 

@@ -18,10 +18,10 @@ salary_type: per_year
 salary_min: 800000
 salary_max: 1100000
 location_list:
+  - Taiwan
+  - 'Tainan City, Taiwan'
   - '台南市, 台灣'
   - 台灣
-  - 'Tainan City, Taiwan'
-  - Taiwan
 job_tags: []
 badges:
   - Finance

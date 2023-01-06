@@ -19,6 +19,7 @@ salary_min: 700000
 salary_max: 1050000
 location_list:
   - Taiwan
+  - 台灣
 job_tags:
   - Python
   - Docker

@@ -18,9 +18,9 @@ salary_min: 0
 salary_max: 0
 location_list:
   - Taiwan
-  - 台灣
   - 'Taoyuan City, Taiwan'
   - '桃園市, 台灣'
+  - 台灣
 job_tags:
   - SolidWorks
   - AutoCAD

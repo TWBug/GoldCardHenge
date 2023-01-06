@@ -18,8 +18,10 @@ salary_type: per_year
 salary_min: 1500000
 salary_max: 1800000
 location_list:
-  - 'Taoyuan City, Taiwan'
   - Taiwan
+  - 'Taoyuan City, Taiwan'
+  - '桃園市, 台灣'
+  - 台灣
 job_tags:
   - C
   - C++

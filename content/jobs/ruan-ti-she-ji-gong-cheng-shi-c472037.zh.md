@@ -19,9 +19,9 @@ salary_min: 45000
 salary_max: 60000
 location_list:
   - Taiwan
-  - 台灣
   - 'Hsinchu City, Taiwan'
   - '新竹市, 台灣'
+  - 台灣
 job_tags:
   - C++
   - Python

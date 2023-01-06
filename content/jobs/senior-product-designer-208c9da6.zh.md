@@ -19,6 +19,7 @@ salary_min: 85000
 salary_max: 120000
 location_list:
   - Taiwan
+  - 台灣
 job_tags:
   - Figma
   - Illustrator

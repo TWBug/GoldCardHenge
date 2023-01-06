@@ -19,6 +19,7 @@ salary_min: 1000000
 salary_max: 1400000
 location_list:
   - Taiwan
+  - 台灣
 job_tags:
   - Web
   - Scrum

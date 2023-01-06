@@ -18,9 +18,9 @@ salary_min: 2000000
 salary_max: 5000000
 location_list:
   - Taiwan
-  - 台灣
   - 'Taipei City, Taiwan'
   - '台北市, 台灣'
+  - 台灣
 job_tags:
   - JavaScript
   - Node.js

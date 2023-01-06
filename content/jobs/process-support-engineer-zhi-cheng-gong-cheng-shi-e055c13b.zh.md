@@ -17,8 +17,10 @@ salary_type: per_year
 salary_min: 0
 salary_max: 0
 location_list:
-  - 'Tainan City, Taiwan'
   - Taiwan
+  - 'Tainan City, Taiwan'
+  - '台南市, 台灣'
+  - 台灣
 job_tags: []
 badges:
   - Industrial Engineer

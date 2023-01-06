@@ -19,6 +19,7 @@ salary_min: 2000000
 salary_max: 7000000
 location_list:
   - Taiwan
+  - 台灣
 job_tags:
   - Data Engineering
   - data engineer

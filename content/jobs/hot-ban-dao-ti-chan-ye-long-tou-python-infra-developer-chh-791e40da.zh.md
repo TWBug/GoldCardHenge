@@ -18,8 +18,10 @@ salary_type: per_month
 salary_min: 1300000
 salary_max: 2000000
 location_list:
-  - 'New Taipei City, Taiwan'
   - Taiwan
+  - 'New Taipei City, Taiwan'
+  - '新北市, 台灣'
+  - 台灣
 job_tags:
   - Python
   - Infra

@@ -19,9 +19,9 @@ salary_min: 42000
 salary_max: 47000
 location_list:
   - Taiwan
-  - 台灣
   - 'Taichung City, Taiwan'
   - '台中市, 台灣'
+  - 台灣
 job_tags:
   - 半導體
   - Semiconductor

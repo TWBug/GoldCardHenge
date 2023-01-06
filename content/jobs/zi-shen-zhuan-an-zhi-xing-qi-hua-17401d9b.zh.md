@@ -18,10 +18,10 @@ salary_type: per_month
 salary_min: 35000
 salary_max: 60000
 location_list:
+  - Taiwan
+  - 'Taichung City, Taiwan'
   - '台中市, 台灣'
   - 台灣
-  - 'Taichung City, Taiwan'
-  - Taiwan
 job_tags:
   - 遊戲企劃
   - 專案管理

@@ -17,10 +17,10 @@ salary_type: per_year
 salary_min: 900000
 salary_max: 1700000
 location_list:
+  - Taiwan
+  - 'Taichung City, Taiwan'
   - '台中市, 台灣'
   - 台灣
-  - 'Taichung City, Taiwan'
-  - Taiwan
 job_tags:
   - CMF
 badges:

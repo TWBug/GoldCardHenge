@@ -17,10 +17,10 @@ salary_type: per_month
 salary_min: 70000
 salary_max: 93000
 location_list:
+  - Taiwan
+  - 'Taichung City, Taiwan'
   - '台中市, 台灣'
   - 台灣
-  - 'Taichung City, Taiwan'
-  - Taiwan
 job_tags:
   - SLOT
   - 棋牌

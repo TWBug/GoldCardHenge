@@ -19,6 +19,7 @@ salary_min: 1600000
 salary_max: 1700000
 location_list:
   - Taiwan
+  - 台灣
 job_tags:
   - Cloud
   - Node.js

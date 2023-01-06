@@ -17,10 +17,10 @@ salary_type: per_month
 salary_min: 45000
 salary_max: 65000
 location_list:
+  - Taiwan
+  - 'Hsinchu County, Taiwan'
   - '新竹縣, 台灣'
   - 台灣
-  - 'Hsinchu County, Taiwan'
-  - Taiwan
 job_tags: []
 badges:
   - Game Production

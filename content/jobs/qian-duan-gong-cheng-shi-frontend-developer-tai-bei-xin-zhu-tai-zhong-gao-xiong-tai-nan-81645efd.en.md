@@ -19,15 +19,15 @@ salary_min: 35000
 salary_max: 80000
 location_list:
   - Taiwan
-  - 台灣
   - 'Taipei City, Taiwan'
   - '台北市, 台灣'
-  - '台中市, 台灣'
+  - 台灣
   - 'Taichung City, Taiwan'
-  - '高雄市, 台灣'
+  - '台中市, 台灣'
   - 'Kaohsiung City, Taiwan'
-  - '台南市, 台灣'
+  - '高雄市, 台灣'
   - 'Tainan City, Taiwan'
+  - '台南市, 台灣'
 job_tags:
   - HTML5
   - CSS

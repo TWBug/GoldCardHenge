@@ -17,12 +17,12 @@ salary_type: per_year
 salary_min: 750000
 salary_max: 1000000
 location_list:
+  - Taiwan
+  - 'Kaohsiung City, Taiwan'
   - '高雄市, 台灣'
   - 台灣
-  - 'Kaohsiung City, Taiwan'
-  - Taiwan
-  - '新北市, 台灣'
   - 'New Taipei City, Taiwan'
+  - '新北市, 台灣'
 job_tags: []
 badges:
   - Designer

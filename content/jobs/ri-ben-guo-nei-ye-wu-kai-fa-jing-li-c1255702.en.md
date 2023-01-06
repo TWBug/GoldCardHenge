@@ -18,10 +18,10 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 2000000
 location_list:
-  - '東京都, 日本'
-  - 日本
-  - 'Tokyo, Japan'
   - Japan
+  - 'Tokyo, Japan'
+  - 日本
+  - 東京
 job_tags:
   - Global Business Development
 badges:

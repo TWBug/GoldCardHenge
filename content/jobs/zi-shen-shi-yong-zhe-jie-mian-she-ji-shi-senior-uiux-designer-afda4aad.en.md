@@ -19,6 +19,7 @@ salary_min: 40000
 salary_max: 65000
 location_list:
   - Taiwan
+  - 台灣
 job_tags: []
 badges:
   - QA Engineer

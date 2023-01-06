@@ -18,10 +18,10 @@ salary_type: per_year
 salary_min: 1250000
 salary_max: 2000000
 location_list:
-  - '台北市, 台灣'
-  - 台灣
-  - 'Taipei City, Taiwan'
   - Taiwan
+  - 'Taipei City, Taiwan'
+  - 台灣
+  - '台北市, 台灣'
 job_tags:
   - security
   - issue management

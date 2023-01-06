@@ -17,10 +17,10 @@ salary_type: per_month
 salary_min: 55000
 salary_max: 190000
 location_list:
+  - Taiwan
+  - 'Tainan City, Taiwan'
   - '台南市, 台灣'
   - 台灣
-  - 'Tainan City, Taiwan'
-  - Taiwan
 job_tags:
   - Semiconductor
   - equipment

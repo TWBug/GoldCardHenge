@@ -18,8 +18,9 @@ salary_type: per_month
 salary_min: 5500000
 salary_max: 7500000
 location_list:
-  - 'Jakarta, Indonesia'
   - Indonesia
+  - 'Jakarta, Indonesia'
+  - 'Daerah Khusus Ibukota Jakarta, Indonesia'
 job_tags:
   - accurate
   - google drive

@@ -19,6 +19,7 @@ salary_min: 1860000
 salary_max: 2100000
 location_list:
   - Taiwan
+  - 台灣
 job_tags:
   - Front-end
   - PostgreSQL

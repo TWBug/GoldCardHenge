@@ -17,10 +17,10 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 1400000
 location_list:
+  - Taiwan
+  - 'New Taipei City, Taiwan'
   - '新北市, 台灣'
   - 台灣
-  - 'New Taipei City, Taiwan'
-  - Taiwan
 job_tags: []
 badges:
   - Project Manager

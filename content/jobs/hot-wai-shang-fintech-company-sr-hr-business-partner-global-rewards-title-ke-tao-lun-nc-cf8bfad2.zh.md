@@ -19,6 +19,7 @@ salary_min: 1500000
 salary_max: 2500000
 location_list:
   - Taiwan
+  - 台灣
 job_tags:
   - HR
   - Business Partner

@@ -17,10 +17,14 @@ salary_type: per_month
 salary_min: 40000
 salary_max: 70000
 location_list:
-  - 'New Taipei City, Taiwan'
   - Taiwan
+  - 'New Taipei City, Taiwan'
+  - '新北市, 台灣'
+  - 台灣
   - 'Tainan City, Taiwan'
+  - '台南市, 台灣'
   - 'Kaohsiung City, Taiwan'
+  - '高雄市, 台灣'
 job_tags:
   - word
   - excel

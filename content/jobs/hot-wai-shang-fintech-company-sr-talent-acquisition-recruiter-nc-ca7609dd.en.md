@@ -18,10 +18,10 @@ salary_type: per_year
 salary_min: 900000
 salary_max: 1500000
 location_list:
+  - Taiwan
+  - 'Taipei City, Taiwan'
   - '台北市, 台灣'
   - 台灣
-  - 'Taipei City, Taiwan'
-  - Taiwan
 job_tags:
   - Fintech
   - Blockchain

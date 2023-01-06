@@ -18,6 +18,7 @@ salary_min: 2000000
 salary_max: 3500000
 location_list:
   - Taiwan
+  - 台灣
 job_tags:
   - engineering manager
   - Tech Lead

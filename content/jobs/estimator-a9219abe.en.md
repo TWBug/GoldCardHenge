@@ -17,8 +17,9 @@ salary_type: per_month
 salary_min: 7000000
 salary_max: 8000000
 location_list:
-  - 'West Java, Indonesia'
   - Indonesia
+  - 'West Java, Indonesia'
+  - 'Jawa Barat, Indonesia'
 job_tags: []
 badges:
   - Mechanical engineer

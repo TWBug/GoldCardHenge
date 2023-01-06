@@ -17,10 +17,10 @@ salary_type: per_month
 salary_min: 50000
 salary_max: 150000
 location_list:
+  - Taiwan
+  - 'Hsinchu City, Taiwan'
   - '新竹市, 台灣'
   - 台灣
-  - 'Hsinchu City, Taiwan'
-  - Taiwan
 job_tags:
   - C
   - C++

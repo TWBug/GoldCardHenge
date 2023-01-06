@@ -17,10 +17,10 @@ salary_type: per_year
 salary_min: 1000000
 salary_max: 2000000
 location_list:
+  - Taiwan
+  - 'Hsinchu City, Taiwan'
   - '新竹市, 台灣'
   - 台灣
-  - 'Hsinchu City, Taiwan'
-  - Taiwan
 job_tags: []
 badges:
   - Finance

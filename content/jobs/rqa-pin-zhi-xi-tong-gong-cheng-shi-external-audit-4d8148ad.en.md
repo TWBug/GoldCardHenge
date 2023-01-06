@@ -18,8 +18,10 @@ salary_type: per_month
 salary_min: 38000
 salary_max: 80000
 location_list:
-  - 'Taoyuan City, Taiwan'
   - Taiwan
+  - 'Taoyuan City, Taiwan'
+  - '桃園市, 台灣'
+  - 台灣
 job_tags: []
 badges:
   - QA Engineer

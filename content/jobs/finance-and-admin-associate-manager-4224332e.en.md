@@ -19,8 +19,8 @@ salary_min: 600000
 salary_max: 800000
 location_list:
   - Taiwan
-  - 台灣
   - 'Taipei City, Taiwan'
+  - 台灣
   - '台北市, 台灣'
 job_tags:
   - accounting
