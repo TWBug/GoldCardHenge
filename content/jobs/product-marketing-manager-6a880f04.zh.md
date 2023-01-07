@@ -11,11 +11,11 @@ company_name: 杜浦數位安全股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/teamt5-org-tw'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--bq28OuOI--/c_pad,fl_png8,h_200,w_200/v1634284230/sncnupc4f0di3ftnbf2v.png
-salary_text: TWD800000 - TWD1000000
+salary_text: TWD800000 - TWD1200000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 800000
-salary_max: 1000000
+salary_max: 1200000
 location_list:
   - Taiwan
   - 台灣

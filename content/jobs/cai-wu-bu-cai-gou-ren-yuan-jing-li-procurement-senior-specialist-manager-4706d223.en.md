@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=finance&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
+  https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '48796'
 title: 財務部＿採購人員/經理 Procurement Senior Specialist / Manager
 job_url: 'https://www.cakeresume.com/companies/goodfinance/jobs/137a33'
@@ -19,11 +19,11 @@ salary_max: 1300000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
-  - 台灣
   - '台北市, 台灣'
+  - 台灣
 job_tags: []
 badges:
-  - Finance
+  - Project Manager
 
 ---
 

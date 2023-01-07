@@ -19,8 +19,8 @@ salary_max: 1300000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
-  - 台灣
   - '台北市, 台灣'
+  - 台灣
 job_tags: []
 badges:
   - QA Engineerr
