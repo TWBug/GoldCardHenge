@@ -21,12 +21,12 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Golang
-  - Python
   - Java
+  - Python
+  - Golang
 badges:
   - QA Engineerr
 
 ---
 
-【投遞方式】 此處不收履歷，請至 https://grnh.se/99043b002us 投遞。 **Please submit your resume via CYBAVO career site: https://grnh.se/99043b002us Who we are CYBAVO is a blockchain security solution provider that helps institutions secure digital assets. On the blockchain, where loss of data means real loss of value, organizations need a comprehensive solution to manage and protect the most crucial part of the puzzle – their private keys. This is exactly what CYBAVO offers: a platform that delivers advanced tools
+【投遞方式】 此處不收履歷，請至 https://grnh.se/99043b002us 投遞。 Please submit your resume via CYBAVO career site: https://grnh.se/99043b002us Who we are CYBAVO is a blockchain security solution provider that helps institutions secure digital assets. On the blockchain, where loss of data means real loss of value, organizations need a comprehensive solution to manage and protect the most crucial part of the puzzle – their private keys. This is exactly what CYBAVO offers: a platform that delivers advanced tools a

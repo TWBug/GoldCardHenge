@@ -27,4 +27,4 @@ badges:
 
 ---
 
-KKStream is a video streaming service consultant and technology company that combines cutting-edge technology with robust knowledge of the industry to deliver comprehensive video streaming solutions. We’re a team of streaming technology experts, content aggregation specialists and growth hackers who combine technological prowess and business acumen to drive technological breakthroughs in the streaming industry. Responsibility: Project feature planning and service reliability management - be able
+Please submit your application via KKCompany Careers. Only online applications on the career website will be considered. Asia’s leading technology group, KKCompany Technologies （KKCompany）, is a leader in software services. Our mission is to build “Freeways to Inspiration” and help industries achieve digital transformation. By creating technology highways with partners, we deliver our services around the world and drive value creation through future technology. In addition to our flagship brands

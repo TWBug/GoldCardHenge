@@ -28,4 +28,4 @@ badges:
 
 ---
 
-KKBOX is building a world-class Strategic Partnership team and looking for a multi-talented/self-motivated teammate to join us at a very exciting stage in our growth. We are looking for a Project Manager to join our Strategic Partnership (“SP”) team for the Taiwan market. The right person is a strong data-minded self-starter and is interested in working on growth initiatives and building successful strategic partnerships with potential partners across different verticals to drive the growth of s
+Please submit your application via KKCompany Careers. Only online applications on the career website will be considered. Asia’s leading technology group, KKCompany Technologies （KKCompany）, is a leader in software services. Our mission is to build “Freeways to Inspiration” and help industries achieve digital transformation. By creating technology highways with partners, we deliver our services around the world and drive value creation through future technology. In addition to our flagship brands

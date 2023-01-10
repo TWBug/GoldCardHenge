@@ -20,17 +20,21 @@ salary_max: 1200000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
-  - 台灣
   - '台北市, 台灣'
+  - 台灣
 job_tags:
-  - powerpoint
-  - word
-  - excel
-  - KOL
+  - 南港展覽館
+  - 南港車站
+  - 南港區
+  - 南港軟體園區
   - Social Media
+  - KOL
+  - excel
+  - word
+  - powerpoint
 badges:
   - Project Manager
 
 ---
 
-Please submit your application via KKCompany Career , only online application will be considered. KKCompany is Asia’s leading music entertainment company. Started by a group of music-loving Internet software developers, we built and launched one of the world’s first music streaming services in 2005. Based in Taipei, the heart of Chinese pop music, we gradually grew our business from Taiwan out to Hong Kong, Singapore, Malaysia, and Japan. Ever curious about reinvention and discovering new busine
+Please submit your application via KKCompany Careers. Only online applications on the career website will be considered. Asia’s leading technology group, KKCompany Technologies （KKCompany）, is a leader in software services. Our mission is to build “Freeways to Inspiration” and help industries achieve digital transformation. By creating technology highways with partners, we deliver our services around the world and drive value creation through future technology. In addition to our flagship brands

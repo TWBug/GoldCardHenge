@@ -19,12 +19,12 @@ salary_max: 1500000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
-  - 台灣
   - '台北市, 台灣'
+  - 台灣
 job_tags: []
 badges:
   - Software
 
 ---
 
-Please submit your application via KKCompany Career Website , only online application will be considered. We are in the midst of the most exciting media revolution in history. Streaming technology is changing the way we consume content and experiences. We are KKStream, Asia's leading streaming technology provider and service consultant that has been helping clients build their own vertical media for almost a decade. With offices based out of Tokyo, Taipei and Kaohsiung, we have been enabling med
+Please submit your application via KKCompany Careers. Only online applications on the career website will be considered. Asia’s leading technology group, KKCompany Technologies （KKCompany）, is a leader in software services. Our mission is to build “Freeways to Inspiration” and help industries achieve digital transformation. By creating technology highways with partners, we deliver our services around the world and drive value creation through future technology. In addition to our flagship brands

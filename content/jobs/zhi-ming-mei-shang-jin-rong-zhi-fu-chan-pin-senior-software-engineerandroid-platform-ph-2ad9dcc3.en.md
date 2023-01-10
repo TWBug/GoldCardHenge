@@ -20,8 +20,8 @@ salary_max: 1800000
 location_list:
   - Taiwan
   - 'Taoyuan City, Taiwan'
-  - '桃園市, 台灣'
   - 台灣
+  - '桃園市, 台灣'
 job_tags:
   - C
   - C++
