@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
+  https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList[lang_name][0]=E[…]tech_front-end-development&range[salary_range][min]=1000000
 data_source_internal_id: '31106'
 title: Sr. Frontend Engineer 資深前端工程師
 job_url: >-
@@ -33,7 +33,7 @@ job_tags:
   - FED
   - Frontend Engineer
 badges:
-  - QA Engineerr
+  - Frontend
 
 ---
 
