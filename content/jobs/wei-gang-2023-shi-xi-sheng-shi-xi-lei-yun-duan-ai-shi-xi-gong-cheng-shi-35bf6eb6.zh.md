@@ -11,22 +11,22 @@ company_name: 威剛科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/adata-tw'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--2UivnoHa--/c_pad,fl_png8,h_200,w_200/v1646730026/h0iwqasgiqfgrvh4eik8.png
-salary_text: TWD180 - TWD190
+salary_text: TWD180 - TWD185
 salary_currency: TWD
 salary_type: per_hour
 salary_min: 180
-salary_max: 190
+salary_max: 185
 location_list:
   - Taiwan
   - 'New Taipei City, Taiwan'
   - '新北市, 台灣'
   - 台灣
 job_tags:
-  - 雲端平台
-  - 雲端開發
-  - Github
-  - Gitlab
   - CI/CD
+  - Gitlab
+  - Github
+  - 雲端開發
+  - 雲端平台
 badges:
   - AI Engineer
 
