@@ -22,14 +22,14 @@ location_list:
   - '新北市, 台灣'
   - 台灣
 job_tags:
-  - CI/CD
-  - Gitlab
-  - Github
-  - 雲端開發
   - 雲端平台
+  - 雲端開發
+  - Github
+  - Gitlab
+  - CI/CD
 badges:
   - AI Engineer
 
 ---
 
-1. Google/AWS/Azure雲端平台應用環境建置與管理 2. 熟悉雲端開發工具Github/Gitlab及CI/CD系統開發流程工具 3. AI應用程式model training 4. 大數據資料清洗及應用
+1. Google/AWS/Azure雲端平台應用環境建置與管理 2. 熟悉雲端開發工具Github/Gitlab及CI/CD系統開發流程工具 3. AI應用程式model training 4. 大數據資料清洗及應用 對象資格:2023年/06應屆畢業生

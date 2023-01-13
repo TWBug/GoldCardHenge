@@ -11,25 +11,28 @@ company_name: Aha
 company_page_url: 'https://www.cakeresume.com/companies/aha'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--L6kAIjYG--/c_pad,fl_png8,h_200,w_200/v1647593128/bpcgzmpercnwqu9xorou.png
-salary_text: TWD1000000 - TWD3000000
+salary_text: TWD1000000 - TWD2000000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 1000000
-salary_max: 3000000
-location_list: []
+salary_max: 2000000
+location_list:
+  - Taiwan
+  - 台灣
 job_tags:
-  - Figma
-  - Design
-  - UI/UXDesign
-  - UI/UX Designer
-  - UI
-  - UX
-  - UI Design
-  - UX Design
-  - Product Design
-  - 使用者經驗設計
-  - 使用者介面
+  - Remote
   - 遠端工作
+  - 使用者介面
+  - 使用者經驗設計
+  - Product Design
+  - UX Design
+  - UI Design
+  - UX
+  - UI
+  - UI/UX Designer
+  - UI/UXDesign
+  - Design
+  - Figma
 badges:
   - Designer
 

@@ -11,18 +11,20 @@ company_name: Aha
 company_page_url: 'https://www.cakeresume.com/companies/aha'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--L6kAIjYG--/c_pad,fl_png8,h_200,w_200/v1647593128/bpcgzmpercnwqu9xorou.png
-salary_text: TWD480000 - TWD812000
+salary_text: TWD500000 - TWD1000000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 480000
-salary_max: 812000
-location_list: []
+salary_min: 500000
+salary_max: 1000000
+location_list:
+  - Taiwan
+  - 台灣
 job_tags:
-  - tester
-  - QA
-  - QC
-  - 測試工程師
   - 遠端工作
+  - 測試工程師
+  - QC
+  - QA
+  - tester
 badges:
   - Software
 
