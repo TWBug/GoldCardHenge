@@ -21,7 +21,7 @@ location_list:
   - Japan
   - 'Tokyo, Japan'
   - 日本
-  - 東京
+  - '東京都, 日本'
 job_tags:
   - Global Business Development
 badges:

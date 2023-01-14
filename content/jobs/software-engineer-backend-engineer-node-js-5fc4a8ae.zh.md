@@ -24,14 +24,14 @@ location_list:
   - 台灣
 job_tags:
   - 100台灣台北市中正區
-  - Backend Development
-  - Software Development
-  - Software
-  - Express.js
-  - NoSQL
-  - MongoDB
-  - Node.js
   - Git
+  - Node.js
+  - MongoDB
+  - NoSQL
+  - Express.js
+  - Software
+  - Software Development
+  - Backend Development
 badges:
   - Software
 
