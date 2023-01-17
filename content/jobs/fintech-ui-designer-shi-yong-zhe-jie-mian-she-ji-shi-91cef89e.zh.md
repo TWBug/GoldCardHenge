@@ -21,9 +21,9 @@ location_list:
   - 'Taichung City, Taiwan'
   - '台中市, 台灣'
   - 台灣
-  - 'Taipei City, Taiwan'
-  - '台北市, 台灣'
-job_tags: []
+job_tags:
+  - 台灣台北
+  - 412台灣台中市大里區
 badges:
   - Designer
 
