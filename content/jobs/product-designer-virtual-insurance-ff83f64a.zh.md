@@ -17,7 +17,9 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 800000
 salary_max: 1000000
-location_list: []
+location_list:
+  - Taiwan
+  - 台灣
 job_tags:
   - Product Design
   - UI Design
