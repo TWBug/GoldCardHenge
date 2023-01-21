@@ -24,4 +24,4 @@ badges:
 
 ---
 
-Minimum qualifications: Bachelor’s degree in Electrical, Industrial, Mechanical, Manufacturing Engineering, or equivalent practical experience. 5 years of experience managing an engineering team. Preferred qualifications: 10 years of experience in a Manufacturing Engineering role for printed circuit board assembly SMT processes, system integration, assembly process automation, DFM, and FMEA. 5 years of experience in SMT process and final assembly development in manufacturing, within NPI or a mas
+Google welcomes people with disabilities. Minimum qualifications: Bachelor’s degree in Electrical, Industrial, Mechanical, Manufacturing Engineering, or equivalent practical experience. 5 years of experience managing an engineering team. Preferred qualifications: 10 years of experience in a Manufacturing Engineering role for printed circuit board assembly SMT processes, system integration, assembly process automation, DFM, and FMEA. 5 years of experience in SMT process and final assembly develop
