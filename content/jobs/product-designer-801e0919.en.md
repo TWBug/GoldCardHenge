@@ -19,7 +19,7 @@ salary_max: 0
 location_list:
   - Indonesia
   - 'Jakarta, Indonesia'
-  - 'Jakarta, Daerah Khusus Ibukota Jakarta, Indonesia'
+  - 'Daerah Khusus Ibukota Jakarta, Indonesia'
 job_tags:
   - Figma
   - UI/UXDesign
