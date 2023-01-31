@@ -12,19 +12,19 @@ company_name: OneDegree
 company_page_url: 'https://www.cakeresume.com/companies/onedegree'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--6XjriZIL--/c_pad,fl_png8,h_200,w_200/v1642045226/dn9ctblwuesbjr2edfkx.png
-salary_text: TWD800000 - TWD1000000
+salary_text: TWD700000 - TWD900000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 800000
-salary_max: 1000000
+salary_min: 700000
+salary_max: 900000
 location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Product Design
-  - UI Design
-  - UI/UXDesign
   - UX Design
+  - UI/UXDesign
+  - UI Design
+  - Product Design
 badges:
   - Designer
 

@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
+  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '51791'
 title: "\U0001F5FA 世界級軟體服務\U0001F680 -  Cloud Solution Architect(架構師)/ Team Lead (Technical Manager/技術經理) - TL"
 job_url: >-
@@ -23,14 +23,14 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - Architecture
-  - Golang
-  - Python
-  - AWS
-  - Azure
   - Cloud
+  - Azure
+  - AWS
+  - Python
+  - Golang
+  - Architecture
 badges:
-  - Software architecture
+  - Software
 
 ---
 
