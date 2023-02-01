@@ -20,8 +20,8 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - SSP
   - Advertisement
+  - SSP
 badges:
   - Project Manager
 

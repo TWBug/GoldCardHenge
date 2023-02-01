@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?range%5Bsalary_range%5D%5Bmin%5D=1000000&refinementList%5Bprofession%5D%5B0%5D=tech_android-development&refinementList%5Bprofession%5D%5B1%5D=tech_ios-development
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '50793'
 title: Customer Service
 job_url: 'https://www.cakeresume.com/companies/howel-and-co/jobs/customer-service-c522b9'
@@ -19,7 +19,7 @@ salary_max: 4600000
 location_list:
   - Indonesia
   - 'Jakarta, Indonesia'
-  - 'Daerah Khusus Ibukota Jakarta, Indonesia'
+  - 'Jakarta, Daerah Khusus Ibukota Jakarta, Indonesia'
 job_tags:
   - Customer Service
   - Customer Success
@@ -27,7 +27,7 @@ job_tags:
   - Customer Relationship Management
   - livechat
 badges:
-  - App Developer
+  - Game Production
 
 ---
 

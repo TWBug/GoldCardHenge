@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
+  https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList[lang_name][0]=E[…]tech_front-end-development&range[salary_range][min]=1000000
 data_source_internal_id: '51972'
 title: React / React Native frontend engineer
 job_url: >-
@@ -23,15 +23,16 @@ location_list:
   - 日本
   - 日本、東京都東京
 job_tags:
-  - Frontend
-  - ReactNative
-  - React
-  - English
-  - Japan
   - Tokyo
+  - Japan
+  - English
+  - React
+  - ReactNative
+  - Frontend
+  - startup
 badges:
-  - Mechanical engineer
+  - Frontend
 
 ---
 
-We prioritize candidates willing relocate to Tokyo (We provide Japanese work visa sponsorship), but may consider remote for exceptional candidates. Responsibilities Build web / mobile app though React Discuss with product team to help make technical decision and specification Keep codebase with good quality and architecture Migrate legacy codebase to new tech stack Code review
+リハサク運動療法クラウドシステムを軸とした事業創造プラットフォーム Rehasaku リハサク is a exercise therapy cloud service startup company. We prioritize candidates willing relocate to Tokyo (We provide Japanese work visa sponsorship ), but may consider remote for exceptional candidates. Responsibilities Build web and mobile app though React and React Native Continually improve product's UI/UX Make technical decision and specification with product team Migrate legacy codebase (Vue 2.6) to new tech stack (React + React Native) Coopera

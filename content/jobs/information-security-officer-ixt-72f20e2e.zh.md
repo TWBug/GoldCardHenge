@@ -27,4 +27,4 @@ badges:
 
 ---
 
-Responsibilities Conducting risk assessment and exception management on the infra, application, endpoint, IAM, data, user awareness, and third-party. Conducting SAST and DAST per internal request. Conducting cybersecurity training and drill. Conducting cybersecurity Internal Control Self-Assessment (ICSA) Manage security alerts triggered by Microsoft Defender Suite. Updating the cybersecurity policy and documents to reflect the up-to-date security baseline
+Responsibilities Conducting risk assessment and exception management on the infra, application, endpoint, IAM, data, user awareness, and third-party. Conducting SAST and DAST per internal request. Conducting cybersecurity training and drill. Conducting cybersecurity Internal Control Self-Assessment (ICSA). Manage security alerts triggered by Microsoft Defender Suite. Updating the cybersecurity policy and documents to reflect the up-to-date security baseline
