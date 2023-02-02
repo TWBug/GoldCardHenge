@@ -8,7 +8,7 @@ title: Senior Product Manager
 job_url: >-
   https://www.cakeresume.com/companies/gogolook/jobs/senior-product-manager-f40093
 date: 2022-11-14T09:26:19.819Z
-company_name: 'Gogolook '
+company_name: Gogolook
 company_page_url: 'https://www.cakeresume.com/companies/gogolook'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--Y99hvpQ5--/c_pad,fl_png8,h_200,w_200/v1618254473/gi3vnzovbkfiqffe6fu7.png

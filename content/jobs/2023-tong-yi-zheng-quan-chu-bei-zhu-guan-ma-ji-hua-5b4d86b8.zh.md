@@ -22,10 +22,10 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - MA
-  - 儲備幹部
-  - 證券
   - 金融
+  - 證券
+  - 儲備幹部
+  - MA
 badges:
   - QA Engineer
 

@@ -11,23 +11,23 @@ company_name: 畢竟科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/emptysea'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--cKtNa7_Z--/c_pad,fl_png8,h_200,w_200/v1643361192/tcsszjcidx2hqnsprd0p.png
-salary_text: TWD650000 - TWD1000000
+salary_text: TWD700000 - TWD1200000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 650000
-salary_max: 1000000
+salary_min: 700000
+salary_max: 1200000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - Bug Tracking
-  - Linux
-  - git
-  - Python
-  - Test Automation
   - test
+  - Test Automation
+  - Python
+  - git
+  - Linux
+  - Bug Tracking
 badges:
   - QA Engineerr
 

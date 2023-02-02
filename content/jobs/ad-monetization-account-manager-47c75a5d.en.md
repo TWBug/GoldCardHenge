@@ -7,7 +7,7 @@ data_source_internal_id: '48128'
 title: AD Monetization Account Manager
 job_url: 'https://www.cakeresume.com/companies/gogolook/jobs/ad-account-manager'
 date: 2022-10-24T06:22:55.811Z
-company_name: 'Gogolook '
+company_name: Gogolook
 company_page_url: 'https://www.cakeresume.com/companies/gogolook'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--Y99hvpQ5--/c_pad,fl_png8,h_200,w_200/v1618254473/gi3vnzovbkfiqffe6fu7.png

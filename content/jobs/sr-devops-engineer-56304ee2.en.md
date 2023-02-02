@@ -7,7 +7,7 @@ data_source_internal_id: '41083'
 title: Sr. DevOps Engineer
 job_url: 'https://www.cakeresume.com/companies/gogolook/jobs/devops-engineer-be9fbc'
 date: 2022-05-24T09:24:55.307Z
-company_name: 'Gogolook '
+company_name: Gogolook
 company_page_url: 'https://www.cakeresume.com/companies/gogolook'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--Y99hvpQ5--/c_pad,fl_png8,h_200,w_200/v1618254473/gi3vnzovbkfiqffe6fu7.png

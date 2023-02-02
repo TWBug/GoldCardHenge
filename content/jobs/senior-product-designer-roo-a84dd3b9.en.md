@@ -7,7 +7,7 @@ data_source_internal_id: '38244'
 title: Senior Product Designer (Roo)
 job_url: 'https://www.cakeresume.com/companies/gogolook/jobs/senior-product-designer-roo'
 date: 2022-03-18T09:46:42.187Z
-company_name: 'Gogolook '
+company_name: Gogolook
 company_page_url: 'https://www.cakeresume.com/companies/gogolook'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--Y99hvpQ5--/c_pad,fl_png8,h_200,w_200/v1618254473/gi3vnzovbkfiqffe6fu7.png
