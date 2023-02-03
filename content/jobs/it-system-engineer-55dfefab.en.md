@@ -17,7 +17,11 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 750000
 salary_max: 1200000
-location_list: []
+location_list:
+  - Taiwan
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
+  - 台灣
 job_tags:
   - Packer
   - Ansible

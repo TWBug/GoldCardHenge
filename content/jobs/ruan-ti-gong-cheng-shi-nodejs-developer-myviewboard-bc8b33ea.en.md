@@ -23,13 +23,13 @@ location_list:
   - '新北市, 台灣'
   - 台灣
 job_tags:
-  - C
-  - Python
-  - PostgreSQL
-  - DHTML
-  - JavaScript
-  - Quark Express
   - Node.js
+  - Quark Express
+  - JavaScript
+  - DHTML
+  - PostgreSQL
+  - Python
+  - C
 badges:
   - Software
 

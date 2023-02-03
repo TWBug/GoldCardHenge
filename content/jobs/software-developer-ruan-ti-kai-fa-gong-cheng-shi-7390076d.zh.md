@@ -22,11 +22,11 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - Developer
-  - SaaS
-  - 軟體工程師
-  - Backend Development
   - Software Development
+  - Backend Development
+  - 軟體工程師
+  - SaaS
+  - Developer
 badges:
   - Software
 
