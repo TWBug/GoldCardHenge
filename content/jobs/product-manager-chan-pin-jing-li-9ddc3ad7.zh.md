@@ -3,11 +3,11 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_type%5D=per_month&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmax%5D=600000
-data_source_internal_id: '50939'
-title: Product Manager 產品經理｜全方位儲備幹部MA
+data_source_internal_id: '49468'
+title: Product Manager 產品經理
 job_url: >-
-  https://www.cakeresume.com/companies/oneclass/jobs/product-manager-product-manager-ux-driven-team
-date: 2022-12-21T02:44:45.773Z
+  https://www.cakeresume.com/companies/oneclass/jobs/product-manager-product-manager-1df932
+date: 2022-11-18T04:02:15.769Z
 company_name: 萬通教育股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/oneclass'
 company_logo_url: >-

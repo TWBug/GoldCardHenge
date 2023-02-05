@@ -23,17 +23,17 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - AI
-  - AI & Machine Learning
-  - Linux
-  - Python
-  - spark
-  - tensorflow
-  - docker
-  - T-SQL
-  - AWS
-  - PyTorch
   - Hadoop
+  - PyTorch
+  - AWS
+  - T-SQL
+  - docker
+  - tensorflow
+  - spark
+  - Python
+  - Linux
+  - AI & Machine Learning
+  - AI
 badges:
   - AI Engineer
 

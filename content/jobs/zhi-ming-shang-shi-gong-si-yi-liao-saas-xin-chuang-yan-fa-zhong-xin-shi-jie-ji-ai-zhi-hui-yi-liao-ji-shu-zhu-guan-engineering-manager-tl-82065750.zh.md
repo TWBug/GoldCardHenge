@@ -23,10 +23,10 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - engineering manager
-  - Management
-  - Backend
   - Architect
+  - Backend
+  - Management
+  - engineering manager
 badges:
   - Mechanical engineer
 

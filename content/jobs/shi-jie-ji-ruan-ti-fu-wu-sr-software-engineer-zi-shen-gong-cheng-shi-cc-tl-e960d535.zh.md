@@ -23,9 +23,9 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - Backend Development
-  - C
   - C++
+  - C
+  - Backend Development
 badges:
   - Software
 

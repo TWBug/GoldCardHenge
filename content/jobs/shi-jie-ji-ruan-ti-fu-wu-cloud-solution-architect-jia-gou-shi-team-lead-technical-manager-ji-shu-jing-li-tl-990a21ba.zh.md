@@ -23,12 +23,12 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - Cloud
-  - Azure
-  - AWS
-  - Python
-  - Golang
   - Architecture
+  - Golang
+  - Python
+  - AWS
+  - Azure
+  - Cloud
 badges:
   - Software
 

@@ -23,10 +23,10 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - architect
-  - Java
-  - .net
   - Backend
+  - .net
+  - Java
+  - architect
 badges:
   - Enterprise Architecture
 
