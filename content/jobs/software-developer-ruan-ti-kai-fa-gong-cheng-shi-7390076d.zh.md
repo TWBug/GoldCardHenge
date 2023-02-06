@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '49637'
 title: Software Developer (軟體開發工程師)
 job_url: 'https://www.cakeresume.com/companies/akohub/jobs/software-developer-engineer'
@@ -22,13 +22,13 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - Software Development
-  - Backend Development
-  - 軟體工程師
-  - SaaS
   - Developer
+  - SaaS
+  - 軟體工程師
+  - Backend Development
+  - Software Development
 badges:
-  - Software
+  - Game Production
 
 ---
 
