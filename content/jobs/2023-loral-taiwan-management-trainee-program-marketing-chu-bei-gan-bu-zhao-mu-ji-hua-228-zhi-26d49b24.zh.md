@@ -21,14 +21,14 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Taipei
-  - Taiwan
-  - L'Oréal
-  - Managemnt Associate
   - Management Trainee
+  - Managemnt Associate
+  - L'Oréal
+  - Taiwan
+  - Taipei
 badges:
   - QA Engineer
 
 ---
 
-想了解更多儲備幹部職缺資訊，歡迎參加【 L’Oréal Future Career X Tech Expo 】 今年唯一與 MT 學長姐及 HR 實體互動機會！✨ 立即報名： https://forms.office.com/e/0cavTLcxNy 📆 台南場 2/9 14:00-17:00，新竹場 2/10 14:00-17:00 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿ L'Oréal Taiwan Management Trainee Program is a full-time, 13-month opportunity for you to kick-off your career at the #1 Beauty Tech company in the world. At L’Oréal, we move fast and stay on top of our game. The scope and scale of what we strive to do for our consumers drives us to e
+L'Oréal Taiwan Management Trainee Program is a full-time, 13-month opportunity for you to kick-off your career at the #1 Beauty Tech company in the world. At L’Oréal, we move fast and stay on top of our game. The scope and scale of what we strive to do for our consumers drives us to experiment, push boundaries, learn from set-backs and constantly grow. We are committed to giving our Management Trainees the space to learn, develop, and grow into future leaders for the Group. What You will experie
