@@ -21,11 +21,11 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Management Trainee
-  - Managemnt Associate
-  - L'Oréal
-  - Taiwan
   - Taipei
+  - Taiwan
+  - L'Oréal
+  - Managemnt Associate
+  - Management Trainee
 badges:
   - QA Engineer
 
