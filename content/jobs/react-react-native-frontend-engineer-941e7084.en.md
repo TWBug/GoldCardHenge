@@ -21,18 +21,18 @@ location_list:
   - Japan
   - 'Tokyo, Japan'
   - 日本
-  - '東京都, 日本'
+  - 日本、東京都東京
 job_tags:
-  - Tokyo
-  - Japan
-  - English
-  - React
-  - ReactNative
-  - Frontend
   - startup
+  - Frontend
+  - ReactNative
+  - React
+  - English
+  - Japan
+  - Tokyo
 badges:
   - Frontend
 
 ---
 
-リハサク運動療法クラウドシステムを軸とした事業創造プラットフォーム Rehasaku リハサク is a exercise therapy cloud service startup company. We prioritize candidates willing relocate to Tokyo (We provide Japanese work visa sponsorship ), but may consider remote for exceptional candidates. Responsibilities Build web and mobile app though React and React Native Continually improve product's UI/UX Make technical decision and specification with product team Migrate legacy codebase (Vue 2.6) to new tech stack (React + React Native) Coopera
+リハサク運動療法クラウドシステムを軸とした事業創造プラットフォーム Rehasaku リハサク is a exercise therapy cloud service startup company. We prioritize candidates willing relocate to Tokyo (We provide Japanese work visa sponsorship ) Responsibilities Build web and mobile app though React and React Native Continually improve product's UI/UX Make technical decision and specification with product team Migrate legacy codebase (Vue 2.6) to new tech stack (React + React Native) Cooperate with team member to design a good architecture and

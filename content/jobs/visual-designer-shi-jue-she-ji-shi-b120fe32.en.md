@@ -3,28 +3,28 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
-data_source_internal_id: '47384'
-title: Senior Brand Designer / 資深品牌視覺設計師
+data_source_internal_id: '45728'
+title: Visual Designer / 視覺設計師
 job_url: >-
-  https://www.cakeresume.com/companies/cakeresume/jobs/senior-brand-visual-designer-senior
-date: 2022-10-06T07:35:54.853Z
+  https://www.cakeresume.com/companies/cakeresume/jobs/visual-designer-visual-designer-e1d78f
+date: 2022-09-06T10:16:51.529Z
 company_name: CakeResume
 company_page_url: 'https://www.cakeresume.com/companies/cakeresume'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--P01xJaKZ--/c_pad,fl_png8,h_200,w_200/v1586508643/page_2_logo_1468389599.png
-salary_text: TWD700000 - TWD1500000
+salary_text: TWD50000 - TWD80000
 salary_currency: TWD
-salary_type: per_year
-salary_min: 700000
-salary_max: 1500000
+salary_type: per_month
+salary_min: 50000
+salary_max: 80000
 location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Visual Design
-  - Brand Design
-  - 視覺設計
   - 品牌設計
+  - 視覺設計
+  - Brand Design
+  - Visual Design
 badges:
   - Designer
 
