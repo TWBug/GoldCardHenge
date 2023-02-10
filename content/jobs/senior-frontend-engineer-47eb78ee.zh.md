@@ -21,7 +21,7 @@ location_list:
   - Japan
   - 'Tokyo, Japan'
   - 日本
-  - '東京都, 日本'
+  - 日本、東京都東京
 job_tags:
   - Japan
   - Tokyo

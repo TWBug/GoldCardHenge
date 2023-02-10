@@ -12,15 +12,16 @@ company_name: TaiNai Technologies | 泰奈科技
 company_page_url: 'https://www.cakeresume.com/companies/tainaitech'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--K8B3hTSU--/c_pad,fl_png8,h_200,w_200/v1669614414/koevl284suswdlrnq4db.png
-salary_text: TWD850000 - TWD1300000
+salary_text: TWD900000 - TWD1500000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 850000
-salary_max: 1300000
+salary_min: 900000
+salary_max: 1500000
 location_list:
   - Taiwan
   - 台灣
 job_tags:
+  - 台北
   - Java
   - Spring Boot
   - PostgreSQL

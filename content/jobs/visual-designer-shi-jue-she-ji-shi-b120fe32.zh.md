@@ -21,10 +21,10 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - 品牌設計
-  - 視覺設計
-  - Brand Design
   - Visual Design
+  - Brand Design
+  - 視覺設計
+  - 品牌設計
 badges:
   - Designer
 
