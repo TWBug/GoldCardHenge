@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '52408'
-title: C++ Senior Software Engineer
+title: 'C++ Senior Software Engineer (年薪NTD1,400,000到2,000,000)'
 job_url: >-
   https://www.cakeresume.com/companies/appaegis/jobs/senior-software-engineer-2b421b
 date: 2023-02-02T01:59:33.345Z
@@ -21,11 +21,11 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - C++
-  - go
-  - JavaScript
-  - HTTP/HTTPS
   - Agile
+  - HTTP/HTTPS
+  - JavaScript
+  - go
+  - C++
 badges:
   - Software
 
