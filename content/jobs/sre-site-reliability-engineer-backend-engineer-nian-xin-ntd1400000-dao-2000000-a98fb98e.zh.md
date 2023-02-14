@@ -7,7 +7,7 @@ data_source_internal_id: '38344'
 title: 'SRE / Site Reliability Engineer / Backend Engineer (年薪NTD1,400,000到2,000,000)'
 job_url: 'https://www.cakeresume.com/companies/appaegis/jobs/40368f'
 date: 2022-03-22T05:34:30.588Z
-company_name: Appaegis Inc. 美商安佩科技股份有限公司
+company_name: Mammoth Cyber 美商安佩科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/appaegis'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--_XIfpaaI--/c_pad,fl_png8,h_200,w_200/v1611108113/swcnj487hn4rqaefz8cj.png

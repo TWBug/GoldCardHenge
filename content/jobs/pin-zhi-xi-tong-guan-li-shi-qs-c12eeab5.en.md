@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_type%5D=per_month&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmax%5D=600000
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
 data_source_internal_id: '51543'
 title: 品質系統管理師(QS)
 job_url: 'https://www.cakeresume.com/companies/6266/jobs/quality-system-manager-qs'
@@ -29,7 +29,7 @@ job_tags:
   - iso080000
   - ISO13485
 badges:
-  - QA Engineer
+  - QA Engineerr
 
 ---
 

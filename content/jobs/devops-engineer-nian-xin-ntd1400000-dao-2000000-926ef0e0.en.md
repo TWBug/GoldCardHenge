@@ -7,7 +7,7 @@ data_source_internal_id: '23189'
 title: 'DevOps Engineer (年薪NTD1,400,000到2,000,000)'
 job_url: 'https://www.cakeresume.com/companies/appaegis/jobs/b9649f'
 date: 2020-09-17T03:58:00.272Z
-company_name: Appaegis Inc. 美商安佩科技股份有限公司
+company_name: Mammoth Cyber 美商安佩科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/appaegis'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--_XIfpaaI--/c_pad,fl_png8,h_200,w_200/v1611108113/swcnj487hn4rqaefz8cj.png

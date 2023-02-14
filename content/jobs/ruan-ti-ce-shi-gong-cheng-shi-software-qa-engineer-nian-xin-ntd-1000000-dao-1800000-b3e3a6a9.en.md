@@ -7,7 +7,7 @@ data_source_internal_id: '24308'
 title: '軟體測試工程師 Software QA Engineer (年薪NTD 1,000,000到1,800,000)'
 job_url: 'https://www.cakeresume.com/companies/appaegis/jobs/2c6a0f'
 date: 2020-11-02T09:34:01.433Z
-company_name: Appaegis Inc. 美商安佩科技股份有限公司
+company_name: Mammoth Cyber 美商安佩科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/appaegis'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--_XIfpaaI--/c_pad,fl_png8,h_200,w_200/v1611108113/swcnj487hn4rqaefz8cj.png

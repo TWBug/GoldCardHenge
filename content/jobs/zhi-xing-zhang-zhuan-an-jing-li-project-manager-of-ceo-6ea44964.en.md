@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
+  https://www.cakeresume.com/jobs?range%5Bsalary_range%5D%5Bmin%5D=1000000&refinementList%5Bprofession%5D%5B0%5D=tech_android-development&refinementList%5Bprofession%5D%5B1%5D=tech_ios-development
 data_source_internal_id: '43788'
 title: 執行長專案經理 Project Manager of CEO
 job_url: 'https://www.cakeresume.com/companies/aifian/jobs/pjm-of-ceo'
@@ -25,7 +25,7 @@ job_tags:
   - Project Management
   - Executive Assistant
 badges:
-  - QA Engineerr
+  - App Developer
 
 ---
 
