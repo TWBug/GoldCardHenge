@@ -23,12 +23,12 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - Architecture
-  - Backend Development
-  - AWS
-  - GCP
-  - C#
   - .net
+  - C#
+  - GCP
+  - AWS
+  - Backend Development
+  - Architecture
 badges:
   - Enterprise Architecture
 

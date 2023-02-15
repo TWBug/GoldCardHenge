@@ -11,7 +11,7 @@ date: 2023-02-02T01:59:33.345Z
 company_name: Mammoth Cyber 美商安佩科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/appaegis'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--_XIfpaaI--/c_pad,fl_png8,h_200,w_200/v1611108113/swcnj487hn4rqaefz8cj.png
+  https://media.cakeresume.com/image/upload/s--aLt3QTG6--/c_pad,fl_png8,h_200,w_200/v1676344145/evtx45v0robtxhcur61u.png
 salary_text: TWD1400000 - TWD2000000
 salary_currency: TWD
 salary_type: per_year
