@@ -7,10 +7,10 @@ data_source_internal_id: '45403'
 title: "\U0001F525 Fullstack Software Engineer | $3,000,000 NTD / year | Silicon Valley Startup"
 job_url: 'https://www.cakeresume.com/companies/web3-platforms-inc/jobs/9b6ee4'
 date: 2022-08-30T07:28:23.246Z
-company_name: Web3 Platforms Inc
+company_name: Verified from Web3 Platforms Inc
 company_page_url: 'https://www.cakeresume.com/companies/web3-platforms-inc'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s---GkXiFI0--/c_pad,fl_png8,h_200,w_200/v1666507635/lgwye4znpg6zfvqumnzy.png
+  https://media.cakeresume.com/image/upload/s--Gjn7dBBH--/c_pad,fl_png8,h_200,w_200/v1676446647/haxbysrlcyem0crwq3li.png
 salary_text: TWD2000000 - TWD3000000
 salary_currency: TWD
 salary_type: per_year

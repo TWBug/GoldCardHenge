@@ -2,9 +2,9 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
 data_source_internal_id: '51950'
-title: "\U0001F525 2023 Sales Engineer 業務工程師 強力募集中 \U0001F525（不限科系及經歷) 收件至 4/30 止"
+title: "\U0001F525 2023 Sales Engineer 業務工程師 \U0001F525（歡迎新鮮人，不限科系及經歷) 收件至 4/30 止"
 job_url: 'https://www.cakeresume.com/companies/keyence/jobs/2023_keyence_sales_engineer'
 date: 2023-01-16T03:17:33.509Z
 company_name: Keyence_台灣基恩斯股份有限公司
@@ -30,12 +30,12 @@ location_list:
   - 'Taipei City, Taiwan'
   - '台北市, 台灣'
 job_tags:
-  - sales
-  - 業務
-  - 商務
   - 新鮮人
+  - 商務
+  - 業務
+  - sales
 badges:
-  - Game Production
+  - QA Engineerr
 
 ---
 
