@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
 data_source_internal_id: '47066'
 title: UI Designer 使用者介面設計師
 job_url: 'https://www.cakeresume.com/companies/metacrm/jobs/product-designer-ui-designer'
@@ -22,14 +22,14 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - '#2022優質新創職缺'
-  - Design
-  - Illustrator
-  - Photoshop
   - Figma
+  - Photoshop
+  - Illustrator
+  - Design
+  - '#2022優質新創職缺'
 badges:
-  - Designer
+  - QA Engineerr
 
 ---
 
-職缺描述 是一款提供 Web3.0 品牌與企業使用的表單系統工具。透過錢包登入，以及加密技術，進行多元的問卷<產品滿意/市場調查/獎勵式問卷/Survey to Earn>，讓用戶以錢包登入，更簡單與上手的問卷體驗。 工作內容 在這份工作中，您會接觸到許多設計工具，與前後端工程師一起合作，完成MetaForm產品端與行銷端的Ui設計。運用您獨特的思維，結合使用者經驗及團隊討論，思索UI Flow、負責UI提案，並和團隊一起完成客戶託付之任務。 員工福利及工作環境 按此查看🖱
+MetaForm MetaForm 是一款提供 Web3.0 品牌與企業使用的表單系統工具。透過錢包登入，以及加密技術，進行多元的問卷<產品滿意/市場調查/獎勵式問卷/Survey to Earn>，讓用戶以錢包登入，更簡單與上手的問卷體驗。 MetaForm is a Blockchain-native survey tool that helps you understand users & streamline all marketing campaigns with automated airdrop capability. 工作內容 在這份工作中，您會接觸到許多設計工具，與前後端工程師一起合作，完成MetaForm產品端與行銷端的UI設計。運用您獨特的思維，結合使用者經驗及團隊討論，思索UI Flow、負責UI提案，並和團隊一起完成客戶託付之任務。 Job Content At this job, you will use many design tools and work with front-end and back-end engineers to complete 
