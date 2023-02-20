@@ -22,11 +22,11 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - '#2022優質新創職缺'
-  - Design
-  - Illustrator
-  - Photoshop
   - Figma
+  - Photoshop
+  - Illustrator
+  - Design
+  - '#2022優質新創職缺'
 badges:
   - QA Engineerr
 
