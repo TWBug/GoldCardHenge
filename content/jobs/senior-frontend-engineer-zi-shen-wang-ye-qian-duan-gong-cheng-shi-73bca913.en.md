@@ -23,13 +23,13 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - React.js
-  - JavaScript
-  - Frontend
   - '#2022優質新創職缺'
+  - Frontend
+  - JavaScript
+  - React.js
 badges:
   - QA Engineerr
 
 ---
 
-About MetaCRM MetaCRM希望透過「一站式的Web3 CRM解決方案」來優化目前欠佳的Web3客戶體驗，並透過整合Web2及Web3的數據來為公司提供獨一無二的戰略洞見。 MetaCRM provides one-stop CRM solution for Web3 projects that supports all stages of the customer journey: customer-acquisition, customer-retention, and customer-engagement. Our tools derive new user insights by integrating and analyzing both web2 & web3 data, and resolve Web3 customer experience friction points by streamlining processes & consolidating channels. 工作內容 根據MetaCRM產品組合之開發規格，開發MetCRM產品組合之前端的
+About MetaCRM MetaCRM希望透過「一站式的Web3 CRM解決方案」來優化目前欠佳的Web3客戶體驗，並透過整合Web2及Web3的數據來為公司提供獨一無二的戰略洞見。 MetaCRM provides a one-stop CRM solution for Web3 projects that supports all stages of the customer journey: customer-acquisition, customer-retention, and customer-engagement. Our tools derive new user insights by integrating and analyzing both web2 & web3 data, and resolve Web3 customer experience friction points by streamlining processes & consolidating channels. 工作內容 根據MetaCRM產品組合之開發規格，開發MetCRM產品組合之前
