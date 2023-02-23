@@ -12,11 +12,11 @@ company_name: 'West Pharmaceutical Services Asia, Ltd_西氏亞洲有限公司'
 company_page_url: 'https://www.cakeresume.com/companies/west-pharmaceutical-services-asia-ltd_'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--zQ_HWc45--/c_pad,fl_png8,h_200,w_200/v1619171261/gkbfvipbcvnawaeh2biw.png
-salary_text: TWD400000 - TWD550000
+salary_text: TWD450000 - TWD600000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 400000
-salary_max: 550000
+salary_min: 450000
+salary_max: 600000
 location_list:
   - Taiwan
   - 'Taichung City, Taiwan'

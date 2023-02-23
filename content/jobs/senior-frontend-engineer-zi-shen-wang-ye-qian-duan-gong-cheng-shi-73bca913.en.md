@@ -11,7 +11,7 @@ date: 2022-09-29T05:08:25.858Z
 company_name: MetaCRM
 company_page_url: 'https://www.cakeresume.com/companies/metacrm'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--DiMBamOe--/c_pad,fl_png8,h_200,w_200/v1670351686/tfewhnkmqld11n4ga0fs.png
+  https://media.cakeresume.com/image/upload/s--26Vub5x7--/c_pad,fl_png8,h_200,w_200/v1677035061/yg04r4zw9clyfuzpo8td.png
 salary_text: TWD1200000 - TWD1400000
 salary_currency: TWD
 salary_type: per_year

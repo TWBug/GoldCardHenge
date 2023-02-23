@@ -12,11 +12,11 @@ company_name: Damen｜大門科技顧問有限公司
 company_page_url: 'https://www.cakeresume.com/companies/104-company-1a2x6blsk4-jobsource-checkc'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--GtiV5VwR--/c_pad,fl_png8,h_200,w_200/v1646201383/pofi2jhlu0mntvkhdyiw.png
-salary_text: TWD950000 - TWD1900000
+salary_text: TWD1000000 - TWD2100000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 950000
-salary_max: 1900000
+salary_min: 1000000
+salary_max: 2100000
 location_list:
   - Taiwan
   - 台灣

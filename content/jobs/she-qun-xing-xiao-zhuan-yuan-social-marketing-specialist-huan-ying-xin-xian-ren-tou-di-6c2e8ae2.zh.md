@@ -11,21 +11,21 @@ company_name: CakeResume
 company_page_url: 'https://www.cakeresume.com/companies/cakeresume'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--P01xJaKZ--/c_pad,fl_png8,h_200,w_200/v1586508643/page_2_logo_1468389599.png
-salary_text: TWD35000 - TWD45000
+salary_text: TWD35000 - TWD70000
 salary_currency: TWD
 salary_type: per_month
 salary_min: 35000
-salary_max: 45000
+salary_max: 70000
 location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Social Media
-  - Social Media Marketing
-  - 社群企劃
-  - 社群小編
-  - 社群行銷
   - 社群經營
+  - 社群行銷
+  - 社群小編
+  - 社群企劃
+  - Social Media Marketing
+  - Social Media
 badges:
   - QA Engineer
 
