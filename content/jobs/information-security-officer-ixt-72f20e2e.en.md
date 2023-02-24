@@ -22,9 +22,11 @@ location_list:
   - 台灣
 job_tags:
   - Information Security
+  - Cybersecurity
+  - ISO 27001
 badges:
   - Cyber Security
 
 ---
 
-Responsibilities Conducting risk assessment and exception management on the infra, application, endpoint, IAM, data, user awareness, and third-party. Conducting SAST and DAST per internal request. Conducting cybersecurity training and drill. Conducting cybersecurity Internal Control Self-Assessment (ICSA). Manage security alerts triggered by Microsoft Defender Suite. Updating the cybersecurity policy and documents to reflect the up-to-date security baseline
+Job Overview We are seeking an experienced Information Security Officer of IXT, the B2B insurance technology arm of OneDegree. You are mainly responsible for the ISMS in Taiwan Office, and will work closely with SRE team. In addition, OneDegree's affiliate company, Cymetrics, is a team that specializes in website penetration testing. You can interact directly with security engineers to learn firsthand about various IT vulnerabilities and defense methods. OneDegree has always been at the forefron

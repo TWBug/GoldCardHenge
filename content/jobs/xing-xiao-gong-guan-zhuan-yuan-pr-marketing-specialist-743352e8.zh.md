@@ -5,8 +5,7 @@ data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_type%5D=per_month&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmax%5D=600000
 data_source_internal_id: '48008'
 title: 行銷公關專員 / PR Marketing Specialist
-job_url: >-
-  https://www.cakeresume.com/companies/cakeresume/jobs/pr-influencer-marketing-representative
+job_url: 'https://www.cakeresume.com/companies/cakeresume/jobs/pr-marketing-specialist'
 date: 2022-10-20T06:21:12.675Z
 company_name: CakeResume
 company_page_url: 'https://www.cakeresume.com/companies/cakeresume'
@@ -21,9 +20,9 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Public Relations
-  - influencer marketing
   - 公關
+  - influencer marketing
+  - Public Relations
 badges:
   - QA Engineer
 

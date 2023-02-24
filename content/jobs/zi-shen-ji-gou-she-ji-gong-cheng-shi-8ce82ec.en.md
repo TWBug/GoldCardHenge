@@ -12,11 +12,11 @@ company_name: 翊芯科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/6a1ad9'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--jweTZcw6--/c_pad,fl_png8,h_200,w_200/v1675417117/n0zpwhyokhogsiqx9it1.png
-salary_text: TWD800000 - TWD1200000
+salary_text: TWD1000000 - TWD1500000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 800000
-salary_max: 1200000
+salary_min: 1000000
+salary_max: 1500000
 location_list:
   - Taiwan
   - 'Hsinchu City, Taiwan'
