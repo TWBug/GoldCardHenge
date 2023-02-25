@@ -22,11 +22,12 @@ location_list:
   - '新竹市, 台灣'
   - 台灣
 job_tags:
-  - Industrial Engineering
-  - Industrial Automation
-  - Conveyors
-  - Robotics systems
   - RFID
+  - Robotics systems
+  - Conveyors
+  - Industrial Automation
+  - Industrial Engineering
+  - '#2023新鮮人職缺'
 badges:
   - Industrial Engineer
 

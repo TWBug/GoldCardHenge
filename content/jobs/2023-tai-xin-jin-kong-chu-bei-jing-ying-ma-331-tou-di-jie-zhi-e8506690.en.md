@@ -20,10 +20,10 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - MA
-  - 儲備幹部
-  - 數據分析
   - 數位金融
+  - 數據分析
+  - 儲備幹部
+  - '#2023新鮮人職缺'
 badges:
   - Finance
 

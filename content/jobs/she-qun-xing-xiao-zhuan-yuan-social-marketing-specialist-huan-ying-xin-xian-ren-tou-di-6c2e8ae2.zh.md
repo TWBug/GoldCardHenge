@@ -20,12 +20,13 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - 社群經營
-  - 社群行銷
-  - 社群小編
-  - 社群企劃
-  - Social Media Marketing
   - Social Media
+  - Social Media Marketing
+  - 社群企劃
+  - 社群小編
+  - 社群行銷
+  - 社群經營
+  - '#2023新鮮人職缺'
 badges:
   - QA Engineer
 

@@ -13,11 +13,11 @@ company_page_url: >-
   https://www.cakeresume.com/companies/104-company-1a2x6bl7b1-jobsource-joblist_r_cust
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--x_9tmFnB--/c_pad,fl_png8,h_200,w_200/v1604373250/wden5c0tgyehxqvrjpfj.png
-salary_text: TWD65000 - TWD70000
+salary_text: TWD70000 - TWD80000
 salary_currency: TWD
 salary_type: per_month
-salary_min: 65000
-salary_max: 70000
+salary_min: 70000
+salary_max: 80000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'

@@ -30,10 +30,11 @@ location_list:
   - 'Taipei City, Taiwan'
   - '台北市, 台灣'
 job_tags:
-  - sales
-  - 業務
-  - 商務
   - 新鮮人
+  - 商務
+  - 業務
+  - sales
+  - '#2023新鮮人職缺'
 badges:
   - QA Engineerr
 

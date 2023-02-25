@@ -23,6 +23,7 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
+  - '#2023新鮮人職缺'
   - 工業設計
 badges:
   - Designer
