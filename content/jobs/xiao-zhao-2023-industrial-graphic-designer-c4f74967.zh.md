@@ -2,9 +2,9 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_type%5D=per_month&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmax%5D=600000
 data_source_internal_id: '52957'
-title: 校招2023 Graphic Designer
+title: 校招2023 Industrial Graphic Designer
 job_url: >-
   https://www.cakeresume.com/companies/lenovo_/jobs/school-recruitment-2023-graphich-designer
 date: 2023-02-13T09:40:22.472Z
@@ -23,10 +23,13 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - '#2023新鮮人職缺'
+  - creo
   - 工業設計
+  - CD label
+  - Corel Draw
+  - PTC Creo
 badges:
-  - Designer
+  - QA Engineer
 
 ---
 
