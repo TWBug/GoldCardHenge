@@ -31,4 +31,4 @@ badges:
 
 ---
 
-We prioritize candidates willing relocate to Tokyo (We provide Japanese work visa sponsorship ) Responsibilities Creation of features from concept through launch and improve existing features to grow the business Collaborating closely with product, sales, engineering, marketing and other partners Investigate and analyze user behavior, deeply understand customer needs, frustrations, and delights and bring these insights into the product Write product requirements and user stories and review them 
+Required Fluent in Japanese and English Relocate to Tokyo ( Sponsored Japanese work visa ) Responsibilities Creation of features from concept through launch and improve existing features to grow the business Collaborating closely with product, sales, engineering, marketing and other partners Investigate and analyze user behavior, deeply understand customer needs, frustrations, and delights and bring these insights into the product Write product requirements and user stories and review them with 

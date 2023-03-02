@@ -35,4 +35,4 @@ badges:
 
 ---
 
-リハサク運動療法クラウドシステムを軸とした事業創造プラットフォーム Rehasaku リハサク is a exercise therapy cloud service startup company. We prioritize candidates willing relocate to Tokyo (We provide Japanese work visa sponsorship ) Responsibilities Build web and mobile app though React and React Native Continually improve product's UI/UX Make technical decision and specification with product team Migrate legacy codebase (Vue 2.6) to new tech stack (React + React Native) Cooperate with team member to design a good architecture and
+リハサク運動療法クラウドシステムを軸とした事業創造プラットフォーム Rehasaku リハサク is a exercise therapy cloud service startup company. Required relocate to Tokyo ( Sponsored Japanese work visa ) Responsibilities Build web and mobile app though React and React Native Continually improve product's UI/UX Make technical decision and specification with product team Migrate legacy codebase (Vue 2.6) to new tech stack (React + React Native) Cooperate with team member to design a good architecture and toolchain Peer code review Automati
