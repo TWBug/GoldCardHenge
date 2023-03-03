@@ -22,15 +22,15 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - product designer
-  - vr
-  - unreal
-  - figma
-  - adobe
-  - wireframe
-  - gaming
-  - ui
   - ux
+  - ui
+  - gaming
+  - wireframe
+  - adobe
+  - figma
+  - unreal
+  - vr
+  - product designer
 badges:
   - Designer
 

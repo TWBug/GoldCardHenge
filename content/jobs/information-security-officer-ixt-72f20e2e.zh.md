@@ -21,9 +21,9 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Information Security
-  - Cybersecurity
   - ISO 27001
+  - Cybersecurity
+  - Information Security
 badges:
   - Cyber Security
 

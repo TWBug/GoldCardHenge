@@ -7,7 +7,7 @@ data_source_internal_id: '51905'
 title: 數位金融處-個人金融業務產品經理/產品管理師 Product Manager
 job_url: 'https://www.cakeresume.com/companies/bank-sinopac/jobs/25eca6'
 date: 2023-01-13T07:02:27.079Z
-company_name: 永豐商業銀行
+company_name: 永豐銀行
 company_page_url: 'https://www.cakeresume.com/companies/bank-sinopac'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--LAQHlmpC--/c_pad,fl_png8,h_200,w_200/v1587440067/gwlaoecacjdvqwtejhl3.png

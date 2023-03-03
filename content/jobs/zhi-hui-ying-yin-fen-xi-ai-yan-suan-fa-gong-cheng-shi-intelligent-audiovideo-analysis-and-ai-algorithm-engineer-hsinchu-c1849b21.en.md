@@ -13,13 +13,15 @@ company_name: 多方科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/augentix-augentix-tw'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s---m7BdPAD--/c_pad,fl_png8,h_200,w_200/v1663326524/gwjr4l5eqziyvkvystjg.png
-salary_text: TWD1000000 - TWD1500000
+salary_text: TWD1000000 - TWD1800000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 1000000
-salary_max: 1500000
+salary_max: 1800000
 location_list:
   - Taiwan
+  - 'Hsinchu City, Taiwan'
+  - '新竹市, 台灣'
   - 台灣
 job_tags:
   - Machine Learning
