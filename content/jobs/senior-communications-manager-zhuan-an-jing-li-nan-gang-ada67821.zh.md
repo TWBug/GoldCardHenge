@@ -13,10 +13,10 @@ company_page_url: >-
   https://www.cakeresume.com/companies/tw-getacgroup-recruitment-index-php-index_id-7
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--2wKCW4m9--/c_pad,fl_png8,h_200,w_200/v1665049350/leaytytcconbe4ysxlhg.png
-salary_text: TWD800000 - TWD1800000
+salary_text: TWD1000000 - TWD1800000
 salary_currency: TWD
-salary_type: per_month
-salary_min: 800000
+salary_type: per_year
+salary_min: 1000000
 salary_max: 1800000
 location_list:
   - Taiwan

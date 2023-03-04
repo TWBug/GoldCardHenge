@@ -23,11 +23,11 @@ location_list:
   - '新北市, 台灣'
   - 台灣
 job_tags:
-  - startup
-  - microsoft office
-  - excel
-  - Accounting
   - Finance
+  - Accounting
+  - excel
+  - microsoft office
+  - startup
 badges:
   - Finance
 
