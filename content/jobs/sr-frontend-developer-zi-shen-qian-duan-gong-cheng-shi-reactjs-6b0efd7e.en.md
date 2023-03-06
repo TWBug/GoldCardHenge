@@ -23,8 +23,8 @@ location_list:
   - 台灣
 job_tags:
   - 台北
-  - AWS
   - React.js
+  - AWS
 badges:
   - Frontend
 
