@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=enterprise%20architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
+  https://www.cakeresume.com/jobs?q=architecture&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=4
 data_source_internal_id: '52594'
 title: 高流量/分散式系統- 開放&國際化工作環境- 架構師 Architect- TL
 job_url: >-
@@ -23,14 +23,14 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - .net
-  - C#
-  - GCP
-  - AWS
-  - Backend Development
   - Architecture
+  - Backend Development
+  - AWS
+  - GCP
+  - C#
+  - .net
 badges:
-  - Enterprise Architecture
+  - Software architecture
 
 ---
 
