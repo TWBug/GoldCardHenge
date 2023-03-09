@@ -20,7 +20,7 @@ salary_max: 10000000
 location_list:
   - Indonesia
   - 'Jakarta, Indonesia'
-  - 'Daerah Khusus Ibukota Jakarta, Indonesia'
+  - 'Jakarta, Daerah Khusus Ibukota Jakarta, Indonesia'
 job_tags:
   - Litigation
   - Law

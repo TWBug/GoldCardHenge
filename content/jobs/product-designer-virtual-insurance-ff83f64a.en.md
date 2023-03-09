@@ -21,10 +21,10 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - UX Design
-  - UI/UXDesign
-  - UI Design
   - Product Design
+  - UI Design
+  - UI/UXDesign
+  - UX Design
 badges:
   - Designer
 
