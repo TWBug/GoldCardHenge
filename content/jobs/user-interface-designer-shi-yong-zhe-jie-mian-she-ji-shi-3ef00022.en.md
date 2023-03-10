@@ -12,33 +12,33 @@ company_name: Masterwork Aoitek 鴻華國際科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/lollipop-camera'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--MP6pc605--/c_pad,fl_png8,h_200,w_200/v1582714636/bnkznsoeqeic9t7xukl1.png
-salary_text: TWD560000 - TWD8400000
+salary_text: TWD560000 - TWD840000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 560000
-salary_max: 8400000
+salary_max: 840000
 location_list:
   - Taiwan
   - 'New Taipei City, Taiwan'
   - '新北市, 台灣'
   - 台灣
 job_tags:
-  - User Interface Design
-  - UI
-  - UI Design
-  - UI/UXDesign
-  - UI/UX Designer
-  - UI/UX
-  - User Experience Design
-  - Figma
-  - Photoshop
-  - illustrator cc
-  - user flow
-  - Wireframe Design
-  - Wireframe
-  - iOS Human Interface Guidelines
-  - Material Design(Android)
   - After Effects
+  - Material Design(Android)
+  - iOS Human Interface Guidelines
+  - Wireframe
+  - Wireframe Design
+  - user flow
+  - illustrator cc
+  - Photoshop
+  - Figma
+  - User Experience Design
+  - UI/UX
+  - UI/UX Designer
+  - UI/UXDesign
+  - UI Design
+  - UI
+  - User Interface Design
 badges:
   - Designer
 
