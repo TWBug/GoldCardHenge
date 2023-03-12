@@ -3,10 +3,12 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=cyber%20security&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
-data_source_internal_id: '13613'
-title: '全端工程師 Full-stack engineer (年薪NTD1,400,000到2,000,000)'
-job_url: 'https://www.cakeresume.com/companies/appaegis/jobs/full-end-engineer-64ea3d'
-date: 2019-09-22T06:23:26.654Z
+data_source_internal_id: '28796'
+title: >-
+  Networking backend engineer / Dataplane application engineer
+  (年薪NTD1,400,000到2,000,000)
+job_url: 'https://www.cakeresume.com/companies/appaegis/jobs/039a65'
+date: 2021-04-20T16:47:02.781Z
 company_name: Mammoth Cyber 美商安佩科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/appaegis'
 company_logo_url: >-
@@ -22,17 +24,13 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - javascript
-  - full-stack
-  - Vue.js
-  - React.js
-  - AWS
-  - golang
-  - Node.js
   - Kubernetes (k8s)
+  - Networking
+  - Linux
+  - proxy
 badges:
   - Cyber Security
 
 ---
 
-Appaegis Inc. is a Silicon Valley VC backed, cyber security start-up based in Silicon Valley USA, founded by seasoned entrepreneurs with successful track records. We are looking for a Senior Engineer to join our new research and development team in Taipei. The ideal candidate will have a strong background in software engineering and will develop and design front end web architecture, ensuring the responsiveness of applications and working alongside graphic designers for web design features, amon
+Appaegis Inc. is a Silicon Valley VC backed, cyber security start-up based in Silicon Valley USA, founded by seasoned entrepreneurs with successful track records that raised USD$127M. We are looking for a Senior Engineer to join our new research and development team in Taipei. The ideal candidate will have a strong background in software engineering and will develop and design application forwarding architecture, ensuring the reliability and responsiveness of applications communicated across clo
