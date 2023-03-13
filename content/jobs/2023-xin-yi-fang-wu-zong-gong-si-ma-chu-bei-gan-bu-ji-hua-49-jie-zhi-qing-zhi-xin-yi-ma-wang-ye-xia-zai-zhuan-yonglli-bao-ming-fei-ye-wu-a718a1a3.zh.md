@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '52742'
 title: 2023 信義房屋總公司(MA)儲備幹部計畫✨(4/9 截止)《請至信義MA網頁下載專用履歷報名》【非業務】
 job_url: 'https://www.cakeresume.com/companies/sinyi/jobs/2023-sinyi-MA'
@@ -30,7 +30,7 @@ job_tags:
   - Project Manager
   - '#2023新鮮人職缺'
 badges:
-  - QA Engineerr
+  - Game Production
 
 ---
 
