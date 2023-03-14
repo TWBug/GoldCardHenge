@@ -25,4 +25,4 @@ badges:
 
 ---
 
-As a Director of Finance, you will be responsible for managing and handling the company financials and accountings to make sure the company is in compliance in all aspects. Moreover, you will be a critical role to help the company grow to the next level by actively working with the team members to provide sufficient info and insights. We would expect you to be proactive in initiating ideas that you think can better up the company to scale. Responsibilities Put scalable systems in place. Lead to 
+As a Director of Finance, you will be responsible for managing and handling the company financials and accountings to make sure the company is in compliance in all aspects. Moreover, you will be a critical role to help the company grow to the next level by actively working with the team members to provide sufficient info and insights. We would expect you to be proactive in initiating ideas that you think can better up the company to scale. Please note that only applications through the link will

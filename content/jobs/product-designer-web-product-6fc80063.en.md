@@ -20,12 +20,12 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - UX Design
-  - UI/UXDesign
   - UI
+  - UI/UXDesign
+  - UX Design
 badges:
   - Designer
 
 ---
 
-As a Product Designer, you will work closely with the product team to deliver valuable products and features for our end users on a global scale. You should have great product sense, proficient communication skills, and the motivation to improve your skill over time. Responsibilities: Design experiences that are incredibly intuitive and beautiful. Collaborate with the product team to explore new solutions and strategies with prototypes. Communicate using design specs and logic to collaborate wit
+As a Product Designer, you will work closely with the product team to deliver valuable products and features for our end users on a global scale. You should have great product sense, proficient communication skills, and the motivation to improve your skill over time. Please note that only applications through the link will be considered Responsibilities: Design experiences that are incredibly intuitive and beautiful. Collaborate with the product team to explore new solutions and strategies with 
