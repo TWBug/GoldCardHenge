@@ -16,8 +16,16 @@ salary_currency: JPY
 salary_type: per_year
 salary_min: 7000000
 salary_max: 15000000
-location_list: []
-job_tags: []
+location_list:
+  - Japan
+  - 'Osaka, Japan'
+  - 日本
+  - 日本、大阪府大阪市
+  - Taiwan
+  - 台灣
+job_tags:
+  - Career in Taiwan
+  - 文科生
 badges:
   - Project Manager
 

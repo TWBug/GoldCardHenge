@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '47527'
-title: Senior UX Product Designer
+title: HCI Product Designer
 job_url: 'https://www.cakeresume.com/companies/mai-ai/jobs/senior-product-designer-vr-mr'
 date: 2022-10-09T06:31:13.649Z
 company_name: 肯狄科研有限公司
@@ -22,15 +22,15 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - Human Computer Interaction
-  - HCI
-  - ux
-  - ui
-  - wireframe
-  - adobe
-  - figma
-  - vr
   - product designer
+  - vr
+  - figma
+  - adobe
+  - wireframe
+  - ui
+  - ux
+  - HCI
+  - Human Computer Interaction
 badges:
   - Designer
 

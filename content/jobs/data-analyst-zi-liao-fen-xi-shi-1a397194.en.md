@@ -22,8 +22,10 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - Data Analysis
   - SQL
+  - Data Analysis
+  - Career in Taiwan
+  - 理科生
 badges:
   - QA Engineerr
 

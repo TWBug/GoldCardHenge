@@ -22,16 +22,19 @@ location_list:
   - '新北市, 台灣'
   - 台灣
 job_tags:
-  - Unity
-  - Photoshop
-  - Illustrator
-  - Sketch
-  - C4D
-  - 3ds Max
-  - MAYA
-  - Unity 3D
-  - Unity Designer
+  - 台灣新北市新店區
   - Cinema 4D
+  - Unity Designer
+  - Unity 3D
+  - MAYA
+  - 3ds Max
+  - C4D
+  - Sketch
+  - Illustrator
+  - Photoshop
+  - Unity
+  - Career in Taiwan
+  - 理科生
 badges:
   - Designer
 

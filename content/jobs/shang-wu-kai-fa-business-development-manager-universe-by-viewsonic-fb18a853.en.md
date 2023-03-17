@@ -22,7 +22,9 @@ location_list:
   - 'New Taipei City, Taiwan'
   - '新北市, 台灣'
   - 台灣
-job_tags: []
+job_tags:
+  - Career in Taiwan
+  - 文科生
 badges:
   - Marketing International
 
