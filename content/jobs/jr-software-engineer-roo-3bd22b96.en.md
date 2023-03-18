@@ -1,0 +1,30 @@
+---
+data_source_name: Cake Resume
+data_source_hostname: www.cakeresume.com
+data_source_url: >-
+  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
+data_source_internal_id: '53427'
+title: Jr. Software Engineer (Roo)
+job_url: 'https://www.cakeresume.com/companies/gogolook/jobs/jr-software-engineer-roo'
+date: 2023-02-23T03:23:19.554Z
+company_name: Gogolook
+company_page_url: 'https://www.cakeresume.com/companies/gogolook'
+company_logo_url: >-
+  https://media.cakeresume.com/image/upload/s--Y99hvpQ5--/c_pad,fl_png8,h_200,w_200/v1618254473/gi3vnzovbkfiqffe6fu7.png
+salary_text: TWD700000 - TWD868000
+salary_currency: TWD
+salary_type: per_year
+salary_min: 700000
+salary_max: 868000
+location_list:
+  - Taiwan
+  - 台灣
+job_tags:
+  - SQL
+  - Python
+badges:
+  - Software
+
+---
+
+We are the team mainly responsible for application development in the field of FinTech at Gogolook. Our product Roo.cash is a leading financial product matching platform in Taiwan. Our vision is to build “Trust” as the core value, providing the most appropriate products that cater to each consumer’s needs in a snap. We are looking for a junior Software Engineer who is passionate about creating state-of-the-art technologies for a wide range of engineering applications. As a member of our team, yo

@@ -23,6 +23,10 @@ location_list:
   - 台灣
 job_tags:
   - '#2023新鮮人職缺'
+  - 儲備幹部
+  - MA
+  - 金融業
+  - 年薪百萬
 badges:
   - Finance
 

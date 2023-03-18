@@ -23,21 +23,21 @@ location_list:
   - 台灣
 job_tags:
   - 台灣新北市新店區
-  - Cinema 4D
-  - Unity Designer
-  - Unity 3D
-  - MAYA
-  - 3ds Max
-  - C4D
-  - Sketch
-  - Illustrator
-  - Photoshop
-  - Unity
-  - Career in Taiwan
   - 理科生
+  - Career in Taiwan
+  - Unity
+  - Photoshop
+  - Illustrator
+  - Sketch
+  - C4D
+  - 3ds Max
+  - MAYA
+  - Unity 3D
+  - Unity Designer
+  - Cinema 4D
 badges:
   - Designer
 
 ---
 
-Candidates must have 3+ years experience creating visual design with a focus for interactive system. Implementation experience in a modern game engine, Unity preferred. Must present an online portfolio of relevant work for consideration. Required Skills and Experience: • Proficient with Unity as well as industry standard design tools (e.g. Photoshop, Illustrator, Sketch). Comfortable with 3D packages like C4D, 3D Max or Maya. • Create inspiring mood boards and style frames. Illustrate scenarios 
+Candidates must have 3+ years experience creating visual design with a focus for interactive system. Implementation experience in a modern game engine, Unity preferred. Must present an online portfolio of relevant work for consideration. About the Team HTC Creative Labs is a global team of designers, artists, engineers, and researchers that delivers design strategy and incubates new products and experiences for the HTC portfolio. This team is responsible for much of HTC’s most significant design
