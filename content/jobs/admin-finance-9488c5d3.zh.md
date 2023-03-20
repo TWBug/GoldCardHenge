@@ -19,12 +19,12 @@ salary_max: 4800000
 location_list:
   - Indonesia
   - 'Jakarta, Indonesia'
-  - 'Jakarta, Daerah Khusus Ibukota Jakarta, Indonesia'
+  - 'Daerah Khusus Ibukota Jakarta, Indonesia'
 job_tags:
-  - Accounting
-  - Finance
-  - Admin Finance
   - Administration
+  - Admin Finance
+  - Finance
+  - Accounting
 badges:
   - Finance
 

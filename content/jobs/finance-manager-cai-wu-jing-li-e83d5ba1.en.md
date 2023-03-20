@@ -12,22 +12,22 @@ company_name: Canner （易開科技）
 company_page_url: 'https://www.cakeresume.com/companies/canner'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--brOHKpuq--/c_pad,fl_png8,h_200,w_200/v1669620599/a9pdqmlixexb8vsy7lux.png
-salary_text: TWD800000 - TWD1200000
+salary_text: TWD800000 - TWD1400000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 800000
-salary_max: 1200000
+salary_max: 1400000
 location_list:
   - Taiwan
   - 'New Taipei City, Taiwan'
   - '新北市, 台灣'
   - 台灣
 job_tags:
-  - Finance
-  - Accounting
-  - excel
-  - microsoft office
   - startup
+  - microsoft office
+  - excel
+  - Accounting
+  - Finance
 badges:
   - Finance
 
