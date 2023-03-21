@@ -21,16 +21,16 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - OSCP
-  - Security
-  - 紅隊演練
-  - Red Team Assessment
-  - 滲透測試
-  - Penetration Testing
-  - PowerPoint
-  - Word
-  - Keynote
   - Pages
+  - Keynote
+  - Word
+  - PowerPoint
+  - Penetration Testing
+  - 滲透測試
+  - Red Team Assessment
+  - 紅隊演練
+  - Security
+  - OSCP
 badges:
   - Project Manager
 
