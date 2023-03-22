@@ -19,7 +19,7 @@ salary_max: 3000000
 location_list:
   - Indonesia
   - 'Jakarta, Indonesia'
-  - 'Daerah Khusus Ibukota Jakarta, Indonesia'
+  - 'Jakarta, Daerah Khusus Ibukota Jakarta, Indonesia'
   - 'Central Java, Indonesia'
   - 'Jawa Tengah, Indonesia'
   - 'East Java, Indonesia'
