@@ -21,17 +21,16 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - DevOps
-  - Kubernetes (k8s)
-  - AWS
-  - Docker
-  - CICD
-  - Ansible
-  - Terraform
-  - Jenkins
-  - Kibana
   - Grafana
-  - Prometheus
+  - Kibana
+  - Jenkins
+  - Terraform
+  - Ansible
+  - CICD
+  - Docker
+  - AWS
+  - Kubernetes (k8s)
+  - DevOps
 badges:
   - Cloud Computing
 

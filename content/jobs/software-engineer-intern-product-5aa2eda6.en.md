@@ -20,7 +20,7 @@ salary_max: 3000000
 location_list:
   - Indonesia
   - 'Jakarta, Indonesia'
-  - 'Jakarta, Daerah Khusus Ibukota Jakarta, Indonesia'
+  - 'Daerah Khusus Ibukota Jakarta, Indonesia'
 job_tags:
   - Java
   - JavaScript

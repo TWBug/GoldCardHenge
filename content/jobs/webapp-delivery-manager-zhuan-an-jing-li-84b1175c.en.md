@@ -12,13 +12,18 @@ company_name: OpenNet 開網有限公司
 company_page_url: 'https://www.cakeresume.com/companies/opennet-limited'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s---KIdOoH---/c_pad,fl_png8,h_200,w_200/v1574663536/bzaybcelyff1kqaqhhmr.png
-salary_text: TWD780000 - TWD1170000
+salary_text: TWD1000000 - TWD1600000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 780000
-salary_max: 1170000
-location_list: []
-job_tags: []
+salary_min: 1000000
+salary_max: 1600000
+location_list:
+  - Taiwan
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
+  - 台灣
+job_tags:
+  - Project Management
 badges:
   - Project Manager
 

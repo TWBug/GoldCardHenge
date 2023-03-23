@@ -20,19 +20,19 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Java
-  - MySQL
-  - DevOps
-  - CI/CD
-  - Docker
-  - Kubernetes
-  - AWS
-  - Jenkins
-  - Kibana
-  - Grafana
-  - Terraform
-  - Prometheus
   - Python
+  - Prometheus
+  - Terraform
+  - Grafana
+  - Kibana
+  - Jenkins
+  - AWS
+  - Kubernetes
+  - Docker
+  - CI/CD
+  - DevOps
+  - MySQL
+  - Java
 badges:
   - Enterprise Architecture
 
