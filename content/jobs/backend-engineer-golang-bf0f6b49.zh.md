@@ -21,15 +21,15 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Golang
-  - 後端工程師
-  - backend
-  - WebSocket
-  - API串接
-  - Github
-  - SQL
-  - Python
   - golang工程師
+  - Python
+  - SQL
+  - Github
+  - API串接
+  - WebSocket
+  - backend
+  - 後端工程師
+  - Golang
 badges:
   - QA Engineerr
 
