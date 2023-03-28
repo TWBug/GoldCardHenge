@@ -25,4 +25,4 @@ badges:
 
 ---
 
-User Experience Designer 崗位職責 支持web及app產品體驗設計，具備較好的交互及UI、視覺能力 參與產品需求討論，具備良好的產品思維能力及邏輯能力 協助產品落地，把控實現還原度品質，並打磨產品體驗 積極洞察用戶需求，善於發現問題，探究用戶使用體驗 Job Responsibilities Support web and app product experience design, with better interaction, UI and visual capabilities. Participate in product demand discussions, have good product thinking ability and logical ability. Assist in the landing of products, control and realize the quality of restoration, and polish the product experience. Actively gain insight in
+User Experience Designer (Mandarin speaking) 崗位職責 支持web及app產品體驗設計，具備較好的交互及UI、視覺能力 參與產品需求討論，具備良好的產品思維能力及邏輯能力 協助產品落地，把控實現還原度品質，並打磨產品體驗 積極洞察用戶需求，善於發現問題，探究用戶使用體驗 Job Responsibilities Support web and app product experience design, with better interaction, UI and visual capabilities. Participate in product demand discussions, have good product thinking ability and logical ability. Assist in the landing of products, control and realize the quality of restoration, and polish the product experience. Acti

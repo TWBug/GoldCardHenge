@@ -22,13 +22,13 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - 儲備幹部
-  - MA
-  - Management
-  - Agile
-  - Proptech
-  - Project Manager
   - '#2023新鮮人職缺'
+  - Project Manager
+  - Proptech
+  - Agile
+  - Management
+  - MA
+  - 儲備幹部
 badges:
   - QA Engineerr
 

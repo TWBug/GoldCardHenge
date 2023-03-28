@@ -22,11 +22,11 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - GraphQL
-  - ReactJS
-  - AngularJS
-  - JavaScript / ES6 / jQuery
   - HTML/CSS
+  - JavaScript / ES6 / jQuery
+  - AngularJS
+  - ReactJS
+  - GraphQL
 badges:
   - Frontend
 
