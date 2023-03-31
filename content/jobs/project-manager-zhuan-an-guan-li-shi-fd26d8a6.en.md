@@ -31,4 +31,4 @@ badges:
 
 ---
 
-Assisting in project-related tasks, tracking and reviewing tasks, and verifying delivery quality. 協助專案相關工作、任務追蹤與檢討，及成果交付品質確認 Communicating project requirements and details and presenting project contents and plans to customers, supervisors, and team members. 溝通專案需求及細節，向顧客、主管或團隊成員簡報專案內容與計畫 Tracking and reporting the progress of individual projects to ensure that each project meets the schedule and quality plan. 追蹤並匯報各個專案工作進度，確保各專案符合時程與品質規劃 Promptly responding to customer needs and questions, and 
+Assisting in project-related tasks, tracking and reviewing tasks, and verifying delivery quality. 協助專案相關工作、任務追蹤與檢討，及成果交付品質確認 Communicating project requirements and details and presenting project contents and plans to customers, supervisors, and team members. 溝通專案需求及細節，向顧客、主管或團隊成員簡報專案內容與計畫 Tracking and reporting the progress of individual projects to ensure that each project meets the schedule and quality plan. 追蹤並彙報各個專案工作進度，確保各專案符合時程與品質規劃 Promptly responding to customer needs and questions, and 
