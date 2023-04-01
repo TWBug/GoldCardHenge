@@ -11,21 +11,21 @@ company_name: KKCompany
 company_page_url: 'https://www.cakeresume.com/companies/kkcompany'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--yJQmCAhs--/c_pad,fl_png8,h_200,w_200/v1637561973/kxxyllrqxnxut3jg0vup.png
-salary_text: TWD750000 - TWD1310000
+salary_text: TWD750000 - TWD1500000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 750000
-salary_max: 1310000
+salary_max: 1500000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - API Testing
-  - Python
-  - Automation Testing
   - Appium
+  - Automation Testing
+  - Python
+  - API Testing
 badges:
   - Software
 

@@ -19,10 +19,14 @@ salary_min: 1500000
 salary_max: 3400000
 location_list:
   - Taiwan
-  - 'Taipei City, Taiwan'
-  - '台北市, 台灣'
   - 台灣
-job_tags: []
+  - 'Hsinchu City, Taiwan'
+  - '新竹市, 台灣'
+job_tags:
+  - Hsinchu
+  - Hsinchu City
+  - Taiwan
+  - Taipei
 badges:
   - Software
 
