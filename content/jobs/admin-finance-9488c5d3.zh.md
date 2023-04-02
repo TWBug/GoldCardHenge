@@ -19,7 +19,7 @@ salary_max: 4800000
 location_list:
   - Indonesia
   - 'Jakarta, Indonesia'
-  - 'Daerah Khusus Ibukota Jakarta, Indonesia'
+  - 'Jakarta, Daerah Khusus Ibukota Jakarta, Indonesia'
 job_tags:
   - Administration
   - Admin Finance
