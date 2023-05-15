@@ -27,11 +27,9 @@ const MAPPINGS: { [k: string]: IAdapterConstructor } = {
 
 const getAdapter = (url: string): IAdapter => {
     const { host } = new URL(url);
-    const Adapter = MAPPINGS[host];
+    const Adapter = MAPPINGS[host];    
 
-    if Adapter == 'CakeResumeHighLevelAdapter'
-        console.log('Select High Level');
-
+    console.log(Adapter);
     assert(Adapter, `No adapter found for "${host}"`);
 
     return new Adapter(url);
