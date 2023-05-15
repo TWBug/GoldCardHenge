@@ -27,7 +27,9 @@ const MAPPINGS: { [k: string]: IAdapterConstructor } = {
 };
 
 const getAdapter = (url: string): IAdapter => {
-    const { host } = new URL(url);    
+    const { host } = new URL(url);
+    const Adapter = MAPPINGS[host];    
+    
     assert(Adapter, `No adapter found for "${host}"`);
 
     return new Adapter(url);
@@ -38,8 +40,8 @@ const getJobs = async (url: string) => {
     assert(url, 'Must provide a URL');
 
     const adapter = getAdapter(url);
-    console.log(adapter);
 
+    console.log(adapter);
     // This could throw, but We'll catch at a higher level
     return await adapter.getJobs();
 };
