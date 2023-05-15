@@ -3,7 +3,7 @@ name: Build New Job Listings
 # Trigger whenever the job list file changes
 on:
     schedule:
-        - cron: '0 22 * * *' # At 10 (minute 0 of hour 22)
+        - cron: '18 03 * * *' # At 10 (minute 0 of hour 22)
     push:
         paths:
             - 'data/job_lists.yaml'
