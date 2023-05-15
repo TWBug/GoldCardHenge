@@ -27,11 +27,11 @@ job_tags:
   - 南港車站
   - 南港區
   - 南港軟體園區
-  - Social Media
-  - KOL
-  - excel
-  - word
   - powerpoint
+  - word
+  - excel
+  - KOL
+  - Social Media
 badges:
   - Project Manager
 

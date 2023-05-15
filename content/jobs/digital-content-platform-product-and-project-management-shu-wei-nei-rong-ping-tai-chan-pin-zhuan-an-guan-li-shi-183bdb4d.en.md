@@ -23,15 +23,15 @@ location_list:
   - '新北市, 台灣'
   - 台灣
 job_tags:
-  - computer science
-  - industrial UI/UX
-  - education technology
-  - engineering psychology
-  - Design
   - Project Management
+  - Design
+  - engineering psychology
+  - education technology
+  - industrial UI/UX
+  - computer science
 badges:
   - Project Manager
 
 ---
 
-l Implement customer and market insights into actionable business and product development requirements for ViewSonic Original Content Platform. Participate and manage in all phases of content platform developing detailed designs, plans, and monitoring progress as well. Create sketches, diagrams, wireframes, and prototypes that communicate and achieve business objectives while keeping our teachers and student experiences at the forefront. Liaising with relevant teams e.g. developers, business pla
+We are looking for a product/project manager you will be responsible for overseeing the development, implementation, and maintenance of a content platform. In this role, you should be an analytical and organization Project owner who is able to creating a project plan that outlines the timeline, budget, coordinate people, and scope of the content platform development project. They must identify and prioritize project tasks, assign responsibilities, and establish deadlines. Requirements and Respon

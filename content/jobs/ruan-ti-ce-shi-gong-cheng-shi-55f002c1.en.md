@@ -22,12 +22,12 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - JIRA
-  - 壓力測試(stress test)
-  - 功能測試(function test)
-  - 使用者測試(Usability test)
-  - 問題追蹤處理(Bug tracking)
   - Postman
+  - 問題追蹤處理(Bug tracking)
+  - 使用者測試(Usability test)
+  - 功能測試(function test)
+  - 壓力測試(stress test)
+  - JIRA
 badges:
   - QA Engineer
 

@@ -11,11 +11,11 @@ company_name: PicCollage 拼貼趣
 company_page_url: 'https://www.cakeresume.com/companies/PicCollage'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--1-oyOxdB--/c_pad,fl_png8,h_200,w_200/v1644811715/zvbx6qkf4ad4ufkxjzj7.png
-salary_text: TWD1800000 - TWD1
+salary_text: TWD2100000 - TWD3000000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1800000
-salary_max: 1
+salary_min: 2100000
+salary_max: 3000000
 location_list:
   - Taiwan
   - 台灣
@@ -25,4 +25,4 @@ badges:
 
 ---
 
-As a Director of Finance, you will be responsible for managing and handling the company financials and accountings to make sure the company is in compliance in all aspects. Moreover, you will be a critical role to help the company grow to the next level by actively working with the team members to provide sufficient info and insights. We would expect you to be proactive in initiating ideas that you think can better up the company to scale. Please note that only applications through the link will
+As a Director of Finance, you will be responsible for managing and handling the company financials and accountings to make sure the company is in compliance in all aspects. Moreover, you will play a critical role in helping the company grow to the next level by actively working with team members to provide information and insight. We would expect you to be proactive in initiating ideas that can help scale the company. Please note that only applications through the link will be considered Respons

@@ -23,7 +23,7 @@ location_list:
   - '高雄市, 台灣'
   - 台灣
   - 'Taichung City, Taiwan'
-  - '台中市, 台灣'
+  - 台灣台中市
 job_tags:
   - Semiconductor
   - Technology

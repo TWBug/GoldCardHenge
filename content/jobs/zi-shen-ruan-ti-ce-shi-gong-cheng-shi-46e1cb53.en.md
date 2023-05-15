@@ -23,16 +23,16 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - 問題追蹤處理(Bug tracking)
-  - 使用者測試(Usability test)
-  - 壓力測試(stress test)
-  - 功能測試(function test)
-  - 內湖
-  - 測試系統建立與驗證
-  - 測試計劃及測試報告書撰寫
-  - JMeter
-  - Postman
   - Fiddler
+  - Postman
+  - JMeter
+  - 測試計劃及測試報告書撰寫
+  - 測試系統建立與驗證
+  - 內湖
+  - 功能測試(function test)
+  - 壓力測試(stress test)
+  - 使用者測試(Usability test)
+  - 問題追蹤處理(Bug tracking)
 badges:
   - QA Engineer
 

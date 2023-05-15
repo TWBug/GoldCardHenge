@@ -12,20 +12,20 @@ company_name: PicCollage 拼貼趣
 company_page_url: 'https://www.cakeresume.com/companies/PicCollage'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--1-oyOxdB--/c_pad,fl_png8,h_200,w_200/v1644811715/zvbx6qkf4ad4ufkxjzj7.png
-salary_text: TWD1400000 - TWD2000000
+salary_text: TWD1500000 - TWD3000000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1400000
-salary_max: 2000000
+salary_min: 1500000
+salary_max: 3000000
 location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Frontend Developer
-  - Frontend
-  - JavaScript
-  - React
   - Vue
+  - React
+  - JavaScript
+  - Frontend
+  - Frontend Developer
 badges:
   - Frontend
 

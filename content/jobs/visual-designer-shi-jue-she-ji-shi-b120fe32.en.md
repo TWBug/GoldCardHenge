@@ -21,11 +21,11 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - 視覺設計
-  - Visual Design
-  - Adobe Creative Suite
-  - Figma
   - Canva
+  - Figma
+  - Adobe Creative Suite
+  - Visual Design
+  - 視覺設計
 badges:
   - Designer
 

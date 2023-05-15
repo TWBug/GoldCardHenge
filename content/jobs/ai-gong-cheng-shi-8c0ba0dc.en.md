@@ -20,9 +20,9 @@ location_list:
   - Taiwan
   - 台灣
   - 'Taichung City, Taiwan'
-  - '台中市, 台灣'
+  - 台灣台中市
   - 'Tainan City, Taiwan'
-  - '台南市, 台灣'
+  - 台灣台南市
 job_tags: []
 badges:
   - AI Engineer

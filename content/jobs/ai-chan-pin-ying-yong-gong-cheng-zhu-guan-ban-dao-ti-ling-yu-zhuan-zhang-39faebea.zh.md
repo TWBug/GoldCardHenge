@@ -10,7 +10,7 @@ date: 2022-11-21T06:26:33.596Z
 company_name: 亞達科技股份有限公司ADAT Technology
 company_page_url: 'https://www.cakeresume.com/companies/adat-technology'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--VEJusbVf--/c_pad,fl_png8,h_200,w_200/v1665979454/zoc8m6cznw6hwstwlr4v.png
+  https://media.cakeresume.com/image/upload/s--esETRUir--/c_pad,fl_png8,h_200,w_200/v1683105087/uuhockwx5ljx5pta6wjo.png
 salary_text: TWD55000 - TWD190000
 salary_currency: TWD
 salary_type: per_month
@@ -19,7 +19,7 @@ salary_max: 190000
 location_list:
   - Taiwan
   - 'Tainan City, Taiwan'
-  - '台南市, 台灣'
+  - 台灣台南市
   - 台灣
 job_tags:
   - Semiconductor
