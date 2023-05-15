@@ -21,11 +21,11 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Vue
-  - React
-  - JavaScript
-  - Frontend
   - Frontend Developer
+  - Frontend
+  - JavaScript
+  - React
+  - Vue
 badges:
   - Frontend
 

@@ -12,20 +12,20 @@ company_name: PicCollage 拼貼趣
 company_page_url: 'https://www.cakeresume.com/companies/PicCollage'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--1-oyOxdB--/c_pad,fl_png8,h_200,w_200/v1644811715/zvbx6qkf4ad4ufkxjzj7.png
-salary_text: TWD900000 - TWD1600000
+salary_text: TWD1000000 - TWD2000000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 900000
-salary_max: 1600000
+salary_min: 1000000
+salary_max: 2000000
 location_list:
   - Canada
   - 'British Columbia, Canada'
   - Taiwan
   - 台灣
 job_tags:
-  - Digital Marketing
-  - Marketing
   - Product Marketing
+  - Marketing
+  - Digital Marketing
 badges:
   - Marketing International
 
