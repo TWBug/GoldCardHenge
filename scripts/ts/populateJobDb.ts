@@ -30,8 +30,10 @@ const getAdapter = (url: string): IAdapter => {
     const { host } = new URL(url);
     const Adapter = MAPPINGS[host];    
     
-    assert(Adapter, `No adapter found for "${host}"`);
+    console.log(url);
     console.log(getAdapter(url));
+    assert(Adapter, `No adapter found for "${host}"`);
+
     return new Adapter(url);
 };
 
