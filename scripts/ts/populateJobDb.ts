@@ -1,6 +1,7 @@
 import assert from 'assert';
 import fs from 'fs';
 import CakeResumeAdapter from './adapters/cakeresume';
+import CakeResumeHighLevelAdapter from './adapters/cakeresume';
 import { IAdapter, IAdapterConstructor, IAdapterOutput } from './types/adapter';
 import yaml from 'js-yaml';
 import crc from 'crc';
@@ -21,7 +22,8 @@ interface IDBRowJob extends IAdapterOutput {
 }
 
 const MAPPINGS: { [k: string]: IAdapterConstructor } = {
-    'www.cakeresume.com': CakeResumeAdapter,
+    'www.cakeresume.com': CakeResumeAdapter, 
+    'www.cakeresume.com/companies': CakeResumeHighLevelAdapter,
 };
 
 const getAdapter = (url: string): IAdapter => {
