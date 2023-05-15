@@ -1,8 +1,8 @@
-export namespace __APP_INITIAL_REDUX_STATE__ {
+export namespace __APP_INITIAL_REDUX_TEST__ {
 
 
 
-    export namespace props {
+    export namespace test123 {
 
         export namespace pageProps {
             export namespace serverState {

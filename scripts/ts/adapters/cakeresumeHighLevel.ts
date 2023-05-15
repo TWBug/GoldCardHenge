@@ -1,8 +1,8 @@
 import cheerio from 'cheerio';
 import got from 'got';
 import assert from 'assert';
-import { __APP_INITIAL_REDUX_STATE__ } from '../types/cakeresume';
-import { IAdapter } from '../types/adapter';
+import { __APP_INITIAL_REDUX_STATE__ } from '../types/cakeresumehighlevel';
+import { IAdapter } from '../types/adapter/cakeresumeHighLevel';
 import { getHeaders } from './utils';
 import vm from 'vm';
 import { debug, trace } from 'console';
@@ -40,7 +40,7 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
     getResultsFromData(data: typeof __APP_INITIAL_REDUX_STATE__) {
         console.info('High Level');
         // @ts-ignore        
-        const { results } = data.props.pageProps.serverState.initialResults.Job;
+        const { results } = data.props.pageProps.serverState.initialResults.Job;        
         let result;
 
 
