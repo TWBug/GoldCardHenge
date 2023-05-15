@@ -22,15 +22,13 @@ interface IDBRowJob extends IAdapterOutput {
 }
 
 const MAPPINGS: { [k: string]: IAdapterConstructor } = {    
-    'www.cakeresume.com/' :CakeResumeAdapter,
-    'www.cakeresume.com/companies': CakeResumeHighLevelAdapter,
+    'www.cakeresume.com/' :CakeResumeAdapter,    
 };
 
 const getAdapter = (url: string): IAdapter => {
     const { host } = new URL(url);
-    const Adapter = MAPPINGS[host];    
+    const Adapter = MAPPINGS[host];       
     
-    console.log(url);    
     assert(Adapter, `No adapter found for "${host}"`);
 
     return new Adapter(url);
@@ -68,9 +66,8 @@ const getStats = async (items: IYamlData[]) => {
 const processJobLists = async (items: IYamlData[]) => {
     const result: IDBRowJob[][] = await Promise.all(
         items.map(({ label, url }) => {
-            return getJobs(url)
-                .then((xs) => {
-                    console.log(getAdapter(url));
+            return getJobs('https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2')
+                .then((xs) => {                    
                     return xs.map((x) => ({ ...x, badges: [label] }));
                 })
                 .catch((err) => {
