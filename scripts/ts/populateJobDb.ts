@@ -30,8 +30,7 @@ const getAdapter = (url: string): IAdapter => {
     const { host } = new URL(url);
     const Adapter = MAPPINGS[host];    
     
-    console.log(url);
-    console.log(getAdapter(url));
+    console.log(url);    
     assert(Adapter, `No adapter found for "${host}"`);
 
     return new Adapter(url);
@@ -71,6 +70,7 @@ const processJobLists = async (items: IYamlData[]) => {
         items.map(({ label, url }) => {
             return getJobs(url)
                 .then((xs) => {
+                    console.log(getAdapter(url));
                     return xs.map((x) => ({ ...x, badges: [label] }));
                 })
                 .catch((err) => {
