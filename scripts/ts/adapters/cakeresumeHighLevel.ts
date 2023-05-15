@@ -119,8 +119,11 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
         // @note It's very important we assign here.
         // Get raw might be worth revisiting since it's quite ugly to have it
         // operate with such side effects.
-        this.raw = raw;
+        this.raw = raw;        
         this.data = data;
+
+        console.info(this.data);
+
 
         return data;
     }
