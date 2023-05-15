@@ -1,4 +1,4 @@
-export namespace __APP_INITIAL_REDUX_HIGHLEVEL__ {
+export namespace __APP_INITIAL_REDUX_STATE__ {
 
 
 

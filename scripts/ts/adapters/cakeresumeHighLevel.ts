@@ -7,7 +7,7 @@ import { getHeaders } from './utils';
 import vm from 'vm';
 import { debug, trace } from 'console';
 
-type CakeAppState = typeof __APP_INITIAL_REDUX_HIGHLEVEL__;
+type CakeAppState = typeof __APP_INITIAL_REDUX_STATE__;
 
 export default class CakeResumeHighLevelAdapter implements IAdapter {
     url: string;
@@ -40,8 +40,8 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
     getResultsFromData(data: typeof __APP_INITIAL_REDUX_STATE__) {
         console.info('High Level');
         // @ts-ignore        
-
-        const { results } = data.props.pageProps.serverState.initialResults.Job;                
+        
+        const { results } = data.props.pageProps.serverState.initialResults.Job;        
         let result;
 
 
