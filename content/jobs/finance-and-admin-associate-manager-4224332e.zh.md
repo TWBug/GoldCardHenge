@@ -20,10 +20,8 @@ salary_max: 800000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
-  - 'Songshan District, Taipei City, Taiwan 105'
-  - 台灣
   - '台北市, 台灣'
-  - 105台灣台北市松山區
+  - 台灣
 job_tags:
   - accounting
   - tax

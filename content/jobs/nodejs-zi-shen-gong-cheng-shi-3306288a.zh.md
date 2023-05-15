@@ -18,7 +18,10 @@ salary_type: per_month
 salary_min: 60000
 salary_max: 90000
 location_list:
-  - 台北
+  - Taiwan
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
+  - 台灣
 job_tags: []
 badges:
   - AI Engineer

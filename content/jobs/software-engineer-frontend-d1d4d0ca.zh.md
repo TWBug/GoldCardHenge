@@ -19,9 +19,9 @@ salary_min: 850000
 salary_max: 1400000
 location_list:
   - Taiwan
-  - 'Taipei, Taiwan'
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
   - 台灣
-  - 台灣台北
 job_tags:
   - React.js
   - HTML/CSS

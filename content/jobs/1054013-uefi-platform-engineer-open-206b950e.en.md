@@ -18,9 +18,10 @@ salary_type: per_month
 salary_min: 40000
 salary_max: 0
 location_list:
-  - 台北市南港區
-  - Taipei city
   - Taiwan
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
+  - 台灣
 job_tags: []
 badges:
   - Enterprise Architecture

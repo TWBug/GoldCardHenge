@@ -5,19 +5,22 @@ data_source_url: >-
   https://www.cakeresume.com/jobs?q=ai%E5%B7%A5%E7%A8%8B%E5%B8%AB&refinementList%5Blang_[…]y_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '26993'
 title: Senior Software Algorithm Engineer (Visual AI) 高級AI算法工程師(視覺圖像)
-job_url: 'https://www.cakeresume.com/companies/filmora-wondershare/jobs/372e16'
+job_url: 'https://www.cakeresume.com/companies/wanho/jobs/372e16'
 date: 2021-02-20T07:54:28.525Z
 company_name: 台灣萬和科技有限公司
-company_page_url: 'https://www.cakeresume.com/companies/filmora-wondershare'
+company_page_url: 'https://www.cakeresume.com/companies/wanho'
 company_logo_url: >-
-  https://media.cakeresume.com/image/upload/s--WALopWSV--/c_pad,fl_png8,h_200,w_200/v1613804657/zbn9uzawxgtt8u1xldzn.png
+  https://media.cakeresume.com/image/upload/s--p0y_lbjV--/c_pad,fl_png8,h_200,w_200/v1668046946/u6yobipr6r7hgx1zfri0.png
 salary_text: TWD1600000 - TWD3000000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 1600000
 salary_max: 3000000
 location_list:
-  - 台北
+  - Taiwan
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
+  - 台灣
 job_tags:
   - AI & Machine Learning
   - Python

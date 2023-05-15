@@ -19,10 +19,10 @@ salary_min: 900000
 salary_max: 1500000
 location_list:
   - Taiwan
-  - 'Zhubei, Zhubei City, Hsinchu County, Taiwan 302'
+  - 台灣
 job_tags: []
 badges:
-  - QA Engineer
+  - QA Engineerr
 
 ---
 

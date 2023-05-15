@@ -1,24 +1,24 @@
 name: Build Job Listings
 
-# Trigger whneever the job list file changes
+# Trigger whenever the job list file changes
 on:
     schedule:
-        - cron: '54 2 * * *' # At 10 (minute 0 of hour 22)
+        - cron: '0 22 * * *' # At 10 (minute 0 of hour 22)
     push:
         paths:
             - 'data/job_lists.yaml'
 
 jobs:
     scrape:
-        runs-on: ubuntu-18.04
+        runs-on: ubuntu-22.04
         steps:
-            - uses: actions/checkout@v2
+            - uses: actions/checkout@v3
             - name: Setup Node
-              uses: actions/setup-node@v2.1.2
+              uses: actions/setup-node@v3
               with:
-                  node-version: '12'
+                  node-version: '16'
             - name: Cache dependencies
-              uses: actions/cache@v2
+              uses: actions/cache@v3
               with:
                   path: ~/.npm
                   key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -30,6 +30,7 @@ jobs:
             # The meat. The rest is just boilerplate. This is where the job scraping happens
             - name: Scrape all URLs specified in data/job_lists.yaml
               run: 'yarn build:jobs'
+              
 
             # Commit the new jobs, which should trigger a build (assuming job files changed)
             - uses: stefanzweifel/git-auto-commit-action@v4

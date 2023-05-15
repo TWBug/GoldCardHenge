@@ -19,7 +19,9 @@ salary_min: 1200000
 salary_max: 1800000
 location_list:
   - Taiwan
-  - 'Taipei, Taiwan'
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
+  - 台灣
 job_tags:
   - Linux
   - python3

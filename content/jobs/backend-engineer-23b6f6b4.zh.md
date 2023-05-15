@@ -12,16 +12,14 @@ company_name: imBee Limited
 company_page_url: 'https://www.cakeresume.com/companies/imbee-limited'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--157y6b2z--/c_pad,fl_png8,h_200,w_200/v1609733517/gfqzzy0pbhaofhuwdszp.png
-salary_text: TWD850000 - TWD1300000
+salary_text: TWD1000000 - TWD1500000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 850000
-salary_max: 1300000
+salary_min: 1000000
+salary_max: 1500000
 location_list:
   - Taiwan
-  - 'Taipei, Taiwan'
   - 台灣
-  - 台灣台北
 job_tags: []
 badges:
   - Industrial Engineer

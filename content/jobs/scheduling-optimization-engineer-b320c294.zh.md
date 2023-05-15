@@ -19,9 +19,7 @@ salary_min: 40000
 salary_max: 0
 location_list:
   - Taiwan
-  - 'Hsinchu, Hsinchu City, Taiwan'
   - 台灣
-  - 台灣新竹市新竹
 job_tags: []
 badges:
   - Industrial Engineer

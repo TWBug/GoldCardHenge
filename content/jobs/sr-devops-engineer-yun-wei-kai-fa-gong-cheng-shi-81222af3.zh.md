@@ -19,21 +19,18 @@ salary_min: 800000
 salary_max: 1800000
 location_list:
   - Taiwan
-  - 'Taipei, Taiwan'
   - 台灣
-  - 台灣台北
 job_tags:
-  - DevOps
-  - Kubernetes (k8s)
-  - AWS
-  - Docker
-  - CICD
-  - Ansible
-  - Terraform
-  - Jenkins
-  - Kibana
   - Grafana
-  - Prometheus
+  - Kibana
+  - Jenkins
+  - Terraform
+  - Ansible
+  - CICD
+  - Docker
+  - AWS
+  - Kubernetes (k8s)
+  - DevOps
 badges:
   - Cloud Computing
 

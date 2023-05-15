@@ -16,11 +16,13 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 1800000
 salary_max: 1
-location_list: []
+location_list:
+  - Taiwan
+  - 台灣
 job_tags: []
 badges:
   - Finance
 
 ---
 
-As a Director of Finance, you will be responsible for managing and handling the company financials and accountings to make sure the company is in compliance in all aspects. Moreover, you will be a critical role to help the company grow to the next level by actively working with the team members to provide sufficient info and insights. We would expect you to be proactive in initiating ideas that you think can better up the company to scale. Responsibilities Put scalable systems in place. Lead to 
+As a Director of Finance, you will be responsible for managing and handling the company financials and accountings to make sure the company is in compliance in all aspects. Moreover, you will be a critical role to help the company grow to the next level by actively working with the team members to provide sufficient info and insights. We would expect you to be proactive in initiating ideas that you think can better up the company to scale. Please note that only applications through the link will

@@ -12,14 +12,14 @@ company_name: DEVCORE 戴夫寇爾
 company_page_url: 'https://www.cakeresume.com/companies/devcore'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--eJaJqHPj--/c_pad,fl_png8,h_200,w_200/v1650984586/uafnic3fu3mhogjoaf7g.png
-salary_text: TWD840000 - TWD1260000
+salary_text: TWD1100000 - TWD1600000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 840000
-salary_max: 1260000
+salary_min: 1100000
+salary_max: 1600000
 location_list:
   - Taiwan
-  - 'Taipei, Taiwan'
+  - 台灣
 job_tags:
   - Pages
   - Keynote
@@ -36,4 +36,4 @@ badges:
 
 ---
 
-協助作戰 40% 專案執行前向客戶索取所需資料，整合歷史資料供團隊參考 掌握戰況進度並整合作戰資料，關聯戰場資訊協助隊友找到突破點 專案中與客戶溝通、協調需求、取得雙方共識 整理檢測結果並將其歸檔到內部知識庫 執行其他專案相關需求 撰寫與製作文件 30% 製作初測、複測之報告書與簡報 撰寫檢測日誌，記錄並整理每日檢測進度 弱點複測 20% 安排與協調複測時程 確認弱點是否已修補完畢 會議 10% 參與專案相關啟動、檢測成果簡報、結案會議等
+協助作戰 40% 專案執行前向客戶索取所需資料，整合歷史資料供團隊參考 掌握戰況進度並整合作戰資料，關聯戰場資訊協助隊友找到突破點 專案中與客戶溝通、協調需求、取得雙方共識 整理檢測結果並將其歸檔到內部知識庫 執行其他專案相關需求 撰寫與製作文件 30% 製作初測、複測之報告書與簡報 撰寫檢測日誌，記錄並整理每日檢測進度 弱點複測 20% 安排與協調複測時程 確認弱點是否已修補完畢 會議 10% 參與專案相關啟動、檢測成果簡報、結案會議等 履歷內容請務必控制在兩頁以內，並且至少須包含以下內容： 基本資料 學歷 工作經歷 MBTI 職業性格測試結果（ 測試網頁 ） 若您認為測驗結果較為隱私，不想上傳至網路平台，亦可將結果加密寄給我們。

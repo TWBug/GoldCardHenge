@@ -19,10 +19,8 @@ salary_max: 100000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
-  - 'Zhongshan District, Taipei City, Taiwan 104'
-  - 台灣
   - '台北市, 台灣'
-  - 104台灣台北市中山區
+  - 台灣
 job_tags:
   - HTML5
   - CSS

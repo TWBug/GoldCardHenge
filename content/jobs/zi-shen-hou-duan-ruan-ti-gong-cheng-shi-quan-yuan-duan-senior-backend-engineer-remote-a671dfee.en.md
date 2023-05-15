@@ -17,8 +17,9 @@ salary_type: per_year
 salary_min: 2000000
 salary_max: 5000000
 location_list:
-  - 遠端工作
-  - 信義區
+  - Taiwan
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
   - 台灣
 job_tags:
   - JavaScript

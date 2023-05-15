@@ -19,7 +19,9 @@ salary_min: 80000
 salary_max: 150000
 location_list:
   - Taiwan
-  - 'Taipei, Taiwan'
+  - 'Taipei City, Taiwan'
+  - '台北市, 台灣'
+  - 台灣
 job_tags:
   - java
   - javascript
