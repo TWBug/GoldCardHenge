@@ -71,7 +71,7 @@ const processJobLists = async (items: IYamlData[]) => {
                 .catch((err) => {
                     console.error(
                         '[SKIP] The following URL errored. Ignoring and continuing: ',
-                        url,err
+                        url
                     );
                     if (DEBUG) {
                         console.log('DEBUG flag set. Error follows:');
