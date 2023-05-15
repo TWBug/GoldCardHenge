@@ -22,6 +22,7 @@ interface IDBRowJob extends IAdapterOutput {
 }
 
 const MAPPINGS: { [k: string]: IAdapterConstructor } = {    
+    'www.cakeresume.com/' :CakeResumeAdapter,
     'www.cakeresume.com/companies': CakeResumeHighLevelAdapter,
 };
 
@@ -29,7 +30,7 @@ const getAdapter = (url: string): IAdapter => {
     const { host } = new URL(url);
     const Adapter = MAPPINGS[host];    
 
-    console.log('Adapter');
+    console.log($Adapter);
     assert(Adapter, `No adapter found for "${host}"`);
 
     return new Adapter(url);
