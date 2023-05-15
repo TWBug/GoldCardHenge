@@ -10,7 +10,7 @@ items:
   - label: IoT Solution
     url: https://www.cakeresume.com/jobs?q=iot%20solutions&locale=en&range%5Bsalary_range%5D%5Bmin%5D=1000000
   - label: DevOps
-    url: https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=tech_devops&refi[…]5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
+    url: https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=it_devops-system-admin&refi%5B%E2%80%A6%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
   - label: Industrial Engineer
     url: https://www.cakeresume.com/jobs?q=industrial%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
   - label: AI Engineer
@@ -20,11 +20,11 @@ items:
   - label: Marketing International
     url: https://www.cakeresume.com/jobs?q=marketing%20international&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
   - label: Finance
-    url: https://www.cakeresume.com/jobs?q=finance&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
+    url: https://www.cakeresume.com/jobs?q=finance&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
   - label: Cyber Security
     url: https://www.cakeresume.com/jobs?q=cyber%20security&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
   - label: Frontend
-    url: https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList[lang_name][0]=E[…]tech_front-end-development&range[salary_range][min]=1000000
+    url: https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=it_front-end-engineer&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
   - label: Mechanical engineer
     url: https://www.cakeresume.com/jobs?q=mechanical%20engineer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=3
   - label: Designer
@@ -37,5 +37,25 @@ items:
     url: https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
   - url: https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmin%5D=800096
     label: QA Engineer
-  - label: QA Engineer
-    url: https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=engineering_qa-engineer&refinementList%5Bsalary_type%5D=per_month&refinementList%5Bsalary_currency%5D=TWD&range%5Bsalary_range%5D%5Bmax%5D=600000
+  - label: Google Area
+    url: https://www.cakeresume.com/jobs?q=%22Google%20Taiwan%22&refinementList%5Bjob_type%5D%5B0%5D=full_time
+  - label: Google Area
+    url: https://www.cakeresume.com/jobs?q=%22Google%20Taiwan%22&refinementList%5Bjob_type%5D%5B0%5D=full_time&page=2
+  - label: Google Area
+    url: https://www.cakeresume.com/jobs?q=%22Google%20Taiwan%22&refinementList%5Bjob_type%5D%5B0%5D=full_time&page=3
+  - label: Google Area
+    url: https://www.cakeresume.com/jobs?q=%22Google%20Taiwan%22&refinementList%5Bjob_type%5D%5B0%5D=full_time&page=4
+  - label: Google Area
+    url: https://www.cakeresume.com/jobs?q=%22Google%20Taiwan%22&refinementList%5Bjob_type%5D%5B0%5D=full_time&page=5
+  - label: Google Area
+    url: https://www.cakeresume.com/jobs?q=%22Google%20Taiwan%22&refinementList%5Bjob_type%5D%5B0%5D=full_time&page=6
+  - label: Google Area
+    url: https://www.cakeresume.com/jobs?q=%22Google%20Taiwan%22&refinementList%5Bjob_type%5D%5B0%5D=full_time&page=7
+  - label: Google Area
+    url: https://www.cakeresume.com/jobs?q=%22Google%20Taiwan%22&refinementList%5Bjob_type%5D%5B0%5D=full_time&page=8
+  - label: Google Area
+    url: https://www.cakeresume.com/jobs?q=%22Google%20Taiwan%22&refinementList%5Bjob_type%5D%5B0%5D=full_time&page=9
+  - label: Google Area
+    url: https://www.cakeresume.com/jobs?q=%22Google%20Taiwan%22&refinementList%5Bjob_type%5D%5B0%5D=full_time&page=10
+  - label: High-level Vacancy
+    url: https://www.cakeresume.com/companies/taiwan-international-jobs/jobs
