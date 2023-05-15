@@ -21,14 +21,16 @@ interface IDBRowJob extends IAdapterOutput {
     badges: string[];
 }
 
-const MAPPINGS: { [k: string]: IAdapterConstructor } = {
-    'www.cakeresume.com': CakeResumeAdapter, 
+const MAPPINGS: { [k: string]: IAdapterConstructor } = {    
     'www.cakeresume.com/companies': CakeResumeHighLevelAdapter,
 };
 
 const getAdapter = (url: string): IAdapter => {
     const { host } = new URL(url);
     const Adapter = MAPPINGS[host];
+
+    if Adapter == 'CakeResumeHighLevelAdapter'
+        console.log('Select High Level');
 
     assert(Adapter, `No adapter found for "${host}"`);
 
