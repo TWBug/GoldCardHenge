@@ -22,7 +22,7 @@ interface IDBRowJob extends IAdapterOutput {
 }
 
 const MAPPINGS: { [k: string]: IAdapterConstructor } = {    
-    'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs' : CakeResumeHighLevelAdapter,       
+    'www.cakeresume.com/companies' : CakeResumeHighLevelAdapter,       
 };
 
 const getAdapter = (url: string): IAdapter => {
