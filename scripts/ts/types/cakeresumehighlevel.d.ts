@@ -1,6 +1,4 @@
-export namespace __APP_INITIAL_REDUX_STATE__ {
-
-
+export namespace __APP_INITIAL_REDUX_STATE__HIGHLEVEL {
 
     export namespace props {
 

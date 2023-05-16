@@ -1,13 +1,13 @@
 import cheerio from 'cheerio';
 import got from 'got';
 import assert from 'assert';
-import { __APP_INITIAL_REDUX_STATE__ } from '../types/cakeresumehighlevel';
+import { __APP_INITIAL_REDUX_STATE__HIGHLEVEL } from '../types/cakeresumehighlevel';
 import { IAdapter } from '../types/adapter';
 import { getHeaders } from './utils';
 import vm from 'vm';
 import { debug, trace } from 'console';
 
-type CakeAppState = typeof __APP_INITIAL_REDUX_STATE__;
+type CakeAppState = typeof __APP_INITIAL_REDUX_STATE__HIGHLEVEL;
 
 export default class CakeResumeHighLevelAdapter implements IAdapter {
     url: string;
@@ -43,6 +43,7 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
 
         const { results } = data.props.pageProps.serverState.initialResults.Job;        
         let result;
+
 
 
 
@@ -106,7 +107,7 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
         assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
 
         const raw = "window.__APP_INITIAL_REDUX_STATE__ =" + script.html();
-
+        assert(!raw,'test');
         assert(raw, 'No inline script source found');
 
         // This is a temporary context which we will use to grab the globals set in the script
