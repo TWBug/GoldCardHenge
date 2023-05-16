@@ -21,12 +21,13 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Figma
-  - Illustrator
-  - Mixpanel
-  - photoshop
-  - powerpoint
+  - 台北
+  - Notion
   - English
+  - photoshop
+  - Mixpanel
+  - Illustrator
+  - Figma
 badges:
   - Designer
 
