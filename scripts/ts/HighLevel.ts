@@ -37,15 +37,18 @@ function adaptJob(jobData: any): Job {
 function parseJobData(): void {
   const url = 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs';    
     console.info(`[FETCH] <- ${url}`);
-    const response = fetch(url);
-  const html = response.text();
 
-  const parser = new DOMParser();
-  const doc = parser.parseFromString(html, 'text/html');
-    
+ fetch(url)
+  .then(response => response.text())
+  .then(html => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, 'text/html');
+    const script = doc.getElementById('__NEXT_DATA__'); // replace with your desired element ID
+    console.log(element); // do something with the element  });
     
 console.log(doc);
-const script = doc.document.getElementById('__NEXT_DATA__');
+console.log(script)
+
 const jsonData=JSON.parse(script.textContent);
 const jobCollection = jsonData.props.pageProps.initialState.job.graphQlJobCollection;
 const jobEntities = jobCollection.entities;
