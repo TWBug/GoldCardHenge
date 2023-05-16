@@ -36,22 +36,16 @@ function adaptJob(jobData: any): Job {
 
 function parseJobData(): void {
   const url = 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs';    
-const headers = {
-        // @note This awesome user agent string is meant to not trigger any
-        // automated scrape prevention, but also inform the recipient of our
-        // presence should they decide to view their logs. They've already
-        // agreed to let us scrape their site, but who knows if htey utilize any
-        // intermediate scrape prevention software that they don't even know
-        // about. After all, they are a job board.
-        'User-Agent':
-            'Mozilla/5.0 (Macintosh) AppleWebKit/537 (KHTML, like Gecko) Chrome/88.TEGO.special Safari/537.TEGO.special',
-    };
     console.info(`[FETCH] <- ${url}`);
-    const res = await got(url, { headers });
-    const $ = cheerio.load(res.body);
-    const script = $('script').filter(
-        (_, x) => !!$(x).html()?.includes('__NEXT_DATA__');
-console.log(script);
+    const response = await fetch(url);
+  const html = await response.text();
+
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(html, 'text/html');
+    
+    
+console.log(doc);
+const script = doc.document.getElementById('__NEXT_DATA__');
 const jsonData=JSON.parse(script.textContent);
 const jobCollection = jsonData.props.pageProps.initialState.job.graphQlJobCollection;
 const jobEntities = jobCollection.entities;
