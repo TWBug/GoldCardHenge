@@ -37,8 +37,8 @@ function adaptJob(jobData: any): Job {
 function parseJobData(): void {
   const url = 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs';    
     console.info(`[FETCH] <- ${url}`);
-    const response = await fetch(url);
-  const html = await response.text();
+    const response = fetch(url);
+  const html = response.text();
 
   const parser = new DOMParser();
   const doc = parser.parseFromString(html, 'text/html');
