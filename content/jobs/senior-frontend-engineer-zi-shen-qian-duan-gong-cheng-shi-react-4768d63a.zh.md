@@ -2,9 +2,9 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=200000
+  https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList[lang_name][0]=E[…]tech_front-end-development&range[salary_range][min]=1000000
 data_source_internal_id: '32802'
-title: 'Senior Frontend Engineer / 資深前端工程師 (React) '
+title: Senior Frontend Engineer / 資深前端工程師 (React)
 job_url: >-
   https://www.cakeresume.com/companies/cakeresume/jobs/software-software-engineer-web-frontend-react
 date: 2021-09-28T05:43:35.588Z
@@ -23,13 +23,14 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - Front-end
-  - 前端
-  - React.js
-  - Redux
+  - 105台灣台北市松山區
   - Next.js
+  - Redux
+  - React.js
+  - 前端
+  - Front-end
 badges:
-  - Game Production
+  - Frontend
 
 ---
 
