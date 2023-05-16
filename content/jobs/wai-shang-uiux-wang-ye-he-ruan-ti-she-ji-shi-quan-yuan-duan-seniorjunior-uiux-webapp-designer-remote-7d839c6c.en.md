@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
+  https://www.cakeresume.com/jobs?q=designer&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year
 data_source_internal_id: '14713'
 title: "\U0001F525 [外商] UI/UX 網頁和軟體設計師\U0001F3A8  (全遠端) Senior/Junior UI/UX Web/App Designer (Remote)"
 job_url: 'https://www.cakeresume.com/companies/aha/jobs/uiux-web-design'
@@ -34,7 +34,7 @@ job_tags:
   - Design
   - Figma
 badges:
-  - Game Production
+  - Designer
 
 ---
 

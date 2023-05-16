@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
+  https://www.cakeresume.com/jobs?range%5Bsalary_range%5D%5Bmin%5D=1000000&refinementList%5Bprofession%5D%5B0%5D=tech_android-development&refinementList%5Bprofession%5D%5B1%5D=tech_ios-development
 data_source_internal_id: '51063'
 title: "*可遠端*\U0001F4B0知名虛擬貨幣交易所 \U0001F680 - 核心系統- Senior Java Engineer  (高流量)- TL"
 job_url: >-
@@ -28,7 +28,7 @@ job_tags:
   - MS SQL
   - MySQL
 badges:
-  - Game Production
+  - App Developer
 
 ---
 
