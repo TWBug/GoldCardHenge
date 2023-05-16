@@ -34,7 +34,7 @@ items:
   - label: App Developer
     url: https://www.cakeresume.com/jobs?range%5Bsalary_range%5D%5Bmin%5D=1000000&refinementList%5Bprofession%5D%5B0%5D=tech_android-development&refinementList%5Bprofession%5D%5B1%5D=tech_ios-development
   - label: Game Production
-    url: https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=10000
+    url: https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
   - label: High-level Vacancy
     url: https://www.cakeresume.com/companies/taiwan-international-jobs/jobs
 

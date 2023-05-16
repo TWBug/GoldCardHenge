@@ -1,7 +1,7 @@
 import cheerio from 'cheerio';
 import got from 'got';
 import assert from 'assert';
-import { __APP_INITIAL_REDUX_STATE__HIGHLEVEL } from './types/cakeresumehighlevel';
+import { __APP_INITIAL_REDUX_STATE__HIGHLEVEL } from '../types/cakeresumehighlevel';
 import { IAdapter } from '../types/adapter';
 import { getHeaders } from './utils';
 import vm from 'vm';
@@ -19,7 +19,7 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
     constructor(url: string) {
         this.url = url;
         this.hostname = new URL(url).hostname;
-    }    
+    }
 
     // Get the cheerio markup for a page. The url is an argument so that you can
     // get the markup for separately paginated pages as well
