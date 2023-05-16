@@ -6,7 +6,7 @@ on:
         - cron: '18 03 * * *' # At 10 (minute 0 of hour 22)
     push:
         paths:
-            - 'data/job_lists.yaml'
+            - 'data/HighLevelJob_Lists.yaml'
 
 jobs:
     scrape:
@@ -29,13 +29,13 @@ jobs:
 
             # The meat. The rest is just boilerplate. This is where the job scraping happens
             - name: Scrape all URLs specified in data/job_lists.yaml
-              run: 'yarn build:jobs'
+              run: 'yarn build:highleveljobs'
               
 
             # Commit the new jobs, which should trigger a build (assuming job files changed)
             - uses: stefanzweifel/git-auto-commit-action@v4
               with:
-                  commit_message: Update job listings
+                  commit_message: Update HighLevel job listings
 
                   # Optional options appended to `git-push`
                   # See git-push documentation for details: https://git-scm.com/docs/git-push#_options

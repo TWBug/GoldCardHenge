@@ -18,6 +18,7 @@
         "build:ghlocal": "npm run babel && npm run hugo -- --environment gh-local",
         "build:finder": "(cd src/finder && npm run finder:build)",
         "build:jobs": "ts-node scripts/ts/populateJobDb.ts processJobLists",
+        "build:highleveljobs": "ts-node scripts/ts/HighLevel.ts parseJobData",
         "build:i18n": "ts-node scripts/ts/processI18nTranslations.ts",
         "build:jobs:stats": "ts-node scripts/ts/populateJobDb.ts getStats",
         "watch": "npx gulp watch",
