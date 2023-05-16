@@ -45,6 +45,7 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
         let result;
 
 
+
         // Explanation: Content is a nice aggregated stats object, however, it
         // is not always present. What we get instead is an array of individual
         // stats objects which we can then aggregate together on our own.
