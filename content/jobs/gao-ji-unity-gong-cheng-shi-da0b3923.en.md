@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=100000
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
 data_source_internal_id: '52316'
 title: 高級Unity工程師
 job_url: >-
@@ -13,11 +13,11 @@ company_page_url: >-
   https://www.cakeresume.com/companies/104-company-1a2x6bl7b1-jobsource-joblist_r_cust
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--x_9tmFnB--/c_pad,fl_png8,h_200,w_200/v1604373250/wden5c0tgyehxqvrjpfj.png
-salary_text: TWD85000 - TWD10000
+salary_text: TWD70000 - TWD85000
 salary_currency: TWD
 salary_type: per_month
-salary_min: 85000
-salary_max: 10000
+salary_min: 70000
+salary_max: 85000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'

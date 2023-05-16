@@ -23,12 +23,12 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - Test Planning
-  - Testing Methodology
   - Testing
+  - Testing Methodology
+  - Test Planning
 badges:
   - Software
 
 ---
 
-Please submit your application via KKCompany LEVER page, only online application at ( https://jobs.lever.co/kkbox/f8f00540-7b07-440f-adba-f94adc10d33f?lever-origin=applied&lever-source%5B%5D=cakeresume ) will be considered. Asia’s leading technology group, KKCompany Technologies （KKCompany）, is a leader in software services. Our mission is to build “Freeways to Inspiration” and help industries achieve digital transformation. By creating technology highways with partners, we deliver our services 
+Please submit your application via the KKCompany LEVER page . Only online applications will be considered. Asia’s leading technology group, KKCompany Technologies （KKCompany）, is a leader in software services. Our mission is to build “Freeways to Inspiration” and help industries achieve digital transformation. By creating technology highways with partners, we deliver our services around the world and drive value creation through future technology. In addition to our flagship brands KKBOX, BlendV

@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=100000
+  https://www.cakeresume.com/jobs?range%5Bsalary_range%5D%5Bmin%5D=1000000&refinementList%5Bprofession%5D%5B0%5D=tech_android-development&refinementList%5Bprofession%5D%5B1%5D=tech_ios-development
 data_source_internal_id: '34476'
 title: Backend Engineer
 job_url: 'https://www.cakeresume.com/companies/splashtop/jobs/4affb7'
@@ -30,7 +30,7 @@ job_tags:
   - AWS
   - GCP
 badges:
-  - Game Production
+  - App Developer
 
 ---
 
