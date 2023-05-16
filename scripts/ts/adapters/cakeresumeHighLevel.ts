@@ -1,7 +1,7 @@
 import cheerio from 'cheerio';
 import got from 'got';
 import assert from 'assert';
-import { __APP_INITIAL_REDUX_STATE__HIGHLEVEL } from '../types/cakeresumehighlevel';
+import { __APP_INITIAL_REDUX_STATE__HIGHLEVEL } from './types/cakeresumehighlevel';
 import { IAdapter } from '../types/adapter';
 import { getHeaders } from './utils';
 import vm from 'vm';
@@ -19,7 +19,7 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
     constructor(url: string) {
         this.url = url;
         this.hostname = new URL(url).hostname;
-    }
+    }    
 
     // Get the cheerio markup for a page. The url is an argument so that you can
     // get the markup for separately paginated pages as well
@@ -37,12 +37,13 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
         return $('title').text();
     }
 
-    getResultsFromData(data: typeof __APP_INITIAL_REDUX_STATE__) {
+    getResultsFromData(data: typeof __APP_INITIAL_REDUX_STATE__HIGHLEVEL) {
         console.info('High Level');
         // @ts-ignore        
 
         const { results } = data.props.pageProps.serverState.initialResults.Job;        
         let result;
+
 
 
 
@@ -149,7 +150,7 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
             const companyUrl = `${baseUrl}/companies/${x.page.path}`;
             const jobUrl = `${companyUrl}/jobs/${x.path}`;
             return {
-                // Data source
+                // Data source                
                 data_source_name: 'Cake Resume',
                 data_source_hostname: this.hostname,
                 data_source_url: this.url,
