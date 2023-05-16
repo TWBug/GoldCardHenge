@@ -46,7 +46,7 @@ function parseJobData(): void {
     const script = doc.getElementById('__NEXT_DATA__'); // replace with your desired element ID   
     
 console.log(doc);
-console.log(script)
+console.log(script)});
 /*
 const jsonData=JSON.parse(script.textContent);
 const jobCollection = jsonData.props.pageProps.initialState.job.graphQlJobCollection;
@@ -56,5 +56,5 @@ const jobs: Job[] = Object.values(jobEntities).map((jobData) => adaptJob(jobData
 
 console.log(jobs);
 */
-  )
+  
 }
