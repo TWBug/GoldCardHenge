@@ -19,7 +19,7 @@ salary_max: 0
 location_list:
   - Taiwan
   - 'Tainan City, Taiwan'
-  - 台灣台南市
+  - '台南市, 台灣'
   - 台灣
 job_tags: []
 badges:
