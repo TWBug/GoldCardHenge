@@ -43,12 +43,11 @@ function parseJobData(): void {
   .then(html => {
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, 'text/html');
-    const script = doc.getElementById('__NEXT_DATA__'); // replace with your desired element ID
-    console.log(element); // do something with the element  });
+    const script = doc.getElementById('__NEXT_DATA__'); // replace with your desired element ID   
     
 console.log(doc);
 console.log(script)
-
+/*
 const jsonData=JSON.parse(script.textContent);
 const jobCollection = jsonData.props.pageProps.initialState.job.graphQlJobCollection;
 const jobEntities = jobCollection.entities;
@@ -56,5 +55,6 @@ const jobEntities = jobCollection.entities;
 const jobs: Job[] = Object.values(jobEntities).map((jobData) => adaptJob(jobData));
 
 console.log(jobs);
-  
+*/
+  )
 }
