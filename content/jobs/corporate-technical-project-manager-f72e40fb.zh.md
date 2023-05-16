@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?q=project%20manager&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '57502'
-title: '[KKCompany] Technical Project Manager'
+title: '[Corporate] Technical Project Manager'
 job_url: >-
   https://www.cakeresume.com/companies/kkcompany/jobs/kkcompany-technical-project-manager
 date: 2023-05-05T11:18:45.167Z
@@ -28,4 +28,4 @@ badges:
 
 ---
 
-Asia’s leading technology group, KKCompany Technologies （KKCompany）, is a leader in software services. Our mission is to build “Freeways to Inspiration” and help industries achieve digital transformation. By creating technology highways with partners, we deliver our services around the world and drive value creation through future technology. In addition to our flagship brands KKBOX, BlendVision, and Going Cloud, our core technologies cover various fields such as music streaming, multimedia, and
+Please submit your application via KKCompany Careers . Only online applications will be considered. Asia’s leading technology group, KKCompany Technologies （KKCompany）, is a leader in software services. Our mission is to build “Freeways to Inspiration” and help industries achieve digital transformation. By creating technology highways with partners, we deliver our services around the world and drive value creation through future technology. In addition to our flagship brands KKBOX, BlendVision, 
