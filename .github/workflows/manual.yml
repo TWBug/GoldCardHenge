@@ -6,7 +6,7 @@ on:
         - cron: '18 03 * * *' # At 10 (minute 0 of hour 22)
     push:
         paths:
-            - 'script/ts/HighLevel.ts'
+            - 'data/HighLevelJob_Lists.yaml'
 
 jobs:
     scrape:
