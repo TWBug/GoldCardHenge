@@ -50,8 +50,8 @@ const headers = {
     const res = await got(url, { headers });
     const $ = cheerio.load(res.body);
     const script = $('script').filter(
-        (_, x) => !!$(x).html()?.includes('__NEXT_DATA__')
-
+        (_, x) => !!$(x).html()?.includes('__NEXT_DATA__');
+console.log(script);
 const jsonData=JSON.parse(script.textContent);
 const jobCollection = jsonData.props.pageProps.initialState.job.graphQlJobCollection;
 const jobEntities = jobCollection.entities;
