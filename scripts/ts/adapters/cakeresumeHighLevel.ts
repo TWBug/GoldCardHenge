@@ -41,44 +41,44 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
         console.info('High Level');
         // @ts-ignore
 
-        const results = data.props.pageProps.initialState.job.graphQlJobCollection.entities;
-        let result;
+        const entityList = data.props.pageProps.initialState.job.graphQlJobCollection.entities;
+        const results = Object.keys(entityList).reduce((acc: Object[], propName) => {
+            acc.push(entityList[propName]);
+            return acc;
+        }, []);
+        // let result;
+        //
+        // // Explanation: Content is a nice aggregated stats object, however, it
+        // // is not always present. What we get instead is an array of individual
+        // // stats objects which we can then aggregate together on our own.
+        // if (results) {
+        //     result = results.reduce((agg, x) => {
+        //         for (const [k, v] of Object.entries(x)) {
+        //             if (!(k in agg)) {
+        //                 agg[k] = v;
+        //             } else if (Array.isArray(agg[k])) {
+        //                 agg[k] = agg[k].concat(v);
+        //             } else if (typeof agg[k] === 'number') {
+        //                 agg[k] = agg[k] + v;
+        //             } else {
+        //                 // No combination is the base case
+        //                 agg[k] = v;
+        //             }
+        //         }
+        //         return agg;
+        //     }, {});
+        // }
 
+        assert(results, 'Could not get result for url: ' + this.url);
 
-
-
-
-        // Explanation: Content is a nice aggregated stats object, however, it
-        // is not always present. What we get instead is an array of individual
-        // stats objects which we can then aggregate together on our own.
-
-
-        if (results) {
-            result = results.reduce((agg, x) => {
-                for (const [k, v] of Object.entries(x)) {
-                    if (!(k in agg)) {
-                        agg[k] = v;
-                    } else if (Array.isArray(agg[k])) {
-                        agg[k] = agg[k].concat(v);
-                    } else if (typeof agg[k] === 'number') {
-                        agg[k] = agg[k] + v;
-                    } else {
-                        // No combination is the base case
-                        agg[k] = v;
-                    }
-                }
-                return agg;
-            }, {});
-        }
-
-        assert(result, 'Could not get result for url: ' + this.url);
-
-        return result;
+        return results;
     }
 
     async getJobCount() {
         const data = await this.populateData();
         const result = this.getResultsFromData(data);
+
+        // @ts-ignore
         const total = result.nbHits;
         return total;
     }
@@ -143,18 +143,23 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
         // the full data set of a job listin. Using the presence of `title` as a
         // heuristic.
         const result = this.getResultsFromData(data);
-        const hits = result.hits.filter((x) => x.title); // The meat. See NOTE
+
+        // @ts-ignore
+        const hits = result.filter((x) => x.title); // The meat. See NOTE
         const baseUrl = 'https://www.cakeresume.com';
 
-        return hits.map((x) => {
-            const companyUrl = `${baseUrl}/companies/${x.page.path}`;
+        return hits.map((x: any) => {
+            const companyUrl = `${baseUrl}/companies/taiwan-international-jobs`;
+            const companyName = 'Foreign Professional Talent Recruitment in Taiwan';
+            const companyLogo = 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg';
             const jobUrl = `${companyUrl}/jobs/${x.path}`;
+
             return {
                 // Data source
                 data_source_name: 'Cake Resume',
                 data_source_hostname: this.hostname,
                 data_source_url: this.url,
-                data_source_internal_id: x.objectID,
+                data_source_internal_id: x.path,
 
                 // @note This is the date we scraped the record at, not the date
                 // it was created in the original system we are scraping it
@@ -164,18 +169,18 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
                 // About the job itself
                 title: x.title,
                 job_url: jobUrl,
-                date: new Date(x.created_at),
-                company_name: x.page.name,
+                date: new Date(x.contentUpdatedAt),
+                company_name: companyName,
                 company_page_url: companyUrl,
-                company_logo_url: x.page.logo.medium,
-                salary_text: x.salary_range.map((y) => x.salary_currency + y).join(' - '),
-                salary_currency: x.salary_currency,
-                salary_type: x.salary_type,
-                salary_min: x.salary_min,
-                salary_max: x.salary_max,
-                location_list: x.location_list,
-                job_tags: x.tag_list,
-                description: x.description_plain_text,
+                company_logo_url: companyLogo,
+                salary_text: `${x.salaryCurrency}${x.SalaryMin} - ${x.salaryCurrency}${x.SalaryMax}`, // x.salary_range.map((y) => x.salary_currency + y).join(' - '),
+                salary_currency: x.salaryCurrency,
+                salary_type: x.salaryType,
+                salary_min: x.salaryMin,
+                salary_max: x.salaryMax,
+                location_list: x.googlePlaces.map(l => l.name).join(', '),
+                job_tags: x.tags,
+                description: x.tagsStrippedDescription,
             };
         });
     }
