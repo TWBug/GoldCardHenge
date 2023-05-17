@@ -2,7 +2,7 @@ import cheerio from 'cheerio';
 import got from 'got';
 import fs from 'fs';
 import path from 'path';
-
+import assert from 'assert'
 
 interface Job {
   aasmState?: string;
@@ -46,7 +46,9 @@ function parseJobData(): void {
     const doc = parser.parseFromString(html, 'text/html');
     const script = doc.getElementById('__NEXT_DATA__'); // replace with your desired element ID      
 
-console.log('TEST');
+    assert(script,"Script is null");
+    console.log(script.textContent);
+    
     const jsonData=JSON.parse(script.textContent);    
     const jobCollection = jsonData.props.pageProps.initialState.job.graphQlJobCollection;
     const jobEntities = jobCollection.entities;
