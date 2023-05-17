@@ -12,11 +12,11 @@ company_name: Project A
 company_page_url: 'https://www.cakeresume.com/companies/project-a'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--k2npiofe--/c_pad,fl_png8,h_200,w_200/v1683196223/cyo09ubllrj6qontmxtt.png
-salary_text: TWD1200000 - TWD1800000
+salary_text: TWD1200000 - TWD2000000
 salary_currency: TWD
 salary_type: per_year
 salary_min: 1200000
-salary_max: 1800000
+salary_max: 2000000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
@@ -35,4 +35,4 @@ badges:
 
 ---
 
-About Project A Project A is an innovative fintech startup dedicated to driving efficiency and liquidity in the cryptocurrency industry by leveraging cutting-edge trading technology. We are backed by some of the best investors in Taiwan and the US, including 500 Global, and more. Our vision is to reshape the crypto landscape by offering unparalleled technology-driven solutions and market access for institutional asset managers and other industry participants. We are based in a brand new office i
+About Project A Project A is an innovative fintech startup dedicated to driving efficiency and liquidity in the cryptocurrency industry by leveraging cutting-edge trading technology. We are backed by world-renowned investors in Taiwan and the US, including 500 Global, and more. Our vision is to reshape the crypto landscape by offering unparalleled technology-driven solutions and market access for institutional asset managers and other industry participants. We are based in a brand new office in 
