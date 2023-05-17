@@ -39,9 +39,9 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
 
     getResultsFromData(data: typeof __APP_INITIAL_REDUX_STATE__HIGHLEVEL) {
         console.info('High Level');
-        // @ts-ignore        
+        // @ts-ignore
 
-        const { results } = data.props.pageProps.serverState.initialResults.Job;        
+        const results = data.props.pageProps.initialState.job.graphQlJobCollection.entities;
         let result;
 
 
@@ -51,8 +51,8 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
         // Explanation: Content is a nice aggregated stats object, however, it
         // is not always present. What we get instead is an array of individual
         // stats objects which we can then aggregate together on our own.
-        
-        
+
+
         if (results) {
             result = results.reduce((agg, x) => {
                 for (const [k, v] of Object.entries(x)) {
@@ -104,11 +104,11 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
         //const script = $('script').filter(
         //    (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
         //);
-        
+
         assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
 
-        const raw = "window.__APP_INITIAL_REDUX_STATE__ =" + script.html();
-        assert(!raw,'test');
+        const scriptObject = script.html();
+        const raw = "window.__APP_INITIAL_REDUX_STATE__ = " + scriptObject;
         assert(raw, 'No inline script source found');
 
         // This is a temporary context which we will use to grab the globals set in the script
@@ -123,7 +123,7 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
         // @note It's very important we assign here.
         // Get raw might be worth revisiting since it's quite ugly to have it
         // operate with such side effects.
-        this.raw = raw;        
+        this.raw = raw;
         this.data = data;
 
         console.info(this.data);
@@ -150,7 +150,7 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
             const companyUrl = `${baseUrl}/companies/${x.page.path}`;
             const jobUrl = `${companyUrl}/jobs/${x.path}`;
             return {
-                // Data source                
+                // Data source
                 data_source_name: 'Cake Resume',
                 data_source_hostname: this.hostname,
                 data_source_url: this.url,

@@ -21,15 +21,20 @@ interface IDBRowJob extends IAdapterOutput {
     badges: string[];
 }
 
-const MAPPINGS: { [k: string]: IAdapterConstructor } = {    
+const MAPPINGS: { [k: string]: IAdapterConstructor } = {
     'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs' : CakeResumeHighLevelAdapter,
-    'www.cakeresume.com' :CakeResumeAdapter,        
+    'www.cakeresume.com' :CakeResumeAdapter,
 };
 
 const getAdapter = (url: string): IAdapter => {
     const { host } = new URL(url);
-    const Adapter = MAPPINGS[host];       
-    console.log(MAPPINGS[host]);
+    let Adapter: IAdapterConstructor;
+    if (url.includes('companies/taiwan-international-jobs/jobs')) {
+        Adapter = MAPPINGS[url];
+    } else {
+        Adapter = MAPPINGS[host];
+    }
+    console.info(`[INFO] ${url} => ${host}:　${Adapter.toString()}`);
     assert(Adapter, `No adapter found for "${host}"`);
 
     return new Adapter(url);
@@ -40,8 +45,7 @@ const getJobs = async (url: string) => {
     assert(url, 'Must provide a URL');
 
     const adapter = getAdapter(url);
-
-    console.log(url);    
+    console.info(`[Adapter] ${url} gets ${typeof adapter}`);
     // This could throw, but We'll catch at a higher level
     return await adapter.getJobs();
 };
@@ -67,8 +71,9 @@ const getStats = async (items: IYamlData[]) => {
 const processJobLists = async (items: IYamlData[]) => {
     const result: IDBRowJob[][] = await Promise.all(
         items.map(({ label, url }) => {
+
             return getJobs(url)
-                .then((xs) => {                    
+                .then((xs) => {
                     return xs.map((x) => ({ ...x, badges: [label] }));
                 })
                 .catch((err) => {
