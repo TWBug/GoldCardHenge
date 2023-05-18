@@ -34,7 +34,8 @@ const getAdapter = (url: string): IAdapter => {
     } else {
         Adapter = MAPPINGS[host];
     }
-    console.info(`[INFO] ${url} => ${host}:　${Adapter.toString()}`);
+    console.log(`[INFO] ${url} => ${host}:　${Adapter.name.toString()}`);
+
     assert(Adapter, `No adapter found for "${host}"`);
 
     return new Adapter(url);
@@ -45,7 +46,7 @@ const getJobs = async (url: string) => {
     assert(url, 'Must provide a URL');
 
     const adapter = getAdapter(url);
-    console.info(`[Adapter] ${url} gets ${typeof adapter}`);
+    console.log(`[Adapter] ${url} gets ${typeof adapter}`);
     // This could throw, but We'll catch at a higher level
     return await adapter.getJobs();
 };
@@ -131,7 +132,6 @@ const processJobLists = async (items: IYamlData[]) => {
         });
         // Clean output dir
         const oldFiles = fs.readdirSync(outdir);
-        console.log();
         console.log(`    Cleaning ${oldFiles.length} outdated high level job files...`);
         oldFiles
             .filter((x) => !x.startsWith('_index'))
@@ -154,7 +154,7 @@ const processJobLists = async (items: IYamlData[]) => {
         // fs.mkdirSync(path.dirname(outfile), { recursive: true })
         // fs.writeFileSync(outfile, JSON.stringify(jobs, null, 2), { encoding: 'utf-8' });
 
-        console.log(`    ${jobs.length} files written to -> ${outdir}`);
+        console.log(`${jobs.length} files written to -> ${outdir}`);
         console.log();
     }
 
@@ -190,7 +190,7 @@ const processJobLists = async (items: IYamlData[]) => {
     // fs.mkdirSync(path.dirname(outfile), { recursive: true })
     // fs.writeFileSync(outfile, JSON.stringify(jobs, null, 2), { encoding: 'utf-8' });
 
-    console.log(`    ${jobs.length} files written to -> ${outdir}`);
+    console.log(`${jobs.length} files written to -> ${outdir}`);
     console.log();
 };
 

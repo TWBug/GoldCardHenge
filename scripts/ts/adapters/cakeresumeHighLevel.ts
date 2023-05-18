@@ -38,7 +38,6 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
     }
 
     getResultsFromData(data: typeof __APP_INITIAL_REDUX_STATE__HIGHLEVEL) {
-        console.info('High Level');
         // @ts-ignore
 
         const entityList = data.props.pageProps.initialState.job.graphQlJobCollection.entities;
@@ -126,7 +125,7 @@ export default class CakeResumeHighLevelAdapter implements IAdapter {
         this.raw = raw;
         this.data = data;
 
-        console.info(this.data);
+        //console.info(this.data);
 
 
         return data;
