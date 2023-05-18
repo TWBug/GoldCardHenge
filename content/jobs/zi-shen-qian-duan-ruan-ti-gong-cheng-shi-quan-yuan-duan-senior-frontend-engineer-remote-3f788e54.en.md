@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
+  https://www.cakeresume.com/jobs?q=Front%20End%20Enginee&refinementList[lang_name][0]=E[…]tech_front-end-development&range[salary_range][min]=1000000
 data_source_internal_id: '11016'
 title: "\U0001F525 [資深] 前端軟體工程師 (全遠端) \U0001F6E0 Senior Front-End Engineer (Remote) \U0001F680"
 job_url: >-
@@ -46,7 +46,7 @@ job_tags:
   - 前端工程師
   - 遠端工作
 badges:
-  - Game Production
+  - Frontend
 
 ---
 

@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?q=cyber%20security&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000
+  https://www.cakeresume.com/jobs?q=software&refinementList%5Blang_name%5D%5B0%5D=English&refinementList%5Bsalary_type%5D=per_year&range%5Bsalary_range%5D%5Bmin%5D=1000000&page=2
 data_source_internal_id: '24308'
 title: '軟體測試工程師 Software QA Engineer (年薪NTD 1,000,000到1,800,000)'
 job_url: 'https://www.cakeresume.com/companies/appaegis/jobs/2c6a0f'
@@ -21,10 +21,11 @@ location_list:
   - 'Taipei City, Taiwan'
   - '台北市, 台灣'
   - 台灣
-job_tags: []
+job_tags:
+  - 台北
 badges:
-  - Cyber Security
+  - Software
 
 ---
 
-Appaegis Inc. is a cyber security start-up based in Silicon Valley USA, founded by seasoned entrepreneurs with successful track records. We are looking for a QA/SRE Engineer to join our new research and development team in Taipei. The ideal candidate will have a strong background in software quality assurance, and be familiar with AWS, Azure, or GCP operation. Appaegis provides competitive salary and benefit. As the tradition of Silicon Valley start-ups, all our employee are in our stock option 
+As a Sr. Software QA Engineer in Mammoth Cyber, you must have strong background of test methodologies and programming skills. You will develop test automation frameworks to assure product quality in all possible aspects such as functional test, API test, performance test, load test, or stress tests. Besides, you will be QA owner of our important modules or features and be responsible of their test planning, execution, and automation. Meanwhile, you might need to cooperate with DevOps engineer to

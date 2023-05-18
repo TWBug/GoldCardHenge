@@ -24,10 +24,10 @@ location_list:
   - 台灣
 job_tags:
   - 信義區
-  - JavaScript
-  - HTML/CSS
-  - API
   - Git
+  - API
+  - HTML/CSS
+  - JavaScript
 badges:
   - Frontend
 
