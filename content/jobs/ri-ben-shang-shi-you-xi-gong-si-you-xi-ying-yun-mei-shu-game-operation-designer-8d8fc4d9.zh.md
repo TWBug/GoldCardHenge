@@ -2,7 +2,7 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
-  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=1000000
+  https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=100000
 data_source_internal_id: '51337'
 title: 【日本上市遊戲公司】遊戲營運美術 Game Operation Designer
 job_url: 'https://www.cakeresume.com/companies/akatsukitw/jobs/e20427'
