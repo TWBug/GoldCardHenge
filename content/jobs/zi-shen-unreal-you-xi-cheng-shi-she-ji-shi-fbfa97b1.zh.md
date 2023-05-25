@@ -21,9 +21,9 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - C++
-  - UnrealEngine4
   - Unreal
+  - UnrealEngine4
+  - C++
 badges:
   - Game Production
 

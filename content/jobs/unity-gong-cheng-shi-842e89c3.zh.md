@@ -20,9 +20,9 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Unity3D
-  - Unity
   - Game Development
+  - Unity
+  - Unity3D
 badges:
   - Game Production
 
