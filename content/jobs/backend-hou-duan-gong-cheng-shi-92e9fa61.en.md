@@ -21,8 +21,8 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Backend Development
   - Backend
+  - Backend Development
 badges:
   - Game Production
 
