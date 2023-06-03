@@ -5,7 +5,7 @@ data_source_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs
 data_source_internal_id: dde355
 title: Dutch Semiconductor Euipement MNC - Infrastructure Developer - DL
 job_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/dde355'
-date: 2023-05-16T05:02:13.000Z
+date: 2023-06-02T10:09:36.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'
