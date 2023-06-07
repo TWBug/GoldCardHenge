@@ -6,7 +6,7 @@ data_source_internal_id: python-automation-engineer-chh
 title: Python Automation Engineer - CHH
 job_url: >-
   https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/python-automation-engineer-chh
-date: 2023-06-02T10:12:39.000Z
+date: 2023-06-06T04:42:50.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'
