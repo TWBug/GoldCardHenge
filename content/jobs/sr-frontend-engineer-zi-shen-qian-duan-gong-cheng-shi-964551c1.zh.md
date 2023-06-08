@@ -3,19 +3,19 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=100000
-data_source_internal_id: '50685'
-title: Sr.Backend Engineer 資深後端工程師
+data_source_internal_id: '59015'
+title: Sr. Frontend Engineer 資深前端工程師
 job_url: >-
-  https://www.cakeresume.com/companies/canner/jobs/sr-backend-engineer-senior-backend-engineer-2367af
-date: 2022-12-14T09:19:33.393Z
+  https://www.cakeresume.com/companies/canner/jobs/sr-frontend-engineer-senior-backend-engineer
+date: 2023-06-02T06:34:50.351Z
 company_name: Canner （易開科技）
 company_page_url: 'https://www.cakeresume.com/companies/canner'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--brOHKpuq--/c_pad,fl_png8,h_200,w_200/v1669620599/a9pdqmlixexb8vsy7lux.png
-salary_text: TWD1000000 - TWD1600000
+salary_text: TWD800000 - TWD1600000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1000000
+salary_min: 800000
 salary_max: 1600000
 location_list:
   - Taiwan
