@@ -21,10 +21,10 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - UI/UXDesign
-  - Game Development
-  - 2D Design
   - Unity
+  - 2D Design
+  - Game Development
+  - UI/UXDesign
 badges:
   - Game Production
 
