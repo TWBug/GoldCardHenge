@@ -5,7 +5,7 @@ data_source_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs
 data_source_internal_id: 30cc7d
 title: Deputy Director or higher level position in EV Mechanism Design
 job_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/30cc7d'
-date: 2023-06-06T04:42:49.000Z
+date: 2023-06-15T07:03:02.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'
