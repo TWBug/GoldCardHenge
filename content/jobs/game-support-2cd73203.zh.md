@@ -20,7 +20,7 @@ salary_max: 5000000
 location_list:
   - Indonesia
   - 'Jakarta, Indonesia'
-  - 'Jakarta, Daerah Khusus Ibukota Jakarta, Indonesia'
+  - 'Daerah Khusus Ibukota Jakarta, Indonesia'
 job_tags: []
 badges:
   - Game Production
