@@ -12,22 +12,20 @@ company_name: CakeResume
 company_page_url: 'https://www.cakeresume.com/companies/cakeresume'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--P01xJaKZ--/c_pad,fl_png8,h_200,w_200/v1586508643/page_2_logo_1468389599.png
-salary_text: TWD1440000 - TWD2200000
+salary_text: TWD1500000 - TWD2400000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 1440000
-salary_max: 2200000
+salary_min: 1500000
+salary_max: 2400000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - Python
-  - Golang
-  - Ruby
-  - 後端
   - backend
+  - 後端
+  - 不限語言
 badges:
   - Game Production
 

@@ -11,11 +11,11 @@ company_name: 樂榮科技股份有限公司
 company_page_url: 'https://www.cakeresume.com/companies/arionlabs-html-cht-index-html'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--TMsBByV7--/c_pad,fl_png8,h_200,w_200/v1618990974/sznscywsndnsiebn2uut.png
-salary_text: TWD80000 - TWD114000
+salary_text: TWD80000 - TWD115000
 salary_currency: TWD
 salary_type: per_month
 salary_min: 80000
-salary_max: 114000
+salary_max: 115000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
