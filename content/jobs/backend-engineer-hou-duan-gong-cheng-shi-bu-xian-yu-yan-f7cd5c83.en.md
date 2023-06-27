@@ -22,11 +22,11 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - backend
-  - 後端
-  - Ruby
-  - Ruby on Rails
   - RoR
+  - Ruby on Rails
+  - Ruby
+  - 後端
+  - backend
 badges:
   - Game Production
 
