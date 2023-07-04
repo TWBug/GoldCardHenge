@@ -6,7 +6,7 @@ data_source_internal_id: director-deputy-director-of-r-d
 title: Director / Deputy Director of R&D
 job_url: >-
   https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/director-deputy-director-of-r-d
-date: 2023-06-30T03:30:56.000Z
+date: 2023-07-03T09:26:16.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'

@@ -6,7 +6,7 @@ data_source_internal_id: manager-of-ae-project-management-department
 title: Manager of AE Project Management Department
 job_url: >-
   https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/manager-of-ae-project-management-department
-date: 2023-06-30T03:30:56.000Z
+date: 2023-07-03T09:26:17.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'
