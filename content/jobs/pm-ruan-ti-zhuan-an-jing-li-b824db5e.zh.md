@@ -19,12 +19,12 @@ salary_max: 100000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
-  - '台北市, 台灣'
+  - 台灣台北市
   - 台灣
 job_tags:
-  - Project Coordination
-  - Project Planning
   - Project Management
+  - Project Planning
+  - Project Coordination
 badges:
   - Game Production
 
