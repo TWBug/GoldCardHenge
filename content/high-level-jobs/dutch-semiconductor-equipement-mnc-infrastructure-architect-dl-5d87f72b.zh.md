@@ -5,7 +5,7 @@ data_source_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs
 data_source_internal_id: 5ebb9e
 title: Dutch Semiconductor Equipement MNC - Infrastructure Architect - DL
 job_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/5ebb9e'
-date: 2023-07-10T01:52:01.000Z
+date: 2023-07-17T03:52:50.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'

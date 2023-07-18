@@ -24,6 +24,7 @@ job_tags:
   - Representatives
   - Business Development
   - Sales
+  - CakeResume 2023 Career Fair
 badges:
   - Game Production
 
