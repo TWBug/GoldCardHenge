@@ -20,7 +20,7 @@ salary_max: 110000
 location_list:
   - Philippines
   - 'Central Visayas, Philippines'
-  - 'Gitnang Kabisayaan, Pilipinas'
+  - 'Central Visayas, Pilipinas'
   - Pilipinas
 job_tags:
   - PowerPoint

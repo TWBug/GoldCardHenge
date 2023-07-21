@@ -20,7 +20,7 @@ salary_max: 110000
 location_list:
   - Philippines
   - 'Metro Manila, Philippines'
-  - 'Kalakhang Maynila, Pilipinas'
+  - 'Metro Manila, Pilipinas'
   - Pilipinas
 job_tags:
   - Spring cloud ，Spring MVC、Spring Boot、Mybatis
