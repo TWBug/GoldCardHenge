@@ -24,7 +24,7 @@ location_list:
   - '新北市, 台灣'
   - 台灣
   - 'Kaohsiung City, Taiwan'
-  - 台灣高雄市
+  - '高雄市, 台灣'
 job_tags:
   - 後端工程師
   - Micro-Service
