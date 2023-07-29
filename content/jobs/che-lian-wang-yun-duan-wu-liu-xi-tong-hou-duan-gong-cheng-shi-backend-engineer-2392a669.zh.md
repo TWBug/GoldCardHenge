@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=100000
 data_source_internal_id: '31356'
-title: 車聯網平台 - 後端工程師 Backend Engineer
+title: 車聯網雲端物流系統 - 後端工程師 Backend Engineer
 job_url: >-
   https://www.cakeresume.com/companies/3drens/jobs/internet-of-vehicles-platform-backend-engineer
 date: 2021-08-09T03:08:47.103Z
@@ -24,11 +24,11 @@ location_list:
   - 台灣
 job_tags:
   - 100台灣台北市中正區
-  - Node.js
-  - Linux
-  - Shell Script
-  - Cloud Services
   - Azure
+  - Cloud Services
+  - Shell Script
+  - Linux
+  - Node.js
 badges:
   - Game Production
 
