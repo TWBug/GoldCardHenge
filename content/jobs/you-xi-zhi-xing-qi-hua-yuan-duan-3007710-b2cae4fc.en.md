@@ -20,7 +20,7 @@ salary_max: 1000000
 location_list:
   - Taiwan
   - 'Taichung City, Taiwan'
-  - 台灣台中市
+  - '台中市, 台灣'
   - 台灣
 job_tags:
   - 遊戲企劃
