@@ -1,0 +1,186 @@
+import cheerio from 'cheerio';
+import got from 'got';
+import assert from 'assert';
+import { __APP_INITIAL_REDUX_STATE__HIGHLEVEL } from '../types/cakeresumehighlevel';
+import { IAdapter } from '../types/adapter';
+import { getHeaders } from './utils';
+import vm from 'vm';
+import { debug, trace } from 'console';
+
+type CakeAppState = typeof __APP_INITIAL_REDUX_STATE__HIGHLEVEL;
+
+export default class CakeResumeHighLevelAdapter implements IAdapter {
+    url: string;
+    hostname: string;
+    data: null | CakeAppState = null;
+    raw: null | string = null;
+    $: null | cheerio.Root = null;
+
+    constructor(url: string) {
+        this.url = url;
+        this.hostname = new URL(url).hostname;
+    }
+
+    // Get the cheerio markup for a page. The url is an argument so that you can
+    // get the markup for separately paginated pages as well
+    async getMarkup(url = this.url) {
+        if (this.$) return this.$;
+
+        const res = await got(url, { headers: getHeaders(url) });
+        const $ = cheerio.load(res.body);
+        this.$ = $;
+        return $;
+    }
+
+    async getPageTitle() {
+        const $ = await this.getMarkup();
+        return $('title').text();
+    }
+
+    getResultsFromData(data: typeof __APP_INITIAL_REDUX_STATE__HIGHLEVEL) {
+        // @ts-ignore
+
+        const entityList = data.props.pageProps.initialState.job.graphQlJobCollection.entities;
+        const results = Object.keys(entityList).reduce((acc: Object[], propName) => {
+            acc.push(entityList[propName]);
+            return acc;
+        }, []);
+        // let result;
+        //
+        // // Explanation: Content is a nice aggregated stats object, however, it
+        // // is not always present. What we get instead is an array of individual
+        // // stats objects which we can then aggregate together on our own.
+        // if (results) {
+        //     result = results.reduce((agg, x) => {
+        //         for (const [k, v] of Object.entries(x)) {
+        //             if (!(k in agg)) {
+        //                 agg[k] = v;
+        //             } else if (Array.isArray(agg[k])) {
+        //                 agg[k] = agg[k].concat(v);
+        //             } else if (typeof agg[k] === 'number') {
+        //                 agg[k] = agg[k] + v;
+        //             } else {
+        //                 // No combination is the base case
+        //                 agg[k] = v;
+        //             }
+        //         }
+        //         return agg;
+        //     }, {});
+        // }
+
+        assert(results, 'Could not get result for url: ' + this.url);
+
+        return results;
+    }
+
+    async getJobCount() {
+        const data = await this.populateData();
+        const result = this.getResultsFromData(data);
+
+        // @ts-ignore
+        const total = result.nbHits;
+        return total;
+    }
+
+    async getRaw() {
+        if (!this.raw) {
+            await this.getJobs();
+        }
+        return this.raw as string;
+    }
+
+    async getParsed() {
+        if (!this.data) {
+            await this.getJobs();
+        }
+        return this.data as CakeAppState;
+    }
+
+    async populateData() {
+        if (this.data) return this.data;
+        const $ = await this.getMarkup();
+        const script = $('#__NEXT_DATA__');
+        //const script = $('script').filter(
+        //    (_, x) => !!$(x).html()?.includes('__APP_INITIAL_REDUX_STATE__')
+        //);
+
+        assert(script.length > 0, 'Could not locate app data script in request body. Exiting.');
+
+        const scriptObject = script.html();
+        const raw = "window.__APP_INITIAL_REDUX_STATE__ = " + scriptObject;
+        assert(raw, 'No inline script source found');
+
+        // This is a temporary context which we will use to grab the globals set in the script
+        const ctx = { window: {} };
+        vm.runInNewContext(raw, ctx);
+
+        // @ts-ignore
+        const data: CakeAppState | undefined = ctx.window.__APP_INITIAL_REDUX_STATE__;
+
+        assert(data, 'No app state detected on page: ' + this.url);
+
+        // @note It's very important we assign here.
+        // Get raw might be worth revisiting since it's quite ugly to have it
+        // operate with such side effects.
+        this.raw = raw;
+        this.data = data;
+
+        //console.info(this.data);
+
+
+        return data;
+    }
+
+    async getJobs(options = {}) {
+        console.info(`[FETCH] <- ${this.url}`);
+        const data = await this.populateData();
+
+        assert(data, 'No app state detected on page: ' + this.url);
+
+        // NOTE: As of this commit the data format seems to have changed. We are
+        // no longer getting uniform objects. Not all returned objects include
+        // the full data set of a job listin. Using the presence of `title` as a
+        // heuristic.
+        const result = this.getResultsFromData(data);
+
+        // @ts-ignore
+        const hits = result.filter((x) => x.title); // The meat. See NOTE
+        const baseUrl = 'https://www.cakeresume.com';
+
+        return hits.map((x: any) => {
+            const companyUrl = `${baseUrl}/companies/taiwan-international-jobs`;
+            const companyName = 'Foreign Professional Talent Recruitment in Taiwan';
+            const companyLogo = 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg';
+            const jobUrl = `${companyUrl}/jobs/${x.path}`;
+
+            return {
+                // Data source
+                data_source_name: 'Cake Resume',
+                data_source_hostname: this.hostname,
+                data_source_url: this.url,
+                data_source_internal_id: x.path,
+
+                // @note This is the date we scraped the record at, not the date
+                // it was created in the original system we are scraping it
+                // from.
+                fetched_at: new Date(),
+
+                // About the job itself
+                title: x.title,
+                job_url: jobUrl,
+                date: new Date(x.contentUpdatedAt),
+                company_name: companyName,
+                company_page_url: companyUrl,
+                company_logo_url: companyLogo,
+                salary_text: `${x.salaryCurrency}${x.SalaryMin} - ${x.salaryCurrency}${x.SalaryMax}`, // x.salary_range.map((y) => x.salary_currency + y).join(' - '),
+                salary_currency: x.salaryCurrency,
+                salary_type: x.salaryType,
+                salary_min: x.salaryMin,
+                salary_max: x.salaryMax,
+                location_list: x.googlePlaces.map(l => l.name).join(', '),
+                job_tags: x.tags,
+                description: x.tagsStrippedDescription,
+            };
+        });
+    }
+}

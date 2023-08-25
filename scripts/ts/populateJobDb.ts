@@ -1,6 +1,7 @@
 import assert from 'assert';
 import fs from 'fs';
 import CakeResumeAdapter from './adapters/cakeresume';
+import CakeResumeHighLevelAdapter from './adapters/cakeresumeHighLevel';
 import { IAdapter, IAdapterConstructor, IAdapterOutput } from './types/adapter';
 import yaml from 'js-yaml';
 import crc from 'crc';
@@ -21,12 +22,19 @@ interface IDBRowJob extends IAdapterOutput {
 }
 
 const MAPPINGS: { [k: string]: IAdapterConstructor } = {
+    'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs': CakeResumeHighLevelAdapter,
     'www.cakeresume.com': CakeResumeAdapter,
 };
 
 const getAdapter = (url: string): IAdapter => {
     const { host } = new URL(url);
-    const Adapter = MAPPINGS[host];
+    let Adapter: IAdapterConstructor;
+    if (url.includes('companies/taiwan-international-jobs/jobs')) {
+        Adapter = MAPPINGS[url];
+    } else {
+        Adapter = MAPPINGS[host];
+    }
+    console.log(`[INFO] ${url} => ${host}:　${Adapter.name.toString()}`);
 
     assert(Adapter, `No adapter found for "${host}"`);
 
@@ -38,7 +46,7 @@ const getJobs = async (url: string) => {
     assert(url, 'Must provide a URL');
 
     const adapter = getAdapter(url);
-
+    console.log(`[Adapter] ${url} gets ${typeof adapter}`);
     // This could throw, but We'll catch at a higher level
     return await adapter.getJobs();
 };
@@ -62,34 +70,101 @@ const getStats = async (items: IYamlData[]) => {
 };
 
 const processJobLists = async (items: IYamlData[]) => {
+
+    let tempUrl: string = "";
     const result: IDBRowJob[][] = await Promise.all(
         items.map(({ label, url }) => {
-            return getJobs(url)
-                .then((xs) => {
-                    return xs.map((x) => ({ ...x, badges: [label] }));
-                })
-                .catch((err) => {
-                    console.error(
-                        '[SKIP] The following URL errored. Ignoring and continuing: ',
-                        url
-                    );
-                    if (DEBUG) {
-                        console.log('DEBUG flag set. Error follows:');
-                        console.error(err);
-                    }
-                    return []; // Ignore the error by returning the appropriate type
-                });
+            if (!url.includes('companies/taiwan-international-jobs/jobs')) {
+                return getJobs(url)
+                    .then((xs) => {
+                        return xs.map((x) => ({ ...x, badges: [label] }));
+                    })
+                    .catch((err) => {
+                        console.error(
+                            '[SKIP] The following URL errored. Ignoring and continuing: ',
+                            url
+                        );
+                        if (DEBUG) {
+                            console.log('DEBUG flag set. Error follows:');
+                            console.error(err);
+                        }
+                        return []; // Ignore the error by returning the appropriate type
+                    });
+            }
+            else {
+                return []; // Return an empty array because it is high level job
+            }
         })
     );
 
-    const jobs = result.flat().map((x) => {
+    const highLevelResult: IDBRowJob[][] = await Promise.all(
+        items.map(({ label, url }) => {
+            if (url.includes('companies/taiwan-international-jobs/jobs')) {
+                tempUrl = url;
+                return getJobs(url)
+                    .then((xs) => {
+                        return xs.map((x) => ({ ...x, badges: [label] }));
+                    })
+                    .catch((err) => {
+                        console.error('[SKIP] The following URL errored. Ignoring and continuing:', url);
+                        if (DEBUG) {
+                            console.log('DEBUG flag set. Error follows:');
+                            console.error(err);
+                        }
+                        return []; // Ignore the error by returning the appropriate type
+                    });
+            } else {
+
+                return []; // Return an empty array because it is not high level job.
+            }
+        })
+    );
+
+    let outdir: string = "";
+    let jobs: any;
+    if (tempUrl.includes('companies/taiwan-international-jobs/jobs')) {
+        outdir = path.join('content', 'high-level-jobs');
+        jobs = highLevelResult.flat().map((x) => {
+            return {
+                ...x,
+                badges: x.badges.map(stringifyJobTag),
+            };
+        });
+        // Clean output dir
+        const oldFiles = fs.readdirSync(outdir);
+        console.log(`    Cleaning ${oldFiles.length} outdated high level job files...`);
+        oldFiles
+            .filter((x) => !x.startsWith('_index'))
+            .forEach((filename) => {
+                fs.unlinkSync(path.resolve(outdir, filename));
+            });
+
+        // Write a markdown file for each job. These will get picked up by the hugo build process.
+        for (const j of jobs) {
+            const str = toMarkdownString(j);
+            for (const lang of ['en', 'zh']) {
+                const uniqueFileId = crc.crc32(j.data_source_internal_id).toString(16);
+                const filename = `${sluggify(j.title, { tone: false })}-${uniqueFileId}.${lang}.md`;
+                const outfile = path.join(outdir, filename);
+                fs.writeFileSync(outfile, str, { encoding: 'utf-8' });
+            }
+        }
+
+        // Ensure that the output dir exists before writing
+        // fs.mkdirSync(path.dirname(outfile), { recursive: true })
+        // fs.writeFileSync(outfile, JSON.stringify(jobs, null, 2), { encoding: 'utf-8' });
+
+        console.log(`${jobs.length} files written to -> ${outdir}`);
+        console.log();
+    }
+
+    outdir = path.join('content', 'jobs');
+    jobs = result.flat().map((x) => {
         return {
             ...x,
             badges: x.badges.map(stringifyJobTag),
         };
     });
-    const outdir = path.join('content', 'jobs');
-
     // Clean output dir
     const oldFiles = fs.readdirSync(outdir);
     console.log();
@@ -115,7 +190,7 @@ const processJobLists = async (items: IYamlData[]) => {
     // fs.mkdirSync(path.dirname(outfile), { recursive: true })
     // fs.writeFileSync(outfile, JSON.stringify(jobs, null, 2), { encoding: 'utf-8' });
 
-    console.log(`    ${jobs.length} files written to -> ${outdir}`);
+    console.log(`${jobs.length} files written to -> ${outdir}`);
     console.log();
 };
 
