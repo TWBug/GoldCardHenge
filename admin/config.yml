@@ -10,12 +10,12 @@ backend:
     name: github
     repo: TWBug/GoldcardHenge
     branch: main
-    site_domain: hengetech.website # See NOTE
-    #base_url: https://hengetech.website
+    site_domain: hengetech.store # See NOTE
+    #base_url: https://hengetech.store
     #auth_endpoint: api/auth
 
 
-#site_url:  https://hengetech.website
+#site_url:  https://hengetech.store
     
 
 # The language of the admin UI

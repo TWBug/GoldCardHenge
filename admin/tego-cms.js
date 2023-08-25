@@ -1,38 +1,34 @@
 "use strict";
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
+function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
-
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
 /** @jsx window.h */
 
 /**
  * This file is for customizing netlify CMS.
  * NOTE: Netlify CMS exposes React.createElement as window.h
  */
+
 // 在此自訂CMS
 ///
 // Helper Functions
 //
+
 // Parse a property string of the form: `title="How to apply" key="value"`. In
 // other words, JSX-style properties. Hugo shortcodes use the same property
 // format.
+
 var Props = {
   // Given keyword args parse them into an object. This is (currently) for the
   // inner arguments to a shortcode,
@@ -41,21 +37,22 @@ var Props = {
     var result = {};
     var dec = shouldDecode ? decodeURIComponent : function (x) {
       return x;
-    }; // Turn string into a flat list of keys and values. Exmaple:
+    };
+
+    // Turn string into a flat list of keys and values. Exmaple:
     // `title="How to apply" link="url.com" image="/file.jpg"`
     // => ["title", "How to apply", "link", "url.com", "image", "/file.jpg"]
-
     var xs = str.split(/(.+?)="(.+?)"/) // NOTE: We count on double quotes, NOT single
     .filter(Boolean).map(function (x) {
       return x.trim();
-    }); // NOTE: This is iteration by two. See structure of xs for reasoning
+    });
 
+    // NOTE: This is iteration by two. See structure of xs for reasoning
     for (var i = 0; i < xs.length - 1; i += 2) {
       var k = xs[i];
       var v = xs[i + 1];
       result[k] = dec(v);
     }
-
     return result;
   },
   toString: function toString(obj) {
@@ -64,15 +61,12 @@ var Props = {
     var enc = shouldEncode ? encodeURIComponent : function (x) {
       return x;
     };
-
     for (var _i = 0, _Object$entries = Object.entries(obj); _i < _Object$entries.length; _i++) {
       var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
-          k = _Object$entries$_i[0],
-          v = _Object$entries$_i[1];
-
+        k = _Object$entries$_i[0],
+        v = _Object$entries$_i[1];
       result.push("".concat(k, "=\"").concat(enc(v), "\""));
     }
-
     return result.join(' ');
   },
   // Escape strings which will be used within a property value. Example:
@@ -87,14 +81,13 @@ var Props = {
     return str.replace(/\\"/g, '"');
   }
 };
-
 var $ = function $(sel) {
   return document.querySelector(sel);
-}; // 目前沒在用，本來覺得我們可能會需要等待render後
+};
+
+// 目前沒在用，本來覺得我們可能會需要等待render後
 // 200毫秒
 // 10秒
-
-
 var pollFor = function pollFor(sel, fn) {
   var interval = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 200;
   var timeout = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 10000;
@@ -102,40 +95,40 @@ var pollFor = function pollFor(sel, fn) {
   var t = setTimeout(function () {
     timedOut = true;
   }, timeout);
-
   var attempt = function attempt() {
     if (timedOut) {
       console.warn('找不到... ' + sel);
       return;
     }
-
     if ($(sel)) {
       clearTimeout(t);
       fn($(sel));
     } else {
       setTimeout(attempt, interval);
     }
-  }; // 第一次執行
+  };
 
-
+  // 第一次執行
   attempt();
-}; /// Register custom widgets
-//
+};
 
+/// Register custom widgets
+//
 
 var I18nKeyValueWidget = {
   name: 'i18n-key-value-pairs'
-}; // Unfortunately we do not control serialization. However, objects and arrays
+};
+
+// Unfortunately we do not control serialization. However, objects and arrays
 // and primatives both map to yaml without surprises, so we might be able to get
 // this to work. The question is, how can we get it to modify the top-level
 // file, rather than a key within the file?
+
 // NOTE Netlify CMS uses Immutable.js but doesn't seem to expose it. Rather than
 // importing a second copy, we grab the constructor from a known existing map.
-
 var CategoriesControl = createClass({
   handleChange: function handleChange(e) {
     var ImmutableMap = this.props.collection.constructor; // See NOTE
-
     var separator = this.props.field.get('separator', ', ');
     this.props.onChange(ImmutableMap(JSON.parse(e.target.value)));
   },
@@ -152,7 +145,8 @@ var CategoriesControl = createClass({
       type: "text",
       value: str,
       onChange: this.handleChange
-    }); // return (
+    });
+    // return (
     //     <input
     //         id={this.props.forID}
     //         className={this.props.classNameWrapper}
@@ -169,24 +163,27 @@ var CategoriesControl = createClass({
     //     onChange: this.handleChange,
     // })
   }
-}); // THIS will be rendered in the preview window of the browser
+});
 
+// THIS will be rendered in the preview window of the browser
 var CategoriesPreview = createClass({
   render: function render() {
     return h('ul', {}, this.props.value && this.props.value.toJS().toString());
   }
-}); // This is ... what? The properties allows passing options to the react
+});
+
+// This is ... what? The properties allows passing options to the react
 // component as this.props.field.get('key_name'), but what have that on the
 // `properties` sub object then?
-
 var schema = {
   properties: {
     separator: {
       type: 'string'
     }
   }
-}; // NOTE: This widget is just for testing out the API, not actually part of the product
+};
 
+// NOTE: This widget is just for testing out the API, not actually part of the product
 CMS.registerWidget('categories', CategoriesControl, CategoriesPreview, schema);
 var NestedStringControl = createClass({
   // The selection to maintain for the input element
@@ -214,14 +211,12 @@ var NestedStringControl = createClass({
   },
   render: function render() {
     var _this = this;
-
     console.log('PROPS', this.props);
     var isTextarea = this.props.field.get('textarea', false);
     var FieldComponent = isTextarea ? 'textarea' : 'input';
     var innerProps = isTextarea ? {
       style: {
         fontFamily: 'sans-serif' // For some reason text areas are getting monospace by default...
-
       }
     } : {
       type: 'text'
@@ -241,25 +236,28 @@ var NestedStringPreview = createClass({
   render: function render() {
     return window.h("p", null, this.props.value);
   }
-}); // Like a text component, but hopefully doesn't ruin everyone's day by snapping
-// the cursor to the end of the line.
+});
 
+// Like a text component, but hopefully doesn't ruin everyone's day by snapping
+// the cursor to the end of the line.
 CMS.registerWidget('nested-string', NestedStringControl, NestedStringPreview, {
   properties: {
     textarea: {
       type: 'boolean'
     }
   }
-}); // NOTE: The point of limiting string lenght is Netlify's build process. They
+});
+
+// NOTE: The point of limiting string lenght is Netlify's build process. They
 // disallow filenames that are too long. To get around this, we're simply
 // disallowing the creation of titles that are too long and will instead use a
 // different field for the display title.
-
 var MaxLengthString = createClass({
   isValid: function isValid() {
-    var maxLength = this.props.field.get('maxLength', 200); // ERROR!
-    // See NOTE
+    var maxLength = this.props.field.get('maxLength', 200);
 
+    // ERROR!
+    // See NOTE
     if (this.props.value.length > maxLength) {
       return {
         error: {
@@ -267,7 +265,6 @@ var MaxLengthString = createClass({
         }
       };
     }
-
     return true;
   },
   handleChange: function handleChange(e) {
@@ -282,17 +279,20 @@ var MaxLengthString = createClass({
       onChange: this.handleChange
     });
   }
-}); // NOTE: We're going to use the same nested string preview here since the previw
+});
+
+// NOTE: We're going to use the same nested string preview here since the previw
 // should just be a normal string. THe point of this widget is to limit the max
 // length, not to do anything with presentation.
-
 CMS.registerWidget('max-length-string', MaxLengthString, NestedStringPreview, {
   properties: {
     maxLength: {
       type: 'number'
     }
   }
-}); /// Configure CMS
+});
+
+/// Configure CMS
 //
 
 CMS.registerEditorComponent({
@@ -360,7 +360,8 @@ CMS.registerEditorComponent({
     name: 'title',
     label: 'Title 標題',
     widget: 'nested-string'
-  }, // NOTE: This is called suffix so as not to disrupt the data, but as of
+  },
+  // NOTE: This is called suffix so as not to disrupt the data, but as of
   // this commit its actually displayed as a prefix in the output HTML.
   {
     name: 'suffix',
@@ -393,13 +394,10 @@ CMS.registerEditorComponent({
   toPreview: function toPreview(obj) {
     // NOTE: The use of syntax incompatible with react requires using a string for this
     var __html = "\n            <div class=\"flex items-center justify-between\">\n                <h3 class=\"text-xl font-bold\">".concat(obj.title, "</h3>\n                <button type=\"button\" @click.prevent=\"toggle()\" class=\"text-primary\">\n                    <span x-show=\"show\"> \u25B2 </span>\n                </button>\n            </div>\n            <div\n                class=\"-mb-2\"\n                x-cloak\n                x-show=\"show\"\n                x-transition:enter=\"transition transform ease-out duration-200\"\n                x-transition:enter-start=\"opacity-0 -translate-y-5\"\n                x-transition:enter-end=\"opacity-100\"\n                x-transition:leave=\"transition transform ease-in duration-100\"\n                x-transition:leave-start=\"opacity-100\"\n                x-transition:leave-end=\"opacity-0 -translate-y-5\"\n            >\n                <p class=\"text-base font-regular\">").concat(obj.body, "</p>\n            </div>\n        ");
-
     var borderClass = 'my-12 border-t-2 border-b-2 border-secondary border-dashed -ml-4 -mr-4 p-4';
-
     if (obj.bottomless === 'true') {
       borderClass = 'my-12 border-t-2 border-secondary border-dashed -ml-4 -mr-4 p-4';
     }
-
     console.info('bottomless', obj.bottomless);
     console.info('borderClass', borderClass);
     return window.h("div", {
@@ -555,7 +553,9 @@ CMS.registerEditorComponent({
       className: "text-center text-md font-regular"
     }, obj.body))));
   }
-}); // CMS.registerEditorComponent({
+});
+
+// CMS.registerEditorComponent({
 //     id: 'color-block',
 //     label: 'Color 顏色',
 //     fields: [
@@ -636,21 +636,17 @@ CMS.registerEditorComponent({
   },
   toPreview: function toPreview(obj) {
     var styleClassNames = 'text-red-800 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
-
     switch (obj.style) {
       case 'warning':
         styleClassNames = 'text-yellow-700 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
         break;
-
       case 'help':
         styleClassNames = 'text-blue-900 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
         break;
-
       case 'info':
         styleClassNames = 'text-blue-900 font-medium leading-relaxed text-md text-left italic pl-2 py-4';
         break;
     }
-
     return window.h("div", {
       className: "my-6"
     }, window.h("div", {
@@ -750,7 +746,6 @@ CMS.registerEditorComponent({
   pattern: /^{{< gallery (.*?)\s?>}}\n?([\s\S]+?)\n?{{< \/gallery >}}/,
   fromBlock: function fromBlock(match) {
     var re = /^{{< gallery-image (.+)\s*>}}/; // @note Do NOT use the `g` flag while matching with regex. Will fail, JS quirk.
-
     var fromGalleryImageShortcode = function fromGalleryImageShortcode(s) {
       try {
         var kwargs = s.match(re)[1];
@@ -760,7 +755,6 @@ CMS.registerEditorComponent({
         return null;
       }
     };
-
     var props = Props.fromString(match[1] || '');
     var innerText = match[2] || '';
     var images = innerText.split('\n').map(fromGalleryImageShortcode).filter(Boolean);
@@ -770,15 +764,13 @@ CMS.registerEditorComponent({
   },
   toBlock: function toBlock(obj) {
     var teaser = obj.teaser,
-        _obj$images = obj.images,
-        images = _obj$images === void 0 ? [] : _obj$images;
-
+      _obj$images = obj.images,
+      images = _obj$images === void 0 ? [] : _obj$images;
     var serializeImageShortcodes = function serializeImageShortcodes(images) {
       return images.map(function (x) {
         return '{{< gallery-image ' + Props.toString(x) + ' >}}';
       }).join('\n');
     };
-
     return "{{< gallery ".concat(Props.toString({
       teaser: teaser
     }), " >}}\n") + serializeImageShortcodes(images) + '\n{{< /gallery >}}';
@@ -840,19 +832,19 @@ CMS.registerEditorComponent({
   toPreview: function toPreview(obj) {
     return '<img src="http://img.youtube.com/vi/' + obj.id + '/maxresdefault.jpg" alt="Youtube Video"/>';
   }
-}); // Register our custom styles
+});
 
+// Register our custom styles
 CMS.registerPreviewStyle('/css/wysiwyg.min.css');
 var zh = CMS.getLocale('zh_Hant');
 CMS.registerLocale('zh', zh);
-CMS.registerLocale('zh_Hant', zh); // NOTE: The main website stores the user's locale on this key, so the way to
+CMS.registerLocale('zh_Hant', zh);
+
+// NOTE: The main website stores the user's locale on this key, so the way to
 // change the locale is via the main website, not via the CMS interface.
-
 var locale = 'en';
-
 try {
   var storedLocale = localStorage.getItem('language'); // See NOTE
-
   if (storedLocale) {
     locale = storedLocale;
   } else {
@@ -860,17 +852,16 @@ try {
   }
 } catch (err) {
   console.warn('[WARN] Could not set CMS locale due to error:', err);
-} // The CMS doesn't seem to expose this for us... so we'll just grab it ourselves
+}
+
+// The CMS doesn't seem to expose this for us... so we'll just grab it ourselves
 // NOTE: There is currently no event listener to make it easier to use the config directly.
-
-
 fetch('config.yml').then(function (x) {
   return x.text();
 }).then(function (x) {
   return jsyaml.load(x);
 }).then(function (x) {
   x.locale = locale;
-
   if (locale !== 'en') {
     console.info('[INFO] 以中文為主');
     x.i18n = _objectSpread(_objectSpread({}, x.i18n), {}, {
@@ -878,14 +869,13 @@ fetch('config.yml').then(function (x) {
       default_locale: 'zh'
     });
   }
-
   var config = _objectSpread(_objectSpread({}, x), {}, {
     load_config_file: false
-  }); // Init the CMS
+  });
+
+  // Init the CMS
   // NOTE: This works because we set window.CMS_MANUAL_INIT before the CMS file
   // was loaded.
-
-
   window.cmsConfig = config;
   window.initCMS({
     config: config
