@@ -4,8 +4,8 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=100000
 data_source_internal_id: '16187'
-title: Senior UE4 C++ Engineers
-job_url: 'https://www.cakeresume.com/companies/mai-ai/jobs/ue4'
+title: Unreal Engine Developer
+job_url: 'https://www.cakeresume.com/companies/mai-ai/jobs/unreal'
 date: 2019-12-06T10:12:36.113Z
 company_name: 肯狄科研有限公司
 company_page_url: 'https://www.cakeresume.com/companies/mai-ai'
@@ -21,12 +21,11 @@ location_list:
   - 台灣
 job_tags:
   - 台灣台北
-  - OpenGL
-  - Git
-  - AWS
-  - VR
-  - C++
   - Unreal Engine
+  - C++
+  - AWS
+  - Git
+  - OpenGL
 badges:
   - Game Production
 
