@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=100000
 data_source_internal_id: '54305'
-title: 商業開發 Business Developer (業務/AM皆可參考)
+title: 商務開發專員/業務專員 Business Development Specialist
 job_url: >-
   https://www.cakeresume.com/companies/alphaintelligence/jobs/business-developmentbusiness-developer
 date: 2023-03-15T05:00:36.818Z
@@ -17,11 +17,7 @@ salary_currency: TWD
 salary_type: per_month
 salary_min: 65000
 salary_max: 200000
-location_list:
-  - Taiwan
-  - 'Taipei City, Taiwan'
-  - '台北市, 台灣'
-  - 台灣
+location_list: []
 job_tags: []
 badges:
   - Game Production
