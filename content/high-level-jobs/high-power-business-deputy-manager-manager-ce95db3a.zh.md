@@ -6,7 +6,7 @@ data_source_internal_id: high-power-business-deputy-manager-manager
 title: High Power Business Deputy Manager/Manager
 job_url: >-
   https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/high-power-business-deputy-manager-manager
-date: 2023-07-27T04:19:02.000Z
+date: 2023-09-01T01:39:30.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'

@@ -6,7 +6,7 @@ data_source_internal_id: software-firmware-r-d-manager
 title: Software/Firmware R&D Manager
 job_url: >-
   https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/software-firmware-r-d-manager
-date: 2023-07-27T04:19:02.000Z
+date: 2023-09-01T01:39:30.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'
