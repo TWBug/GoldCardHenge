@@ -12,11 +12,11 @@ company_name: portto 門戶科技 | Blocto
 company_page_url: 'https://www.cakeresume.com/companies/portto'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--JLB_PcKc--/c_pad,fl_png8,h_200,w_200/v1671585712/whc1srb2o0bd5asmlqnz.png
-salary_text: TWD600000 - TWD2000000
+salary_text: TWD800000 - TWD1400000
 salary_currency: TWD
 salary_type: per_year
-salary_min: 600000
-salary_max: 2000000
+salary_min: 800000
+salary_max: 1400000
 location_list:
   - Taiwan
   - 台灣

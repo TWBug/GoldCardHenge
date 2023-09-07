@@ -21,7 +21,7 @@ location_list:
   - Taiwan
   - 'Taoyuan City, Taiwan'
   - 台灣
-  - 台灣桃園市
+  - '桃園市, 台灣'
 job_tags:
   - Unity
   - Unreal Engine
