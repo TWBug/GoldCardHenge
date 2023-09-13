@@ -12,19 +12,19 @@ company_name: 雲訊科技有限公司
 company_page_url: 'https://www.cakeresume.com/companies/google-4ed106'
 company_logo_url: >-
   https://media.cakeresume.com/image/upload/s--8vBdnKmG--/c_pad,fl_png8,h_200,w_200/v1677316346/nrbqxnfira6ujckri5nc.png
-salary_text: TWD45000 - TWD100000
+salary_text: TWD60000 - TWD100000
 salary_currency: TWD
 salary_type: per_month
-salary_min: 45000
+salary_min: 60000
 salary_max: 100000
 location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - TypeScript
-  - React
-  - Front End
   - Front-End Development
+  - Front End
+  - React
+  - TypeScript
 badges:
   - Game Production
 
