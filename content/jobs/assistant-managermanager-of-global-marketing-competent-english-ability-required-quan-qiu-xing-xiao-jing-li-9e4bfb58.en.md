@@ -23,7 +23,8 @@ location_list:
   - 'Taipei City, Taiwan'
   - '台北市, 台灣'
   - 台灣
-job_tags: []
+job_tags:
+  - CakeResume 2023 Career Fair
 badges:
   - Game Production
 
