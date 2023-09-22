@@ -19,7 +19,7 @@ salary_max: 60000
 location_list:
   - Taiwan
   - 'Taichung City, Taiwan'
-  - 台灣台中市
+  - '台中市, 台灣'
   - 台灣
 job_tags:
   - Excel
