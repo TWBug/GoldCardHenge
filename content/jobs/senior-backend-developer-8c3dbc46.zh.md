@@ -20,7 +20,7 @@ salary_max: 1700000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
-  - '臺北市, 台灣'
+  - 台灣台北市
   - 台灣
 job_tags:
   - Blockchain
