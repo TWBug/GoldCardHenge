@@ -19,7 +19,7 @@ salary_max: 140000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
-  - '臺北市, 台灣'
+  - '台北市, 台灣'
   - 台灣
 job_tags:
   - CocosCreator
