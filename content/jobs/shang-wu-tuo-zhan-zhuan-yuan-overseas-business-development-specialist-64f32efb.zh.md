@@ -20,10 +20,10 @@ salary_max: 140000
 location_list:
   - Taiwan
   - 'Kaohsiung City, Taiwan'
-  - '高雄市, 台灣'
+  - 台灣高雄市
   - 台灣
   - 'Taipei City, Taiwan'
-  - '臺北市, 台灣'
+  - '台北市, 台灣'
 job_tags: []
 badges:
   - Game Production
