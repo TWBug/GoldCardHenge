@@ -20,7 +20,7 @@ salary_max: 75000
 location_list:
   - Taiwan
   - 'Kaohsiung City, Taiwan'
-  - '高雄市, 台灣'
+  - 台灣高雄市
   - 台灣
 job_tags: []
 badges:
