@@ -20,7 +20,7 @@ salary_max: 5000
 location_list:
   - Philippines
   - 'Metro Manila, Philippines'
-  - 'Metro Manila, Pilipinas'
+  - 'Kalakhang Maynila, Pilipinas'
   - Pilipinas
 job_tags: []
 badges:
