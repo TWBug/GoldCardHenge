@@ -6,7 +6,7 @@ data_source_internal_id: consulting-firm-corporate-english-trainer-sl
 title: Consulting Firm-Corporate English Trainer-SL
 job_url: >-
   https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/consulting-firm-corporate-english-trainer-sl
-date: 2023-09-01T07:18:02.000Z
+date: 2023-10-18T02:33:36.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'
