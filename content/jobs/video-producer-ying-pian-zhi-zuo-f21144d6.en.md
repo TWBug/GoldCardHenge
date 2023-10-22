@@ -20,7 +20,7 @@ salary_max: 960000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
-  - 台灣台北市
+  - '臺北市, 台灣'
   - 台灣
 job_tags:
   - CakeResume 2023 Career Fair
