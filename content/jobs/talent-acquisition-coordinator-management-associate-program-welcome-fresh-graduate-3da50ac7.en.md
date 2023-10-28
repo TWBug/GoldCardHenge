@@ -25,10 +25,10 @@ location_list:
   - 台灣台北市
   - 台灣
 job_tags:
-  - CakeResume 2023 Career Fair
-  - Talent Acquisition
-  - Recruiter
   - Recruitment
+  - Recruiter
+  - Talent Acquisition
+  - CakeResume 2023 Career Fair
 badges:
   - Game Production
 
