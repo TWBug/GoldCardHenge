@@ -22,10 +22,10 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - AI
-  - React
-  - Front End
   - React.js
+  - Front End
+  - React
+  - AI
 badges:
   - Game Production
 
