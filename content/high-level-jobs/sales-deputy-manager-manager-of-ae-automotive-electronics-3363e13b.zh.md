@@ -5,7 +5,7 @@ data_source_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs
 data_source_internal_id: d34439
 title: Sales Deputy Manager/Manager of AE Automotive Electronics
 job_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/d34439'
-date: 2023-11-07T02:23:42.000Z
+date: 2023-11-07T03:51:03.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'

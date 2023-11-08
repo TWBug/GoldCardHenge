@@ -7,7 +7,7 @@ title: >-
   Fast Growing CDN Service Provider CTO( Business Partner )/VP (Technology and
   Growth) -TL
 job_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/0bedf1'
-date: 2023-11-07T02:23:43.000Z
+date: 2023-11-07T03:43:41.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'
@@ -18,8 +18,8 @@ salary_min: 4000000
 salary_max: 7000000
 location_list: 台灣台北市
 job_tags:
-  - name: CTO
   - name: Partner
+  - name: CTO
 badges:
   - High-level Vacancy
 

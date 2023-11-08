@@ -6,7 +6,7 @@ data_source_internal_id: deputy-manager-quality-control-department
 title: 'Deputy Manager, Quality Control Department'
 job_url: >-
   https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/deputy-manager-quality-control-department
-date: 2023-11-07T02:23:42.000Z
+date: 2023-11-07T03:54:43.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'

@@ -6,7 +6,7 @@ data_source_internal_id: senior-devops-engineer-ch
 title: Senior DevOps Engineer - CH
 job_url: >-
   https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/senior-devops-engineer-ch
-date: 2023-11-07T02:23:43.000Z
+date: 2023-11-07T03:46:33.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'
@@ -15,7 +15,7 @@ salary_currency: TWD
 salary_type: per_year
 salary_min: 1200000
 salary_max: 2000000
-location_list: 台灣台北
+location_list: 台灣臺北
 job_tags: []
 badges:
   - High-level Vacancy

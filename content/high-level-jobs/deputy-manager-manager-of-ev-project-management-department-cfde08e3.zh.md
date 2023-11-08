@@ -5,7 +5,7 @@ data_source_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs
 data_source_internal_id: bbc0dc
 title: Deputy Manager / Manager of EV Project Management Department
 job_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/bbc0dc'
-date: 2023-11-07T02:23:43.000Z
+date: 2023-11-07T03:47:44.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'

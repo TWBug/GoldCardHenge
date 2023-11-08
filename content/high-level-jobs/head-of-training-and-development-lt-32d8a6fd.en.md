@@ -6,7 +6,7 @@ data_source_internal_id: head-of-training-and-development-lt
 title: Head of Training and Development - LT
 job_url: >-
   https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/head-of-training-and-development-lt
-date: 2023-11-07T02:23:43.000Z
+date: 2023-11-07T03:44:21.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'
@@ -17,9 +17,9 @@ salary_min: 1000000
 salary_max: 1200000
 location_list: 台灣台北市
 job_tags:
-  - name: L&D
-  - name: Learning and Development
   - name: 教育訓練整體規劃與執行
+  - name: Learning and Development
+  - name: L&D
 badges:
   - High-level Vacancy
 
