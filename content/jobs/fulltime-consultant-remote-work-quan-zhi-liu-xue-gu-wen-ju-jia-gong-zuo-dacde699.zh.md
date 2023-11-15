@@ -22,7 +22,7 @@ location_list:
   - 台灣台北市
   - 台灣
   - 'Taoyuan City, Taiwan'
-  - '桃園市, 台灣'
+  - 台灣桃園市
   - 'Hsinchu City, Taiwan'
   - '新竹市, 台灣'
   - 'Taichung City, Taiwan'
@@ -30,7 +30,7 @@ location_list:
   - 'Tainan City, Taiwan'
   - '台南市, 台灣'
   - 'Kaohsiung City, Taiwan'
-  - 台灣高雄市
+  - '高雄市, 台灣'
 job_tags:
   - Speaking In Public
   - Microsoft Office

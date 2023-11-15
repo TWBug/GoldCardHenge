@@ -23,12 +23,12 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - Wireframe
-  - Prototype
-  - PMP
-  - UX
-  - 行為分析
   - 數據分析
+  - 行為分析
+  - UX
+  - PMP
+  - Prototype
+  - Wireframe
 badges:
   - Game Production
 

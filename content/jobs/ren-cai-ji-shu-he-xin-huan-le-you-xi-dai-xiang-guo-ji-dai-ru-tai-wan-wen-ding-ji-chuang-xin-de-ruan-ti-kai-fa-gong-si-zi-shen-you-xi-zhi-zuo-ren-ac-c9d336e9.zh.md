@@ -23,10 +23,10 @@ location_list:
   - '台北市, 台灣'
   - 台灣
 job_tags:
-  - 遊戲企劃
-  - 機率模組
-  - 數據分析
   - 驗證
+  - 數據分析
+  - 機率模組
+  - 遊戲企劃
 badges:
   - Game Production
 
