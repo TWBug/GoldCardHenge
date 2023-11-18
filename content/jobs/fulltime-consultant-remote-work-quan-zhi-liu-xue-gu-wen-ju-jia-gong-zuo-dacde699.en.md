@@ -19,7 +19,7 @@ salary_max: 120000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
-  - '台北市, 台灣'
+  - 台灣台北市
   - 台灣
   - 'Taoyuan City, Taiwan'
   - '桃園市, 台灣'
