@@ -4,7 +4,7 @@ data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=100000
 data_source_internal_id: '56252'
-title: 【2D 原畫設計師-2DAnimator】走在時代的尖端
+title: 【2D 原畫設計師-2DAnimator】吹起新浪潮
 job_url: 'https://www.cakeresume.com/companies/trevi/jobs/842807'
 date: 2023-04-18T08:49:37.886Z
 company_name: TREVI 特雷維科技
@@ -20,13 +20,13 @@ location_list:
   - Taiwan
   - 台灣
   - 'Taipei City, Taiwan'
-  - 台灣台北市
+  - '台北市, 台灣'
 job_tags:
-  - 2d
-  - 2D Design
-  - 2D Animation
-  - 2D ART
   - 原畫
+  - 2D ART
+  - 2D Animation
+  - 2D Design
+  - 2d
 badges:
   - Game Production
 
