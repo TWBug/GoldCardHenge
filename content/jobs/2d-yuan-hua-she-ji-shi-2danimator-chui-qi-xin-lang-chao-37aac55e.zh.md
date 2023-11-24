@@ -20,7 +20,7 @@ location_list:
   - Taiwan
   - 台灣
   - 'Taipei City, Taiwan'
-  - '台北市, 台灣'
+  - 台灣台北市
 job_tags:
   - 原畫
   - 2D ART
