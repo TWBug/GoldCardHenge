@@ -21,10 +21,11 @@ salary_max: 2400000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
-  - 台灣台北市
+  - '台北市, 台灣'
   - 台灣
 job_tags:
-  - CakeResume 2023 Career Fair
+  - Go To Market Strategy
+  - Search Engine Optimization (SEO)
 badges:
   - Game Production
 
