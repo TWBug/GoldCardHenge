@@ -20,10 +20,10 @@ location_list:
   - Taiwan
   - 台灣
 job_tags:
-  - Python
-  - Backend Development
-  - startup
   - CakeResume 2023 Career Fair
+  - startup
+  - Backend Development
+  - Python
 badges:
   - Game Production
 
