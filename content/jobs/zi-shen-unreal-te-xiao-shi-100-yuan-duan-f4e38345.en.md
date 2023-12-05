@@ -21,6 +21,7 @@ location_list:
   - Taiwan
   - 'Kaohsiung City, Taiwan'
   - 台灣高雄市
+  - '高雄市, 台灣'
   - 台灣
 job_tags: []
 badges:
