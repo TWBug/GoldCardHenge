@@ -6,7 +6,7 @@ data_source_internal_id: senior-devops-engineer-ch
 title: Senior DevOps Engineer - CH
 job_url: >-
   https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/senior-devops-engineer-ch
-date: 2023-11-07T03:46:33.000Z
+date: 2023-12-06T07:56:55.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'

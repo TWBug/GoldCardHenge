@@ -2,27 +2,27 @@
 data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs'
-data_source_internal_id: 0bedf1
+data_source_internal_id: 0fe7f2
 title: >-
-  Fast Growing CDN Service Provider CTO( Business Partner )/VP (Technology and
-  Growth) -TL
-job_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/0bedf1'
-date: 2023-12-06T07:56:55.000Z
+  [CakeResume] Assistant Manager/Manager of Global Marketing (Competent English
+  ability required)
+job_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/0fe7f2'
+date: 2023-12-06T08:39:49.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'
 salary_text: TWDundefined - TWDundefined
 salary_currency: TWD
 salary_type: per_year
-salary_min: 4000000
-salary_max: 7000000
+salary_min: 1440000
+salary_max: 2400000
 location_list: 台灣台北市
 job_tags:
-  - name: Partner
-  - name: CTO
+  - name: Go To Market Strategy
+  - name: Search Engine Optimization (SEO)
 badges:
   - High-level Vacancy
 
 ---
 
-This position is available for remote work. But the location should be in Taiwan. Company introduction: In recent years, the company has experienced rapid growth, currently boasting a team of over ...
+About us Building the largest talent platform in APAC where great talent can meet winning teams efficiently. If this excites you, CakeResume could be the right place for you! Since launched in 2016...

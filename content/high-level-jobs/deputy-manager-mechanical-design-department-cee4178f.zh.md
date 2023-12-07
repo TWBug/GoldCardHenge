@@ -6,7 +6,7 @@ data_source_internal_id: deputy-manager-mechanical-design-department
 title: 'Deputy Manager, Mechanical Design Department'
 job_url: >-
   https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/deputy-manager-mechanical-design-department
-date: 2023-11-07T03:53:03.000Z
+date: 2023-12-06T07:56:55.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'
