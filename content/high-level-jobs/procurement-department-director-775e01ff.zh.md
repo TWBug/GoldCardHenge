@@ -6,7 +6,7 @@ data_source_internal_id: procurement-department-director
 title: Procurement Department Director
 job_url: >-
   https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/procurement-department-director
-date: 2023-12-06T07:56:55.000Z
+date: 2023-12-15T06:59:54.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'

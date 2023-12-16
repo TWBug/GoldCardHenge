@@ -22,11 +22,11 @@ location_list:
   - 台灣台北市
   - 台灣
 job_tags:
-  - powerpoint
-  - Canva
-  - Figma
-  - Linear
   - Trello
+  - Linear
+  - Figma
+  - Canva
+  - powerpoint
 badges:
   - Game Production
 
