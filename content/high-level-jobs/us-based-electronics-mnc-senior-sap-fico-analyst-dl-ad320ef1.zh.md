@@ -5,7 +5,7 @@ data_source_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs
 data_source_internal_id: 56d4c3
 title: US Based - Electronics MNC - Senior SAP FICO Analyst - DL
 job_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/56d4c3'
-date: 2023-12-15T06:59:55.000Z
+date: 2023-12-19T06:37:27.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'
