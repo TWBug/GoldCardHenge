@@ -24,8 +24,8 @@ location_list:
   - 台灣台北市
   - 台灣
 job_tags:
-  - Go To Market Strategy
   - Search Engine Optimization (SEO)
+  - Go To Market Strategy
 badges:
   - Game Production
 
