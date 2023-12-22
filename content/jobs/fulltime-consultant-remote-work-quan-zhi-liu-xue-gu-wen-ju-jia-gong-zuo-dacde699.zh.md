@@ -22,7 +22,7 @@ location_list:
   - 台灣台北市
   - 台灣
   - 'Taoyuan City, Taiwan'
-  - 台灣桃園市
+  - '桃園市, 台灣'
   - 'Hsinchu City, Taiwan'
   - '新竹市, 台灣'
   - 'Taichung City, Taiwan'

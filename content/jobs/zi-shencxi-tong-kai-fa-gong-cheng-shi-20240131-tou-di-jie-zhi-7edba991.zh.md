@@ -3,10 +3,10 @@ data_source_name: Cake Resume
 data_source_hostname: www.cakeresume.com
 data_source_url: >-
   https://www.cakeresume.com/jobs?refinementList%5Bprofession%5D%5B0%5D=game-production&range%5Bsalary_range%5D%5Bmin%5D=100000
-data_source_internal_id: '68864'
-title: 資深網頁開發設計師（2024/01/31 投遞截止！）
-job_url: 'https://www.cakeresume.com/companies/cathaysec_speedinterview_2024/jobs/fd0b76'
-date: 2023-12-13T03:01:00.565Z
+data_source_internal_id: '68250'
+title: 資深C#系統開發工程師（2024/01/31 投遞截止！）
+job_url: 'https://www.cakeresume.com/companies/cathaysec_speedinterview_2024/jobs/c3a7ba'
+date: 2023-12-01T08:44:46.907Z
 company_name: 國泰綜合證券｜2024 軟體 IT 人才快速面試專區
 company_page_url: 'https://www.cakeresume.com/companies/cathaysec_speedinterview_2024'
 company_logo_url: >-
@@ -19,16 +19,16 @@ salary_max: 1500000
 location_list:
   - Taiwan
   - 'Taipei City, Taiwan'
-  - '台北市, 台灣'
+  - 台灣台北市
   - 台灣
 job_tags:
-  - RESTful API
-  - ASP.NET
-  - C#
+  - Fix
+  - WPF Development
   - SA
+  - C#
 badges:
   - Game Production
 
 ---
 
-1. 具有網頁系統相關開發經驗，前端/後端/全端人員 2. 進行應用系統功能設計開發與維護修改 3. 指派參與專案提供開發或技術支援 4. 系統單元與整合測試、除錯
+1. 應用C#技能進行關鍵核心系統開發與維護 2. 需求訪談、系統規劃、分析設計、新技術導入與落實應用、系統測試與強化
