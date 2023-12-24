@@ -26,9 +26,9 @@ location_list:
   - 'Hsinchu City, Taiwan'
   - '新竹市, 台灣'
   - 'Taichung City, Taiwan'
-  - 台灣台中市
+  - '台中市, 台灣'
   - 'Tainan City, Taiwan'
-  - 台灣台南市
+  - '台南市, 台灣'
   - 'Kaohsiung City, Taiwan'
   - '高雄市, 台灣'
 job_tags:
