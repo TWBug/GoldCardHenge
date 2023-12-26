@@ -28,7 +28,7 @@ location_list:
   - 'Taichung City, Taiwan'
   - '台中市, 台灣'
   - 'Tainan City, Taiwan'
-  - '台南市, 台灣'
+  - 台灣台南市
   - 'Kaohsiung City, Taiwan'
   - '高雄市, 台灣'
 job_tags:
