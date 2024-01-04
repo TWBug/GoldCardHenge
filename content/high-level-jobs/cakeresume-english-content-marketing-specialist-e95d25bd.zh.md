@@ -6,7 +6,7 @@ data_source_internal_id: english-content-marketing-specialist-46b0af
 title: '[CakeResume] English Content Marketing Specialist'
 job_url: >-
   https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/english-content-marketing-specialist-46b0af
-date: 2023-12-19T06:37:27.000Z
+date: 2024-01-03T04:00:34.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'

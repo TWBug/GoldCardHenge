@@ -6,7 +6,7 @@ data_source_internal_id: english-social-media-marketing-specialist-2644f4
 title: '[CakeResume] English Social Media Marketing Specialist'
 job_url: >-
   https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/english-social-media-marketing-specialist-2644f4
-date: 2023-12-19T06:37:27.000Z
+date: 2024-01-03T04:00:34.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'
