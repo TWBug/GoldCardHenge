@@ -5,7 +5,7 @@ data_source_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs
 data_source_internal_id: b4fc1c
 title: Deputy Manager of NPI (New Product Introduction) Technical R&D
 job_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/b4fc1c'
-date: 2024-01-03T04:00:34.000Z
+date: 2024-01-09T02:59:20.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'

@@ -5,7 +5,7 @@ data_source_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs
 data_source_internal_id: '744164'
 title: '[CakeResume] Global SEO & Content Manager / SEO 全球內容行銷經理'
 job_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs/jobs/744164'
-date: 2024-01-03T04:00:34.000Z
+date: 2024-01-09T02:59:21.000Z
 company_name: Foreign Professional Talent Recruitment in Taiwan
 company_page_url: 'https://www.cakeresume.com/companies/taiwan-international-jobs'
 company_logo_url: 'https://www.cakeresume.com/_next/static/media/cakeresume.e1c03867.svg'
